@@ -61,7 +61,7 @@ async function runScenario(context: vm.Context, outcomes: string[]) {
   const sandbox = context as vm.Context & { outcomes?: string[] };
   sandbox.outcomes = outcomes;
 
-  return vm.runInContext(
+  const result = (await vm.runInContext(
     `
       (async () => {
         const products = outcomes.map((outcome, index) => ({ outcome, index }));
@@ -93,7 +93,9 @@ async function runScenario(context: vm.Context, outcomes: string[]) {
       })()
     `,
     context,
-  ) as Promise<Record<string, unknown>>;
+  )) as Record<string, unknown>;
+
+  return JSON.parse(JSON.stringify(result)) as Record<string, unknown>;
 }
 
 test("最初のアクセス確認だけなら商品をスキップして次へ進む", async () => {
