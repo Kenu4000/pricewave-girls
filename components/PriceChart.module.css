@@ -1,0 +1,39 @@
+.controls {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.periodButton {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 5px 11px;
+}
+
+.periodButton:hover,
+.periodButton:focus-visible {
+  border-color: var(--primary);
+  color: var(--primary-dark);
+}
+
+.periodButton[aria-pressed="true"] {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.78rem;
+  margin: 0 0 6px;
+  text-align: right;
+}

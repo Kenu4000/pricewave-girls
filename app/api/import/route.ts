@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { replaceAlternateConditionItems } from "@/lib/alternate-condition-items";
+import { preserveIndividualDetailPeople } from "@/lib/product-detail-people";
 import { productImportQueue } from "@/lib/product-import-queue";
 import { stageProductSnapshot } from "@/lib/product-import-sessions";
 import {
@@ -41,7 +42,8 @@ export async function POST(request: Request) {
 
     const normalizedUrl = normalizeSurugayaUrl(url);
     const parsed = parseProductHtml(html);
-    const fetched = replaceAlternateConditionItems(html, parsed);
+    const withSafeConditions = replaceAlternateConditionItems(html, parsed);
+    const fetched = preserveIndividualDetailPeople(html, withSafeConditions);
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
