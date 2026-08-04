@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JunkHistorySections } from "@/components/JunkHistorySections";
 import { PriceChart } from "@/components/PriceChart";
 import {
   extractOperatingSystems,
@@ -23,10 +24,6 @@ function formatStockStatus(status: string | null) {
     default:
       return "在庫不明";
   }
-}
-
-function formatJunkSource(sourceType: string) {
-  return sourceType === "other_shop" ? "他ショップ" : "状態違い";
 }
 
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
@@ -132,6 +129,15 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
   }));
+  const junkHistoryItems = product.junkHistories.map((history) => ({
+    id: history.id,
+    sourceType: history.sourceType,
+    storeName: history.storeName,
+    condition: history.condition,
+    price: history.price,
+    checkedAt: history.checkedAt.toISOString(),
+  }));
+  const latestSnapshotAt = histories.at(-1)?.checkedAt ?? null;
   const productDetails = parseProductDetails(product.detailsJson);
 
   return (
@@ -195,42 +201,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         )}
       </section>
 
-      <section className="card junk-history-panel">
-        <div className="history-summary">
-          <h2>ジャンク履歴</h2>
-          <span className="muted">{product.junkHistories.length.toLocaleString("ja-JP")}件</span>
-        </div>
-        {product.junkHistories.length > 0 ? (
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>確認日時</th>
-                  <th>種別</th>
-                  <th>店舗名</th>
-                  <th>状態</th>
-                  <th>価格</th>
-                </tr>
-              </thead>
-              <tbody>
-                {product.junkHistories.map((history) => (
-                  <tr key={history.id}>
-                    <td>{history.checkedAt.toLocaleString("ja-JP")}</td>
-                    <td>{formatJunkSource(history.sourceType)}</td>
-                    <td>{history.storeName ?? "—"}</td>
-                    <td>{history.condition}</td>
-                    <td>{formatPrice(history.price)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <p className="muted">
-            「その他の状態を選ぶ」または「他のショップ」の商品はまだ記録されていません。
-          </p>
-        )}
-      </section>
+      <JunkHistorySections items={junkHistoryItems} latestSnapshotAt={latestSnapshotAt} />
 
       <section className="card history-panel">
         <div className="history-summary">
