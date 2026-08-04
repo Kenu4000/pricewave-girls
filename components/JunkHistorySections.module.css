@@ -71,9 +71,16 @@
 }
 
 .sourceCell,
-.storeCell,
 .priceCell {
   white-space: nowrap;
+}
+
+.storeCell {
+  max-width: 18rem;
+  min-width: 9rem;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .conditionCell {
@@ -113,5 +120,9 @@
 
   .dateCell {
     min-width: 9.5rem;
+  }
+
+  .storeCell {
+    max-width: 13rem;
   }
 }

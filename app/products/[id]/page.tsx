@@ -124,11 +124,13 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   }
 
   const histories = product.histories.map((history) => ({
+    id: history.id,
     checkedAt: history.checkedAt.toISOString(),
     salePrice: history.salePrice,
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
   }));
+  const displayedHistories = [...histories].reverse().slice(0, 10);
   const junkHistoryItems = product.junkHistories.map((history) => ({
     id: history.id,
     sourceType: history.sourceType,
@@ -206,7 +208,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <section className="card history-panel">
         <div className="history-summary">
           <h2>価格履歴</h2>
-          <span className="muted">{histories.length.toLocaleString("ja-JP")}件</span>
+          <span className="muted">
+            {histories.length > 10
+              ? `${displayedHistories.length.toLocaleString("ja-JP")}件表示 / ${histories.length.toLocaleString("ja-JP")}件保存`
+              : `${histories.length.toLocaleString("ja-JP")}件`}
+          </span>
         </div>
         <div className="table-wrap">
           <table>
@@ -219,8 +225,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </tr>
             </thead>
             <tbody>
-              {[...histories].reverse().map((history) => (
-                <tr key={history.checkedAt}>
+              {displayedHistories.map((history) => (
+                <tr key={history.id}>
                   <td>{new Date(history.checkedAt).toLocaleString("ja-JP")}</td>
                   <td>{formatPrice(history.salePrice)}</td>
                   <td>{formatPrice(history.buyPrice)}</td>

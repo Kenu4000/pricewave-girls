@@ -2,6 +2,7 @@ import {
   upsertProductSnapshots,
   type ProductSnapshotInput,
 } from "@/lib/product-snapshots";
+import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import {
   notifyProductBatchSaved,
   notifyProductImportFinished,
@@ -75,7 +76,8 @@ function flushNextBatch(session: ImportSession, force: boolean) {
 
   const batch = takePendingItems(session, flushCount);
   const flushPromise = upsertProductSnapshots(batch, { notify: false })
-    .then((products) => {
+    .then(async (products) => {
+      await pruneProductPriceHistories(products.map((product) => product.id));
       session.savedIds.push(...products.map((product) => product.id));
       notifyProductBatchSaved(
         session.id,
