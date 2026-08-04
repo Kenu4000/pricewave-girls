@@ -77,7 +77,8 @@ async function fetchSurugayaHtmlUnlocked(url: string): Promise<string> {
     if (isCloudflareChallenge(html)) {
       throw new SurugayaBrowserError(
         "駿河屋のアクセス確認を通過できませんでした。" +
-          "SURUGAYA_BROWSER_HEADLESS=false にして再起動し、表示されたブラウザで確認を完了してください。",
+          "SURUGAYA_BROWSER_HEADLESS=false で確認しても自動完了しない場合、" +
+          "この環境では価格を取得できません。",
       );
     }
 
