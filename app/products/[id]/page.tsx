@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PriceChart } from "@/components/PriceChart";
-import { RefreshButton } from "@/components/RefreshButton";
 import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
@@ -70,13 +69,16 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const productDetails = parseProductDetails(product.detailsJson);
 
   return (
-    <section className="form">
-      <Link className="button secondary" href="/products">
-        ← 商品一覧へ
-      </Link>
-      <div className="detail-layout">
-        <aside className="card product-card">
-          <div className="product-image">
+    <section className="product-detail-page">
+      <div className="detail-toolbar">
+        <Link className="detail-back-link" href="/products">
+          ← 商品一覧へ
+        </Link>
+      </div>
+
+      <section className="card detail-overview">
+        <aside className="detail-media">
+          <div className="detail-product-image">
             {product.imageUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img alt={product.title} src={product.imageUrl} />
@@ -87,14 +89,13 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <a className="button secondary" href={product.surugayaUrl} rel="noreferrer" target="_blank">
             駿河屋ページを開く
           </a>
-          <RefreshButton productId={product.id} />
         </aside>
 
-        <article className="card form">
-          <div>
+        <article className="detail-summary">
+          <header>
             <h1>{product.title}</h1>
             <p className="muted">最終更新: {product.updatedAt.toLocaleString("ja-JP")}</p>
-          </div>
+          </header>
           <div className="price-row">
             <span className="badge">販売価格: {formatPrice(product.latestSalePrice)}</span>
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
@@ -118,23 +119,24 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </div>
           </dl>
         </article>
-      </div>
 
-      <section className="card">
+        <section className="detail-chart-panel">
+          <h2>価格推移</h2>
+          <PriceChart histories={histories} />
+        </section>
+      </section>
+
+      <section className="card detail-section">
         <h2>駿河屋の商品詳細情報</h2>
         {productDetails.length > 0 ? (
-          <div className="table-wrap">
-            <table>
-              <tbody>
-                {productDetails.map(([label, value]) => (
-                  <tr key={label}>
-                    <th>{label}</th>
-                    <td>{value}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <dl className="surugaya-detail-grid">
+            {productDetails.map(([label, value]) => (
+              <div key={label}>
+                <dt>{label}</dt>
+                <dd>{value}</dd>
+              </div>
+            ))}
+          </dl>
         ) : (
           <p className="muted">
             詳細情報は未取得です。Edgeでこの商品を開き、拡張機能からもう一度記録すると補完されます。
@@ -142,13 +144,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         )}
       </section>
 
-      <section className="card">
-        <h2>価格推移</h2>
-        <PriceChart histories={histories} />
-      </section>
-
-      <section className="card">
-        <h2>価格履歴</h2>
+      <details className="card history-panel">
+        <summary className="history-summary">
+          <span>価格履歴</span>
+          <span className="muted">{histories.length.toLocaleString("ja-JP")}件</span>
+        </summary>
         <div className="table-wrap">
           <table>
             <thead>
@@ -171,7 +171,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </tbody>
           </table>
         </div>
-      </section>
+      </details>
     </section>
   );
 }

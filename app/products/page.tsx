@@ -283,6 +283,18 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     stockStatus: product.stockStatus,
     hasHistory: product.histories.length > 0,
   }));
+  const advancedFiltersActive = [
+    filters.manufacturer,
+    filters.category,
+    filters.details,
+    filters.releaseFrom,
+    filters.releaseTo,
+    filters.saleMin,
+    filters.saleMax,
+    filters.buyMin,
+    filters.buyMax,
+    filters.stock,
+  ].some(Boolean);
   const streamEnabled = currentPage === 1 && !filtersActive && sort === "updated-desc";
 
   return (
@@ -309,8 +321,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
       </div>
 
       <form action="/products" className="card filter-panel">
-        <div className="filter-grid">
-          <label className="filter-field filter-field-wide">
+        <div className="primary-search-grid">
+          <label className="filter-field primary-name-search">
             <span>商品名</span>
             <input
               className="input"
@@ -319,116 +331,6 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               placeholder="商品名の一部を入力"
               type="search"
             />
-          </label>
-          <label className="filter-field">
-            <span>メーカー</span>
-            <select className="select" defaultValue={filters.manufacturer} name="manufacturer">
-              <option value="">すべて</option>
-              {manufacturers.map((manufacturer) => (
-                <option key={manufacturer} value={manufacturer}>
-                  {manufacturer}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter-field">
-            <span>カテゴリ</span>
-            <select className="select" defaultValue={filters.category} name="category">
-              <option value="">すべて</option>
-              {categories.map((category) => (
-                <option key={category} value={category}>
-                  {category}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label className="filter-field filter-field-wide">
-            <span>型番・管理番号・その他詳細</span>
-            <input
-              className="input"
-              defaultValue={filters.details}
-              name="details"
-              placeholder="例: 原画、シナリオ、型番"
-              type="search"
-            />
-          </label>
-          <fieldset className="filter-field filter-field-wide">
-            <legend>発売日</legend>
-            <div className="range-fields">
-              <input
-                aria-label="発売日の開始日"
-                className="input"
-                defaultValue={filters.releaseFrom}
-                name="releaseFrom"
-                type="date"
-              />
-              <span>〜</span>
-              <input
-                aria-label="発売日の終了日"
-                className="input"
-                defaultValue={filters.releaseTo}
-                name="releaseTo"
-                type="date"
-              />
-            </div>
-          </fieldset>
-          <fieldset className="filter-field filter-field-wide">
-            <legend>販売価格</legend>
-            <div className="range-fields">
-              <input
-                aria-label="販売価格の下限"
-                className="input"
-                defaultValue={filters.saleMin}
-                min="0"
-                name="saleMin"
-                placeholder="下限"
-                type="number"
-              />
-              <span>〜</span>
-              <input
-                aria-label="販売価格の上限"
-                className="input"
-                defaultValue={filters.saleMax}
-                min="0"
-                name="saleMax"
-                placeholder="上限"
-                type="number"
-              />
-            </div>
-          </fieldset>
-          <fieldset className="filter-field filter-field-wide">
-            <legend>買取価格</legend>
-            <div className="range-fields">
-              <input
-                aria-label="買取価格の下限"
-                className="input"
-                defaultValue={filters.buyMin}
-                min="0"
-                name="buyMin"
-                placeholder="下限"
-                type="number"
-              />
-              <span>〜</span>
-              <input
-                aria-label="買取価格の上限"
-                className="input"
-                defaultValue={filters.buyMax}
-                min="0"
-                name="buyMax"
-                placeholder="上限"
-                type="number"
-              />
-            </div>
-          </fieldset>
-          <label className="filter-field">
-            <span>在庫状態</span>
-            <select className="select" defaultValue={filters.stock} name="stock">
-              {STOCK_OPTIONS.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
           </label>
           <label className="filter-field">
             <span>並び順</span>
@@ -450,13 +352,130 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               ))}
             </select>
           </label>
-        </div>
-        <div className="filter-actions">
-          <Link className="button secondary" href="/products">
-            条件をクリア
+          <button className="primary-search-button" type="submit">検索</button>
+          <Link className="button secondary primary-clear-button" href="/products">
+            クリア
           </Link>
-          <button type="submit">この条件で絞り込む</button>
         </div>
+
+        <details className="advanced-search" open={advancedFiltersActive}>
+          <summary>
+            <span>詳細検索</span>
+            {advancedFiltersActive ? <span className="active-filter-label">条件設定中</span> : null}
+          </summary>
+          <div className="filter-grid advanced-filter-grid">
+            <label className="filter-field">
+              <span>メーカー</span>
+              <select className="select" defaultValue={filters.manufacturer} name="manufacturer">
+                <option value="">すべて</option>
+                {manufacturers.map((manufacturer) => (
+                  <option key={manufacturer} value={manufacturer}>
+                    {manufacturer}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>カテゴリ</span>
+              <select className="select" defaultValue={filters.category} name="category">
+                <option value="">すべて</option>
+                {categories.map((category) => (
+                  <option key={category} value={category}>
+                    {category}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="filter-field filter-field-wide">
+              <span>型番・管理番号・その他詳細</span>
+              <input
+                className="input"
+                defaultValue={filters.details}
+                name="details"
+                placeholder="例: 原画、シナリオ、型番"
+                type="search"
+              />
+            </label>
+            <fieldset className="filter-field filter-field-wide">
+              <legend>発売日</legend>
+              <div className="range-fields">
+                <input
+                  aria-label="発売日の開始日"
+                  className="input"
+                  defaultValue={filters.releaseFrom}
+                  name="releaseFrom"
+                  type="date"
+                />
+                <span>〜</span>
+                <input
+                  aria-label="発売日の終了日"
+                  className="input"
+                  defaultValue={filters.releaseTo}
+                  name="releaseTo"
+                  type="date"
+                />
+              </div>
+            </fieldset>
+            <fieldset className="filter-field filter-field-wide">
+              <legend>販売価格</legend>
+              <div className="range-fields">
+                <input
+                  aria-label="販売価格の下限"
+                  className="input"
+                  defaultValue={filters.saleMin}
+                  min="0"
+                  name="saleMin"
+                  placeholder="下限"
+                  type="number"
+                />
+                <span>〜</span>
+                <input
+                  aria-label="販売価格の上限"
+                  className="input"
+                  defaultValue={filters.saleMax}
+                  min="0"
+                  name="saleMax"
+                  placeholder="上限"
+                  type="number"
+                />
+              </div>
+            </fieldset>
+            <fieldset className="filter-field filter-field-wide">
+              <legend>買取価格</legend>
+              <div className="range-fields">
+                <input
+                  aria-label="買取価格の下限"
+                  className="input"
+                  defaultValue={filters.buyMin}
+                  min="0"
+                  name="buyMin"
+                  placeholder="下限"
+                  type="number"
+                />
+                <span>〜</span>
+                <input
+                  aria-label="買取価格の上限"
+                  className="input"
+                  defaultValue={filters.buyMax}
+                  min="0"
+                  name="buyMax"
+                  placeholder="上限"
+                  type="number"
+                />
+              </div>
+            </fieldset>
+            <label className="filter-field">
+              <span>在庫状態</span>
+              <select className="select" defaultValue={filters.stock} name="stock">
+                {STOCK_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+        </details>
       </form>
 
       <ProductGrid
