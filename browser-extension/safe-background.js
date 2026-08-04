@@ -7,6 +7,13 @@ const originalTabsCreate = chrome.tabs.create.bind(chrome.tabs);
 const originalTabsRemove = chrome.tabs.remove.bind(chrome.tabs);
 const originalExecuteScript = chrome.scripting.executeScript.bind(chrome.scripting);
 
+const POPULAR_SEARCH_TARGETS = [
+  { category: "600", pages: 10 },
+  { category: "652042222", pages: 15 },
+];
+const POPULAR_PAGE_SETTLE_MS = 2_500;
+const POPULAR_PAGE_TIMEOUT_MS = 60_000;
+
 let taskMode = "idle";
 let productStartIntervalMs = policy.MIN_PRODUCT_START_INTERVAL_MS;
 let activeManagedTabId = null;
@@ -35,6 +42,18 @@ function isSurugayaUrl(rawUrl) {
   } catch {
     return false;
   }
+}
+
+function localDateKey(date = new Date()) {
+  return [
+    date.getFullYear(),
+    String(date.getMonth() + 1).padStart(2, "0"),
+    String(date.getDate()).padStart(2, "0"),
+  ].join("-");
+}
+
+function sleep(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }
 
 function managedTabIds(tabIds) {
@@ -85,6 +104,136 @@ function releaseManagedTab(tabId) {
   if (tabId !== activeManagedTabId) return;
   activeManagedTabId = null;
   schedulePump();
+}
+
+function waitForManagedTabComplete(tabId) {
+  return new Promise((resolve, reject) => {
+    let settled = false;
+    const timeout = setTimeout(
+      () => finish(new Error("人気順ページの読込がタイムアウトしました。")),
+      POPULAR_PAGE_TIMEOUT_MS,
+    );
+
+    function cleanup() {
+      clearTimeout(timeout);
+      chrome.tabs.onUpdated.removeListener(onUpdated);
+      chrome.tabs.onRemoved.removeListener(onRemoved);
+    }
+
+    function finish(error) {
+      if (settled) return;
+      settled = true;
+      cleanup();
+      if (error) reject(error);
+      else resolve();
+    }
+
+    function onUpdated(updatedTabId, changeInfo) {
+      if (updatedTabId === tabId && changeInfo.status === "complete") finish();
+    }
+
+    function onRemoved(removedTabId) {
+      if (removedTabId === tabId) finish(new Error("人気順ページのタブが閉じられました。"));
+    }
+
+    chrome.tabs.onUpdated.addListener(onUpdated);
+    chrome.tabs.onRemoved.addListener(onRemoved);
+    chrome.tabs.get(tabId).then((tab) => {
+      if (tab.status === "complete") finish();
+    }).catch((error) => finish(error));
+  });
+}
+
+async function readPopularProductUrls(pageUrl) {
+  const tab = await chrome.tabs.create({ url: pageUrl, active: false });
+  if (!tab?.id) throw new Error("人気順ページを開けませんでした。");
+
+  try {
+    await waitForManagedTabComplete(tab.id);
+    await sleep(POPULAR_PAGE_SETTLE_MS);
+    const [injection] = await chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: () => {
+        const isAccessChallenge =
+          /^(Just a moment|Attention Required)/i.test(document.title.trim()) ||
+          Boolean(
+            document.querySelector(
+              "#challenge-running, #cf-challenge-running, form#challenge-form",
+            ),
+          );
+        const productUrls = [...document.querySelectorAll("a[href]")]
+          .map((anchor) => {
+            try {
+              const url = new URL(anchor.getAttribute("href"), window.location.href);
+              const match = url.pathname.match(/^\/product\/detail\/([0-9]+)\/?$/);
+              return match
+                ? `https://www.suruga-ya.jp/product/detail/${match[1]}`
+                : null;
+            } catch {
+              return null;
+            }
+          })
+          .filter(Boolean);
+
+        return {
+          title: document.title,
+          bodyText: document.body?.innerText || "",
+          isAccessChallenge,
+          productUrls: [...new Set(productUrls)],
+        };
+      },
+    });
+    const page = injection?.result;
+    if (!page || page.isAccessChallenge) {
+      throw new Error("人気順ページでアクセス確認を検出しました。");
+    }
+    return Array.isArray(page.productUrls) ? page.productUrls : [];
+  } finally {
+    await chrome.tabs.remove(tab.id).catch(() => {});
+  }
+}
+
+async function popularDailyProductUrls() {
+  const today = localDateKey();
+  const stored = await originalStorageGet([
+    "popularDailyProductDate",
+    "popularDailyProductUrls",
+  ]);
+  const cachedUrls = Array.isArray(stored.popularDailyProductUrls)
+    ? stored.popularDailyProductUrls
+    : [];
+
+  if (stored.popularDailyProductDate === today) return cachedUrls;
+
+  const urls = new Set();
+  try {
+    for (const target of POPULAR_SEARCH_TARGETS) {
+      for (let page = 1; page <= target.pages; page += 1) {
+        const url = new URL("https://www.suruga-ya.jp/search");
+        url.searchParams.set("category", target.category);
+        url.searchParams.set("search_word", "");
+        url.searchParams.set("page", String(page));
+        for (const productUrl of await readPopularProductUrls(url.toString())) {
+          urls.add(productUrl);
+        }
+      }
+    }
+
+    const result = [...urls];
+    await chrome.storage.local.set({
+      popularDailyProductDate: today,
+      popularDailyProductUrls: result,
+      popularDailyProductScannedAt: Date.now(),
+      popularDailyProductScanError: null,
+    });
+    return result;
+  } catch (error) {
+    await chrome.storage.local.set({
+      popularDailyProductScanError:
+        error instanceof Error ? error.message : "人気順ページの取得に失敗しました。",
+    });
+    return cachedUrls;
+  }
 }
 
 chrome.storage.local.get = async (...args) => {
@@ -163,7 +312,12 @@ globalThis.fetch = async (input, init) => {
     if (scheduledProductRun && response.ok) {
       const body = await response.clone().json().catch(() => null);
       if (Array.isArray(body?.products)) {
-        const plan = policy.selectScheduledProducts(body.products, new Date());
+        const popularUrls = await popularDailyProductUrls();
+        const plan = policy.selectScheduledProducts(
+          body.products,
+          new Date(),
+          popularUrls,
+        );
         const productCount = plan.products.length;
         productStartIntervalMs = policy.calculateProductStartInterval(productCount);
         await chrome.storage.local.set({
@@ -173,9 +327,11 @@ globalThis.fetch = async (input, init) => {
           safeCrawlPlan: {
             rotationBucket: plan.bucket,
             dailyCount: plan.dailyCount,
+            exactPopularCount: plan.exactDailyCount,
             rotationCount: plan.rotationCount,
             selectedCount: productCount,
             totalRegistered: plan.totalRegistered,
+            popularSnapshotCount: popularUrls.length,
             plannedAt: Date.now(),
           },
         });
@@ -185,9 +341,11 @@ globalThis.fetch = async (input, init) => {
           crawlPlan: {
             rotationBucket: plan.bucket,
             dailyCount: plan.dailyCount,
+            exactPopularCount: plan.exactDailyCount,
             rotationCount: plan.rotationCount,
             selectedCount: productCount,
             totalRegistered: plan.totalRegistered,
+            popularSnapshotCount: popularUrls.length,
           },
         });
       }
