@@ -228,7 +228,6 @@ export function extractOtherShopItems(html: string): FetchedJunkItem[] {
     });
   });
 
-  // Some versions of the marketplace page use card/list markup instead of a table.
   $(
     "[data-shop-name], .other-shop-item, .other_shop_item, .marketplace-item, .marketplace_item",
   ).each((_, element) => {
@@ -356,7 +355,7 @@ function extractEmbeddedOtherShopsHtml($: cheerio.CheerioAPI): string {
 
 function extractStoreNameFromRow(
   $: cheerio.CheerioAPI,
-  rowElement: cheerio.Cheerio<unknown>,
+  rowElement: cheerio.Cheerio<any>,
   cells: string[],
   conditionIndex: number,
   priceIndex: number,
@@ -386,7 +385,7 @@ function extractStoreNameFromRow(
 
 function extractSellerLinkText(
   $: cheerio.CheerioAPI,
-  element: cheerio.Cheerio<unknown>,
+  element: cheerio.Cheerio<any>,
 ): string | null {
   const links = element
     .find("a")
@@ -422,10 +421,7 @@ function isStoreNameCandidate(value: string): boolean {
   );
 }
 
-function firstText(
-  element: cheerio.Cheerio<unknown>,
-  selectors: string[],
-): string | null {
+function firstText(element: cheerio.Cheerio<any>, selectors: string[]): string | null {
   for (const selector of selectors) {
     const text = normalizeText(element.find(selector).first().text());
     if (text) return text;
