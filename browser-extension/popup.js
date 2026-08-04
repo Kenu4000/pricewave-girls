@@ -1,6 +1,11 @@
 const importButton = document.querySelector("#import-button");
 const status = document.querySelector("#status");
 const productLink = document.querySelector("#product-link");
+const autoEnabled = document.querySelector("#auto-enabled");
+const autoTime = document.querySelector("#auto-time");
+const saveAutoButton = document.querySelector("#save-auto-button");
+const runAllButton = document.querySelector("#run-all-button");
+const autoStatus = document.querySelector("#auto-status");
 
 function showStatus(message, kind) {
   status.textContent = message;
@@ -71,3 +76,83 @@ async function importCurrentPage() {
 }
 
 importButton.addEventListener("click", importCurrentPage);
+
+function formatDateTime(timestamp) {
+  return timestamp ? new Date(timestamp).toLocaleString("ja-JP") : "未定";
+}
+
+function renderAutoStatus(response) {
+  if (!response?.ok) {
+    autoStatus.textContent = response?.error || "自動更新の状態を取得できません。";
+    autoStatus.dataset.kind = "error";
+    return;
+  }
+
+  const current = response.status?.current || 0;
+  const total = response.status?.total || 0;
+  const progress = response.status?.state === "running" ? ` (${current}/${total})` : "";
+  const next = response.settings?.autoUpdateEnabled
+    ? ` 次回: ${formatDateTime(response.nextRunAt)}`
+    : "";
+  autoStatus.textContent = `${response.status?.message || "待機中"}${progress}${next}`;
+  autoStatus.dataset.kind = ["error", "blocked"].includes(response.status?.state)
+    ? "error"
+    : response.status?.state === "completed"
+      ? "success"
+      : "";
+}
+
+async function loadAutoSettings() {
+  const response = await chrome.runtime.sendMessage({ type: "auto:get" });
+  if (response?.settings) {
+    autoEnabled.checked = response.settings.autoUpdateEnabled;
+    autoTime.value = response.settings.autoUpdateTime;
+  }
+  renderAutoStatus(response);
+}
+
+async function saveAutoSettings() {
+  saveAutoButton.disabled = true;
+  try {
+    const response = await chrome.runtime.sendMessage({
+      type: "auto:save",
+      enabled: autoEnabled.checked,
+      time: autoTime.value,
+    });
+    if (!response?.ok) {
+      throw new Error(response?.error || "設定を保存できませんでした。");
+    }
+    await loadAutoSettings();
+  } catch (error) {
+    autoStatus.textContent = error instanceof Error ? error.message : "設定を保存できませんでした。";
+    autoStatus.dataset.kind = "error";
+  } finally {
+    saveAutoButton.disabled = false;
+  }
+}
+
+async function runAllProducts() {
+  runAllButton.disabled = true;
+  try {
+    const response = await chrome.runtime.sendMessage({ type: "auto:run-now" });
+    if (!response?.ok) {
+      throw new Error("自動更新は既に実行中です。");
+    }
+    await loadAutoSettings();
+  } catch (error) {
+    autoStatus.textContent = error instanceof Error ? error.message : "自動更新を開始できませんでした。";
+    autoStatus.dataset.kind = "error";
+  } finally {
+    runAllButton.disabled = false;
+  }
+}
+
+saveAutoButton.addEventListener("click", saveAutoSettings);
+runAllButton.addEventListener("click", runAllProducts);
+void loadAutoSettings();
+
+const statusTimer = setInterval(() => {
+  void loadAutoSettings();
+}, 1_000);
+
+window.addEventListener("unload", () => clearInterval(statusTimer));

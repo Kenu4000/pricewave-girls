@@ -13,6 +13,24 @@
       <button id="import-button" type="button">この商品を記録</button>
       <p id="status" role="status"></p>
       <a id="product-link" hidden target="_blank">記録した商品を開く</a>
+
+      <hr>
+
+      <section aria-labelledby="auto-update-heading">
+        <h2 id="auto-update-heading">毎日の自動更新</h2>
+        <label class="toggle-row">
+          <input id="auto-enabled" type="checkbox">
+          <span>自動更新を有効にする</span>
+        </label>
+        <label class="field-row">
+          <span>実行時刻</span>
+          <input id="auto-time" type="time" value="09:00">
+        </label>
+        <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
+        <button id="run-all-button" class="secondary" type="button">今すぐ全商品を更新</button>
+        <p id="auto-status" role="status"></p>
+        <p class="note">Edgeとローカルアプリの起動中だけ実行されます。商品は15秒以上の間隔で1件ずつ開きます。</p>
+      </section>
     </main>
     <script src="popup.js"></script>
   </body>

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { prisma } from "@/lib/prisma";
 import { upsertProductSnapshot } from "@/lib/product-snapshots";
 import {
   fetchProduct,
@@ -7,6 +8,25 @@ import {
 } from "@/lib/surugaya";
 
 export const runtime = "nodejs";
+
+export async function GET() {
+  const products = await prisma.product.findMany({
+    orderBy: { id: "asc" },
+    select: {
+      id: true,
+      title: true,
+      surugayaUrl: true,
+    },
+  });
+
+  return NextResponse.json({
+    products: products.map((product) => ({
+      id: product.id,
+      title: product.title,
+      url: product.surugayaUrl,
+    })),
+  });
+}
 
 export async function POST(request: Request) {
   try {

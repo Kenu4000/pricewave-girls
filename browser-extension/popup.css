@@ -40,11 +40,52 @@ button:disabled {
   opacity: 0.6;
 }
 
-#status[data-kind="error"] {
+button.secondary {
+  background: white;
+  border: 1px solid #efd7e7;
+  color: #a82070;
+  margin-top: 8px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #efd7e7;
+  margin: 18px 0;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.toggle-row,
+.field-row {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  gap: 8px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.field-row input {
+  border: 1px solid #efd7e7;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+.note {
+  color: #7b6d7e;
+  font-size: 11px;
+}
+
+#status[data-kind="error"],
+#auto-status[data-kind="error"] {
   color: #b42318;
 }
 
-#status[data-kind="success"] {
+#status[data-kind="success"],
+#auto-status[data-kind="success"] {
   color: #087f5b;
 }
 
