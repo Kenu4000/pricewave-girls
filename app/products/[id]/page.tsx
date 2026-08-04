@@ -21,6 +21,29 @@ function formatStockStatus(status: string | null) {
   }
 }
 
+function formatReleaseDate(date: string | null) {
+  return date ? date.replace(/-/g, "/") : "未取得";
+}
+
+function parseProductDetails(rawDetails: string | null): Array<[string, string]> {
+  if (!rawDetails) {
+    return [];
+  }
+
+  try {
+    const parsed = JSON.parse(rawDetails) as unknown;
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+      return [];
+    }
+
+    return Object.entries(parsed).filter(
+      (entry): entry is [string, string] => typeof entry[1] === "string" && entry[1].length > 0,
+    );
+  } catch {
+    return [];
+  }
+}
+
 export default async function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const productId = Number(id);
@@ -44,6 +67,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
   }));
+  const productDetails = parseProductDetails(product.detailsJson);
 
   return (
     <section className="form">
@@ -76,8 +100,47 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
             <span className="badge">{formatStockStatus(product.stockStatus)}</span>
           </div>
+          <dl className="detail-facts">
+            <div>
+              <dt>メーカー</dt><dd>{product.manufacturer ?? "未取得"}</dd>
+            </div>
+            <div>
+              <dt>発売日</dt><dd>{formatReleaseDate(product.releaseDate)}</dd>
+            </div>
+            <div>
+              <dt>定価</dt><dd>{formatPrice(product.listPrice)}</dd>
+            </div>
+            <div>
+              <dt>型番</dt><dd>{product.modelNumber ?? "未取得"}</dd>
+            </div>
+            <div>
+              <dt>管理番号</dt><dd>{product.managementNumber ?? "未取得"}</dd>
+            </div>
+          </dl>
         </article>
       </div>
+
+      <section className="card">
+        <h2>駿河屋の商品詳細情報</h2>
+        {productDetails.length > 0 ? (
+          <div className="table-wrap">
+            <table>
+              <tbody>
+                {productDetails.map(([label, value]) => (
+                  <tr key={label}>
+                    <th>{label}</th>
+                    <td>{value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="muted">
+            詳細情報は未取得です。Edgeでこの商品を開き、拡張機能からもう一度記録すると補完されます。
+          </p>
+        )}
+      </section>
 
       <section className="card">
         <h2>価格推移</h2>

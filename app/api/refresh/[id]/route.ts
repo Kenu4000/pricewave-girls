@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { upsertProductSnapshot } from "@/lib/product-snapshots";
 import { fetchProduct } from "@/lib/surugaya";
 
 export const runtime = "nodejs";
@@ -20,23 +21,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
 
   try {
     const fetched = await fetchProduct(product.surugayaUrl);
-    await prisma.product.update({
-      where: { id: productId },
-      data: {
-        title: fetched.title,
-        imageUrl: fetched.imageUrl,
-        latestSalePrice: fetched.salePrice,
-        latestBuyPrice: fetched.buyPrice,
-        stockStatus: fetched.stockStatus,
-        histories: {
-          create: {
-            salePrice: fetched.salePrice,
-            buyPrice: fetched.buyPrice,
-            stockStatus: fetched.stockStatus,
-          },
-        },
-      },
-    });
+    await upsertProductSnapshot(product.surugayaUrl, fetched);
 
     return NextResponse.json({ ok: true });
   } catch (caught) {

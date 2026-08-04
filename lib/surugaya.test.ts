@@ -24,6 +24,13 @@ test("販売価格・買取価格・画像・在庫を取得する", () => {
   assert.deepEqual(product, {
     title: "Windows10/11 DVDソフト ONE. [通常版]",
     imageUrl: "https://cdn.suruga-ya.jp/database/pics/example.jpg",
+    managementNumber: null,
+    manufacturer: null,
+    releaseDate: null,
+    listPrice: null,
+    modelNumber: null,
+    category: null,
+    details: {},
     salePrice: 3680,
     buyPrice: 1100,
     stockStatus: "in_stock",
@@ -94,4 +101,35 @@ test("Cloudflareのアクセス確認ページを商品として扱わない", (
       `),
     /アクセス確認中のページは取り込めません/,
   );
+});
+
+test("駿河屋の商品詳細情報を取得する", () => {
+  const product = parseProductHtml(`
+    <html><body>
+      <h1>Windows10/11 DVDソフト ONE. [通常版]</h1>
+      <h3>商品詳細情報</h3>
+      <table>
+        <tr>
+          <th>管理番号</th><td>中古 ：145078305001</td>
+          <th>メーカー</th><td>novamicus</td>
+          <th>発売日</th><td>2023/12/22</td>
+        </tr>
+        <tr>
+          <th>定価</th><td>8,250円</td>
+          <th>型番</th><td>NVM001</td>
+          <th>原画</th><td>樋上いたる</td>
+        </tr>
+        <tr><th>シナリオ</th><td>Tactics</td></tr>
+      </table>
+      <h3>備考</h3>
+    </body></html>
+  `);
+
+  assert.equal(product.managementNumber, "145078305001");
+  assert.equal(product.manufacturer, "novamicus");
+  assert.equal(product.releaseDate, "2023-12-22");
+  assert.equal(product.listPrice, 8250);
+  assert.equal(product.modelNumber, "NVM001");
+  assert.equal(product.details["原画"], "樋上いたる");
+  assert.equal(product.details["シナリオ"], "Tactics");
 });

@@ -8,16 +8,30 @@ datasource db {
 }
 
 model Product {
-  id              Int            @id @default(autoincrement())
-  title           String
-  surugayaUrl     String         @unique
-  imageUrl        String?
-  latestSalePrice Int?
-  latestBuyPrice  Int?
-  stockStatus     String?
-  createdAt       DateTime       @default(now())
-  updatedAt       DateTime       @updatedAt
-  histories       PriceHistory[]
+  id               Int            @id @default(autoincrement())
+  title            String
+  surugayaUrl      String         @unique
+  imageUrl         String?
+  managementNumber String?
+  manufacturer     String?
+  releaseDate      String?
+  listPrice        Int?
+  modelNumber      String?
+  category         String?
+  detailsJson      String?
+  latestSalePrice  Int?
+  latestBuyPrice   Int?
+  stockStatus      String?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  histories        PriceHistory[]
+
+  @@index([updatedAt])
+  @@index([title])
+  @@index([latestSalePrice])
+  @@index([latestBuyPrice])
+  @@index([releaseDate])
+  @@index([manufacturer])
 }
 
 model PriceHistory {

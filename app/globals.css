@@ -96,6 +96,41 @@ button:disabled {
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
 }
 
+.product-list-page {
+  display: grid;
+  gap: 20px;
+}
+
+.list-heading {
+  align-items: end;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.list-controls {
+  align-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.list-controls label {
+  display: grid;
+  font-size: 0.85rem;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.select {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--foreground);
+  font-size: 0.95rem;
+  padding: 10px 34px 10px 12px;
+}
+
 .product-card {
   display: flex;
   flex-direction: column;
@@ -123,6 +158,33 @@ button:disabled {
   font-size: 1.05rem;
   font-weight: 800;
   line-height: 1.45;
+}
+
+.product-facts,
+.detail-facts {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+}
+
+.product-facts div,
+.detail-facts div {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 5.5rem minmax(0, 1fr);
+}
+
+.product-facts dt,
+.detail-facts dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.product-facts dd,
+.detail-facts dd {
+  font-size: 0.9rem;
+  margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .price-row,
@@ -203,6 +265,35 @@ code {
   overflow-x: auto;
 }
 
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.page-link {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--primary-dark);
+  font-weight: 700;
+  min-width: 42px;
+  padding: 9px 12px;
+  text-align: center;
+}
+
+.page-link.current {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.page-link.disabled {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -223,6 +314,12 @@ td {
 
   .header {
     align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .list-heading,
+  .list-controls {
+    align-items: stretch;
     flex-direction: column;
   }
 }
