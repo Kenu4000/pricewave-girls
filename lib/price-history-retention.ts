@@ -8,6 +8,7 @@ export type PriceHistorySnapshot = {
 };
 
 export const PRICE_HISTORY_RECENT_LIMIT = 10;
+const DELETE_CHUNK_SIZE = 500;
 
 function sameSnapshot(left: PriceHistorySnapshot, right: PriceHistorySnapshot): boolean {
   return (
@@ -73,8 +74,13 @@ export async function pruneProductPriceHistories(productIds: number[]): Promise<
   const ids = [...historiesByProduct.values()].flatMap((productHistories) =>
     priceHistoryIdsToDelete(productHistories),
   );
-  if (ids.length === 0) return 0;
+  let deletedCount = 0;
 
-  const result = await prisma.priceHistory.deleteMany({ where: { id: { in: ids } } });
-  return result.count;
+  for (let start = 0; start < ids.length; start += DELETE_CHUNK_SIZE) {
+    const chunk = ids.slice(start, start + DELETE_CHUNK_SIZE);
+    const result = await prisma.priceHistory.deleteMany({ where: { id: { in: chunk } } });
+    deletedCount += result.count;
+  }
+
+  return deletedCount;
 }
