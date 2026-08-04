@@ -1,6 +1,7 @@
 (function exposePricewaveCrawlPolicy(globalObject) {
   const DAY_MS = 24 * 60 * 60 * 1_000;
   const ROTATION_DAYS = 3;
+  const POPULAR_SNAPSHOT_REFRESH_DAYS = 3;
   const MIN_PRODUCT_START_INTERVAL_MS = 8_000;
   const MAX_PRODUCT_START_INTERVAL_MS = 25_000;
   const SERVER_RETRY_DELAYS_MS = [
@@ -21,6 +22,34 @@
   function localDayNumber(value = Date.now()) {
     const date = value instanceof Date ? value : new Date(value);
     return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / DAY_MS);
+  }
+
+  function dateKeyDayNumber(dateKey) {
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/u.exec(String(dateKey || ""));
+    if (!match) return null;
+
+    const year = Number(match[1]);
+    const month = Number(match[2]);
+    const day = Number(match[3]);
+    const timestamp = Date.UTC(year, month - 1, day);
+    const date = new Date(timestamp);
+    if (
+      date.getUTCFullYear() !== year ||
+      date.getUTCMonth() !== month - 1 ||
+      date.getUTCDate() !== day
+    ) {
+      return null;
+    }
+
+    return Math.floor(timestamp / DAY_MS);
+  }
+
+  function shouldRefreshPopularSnapshot(lastAttemptDateKey, value = Date.now()) {
+    const lastAttemptDay = dateKeyDayNumber(lastAttemptDateKey);
+    if (lastAttemptDay === null) return true;
+
+    const elapsedDays = localDayNumber(value) - lastAttemptDay;
+    return elapsedDays < 0 || elapsedDays >= POPULAR_SNAPSHOT_REFRESH_DAYS;
   }
 
   function rotationBucket(value = Date.now()) {
@@ -120,10 +149,13 @@
   const policy = {
     DAY_MS,
     ROTATION_DAYS,
+    POPULAR_SNAPSHOT_REFRESH_DAYS,
     MIN_PRODUCT_START_INTERVAL_MS,
     MAX_PRODUCT_START_INTERVAL_MS,
     calculateProductStartInterval,
     localDayNumber,
+    dateKeyDayNumber,
+    shouldRefreshPopularSnapshot,
     rotationBucket,
     productRotationBucket,
     normalizeProductUrl,
