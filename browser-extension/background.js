@@ -1,7 +1,8 @@
 const AUTO_UPDATE_ALARM = "surugaya-daily-update";
 const AUTO_UPDATE_RETRY_ALARM = "surugaya-daily-update-retry";
 const LOCAL_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"];
-const UPDATE_INTERVAL_MS = 15_000;
+const AUTOMATIC_UPDATE_INTERVAL_MS = 15_000;
+const MANUAL_UPDATE_INTERVAL_MS = 1_000;
 const PAGE_LOAD_TIMEOUT_MS = 60_000;
 const DEFAULT_SETTINGS = {
   autoUpdateEnabled: false,
@@ -275,7 +276,9 @@ async function runAllProducts(trigger) {
 
       await setStatus({ succeeded, failed });
       if (index + 1 < products.length) {
-        await sleep(UPDATE_INTERVAL_MS);
+        await sleep(
+          trigger === "manual" ? MANUAL_UPDATE_INTERVAL_MS : AUTOMATIC_UPDATE_INTERVAL_MS,
+        );
       }
     }
 
