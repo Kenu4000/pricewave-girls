@@ -29,6 +29,18 @@ test("送料無料条件の1,500円を最後の状態価格として取得しな
   ]);
 });
 
+test("送料無料条件の表記違いも状態価格から除外する", () => {
+  const items = extractAlternateConditionItemsSafely(`
+    <html><body>
+      <h2>その他の状態を選ぶ</h2>
+      <div>中古 ケース不備 2,400円（税込）</div>
+      <p>1500円以上お買上げで送料無料</p>
+    </body></html>
+  `);
+
+  assert.equal(items[0]?.price, 2400);
+});
+
 test("タイムセールは税込表記までにある最後の価格を採用する", () => {
   const items = extractAlternateConditionItemsSafely(`
     <html><body>
