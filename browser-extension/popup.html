@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>駿河屋価格トラッキング 取込</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>駿河屋価格トラッキング</h1>
+      <p>表示中の駿河屋商品を、価格履歴へ記録します。</p>
+      <button id="import-button" type="button">この商品を記録</button>
+      <p id="status" role="status"></p>
+      <a id="product-link" hidden target="_blank">記録した商品を開く</a>
+
+      <hr>
+
+      <section aria-labelledby="auto-update-heading">
+        <h2 id="auto-update-heading">毎日の自動更新</h2>
+        <label class="toggle-row">
+          <input id="auto-enabled" type="checkbox">
+          <span>自動更新を有効にする</span>
+        </label>
+        <label class="field-row">
+          <span>実行時刻</span>
+          <input id="auto-time" type="time" value="09:00">
+        </label>
+        <label class="field-row">
+          <span>同時に開く商品タブ</span>
+          <input id="parallel-tabs" type="number" value="10" min="1" max="100" step="1">
+        </label>
+        <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
+        <button id="run-all-button" class="secondary" type="button">今すぐ全商品を更新</button>
+        <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
+        <p id="auto-status" role="status"></p>
+        <p class="note">Edgeとローカルアプリの起動中だけ実行されます。同時タブ数は自動更新と自動追加の両方に適用されます。</p>
+      </section>
+
+      <hr>
+
+      <section aria-labelledby="auto-add-heading">
+        <h2 id="auto-add-heading">商品を自動追加</h2>
+        <label class="stacked-field">
+          <span>駿河屋の検索結果URL</span>
+          <input id="auto-add-url" type="url" value="https://www.suruga-ya.jp/search?category=65204&amp;genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&amp;search_word=">
+        </label>
+        <label class="field-row">
+          <span>未登録の追加件数</span>
+          <input id="auto-add-limit" type="number" value="1000" min="1" max="1000" step="1">
+        </label>
+        <button id="auto-add-button" class="secondary" type="button">未登録商品を自動追加</button>
+        <p class="note">検索結果を順番にたどり、既に登録されている商品を除外します。最大1,000件です。</p>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
