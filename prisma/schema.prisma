@@ -55,14 +55,18 @@ model PriceChange {
 }
 
 model JunkHistory {
-  id        Int      @id @default(autoincrement())
-  productId Int
-  condition String
-  price     Int
-  checkedAt DateTime @default(now())
-  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  id         Int      @id @default(autoincrement())
+  productId  Int
+  sourceType String   @default("alternate_condition")
+  storeName  String?
+  condition  String
+  price      Int
+  checkedAt  DateTime @default(now())
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
   @@index([productId, checkedAt])
+  @@index([productId, sourceType, checkedAt])
+  @@index([storeName])
 }
 
 model PriceHistory {

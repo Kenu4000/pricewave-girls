@@ -25,6 +25,10 @@ function formatStockStatus(status: string | null) {
   }
 }
 
+function formatJunkSource(sourceType: string) {
+  return sourceType === "other_shop" ? "他ショップ" : "状態違い";
+}
+
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
   if (!rawDetails) {
     return [];
@@ -99,9 +103,7 @@ function DetailValueLinks({ label, value }: { label: string; value: string }) {
     if (year) return <Link href={productListUrl({ releaseYear: year })}>{value}</Link>;
   }
 
-  return (
-    <Link href={productListUrl({ detailLabel: label, detailValue: value })}>{value}</Link>
-  );
+  return <Link href={productListUrl({ detailLabel: label, detailValue: value })}>{value}</Link>;
 }
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -180,7 +182,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             {productDetails.map(([label, value]) => (
               <div key={label}>
                 <dt>{label}</dt>
-                <dd><DetailValueLinks label={label} value={value} /></dd>
+                <dd>
+                  <DetailValueLinks label={label} value={value} />
+                </dd>
               </div>
             ))}
           </dl>
@@ -202,6 +206,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <thead>
                 <tr>
                   <th>確認日時</th>
+                  <th>種別</th>
+                  <th>店舗名</th>
                   <th>状態</th>
                   <th>価格</th>
                 </tr>
@@ -210,6 +216,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 {product.junkHistories.map((history) => (
                   <tr key={history.id}>
                     <td>{history.checkedAt.toLocaleString("ja-JP")}</td>
+                    <td>{formatJunkSource(history.sourceType)}</td>
+                    <td>{history.storeName ?? "—"}</td>
                     <td>{history.condition}</td>
                     <td>{formatPrice(history.price)}</td>
                   </tr>
@@ -218,7 +226,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </table>
           </div>
         ) : (
-          <p className="muted">「その他の状態を選ぶ」に表示された商品はまだ記録されていません。</p>
+          <p className="muted">
+            「その他の状態を選ぶ」または「他のショップ」の商品はまだ記録されていません。
+          </p>
         )}
       </section>
 

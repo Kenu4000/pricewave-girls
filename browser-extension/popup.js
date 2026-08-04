@@ -30,7 +30,7 @@ function isSurugayaProductUrl(rawUrl) {
     const url = new URL(rawUrl);
     const isSurugaya =
       url.hostname === "suruga-ya.jp" || url.hostname.endsWith(".suruga-ya.jp");
-    return isSurugaya && /^\/product\/detail\/[0-9]+\/?$/.test(url.pathname);
+    return isSurugaya && /^\/product\/detail\/[0-9A-Za-z]+\/?$/.test(url.pathname);
   } catch {
     return false;
   }
@@ -39,7 +39,7 @@ function isSurugayaProductUrl(rawUrl) {
 async function importCurrentPage() {
   importButton.disabled = true;
   productLink.hidden = true;
-  showStatus("商品ページを読み取っています…", "");
+  showStatus("商品ページと他ショップ一覧を読み取っています…", "");
 
   try {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
@@ -49,16 +49,42 @@ async function importCurrentPage() {
 
     const [injection] = await chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      func: () => ({
-        url: window.location.href,
-        html: document.documentElement.outerHTML,
-        title: document.title,
-      }),
+      func: async () => {
+        const markerId = "pricewave-other-shops-data";
+        const hasOtherShops = /他のショップ/.test(document.body?.innerText || "");
+        const deadline = Date.now() + 20_000;
+        let marker = document.getElementById(markerId);
+
+        while (marker?.dataset.state === "loading" && Date.now() < deadline) {
+          await new Promise((resolve) => setTimeout(resolve, 200));
+          marker = document.getElementById(markerId);
+        }
+
+        return {
+          url: window.location.href,
+          html: document.documentElement.outerHTML,
+          title: document.title,
+          hasOtherShops,
+          otherShopsState: marker?.dataset.state || "missing",
+          otherShopsError: marker?.dataset.error || "",
+        };
+      },
     });
     const page = injection?.result;
 
     if (!page?.html || /^(Just a moment|Attention Required)/i.test(page.title)) {
       throw new Error("アクセス確認ではなく、商品ページが表示されてから実行してください。");
+    }
+
+    if (page.hasOtherShops && page.otherShopsState !== "ready") {
+      if (page.otherShopsState === "missing") {
+        throw new Error(
+          "他ショップ取得機能を読み込めませんでした。拡張機能を再読み込みした後、商品ページも再読み込みしてください。",
+        );
+      }
+      throw new Error(
+        page.otherShopsError || "他ショップ一覧を取得できませんでした。商品ページを再読み込みしてください。",
+      );
     }
 
     const response = await fetch("http://localhost:3000/api/import", {
@@ -72,7 +98,12 @@ async function importCurrentPage() {
       throw new Error(result.error || "駿河屋価格トラッキングへの記録に失敗しました。");
     }
 
-    showStatus("販売価格・買取価格・在庫状態を記録しました。", "success");
+    showStatus(
+      page.hasOtherShops
+        ? "販売・買取価格、在庫状態、他ショップ価格を記録しました。"
+        : "販売価格・買取価格・在庫状態を記録しました。",
+      "success",
+    );
     productLink.href = `http://localhost:3000/products/${result.id}`;
     productLink.hidden = false;
   } catch (error) {

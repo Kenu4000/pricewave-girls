@@ -83,20 +83,24 @@ function buildProductUpsertArgs(
   const priceChangeCreates = existing
     ? [
         ...(existing.latestSalePrice !== fetched.salePrice
-          ? [{
-              type: "sale",
-              previousPrice: existing.latestSalePrice,
-              currentPrice: fetched.salePrice,
-              changedAt,
-            }]
+          ? [
+              {
+                type: "sale",
+                previousPrice: existing.latestSalePrice,
+                currentPrice: fetched.salePrice,
+                changedAt,
+              },
+            ]
           : []),
         ...(existing.latestBuyPrice !== fetched.buyPrice
-          ? [{
-              type: "buy",
-              previousPrice: existing.latestBuyPrice,
-              currentPrice: fetched.buyPrice,
-              changedAt,
-            }]
+          ? [
+              {
+                type: "buy",
+                previousPrice: existing.latestBuyPrice,
+                currentPrice: fetched.buyPrice,
+                changedAt,
+              },
+            ]
           : []),
       ]
     : [];
@@ -109,6 +113,8 @@ function buildProductUpsertArgs(
       : {}),
   };
   const junkHistoryCreates = fetched.junkItems.map((item) => ({
+    sourceType: item.sourceType,
+    storeName: item.storeName,
     condition: item.condition,
     price: item.price,
   }));
@@ -219,20 +225,24 @@ export async function upsertProductSnapshots(
       if (!existing) return [];
       return [
         ...(existing.latestSalePrice !== fetched.salePrice
-          ? [{
-              surugayaUrl,
-              type: "sale",
-              previousPrice: existing.latestSalePrice,
-              currentPrice: fetched.salePrice,
-            }]
+          ? [
+              {
+                surugayaUrl,
+                type: "sale",
+                previousPrice: existing.latestSalePrice,
+                currentPrice: fetched.salePrice,
+              },
+            ]
           : []),
         ...(existing.latestBuyPrice !== fetched.buyPrice
-          ? [{
-              surugayaUrl,
-              type: "buy",
-              previousPrice: existing.latestBuyPrice,
-              currentPrice: fetched.buyPrice,
-            }]
+          ? [
+              {
+                surugayaUrl,
+                type: "buy",
+                previousPrice: existing.latestBuyPrice,
+                currentPrice: fetched.buyPrice,
+              },
+            ]
           : []),
       ];
     });
@@ -369,12 +379,20 @@ export async function upsertProductSnapshots(
     for (let junkStart = 0; junkStart < junkRows.length; junkStart += JUNK_SQL_CHUNK_SIZE) {
       const junkChunk = junkRows.slice(junkStart, junkStart + JUNK_SQL_CHUNK_SIZE);
       const values = junkChunk.map((item) =>
-        Prisma.sql`(${item.surugayaUrl}, ${item.condition}, ${item.price})`,
+        Prisma.sql`(
+          ${item.surugayaUrl},
+          ${item.sourceType},
+          ${item.storeName},
+          ${item.condition},
+          ${item.price}
+        )`,
       );
       operations.push(
         prisma.$executeRaw(Prisma.sql`
           WITH "junkSnapshots" (
             "surugayaUrl",
+            "sourceType",
+            "storeName",
             "condition",
             "price"
           ) AS (
@@ -382,11 +400,15 @@ export async function upsertProductSnapshots(
           )
           INSERT INTO "JunkHistory" (
             "productId",
+            "sourceType",
+            "storeName",
             "condition",
             "price"
           )
           SELECT
             "Product"."id",
+            "junkSnapshots"."sourceType",
+            "junkSnapshots"."storeName",
             "junkSnapshots"."condition",
             "junkSnapshots"."price"
           FROM "junkSnapshots"

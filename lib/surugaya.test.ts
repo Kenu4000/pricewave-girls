@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   InvalidSurugayaUrlError,
+  extractOtherShopItems,
   normalizePrice,
   normalizeSurugayaUrl,
   parseProductHtml,
@@ -67,9 +68,90 @@ test("その他の状態を通常価格と分離して一件ずつ取得する",
 
   assert.equal(product.salePrice, 9200);
   assert.deepEqual(product.junkItems, [
-    { condition: "中古 箱・ジャケット・ケース不備（中）", price: 6500 },
-    { condition: "中古 本体不備（大）", price: 5500 },
-    { condition: "中古 帯付き", price: 3500 },
+    {
+      sourceType: "alternate_condition",
+      storeName: null,
+      condition: "中古 箱・ジャケット・ケース不備（中）",
+      price: 6500,
+    },
+    {
+      sourceType: "alternate_condition",
+      storeName: null,
+      condition: "中古 本体不備（大）",
+      price: 5500,
+    },
+    {
+      sourceType: "alternate_condition",
+      storeName: null,
+      condition: "中古 帯付き",
+      price: 3500,
+    },
+  ]);
+});
+
+test("他ショップ一覧から店舗名・状態・価格を取得する", () => {
+  const items = extractOtherShopItems(`
+    <html><body>
+      <table>
+        <thead>
+          <tr><th>価格</th><th>コンディション</th><th>販売</th><th>配送</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1,460円</td>
+            <td>中古 箱不備（小）</td>
+            <td><a>駿河屋高槻店の出品を見る</a> 5.0(2661件)</td>
+            <td>5日〜10日以内に発送します</td>
+          </tr>
+          <tr>
+            <td>1,510円</td>
+            <td>中古 箱・ジャケット・ケース不備（中）</td>
+            <td>駿河屋 町田旭町店 5.0(1993件)</td>
+            <td>配送料 および 返品について。</td>
+          </tr>
+        </tbody>
+      </table>
+    </body></html>
+  `);
+
+  assert.deepEqual(items, [
+    {
+      sourceType: "other_shop",
+      storeName: "駿河屋高槻店",
+      condition: "中古 箱不備（小）",
+      price: 1460,
+    },
+    {
+      sourceType: "other_shop",
+      storeName: "駿河屋 町田旭町店",
+      condition: "中古 箱・ジャケット・ケース不備（中）",
+      price: 1510,
+    },
+  ]);
+});
+
+test("商品ページへ埋め込まれた他ショップ一覧をジャンク履歴候補へ統合する", () => {
+  const product = parseProductHtml(`
+    <html><body>
+      <h1>Windows DVDソフト テストゲーム</h1>
+      <div>中古 3,000円 (税込)</div>
+      <textarea id="pricewave-other-shops-data" hidden>
+        &lt;html&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;
+        &lt;td&gt;2,500円&lt;/td&gt;
+        &lt;td&gt;中古 ディスクのみ&lt;/td&gt;
+        &lt;td&gt;&lt;a&gt;駿河屋大阪店の出品を見る&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;
+      </textarea>
+    </body></html>
+  `);
+
+  assert.deepEqual(product.junkItems, [
+    {
+      sourceType: "other_shop",
+      storeName: "駿河屋大阪店",
+      condition: "中古 ディスクのみ",
+      price: 2500,
+    },
   ]);
 });
 
@@ -94,6 +176,10 @@ test("駿河屋の商品URLを正規化する", () => {
       "http://www.suruga-ya.jp/product/detail/145078305/?tenpo_cd=400539#price",
     ),
     "https://www.suruga-ya.jp/product/detail/145078305",
+  );
+  assert.equal(
+    normalizeSurugayaUrl("https://www.suruga-ya.jp/product/detail/ZHOU103337"),
+    "https://www.suruga-ya.jp/product/detail/ZHOU103337",
   );
 });
 
