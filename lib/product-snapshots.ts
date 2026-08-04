@@ -100,6 +100,11 @@ export async function upsertProductSnapshots(
 ) {
   if (inputs.length === 0) return [];
 
+  const existingProducts = await prisma.product.findMany({
+    where: { surugayaUrl: { in: inputs.map((input) => input.surugayaUrl) } },
+    select: { surugayaUrl: true },
+  });
+  const existingUrls = new Set(existingProducts.map((product) => product.surugayaUrl));
   const operations: PrismaPromise<unknown>[] = [];
 
   for (let start = 0; start < inputs.length; start += RAW_SQL_CHUNK_SIZE) {
@@ -229,6 +234,7 @@ export async function upsertProductSnapshots(
       modelNumber: product.modelNumber,
       stockStatus: product.stockStatus,
       hasHistory: true,
+      isNew: !existingUrls.has(surugayaUrl),
     };
   });
 

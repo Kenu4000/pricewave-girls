@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { LiveRefresh } from "@/app/live-refresh";
 import "./globals.css";
 
@@ -15,9 +14,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <LiveRefresh />
         <main className="container">
           <header className="header">
-            <Link className="brand" href="/products">
+            <a className="brand" href="/products" title="初期画面に戻る">
               駿河屋価格トラッキング
-            </Link>
+            </a>
           </header>
           {children}
         </main>

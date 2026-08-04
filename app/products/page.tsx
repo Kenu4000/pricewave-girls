@@ -1,6 +1,7 @@
 import type { Prisma } from "@prisma/client";
 import Link from "next/link";
 import { ProductGrid } from "@/components/ProductGrid";
+import { ProductListCount } from "@/components/ProductListCount";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
 
@@ -282,6 +283,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     modelNumber: product.modelNumber,
     stockStatus: product.stockStatus,
     hasHistory: product.histories.length > 0,
+    isNew: false,
   }));
   const advancedFiltersActive = [
     filters.manufacturer,
@@ -302,21 +304,15 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
       <div className="list-heading">
         <div>
           <h1>商品一覧</h1>
-          <p className="muted">
-            {filtersActive ? (
-              <>
-                全{allProducts.toLocaleString("ja-JP")}件中、条件に一致する
-                {totalProducts.toLocaleString("ja-JP")}件
-              </>
-            ) : (
-              <>全{totalProducts.toLocaleString("ja-JP")}件</>
-            )}
-            {totalProducts > 0 ? (
-              <>
-                （{firstShown.toLocaleString("ja-JP")}〜{lastShown.toLocaleString("ja-JP")}件を表示）
-              </>
-            ) : null}
-          </p>
+          <ProductListCount
+            filtersActive={filtersActive}
+            initialAllProducts={allProducts}
+            initialFirstShown={firstShown}
+            initialLastShown={lastShown}
+            initialTotalProducts={totalProducts}
+            perPage={perPage}
+            streamEnabled={streamEnabled}
+          />
         </div>
       </div>
 

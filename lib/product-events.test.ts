@@ -54,6 +54,7 @@ test("100件単位の保存と取込完了を画面へ通知する", () => {
       modelNumber: "MODEL-1",
       stockStatus: "in_stock",
       hasHistory: true,
+      isNew: true,
     },
   ]);
   notifyProductImportFinished("session", 100);

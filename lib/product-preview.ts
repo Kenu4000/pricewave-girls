@@ -13,6 +13,7 @@ export type ProductPreview = {
   modelNumber: string | null;
   stockStatus: string | null;
   hasHistory: boolean;
+  isNew: boolean;
 };
 
 export function nextProductRevealDelay(random = Math.random): number {
