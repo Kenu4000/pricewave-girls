@@ -33,15 +33,33 @@
     return numericId % ROTATION_DAYS;
   }
 
-  function selectScheduledProducts(products, value = Date.now()) {
+  function normalizeProductUrl(rawUrl) {
+    try {
+      const url = new URL(String(rawUrl || ""));
+      const match = url.pathname.match(/^\/product\/detail\/([0-9]+)\/?$/u);
+      return match ? `https://www.suruga-ya.jp/product/detail/${match[1]}` : "";
+    } catch {
+      return "";
+    }
+  }
+
+  function selectScheduledProducts(products, value = Date.now(), exactDailyUrls = []) {
     const source = Array.isArray(products) ? products : [];
     const bucket = rotationBucket(value);
+    const exactDailySet = new Set(
+      (Array.isArray(exactDailyUrls) ? exactDailyUrls : [])
+        .map(normalizeProductUrl)
+        .filter(Boolean),
+    );
     const daily = [];
     const rotation = [];
+    let exactDailyCount = 0;
 
     for (const product of source) {
-      if (product?.crawlPriority === "daily") {
+      const exactDaily = exactDailySet.has(normalizeProductUrl(product?.url));
+      if (product?.crawlPriority === "daily" || exactDaily) {
         daily.push(product);
+        if (exactDaily && product?.crawlPriority !== "daily") exactDailyCount += 1;
       } else if (productRotationBucket(product) === bucket) {
         rotation.push(product);
       }
@@ -51,6 +69,7 @@
       products: [...daily, ...rotation],
       bucket,
       dailyCount: daily.length,
+      exactDailyCount,
       rotationCount: rotation.length,
       totalRegistered: source.length,
     };
@@ -107,6 +126,7 @@
     localDayNumber,
     rotationBucket,
     productRotationBucket,
+    normalizeProductUrl,
     selectScheduledProducts,
     classifyPage,
     serverRetryDelay,
