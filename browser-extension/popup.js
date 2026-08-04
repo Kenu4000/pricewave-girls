@@ -3,7 +3,6 @@ const status = document.querySelector("#status");
 const productLink = document.querySelector("#product-link");
 const autoEnabled = document.querySelector("#auto-enabled");
 const autoTime = document.querySelector("#auto-time");
-const parallelTabs = document.querySelector("#parallel-tabs");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const autoStatus = document.querySelector("#auto-status");
@@ -11,7 +10,6 @@ const stopTaskButton = document.querySelector("#stop-task-button");
 const autoAddUrl = document.querySelector("#auto-add-url");
 const autoAddLimit = document.querySelector("#auto-add-limit");
 const autoAddButton = document.querySelector("#auto-add-button");
-const DEFAULT_PARALLEL_TABS = 10;
 
 function normalizedInteger(value, minimum, maximum, fallback) {
   const number = Number(value);
@@ -151,9 +149,6 @@ async function loadAutoSettings(syncForm = true) {
   if (syncForm && response?.settings) {
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
-    parallelTabs.value = String(
-      normalizedInteger(response.settings.parallelTabs, 1, 100, DEFAULT_PARALLEL_TABS),
-    );
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -171,7 +166,7 @@ async function saveAutoSettings() {
       type: "auto:save",
       enabled: autoEnabled.checked,
       time: autoTime.value,
-      parallelTabs: Number(parallelTabs.value),
+      parallelTabs: 1,
     });
     if (!response?.ok) {
       throw new Error(response?.error || "設定を保存できませんでした。");

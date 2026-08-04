@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { crawlPriorityForProduct, productBrandCandidates } from "@/lib/crawl-brand-priority";
 import { prisma } from "@/lib/prisma";
 import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import { upsertProductSnapshot } from "@/lib/product-snapshots";
@@ -17,15 +18,29 @@ export async function GET() {
       id: true,
       title: true,
       surugayaUrl: true,
+      manufacturer: true,
+      detailsJson: true,
     },
   });
 
   return NextResponse.json({
-    products: products.map((product) => ({
-      id: product.id,
-      title: product.title,
-      url: product.surugayaUrl,
-    })),
+    products: products.map((product) => {
+      const brandCandidates = productBrandCandidates(
+        product.manufacturer,
+        product.detailsJson,
+      );
+      return {
+        id: product.id,
+        title: product.title,
+        url: product.surugayaUrl,
+        brand: brandCandidates[0] ?? null,
+        crawlPriority: crawlPriorityForProduct(
+          product.title,
+          product.manufacturer,
+          product.detailsJson,
+        ),
+      };
+    }),
   });
 }
 
