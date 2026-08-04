@@ -72,9 +72,7 @@ export function normalizePrice(text: string): number | null {
     .replace(/[０-９]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0xfee0))
     .replace(/，/g, ",");
   const match = normalized.match(/[¥￥]?\s*([0-9][0-9,]*)\s*円?/);
-  if (!match) {
-    return null;
-  }
+  if (!match) return null;
 
   const value = Number.parseInt(match[1].replace(/,/g, ""), 10);
   return Number.isFinite(value) ? value : null;
@@ -85,9 +83,6 @@ export function detectStockStatus(html: string): StockStatus {
   const text = normalizeText($("body").text());
   const salePrice = extractSalePrice($);
 
-  // In-stock pages include a generic warning saying that a physical shop may
-  // already be sold out. The cart and the current mail-order price therefore
-  // take priority over that warning.
   if (salePrice !== null && /カートに入れる|購入する/.test(text)) {
     return "in_stock";
   }
@@ -114,9 +109,7 @@ export function extractImageUrl(html: string): string | null {
     const element = $(selector).first();
     const raw = element.attr("content") ?? element.attr("src") ?? element.attr("data-src");
     const imageUrl = toAbsoluteUrl(raw);
-    if (imageUrl) {
-      return imageUrl;
-    }
+    if (imageUrl) return imageUrl;
   }
 
   return null;
@@ -144,9 +137,7 @@ export function parseProductHtml(
     );
   }
 
-  if (!title) {
-    throw new Error("商品タイトルを取得できませんでした");
-  }
+  if (!title) throw new Error("商品タイトルを取得できませんでした");
 
   const details = extractProductDetails($);
   const otherShopsHtml = explicitOtherShopsHtml ?? extractEmbeddedOtherShopsHtml($);
@@ -213,9 +204,7 @@ export function extractOtherShopItems(html: string): FetchedJunkItem[] {
     let priceIndex = cells
       .slice(0, priceSearchEnd)
       .findIndex((cell) => containsYenPrice(cell));
-    if (priceIndex < 0) {
-      priceIndex = cells.findIndex((cell) => containsYenPrice(cell));
-    }
+    if (priceIndex < 0) priceIndex = cells.findIndex((cell) => containsYenPrice(cell));
     if (priceIndex < 0) return;
 
     const price = normalizePrice(cells[priceIndex]);
@@ -223,7 +212,13 @@ export function extractOtherShopItems(html: string): FetchedJunkItem[] {
 
     const condition =
       conditionIndex >= 0 ? cleanCondition(cells[conditionIndex]) : "状態不明";
-    const storeName = extractStoreNameFromRow($, row, cells, conditionIndex, priceIndex);
+    const storeName = extractStoreNameFromRow(
+      $,
+      $(row),
+      cells,
+      conditionIndex,
+      priceIndex,
+    );
 
     items.push({
       sourceType: "other_shop",
@@ -264,7 +259,7 @@ export function extractOtherShopItems(html: string): FetchedJunkItem[] {
         "[class*='shopName']",
         "[class*='storeName']",
       ]) ??
-      extractSellerLinkText(block);
+      extractSellerLinkText($, block);
 
     items.push({
       sourceType: "other_shop",
@@ -280,11 +275,8 @@ export function extractOtherShopItems(html: string): FetchedJunkItem[] {
 function extractTitle($: cheerio.CheerioAPI): string | null {
   for (const selector of SELECTORS.title) {
     const text = $(selector).first().text().replace(/\s+/g, " ").trim();
-    if (text) {
-      return text.replace(/通販ショップの駿河屋$/u, "").trim();
-    }
+    if (text) return text.replace(/通販ショップの駿河屋$/u, "").trim();
   }
-
   return null;
 }
 
@@ -294,18 +286,13 @@ function extractSalePrice($: cheerio.CheerioAPI): number | null {
 
   for (const match of saleBlocks) {
     const block = match[1];
-    if (/他のショップ|送料|手数料/.test(block)) {
-      continue;
-    }
+    if (/他のショップ|送料|手数料/.test(block)) continue;
 
     const prices = [...block.matchAll(/[¥￥]?\s*([0-9][0-9,]*)\s*円/g)]
       .map((priceMatch) => Number.parseInt(priceMatch[1].replace(/,/g, ""), 10))
       .filter(Number.isFinite);
 
-    if (prices.length > 0) {
-      // Time-sale pages show the regular price followed by the current price.
-      return prices.at(-1) ?? null;
-    }
+    if (prices.length > 0) return prices.at(-1) ?? null;
   }
 
   return null;
@@ -369,13 +356,12 @@ function extractEmbeddedOtherShopsHtml($: cheerio.CheerioAPI): string {
 
 function extractStoreNameFromRow(
   $: cheerio.CheerioAPI,
-  row: Parameters<cheerio.CheerioAPI>[0],
+  rowElement: cheerio.Cheerio<unknown>,
   cells: string[],
   conditionIndex: number,
   priceIndex: number,
 ): string | null {
-  const rowElement = $(row);
-  const sellerLink = extractSellerLinkText(rowElement);
+  const sellerLink = extractSellerLinkText($, rowElement);
   if (sellerLink) return sellerLink;
 
   const candidateIndexes = [
@@ -398,11 +384,14 @@ function extractStoreNameFromRow(
   return null;
 }
 
-function extractSellerLinkText(element: cheerio.Cheerio<unknown>): string | null {
+function extractSellerLinkText(
+  $: cheerio.CheerioAPI,
+  element: cheerio.Cheerio<unknown>,
+): string | null {
   const links = element
     .find("a")
     .toArray()
-    .map((anchor) => normalizeText(element.find(anchor).text()));
+    .map((anchor) => normalizeText($(anchor).text()));
 
   for (const text of links) {
     const match = text.match(/(.+?)の出品を見る$/u);
@@ -445,7 +434,9 @@ function firstText(
 }
 
 function extractConditionFromText(text: string): string {
-  const match = text.match(/(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ).*?)(?=\s*[¥￥]?[0-9０-９]|$)/u);
+  const match = text.match(
+    /(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ).*?)(?=\s*[¥￥]?[0-9０-９]|$)/u,
+  );
   return match ? cleanCondition(match[1]) : "状態不明";
 }
 
@@ -488,9 +479,7 @@ function extractProductDetails($: cheerio.CheerioAPI): Record<string, string> {
         for (let index = 0; index + 1 < cells.length; index += 2) {
           const label = cleanDetailLabel($(cells[index]).text());
           const value = normalizeText($(cells[index + 1]).text());
-          if (isPlausibleDetailPair(label, value)) {
-            pairs.push([label, value]);
-          }
+          if (isPlausibleDetailPair(label, value)) pairs.push([label, value]);
         }
       });
 
@@ -498,9 +487,7 @@ function extractProductDetails($: cheerio.CheerioAPI): Record<string, string> {
       KNOWN_DETAIL_LABELS.includes(label as (typeof KNOWN_DETAIL_LABELS)[number]),
     ).length;
     if (knownCount >= 2) {
-      for (const [label, value] of pairs) {
-        details[label] = value;
-      }
+      for (const [label, value] of pairs) details[label] = value;
     }
   });
 
@@ -511,18 +498,14 @@ function extractProductDetails($: cheerio.CheerioAPI): Record<string, string> {
       .each((__, term) => {
         const label = cleanDetailLabel($(term).text());
         const value = normalizeText($(term).next("dd").text());
-        if (isPlausibleDetailPair(label, value)) {
-          pairs.push([label, value]);
-        }
+        if (isPlausibleDetailPair(label, value)) pairs.push([label, value]);
       });
 
     const knownCount = pairs.filter(([label]) =>
       KNOWN_DETAIL_LABELS.includes(label as (typeof KNOWN_DETAIL_LABELS)[number]),
     ).length;
     if (knownCount >= 2) {
-      for (const [label, value] of pairs) {
-        details[label] = value;
-      }
+      for (const [label, value] of pairs) details[label] = value;
     }
   });
 
@@ -535,16 +518,12 @@ function extractProductDetails($: cheerio.CheerioAPI): Record<string, string> {
     const labelPattern = KNOWN_DETAIL_LABELS.map(escapeRegExp).join("|");
 
     for (const label of KNOWN_DETAIL_LABELS) {
-      if (details[label]) {
-        continue;
-      }
+      if (details[label]) continue;
       const match = detailText.match(
         new RegExp(`${escapeRegExp(label)}\\s*(.+?)\\s*(?=${labelPattern}|$)`),
       );
       const value = match ? normalizeText(match[1]) : "";
-      if (value) {
-        details[label] = value;
-      }
+      if (value) details[label] = value;
     }
   }
 
@@ -560,9 +539,7 @@ function isPlausibleDetailPair(label: string, value: string): boolean {
 }
 
 function extractManagementNumber(value: string | undefined): string | null {
-  if (!value) {
-    return null;
-  }
+  if (!value) return null;
 
   const number = value.match(/[0-9]{6,}/)?.[0];
   const normalized = value.replace(/^(?:中古|新品|予約)\s*[：:]?\s*/u, "").trim();
@@ -571,15 +548,11 @@ function extractManagementNumber(value: string | undefined): string | null {
 
 function normalizeReleaseDate(value: string | undefined): string | null {
   const match = value?.match(/(\d{4})[\/.年](\d{1,2})[\/.月](\d{1,2})日?/u);
-  if (!match) {
-    return null;
-  }
+  if (!match) return null;
 
   const month = Number(match[2]);
   const day = Number(match[3]);
-  if (month < 1 || month > 12 || day < 1 || day > 31) {
-    return null;
-  }
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
 
   return `${match[1]}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
@@ -593,9 +566,7 @@ function escapeRegExp(text: string): string {
 }
 
 function toAbsoluteUrl(rawUrl: string | undefined): string | null {
-  if (!rawUrl) {
-    return null;
-  }
+  if (!rawUrl) return null;
 
   try {
     return new URL(rawUrl, "https://www.suruga-ya.jp").toString();
