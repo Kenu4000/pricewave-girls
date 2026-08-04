@@ -40,7 +40,8 @@ export async function POST(request: Request) {
     }
 
     const normalizedUrl = normalizeSurugayaUrl(url);
-    const fetched = replaceAlternateConditionItems(html, parseProductHtml(html));
+    const parsed = parseProductHtml(html);
+    const fetched = replaceAlternateConditionItems(html, parsed);
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
