@@ -119,7 +119,10 @@ test("駿河屋の商品詳細情報を取得する", () => {
           <th>型番</th><td>NVM001</td>
           <th>原画</th><td>樋上いたる</td>
         </tr>
-        <tr><th>シナリオ</th><td>Tactics</td></tr>
+        <tr>
+          <th>シナリオ</th><td>Tactics</td>
+          <th>対応OS</th><td>Windows 10/11</td>
+        </tr>
       </table>
       <h3>備考</h3>
     </body></html>
@@ -132,4 +135,5 @@ test("駿河屋の商品詳細情報を取得する", () => {
   assert.equal(product.modelNumber, "NVM001");
   assert.equal(product.details["原画"], "樋上いたる");
   assert.equal(product.details["シナリオ"], "Tactics");
+  assert.equal(product.details["対応OS"], "Windows 10/11");
 });

@@ -2,6 +2,13 @@ import type { Prisma } from "@prisma/client";
 import Link from "next/link";
 import { ProductGrid } from "@/components/ProductGrid";
 import { ProductListCount } from "@/components/ProductListCount";
+import {
+  buildProductFilterCatalog,
+  findPriceBand,
+  PRICE_BANDS,
+  type ProductFilterCatalog,
+  type RankedFilterOptions,
+} from "@/lib/product-filter-options";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
 
@@ -14,11 +21,11 @@ const SORT_OPTIONS = [
   { value: "sale-desc", label: "販売価格が高い順" },
   { value: "buy-desc", label: "買取価格が高い順" },
   { value: "buy-asc", label: "買取価格が安い順" },
-  { value: "release-desc", label: "発売日が新しい順" },
-  { value: "release-asc", label: "発売日が古い順" },
+  { value: "release-desc", label: "発売年度が新しい順" },
+  { value: "release-asc", label: "発売年度が古い順" },
   { value: "list-asc", label: "定価が安い順" },
   { value: "list-desc", label: "定価が高い順" },
-  { value: "manufacturer-asc", label: "メーカー順" },
+  { value: "manufacturer-asc", label: "ブランド順" },
   { value: "title-asc", label: "商品名順" },
 ] as const;
 
@@ -35,15 +42,14 @@ type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
 
 type ProductFilters = {
   name: string;
-  manufacturer: string;
-  category: string;
-  details: string;
-  releaseFrom: string;
-  releaseTo: string;
-  saleMin: string;
-  saleMax: string;
-  buyMin: string;
-  buyMax: string;
+  brand: string;
+  os: string;
+  illustrator: string;
+  scenario: string;
+  voiceActor: string;
+  releaseYear: string;
+  saleBand: string;
+  buyBand: string;
   stock: StockFilter;
 };
 
@@ -109,17 +115,14 @@ function parseText(value: string | undefined): string {
   return value?.trim().slice(0, 200) ?? "";
 }
 
-function parseDate(value: string | undefined): string {
+function parseReleaseYear(value: string | undefined): string {
   const parsed = parseText(value);
-  return /^\d{4}-\d{2}-\d{2}$/.test(parsed) ? parsed : "";
+  return /^\d{4}$/.test(parsed) ? parsed : "";
 }
 
-function parsePrice(value: string | undefined): string {
-  const normalized = value?.trim() ?? "";
-  if (!normalized) return "";
-
-  const parsed = Number(normalized);
-  return Number.isSafeInteger(parsed) && parsed >= 0 ? String(parsed) : "";
+function parsePriceBand(value: string | undefined): string {
+  const parsed = parseText(value);
+  return findPriceBand(parsed) ? parsed : "";
 }
 
 function parseStock(value: string | undefined): StockFilter {
@@ -131,15 +134,14 @@ function parseStock(value: string | undefined): StockFilter {
 function parseFilters(query: Record<string, string | string[] | undefined>): ProductFilters {
   return {
     name: parseText(firstValue(query.name)),
-    manufacturer: parseText(firstValue(query.manufacturer)),
-    category: parseText(firstValue(query.category)),
-    details: parseText(firstValue(query.details)),
-    releaseFrom: parseDate(firstValue(query.releaseFrom)),
-    releaseTo: parseDate(firstValue(query.releaseTo)),
-    saleMin: parsePrice(firstValue(query.saleMin)),
-    saleMax: parsePrice(firstValue(query.saleMax)),
-    buyMin: parsePrice(firstValue(query.buyMin)),
-    buyMax: parsePrice(firstValue(query.buyMax)),
+    brand: parseText(firstValue(query.brand)),
+    os: parseText(firstValue(query.os)),
+    illustrator: parseText(firstValue(query.illustrator)),
+    scenario: parseText(firstValue(query.scenario)),
+    voiceActor: parseText(firstValue(query.voiceActor)),
+    releaseYear: parseReleaseYear(firstValue(query.releaseYear)),
+    saleBand: parsePriceBand(firstValue(query.saleBand)),
+    buyBand: parsePriceBand(firstValue(query.buyBand)),
     stock: parseStock(firstValue(query.stock)),
   };
 }
@@ -148,50 +150,52 @@ function hasActiveFilters(filters: ProductFilters): boolean {
   return Object.values(filters).some(Boolean);
 }
 
-function buildProductWhere(filters: ProductFilters): Prisma.ProductWhereInput {
+function addIndexedFilter(
+  conditions: Prisma.ProductWhereInput[],
+  value: string,
+  index: ProductFilterCatalog["brands"],
+) {
+  if (value) conditions.push({ id: { in: index.productIds.get(value) ?? [] } });
+}
+
+function buildProductWhere(
+  filters: ProductFilters,
+  catalog: ProductFilterCatalog,
+): Prisma.ProductWhereInput {
   const conditions: Prisma.ProductWhereInput[] = [];
 
   if (filters.name) {
     conditions.push({ title: { contains: filters.name } });
   }
-  if (filters.manufacturer) {
-    conditions.push({ manufacturer: filters.manufacturer });
+  addIndexedFilter(conditions, filters.brand, catalog.brands);
+  addIndexedFilter(conditions, filters.os, catalog.operatingSystems);
+  addIndexedFilter(conditions, filters.illustrator, catalog.illustrators);
+  addIndexedFilter(conditions, filters.scenario, catalog.scenarios);
+  addIndexedFilter(conditions, filters.voiceActor, catalog.voiceActors);
+  if (filters.releaseYear) {
+    conditions.push({ releaseDate: { startsWith: `${filters.releaseYear}-` } });
   }
-  if (filters.category) {
-    conditions.push({ category: filters.category });
-  }
-  if (filters.details) {
-    conditions.push({
-      OR: [
-        { manufacturer: { contains: filters.details } },
-        { category: { contains: filters.details } },
-        { modelNumber: { contains: filters.details } },
-        { managementNumber: { contains: filters.details } },
-        { detailsJson: { contains: filters.details } },
-      ],
-    });
-  }
-  if (filters.releaseFrom || filters.releaseTo) {
-    conditions.push({
-      releaseDate: {
-        ...(filters.releaseFrom ? { gte: filters.releaseFrom } : {}),
-        ...(filters.releaseTo ? { lte: filters.releaseTo } : {}),
-      },
-    });
-  }
-  if (filters.saleMin || filters.saleMax) {
+
+  const saleBand = findPriceBand(filters.saleBand);
+  if (saleBand?.unknown) {
+    conditions.push({ latestSalePrice: null });
+  } else if (saleBand) {
     conditions.push({
       latestSalePrice: {
-        ...(filters.saleMin ? { gte: Number(filters.saleMin) } : {}),
-        ...(filters.saleMax ? { lte: Number(filters.saleMax) } : {}),
+        ...(saleBand.min !== undefined ? { gte: saleBand.min } : {}),
+        ...(saleBand.max !== undefined ? { lte: saleBand.max } : {}),
       },
     });
   }
-  if (filters.buyMin || filters.buyMax) {
+
+  const buyBand = findPriceBand(filters.buyBand);
+  if (buyBand?.unknown) {
+    conditions.push({ latestBuyPrice: null });
+  } else if (buyBand) {
     conditions.push({
       latestBuyPrice: {
-        ...(filters.buyMin ? { gte: Number(filters.buyMin) } : {}),
-        ...(filters.buyMax ? { lte: Number(filters.buyMax) } : {}),
+        ...(buyBand.min !== undefined ? { gte: buyBand.min } : {}),
+        ...(buyBand.max !== undefined ? { lte: buyBand.max } : {}),
       },
     });
   }
@@ -233,30 +237,47 @@ function visiblePageNumbers(currentPage: number, totalPages: number): number[] {
   return Array.from({ length: 5 }, (_, index) => start + index);
 }
 
+function RankedOptions({ options }: { options: RankedFilterOptions }) {
+  return (
+    <>
+      {options.featured.length > 0 ? (
+        <optgroup label="よく登録されている">
+          {options.featured.map((option) => (
+            <option key={option.value} value={option.value}>{option.label}</option>
+          ))}
+        </optgroup>
+      ) : null}
+      {options.alphabetical.length > 0 ? (
+        <optgroup label="五十音順">
+          {options.alphabetical.map((option) => (
+            <option key={option.value} value={option.value}>{option.label}</option>
+          ))}
+        </optgroup>
+      ) : null}
+    </>
+  );
+}
+
 export default async function ProductsPage({ searchParams }: { searchParams: SearchParams }) {
   const query = await searchParams;
   const sort = parseSort(firstValue(query.sort));
   const perPage = parsePageSize(firstValue(query.perPage));
   const requestedPage = parsePositiveInteger(firstValue(query.page), 1);
   const filters = parseFilters(query);
-  const where = buildProductWhere(filters);
+  const filterSourceProducts = await prisma.product.findMany({
+    select: {
+      id: true,
+      manufacturer: true,
+      releaseDate: true,
+      category: true,
+      detailsJson: true,
+    },
+  });
+  const filterCatalog = buildProductFilterCatalog(filterSourceProducts);
+  const where = buildProductWhere(filters, filterCatalog);
   const filtersActive = hasActiveFilters(filters);
-  const [totalProducts, allProducts, manufacturerRows, categoryRows] = await Promise.all([
-    prisma.product.count({ where }),
-    prisma.product.count(),
-    prisma.product.findMany({
-      where: { manufacturer: { not: null } },
-      select: { manufacturer: true },
-      distinct: ["manufacturer"],
-      orderBy: { manufacturer: "asc" },
-    }),
-    prisma.product.findMany({
-      where: { category: { not: null } },
-      select: { category: true },
-      distinct: ["category"],
-      orderBy: { category: "asc" },
-    }),
-  ]);
+  const totalProducts = await prisma.product.count({ where });
+  const allProducts = filterSourceProducts.length;
   const totalPages = Math.max(1, Math.ceil(totalProducts / perPage));
   const currentPage = Math.min(requestedPage, totalPages);
   const products = await prisma.product.findMany({
@@ -268,10 +289,6 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
   });
   const firstShown = totalProducts === 0 ? 0 : (currentPage - 1) * perPage + 1;
   const lastShown = Math.min(currentPage * perPage, totalProducts);
-  const manufacturers = manufacturerRows.flatMap((row) =>
-    row.manufacturer ? [row.manufacturer] : [],
-  );
-  const categories = categoryRows.flatMap((row) => (row.category ? [row.category] : []));
   const productPreviews: ProductPreview[] = products.map((product) => ({
     id: product.id,
     title: product.title,
@@ -286,15 +303,14 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     isNew: false,
   }));
   const advancedFiltersActive = [
-    filters.manufacturer,
-    filters.category,
-    filters.details,
-    filters.releaseFrom,
-    filters.releaseTo,
-    filters.saleMin,
-    filters.saleMax,
-    filters.buyMin,
-    filters.buyMax,
+    filters.brand,
+    filters.os,
+    filters.illustrator,
+    filters.scenario,
+    filters.voiceActor,
+    filters.releaseYear,
+    filters.saleBand,
+    filters.buyBand,
     filters.stock,
   ].some(Boolean);
   const streamEnabled = currentPage === 1 && !filtersActive && sort === "updated-desc";
@@ -361,105 +377,69 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
           </summary>
           <div className="filter-grid advanced-filter-grid">
             <label className="filter-field">
-              <span>メーカー</span>
-              <select className="select" defaultValue={filters.manufacturer} name="manufacturer">
+              <span>ブランド</span>
+              <select className="select" defaultValue={filters.brand} name="brand">
                 <option value="">すべて</option>
-                {manufacturers.map((manufacturer) => (
-                  <option key={manufacturer} value={manufacturer}>
-                    {manufacturer}
-                  </option>
+                <RankedOptions options={filterCatalog.brands.options} />
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>OS</span>
+              <select className="select" defaultValue={filters.os} name="os">
+                <option value="">すべて</option>
+                {filterCatalog.operatingSystems.options.alphabetical.map((option) => (
+                  <option key={option.value} value={option.value}>{option.label}</option>
                 ))}
               </select>
             </label>
             <label className="filter-field">
-              <span>カテゴリ</span>
-              <select className="select" defaultValue={filters.category} name="category">
+              <span>原画</span>
+              <select className="select" defaultValue={filters.illustrator} name="illustrator">
                 <option value="">すべて</option>
-                {categories.map((category) => (
-                  <option key={category} value={category}>
-                    {category}
-                  </option>
+                <RankedOptions options={filterCatalog.illustrators.options} />
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>シナリオ</span>
+              <select className="select" defaultValue={filters.scenario} name="scenario">
+                <option value="">すべて</option>
+                <RankedOptions options={filterCatalog.scenarios.options} />
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>声優</span>
+              <select className="select" defaultValue={filters.voiceActor} name="voiceActor">
+                <option value="">すべて</option>
+                <RankedOptions options={filterCatalog.voiceActors.options} />
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>発売年度</span>
+              <select className="select" defaultValue={filters.releaseYear} name="releaseYear">
+                <option value="">すべて</option>
+                {filterCatalog.releaseYears.map((year) => (
+                  <option key={year} value={year}>{year}年</option>
                 ))}
               </select>
             </label>
-            <label className="filter-field filter-field-wide">
-              <span>型番・管理番号・その他詳細</span>
-              <input
-                className="input"
-                defaultValue={filters.details}
-                name="details"
-                placeholder="例: 原画、シナリオ、型番"
-                type="search"
-              />
+            <label className="filter-field">
+              <span>販売価格帯</span>
+              <select className="select" defaultValue={filters.saleBand} name="saleBand">
+                <option value="">すべて</option>
+                {PRICE_BANDS.map((band) => (
+                  <option key={band.value} value={band.value}>{band.label}</option>
+                ))}
+              </select>
             </label>
-            <fieldset className="filter-field filter-field-wide">
-              <legend>発売日</legend>
-              <div className="range-fields">
-                <input
-                  aria-label="発売日の開始日"
-                  className="input"
-                  defaultValue={filters.releaseFrom}
-                  name="releaseFrom"
-                  type="date"
-                />
-                <span>〜</span>
-                <input
-                  aria-label="発売日の終了日"
-                  className="input"
-                  defaultValue={filters.releaseTo}
-                  name="releaseTo"
-                  type="date"
-                />
-              </div>
-            </fieldset>
-            <fieldset className="filter-field filter-field-wide">
-              <legend>販売価格</legend>
-              <div className="range-fields">
-                <input
-                  aria-label="販売価格の下限"
-                  className="input"
-                  defaultValue={filters.saleMin}
-                  min="0"
-                  name="saleMin"
-                  placeholder="下限"
-                  type="number"
-                />
-                <span>〜</span>
-                <input
-                  aria-label="販売価格の上限"
-                  className="input"
-                  defaultValue={filters.saleMax}
-                  min="0"
-                  name="saleMax"
-                  placeholder="上限"
-                  type="number"
-                />
-              </div>
-            </fieldset>
-            <fieldset className="filter-field filter-field-wide">
-              <legend>買取価格</legend>
-              <div className="range-fields">
-                <input
-                  aria-label="買取価格の下限"
-                  className="input"
-                  defaultValue={filters.buyMin}
-                  min="0"
-                  name="buyMin"
-                  placeholder="下限"
-                  type="number"
-                />
-                <span>〜</span>
-                <input
-                  aria-label="買取価格の上限"
-                  className="input"
-                  defaultValue={filters.buyMax}
-                  min="0"
-                  name="buyMax"
-                  placeholder="上限"
-                  type="number"
-                />
-              </div>
-            </fieldset>
+            <label className="filter-field">
+              <span>買取価格帯</span>
+              <select className="select" defaultValue={filters.buyBand} name="buyBand">
+                <option value="">すべて</option>
+                {PRICE_BANDS.map((band) => (
+                  <option key={band.value} value={band.value}>{band.label}</option>
+                ))}
+              </select>
+            </label>
             <label className="filter-field">
               <span>在庫状態</span>
               <select className="select" defaultValue={filters.stock} name="stock">

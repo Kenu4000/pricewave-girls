@@ -101,7 +101,7 @@ export function ProductGrid({
           </div>
           <dl className="product-facts">
             {product.manufacturer ? (
-              <div><dt>メーカー</dt><dd>{product.manufacturer}</dd></div>
+              <div><dt>ブランド</dt><dd>{product.manufacturer}</dd></div>
             ) : null}
             {product.releaseDate ? (
               <div><dt>発売日</dt><dd>{formatReleaseDate(product.releaseDate)}</dd></div>

@@ -103,7 +103,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           </div>
           <dl className="detail-facts">
             <div>
-              <dt>メーカー</dt><dd>{product.manufacturer ?? "未取得"}</dd>
+              <dt>ブランド</dt><dd>{product.manufacturer ?? "未取得"}</dd>
             </div>
             <div>
               <dt>発売日</dt><dd>{formatReleaseDate(product.releaseDate)}</dd>
