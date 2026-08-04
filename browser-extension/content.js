@@ -62,7 +62,7 @@ async function pricewaveCaptureOtherShops() {
   const frame = document.createElement("iframe");
   frame.hidden = true;
   frame.setAttribute("aria-hidden", "true");
-  frame.src = `https://www.suruga-ya.jp/product/other/${productId}`;
+  frame.src = new URL(`/product/other/${productId}`, window.location.origin).toString();
   root.append(frame);
 
   try {
@@ -83,7 +83,8 @@ async function pricewaveCaptureOtherShops() {
     marker.dataset.state = "ready";
   } catch (error) {
     marker.dataset.state = "error";
-    marker.dataset.error = error instanceof Error ? error.message : "他ショップ一覧を取得できませんでした。";
+    marker.dataset.error =
+      error instanceof Error ? error.message : "他ショップ一覧を取得できませんでした。";
   } finally {
     frame.remove();
   }
