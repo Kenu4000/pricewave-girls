@@ -4,12 +4,12 @@ import { useMemo, useState } from "react";
 import {
   buildJunkHistoryViewSections,
   countJunkHistoryItems,
+  filterJunkHistoryGroupsByCondition,
+  listJunkHistoryConditions,
   type JunkHistoryViewGroup,
   type JunkHistoryViewItem,
 } from "@/lib/junk-history-view";
 import styles from "./JunkHistorySections.module.css";
-
-type SortDirection = "asc" | "desc";
 
 type JunkHistorySectionsProps = {
   items: JunkHistoryViewItem[];
@@ -61,27 +61,46 @@ function HistorySection({
   groups: JunkHistoryViewGroup[];
   emptyMessage: string;
 }) {
-  const [sortDirection, setSortDirection] = useState<SortDirection>("asc");
-  const sortedGroups = useMemo(
-    () =>
-      groups.map((group) => ({
-        ...group,
-        items: [...group.items].sort((left, right) =>
-          compareHistoryItems(left, right, sortDirection),
-        ),
-      })),
-    [groups, sortDirection],
+  const [conditionFilter, setConditionFilter] = useState("");
+  const conditionOptions = useMemo(() => listJunkHistoryConditions(groups), [groups]);
+  const filteredGroups = useMemo(
+    () => filterJunkHistoryGroupsByCondition(groups, conditionFilter),
+    [groups, conditionFilter],
   );
-  const count = countJunkHistoryItems(groups);
+  const totalCount = countJunkHistoryItems(groups);
+  const filteredCount = countJunkHistoryItems(filteredGroups);
 
   return (
     <section>
       <div className={styles.sectionHeader}>
-        <h3>{title}</h3>
-        <span className="muted">{count.toLocaleString("ja-JP")}件</span>
+        <div className={styles.sectionTitle}>
+          <h3>{title}</h3>
+          <span className="muted">
+            {conditionFilter
+              ? `${filteredCount.toLocaleString("ja-JP")} / ${totalCount.toLocaleString("ja-JP")}件`
+              : `${totalCount.toLocaleString("ja-JP")}件`}
+          </span>
+        </div>
+
+        {conditionOptions.length > 0 ? (
+          <label className={styles.filterControl}>
+            <span>状態で絞り込み</span>
+            <select
+              onChange={(event) => setConditionFilter(event.target.value)}
+              value={conditionFilter}
+            >
+              <option value="">すべての状態</option>
+              {conditionOptions.map((condition) => (
+                <option key={condition} value={condition}>
+                  {condition}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
       </div>
 
-      {count > 0 ? (
+      {filteredCount > 0 ? (
         <div className="table-wrap">
           <table>
             <thead>
@@ -89,29 +108,19 @@ function HistorySection({
                 <th>確認日時</th>
                 <th>種別</th>
                 <th>店舗名</th>
-                <th aria-sort={sortDirection === "asc" ? "ascending" : "descending"}>
-                  <button
-                    className={styles.sortButton}
-                    onClick={() =>
-                      setSortDirection((current) => (current === "asc" ? "desc" : "asc"))
-                    }
-                    type="button"
-                  >
-                    状態
-                    <span aria-hidden="true">{sortDirection === "asc" ? "▲" : "▼"}</span>
-                  </button>
-                </th>
+                <th>状態</th>
                 <th>価格</th>
               </tr>
             </thead>
             <tbody>
-              {sortedGroups.flatMap((group) =>
+              {filteredGroups.flatMap((group) =>
                 group.items.map((item, index) => {
+                  const isFirstInCapture = index === 0;
                   const isLastInCapture = index === group.items.length - 1;
                   return (
                     <tr className={isLastInCapture ? styles.groupEnd : undefined} key={item.id}>
                       <td className={styles.dateCell}>
-                        {isLastInCapture ? formatDateTime(group.checkedAt) : ""}
+                        {isFirstInCapture ? formatDateTime(group.checkedAt) : ""}
                       </td>
                       <td className={styles.sourceCell}>{formatSource(item.sourceType)}</td>
                       <td className={styles.storeCell}>{item.storeName ?? "—"}</td>
@@ -125,31 +134,12 @@ function HistorySection({
           </table>
         </div>
       ) : (
-        <p className={styles.empty}>{emptyMessage}</p>
+        <p className={styles.empty}>
+          {conditionFilter ? "選択した状態に該当するデータはありません。" : emptyMessage}
+        </p>
       )}
     </section>
   );
-}
-
-function compareHistoryItems(
-  left: JunkHistoryViewItem,
-  right: JunkHistoryViewItem,
-  direction: SortDirection,
-): number {
-  const multiplier = direction === "asc" ? 1 : -1;
-  const conditionDifference = left.condition.localeCompare(right.condition, "ja", {
-    numeric: true,
-    sensitivity: "base",
-  });
-  if (conditionDifference !== 0) return conditionDifference * multiplier;
-
-  const storeDifference = (left.storeName ?? "").localeCompare(right.storeName ?? "", "ja", {
-    numeric: true,
-    sensitivity: "base",
-  });
-  if (storeDifference !== 0) return storeDifference * multiplier;
-
-  return (left.price - right.price) * multiplier;
 }
 
 function formatSource(sourceType: string): string {
