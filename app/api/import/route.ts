@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { replaceAlternateConditionItems } from "@/lib/alternate-condition-items";
 import { productImportQueue } from "@/lib/product-import-queue";
 import { stageProductSnapshot } from "@/lib/product-import-sessions";
 import {
@@ -39,7 +40,7 @@ export async function POST(request: Request) {
     }
 
     const normalizedUrl = normalizeSurugayaUrl(url);
-    const fetched = parseProductHtml(html);
+    const fetched = replaceAlternateConditionItems(html, parseProductHtml(html));
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
