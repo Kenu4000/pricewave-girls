@@ -9,9 +9,11 @@ type CrawlProduct = {
   crawlPriority: "daily" | "rotation";
 };
 const policy = require("../browser-extension/crawl-policy.js") as {
+  POPULAR_SNAPSHOT_REFRESH_DAYS: number;
   MIN_PRODUCT_START_INTERVAL_MS: number;
   MAX_PRODUCT_START_INTERVAL_MS: number;
   calculateProductStartInterval(productCount: number): number;
+  shouldRefreshPopularSnapshot(lastAttemptDateKey: string | null, value: Date | number): boolean;
   rotationBucket(value: Date | number): number;
   selectScheduledProducts(
     products: CrawlProduct[],
@@ -58,6 +60,27 @@ test("商品が少ない場合もサービスワーカー維持のため25秒を
     policy.calculateProductStartInterval(100),
     policy.MAX_PRODUCT_START_INTERVAL_MS,
   );
+});
+
+test("人気順スナップショットは取得後2日間再取得しない", () => {
+  assert.equal(policy.POPULAR_SNAPSHOT_REFRESH_DAYS, 3);
+  assert.equal(
+    policy.shouldRefreshPopularSnapshot("2026-08-05", new Date(2026, 7, 5, 23, 0, 0)),
+    false,
+  );
+  assert.equal(
+    policy.shouldRefreshPopularSnapshot("2026-08-05", new Date(2026, 7, 7, 23, 0, 0)),
+    false,
+  );
+});
+
+test("人気順スナップショットは3日後に再取得する", () => {
+  assert.equal(
+    policy.shouldRefreshPopularSnapshot("2026-08-05", new Date(2026, 7, 8, 0, 0, 0)),
+    true,
+  );
+  assert.equal(policy.shouldRefreshPopularSnapshot(null, new Date(2026, 7, 8)), true);
+  assert.equal(policy.shouldRefreshPopularSnapshot("不正な日付", new Date(2026, 7, 8)), true);
 });
 
 test("毎日対象を必ず含め、その他は当日の3分割だけを含める", () => {
