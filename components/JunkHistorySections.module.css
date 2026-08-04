@@ -1,0 +1,91 @@
+.panel {
+  padding: 0 18px 18px;
+}
+
+.summary {
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  padding: 16px 0;
+}
+
+.summary h2 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.sections {
+  display: grid;
+  gap: 22px;
+}
+
+.sectionHeader {
+  align-items: baseline;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.sectionHeader h3 {
+  font-size: 0.98rem;
+  margin: 0;
+}
+
+.sortButton {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-weight: 800;
+  gap: 5px;
+  padding: 0;
+}
+
+.sortButton:hover,
+.sortButton:focus-visible {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.dateCell {
+  color: var(--muted);
+  min-width: 10.5rem;
+  white-space: nowrap;
+}
+
+.sourceCell,
+.storeCell,
+.priceCell {
+  white-space: nowrap;
+}
+
+.conditionCell {
+  min-width: 16rem;
+}
+
+.groupEnd td {
+  border-bottom: 2px solid color-mix(in srgb, var(--border) 72%, var(--primary));
+}
+
+.empty {
+  color: var(--muted);
+  margin: 0;
+  padding: 10px 0 4px;
+}
+
+@media (max-width: 720px) {
+  .panel {
+    padding-inline: 14px;
+  }
+
+  .dateCell {
+    min-width: 9.5rem;
+  }
+}
