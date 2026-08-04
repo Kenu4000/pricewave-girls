@@ -9,7 +9,9 @@ import {
 
 export const runtime = "nodejs";
 
-const MAX_HTML_SIZE = 5 * 1024 * 1024;
+// The Edge extension embeds the marketplace listing in the product HTML before
+// import, so pages with many shop offers can exceed the former 5 MiB limit.
+const MAX_HTML_SIZE = 12 * 1024 * 1024;
 
 export async function POST(request: Request) {
   try {
@@ -31,7 +33,7 @@ export async function POST(request: Request) {
 
     if (html.length > MAX_HTML_SIZE) {
       return NextResponse.json(
-        { error: "商品ページのデータが大きすぎます" },
+        { error: "商品ページと他ショップ一覧のデータが大きすぎます" },
         { status: 413 },
       );
     }
