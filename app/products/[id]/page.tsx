@@ -6,8 +6,8 @@ import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
 
-function formatPrice(price: number | null) {
-  return price === null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
+function formatPrice(price: number | null | undefined) {
+  return price == null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
 }
 
 function formatStockStatus(status: string | null) {
@@ -21,11 +21,11 @@ function formatStockStatus(status: string | null) {
   }
 }
 
-function formatReleaseDate(date: string | null) {
+function formatReleaseDate(date: string | null | undefined) {
   return date ? date.replace(/-/g, "/") : "未取得";
 }
 
-function parseProductDetails(rawDetails: string | null): Array<[string, string]> {
+function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
   if (!rawDetails) {
     return [];
   }

@@ -35,7 +35,7 @@ Node.js 20.9以上を使用します。
 
 ```bash
 npm install
-npx prisma migrate dev
+npm run prisma:migrate
 npm run dev
 ```
 

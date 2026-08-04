@@ -61,8 +61,8 @@ const SORT_ORDERS = {
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
-function formatPrice(price: number | null) {
-  return price === null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
+function formatPrice(price: number | null | undefined) {
+  return price == null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
 }
 
 function formatStockStatus(status: string | null) {
@@ -76,7 +76,7 @@ function formatStockStatus(status: string | null) {
   }
 }
 
-function formatReleaseDate(date: string | null) {
+function formatReleaseDate(date: string | null | undefined) {
   return date ? date.replace(/-/g, "/") : null;
 }
 
