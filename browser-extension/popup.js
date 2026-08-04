@@ -51,7 +51,7 @@ async function importCurrentPage() {
     const result = await response.json();
 
     if (!response.ok || !result.id) {
-      throw new Error(result.error || "PriceWaveへの記録に失敗しました。");
+      throw new Error(result.error || "駿河屋価格トラッキングへの記録に失敗しました。");
     }
 
     showStatus("販売価格・買取価格・在庫状態を記録しました。", "success");
@@ -60,7 +60,7 @@ async function importCurrentPage() {
   } catch (error) {
     const message =
       error instanceof TypeError
-        ? "PriceWaveに接続できません。先に npm.cmd run dev を実行してください。"
+        ? "駿河屋価格トラッキングに接続できません。先に npm.cmd run dev を実行してください。"
         : error instanceof Error
           ? error.message
           : "取込に失敗しました。";

@@ -3,8 +3,8 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PriceWave Girls",
-  description: "個人利用向けの駿河屋PCゲーム価格記録Webアプリ",
+  title: "駿河屋価格トラッキング",
+  description: "個人利用向けの駿河屋価格記録Webアプリ",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -14,7 +14,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <main className="container">
           <header className="header">
             <Link className="brand" href="/products">
-              PriceWave Girls
+              駿河屋価格トラッキング
             </Link>
             <nav className="nav" aria-label="メインナビゲーション">
               <Link className="button secondary" href="/products">
