@@ -1,6 +1,6 @@
-const RANKED_DAILY_BRANDS = `
+const DAILY_BRANDS = `
 ALICESOFT
-戯画(解散)
+戯画
 Key
 NitroPlus
 Leaf
@@ -11,35 +11,35 @@ Purple software
 ゆずソフト
 Navel
 AUGUST
-âge(age)
+âge / age
 CIRCUS
 ぱれっと
 PULLTOP
-elf(解散)
-Whirlpool(解散)
-light(解散)
+elf
+Whirlpool
+light
 SAGA PLANETS
-Liar-soft(ビジネスパートナー)
+Liar-soft
 TYPE-MOON
 ねこねこソフト
 エウシュリー
-minori(解散)
-HOOKSOFT(HOOK)
+minori
+HOOKSOFT / HOOK
 Lump of Sugar
-CandySoft(きゃんでぃそふと)
+CandySoft / きゃんでぃそふと
 ASa Project
 FAVORITE
 CLOCKUP
 SMEE
-D.O.(ディーオー)(解散)
+D.O. / ディーオー
 Waffle
 枕
 ALcot
-ソフトハウスキャラ(解散)
+ソフトハウスキャラ
 UNiSONSHIFT:Blossom
-XUSE(解散)
+XUSE
 ensemble
-feng(解散)
+feng
 ALcotハニカム
 F&C
 みなとそふと
@@ -52,123 +52,124 @@ Clochette
 キャラメルBOX
 Escu:de
 ま～まれぇど
-KID(解散)
-しゃんぐりら(解散)
-AXL(解散)
-OVERDRIVE(解散)
+KID
+しゃんぐりら
+AXL
+OVERDRIVE
 あざらしそふと
 BaseSon
-MAGES.(5pb.)
-あっぷりけ(解散)
+MAGES. / 5pb.
+あっぷりけ
 あかべぇそふとすりぃ
 きゃべつそふと
 まどそふと
 ωstar
 MOONSTONE
 ういんどみる
-Chuablesoft(解散)
-すたじお緑茶(解散)
+Chuablesoft
+すたじお緑茶
 CRYSTALiA
 sprite
 Qruppo
 CUBE
 ぱじゃまソフト
-Lass(解散)
-ILLUSION(Dreams)(解散)
+Lass
+ILLUSION / Dreams
 Black Lilith
 TinkerBell
-FLAT(解散)
-コットンソフト(解散)
+FLAT
+コットンソフト
 Studio e.go!
-softhouse-seal(解散)
+softhouse-seal
 HARUKAZE
-FlyingShine(解散)
+FlyingShine
 AQUAPLUS
-May-Be Soft(有限会社リエーブル)(解散)
-rúf(ruf)(解散)
+May-Be Soft / 有限会社リエーブル
+rúf / ruf
 HERMIT
-hibiki works(暁WORKS響SIDE)
+hibiki works / 暁WORKS響SIDE
 インレ
-CROSS NET(解散)
+CROSS NET
 カクテル・ソフト
 BISHOP
-シルキーズ(解散)
+シルキーズ
 Laplacian
-RUNE(解散)
+RUNE
 Miel
-C’s ware(解散)
+C’s ware
 Liquid
-アパタイト
 ういんどみるOasis
 シルキーズプラスWASABI
 わるきゅ～れ
-Littlewitch(解散)
-Selen(解散)
+Littlewitch
+Selen
 ルネ
 Norn
 Guilty
-SQUEEZ(解散)
+SQUEEZ
 Overflow
 ウグイスカグラ
 tone work's
 Hulotte
 Studio Mebius
-DualTail(DualMage)
-ハイクオソフト(解散)
-すみっこソフト(解散)
+DualTail / DualMage
+ハイクオソフト
+すみっこソフト
 JANIS
 Triangle
 アイル
 工画堂スタジオ
-BasiL(解散)
-アトリエさくら Team.NTR(解散)
+BasiL
+アトリエさくら Team.NTR
 etude
 アストロノーツ・シリウス
-ZERO(解散)
-Meteor(解散)
+ZERO
+Meteor
 Campus
 Frill
 Le.Chocolat
 脳内彼女
 KISS
-Mink(解散)
-130cm(解散)
+Mink
+130cm
 Sphere
 Tactics
 PROTOTYPE
-GungHo Works(Interchannel、NECインターチャネル)(解散)
+GungHo Works
+Interchannel
+NECインターチャネル
 フェアリーテール
 3rdEye
-softhouse-seal GRANDEE(解散)
-WHITESOFT(解散)
+softhouse-seal GRANDEE
+WHITESOFT
 UNiSONSHIFT
 LiLiTH
-Tarte(解散)
-たぬきそふと(解散)
+Tarte
+たぬきそふと
 シルキーズプラスDOLCE
 でぼの巣製作所
-てぃ～ぐる(解散)
-Ricotta(解散)
+てぃ～ぐる
+Ricotta
 ROOT
 BLACKRAINBOW
 Anim
-13cm(解散)
+13cm
 SkyFish
 みなとカーニバル
 CUFFS
-GROOVER(解散)
-MBS Truth(解散)
+GROOVER
+MBS Truth
 ANIPLEX.EXE
 MOONSTONE Cherry
 エンターグラム
-すたじおみりす(解散)
-ZyX(解散)
+すたじおみりす
+ZyX
 Cabbit
-Lose(解散)
-Active(解散)
-Devil-seal(解散)
-高屋敷開発(解散)
-G.J?(解散)
+Lose
+Active
+Devil-seal
+高屋敷開発
+G.J?
 Lillian
 スミレ
 Jellyfish
@@ -176,51 +177,38 @@ COSMIC CUTE
 裸足少女
 BLUE GALE
 INTERHEART
-S.M.L(解散)
+S.M.L
 Ciel
-TOPCAT(解散)
+TOPCAT
 ブルームハンドル
 Terios
-Alchemist(解散)
-RusK(解散)
+Alchemist
+RusK
 スパイク・チュンソフト
 ETERNAL
-プレカノ(解散)
+プレカノ
 つるみく
-ちぇりーそふと(解散)
-TerraLunar(解散)
+ちぇりーそふと
+TerraLunar
 mirai
-角川書店(解散)
+角川書店
 CRAFTWORK
-アボガドパワーズ(解散)
-Rosebleu(解散)
+アボガドパワーズ
+Rosebleu
 UNiSONSHIFT Accent.
-トラヴュランス(解散)
+トラヴュランス
 Hearts
-FlyingShine黒(解散)
-ACTRESS
-Noesis(解散)
-SPEED
-LiLiM DARKNESS
-TEATIME(解散)
-ANIME LiLiTH
-Marron(解散)
-Parasol
 SORAHANE
-あっぷりけ -妹-(解散)
-pure more(解散)
+あっぷりけ -妹-
 マリン
-Silver Bullet(解散)
+Silver Bullet
 エレクトリップ
-Survive(解散)
-DreamSoft(F&C FC03)(解散)
+Survive
+DreamSoft / F&C FC03
 Azurite
 ninetail
-SEGA(セガゲームス)
-ALL-TiME(解散)
+ALL-TiME
 raiL-soft
-Clear(解散)
-KONAMI
 U・Me SOFT
 NanaWind
 WINTERS
@@ -229,231 +217,25 @@ GLOVETY
 DESSERT Soft
 あざらしそふと+1
 CROWD
-たまソフト(解散)
-PeasSoft(解散)
+たまソフト
+PeasSoft
 CYCLET
 シルキーズプラスA5和牛
 はむはむソフト
-Us:track
-boot UP!
-Argonauts
-Sugar pot
 KAI
-コンプリーツ
 Qoo brand
+NEXTON
 `;
 
-const POPULAR_PAGE_DAILY_BRANDS = `
-CIRCUS
-CLIP☆CRAFT
-Code：jp
-Creative Mediations
-D4エンタープライズ
-Daisy2
-Daisy2（デイジーデイジー）
-DMM GAMES
-Dual Tail
-ensemble
-Flying Dog
-GLOVETY
-KADOKAWA
-Key
-KISS
-light
-Lump of Sugar×スミレ
-LunaSystem
-MAGES.
-Nitro+
-Nitro+CHiRAL
-novamicus
-OVERDRIVE
-Primula
-PULLTOP
-Rabbitfoot
-Rabbitfoot DR
-RaRo
-Sea Side Communications
-SEA SIDE COMMUNICATIONS
-SMEE
-sprite
-SukeraSparo
-TOKYOTOON
-VISUAL ARTS Scripts
-windose
-Yostar
-Zerodiv
-アイディアファクトリー
-アクアプラス
-あっぷりけ
-アンバランス
-インプレス
-エンターグラム
-キラキラモンスターズ
-きりたに本舗
-グッドスマイルカンパニー
-クリアワールド・プロジェクト
-シーサイドコミュニケーション
-システムソフト・アルファー
-システムソフト・ベータ
-しらたまこ
-シルキーズプラス WASABI
-シルバースタージャパン
-ソニー・ミュージックソリューションズ
-ダズカラット
-タブリエ・コミュニケーションズ
-ニトロプラス
-ねこねこソフト
-ぱれっと
-ビジュアルアーツ
-ブシロード
-ブロッコリー
-フロントウィング
-フロントウイング
-フロントウイング／ブシロード
-ホビボックス
-まふぃん
-メビウス
-ラジオ関西
-音泉
-角川ゲームス/KADOKAWA
-工画堂スタジオ
-晋遊舎
-日経BP社
-ALICESOFT
-AMUSE CRAFT EROTICA
-ANIM
-ANIM Mother＆Wife
-ANIM.teamMM
-aNTIQ
-Archive
-Argonauts
-aromarie
-ASa Project
-BEEP
-BISHOP
-Calcite
-catwalkNERO
-CHAOS-L
-CHAOS-R
-CHAOS-R EXTREME
-CHAOS-R feat.FreakStrike
-CIRCUS
-CLIP☆CRAFT
-CLOCKUP
-CloverGAME
-CLOWN
-CRYSTALiA
-Cuteuphoria
-Dark Crawl
-DESSERT Soft
-Dual Tail
-Empress
-ensemble
-ensemble SWEET
-FAVORITE
-FG REMAKE
-Frill
-FuriKuru
-Guilty
-Guiltｙ
-Guilty Nightmare Project
-Guilty’Dash
-Heliodor
-Hending
-HERMIT
-HOOKSOFT
-IRODORI
-KarinProject
-kelp
-KISS
-Le-Ciel
-LiLiM DARKNESS
-Liquid(リキッド)
-Lump of Sugar
-Lusterise
-MELLOW
-Miel
-monoceros+
-MOONSTONE
-MOONSTONE Cherry
-Nameless
-NANACAN WHITE
-NanaWind
-PULLTOP LATTE
-Qruppo
-ROOT
-ruf
-SMEE
-Tily
-TinkerBell
-Triangle
-TRYSET
-TRYSET Break
-U・Me SOFT
-WAFFLE
-WendyBell
-Whirlpool
-ZION
-あかべぇそふとつぅ
-あざらしそふと
-あざらしそふと+1
-アストロノーツ・シリウス
-あっぷりけ
-アトリエかぐや
-アトリエかぐや BARE＆BUNNY
-アトリエかぐや CheshireCat
-アトリエかぐや Honky-Tonk Pumpkin
-アパタイト
-アンモライト
-エウシュリー
-エスクード
-えどわ～る
-エロイット
-オーバーフロー
-ガールズソフトウェア
-くまのみそふと
-ケロQ
-コアマガジン
-しばそふと
-シルキーズプラス
-シルキーズプラス WASABI
-しろくまだんご
-スタジオ奪
-スタジオ奪トランス
-スタジオ奪ルージュ
-だーくニャー!
-だーくワン!
-つるみく
-でぼの巣製作所
-とこはな
-パープルソフトウェア
-はむはむソフト
-ぱれっと
-フェアリーテール/BEEP
-フライングシャイン黒
-ブルーゲイル
-ブルゲLIGHT
-ベスコレ
-ま～まれぇど
-ミィティ
-みるくふぁくとりー
-ミルフィーユ
-むらさきポケット
-ももいろPocket
-ももはなソフト
-ゆかりソフト
-ゆずソフト
-ユニゾンシフト
-ライアーソフト
-わるきゅ～れ
-暁WORKS
-自宅すたじお
-枕
-`;
-
-const EXCLUDED_RANKING_MARKER = /(?:\(|（)同人(?:\)|）)/u;
-const NOTE_PATTERN = /^(?:解散|同人|ビジネスパートナー)$/u;
-const BRAND_DETAIL_LABELS = new Set(["メーカー", "ブランド", "ブランド名", "発売元", "販売元", "開発元"]);
+const DAILY_PRODUCT_TITLES = ["CROSS†CHANNEL"] as const;
+const BRAND_DETAIL_LABELS = new Set([
+  "メーカー",
+  "ブランド",
+  "ブランド名",
+  "発売元",
+  "販売元",
+  "開発元",
+]);
 
 function sourceLines(source: string): string[] {
   return source
@@ -466,7 +248,7 @@ export function normalizeCrawlBrand(value: string): string {
   return value
     .normalize("NFKC")
     .toLocaleLowerCase("en")
-    .replace(/[\s\u3000・･._\-‐‑–—:：'’`´"“”!?！？☆★+＋/／\\&＆×]/gu, "");
+    .replace(/[\s\u3000・･._\-‐‑–—:：'’`´"“”!?！？☆★+＋/／\\&＆×†]/gu, "");
 }
 
 function brandAliases(value: string): string[] {
@@ -481,28 +263,17 @@ function brandAliases(value: string): string[] {
   const parentheticalContents = [...value.matchAll(/[（(]([^()（）]+)[）)]/gu)].map(
     (match) => match[1].trim(),
   );
-  for (const content of parentheticalContents) {
-    if (!NOTE_PATTERN.test(content)) add(content);
-  }
+  for (const content of parentheticalContents) add(content);
 
-  const withoutNotes = value.replace(/[（(]([^()（）]+)[）)]/gu, (whole, content: string) =>
-    NOTE_PATTERN.test(content.trim()) ? "" : whole,
-  );
-  add(withoutNotes);
-
-  for (const candidate of [value, withoutNotes, ...parentheticalContents]) {
+  for (const candidate of [value, ...parentheticalContents]) {
     for (const part of candidate.split(/[／/×、]/u)) add(part);
   }
 
   return [...aliases];
 }
 
-const DAILY_BRAND_KEYS = new Set(
-  [
-    ...sourceLines(RANKED_DAILY_BRANDS).filter((brand) => !EXCLUDED_RANKING_MARKER.test(brand)),
-    ...sourceLines(POPULAR_PAGE_DAILY_BRANDS),
-  ].flatMap(brandAliases),
-);
+const DAILY_BRAND_KEYS = new Set(sourceLines(DAILY_BRANDS).flatMap(brandAliases));
+const DAILY_PRODUCT_TITLE_KEYS = DAILY_PRODUCT_TITLES.map(normalizeCrawlBrand);
 
 function parseDetails(rawDetails: string | null | undefined): Record<string, string> {
   if (!rawDetails) return {};
@@ -542,13 +313,21 @@ export function isDailyCrawlBrand(candidates: string[]): boolean {
   );
 }
 
+export function isDailyCrawlProductTitle(title: string | null | undefined): boolean {
+  const normalizedTitle = normalizeCrawlBrand(title ?? "");
+  return DAILY_PRODUCT_TITLE_KEYS.some((key) => normalizedTitle.includes(key));
+}
+
 export function crawlPriorityForProduct(
+  title: string | null | undefined,
   manufacturer: string | null | undefined,
   detailsJson: string | null | undefined,
 ): "daily" | "rotation" {
+  if (isDailyCrawlProductTitle(title)) return "daily";
   return isDailyCrawlBrand(productBrandCandidates(manufacturer, detailsJson))
     ? "daily"
     : "rotation";
 }
 
 export const dailyCrawlBrandKeyCount = DAILY_BRAND_KEYS.size;
+export const dailyCrawlProductTitleCount = DAILY_PRODUCT_TITLE_KEYS.length;
