@@ -1,4 +1,5 @@
 import { AsyncBatcher } from "@/lib/async-batcher";
+import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import {
   upsertProductSnapshots,
   type ProductSnapshotInput,
@@ -18,6 +19,7 @@ export const productImportQueue =
     flushDelayMs: IMPORT_FLUSH_DELAY_MS,
     processBatch: async (inputs) => {
       const products = await upsertProductSnapshots(inputs);
+      await pruneProductPriceHistories(products.map((product) => product.id));
       return products.map((product) => product.id);
     },
   });
