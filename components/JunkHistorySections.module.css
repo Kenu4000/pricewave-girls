@@ -22,36 +22,46 @@
 }
 
 .sectionHeader {
-  align-items: baseline;
+  align-items: end;
   display: flex;
-  gap: 10px;
+  gap: 14px;
   justify-content: space-between;
   margin-bottom: 8px;
 }
 
-.sectionHeader h3 {
+.sectionTitle {
+  align-items: baseline;
+  display: flex;
+  gap: 10px;
+}
+
+.sectionTitle h3 {
   font-size: 0.98rem;
   margin: 0;
 }
 
-.sortButton {
+.filterControl {
   align-items: center;
-  background: transparent;
-  border: 0;
-  color: inherit;
-  cursor: pointer;
-  display: inline-flex;
-  font: inherit;
-  font-weight: 800;
-  gap: 5px;
-  padding: 0;
+  display: flex;
+  gap: 8px;
 }
 
-.sortButton:hover,
-.sortButton:focus-visible {
-  color: var(--primary-dark);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.filterControl span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.filterControl select {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  color: inherit;
+  font: inherit;
+  font-size: 0.82rem;
+  max-width: min(28rem, 48vw);
+  padding: 7px 30px 7px 9px;
 }
 
 .dateCell {
@@ -83,6 +93,22 @@
 @media (max-width: 720px) {
   .panel {
     padding-inline: 14px;
+  }
+
+  .sectionHeader {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .filterControl {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .filterControl select {
+    max-width: none;
+    width: 100%;
   }
 
   .dateCell {
