@@ -18,6 +18,25 @@ function pricewaveWaitForDocumentRoot() {
   });
 }
 
+function pricewaveWaitForDocumentReady() {
+  if (document.readyState !== "loading") return Promise.resolve();
+  return new Promise((resolve) => {
+    document.addEventListener("DOMContentLoaded", resolve, { once: true });
+  });
+}
+
+function pricewaveHasOtherShopOffers(productId) {
+  const expectedPath = `/product/other/${productId}`;
+  const hasLink = [...document.querySelectorAll("a[href]")].some((anchor) => {
+    try {
+      return new URL(anchor.getAttribute("href"), window.location.href).pathname === expectedPath;
+    } catch {
+      return false;
+    }
+  });
+  return hasLink || /他のショップ/.test(document.body?.innerText || "");
+}
+
 function pricewaveWaitForFrame(frame) {
   return new Promise((resolve, reject) => {
     const timeout = setTimeout(() => {
@@ -58,6 +77,12 @@ async function pricewaveCaptureOtherShops() {
   marker.hidden = true;
   marker.dataset.state = "loading";
   root.append(marker);
+
+  await pricewaveWaitForDocumentReady();
+  if (!pricewaveHasOtherShopOffers(productId)) {
+    marker.dataset.state = "not_applicable";
+    return;
+  }
 
   const frame = document.createElement("iframe");
   frame.hidden = true;
