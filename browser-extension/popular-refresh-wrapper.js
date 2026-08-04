@@ -53,8 +53,8 @@ chrome.storage.local.get = async (...args) => {
       : null;
   const lastAttemptDate =
     stored.popularDailyProductAttemptDate ||
-    stored.popularDailyProductDate ||
-    inferredFailedAttemptDate;
+    inferredFailedAttemptDate ||
+    stored.popularDailyProductDate;
 
   if (!policy.shouldRefreshPopularSnapshot(lastAttemptDate, new Date())) {
     stored.popularDailyProductDate = localDateKey();
