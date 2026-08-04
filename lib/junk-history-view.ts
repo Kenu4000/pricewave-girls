@@ -51,7 +51,9 @@ export function listJunkHistoryConditions(groups: JunkHistoryViewGroup[]): strin
   for (const group of groups) {
     for (const item of group.items) {
       const key = normalizeIdentityText(item.condition);
-      if (!conditions.has(key)) conditions.set(key, item.condition);
+      if (!conditions.has(key)) {
+        conditions.set(key, normalizeConditionDisplay(item.condition));
+      }
     }
   }
 
@@ -152,6 +154,10 @@ function itemIdentity(item: JunkHistoryViewItem): string {
     normalizeIdentityText(item.condition),
     String(item.price),
   ].join("\u0000");
+}
+
+function normalizeConditionDisplay(value: string): string {
+  return value.replace(/[\u00a0\u3000]/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function normalizeIdentityText(value: string): string {
