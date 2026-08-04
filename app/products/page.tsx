@@ -20,8 +20,29 @@ const SORT_OPTIONS = [
 ] as const;
 
 const PAGE_SIZES = [24, 48, 96] as const;
+const STOCK_OPTIONS = [
+  { value: "", label: "すべて" },
+  { value: "in_stock", label: "在庫あり" },
+  { value: "out_of_stock", label: "在庫なし" },
+  { value: "unknown", label: "在庫不明" },
+] as const;
 type SortKey = (typeof SORT_OPTIONS)[number]["value"];
 type PageSize = (typeof PAGE_SIZES)[number];
+type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
+
+type ProductFilters = {
+  name: string;
+  manufacturer: string;
+  category: string;
+  details: string;
+  releaseFrom: string;
+  releaseTo: string;
+  saleMin: string;
+  saleMax: string;
+  buyMin: string;
+  buyMax: string;
+  stock: StockFilter;
+};
 
 const SORT_ORDERS = {
   "updated-desc": [{ updatedAt: "desc" }, { id: "desc" }],
@@ -100,8 +121,119 @@ function parsePageSize(value: string | undefined): PageSize {
   return PAGE_SIZES.includes(parsed as PageSize) ? (parsed as PageSize) : 24;
 }
 
-function listUrl(page: number, sort: SortKey, perPage: PageSize): string {
+function parseText(value: string | undefined): string {
+  return value?.trim().slice(0, 200) ?? "";
+}
+
+function parseDate(value: string | undefined): string {
+  const parsed = parseText(value);
+  return /^\d{4}-\d{2}-\d{2}$/.test(parsed) ? parsed : "";
+}
+
+function parsePrice(value: string | undefined): string {
+  const normalized = value?.trim() ?? "";
+  if (!normalized) return "";
+
+  const parsed = Number(normalized);
+  return Number.isSafeInteger(parsed) && parsed >= 0 ? String(parsed) : "";
+}
+
+function parseStock(value: string | undefined): StockFilter {
+  return STOCK_OPTIONS.some((option) => option.value === value)
+    ? (value as StockFilter)
+    : "";
+}
+
+function parseFilters(query: Record<string, string | string[] | undefined>): ProductFilters {
+  return {
+    name: parseText(firstValue(query.name)),
+    manufacturer: parseText(firstValue(query.manufacturer)),
+    category: parseText(firstValue(query.category)),
+    details: parseText(firstValue(query.details)),
+    releaseFrom: parseDate(firstValue(query.releaseFrom)),
+    releaseTo: parseDate(firstValue(query.releaseTo)),
+    saleMin: parsePrice(firstValue(query.saleMin)),
+    saleMax: parsePrice(firstValue(query.saleMax)),
+    buyMin: parsePrice(firstValue(query.buyMin)),
+    buyMax: parsePrice(firstValue(query.buyMax)),
+    stock: parseStock(firstValue(query.stock)),
+  };
+}
+
+function hasActiveFilters(filters: ProductFilters): boolean {
+  return Object.values(filters).some(Boolean);
+}
+
+function buildProductWhere(filters: ProductFilters): Prisma.ProductWhereInput {
+  const conditions: Prisma.ProductWhereInput[] = [];
+
+  if (filters.name) {
+    conditions.push({ title: { contains: filters.name } });
+  }
+  if (filters.manufacturer) {
+    conditions.push({ manufacturer: filters.manufacturer });
+  }
+  if (filters.category) {
+    conditions.push({ category: filters.category });
+  }
+  if (filters.details) {
+    conditions.push({
+      OR: [
+        { manufacturer: { contains: filters.details } },
+        { category: { contains: filters.details } },
+        { modelNumber: { contains: filters.details } },
+        { managementNumber: { contains: filters.details } },
+        { detailsJson: { contains: filters.details } },
+      ],
+    });
+  }
+  if (filters.releaseFrom || filters.releaseTo) {
+    conditions.push({
+      releaseDate: {
+        ...(filters.releaseFrom ? { gte: filters.releaseFrom } : {}),
+        ...(filters.releaseTo ? { lte: filters.releaseTo } : {}),
+      },
+    });
+  }
+  if (filters.saleMin || filters.saleMax) {
+    conditions.push({
+      latestSalePrice: {
+        ...(filters.saleMin ? { gte: Number(filters.saleMin) } : {}),
+        ...(filters.saleMax ? { lte: Number(filters.saleMax) } : {}),
+      },
+    });
+  }
+  if (filters.buyMin || filters.buyMax) {
+    conditions.push({
+      latestBuyPrice: {
+        ...(filters.buyMin ? { gte: Number(filters.buyMin) } : {}),
+        ...(filters.buyMax ? { lte: Number(filters.buyMax) } : {}),
+      },
+    });
+  }
+  if (filters.stock === "unknown") {
+    conditions.push({ OR: [{ stockStatus: "unknown" }, { stockStatus: null }] });
+  } else if (filters.stock) {
+    conditions.push({ stockStatus: filters.stock });
+  }
+
+  return conditions.length > 0 ? { AND: conditions } : {};
+}
+
+function addFilterParams(params: URLSearchParams, filters: ProductFilters) {
+  for (const [key, value] of Object.entries(filters)) {
+    if (value) params.set(key, value);
+  }
+}
+
+function listUrl(
+  page: number,
+  sort: SortKey,
+  perPage: PageSize,
+  filters: ProductFilters,
+): string {
   const params = new URLSearchParams({ sort, perPage: String(perPage) });
+  addFilterParams(params, filters);
   if (page > 1) {
     params.set("page", String(page));
   }
@@ -122,10 +254,29 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
   const sort = parseSort(firstValue(query.sort));
   const perPage = parsePageSize(firstValue(query.perPage));
   const requestedPage = parsePositiveInteger(firstValue(query.page), 1);
-  const totalProducts = await prisma.product.count();
+  const filters = parseFilters(query);
+  const where = buildProductWhere(filters);
+  const filtersActive = hasActiveFilters(filters);
+  const [totalProducts, allProducts, manufacturerRows, categoryRows] = await Promise.all([
+    prisma.product.count({ where }),
+    prisma.product.count(),
+    prisma.product.findMany({
+      where: { manufacturer: { not: null } },
+      select: { manufacturer: true },
+      distinct: ["manufacturer"],
+      orderBy: { manufacturer: "asc" },
+    }),
+    prisma.product.findMany({
+      where: { category: { not: null } },
+      select: { category: true },
+      distinct: ["category"],
+      orderBy: { category: "asc" },
+    }),
+  ]);
   const totalPages = Math.max(1, Math.ceil(totalProducts / perPage));
   const currentPage = Math.min(requestedPage, totalPages);
   const products = await prisma.product.findMany({
+    where,
     orderBy: SORT_ORDERS[sort],
     skip: (currentPage - 1) * perPage,
     take: perPage,
@@ -133,6 +284,10 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
   });
   const firstShown = totalProducts === 0 ? 0 : (currentPage - 1) * perPage + 1;
   const lastShown = Math.min(currentPage * perPage, totalProducts);
+  const manufacturers = manufacturerRows.flatMap((row) =>
+    row.manufacturer ? [row.manufacturer] : [],
+  );
+  const categories = categoryRows.flatMap((row) => (row.category ? [row.category] : []));
 
   return (
     <section className="product-list-page">
@@ -140,12 +295,146 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         <div>
           <h1>商品一覧</h1>
           <p className="muted">
-            全{totalProducts.toLocaleString("ja-JP")}件中 {firstShown.toLocaleString("ja-JP")}〜
-            {lastShown.toLocaleString("ja-JP")}件を表示
+            {filtersActive ? (
+              <>
+                全{allProducts.toLocaleString("ja-JP")}件中、条件に一致する
+                {totalProducts.toLocaleString("ja-JP")}件
+              </>
+            ) : (
+              <>全{totalProducts.toLocaleString("ja-JP")}件</>
+            )}
+            {totalProducts > 0 ? (
+              <>
+                （{firstShown.toLocaleString("ja-JP")}〜{lastShown.toLocaleString("ja-JP")}件を表示）
+              </>
+            ) : null}
           </p>
         </div>
-        <form action="/products" className="list-controls">
-          <label>
+      </div>
+
+      <form action="/products" className="card filter-panel">
+        <div className="filter-grid">
+          <label className="filter-field filter-field-wide">
+            <span>商品名</span>
+            <input
+              className="input"
+              defaultValue={filters.name}
+              name="name"
+              placeholder="商品名の一部を入力"
+              type="search"
+            />
+          </label>
+          <label className="filter-field">
+            <span>メーカー</span>
+            <select className="select" defaultValue={filters.manufacturer} name="manufacturer">
+              <option value="">すべて</option>
+              {manufacturers.map((manufacturer) => (
+                <option key={manufacturer} value={manufacturer}>
+                  {manufacturer}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="filter-field">
+            <span>カテゴリ</span>
+            <select className="select" defaultValue={filters.category} name="category">
+              <option value="">すべて</option>
+              {categories.map((category) => (
+                <option key={category} value={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="filter-field filter-field-wide">
+            <span>型番・管理番号・その他詳細</span>
+            <input
+              className="input"
+              defaultValue={filters.details}
+              name="details"
+              placeholder="例: 原画、シナリオ、型番"
+              type="search"
+            />
+          </label>
+          <fieldset className="filter-field filter-field-wide">
+            <legend>発売日</legend>
+            <div className="range-fields">
+              <input
+                aria-label="発売日の開始日"
+                className="input"
+                defaultValue={filters.releaseFrom}
+                name="releaseFrom"
+                type="date"
+              />
+              <span>〜</span>
+              <input
+                aria-label="発売日の終了日"
+                className="input"
+                defaultValue={filters.releaseTo}
+                name="releaseTo"
+                type="date"
+              />
+            </div>
+          </fieldset>
+          <fieldset className="filter-field filter-field-wide">
+            <legend>販売価格</legend>
+            <div className="range-fields">
+              <input
+                aria-label="販売価格の下限"
+                className="input"
+                defaultValue={filters.saleMin}
+                min="0"
+                name="saleMin"
+                placeholder="下限"
+                type="number"
+              />
+              <span>〜</span>
+              <input
+                aria-label="販売価格の上限"
+                className="input"
+                defaultValue={filters.saleMax}
+                min="0"
+                name="saleMax"
+                placeholder="上限"
+                type="number"
+              />
+            </div>
+          </fieldset>
+          <fieldset className="filter-field filter-field-wide">
+            <legend>買取価格</legend>
+            <div className="range-fields">
+              <input
+                aria-label="買取価格の下限"
+                className="input"
+                defaultValue={filters.buyMin}
+                min="0"
+                name="buyMin"
+                placeholder="下限"
+                type="number"
+              />
+              <span>〜</span>
+              <input
+                aria-label="買取価格の上限"
+                className="input"
+                defaultValue={filters.buyMax}
+                min="0"
+                name="buyMax"
+                placeholder="上限"
+                type="number"
+              />
+            </div>
+          </fieldset>
+          <label className="filter-field">
+            <span>在庫状態</span>
+            <select className="select" defaultValue={filters.stock} name="stock">
+              {STOCK_OPTIONS.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="filter-field">
             <span>並び順</span>
             <select className="select" defaultValue={sort} name="sort">
               {SORT_OPTIONS.map((option) => (
@@ -155,7 +444,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               ))}
             </select>
           </label>
-          <label>
+          <label className="filter-field">
             <span>表示件数</span>
             <select className="select" defaultValue={perPage} name="perPage">
               {PAGE_SIZES.map((size) => (
@@ -165,16 +454,23 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               ))}
             </select>
           </label>
-          <button type="submit">表示を変更</button>
-        </form>
-      </div>
+        </div>
+        <div className="filter-actions">
+          <Link className="button secondary" href="/products">
+            条件をクリア
+          </Link>
+          <button type="submit">この条件で絞り込む</button>
+        </div>
+      </form>
 
       {products.length === 0 ? (
         <div className="card">
-          <p>まだ商品が登録されていません。</p>
-          <Link className="button" href="/add">
-            最初の商品を追加する
-          </Link>
+          <p>{filtersActive ? "条件に一致する商品がありません。" : "まだ商品が登録されていません。"}</p>
+          {filtersActive ? (
+            <Link className="button secondary" href="/products">
+              条件をクリア
+            </Link>
+          ) : null}
         </div>
       ) : (
         <>
@@ -218,7 +514,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               <Link
                 aria-disabled={currentPage === 1}
                 className={`page-link ${currentPage === 1 ? "disabled" : ""}`}
-                href={listUrl(Math.max(1, currentPage - 1), sort, perPage)}
+                href={listUrl(Math.max(1, currentPage - 1), sort, perPage, filters)}
               >
                 ← 前へ
               </Link>
@@ -226,7 +522,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                 <Link
                   aria-current={page === currentPage ? "page" : undefined}
                   className={`page-link ${page === currentPage ? "current" : ""}`}
-                  href={listUrl(page, sort, perPage)}
+                  href={listUrl(page, sort, perPage, filters)}
                   key={page}
                 >
                   {page}
@@ -235,7 +531,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
               <Link
                 aria-disabled={currentPage === totalPages}
                 className={`page-link ${currentPage === totalPages ? "disabled" : ""}`}
-                href={listUrl(Math.min(totalPages, currentPage + 1), sort, perPage)}
+                href={listUrl(Math.min(totalPages, currentPage + 1), sort, perPage, filters)}
               >
                 次へ →
               </Link>

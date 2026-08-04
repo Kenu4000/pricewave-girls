@@ -14,8 +14,8 @@
 
 ## 初期実装の機能
 
-- 商品URL登録（`/add`）
 - 商品一覧表示（`/products`）
+- 商品名・メーカー・カテゴリ・型番・管理番号・発売日・価格・在庫状態による絞り込み
 - 商品詳細表示（`/products/[id]`）
 - 販売価格・買取価格・在庫状態の履歴保存
 - Recharts による価格推移グラフ
@@ -42,7 +42,7 @@ npm run prisma:migrate
 npm run dev
 ```
 
-起動後、ブラウザで <http://localhost:3000> を開くと `/products` にリダイレクトされます。
+起動後、ブラウザで <http://localhost:3000> を開くと `/products` にリダイレクトされます。商品の登録と自動追加はEdge拡張機能から行います。
 
 Windowsでは、PCにインストール済みのMicrosoft Edgeを価格取得に使用します。Edgeを使用しない場合は、次のコマンドでPlaywright用Chromiumを追加してください。
 

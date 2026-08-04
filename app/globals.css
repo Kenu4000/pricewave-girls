@@ -51,11 +51,6 @@ img {
   letter-spacing: -0.03em;
 }
 
-.nav {
-  display: flex;
-  gap: 10px;
-}
-
 .button,
 button {
   align-items: center;
@@ -108,18 +103,51 @@ button:disabled {
   justify-content: space-between;
 }
 
-.list-controls {
-  align-items: end;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.filter-panel {
+  display: grid;
+  gap: 18px;
 }
 
-.list-controls label {
+.filter-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.filter-field {
+  border: 0;
   display: grid;
   font-size: 0.85rem;
   font-weight: 700;
   gap: 5px;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+.filter-field-wide {
+  grid-column: span 2;
+}
+
+.filter-field legend {
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.range-fields {
+  align-items: center;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+}
+
+.filter-actions {
+  align-items: center;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 16px;
 }
 
 .select {
@@ -129,6 +157,7 @@ button:disabled {
   color: var(--foreground);
   font-size: 0.95rem;
   padding: 10px 34px 10px 12px;
+  width: 100%;
 }
 
 .product-card {
@@ -431,9 +460,17 @@ td {
   }
 
   .list-heading,
-  .list-controls {
+  .filter-actions {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-field-wide {
+    grid-column: auto;
   }
 
   .import-activity {
