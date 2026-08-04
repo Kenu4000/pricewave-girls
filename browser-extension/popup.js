@@ -102,9 +102,9 @@ function renderAutoStatus(response) {
       : "";
 }
 
-async function loadAutoSettings() {
+async function loadAutoSettings(syncForm = true) {
   const response = await chrome.runtime.sendMessage({ type: "auto:get" });
-  if (response?.settings) {
+  if (syncForm && response?.settings) {
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
   }
@@ -152,7 +152,7 @@ runAllButton.addEventListener("click", runAllProducts);
 void loadAutoSettings();
 
 const statusTimer = setInterval(() => {
-  void loadAutoSettings();
+  void loadAutoSettings(false);
 }, 1_000);
 
 window.addEventListener("unload", () => clearInterval(statusTimer));
