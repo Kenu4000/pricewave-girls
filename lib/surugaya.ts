@@ -1,4 +1,5 @@
 import * as cheerio from "cheerio";
+import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 
 export type StockStatus = "in_stock" | "out_of_stock" | "unknown";
 
@@ -19,25 +20,14 @@ const SELECTORS = {
     ".product-image img",
     "img[itemprop='image']",
   ],
-  salePrice: [
-    "#price_info .text-price-detail",
-    ".text-price-detail",
-    ".price_teika",
-    ".price",
-    "[itemprop='price']",
-  ],
-  buyPrice: [
-    "#kaitori_price",
-    ".kaitori-price",
-    ".buying-price",
-    ".purchase-price",
-    "a[href*='kaitori']",
-  ],
-  stockText: ["#cart", ".stock", ".zaiko", ".item-detail-info", "body"],
 } as const;
 
-const USER_AGENT =
-  "Mozilla/5.0 (compatible; PriceWaveGirls/0.1; personal price checker) AppleWebKit/537.36";
+export class InvalidSurugayaUrlError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "InvalidSurugayaUrlError";
+  }
+}
 
 export function normalizePrice(text: string): number | null {
   const normalized = text.replace(/[０-９]/g, (char) =>
@@ -54,16 +44,25 @@ export function normalizePrice(text: string): number | null {
 
 export function detectStockStatus(html: string): StockStatus {
   const $ = cheerio.load(html);
-  const text = SELECTORS.stockText
-    .map((selector) => $(selector).text())
-    .join("\n")
-    .replace(/\s+/g, " ");
+  const text = normalizeText($("body").text());
+  const salePrice = extractSalePrice($);
 
-  if (/在庫なし|売り切れ|売切れ|品切れ|販売不可|入荷待ち/.test(text)) {
+  // In-stock pages include a generic warning saying that a physical shop may
+  // already be sold out. The cart and the current mail-order price therefore
+  // take priority over that warning.
+  if (salePrice !== null && /カートに入れる|購入する/.test(text)) {
+    return "in_stock";
+  }
+
+  if (
+    /申し訳ございません[。\s]*品切れ中です|在庫なし|売り切れ|売切れ|販売不可|入荷待ち/.test(
+      text,
+    )
+  ) {
     return "out_of_stock";
   }
 
-  if (/カートに入れる|在庫あり|在庫有り|購入する|販売中/.test(text)) {
+  if (salePrice !== null || /在庫あり|在庫有り|販売中/.test(text)) {
     return "in_stock";
   }
 
@@ -86,19 +85,12 @@ export function extractImageUrl(html: string): string | null {
 }
 
 export async function fetchProduct(url: string): Promise<FetchedProduct> {
-  const productUrl = validateSurugayaUrl(url);
-  const response = await fetch(productUrl, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    },
-  });
+  const productUrl = normalizeSurugayaUrl(url);
+  const html = await fetchSurugayaHtml(productUrl);
+  return parseProductHtml(html);
+}
 
-  if (!response.ok) {
-    throw new Error(`駿河屋ページの取得に失敗しました: ${response.status}`);
-  }
-
-  const html = await response.text();
+export function parseProductHtml(html: string): FetchedProduct {
   const $ = cheerio.load(html);
   const title = extractTitle($);
 
@@ -109,25 +101,34 @@ export async function fetchProduct(url: string): Promise<FetchedProduct> {
   return {
     title,
     imageUrl: extractImageUrl(html),
-    salePrice: extractPrice($, SELECTORS.salePrice, [/販売価格|中古|新品|税込/]),
-    buyPrice: extractPrice($, SELECTORS.buyPrice, [/買取価格|買取/]),
+    salePrice: extractSalePrice($),
+    buyPrice: extractBuyPrice($),
     stockStatus: detectStockStatus(html),
   };
 }
 
-function validateSurugayaUrl(rawUrl: string): string {
+export function normalizeSurugayaUrl(rawUrl: string): string {
   let parsed: URL;
   try {
     parsed = new URL(rawUrl);
   } catch {
-    throw new Error("有効なURLを入力してください");
+    throw new InvalidSurugayaUrlError("有効なURLを入力してください");
   }
 
-  if (!parsed.hostname.endsWith("suruga-ya.jp")) {
-    throw new Error("駿河屋の商品URLを入力してください");
+  const hostname = parsed.hostname.toLowerCase();
+  if (
+    !["http:", "https:"].includes(parsed.protocol) ||
+    (hostname !== "suruga-ya.jp" && !hostname.endsWith(".suruga-ya.jp"))
+  ) {
+    throw new InvalidSurugayaUrlError("駿河屋の商品URLを入力してください");
   }
 
-  return parsed.toString();
+  const productPath = parsed.pathname.match(/^\/product\/detail\/([0-9]+)\/?$/);
+  if (!productPath) {
+    throw new InvalidSurugayaUrlError("駿河屋の商品詳細URLを入力してください");
+  }
+
+  return `https://www.suruga-ya.jp/product/detail/${productPath[1]}`;
 }
 
 function extractTitle($: cheerio.CheerioAPI): string | null {
@@ -141,34 +142,37 @@ function extractTitle($: cheerio.CheerioAPI): string | null {
   return null;
 }
 
-function extractPrice(
-  $: cheerio.CheerioAPI,
-  selectors: readonly string[],
-  labelHints: RegExp[] = [],
-): number | null {
-  for (const selector of selectors) {
-    const candidates = $(selector)
-      .toArray()
-      .map((element) => $(element).text().replace(/\s+/g, " ").trim())
-      .filter(Boolean);
+function extractSalePrice($: cheerio.CheerioAPI): number | null {
+  const text = normalizeText($("body").text());
+  const saleBlocks = text.matchAll(/(?:中古|新品|予約)(.{0,160}?)(?:\(税込\)|（税込）)/g);
 
-    for (const text of candidates) {
-      if (labelHints.length > 0 && !labelHints.some((hint) => hint.test(text))) {
-        const price = normalizePrice(text);
-        if (price !== null) {
-          return price;
-        }
-        continue;
-      }
+  for (const match of saleBlocks) {
+    const block = match[1];
+    if (/他のショップ|送料|手数料/.test(block)) {
+      continue;
+    }
 
-      const price = normalizePrice(text);
-      if (price !== null) {
-        return price;
-      }
+    const prices = [...block.matchAll(/[¥￥]?\s*([0-9][0-9,]*)\s*円/g)]
+      .map((priceMatch) => Number.parseInt(priceMatch[1].replace(/,/g, ""), 10))
+      .filter(Number.isFinite);
+
+    if (prices.length > 0) {
+      // Time-sale pages show the regular price followed by the current price.
+      return prices.at(-1) ?? null;
     }
   }
 
   return null;
+}
+
+function extractBuyPrice($: cheerio.CheerioAPI): number | null {
+  const text = normalizeText($("body").text());
+  const match = text.match(/買取価格\s*[:：]?\s*[¥￥]?\s*([0-9][0-9,]*)\s*円/);
+  return match ? Number.parseInt(match[1].replace(/,/g, ""), 10) : null;
+}
+
+function normalizeText(text: string): string {
+  return text.replace(/[\u00a0\u3000]/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function toAbsoluteUrl(rawUrl: string | undefined): string | null {

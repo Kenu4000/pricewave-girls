@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
-import { fetchProduct } from "@/lib/surugaya";
+import {
+  fetchProduct,
+  InvalidSurugayaUrlError,
+  normalizeSurugayaUrl,
+} from "@/lib/surugaya";
+
+export const runtime = "nodejs";
 
 export async function POST(request: Request) {
   try {
@@ -11,7 +17,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "URLを入力してください" }, { status: 400 });
     }
 
-    const normalizedUrl = new URL(url).toString();
+    const normalizedUrl = normalizeSurugayaUrl(url);
     const fetched = await fetchProduct(normalizedUrl);
     const product = await prisma.product.upsert({
       where: { surugayaUrl: normalizedUrl },
@@ -49,6 +55,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ id: product.id }, { status: 201 });
   } catch (caught) {
     const message = caught instanceof Error ? caught.message : "商品の追加に失敗しました";
-    return NextResponse.json({ error: message }, { status: 502 });
+    const status = caught instanceof InvalidSurugayaUrlError ? 400 : 502;
+    return NextResponse.json({ error: message }, { status });
   }
 }

@@ -10,6 +10,7 @@
 - SQLite
 - Recharts
 - cheerio
+- Playwright
 
 ## 初期実装の機能
 
@@ -26,6 +27,8 @@
 
 ## 起動手順
 
+Node.js 20.9以上を使用します。
+
 ```bash
 npm install
 npx prisma migrate dev
@@ -33,6 +36,12 @@ npm run dev
 ```
 
 起動後、ブラウザで <http://localhost:3000> を開くと `/products` にリダイレクトされます。
+
+Windowsでは、PCにインストール済みのMicrosoft Edgeを価格取得に使用します。Edgeを使用しない場合は、次のコマンドでPlaywright用Chromiumを追加してください。
+
+```bash
+npx playwright install chromium
+```
 
 ## Prisma / SQLite
 
@@ -46,7 +55,28 @@ DATABASE_URL="file:./dev.db"
 
 ## 駿河屋HTML解析
 
-駿河屋ページの取得・HTML解析は `lib/surugaya.ts` に分離しています。HTML構造変更に対応しやすいよう、利用するセレクタは `SELECTORS` にまとめています。
+駿河屋ページの取得は `lib/surugaya-browser.ts`、HTML解析は `lib/surugaya.ts` に分離しています。通常のHTTP取得はCloudflareから403を返されるため、Playwrightで実際のブラウザを起動して取得します。
+
+初回取得で「アクセス確認を通過できませんでした」と表示された場合は、`.env`に次を追加して開発サーバーを再起動してください。商品追加または手動更新時にEdgeが開くので、画面にアクセス確認が出た場合は完了させます。確認結果は`.pricewave-browser`に保持されます。
+
+```env
+SURUGAYA_BROWSER_HEADLESS=false
+```
+
+必要に応じて次の環境変数も指定できます。
+
+```env
+# msedge / chrome / chromium など。Windowsの既定値はmsedge
+SURUGAYA_BROWSER_CHANNEL=msedge
+# 任意のブラウザ実行ファイルを直接指定する場合
+SURUGAYA_BROWSER_EXECUTABLE_PATH=C:\path\to\chrome.exe
+# プロキシが必要な環境だけ指定（HTTPS_PROXY / HTTP_PROXYも自動認識）
+SURUGAYA_BROWSER_PROXY=http://proxy.example:8080
+# 独自証明書を使う開発用プロキシに限りtrue
+SURUGAYA_BROWSER_IGNORE_HTTPS_ERRORS=false
+# ページ取得の待機時間（ミリ秒、最小5000）
+SURUGAYA_BROWSER_TIMEOUT_MS=45000
+```
 
 注意点:
 
@@ -55,3 +85,12 @@ DATABASE_URL="file:./dev.db"
 - 販売価格が取れない場合も `null` として正常扱いします。
 - 在庫状態が判定できない場合は `unknown` として保存します。
 - ページ取得に失敗した場合、価格履歴は追加しません。
+- 同時取得は直列化し、駿河屋への過剰なアクセスを避けます。
+
+## 検証
+
+```bash
+npm test
+npm run typecheck
+npm run build
+```
