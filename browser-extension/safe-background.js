@@ -41,6 +41,17 @@ function managedTabIds(tabIds) {
   return Array.isArray(tabIds) ? tabIds : [tabIds];
 }
 
+function jsonResponse(response, body) {
+  const headers = new Headers(response.headers);
+  headers.set("content-type", "application/json; charset=utf-8");
+  headers.delete("content-length");
+  return new Response(JSON.stringify(body), {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
 function schedulePump() {
   if (pumpTimer || activeManagedTabId !== null || managedTabQueue.length === 0) return;
   const waitMs = Math.max(0, nextManagedTabAt - Date.now());
@@ -139,23 +150,47 @@ chrome.scripting.executeScript = async (injection) => {
 
 globalThis.fetch = async (input, init) => {
   const response = await originalFetch(input, init);
-  const method = String(init?.method ?? (typeof input === "object" ? input.method : "GET") ?? "GET").toUpperCase();
+  const method = String(
+    init?.method ?? (typeof input === "object" ? input.method : "GET") ?? "GET",
+  ).toUpperCase();
 
   if (method === "GET" && isLocalProductsRequest(input)) {
     const stored = await originalStorageGet("updateStatus");
     const statusMessage = stored.updateStatus?.message ?? "";
-    const fullProductRun =
+    const scheduledProductRun =
       taskMode === "full-products" || statusMessage === "登録商品を読み込んでいます。";
 
-    if (fullProductRun && response.ok) {
+    if (scheduledProductRun && response.ok) {
       const body = await response.clone().json().catch(() => null);
-      const productCount = Array.isArray(body?.products) ? body.products.length : 0;
-      productStartIntervalMs = policy.calculateProductStartInterval(productCount);
-      await chrome.storage.local.set({
-        safeCrawlIntervalMs: productStartIntervalMs,
-        safeCrawlEstimatedCompletionAt:
-          Date.now() + Math.max(0, productCount - 1) * productStartIntervalMs,
-      });
+      if (Array.isArray(body?.products)) {
+        const plan = policy.selectScheduledProducts(body.products, new Date());
+        const productCount = plan.products.length;
+        productStartIntervalMs = policy.calculateProductStartInterval(productCount);
+        await chrome.storage.local.set({
+          safeCrawlIntervalMs: productStartIntervalMs,
+          safeCrawlEstimatedCompletionAt:
+            Date.now() + Math.max(0, productCount - 1) * productStartIntervalMs,
+          safeCrawlPlan: {
+            rotationBucket: plan.bucket,
+            dailyCount: plan.dailyCount,
+            rotationCount: plan.rotationCount,
+            selectedCount: productCount,
+            totalRegistered: plan.totalRegistered,
+            plannedAt: Date.now(),
+          },
+        });
+        return jsonResponse(response, {
+          ...body,
+          products: plan.products,
+          crawlPlan: {
+            rotationBucket: plan.bucket,
+            dailyCount: plan.dailyCount,
+            rotationCount: plan.rotationCount,
+            selectedCount: productCount,
+            totalRegistered: plan.totalRegistered,
+          },
+        });
+      }
     }
   }
 
