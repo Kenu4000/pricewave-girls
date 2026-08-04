@@ -11,6 +11,14 @@ const stopTaskButton = document.querySelector("#stop-task-button");
 const autoAddUrl = document.querySelector("#auto-add-url");
 const autoAddLimit = document.querySelector("#auto-add-limit");
 const autoAddButton = document.querySelector("#auto-add-button");
+const DEFAULT_PARALLEL_TABS = 10;
+
+function normalizedInteger(value, minimum, maximum, fallback) {
+  const number = Number(value);
+  return Number.isInteger(number)
+    ? Math.min(maximum, Math.max(minimum, number))
+    : fallback;
+}
 
 function showStatus(message, kind) {
   status.textContent = message;
@@ -112,11 +120,15 @@ async function loadAutoSettings(syncForm = true) {
   if (syncForm && response?.settings) {
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
-    parallelTabs.value = String(response.settings.parallelTabs);
+    parallelTabs.value = String(
+      normalizedInteger(response.settings.parallelTabs, 1, 100, DEFAULT_PARALLEL_TABS),
+    );
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
-    autoAddLimit.value = String(response.autoAddSettings.limit);
+    autoAddLimit.value = String(
+      normalizedInteger(response.autoAddSettings.limit, 1, 1_000, 1_000),
+    );
   }
   renderAutoStatus(response);
 }
