@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { isRecentDailyCrawlBrand } from "@/lib/crawl-brand-priority-recent";
 import { crawlPriorityForProduct, productBrandCandidates } from "@/lib/crawl-brand-priority";
 import { prisma } from "@/lib/prisma";
 import { pruneProductPriceHistories } from "@/lib/price-history-retention";
@@ -30,19 +29,16 @@ export async function GET() {
         product.manufacturer,
         product.detailsJson,
       );
-      const basePriority = crawlPriorityForProduct(
-        product.manufacturer,
-        product.detailsJson,
-      );
       return {
         id: product.id,
         title: product.title,
         url: product.surugayaUrl,
         brand: brandCandidates[0] ?? null,
-        crawlPriority:
-          basePriority === "daily" || isRecentDailyCrawlBrand(brandCandidates)
-            ? "daily"
-            : "rotation",
+        crawlPriority: crawlPriorityForProduct(
+          product.title,
+          product.manufacturer,
+          product.detailsJson,
+        ),
       };
     }),
   });
