@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/prisma";
+import { notifyProductsChanged } from "@/lib/product-events";
 import type { FetchedProduct } from "@/lib/surugaya";
 
 export async function upsertProductSnapshot(
@@ -34,7 +35,7 @@ export async function upsertProductSnapshot(
     ...(detailsJson !== null ? { detailsJson } : {}),
   };
 
-  return prisma.product.upsert({
+  const product = await prisma.product.upsert({
     where: { surugayaUrl },
     update: {
       title: fetched.title,
@@ -56,4 +57,7 @@ export async function upsertProductSnapshot(
       histories: { create: snapshot },
     },
   });
+
+  notifyProductsChanged();
+  return product;
 }
