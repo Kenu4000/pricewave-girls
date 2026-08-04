@@ -5,6 +5,7 @@ import test from "node:test";
 const require = createRequire(import.meta.url);
 type CrawlProduct = {
   id: number;
+  url: string;
   crawlPriority: "daily" | "rotation";
 };
 const policy = require("../browser-extension/crawl-policy.js") as {
@@ -15,10 +16,12 @@ const policy = require("../browser-extension/crawl-policy.js") as {
   selectScheduledProducts(
     products: CrawlProduct[],
     value: Date | number,
+    exactDailyUrls?: string[],
   ): {
     products: CrawlProduct[];
     bucket: number;
     dailyCount: number;
+    exactDailyCount: number;
     rotationCount: number;
     totalRegistered: number;
   };
@@ -30,6 +33,14 @@ const policy = require("../browser-extension/crawl-policy.js") as {
   }): "ok" | "blocked" | "temporary";
   serverRetryDelay(failureCount: number): number;
 };
+
+function product(id: number, crawlPriority: "daily" | "rotation"): CrawlProduct {
+  return {
+    id,
+    url: `https://www.suruga-ya.jp/product/detail/${1000 + id}`,
+    crawlPriority,
+  };
+}
 
 test("約1万商品は24時間へ分散できる間隔にする", () => {
   assert.equal(policy.calculateProductStartInterval(10_000), 8_640);
@@ -52,32 +63,47 @@ test("商品が少ない場合もサービスワーカー維持のため25秒を
 test("毎日対象を必ず含め、その他は当日の3分割だけを含める", () => {
   const date = new Date(2026, 7, 5, 9, 0, 0);
   const bucket = policy.rotationBucket(date);
-  const products: CrawlProduct[] = [
-    { id: 99, crawlPriority: "daily" },
-    { id: bucket, crawlPriority: "rotation" },
-    { id: (bucket + 1) % 3, crawlPriority: "rotation" },
-    { id: (bucket + 2) % 3, crawlPriority: "rotation" },
+  const products = [
+    product(99, "daily"),
+    product(bucket, "rotation"),
+    product((bucket + 1) % 3, "rotation"),
+    product((bucket + 2) % 3, "rotation"),
   ];
 
   const plan = policy.selectScheduledProducts(products, date);
-  assert.deepEqual(plan.products.map((product) => product.id), [99, bucket]);
+  assert.deepEqual(plan.products.map((item) => item.id), [99, bucket]);
   assert.equal(plan.dailyCount, 1);
+  assert.equal(plan.exactDailyCount, 0);
   assert.equal(plan.rotationCount, 1);
   assert.equal(plan.totalRegistered, 4);
 });
 
+test("人気順上位は同ブランド全体ではなく一致URLの商品だけ毎日巡回する", () => {
+  const date = new Date(2026, 7, 5, 9, 0, 0);
+  const bucket = policy.rotationBucket(date);
+  const popular = product((bucket + 1) % 3, "rotation");
+  const sameBrandButNotListed = product((bucket + 2) % 3, "rotation");
+
+  const plan = policy.selectScheduledProducts(
+    [popular, sameBrandButNotListed],
+    date,
+    [popular.url],
+  );
+
+  assert.deepEqual(plan.products.map((item) => item.id), [popular.id]);
+  assert.equal(plan.dailyCount, 1);
+  assert.equal(plan.exactDailyCount, 1);
+  assert.equal(plan.rotationCount, 0);
+});
+
 test("3日連続のローテーションでその他の商品をすべて一巡する", () => {
-  const products: CrawlProduct[] = [
-    { id: 0, crawlPriority: "rotation" },
-    { id: 1, crawlPriority: "rotation" },
-    { id: 2, crawlPriority: "rotation" },
-  ];
+  const products = [product(0, "rotation"), product(1, "rotation"), product(2, "rotation")];
   const selectedIds = new Set<number>();
 
   for (let offset = 0; offset < 3; offset += 1) {
     const date = new Date(2026, 7, 5 + offset, 9, 0, 0);
-    for (const product of policy.selectScheduledProducts(products, date).products) {
-      selectedIds.add(product.id);
+    for (const item of policy.selectScheduledProducts(products, date).products) {
+      selectedIds.add(item.id);
     }
   }
 
