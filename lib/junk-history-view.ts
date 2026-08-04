@@ -45,6 +45,40 @@ export function countJunkHistoryItems(groups: JunkHistoryViewGroup[]): number {
   return groups.reduce((total, group) => total + group.items.length, 0);
 }
 
+export function listJunkHistoryConditions(groups: JunkHistoryViewGroup[]): string[] {
+  const conditions = new Map<string, string>();
+
+  for (const group of groups) {
+    for (const item of group.items) {
+      const key = normalizeIdentityText(item.condition);
+      if (!conditions.has(key)) {
+        conditions.set(key, normalizeConditionDisplay(item.condition));
+      }
+    }
+  }
+
+  return [...conditions.values()].sort((left, right) =>
+    left.localeCompare(right, "ja", { numeric: true, sensitivity: "base" }),
+  );
+}
+
+export function filterJunkHistoryGroupsByCondition(
+  groups: JunkHistoryViewGroup[],
+  condition: string,
+): JunkHistoryViewGroup[] {
+  const conditionKey = normalizeIdentityText(condition);
+  if (!conditionKey) return groups;
+
+  return groups
+    .map((group) => ({
+      ...group,
+      items: group.items.filter(
+        (item) => normalizeIdentityText(item.condition) === conditionKey,
+      ),
+    }))
+    .filter((group) => group.items.length > 0);
+}
+
 function groupByCaptureTime(items: JunkHistoryViewItem[]): JunkHistoryViewGroup[] {
   const groups = new Map<string, JunkHistoryViewGroup>();
   const orderedItems = [...items].sort((left, right) => {
@@ -120,6 +154,10 @@ function itemIdentity(item: JunkHistoryViewItem): string {
     normalizeIdentityText(item.condition),
     String(item.price),
   ].join("\u0000");
+}
+
+function normalizeConditionDisplay(value: string): string {
+  return value.replace(/[\u00a0\u3000]/g, " ").replace(/\s+/g, " ").trim();
 }
 
 function normalizeIdentityText(value: string): string {
