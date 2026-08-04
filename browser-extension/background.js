@@ -6,9 +6,11 @@ const PAGE_LOAD_TIMEOUT_MS = 60_000;
 const DEFAULT_AUTO_ADD_URL =
   "https://www.suruga-ya.jp/search?category=65204&genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&search_word=";
 const DEFAULT_AUTO_ADD_LIMIT = 1_000;
+const DEFAULT_PARALLEL_TABS = 10;
 const DEFAULT_SETTINGS = {
   autoUpdateEnabled: false,
   autoUpdateTime: "09:00",
+  parallelTabs: DEFAULT_PARALLEL_TABS,
 };
 const DEFAULT_STATUS = {
   state: "idle",
@@ -23,6 +25,7 @@ const DEFAULT_STATUS = {
 
 let currentRun = null;
 let cancelRequested = false;
+let localImportQueue = Promise.resolve();
 
 class AccessChallengeError extends Error {}
 class TaskCancelledError extends Error {}
@@ -77,6 +80,9 @@ async function getSettings() {
       typeof stored.autoUpdateTime === "string"
         ? stored.autoUpdateTime
         : DEFAULT_SETTINGS.autoUpdateTime,
+    parallelTabs: Number.isInteger(stored.parallelTabs)
+      ? Math.min(100, Math.max(1, stored.parallelTabs))
+      : DEFAULT_SETTINGS.parallelTabs,
   };
 }
 
@@ -294,24 +300,49 @@ async function readSearchPage(tabId) {
   return page;
 }
 
-async function collectUnregisteredProducts(sourceUrl, limit, registeredIds) {
+async function readSearchPageAtUrl(pageUrl) {
+  const tab = await chrome.tabs.create({ url: pageUrl, active: false });
+  if (!tab.id) throw new Error("検索結果を開くタブを作成できませんでした。");
+
+  try {
+    return await readSearchPage(tab.id);
+  } finally {
+    await chrome.tabs.remove(tab.id).catch(() => {});
+  }
+}
+
+async function collectUnregisteredProducts(
+  sourceUrl,
+  limit,
+  registeredIds,
+  requestedParallelTabs,
+) {
   const collected = [];
   const collectedIds = new Set();
-  const visitedPages = new Set();
-  let pageUrl = normalizeSearchUrl(sourceUrl);
+  const baseUrl = new URL(normalizeSearchUrl(sourceUrl));
+  let pageNumber = Math.max(1, Number(baseUrl.searchParams.get("page")) || 1);
+  const parallelTabs = Math.min(100, Math.max(1, Number(requestedParallelTabs) || 1));
+  let reachedLastPage = false;
 
-  while (pageUrl && collected.length < limit && !visitedPages.has(pageUrl)) {
+  while (collected.length < limit && !reachedLastPage) {
     assertTaskContinues();
-    visitedPages.add(pageUrl);
+    const remaining = limit - collected.length;
+    const pagesNeeded = Math.max(1, Math.ceil(remaining / 24));
+    const batchSize = Math.min(parallelTabs, pagesNeeded);
+    const pageNumbers = Array.from({ length: batchSize }, (_, index) => pageNumber + index);
     await setStatus({
-      message: `一覧${visitedPages.size}ページ目を確認中: 未登録${collected.length}/${limit}件`,
+      message: `一覧${pageNumbers[0]}〜${pageNumbers.at(-1)}ページを確認中: 未登録${collected.length}/${limit}件`,
     });
 
-    const tab = await chrome.tabs.create({ url: pageUrl, active: false });
-    if (!tab.id) throw new Error("検索結果を開くタブを作成できませんでした。");
+    const pages = await Promise.all(
+      pageNumbers.map((currentPage) => {
+        const pageUrl = new URL(baseUrl);
+        pageUrl.searchParams.set("page", String(currentPage));
+        return readSearchPageAtUrl(pageUrl.toString());
+      }),
+    );
 
-    try {
-      const page = await readSearchPage(tab.id);
+    for (const page of pages) {
       for (const productUrl of page.productUrls) {
         const id = productIdFromUrl(productUrl);
         if (!id || registeredIds.has(id) || collectedIds.has(id)) continue;
@@ -319,12 +350,14 @@ async function collectUnregisteredProducts(sourceUrl, limit, registeredIds) {
         collected.push({ id, url: productUrl });
         if (collected.length >= limit) break;
       }
-      pageUrl = page.nextUrl ? normalizeSearchUrl(page.nextUrl) : null;
-    } finally {
-      await chrome.tabs.remove(tab.id).catch(() => {});
+      if (!page.nextUrl || collected.length >= limit) {
+        reachedLastPage = !page.nextUrl;
+        break;
+      }
     }
 
-    if (pageUrl && collected.length < limit) await sleep(UPDATE_INTERVAL_MS);
+    pageNumber += batchSize;
+    if (!reachedLastPage && collected.length < limit) await sleep(UPDATE_INTERVAL_MS);
   }
 
   return collected;
@@ -338,14 +371,92 @@ async function updateOneProduct(product) {
 
   try {
     const page = await readProductPage(tab.id);
-    await requestLocal("/api/import", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ url: page.url, html: page.html }),
-    });
+    const importJob = localImportQueue.then(() =>
+      requestLocal("/api/import", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url: page.url, html: page.html }),
+      }),
+    );
+    localImportQueue = importJob.then(() => undefined, () => undefined);
+    await importJob;
   } finally {
     await chrome.tabs.remove(tab.id).catch(() => {});
   }
+}
+
+async function processProductsInParallel(
+  products,
+  requestedParallelTabs,
+  describeProduct,
+  processor = updateOneProduct,
+  intervalMs = UPDATE_INTERVAL_MS,
+) {
+  const workerCount = Math.min(
+    products.length,
+    Math.min(100, Math.max(1, Number(requestedParallelTabs) || 1)),
+  );
+  let nextIndex = 0;
+  let completed = 0;
+  let succeeded = 0;
+  let failed = 0;
+  let blockingError = null;
+
+  const worker = async () => {
+    while (!cancelRequested && !blockingError) {
+      const index = nextIndex;
+      nextIndex += 1;
+      if (index >= products.length) return;
+
+      const product = products[index];
+      const description = describeProduct(product, index, products.length);
+      await setStatus({
+        current: completed,
+        succeeded,
+        failed,
+        message: `${description}（最大${workerCount}タブ並列）`,
+      });
+
+      try {
+        await processor(product);
+        succeeded += 1;
+      } catch (error) {
+        failed += 1;
+        if (error instanceof AccessChallengeError) blockingError = error;
+      }
+
+      completed += 1;
+      await setStatus({
+        current: completed,
+        succeeded,
+        failed,
+        message: `${completed}/${products.length}件完了: 成功${succeeded}件、失敗${failed}件`,
+      });
+
+      if (
+        intervalMs > 0 &&
+        !cancelRequested &&
+        !blockingError &&
+        nextIndex < products.length
+      ) {
+        await sleep(intervalMs);
+      }
+    }
+  };
+
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  if (blockingError) {
+    blockingError.succeeded = succeeded;
+    blockingError.failed = failed;
+    throw blockingError;
+  }
+  if (cancelRequested) {
+    const error = new TaskCancelledError("処理を停止しました。");
+    error.succeeded = succeeded;
+    error.failed = failed;
+    throw error;
+  }
+  return { succeeded, failed };
 }
 
 async function runAllProducts(trigger) {
@@ -366,6 +477,7 @@ async function runAllProducts(trigger) {
   try {
     const { result } = await requestLocal("/api/products");
     const products = Array.isArray(result.products) ? result.products : [];
+    const settings = await getSettings();
 
     if (products.length === 0) {
       if (trigger !== "manual") {
@@ -381,40 +493,11 @@ async function runAllProducts(trigger) {
 
     await setStatus({ total: products.length, message: `全${products.length}件を更新します。` });
 
-    for (let index = 0; index < products.length; index += 1) {
-      assertTaskContinues();
-      const product = products[index];
-      await setStatus({
-        current: index + 1,
-        succeeded,
-        failed,
-        message: `${index + 1}/${products.length}件目: ${product.title}`,
-      });
-
-      try {
-        await updateOneProduct(product);
-        succeeded += 1;
-      } catch (error) {
-        failed += 1;
-        if (error instanceof AccessChallengeError) {
-          if (trigger !== "manual") {
-            await chrome.storage.local.set({ lastAutoAttemptDate: localDateKey() });
-          }
-          await setStatus({
-            state: "blocked",
-            succeeded,
-            failed,
-            message: error.message,
-          });
-          return;
-        }
-      }
-
-      await setStatus({ succeeded, failed });
-      if (index + 1 < products.length) {
-        await sleep(UPDATE_INTERVAL_MS);
-      }
-    }
+    ({ succeeded, failed } = await processProductsInParallel(
+      products,
+      settings.parallelTabs,
+      (product, index, total) => `${index + 1}/${total}件目: ${product.title}`,
+    ));
 
     if (trigger !== "manual") {
       await chrome.storage.local.set({ lastAutoAttemptDate: localDateKey() });
@@ -428,6 +511,15 @@ async function runAllProducts(trigger) {
       message: `更新完了: 成功${succeeded}件、失敗${failed}件`,
     });
   } catch (error) {
+    succeeded = Number.isInteger(error?.succeeded) ? error.succeeded : succeeded;
+    failed = Number.isInteger(error?.failed) ? error.failed : failed;
+    if (error instanceof AccessChallengeError) {
+      if (trigger !== "manual") {
+        await chrome.storage.local.set({ lastAutoAttemptDate: localDateKey() });
+      }
+      await setStatus({ state: "blocked", succeeded, failed, message: error.message });
+      return;
+    }
     if (error instanceof TaskCancelledError) {
       await setStatus({ state: "cancelled", succeeded, failed, message: error.message });
       return;
@@ -466,6 +558,7 @@ async function runAutoAdd(sourceUrl, requestedLimit) {
   try {
     const normalizedSourceUrl = normalizeSearchUrl(sourceUrl);
     const { result } = await requestLocal("/api/products");
+    const settings = await getSettings();
     const registeredIds = new Set(
       (Array.isArray(result.products) ? result.products : [])
         .map((product) => productIdFromUrl(product.url))
@@ -475,6 +568,7 @@ async function runAutoAdd(sourceUrl, requestedLimit) {
       normalizedSourceUrl,
       limit,
       registeredIds,
+      settings.parallelTabs,
     );
 
     if (products.length === 0) {
@@ -492,35 +586,11 @@ async function runAutoAdd(sourceUrl, requestedLimit) {
       message: `未登録${products.length}件を追加します。`,
     });
 
-    for (let index = 0; index < products.length; index += 1) {
-      assertTaskContinues();
-      const product = products[index];
-      await setStatus({
-        current: index + 1,
-        succeeded,
-        failed,
-        message: `${index + 1}/${products.length}件目を追加中: ${product.id}`,
-      });
-
-      try {
-        await updateOneProduct(product);
-        succeeded += 1;
-      } catch (error) {
-        failed += 1;
-        if (error instanceof AccessChallengeError) {
-          await setStatus({
-            state: "blocked",
-            succeeded,
-            failed,
-            message: error.message,
-          });
-          return;
-        }
-      }
-
-      await setStatus({ succeeded, failed });
-      if (index + 1 < products.length) await sleep(UPDATE_INTERVAL_MS);
-    }
+    ({ succeeded, failed } = await processProductsInParallel(
+      products,
+      settings.parallelTabs,
+      (product, index, total) => `${index + 1}/${total}件目を追加中: ${product.id}`,
+    ));
 
     await setStatus({
       state: "completed",
@@ -530,6 +600,8 @@ async function runAutoAdd(sourceUrl, requestedLimit) {
       message: `自動追加完了: 成功${succeeded}件、失敗${failed}件`,
     });
   } catch (error) {
+    succeeded = Number.isInteger(error?.succeeded) ? error.succeeded : succeeded;
+    failed = Number.isInteger(error?.failed) ? error.failed : failed;
     await setStatus({
       state:
         error instanceof AccessChallengeError
@@ -575,6 +647,7 @@ async function initialize() {
   const stored = await chrome.storage.local.get([
     "autoUpdateEnabled",
     "autoUpdateTime",
+    "parallelTabs",
     "autoAddSourceUrl",
     "autoAddLimit",
   ]);
@@ -587,6 +660,9 @@ async function initialize() {
       typeof stored.autoUpdateTime === "string"
         ? stored.autoUpdateTime
         : DEFAULT_SETTINGS.autoUpdateTime,
+    parallelTabs: Number.isInteger(stored.parallelTabs)
+      ? Math.min(100, Math.max(1, stored.parallelTabs))
+      : DEFAULT_SETTINGS.parallelTabs,
     autoAddSourceUrl:
       typeof stored.autoAddSourceUrl === "string"
         ? stored.autoAddSourceUrl
@@ -644,6 +720,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
       await chrome.storage.local.set({
         autoUpdateEnabled: Boolean(message.enabled),
         autoUpdateTime: normalizedTime,
+        parallelTabs: Math.min(100, Math.max(1, Number(message.parallelTabs) || 1)),
       });
       const scheduledTime = await configureAlarm();
       return { ok: true, nextRunAt: scheduledTime };

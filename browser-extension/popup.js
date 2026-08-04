@@ -3,6 +3,7 @@ const status = document.querySelector("#status");
 const productLink = document.querySelector("#product-link");
 const autoEnabled = document.querySelector("#auto-enabled");
 const autoTime = document.querySelector("#auto-time");
+const parallelTabs = document.querySelector("#parallel-tabs");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const autoStatus = document.querySelector("#auto-status");
@@ -111,6 +112,7 @@ async function loadAutoSettings(syncForm = true) {
   if (syncForm && response?.settings) {
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
+    parallelTabs.value = String(response.settings.parallelTabs);
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -126,6 +128,7 @@ async function saveAutoSettings() {
       type: "auto:save",
       enabled: autoEnabled.checked,
       time: autoTime.value,
+      parallelTabs: Number(parallelTabs.value),
     });
     if (!response?.ok) {
       throw new Error(response?.error || "設定を保存できませんでした。");

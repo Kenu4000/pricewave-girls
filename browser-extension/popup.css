@@ -94,7 +94,8 @@ h2 {
   width: 100%;
 }
 
-#auto-add-limit {
+#auto-add-limit,
+#parallel-tabs {
   width: 88px;
 }
 
