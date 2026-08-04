@@ -1,10 +1,4 @@
-export type ProductPreview = {
-  id: number;
-  title: string;
-  imageUrl: string | null;
-  salePrice: number | null;
-  buyPrice: number | null;
-};
+import type { ProductPreview } from "@/lib/product-preview";
 
 export type ProductChangeEvent =
   | { type: "changed" }

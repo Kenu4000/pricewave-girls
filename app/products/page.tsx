@@ -1,6 +1,8 @@
 import type { Prisma } from "@prisma/client";
 import Link from "next/link";
+import { ProductGrid } from "@/components/ProductGrid";
 import { prisma } from "@/lib/prisma";
+import type { ProductPreview } from "@/lib/product-preview";
 
 export const dynamic = "force-dynamic";
 
@@ -81,25 +83,6 @@ const SORT_ORDERS = {
 } satisfies Record<SortKey, Prisma.ProductOrderByWithRelationInput[]>;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
-
-function formatPrice(price: number | null | undefined) {
-  return price == null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
-}
-
-function formatStockStatus(status: string | null) {
-  switch (status) {
-    case "in_stock":
-      return "在庫あり";
-    case "out_of_stock":
-      return "在庫なし";
-    default:
-      return "在庫不明";
-  }
-}
-
-function formatReleaseDate(date: string | null | undefined) {
-  return date ? date.replace(/-/g, "/") : null;
-}
 
 function firstValue(value: string | string[] | undefined): string | undefined {
   return Array.isArray(value) ? value[0] : value;
@@ -288,6 +271,19 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     row.manufacturer ? [row.manufacturer] : [],
   );
   const categories = categoryRows.flatMap((row) => (row.category ? [row.category] : []));
+  const productPreviews: ProductPreview[] = products.map((product) => ({
+    id: product.id,
+    title: product.title,
+    imageUrl: product.imageUrl,
+    salePrice: product.latestSalePrice,
+    buyPrice: product.latestBuyPrice,
+    manufacturer: product.manufacturer,
+    releaseDate: product.releaseDate,
+    modelNumber: product.modelNumber,
+    stockStatus: product.stockStatus,
+    hasHistory: product.histories.length > 0,
+  }));
+  const streamEnabled = currentPage === 1 && !filtersActive && sort === "updated-desc";
 
   return (
     <section className="product-list-page">
@@ -463,82 +459,41 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         </div>
       </form>
 
-      {products.length === 0 ? (
-        <div className="card">
-          <p>{filtersActive ? "条件に一致する商品がありません。" : "まだ商品が登録されていません。"}</p>
-          {filtersActive ? (
-            <Link className="button secondary" href="/products">
-              条件をクリア
-            </Link>
-          ) : null}
-        </div>
-      ) : (
-        <>
-          <div className="grid">
-            {products.map((product) => (
-              <Link className="card product-card" href={`/products/${product.id}`} key={product.id}>
-                <div className="product-image">
-                  {product.imageUrl ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img alt={product.title} src={product.imageUrl} />
-                  ) : (
-                    <span className="muted">No Image</span>
-                  )}
-                </div>
-                <div className="product-title">{product.title}</div>
-                <div className="price-row">
-                  <span className="badge">販売: {formatPrice(product.latestSalePrice)}</span>
-                  <span className="badge">買取: {formatPrice(product.latestBuyPrice)}</span>
-                </div>
-                <dl className="product-facts">
-                  {product.manufacturer ? (
-                    <div><dt>メーカー</dt><dd>{product.manufacturer}</dd></div>
-                  ) : null}
-                  {product.releaseDate ? (
-                    <div><dt>発売日</dt><dd>{formatReleaseDate(product.releaseDate)}</dd></div>
-                  ) : null}
-                  {product.modelNumber ? (
-                    <div><dt>型番</dt><dd>{product.modelNumber}</dd></div>
-                  ) : null}
-                </dl>
-                <div className="meta-row muted">
-                  <span>{formatStockStatus(product.stockStatus)}</span>
-                  <span>履歴: {product.histories.length > 0 ? "あり" : "なし"}</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+      <ProductGrid
+        filtersActive={filtersActive}
+        initialProducts={productPreviews}
+        perPage={perPage}
+        streamEnabled={streamEnabled}
+      />
 
-          {totalPages > 1 ? (
-            <nav aria-label="商品一覧のページ" className="pagination">
-              <Link
-                aria-disabled={currentPage === 1}
-                className={`page-link ${currentPage === 1 ? "disabled" : ""}`}
-                href={listUrl(Math.max(1, currentPage - 1), sort, perPage, filters)}
-              >
-                ← 前へ
-              </Link>
-              {visiblePageNumbers(currentPage, totalPages).map((page) => (
-                <Link
-                  aria-current={page === currentPage ? "page" : undefined}
-                  className={`page-link ${page === currentPage ? "current" : ""}`}
-                  href={listUrl(page, sort, perPage, filters)}
-                  key={page}
-                >
-                  {page}
-                </Link>
-              ))}
-              <Link
-                aria-disabled={currentPage === totalPages}
-                className={`page-link ${currentPage === totalPages ? "disabled" : ""}`}
-                href={listUrl(Math.min(totalPages, currentPage + 1), sort, perPage, filters)}
-              >
-                次へ →
-              </Link>
-            </nav>
-          ) : null}
-        </>
-      )}
+      {totalPages > 1 ? (
+        <nav aria-label="商品一覧のページ" className="pagination">
+          <Link
+            aria-disabled={currentPage === 1}
+            className={`page-link ${currentPage === 1 ? "disabled" : ""}`}
+            href={listUrl(Math.max(1, currentPage - 1), sort, perPage, filters)}
+          >
+            ← 前へ
+          </Link>
+          {visiblePageNumbers(currentPage, totalPages).map((page) => (
+            <Link
+              aria-current={page === currentPage ? "page" : undefined}
+              className={`page-link ${page === currentPage ? "current" : ""}`}
+              href={listUrl(page, sort, perPage, filters)}
+              key={page}
+            >
+              {page}
+            </Link>
+          ))}
+          <Link
+            aria-disabled={currentPage === totalPages}
+            className={`page-link ${currentPage === totalPages ? "disabled" : ""}`}
+            href={listUrl(Math.min(totalPages, currentPage + 1), sort, perPage, filters)}
+          >
+            次へ →
+          </Link>
+        </nav>
+      ) : null}
     </section>
   );
 }

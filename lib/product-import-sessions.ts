@@ -80,13 +80,7 @@ function flushNextBatch(session: ImportSession, force: boolean) {
       notifyProductBatchSaved(
         session.id,
         session.savedIds.length,
-        products.map((product, index) => ({
-          id: product.id,
-          title: batch[index].fetched.title,
-          imageUrl: batch[index].fetched.imageUrl,
-          salePrice: batch[index].fetched.salePrice,
-          buyPrice: batch[index].fetched.buyPrice,
-        })),
+        products,
       );
     })
     .catch((error) => {

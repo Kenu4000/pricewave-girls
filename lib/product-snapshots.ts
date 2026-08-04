@@ -13,9 +13,17 @@ export type ProductSnapshotInput = {
 // SQL statements while the surrounding transaction preserves atomicity.
 const RAW_SQL_CHUNK_SIZE = 1_000;
 
-type StoredProductId = {
+type StoredProductSnapshot = {
   id: number;
   surugayaUrl: string;
+  title: string;
+  imageUrl: string | null;
+  manufacturer: string | null;
+  releaseDate: string | null;
+  modelNumber: string | null;
+  latestSalePrice: number | null;
+  latestBuyPrice: number | null;
+  stockStatus: string | null;
 };
 
 function buildProductUpsertArgs(
@@ -126,7 +134,7 @@ export async function upsertProductSnapshots(
     );
 
     operations.push(
-      prisma.$queryRaw<StoredProductId[]>(Prisma.sql`
+      prisma.$queryRaw<StoredProductSnapshot[]>(Prisma.sql`
         INSERT INTO "Product" (
           "title",
           "surugayaUrl",
@@ -158,7 +166,17 @@ export async function upsertProductSnapshots(
           "latestBuyPrice" = excluded."latestBuyPrice",
           "stockStatus" = excluded."stockStatus",
           "updatedAt" = CURRENT_TIMESTAMP
-        RETURNING "id", "surugayaUrl"
+        RETURNING
+          "id",
+          "surugayaUrl",
+          "title",
+          "imageUrl",
+          "manufacturer",
+          "releaseDate",
+          "modelNumber",
+          "latestSalePrice",
+          "latestBuyPrice",
+          "stockStatus"
       `),
       prisma.$executeRaw(Prisma.sql`
         WITH "snapshots" (
@@ -188,19 +206,30 @@ export async function upsertProductSnapshots(
   }
 
   const results = await prisma.$transaction(operations);
-  const idsByUrl = new Map<string, number>();
+  const productsByUrl = new Map<string, StoredProductSnapshot>();
   for (let index = 0; index < results.length; index += 2) {
-    for (const product of results[index] as StoredProductId[]) {
-      idsByUrl.set(product.surugayaUrl, product.id);
+    for (const product of results[index] as StoredProductSnapshot[]) {
+      productsByUrl.set(product.surugayaUrl, product);
     }
   }
 
   const products = inputs.map(({ surugayaUrl }) => {
-    const id = idsByUrl.get(surugayaUrl);
-    if (id === undefined) {
+    const product = productsByUrl.get(surugayaUrl);
+    if (!product) {
       throw new Error(`保存した商品のIDを取得できませんでした: ${surugayaUrl}`);
     }
-    return { id };
+    return {
+      id: product.id,
+      title: product.title,
+      imageUrl: product.imageUrl,
+      salePrice: product.latestSalePrice,
+      buyPrice: product.latestBuyPrice,
+      manufacturer: product.manufacturer,
+      releaseDate: product.releaseDate,
+      modelNumber: product.modelNumber,
+      stockStatus: product.stockStatus,
+      hasHistory: true,
+    };
   });
 
   if (options.notify !== false) notifyProductsChanged();

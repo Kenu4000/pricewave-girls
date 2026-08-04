@@ -1,44 +1,25 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
-
-type ProductPreview = {
-  id: number;
-  title: string;
-  imageUrl: string | null;
-  salePrice: number | null;
-  buyPrice: number | null;
-};
+import { useEffect, useRef } from "react";
+import {
+  nextProductRevealDelay,
+  PRODUCT_REVEAL_EVENT,
+  type ProductPreview,
+} from "@/lib/product-preview";
 
 type BatchEvent = {
   sessionId: string;
-  savedCount: number;
   products: ProductPreview[];
 };
 
 type QueuedProduct = {
   sessionId: string;
-  displayCount: number;
-  savedCount: number;
   product: ProductPreview;
 };
 
-type ImportActivity = {
-  sessionId: string;
-  displayCount: number;
-  savedCount: number;
-  recentProducts: ProductPreview[];
-  finished: boolean;
-};
-
-function formatPrice(price: number | null) {
-  return price === null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
-}
-
 export function LiveRefresh() {
   const router = useRouter();
-  const [activity, setActivity] = useState<ImportActivity | null>(null);
   const queueRef = useRef<QueuedProduct[]>([]);
   const activeSessionRef = useRef<string | null>(null);
   const finishedSessionsRef = useRef(new Set<string>());
@@ -65,12 +46,8 @@ export function LiveRefresh() {
         return;
       }
 
-      setActivity((current) =>
-        current?.sessionId === sessionId ? { ...current, finished: true } : current,
-      );
       finishTimerRef.current = setTimeout(() => {
         refresh();
-        setActivity((current) => (current?.sessionId === sessionId ? null : current));
         finishedSessionsRef.current.delete(sessionId);
       }, 900);
     };
@@ -81,22 +58,12 @@ export function LiveRefresh() {
       const next = queueRef.current.shift();
       if (!next) return;
       activeSessionRef.current = next.sessionId;
-      const delay = 70 + Math.floor(Math.random() * 151);
+      const delay = nextProductRevealDelay();
 
       revealTimerRef.current = setTimeout(() => {
-        setActivity((current) => ({
-          sessionId: next.sessionId,
-          displayCount: next.displayCount,
-          savedCount: Math.max(
-            current?.sessionId === next.sessionId ? current.savedCount : 0,
-            next.savedCount,
-          ),
-          recentProducts: [
-            next.product,
-            ...(current?.sessionId === next.sessionId ? current.recentProducts : []),
-          ].slice(0, 5),
-          finished: false,
-        }));
+        window.dispatchEvent(
+          new CustomEvent<ProductPreview>(PRODUCT_REVEAL_EVENT, { detail: next.product }),
+        );
         activeSessionRef.current = null;
         revealTimerRef.current = null;
         finishIfDrained(next.sessionId);
@@ -107,12 +74,9 @@ export function LiveRefresh() {
     const receiveBatch = (message: MessageEvent<string>) => {
       try {
         const batch = JSON.parse(message.data) as BatchEvent;
-        const firstCount = batch.savedCount - batch.products.length;
         queueRef.current.push(
-          ...batch.products.map((product, index) => ({
+          ...batch.products.map((product) => ({
             sessionId: batch.sessionId,
-            displayCount: firstCount + index + 1,
-            savedCount: batch.savedCount,
             product,
           })),
         );
@@ -148,40 +112,5 @@ export function LiveRefresh() {
     };
   }, [router]);
 
-  if (!activity) return null;
-
-  return (
-    <aside aria-live="polite" className="import-activity">
-      <div className="import-activity-heading">
-        <div>
-          <strong>{activity.finished ? "反映完了" : "商品を順番に反映中"}</strong>
-          <span>
-            表示 {activity.displayCount.toLocaleString("ja-JP")}件 / 保存済み{" "}
-            {activity.savedCount.toLocaleString("ja-JP")}件
-          </span>
-        </div>
-        <span className={`import-pulse ${activity.finished ? "finished" : ""}`} />
-      </div>
-      <div className="import-activity-list">
-        {activity.recentProducts.map((product) => (
-          <a className="import-activity-item" href={`/products/${product.id}`} key={product.id}>
-            <div className="import-activity-image">
-              {product.imageUrl ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img alt="" src={product.imageUrl} />
-              ) : (
-                <span>No Image</span>
-              )}
-            </div>
-            <div>
-              <strong>{product.title}</strong>
-              <span>
-                販売 {formatPrice(product.salePrice)}・買取 {formatPrice(product.buyPrice)}
-              </span>
-            </div>
-          </a>
-        ))}
-      </div>
-    </aside>
-  );
+  return null;
 }
