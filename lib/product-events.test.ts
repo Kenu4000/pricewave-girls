@@ -49,6 +49,7 @@ test("100件単位の保存と取込完了を画面へ通知する", () => {
       imageUrl: null,
       salePrice: 1_000,
       buyPrice: 500,
+      priceChangedAt: null,
       manufacturer: "メーカー",
       releaseDate: "2026-08-04",
       modelNumber: "MODEL-1",

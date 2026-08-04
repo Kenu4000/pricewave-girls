@@ -29,6 +29,7 @@ export type ProductFilterCatalog = {
   scenarios: FilterOptionIndex;
   voiceActors: FilterOptionIndex;
   releaseYears: string[];
+  detailProductIds: Map<string, number[]>;
 };
 
 export type PriceBand = {
@@ -92,6 +93,14 @@ function normalizeChoiceKey(value: string): string {
   return normalizeDisplayValue(value)
     .toLocaleLowerCase("ja")
     .replace(/[\s\p{P}\p{S}]/gu, "");
+}
+
+export function normalizeFilterChoiceValue(value: string): string {
+  return normalizeChoiceKey(value);
+}
+
+export function detailFilterValue(label: string, value: string): string {
+  return `${normalizeChoiceKey(label)}\u0000${normalizeChoiceKey(value)}`;
 }
 
 function parseDetails(rawDetails: string | null): Record<string, string> {
@@ -190,7 +199,7 @@ function detailValues(details: Record<string, string>, labels: readonly string[]
   );
 }
 
-function splitPeople(value: string): string[] {
+export function splitDetailPeople(value: string): string[] {
   return value
     .split(/\s*(?:、|,|，|\/|／|;|；|\r?\n)\s*/u)
     .map(normalizeDisplayValue)
@@ -243,9 +252,16 @@ export function buildProductFilterCatalog(
   const scenarios = new Map<string, Bucket>();
   const voiceActors = new Map<string, Bucket>();
   const releaseYears = new Set<string>();
+  const detailProductIds = new Map<string, Set<number>>();
 
   for (const product of products) {
     const details = parseDetails(product.detailsJson);
+    for (const [label, value] of Object.entries(details)) {
+      const key = detailFilterValue(label, value);
+      const productIds = detailProductIds.get(key) ?? new Set<number>();
+      productIds.add(product.id);
+      detailProductIds.set(key, productIds);
+    }
     if (product.manufacturer) addBucketValue(brands, product.manufacturer, product.id);
 
     const osDetails = detailValues(details, ["対応OS", "動作OS", "OS", "対応機種"]);
@@ -254,13 +270,15 @@ export function buildProductFilterCatalog(
     }
 
     for (const value of detailValues(details, ["原画", "原画家"])) {
-      for (const person of splitPeople(value)) addBucketValue(illustrators, person, product.id);
+      for (const person of splitDetailPeople(value)) {
+        addBucketValue(illustrators, person, product.id);
+      }
     }
     for (const value of detailValues(details, ["シナリオ", "脚本"])) {
-      for (const person of splitPeople(value)) addBucketValue(scenarios, person, product.id);
+      for (const person of splitDetailPeople(value)) addBucketValue(scenarios, person, product.id);
     }
     for (const value of detailValues(details, ["声優", "キャスト"])) {
-      for (const person of splitPeople(value)) addBucketValue(voiceActors, person, product.id);
+      for (const person of splitDetailPeople(value)) addBucketValue(voiceActors, person, product.id);
     }
 
     const year = product.releaseDate?.match(/^(\d{4})-/u)?.[1];
@@ -274,6 +292,9 @@ export function buildProductFilterCatalog(
     scenarios: buildRankedIndex(scenarios),
     voiceActors: buildRankedIndex(voiceActors),
     releaseYears: [...releaseYears].sort((left, right) => Number(right) - Number(left)),
+    detailProductIds: new Map(
+      [...detailProductIds].map(([key, productIds]) => [key, [...productIds]]),
+    ),
   };
 }
 

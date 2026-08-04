@@ -3,6 +3,11 @@ import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 
 export type StockStatus = "in_stock" | "out_of_stock" | "unknown";
 
+export type FetchedJunkItem = {
+  condition: string;
+  price: number;
+};
+
 export type FetchedProduct = {
   title: string;
   imageUrl: string | null;
@@ -13,6 +18,7 @@ export type FetchedProduct = {
   modelNumber: string | null;
   category: string | null;
   details: Record<string, string>;
+  junkItems: FetchedJunkItem[];
   salePrice: number | null;
   buyPrice: number | null;
   stockStatus: StockStatus;
@@ -59,7 +65,7 @@ export class InvalidSurugayaUrlError extends Error {
 export function normalizePrice(text: string): number | null {
   const normalized = text.replace(/[０-９]/g, (char) =>
     String.fromCharCode(char.charCodeAt(0) - 0xfee0),
-  );
+  ).replace(/，/g, ",");
   const match = normalized.match(/[¥￥]?\s*([0-9][0-9,]*)\s*円?/);
   if (!match) {
     return null;
@@ -144,6 +150,7 @@ export function parseProductHtml(html: string): FetchedProduct {
     modelNumber: details["型番"] ?? null,
     category: details["カテゴリ"] ?? null,
     details,
+    junkItems: extractJunkItems($),
     salePrice: extractSalePrice($),
     buyPrice: extractBuyPrice($),
     stockStatus: detectStockStatus(html),
@@ -212,6 +219,51 @@ function extractBuyPrice($: cheerio.CheerioAPI): number | null {
   const text = normalizeText($("body").text());
   const match = text.match(/買取価格\s*[:：]?\s*[¥￥]?\s*([0-9][0-9,]*)\s*円/);
   return match ? Number.parseInt(match[1].replace(/,/g, ""), 10) : null;
+}
+
+function extractJunkItems($: cheerio.CheerioAPI): FetchedJunkItem[] {
+  const bodyText = normalizeText($("body").text());
+  const marker = "その他の状態を選ぶ";
+  const markerIndex = bodyText.indexOf(marker);
+  if (markerIndex < 0) return [];
+
+  const afterMarker = bodyText.slice(markerIndex + marker.length);
+  const endIndex = afterMarker.search(
+    /条件により|他のショップ|この商品の買取価格|買取価格|近くの店舗|商品詳細情報/u,
+  );
+  const alternateStateText = endIndex >= 0 ? afterMarker.slice(0, endIndex) : afterMarker;
+  const blocks = alternateStateText.matchAll(
+    /((?:中古|新品|予約)\s+.*?)(?=\s*(?:中古|新品|予約)\s+|$)/gu,
+  );
+  const items: FetchedJunkItem[] = [];
+  const seen = new Set<string>();
+
+  for (const match of blocks) {
+    const block = normalizeText(match[1]);
+    if (!/[（(]税込[）)]/u.test(block)) continue;
+
+    const priceIndex = block.search(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/u);
+    if (priceIndex < 0) continue;
+
+    const condition = normalizeText(block.slice(0, priceIndex)).replace(
+      /\s*※?タイムセール\s*$/u,
+      "",
+    );
+    if (!condition || /^(?:中古|新品|予約)$/u.test(condition)) continue;
+
+    const prices = [...block.matchAll(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/gu)]
+      .map((priceMatch) => normalizePrice(priceMatch[0]))
+      .filter((price): price is number => price !== null);
+    const price = prices.at(-1);
+    if (price === undefined) continue;
+
+    const key = `${condition}\u0000${price}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    items.push({ condition, price });
+  }
+
+  return items;
 }
 
 function extractProductDetails($: cheerio.CheerioAPI): Record<string, string> {

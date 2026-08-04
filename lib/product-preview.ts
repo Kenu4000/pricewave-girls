@@ -8,6 +8,7 @@ export type ProductPreview = {
   imageUrl: string | null;
   salePrice: number | null;
   buyPrice: number | null;
+  priceChangedAt: string | null;
   manufacturer: string | null;
   releaseDate: string | null;
   modelNumber: string | null;

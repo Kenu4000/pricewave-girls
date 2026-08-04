@@ -17,6 +17,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <a className="brand" href="/products" title="初期画面に戻る">
               駿河屋価格トラッキング
             </a>
+            <nav className="header-nav" aria-label="主要ページ">
+              <a className="button secondary" href="/changes">価格変更</a>
+            </nav>
           </header>
           {children}
         </main>

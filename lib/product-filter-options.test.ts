@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   buildProductFilterCatalog,
+  detailFilterValue,
   extractOperatingSystems,
   findPriceBand,
   type FilterSourceProduct,
@@ -86,4 +87,15 @@ test("壊れた詳細JSONは候補生成を止めない", () => {
   const catalog = buildProductFilterCatalog([product(1, { detailsJson: "{" })]);
   assert.deepEqual(catalog.releaseYears, []);
   assert.deepEqual(catalog.illustrators.options.alphabetical, []);
+});
+
+test("商品詳細の値を表記揺れを吸収して同じ商品の絞り込みに使う", () => {
+  const catalog = buildProductFilterCatalog([
+    product(1, { detailsJson: JSON.stringify({ メーカー: "Leaf" }) }),
+  ]);
+
+  assert.deepEqual(
+    catalog.detailProductIds.get(detailFilterValue("メーカー", "Ｌｅａｆ")),
+    [1],
+  );
 });

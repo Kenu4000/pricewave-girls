@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PriceChart } from "@/components/PriceChart";
+import {
+  extractOperatingSystems,
+  normalizeFilterChoiceValue,
+  splitDetailPeople,
+} from "@/lib/product-filter-options";
 import { prisma } from "@/lib/prisma";
 
 export const dynamic = "force-dynamic";
@@ -18,10 +23,6 @@ function formatStockStatus(status: string | null) {
     default:
       return "在庫不明";
   }
-}
-
-function formatReleaseDate(date: string | null | undefined) {
-  return date ? date.replace(/-/g, "/") : "未取得";
 }
 
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
@@ -43,6 +44,66 @@ function parseProductDetails(rawDetails: string | null | undefined): Array<[stri
   }
 }
 
+function productListUrl(params: Record<string, string>) {
+  return `/products?${new URLSearchParams(params).toString()}`;
+}
+
+function DetailValueLinks({ label, value }: { label: string; value: string }) {
+  const labelKey = normalizeFilterChoiceValue(label);
+
+  if (["メーカー", "ブランド"].includes(labelKey)) {
+    return (
+      <Link href={productListUrl({ brand: normalizeFilterChoiceValue(value) })}>{value}</Link>
+    );
+  }
+
+  const peopleFilter = ["原画", "原画家"].includes(labelKey)
+    ? "illustrator"
+    : ["シナリオ", "脚本"].includes(labelKey)
+      ? "scenario"
+      : ["声優", "キャスト"].includes(labelKey)
+        ? "voiceActor"
+        : null;
+  if (peopleFilter) {
+    return (
+      <span className="detail-value-links">
+        {splitDetailPeople(value).map((person) => (
+          <Link
+            href={productListUrl({ [peopleFilter]: normalizeFilterChoiceValue(person) })}
+            key={person}
+          >
+            {person}
+          </Link>
+        ))}
+      </span>
+    );
+  }
+
+  if (["対応os", "動作os", "os", "対応機種", "カテゴリ"].includes(labelKey)) {
+    const operatingSystems = extractOperatingSystems(value);
+    if (operatingSystems.length > 0) {
+      return (
+        <span className="detail-value-links">
+          {operatingSystems.map((operatingSystem) => (
+            <Link href={productListUrl({ os: operatingSystem })} key={operatingSystem}>
+              {operatingSystem}
+            </Link>
+          ))}
+        </span>
+      );
+    }
+  }
+
+  if (labelKey === "発売日") {
+    const year = value.match(/\d{4}/u)?.[0];
+    if (year) return <Link href={productListUrl({ releaseYear: year })}>{value}</Link>;
+  }
+
+  return (
+    <Link href={productListUrl({ detailLabel: label, detailValue: value })}>{value}</Link>
+  );
+}
+
 export default async function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const productId = Number(id);
@@ -53,7 +114,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   const product = await prisma.product.findUnique({
     where: { id: productId },
-    include: { histories: { orderBy: { checkedAt: "asc" } } },
+    include: {
+      histories: { orderBy: { checkedAt: "asc" } },
+      junkHistories: { orderBy: [{ checkedAt: "desc" }, { id: "desc" }] },
+    },
   });
 
   if (!product) {
@@ -101,23 +165,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
             <span className="badge">{formatStockStatus(product.stockStatus)}</span>
           </div>
-          <dl className="detail-facts">
-            <div>
-              <dt>ブランド</dt><dd>{product.manufacturer ?? "未取得"}</dd>
-            </div>
-            <div>
-              <dt>発売日</dt><dd>{formatReleaseDate(product.releaseDate)}</dd>
-            </div>
-            <div>
-              <dt>定価</dt><dd>{formatPrice(product.listPrice)}</dd>
-            </div>
-            <div>
-              <dt>型番</dt><dd>{product.modelNumber ?? "未取得"}</dd>
-            </div>
-            <div>
-              <dt>管理番号</dt><dd>{product.managementNumber ?? "未取得"}</dd>
-            </div>
-          </dl>
         </article>
 
         <section className="detail-chart-panel">
@@ -133,7 +180,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             {productDetails.map(([label, value]) => (
               <div key={label}>
                 <dt>{label}</dt>
-                <dd>{value}</dd>
+                <dd><DetailValueLinks label={label} value={value} /></dd>
               </div>
             ))}
           </dl>
@@ -144,11 +191,42 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         )}
       </section>
 
-      <details className="card history-panel">
-        <summary className="history-summary">
-          <span>価格履歴</span>
+      <section className="card junk-history-panel">
+        <div className="history-summary">
+          <h2>ジャンク履歴</h2>
+          <span className="muted">{product.junkHistories.length.toLocaleString("ja-JP")}件</span>
+        </div>
+        {product.junkHistories.length > 0 ? (
+          <div className="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>確認日時</th>
+                  <th>状態</th>
+                  <th>価格</th>
+                </tr>
+              </thead>
+              <tbody>
+                {product.junkHistories.map((history) => (
+                  <tr key={history.id}>
+                    <td>{history.checkedAt.toLocaleString("ja-JP")}</td>
+                    <td>{history.condition}</td>
+                    <td>{formatPrice(history.price)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="muted">「その他の状態を選ぶ」に表示された商品はまだ記録されていません。</p>
+        )}
+      </section>
+
+      <section className="card history-panel">
+        <div className="history-summary">
+          <h2>価格履歴</h2>
           <span className="muted">{histories.length.toLocaleString("ja-JP")}件</span>
-        </summary>
+        </div>
         <div className="table-wrap">
           <table>
             <thead>
@@ -171,7 +249,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             </tbody>
           </table>
         </div>
-      </details>
+      </section>
     </section>
   );
 }

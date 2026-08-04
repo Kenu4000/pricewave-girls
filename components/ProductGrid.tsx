@@ -29,6 +29,10 @@ function formatReleaseDate(date: string | null) {
   return date ? date.replace(/-/g, "/") : null;
 }
 
+function formatPriceChangeDate(date: string | null) {
+  return date ? new Date(date).toLocaleDateString("ja-JP") : "変更なし";
+}
+
 export function ProductGrid({
   initialProducts,
   perPage,
@@ -98,6 +102,9 @@ export function ProductGrid({
           <div className="price-row">
             <span className="badge">販売: {formatPrice(product.salePrice)}</span>
             <span className="badge">買取: {formatPrice(product.buyPrice)}</span>
+          </div>
+          <div className="price-change-date muted">
+            価格変更日: {formatPriceChangeDate(product.priceChangedAt)}
           </div>
           <dl className="product-facts">
             {product.manufacturer ? (

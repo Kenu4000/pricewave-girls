@@ -4,6 +4,7 @@ import { ProductGrid } from "@/components/ProductGrid";
 import { ProductListCount } from "@/components/ProductListCount";
 import {
   buildProductFilterCatalog,
+  detailFilterValue,
   findPriceBand,
   PRICE_BANDS,
   type ProductFilterCatalog,
@@ -51,6 +52,8 @@ type ProductFilters = {
   saleBand: string;
   buyBand: string;
   stock: StockFilter;
+  detailLabel: string;
+  detailValue: string;
 };
 
 const SORT_ORDERS = {
@@ -111,8 +114,8 @@ function parsePageSize(value: string | undefined): PageSize {
   return PAGE_SIZES.includes(parsed as PageSize) ? (parsed as PageSize) : 24;
 }
 
-function parseText(value: string | undefined): string {
-  return value?.trim().slice(0, 200) ?? "";
+function parseText(value: string | undefined, maxLength = 200): string {
+  return value?.trim().slice(0, maxLength) ?? "";
 }
 
 function parseReleaseYear(value: string | undefined): string {
@@ -143,6 +146,8 @@ function parseFilters(query: Record<string, string | string[] | undefined>): Pro
     saleBand: parsePriceBand(firstValue(query.saleBand)),
     buyBand: parsePriceBand(firstValue(query.buyBand)),
     stock: parseStock(firstValue(query.stock)),
+    detailLabel: parseText(firstValue(query.detailLabel), 30),
+    detailValue: parseText(firstValue(query.detailValue), 500),
   };
 }
 
@@ -172,6 +177,16 @@ function buildProductWhere(
   addIndexedFilter(conditions, filters.illustrator, catalog.illustrators);
   addIndexedFilter(conditions, filters.scenario, catalog.scenarios);
   addIndexedFilter(conditions, filters.voiceActor, catalog.voiceActors);
+  if (filters.detailLabel && filters.detailValue) {
+    conditions.push({
+      id: {
+        in:
+          catalog.detailProductIds.get(
+            detailFilterValue(filters.detailLabel, filters.detailValue),
+          ) ?? [],
+      },
+    });
+  }
   if (filters.releaseYear) {
     conditions.push({ releaseDate: { startsWith: `${filters.releaseYear}-` } });
   }
@@ -295,6 +310,11 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     imageUrl: product.imageUrl,
     salePrice: product.latestSalePrice,
     buyPrice: product.latestBuyPrice,
+    priceChangedAt:
+      [product.salePriceChangedAt, product.buyPriceChangedAt]
+        .filter((value): value is Date => value !== null)
+        .sort((left, right) => right.getTime() - left.getTime())[0]
+        ?.toISOString() ?? null,
     manufacturer: product.manufacturer,
     releaseDate: product.releaseDate,
     modelNumber: product.modelNumber,
@@ -312,6 +332,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     filters.saleBand,
     filters.buyBand,
     filters.stock,
+    filters.detailLabel,
+    filters.detailValue,
   ].some(Boolean);
   const streamEnabled = currentPage === 1 && !filtersActive && sort === "updated-desc";
 
@@ -333,6 +355,22 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
       </div>
 
       <form action="/products" className="card filter-panel">
+        {filters.detailLabel && filters.detailValue ? (
+          <div className="linked-detail-filter">
+            <span>商品詳細: {filters.detailLabel}「{filters.detailValue}」</span>
+            <Link
+              href={listUrl(1, sort, perPage, {
+                ...filters,
+                detailLabel: "",
+                detailValue: "",
+              })}
+            >
+              解除
+            </Link>
+            <input name="detailLabel" type="hidden" value={filters.detailLabel} />
+            <input name="detailValue" type="hidden" value={filters.detailValue} />
+          </div>
+        ) : null}
         <div className="primary-search-grid">
           <label className="filter-field primary-name-search">
             <span>商品名</span>

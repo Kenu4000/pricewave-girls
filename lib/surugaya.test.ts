@@ -31,6 +31,7 @@ test("販売価格・買取価格・画像・在庫を取得する", () => {
     modelNumber: null,
     category: null,
     details: {},
+    junkItems: [],
     salePrice: 3680,
     buyPrice: 1100,
     stockStatus: "in_stock",
@@ -48,6 +49,28 @@ test("タイムセールでは後に表示された現在価格を使う", () =>
 
   assert.equal(product.salePrice, 5400);
   assert.equal(product.stockStatus, "in_stock");
+});
+
+test("その他の状態を通常価格と分離して一件ずつ取得する", () => {
+  const product = parseProductHtml(`
+    <html><body>
+      <h1>ファミコンソフト ソルスティス</h1>
+      <div>中古 9,200円 (税込)</div>
+      <h2>その他の状態を選ぶ</h2>
+      <div>中古 箱・ジャケット・ケース不備（中） 6,500円 (税込)</div>
+      <div>中古 本体不備（大） 5,500円 (税込)</div>
+      <div>中古 帯付き ※タイムセール 3,900円 3,500円 (税込)</div>
+      <p>条件により送料とは別に通信販売手数料がかかります</p>
+      <a>買取価格： 4,200円</a>
+    </body></html>
+  `);
+
+  assert.equal(product.salePrice, 9200);
+  assert.deepEqual(product.junkItems, [
+    { condition: "中古 箱・ジャケット・ケース不備（中）", price: 6500 },
+    { condition: "中古 本体不備（大）", price: 5500 },
+    { condition: "中古 帯付き", price: 3500 },
+  ]);
 });
 
 test("品切れ時は他ショップ価格を販売価格として扱わない", () => {
@@ -87,6 +110,7 @@ test("駿河屋を装った別ドメインと商品以外のURLを拒否する",
 
 test("全角数字を含む価格を正規化する", () => {
   assert.equal(normalizePrice("￥１２,３４５円"), 12345);
+  assert.equal(normalizePrice("￥１２，３４５円"), 12345);
   assert.equal(normalizePrice("価格未定"), null);
 });
 
