@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "PriceWave 駿河屋取込",
+  "version": "0.1.0",
+  "description": "Edgeで表示中の駿河屋商品ページをローカルのPriceWaveへ記録します。",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "http://localhost:3000/*",
+    "http://127.0.0.1:3000/*"
+  ],
+  "action": {
+    "default_title": "PriceWaveへ記録",
+    "default_popup": "popup.html"
+  }
+}

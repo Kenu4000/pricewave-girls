@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { upsertProductSnapshot } from "@/lib/product-snapshots";
 import {
   fetchProduct,
   InvalidSurugayaUrlError,
@@ -19,38 +19,7 @@ export async function POST(request: Request) {
 
     const normalizedUrl = normalizeSurugayaUrl(url);
     const fetched = await fetchProduct(normalizedUrl);
-    const product = await prisma.product.upsert({
-      where: { surugayaUrl: normalizedUrl },
-      update: {
-        title: fetched.title,
-        imageUrl: fetched.imageUrl,
-        latestSalePrice: fetched.salePrice,
-        latestBuyPrice: fetched.buyPrice,
-        stockStatus: fetched.stockStatus,
-        histories: {
-          create: {
-            salePrice: fetched.salePrice,
-            buyPrice: fetched.buyPrice,
-            stockStatus: fetched.stockStatus,
-          },
-        },
-      },
-      create: {
-        title: fetched.title,
-        surugayaUrl: normalizedUrl,
-        imageUrl: fetched.imageUrl,
-        latestSalePrice: fetched.salePrice,
-        latestBuyPrice: fetched.buyPrice,
-        stockStatus: fetched.stockStatus,
-        histories: {
-          create: {
-            salePrice: fetched.salePrice,
-            buyPrice: fetched.buyPrice,
-            stockStatus: fetched.stockStatus,
-          },
-        },
-      },
-    });
+    const product = await upsertProductSnapshot(normalizedUrl, fetched);
 
     return NextResponse.json({ id: product.id }, { status: 201 });
   } catch (caught) {

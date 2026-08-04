@@ -51,10 +51,11 @@ export function AddProductForm() {
       </label>
       <p className="muted">
         登録時にページを取得して、商品名・画像URL・販売価格・買取価格・在庫状態を記録します。
+        アクセス確認で止まる場合は、上のEdge拡張機能を使用してください。
       </p>
       {error ? <div className="alert error">{error}</div> : null}
       <button disabled={isSubmitting} type="submit">
-        {isSubmitting ? "取得中..." : "商品を追加"}
+        {isSubmitting ? "取得中..." : "自動取得を試す"}
       </button>
     </form>
   );

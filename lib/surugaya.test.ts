@@ -82,3 +82,16 @@ test("全角数字を含む価格を正規化する", () => {
   assert.equal(normalizePrice("￥１２,３４５円"), 12345);
   assert.equal(normalizePrice("価格未定"), null);
 });
+
+test("Cloudflareのアクセス確認ページを商品として扱わない", () => {
+  assert.throws(
+    () =>
+      parseProductHtml(`
+        <html>
+          <head><title>Just a moment...</title></head>
+          <body><script src="/cdn-cgi/challenge-platform/scripts/jsd/main.js"></script></body>
+        </html>
+      `),
+    /アクセス確認中のページは取り込めません/,
+  );
+});

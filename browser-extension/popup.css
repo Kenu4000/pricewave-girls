@@ -1,0 +1,57 @@
+:root {
+  color-scheme: light;
+  font-family: "Yu Gothic UI", "Meiryo", sans-serif;
+}
+
+body {
+  background: #fff7fb;
+  color: #2d1f2f;
+  margin: 0;
+  width: 320px;
+}
+
+main {
+  padding: 18px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+button {
+  background: #d9469a;
+  border: 0;
+  border-radius: 999px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+#status[data-kind="error"] {
+  color: #b42318;
+}
+
+#status[data-kind="success"] {
+  color: #087f5b;
+}
+
+a {
+  color: #a82070;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 4px;
+}

@@ -34,7 +34,7 @@ export function RefreshButton({ productId }: { productId: number }) {
   return (
     <div className="form">
       <button disabled={isRefreshing} onClick={refresh} type="button">
-        {isRefreshing ? "更新中..." : "手動更新"}
+        {isRefreshing ? "更新中..." : "自動更新を試す"}
       </button>
       {message ? <div className="alert success">{message}</div> : null}
       {error ? <div className="alert error">{error}</div> : null}

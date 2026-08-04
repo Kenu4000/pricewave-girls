@@ -94,6 +94,13 @@ export function parseProductHtml(html: string): FetchedProduct {
   const $ = cheerio.load(html);
   const title = extractTitle($);
 
+  if (
+    /(?:^|\W)(?:cf-chl-|challenges\.cloudflare\.com)/i.test(html) ||
+    /^(?:Just a moment|Attention Required)/i.test(title ?? "")
+  ) {
+    throw new Error("アクセス確認中のページは取り込めません。商品ページが表示されてから実行してください");
+  }
+
   if (!title) {
     throw new Error("商品タイトルを取得できませんでした");
   }

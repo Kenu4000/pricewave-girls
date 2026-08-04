@@ -158,6 +158,19 @@ button:disabled {
   max-width: 760px;
 }
 
+.steps {
+  line-height: 1.7;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+code {
+  background: #fff0f7;
+  border-radius: 6px;
+  color: var(--primary-dark);
+  padding: 2px 5px;
+}
+
 .input {
   border: 1px solid var(--border);
   border-radius: 14px;
