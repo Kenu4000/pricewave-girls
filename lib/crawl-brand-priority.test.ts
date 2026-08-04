@@ -3,31 +3,36 @@ import test from "node:test";
 import {
   crawlPriorityForProduct,
   isDailyCrawlBrand,
+  isDailyCrawlProductTitle,
   productBrandCandidates,
 } from "./crawl-brand-priority";
 
-test("ランキング指定のLeafとF&Cを毎日巡回する", () => {
+test("確定一覧のLeaf、F&C、NEXTONを毎日巡回する", () => {
   assert.equal(isDailyCrawlBrand(["Leaf"]), true);
   assert.equal(isDailyCrawlBrand(["F&C"]), true);
+  assert.equal(isDailyCrawlBrand(["NEXTON"]), true);
 });
 
-test("人気順ページで取得した表記も毎日巡回する", () => {
+test("表記揺れと別名を吸収する", () => {
   assert.equal(isDailyCrawlBrand(["フロントウィング"]), true);
   assert.equal(isDailyCrawlBrand(["シルキーズプラス WASABI"]), true);
-  assert.equal(isDailyCrawlBrand(["Guiltｙ"]), true);
-});
-
-test("ランキング上で同人表記だったブランドは毎日集合へ入れない", () => {
-  assert.equal(isDailyCrawlBrand(["07th Expansion"]), false);
-  assert.equal(isDailyCrawlBrand(["NEKO WORKs"]), false);
-  assert.equal(isDailyCrawlBrand(["上海アリス幻樂団"]), false);
-});
-
-test("解散などの注記と括弧内の別名を除いて照合する", () => {
-  assert.equal(isDailyCrawlBrand(["戯画"]), true);
   assert.equal(isDailyCrawlBrand(["HOOK"]), true);
   assert.equal(isDailyCrawlBrand(["ruf"]), true);
-  assert.equal(isDailyCrawlBrand(["セガゲームス"]), true);
+  assert.equal(isDailyCrawlBrand(["5pb."]), true);
+});
+
+test("確定一覧から外したブランドはブランド全体を毎日巡回しない", () => {
+  assert.equal(isDailyCrawlBrand(["Acacia"]), false);
+  assert.equal(isDailyCrawlBrand(["アパタイト"]), false);
+  assert.equal(isDailyCrawlBrand(["KONAMI"]), false);
+  assert.equal(isDailyCrawlBrand(["NEKO WORKs"]), false);
+});
+
+test("CROSS CHANNELはブランドではなく商品名として毎日巡回する", () => {
+  assert.equal(isDailyCrawlBrand(["CROSS†CHANNEL"]), false);
+  assert.equal(isDailyCrawlProductTitle("CROSS†CHANNEL -FINAL COMPLETE-"), true);
+  assert.equal(isDailyCrawlProductTitle("CROSS CHANNEL 復刻版"), true);
+  assert.equal(isDailyCrawlProductTitle("別の商品"), false);
 });
 
 test("メーカー列と詳細JSONのブランド欄から候補を取得する", () => {
@@ -36,6 +41,9 @@ test("メーカー列と詳細JSONのブランド欄から候補を取得する"
     "アクアプラス",
     "Leaf",
   ]);
-  assert.equal(crawlPriorityForProduct(null, detailsJson), "daily");
-  assert.equal(crawlPriorityForProduct("未登録ブランド", null), "rotation");
+  assert.equal(crawlPriorityForProduct("商品名", null, detailsJson), "daily");
+  assert.equal(
+    crawlPriorityForProduct("商品名", "未登録ブランド", null),
+    "rotation",
+  );
 });
