@@ -25,7 +25,6 @@ const DEFAULT_STATUS = {
 
 let currentRun = null;
 let cancelRequested = false;
-let localImportQueue = Promise.resolve();
 
 class AccessChallengeError extends Error {}
 class TaskCancelledError extends Error {}
@@ -363,7 +362,7 @@ async function collectUnregisteredProducts(
   return collected;
 }
 
-async function updateOneProduct(product) {
+async function updateOneProduct(product, sessionId = null) {
   const tab = await chrome.tabs.create({ url: product.url, active: false });
   if (!tab.id) {
     throw new Error("自動更新用のタブを作成できませんでした。");
@@ -371,18 +370,64 @@ async function updateOneProduct(product) {
 
   try {
     const page = await readProductPage(tab.id);
-    const importJob = localImportQueue.then(() =>
-      requestLocal("/api/import", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: page.url, html: page.html }),
-      }),
-    );
-    localImportQueue = importJob.then(() => undefined, () => undefined);
-    await importJob;
+    await requestLocal("/api/import", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url: page.url, html: page.html, sessionId }),
+    });
   } finally {
     await chrome.tabs.remove(tab.id).catch(() => {});
   }
+}
+
+async function processProductsAndCommit(products, requestedParallelTabs, describeProduct) {
+  const sessionId = crypto.randomUUID();
+  let result = { succeeded: 0, failed: 0 };
+  let processingError = null;
+
+  try {
+    result = await processProductsInParallel(
+      products,
+      requestedParallelTabs,
+      describeProduct,
+      (product) => updateOneProduct(product, sessionId),
+    );
+  } catch (error) {
+    processingError = error;
+    result = {
+      succeeded: Number.isInteger(error?.succeeded) ? error.succeeded : 0,
+      failed: Number.isInteger(error?.failed) ? error.failed : 0,
+    };
+  }
+
+  if (result.succeeded > 0) {
+    await setStatus({
+      succeeded: result.succeeded,
+      failed: result.failed,
+      message: `取得済み${result.succeeded}件をデータベースへ一括保存しています。`,
+    });
+    try {
+      const { result: commitResult } = await requestLocal("/api/import/commit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId }),
+      });
+      if (commitResult.count !== result.succeeded) {
+        throw new Error(
+          `一括保存件数が一致しません（取得${result.succeeded}件、保存${commitResult.count}件）`,
+        );
+      }
+    } catch (error) {
+      const commitError =
+        error instanceof Error ? error : new Error("データベースへの一括保存に失敗しました。");
+      commitError.succeeded = 0;
+      commitError.failed = result.failed + result.succeeded;
+      throw commitError;
+    }
+  }
+
+  if (processingError) throw processingError;
+  return result;
 }
 
 async function processProductsInParallel(
@@ -493,7 +538,7 @@ async function runAllProducts(trigger) {
 
     await setStatus({ total: products.length, message: `全${products.length}件を更新します。` });
 
-    ({ succeeded, failed } = await processProductsInParallel(
+    ({ succeeded, failed } = await processProductsAndCommit(
       products,
       settings.parallelTabs,
       (product, index, total) => `${index + 1}/${total}件目: ${product.title}`,
@@ -586,7 +631,7 @@ async function runAutoAdd(sourceUrl, requestedLimit) {
       message: `未登録${products.length}件を追加します。`,
     });
 
-    ({ succeeded, failed } = await processProductsInParallel(
+    ({ succeeded, failed } = await processProductsAndCommit(
       products,
       settings.parallelTabs,
       (product, index, total) => `${index + 1}/${total}件目を追加中: ${product.id}`,

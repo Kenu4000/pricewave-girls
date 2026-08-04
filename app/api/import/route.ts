@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { upsertProductSnapshot } from "@/lib/product-snapshots";
+import { productImportQueue } from "@/lib/product-import-queue";
+import { stageProductSnapshot } from "@/lib/product-import-sessions";
 import {
   InvalidSurugayaUrlError,
   normalizeSurugayaUrl,
@@ -12,9 +13,14 @@ const MAX_HTML_SIZE = 5 * 1024 * 1024;
 
 export async function POST(request: Request) {
   try {
-    const body = (await request.json()) as { url?: unknown; html?: unknown };
+    const body = (await request.json()) as {
+      url?: unknown;
+      html?: unknown;
+      sessionId?: unknown;
+    };
     const url = typeof body.url === "string" ? body.url.trim() : "";
     const html = typeof body.html === "string" ? body.html : "";
+    const sessionId = typeof body.sessionId === "string" ? body.sessionId : null;
 
     if (!url || !html) {
       return NextResponse.json(
@@ -32,9 +38,20 @@ export async function POST(request: Request) {
 
     const normalizedUrl = normalizeSurugayaUrl(url);
     const fetched = parseProductHtml(html);
-    const product = await upsertProductSnapshot(normalizedUrl, fetched);
+    if (sessionId) {
+      const stagedCount = stageProductSnapshot(sessionId, {
+        surugayaUrl: normalizedUrl,
+        fetched,
+      });
+      return NextResponse.json({ staged: true, stagedCount }, { status: 202 });
+    }
 
-    return NextResponse.json({ id: product.id }, { status: 201 });
+    const productId = await productImportQueue.enqueue({
+      surugayaUrl: normalizedUrl,
+      fetched,
+    });
+
+    return NextResponse.json({ id: productId }, { status: 201 });
   } catch (caught) {
     const message = caught instanceof Error ? caught.message : "商品の取込に失敗しました";
     const status = caught instanceof InvalidSurugayaUrlError ? 400 : 422;
