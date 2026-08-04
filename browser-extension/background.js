@@ -404,7 +404,7 @@ async function processProductsAndCommit(products, requestedParallelTabs, describ
     await setStatus({
       succeeded: result.succeeded,
       failed: result.failed,
-      message: `取得済み${result.succeeded}件をデータベースへ一括保存しています。`,
+      message: `取得済み${result.succeeded}件の残りをデータベースへ保存しています。`,
     });
     try {
       const { result: commitResult } = await requestLocal("/api/import/commit", {

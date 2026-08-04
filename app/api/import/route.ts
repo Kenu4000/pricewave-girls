@@ -39,7 +39,7 @@ export async function POST(request: Request) {
     const normalizedUrl = normalizeSurugayaUrl(url);
     const fetched = parseProductHtml(html);
     if (sessionId) {
-      const stagedCount = stageProductSnapshot(sessionId, {
+      const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
         fetched,
       });

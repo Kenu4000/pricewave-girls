@@ -86,7 +86,10 @@ export async function upsertProductSnapshot(
   return product;
 }
 
-export async function upsertProductSnapshots(inputs: ProductSnapshotInput[]) {
+export async function upsertProductSnapshots(
+  inputs: ProductSnapshotInput[],
+  options: { notify?: boolean } = {},
+) {
   if (inputs.length === 0) return [];
 
   const operations: PrismaPromise<unknown>[] = [];
@@ -200,6 +203,6 @@ export async function upsertProductSnapshots(inputs: ProductSnapshotInput[]) {
     return { id };
   });
 
-  notifyProductsChanged();
+  if (options.notify !== false) notifyProductsChanged();
   return products;
 }

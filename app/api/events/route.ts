@@ -15,8 +15,16 @@ export async function GET(request: Request) {
       const send = (message: string) => {
         if (!closed) controller.enqueue(encoder.encode(message));
       };
-      const unsubscribe = subscribeToProductChanges(() => {
-        send(`event: products-changed\ndata: ${Date.now()}\n\n`);
+      const unsubscribe = subscribeToProductChanges((event) => {
+        if (event.type === "changed") {
+          send(`event: products-changed\ndata: ${Date.now()}\n\n`);
+          return;
+        }
+        if (event.type === "batch-saved") {
+          send(`event: products-batch\ndata: ${JSON.stringify(event)}\n\n`);
+          return;
+        }
+        send(`event: products-import-finished\ndata: ${JSON.stringify(event)}\n\n`);
       });
       const heartbeat = setInterval(() => send(": heartbeat\n\n"), 20_000);
 

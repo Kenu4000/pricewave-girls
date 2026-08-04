@@ -1,4 +1,22 @@
-type ProductChangeListener = () => void;
+export type ProductPreview = {
+  id: number;
+  title: string;
+  imageUrl: string | null;
+  salePrice: number | null;
+  buyPrice: number | null;
+};
+
+export type ProductChangeEvent =
+  | { type: "changed" }
+  | {
+      type: "batch-saved";
+      sessionId: string;
+      savedCount: number;
+      products: ProductPreview[];
+    }
+  | { type: "import-finished"; sessionId: string; savedCount: number };
+
+type ProductChangeListener = (event: ProductChangeEvent) => void;
 
 const productEventsGlobal = globalThis as typeof globalThis & {
   productChangeListeners?: Set<ProductChangeListener>;
@@ -15,12 +33,28 @@ export function subscribeToProductChanges(listener: ProductChangeListener) {
   return () => listeners.delete(listener);
 }
 
-export function notifyProductsChanged() {
+function notify(event: ProductChangeEvent) {
   for (const listener of getListeners()) {
     try {
-      listener();
+      listener(event);
     } catch {
       // A disconnected browser must not make the database update fail.
     }
   }
+}
+
+export function notifyProductsChanged() {
+  notify({ type: "changed" });
+}
+
+export function notifyProductBatchSaved(
+  sessionId: string,
+  savedCount: number,
+  products: ProductPreview[],
+) {
+  notify({ type: "batch-saved", sessionId, savedCount, products });
+}
+
+export function notifyProductImportFinished(sessionId: string, savedCount: number) {
+  notify({ type: "import-finished", sessionId, savedCount });
 }
