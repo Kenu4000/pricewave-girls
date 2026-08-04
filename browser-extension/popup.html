@@ -23,18 +23,14 @@
           <span>自動更新を有効にする</span>
         </label>
         <label class="field-row">
-          <span>実行時刻</span>
+          <span>開始時刻</span>
           <input id="auto-time" type="time" value="09:00">
-        </label>
-        <label class="field-row">
-          <span>同時に開く商品タブ</span>
-          <input id="parallel-tabs" type="number" value="10" min="1" max="100" step="1">
         </label>
         <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
         <button id="run-all-button" class="secondary" type="button">今すぐ全商品を更新</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
-        <p class="note">Edgeとローカルアプリの起動中だけ実行されます。同時タブ数は自動更新と自動追加の両方に適用されます。</p>
+        <p class="note">全商品更新は1タブだけで実行し、登録件数に応じて8〜25秒間隔へ自動調整します。403・429・アクセス確認を検出した場合は即時停止します。Edgeとローカルアプリの起動中だけ実行されます。</p>
       </section>
 
       <hr>
@@ -50,7 +46,7 @@
           <input id="auto-add-limit" type="number" value="1000" min="1" max="1000" step="1">
         </label>
         <button id="auto-add-button" class="secondary" type="button">未登録商品を自動追加</button>
-        <p class="note">検索結果を順番にたどり、既に登録されている商品を除外します。最大1,000件です。</p>
+        <p class="note">検索結果と商品ページも1タブずつ取得します。既に登録されている商品は除外します。</p>
       </section>
     </main>
     <script src="popup.js"></script>
