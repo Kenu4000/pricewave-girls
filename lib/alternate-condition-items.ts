@@ -3,7 +3,7 @@ import type { FetchedJunkItem, FetchedProduct } from "@/lib/surugaya";
 
 const ALTERNATE_CONDITION_MARKER = "その他の状態を選ぶ";
 const ALTERNATE_CONDITION_END =
-  /1,500円以上お買上げで送料無料|１５００円以上お買上げで送料無料|条件により|他のショップ|この商品の買取価格|買取価格|近くの店舗|商品詳細情報/u;
+  /(?:1[,.，]?500|１５００)円以上お買上げで送料無料|条件により|他のショップ|この商品の買取価格|買取価格|近くの店舗|商品詳細情報/u;
 const PRICE_PATTERN = /[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/gu;
 
 /**
