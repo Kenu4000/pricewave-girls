@@ -3,10 +3,25 @@ import { createRequire } from "node:module";
 import test from "node:test";
 
 const require = createRequire(import.meta.url);
+type CrawlProduct = {
+  id: number;
+  crawlPriority: "daily" | "rotation";
+};
 const policy = require("../browser-extension/crawl-policy.js") as {
   MIN_PRODUCT_START_INTERVAL_MS: number;
   MAX_PRODUCT_START_INTERVAL_MS: number;
   calculateProductStartInterval(productCount: number): number;
+  rotationBucket(value: Date | number): number;
+  selectScheduledProducts(
+    products: CrawlProduct[],
+    value: Date | number,
+  ): {
+    products: CrawlProduct[];
+    bucket: number;
+    dailyCount: number;
+    rotationCount: number;
+    totalRegistered: number;
+  };
   classifyPage(page: {
     title?: string;
     bodyText?: string;
@@ -32,6 +47,41 @@ test("商品が少ない場合もサービスワーカー維持のため25秒を
     policy.calculateProductStartInterval(100),
     policy.MAX_PRODUCT_START_INTERVAL_MS,
   );
+});
+
+test("毎日対象を必ず含め、その他は当日の3分割だけを含める", () => {
+  const date = new Date(2026, 7, 5, 9, 0, 0);
+  const bucket = policy.rotationBucket(date);
+  const products: CrawlProduct[] = [
+    { id: 99, crawlPriority: "daily" },
+    { id: bucket, crawlPriority: "rotation" },
+    { id: (bucket + 1) % 3, crawlPriority: "rotation" },
+    { id: (bucket + 2) % 3, crawlPriority: "rotation" },
+  ];
+
+  const plan = policy.selectScheduledProducts(products, date);
+  assert.deepEqual(plan.products.map((product) => product.id), [99, bucket]);
+  assert.equal(plan.dailyCount, 1);
+  assert.equal(plan.rotationCount, 1);
+  assert.equal(plan.totalRegistered, 4);
+});
+
+test("3日連続のローテーションでその他の商品をすべて一巡する", () => {
+  const products: CrawlProduct[] = [
+    { id: 0, crawlPriority: "rotation" },
+    { id: 1, crawlPriority: "rotation" },
+    { id: 2, crawlPriority: "rotation" },
+  ];
+  const selectedIds = new Set<number>();
+
+  for (let offset = 0; offset < 3; offset += 1) {
+    const date = new Date(2026, 7, 5 + offset, 9, 0, 0);
+    for (const product of policy.selectScheduledProducts(products, date).products) {
+      selectedIds.add(product.id);
+    }
+  }
+
+  assert.deepEqual([...selectedIds].sort(), [0, 1, 2]);
 });
 
 test("アクセス確認、403、429を停止対象として判定する", () => {
