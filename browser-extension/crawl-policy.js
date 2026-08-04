@@ -1,5 +1,6 @@
 (function exposePricewaveCrawlPolicy(globalObject) {
   const DAY_MS = 24 * 60 * 60 * 1_000;
+  const ROTATION_DAYS = 3;
   const MIN_PRODUCT_START_INTERVAL_MS = 8_000;
   const MAX_PRODUCT_START_INTERVAL_MS = 25_000;
   const SERVER_RETRY_DELAYS_MS = [
@@ -15,6 +16,44 @@
       MAX_PRODUCT_START_INTERVAL_MS,
       Math.max(MIN_PRODUCT_START_INTERVAL_MS, distributedInterval),
     );
+  }
+
+  function localDayNumber(value = Date.now()) {
+    const date = value instanceof Date ? value : new Date(value);
+    return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / DAY_MS);
+  }
+
+  function rotationBucket(value = Date.now()) {
+    const remainder = localDayNumber(value) % ROTATION_DAYS;
+    return remainder < 0 ? remainder + ROTATION_DAYS : remainder;
+  }
+
+  function productRotationBucket(product) {
+    const numericId = Math.floor(Math.abs(Number(product?.id) || 0));
+    return numericId % ROTATION_DAYS;
+  }
+
+  function selectScheduledProducts(products, value = Date.now()) {
+    const source = Array.isArray(products) ? products : [];
+    const bucket = rotationBucket(value);
+    const daily = [];
+    const rotation = [];
+
+    for (const product of source) {
+      if (product?.crawlPriority === "daily") {
+        daily.push(product);
+      } else if (productRotationBucket(product) === bucket) {
+        rotation.push(product);
+      }
+    }
+
+    return {
+      products: [...daily, ...rotation],
+      bucket,
+      dailyCount: daily.length,
+      rotationCount: rotation.length,
+      totalRegistered: source.length,
+    };
   }
 
   function normalizedPageText(page) {
@@ -61,9 +100,14 @@
 
   const policy = {
     DAY_MS,
+    ROTATION_DAYS,
     MIN_PRODUCT_START_INTERVAL_MS,
     MAX_PRODUCT_START_INTERVAL_MS,
     calculateProductStartInterval,
+    localDayNumber,
+    rotationBucket,
+    productRotationBucket,
+    selectScheduledProducts,
     classifyPage,
     serverRetryDelay,
   };
