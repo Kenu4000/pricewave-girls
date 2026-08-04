@@ -227,6 +227,20 @@ Qoo brand
 NEXTON
 `;
 
+const DAILY_BRAND_ALIAS_GROUPS = [
+  ["FrontWing", "フロントウィング", "フロントウイング"],
+  ["NitroPlus", "Nitro+", "ニトロプラス"],
+  ["Purple software", "パープルソフトウェア"],
+  ["AQUAPLUS", "アクアプラス"],
+  ["Liar-soft", "ライアーソフト"],
+  ["Escu:de", "エスクード"],
+  ["Overflow", "オーバーフロー"],
+  ["BLUE GALE", "ブルーゲイル"],
+  ["FlyingShine", "フライングシャイン"],
+  ["UNiSONSHIFT", "ユニゾンシフト"],
+  ["MAGES.", "MAGES.(5pb.)", "5pb."],
+] as const;
+
 const DAILY_PRODUCT_TITLES = ["CROSS†CHANNEL"] as const;
 const BRAND_DETAIL_LABELS = new Set([
   "メーカー",
@@ -272,7 +286,12 @@ function brandAliases(value: string): string[] {
   return [...aliases];
 }
 
-const DAILY_BRAND_KEYS = new Set(sourceLines(DAILY_BRANDS).flatMap(brandAliases));
+const DAILY_BRAND_KEYS = new Set(
+  [
+    ...sourceLines(DAILY_BRANDS),
+    ...DAILY_BRAND_ALIAS_GROUPS.flatMap((group) => [...group]),
+  ].flatMap(brandAliases),
+);
 const DAILY_PRODUCT_TITLE_KEYS = DAILY_PRODUCT_TITLES.map(normalizeCrawlBrand);
 
 function parseDetails(rawDetails: string | null | undefined): Record<string, string> {
