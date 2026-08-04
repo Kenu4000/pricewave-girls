@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import { upsertProductSnapshot } from "@/lib/product-snapshots";
 import {
   fetchProduct,
@@ -40,6 +41,7 @@ export async function POST(request: Request) {
     const normalizedUrl = normalizeSurugayaUrl(url);
     const fetched = await fetchProduct(normalizedUrl);
     const product = await upsertProductSnapshot(normalizedUrl, fetched);
+    await pruneProductPriceHistories([product.id]);
 
     return NextResponse.json({ id: product.id }, { status: 201 });
   } catch (caught) {
