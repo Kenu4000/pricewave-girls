@@ -11,6 +11,9 @@ WHERE "sourceType" = 'alternate_condition'
 WITH "rankedHistory" AS (
   SELECT
     "id",
+    "salePrice",
+    "buyPrice",
+    "stockStatus",
     ROW_NUMBER() OVER (
       PARTITION BY "productId"
       ORDER BY "checkedAt" DESC, "id" DESC
