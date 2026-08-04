@@ -6,6 +6,10 @@ const autoTime = document.querySelector("#auto-time");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const autoStatus = document.querySelector("#auto-status");
+const stopTaskButton = document.querySelector("#stop-task-button");
+const autoAddUrl = document.querySelector("#auto-add-url");
+const autoAddLimit = document.querySelector("#auto-add-limit");
+const autoAddButton = document.querySelector("#auto-add-button");
 
 function showStatus(message, kind) {
   status.textContent = message;
@@ -108,6 +112,10 @@ async function loadAutoSettings(syncForm = true) {
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
   }
+  if (syncForm && response?.autoAddSettings) {
+    autoAddUrl.value = response.autoAddSettings.sourceUrl;
+    autoAddLimit.value = String(response.autoAddSettings.limit);
+  }
   renderAutoStatus(response);
 }
 
@@ -147,8 +155,46 @@ async function runAllProducts() {
   }
 }
 
+async function startAutoAdd() {
+  autoAddButton.disabled = true;
+  try {
+    const response = await chrome.runtime.sendMessage({
+      type: "auto-add:start",
+      sourceUrl: autoAddUrl.value.trim(),
+      limit: Number(autoAddLimit.value),
+    });
+    if (!response?.ok) {
+      throw new Error(response?.error || "別の更新処理が実行中です。");
+    }
+    await loadAutoSettings();
+  } catch (error) {
+    autoStatus.textContent = error instanceof Error ? error.message : "自動追加を開始できませんでした。";
+    autoStatus.dataset.kind = "error";
+  } finally {
+    autoAddButton.disabled = false;
+  }
+}
+
+async function stopTask() {
+  stopTaskButton.disabled = true;
+  try {
+    const response = await chrome.runtime.sendMessage({ type: "task:cancel" });
+    if (!response?.ok) {
+      throw new Error(response?.error || "処理を停止できませんでした。");
+    }
+    await loadAutoSettings(false);
+  } catch (error) {
+    autoStatus.textContent = error instanceof Error ? error.message : "処理を停止できませんでした。";
+    autoStatus.dataset.kind = "error";
+  } finally {
+    stopTaskButton.disabled = false;
+  }
+}
+
 saveAutoButton.addEventListener("click", saveAutoSettings);
 runAllButton.addEventListener("click", runAllProducts);
+autoAddButton.addEventListener("click", startAutoAdd);
+stopTaskButton.addEventListener("click", stopTask);
 void loadAutoSettings();
 
 const statusTimer = setInterval(() => {

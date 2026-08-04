@@ -28,8 +28,25 @@
         </label>
         <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
         <button id="run-all-button" class="secondary" type="button">今すぐ全商品を更新</button>
+        <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
         <p class="note">Edgeとローカルアプリの起動中だけ実行されます。商品は1秒の間隔で1件ずつ開きます。</p>
+      </section>
+
+      <hr>
+
+      <section aria-labelledby="auto-add-heading">
+        <h2 id="auto-add-heading">商品を自動追加</h2>
+        <label class="stacked-field">
+          <span>駿河屋の検索結果URL</span>
+          <input id="auto-add-url" type="url" value="https://www.suruga-ya.jp/search?category=65204&amp;genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&amp;search_word=">
+        </label>
+        <label class="field-row">
+          <span>未登録の追加件数</span>
+          <input id="auto-add-limit" type="number" value="1000" min="1" max="1000" step="1">
+        </label>
+        <button id="auto-add-button" class="secondary" type="button">未登録商品を自動追加</button>
+        <p class="note">検索結果を順番にたどり、既に登録されている商品を除外します。最大1,000件です。</p>
       </section>
     </main>
     <script src="popup.js"></script>
