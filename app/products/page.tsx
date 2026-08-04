@@ -10,6 +10,7 @@ import {
   type ProductFilterCatalog,
   type RankedFilterOptions,
 } from "@/lib/product-filter-options";
+import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
 
@@ -22,12 +23,10 @@ const SORT_OPTIONS = [
   { value: "sale-desc", label: "販売価格が高い順" },
   { value: "buy-desc", label: "買取価格が高い順" },
   { value: "buy-asc", label: "買取価格が安い順" },
+  { value: "spread-desc", label: "販売・買取の差が大きい順" },
+  { value: "spread-asc", label: "販売・買取の差が小さい順" },
   { value: "release-desc", label: "発売年度が新しい順" },
   { value: "release-asc", label: "発売年度が古い順" },
-  { value: "list-asc", label: "定価が安い順" },
-  { value: "list-desc", label: "定価が高い順" },
-  { value: "manufacturer-asc", label: "ブランド順" },
-  { value: "title-asc", label: "商品名順" },
 ] as const;
 
 const PAGE_SIZES = [24, 48, 96] as const;
@@ -38,6 +37,8 @@ const STOCK_OPTIONS = [
   { value: "unknown", label: "在庫不明" },
 ] as const;
 type SortKey = (typeof SORT_OPTIONS)[number]["value"];
+type SpreadSortKey = Extract<SortKey, "spread-asc" | "spread-desc">;
+type DatabaseSortKey = Exclude<SortKey, SpreadSortKey>;
 type PageSize = (typeof PAGE_SIZES)[number];
 type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
 
@@ -83,14 +84,12 @@ const SORT_ORDERS = {
     { releaseDate: { sort: "asc", nulls: "last" } },
     { title: "asc" },
   ],
-  "list-asc": [{ listPrice: { sort: "asc", nulls: "last" } }, { title: "asc" }],
-  "list-desc": [{ listPrice: { sort: "desc", nulls: "last" } }, { title: "asc" }],
-  "manufacturer-asc": [
-    { manufacturer: { sort: "asc", nulls: "last" } },
-    { title: "asc" },
-  ],
-  "title-asc": [{ title: "asc" }, { id: "asc" }],
-} satisfies Record<SortKey, Prisma.ProductOrderByWithRelationInput[]>;
+} satisfies Record<DatabaseSortKey, Prisma.ProductOrderByWithRelationInput[]>;
+
+const PRODUCT_INCLUDE = {
+  histories: { orderBy: { checkedAt: "desc" as const }, take: 1 },
+} satisfies Prisma.ProductInclude;
+type ListedProduct = Prisma.ProductGetPayload<{ include: typeof PRODUCT_INCLUDE }>;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
@@ -153,6 +152,10 @@ function parseFilters(query: Record<string, string | string[] | undefined>): Pro
 
 function hasActiveFilters(filters: ProductFilters): boolean {
   return Object.values(filters).some(Boolean);
+}
+
+function isSpreadSort(sort: SortKey): sort is SpreadSortKey {
+  return sort === "spread-asc" || sort === "spread-desc";
 }
 
 function addIndexedFilter(
@@ -273,6 +276,52 @@ function RankedOptions({ options }: { options: RankedFilterOptions }) {
   );
 }
 
+async function loadProducts(
+  where: Prisma.ProductWhereInput,
+  sort: SortKey,
+  currentPage: number,
+  perPage: PageSize,
+): Promise<ListedProduct[]> {
+  const skip = (currentPage - 1) * perPage;
+
+  if (!isSpreadSort(sort)) {
+    return prisma.product.findMany({
+      where,
+      orderBy: SORT_ORDERS[sort],
+      skip,
+      take: perPage,
+      include: PRODUCT_INCLUDE,
+    });
+  }
+
+  const candidates = await prisma.product.findMany({
+    where,
+    select: {
+      id: true,
+      title: true,
+      latestSalePrice: true,
+      latestBuyPrice: true,
+    },
+  });
+  const orderedIds = sortProductsByPriceSpread(
+    candidates,
+    sort === "spread-asc" ? "asc" : "desc",
+  )
+    .slice(skip, skip + perPage)
+    .map((product) => product.id);
+  if (orderedIds.length === 0) return [];
+
+  const pageProducts = await prisma.product.findMany({
+    where: { id: { in: orderedIds } },
+    include: PRODUCT_INCLUDE,
+  });
+  const byId = new Map(pageProducts.map((product) => [product.id, product]));
+  return orderedIds.flatMap((id) => {
+    const product = byId.get(id);
+    return product ? [product] : [];
+  });
+}
+
 export default async function ProductsPage({ searchParams }: { searchParams: SearchParams }) {
   const query = await searchParams;
   const sort = parseSort(firstValue(query.sort));
@@ -295,13 +344,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
   const allProducts = filterSourceProducts.length;
   const totalPages = Math.max(1, Math.ceil(totalProducts / perPage));
   const currentPage = Math.min(requestedPage, totalPages);
-  const products = await prisma.product.findMany({
-    where,
-    orderBy: SORT_ORDERS[sort],
-    skip: (currentPage - 1) * perPage,
-    take: perPage,
-    include: { histories: { orderBy: { checkedAt: "desc" }, take: 1 } },
-  });
+  const products = await loadProducts(where, sort, currentPage, perPage);
   const firstShown = totalProducts === 0 ? 0 : (currentPage - 1) * perPage + 1;
   const lastShown = Math.min(currentPage * perPage, totalProducts);
   const productPreviews: ProductPreview[] = products.map((product) => ({
