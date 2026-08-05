@@ -8,6 +8,10 @@ import {
   normalizeSurugayaUrl,
   parseProductHtml,
 } from "@/lib/surugaya";
+import {
+  detectPrimaryTimeSale,
+  withTimeSaleStorageMarker,
+} from "@/lib/time-sale";
 
 export const runtime = "nodejs";
 
@@ -43,7 +47,11 @@ export async function POST(request: Request) {
     const normalizedUrl = normalizeSurugayaUrl(url);
     const parsed = parseProductHtml(html);
     const withSafeConditions = replaceAlternateConditionItems(html, parsed);
-    const fetched = preserveIndividualDetailPeople(html, withSafeConditions);
+    const withPeople = preserveIndividualDetailPeople(html, withSafeConditions);
+    const fetched = withTimeSaleStorageMarker(
+      withPeople,
+      detectPrimaryTimeSale(html),
+    );
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
