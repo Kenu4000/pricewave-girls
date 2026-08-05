@@ -30,7 +30,7 @@
         <button id="run-all-button" class="secondary" type="button">今すぐ本日の対象を更新</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
-        <p class="note">指定ブランドの商品は毎日巡回します。人気順はcategory=600の10ページとcategory=652042222の15ページを3日に1回だけ確認し、通常日は前回保存した商品URL一覧を利用します。それ以外は商品IDで3分割して3日で一巡します。1タブだけで8〜25秒間隔に自動調整し、403・429・アクセス確認を検出した場合は即時停止します。</p>
+        <p class="note">指定ブランドの商品は毎日巡回します。人気順はcategory=600の10ページとcategory=652042222の15ページを3日に1回だけ確認し、通常日は前回保存した商品URL一覧を利用します。それ以外は商品IDで3分割して3日で一巡します。1タブだけで8〜25秒間隔に自動調整します。商品ページでアクセス確認を1回検出した場合はその商品をスキップし、次の商品でも連続して検出した場合に停止します。403・429は停止対象です。</p>
       </section>
 
       <hr>
