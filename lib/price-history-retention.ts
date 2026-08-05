@@ -5,6 +5,7 @@ export type PriceHistorySnapshot = {
   salePrice: number | null;
   buyPrice: number | null;
   stockStatus: string | null;
+  isTimeSale: boolean;
 };
 
 export const PRICE_HISTORY_RECENT_LIMIT = 10;
@@ -14,7 +15,8 @@ function sameSnapshot(left: PriceHistorySnapshot, right: PriceHistorySnapshot): 
   return (
     left.salePrice === right.salePrice &&
     left.buyPrice === right.buyPrice &&
-    left.stockStatus === right.stockStatus
+    left.stockStatus === right.stockStatus &&
+    left.isTimeSale === right.isTimeSale
   );
 }
 
@@ -61,6 +63,7 @@ export async function pruneProductPriceHistories(productIds: number[]): Promise<
       salePrice: true,
       buyPrice: true,
       stockStatus: true,
+      isTimeSale: true,
     },
   });
 

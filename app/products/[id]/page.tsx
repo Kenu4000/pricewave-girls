@@ -8,6 +8,7 @@ import {
   splitDetailPeople,
 } from "@/lib/product-filter-options";
 import { prisma } from "@/lib/prisma";
+import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
 export const dynamic = "force-dynamic";
 
@@ -38,7 +39,10 @@ function parseProductDetails(rawDetails: string | null | undefined): Array<[stri
     }
 
     return Object.entries(parsed).filter(
-      (entry): entry is [string, string] => typeof entry[1] === "string" && entry[1].length > 0,
+      (entry): entry is [string, string] =>
+        !isInternalProductDetailLabel(entry[0]) &&
+        typeof entry[1] === "string" &&
+        entry[1].length > 0,
     );
   } catch {
     return [];
@@ -129,6 +133,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     salePrice: history.salePrice,
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
+    isTimeSale: history.isTimeSale,
   }));
   const displayedHistories = [...histories].reverse().slice(0, 10);
   const junkHistoryItems = product.junkHistories.map((history) => ({
@@ -174,6 +179,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <span className="badge">販売価格: {formatPrice(product.latestSalePrice)}</span>
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
             <span className="badge">{formatStockStatus(product.stockStatus)}</span>
+            {product.isTimeSale ? <span className="badge">タイムセール中</span> : null}
           </div>
         </article>
 
@@ -220,6 +226,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <tr>
                 <th>確認日時</th>
                 <th>販売価格</th>
+                <th>価格状態</th>
                 <th>買取価格</th>
                 <th>在庫</th>
               </tr>
@@ -229,6 +236,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 <tr key={history.id}>
                   <td>{new Date(history.checkedAt).toLocaleString("ja-JP")}</td>
                   <td>{formatPrice(history.salePrice)}</td>
+                  <td>{history.isTimeSale ? "タイムセール" : "通常"}</td>
                   <td>{formatPrice(history.buyPrice)}</td>
                   <td>{formatStockStatus(history.stockStatus)}</td>
                 </tr>

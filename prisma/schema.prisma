@@ -24,6 +24,8 @@ model Product {
   salePriceChangedAt DateTime?
   buyPriceChangedAt  DateTime?
   stockStatus        String?
+  isTimeSale         Boolean        @default(false)
+  previousIsTimeSale Boolean        @default(false)
   createdAt          DateTime       @default(now())
   updatedAt          DateTime       @updatedAt
   histories          PriceHistory[]
@@ -75,6 +77,7 @@ model PriceHistory {
   salePrice   Int?
   buyPrice    Int?
   stockStatus String?
+  isTimeSale  Boolean  @default(false)
   checkedAt   DateTime @default(now())
   product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
