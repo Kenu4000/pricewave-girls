@@ -57,7 +57,7 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
       </div>
       <p className={styles.note}>
         {mode === "day"
-          ? "直近1か月を日ごとの最終価格で表示"
+          ? "直近1か月を取得時刻ごとに表示（同日内の価格変化も保持）"
           : mode === "week"
             ? "全期間を週ごとの最終価格で表示"
             : "全期間を月ごとの最終価格で表示"}

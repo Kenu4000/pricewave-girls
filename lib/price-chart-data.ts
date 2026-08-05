@@ -29,9 +29,31 @@ export function aggregatePriceChartData(
   dayThreshold.setHours(0, 0, 0, 0);
   dayThreshold.setDate(dayThreshold.getDate() - (DAY_RANGE_DAYS - 1));
 
+  if (mode === "day") {
+    const recent = valid.filter(
+      (history) => history.date.getTime() >= dayThreshold.getTime(),
+    );
+    const pointsPerDay = new Map<string, number>();
+
+    for (const history of recent) {
+      const key = dateKey(history.date);
+      pointsPerDay.set(key, (pointsPerDay.get(key) ?? 0) + 1);
+    }
+
+    return recent.map((history, index) => {
+      const key = dateKey(history.date);
+      return {
+        key: `${history.checkedAt}-${index}`,
+        checkedAt: history.checkedAt,
+        salePrice: history.salePrice,
+        buyPrice: history.buyPrice,
+        label: dayPointLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1),
+      };
+    });
+  }
+
   const buckets = new Map<string, (typeof valid)[number]>();
   for (const history of valid) {
-    if (mode === "day" && history.date.getTime() < dayThreshold.getTime()) continue;
     buckets.set(bucketKey(history.date, mode), history);
   }
 
@@ -44,18 +66,14 @@ export function aggregatePriceChartData(
   }));
 }
 
-function bucketKey(date: Date, mode: PriceChartMode): string {
-  if (mode === "day") return dateKey(date);
+function bucketKey(date: Date, mode: Exclude<PriceChartMode, "day">): string {
   if (mode === "month") return `${date.getFullYear()}-${pad(date.getMonth() + 1)}`;
 
   const monday = startOfWeek(date);
   return dateKey(monday);
 }
 
-function bucketLabel(date: Date, mode: PriceChartMode): string {
-  if (mode === "day") {
-    return new Intl.DateTimeFormat("ja-JP", { month: "numeric", day: "numeric" }).format(date);
-  }
+function bucketLabel(date: Date, mode: Exclude<PriceChartMode, "day">): string {
   if (mode === "month") {
     return new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "short" }).format(date);
   }
@@ -65,6 +83,21 @@ function bucketLabel(date: Date, mode: PriceChartMode): string {
     month: "numeric",
     day: "numeric",
   }).format(monday)}週`;
+}
+
+function dayPointLabel(date: Date, includeTime: boolean): string {
+  return new Intl.DateTimeFormat(
+    "ja-JP",
+    includeTime
+      ? {
+          month: "numeric",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false,
+        }
+      : { month: "numeric", day: "numeric" },
+  ).format(date);
 }
 
 function startOfWeek(date: Date): Date {
