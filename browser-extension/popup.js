@@ -3,6 +3,8 @@ const status = document.querySelector("#status");
 const productLink = document.querySelector("#product-link");
 const autoEnabled = document.querySelector("#auto-enabled");
 const autoTime = document.querySelector("#auto-time");
+const fastSiteMode = document.querySelector("#fast-site-mode");
+const parallelTabsInput = document.querySelector("#parallel-tabs");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const autoStatus = document.querySelector("#auto-status");
@@ -16,6 +18,10 @@ function normalizedInteger(value, minimum, maximum, fallback) {
   return Number.isInteger(number)
     ? Math.min(maximum, Math.max(minimum, number))
     : fallback;
+}
+
+function syncFastSiteModeForm() {
+  parallelTabsInput.disabled = !fastSiteMode.checked;
 }
 
 function showStatus(message, kind) {
@@ -147,8 +153,17 @@ function renderAutoStatus(response) {
 async function loadAutoSettings(syncForm = true) {
   const response = await chrome.runtime.sendMessage({ type: "auto:get" });
   if (syncForm && response?.settings) {
+    const modeSettings = await chrome.storage.local.get({
+      fastSiteModeEnabled: false,
+      parallelTabs: 10,
+    });
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
+    fastSiteMode.checked = Boolean(modeSettings.fastSiteModeEnabled);
+    parallelTabsInput.value = String(
+      normalizedInteger(modeSettings.parallelTabs, 1, 100, 10),
+    );
+    syncFastSiteModeForm();
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -162,11 +177,16 @@ async function loadAutoSettings(syncForm = true) {
 async function saveAutoSettings() {
   saveAutoButton.disabled = true;
   try {
+    const parallelTabs = normalizedInteger(parallelTabsInput.value, 1, 100, 10);
+    await chrome.storage.local.set({
+      fastSiteModeEnabled: fastSiteMode.checked,
+      parallelTabs,
+    });
     const response = await chrome.runtime.sendMessage({
       type: "auto:save",
       enabled: autoEnabled.checked,
       time: autoTime.value,
-      parallelTabs: 1,
+      parallelTabs,
     });
     if (!response?.ok) {
       throw new Error(response?.error || "設定を保存できませんでした。");
@@ -232,6 +252,7 @@ async function stopTask() {
   }
 }
 
+fastSiteMode.addEventListener("change", syncFastSiteModeForm);
 saveAutoButton.addEventListener("click", saveAutoSettings);
 runAllButton.addEventListener("click", runAllProducts);
 autoAddButton.addEventListener("click", startAutoAdd);
