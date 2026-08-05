@@ -26,11 +26,19 @@
           <span>開始時刻</span>
           <input id="auto-time" type="time" value="09:00">
         </label>
+        <label class="toggle-row">
+          <input id="fast-site-mode" type="checkbox">
+          <span>高速同時タブモードを使う</span>
+        </label>
+        <label class="field-row">
+          <span>同時タブ数</span>
+          <input id="parallel-tabs" type="number" value="10" min="1" max="100" step="1">
+        </label>
         <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
         <button id="run-all-button" class="secondary" type="button">今すぐ本日の対象を更新</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
-        <p class="note">指定ブランドの商品は毎日巡回します。人気順はcategory=600の10ページとcategory=652042222の15ページを3日に1回だけ確認し、通常日は前回保存した商品URL一覧を利用します。それ以外は商品IDで3分割して3日で一巡します。1タブだけで8〜25秒間隔に自動調整します。商品ページでアクセス確認を1回検出した場合はその商品をスキップし、次の商品でも連続して検出した場合に停止します。403・429は停止対象です。</p>
+        <p class="note">高速同時タブモードがOFFの場合は、1タブだけで8〜25秒間隔に自動調整します。ONの場合は実際の駿河屋商品ページを指定した1〜100タブで旧仕様どおり並列取得します。指定ブランドの商品は毎日巡回し、人気順25ページは3日に1回、それ以外は商品IDで3分割して3日で一巡します。商品ページのアクセス確認は1回目をスキップし、2商品連続で検出した場合に停止します。403・429は停止対象です。</p>
       </section>
 
       <hr>
@@ -46,7 +54,7 @@
           <input id="auto-add-limit" type="number" value="1000" min="1" max="1000" step="1">
         </label>
         <button id="auto-add-button" class="secondary" type="button">未登録商品を自動追加</button>
-        <p class="note">検索結果と商品ページも1タブずつ取得します。既に登録されている商品は除外します。</p>
+        <p class="note">検索結果と商品ページも、高速同時タブモードがOFFなら1タブずつ、ONなら指定したタブ数で取得します。既に登録されている商品は除外します。</p>
       </section>
     </main>
     <script src="popup.js"></script>
