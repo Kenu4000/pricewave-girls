@@ -5,6 +5,7 @@ import {
   detailFilterValue,
   extractOperatingSystems,
   findPriceBand,
+  normalizeFilterChoiceValue,
   type FilterSourceProduct,
 } from "./product-filter-options";
 
@@ -34,6 +35,31 @@ test("ブランドの全角・大文字小文字・空白の表記揺れを同�
   assert.equal(catalog.brands.options.featured[0].label, "Key");
   assert.equal(catalog.brands.options.featured[0].count, 3);
   assert.deepEqual(catalog.brands.productIds.get("key"), [1, 2, 3]);
+});
+
+test("英字名と日本語名のブランド別名を同じ候補にまとめる", () => {
+  const catalog = buildProductFilterCatalog([
+    product(1, { manufacturer: "戯画" }),
+    product(2, { manufacturer: "GIGA" }),
+    product(3, { manufacturer: "ALICESOFT" }),
+    product(4, { manufacturer: "ありすそふと" }),
+    product(5, { manufacturer: "アリスソフト" }),
+  ]);
+
+  const gigaKey = normalizeFilterChoiceValue("GIGA");
+  const aliceKey = normalizeFilterChoiceValue("ありすそふと");
+
+  assert.equal(gigaKey, normalizeFilterChoiceValue("戯画"));
+  assert.equal(aliceKey, normalizeFilterChoiceValue("ALICESOFT"));
+  assert.deepEqual(catalog.brands.productIds.get(gigaKey), [1, 2]);
+  assert.deepEqual(catalog.brands.productIds.get(aliceKey), [3, 4, 5]);
+
+  const options = [
+    ...catalog.brands.options.featured,
+    ...catalog.brands.options.alphabetical,
+  ];
+  assert.equal(options.filter((option) => option.label === "戯画").length, 1);
+  assert.equal(options.filter((option) => option.label === "ALICESOFT").length, 1);
 });
 
 test("対応OSの複数バージョンと表記揺れを統合する", () => {
