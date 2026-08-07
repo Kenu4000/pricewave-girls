@@ -5,6 +5,7 @@ import {
   classifySaleAvailabilityState,
   formatPriceChangeAge,
   formatProductCardPriceChange,
+  formatTimeSaleCardPriceChange,
   hasCurrentOtherShopInventory,
   productCardPriceChangeDirection,
 } from "./product-card-price-change";
@@ -188,4 +189,18 @@ test("カード用ラベルに種別・方向・差額・何日前かを含め�
     ),
     "売価 入荷・今日",
   );
+});
+
+test("タイムセールは通常価格との差額と開始日だけを専用表記する", () => {
+  const now = new Date(2026, 7, 8, 5, 0, 0);
+  assert.equal(
+    formatTimeSaleCardPriceChange(
+      5_000,
+      4_100,
+      new Date(2026, 7, 7, 12, 0).toISOString(),
+      now,
+    ),
+    "タイムセール↓-900円・昨日",
+  );
+  assert.equal(formatTimeSaleCardPriceChange(5_000, 4_100, null, now), "タイムセール↓-900円");
 });
