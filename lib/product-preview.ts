@@ -13,6 +13,8 @@ export type ProductPreview = {
   releaseDate: string | null;
   modelNumber: string | null;
   stockStatus: string | null;
+  condition?: string | null;
+  conditionRank?: string | null;
   hasHistory: boolean;
   isNew: boolean;
 };
