@@ -6,6 +6,7 @@ import {
 import {
   productConditionStateFromFetched,
   regularSalePriceFromFetched,
+  timeSaleEndAtFromFetched,
   timeSaleStateFromFetched,
 } from "@/lib/time-sale";
 
@@ -38,6 +39,8 @@ export async function upsertProductSnapshotsWithTimeSale(
       latestRegularSalePrice: true,
       salePriceChangedAt: true,
       isTimeSale: true,
+      timeSaleStartedAt: true,
+      timeSaleEndsAt: true,
     },
   });
   const existingByUrl = new Map(
@@ -78,6 +81,16 @@ export async function upsertProductSnapshotsWithTimeSale(
         previous?.latestRegularSalePrice ??
         (previous && !previous.isTimeSale ? previous.latestSalePrice : null))
       : input.fetched.salePrice;
+    const parsedTimeSaleEndsAt = timeSaleEndAtFromFetched(
+      input.fetched,
+      currentIsTimeSale,
+    );
+    const timeSaleEndsAt = currentIsTimeSale
+      ? (parsedTimeSaleEndsAt ?? (previousIsTimeSale ? previous?.timeSaleEndsAt ?? null : null))
+      : null;
+    const timeSaleStartedAt = currentIsTimeSale
+      ? (previousIsTimeSale ? previous?.timeSaleStartedAt ?? startedAt : startedAt)
+      : null;
     const suppressSalePriceChange =
       previous !== undefined &&
       shouldSuppressSalePriceChange({
@@ -96,6 +109,8 @@ export async function upsertProductSnapshotsWithTimeSale(
           condition: conditionState.condition,
           conditionRank: conditionState.conditionRank,
           latestRegularSalePrice: regularSalePrice,
+          timeSaleStartedAt,
+          timeSaleEndsAt,
           ...(suppressSalePriceChange
             ? { salePriceChangedAt: previous?.salePriceChangedAt ?? null }
             : {}),
@@ -113,6 +128,7 @@ export async function upsertProductSnapshotsWithTimeSale(
             regularSalePrice,
             condition: conditionState.condition,
             conditionRank: conditionState.conditionRank,
+            timeSaleEndsAt,
           },
         }),
       );

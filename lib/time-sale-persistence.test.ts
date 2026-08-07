@@ -26,6 +26,18 @@ test("タイムセール突入時の値下げは価格変更から除外する",
   );
 });
 
+test("タイムセール中の値動きも価格変更から除外する", () => {
+  assert.equal(
+    shouldSuppressSalePriceChange({
+      previousIsTimeSale: true,
+      currentIsTimeSale: true,
+      previousSalePrice: 5400,
+      currentSalePrice: 5100,
+    }),
+    true,
+  );
+});
+
 test("タイムセール終了時に通常価格へ戻る変化も価格変更から除外する", () => {
   assert.equal(
     shouldSuppressSalePriceChange({

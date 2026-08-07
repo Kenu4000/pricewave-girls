@@ -7,9 +7,11 @@ import {
   splitProductTitleCondition,
 } from "./product-title-condition";
 import { normalizePrice, type FetchedProduct } from "./surugaya";
+import { detectTimeSaleEndAt } from "./time-sale-end";
 
 export const TIME_SALE_DETAIL_KEY = "__pricewaveTimeSale";
 export const TIME_SALE_REGULAR_PRICE_DETAIL_KEY = "__pricewaveRegularSalePrice";
+export const TIME_SALE_END_AT_DETAIL_KEY = "__pricewaveTimeSaleEndsAt";
 
 const TIME_SALE_PATTERN = /(?:※\s*)?タイム\s*セール/iu;
 const TIME_SALE_IMAGE_PATTERN = /タイム\s*セール|time[_-]?sale|flash[_-]?sale/iu;
@@ -30,9 +32,6 @@ export function detectPrimaryTimeSaleRegularPrice(html: string): number | null {
 
   if (!TIME_SALE_PATTERN.test(section.text) && !section.hasTimeSaleImage) return null;
 
-  // Current Surugaya pages can render the time-sale badge immediately before
-  // the price block. Then the discounted block is the one carrying both the
-  // regular and current prices.
   for (const block of section.blocks) {
     const regularPrice = regularPriceFromSaleBlock(block);
     if (regularPrice !== null) return regularPrice;
@@ -48,11 +47,13 @@ export function withProductStateStorageMarkers(
   const titleState = splitProductTitleCondition(fetched.title);
   const isTimeSale = detectPrimaryTimeSale(html);
   const regularSalePrice = isTimeSale ? detectPrimaryTimeSaleRegularPrice(html) : null;
+  const timeSaleEndsAt = isTimeSale ? detectTimeSaleEndAt(html) : null;
   const details = { ...fetched.details };
 
   delete details[PRODUCT_CONDITION_DETAIL_KEY];
   delete details[PRODUCT_CONDITION_RANK_DETAIL_KEY];
   delete details[TIME_SALE_REGULAR_PRICE_DETAIL_KEY];
+  delete details[TIME_SALE_END_AT_DETAIL_KEY];
 
   if (titleState.condition) {
     details[PRODUCT_CONDITION_DETAIL_KEY] = titleState.condition;
@@ -60,6 +61,9 @@ export function withProductStateStorageMarkers(
   }
   if (regularSalePrice !== null) {
     details[TIME_SALE_REGULAR_PRICE_DETAIL_KEY] = String(regularSalePrice);
+  }
+  if (timeSaleEndsAt !== null) {
+    details[TIME_SALE_END_AT_DETAIL_KEY] = timeSaleEndsAt.toISOString();
   }
 
   return withTimeSaleStorageMarker(
@@ -101,6 +105,17 @@ export function regularSalePriceFromFetched(
   return Number.isFinite(value) ? value : null;
 }
 
+export function timeSaleEndAtFromFetched(
+  fetched: FetchedProduct,
+  isTimeSale = timeSaleStateFromFetched(fetched),
+): Date | null {
+  if (!isTimeSale) return null;
+  const stored = fetched.details[TIME_SALE_END_AT_DETAIL_KEY];
+  if (!stored) return null;
+  const date = new Date(stored);
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
 export function productConditionStateFromFetched(fetched: FetchedProduct) {
   return productConditionFromDetails(fetched.details);
 }
@@ -109,6 +124,7 @@ export function isInternalProductDetailLabel(label: string): boolean {
   return (
     label === TIME_SALE_DETAIL_KEY ||
     label === TIME_SALE_REGULAR_PRICE_DETAIL_KEY ||
+    label === TIME_SALE_END_AT_DETAIL_KEY ||
     isInternalProductConditionDetailLabel(label)
   );
 }
@@ -120,9 +136,6 @@ type PrimarySaleSection = {
 };
 
 function primarySaleSection(html: string): PrimarySaleSection {
-  // Cut the raw HTML too, so alternate-condition time-sale image badges do not
-  // leak into the primary-product decision. The marker is ordinary visible text
-  // on Surugaya product pages.
   const primaryHtml = html.split("その他の状態を選ぶ", 1)[0] ?? html;
   const $ = cheerio.load(primaryHtml);
   const body = $("body");

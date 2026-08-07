@@ -23,6 +23,8 @@ export async function GET(request: Request) {
       conditionRank: true,
       isTimeSale: true,
       latestRegularSalePrice: true,
+      timeSaleStartedAt: true,
+      timeSaleEndsAt: true,
     },
   });
 
@@ -35,6 +37,8 @@ export async function GET(request: Request) {
           conditionRank: product.conditionRank,
           isTimeSale: product.isTimeSale,
           regularSalePrice: product.latestRegularSalePrice,
+          timeSaleStartedAt: product.timeSaleStartedAt?.toISOString() ?? null,
+          timeSaleEndsAt: product.timeSaleEndsAt?.toISOString() ?? null,
         },
       ]),
     ),

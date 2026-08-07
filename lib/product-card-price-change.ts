@@ -161,3 +161,19 @@ export function formatProductCardPriceChange(
     : `${difference.toLocaleString("ja-JP")}円`;
   return `${label} ${arrow} ${signedDifference}・${age}`;
 }
+
+export function formatTimeSaleCardPriceChange(
+  regularPrice: number,
+  currentPrice: number,
+  startedAt: string | null,
+  now = new Date(),
+): string {
+  const difference = currentPrice - regularPrice;
+  const arrow = difference < 0 ? "↓" : difference > 0 ? "↑" : "";
+  const signedDifference =
+    difference > 0
+      ? `+${difference.toLocaleString("ja-JP")}円`
+      : `${difference.toLocaleString("ja-JP")}円`;
+  const age = startedAt ? `・${formatPriceChangeAge(startedAt, now)}` : "";
+  return `タイムセール${arrow}${signedDifference}${age}`;
+}

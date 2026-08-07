@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import {
   formatProductCardPriceChange,
+  formatTimeSaleCardPriceChange,
   productCardPriceChangeDirection,
   type PriceChangeDirection,
   type ProductCardPriceChange,
@@ -23,6 +24,8 @@ type ProductCardState = {
   conditionRank: string | null;
   isTimeSale: boolean;
   regularSalePrice: number | null;
+  timeSaleStartedAt: string | null;
+  timeSaleEndsAt: string | null;
 };
 type ProductCardStates = Record<number, ProductCardState>;
 
@@ -120,6 +123,22 @@ function PriceChangeTag({ change }: { change: ProductCardPriceChange }) {
   return (
     <span className={`${styles.changeTag} ${changeTagClass(change)}`}>
       {formatProductCardPriceChange(change)}
+    </span>
+  );
+}
+
+function TimeSaleChangeTag({
+  currentPrice,
+  regularPrice,
+  startedAt,
+}: {
+  currentPrice: number;
+  regularPrice: number;
+  startedAt: string | null;
+}) {
+  return (
+    <span className={`${styles.changeTag} ${styles.timeSaleTag}`}>
+      {formatTimeSaleCardPriceChange(regularPrice, currentPrice, startedAt)}
     </span>
   );
 }
@@ -227,9 +246,15 @@ export function ProductGrid({
         const conditionRank = storedState?.conditionRank ?? product.conditionRank ?? "A";
         const hasConditionIssue = conditionRank === "B" || Boolean(condition);
         const stockStatusLabel = formatStockStatus(product.stockStatus);
+        const activeTimeSale =
+          storedState?.isTimeSale === true &&
+          storedState.regularSalePrice != null &&
+          product.salePrice != null &&
+          storedState.regularSalePrice !== product.salePrice;
+        const visibleSaleChange = activeTimeSale ? undefined : saleChange;
         const borderClasses = [
           styles.productCard,
-          changeBorderClass("sale", saleChange),
+          activeTimeSale ? styles.timeSaleBorder : changeBorderClass("sale", visibleSaleChange),
           changeBorderClass("buy", buyChange),
         ]
           .filter(Boolean)
@@ -243,9 +268,17 @@ export function ProductGrid({
             href={`/products/${product.id}`}
             key={`${product.id}:${product.revealKey}`}
           >
-            {saleChange || buyChange ? (
+            {activeTimeSale || visibleSaleChange || buyChange ? (
               <div className={styles.changeRail}>
-                {saleChange ? <PriceChangeTag change={saleChange} /> : null}
+                {activeTimeSale ? (
+                  <TimeSaleChangeTag
+                    currentPrice={product.salePrice!}
+                    regularPrice={storedState!.regularSalePrice!}
+                    startedAt={storedState?.timeSaleStartedAt ?? null}
+                  />
+                ) : visibleSaleChange ? (
+                  <PriceChangeTag change={visibleSaleChange} />
+                ) : null}
                 {buyChange ? <PriceChangeTag change={buyChange} /> : null}
               </div>
             ) : null}

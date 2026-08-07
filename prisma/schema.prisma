@@ -29,6 +29,8 @@ model Product {
   conditionRank          String         @default("A")
   isTimeSale             Boolean        @default(false)
   previousIsTimeSale     Boolean        @default(false)
+  timeSaleStartedAt      DateTime?
+  timeSaleEndsAt         DateTime?
   createdAt              DateTime       @default(now())
   updatedAt              DateTime       @updatedAt
   histories              PriceHistory[]
@@ -44,6 +46,7 @@ model Product {
   @@index([releaseDate])
   @@index([manufacturer])
   @@index([conditionRank])
+  @@index([isTimeSale, timeSaleEndsAt])
 }
 
 model PriceChange {
@@ -85,9 +88,11 @@ model PriceHistory {
   condition        String?
   conditionRank    String   @default("A")
   isTimeSale       Boolean  @default(false)
+  timeSaleEndsAt   DateTime?
   checkedAt        DateTime @default(now())
   product          Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
   @@index([productId, checkedAt])
   @@index([conditionRank])
+  @@index([timeSaleEndsAt])
 }
