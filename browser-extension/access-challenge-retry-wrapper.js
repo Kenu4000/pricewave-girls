@@ -229,10 +229,7 @@ importScripts("popular-refresh-wrapper.js");
       if (status.state === "completed") {
         await clearResumeCheckpoint();
         await chrome.alarms.clear(AUTO_UPDATE_RETRY_ALARM);
-        return;
-      }
-
-      if (status.state === "blocked" && latestCheckpoint) {
+      } else if (status.state === "blocked" && latestCheckpoint) {
         const remaining = latestCheckpoint.remainingProducts.length;
         if (latestCheckpoint.autoResume) {
           await chrome.alarms.create(AUTO_UPDATE_RETRY_ALARM, {
