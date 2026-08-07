@@ -3,7 +3,11 @@ import {
   upsertProductSnapshots,
   type ProductSnapshotInput,
 } from "@/lib/product-snapshots";
-import { timeSaleStateFromFetched } from "@/lib/time-sale";
+import {
+  productConditionStateFromFetched,
+  regularSalePriceFromFetched,
+  timeSaleStateFromFetched,
+} from "@/lib/time-sale";
 
 export type TimeSaleTransition = {
   previousIsTimeSale: boolean;
@@ -31,6 +35,7 @@ export async function upsertProductSnapshotsWithTimeSale(
       id: true,
       surugayaUrl: true,
       latestSalePrice: true,
+      latestRegularSalePrice: true,
       salePriceChangedAt: true,
       isTimeSale: true,
     },
@@ -63,6 +68,16 @@ export async function upsertProductSnapshotsWithTimeSale(
     const previous = existingByUrl.get(input.surugayaUrl);
     const currentIsTimeSale = timeSaleStateFromFetched(input.fetched);
     const previousIsTimeSale = previous?.isTimeSale ?? false;
+    const conditionState = productConditionStateFromFetched(input.fetched);
+    const parsedRegularSalePrice = regularSalePriceFromFetched(
+      input.fetched,
+      currentIsTimeSale,
+    );
+    const regularSalePrice = currentIsTimeSale
+      ? (parsedRegularSalePrice ??
+        previous?.latestRegularSalePrice ??
+        (previous && !previous.isTimeSale ? previous.latestSalePrice : null))
+      : input.fetched.salePrice;
     const suppressSalePriceChange =
       previous !== undefined &&
       shouldSuppressSalePriceChange({
@@ -78,6 +93,9 @@ export async function upsertProductSnapshotsWithTimeSale(
         data: {
           previousIsTimeSale,
           isTimeSale: currentIsTimeSale,
+          condition: conditionState.condition,
+          conditionRank: conditionState.conditionRank,
+          latestRegularSalePrice: regularSalePrice,
           ...(suppressSalePriceChange
             ? { salePriceChangedAt: previous?.salePriceChangedAt ?? null }
             : {}),
@@ -90,7 +108,12 @@ export async function upsertProductSnapshotsWithTimeSale(
       operations.push(
         prisma.priceHistory.update({
           where: { id: historyId },
-          data: { isTimeSale: currentIsTimeSale },
+          data: {
+            isTimeSale: currentIsTimeSale,
+            regularSalePrice,
+            condition: conditionState.condition,
+            conditionRank: conditionState.conditionRank,
+          },
         }),
       );
     }
@@ -111,5 +134,11 @@ export async function upsertProductSnapshotsWithTimeSale(
   }
 
   if (operations.length > 0) await prisma.$transaction(operations);
-  return products;
+  return products.map((product, index) => {
+    const input = inputs[index];
+    const conditionState = input
+      ? productConditionStateFromFetched(input.fetched)
+      : { condition: null, conditionRank: "A" as const };
+    return { ...product, ...conditionState };
+  });
 }

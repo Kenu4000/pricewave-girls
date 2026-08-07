@@ -6,6 +6,7 @@ import {
   Legend,
   Line,
   LineChart,
+  ReferenceLine,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -57,7 +58,7 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
       </div>
       <p className={styles.note}>
         {mode === "day"
-          ? "直近1か月を取得時刻ごとに表示（同日内の価格変化も保持）"
+          ? "直近1か月を取得時刻ごとに表示。黄色は通常価格から一時的に分岐したタイムセール価格"
           : mode === "week"
             ? "全期間を週ごとの最終価格で表示"
             : "全期間を月ごとの最終価格で表示"}
@@ -70,6 +71,25 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             <YAxis tickFormatter={(value) => yenFormatter(value)} width={92} />
             <Tooltip formatter={(value) => yenFormatter(value as number | string | null)} />
             <Legend />
+            {data
+              .filter(
+                (point) =>
+                  point.timeSalePrice !== null &&
+                  point.timeSaleBasePrice !== null &&
+                  point.timeSalePrice !== point.timeSaleBasePrice,
+              )
+              .map((point) => (
+                <ReferenceLine
+                  key={`time-sale-branch-${point.key}`}
+                  segment={[
+                    { x: point.label, y: point.timeSaleBasePrice! },
+                    { x: point.label, y: point.timeSalePrice! },
+                  ]}
+                  stroke="#eab308"
+                  strokeDasharray="4 3"
+                  strokeWidth={2}
+                />
+              ))}
             <Line
               connectNulls
               dataKey="salePrice"
@@ -83,6 +103,23 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
               dataKey="buyPrice"
               name="買取価格"
               stroke="#3b82f6"
+              strokeWidth={3}
+              type="monotone"
+            />
+            <Line
+              connectNulls
+              dataKey="rankBPrice"
+              name="ランクB"
+              stroke="#16a34a"
+              strokeWidth={3}
+              type="monotone"
+            />
+            <Line
+              connectNulls={false}
+              dataKey="timeSalePrice"
+              dot={{ r: 4 }}
+              name="タイムセール"
+              stroke="#eab308"
               strokeWidth={3}
               type="monotone"
             />

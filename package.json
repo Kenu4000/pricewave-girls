@@ -6,7 +6,7 @@
     "node": ">=20.9.0"
   },
   "scripts": {
-    "predev": "prisma generate",
+    "predev": "prisma migrate deploy && prisma generate && node --import tsx scripts/backfill-product-conditions.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

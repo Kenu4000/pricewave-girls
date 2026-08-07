@@ -28,7 +28,7 @@ test("日表示は直近31日の全取得時点を残す", () => {
   assert.doesNotMatch(data[2].label, /:/u);
 });
 
-test("同日中の通常価格からタイムセールを経て通常価格へ戻る変化を残す", () => {
+test("同日中の価格変化をすべて残す", () => {
   const data = aggregatePriceChartData(
     [
       point("2026-08-05T09:00:00.000Z", 5000),
@@ -41,6 +41,66 @@ test("同日中の通常価格からタイムセールを経て通常価格へ�
   assert.deepEqual(data.map((entry) => entry.salePrice), [5000, 4000, 5000]);
   assert.equal(new Set(data.map((entry) => entry.key)).size, 3);
   assert.ok(data.every((entry) => entry.label.includes(":")));
+});
+
+test("ランクBは通常売価ではなく緑線用データへ分離する", () => {
+  const [data] = aggregatePriceChartData(
+    [
+      {
+        checkedAt: "2026-08-05T09:00:00.000Z",
+        salePrice: 20800,
+        buyPrice: 15000,
+        condition: "テクニカルマニュアル欠品",
+        conditionRank: "B",
+      },
+    ],
+    "day",
+  );
+
+  assert.equal(data.salePrice, null);
+  assert.equal(data.rankBPrice, 20800);
+  assert.equal(data.conditionRank, "B");
+});
+
+test("タイムセールは元価格を通常線に残して黄色線へ分岐する", () => {
+  const [data] = aggregatePriceChartData(
+    [
+      {
+        checkedAt: "2026-08-05T12:00:00.000Z",
+        salePrice: 5400,
+        regularSalePrice: 6000,
+        buyPrice: 2000,
+        isTimeSale: true,
+      },
+    ],
+    "day",
+  );
+
+  assert.equal(data.salePrice, 6000);
+  assert.equal(data.timeSaleBasePrice, 6000);
+  assert.equal(data.timeSalePrice, 5400);
+});
+
+test("ランクBのタイムセールも緑の元価格から黄色へ分岐する", () => {
+  const [data] = aggregatePriceChartData(
+    [
+      {
+        checkedAt: "2026-08-05T12:00:00.000Z",
+        salePrice: 18000,
+        regularSalePrice: 20800,
+        buyPrice: 15000,
+        conditionRank: "B",
+        condition: "テクニカルマニュアル欠品",
+        isTimeSale: true,
+      },
+    ],
+    "day",
+  );
+
+  assert.equal(data.salePrice, null);
+  assert.equal(data.rankBPrice, 20800);
+  assert.equal(data.timeSaleBasePrice, 20800);
+  assert.equal(data.timeSalePrice, 18000);
 });
 
 test("週表示は月曜始まりの週ごとの最新値にまとめる", () => {

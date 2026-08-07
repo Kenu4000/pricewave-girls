@@ -3,12 +3,25 @@ export type PriceChartMode = "day" | "week" | "month";
 export type PriceChartHistory = {
   checkedAt: string;
   salePrice: number | null;
+  regularSalePrice?: number | null;
   buyPrice: number | null;
+  condition?: string | null;
+  conditionRank?: string | null;
+  isTimeSale?: boolean;
 };
 
-export type AggregatedPriceChartPoint = PriceChartHistory & {
+export type AggregatedPriceChartPoint = {
   key: string;
   label: string;
+  checkedAt: string;
+  salePrice: number | null;
+  buyPrice: number | null;
+  rankBPrice: number | null;
+  timeSalePrice: number | null;
+  timeSaleBasePrice: number | null;
+  condition: string | null;
+  conditionRank: string;
+  isTimeSale: boolean;
 };
 
 const DAY_RANGE_DAYS = 31;
@@ -42,13 +55,11 @@ export function aggregatePriceChartData(
 
     return recent.map((history, index) => {
       const key = dateKey(history.date);
-      return {
-        key: `${history.checkedAt}-${index}`,
-        checkedAt: history.checkedAt,
-        salePrice: history.salePrice,
-        buyPrice: history.buyPrice,
-        label: dayPointLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1),
-      };
+      return toChartPoint(
+        history,
+        `${history.checkedAt}-${index}`,
+        dayPointLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1),
+      );
     });
   }
 
@@ -57,13 +68,35 @@ export function aggregatePriceChartData(
     buckets.set(bucketKey(history.date, mode), history);
   }
 
-  return [...buckets.entries()].map(([key, history]) => ({
+  return [...buckets.entries()].map(([key, history]) =>
+    toChartPoint(history, key, bucketLabel(history.date, mode)),
+  );
+}
+
+function toChartPoint(
+  history: PriceChartHistory & { date: Date },
+  key: string,
+  label: string,
+): AggregatedPriceChartPoint {
+  const isTimeSale = history.isTimeSale === true;
+  const conditionRank = history.conditionRank === "B" || history.condition ? "B" : "A";
+  const baseSalePrice = isTimeSale
+    ? (history.regularSalePrice ?? history.salePrice)
+    : history.salePrice;
+
+  return {
     key,
+    label,
     checkedAt: history.checkedAt,
-    salePrice: history.salePrice,
+    salePrice: conditionRank === "B" ? null : baseSalePrice,
     buyPrice: history.buyPrice,
-    label: bucketLabel(history.date, mode),
-  }));
+    rankBPrice: conditionRank === "B" ? baseSalePrice : null,
+    timeSalePrice: isTimeSale ? history.salePrice : null,
+    timeSaleBasePrice: isTimeSale ? baseSalePrice : null,
+    condition: history.condition ?? null,
+    conditionRank,
+    isTimeSale,
+  };
 }
 
 function bucketKey(date: Date, mode: Exclude<PriceChartMode, "day">): string {
