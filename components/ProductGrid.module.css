@@ -1,0 +1,64 @@
+.productCard {
+  position: relative;
+}
+
+.saleUp {
+  border-left-color: #c93434;
+  border-left-width: 4px;
+}
+
+.saleDown {
+  border-left-color: #2b6fb3;
+  border-left-width: 4px;
+}
+
+.saleChanged {
+  border-left-color: #a56b14;
+  border-left-width: 4px;
+}
+
+.buyUp {
+  border-right-color: #c93434;
+  border-right-width: 4px;
+}
+
+.buyDown {
+  border-right-color: #2b6fb3;
+  border-right-width: 4px;
+}
+
+.buyChanged {
+  border-right-color: #a56b14;
+  border-right-width: 4px;
+}
+
+.changeRail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: -8px 0 -2px;
+}
+
+.changeTag {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 5px 8px;
+}
+
+.up {
+  background: #fff1f1;
+  color: #a82222;
+}
+
+.down {
+  background: #eef6ff;
+  color: #245f9c;
+}
+
+.changed {
+  background: #fff8e8;
+  color: #8b5b12;
+}
