@@ -1,0 +1,24 @@
+.countdown {
+  align-items: baseline;
+  background: #fff9d9;
+  border: 1px solid #e6c94f;
+  border-radius: 999px;
+  color: #6e5700;
+  display: inline-flex;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  font-weight: 700;
+  gap: 7px;
+  padding: 7px 10px;
+}
+
+.countdown strong {
+  color: #245f9c;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.countdown small {
+  font-size: 0.72rem;
+  opacity: 0.8;
+}
