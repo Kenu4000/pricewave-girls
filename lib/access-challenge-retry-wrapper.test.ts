@@ -319,7 +319,8 @@ test("アクセス確認停止後は1分後の再開アラームを設定する"
   context.mockRunStatus = { state: "blocked", message: "一時停止" };
 
   await vm.runInContext(`runAllProducts("manual")`, context);
-  assert.deepEqual(context.createdAlarms.at(-1), {
+  const alarm = JSON.parse(JSON.stringify(context.createdAlarms.at(-1)));
+  assert.deepEqual(alarm, {
     name: "surugaya-daily-update-retry",
     info: { delayInMinutes: 1 },
   });
