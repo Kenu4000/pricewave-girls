@@ -72,7 +72,57 @@
     }
   }
 
-  function selectScheduledProducts(products, value = Date.now(), exactDailyUrls = []) {
+  function normalizeCrawlBrand(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .toLocaleLowerCase("en")
+      .replace(/[\s\u3000・･._\-‐‑–—:：'’`´"“”!?！？☆★+＋/／\\&＆×†]/gu, "");
+  }
+
+  function crawlBrandAliases(value) {
+    const source = String(value || "").trim();
+    const aliases = new Set();
+    const add = (candidate) => {
+      const normalized = normalizeCrawlBrand(candidate);
+      if (normalized) aliases.add(normalized);
+    };
+
+    add(source);
+    const parentheticalContents = [...source.matchAll(/[（(]([^()（）]+)[）)]/gu)].map(
+      (match) => match[1].trim(),
+    );
+    for (const content of parentheticalContents) add(content);
+    for (const candidate of [source, ...parentheticalContents]) {
+      for (const part of candidate.split(/[／/×、]/u)) add(part);
+    }
+    return [...aliases];
+  }
+
+  function customDailyBrandKeys(rawBrands) {
+    return new Set(
+      (Array.isArray(rawBrands) ? rawBrands : [])
+        .flatMap((brand) => crawlBrandAliases(brand))
+        .filter(Boolean),
+    );
+  }
+
+  function matchesCustomDailyBrand(product, brandKeys) {
+    const candidates = Array.isArray(product?.brands)
+      ? product.brands
+      : product?.brand
+        ? [product.brand]
+        : [];
+    return candidates.some((candidate) =>
+      crawlBrandAliases(candidate).some((alias) => brandKeys.has(alias)),
+    );
+  }
+
+  function selectScheduledProducts(
+    products,
+    value = Date.now(),
+    exactDailyUrls = [],
+    dailyBrandOverride = null,
+  ) {
     const source = Array.isArray(products) ? products : [];
     const bucket = rotationBucket(value);
     const exactDailySet = new Set(
@@ -80,15 +130,22 @@
         .map(normalizeProductUrl)
         .filter(Boolean),
     );
+    const overrideEnabled = Boolean(dailyBrandOverride?.enabled);
+    const overrideBrandKeys = customDailyBrandKeys(dailyBrandOverride?.brands);
     const daily = [];
     const rotation = [];
     let exactDailyCount = 0;
 
     for (const product of source) {
       const exactDaily = exactDailySet.has(normalizeProductUrl(product?.url));
-      if (product?.crawlPriority === "daily" || exactDaily) {
+      const brandDaily = overrideEnabled
+        ? matchesCustomDailyBrand(product, overrideBrandKeys)
+        : product?.crawlPriority === "daily";
+      const baseDaily = Boolean(product?.dailyByTitle) || brandDaily;
+
+      if (baseDaily || exactDaily) {
         daily.push(product);
-        if (exactDaily && product?.crawlPriority !== "daily") exactDailyCount += 1;
+        if (exactDaily && !baseDaily) exactDailyCount += 1;
       } else if (productRotationBucket(product) === bucket) {
         rotation.push(product);
       }
@@ -101,6 +158,7 @@
       exactDailyCount,
       rotationCount: rotation.length,
       totalRegistered: source.length,
+      customDailyBrandCount: overrideEnabled ? overrideBrandKeys.size : null,
     };
   }
 
@@ -159,6 +217,8 @@
     rotationBucket,
     productRotationBucket,
     normalizeProductUrl,
+    normalizeCrawlBrand,
+    crawlBrandAliases,
     selectScheduledProducts,
     classifyPage,
     serverRetryDelay,
