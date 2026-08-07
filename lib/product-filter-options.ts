@@ -1,3 +1,5 @@
+import { resolveBrandIdentity } from "@/lib/brand-aliases";
+
 export type FilterSourceProduct = {
   id: number;
   manufacturer: string | null;
@@ -96,7 +98,7 @@ function normalizeChoiceKey(value: string): string {
 }
 
 export function normalizeFilterChoiceValue(value: string): string {
-  return normalizeChoiceKey(value);
+  return resolveBrandIdentity(value).key;
 }
 
 export function detailFilterValue(label: string, value: string): string {
@@ -262,7 +264,10 @@ export function buildProductFilterCatalog(
       productIds.add(product.id);
       detailProductIds.set(key, productIds);
     }
-    if (product.manufacturer) addBucketValue(brands, product.manufacturer, product.id);
+    if (product.manufacturer) {
+      const brand = resolveBrandIdentity(product.manufacturer);
+      addBucketValue(brands, brand.label, product.id, brand.key);
+    }
 
     const osDetails = detailValues(details, ["対応OS", "動作OS", "OS", "対応機種"]);
     for (const operatingSystem of extractOperatingSystems(product.category, ...osDetails)) {
