@@ -6,10 +6,12 @@ export type PriceHistorySnapshot = {
   buyPrice: number | null;
   stockStatus: string | null;
   isTimeSale: boolean;
+  checkedAt: Date | string;
 };
 
 export const PRICE_HISTORY_RECENT_LIMIT = 10;
 const DELETE_CHUNK_SIZE = 500;
+const JAPAN_STANDARD_TIME_OFFSET_MS = 9 * 60 * 60 * 1_000;
 
 function sameSnapshot(left: PriceHistorySnapshot, right: PriceHistorySnapshot): boolean {
   return (
@@ -20,13 +22,24 @@ function sameSnapshot(left: PriceHistorySnapshot, right: PriceHistorySnapshot): 
   );
 }
 
+function japanDateKey(value: Date | string): string {
+  const milliseconds = value instanceof Date ? value.getTime() : new Date(value).getTime();
+  if (!Number.isFinite(milliseconds)) return "";
+  return new Date(milliseconds + JAPAN_STANDARD_TIME_OFFSET_MS).toISOString().slice(0, 10);
+}
+
+function sameCheckedDate(left: PriceHistorySnapshot, right: PriceHistorySnapshot): boolean {
+  const leftDate = japanDateKey(left.checkedAt);
+  return leftDate !== "" && leftDate === japanDateKey(right.checkedAt);
+}
+
 /**
  * Histories must be supplied newest first.
  *
- * The newest ten rows form the ordinary recent window. For older rows, an
- * exact duplicate of the immediately newer retained snapshot is removable.
- * A different snapshot is protected as a change point and does not consume
- * the ten-row recent window.
+ * The newest ten rows form the ordinary recent window. For older rows, only
+ * an exact duplicate recorded on the same Japan-calendar date as the
+ * immediately newer retained snapshot is removable. A row from a different
+ * date is always retained, even when price, stock, and time-sale values are unchanged.
  */
 export function priceHistoryIdsToDelete(
   histories: PriceHistorySnapshot[],
@@ -39,7 +52,11 @@ export function priceHistoryIdsToDelete(
 
   for (const history of histories.slice(recentLimit)) {
     const immediatelyNewer = retained.at(-1);
-    if (immediatelyNewer && sameSnapshot(immediatelyNewer, history)) {
+    if (
+      immediatelyNewer &&
+      sameCheckedDate(immediatelyNewer, history) &&
+      sameSnapshot(immediatelyNewer, history)
+    ) {
       deletions.push(history.id);
       continue;
     }
@@ -64,6 +81,7 @@ export async function pruneProductPriceHistories(productIds: number[]): Promise<
       buyPrice: true,
       stockStatus: true,
       isTimeSale: true,
+      checkedAt: true,
     },
   });
 
