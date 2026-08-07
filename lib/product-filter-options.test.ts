@@ -37,7 +37,7 @@ test("ブランドの全角・大文字小文字・空白の表記揺れを同�
   assert.deepEqual(catalog.brands.productIds.get("key"), [1, 2, 3]);
 });
 
-test("英字名と日本語名のブランド別名を同じ候補にまとめる", () => {
+test("英字名と日本語名のブランド別名を同じ候補にまとめて両方表示する", () => {
   const catalog = buildProductFilterCatalog([
     product(1, { manufacturer: "戯画" }),
     product(2, { manufacturer: "GIGA" }),
@@ -50,7 +50,9 @@ test("英字名と日本語名のブランド別名を同じ候補にまとめ�
   const aliceKey = normalizeFilterChoiceValue("ありすそふと");
 
   assert.equal(gigaKey, normalizeFilterChoiceValue("戯画"));
+  assert.equal(gigaKey, normalizeFilterChoiceValue("戯画（GIGA）"));
   assert.equal(aliceKey, normalizeFilterChoiceValue("ALICESOFT"));
+  assert.equal(aliceKey, normalizeFilterChoiceValue("ALICESOFT（アリスソフト）"));
   assert.deepEqual(catalog.brands.productIds.get(gigaKey), [1, 2]);
   assert.deepEqual(catalog.brands.productIds.get(aliceKey), [3, 4, 5]);
 
@@ -58,8 +60,11 @@ test("英字名と日本語名のブランド別名を同じ候補にまとめ�
     ...catalog.brands.options.featured,
     ...catalog.brands.options.alphabetical,
   ];
-  assert.equal(options.filter((option) => option.label === "戯画").length, 1);
-  assert.equal(options.filter((option) => option.label === "ALICESOFT").length, 1);
+  assert.equal(options.filter((option) => option.label === "戯画（GIGA）").length, 1);
+  assert.equal(
+    options.filter((option) => option.label === "ALICESOFT（アリスソフト）").length,
+    1,
+  );
 });
 
 test("対応OSの複数バージョンと表記揺れを統合する", () => {
