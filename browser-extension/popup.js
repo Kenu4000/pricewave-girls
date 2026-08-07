@@ -6,8 +6,12 @@ const autoTime = document.querySelector("#auto-time");
 const fastSiteMode = document.querySelector("#fast-site-mode");
 const parallelTabsInput = document.querySelector("#parallel-tabs");
 const continueAccessChallengeMode = document.querySelector("#continue-access-challenge-mode");
-const dailyBrandOverrideEnabled = document.querySelector("#daily-brand-override-enabled");
-const dailyCrawlBrandsInput = document.querySelector("#daily-crawl-brands");
+const dailyBrandAddButton = document.querySelector("#daily-brand-add-button");
+const dailyBrandAddPanel = document.querySelector("#daily-brand-add-panel");
+const dailyBrandAddInput = document.querySelector("#daily-brand-add-input");
+const dailyBrandAddConfirm = document.querySelector("#daily-brand-add-confirm");
+const dailyBrandList = document.querySelector("#daily-brand-list");
+const dailyBrandSummary = document.querySelector("#daily-brand-summary");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const resumeTaskButton = document.querySelector("#resume-task-button");
@@ -17,6 +21,10 @@ const autoAddUrl = document.querySelector("#auto-add-url");
 const autoAddLimit = document.querySelector("#auto-add-limit");
 const autoAddButton = document.querySelector("#auto-add-button");
 
+let dailyBrandOptions = [];
+let dailyBrandDefaultsLoaded = false;
+let currentDailyBrandOverrideEnabled = false;
+
 function normalizedInteger(value, minimum, maximum, fallback) {
   const number = Number(value);
   return Number.isInteger(number)
@@ -24,21 +32,142 @@ function normalizedInteger(value, minimum, maximum, fallback) {
     : fallback;
 }
 
-function parseDailyCrawlBrands(value) {
-  return [...new Set(
-    String(value || "")
-      .split(/\r?\n/u)
-      .map((brand) => brand.trim())
-      .filter(Boolean),
-  )];
+function normalizeCrawlBrand(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("en")
+    .replace(/[\s\u3000・･._\-‐‑–—:：'’`´"“”!?！？☆★+＋/／\\&＆×†()[\]（）［］{}｛｝]/gu, "");
+}
+
+function dailyBrandCheckedValues() {
+  return [...dailyBrandList.querySelectorAll('input[type="checkbox"]:checked')]
+    .map((input) => input.dataset.value || "")
+    .filter(Boolean);
+}
+
+function updateDailyBrandSummary() {
+  const checked = dailyBrandCheckedValues().length;
+  dailyBrandSummary.textContent = dailyBrandOptions.length > 0
+    ? `日次巡回: ${checked}ブランド / 一覧 ${dailyBrandOptions.length}ブランド`
+    : "日次巡回ブランドを取得できませんでした。";
+}
+
+function renderDailyBrandOptions(selectedValues = []) {
+  const selectedKeys = new Set(selectedValues.map(normalizeCrawlBrand));
+  dailyBrandList.replaceChildren();
+
+  if (dailyBrandOptions.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "daily-brand-empty";
+    empty.textContent = "ブランド一覧がありません。＋から追加できます。";
+    dailyBrandList.append(empty);
+    updateDailyBrandSummary();
+    return;
+  }
+
+  for (const option of dailyBrandOptions) {
+    const label = document.createElement("label");
+    label.className = "daily-brand-option";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.dataset.value = option.value;
+    checkbox.checked = selectedKeys.has(normalizeCrawlBrand(option.value));
+    checkbox.addEventListener("change", updateDailyBrandSummary);
+
+    const text = document.createElement("span");
+    text.textContent = option.label;
+
+    label.append(checkbox, text);
+    dailyBrandList.append(label);
+  }
+
+  updateDailyBrandSummary();
+}
+
+function mergeStoredDailyBrands(defaultOptions, storedBrands) {
+  const merged = [...defaultOptions];
+  const existingKeys = new Set(merged.map((option) => normalizeCrawlBrand(option.value)));
+
+  for (const rawBrand of Array.isArray(storedBrands) ? storedBrands : []) {
+    const brand = String(rawBrand || "").trim();
+    if (!brand) continue;
+    const key = normalizeCrawlBrand(brand);
+    if (!key || existingKeys.has(key)) continue;
+    existingKeys.add(key);
+    merged.push({ value: brand, label: brand, isDefault: false });
+  }
+
+  return merged;
+}
+
+async function loadDailyBrandOptions(modeSettings) {
+  currentDailyBrandOverrideEnabled = Boolean(modeSettings.dailyCrawlBrandOverrideEnabled);
+  const storedBrands = Array.isArray(modeSettings.dailyCrawlBrands)
+    ? modeSettings.dailyCrawlBrands
+    : [];
+
+  try {
+    const response = await fetch("http://localhost:3000/api/crawl-brands");
+    const result = await response.json();
+    if (!response.ok || !Array.isArray(result.brands)) {
+      throw new Error(result.error || "日次巡回ブランドを取得できませんでした。");
+    }
+
+    const defaults = result.brands
+      .filter((brand) => brand && typeof brand.value === "string" && typeof brand.label === "string")
+      .map((brand) => ({
+        value: brand.value,
+        label: brand.label,
+        isDefault: true,
+      }));
+    dailyBrandDefaultsLoaded = true;
+    dailyBrandOptions = mergeStoredDailyBrands(defaults, storedBrands);
+    renderDailyBrandOptions(
+      currentDailyBrandOverrideEnabled
+        ? storedBrands
+        : defaults.map((option) => option.value),
+    );
+  } catch {
+    dailyBrandDefaultsLoaded = false;
+    dailyBrandOptions = mergeStoredDailyBrands([], storedBrands);
+    renderDailyBrandOptions(storedBrands);
+  }
+}
+
+function sameBrandSelection(leftValues, rightValues) {
+  const left = new Set(leftValues.map(normalizeCrawlBrand).filter(Boolean));
+  const right = new Set(rightValues.map(normalizeCrawlBrand).filter(Boolean));
+  return left.size === right.size && [...left].every((value) => right.has(value));
+}
+
+function addDailyBrand() {
+  const brand = dailyBrandAddInput.value.trim();
+  if (!brand) return;
+
+  const selected = dailyBrandCheckedValues();
+  const key = normalizeCrawlBrand(brand);
+  const existing = dailyBrandOptions.find(
+    (option) => normalizeCrawlBrand(option.value) === key,
+  );
+
+  if (existing) {
+    if (!selected.some((value) => normalizeCrawlBrand(value) === key)) {
+      selected.push(existing.value);
+    }
+  } else {
+    dailyBrandOptions.push({ value: brand, label: brand, isDefault: false });
+    selected.push(brand);
+  }
+
+  dailyBrandOptions.sort((left, right) => left.label.localeCompare(right.label, "ja"));
+  renderDailyBrandOptions(selected);
+  dailyBrandAddInput.value = "";
+  dailyBrandAddPanel.hidden = true;
 }
 
 function syncFastSiteModeForm() {
   parallelTabsInput.disabled = !fastSiteMode.checked;
-}
-
-function syncDailyBrandOverrideForm() {
-  dailyCrawlBrandsInput.disabled = !dailyBrandOverrideEnabled.checked;
 }
 
 function showStatus(message, kind) {
@@ -199,14 +328,8 @@ async function loadAutoSettings(syncForm = true) {
     continueAccessChallengeMode.checked = Boolean(
       modeSettings.continueThroughAccessChallenges,
     );
-    dailyBrandOverrideEnabled.checked = Boolean(
-      modeSettings.dailyCrawlBrandOverrideEnabled,
-    );
-    dailyCrawlBrandsInput.value = Array.isArray(modeSettings.dailyCrawlBrands)
-      ? modeSettings.dailyCrawlBrands.join("\n")
-      : "";
     syncFastSiteModeForm();
-    syncDailyBrandOverrideForm();
+    await loadDailyBrandOptions(modeSettings);
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -222,14 +345,23 @@ async function saveAutoSettings() {
   saveAutoButton.disabled = true;
   try {
     const parallelTabs = normalizedInteger(parallelTabsInput.value, 1, 100, 10);
-    const dailyCrawlBrands = parseDailyCrawlBrands(dailyCrawlBrandsInput.value);
+    const dailyCrawlBrands = dailyBrandCheckedValues();
+    const defaultBrands = dailyBrandOptions
+      .filter((option) => option.isDefault)
+      .map((option) => option.value);
+    const dailyCrawlBrandOverrideEnabled = dailyBrandDefaultsLoaded
+      ? !sameBrandSelection(dailyCrawlBrands, defaultBrands)
+      : currentDailyBrandOverrideEnabled || dailyCrawlBrands.length > 0;
+
     await chrome.storage.local.set({
       fastSiteModeEnabled: fastSiteMode.checked,
       parallelTabs,
       continueThroughAccessChallenges: continueAccessChallengeMode.checked,
-      dailyCrawlBrandOverrideEnabled: dailyBrandOverrideEnabled.checked,
+      dailyCrawlBrandOverrideEnabled,
       dailyCrawlBrands,
     });
+    currentDailyBrandOverrideEnabled = dailyCrawlBrandOverrideEnabled;
+
     const response = await chrome.runtime.sendMessage({
       type: "auto:save",
       enabled: autoEnabled.checked,
@@ -326,7 +458,17 @@ async function stopTask() {
 }
 
 fastSiteMode.addEventListener("change", syncFastSiteModeForm);
-dailyBrandOverrideEnabled.addEventListener("change", syncDailyBrandOverrideForm);
+dailyBrandAddButton.addEventListener("click", () => {
+  dailyBrandAddPanel.hidden = !dailyBrandAddPanel.hidden;
+  if (!dailyBrandAddPanel.hidden) dailyBrandAddInput.focus();
+});
+dailyBrandAddConfirm.addEventListener("click", addDailyBrand);
+dailyBrandAddInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    addDailyBrand();
+  }
+});
 saveAutoButton.addEventListener("click", saveAutoSettings);
 runAllButton.addEventListener("click", runAllProducts);
 resumeTaskButton.addEventListener("click", resumeFromCheckpoint);
