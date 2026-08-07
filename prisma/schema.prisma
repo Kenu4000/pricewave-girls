@@ -46,7 +46,7 @@ model Product {
   @@index([releaseDate])
   @@index([manufacturer])
   @@index([conditionRank])
-  @@index([timeSaleEndsAt])
+  @@index([isTimeSale, timeSaleEndsAt])
 }
 
 model PriceChange {
