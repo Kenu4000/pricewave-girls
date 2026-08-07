@@ -17,6 +17,7 @@ import {
   type PriceChartHistory,
   type PriceChartMode,
 } from "@/lib/price-chart-data";
+import { shouldPlaceTooltipAbove } from "@/lib/tooltip-position";
 import styles from "./PriceChart.module.css";
 
 const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
@@ -70,7 +71,7 @@ function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipPro
   const average = rows.reduce((sum, row) => sum + row.value, 0) / rows.length;
   // 高価格帯はグラフ上側、低価格帯は下側に描かれるため、
   // 価格帯の外側へ出して線との重なりを減らす。カーソルとの隙間は従来相当に保つ。
-  const placeAbove = rangeMidpoint !== null && average >= rangeMidpoint;
+  const placeAbove = shouldPlaceTooltipAbove(average, rangeMidpoint);
 
   return (
     <div className={`${styles.tooltip} ${placeAbove ? styles.tooltipAbove : styles.tooltipBelow}`}>
