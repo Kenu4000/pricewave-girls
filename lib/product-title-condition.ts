@@ -44,15 +44,15 @@ export function conditionAnnotatedProductIds(
     title: string;
     condition?: string | null;
     conditionRank?: string | null;
+    detailsJson?: string | null;
   }>,
 ): number[] {
   return products
-    .filter(
-      (product) =>
-        product.conditionRank === "B" ||
-        Boolean(product.condition) ||
-        hasTrailingConditionAnnotation(product.title),
-    )
+    .filter((product) => {
+      if (product.conditionRank === "B" || product.condition) return true;
+      if (hasTrailingConditionAnnotation(product.title)) return true;
+      return conditionFromDetailsJson(product.detailsJson).conditionRank === "B";
+    })
     .map((product) => product.id);
 }
 
@@ -70,6 +70,27 @@ export function productConditionFromDetails(details: Record<string, string>): {
 
 export function isInternalProductConditionDetailLabel(label: string): boolean {
   return label === PRODUCT_CONDITION_DETAIL_KEY || label === PRODUCT_CONDITION_RANK_DETAIL_KEY;
+}
+
+function conditionFromDetailsJson(detailsJson: string | null | undefined): {
+  condition: string | null;
+  conditionRank: ProductConditionRank;
+} {
+  if (!detailsJson) return { condition: null, conditionRank: "A" };
+  try {
+    const parsed = JSON.parse(detailsJson) as unknown;
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+      return { condition: null, conditionRank: "A" };
+    }
+    const details = Object.fromEntries(
+      Object.entries(parsed).filter(
+        (entry): entry is [string, string] => typeof entry[1] === "string",
+      ),
+    );
+    return productConditionFromDetails(details);
+  } catch {
+    return { condition: null, conditionRank: "A" };
+  }
 }
 
 type TrailingParenthetical = {
