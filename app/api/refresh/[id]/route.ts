@@ -2,10 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 import { parseProductHtml } from "@/lib/surugaya";
-import {
-  detectPrimaryTimeSale,
-  withTimeSaleStorageMarker,
-} from "@/lib/time-sale";
+import { withProductStateStorageMarkers } from "@/lib/time-sale";
 import { upsertProductSnapshotsWithTimeSale } from "@/lib/time-sale-persistence";
 
 export const runtime = "nodejs";
@@ -26,10 +23,7 @@ export async function POST(_request: Request, { params }: { params: Promise<{ id
 
   try {
     const html = await fetchSurugayaHtml(product.surugayaUrl);
-    const fetched = withTimeSaleStorageMarker(
-      parseProductHtml(html),
-      detectPrimaryTimeSale(html),
-    );
+    const fetched = withProductStateStorageMarkers(html, parseProductHtml(html));
     await upsertProductSnapshotsWithTimeSale([
       { surugayaUrl: product.surugayaUrl, fetched },
     ]);
