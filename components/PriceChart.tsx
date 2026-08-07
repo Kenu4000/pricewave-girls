@@ -33,9 +33,79 @@ const yenFormatter = (value: number | string | null) => {
   return `${Number(value).toLocaleString("ja-JP")}円`;
 };
 
+type TooltipPayloadEntry = {
+  color?: string;
+  name?: unknown;
+  value?: unknown;
+};
+
+type PriceTooltipProps = {
+  active?: boolean;
+  payload?: ReadonlyArray<TooltipPayloadEntry>;
+  label?: unknown;
+  rangeMidpoint: number | null;
+};
+
+function numericValue(value: unknown): number | null {
+  if (typeof value !== "number" && typeof value !== "string") return null;
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+}
+
+function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipProps) {
+  if (!active || !payload || payload.length === 0) return null;
+
+  const rows = payload
+    .map((entry) => ({
+      color: entry.color,
+      name: typeof entry.name === "string" ? entry.name : "価格",
+      value: numericValue(entry.value),
+    }))
+    .filter((entry): entry is { color: string | undefined; name: string; value: number } =>
+      entry.value !== null,
+    );
+
+  if (rows.length === 0) return null;
+
+  const average = rows.reduce((sum, row) => sum + row.value, 0) / rows.length;
+  // 高い価格はグラフ上部、低い価格は下部に描かれるため、
+  // 線が集まっている側とは反対側へ同じ程度の隙間で逃がす。
+  const placeAbove = rangeMidpoint !== null && average < rangeMidpoint;
+
+  return (
+    <div className={`${styles.tooltip} ${placeAbove ? styles.tooltipAbove : styles.tooltipBelow}`}>
+      {label !== undefined && label !== null ? (
+        <div className={styles.tooltipLabel}>{String(label)}</div>
+      ) : null}
+      <div className={styles.tooltipRows}>
+        {rows.map((row, index) => (
+          <div className={styles.tooltipRow} key={`${row.name}:${index}`}>
+            <span
+              aria-hidden="true"
+              className={styles.tooltipMarker}
+              style={{ backgroundColor: row.color ?? "currentColor" }}
+            />
+            <span>{row.name}</span>
+            <strong>{yenFormatter(row.value)}</strong>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
   const [mode, setMode] = useState<PriceChartMode>("day");
   const data = useMemo(() => aggregatePriceChartData(histories, mode), [histories, mode]);
+  const tooltipRangeMidpoint = useMemo(() => {
+    const values = data.flatMap((point) =>
+      [point.salePrice, point.buyPrice, point.rankBPrice, point.timeSalePrice].filter(
+        (value): value is number => typeof value === "number" && Number.isFinite(value),
+      ),
+    );
+    if (values.length === 0) return null;
+    return (Math.min(...values) + Math.max(...values)) / 2;
+  }, [data]);
 
   if (histories.length === 0) {
     return <p className="muted">まだ価格履歴がありません。</p>;
@@ -69,7 +139,16 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="label" minTickGap={24} />
             <YAxis tickFormatter={(value) => yenFormatter(value)} width={92} />
-            <Tooltip formatter={(value) => yenFormatter(value as number | string | null)} />
+            <Tooltip
+              content={(props) => (
+                <PriceTooltip
+                  active={props.active}
+                  label={props.label}
+                  payload={props.payload}
+                  rangeMidpoint={tooltipRangeMidpoint}
+                />
+              )}
+            />
             <Legend />
             {data
               .filter(
