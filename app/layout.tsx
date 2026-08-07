@@ -43,6 +43,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
               {nearestEndAt !== null ? (
                 <TimeSaleCountdown
                   endAt={new Date(nearestEndAt).toISOString()}
+                  initialNow={now.toISOString()}
                   multipleEndTimes={uniqueEndTimes.length > 1}
                 />
               ) : null}
