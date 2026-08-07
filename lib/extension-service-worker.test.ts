@@ -7,9 +7,11 @@ function extensionSource(fileName: string): string {
   return readFileSync(new URL(`../browser-extension/${fileName}`, import.meta.url), "utf8");
 }
 
-test("人気順更新ラッパーと安全巡回Workerを同じService Workerで読み込める", () => {
+test("人気順更新・新商品探索・安全巡回Workerを同じService Workerで読み込める", () => {
   const sources = new Map([
     ["crawl-policy.js", extensionSource("crawl-policy.js")],
+    ["new-product-discovery-policy.js", extensionSource("new-product-discovery-policy.js")],
+    ["new-product-discovery-wrapper.js", extensionSource("new-product-discovery-wrapper.js")],
     ["safe-background.js", extensionSource("safe-background.js")],
   ]);
   const listener = { addListener() {}, removeListener() {} };
@@ -29,7 +31,7 @@ test("人気順更新ラッパーと安全巡回Workerを同じService Workerで
       },
       async remove() {},
       async get() {
-        return { id: 1, status: "complete" };
+        return { id: 1, status: "complete", url: "https://www.suruga-ya.jp/search?page=1" };
       },
       onRemoved: listener,
       onUpdated: listener,

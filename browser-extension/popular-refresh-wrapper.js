@@ -122,7 +122,7 @@
     return wrappedStorageSet(nextItems);
   };
 
-  importScripts("safe-background.js");
+  importScripts("new-product-discovery-wrapper.js");
 
   const safeFetch = globalThis.fetch.bind(globalThis);
   globalThis.fetch = async (...args) => {

@@ -17,6 +17,26 @@
   border-left-width: 4px;
 }
 
+.saleRestocked {
+  border-left-color: #23885a;
+  border-left-width: 4px;
+}
+
+.saleMailOrderSoldOut {
+  border-left-color: #d17a17;
+  border-left-width: 4px;
+}
+
+.saleOutOfStock {
+  border-left-color: #6f747b;
+  border-left-width: 4px;
+}
+
+.saleUnfetched {
+  border-left-color: #8d6c2f;
+  border-left-width: 4px;
+}
+
 .buyUp {
   border-right-color: #c93434;
   border-right-width: 4px;
@@ -61,4 +81,24 @@
 .changed {
   background: #fff8e8;
   color: #8b5b12;
+}
+
+.restocked {
+  background: #edf9f2;
+  color: #1f704c;
+}
+
+.mailOrderSoldOut {
+  background: #fff5e8;
+  color: #9c5c12;
+}
+
+.outOfStock {
+  background: #f1f2f3;
+  color: #555b62;
+}
+
+.unfetched {
+  background: #fff8e8;
+  color: #765820;
 }

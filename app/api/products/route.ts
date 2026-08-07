@@ -6,12 +6,17 @@ import {
 } from "@/lib/crawl-brand-priority";
 import { prisma } from "@/lib/prisma";
 import { pruneProductPriceHistories } from "@/lib/price-history-retention";
-import { upsertProductSnapshot } from "@/lib/product-snapshots";
+import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 import {
-  fetchProduct,
   InvalidSurugayaUrlError,
   normalizeSurugayaUrl,
+  parseProductHtml,
 } from "@/lib/surugaya";
+import {
+  detectPrimaryTimeSale,
+  withTimeSaleStorageMarker,
+} from "@/lib/time-sale";
+import { upsertProductSnapshotsWithTimeSale } from "@/lib/time-sale-persistence";
 
 export const runtime = "nodejs";
 
@@ -60,8 +65,15 @@ export async function POST(request: Request) {
     }
 
     const normalizedUrl = normalizeSurugayaUrl(url);
-    const fetched = await fetchProduct(normalizedUrl);
-    const product = await upsertProductSnapshot(normalizedUrl, fetched);
+    const html = await fetchSurugayaHtml(normalizedUrl);
+    const fetched = withTimeSaleStorageMarker(
+      parseProductHtml(html),
+      detectPrimaryTimeSale(html),
+    );
+    const [product] = await upsertProductSnapshotsWithTimeSale([
+      { surugayaUrl: normalizedUrl, fetched },
+    ]);
+    if (!product) throw new Error("商品の保存に失敗しました");
     await pruneProductPriceHistories([product.id]);
 
     return NextResponse.json({ id: product.id }, { status: 201 });

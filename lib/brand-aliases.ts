@@ -4,23 +4,23 @@ export type BrandIdentity = {
 };
 
 const BRAND_ALIAS_GROUPS = [
-  ["ALICESOFT", "ALICESOFT", "AliceSoft", "アリスソフト", "ありすそふと"],
-  ["戯画", "戯画", "GIGA", "Giga"],
-  ["FrontWing", "FrontWing", "フロントウィング", "フロントウイング"],
-  ["NitroPlus", "NitroPlus", "Nitro+", "ニトロプラス"],
-  ["Purple software", "Purple software", "パープルソフトウェア"],
-  ["AQUAPLUS", "AQUAPLUS", "アクアプラス"],
-  ["Liar-soft", "Liar-soft", "ライアーソフト"],
-  ["Escu:de", "Escu:de", "エスクード"],
-  ["Overflow", "Overflow", "オーバーフロー"],
-  ["BLUE GALE", "BLUE GALE", "ブルーゲイル"],
-  ["FlyingShine", "FlyingShine", "フライングシャイン"],
-  ["UNiSONSHIFT", "UNiSONSHIFT", "ユニゾンシフト"],
-  ["MAGES.", "MAGES.", "MAGES.(5pb.)", "5pb.", "5pb"],
-  ["CandySoft", "CandySoft", "きゃんでぃそふと"],
-  ["D.O.", "D.O.", "ディーオー"],
-  ["HOOKSOFT", "HOOKSOFT", "HOOK"],
-  ["âge", "âge", "age"],
+  ["ALICESOFT", "ALICESOFT（アリスソフト）", "ALICESOFT", "AliceSoft", "アリスソフト", "ありすそふと"],
+  ["戯画", "戯画（GIGA）", "戯画", "GIGA", "Giga"],
+  ["FrontWing", "FrontWing（フロントウィング）", "FrontWing", "フロントウィング", "フロントウイング"],
+  ["NitroPlus", "NitroPlus（ニトロプラス）", "NitroPlus", "Nitro+", "ニトロプラス"],
+  ["Purple software", "Purple software（パープルソフトウェア）", "Purple software", "パープルソフトウェア"],
+  ["AQUAPLUS", "AQUAPLUS（アクアプラス）", "AQUAPLUS", "アクアプラス"],
+  ["Liar-soft", "Liar-soft（ライアーソフト）", "Liar-soft", "ライアーソフト"],
+  ["Escu:de", "Escu:de（エスクード）", "Escu:de", "エスクード"],
+  ["Overflow", "Overflow（オーバーフロー）", "Overflow", "オーバーフロー"],
+  ["BLUE GALE", "BLUE GALE（ブルーゲイル）", "BLUE GALE", "ブルーゲイル"],
+  ["FlyingShine", "FlyingShine（フライングシャイン）", "FlyingShine", "フライングシャイン"],
+  ["UNiSONSHIFT", "UNiSONSHIFT（ユニゾンシフト）", "UNiSONSHIFT", "ユニゾンシフト"],
+  ["MAGES.", "MAGES.（5pb.）", "MAGES.", "MAGES.(5pb.)", "5pb.", "5pb"],
+  ["CandySoft", "CandySoft（きゃんでぃそふと）", "CandySoft", "きゃんでぃそふと"],
+  ["D.O.", "D.O.（ディーオー）", "D.O.", "ディーオー"],
+  ["HOOKSOFT", "HOOKSOFT（HOOK）", "HOOKSOFT", "HOOK"],
+  ["âge", "âge（age）", "âge", "age"],
 ] as const;
 
 function cleanBrandLabel(value: string): string {
@@ -39,10 +39,10 @@ export function normalizeBrandKey(value: string): string {
 
 const BRAND_ALIAS_INDEX = new Map<string, BrandIdentity>();
 
-for (const [label, ...aliases] of BRAND_ALIAS_GROUPS) {
-  const key = normalizeBrandKey(label);
-  const identity = { key, label };
-  for (const alias of aliases) {
+for (const [keyLabel, displayLabel, ...aliases] of BRAND_ALIAS_GROUPS) {
+  const key = normalizeBrandKey(keyLabel);
+  const identity = { key, label: displayLabel };
+  for (const alias of [keyLabel, displayLabel, ...aliases]) {
     BRAND_ALIAS_INDEX.set(normalizeBrandKey(alias), identity);
   }
 }

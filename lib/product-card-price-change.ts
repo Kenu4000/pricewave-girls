@@ -1,10 +1,17 @@
 export type ProductCardPriceChangeKind = "sale" | "buy";
 
+export type SaleAvailabilityState =
+  | "restocked"
+  | "mail_order_sold_out"
+  | "out_of_stock"
+  | "unfetched";
+
 export type ProductCardPriceChange = {
   type: ProductCardPriceChangeKind;
   previousPrice: number | null;
   currentPrice: number | null;
   changedAt: string;
+  availabilityState?: SaleAvailabilityState;
 };
 
 export type ProductCardPriceChangeSummary = {
@@ -58,6 +65,42 @@ export function productCardPriceChangeDirection(
   return "changed";
 }
 
+export function classifySaleAvailabilityState(
+  change: ProductCardPriceChange,
+  stockStatus: string | null,
+  hasOtherShopInventory: boolean,
+): SaleAvailabilityState | undefined {
+  if (change.type !== "sale") return undefined;
+
+  if (change.previousPrice == null && change.currentPrice != null) {
+    return "restocked";
+  }
+
+  if (change.currentPrice != null) return undefined;
+
+  if (stockStatus === "out_of_stock") {
+    return hasOtherShopInventory ? "mail_order_sold_out" : "out_of_stock";
+  }
+
+  return "unfetched";
+}
+
+export function hasCurrentOtherShopInventory(
+  latestSnapshotAt: Date | string | null,
+  junkRows: Array<{ sourceType: string; checkedAt: Date | string }>,
+  toleranceMs = 30_000,
+): boolean {
+  if (!latestSnapshotAt) return false;
+  const snapshotTime = new Date(latestSnapshotAt).getTime();
+  if (!Number.isFinite(snapshotTime)) return false;
+
+  return junkRows.some((row) => {
+    if (row.sourceType !== "other_shop") return false;
+    const checkedAt = new Date(row.checkedAt).getTime();
+    return Number.isFinite(checkedAt) && Math.abs(checkedAt - snapshotTime) <= toleranceMs;
+  });
+}
+
 function localDayNumber(date: Date): number {
   return Math.floor(
     Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86_400_000,
@@ -78,14 +121,31 @@ export function formatPriceChangeAge(
   return changed.toLocaleDateString("ja-JP");
 }
 
+function saleAvailabilityLabel(state: SaleAvailabilityState): string {
+  switch (state) {
+    case "restocked":
+      return "入荷";
+    case "mail_order_sold_out":
+      return "通販売り切れ";
+    case "out_of_stock":
+      return "無在庫";
+    case "unfetched":
+      return "未取得";
+  }
+}
+
 export function formatProductCardPriceChange(
   change: ProductCardPriceChange,
   now = new Date(),
 ): string {
   const label = change.type === "sale" ? "売価" : "買取";
-  const direction = productCardPriceChangeDirection(change);
   const age = formatPriceChangeAge(change.changedAt, now);
 
+  if (change.type === "sale" && change.availabilityState) {
+    return `${label} ${saleAvailabilityLabel(change.availabilityState)}・${age}`;
+  }
+
+  const direction = productCardPriceChangeDirection(change);
   if (
     direction === "changed" ||
     change.previousPrice == null ||

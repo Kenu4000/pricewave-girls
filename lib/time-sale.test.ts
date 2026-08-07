@@ -3,6 +3,7 @@ import test from "node:test";
 import {
   detectPrimaryTimeSale,
   TIME_SALE_DETAIL_KEY,
+  timeSaleStateFromFetched,
   withTimeSaleStorageMarker,
 } from "./time-sale";
 import type { FetchedProduct } from "./surugaya";
@@ -37,6 +38,19 @@ test("主商品のタイムセール表示を検出する", () => {
   );
 });
 
+test("先に通常価格ブロックがあっても後続のタイムセールを検出する", () => {
+  assert.equal(
+    detectPrimaryTimeSale(`
+      <html><body>
+        <h1>テスト商品</h1>
+        <div>新品 8,000円 (税込)</div>
+        <div>中古 ※ タイム セール 6,000円 5,400円 (税込)</div>
+      </body></html>
+    `),
+    true,
+  );
+});
+
 test("その他の状態だけがタイムセールでも主商品は通常価格として扱う", () => {
   assert.equal(
     detectPrimaryTimeSale(`
@@ -56,6 +70,8 @@ test("保存用マーカーを商品詳細へ追加し元データは変更し�
   const marked = withTimeSaleStorageMarker(original, true);
 
   assert.equal(marked.details[TIME_SALE_DETAIL_KEY], "true");
+  assert.equal(timeSaleStateFromFetched(marked), true);
+  assert.equal(timeSaleStateFromFetched(original), false);
   assert.equal(original.details[TIME_SALE_DETAIL_KEY], undefined);
   assert.equal(marked.details.メーカー, "テスト");
 });

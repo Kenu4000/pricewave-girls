@@ -1,7 +1,8 @@
-importScripts("fast-site-mode-policy.js");
+importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
 
 (() => {
   const modePolicy = globalThis.PricewaveFastSiteModePolicy;
+  const discoveryPolicy = globalThis.PricewaveNewProductDiscoveryPolicy;
   const nativeStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const nativeTabsCreate = chrome.tabs.create.bind(chrome.tabs);
   const DEFAULT_MODE_SETTINGS = {
@@ -26,6 +27,15 @@ importScripts("fast-site-mode-policy.js");
     }
   }
 
+  function requestsAutoAddSource(keys) {
+    if (typeof keys === "string") return keys === "autoAddSourceUrl";
+    if (Array.isArray(keys)) return keys.includes("autoAddSourceUrl");
+    if (keys && typeof keys === "object") {
+      return Object.prototype.hasOwnProperty.call(keys, "autoAddSourceUrl");
+    }
+    return false;
+  }
+
   const initialSettingsReady = nativeStorageGet(DEFAULT_MODE_SETTINGS)
     .then(applyModeSettings)
     .catch(() => {});
@@ -47,6 +57,12 @@ importScripts("fast-site-mode-policy.js");
   chrome.storage.local.get = async (...args) => {
     await initialSettingsReady;
     const stored = await nativeStorageGet(...args);
+    if (
+      requestsAutoAddSource(args[0]) &&
+      discoveryPolicy.shouldReplaceLegacyAutoAddUrl(stored?.autoAddSourceUrl)
+    ) {
+      stored.autoAddSourceUrl = discoveryPolicy.DEFAULT_RELEASE_DISCOVERY_URL;
+    }
     if (stored && Object.prototype.hasOwnProperty.call(stored, "parallelTabs")) {
       stored.parallelTabs = modePolicy.effectiveParallelTabs(
         fastSiteModeEnabled,

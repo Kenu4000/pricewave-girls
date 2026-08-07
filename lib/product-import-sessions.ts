@@ -1,12 +1,10 @@
-import {
-  upsertProductSnapshots,
-  type ProductSnapshotInput,
-} from "@/lib/product-snapshots";
+import { type ProductSnapshotInput } from "@/lib/product-snapshots";
 import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import {
   notifyProductBatchSaved,
   notifyProductImportFinished,
 } from "@/lib/product-events";
+import { upsertProductSnapshotsWithTimeSale } from "@/lib/time-sale-persistence";
 
 const AUTO_FLUSH_SIZE = 100;
 const SESSION_TTL_MS = 2 * 60 * 60 * 1_000;
@@ -75,7 +73,7 @@ function flushNextBatch(session: ImportSession, force: boolean) {
   if (flushCount === 0) return undefined;
 
   const batch = takePendingItems(session, flushCount);
-  const flushPromise = upsertProductSnapshots(batch, { notify: false })
+  const flushPromise = upsertProductSnapshotsWithTimeSale(batch, { notify: false })
     .then(async (products) => {
       await pruneProductPriceHistories(products.map((product) => product.id));
       session.savedIds.push(...products.map((product) => product.id));
