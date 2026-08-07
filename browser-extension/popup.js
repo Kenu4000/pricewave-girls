@@ -5,6 +5,8 @@ const autoEnabled = document.querySelector("#auto-enabled");
 const autoTime = document.querySelector("#auto-time");
 const fastSiteMode = document.querySelector("#fast-site-mode");
 const parallelTabsInput = document.querySelector("#parallel-tabs");
+const dailyBrandOverrideEnabled = document.querySelector("#daily-brand-override-enabled");
+const dailyCrawlBrandsInput = document.querySelector("#daily-crawl-brands");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
 const autoStatus = document.querySelector("#auto-status");
@@ -20,8 +22,21 @@ function normalizedInteger(value, minimum, maximum, fallback) {
     : fallback;
 }
 
+function parseDailyCrawlBrands(value) {
+  return [...new Set(
+    String(value || "")
+      .split(/\r?\n/u)
+      .map((brand) => brand.trim())
+      .filter(Boolean),
+  )];
+}
+
 function syncFastSiteModeForm() {
   parallelTabsInput.disabled = !fastSiteMode.checked;
+}
+
+function syncDailyBrandOverrideForm() {
+  dailyCrawlBrandsInput.disabled = !dailyBrandOverrideEnabled.checked;
 }
 
 function showStatus(message, kind) {
@@ -156,6 +171,8 @@ async function loadAutoSettings(syncForm = true) {
     const modeSettings = await chrome.storage.local.get({
       fastSiteModeEnabled: false,
       parallelTabs: 10,
+      dailyCrawlBrandOverrideEnabled: false,
+      dailyCrawlBrands: [],
     });
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
@@ -163,7 +180,14 @@ async function loadAutoSettings(syncForm = true) {
     parallelTabsInput.value = String(
       normalizedInteger(modeSettings.parallelTabs, 1, 100, 10),
     );
+    dailyBrandOverrideEnabled.checked = Boolean(
+      modeSettings.dailyCrawlBrandOverrideEnabled,
+    );
+    dailyCrawlBrandsInput.value = Array.isArray(modeSettings.dailyCrawlBrands)
+      ? modeSettings.dailyCrawlBrands.join("\n")
+      : "";
     syncFastSiteModeForm();
+    syncDailyBrandOverrideForm();
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -178,9 +202,12 @@ async function saveAutoSettings() {
   saveAutoButton.disabled = true;
   try {
     const parallelTabs = normalizedInteger(parallelTabsInput.value, 1, 100, 10);
+    const dailyCrawlBrands = parseDailyCrawlBrands(dailyCrawlBrandsInput.value);
     await chrome.storage.local.set({
       fastSiteModeEnabled: fastSiteMode.checked,
       parallelTabs,
+      dailyCrawlBrandOverrideEnabled: dailyBrandOverrideEnabled.checked,
+      dailyCrawlBrands,
     });
     const response = await chrome.runtime.sendMessage({
       type: "auto:save",
@@ -241,7 +268,7 @@ async function stopTask() {
   try {
     const response = await chrome.runtime.sendMessage({ type: "task:cancel" });
     if (!response?.ok) {
-      throw new Error(response?.error || "処理を停止できませんでした。");
+      throw new Error(response?.error || "処理を停止できませんでした。";
     }
     await loadAutoSettings(false);
   } catch (error) {
@@ -253,6 +280,7 @@ async function stopTask() {
 }
 
 fastSiteMode.addEventListener("change", syncFastSiteModeForm);
+dailyBrandOverrideEnabled.addEventListener("change", syncDailyBrandOverrideForm);
 saveAutoButton.addEventListener("click", saveAutoSettings);
 runAllButton.addEventListener("click", runAllProducts);
 autoAddButton.addEventListener("click", startAutoAdd);
