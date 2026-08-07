@@ -11,6 +11,7 @@ import {
   type RankedFilterOptions,
 } from "@/lib/product-filter-options";
 import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
+import { conditionAnnotatedProductIds } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
 
@@ -41,6 +42,7 @@ type SpreadSortKey = Extract<SortKey, "spread-asc" | "spread-desc">;
 type DatabaseSortKey = Exclude<SortKey, SpreadSortKey>;
 type PageSize = (typeof PAGE_SIZES)[number];
 type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
+type ConditionTitleFilter = "" | "exclude";
 
 type ProductFilters = {
   name: string;
@@ -53,6 +55,7 @@ type ProductFilters = {
   saleBand: string;
   buyBand: string;
   stock: StockFilter;
+  conditionTitle: ConditionTitleFilter;
   detailLabel: string;
   detailValue: string;
 };
@@ -133,6 +136,10 @@ function parseStock(value: string | undefined): StockFilter {
     : "";
 }
 
+function parseConditionTitle(value: string | undefined): ConditionTitleFilter {
+  return value === "exclude" ? "exclude" : "";
+}
+
 function parseFilters(query: Record<string, string | string[] | undefined>): ProductFilters {
   return {
     name: parseText(firstValue(query.name)),
@@ -145,6 +152,7 @@ function parseFilters(query: Record<string, string | string[] | undefined>): Pro
     saleBand: parsePriceBand(firstValue(query.saleBand)),
     buyBand: parsePriceBand(firstValue(query.buyBand)),
     stock: parseStock(firstValue(query.stock)),
+    conditionTitle: parseConditionTitle(firstValue(query.conditionTitle)),
     detailLabel: parseText(firstValue(query.detailLabel), 30),
     detailValue: parseText(firstValue(query.detailValue), 500),
   };
@@ -169,6 +177,7 @@ function addIndexedFilter(
 function buildProductWhere(
   filters: ProductFilters,
   catalog: ProductFilterCatalog,
+  conditionTitleIds: number[],
 ): Prisma.ProductWhereInput {
   const conditions: Prisma.ProductWhereInput[] = [];
 
@@ -180,6 +189,9 @@ function buildProductWhere(
   addIndexedFilter(conditions, filters.illustrator, catalog.illustrators);
   addIndexedFilter(conditions, filters.scenario, catalog.scenarios);
   addIndexedFilter(conditions, filters.voiceActor, catalog.voiceActors);
+  if (filters.conditionTitle === "exclude" && conditionTitleIds.length > 0) {
+    conditions.push({ id: { notIn: conditionTitleIds } });
+  }
   if (filters.detailLabel && filters.detailValue) {
     conditions.push({
       id: {
@@ -331,6 +343,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
   const filterSourceProducts = await prisma.product.findMany({
     select: {
       id: true,
+      title: true,
       manufacturer: true,
       releaseDate: true,
       category: true,
@@ -338,7 +351,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     },
   });
   const filterCatalog = buildProductFilterCatalog(filterSourceProducts);
-  const where = buildProductWhere(filters, filterCatalog);
+  const conditionTitleIds = conditionAnnotatedProductIds(filterSourceProducts);
+  const where = buildProductWhere(filters, filterCatalog, conditionTitleIds);
   const filtersActive = hasActiveFilters(filters);
   const totalProducts = await prisma.product.count({ where });
   const allProducts = filterSourceProducts.length;
@@ -375,6 +389,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     filters.saleBand,
     filters.buyBand,
     filters.stock,
+    filters.conditionTitle,
     filters.detailLabel,
     filters.detailValue,
   ].some(Boolean);
@@ -529,6 +544,17 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
                     {option.label}
                   </option>
                 ))}
+              </select>
+            </label>
+            <label className="filter-field">
+              <span>タイトルの状態表記</span>
+              <select
+                className="select"
+                defaultValue={filters.conditionTitle}
+                name="conditionTitle"
+              >
+                <option value="">すべて</option>
+                <option value="exclude">「(状態：...)」付き商品を除外</option>
               </select>
             </label>
           </div>
