@@ -3,8 +3,11 @@ import { prisma } from "@/lib/prisma";
 export type PriceHistorySnapshot = {
   id: number;
   salePrice: number | null;
+  regularSalePrice?: number | null;
   buyPrice: number | null;
   stockStatus: string | null;
+  condition?: string | null;
+  conditionRank?: string | null;
   isTimeSale: boolean;
   checkedAt: Date | string;
 };
@@ -16,8 +19,11 @@ const JAPAN_STANDARD_TIME_OFFSET_MS = 9 * 60 * 60 * 1_000;
 function sameSnapshot(left: PriceHistorySnapshot, right: PriceHistorySnapshot): boolean {
   return (
     left.salePrice === right.salePrice &&
+    (left.regularSalePrice ?? null) === (right.regularSalePrice ?? null) &&
     left.buyPrice === right.buyPrice &&
     left.stockStatus === right.stockStatus &&
+    (left.condition ?? null) === (right.condition ?? null) &&
+    (left.conditionRank ?? "A") === (right.conditionRank ?? "A") &&
     left.isTimeSale === right.isTimeSale
   );
 }
@@ -38,8 +44,8 @@ function sameCheckedDate(left: PriceHistorySnapshot, right: PriceHistorySnapshot
  *
  * The newest ten rows form the ordinary recent window. For older rows, only
  * an exact duplicate recorded on the same Japan-calendar date as the
- * immediately newer retained snapshot is removable. A row from a different
- * date is always retained, even when price, stock, and time-sale values are unchanged.
+ * immediately newer retained snapshot is removable. A different date, price,
+ * state rank, regular price, stock, or time-sale state is always retained.
  */
 export function priceHistoryIdsToDelete(
   histories: PriceHistorySnapshot[],
@@ -78,8 +84,11 @@ export async function pruneProductPriceHistories(productIds: number[]): Promise<
       id: true,
       productId: true,
       salePrice: true,
+      regularSalePrice: true,
       buyPrice: true,
       stockStatus: true,
+      condition: true,
+      conditionRank: true,
       isTimeSale: true,
       checkedAt: true,
     },
