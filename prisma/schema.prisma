@@ -8,29 +8,32 @@ datasource db {
 }
 
 model Product {
-  id                 Int            @id @default(autoincrement())
-  title              String
-  surugayaUrl        String         @unique
-  imageUrl           String?
-  managementNumber   String?
-  manufacturer       String?
-  releaseDate        String?
-  listPrice          Int?
-  modelNumber        String?
-  category           String?
-  detailsJson        String?
-  latestSalePrice    Int?
-  latestBuyPrice     Int?
-  salePriceChangedAt DateTime?
-  buyPriceChangedAt  DateTime?
-  stockStatus        String?
-  isTimeSale         Boolean        @default(false)
-  previousIsTimeSale Boolean        @default(false)
-  createdAt          DateTime       @default(now())
-  updatedAt          DateTime       @updatedAt
-  histories          PriceHistory[]
-  junkHistories      JunkHistory[]
-  priceChanges       PriceChange[]
+  id                     Int            @id @default(autoincrement())
+  title                  String
+  surugayaUrl            String         @unique
+  imageUrl               String?
+  managementNumber       String?
+  manufacturer           String?
+  releaseDate            String?
+  listPrice              Int?
+  modelNumber            String?
+  category               String?
+  detailsJson            String?
+  latestSalePrice        Int?
+  latestRegularSalePrice Int?
+  latestBuyPrice         Int?
+  salePriceChangedAt     DateTime?
+  buyPriceChangedAt      DateTime?
+  stockStatus            String?
+  condition              String?
+  conditionRank          String         @default("A")
+  isTimeSale             Boolean        @default(false)
+  previousIsTimeSale     Boolean        @default(false)
+  createdAt              DateTime       @default(now())
+  updatedAt              DateTime       @updatedAt
+  histories              PriceHistory[]
+  junkHistories          JunkHistory[]
+  priceChanges           PriceChange[]
 
   @@index([updatedAt])
   @@index([title])
@@ -40,6 +43,7 @@ model Product {
   @@index([buyPriceChangedAt])
   @@index([releaseDate])
   @@index([manufacturer])
+  @@index([conditionRank])
 }
 
 model PriceChange {
@@ -72,14 +76,18 @@ model JunkHistory {
 }
 
 model PriceHistory {
-  id          Int      @id @default(autoincrement())
-  productId   Int
-  salePrice   Int?
-  buyPrice    Int?
-  stockStatus String?
-  isTimeSale  Boolean  @default(false)
-  checkedAt   DateTime @default(now())
-  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  id               Int      @id @default(autoincrement())
+  productId        Int
+  salePrice        Int?
+  regularSalePrice Int?
+  buyPrice         Int?
+  stockStatus      String?
+  condition        String?
+  conditionRank    String   @default("A")
+  isTimeSale       Boolean  @default(false)
+  checkedAt        DateTime @default(now())
+  product          Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
   @@index([productId, checkedAt])
+  @@index([conditionRank])
 }
