@@ -1,3 +1,4 @@
+ALTER TABLE "Product" ADD COLUMN "timeSaleStartedAt" DATETIME;
 ALTER TABLE "Product" ADD COLUMN "timeSaleEndsAt" DATETIME;
 ALTER TABLE "PriceHistory" ADD COLUMN "timeSaleEndsAt" DATETIME;
 
