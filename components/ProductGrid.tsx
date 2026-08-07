@@ -8,6 +8,7 @@ import {
   type PriceChangeDirection,
   type ProductCardPriceChange,
   type ProductCardPriceChangeSummaries,
+  type SaleAvailabilityState,
 } from "@/lib/product-card-price-change";
 import {
   prependUniqueProduct,
@@ -41,13 +42,30 @@ function formatPriceChangeDate(date: string | null) {
   return date ? new Date(date).toLocaleDateString("ja-JP") : "変更なし";
 }
 
+function saleAvailabilityBorderClass(state: SaleAvailabilityState): string {
+  switch (state) {
+    case "restocked":
+      return styles.saleRestocked;
+    case "mail_order_sold_out":
+      return styles.saleMailOrderSoldOut;
+    case "out_of_stock":
+      return styles.saleOutOfStock;
+    case "unfetched":
+      return styles.saleUnfetched;
+  }
+}
+
 function changeBorderClass(
   kind: "sale" | "buy",
   change: ProductCardPriceChange | undefined,
 ): string {
   if (!change) return "";
-  const direction = productCardPriceChangeDirection(change);
 
+  if (kind === "sale" && change.availabilityState) {
+    return saleAvailabilityBorderClass(change.availabilityState);
+  }
+
+  const direction = productCardPriceChangeDirection(change);
   if (kind === "sale") {
     if (direction === "up") return styles.saleUp;
     if (direction === "down") return styles.saleDown;
@@ -59,16 +77,33 @@ function changeBorderClass(
   return styles.buyChanged;
 }
 
-function changeTagClass(direction: PriceChangeDirection): string {
+function saleAvailabilityTagClass(state: SaleAvailabilityState): string {
+  switch (state) {
+    case "restocked":
+      return styles.restocked;
+    case "mail_order_sold_out":
+      return styles.mailOrderSoldOut;
+    case "out_of_stock":
+      return styles.outOfStock;
+    case "unfetched":
+      return styles.unfetched;
+  }
+}
+
+function changeTagClass(change: ProductCardPriceChange): string {
+  if (change.type === "sale" && change.availabilityState) {
+    return saleAvailabilityTagClass(change.availabilityState);
+  }
+
+  const direction: PriceChangeDirection = productCardPriceChangeDirection(change);
   if (direction === "up") return styles.up;
   if (direction === "down") return styles.down;
   return styles.changed;
 }
 
 function PriceChangeTag({ change }: { change: ProductCardPriceChange }) {
-  const direction = productCardPriceChangeDirection(change);
   return (
-    <span className={`${styles.changeTag} ${changeTagClass(direction)}`}>
+    <span className={`${styles.changeTag} ${changeTagClass(change)}`}>
       {formatProductCardPriceChange(change)}
     </span>
   );
