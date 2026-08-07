@@ -224,6 +224,7 @@ export function ProductGrid({
         const storedState = cardStates[product.id];
         const condition = storedState?.condition ?? product.condition ?? null;
         const conditionRank = storedState?.conditionRank ?? product.conditionRank ?? "A";
+        const hasConditionIssue = conditionRank === "B" || Boolean(condition);
         const borderClasses = [
           styles.productCard,
           changeBorderClass("sale", saleChange),
@@ -259,7 +260,9 @@ export function ProductGrid({
               <span className="badge">販売: {formatPrice(product.salePrice)}</span>
               <span className="badge">買取: {formatPrice(product.buyPrice)}</span>
               <span className="badge">{formatStockStatus(product.stockStatus)}</span>
-              <span className="badge">{formatProductCondition(condition, conditionRank)}</span>
+              {hasConditionIssue ? (
+                <span className="badge">{formatProductCondition(condition, conditionRank)}</span>
+              ) : null}
               {storedState?.isTimeSale && storedState.regularSalePrice != null ? (
                 <span className="badge">通常価格: {formatPrice(storedState.regularSalePrice)}</span>
               ) : null}
