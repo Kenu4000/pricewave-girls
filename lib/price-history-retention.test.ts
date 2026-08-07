@@ -12,8 +12,17 @@ function snapshot(
   stockStatus = "in_stock",
   isTimeSale = false,
   checkedAt: Date | string = "2026-08-05T12:00:00+09:00",
+  titleSnapshot: string | null = "AIR",
 ): PriceHistorySnapshot {
-  return { id, salePrice, buyPrice, stockStatus, isTimeSale, checkedAt };
+  return {
+    id,
+    salePrice,
+    buyPrice,
+    stockStatus,
+    isTimeSale,
+    checkedAt,
+    titleSnapshot,
+  };
 }
 
 test("10件以内の価格履歴は削除しない", () => {
@@ -86,4 +95,39 @@ test("価格が同じでもタイムセール状態が変われば履歴を残�
   ];
 
   assert.deepEqual(priceHistoryIdsToDelete(histories), [12]);
+});
+
+test("価格が同じでも商品状態が変われば履歴を残す", () => {
+  const histories = [
+    ...Array.from({ length: 10 }, (_, index) => snapshot(index + 1, 20800, 15000)),
+    snapshot(
+      11,
+      20800,
+      15000,
+      "in_stock",
+      false,
+      "2026-08-05T11:30:00+09:00",
+      "智代アフター（テクニカルマニュアル欠品）",
+    ),
+    snapshot(
+      12,
+      20800,
+      15000,
+      "in_stock",
+      false,
+      "2026-08-05T11:00:00+09:00",
+      "智代アフター（テクニカルマニュアル欠品）",
+    ),
+  ];
+
+  assert.deepEqual(priceHistoryIdsToDelete(histories), [12]);
+});
+
+test("状態未記録の過去行と状態記録済みの通常品を区別する", () => {
+  const histories = [
+    ...Array.from({ length: 10 }, (_, index) => snapshot(index + 1, 3000, 1000)),
+    snapshot(11, 3000, 1000, "in_stock", false, "2026-08-05T11:30:00+09:00", null),
+  ];
+
+  assert.deepEqual(priceHistoryIdsToDelete(histories), []);
 });

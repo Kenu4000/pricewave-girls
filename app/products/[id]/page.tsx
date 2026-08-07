@@ -7,6 +7,7 @@ import {
   normalizeFilterChoiceValue,
   splitDetailPeople,
 } from "@/lib/product-filter-options";
+import { parseProductTitleCondition } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
@@ -25,6 +26,11 @@ function formatStockStatus(status: string | null) {
     default:
       return "在庫不明";
   }
+}
+
+function formatHistoryCondition(titleSnapshot: string | null) {
+  if (titleSnapshot === null) return "未記録";
+  return parseProductTitleCondition(titleSnapshot).condition ?? "通常";
 }
 
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
@@ -127,6 +133,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     notFound();
   }
 
+  const currentTitle = parseProductTitleCondition(product.title);
   const histories = product.histories.map((history) => ({
     id: history.id,
     checkedAt: history.checkedAt.toISOString(),
@@ -134,6 +141,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
     isTimeSale: history.isTimeSale,
+    titleSnapshot: history.titleSnapshot,
   }));
   const displayedHistories = [...histories].reverse().slice(0, 10);
   const junkHistoryItems = product.junkHistories.map((history) => ({
@@ -160,7 +168,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div className="detail-product-image">
             {product.imageUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img alt={product.title} src={product.imageUrl} />
+              <img alt={currentTitle.title} src={product.imageUrl} />
             ) : (
               <span className="muted">No Image</span>
             )}
@@ -172,13 +180,16 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
         <article className="detail-summary">
           <header>
-            <h1>{product.title}</h1>
+            <h1>{currentTitle.title}</h1>
             <p className="muted">最終更新: {product.updatedAt.toLocaleString("ja-JP")}</p>
           </header>
           <div className="price-row">
             <span className="badge">販売価格: {formatPrice(product.latestSalePrice)}</span>
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
             <span className="badge">{formatStockStatus(product.stockStatus)}</span>
+            {currentTitle.condition ? (
+              <span className="badge">状態: {currentTitle.condition}</span>
+            ) : null}
             {product.isTimeSale ? <span className="badge">タイムセール中</span> : null}
           </div>
         </article>
@@ -227,6 +238,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                 <th>確認日時</th>
                 <th>販売価格</th>
                 <th>価格状態</th>
+                <th>商品状態</th>
                 <th>買取価格</th>
                 <th>在庫</th>
               </tr>
@@ -237,6 +249,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
                   <td>{new Date(history.checkedAt).toLocaleString("ja-JP")}</td>
                   <td>{formatPrice(history.salePrice)}</td>
                   <td>{history.isTimeSale ? "タイムセール" : "通常"}</td>
+                  <td>{formatHistoryCondition(history.titleSnapshot)}</td>
                   <td>{formatPrice(history.buyPrice)}</td>
                   <td>{formatStockStatus(history.stockStatus)}</td>
                 </tr>

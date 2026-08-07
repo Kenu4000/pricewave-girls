@@ -15,6 +15,7 @@ import {
   PRODUCT_REVEAL_EVENT,
   type ProductPreview,
 } from "@/lib/product-preview";
+import { parseProductTitleCondition } from "@/lib/product-title-condition";
 import styles from "./ProductGrid.module.css";
 
 type RenderedProduct = ProductPreview & { revealKey: number };
@@ -195,6 +196,7 @@ export function ProductGrid({
         const summary = priceChangeSummaries[product.id];
         const saleChange = summary?.sale;
         const buyChange = summary?.buy;
+        const titleState = parseProductTitleCondition(product.title);
         const borderClasses = [
           styles.productCard,
           changeBorderClass("sale", saleChange),
@@ -220,15 +222,19 @@ export function ProductGrid({
             <div className="product-image">
               {product.imageUrl ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img alt={product.title} src={product.imageUrl} />
+                <img alt={titleState.title} src={product.imageUrl} />
               ) : (
                 <span className="muted">No Image</span>
               )}
             </div>
-            <div className="product-title">{product.title}</div>
+            <div className="product-title">{titleState.title}</div>
             <div className="price-row">
               <span className="badge">販売: {formatPrice(product.salePrice)}</span>
               <span className="badge">買取: {formatPrice(product.buyPrice)}</span>
+              <span className="badge">{formatStockStatus(product.stockStatus)}</span>
+              {titleState.condition ? (
+                <span className="badge">状態: {titleState.condition}</span>
+              ) : null}
             </div>
             <div className="price-change-date muted">
               価格変更日: {formatPriceChangeDate(product.priceChangedAt)}
@@ -245,7 +251,6 @@ export function ProductGrid({
               ) : null}
             </dl>
             <div className="meta-row muted">
-              <span>{formatStockStatus(product.stockStatus)}</span>
               <span>履歴: {product.hasHistory ? "あり" : "なし"}</span>
             </div>
           </Link>
