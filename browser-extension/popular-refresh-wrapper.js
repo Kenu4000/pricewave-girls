@@ -2,6 +2,7 @@
   importScripts("crawl-policy.js");
 
   const refreshPolicy = globalThis.PricewaveCrawlPolicy;
+  const originalSelectScheduledProducts = refreshPolicy.selectScheduledProducts.bind(refreshPolicy);
   const wrappedStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const wrappedStorageSet = chrome.storage.local.set.bind(chrome.storage.local);
   const DEFAULT_DAILY_BRAND_SETTINGS = {
@@ -17,6 +18,18 @@
         : [],
     };
   }
+
+  refreshPolicy.selectScheduledProducts = (
+    products,
+    value,
+    exactDailyUrls,
+    dailyBrandOverride,
+  ) => originalSelectScheduledProducts(
+    products,
+    value,
+    exactDailyUrls,
+    dailyBrandOverride ?? globalThis.PricewaveDailyBrandOverride,
+  );
 
   const dailyBrandSettingsReady = wrappedStorageGet(DEFAULT_DAILY_BRAND_SETTINGS)
     .then(applyDailyBrandSettings)
