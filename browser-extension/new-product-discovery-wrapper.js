@@ -3,15 +3,20 @@
 
   const discoveryPolicy = globalThis.PricewaveNewProductDiscoveryPolicy;
   const nativeExecuteScript = chrome.scripting.executeScript.bind(chrome.scripting);
+  const nativeTabsGet = chrome.tabs.get.bind(chrome.tabs);
   const wrappedFetch = globalThis.fetch.bind(globalThis);
+  const PAGE_ORDER_WAIT_MS = 65_000;
 
   let releaseDiscoveryActive = false;
   let registeredIds = new Set();
   let registeredIdsLoaded = false;
   let stopDate = null;
+  let reachedStop = false;
+  let nextExpectedPage = 1;
   let skippedFuture = 0;
   let skippedMissingDate = 0;
   let duplicateCount = 0;
+  const pendingSearchPages = new Map();
 
   function isLocalProductsRequest(input, init) {
     try {
@@ -29,14 +34,29 @@
     }
   }
 
+  function pageNumberFromUrl(rawUrl) {
+    try {
+      return Math.max(1, Number(new URL(String(rawUrl || "")).searchParams.get("page")) || 1);
+    } catch {
+      return 1;
+    }
+  }
+
   function resetDiscoveryState(sourceUrl) {
     releaseDiscoveryActive = discoveryPolicy.isReleaseDiscoveryUrl(sourceUrl);
     registeredIds = new Set();
     registeredIdsLoaded = false;
     stopDate = null;
+    reachedStop = false;
+    nextExpectedPage = pageNumberFromUrl(sourceUrl);
     skippedFuture = 0;
     skippedMissingDate = 0;
     duplicateCount = 0;
+    for (const pending of pendingSearchPages.values()) {
+      clearTimeout(pending.timeout);
+      pending.resolve(pending.results);
+    }
+    pendingSearchPages.clear();
   }
 
   function extractReleaseOrderedProductsFromDocument() {
@@ -86,6 +106,90 @@
     return products;
   }
 
+  function blankSearchResults(results) {
+    for (const result of results ?? []) {
+      const page = result?.result;
+      if (!Array.isArray(page?.productUrls)) continue;
+      page.productUrls = [];
+      page.nextUrl = null;
+    }
+    return results;
+  }
+
+  function applyDecision(results, releaseProducts) {
+    if (reachedStop) return blankSearchResults(results);
+
+    const decision = discoveryPolicy.selectReleaseDiscoveryProducts(
+      releaseProducts,
+      registeredIds,
+      discoveryPolicy.localDateKey(),
+      stopDate,
+    );
+
+    stopDate = decision.stopDate;
+    skippedFuture += decision.skippedFuture;
+    skippedMissingDate += decision.skippedMissingDate;
+    duplicateCount += decision.duplicateCount;
+    if (decision.reachedOlderDate) reachedStop = true;
+
+    for (const result of results ?? []) {
+      const page = result?.result;
+      if (!Array.isArray(page?.productUrls)) continue;
+      page.productUrls = decision.products.map((product) => product.url);
+      if (decision.reachedOlderDate) page.nextUrl = null;
+    }
+
+    void chrome.storage.local.set({
+      releaseDiscoveryStatus: {
+        active: releaseDiscoveryActive,
+        stopDate,
+        reachedStop,
+        skippedFuture,
+        skippedMissingDate,
+        duplicateCount,
+        updatedAt: Date.now(),
+      },
+    });
+
+    return results;
+  }
+
+  function drainPendingSearchPages() {
+    while (pendingSearchPages.has(nextExpectedPage)) {
+      const pending = pendingSearchPages.get(nextExpectedPage);
+      pendingSearchPages.delete(nextExpectedPage);
+      clearTimeout(pending.timeout);
+      const results = applyDecision(pending.results, pending.releaseProducts);
+      pending.resolve(results);
+      nextExpectedPage += 1;
+    }
+
+    if (!reachedStop) return;
+    for (const [pageNumber, pending] of [...pendingSearchPages.entries()]) {
+      pendingSearchPages.delete(pageNumber);
+      clearTimeout(pending.timeout);
+      pending.resolve(blankSearchResults(pending.results));
+    }
+  }
+
+  function queueSearchPage(pageNumber, results, releaseProducts) {
+    if (reachedStop) return Promise.resolve(blankSearchResults(results));
+    if (pageNumber < nextExpectedPage) {
+      return Promise.resolve(applyDecision(results, releaseProducts));
+    }
+
+    return new Promise((resolve) => {
+      const timeout = setTimeout(() => {
+        const pending = pendingSearchPages.get(pageNumber);
+        if (!pending) return;
+        pendingSearchPages.delete(pageNumber);
+        pending.resolve(applyDecision(pending.results, pending.releaseProducts));
+      }, PAGE_ORDER_WAIT_MS);
+      pendingSearchPages.set(pageNumber, { results, releaseProducts, resolve, timeout });
+      drainPendingSearchPages();
+    });
+  }
+
   globalThis.fetch = async (input, init) => {
     const response = await wrappedFetch(input, init);
     if (
@@ -118,6 +222,8 @@
       return results;
     }
 
+    const tab = await nativeTabsGet(injection.target.tabId).catch(() => null);
+    const pageNumber = pageNumberFromUrl(tab?.url);
     const [releaseResult] = await nativeExecuteScript({
       target: { tabId: injection.target.tabId },
       func: extractReleaseOrderedProductsFromDocument,
@@ -125,37 +231,8 @@
     const releaseProducts = Array.isArray(releaseResult?.result)
       ? releaseResult.result
       : [];
-    const decision = discoveryPolicy.selectReleaseDiscoveryProducts(
-      releaseProducts,
-      registeredIds,
-      discoveryPolicy.localDateKey(),
-      stopDate,
-    );
 
-    stopDate = decision.stopDate;
-    skippedFuture += decision.skippedFuture;
-    skippedMissingDate += decision.skippedMissingDate;
-    duplicateCount += decision.duplicateCount;
-
-    for (const result of results ?? []) {
-      const page = result?.result;
-      if (!Array.isArray(page?.productUrls)) continue;
-      page.productUrls = decision.products.map((product) => product.url);
-      if (decision.reachedOlderDate) page.nextUrl = null;
-    }
-
-    void chrome.storage.local.set({
-      releaseDiscoveryStatus: {
-        active: releaseDiscoveryActive,
-        stopDate,
-        skippedFuture,
-        skippedMissingDate,
-        duplicateCount,
-        updatedAt: Date.now(),
-      },
-    });
-
-    return results;
+    return queueSearchPage(pageNumber, results, releaseProducts);
   };
 
   chrome.runtime.onMessage.addListener((message) => {
@@ -167,9 +244,14 @@
   chrome.storage.onChanged.addListener((changes, areaName) => {
     if (areaName !== "local" || !changes.updateStatus?.newValue) return;
     const state = changes.updateStatus.newValue.state;
-    if (["completed", "blocked", "cancelled", "error", "idle"].includes(state)) {
-      releaseDiscoveryActive = false;
+    if (!["completed", "blocked", "cancelled", "error", "idle"].includes(state)) return;
+
+    releaseDiscoveryActive = false;
+    for (const pending of pendingSearchPages.values()) {
+      clearTimeout(pending.timeout);
+      pending.resolve(blankSearchResults(pending.results));
     }
+    pendingSearchPages.clear();
   });
 
   importScripts("safe-background.js");
