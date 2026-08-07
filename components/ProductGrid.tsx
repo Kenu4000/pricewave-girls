@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import {
-  formatPriceChangeAge,
   formatProductCardPriceChange,
+  formatTimeSaleCardPriceChange,
   productCardPriceChangeDirection,
   type PriceChangeDirection,
   type ProductCardPriceChange,
@@ -136,16 +136,9 @@ function TimeSaleChangeTag({
   regularPrice: number;
   startedAt: string | null;
 }) {
-  const difference = currentPrice - regularPrice;
-  const arrow = difference < 0 ? "↓" : difference > 0 ? "↑" : "";
-  const signedDifference =
-    difference > 0
-      ? `+${difference.toLocaleString("ja-JP")}円`
-      : `${difference.toLocaleString("ja-JP")}円`;
-  const age = formatPriceChangeAge(startedAt ?? new Date().toISOString());
   return (
     <span className={`${styles.changeTag} ${styles.timeSaleTag}`}>
-      {`タイムセール${arrow}${signedDifference}・${age}`}
+      {formatTimeSaleCardPriceChange(regularPrice, currentPrice, startedAt)}
     </span>
   );
 }
