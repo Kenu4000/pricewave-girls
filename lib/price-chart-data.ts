@@ -24,8 +24,6 @@ export type AggregatedPriceChartPoint = {
   isTimeSale: boolean;
 };
 
-const DAY_RANGE_DAYS = 31;
-
 export function aggregatePriceChartData(
   histories: PriceChartHistory[],
   mode: PriceChartMode,
@@ -37,23 +35,15 @@ export function aggregatePriceChartData(
 
   if (valid.length === 0) return [];
 
-  const latest = valid.at(-1)!.date;
-  const dayThreshold = new Date(latest);
-  dayThreshold.setHours(0, 0, 0, 0);
-  dayThreshold.setDate(dayThreshold.getDate() - (DAY_RANGE_DAYS - 1));
-
   if (mode === "day") {
-    const recent = valid.filter(
-      (history) => history.date.getTime() >= dayThreshold.getTime(),
-    );
     const pointsPerDay = new Map<string, number>();
 
-    for (const history of recent) {
+    for (const history of valid) {
       const key = dateKey(history.date);
       pointsPerDay.set(key, (pointsPerDay.get(key) ?? 0) + 1);
     }
 
-    return recent.map((history, index) => {
+    return valid.map((history, index) => {
       const key = dateKey(history.date);
       return toChartPoint(
         history,

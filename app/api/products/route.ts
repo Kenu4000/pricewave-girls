@@ -5,7 +5,6 @@ import {
   productBrandCandidates,
 } from "@/lib/crawl-brand-priority";
 import { prisma } from "@/lib/prisma";
-import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 import {
   InvalidSurugayaUrlError,
@@ -68,7 +67,6 @@ export async function POST(request: Request) {
       { surugayaUrl: normalizedUrl, fetched },
     ]);
     if (!product) throw new Error("商品の保存に失敗しました");
-    await pruneProductPriceHistories([product.id]);
 
     return NextResponse.json({ id: product.id }, { status: 201 });
   } catch (caught) {
