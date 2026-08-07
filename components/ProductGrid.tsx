@@ -18,6 +18,13 @@ import {
 import styles from "./ProductGrid.module.css";
 
 type RenderedProduct = ProductPreview & { revealKey: number };
+type ProductCardState = {
+  condition: string | null;
+  conditionRank: string | null;
+  isTimeSale: boolean;
+  regularSalePrice: number | null;
+};
+type ProductCardStates = Record<number, ProductCardState>;
 
 function formatPrice(price: number | null | undefined) {
   return price == null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
@@ -32,6 +39,13 @@ function formatStockStatus(status: string | null) {
     default:
       return "在庫不明";
   }
+}
+
+function formatProductCondition(condition: string | null | undefined, rank: string | null | undefined) {
+  if (rank === "B" || condition) {
+    return condition ? `状態: ランクB（${condition}）` : "状態: ランクB";
+  }
+  return "状態: 通常";
 }
 
 function formatReleaseDate(date: string | null) {
@@ -125,6 +139,7 @@ export function ProductGrid({
   );
   const [priceChangeSummaries, setPriceChangeSummaries] =
     useState<ProductCardPriceChangeSummaries>({});
+  const [cardStates, setCardStates] = useState<ProductCardStates>({});
   const revealKeyRef = useRef(0);
   const productIds = products.map((product) => product.id).join(",");
 
@@ -135,26 +150,37 @@ export function ProductGrid({
   useEffect(() => {
     if (!productIds) {
       setPriceChangeSummaries({});
+      setCardStates({});
       return;
     }
 
     const controller = new AbortController();
-    void fetch(`/api/products/price-changes?ids=${encodeURIComponent(productIds)}`, {
-      cache: "no-store",
-      signal: controller.signal,
-    })
-      .then(async (response) => {
+    void Promise.all([
+      fetch(`/api/products/price-changes?ids=${encodeURIComponent(productIds)}`, {
+        cache: "no-store",
+        signal: controller.signal,
+      }).then(async (response) => {
         if (!response.ok) throw new Error("価格変更情報を取得できませんでした。");
         return response.json() as Promise<{
           summaries?: ProductCardPriceChangeSummaries;
         }>;
-      })
-      .then((result) => {
-        setPriceChangeSummaries(result.summaries ?? {});
+      }),
+      fetch(`/api/products/card-states?ids=${encodeURIComponent(productIds)}`, {
+        cache: "no-store",
+        signal: controller.signal,
+      }).then(async (response) => {
+        if (!response.ok) throw new Error("商品状態を取得できませんでした。");
+        return response.json() as Promise<{ states?: ProductCardStates }>;
+      }),
+    ])
+      .then(([changes, states]) => {
+        setPriceChangeSummaries(changes.summaries ?? {});
+        setCardStates(states.states ?? {});
       })
       .catch((error) => {
         if (error instanceof DOMException && error.name === "AbortError") return;
         setPriceChangeSummaries({});
+        setCardStates({});
       });
 
     return () => controller.abort();
@@ -195,6 +221,9 @@ export function ProductGrid({
         const summary = priceChangeSummaries[product.id];
         const saleChange = summary?.sale;
         const buyChange = summary?.buy;
+        const storedState = cardStates[product.id];
+        const condition = storedState?.condition ?? product.condition ?? null;
+        const conditionRank = storedState?.conditionRank ?? product.conditionRank ?? "A";
         const borderClasses = [
           styles.productCard,
           changeBorderClass("sale", saleChange),
@@ -229,6 +258,11 @@ export function ProductGrid({
             <div className="price-row">
               <span className="badge">販売: {formatPrice(product.salePrice)}</span>
               <span className="badge">買取: {formatPrice(product.buyPrice)}</span>
+              <span className="badge">{formatStockStatus(product.stockStatus)}</span>
+              <span className="badge">{formatProductCondition(condition, conditionRank)}</span>
+              {storedState?.isTimeSale && storedState.regularSalePrice != null ? (
+                <span className="badge">通常価格: {formatPrice(storedState.regularSalePrice)}</span>
+              ) : null}
             </div>
             <div className="price-change-date muted">
               価格変更日: {formatPriceChangeDate(product.priceChangedAt)}
@@ -245,7 +279,6 @@ export function ProductGrid({
               ) : null}
             </dl>
             <div className="meta-row muted">
-              <span>{formatStockStatus(product.stockStatus)}</span>
               <span>履歴: {product.hasHistory ? "あり" : "なし"}</span>
             </div>
           </Link>
