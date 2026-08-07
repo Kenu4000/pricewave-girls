@@ -29,6 +29,7 @@ model Product {
   conditionRank          String         @default("A")
   isTimeSale             Boolean        @default(false)
   previousIsTimeSale     Boolean        @default(false)
+  timeSaleStartedAt      DateTime?
   timeSaleEndsAt         DateTime?
   createdAt              DateTime       @default(now())
   updatedAt              DateTime       @updatedAt
