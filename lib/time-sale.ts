@@ -11,25 +11,31 @@ import { normalizePrice, type FetchedProduct } from "./surugaya";
 export const TIME_SALE_DETAIL_KEY = "__pricewaveTimeSale";
 export const TIME_SALE_REGULAR_PRICE_DETAIL_KEY = "__pricewaveRegularSalePrice";
 
+const TIME_SALE_PATTERN = /(?:※\s*)?タイム\s*セール/iu;
+const TIME_SALE_IMAGE_PATTERN = /タイム\s*セール|time[_-]?sale|flash[_-]?sale/iu;
+
 export function detectPrimaryTimeSale(html: string): boolean {
-  return primarySaleBlocks(html).some((block) => /(?:※\s*)?タイム\s*セール/iu.test(block));
+  const section = primarySaleSection(html);
+  return (
+    TIME_SALE_PATTERN.test(section.text) ||
+    section.hasTimeSaleImage ||
+    section.blocks.some((block) => TIME_SALE_PATTERN.test(block))
+  );
 }
 
 export function detectPrimaryTimeSaleRegularPrice(html: string): number | null {
-  for (const block of primarySaleBlocks(html)) {
-    if (!/(?:※\s*)?タイム\s*セール/iu.test(block)) continue;
+  const section = primarySaleSection(html);
+  const explicitSaleBlock = section.blocks.find((block) => TIME_SALE_PATTERN.test(block));
+  if (explicitSaleBlock) return regularPriceFromSaleBlock(explicitSaleBlock);
 
-    const prices = [...block.matchAll(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/gu)]
-      .map((match) => normalizePrice(match[0]))
-      .filter((price): price is number => price !== null);
-    const currentPrice = prices.at(-1);
-    if (currentPrice === undefined) continue;
+  if (!TIME_SALE_PATTERN.test(section.text) && !section.hasTimeSaleImage) return null;
 
-    const regularPrice = prices
-      .slice(0, -1)
-      .reverse()
-      .find((price) => price !== currentPrice);
-    if (regularPrice !== undefined) return regularPrice;
+  // Current Surugaya pages can render the time-sale badge immediately before
+  // the price block. Then the discounted block is the one carrying both the
+  // regular and current prices.
+  for (const block of section.blocks) {
+    const regularPrice = regularPriceFromSaleBlock(block);
+    if (regularPrice !== null) return regularPrice;
   }
 
   return null;
@@ -107,12 +113,22 @@ export function isInternalProductDetailLabel(label: string): boolean {
   );
 }
 
-function primarySaleBlocks(html: string): string[] {
-  const $ = cheerio.load(html);
-  const bodyText = normalizeText($("body").text());
-  const primarySection = bodyText.split("その他の状態を選ぶ", 1)[0] ?? bodyText;
+type PrimarySaleSection = {
+  text: string;
+  blocks: string[];
+  hasTimeSaleImage: boolean;
+};
+
+function primarySaleSection(html: string): PrimarySaleSection {
+  // Cut the raw HTML too, so alternate-condition time-sale image badges do not
+  // leak into the primary-product decision. The marker is ordinary visible text
+  // on Surugaya product pages.
+  const primaryHtml = html.split("その他の状態を選ぶ", 1)[0] ?? html;
+  const $ = cheerio.load(primaryHtml);
+  const body = $("body");
+  const text = normalizeText(body.text());
   const blocks: string[] = [];
-  const saleBlocks = primarySection.matchAll(
+  const saleBlocks = text.matchAll(
     /(?:中古|新品|予約)(.{0,320}?)(?:\(税込\)|（税込）)/gu,
   );
 
@@ -122,7 +138,33 @@ function primarySaleBlocks(html: string): string[] {
     blocks.push(block);
   }
 
-  return blocks;
+  let hasTimeSaleImage = false;
+  body.find("img").each((_, image) => {
+    if (hasTimeSaleImage) return;
+    const label = normalizeText(
+      [$(image).attr("alt"), $(image).attr("title"), $(image).attr("src")]
+        .filter(Boolean)
+        .join(" "),
+    );
+    if (TIME_SALE_IMAGE_PATTERN.test(label)) hasTimeSaleImage = true;
+  });
+
+  return { text, blocks, hasTimeSaleImage };
+}
+
+function regularPriceFromSaleBlock(block: string): number | null {
+  const prices = [...block.matchAll(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/gu)]
+    .map((match) => normalizePrice(match[0]))
+    .filter((price): price is number => price !== null);
+  const currentPrice = prices.at(-1);
+  if (currentPrice === undefined) return null;
+
+  return (
+    prices
+      .slice(0, -1)
+      .reverse()
+      .find((price) => price !== currentPrice) ?? null
+  );
 }
 
 function normalizeText(value: string): string {

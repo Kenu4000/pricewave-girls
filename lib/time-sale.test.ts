@@ -46,6 +46,34 @@ test("主商品のタイムセール表示を検出する", () => {
   );
 });
 
+test("価格ブロック直前の共通タイムセール表示を検出する", () => {
+  const html = `
+    <html><body>
+      <h1>テスト商品</h1>
+      <div class="time-sale">タイムセール</div>
+      <div>終了まで</div>
+      <div>中古 16,000円 15,000円 (税込) 在庫数：1</div>
+    </body></html>
+  `;
+
+  assert.equal(detectPrimaryTimeSale(html), true);
+  assert.equal(detectPrimaryTimeSaleRegularPrice(html), 16000);
+});
+
+test("画像altだけの共通タイムセールバッジも検出する", () => {
+  const html = `
+    <html><body>
+      <h1>テスト商品</h1>
+      <img src="/images/flash_sale_icon.svg" alt="タイムセール">
+      <div>終了まで</div>
+      <div>中古 950円 900円 (税込) 在庫数：1</div>
+    </body></html>
+  `;
+
+  assert.equal(detectPrimaryTimeSale(html), true);
+  assert.equal(detectPrimaryTimeSaleRegularPrice(html), 950);
+});
+
 test("タイムセール時の元通常価格を取得する", () => {
   const html = `
     <html><body>
@@ -84,7 +112,8 @@ test("その他の状態だけがタイムセールでも主商品は通常価�
         <h1>テスト商品</h1>
         <div>中古 6,000円 (税込)</div>
         <h2>その他の状態を選ぶ</h2>
-        <div>中古 箱不備 ※タイムセール 5,000円 4,500円 (税込)</div>
+        <img src="/images/flash_sale_icon.svg" alt="タイムセール">
+        <div>中古 箱不備 5,000円 4,500円 (税込)</div>
       </body></html>
     `),
     false,
