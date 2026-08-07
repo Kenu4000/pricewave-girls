@@ -35,6 +35,11 @@
           <input id="parallel-tabs" type="number" value="10" min="1" max="100" step="1">
         </label>
         <label class="toggle-row">
+          <input id="continue-access-challenge-mode" type="checkbox">
+          <span>テスト: アクセス確認でも次へ進む</span>
+        </label>
+        <p class="note">テストモードではアクセス確認ページを突破せず、その商品を失敗としてスキップして次の商品へ進みます。403・429などのアクセス制限はこの設定でも停止します。</p>
+        <label class="toggle-row">
           <input id="daily-brand-override-enabled" type="checkbox">
           <span>日次巡回ブランドを指定する</span>
         </label>
@@ -49,9 +54,10 @@
         <p class="note">指定をOFFにすると従来の固定ブランド一覧を使います。ONの場合はここに入力したブランドだけをブランド指定の日次巡回対象にします。人気順で拾った商品と個別の日次指定商品はこの設定に関係なく巡回します。</p>
         <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
         <button id="run-all-button" class="secondary" type="button">今すぐ本日の対象を更新</button>
+        <button id="resume-task-button" class="secondary" type="button" disabled>停止位置から再開</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
-        <p class="note">高速同時タブモードがOFFの場合は、1タブだけで8〜25秒間隔に自動調整します。ONの場合は実際の駿河屋商品ページを指定した1〜100タブで旧仕様どおり並列取得します。指定ブランドの商品は毎日巡回し、人気順25ページは3日に1回、それ以外は商品IDで3分割して3日で一巡します。商品ページのアクセス確認は1回目をスキップし、2商品連続で検出した場合に停止します。403・429は停止対象です。</p>
+        <p class="note">通常モードではアクセス確認を1回スキップし、2商品連続で検出すると停止位置を保存して1分後に自動再開します。手動停止した場合も停止位置を保存し、「停止位置から再開」で残りから続行できます。高速同時タブモードがOFFの場合は1タブだけで8〜25秒間隔に自動調整し、ONの場合は指定した1〜100タブで旧仕様どおり並列取得します。</p>
       </section>
 
       <hr>
