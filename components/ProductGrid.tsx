@@ -34,10 +34,11 @@ function formatStockStatus(status: string | null) {
   switch (status) {
     case "out_of_stock":
       return "在庫なし";
-    case "in_stock":
-      return null;
-    default:
+    case "unknown":
+    case null:
       return "在庫不明";
+    default:
+      return null;
   }
 }
 
