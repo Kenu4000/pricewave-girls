@@ -9,13 +9,17 @@ const END_ATTRIBUTE_NAMES = [
   "datetime",
 ] as const;
 
+type CheerioApi = ReturnType<typeof cheerio.load>;
+type CheerioSelection = ReturnType<CheerioApi>;
+
 export function detectTimeSaleEndAt(html: string, now = new Date()): Date | null {
   const primaryHtml = html.split("その他の状態を選ぶ", 1)[0] ?? html;
   const $ = cheerio.load(primaryHtml);
   const body = $("body");
-  const endLabels = body
-    .find("*")
-    .filter((_, element) => normalizeText($(element).text()).includes("終了まで"));
+  const endLabels = body.find("*").filter((_, element) => {
+    const directText = $(element).clone().children().remove().end().text();
+    return normalizeText(directText).includes("終了まで");
+  });
 
   for (const element of endLabels.toArray()) {
     let scope = $(element);
@@ -33,8 +37,8 @@ export function detectTimeSaleEndAt(html: string, now = new Date()): Date | null
 }
 
 function absoluteEndAtFromScope(
-  $: cheerio.CheerioAPI,
-  scope: cheerio.Cheerio<cheerio.AnyNode>,
+  $: CheerioApi,
+  scope: CheerioSelection,
 ): Date | null {
   const nodes = scope.find("*").addBack();
   for (const node of nodes.toArray()) {
