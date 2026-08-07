@@ -68,9 +68,9 @@ function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipPro
   if (rows.length === 0) return null;
 
   const average = rows.reduce((sum, row) => sum + row.value, 0) / rows.length;
-  // 高い価格はグラフ上部、低い価格は下部に描かれるため、
-  // 線が集まっている側とは反対側へ同じ程度の隙間で逃がす。
-  const placeAbove = rangeMidpoint !== null && average < rangeMidpoint;
+  // 高価格帯はグラフ上側、低価格帯は下側に描かれるため、
+  // 価格帯の外側へ出して線との重なりを減らす。カーソルとの隙間は従来相当に保つ。
+  const placeAbove = rangeMidpoint !== null && average >= rangeMidpoint;
 
   return (
     <div className={`${styles.tooltip} ${placeAbove ? styles.tooltipAbove : styles.tooltipBelow}`}>
