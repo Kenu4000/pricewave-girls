@@ -2,8 +2,55 @@
   importScripts("crawl-policy.js");
 
   const refreshPolicy = globalThis.PricewaveCrawlPolicy;
+  const originalSelectScheduledProducts = refreshPolicy.selectScheduledProducts.bind(refreshPolicy);
   const wrappedStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const wrappedStorageSet = chrome.storage.local.set.bind(chrome.storage.local);
+  const DEFAULT_DAILY_BRAND_SETTINGS = {
+    dailyCrawlBrandOverrideEnabled: false,
+    dailyCrawlBrands: [],
+  };
+
+  function applyDailyBrandSettings(stored) {
+    globalThis.PricewaveDailyBrandOverride = {
+      enabled: Boolean(stored?.dailyCrawlBrandOverrideEnabled),
+      brands: Array.isArray(stored?.dailyCrawlBrands)
+        ? stored.dailyCrawlBrands.map((brand) => String(brand).trim()).filter(Boolean)
+        : [],
+    };
+  }
+
+  refreshPolicy.selectScheduledProducts = (
+    products,
+    value,
+    exactDailyUrls,
+    dailyBrandOverride,
+  ) => originalSelectScheduledProducts(
+    products,
+    value,
+    exactDailyUrls,
+    dailyBrandOverride ?? globalThis.PricewaveDailyBrandOverride,
+  );
+
+  const dailyBrandSettingsReady = wrappedStorageGet(DEFAULT_DAILY_BRAND_SETTINGS)
+    .then(applyDailyBrandSettings)
+    .catch(() => {
+      applyDailyBrandSettings(DEFAULT_DAILY_BRAND_SETTINGS);
+    });
+
+  chrome.storage.onChanged.addListener((changes, areaName) => {
+    if (areaName !== "local") return;
+    if (!changes.dailyCrawlBrandOverrideEnabled && !changes.dailyCrawlBrands) return;
+
+    const current = globalThis.PricewaveDailyBrandOverride || {
+      enabled: false,
+      brands: [],
+    };
+    applyDailyBrandSettings({
+      dailyCrawlBrandOverrideEnabled:
+        changes.dailyCrawlBrandOverrideEnabled?.newValue ?? current.enabled,
+      dailyCrawlBrands: changes.dailyCrawlBrands?.newValue ?? current.brands,
+    });
+  });
 
   function localDateKey(date = new Date()) {
     return [
@@ -76,4 +123,10 @@
   };
 
   importScripts("safe-background.js");
+
+  const safeFetch = globalThis.fetch.bind(globalThis);
+  globalThis.fetch = async (...args) => {
+    await dailyBrandSettingsReady;
+    return safeFetch(...args);
+  };
 })();

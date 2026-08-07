@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
-import { crawlPriorityForProduct, productBrandCandidates } from "@/lib/crawl-brand-priority";
+import {
+  crawlPriorityForProduct,
+  isDailyCrawlProductTitle,
+  productBrandCandidates,
+} from "@/lib/crawl-brand-priority";
 import { prisma } from "@/lib/prisma";
 import { pruneProductPriceHistories } from "@/lib/price-history-retention";
 import { upsertProductSnapshot } from "@/lib/product-snapshots";
@@ -34,6 +38,8 @@ export async function GET() {
         title: product.title,
         url: product.surugayaUrl,
         brand: brandCandidates[0] ?? null,
+        brands: brandCandidates,
+        dailyByTitle: isDailyCrawlProductTitle(product.title),
         crawlPriority: crawlPriorityForProduct(
           product.title,
           product.manufacturer,

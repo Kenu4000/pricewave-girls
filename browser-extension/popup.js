@@ -5,8 +5,12 @@ const autoEnabled = document.querySelector("#auto-enabled");
 const autoTime = document.querySelector("#auto-time");
 const fastSiteMode = document.querySelector("#fast-site-mode");
 const parallelTabsInput = document.querySelector("#parallel-tabs");
+const continueAccessChallengeMode = document.querySelector("#continue-access-challenge-mode");
+const dailyBrandOverrideEnabled = document.querySelector("#daily-brand-override-enabled");
+const dailyCrawlBrandsInput = document.querySelector("#daily-crawl-brands");
 const saveAutoButton = document.querySelector("#save-auto-button");
 const runAllButton = document.querySelector("#run-all-button");
+const resumeTaskButton = document.querySelector("#resume-task-button");
 const autoStatus = document.querySelector("#auto-status");
 const stopTaskButton = document.querySelector("#stop-task-button");
 const autoAddUrl = document.querySelector("#auto-add-url");
@@ -20,8 +24,21 @@ function normalizedInteger(value, minimum, maximum, fallback) {
     : fallback;
 }
 
+function parseDailyCrawlBrands(value) {
+  return [...new Set(
+    String(value || "")
+      .split(/\r?\n/u)
+      .map((brand) => brand.trim())
+      .filter(Boolean),
+  )];
+}
+
 function syncFastSiteModeForm() {
   parallelTabsInput.disabled = !fastSiteMode.checked;
+}
+
+function syncDailyBrandOverrideForm() {
+  dailyCrawlBrandsInput.disabled = !dailyBrandOverrideEnabled.checked;
 }
 
 function showStatus(message, kind) {
@@ -150,20 +167,46 @@ function renderAutoStatus(response) {
       : "";
 }
 
+function syncResumeButton(checkpoint, response) {
+  const remaining = Array.isArray(checkpoint?.remainingProducts)
+    ? checkpoint.remainingProducts.length
+    : 0;
+  const running = response?.status?.state === "running";
+  resumeTaskButton.disabled = running || remaining === 0;
+  resumeTaskButton.textContent = remaining > 0
+    ? `停止位置から再開（残り${remaining}件）`
+    : "停止位置から再開";
+}
+
 async function loadAutoSettings(syncForm = true) {
   const response = await chrome.runtime.sendMessage({ type: "auto:get" });
+  const modeSettings = await chrome.storage.local.get({
+    fastSiteModeEnabled: false,
+    parallelTabs: 10,
+    continueThroughAccessChallenges: false,
+    dailyCrawlBrandOverrideEnabled: false,
+    dailyCrawlBrands: [],
+    crawlResumeCheckpoint: null,
+  });
+
   if (syncForm && response?.settings) {
-    const modeSettings = await chrome.storage.local.get({
-      fastSiteModeEnabled: false,
-      parallelTabs: 10,
-    });
     autoEnabled.checked = response.settings.autoUpdateEnabled;
     autoTime.value = response.settings.autoUpdateTime;
     fastSiteMode.checked = Boolean(modeSettings.fastSiteModeEnabled);
     parallelTabsInput.value = String(
       normalizedInteger(modeSettings.parallelTabs, 1, 100, 10),
     );
+    continueAccessChallengeMode.checked = Boolean(
+      modeSettings.continueThroughAccessChallenges,
+    );
+    dailyBrandOverrideEnabled.checked = Boolean(
+      modeSettings.dailyCrawlBrandOverrideEnabled,
+    );
+    dailyCrawlBrandsInput.value = Array.isArray(modeSettings.dailyCrawlBrands)
+      ? modeSettings.dailyCrawlBrands.join("\n")
+      : "";
     syncFastSiteModeForm();
+    syncDailyBrandOverrideForm();
   }
   if (syncForm && response?.autoAddSettings) {
     autoAddUrl.value = response.autoAddSettings.sourceUrl;
@@ -171,6 +214,7 @@ async function loadAutoSettings(syncForm = true) {
       normalizedInteger(response.autoAddSettings.limit, 1, 1_000, 1_000),
     );
   }
+  syncResumeButton(modeSettings.crawlResumeCheckpoint, response);
   renderAutoStatus(response);
 }
 
@@ -178,9 +222,13 @@ async function saveAutoSettings() {
   saveAutoButton.disabled = true;
   try {
     const parallelTabs = normalizedInteger(parallelTabsInput.value, 1, 100, 10);
+    const dailyCrawlBrands = parseDailyCrawlBrands(dailyCrawlBrandsInput.value);
     await chrome.storage.local.set({
       fastSiteModeEnabled: fastSiteMode.checked,
       parallelTabs,
+      continueThroughAccessChallenges: continueAccessChallengeMode.checked,
+      dailyCrawlBrandOverrideEnabled: dailyBrandOverrideEnabled.checked,
+      dailyCrawlBrands,
     });
     const response = await chrome.runtime.sendMessage({
       type: "auto:save",
@@ -203,6 +251,7 @@ async function saveAutoSettings() {
 async function runAllProducts() {
   runAllButton.disabled = true;
   try {
+    await chrome.storage.local.set({ crawlResumeRequested: false });
     const response = await chrome.runtime.sendMessage({ type: "auto:run-now" });
     if (!response?.ok) {
       throw new Error("自動更新は既に実行中です。");
@@ -213,6 +262,30 @@ async function runAllProducts() {
     autoStatus.dataset.kind = "error";
   } finally {
     runAllButton.disabled = false;
+  }
+}
+
+async function resumeFromCheckpoint() {
+  resumeTaskButton.disabled = true;
+  try {
+    const stored = await chrome.storage.local.get("crawlResumeCheckpoint");
+    const remaining = stored.crawlResumeCheckpoint?.remainingProducts;
+    if (!Array.isArray(remaining) || remaining.length === 0) {
+      throw new Error("再開できる停止位置はありません。");
+    }
+
+    await chrome.storage.local.set({ crawlResumeRequested: true });
+    const response = await chrome.runtime.sendMessage({ type: "auto:run-now" });
+    if (!response?.ok) {
+      await chrome.storage.local.set({ crawlResumeRequested: false });
+      throw new Error("別の更新処理が実行中です。");
+    }
+    await loadAutoSettings(false);
+  } catch (error) {
+    autoStatus.textContent = error instanceof Error ? error.message : "停止位置から再開できませんでした。";
+    autoStatus.dataset.kind = "error";
+  } finally {
+    await loadAutoSettings(false).catch(() => {});
   }
 }
 
@@ -253,8 +326,10 @@ async function stopTask() {
 }
 
 fastSiteMode.addEventListener("change", syncFastSiteModeForm);
+dailyBrandOverrideEnabled.addEventListener("change", syncDailyBrandOverrideForm);
 saveAutoButton.addEventListener("click", saveAutoSettings);
 runAllButton.addEventListener("click", runAllProducts);
+resumeTaskButton.addEventListener("click", resumeFromCheckpoint);
 autoAddButton.addEventListener("click", startAutoAdd);
 stopTaskButton.addEventListener("click", stopTask);
 void loadAutoSettings();
