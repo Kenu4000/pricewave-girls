@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LiveRefresh } from "@/app/live-refresh";
+import { ViewedProductTracker } from "@/components/ViewedProductTracker";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="ja">
       <body>
         <LiveRefresh />
+        <ViewedProductTracker />
         <main className="container">
           <header className="header">
             <a className="brand" href="/products" title="初期画面に戻る">
@@ -19,6 +21,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </a>
             <nav className="header-nav" aria-label="主要ページ">
               <a className="button secondary" href="/changes">価格変更</a>
+              <a className="button secondary" href="/history">履歴</a>
             </nav>
           </header>
           {children}
