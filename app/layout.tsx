@@ -13,7 +13,7 @@ export const dynamic = "force-dynamic";
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const now = new Date();
-  const activeSaleEnds = await prisma.product.findMany({
+  const nearestSale = await prisma.product.findFirst({
     where: {
       isTimeSale: true,
       timeSaleEndsAt: { gt: now },
@@ -21,13 +21,16 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     orderBy: { timeSaleEndsAt: "asc" },
     select: { timeSaleEndsAt: true },
   });
-  const uniqueEndTimes = [
-    ...new Set(
-      activeSaleEnds
-        .flatMap((product) => (product.timeSaleEndsAt ? [product.timeSaleEndsAt.getTime()] : [])),
-    ),
-  ].sort((left, right) => left - right);
-  const nearestEndAt = uniqueEndTimes[0] ?? null;
+  const nearestEndAt = nearestSale?.timeSaleEndsAt ?? null;
+  const anotherEndTime = nearestEndAt
+    ? await prisma.product.findFirst({
+        where: {
+          isTimeSale: true,
+          timeSaleEndsAt: { gt: now, not: nearestEndAt },
+        },
+        select: { id: true },
+      })
+    : null;
 
   return (
     <html lang="ja">
@@ -42,9 +45,9 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
               </a>
               {nearestEndAt !== null ? (
                 <TimeSaleCountdown
-                  endAt={new Date(nearestEndAt).toISOString()}
+                  endAt={nearestEndAt.toISOString()}
                   initialNow={now.toISOString()}
-                  multipleEndTimes={uniqueEndTimes.length > 1}
+                  multipleEndTimes={anotherEndTime !== null}
                 />
               ) : null}
             </div>
