@@ -37,6 +37,29 @@
   border-left-width: 4px;
 }
 
+.timeSaleBorder {
+  border-left-color: transparent;
+  border-left-width: 4px;
+}
+
+.timeSaleBorder::before {
+  background: repeating-linear-gradient(
+    to bottom,
+    #2b6fb3 0 6px,
+    transparent 6px 9px,
+    #eab308 9px 15px,
+    transparent 15px 18px
+  );
+  border-radius: 4px 0 0 4px;
+  bottom: 16px;
+  content: "";
+  left: -1px;
+  pointer-events: none;
+  position: absolute;
+  top: 16px;
+  width: 4px;
+}
+
 .buyUp {
   border-right-color: #c93434;
   border-right-width: 4px;
@@ -66,6 +89,11 @@
   font-weight: 800;
   line-height: 1.2;
   padding: 5px 8px;
+}
+
+.timeSaleTag {
+  background: #fff9d9;
+  color: #765f00;
 }
 
 .up {
