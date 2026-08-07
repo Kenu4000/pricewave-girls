@@ -35,8 +35,32 @@ function normalizedInteger(value, minimum, maximum, fallback) {
 function normalizeCrawlBrand(value) {
   return String(value || "")
     .normalize("NFKC")
-    .toLocaleLowerCase("en")
-    .replace(/[\s\u3000・･._\-‐‑–—:：'’`´"“”!?！？☆★+＋/／\\&＆×†()[\]（）［］{}｛｝]/gu, "");
+    .toLocaleLowerCase("ja")
+    .replace(/[\s\p{P}\p{S}]/gu, "");
+}
+
+function dailyBrandAliasKeys(value) {
+  const source = String(value || "").trim();
+  const candidates = new Set([source]);
+  const withoutParentheses = source.replace(/[（(][^()（）]+[）)]/gu, "").trim();
+  if (withoutParentheses) candidates.add(withoutParentheses);
+
+  for (const match of source.matchAll(/[（(]([^()（）]+)[）)]/gu)) {
+    candidates.add(match[1].trim());
+  }
+  for (const candidate of [...candidates]) {
+    for (const part of candidate.split(/[／/×、]/u)) {
+      if (part.trim()) candidates.add(part.trim());
+    }
+  }
+
+  return new Set([...candidates].map(normalizeCrawlBrand).filter(Boolean));
+}
+
+function brandsEquivalent(left, right) {
+  const leftKeys = dailyBrandAliasKeys(left);
+  const rightKeys = dailyBrandAliasKeys(right);
+  return [...leftKeys].some((key) => rightKeys.has(key));
 }
 
 function dailyBrandCheckedValues() {
@@ -53,7 +77,6 @@ function updateDailyBrandSummary() {
 }
 
 function renderDailyBrandOptions(selectedValues = []) {
-  const selectedKeys = new Set(selectedValues.map(normalizeCrawlBrand));
   dailyBrandList.replaceChildren();
 
   if (dailyBrandOptions.length === 0) {
@@ -72,7 +95,10 @@ function renderDailyBrandOptions(selectedValues = []) {
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.dataset.value = option.value;
-    checkbox.checked = selectedKeys.has(normalizeCrawlBrand(option.value));
+    checkbox.checked = selectedValues.some(
+      (selected) =>
+        brandsEquivalent(selected, option.value) || brandsEquivalent(selected, option.label),
+    );
     checkbox.addEventListener("change", updateDailyBrandSummary);
 
     const text = document.createElement("span");
@@ -87,14 +113,14 @@ function renderDailyBrandOptions(selectedValues = []) {
 
 function mergeStoredDailyBrands(defaultOptions, storedBrands) {
   const merged = [...defaultOptions];
-  const existingKeys = new Set(merged.map((option) => normalizeCrawlBrand(option.value)));
 
   for (const rawBrand of Array.isArray(storedBrands) ? storedBrands : []) {
     const brand = String(rawBrand || "").trim();
     if (!brand) continue;
-    const key = normalizeCrawlBrand(brand);
-    if (!key || existingKeys.has(key)) continue;
-    existingKeys.add(key);
+    const exists = merged.some(
+      (option) => brandsEquivalent(brand, option.value) || brandsEquivalent(brand, option.label),
+    );
+    if (exists) continue;
     merged.push({ value: brand, label: brand, isDefault: false });
   }
 
@@ -136,9 +162,10 @@ async function loadDailyBrandOptions(modeSettings) {
 }
 
 function sameBrandSelection(leftValues, rightValues) {
-  const left = new Set(leftValues.map(normalizeCrawlBrand).filter(Boolean));
-  const right = new Set(rightValues.map(normalizeCrawlBrand).filter(Boolean));
-  return left.size === right.size && [...left].every((value) => right.has(value));
+  if (leftValues.length !== rightValues.length) return false;
+  return leftValues.every((left) =>
+    rightValues.some((right) => brandsEquivalent(left, right)),
+  );
 }
 
 function addDailyBrand() {
@@ -146,13 +173,12 @@ function addDailyBrand() {
   if (!brand) return;
 
   const selected = dailyBrandCheckedValues();
-  const key = normalizeCrawlBrand(brand);
   const existing = dailyBrandOptions.find(
-    (option) => normalizeCrawlBrand(option.value) === key,
+    (option) => brandsEquivalent(brand, option.value) || brandsEquivalent(brand, option.label),
   );
 
   if (existing) {
-    if (!selected.some((value) => normalizeCrawlBrand(value) === key)) {
+    if (!selected.some((value) => brandsEquivalent(value, existing.value))) {
       selected.push(existing.value);
     }
   } else {
