@@ -32,12 +32,13 @@ function formatPrice(price: number | null | undefined) {
 
 function formatStockStatus(status: string | null) {
   switch (status) {
-    case "in_stock":
-      return "在庫あり";
     case "out_of_stock":
       return "在庫なし";
-    default:
+    case "unknown":
+    case null:
       return "在庫不明";
+    default:
+      return null;
   }
 }
 
@@ -224,6 +225,8 @@ export function ProductGrid({
         const storedState = cardStates[product.id];
         const condition = storedState?.condition ?? product.condition ?? null;
         const conditionRank = storedState?.conditionRank ?? product.conditionRank ?? "A";
+        const hasConditionIssue = conditionRank === "B" || Boolean(condition);
+        const stockStatusLabel = formatStockStatus(product.stockStatus);
         const borderClasses = [
           styles.productCard,
           changeBorderClass("sale", saleChange),
@@ -258,8 +261,10 @@ export function ProductGrid({
             <div className="price-row">
               <span className="badge">販売: {formatPrice(product.salePrice)}</span>
               <span className="badge">買取: {formatPrice(product.buyPrice)}</span>
-              <span className="badge">{formatStockStatus(product.stockStatus)}</span>
-              <span className="badge">{formatProductCondition(condition, conditionRank)}</span>
+              {stockStatusLabel ? <span className="badge">{stockStatusLabel}</span> : null}
+              {hasConditionIssue ? (
+                <span className="badge">{formatProductCondition(condition, conditionRank)}</span>
+              ) : null}
               {storedState?.isTimeSale && storedState.regularSalePrice != null ? (
                 <span className="badge">通常価格: {formatPrice(storedState.regularSalePrice)}</span>
               ) : null}
