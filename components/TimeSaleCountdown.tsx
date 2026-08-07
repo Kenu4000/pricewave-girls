@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import styles from "./TimeSaleCountdown.module.css";
 
 function remainingLabel(milliseconds: number): string {
   if (milliseconds <= 0) return "終了";
@@ -39,7 +40,7 @@ export function TimeSaleCountdown({
   });
 
   return (
-    <div className="time-sale-countdown" title={`終了予定: ${formattedEnd}`}>
+    <div className={styles.countdown} title={`終了予定: ${formattedEnd}`}>
       <span>{multipleEndTimes ? "タイムセール 最短終了まで" : "タイムセール終了まで"}</span>
       <strong>{remainingLabel(endTime - now)}</strong>
       <small>{formattedEnd}</small>
