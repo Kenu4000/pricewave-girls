@@ -72,14 +72,15 @@ model JunkHistory {
 }
 
 model PriceHistory {
-  id          Int      @id @default(autoincrement())
-  productId   Int
-  salePrice   Int?
-  buyPrice    Int?
-  stockStatus String?
-  isTimeSale  Boolean  @default(false)
-  checkedAt   DateTime @default(now())
-  product     Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  id            Int      @id @default(autoincrement())
+  productId     Int
+  salePrice     Int?
+  buyPrice      Int?
+  stockStatus   String?
+  isTimeSale    Boolean  @default(false)
+  titleSnapshot String?
+  checkedAt     DateTime @default(now())
+  product       Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
   @@index([productId, checkedAt])
 }
