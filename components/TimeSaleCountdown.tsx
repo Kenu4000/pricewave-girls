@@ -16,15 +16,19 @@ function remainingLabel(milliseconds: number): string {
 
 export function TimeSaleCountdown({
   endAt,
+  initialNow,
   multipleEndTimes,
 }: {
   endAt: string;
+  initialNow: string;
   multipleEndTimes: boolean;
 }) {
   const endTime = useMemo(() => new Date(endAt).getTime(), [endAt]);
-  const [now, setNow] = useState(() => Date.now());
+  const initialTime = useMemo(() => new Date(initialNow).getTime(), [initialNow]);
+  const [now, setNow] = useState(initialTime);
 
   useEffect(() => {
+    setNow(Date.now());
     const timer = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(timer);
   }, []);
