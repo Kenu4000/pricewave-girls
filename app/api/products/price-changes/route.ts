@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
-import { buildProductCardPriceChangeSummaries } from "@/lib/product-card-price-change";
+import {
+  buildProductCardPriceChangeSummaries,
+  classifySaleAvailabilityState,
+  hasCurrentOtherShopInventory,
+} from "@/lib/product-card-price-change";
 import { prisma } from "@/lib/prisma";
 
 export const runtime = "nodejs";
@@ -24,23 +28,60 @@ export async function GET(request: Request) {
     return NextResponse.json({ summaries: {} });
   }
 
-  const changes = await prisma.priceChange.findMany({
-    where: {
-      productId: { in: productIds },
-      type: { in: ["sale", "buy"] },
-    },
-    orderBy: { changedAt: "desc" },
-    distinct: ["productId", "type"],
-    select: {
-      productId: true,
-      type: true,
-      previousPrice: true,
-      currentPrice: true,
-      changedAt: true,
-    },
-  });
+  const [changes, products] = await Promise.all([
+    prisma.priceChange.findMany({
+      where: {
+        productId: { in: productIds },
+        type: { in: ["sale", "buy"] },
+      },
+      orderBy: { changedAt: "desc" },
+      distinct: ["productId", "type"],
+      select: {
+        productId: true,
+        type: true,
+        previousPrice: true,
+        currentPrice: true,
+        changedAt: true,
+      },
+    }),
+    prisma.product.findMany({
+      where: { id: { in: productIds } },
+      select: {
+        id: true,
+        stockStatus: true,
+        histories: {
+          orderBy: { checkedAt: "desc" },
+          take: 1,
+          select: { checkedAt: true },
+        },
+        junkHistories: {
+          orderBy: { checkedAt: "desc" },
+          take: 100,
+          select: {
+            sourceType: true,
+            checkedAt: true,
+          },
+        },
+      },
+    }),
+  ]);
 
-  return NextResponse.json({
-    summaries: buildProductCardPriceChangeSummaries(changes),
-  });
+  const summaries = buildProductCardPriceChangeSummaries(changes);
+  for (const product of products) {
+    const saleChange = summaries[product.id]?.sale;
+    if (!saleChange) continue;
+
+    const latestSnapshotAt = product.histories[0]?.checkedAt ?? null;
+    const hasOtherShopInventory = hasCurrentOtherShopInventory(
+      latestSnapshotAt,
+      product.junkHistories,
+    );
+    saleChange.availabilityState = classifySaleAvailabilityState(
+      saleChange,
+      product.stockStatus,
+      hasOtherShopInventory,
+    );
+  }
+
+  return NextResponse.json({ summaries });
 }
