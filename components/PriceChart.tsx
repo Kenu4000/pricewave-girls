@@ -20,7 +20,7 @@ import {
 import styles from "./PriceChart.module.css";
 
 const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
-  { value: "day", label: "日（1か月）" },
+  { value: "day", label: "日（全期間）" },
   { value: "week", label: "週" },
   { value: "month", label: "月" },
 ];
@@ -58,7 +58,7 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
       </div>
       <p className={styles.note}>
         {mode === "day"
-          ? "直近1か月を取得時刻ごとに表示。黄色は通常価格から一時的に分岐したタイムセール価格"
+          ? "全期間を取得時刻ごとに表示。黄色は通常価格から一時的に分岐したタイムセール価格"
           : mode === "week"
             ? "全期間を週ごとの最終価格で表示"
             : "全期間を月ごとの最終価格で表示"}
