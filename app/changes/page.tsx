@@ -1,11 +1,14 @@
 import Link from "next/link";
+import { ClearSmallPriceChangesButton } from "@/app/changes/ClearSmallPriceChangesButton";
 import { DeletePriceChangeButton } from "@/app/changes/DeletePriceChangeButton";
 import {
   getPriceChangeBrands,
   getPriceChangeEvents,
+  type PriceChangeDirection,
   type PriceChangeFilters,
   type PriceChangeType,
 } from "@/lib/price-change-events";
+import { normalizeFilterChoiceValue } from "@/lib/product-filter-options";
 
 export const dynamic = "force-dynamic";
 
@@ -14,6 +17,11 @@ const TYPE_OPTIONS = [
   { value: "all", label: "販売・買取すべて" },
   { value: "sale", label: "販売価格のみ" },
   { value: "buy", label: "買取価格のみ" },
+] as const;
+const DIRECTION_OPTIONS = [
+  { value: "all", label: "値上げ・値下がりすべて" },
+  { value: "up", label: "値上げのみ" },
+  { value: "down", label: "値下がりのみ" },
 ] as const;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
@@ -25,6 +33,12 @@ function firstValue(value: string | string[] | undefined) {
 function parseType(value: string | undefined): PriceChangeType {
   return TYPE_OPTIONS.some((option) => option.value === value)
     ? (value as PriceChangeType)
+    : "all";
+}
+
+function parseDirection(value: string | undefined): PriceChangeDirection {
+  return DIRECTION_OPTIONS.some((option) => option.value === value)
+    ? (value as PriceChangeDirection)
     : "all";
 }
 
@@ -44,6 +58,7 @@ function formatPrice(price: number | null) {
 function pageUrl(page: number, filters: PriceChangeFilters) {
   const params = new URLSearchParams();
   if (filters.type !== "all") params.set("type", filters.type);
+  if (filters.direction !== "all") params.set("direction", filters.direction);
   if (filters.brand) params.set("brand", filters.brand);
   if (filters.query) params.set("q", filters.query);
   if (page > 1) params.set("page", String(page));
@@ -53,9 +68,11 @@ function pageUrl(page: number, filters: PriceChangeFilters) {
 
 export default async function PriceChangesPage({ searchParams }: { searchParams: SearchParams }) {
   const query = await searchParams;
+  const rawBrand = normalizeFilterText(firstValue(query.brand), 120);
   const filters: PriceChangeFilters = {
     type: parseType(firstValue(query.type)),
-    brand: normalizeFilterText(firstValue(query.brand), 120),
+    direction: parseDirection(firstValue(query.direction)),
+    brand: rawBrand ? normalizeFilterChoiceValue(rawBrand) : "",
     query: normalizeFilterText(firstValue(query.q), 200),
   };
   const requestedPage = parsePage(firstValue(query.page));
@@ -67,10 +84,6 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
       PAGE_SIZE,
     ),
   ]);
-  const brandOptions =
-    filters.brand && !brands.includes(filters.brand)
-      ? [filters.brand, ...brands]
-      : brands;
   const totalPages = Math.max(1, Math.ceil(firstResult.total / PAGE_SIZE));
   const currentPage = Math.min(requestedPage, totalPages);
   const result =
@@ -91,6 +104,7 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             条件に一致する価格変更 {result.total.toLocaleString("ja-JP")}件
           </p>
         </div>
+        <ClearSmallPriceChangesButton />
       </div>
 
       <form
@@ -118,15 +132,34 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
           <span>ブランド</span>
           <select className="select" defaultValue={filters.brand} name="brand">
             <option value="">すべてのブランド</option>
-            {brandOptions.map((brand) => (
-              <option key={brand} value={brand}>{brand}</option>
-            ))}
+            {brands.featured.length > 0 ? (
+              <optgroup label="よく登録されている">
+                {brands.featured.map((brand) => (
+                  <option key={brand.value} value={brand.value}>{brand.label}</option>
+                ))}
+              </optgroup>
+            ) : null}
+            {brands.alphabetical.length > 0 ? (
+              <optgroup label="五十音順">
+                {brands.alphabetical.map((brand) => (
+                  <option key={brand.value} value={brand.value}>{brand.label}</option>
+                ))}
+              </optgroup>
+            ) : null}
           </select>
         </label>
         <label className="filter-field">
           <span>価格の種類</span>
           <select className="select" defaultValue={filters.type} name="type">
             {TYPE_OPTIONS.map((option) => (
+              <option key={option.value} value={option.value}>{option.label}</option>
+            ))}
+          </select>
+        </label>
+        <label className="filter-field">
+          <span>値動き</span>
+          <select className="select" defaultValue={filters.direction} name="direction">
+            {DIRECTION_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>{option.label}</option>
             ))}
           </select>
