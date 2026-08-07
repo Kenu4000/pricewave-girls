@@ -128,8 +128,11 @@ function addBucketValue(
   rawValue: string,
   productId: number,
   forcedKey?: string,
+  preserveDisplay = false,
 ) {
-  const label = normalizeDisplayValue(rawValue);
+  const label = preserveDisplay
+    ? rawValue.replace(/\s+/gu, " ").trim()
+    : normalizeDisplayValue(rawValue);
   if (!label) return;
 
   const key = forcedKey ?? normalizeChoiceKey(label);
@@ -266,7 +269,7 @@ export function buildProductFilterCatalog(
     }
     if (product.manufacturer) {
       const brand = resolveBrandIdentity(product.manufacturer);
-      addBucketValue(brands, brand.label, product.id, brand.key);
+      addBucketValue(brands, brand.label, product.id, brand.key, true);
     }
 
     const osDetails = detailValues(details, ["対応OS", "動作OS", "OS", "対応機種"]);
