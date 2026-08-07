@@ -27,6 +27,13 @@ function formatStockStatus(status: string | null) {
   }
 }
 
+function formatCondition(condition: string | null | undefined, rank: string | null | undefined) {
+  if (rank === "B" || condition) {
+    return condition ? `ランクB（${condition}）` : "ランクB";
+  }
+  return "通常";
+}
+
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
   if (!rawDetails) {
     return [];
@@ -127,14 +134,48 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     notFound();
   }
 
-  const histories = product.histories.map((history) => ({
+  const relatedProducts = await prisma.product.findMany({
+    where: { title: product.title, id: { not: product.id } },
+    select: {
+      id: true,
+      condition: true,
+      conditionRank: true,
+      histories: { orderBy: { checkedAt: "asc" } },
+    },
+  });
+
+  const currentHistories = product.histories.map((history) => ({
     id: history.id,
+    productId: product.id,
     checkedAt: history.checkedAt.toISOString(),
     salePrice: history.salePrice,
+    regularSalePrice: history.regularSalePrice,
     buyPrice: history.buyPrice,
     stockStatus: history.stockStatus,
+    condition: history.condition ?? product.condition,
+    conditionRank: history.conditionRank ?? product.conditionRank,
     isTimeSale: history.isTimeSale,
   }));
+  const relatedHistories = relatedProducts.flatMap((relatedProduct) =>
+    relatedProduct.histories.map((history) => ({
+      id: history.id,
+      productId: relatedProduct.id,
+      checkedAt: history.checkedAt.toISOString(),
+      salePrice: history.salePrice,
+      regularSalePrice: history.regularSalePrice,
+      buyPrice: history.buyPrice,
+      stockStatus: history.stockStatus,
+      condition: history.condition ?? relatedProduct.condition,
+      conditionRank: history.conditionRank ?? relatedProduct.conditionRank,
+      isTimeSale: history.isTimeSale,
+    })),
+  );
+  const histories = [...currentHistories, ...relatedHistories].sort(
+    (left, right) =>
+      new Date(left.checkedAt).getTime() - new Date(right.checkedAt).getTime() ||
+      left.productId - right.productId ||
+      left.id - right.id,
+  );
   const displayedHistories = [...histories].reverse().slice(0, 10);
   const junkHistoryItems = product.junkHistories.map((history) => ({
     id: history.id,
@@ -144,7 +185,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     price: history.price,
     checkedAt: history.checkedAt.toISOString(),
   }));
-  const latestSnapshotAt = histories.at(-1)?.checkedAt ?? null;
+  const latestSnapshotAt = currentHistories.at(-1)?.checkedAt ?? null;
   const productDetails = parseProductDetails(product.detailsJson);
 
   return (
@@ -179,7 +220,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <span className="badge">販売価格: {formatPrice(product.latestSalePrice)}</span>
             <span className="badge">買取価格: {formatPrice(product.latestBuyPrice)}</span>
             <span className="badge">{formatStockStatus(product.stockStatus)}</span>
+            <span className="badge">状態: {formatCondition(product.condition, product.conditionRank)}</span>
             {product.isTimeSale ? <span className="badge">タイムセール中</span> : null}
+            {product.isTimeSale && product.latestRegularSalePrice !== null ? (
+              <span className="badge">通常価格: {formatPrice(product.latestRegularSalePrice)}</span>
+            ) : null}
           </div>
         </article>
 
@@ -226,17 +271,21 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <tr>
                 <th>確認日時</th>
                 <th>販売価格</th>
+                <th>通常価格</th>
                 <th>価格状態</th>
+                <th>商品状態</th>
                 <th>買取価格</th>
                 <th>在庫</th>
               </tr>
             </thead>
             <tbody>
               {displayedHistories.map((history) => (
-                <tr key={history.id}>
+                <tr key={`${history.productId}:${history.id}`}>
                   <td>{new Date(history.checkedAt).toLocaleString("ja-JP")}</td>
                   <td>{formatPrice(history.salePrice)}</td>
+                  <td>{formatPrice(history.regularSalePrice)}</td>
                   <td>{history.isTimeSale ? "タイムセール" : "通常"}</td>
+                  <td>{formatCondition(history.condition, history.conditionRank)}</td>
                   <td>{formatPrice(history.buyPrice)}</td>
                   <td>{formatStockStatus(history.stockStatus)}</td>
                 </tr>
