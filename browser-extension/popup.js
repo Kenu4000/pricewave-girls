@@ -268,7 +268,7 @@ async function stopTask() {
   try {
     const response = await chrome.runtime.sendMessage({ type: "task:cancel" });
     if (!response?.ok) {
-      throw new Error(response?.error || "処理を停止できませんでした。";
+      throw new Error(response?.error || "処理を停止できませんでした。");
     }
     await loadAutoSettings(false);
   } catch (error) {
