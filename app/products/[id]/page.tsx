@@ -7,6 +7,7 @@ import {
   normalizeFilterChoiceValue,
   splitDetailPeople,
 } from "@/lib/product-filter-options";
+import { selectDisplayedPriceHistories } from "@/lib/price-history-display";
 import { prisma } from "@/lib/prisma";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
@@ -176,7 +177,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       left.productId - right.productId ||
       left.id - right.id,
   );
-  const displayedHistories = [...histories].reverse().slice(0, 10);
+  const displayedHistories = selectDisplayedPriceHistories([...histories].reverse());
   const junkHistoryItems = product.junkHistories.map((history) => ({
     id: history.id,
     sourceType: history.sourceType,
@@ -260,8 +261,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         <div className="history-summary">
           <h2>価格履歴</h2>
           <span className="muted">
-            {histories.length > 10
-              ? `${displayedHistories.length.toLocaleString("ja-JP")}件表示 / ${histories.length.toLocaleString("ja-JP")}件保存`
+            {displayedHistories.length < histories.length
+              ? `${displayedHistories.length.toLocaleString("ja-JP")}件表示 / ${histories.length.toLocaleString("ja-JP")}件保存（直近10件＋過去の価格変化）`
               : `${histories.length.toLocaleString("ja-JP")}件`}
           </span>
         </div>
