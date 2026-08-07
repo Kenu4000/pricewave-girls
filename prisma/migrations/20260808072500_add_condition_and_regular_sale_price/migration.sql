@@ -55,6 +55,22 @@ SET
 WHERE instr("title", '(状態:') > 0
   AND substr(trim("title"), -1, 1) = ')';
 
+-- Preserve the searchable state marker after the visible title is cleaned.
+UPDATE "Product"
+SET "detailsJson" = CASE
+  WHEN json_valid("detailsJson") THEN json_set(
+    "detailsJson",
+    '$.__pricewaveCondition', "condition",
+    '$.__pricewaveConditionRank', 'B'
+  )
+  ELSE json_object(
+    '__pricewaveCondition', "condition",
+    '__pricewaveConditionRank', 'B'
+  )
+END
+WHERE "conditionRank" = 'B'
+  AND "condition" IS NOT NULL;
+
 -- State-specific Surugaya URLs normally keep the same condition for their full
 -- history, so existing histories can inherit the backfilled product condition.
 UPDATE "PriceHistory"
