@@ -34,6 +34,19 @@
           <span>同時タブ数</span>
           <input id="parallel-tabs" type="number" value="10" min="1" max="100" step="1">
         </label>
+        <label class="toggle-row">
+          <input id="daily-brand-override-enabled" type="checkbox">
+          <span>日次巡回ブランドを指定する</span>
+        </label>
+        <label class="stacked-field">
+          <span>日次巡回ブランド（1行に1ブランド）</span>
+          <textarea
+            id="daily-crawl-brands"
+            rows="8"
+            placeholder="Key&#10;ALICESOFT&#10;Leaf"
+          ></textarea>
+        </label>
+        <p class="note">指定をOFFにすると従来の固定ブランド一覧を使います。ONの場合はここに入力したブランドだけをブランド指定の日次巡回対象にします。人気順で拾った商品と個別の日次指定商品はこの設定に関係なく巡回します。</p>
         <button id="save-auto-button" class="secondary" type="button">設定を保存</button>
         <button id="run-all-button" class="secondary" type="button">今すぐ本日の対象を更新</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
