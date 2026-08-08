@@ -41,6 +41,9 @@ export async function POST(request: Request) {
       );
     }
 
+    // 100件バッチでDBへ保存される時刻ではなく、各商品HTMLが届いた時刻を
+    // 価格取得時刻として保持する。これにより更新順が実際の取得順になる。
+    const checkedAt = new Date();
     const normalizedUrl = normalizeSurugayaUrl(url);
     const parsed = parseProductHtml(html);
     const withSafeConditions = replaceAlternateConditionItems(html, parsed);
@@ -50,6 +53,7 @@ export async function POST(request: Request) {
       const stagedCount = await stageProductSnapshot(sessionId, {
         surugayaUrl: normalizedUrl,
         fetched,
+        checkedAt,
       });
       return NextResponse.json({ staged: true, stagedCount }, { status: 202 });
     }
@@ -57,6 +61,7 @@ export async function POST(request: Request) {
     const productId = await productImportQueue.enqueue({
       surugayaUrl: normalizedUrl,
       fetched,
+      checkedAt,
     });
 
     return NextResponse.json({ id: productId }, { status: 201 });
