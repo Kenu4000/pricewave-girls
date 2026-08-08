@@ -53,6 +53,7 @@ importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
   });
 
   importScripts("access-challenge-retry-wrapper.js");
+  importScripts("access-challenge-test-mode-wrapper.js");
 
   chrome.storage.local.get = async (...args) => {
     await initialSettingsReady;
