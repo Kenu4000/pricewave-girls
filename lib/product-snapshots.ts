@@ -6,6 +6,7 @@ import { Prisma, type PrismaPromise } from "@prisma/client";
 export type ProductSnapshotInput = {
   surugayaUrl: string;
   fetched: FetchedProduct;
+  checkedAt?: Date;
 };
 
 // Prisma's bundled SQLite supports enough bind variables for 1,000 rows here.
@@ -50,11 +51,13 @@ function buildProductUpsertArgs(
   surugayaUrl: string,
   fetched: FetchedProduct,
   existing: ExistingPriceState | null,
+  checkedAt: Date,
 ): Prisma.ProductUpsertArgs {
   const snapshot = {
     salePrice: fetched.salePrice,
     buyPrice: fetched.buyPrice,
     stockStatus: fetched.stockStatus,
+    checkedAt,
   };
   const detailsJson =
     Object.keys(fetched.details).length > 0 ? JSON.stringify(fetched.details) : null;
@@ -144,6 +147,7 @@ function buildProductUpsertArgs(
       latestSalePrice: fetched.salePrice,
       latestBuyPrice: fetched.buyPrice,
       stockStatus: fetched.stockStatus,
+      updatedAt: checkedAt,
       ...details,
       histories: { create: snapshot },
       ...(junkHistoryCreates.length > 0
@@ -163,7 +167,7 @@ export async function upsertProductSnapshot(
     select: { latestSalePrice: true, latestBuyPrice: true },
   });
   const product = await prisma.product.upsert(
-    buildProductUpsertArgs(surugayaUrl, fetched, existing),
+    buildProductUpsertArgs(surugayaUrl, fetched, existing, new Date()),
   );
 
   notifyProductsChanged();
@@ -176,8 +180,12 @@ export async function upsertProductSnapshots(
 ) {
   if (inputs.length === 0) return [];
 
+  const normalizedInputs = inputs.map((input) => ({
+    ...input,
+    checkedAt: input.checkedAt ?? new Date(),
+  }));
   const existingProducts = await prisma.product.findMany({
-    where: { surugayaUrl: { in: inputs.map((input) => input.surugayaUrl) } },
+    where: { surugayaUrl: { in: normalizedInputs.map((input) => input.surugayaUrl) } },
     select: { surugayaUrl: true, latestSalePrice: true, latestBuyPrice: true },
   });
   const existingUrls = new Set(existingProducts.map((product) => product.surugayaUrl));
@@ -187,9 +195,9 @@ export async function upsertProductSnapshots(
   const operations: PrismaPromise<unknown>[] = [];
   const productResultIndexes: number[] = [];
 
-  for (let start = 0; start < inputs.length; start += RAW_SQL_CHUNK_SIZE) {
-    const chunk = inputs.slice(start, start + RAW_SQL_CHUNK_SIZE);
-    const productRows = chunk.map(({ surugayaUrl, fetched }) => {
+  for (let start = 0; start < normalizedInputs.length; start += RAW_SQL_CHUNK_SIZE) {
+    const chunk = normalizedInputs.slice(start, start + RAW_SQL_CHUNK_SIZE);
+    const productRows = chunk.map(({ surugayaUrl, fetched, checkedAt }) => {
       const detailsJson =
         Object.keys(fetched.details).length > 0 ? JSON.stringify(fetched.details) : null;
       return Prisma.sql`(
@@ -206,15 +214,16 @@ export async function upsertProductSnapshots(
         ${fetched.salePrice},
         ${fetched.buyPrice},
         ${fetched.stockStatus},
-        CURRENT_TIMESTAMP
+        ${checkedAt}
       )`;
     });
-    const historyRows = chunk.map(({ surugayaUrl, fetched }) =>
+    const historyRows = chunk.map(({ surugayaUrl, fetched, checkedAt }) =>
       Prisma.sql`(
         ${surugayaUrl},
         ${fetched.salePrice},
         ${fetched.buyPrice},
-        ${fetched.stockStatus}
+        ${fetched.stockStatus},
+        ${checkedAt}
       )`,
     );
     const junkRows = chunk.flatMap(({ surugayaUrl, fetched }) =>
@@ -290,7 +299,7 @@ export async function upsertProductSnapshots(
             ELSE "Product"."buyPriceChangedAt"
           END,
           "stockStatus" = excluded."stockStatus",
-          "updatedAt" = CURRENT_TIMESTAMP
+          "updatedAt" = excluded."updatedAt"
         RETURNING
           "id",
           "surugayaUrl",
@@ -310,7 +319,8 @@ export async function upsertProductSnapshots(
           "surugayaUrl",
           "salePrice",
           "buyPrice",
-          "stockStatus"
+          "stockStatus",
+          "checkedAt"
         ) AS (
           VALUES ${Prisma.join(historyRows)}
         )
@@ -318,13 +328,15 @@ export async function upsertProductSnapshots(
           "productId",
           "salePrice",
           "buyPrice",
-          "stockStatus"
+          "stockStatus",
+          "checkedAt"
         )
         SELECT
           "Product"."id",
           "snapshots"."salePrice",
           "snapshots"."buyPrice",
-          "snapshots"."stockStatus"
+          "snapshots"."stockStatus",
+          "snapshots"."checkedAt"
         FROM "snapshots"
         INNER JOIN "Product"
           ON "Product"."surugayaUrl" = "snapshots"."surugayaUrl"
@@ -427,7 +439,7 @@ export async function upsertProductSnapshots(
     }
   }
 
-  const products = inputs.map(({ surugayaUrl }) => {
+  const products = normalizedInputs.map(({ surugayaUrl }) => {
     const product = productsByUrl.get(surugayaUrl);
     if (!product) {
       throw new Error(`保存した商品のIDを取得できませんでした: ${surugayaUrl}`);
