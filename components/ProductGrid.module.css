@@ -38,22 +38,19 @@
 }
 
 .timeSaleBorder {
-  border-left-color: transparent;
+  border-left-color: #2b6fb3;
   border-left-width: 4px;
 }
 
 .timeSaleBorder::before {
   background: repeating-linear-gradient(
     to bottom,
-    #2b6fb3 0 6px,
-    transparent 6px 9px,
-    #eab308 9px 15px,
-    transparent 15px 18px
+    #eab308 0 7px,
+    transparent 7px 13px
   );
-  border-radius: 4px 0 0 4px;
   bottom: 16px;
   content: "";
-  left: -1px;
+  left: -4px;
   pointer-events: none;
   position: absolute;
   top: 16px;
