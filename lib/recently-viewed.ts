@@ -1,5 +1,5 @@
 export const RECENTLY_VIEWED_STORAGE_KEY = "pricewave:recently-viewed-products";
-export const RECENTLY_VIEWED_LIMIT = 30;
+export const RECENTLY_VIEWED_LIMIT = 40;
 
 export function normalizeRecentlyViewedIds(value: unknown): number[] {
   if (!Array.isArray(value)) return [];
