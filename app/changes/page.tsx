@@ -107,16 +107,8 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
         <ClearSmallPriceChangesButton />
       </div>
 
-      <form
-        action="/changes"
-        className="card change-filter-form"
-        style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-          justifyContent: "stretch",
-          width: "100%",
-        }}
-      >
-        <label className="filter-field">
+      <form action="/changes" className="card change-filter-form">
+        <label className="filter-field change-filter-query">
           <span>商品名</span>
           <input
             className="input"
@@ -124,11 +116,10 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             maxLength={200}
             name="q"
             placeholder="商品名の一部を入力"
-            style={{ padding: "10px 12px" }}
             type="search"
           />
         </label>
-        <label className="filter-field">
+        <label className="filter-field change-filter-brand">
           <span>ブランド</span>
           <select className="select" defaultValue={filters.brand} name="brand">
             <option value="">すべてのブランド</option>
@@ -148,7 +139,7 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             ) : null}
           </select>
         </label>
-        <label className="filter-field">
+        <label className="filter-field change-filter-type">
           <span>価格の種類</span>
           <select className="select" defaultValue={filters.type} name="type">
             {TYPE_OPTIONS.map((option) => (
@@ -156,7 +147,7 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             ))}
           </select>
         </label>
-        <label className="filter-field">
+        <label className="filter-field change-filter-direction">
           <span>値動き</span>
           <select className="select" defaultValue={filters.direction} name="direction">
             {DIRECTION_OPTIONS.map((option) => (
@@ -164,15 +155,15 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             ))}
           </select>
         </label>
-        <div style={{ alignItems: "center", display: "flex", flexWrap: "wrap", gap: 8 }}>
+        <div className="change-filter-actions">
           <button type="submit">絞り込む</button>
           <Link className="button secondary" href="/changes">クリア</Link>
         </div>
       </form>
 
       {result.events.length > 0 ? (
-        <div className="card table-wrap">
-          <table className="price-change-table" style={{ minWidth: 980 }}>
+        <div className="card table-wrap price-change-list-wrap">
+          <table className="price-change-table">
             <thead>
               <tr>
                 <th>変更日時</th>
@@ -187,8 +178,8 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
             <tbody>
               {result.events.map((event) => (
                 <tr key={event.id}>
-                  <td>{event.changedAt.toLocaleString("ja-JP")}</td>
-                  <td>
+                  <td data-label="変更日時">{event.changedAt.toLocaleString("ja-JP")}</td>
+                  <td className="price-change-product-cell" data-label="商品">
                     <Link className="change-product-link" href={`/products/${event.productId}`}>
                       {event.imageUrl ? (
                         // eslint-disable-next-line @next/next/no-img-element
@@ -197,15 +188,19 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
                       <span>{event.title}</span>
                     </Link>
                   </td>
-                  <td>{event.manufacturer ?? <span className="muted">未取得</span>}</td>
-                  <td>
+                  <td data-label="ブランド">
+                    {event.manufacturer ?? <span className="muted">未取得</span>}
+                  </td>
+                  <td data-label="種類">
                     <span className={`change-type-badge ${event.type}`}>
                       {event.type === "sale" ? "販売" : "買取"}
                     </span>
                   </td>
-                  <td>{formatPrice(event.previousPrice)}</td>
-                  <td>{formatPrice(event.currentPrice)}</td>
-                  <td>
+                  <td data-label="変更前">{formatPrice(event.previousPrice)}</td>
+                  <td className="price-change-current" data-label="変更後">
+                    {formatPrice(event.currentPrice)}
+                  </td>
+                  <td className="price-change-action-cell" data-label="操作">
                     <DeletePriceChangeButton priceChangeId={event.id} />
                   </td>
                 </tr>
