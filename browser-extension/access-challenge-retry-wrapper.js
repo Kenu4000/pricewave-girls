@@ -9,6 +9,8 @@ importScripts("popular-refresh-wrapper.js");
   const RESUME_REQUEST_KEY = "crawlResumeRequested";
   const TEST_CONTINUE_KEY = "continueThroughAccessChallenges";
   const ACCESS_CHALLENGE_RESUME_DELAY_MINUTES = 1;
+  const HARD_BLOCK_STATUS_CODES = new Set([403, 429]);
+  const recentMainFrameResponses = new Map();
 
   let activeResumeProducts = null;
 
@@ -24,47 +26,63 @@ importScripts("popular-refresh-wrapper.js");
     };
   }
 
-  function normalizedPageText(page) {
-    return [page?.title, page?.bodyText, page?.html]
-      .filter((value) => typeof value === "string")
-      .join("\n")
-      .normalize("NFKC")
-      .toLocaleLowerCase("en");
+  function normalizedUrl(rawUrl) {
+    try {
+      const url = new URL(rawUrl);
+      url.hash = "";
+      return url.toString();
+    } catch {
+      return typeof rawUrl === "string" ? rawUrl : "";
+    }
   }
 
-  function isExplicitAccessChallenge(page) {
-    const title = typeof page?.title === "string" ? page.title.trim() : "";
-    const text = normalizedPageText(page);
-    return (
-      /^(just a moment|attention required)/iu.test(title) ||
-      /challenge-running|cf-challenge-running|challenge-form|cf-chl-|challenge-platform/iu.test(text)
+  function rememberMainFrameResponse(details) {
+    if (!Number.isInteger(details?.tabId) || details.tabId < 0) return;
+    recentMainFrameResponses.set(details.tabId, {
+      url: normalizedUrl(details.url),
+      statusCode: Number(details.statusCode),
+      seenAt: Date.now(),
+    });
+  }
+
+  if (chrome.webRequest?.onHeadersReceived?.addListener) {
+    chrome.webRequest.onHeadersReceived.addListener(
+      rememberMainFrameResponse,
+      {
+        urls: ["https://suruga-ya.jp/*", "https://*.suruga-ya.jp/*"],
+        types: ["main_frame"],
+      },
     );
   }
 
-  function isNonSkippablePolicyBlock(page) {
-    if (!page?.isAccessChallenge || isExplicitAccessChallenge(page)) return false;
-    const text = normalizedPageText(page);
-    return (
-      /(?:^|\D)429(?:\D|$)|too many requests|rate limit|アクセスが集中|時間をおいてアクセス/iu.test(
-        text,
-      ) ||
-      /403 forbidden|access denied|アクセスを拒否|このページへのアクセスは制限/iu.test(text)
+  function hardBlockResponseForInjection(injection, results) {
+    const tabId = injection?.target?.tabId;
+    if (!Number.isInteger(tabId)) return null;
+
+    const response = recentMainFrameResponses.get(tabId);
+    if (!response || !HARD_BLOCK_STATUS_CODES.has(response.statusCode)) return null;
+
+    const pageUrl = normalizedUrl(
+      (results ?? []).find((result) => typeof result?.result?.url === "string")?.result?.url,
     );
+    if (pageUrl && response.url && pageUrl !== response.url) return null;
+
+    // 古いタブ状態を誤利用しない。商品ページ読込直後の応答だけを採用する。
+    if (Date.now() - response.seenAt > 2 * 60 * 1000) return null;
+    return response;
   }
 
   chrome.scripting.executeScript = async (injection) => {
     const results = await originalExecuteScript(injection);
-    for (const result of results ?? []) {
-      const page = result?.result;
-      if (!isNonSkippablePolicyBlock(page)) continue;
+    const hardBlockResponse = hardBlockResponseForInjection(injection, results);
+    if (!hardBlockResponse) return results;
 
-      const error = new AccessChallengeError(
-        "駿河屋側のアクセス制限（403/429等）を検出したため、自動更新を停止しました。",
-      );
-      error.nonSkippable = true;
-      throw error;
-    }
-    return results;
+    const error = new AccessChallengeError(
+      `駿河屋がHTTP ${hardBlockResponse.statusCode}を返したため、自動更新を停止しました。`,
+    );
+    error.nonSkippable = true;
+    error.httpStatus = hardBlockResponse.statusCode;
+    throw error;
   };
 
   async function readTestContinueMode() {
