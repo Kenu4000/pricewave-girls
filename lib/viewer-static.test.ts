@@ -37,3 +37,18 @@ test("公開スクリプトは専用gh-pagesブランチだけをforce更新す�
   assert.match(publisherSource, /--force/u);
   assert.doesNotMatch(publisherSource, /HEAD:main/u);
 });
+
+test("Windowsではnpm.cmdをcmd.exe経由で起動する", () => {
+  assert.match(publisherSource, /process\.platform === "win32"/u);
+  assert.match(publisherSource, /process\.env\.ComSpec \|\| "cmd\.exe"/u);
+  assert.match(publisherSource, /\["\/d", "\/s", "\/c", "npm\.cmd", \.\.\.args\]/u);
+  assert.doesNotMatch(
+    publisherSource,
+    /const npmCommand = process\.platform === "win32" \? "npm\.cmd" : "npm"/u,
+  );
+});
+
+test("公開スクリプトは子プロセス起動自体の失敗も報告する", () => {
+  assert.match(publisherSource, /result\.error \|\| result\.status !== 0/u);
+  assert.match(publisherSource, /result\.error\.message/u);
+});
