@@ -1,3 +1,8 @@
+.root {
+  min-width: 0;
+  width: 100%;
+}
+
 .controls {
   align-items: center;
   display: flex;
@@ -5,6 +10,7 @@
   gap: 6px;
   justify-content: flex-end;
   margin-bottom: 8px;
+  min-width: 0;
 }
 
 .periodButton {
@@ -35,7 +41,16 @@
   color: var(--muted);
   font-size: 0.78rem;
   margin: 0 0 6px;
+  overflow-wrap: anywhere;
   text-align: right;
+}
+
+.chartWrap {
+  height: 245px;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
 }
 
 .tooltip {
@@ -43,6 +58,7 @@
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+  max-width: min(260px, calc(100vw - 32px));
   min-width: 148px;
   padding: 8px 10px;
   pointer-events: none;
@@ -81,4 +97,46 @@
   border-radius: 50%;
   height: 7px;
   width: 7px;
+}
+
+@media (max-width: 760px) {
+  .controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: stretch;
+    width: 100%;
+  }
+
+  .periodButton {
+    font-size: 0.74rem;
+    min-width: 0;
+    padding: 7px 4px;
+    width: 100%;
+  }
+
+  .note {
+    font-size: 0.72rem;
+    line-height: 1.45;
+    text-align: left;
+  }
+
+  .chartWrap {
+    height: 220px;
+  }
+
+  .tooltip {
+    max-width: calc(100vw - 40px);
+    min-width: 0;
+    padding: 7px 8px;
+  }
+
+  .tooltipLabel {
+    font-size: 0.7rem;
+  }
+
+  .tooltipRow {
+    font-size: 0.74rem;
+    grid-template-columns: 7px minmax(0, 1fr) auto;
+    white-space: normal;
+  }
 }
