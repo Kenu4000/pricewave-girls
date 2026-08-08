@@ -94,7 +94,10 @@ async function runScenario(context: TestContext, outcomes: string[]) {
             async (product) => {
               if (product.outcome === "challenge" || product.outcome === "hard-block") {
                 const error = new AccessChallengeError("アクセス確認");
-                if (product.outcome === "hard-block") error.nonSkippable = true;
+                if (product.outcome === "hard-block") {
+                  error.nonSkippable = true;
+                  error.httpStatus = 403;
+                }
                 throw error;
               }
             },
@@ -132,11 +135,13 @@ test("強制テストモードではアクセス確認が何件連続しても�
   });
 });
 
-test("強制テストモードでも403・429相当の停止は維持する", async () => {
+test("強制テストモードでは実HTTP 403・429相当も失敗扱いで最後まで進む", async () => {
   const result = await runScenario(createContext(true), ["challenge", "hard-block", "success"]);
-  assert.equal(result.kind, "error");
-  assert.equal(result.nonSkippable, true);
-  assert.equal(result.failed, 2);
+  assert.deepEqual(result, {
+    kind: "result",
+    succeeded: 1,
+    failed: 2,
+  });
 });
 
 test("テストモードOFFでは通常のアクセス確認停止を変更しない", async () => {
