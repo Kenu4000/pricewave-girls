@@ -12,6 +12,8 @@
     "start": "next start",
     "test": "node --import tsx --test lib/*.test.ts",
     "typecheck": "tsc --noEmit",
+    "viewer:export": "node --import tsx scripts/export-viewer-data.ts",
+    "viewer:publish": "node scripts/publish-viewer.mjs",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev && prisma generate",
     "postinstall": "prisma generate"

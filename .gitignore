@@ -3,6 +3,7 @@ node_modules/
 out/
 build/
 dist/
+viewer-dist/
 .env*.local
 *.log
 *.tsbuildinfo
