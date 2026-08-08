@@ -13,16 +13,24 @@ function run(command, args, options = {}) {
     stdio: options.capture ? "pipe" : "inherit",
     shell: false,
   });
-  if (result.status !== 0) {
-    const detail = options.capture ? `\n${result.stderr || result.stdout || ""}` : "";
-    throw new Error(`${command} ${args.join(" ")} に失敗しました。${detail}`);
+  if (result.error || result.status !== 0) {
+    const processError = result.error ? `\n${result.error.message}` : "";
+    const output = options.capture ? `\n${result.stderr || result.stdout || ""}` : "";
+    throw new Error(`${command} ${args.join(" ")} に失敗しました。${processError}${output}`);
   }
   return options.capture ? String(result.stdout || "").trim() : "";
 }
 
+function runNpm(args) {
+  if (process.platform === "win32") {
+    const commandInterpreter = process.env.ComSpec || "cmd.exe";
+    return run(commandInterpreter, ["/d", "/s", "/c", "npm.cmd", ...args]);
+  }
+  return run("npm", args);
+}
+
 async function main() {
-  const npmCommand = process.platform === "win32" ? "npm.cmd" : "npm";
-  run(npmCommand, ["run", "viewer:export"]);
+  runNpm(["run", "viewer:export"]);
 
   const origin = run("git", ["remote", "get-url", "origin"], { capture: true });
   if (!origin) throw new Error("Git remote origin が見つかりません。");
