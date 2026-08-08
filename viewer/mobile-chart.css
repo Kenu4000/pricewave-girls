@@ -1,0 +1,60 @@
+@media (max-width: 760px) {
+  .price-chart-mobile {
+    margin-top: -4px;
+  }
+
+  .mobile-chart-legend {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 5px 10px;
+    margin-bottom: 2px;
+    font-size: 12px;
+  }
+
+  .mobile-chart-legend span {
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .mobile-chart-legend span::before {
+    width: 14px;
+  }
+
+  .mobile-chart-wrap {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 2px 0 0;
+  }
+
+  .mobile-chart {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 0;
+    aspect-ratio: 720 / 280;
+  }
+
+  .mobile-chart .chart-y-label {
+    font-size: 22px;
+    font-weight: 700;
+    fill: #667085;
+  }
+
+  .mobile-chart .chart-x-label {
+    font-size: 21px;
+    font-weight: 600;
+    fill: #667085;
+  }
+
+  .mobile-chart .gridline {
+    stroke-width: 1.4;
+  }
+
+  .mobile-chart .sale,
+  .mobile-chart .buy,
+  .mobile-chart .rankb,
+  .mobile-chart .timesale {
+    stroke-width: 2.5;
+  }
+}
