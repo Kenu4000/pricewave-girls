@@ -7,12 +7,13 @@
   },
   "scripts": {
     "predev": "prisma migrate deploy && prisma generate && node --import tsx scripts/backfill-product-conditions.ts",
-    "dev": "next dev -H 0.0.0.0",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -H 0.0.0.0",
-    "share:url": "node scripts/show-network-url.mjs",
+    "start": "next start",
     "test": "node --import tsx --test lib/*.test.ts",
     "typecheck": "tsc --noEmit",
+    "viewer:export": "node --import tsx scripts/export-viewer-data.ts",
+    "viewer:publish": "node scripts/publish-viewer.mjs",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev && prisma generate",
     "postinstall": "prisma generate"
