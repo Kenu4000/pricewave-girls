@@ -7,12 +7,13 @@
     return Boolean(stored[TEST_CONTINUE_KEY]);
   }
 
-  function skippedAccessChallengeError() {
-    const error = new Error(
-      "テストモードのため、アクセス確認の商品を失敗としてスキップして次へ進みます。",
+  function skippedAccessChallengeError(error) {
+    const status = Number.isInteger(error?.httpStatus) ? `HTTP ${error.httpStatus}` : "アクセス確認";
+    const skipped = new Error(
+      `テストモードのため、${status}の商品を失敗としてスキップして次へ進みます。`,
     );
-    error.name = "SkippedAccessChallengeError";
-    return error;
+    skipped.name = "SkippedAccessChallengeError";
+    return skipped;
   }
 
   processProductsInParallel = async function processProductsWithHardTestMode(
@@ -33,13 +34,13 @@
       );
     }
 
-    // テストON時は、内側の「2商品連続で停止」判定へ通常のアクセス確認を渡さない。
-    // 403/429 等 nonSkippable の AccessChallengeError だけはそのまま停止させる。
+    // テストON時はアクセス確認・実HTTP 403/429とも、その商品を失敗扱いで飛ばす。
+    // 制限ページの再試行や突破は行わず、巡回処理が最後まで進むかだけを検証する。
     const processorIgnoringAccessChallenges = async (product) => {
       try {
         return await processor(product);
       } catch (error) {
-        if (!(error instanceof AccessChallengeError) || error.nonSkippable) {
+        if (!(error instanceof AccessChallengeError)) {
           throw error;
         }
 
@@ -47,12 +48,12 @@
         if (!(await readTestContinueMode())) {
           throw error;
         }
-        throw skippedAccessChallengeError();
+        throw skippedAccessChallengeError(error);
       }
     };
 
     await setStatus({
-      message: "テストモードON: 通常のアクセス確認は停止せずスキップします。",
+      message: "テストモードON: アクセス確認・HTTP 403/429は停止せず失敗扱いでスキップします。",
     });
 
     return originalProcessProductsInParallel(
