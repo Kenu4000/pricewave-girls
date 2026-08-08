@@ -94,6 +94,11 @@ function createHarness(fastSiteModeEnabled: boolean, parallelTabs: number): Harn
         };
         continue;
       }
+      if (fileName === "access-challenge-test-mode-wrapper.js") {
+        // このテストは高速タブ設定の配線だけを検証する。アクセス確認テストモード
+        // 自体の挙動は専用テストで確認するため、ここでは読み込みだけ許可する。
+        continue;
+      }
       throw new Error(`想定外のimportScriptsです: ${fileName}`);
     }
   };
