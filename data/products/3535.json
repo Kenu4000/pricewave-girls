@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 3535,
+    "title": "Windows7/8/8.1/10 DVDソフト ルネソフトプレミアムパック3 -こんなにいっぱい入りきらないよぉ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060091",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060091.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2018-01-26",
+    "listPrice": 13200,
+    "modelNumber": "MGGW0187",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060091",
+      "メーカー": "ルネ",
+      "発売日": "2018/01/26",
+      "定価": "13,200円",
+      "型番": "MGGW0187",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 8711,
+    "latestRegularSalePrice": 8711,
+    "latestBuyPrice": 4600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 3549,
+      "productId": 3535,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 12983,
+      "productId": 3535,
+      "salePrice": 8711,
+      "regularSalePrice": 8711,
+      "buyPrice": 4600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    },
+    {
+      "id": 15661,
+      "productId": 3535,
+      "salePrice": 8711,
+      "regularSalePrice": 8711,
+      "buyPrice": 4600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27465,
+      "productId": 3535,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145060091001",
+      "price": 13200,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17478,
+      "productId": 3535,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145060091001",
+      "price": 13200,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    }
+  ]
+}

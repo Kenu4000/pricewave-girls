@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8223,
+    "title": "Windows98/Me/2000/XP DVDソフト 恋ごころ～Standard Edition～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014553",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014553.jpg",
+    "manufacturer": "RAM",
+    "releaseDate": "2006-07-28",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014553",
+      "メーカー": "RAM",
+      "発売日": "2006/07/28",
+      "定価": "3,080円",
+      "シナリオ": "魁",
+      "声優": "佐々木あかり",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8237,
+      "productId": 8223,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1515,
+      "productId": 8223,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145014553001",
+      "price": 3080,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

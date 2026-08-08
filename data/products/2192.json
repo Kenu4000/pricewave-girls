@@ -1,0 +1,621 @@
+{
+  "product": {
+    "id": 2192,
+    "title": "Windows95 CDソフト アリスの館4・5・6",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000611",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000611.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "1997-12-18",
+    "listPrice": 10450,
+    "modelNumber": "ALS-0028",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000611001",
+      "メーカー": "ALICESOFT",
+      "発売日": "1997/12/18",
+      "定価": "10,450円",
+      "型番": "ALS-0028",
+      "原画": "MIN-NARAKEN\nおにぎりくん",
+      "シナリオ": "TADA\nふみゃ\nとり",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:11:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 2206,
+      "productId": 2192,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7097,
+      "productId": 2192,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12369,
+      "productId": 2192,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15044,
+      "productId": 2192,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24228,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24227,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 2275,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24226,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24225,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24224,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24223,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1620,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24222,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24221,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1470,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24220,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24219,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古アトラク=ナクア欠品",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24218,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24217,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古「人間狩り」欠品",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24216,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書欠け",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24215,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1330,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24214,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24213,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古スポンジ欠品、箱・説明書状態難",
+      "price": 1300,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24212,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ゲームソフトのみ",
+      "price": 1200,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24211,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 900,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24210,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古スポンジ欠品",
+      "price": 900,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24209,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スポンジ欠品",
+      "price": 900,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24208,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 900,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24207,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームソフトのみ",
+      "price": 1200,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24206,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スポンジ欠品、箱・説明書状態難",
+      "price": 1300,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24205,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 アトラク=ナクア欠品",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24204,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24203,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 24202,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 「人間狩り」欠品",
+      "price": 1400,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 14228,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14227,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 2275,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14226,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14225,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1620,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14224,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1610,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14223,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古「人間狩り」欠品",
+      "price": 1610,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14222,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古アトラク=ナクア欠品",
+      "price": 1590,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14221,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書欠け",
+      "price": 1590,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14220,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古スポンジ欠品、箱・説明書状態難",
+      "price": 1560,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14219,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14218,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1470,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14217,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14216,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ゲームソフトのみ",
+      "price": 1380,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14215,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1330,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14214,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14213,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14212,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1080,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14211,
+      "productId": 2192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古スポンジ欠品",
+      "price": 1060,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14210,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スポンジ欠品",
+      "price": 1060,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14209,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1080,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14208,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームソフトのみ",
+      "price": 1380,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14207,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スポンジ欠品、箱・説明書状態難",
+      "price": 1560,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14206,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 アトラク=ナクア欠品",
+      "price": 1590,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14205,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 1590,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14204,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 1610,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14203,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 「人間狩り」欠品",
+      "price": 1610,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 196,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 660,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 195,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームソフトのみ",
+      "price": 840,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 194,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スポンジ欠品、箱・説明書状態難",
+      "price": 950,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 193,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 970,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 192,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 アトラク=ナクア欠品",
+      "price": 970,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 191,
+      "productId": 2192,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 「人間狩り」欠品",
+      "price": 980,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    }
+  ]
+}

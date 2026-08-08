@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 3006,
+    "title": "WindowsXP/Vista/7 DVDソフト 水月 弐 ー追憶ー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035171",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035171.jpg",
+    "manufacturer": "F＆C",
+    "releaseDate": "2012-12-21",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035171",
+      "メーカー": "F＆C",
+      "発売日": "2012/12/21",
+      "定価": "10,780円",
+      "シナリオ": "HANABUSA\n高瀬伸\n土岐光鳳\n苑脇つぐみ",
+      "原画": "KUT",
+      "声優": "永倉仁八\n桃井いちご\n鈴谷まや\n一色ヒカル\n和葉\n藤森ゆき奈\nかわしまりの\n羽高なる\n木下鈴\n宮沢ゆあな\n藍川珪\n御苑生メイ\n本多啓吾",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:15:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 3020,
+      "productId": 3006,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 12767,
+      "productId": 3006,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15446,
+      "productId": 3006,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26602,
+      "productId": 3006,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145035171001",
+      "price": 10780,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 16598,
+      "productId": 3006,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145035171001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

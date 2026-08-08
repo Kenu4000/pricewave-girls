@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 3313,
+    "title": "Windows DVDソフト ねこねこソフト しょんぼりファンクラブ おかえしCD その8くらい",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077156",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077156.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "NEKO08",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145077156",
+      "メーカー": "ねこねこソフト",
+      "型番": "NEKO08",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:00.000Z"
+  },
+  "histories": [
+    {
+      "id": 3327,
+      "productId": 3313,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 12883,
+      "productId": 3313,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15563,
+      "productId": 3313,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    }
+  ],
+  "junkHistories": []
+}

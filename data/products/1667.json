@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1667,
+    "title": "Windows8/10 DVDソフト リンカーベル・アカデミア -落第魔女とヒミツの儀式-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072660",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072660.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2021-09-24",
+    "listPrice": 2530,
+    "modelNumber": "CSK-010",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072660",
+      "メーカー": "Casket",
+      "発売日": "2021/09/24",
+      "定価": "2,530円",
+      "型番": "CSK-010",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら",
+      "声優": "花澤さくら\n花寺香蓮\n雲雀ゆい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1681,
+      "productId": 1667,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6576,
+      "productId": 1667,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:56.000Z"
+    },
+    {
+      "id": 13521,
+      "productId": 1667,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18968,
+      "productId": 1667,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145072660001",
+      "price": 2530,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

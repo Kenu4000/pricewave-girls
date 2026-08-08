@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 8252,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ランクB)天色*アイルノーツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901405",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901405.jpg",
+    "manufacturer": "ゆずソフト",
+    "releaseDate": "2013-07-26",
+    "listPrice": 9680,
+    "modelNumber": "YSPG-0007",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145901405",
+      "メーカー": "ゆずソフト",
+      "発売日": "2013/07/26",
+      "定価": "9,680円",
+      "型番": "YSPG-0007",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8266,
+      "productId": 8252,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 13197,
+      "productId": 8252,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15880,
+      "productId": 8252,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28202,
+      "productId": 8252,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145901405001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18210,
+      "productId": 8252,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145901405001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1574,
+      "productId": 8252,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145901405001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 8098,
+    "title": "Windows95 CDソフト 世紀末退魔伝つむぎちゃんSOS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000913",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000913.jpg",
+    "manufacturer": "デザイアー",
+    "releaseDate": "1998-01-30",
+    "listPrice": 9680,
+    "modelNumber": "EXC-0011",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000913",
+      "メーカー": "デザイアー",
+      "発売日": "1998/01/30",
+      "定価": "9,680円",
+      "型番": "EXC-0011",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1040,
+    "latestRegularSalePrice": 1040,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8112,
+      "productId": 8098,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1231,
+      "productId": 8098,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000913001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 2679,
+    "title": "Windows95 CDソフト GOKKO参上!! 完全版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000039",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000039.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "1996-08-24",
+    "listPrice": 12980,
+    "modelNumber": "MNK-C-6",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000039001",
+      "メーカー": "ミンク",
+      "発売日": "1996/08/24",
+      "定価": "12,980円",
+      "型番": "MNK-C-6",
+      "原画": "佐藤幼",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:58.000Z"
+  },
+  "histories": [
+    {
+      "id": 2693,
+      "productId": 2679,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7587,
+      "productId": 2679,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ],
+  "junkHistories": []
+}

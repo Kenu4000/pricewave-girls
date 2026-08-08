@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8144,
+    "title": "Windows98/Me/2000/XP CDソフト 肉体金融道",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012484",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012484.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2005-02-18",
+    "listPrice": 9680,
+    "modelNumber": "INH-240",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012484",
+      "メーカー": "インターハート",
+      "発売日": "2005/02/18",
+      "定価": "9,680円",
+      "型番": "INH-240",
+      "原画": "わざきた",
+      "シナリオ": "Kスケ",
+      "声優": "深井晴花",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 3280,
+    "latestRegularSalePrice": 3280,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8158,
+      "productId": 8144,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1353,
+      "productId": 8144,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145012484001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "product": {
+    "id": 8066,
+    "title": "Windows98/Me/2000/XP DVDソフト 十次元立方体サイファー ～蒼き月の水底～ [DVD-ROM版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012214",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012214.jpg",
+    "manufacturer": "アーベルソフトウェア",
+    "releaseDate": "2004-12-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145012214001",
+      "メーカー": "アーベルソフトウェア",
+      "発売日": "2004/12/24",
+      "定価": "9,680円",
+      "原画": "すぎやま現象",
+      "シナリオ": "菅野ひろゆき",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8080,
+      "productId": 8066,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1157,
+      "productId": 8066,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1156,
+      "productId": 8066,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8276,
+    "title": "Windows95 CDソフト 卒業写真",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001224",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001224.jpg",
+    "manufacturer": "ジャニス",
+    "releaseDate": "1997-11-07",
+    "listPrice": 6380,
+    "modelNumber": "JAR-0503",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001224",
+      "メーカー": "ジャニス",
+      "発売日": "1997/11/07",
+      "定価": "6,380円",
+      "型番": "JAR-0503",
+      "原画": "影崎由那",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8290,
+      "productId": 8276,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1610,
+      "productId": 8276,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145001224001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

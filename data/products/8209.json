@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 8209,
+    "title": "Windows95/98/Me/2000 CDソフト 叶わぬ恋の物語 [初回版]（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004560",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004560.jpg",
+    "manufacturer": "フォスター",
+    "releaseDate": "2001-03-30",
+    "listPrice": 9680,
+    "modelNumber": "FST-0101",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004560001",
+      "メーカー": "フォスター",
+      "発売日": "2001/03/30",
+      "定価": "9,680円",
+      "型番": "FST-0101",
+      "原画": "スカイハウス",
+      "シナリオ": "D.D.",
+      "声優": "古賀一史",
+      "カテゴリ": "アダルト Windows Windows Me"
+    },
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 470,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8223,
+      "productId": 8209,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1497,
+      "productId": 8209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1312,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1496,
+      "productId": 8209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1495,
+      "productId": 8209,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1494,
+      "productId": 8209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 800,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1493,
+      "productId": 8209,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 470,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 8415,
+    "title": "Windows95/98/Me/2000 CDソフト 降魔録",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145005101",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145005101.jpg",
+    "manufacturer": "たまソフト",
+    "releaseDate": "2001-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145005101",
+      "メーカー": "たまソフト",
+      "発売日": "2001/09/28",
+      "定価": "9,680円",
+      "原画": "N.O-茶々丸",
+      "シナリオ": "太高健次朗",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8429,
+      "productId": 8415,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 13252,
+      "productId": 8415,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15934,
+      "productId": 8415,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28323,
+      "productId": 8415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 28322,
+      "productId": 8415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18335,
+      "productId": 8415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 18334,
+      "productId": 8415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1834,
+      "productId": 8415,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145005101001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 2156,
+    "title": "Windows7/8/8.1/10 DVDソフト グランギニョルの夜 完全版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076696",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076696.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2019-03-29",
+    "listPrice": 14080,
+    "modelNumber": "TB-065F",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076696",
+      "メーカー": "TinkerBell",
+      "発売日": "2019/03/29",
+      "定価": "14,080円",
+      "型番": "TB-065F",
+      "原画": "あおじる",
+      "シナリオ": "小峰久生",
+      "声優": "手塚りょうこ\nかぐや凛子\n雨音未来\nいねむりすやこ\n今谷皆美",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "タペストリー欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "タペストリー欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:11:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 2170,
+      "productId": 2156,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "タペストリー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7060,
+      "productId": 2156,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "タペストリー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12343,
+      "productId": 2156,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "タペストリー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15018,
+      "productId": 2156,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "タペストリー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24069,
+      "productId": 2156,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145076696001",
+      "price": 14080,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 14073,
+      "productId": 2156,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145076696001",
+      "price": 14080,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

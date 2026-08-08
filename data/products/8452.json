@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8452,
+    "title": "Windows98/Me/2000/XP CDソフト 若奥さま美咲 ～抱かれて悶えて流されて～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012578",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012578.jpg",
+    "manufacturer": "グローブGLOB",
+    "releaseDate": "2005-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012578",
+      "メーカー": "グローブGLOB",
+      "発売日": "2005/02/25",
+      "定価": "9,680円",
+      "原画": "浅賀葵",
+      "声優": "川角一本松",
+      "シナリオ": "黒傾",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8466,
+      "productId": 8452,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1924,
+      "productId": 8452,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145012578001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 8323,
+    "title": "Windows98/Me/2000/XP CDソフト 淫獄聖女学園",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009316",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009316.jpg",
+    "manufacturer": "ガールズソフトウェア",
+    "releaseDate": "2003-08-22",
+    "listPrice": 9680,
+    "modelNumber": "GSGS0008",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145009316001",
+      "メーカー": "ガールズソフトウェア",
+      "発売日": "2003/08/22",
+      "定価": "9,680円",
+      "型番": "GSGS0008",
+      "原画": "吉野恵子",
+      "声優": "北都南",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8337,
+      "productId": 8323,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1694,
+      "productId": 8323,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1800,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1693,
+      "productId": 8323,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 1740,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1692,
+      "productId": 8323,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1691,
+      "productId": 8323,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1690,
+      "productId": 8323,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 600,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

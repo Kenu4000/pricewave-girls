@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8111,
+    "title": "Windows95/98/Me/2000 CDソフト ねがぽじ ～お兄ちゃんと呼ばないでっ!!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004541",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004541.jpg",
+    "manufacturer": "アクティブ",
+    "releaseDate": "2001-04-06",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145004541",
+      "メーカー": "アクティブ",
+      "発売日": "2001/04/06",
+      "定価": "9,680円",
+      "原画": "風上旬",
+      "シナリオ": "枕流",
+      "カテゴリ": "アダルト Windows Windows Me"
+    },
+    "latestSalePrice": 1101,
+    "latestRegularSalePrice": 1101,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8125,
+      "productId": 8111,
+      "salePrice": 1101,
+      "regularSalePrice": 1101,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1269,
+      "productId": 8111,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145004541001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

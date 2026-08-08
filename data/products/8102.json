@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 8102,
+    "title": "Windows98/Me/2000/XP DVDソフト さくらむすび",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013148",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013148.jpg",
+    "manufacturer": "CUFFS",
+    "releaseDate": "2005-08-05",
+    "listPrice": 7480,
+    "modelNumber": "CFS-0001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013148001",
+      "メーカー": "CUFFS",
+      "発売日": "2005/08/05",
+      "定価": "7,480円",
+      "型番": "CFS-0001",
+      "原画": "☆画野朗",
+      "シナリオ": "トノイケダイスケ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 10500,
+    "latestRegularSalePrice": 10500,
+    "latestBuyPrice": 5300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8116,
+      "productId": 8102,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 13143,
+      "productId": 8102,
+      "salePrice": 11000,
+      "regularSalePrice": 11000,
+      "buyPrice": 5300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15823,
+      "productId": 8102,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": 5300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28035,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 11340,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 28034,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 28033,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 10300,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 18054,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 11340,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 18053,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 11000,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 18052,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 10300,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 1240,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 11340,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1239,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1238,
+      "productId": 8102,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 10300,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 8238,
+    "title": "Windows98/Me/2000/XP CDソフト いつか、どこかで -あの雨音の記憶-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006490",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006490.jpg",
+    "manufacturer": "BeF",
+    "releaseDate": "2002-05-23",
+    "listPrice": 9680,
+    "modelNumber": "BEF-0201",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145006490001",
+      "メーカー": "BeF",
+      "発売日": "2002/05/23",
+      "定価": "9,680円",
+      "型番": "BEF-0201",
+      "原画": "厘京太朗",
+      "シナリオ": "涼川始",
+      "声優": "さとうともみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 4580,
+    "latestRegularSalePrice": 4580,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8252,
+      "productId": 8238,
+      "salePrice": 4580,
+      "regularSalePrice": 4580,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1557,
+      "productId": 8238,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 6501,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1556,
+      "productId": 8238,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 4580,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

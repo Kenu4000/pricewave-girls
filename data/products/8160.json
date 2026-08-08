@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 8160,
+    "title": "Windows95/98/2000 CDソフト 愛姉妹 二人の果実",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003553",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003553.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2000-05-26",
+    "listPrice": 8580,
+    "modelNumber": "WIC-6634",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "中古 ：145003553001",
+      "メーカー": "エルフ",
+      "発売日": "2000/05/26",
+      "定価": "8,580円",
+      "型番": "WIC-6634",
+      "原画": "竹井正樹",
+      "シナリオ": "蛭田昌人",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveCondition": "原画集欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 460,
+    "latestRegularSalePrice": 460,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "原画集欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8174,
+      "productId": 8160,
+      "salePrice": 460,
+      "regularSalePrice": 460,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "原画集欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1375,
+      "productId": 8160,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1374,
+      "productId": 8160,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1601,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1373,
+      "productId": 8160,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1372,
+      "productId": 8160,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1371,
+      "productId": 8160,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古原画集欠品",
+      "price": 460,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

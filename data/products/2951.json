@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 2951,
+    "title": "Windows98/Me/2000/XP CDソフト ランクB）夢見ヶ丘",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905714",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905714.jpg",
+    "manufacturer": "FlyingShine",
+    "releaseDate": "2005-09-16",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145905714",
+      "メーカー": "FlyingShine",
+      "発売日": "2005/09/16",
+      "定価": "9,680円",
+      "原画": "くない瓜",
+      "シナリオ": "KeN",
+      "声優": "原田友貴\n大波こなみ\n吉川華生\n羽高なる\n中瀬ひな\n国定剛\n植木亨",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:15:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 2965,
+      "productId": 2951,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 12741,
+      "productId": 2951,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15421,
+      "productId": 2951,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26488,
+      "productId": 2951,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145905714001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 16474,
+      "productId": 2951,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145905714001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

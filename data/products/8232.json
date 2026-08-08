@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8232,
+    "title": "Windows98/Me/2000/XP DVDソフト 彗星に願いを… [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015566",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015566.jpg",
+    "manufacturer": "Sky-High feat.戯画",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015566",
+      "メーカー": "Sky-High feat.戯画",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "原画": "ねぎぼうず",
+      "シナリオ": "手塚とりぽか",
+      "声優": "春日アン",
+      "プロデュース": "田中ロミオ(山田一)",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 975,
+    "latestRegularSalePrice": 975,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8246,
+      "productId": 8232,
+      "salePrice": 975,
+      "regularSalePrice": 975,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1535,
+      "productId": 8232,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015566001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

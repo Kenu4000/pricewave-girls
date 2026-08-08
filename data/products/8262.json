@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 8262,
+    "title": "Windowsソフト ランクB)かみぱに! [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906805",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906805.jpg",
+    "manufacturer": "クロシェット",
+    "releaseDate": "2008-03-28",
+    "listPrice": 9680,
+    "modelNumber": "CLOCH_0001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145906805",
+      "メーカー": "クロシェット",
+      "発売日": "2008/03/28",
+      "定価": "9,680円",
+      "型番": "CLOCH_0001",
+      "原画": "しんたろー",
+      "シナリオ": "Hatsu",
+      "アーティスト": "理多",
+      "声優": "冬雪小春",
+      "カテゴリ": "パソコンソフト アダルト Windows"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8276,
+      "productId": 8262,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1592,
+      "productId": 8262,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145906805001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

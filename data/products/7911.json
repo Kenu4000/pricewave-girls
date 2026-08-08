@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 7911,
+    "title": "Windows95/98 CDソフト ランクB)tremolo トレモロ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904008.jpg",
+    "manufacturer": "メルロー",
+    "releaseDate": "2000-12-07",
+    "listPrice": 9680,
+    "modelNumber": "GES-W004",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145904008",
+      "メーカー": "メルロー",
+      "発売日": "2000/12/07",
+      "定価": "9,680円",
+      "型番": "GES-W004",
+      "原画": "ビューティ・ヘア",
+      "声優": "森本まこと",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 4590,
+    "latestRegularSalePrice": 4590,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7925,
+      "productId": 7911,
+      "salePrice": 4590,
+      "regularSalePrice": 4590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 669,
+      "productId": 7911,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145904008001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1919,
+    "title": "Windows8/10 DVDソフト オタサーの姫は私なんだから! -あの子、童貞みんなで壊しちゃえ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068770",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068770.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-06-26",
+    "listPrice": 2200,
+    "modelNumber": "APT-162",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068770",
+      "メーカー": "アパタイト",
+      "発売日": "2020/06/26",
+      "定価": "2,200円",
+      "型番": "APT-162",
+      "原画": "鈴音れな",
+      "シナリオ": "海綿じろう",
+      "声優": "葉月あかり\n四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1933,
+      "productId": 1919,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6828,
+      "productId": 1919,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 13567,
+      "productId": 1919,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19048,
+      "productId": 1919,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145068770001",
+      "price": 2200,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

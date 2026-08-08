@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8109,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト なかだしトリロジー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022128",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022128.jpg",
+    "manufacturer": "C：drive.",
+    "releaseDate": "2009-10-30",
+    "listPrice": 6380,
+    "modelNumber": "XERO-0910",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022128",
+      "メーカー": "C：drive.",
+      "発売日": "2009/10/30",
+      "定価": "6,380円",
+      "型番": "XERO-0910",
+      "原画": "瑠奈璃亜",
+      "シナリオ": "武藤礼恵",
+      "声優": "雪都さお梨",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8123,
+      "productId": 8109,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1264,
+      "productId": 8109,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145022128001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

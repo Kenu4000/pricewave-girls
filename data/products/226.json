@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 226,
+    "title": "Windows98/Me/2000/XP CDソフト かけらふぁんでぃすく",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010654",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010654.jpg",
+    "manufacturer": "イオ",
+    "releaseDate": "2004-01-30",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "Windows XP パソコン パソコンソフト",
+    "details": {
+      "管理番号": "中古 ：145010654001",
+      "メーカー": "イオ",
+      "発売日": "2004/01/30",
+      "定価": "4,180円",
+      "原画": "たかみち",
+      "シナリオ": "篠澤真夫",
+      "カテゴリ": "Windows XP パソコン パソコンソフト"
+    },
+    "latestSalePrice": 24800,
+    "latestRegularSalePrice": 24800,
+    "latestBuyPrice": 8500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:18:41.000Z"
+  },
+  "histories": [
+    {
+      "id": 236,
+      "productId": 226,
+      "salePrice": 24800,
+      "regularSalePrice": 24800,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T12:58:45.810Z"
+    },
+    {
+      "id": 4014,
+      "productId": 226,
+      "salePrice": 24800,
+      "regularSalePrice": 24800,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:45:29.000Z"
+    },
+    {
+      "id": 5130,
+      "productId": 226,
+      "salePrice": 24800,
+      "regularSalePrice": 24800,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:01:52.000Z"
+    },
+    {
+      "id": 7867,
+      "productId": 226,
+      "salePrice": 24800,
+      "regularSalePrice": 24800,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:18:41.000Z"
+    }
+  ],
+  "junkHistories": []
+}

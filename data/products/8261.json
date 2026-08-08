@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 8261,
+    "title": "Windows95/98 CDソフト Ribbon2[初回版]（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002245",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002245.jpg",
+    "manufacturer": "Bonbee!",
+    "releaseDate": "1999-11-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002245001",
+      "メーカー": "Bonbee!",
+      "発売日": "1999/11/05",
+      "定価": "9,680円",
+      "原画": "MIRIKO",
+      "シナリオ": "魁",
+      "声優": "如月来夢",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8275,
+      "productId": 8261,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1591,
+      "productId": 8261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1900,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1590,
+      "productId": 8261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1589,
+      "productId": 8261,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1250,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

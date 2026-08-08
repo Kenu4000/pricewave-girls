@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 8254,
+    "title": "Windows95/98 CDソフト コ・コ・ロ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001695.jpg",
+    "manufacturer": "アアル",
+    "releaseDate": "1998-12-04",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145001695001",
+      "メーカー": "アアル",
+      "発売日": "1998/12/04",
+      "定価": "8,580円",
+      "原画": "市川小紗",
+      "シナリオ": "美汐優",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 2850,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8268,
+      "productId": 8254,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1584,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1583,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2800,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1582,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2601,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1581,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1800,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1580,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古原画集欠品、箱状態難",
+      "price": 1630,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1579,
+      "productId": 8254,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 1450,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1577,
+      "productId": 8254,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 原画集欠品、箱状態難",
+      "price": 1630,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1576,
+      "productId": 8254,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1800,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

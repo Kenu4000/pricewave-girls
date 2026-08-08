@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 763,
+    "title": "Windows10/11 DVDソフト 天瀬島は色恋ざかり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079816",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079816.jpg",
+    "manufacturer": "Liaison",
+    "releaseDate": "2023-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145079816001",
+      "メーカー": "Liaison",
+      "発売日": "2023/12/22",
+      "定価": "9,680円",
+      "原画": "鈴鳴いちご",
+      "シナリオ": "kid",
+      "声優": "桜城ちか",
+      "カテゴリ": "アダルト Windows Windows 11"
+    },
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:04:51.000Z"
+  },
+  "histories": [
+    {
+      "id": 777,
+      "productId": 763,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4550,
+      "productId": 763,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:48:33.000Z"
+    },
+    {
+      "id": 5669,
+      "productId": 763,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:04:51.000Z"
+    }
+  ],
+  "junkHistories": []
+}

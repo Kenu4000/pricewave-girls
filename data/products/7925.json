@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 7925,
+    "title": "WindowsXP/Vista/7 DVDソフト Liquid Black Box[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033613",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033613.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2012-07-27",
+    "listPrice": 10780,
+    "modelNumber": "LIQ026B",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033613",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2012/07/27",
+      "定価": "10,780円",
+      "型番": "LIQ026B",
+      "原画": "神剣桜花",
+      "シナリオ": "永沢壱郎",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 4930,
+    "latestRegularSalePrice": 4930,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7939,
+      "productId": 7925,
+      "salePrice": 4930,
+      "regularSalePrice": 4930,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 714,
+      "productId": 7925,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145033613001",
+      "price": 10780,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

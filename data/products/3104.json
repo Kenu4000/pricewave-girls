@@ -1,0 +1,113 @@
+{
+  "product": {
+    "id": 3104,
+    "title": "Windows95/98 CDソフト カスタム隷奴 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001860",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001860.jpg",
+    "manufacturer": "Kiss",
+    "releaseDate": "1999-01-21",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145001860001",
+      "メーカー": "Kiss",
+      "発売日": "1999/01/21",
+      "定価": "9,680円",
+      "原画": "さんりようこ",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 490,
+    "latestRegularSalePrice": 490,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3118,
+      "productId": 3104,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12809,
+      "productId": 3104,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15489,
+      "productId": 3104,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26720,
+      "productId": 3104,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1540,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26719,
+      "productId": 3104,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 490,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16712,
+      "productId": 3104,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1540,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16711,
+      "productId": 3104,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 500,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

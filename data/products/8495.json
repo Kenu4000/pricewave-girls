@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8495,
+    "title": "Windows95 CDソフト ぷりてぃきゃっと",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000433",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000433.jpg",
+    "manufacturer": "アクアリウム",
+    "releaseDate": "1997-09-25",
+    "listPrice": 8580,
+    "modelNumber": "AR-PRETTYCAT",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000433",
+      "メーカー": "アクアリウム",
+      "発売日": "1997/09/25",
+      "定価": "8,580円",
+      "型番": "AR-PRETTYCAT",
+      "原画": "海豹かずま",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8509,
+      "productId": 8495,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1972,
+      "productId": 8495,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000433001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

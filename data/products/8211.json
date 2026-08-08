@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8211,
+    "title": "Windows2000/XP/Vista CDソフト 叔母穴ーオーバーホールー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024026",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024026.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2010-06-04",
+    "listPrice": 3300,
+    "modelNumber": "KRH-00022",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024026",
+      "メーカー": "黒雛",
+      "発売日": "2010/06/04",
+      "定価": "3,300円",
+      "型番": "KRH-00022",
+      "シナリオ": "明智 幸定",
+      "原画": "麻倉桜",
+      "声優": "氷室百合",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8225,
+      "productId": 8211,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1498,
+      "productId": 8211,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145024026001",
+      "price": 3300,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

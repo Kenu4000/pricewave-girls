@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 16212,
+    "title": "WindowsXP/Vista/7 DVDソフト MOON. for Windows XP/Vista/7",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023473",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023473.jpg",
+    "manufacturer": "NEXTON",
+    "releaseDate": "2010-04-02",
+    "listPrice": 7480,
+    "modelNumber": "NEX-006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145023473001",
+      "メーカー": "NEXTON",
+      "発売日": "2010/04/02",
+      "定価": "7,480円",
+      "型番": "NEX-006",
+      "原画": "樋上いたる",
+      "シナリオ": "久弥直樹\n麻枝准",
+      "声優": "児玉さとみ\nRuru\nAYA\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 29800,
+    "latestRegularSalePrice": 29800,
+    "latestBuyPrice": 15000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:32:42.000Z"
+  },
+  "histories": [
+    {
+      "id": 16226,
+      "productId": 16212,
+      "salePrice": 29800,
+      "regularSalePrice": 29800,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:32:42.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28949,
+      "productId": 16212,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 29800,
+      "checkedAt": "2026-08-07T20:32:42.000Z"
+    },
+    {
+      "id": 28948,
+      "productId": 16212,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/JANコード無し",
+      "price": 24800,
+      "checkedAt": "2026-08-07T20:32:42.000Z"
+    }
+  ]
+}

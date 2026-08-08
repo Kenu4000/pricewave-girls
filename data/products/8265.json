@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8265,
+    "title": "Windows95/98/Me/2000/XP CDソフト Wish ～終わりゆく世界で～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006312",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006312.jpg",
+    "manufacturer": "Selfish",
+    "releaseDate": "2002-04-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006312",
+      "メーカー": "Selfish",
+      "発売日": "2002/04/05",
+      "定価": "9,680円",
+      "原画": "綾風柳晶",
+      "シナリオ": "すずきこうじ",
+      "声優": "七原ことみ",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 20000,
+    "latestRegularSalePrice": 20000,
+    "latestBuyPrice": 26000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8279,
+      "productId": 8265,
+      "salePrice": 20000,
+      "regularSalePrice": 20000,
+      "buyPrice": 26000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1602,
+      "productId": 8265,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006312001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

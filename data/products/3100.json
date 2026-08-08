@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3100,
+    "title": "Windows98/Me CDソフト My fair angel[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076615",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076615.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2001-09-27",
+    "listPrice": 10780,
+    "modelNumber": "COMASU-0021",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145076615",
+      "メーカー": "Studio e・go!",
+      "発売日": "2001/09/27",
+      "定価": "10,780円",
+      "型番": "COMASU-0021",
+      "原画": "山本和枝",
+      "声優": "空野太陽\n宇佐美桃香\nダイナマイト亜美\n森本れおな\n富樫ケイ",
+      "シナリオ": "深崎とうや\n石川洋一\n寺岡健治\n有原昌顕",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "テレカ欠品、説明書状態難",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 390,
+    "latestRegularSalePrice": 390,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "テレカ欠品、説明書状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3114,
+      "productId": 3100,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "テレカ欠品、説明書状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12807,
+      "productId": 3100,
+      "salePrice": 390,
+      "regularSalePrice": 390,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "テレカ欠品、説明書状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15487,
+      "productId": 3100,
+      "salePrice": 390,
+      "regularSalePrice": 390,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "テレカ欠品、説明書状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26712,
+      "productId": 3100,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145076615001",
+      "price": 10780,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16704,
+      "productId": 3100,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145076615001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

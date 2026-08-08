@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 8335,
+    "title": "Windows98/Me/2000/XP CDソフト ぷちぷち☆魔女先生!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010063",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010063.jpg",
+    "manufacturer": "TerraLunar",
+    "releaseDate": "2003-12-19",
+    "listPrice": 9680,
+    "modelNumber": "TERRA1005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145010063001",
+      "メーカー": "TerraLunar",
+      "発売日": "2003/12/19",
+      "定価": "9,680円",
+      "型番": "TERRA1005",
+      "原画": "みずきえいむ",
+      "シナリオ": "闇崎速雄\n真久保乱",
+      "声優": "柴田蕗\n木村あやか\nみすみ\n相模真\n亜以",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "カレンダー欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": "カレンダー欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8349,
+      "productId": 8335,
+      "salePrice": 3080,
+      "regularSalePrice": 3080,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": "カレンダー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 13220,
+      "productId": 8335,
+      "salePrice": 3080,
+      "regularSalePrice": 3080,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": "カレンダー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15902,
+      "productId": 8335,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": "カレンダー欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28239,
+      "productId": 8335,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 カレンダー欠品、箱状態難",
+      "price": 2180,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18250,
+      "productId": 8335,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 カレンダー欠品、箱状態難",
+      "price": 2430,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    }
+  ]
+}

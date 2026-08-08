@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 8519,
+    "title": "Windows95/98ソフト 女教師の艶めき",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012257",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012257.jpg",
+    "manufacturer": "TMA",
+    "releaseDate": "1999-02-12",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145012257",
+      "メーカー": "TMA",
+      "発売日": "1999/02/12",
+      "定価": "6,380円",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8533,
+      "productId": 8519,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1989,
+      "productId": 8519,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145012257001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

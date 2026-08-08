@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 2933,
+    "title": "Windows95/98/2000 CDソフト Sense Off センス・オフ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003822",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003822.jpg",
+    "manufacturer": "ビジュアルアーツ",
+    "releaseDate": "2000-08-18",
+    "listPrice": 9680,
+    "modelNumber": "WIC-6708",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "中古 ：145003822001",
+      "メーカー": "ビジュアルアーツ",
+      "発売日": "2000/08/18",
+      "定価": "9,680円",
+      "型番": "WIC-6708",
+      "原画": "ゆう",
+      "シナリオ": "うつろあくた\n元長柾木",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "説明書不備",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 7900,
+    "latestRegularSalePrice": 7900,
+    "latestBuyPrice": 6100,
+    "stockStatus": "in_stock",
+    "condition": "説明書不備",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:44:13.000Z"
+  },
+  "histories": [
+    {
+      "id": 2947,
+      "productId": 2933,
+      "salePrice": 7900,
+      "regularSalePrice": 7900,
+      "buyPrice": 6100,
+      "stockStatus": "in_stock",
+      "condition": "説明書不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 13693,
+      "productId": 2933,
+      "salePrice": 7900,
+      "regularSalePrice": 7900,
+      "buyPrice": 6100,
+      "stockStatus": "in_stock",
+      "condition": "説明書不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19585,
+      "productId": 2933,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 9450,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19584,
+      "productId": 2933,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書不備",
+      "price": 7900,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19583,
+      "productId": 2933,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古スリーブ状態難",
+      "price": 5900,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19582,
+      "productId": 2933,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 5900,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19581,
+      "productId": 2933,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・説明書欠け",
+      "price": 4520,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19580,
+      "productId": 2933,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・説明書欠け",
+      "price": 4520,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19579,
+      "productId": 2933,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 5900,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19578,
+      "productId": 2933,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 スリーブ状態難",
+      "price": 5900,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ]
+}

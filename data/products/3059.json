@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 3059,
+    "title": "WindowsXP/Vista/7 DVDソフト いろとりどりのセカイ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072741",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072741.jpg",
+    "manufacturer": "FAVORITE",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145072741",
+      "メーカー": "FAVORITE",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "原画": "GT\n司田カズヒロ\nなつめえり",
+      "シナリオ": "漆原雪人",
+      "声優": "氷河流\n澤田なつ\n外屋舞美\n加乃みるく\n杏子御津\n藤森ゆき奈\n宇佐美みもえ\n石川乃奈\n相葉茉美\n神村ひな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ソフト単品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 4510,
+    "latestRegularSalePrice": 4510,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ソフト単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3073,
+      "productId": 3059,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12794,
+      "productId": 3059,
+      "salePrice": 4510,
+      "regularSalePrice": 4510,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15473,
+      "productId": 3059,
+      "salePrice": 4510,
+      "regularSalePrice": 4510,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26689,
+      "productId": 3059,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145072741001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16683,
+      "productId": 3059,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145072741001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

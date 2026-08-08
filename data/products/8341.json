@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 8341,
+    "title": "Windows2000/XP/Vista DVDソフト 妻の母さゆり [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017885",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017885.jpg",
+    "manufacturer": "CATTLEYA(カトレヤ)",
+    "releaseDate": "2008-04-25",
+    "listPrice": 9680,
+    "modelNumber": "CAT04",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017885001",
+      "メーカー": "CATTLEYA(カトレヤ)",
+      "発売日": "2008/04/25",
+      "定価": "9,680円",
+      "型番": "CAT04",
+      "原画": "川合正起",
+      "シナリオ": "りっくりっく",
+      "音楽": "アトリエピーチ",
+      "声優": "紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:08:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 8355,
+      "productId": 8341,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1724,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 1723,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

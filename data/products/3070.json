@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 3070,
+    "title": "Windows95/98/Me/2000 CDソフト SPOTLIGHT～羨望と欲望の狭間～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004770",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004770.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2001-06-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004770001",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2001/06/22",
+      "定価": "9,680円",
+      "原画": "DOH250R",
+      "シナリオ": "照",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3084,
+      "productId": 3070,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12798,
+      "productId": 3070,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15477,
+      "productId": 3070,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26695,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1500,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26694,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・マニュアル傷み・ディスクキズ有",
+      "price": 1480,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26693,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16688,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1500,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16687,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・マニュアル傷み・ディスクキズ有",
+      "price": 1480,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16686,
+      "productId": 3070,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

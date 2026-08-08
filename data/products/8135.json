@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 8135,
+    "title": "Windows98/Me/2000/XP CDソフト 女教師 -肉体授業- [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006680",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006680.jpg",
+    "manufacturer": "ウィル",
+    "releaseDate": "2002-07-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145006680001",
+      "メーカー": "ウィル",
+      "発売日": "2002/07/05",
+      "定価": "9,680円",
+      "原画": "きお誠児",
+      "シナリオ": "大御神剣",
+      "声優": "睦月理緒",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ボイスCD欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 430,
+    "latestRegularSalePrice": 430,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "ボイスCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8149,
+      "productId": 8135,
+      "salePrice": 430,
+      "regularSalePrice": 430,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ボイスCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1344,
+      "productId": 8135,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1580,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1343,
+      "productId": 8135,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1342,
+      "productId": 8135,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1341,
+      "productId": 8135,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1340,
+      "productId": 8135,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ボイスCD欠品",
+      "price": 430,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 3026,
+    "title": "Windows7/8/10 DVDソフト ランクB)ランス10",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902442",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902442.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2018-02-23",
+    "listPrice": 10780,
+    "modelNumber": "ALS-0087",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145902442",
+      "メーカー": "ALICESOFT",
+      "発売日": "2018/02/23",
+      "定価": "10,780円",
+      "型番": "ALS-0087",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 7980,
+    "latestRegularSalePrice": 7980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:15:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 3040,
+      "productId": 3026,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12776,
+      "productId": 3026,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15455,
+      "productId": 3026,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26655,
+      "productId": 3026,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145902442001",
+      "price": 10780,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 16658,
+      "productId": 3026,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145902442001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

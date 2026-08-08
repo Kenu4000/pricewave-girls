@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8247,
+    "title": "Windows95 CDソフト PIL caSEX( ピルケース )",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001454",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001454.jpg",
+    "manufacturer": "PIL",
+    "releaseDate": null,
+    "listPrice": 8250,
+    "modelNumber": "PIL-0504",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001454",
+      "メーカー": "PIL",
+      "定価": "8,250円",
+      "型番": "PIL-0504",
+      "原画": "キリヤマ太一",
+      "シナリオ": "丸谷秀人",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8261,
+      "productId": 8247,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1569,
+      "productId": 8247,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145001454001",
+      "price": 8250,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

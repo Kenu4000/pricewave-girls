@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8430,
+    "title": "Windows95 CDソフト お嬢様を狙え!! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000076",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000076.jpg",
+    "manufacturer": "ScooP (スクープ)",
+    "releaseDate": "1997-03-28",
+    "listPrice": 9680,
+    "modelNumber": "HADV-0007",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000076",
+      "メーカー": "ScooP (スクープ)",
+      "発売日": "1997/03/28",
+      "定価": "9,680円",
+      "型番": "HADV-0007",
+      "原画": "白米玄",
+      "シナリオ": "ろん",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 3811,
+    "latestRegularSalePrice": 3811,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8444,
+      "productId": 8430,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1869,
+      "productId": 8430,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000076001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

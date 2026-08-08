@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 8080,
+    "title": "Windows95/98/Me CDソフト けらくの王 -快楽の王-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004759",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004759.jpg",
+    "manufacturer": "メルロー",
+    "releaseDate": "2001-06-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004759001",
+      "メーカー": "メルロー",
+      "発売日": "2001/06/22",
+      "定価": "9,680円",
+      "原画/シナリオ": "風船クラブ",
+      "シナリオ": "硝子丸",
+      "声優": "彩世ゆう",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "原画": "/"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8094,
+      "productId": 8080,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1182,
+      "productId": 8080,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1181,
+      "productId": 8080,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1180,
+      "productId": 8080,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書欠け",
+      "price": 540,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

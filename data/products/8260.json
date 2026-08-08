@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8260,
+    "title": "Windows95/98 CDソフト エーゲネルスの花嫁",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003963",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003963.jpg",
+    "manufacturer": "MESA",
+    "releaseDate": "2000-09-15",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003963",
+      "メーカー": "MESA",
+      "発売日": "2000/09/15",
+      "定価": "9,680円",
+      "原画": "山根三四郎",
+      "シナリオ": "塾長",
+      "声優": "比未子",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8274,
+      "productId": 8260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1588,
+      "productId": 8260,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003963001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

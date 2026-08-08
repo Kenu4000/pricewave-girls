@@ -1,0 +1,105 @@
+{
+  "product": {
+    "id": 7860,
+    "title": "WindowsXP/Vista/7 DVDソフト 俺たちに翼はない R -Limited Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027833",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027833.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2011-06-24",
+    "listPrice": 9680,
+    "modelNumber": "NVSW-0031",
+    "category": "Windows 7 パソコン パソコンソフト",
+    "details": {
+      "管理番号": "145027833",
+      "メーカー": "Navel",
+      "発売日": "2011/06/24",
+      "定価": "9,680円",
+      "型番": "NVSW-0031",
+      "原画": "西又葵",
+      "シナリオ": "東ノ助\n王雀孫",
+      "声優": "三つ葉\n森谷実園\n五行なずな\n籐野らん\n又吉愛\n沢村かすみ\n澤田なつ\nたなかりお\n大花どん\nたかはし智秋\n井村屋ほのか",
+      "カテゴリ": "Windows 7 パソコン パソコンソフト",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 8400,
+    "latestRegularSalePrice": 8400,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 7874,
+      "productId": 7860,
+      "salePrice": 8400,
+      "regularSalePrice": 8400,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13025,
+      "productId": 7860,
+      "salePrice": 8400,
+      "regularSalePrice": 8400,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15702,
+      "productId": 7860,
+      "salePrice": 8400,
+      "regularSalePrice": 8400,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27569,
+      "productId": 7860,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145027833001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17613,
+      "productId": 7860,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145027833001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 480,
+      "productId": 7860,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145027833001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

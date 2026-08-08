@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 8442,
+    "title": "Windows98/Me/2000/XPソフト もけもけ大正電動娘ARISA",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010106",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010106.jpg",
+    "manufacturer": "mixwill so",
+    "releaseDate": "2004-01-23",
+    "listPrice": 9680,
+    "modelNumber": "MIX-G001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145010106001",
+      "メーカー": "mixwill so",
+      "発売日": "2004/01/23",
+      "定価": "9,680円",
+      "型番": "MIX-G001",
+      "原画": "八神健",
+      "声優": "下ノ関悦子",
+      "シナリオ": "Re-born",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8456,
+      "productId": 8442,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1900,
+      "productId": 8442,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1899,
+      "productId": 8442,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1898,
+      "productId": 8442,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 590,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

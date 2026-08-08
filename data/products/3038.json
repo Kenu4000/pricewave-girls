@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 3038,
+    "title": "Windows7/8.1/10 DVDソフト コイカツ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072577",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072577.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2018-04-27",
+    "listPrice": 10780,
+    "modelNumber": "ILN-108",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072577",
+      "メーカー": "ILLUSION",
+      "発売日": "2018/04/27",
+      "定価": "10,780円",
+      "型番": "ILN-108",
+      "声優": "綾瀬あかり\n藤崎紗矢香\n榊原ゆい\n片倉ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 14999,
+    "latestRegularSalePrice": 14999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3052,
+      "productId": 3038,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12780,
+      "productId": 3038,
+      "salePrice": 14999,
+      "regularSalePrice": 14999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15460,
+      "productId": 3038,
+      "salePrice": 14999,
+      "regularSalePrice": 14999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26674,
+      "productId": 3038,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145072577001",
+      "price": 10780,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16662,
+      "productId": 3038,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145072577001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "product": {
+    "id": 2659,
+    "title": "Windows2000/XP/Vista DVDソフト インフィニティ Plus",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017869",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017869.jpg",
+    "manufacturer": "KID/SDR Project(サイバーフロント)",
+    "releaseDate": "2008-04-04",
+    "listPrice": 16280,
+    "modelNumber": "300207",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017869001",
+      "メーカー": "KID/SDR Project(サイバーフロント)",
+      "発売日": "2008/04/04",
+      "定価": "16,280円",
+      "型番": "300207",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "Ever17・12Rivenゲームディスクのみ",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 14500,
+    "latestRegularSalePrice": 14500,
+    "latestBuyPrice": 12000,
+    "stockStatus": "in_stock",
+    "condition": "Ever17・12Rivenゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:14:16.000Z"
+  },
+  "histories": [
+    {
+      "id": 2673,
+      "productId": 2659,
+      "salePrice": 16300,
+      "regularSalePrice": 16300,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": "Ever17・12Rivenゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7567,
+      "productId": 2659,
+      "salePrice": 16300,
+      "regularSalePrice": 16300,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": "Ever17・12Rivenゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 12650,
+      "productId": 2659,
+      "salePrice": 16300,
+      "regularSalePrice": 16300,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": "Ever17・12Rivenゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15329,
+      "productId": 2659,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": "Ever17・12Rivenゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 25963,
+      "productId": 2659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 25311,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    },
+    {
+      "id": 25962,
+      "productId": 2659,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古Ever17・12Rivenゲームディスクのみ",
+      "price": 14500,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    },
+    {
+      "id": 15956,
+      "productId": 2659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 25311,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15955,
+      "productId": 2659,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古Ever17・12Rivenゲームディスクのみ",
+      "price": 16300,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    }
+  ]
+}

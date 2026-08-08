@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 8065,
+    "title": "Windows3.1/95 CDソフト きゃんきゃんバニー プルミエール",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000944",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000944.jpg",
+    "manufacturer": "カクテル・ソフト",
+    "releaseDate": "1996-11-22",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000944",
+      "メーカー": "カクテル・ソフト",
+      "発売日": "1996/11/22",
+      "定価": "6,380円",
+      "原画": "あ",
+      "シナリオ": "春菜ななこ",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 4200,
+    "latestRegularSalePrice": 4200,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8079,
+      "productId": 8065,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 13127,
+      "productId": 8065,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15807,
+      "productId": 8065,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27983,
+      "productId": 8065,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000944001",
+      "price": 6380,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 18001,
+      "productId": 8065,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000944001",
+      "price": 6380,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 1155,
+      "productId": 8065,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000944001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

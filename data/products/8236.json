@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 8236,
+    "title": "Windows2000/XP/Vista DVDソフト 冬のロンド[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018745",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018745.jpg",
+    "manufacturer": "DIVA",
+    "releaseDate": "2008-10-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018745001",
+      "メーカー": "DIVA",
+      "発売日": "2008/10/31",
+      "定価": "9,680円",
+      "原画": "やすゆき",
+      "シナリオ": "葉月もれび",
+      "アーティスト": "詩月カオリ",
+      "声優": "遠野そよぎ",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8250,
+      "productId": 8236,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1554,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1660,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1553,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1552,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1501,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1551,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1550,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1312,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1549,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1100,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1548,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1547,
+      "productId": 8236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 790,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8408,
+    "title": "Windows95/98 CDソフト SMノススメ -The Seeker ZERO- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004250",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004250.jpg",
+    "manufacturer": "天津堂",
+    "releaseDate": "2000-11-24",
+    "listPrice": 9680,
+    "modelNumber": "SPT-10039",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145004250",
+      "メーカー": "天津堂",
+      "発売日": "2000/11/24",
+      "定価": "9,680円",
+      "型番": "SPT-10039",
+      "原画": "RB26DETT",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8422,
+      "productId": 8408,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1827,
+      "productId": 8408,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145004250001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

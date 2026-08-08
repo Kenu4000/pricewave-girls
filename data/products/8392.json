@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8392,
+    "title": "Windows2000/XP/Vista DVDソフト あい☆きゃん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021023.jpg",
+    "manufacturer": "LiLiM",
+    "releaseDate": "2009-08-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021023",
+      "メーカー": "LiLiM",
+      "発売日": "2009/08/28",
+      "定価": "9,680円",
+      "原画": "金目鯛ぴんく",
+      "声優": "上田朱音",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:08:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 8406,
+      "productId": 8392,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1805,
+      "productId": 8392,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145021023001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

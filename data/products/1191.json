@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 1191,
+    "title": "Page not found",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074044",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": null,
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": null,
+    "category": null,
+    "details": {
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "unknown",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1205,
+      "productId": 1191,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "unknown",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6082,
+      "productId": 1191,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "unknown",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16129,
+      "productId": 1191,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "unknown",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": []
+}

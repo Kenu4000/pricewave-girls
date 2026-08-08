@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 8134,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト ワンコとリリー [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015640",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015640.jpg",
+    "manufacturer": "CUFFS",
+    "releaseDate": "2007-03-23",
+    "listPrice": 4180,
+    "modelNumber": "CFS007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015640",
+      "メーカー": "CUFFS",
+      "発売日": "2007/03/23",
+      "定価": "4,180円",
+      "型番": "CFS007",
+      "原画": "桜沢いづみ",
+      "シナリオ": "トノイケダイスケ",
+      "音楽": "安瀬聖",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8148,
+      "productId": 8134,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 13144,
+      "productId": 8134,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15828,
+      "productId": 8134,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1339,
+      "productId": 8134,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015640001",
+      "price": 4180,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

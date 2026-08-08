@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 2618,
+    "title": "Windows2000/XP/Vista DVDソフト ef - Second Fan Mix",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017467",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017467.jpg",
+    "manufacturer": "minori",
+    "releaseDate": "2008-02-08",
+    "listPrice": 5280,
+    "modelNumber": "SW-030P2",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017467",
+      "メーカー": "minori",
+      "発売日": "2008/02/08",
+      "定価": "5,280円",
+      "型番": "SW-030P2",
+      "原画": "2C=がろあ\n七尾奈留",
+      "シナリオ": "鏡遊\n御影",
+      "声優": "山田奈穂\n中島裕美子\nまきいづみ\n安玖深音\n安芸怜須ケン\n遠近孝一\n伊香川椎音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1711,
+    "latestRegularSalePrice": 1711,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:14:16.000Z"
+  },
+  "histories": [
+    {
+      "id": 2632,
+      "productId": 2618,
+      "salePrice": 1090,
+      "regularSalePrice": 1090,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7518,
+      "productId": 2618,
+      "salePrice": 1090,
+      "regularSalePrice": 1090,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 12626,
+      "productId": 2618,
+      "salePrice": 1090,
+      "regularSalePrice": 1090,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15303,
+      "productId": 2618,
+      "salePrice": 1711,
+      "regularSalePrice": 1711,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 25835,
+      "productId": 2618,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145017467001",
+      "price": 5280,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    },
+    {
+      "id": 15837,
+      "productId": 2618,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15836,
+      "productId": 2618,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ミニスタンドポップ欠品",
+      "price": 1090,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    }
+  ]
+}

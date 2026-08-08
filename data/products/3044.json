@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 3044,
+    "title": "Windows95/98 CDソフト 葵屋まっしぐら",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003243",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003243.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2000-02-25",
+    "listPrice": 9680,
+    "modelNumber": "cara-00225",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003243",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2000/02/25",
+      "定価": "9,680円",
+      "型番": "cara-00225",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 4811,
+    "latestRegularSalePrice": 4811,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3058,
+      "productId": 3044,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12787,
+      "productId": 3044,
+      "salePrice": 4811,
+      "regularSalePrice": 4811,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15466,
+      "productId": 3044,
+      "salePrice": 4811,
+      "regularSalePrice": 4811,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26679,
+      "productId": 3044,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003243001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16671,
+      "productId": 3044,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003243001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

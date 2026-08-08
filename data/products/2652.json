@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 2652,
+    "title": "Windows95/98 CDソフト 匣の中の悦楽",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003772",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003772.jpg",
+    "manufacturer": "ガイア",
+    "releaseDate": "2000-07-25",
+    "listPrice": 9680,
+    "modelNumber": "HYPER-29",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003772001",
+      "メーカー": "ガイア",
+      "発売日": "2000/07/25",
+      "定価": "9,680円",
+      "型番": "HYPER-29",
+      "原画": "綾風柳晶",
+      "声優": "紗綾",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveCondition": "サントラCD欠品、箱状態難",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 8100,
+    "latestRegularSalePrice": 8100,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "サントラCD欠品、箱状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:58.000Z"
+  },
+  "histories": [
+    {
+      "id": 2666,
+      "productId": 2652,
+      "salePrice": 8100,
+      "regularSalePrice": 8100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD欠品、箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7565,
+      "productId": 2652,
+      "salePrice": 8100,
+      "regularSalePrice": 8100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD欠品、箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 385,
+      "productId": 2652,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 サントラCD欠品、動作不良(カビ)",
+      "price": 7900,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ]
+}

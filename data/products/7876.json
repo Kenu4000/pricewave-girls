@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 7876,
+    "title": "Windows98/Me/2000/XP DVDソフト マブラヴ オルタネイティヴ [DVD-ROM 2次ロット版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014104",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014104.jpg",
+    "manufacturer": "アージュ",
+    "releaseDate": "2006-03-17",
+    "listPrice": 9680,
+    "modelNumber": "AGE-026",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014104001",
+      "メーカー": "アージュ",
+      "発売日": "2006/03/17",
+      "定価": "9,680円",
+      "型番": "AGE-026",
+      "原画": "Bou",
+      "シナリオ": "反重力生命マー",
+      "主題歌/声優": "栗林みな実",
+      "声優": "たかはし智秋",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "外箱欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 1430,
+    "latestRegularSalePrice": 1430,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": "外箱欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7890,
+      "productId": 7876,
+      "salePrice": 1430,
+      "regularSalePrice": 1430,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 536,
+      "productId": 7876,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 535,
+      "productId": 7876,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 3150,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 534,
+      "productId": 7876,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古外箱欠品",
+      "price": 1430,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 533,
+      "productId": 7876,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古ディスクのみ",
+      "price": 1190,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 532,
+      "productId": 7876,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ソフト単品",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

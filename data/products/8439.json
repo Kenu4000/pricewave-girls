@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8439,
+    "title": "Windows95/98/Me/2000 CDソフト Vivre 魂(こころ)からの笑顔",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004691",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004691.jpg",
+    "manufacturer": "SOUP",
+    "releaseDate": "2001-05-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145004691",
+      "メーカー": "SOUP",
+      "発売日": "2001/05/25",
+      "定価": "9,680円",
+      "シナリオ": "仮面ライターBlackRX",
+      "声優": "氷山瑠果",
+      "原画": "きのはらひかる",
+      "カテゴリ": "アダルト Windows Windows Me"
+    },
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8453,
+      "productId": 8439,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1891,
+      "productId": 8439,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145004691001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

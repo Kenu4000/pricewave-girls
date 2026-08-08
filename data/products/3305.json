@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 3305,
+    "title": "Windows95/98 CDソフト 二重影 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004185",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004185.jpg",
+    "manufacturer": "ケロQ",
+    "releaseDate": "2000-11-30",
+    "listPrice": 9680,
+    "modelNumber": "NJK0011",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145004185001",
+      "メーカー": "ケロQ",
+      "発売日": "2000/11/30",
+      "定価": "9,680円",
+      "型番": "NJK0011",
+      "原画": "2C=がろあ\n基4%",
+      "原画/シナリオ": "SCA-自",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "シナリオ": "SCA-自",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 26500,
+    "latestRegularSalePrice": 26500,
+    "latestBuyPrice": 13000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:00.000Z"
+  },
+  "histories": [
+    {
+      "id": 3319,
+      "productId": 3305,
+      "salePrice": 27800,
+      "regularSalePrice": 27800,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 12879,
+      "productId": 3305,
+      "salePrice": 28000,
+      "regularSalePrice": 28000,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15557,
+      "productId": 3305,
+      "salePrice": 26500,
+      "regularSalePrice": 26500,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    }
+  ],
+  "junkHistories": []
+}

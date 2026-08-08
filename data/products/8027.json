@@ -1,0 +1,105 @@
+{
+  "product": {
+    "id": 8027,
+    "title": "Windows98/Me/2000/XP DVDソフト 兄嫁はいじっぱり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015688",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015688.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": "TB-030",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015688",
+      "メーカー": "TinkerBell",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "型番": "TB-030",
+      "原画": "黒田晶見",
+      "シナリオ": "フレーム",
+      "声優": "一色ヒカル\n涼森ちさと",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8041,
+      "productId": 8027,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 13109,
+      "productId": 8027,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15788,
+      "productId": 8027,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27893,
+      "productId": 8027,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015688001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 17915,
+      "productId": 8027,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015688001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 1037,
+      "productId": 8027,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015688001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

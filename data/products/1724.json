@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 1724,
+    "title": "Windows7/8/10 DVDソフト 地下アイドル調教計画 -attribute master- 飯田梨恵編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071876",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071876.jpg",
+    "manufacturer": "GENDAI",
+    "releaseDate": "2021-05-28",
+    "listPrice": 4180,
+    "modelNumber": "GEND-004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145071876",
+      "メーカー": "GENDAI",
+      "発売日": "2021/05/28",
+      "定価": "4,180円",
+      "型番": "GEND-004",
+      "原画": "真野まぬる",
+      "シナリオ": "comano",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1738,
+      "productId": 1724,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:10.000Z"
+    },
+    {
+      "id": 6636,
+      "productId": 1724,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:10:29.000Z"
+    },
+    {
+      "id": 13534,
+      "productId": 1724,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18999,
+      "productId": 1724,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145071876001",
+      "price": 4180,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

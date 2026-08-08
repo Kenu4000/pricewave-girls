@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 8449,
+    "title": "Windows2000/XP/Vista DVDソフト ToHeart2 AnotherDays [初回限定版] (予約キャンペーン特典セット付)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019498",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019498.jpg",
+    "manufacturer": "Leaf",
+    "releaseDate": "2008-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019498",
+      "メーカー": "Leaf",
+      "発売日": "2008/02/28",
+      "定価": "9,680円",
+      "原画": "甘露樹\nみつみ美里\nカワタヒサシ",
+      "シナリオ": "枕流\n三宅章介\n菅宗光",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1101,
+    "latestRegularSalePrice": 1101,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8463,
+      "productId": 8449,
+      "salePrice": 1101,
+      "regularSalePrice": 1101,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 13268,
+      "productId": 8449,
+      "salePrice": 1101,
+      "regularSalePrice": 1101,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15949,
+      "productId": 8449,
+      "salePrice": 1101,
+      "regularSalePrice": 1101,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28374,
+      "productId": 8449,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019498001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18390,
+      "productId": 8449,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019498001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1920,
+      "productId": 8449,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019498001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

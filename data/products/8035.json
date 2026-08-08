@@ -1,0 +1,94 @@
+{
+  "product": {
+    "id": 8035,
+    "title": "Windows95/98 CDソフト はじめてのおつかい ～first adventure of little witch～（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002636.jpg",
+    "manufacturer": "Force",
+    "releaseDate": "1999-08-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002636001",
+      "メーカー": "Force",
+      "発売日": "1999/08/27",
+      "定価": "9,680円",
+      "原画": "蒼月裕忠",
+      "シナリオ": "羽室奏一",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 50000,
+    "latestRegularSalePrice": 50000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8049,
+      "productId": 8035,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1069,
+      "productId": 8035,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古『箱不備（小）（汚れ等イタミ有り）』",
+      "price": 90000,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1068,
+      "productId": 8035,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・外箱日焼け有",
+      "price": 62800,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1067,
+      "productId": 8035,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 50000,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1066,
+      "productId": 8035,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 48500,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1065,
+      "productId": 8035,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古本体不備（中） 商品本体に傷み、キズ、焼け等の状態不備がございます。",
+      "price": 45000,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

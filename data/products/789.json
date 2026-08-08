@@ -1,0 +1,136 @@
+{
+  "product": {
+    "id": 789,
+    "title": "Windows10/11 DVDソフト リトルプリンセスGO!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079388",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079388.jpg",
+    "manufacturer": "QUINCE SOFT",
+    "releaseDate": "2023-11-24",
+    "listPrice": 9680,
+    "modelNumber": "QUS-004",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079388",
+      "メーカー": "QUINCE SOFT",
+      "発売日": "2023/11/24",
+      "定価": "9,680円",
+      "型番": "QUS-004",
+      "原画": "よしだみんと",
+      "シナリオ": "白鳥とんぼ\n天野スズメ\n坂道アリス\n朱城紅輝",
+      "声優": "乙葉紅\n春咲さくら\n北見六花\n海原エレナ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:20:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 803,
+      "productId": 789,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4574,
+      "productId": 789,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:48:33.000Z"
+    },
+    {
+      "id": 5677,
+      "productId": 789,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:04:51.000Z"
+    },
+    {
+      "id": 16054,
+      "productId": 789,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28564,
+      "productId": 789,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28563,
+      "productId": 789,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28562,
+      "productId": 789,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28561,
+      "productId": 789,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1940,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28560,
+      "productId": 789,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ]
+}

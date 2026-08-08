@@ -1,0 +1,107 @@
+{
+  "product": {
+    "id": 2685,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 鬼ごっこ! 玉手箱パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037293",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037293.jpg",
+    "manufacturer": "ALcot",
+    "releaseDate": "2013-05-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145037293",
+      "メーカー": "ALcot",
+      "発売日": "2013/05/31",
+      "定価": "9,680円",
+      "原画": "あおなまさお\nPRIMIL\n鳴海ゆう",
+      "シナリオ": "宮蔵\n空下元",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2311,
+    "latestRegularSalePrice": 2311,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:14:16.000Z"
+  },
+  "histories": [
+    {
+      "id": 2699,
+      "productId": 2685,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7576,
+      "productId": 2685,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 12663,
+      "productId": 2685,
+      "salePrice": 2311,
+      "regularSalePrice": 2311,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15342,
+      "productId": 2685,
+      "salePrice": 2311,
+      "regularSalePrice": 2311,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26038,
+      "productId": 2685,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145037293001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    },
+    {
+      "id": 16032,
+      "productId": 2685,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145037293001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    }
+  ]
+}

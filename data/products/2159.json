@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 2159,
+    "title": "Windows2000/XP/Vista DVDソフト 俺たちに翼はない -Limited Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019159",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019159.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2009-01-30",
+    "listPrice": 9680,
+    "modelNumber": "NVSW-0015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019159",
+      "メーカー": "Navel",
+      "発売日": "2009/01/30",
+      "定価": "9,680円",
+      "型番": "NVSW-0015",
+      "原画": "西又葵",
+      "シナリオ": "王雀孫",
+      "アーティスト": "橋本みゆき",
+      "声優": "三つ葉\n森谷実園\n五行なずな\n籐野らん\n又吉愛\nたなかりお\n春奈有美\nたかはし智秋\n井村屋ほのか\n沢村かすみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 3780,
+    "latestRegularSalePrice": 3780,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:11:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 2173,
+      "productId": 2159,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7067,
+      "productId": 2159,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12344,
+      "productId": 2159,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15019,
+      "productId": 2159,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24070,
+      "productId": 2159,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019159001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 14075,
+      "productId": 2159,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4000,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14074,
+      "productId": 2159,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3780,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

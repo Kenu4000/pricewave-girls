@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1212,
+    "title": "Windows10/11 DVDソフト 幸乃下蛍の恋青日和 -お義姉ちゃんとの秘密同棲- 抱き枕カバー付き版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079788",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079788.jpg",
+    "manufacturer": "とこはな",
+    "releaseDate": "2023-11-24",
+    "listPrice": 14300,
+    "modelNumber": "WILL-464SET",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079788",
+      "メーカー": "とこはな",
+      "発売日": "2023/11/24",
+      "定価": "14,300円",
+      "型番": "WILL-464SET",
+      "原画": "ホームラン",
+      "シナリオ": "近江谷宥",
+      "声優": "逢真井もこ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 5511,
+    "latestRegularSalePrice": 5511,
+    "latestBuyPrice": 3300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1226,
+      "productId": 1212,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6107,
+      "productId": 1212,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:39.000Z"
+    },
+    {
+      "id": 16133,
+      "productId": 1212,
+      "salePrice": 5511,
+      "regularSalePrice": 5511,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28752,
+      "productId": 1212,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145079788001",
+      "price": 14300,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

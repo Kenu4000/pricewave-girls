@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 1020,
+    "title": "Windows8.1/10 DVDソフト ヌキコレvol.65 ヤキモチ彼女の一途な恋",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081653",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081653.jpg",
+    "manufacturer": "PULLTOP LATTE",
+    "releaseDate": "2024-09-27",
+    "listPrice": 3960,
+    "modelNumber": "NCW-0065",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145081653",
+      "メーカー": "PULLTOP LATTE",
+      "発売日": "2024/09/27",
+      "定価": "3,960円",
+      "型番": "NCW-0065",
+      "原画": "あいざわひろし\nねみぎつかさ\n遠藤麻輝",
+      "シナリオ": "JUN\n後馬久人",
+      "声優": "水純なな歩\n上田朱音\n白月かなめ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2680,
+    "latestRegularSalePrice": 2680,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1034,
+      "productId": 1020,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4821,
+      "productId": 1020,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:50:31.000Z"
+    },
+    {
+      "id": 5921,
+      "productId": 1020,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:06:33.000Z"
+    },
+    {
+      "id": 16094,
+      "productId": 1020,
+      "salePrice": 2680,
+      "regularSalePrice": 2680,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28643,
+      "productId": 1020,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145081653001",
+      "price": 3960,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

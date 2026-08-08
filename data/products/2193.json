@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 2193,
+    "title": "Windows7/8.1/10 DVDソフト ランクB)アイベヤ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904718",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904718.jpg",
+    "manufacturer": "あざらしそふと",
+    "releaseDate": "2019-02-22",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145904718",
+      "メーカー": "あざらしそふと",
+      "発売日": "2019/02/22",
+      "定価": "3,080円",
+      "原画": "おりょう",
+      "シナリオ": "栗栖",
+      "声優": "桃山いおん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:11:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 2207,
+      "productId": 2193,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7089,
+      "productId": 2193,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12368,
+      "productId": 2193,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15043,
+      "productId": 2193,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24201,
+      "productId": 2193,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145904718001",
+      "price": 3080,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 14202,
+      "productId": 2193,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145904718001",
+      "price": 3080,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

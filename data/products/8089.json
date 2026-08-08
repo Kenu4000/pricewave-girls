@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8089,
+    "title": "Windows98/Me/2000/XP DVDソフト ぷにぷに☆はんどメイド[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011728",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011728.jpg",
+    "manufacturer": "CLOVER",
+    "releaseDate": "2004-08-13",
+    "listPrice": 9680,
+    "modelNumber": "CLOVER0011",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011728",
+      "メーカー": "CLOVER",
+      "発売日": "2004/08/13",
+      "定価": "9,680円",
+      "型番": "CLOVER0011",
+      "原画": "カワサキテツヤ",
+      "シナリオ": "中本穂積",
+      "声優": "朝宮咲",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8103,
+      "productId": 8089,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1205,
+      "productId": 8089,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145011728001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

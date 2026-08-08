@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 8104,
+    "title": "Windows95 CDソフト 恋のアンサンブル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000188",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000188.jpg",
+    "manufacturer": "リビドー",
+    "releaseDate": "1997-03-01",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000188",
+      "メーカー": "リビドー",
+      "発売日": "1997/03/01",
+      "定価": "6,380円",
+      "原画": "JOYRIDE",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8118,
+      "productId": 8104,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1244,
+      "productId": 8104,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000188001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

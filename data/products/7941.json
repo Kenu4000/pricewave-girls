@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 7941,
+    "title": "WindowsXP/Vista/7 DVDソフト 星空へ架かる橋",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022281",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022281.jpg",
+    "manufacturer": "feng（フォン）",
+    "releaseDate": "2010-10-15",
+    "listPrice": 9680,
+    "modelNumber": "FENG-27",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145022281001",
+      "メーカー": "feng（フォン）",
+      "発売日": "2010/10/15",
+      "定価": "9,680円",
+      "型番": "FENG-27",
+      "原画": "澤野明",
+      "シナリオ": "柊★たくみ",
+      "声優": "卯衣",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 4780,
+    "latestRegularSalePrice": 4780,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7955,
+      "productId": 7941,
+      "salePrice": 4780,
+      "regularSalePrice": 4780,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 759,
+      "productId": 7941,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4780,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 758,
+      "productId": 7941,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 3874,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 757,
+      "productId": 7941,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 2800,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

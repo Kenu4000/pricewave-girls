@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8225,
+    "title": "Windows98/Me/2000/XP CDソフト 隷嬢学園 ～煉獄の学舎～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011914",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011914.jpg",
+    "manufacturer": "Psy-chs",
+    "releaseDate": "2004-10-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011914",
+      "メーカー": "Psy-chs",
+      "発売日": "2004/10/29",
+      "定価": "9,680円",
+      "原画": "藤井一葉",
+      "シナリオ": "三頭獣",
+      "声優": "上戸琉",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8239,
+      "productId": 8225,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1517,
+      "productId": 8225,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145011914001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

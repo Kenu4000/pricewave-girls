@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 2321,
+    "title": "WindowsXP/Vista/7 DVDソフト 電車内でなう。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036701",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036701.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2013-06-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036701",
+      "メーカー": "WAFFLE",
+      "発売日": "2013/06/28",
+      "定価": "9,680円",
+      "原画": "只野あきら\n深泥正\n長瀬",
+      "シナリオ": "ひらいでく",
+      "声優": "赤司弓妃\n夢乃ぼたん\n榛名れん\n片倉ひな\n伊藤麻衣(声優)\n北板利亜\n越雪光\n和葉\n水純なな歩\n杉原茉莉\nももぞの薫\n長谷部雪奈",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2011,
+    "latestRegularSalePrice": 2011,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:12:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 2335,
+      "productId": 2321,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7227,
+      "productId": 2321,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:06.000Z"
+    },
+    {
+      "id": 12461,
+      "productId": 2321,
+      "salePrice": 2011,
+      "regularSalePrice": 2011,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:33:48.000Z"
+    },
+    {
+      "id": 15137,
+      "productId": 2321,
+      "salePrice": 2011,
+      "regularSalePrice": 2011,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:12:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24788,
+      "productId": 2321,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145036701001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:12:28.000Z"
+    },
+    {
+      "id": 14782,
+      "productId": 2321,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145036701001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:33:48.000Z"
+    }
+  ]
+}

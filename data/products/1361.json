@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1361,
+    "title": "Windows8.1/10/11 DVDソフト アイドルのナマ配信",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076053",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076053.jpg",
+    "manufacturer": "Guilty’Dash",
+    "releaseDate": "2022-10-28",
+    "listPrice": 1760,
+    "modelNumber": "WILL-457",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145076053",
+      "メーカー": "Guilty’Dash",
+      "発売日": "2022/10/28",
+      "定価": "1,760円",
+      "型番": "WILL-457",
+      "原画": "タハラ白樹",
+      "シナリオ": "やなぎいろ\n利波創造",
+      "声優": "風花ましろ\n風鈴みすず",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:42:29.000Z"
+  },
+  "histories": [
+    {
+      "id": 1375,
+      "productId": 1361,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6262,
+      "productId": 1361,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:13.000Z"
+    },
+    {
+      "id": 13473,
+      "productId": 1361,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18844,
+      "productId": 1361,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145076053001",
+      "price": 1760,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    }
+  ]
+}

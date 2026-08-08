@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8218,
+    "title": "Windows2000/XP/Vista DVDソフト ANGEL MAGISTER[初回限定版](外付け原画集付)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020610",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020610.jpg",
+    "manufacturer": "mana",
+    "releaseDate": "2009-07-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020610",
+      "メーカー": "mana",
+      "発売日": "2009/07/24",
+      "定価": "9,680円",
+      "原画": "兎塚エイジ",
+      "シナリオ": "味塩ロケッツwith企画屋",
+      "声優": "金松由花",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8232,
+      "productId": 8218,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1508,
+      "productId": 8218,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145020610001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

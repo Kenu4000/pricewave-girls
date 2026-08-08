@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 8399,
+    "title": "Windows98/Me/2000 CDソフト 妖獣クラブ D.O.Classics Vol.2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006211",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006211.jpg",
+    "manufacturer": "ディーオー",
+    "releaseDate": "2002-03-15",
+    "listPrice": 6380,
+    "modelNumber": "DCD-00511",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145006211",
+      "メーカー": "ディーオー",
+      "発売日": "2002/03/15",
+      "定価": "6,380円",
+      "型番": "DCD-00511",
+      "声優": "逢川奈々",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8413,
+      "productId": 8399,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 13247,
+      "productId": 8399,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15930,
+      "productId": 8399,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28317,
+      "productId": 8399,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 28316,
+      "productId": 8399,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18328,
+      "productId": 8399,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006211001",
+      "price": 6380,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1817,
+      "productId": 8399,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006211001",
+      "price": 6380,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8025,
+    "title": "WindowsXP/Vista/7 DVDソフト 現在(いま)もいつかもふぁるなルナ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030315",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030315.jpg",
+    "manufacturer": "MANATSU_8",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030315",
+      "メーカー": "MANATSU_8",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "原画": "神谷ともえ",
+      "シナリオ": "桃坂あきら",
+      "声優": "藤乃理香",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 940,
+    "latestRegularSalePrice": 940,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8039,
+      "productId": 8025,
+      "salePrice": 940,
+      "regularSalePrice": 940,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1035,
+      "productId": 8025,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145030315001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

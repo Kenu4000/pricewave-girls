@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 2612,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト LOVE×EVOLUTION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019865",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019865.jpg",
+    "manufacturer": "evee（エヴィ）",
+    "releaseDate": "2009-09-18",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019865001",
+      "メーカー": "evee（エヴィ）",
+      "発売日": "2009/09/18",
+      "定価": "9,680円",
+      "原画": "海老名総一",
+      "シナリオ": "佐久間零式改",
+      "声優": "外崎秀寿\n水城なくる\n木ノ下琴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:44:13.000Z"
+  },
+  "histories": [
+    {
+      "id": 2626,
+      "productId": 2612,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7520,
+      "productId": 2612,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 13657,
+      "productId": 2612,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19408,
+      "productId": 2612,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 812,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19407,
+      "productId": 2612,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 740,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19406,
+      "productId": 2612,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19405,
+      "productId": 2612,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19404,
+      "productId": 2612,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ]
+}

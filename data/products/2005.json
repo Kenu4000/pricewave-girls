@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 2005,
+    "title": "Windows7/8/10 DVDソフト 恋嵐スピリッチュ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064425",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064425.jpg",
+    "manufacturer": "パラソル",
+    "releaseDate": "2019-05-31",
+    "listPrice": 9680,
+    "modelNumber": "PAR-009",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145064425001",
+      "メーカー": "パラソル",
+      "発売日": "2019/05/31",
+      "定価": "9,680円",
+      "型番": "PAR-009",
+      "原画": "みけおう",
+      "カテゴリ": "アダルト Windows Windows 10"
+    },
+    "latestSalePrice": 2150,
+    "latestRegularSalePrice": 2150,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:12:20.000Z"
+  },
+  "histories": [
+    {
+      "id": 2019,
+      "productId": 2005,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6911,
+      "productId": 2005,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:20.000Z"
+    }
+  ],
+  "junkHistories": []
+}

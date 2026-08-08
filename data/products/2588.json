@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 2588,
+    "title": "Windows98/Me/2000/XP CDソフト To Heart[リニューアルパッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009208",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009208.jpg",
+    "manufacturer": "Ｌｅａｆ",
+    "releaseDate": "2003-06-19",
+    "listPrice": 6380,
+    "modelNumber": "WIC-6457",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009208",
+      "メーカー": "Ｌｅａｆ",
+      "発売日": "2003/06/19",
+      "定価": "6,380円",
+      "型番": "WIC-6457",
+      "原画": "カワタヒサシ\n水無月徹",
+      "シナリオ": "竹林明秀\n高橋龍也",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 39600,
+    "latestRegularSalePrice": 39600,
+    "latestBuyPrice": 14000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:14:16.000Z"
+  },
+  "histories": [
+    {
+      "id": 2602,
+      "productId": 2588,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 14000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7479,
+      "productId": 2588,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 14000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    },
+    {
+      "id": 12611,
+      "productId": 2588,
+      "salePrice": 39600,
+      "regularSalePrice": 39600,
+      "buyPrice": 14000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    },
+    {
+      "id": 15290,
+      "productId": 2588,
+      "salePrice": 39600,
+      "regularSalePrice": 39600,
+      "buyPrice": 14000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 25786,
+      "productId": 2588,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145009208001",
+      "price": 6380,
+      "checkedAt": "2026-08-07T20:14:16.000Z"
+    },
+    {
+      "id": 15777,
+      "productId": 2588,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145009208001",
+      "price": 6380,
+      "checkedAt": "2026-08-06T16:35:32.000Z"
+    }
+  ]
+}

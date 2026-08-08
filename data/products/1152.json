@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1152,
+    "title": "Windows8.1/10 DVDソフト 学園淫奇譚 -かおり憑きの少女-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073795",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073795.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2022-01-28",
+    "listPrice": 7480,
+    "modelNumber": "UBAI-012",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145073795",
+      "メーカー": "スタジオ奪",
+      "発売日": "2022/01/28",
+      "定価": "7,480円",
+      "型番": "UBAI-012",
+      "原画": "瀬菜モナコ",
+      "シナリオ": "由又かつお",
+      "声優": "鶴屋春人\n風花ましろ\n東シヅ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1411,
+    "latestRegularSalePrice": 1411,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1166,
+      "productId": 1152,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6053,
+      "productId": 1152,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16121,
+      "productId": 1152,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28728,
+      "productId": 1152,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145073795001",
+      "price": 7480,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

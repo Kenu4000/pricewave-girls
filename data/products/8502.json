@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8502,
+    "title": "Windows98/Me/2000/XP CDソフト 黒の断章 THE LITERARY FRAGMENT /for Win SS改訂版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010242",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010242.jpg",
+    "manufacturer": "アボガドパワ",
+    "releaseDate": "2004-01-30",
+    "listPrice": 7480,
+    "modelNumber": "ABP-0401",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145010242",
+      "メーカー": "アボガドパワ",
+      "発売日": "2004/01/30",
+      "定価": "7,480円",
+      "型番": "ABP-0401",
+      "原画": "吉澤友章",
+      "シナリオ": "大槻涼樹",
+      "声優": "田中和実",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 9720,
+    "latestRegularSalePrice": 9720,
+    "latestBuyPrice": 7500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8516,
+      "productId": 8502,
+      "salePrice": 9720,
+      "regularSalePrice": 9720,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1979,
+      "productId": 8502,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145010242001",
+      "price": 7480,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

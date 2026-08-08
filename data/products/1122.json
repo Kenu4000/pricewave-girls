@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1122,
+    "title": "Windows10/11 DVDソフト ビギナーズクイーン～ジュンが良嬢になるまでの成長記録～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080494",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080494.jpg",
+    "manufacturer": "Guilty dash",
+    "releaseDate": "2024-02-22",
+    "listPrice": 1760,
+    "modelNumber": "WILL-467",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145080494",
+      "メーカー": "Guilty dash",
+      "発売日": "2024/02/22",
+      "定価": "1,760円",
+      "型番": "WILL-467",
+      "原画": "いぬしま",
+      "シナリオ": "須々木鮎尾",
+      "声優": "恋羽もこ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1136,
+      "productId": 1122,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6023,
+      "productId": 1122,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16117,
+      "productId": 1122,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28719,
+      "productId": 1122,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145080494001",
+      "price": 1760,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

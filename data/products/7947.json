@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 7947,
+    "title": "Windows2000/XP/Vista DVDソフト 夏空カナタ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017905",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017905.jpg",
+    "manufacturer": "ゆずソフト",
+    "releaseDate": "2008-05-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017905",
+      "メーカー": "ゆずソフト",
+      "発売日": "2008/05/23",
+      "定価": "9,680円",
+      "原画": "むりりん\nこぶいち",
+      "シナリオ": "玉沢円\n天宮リツ",
+      "アーティスト": "榊原ゆい",
+      "声優": "小次狼\n夏野こおり\n成瀬未亜\nみる\n民安ともえ\n白井綾乃\nたかはし智秋\nヘルシー太郎\n子太明\nどてら4号\n増谷康紀\n広末涼",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 7961,
+      "productId": 7947,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13065,
+      "productId": 7947,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15744,
+      "productId": 7947,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 784,
+      "productId": 7947,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145017905001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

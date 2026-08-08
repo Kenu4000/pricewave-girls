@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 8389,
+    "title": "Windows2000/XP/Vista DVDソフト 痕-きずあと- [初回限定版] + 数量限定「柏木千鶴」フィギュア付",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024263",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024263.jpg",
+    "manufacturer": "Leaf",
+    "releaseDate": "2009-06-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024263",
+      "メーカー": "Leaf",
+      "発売日": "2009/06/26",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 27000,
+    "latestRegularSalePrice": 27000,
+    "latestBuyPrice": 18000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8403,
+      "productId": 8389,
+      "salePrice": 27000,
+      "regularSalePrice": 27000,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 13242,
+      "productId": 8389,
+      "salePrice": 27000,
+      "regularSalePrice": 27000,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15925,
+      "productId": 8389,
+      "salePrice": 27000,
+      "regularSalePrice": 27000,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28301,
+      "productId": 8389,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145024263001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18312,
+      "productId": 8389,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145024263001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1801,
+      "productId": 8389,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145024263001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

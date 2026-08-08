@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 2030,
+    "title": "Windows7/8.1/10 DVDソフト それでも妻を愛してる2 豪華プレミアムパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058545",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058545.jpg",
+    "manufacturer": "ルネ Team Bitters",
+    "releaseDate": "2017-09-29",
+    "listPrice": 11550,
+    "modelNumber": "MGGW0184",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145058545001",
+      "メーカー": "ルネ Team Bitters",
+      "発売日": "2017/09/29",
+      "定価": "11,550円",
+      "型番": "MGGW0184",
+      "原画": "ジェントル佐々木",
+      "シナリオ": "須々木鮎尾\n川原圭人",
+      "声優": "ひむろゆり\n杉原茉莉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 3750,
+    "latestRegularSalePrice": 3750,
+    "latestBuyPrice": 3200,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 2044,
+      "productId": 2030,
+      "salePrice": 3750,
+      "regularSalePrice": 3750,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:48.000Z"
+    },
+    {
+      "id": 6924,
+      "productId": 2030,
+      "salePrice": 3750,
+      "regularSalePrice": 3750,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:20.000Z"
+    },
+    {
+      "id": 13586,
+      "productId": 2030,
+      "salePrice": 3750,
+      "regularSalePrice": 3750,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19093,
+      "productId": 2030,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 5610,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    },
+    {
+      "id": 19092,
+      "productId": 2030,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 3750,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    },
+    {
+      "id": 19091,
+      "productId": 2030,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古特典ディスク欠品",
+      "price": 3640,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    },
+    {
+      "id": 19090,
+      "productId": 2030,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 特典ディスク欠品",
+      "price": 3640,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

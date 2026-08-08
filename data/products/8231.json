@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8231,
+    "title": "Windows98/Me/2000/XP CDソフト 春萌 ーはるもいー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014095",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014095.jpg",
+    "manufacturer": "LOVERSOUL",
+    "releaseDate": "2006-04-14",
+    "listPrice": 9680,
+    "modelNumber": "LS-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014095",
+      "メーカー": "LOVERSOUL",
+      "発売日": "2006/04/14",
+      "定価": "9,680円",
+      "型番": "LS-002",
+      "原画": "菜然しかな",
+      "シナリオ": "夏葉薫",
+      "声優": "千砂",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 790,
+    "latestRegularSalePrice": 790,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8245,
+      "productId": 8231,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1534,
+      "productId": 8231,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145014095001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

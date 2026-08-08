@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 7969,
+    "title": "Windows98/Me/2000/XP DVDソフト ANGEL TYPE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012590.jpg",
+    "manufacturer": "minorifeat",
+    "releaseDate": "2005-03-25",
+    "listPrice": 8580,
+    "modelNumber": "SW-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012590",
+      "メーカー": "minorifeat",
+      "発売日": "2005/03/25",
+      "定価": "8,580円",
+      "型番": "SW-002",
+      "原画": "八樹隼一郎",
+      "シナリオ": "古我望",
+      "声優": "まきいづみ",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 7983,
+      "productId": 7969,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 877,
+      "productId": 7969,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145012590001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

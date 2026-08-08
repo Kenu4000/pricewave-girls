@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 2188,
+    "title": "Windows7/8/10 DVDソフト 夢と色でできている",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070140",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070140.jpg",
+    "manufacturer": "feng",
+    "releaseDate": "2019-02-22",
+    "listPrice": 10175,
+    "modelNumber": "FENG-58",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145070140",
+      "メーカー": "feng",
+      "発売日": "2019/02/22",
+      "定価": "10,175円",
+      "型番": "FENG-58",
+      "原画": "九条だんぼ\nkarory",
+      "シナリオ": "和泉万夜\nなかひろ",
+      "声優": "TAKAO\n桃山いおん\n小波すず\n白月かなめ\n藤咲ウサ\n柚原みう\n星鹿りえ\n椿乃なお\nみる\n神無月ほのか\n花影蛍\n結城旭\n七瀬こより\n夢野ぼたん\n葛木怒裸魂",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 12800,
+    "latestRegularSalePrice": 12800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:11:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 2202,
+      "productId": 2188,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7094,
+      "productId": 2188,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12365,
+      "productId": 2188,
+      "salePrice": 12800,
+      "regularSalePrice": 12800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15040,
+      "productId": 2188,
+      "salePrice": 12800,
+      "regularSalePrice": 12800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24189,
+      "productId": 2188,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145070140001",
+      "price": 10175,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 14190,
+      "productId": 2188,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145070140001",
+      "price": 10175,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

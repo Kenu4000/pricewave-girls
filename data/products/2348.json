@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 2348,
+    "title": "Windows98SE/Me/2000/XP/Vista/7 DVDソフト ナースにおまかせーKAGUYAコレクションー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022688",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022688.jpg",
+    "manufacturer": "アトリエかぐや Berkshire Yorkshire",
+    "releaseDate": "2009-12-18",
+    "listPrice": 4378,
+    "modelNumber": "KC-0009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145022688",
+      "メーカー": "アトリエかぐや Berkshire Yorkshire",
+      "発売日": "2009/12/18",
+      "定価": "4,378円",
+      "型番": "KC-0009",
+      "原画": "choco chip",
+      "シナリオ": "七瀬流\n神無月ニトロ\nもみあげルパンR\n速水漣\n想ファクトリー\n近江達裕\n小沢裕樹",
+      "声優": "七ヶ瀬輪\n一色ヒカル\n草柳順子\n涼森ちさと",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:44:13.000Z"
+  },
+  "histories": [
+    {
+      "id": 2362,
+      "productId": 2348,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7242,
+      "productId": 2348,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:06.000Z"
+    },
+    {
+      "id": 13619,
+      "productId": 2348,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19213,
+      "productId": 2348,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145022688001",
+      "price": 4378,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ]
+}

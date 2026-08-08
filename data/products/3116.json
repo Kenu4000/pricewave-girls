@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 3116,
+    "title": "Windows95/98 CDソフト すいすいSweet [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004071",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004071.jpg",
+    "manufacturer": "Tactics",
+    "releaseDate": "2000-10-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145004071",
+      "メーカー": "Tactics",
+      "発売日": "2000/10/27",
+      "定価": "9,680円",
+      "原画": "橘あかり",
+      "シナリオ": "SAY",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3130,
+      "productId": 3116,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12813,
+      "productId": 3116,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15493,
+      "productId": 3116,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26734,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+      "price": 1000,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26733,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26732,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16726,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+      "price": 1000,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16725,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16724,
+      "productId": 3116,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

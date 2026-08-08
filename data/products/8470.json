@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 8470,
+    "title": "WindowsVista/7/8/10 CDソフト その花びらにくちづけを 初めて出逢ったあの日から",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055668",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055668.jpg",
+    "manufacturer": "聖ミカエル女子学園",
+    "releaseDate": "2016-10-28",
+    "listPrice": 2750,
+    "modelNumber": "SMJ-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055668001",
+      "メーカー": "聖ミカエル女子学園",
+      "発売日": "2016/10/28",
+      "定価": "2,750円",
+      "型番": "SMJ-002",
+      "原画": "ぺこ",
+      "シナリオ": "日吉ひより",
+      "声優": "秋元ねりね",
+      "カテゴリ": "アダルト Windows Windows 10"
+    },
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8484,
+      "productId": 8470,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1956,
+      "productId": 8470,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1955,
+      "productId": 8470,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

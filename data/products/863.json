@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 863,
+    "title": "Windows10/11 DVDソフト のーぶる・バトラー -プレミアムエディション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082934",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082934.jpg",
+    "manufacturer": "ensemble SWEET",
+    "releaseDate": "2025-04-25",
+    "listPrice": 10780,
+    "modelNumber": "WILL-479DX",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082934",
+      "メーカー": "ensemble SWEET",
+      "発売日": "2025/04/25",
+      "定価": "10,780円",
+      "型番": "WILL-479DX",
+      "原画": "師走ほりお\nモグぽん\n夏月まりな",
+      "シナリオ": "近江谷宥",
+      "声優": "七種結花\n上原あおい\n夏峰いろは",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2611,
+    "latestRegularSalePrice": 2611,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:41:38.000Z"
+  },
+  "histories": [
+    {
+      "id": 877,
+      "productId": 863,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4642,
+      "productId": 863,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:49:15.000Z"
+    },
+    {
+      "id": 5767,
+      "productId": 863,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:05:24.000Z"
+    },
+    {
+      "id": 13381,
+      "productId": 863,
+      "salePrice": 2611,
+      "regularSalePrice": 2611,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:41:38.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18614,
+      "productId": 863,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145082934001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:41:38.000Z"
+    }
+  ]
+}

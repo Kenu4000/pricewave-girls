@@ -1,0 +1,106 @@
+{
+  "product": {
+    "id": 8458,
+    "title": "Windows95/98 CDソフト Kanon [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078145",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078145.jpg",
+    "manufacturer": "key",
+    "releaseDate": "1999-06-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145078145",
+      "メーカー": "key",
+      "発売日": "1999/06/04",
+      "定価": "9,680円",
+      "原画": "樋上いたる",
+      "シナリオ": "久弥直樹\n麻枝准",
+      "主題歌": "彩菜",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "マウスパッド欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 4500,
+    "latestRegularSalePrice": 4500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "マウスパッド欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:19:45.000Z"
+  },
+  "histories": [
+    {
+      "id": 8472,
+      "productId": 8458,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "マウスパッド欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 13272,
+      "productId": 8458,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "マウスパッド欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 15954,
+      "productId": 8458,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "マウスパッド欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28382,
+      "productId": 8458,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078145001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 18394,
+      "productId": 8458,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078145001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:40:48.000Z"
+    },
+    {
+      "id": 1933,
+      "productId": 8458,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078145001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

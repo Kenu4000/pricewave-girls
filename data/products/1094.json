@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 1094,
+    "title": "Windows10/11 DVDソフト こあくまちゃんの誘惑っ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081441",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081441.jpg",
+    "manufacturer": "CloverGAME",
+    "releaseDate": "2024-06-28",
+    "listPrice": 3500,
+    "modelNumber": "CLGM-001",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145081441",
+      "メーカー": "CloverGAME",
+      "発売日": "2024/06/28",
+      "定価": "3,500円",
+      "型番": "CLGM-001",
+      "原画": "うなさか\n兼清みわ",
+      "シナリオ": "双葉亮一",
+      "声優": "夏和小",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 6364,
+    "latestRegularSalePrice": 6364,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:42:29.000Z"
+  },
+  "histories": [
+    {
+      "id": 1108,
+      "productId": 1094,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4876,
+      "productId": 1094,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:50:31.000Z"
+    },
+    {
+      "id": 5991,
+      "productId": 1094,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:06:33.000Z"
+    },
+    {
+      "id": 13426,
+      "productId": 1094,
+      "salePrice": 6364,
+      "regularSalePrice": 6364,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18748,
+      "productId": 1094,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "新品 ：145081441000",
+      "price": 3500,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    }
+  ]
+}

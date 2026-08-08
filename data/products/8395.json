@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8395,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 河原崎家の一族2 [完全版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023208",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023208.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2010-02-26",
+    "listPrice": 8580,
+    "modelNumber": "ELFD095",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023208",
+      "メーカー": "エルフ",
+      "発売日": "2010/02/26",
+      "定価": "8,580円",
+      "型番": "ELFD095",
+      "キャラクターデザイン": "りんしん",
+      "シナリオ": "土天冥海",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 25000,
+    "latestRegularSalePrice": 25000,
+    "latestBuyPrice": 8000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:08:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 8409,
+      "productId": 8395,
+      "salePrice": 25000,
+      "regularSalePrice": 25000,
+      "buyPrice": 8000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1813,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145023208001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

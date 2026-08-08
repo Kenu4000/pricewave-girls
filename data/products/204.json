@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 204,
+    "title": "Windows2000/XP DVDソフト true tears ～トゥルーティアーズ～ [初回限定版]（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014066",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014066.jpg",
+    "manufacturer": "La’cryma(ラクリマ)",
+    "releaseDate": "2006-03-31",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "Windows XP パソコン パソコンソフト",
+    "details": {
+      "管理番号": "中古 ：145014066001",
+      "メーカー": "La’cryma(ラクリマ)",
+      "発売日": "2006/03/31",
+      "定価": "10,780円",
+      "原画": "依澄れい",
+      "シナリオ": "GameCRAB",
+      "アーティスト": "yozuca*",
+      "声優": "氷上恭子\n伊月ゆい\n佐藤利奈\n中山恵里奈\n稲村優奈\n福井裕佳梨\n小清水亜美\n野川さくら\n田坂秀樹\n矢部雅史\n渡辺明乃",
+      "カテゴリ": "Windows XP パソコン パソコンソフト",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:20:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 214,
+      "productId": 204,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T12:57:08.512Z"
+    },
+    {
+      "id": 3988,
+      "productId": 204,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:45:29.000Z"
+    },
+    {
+      "id": 5105,
+      "productId": 204,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:01:52.000Z"
+    },
+    {
+      "id": 7847,
+      "productId": 204,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:18:41.000Z"
+    },
+    {
+      "id": 16000,
+      "productId": 204,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28441,
+      "productId": 204,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書・小冊子欠品",
+      "price": 1600,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 432,
+      "productId": 204,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1880,
+      "checkedAt": "2026-08-04T16:18:41.000Z"
+    },
+    {
+      "id": 112,
+      "productId": 204,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1880,
+      "checkedAt": "2026-08-04T16:01:52.000Z"
+    },
+    {
+      "id": 53,
+      "productId": 204,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1880,
+      "checkedAt": "2026-08-04T15:45:29.000Z"
+    }
+  ]
+}

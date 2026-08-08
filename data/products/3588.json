@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3588,
+    "title": "Windows7/8/8.1/10 DVDソフト お兄ちゃん大好き!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078325",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078325.jpg",
+    "manufacturer": "たぬきそふと",
+    "releaseDate": "2017-07-28",
+    "listPrice": 10780,
+    "modelNumber": "TNK-008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145078325",
+      "メーカー": "たぬきそふと",
+      "発売日": "2017/07/28",
+      "定価": "10,780円",
+      "型番": "TNK-008",
+      "原画": "野々原幹",
+      "シナリオ": "種田ハコ\n華南恋",
+      "声優": "月星ユナ\n泉かえで\n烏丸そら",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 3602,
+      "productId": 3588,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 13011,
+      "productId": 3588,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15690,
+      "productId": 3588,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27508,
+      "productId": 3588,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078325001",
+      "price": 10780,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17525,
+      "productId": 3588,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078325001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 594,
+    "title": "Windows10/11 DVDソフト 幼馴染と生意気義妹 ～ブルマと水着の誘惑～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082507",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082507.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2024-12-20",
+    "listPrice": 2200,
+    "modelNumber": "APT-271",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082507",
+      "メーカー": "アパタイト",
+      "発売日": "2024/12/20",
+      "定価": "2,200円",
+      "型番": "APT-271",
+      "原画": "鳥三",
+      "シナリオ": "伝野てつ",
+      "声優": "響たなか\n四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:20:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 608,
+      "productId": 594,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4389,
+      "productId": 594,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:47:51.000Z"
+    },
+    {
+      "id": 5506,
+      "productId": 594,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:04:13.000Z"
+    },
+    {
+      "id": 16029,
+      "productId": 594,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28501,
+      "productId": 594,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145082507001",
+      "price": 2200,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8033,
+    "title": "Windows95/98/Me CDソフト 秋桜の空に",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004958",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004958.jpg",
+    "manufacturer": "マロン",
+    "releaseDate": "2001-07-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145004958",
+      "メーカー": "マロン",
+      "発売日": "2001/07/27",
+      "定価": "9,680円",
+      "原画": "岩舘こう",
+      "シナリオ": "竹井10日",
+      "カテゴリ": "アダルト Windows Windows Me"
+    },
+    "latestSalePrice": 6300,
+    "latestRegularSalePrice": 6300,
+    "latestBuyPrice": 3200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8047,
+      "productId": 8033,
+      "salePrice": 6300,
+      "regularSalePrice": 6300,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1051,
+      "productId": 8033,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145004958001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

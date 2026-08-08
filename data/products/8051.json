@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8051,
+    "title": "WindowsVista/7/8 DVDソフト ここから夏のイノセンス![初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050821",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050821.jpg",
+    "manufacturer": "クロシェット",
+    "releaseDate": "2015-11-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145050821",
+      "メーカー": "クロシェット",
+      "発売日": "2015/11/27",
+      "定価": "9,680円",
+      "原画": "せせな夜雨",
+      "シナリオ": "深山ユーキ",
+      "声優": "遥そら",
+      "カテゴリ": "アダルト Windows Windows 8/8.1"
+    },
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8065,
+      "productId": 8051,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1125,
+      "productId": 8051,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145050821001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

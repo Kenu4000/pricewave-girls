@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 2535,
+    "title": "Windows95/98 CDソフト 悪っ外伝",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002717",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002717.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "1999-09-24",
+    "listPrice": 7480,
+    "modelNumber": "INH-200",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002717001",
+      "メーカー": "インターハート",
+      "発売日": "1999/09/24",
+      "定価": "7,480円",
+      "型番": "INH-200",
+      "原画": "新田",
+      "声優": "人見はるか",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3700,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:19.000Z"
+  },
+  "histories": [
+    {
+      "id": 2549,
+      "productId": 2535,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7427,
+      "productId": 2535,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    }
+  ],
+  "junkHistories": []
+}

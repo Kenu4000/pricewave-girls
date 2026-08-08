@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 2128,
+    "title": "Windows7/8/8.1/10 DVDソフト アママネ プレミアムエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064100",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064100.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2019-02-28",
+    "listPrice": 12078,
+    "modelNumber": "PREKANO-190228",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064100",
+      "メーカー": "プレカノ",
+      "発売日": "2019/02/28",
+      "定価": "12,078円",
+      "型番": "PREKANO-190228",
+      "原画": "桝石きのと",
+      "シナリオ": "8",
+      "声優": "白月かなめ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 12500,
+    "latestRegularSalePrice": 12500,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-08T00:17:51.000Z"
+  },
+  "histories": [
+    {
+      "id": 2142,
+      "productId": 2128,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7040,
+      "productId": 2128,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12323,
+      "productId": 2128,
+      "salePrice": 12500,
+      "regularSalePrice": 12500,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14997,
+      "productId": 2128,
+      "salePrice": 12500,
+      "regularSalePrice": 12500,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 18889,
+      "productId": 2128,
+      "salePrice": 12500,
+      "regularSalePrice": 12500,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 37887,
+      "productId": 2128,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145064100001",
+      "price": 12078,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    },
+    {
+      "id": 23954,
+      "productId": 2128,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145064100001",
+      "price": 12078,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 13957,
+      "productId": 2128,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145064100001",
+      "price": 12078,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

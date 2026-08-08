@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 7972,
+    "title": "Windows95 CDソフト ツーショットDiary2 大全集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000991",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000991.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "1998-05-29",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000991001",
+      "メーカー": "ミンク",
+      "発売日": "1998/05/29",
+      "定価": "10,780円",
+      "声優": "浅田由菜",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveCondition": "マウスパッド欠品、ケース状態難",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "マウスパッド欠品、ケース状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 7986,
+      "productId": 7972,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "マウスパッド欠品、ケース状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 886,
+      "productId": 7972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 810,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 885,
+      "productId": 7972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古マウスパッド欠品、ケース状態難",
+      "price": 580,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 884,
+      "productId": 7972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクBのみ",
+      "price": 490,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

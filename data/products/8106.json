@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 8106,
+    "title": "Windows98/Me/2000/XP DVDソフト マブラヴ DVD-ROM版 [リニューアルパッケージ]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017460",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017460.jpg",
+    "manufacturer": "アージュ",
+    "releaseDate": "2008-01-13",
+    "listPrice": 8580,
+    "modelNumber": "AGE-033",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017460001",
+      "メーカー": "アージュ",
+      "発売日": "2008/01/13",
+      "定価": "8,580円",
+      "型番": "AGE-033",
+      "原画": "八雲剣豪",
+      "シナリオ": "吉宗鋼紀",
+      "声優": "野神奈々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8120,
+      "productId": 8106,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1255,
+      "productId": 8106,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 3480,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1254,
+      "productId": 8106,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1253,
+      "productId": 8106,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1180,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

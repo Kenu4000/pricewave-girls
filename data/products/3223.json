@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 3223,
+    "title": "Windows95/98 CDソフト Treating 2U(トリーティング トゥ ユー)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003175",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003175.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2000-11-28",
+    "listPrice": 9680,
+    "modelNumber": "BGCD-015",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003175001",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2000/11/28",
+      "定価": "9,680円",
+      "型番": "BGCD-015",
+      "原画": "巴えつる\n石原ますみ",
+      "シナリオ": "LIVE-D",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 3400,
+    "latestRegularSalePrice": 3400,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3237,
+      "productId": 3223,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 12848,
+      "productId": 3223,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15528,
+      "productId": 3223,
+      "salePrice": 3400,
+      "regularSalePrice": 3400,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26885,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26884,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3400,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26883,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3400,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26882,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古マキシシングル欠品",
+      "price": 1750,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26881,
+      "productId": 3223,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 マキシシングル欠品",
+      "price": 1750,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16878,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16877,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16876,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3400,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16875,
+      "productId": 3223,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古マキシシングル欠品",
+      "price": 1970,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 16874,
+      "productId": 3223,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 マキシシングル欠品",
+      "price": 1970,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

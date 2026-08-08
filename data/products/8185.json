@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8185,
+    "title": "Windows98/Me/2000/XP DVDソフト 雪のとける頃に… [DVD-ROM版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006336",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006336.jpg",
+    "manufacturer": "スタジオego!",
+    "releaseDate": "2002-05-24",
+    "listPrice": 9680,
+    "modelNumber": "COMASU-0046",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006336",
+      "メーカー": "スタジオego!",
+      "発売日": "2002/05/24",
+      "定価": "9,680円",
+      "型番": "COMASU-0046",
+      "原画": "山本和枝",
+      "シナリオ": "黒島一絵",
+      "声優": "早倉吏香",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8199,
+      "productId": 8185,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1426,
+      "productId": 8185,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006336001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

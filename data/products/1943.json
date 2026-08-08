@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1943,
+    "title": "Windows7/8/10 DVDソフト スケベな処女のつくりかた",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067730",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067730.jpg",
+    "manufacturer": "SUKARADOG",
+    "releaseDate": "2020-01-31",
+    "listPrice": 4180,
+    "modelNumber": "SKDG-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067730",
+      "メーカー": "SUKARADOG",
+      "発売日": "2020/01/31",
+      "定価": "4,180円",
+      "型番": "SKDG-003",
+      "原画": "あかつきまお",
+      "シナリオ": "須々木鮎尾",
+      "声優": "彩瀬ゆり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1957,
+      "productId": 1943,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6845,
+      "productId": 1943,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 13570,
+      "productId": 1943,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19051,
+      "productId": 1943,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145067730001",
+      "price": 4180,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

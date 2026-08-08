@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 7907,
+    "title": "Windows95 CDソフト デザイア 完全版[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001385",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001385.jpg",
+    "manufacturer": "シーズウェア",
+    "releaseDate": "1998-06-05",
+    "listPrice": 8580,
+    "modelNumber": "CSW-00474",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001385",
+      "メーカー": "シーズウェア",
+      "発売日": "1998/06/05",
+      "定価": "8,580円",
+      "型番": "CSW-00474",
+      "原画": "田島直",
+      "シナリオ": "菅野ひろゆき",
+      "声優": "茶風林",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1030,
+    "latestRegularSalePrice": 1030,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7921,
+      "productId": 7907,
+      "salePrice": 1030,
+      "regularSalePrice": 1030,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 661,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145001385001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

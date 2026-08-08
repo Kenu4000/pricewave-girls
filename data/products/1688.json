@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 1688,
+    "title": "Windows8/10 DVDソフト ねぇねぇ姉",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074246",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074246.jpg",
+    "manufacturer": "アトリエかぐや BARE＆BUNNY",
+    "releaseDate": "2021-08-27",
+    "listPrice": 9680,
+    "modelNumber": "KA-0112",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145074246",
+      "メーカー": "アトリエかぐや BARE＆BUNNY",
+      "発売日": "2021/08/27",
+      "定価": "9,680円",
+      "型番": "KA-0112",
+      "原画": "choco chip",
+      "シナリオ": "風間ぼなんざ\n近江達裕\n七央結日",
+      "声優": "綾音まこ\n蒼乃むすび\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1702,
+      "productId": 1688,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6585,
+      "productId": 1688,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:56.000Z"
+    },
+    {
+      "id": 13525,
+      "productId": 1688,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 18974,
+      "productId": 1688,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145074246001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

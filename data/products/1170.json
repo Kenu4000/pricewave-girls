@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 1170,
+    "title": "Windows8.1/10 DVDソフト とこはな 癒し同棲5本パック+限定ミニゲーム5本セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073791",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073791.jpg",
+    "manufacturer": "とこはな",
+    "releaseDate": "2022-01-28",
+    "listPrice": 10780,
+    "modelNumber": "WILL-441",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145073791001",
+      "メーカー": "とこはな",
+      "発売日": "2022/01/28",
+      "定価": "10,780円",
+      "型番": "WILL-441",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 3800,
+    "latestRegularSalePrice": 3800,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1184,
+      "productId": 1170,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6074,
+      "productId": 1170,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16127,
+      "productId": 1170,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28748,
+      "productId": 1170,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 4480,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28747,
+      "productId": 1170,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 4101,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28746,
+      "productId": 1170,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 3800,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

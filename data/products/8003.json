@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 8003,
+    "title": "Windows2000/XP/Vista DVDソフト 桜吹雪 ～千年の恋をしました～ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019670",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019670.jpg",
+    "manufacturer": "Silver Bullet",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9680,
+    "modelNumber": "SVB-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019670",
+      "メーカー": "Silver Bullet",
+      "発売日": "2009/04/24",
+      "定価": "9,680円",
+      "型番": "SVB-003",
+      "原画": "江森美沙樹\n桜沢いづみ",
+      "シナリオ": "有梨つかさ\n日野亘",
+      "アーティスト": "西沢はぐみ",
+      "声優": "このかなみ\n茶谷やすら\n御苑生メイ\n岬友美\n芹園みや\n一色ヒカル\n青山ゆかり\nかわしまりの\n松永雪希",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8017,
+      "productId": 8003,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 13096,
+      "productId": 8003,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15776,
+      "productId": 8003,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": []
+}

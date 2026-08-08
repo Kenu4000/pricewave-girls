@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 8060,
+    "title": "WindowsXP/Vista DVDソフト Primary Step[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027499",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027499.jpg",
+    "manufacturer": "パープルソフトウェアdelight",
+    "releaseDate": "2011-04-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145027499001",
+      "メーカー": "パープルソフトウェアdelight",
+      "発売日": "2011/04/28",
+      "定価": "9,680円",
+      "原画": "しばゆき",
+      "シナリオ": "tiro",
+      "声優": "御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8074,
+      "productId": 8060,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1143,
+      "productId": 8060,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 660,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1142,
+      "productId": 8060,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 650,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1141,
+      "productId": 8060,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1140,
+      "productId": 8060,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1139,
+      "productId": 8060,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

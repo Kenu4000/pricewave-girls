@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 8008,
+    "title": "Windows95/98/NT/2000 CDソフト かえるにょぱにょーん ニューパッケージ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003987",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003987.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2000-09-14",
+    "listPrice": 3080,
+    "modelNumber": "ALS-0026",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "中古 ：145003987001",
+      "メーカー": "ALICESOFT",
+      "発売日": "2000/09/14",
+      "定価": "3,080円",
+      "型番": "ALS-0026",
+      "原画": "かれん",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 270,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8022,
+      "productId": 8008,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 13098,
+      "productId": 8008,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15778,
+      "productId": 8008,
+      "salePrice": 270,
+      "regularSalePrice": 270,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27862,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 330,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 27861,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 17881,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 330,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 17880,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 959,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 330,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 958,
+      "productId": 8008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 8064,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト ぱすてる[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016762",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016762.jpg",
+    "manufacturer": "SIESTA",
+    "releaseDate": "2007-11-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016762001",
+      "メーカー": "SIESTA",
+      "発売日": "2007/11/22",
+      "定価": "9,680円",
+      "原画": "moric",
+      "シナリオ": "眼鏡友の会/E.C",
+      "声優": "中澤アユム",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8078,
+      "productId": 8064,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1154,
+      "productId": 8064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1412,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1153,
+      "productId": 8064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1152,
+      "productId": 8064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1370,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1151,
+      "productId": 8064,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1150,
+      "productId": 8064,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古プレミアムブックレット欠品",
+      "price": 900,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

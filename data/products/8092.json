@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8092,
+    "title": "Windows98/Me/2000/XPソフト 夜勤病棟・弐 [新パッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012233",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012233.jpg",
+    "manufacturer": "MnoViolet",
+    "releaseDate": "2004-11-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012233",
+      "メーカー": "MnoViolet",
+      "発売日": "2004/11/04",
+      "定価": "9,680円",
+      "声優": "大野勝人",
+      "原画": "須賀清",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8106,
+      "productId": 8092,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1217,
+      "productId": 8092,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145012233001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

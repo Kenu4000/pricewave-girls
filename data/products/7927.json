@@ -1,0 +1,125 @@
+{
+  "product": {
+    "id": 7927,
+    "title": "WindowsVista/7/8 DVDソフト 智代アフター ～It’s a Wonderful Life～ PerfectEdition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045023.jpg",
+    "manufacturer": "Key",
+    "releaseDate": "2014-09-26",
+    "listPrice": 5280,
+    "modelNumber": "VA-00169D",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145045023001",
+      "メーカー": "Key",
+      "発売日": "2014/09/26",
+      "定価": "5,280円",
+      "型番": "VA-00169D",
+      "声優": "佐々木あかり\n一色ヒカル\n涼森ちさと",
+      "原画": "樋上いたる\nフミオ",
+      "シナリオ": "都乃河勇人\n麻枝准\n樫田レオ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "テクニカルマニュアル欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 20800,
+    "latestRegularSalePrice": 20800,
+    "latestBuyPrice": 15000,
+    "stockStatus": "in_stock",
+    "condition": "テクニカルマニュアル欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 7941,
+      "productId": 7927,
+      "salePrice": 15070,
+      "regularSalePrice": 15070,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": "テクニカルマニュアル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13054,
+      "productId": 7927,
+      "salePrice": 20800,
+      "regularSalePrice": 20800,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": "テクニカルマニュアル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15736,
+      "productId": 7927,
+      "salePrice": 20800,
+      "regularSalePrice": 20800,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": "テクニカルマニュアル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27720,
+      "productId": 7927,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古テクニカルマニュアル欠品",
+      "price": 20800,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 27719,
+      "productId": 7927,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古BOOK欠品",
+      "price": 15070,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17731,
+      "productId": 7927,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古テクニカルマニュアル欠品",
+      "price": 20800,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 17730,
+      "productId": 7927,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古BOOK欠品",
+      "price": 15070,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 717,
+      "productId": 7927,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145045023001",
+      "price": 5280,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

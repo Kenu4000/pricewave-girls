@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 2527,
+    "title": "Windows98/Me/2000/XP CDソフト SWAN SONG",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013150",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013150.jpg",
+    "manufacturer": "Le.Chocolat meets FlyingShine",
+    "releaseDate": "2005-07-29",
+    "listPrice": 9680,
+    "modelNumber": "CHOSSG-0001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013150001",
+      "メーカー": "Le.Chocolat meets FlyingShine",
+      "発売日": "2005/07/29",
+      "定価": "9,680円",
+      "型番": "CHOSSG-0001",
+      "原画": "川原誠",
+      "シナリオ": "瀬戸口廉也",
+      "声優": "歌織",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "OS": "SG-0001",
+      "__pricewaveCondition": "中箱不備",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 11400,
+    "latestRegularSalePrice": 11400,
+    "latestBuyPrice": 7500,
+    "stockStatus": "in_stock",
+    "condition": "中箱不備",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:19.000Z"
+  },
+  "histories": [
+    {
+      "id": 2541,
+      "productId": 2527,
+      "salePrice": 11400,
+      "regularSalePrice": 11400,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": "中箱不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7436,
+      "productId": 2527,
+      "salePrice": 11400,
+      "regularSalePrice": 11400,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": "中箱不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 321,
+      "productId": 2527,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 11400,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    }
+  ]
+}

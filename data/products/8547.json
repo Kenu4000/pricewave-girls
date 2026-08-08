@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8547,
+    "title": "Windows95 CDソフト ハイスクールテラストーリー[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001541",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001541.jpg",
+    "manufacturer": "ウラン",
+    "releaseDate": null,
+    "listPrice": 8580,
+    "modelNumber": "URCD-9705",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001541",
+      "メーカー": "ウラン",
+      "定価": "8,580円",
+      "型番": "URCD-9705",
+      "原画": "浅野ヒロ",
+      "シナリオ": "日高豊",
+      "声優": "富士爆発",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8561,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 2010,
+      "productId": 8547,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145001541001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

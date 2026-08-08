@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 2623,
+    "title": "WindowsXP/Vista/7 DVDソフト LEGEND SEVEN ー白雪姫と7人の英雄ー[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030299",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030299.jpg",
+    "manufacturer": "NONSUGAR",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145030299001",
+      "メーカー": "NONSUGAR",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "原画": "ぽよよんろっく",
+      "シナリオ": "雪乃府宏明",
+      "声優": "さこ",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:58.000Z"
+  },
+  "histories": [
+    {
+      "id": 2637,
+      "productId": 2623,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7524,
+      "productId": 2623,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 366,
+      "productId": 2623,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 1680,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ]
+}

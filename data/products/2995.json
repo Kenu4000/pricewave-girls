@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 2995,
+    "title": "Windows98/Me/2000/XP DVDソフト 終末の過ごし方DVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008852",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008852.jpg",
+    "manufacturer": "アボガドパワーズ",
+    "releaseDate": "2003-04-24",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145008852001",
+      "メーカー": "アボガドパワーズ",
+      "発売日": "2003/04/24",
+      "定価": "7,480円",
+      "原画": "小池定路",
+      "シナリオ": "大槻涼樹",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "外箱欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 4680,
+    "latestRegularSalePrice": 4680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "外箱欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:15:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 3009,
+      "productId": 2995,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 12764,
+      "productId": 2995,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15443,
+      "productId": 2995,
+      "salePrice": 4680,
+      "regularSalePrice": 4680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26599,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 9580,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 26598,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 9111,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 26597,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古外箱欠品",
+      "price": 4680,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 26596,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・説明書欠け",
+      "price": 4100,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 26595,
+      "productId": 2995,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・説明書欠け",
+      "price": 4100,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 16591,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 9580,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 16590,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 9111,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 16589,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古外箱欠品",
+      "price": 5200,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 16588,
+      "productId": 2995,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・説明書欠け",
+      "price": 4600,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 16587,
+      "productId": 2995,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・説明書欠け",
+      "price": 4600,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

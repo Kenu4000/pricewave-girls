@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3558,
+    "title": "WindowsVista/7/8 DVDソフト CUBEコレクションボックス カントクエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080048",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080048.jpg",
+    "manufacturer": "CUBE",
+    "releaseDate": "2017-10-27",
+    "listPrice": 11000,
+    "modelNumber": "CUB-1701",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145080048",
+      "メーカー": "CUBE",
+      "発売日": "2017/10/27",
+      "定価": "11,000円",
+      "型番": "CUB-1701",
+      "原画": "カントク",
+      "SD原画": "すいみゃ",
+      "シナリオ": "皆本あいる\n双葉亮一\n夜村卓\n種村いのり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ゲームソフトのみ",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 2222,
+    "latestRegularSalePrice": 2222,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームソフトのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 3572,
+      "productId": 3558,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームソフトのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 12995,
+      "productId": 3558,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームソフトのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15675,
+      "productId": 3558,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームソフトのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27478,
+      "productId": 3558,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145080048001",
+      "price": 11000,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17489,
+      "productId": 3558,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145080048001",
+      "price": 11000,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "product": {
+    "id": 2865,
+    "title": "Windows95/98 CDソフト PYTHIANピュティア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002313",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002313.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "1999-05-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002313001",
+      "メーカー": "Studio e・go!",
+      "発売日": "1999/05/28",
+      "定価": "9,680円",
+      "原画": "森田育子\n山本和枝",
+      "シナリオ": "GAI\n久地マコト\nみのだいすけ\n足利大介\nつくもひろし\n紅葉",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:15:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 2879,
+      "productId": 2865,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:24.000Z"
+    },
+    {
+      "id": 12706,
+      "productId": 2865,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15385,
+      "productId": 2865,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26297,
+      "productId": 2865,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDバインダー欠品",
+      "price": 550,
+      "checkedAt": "2026-08-07T20:15:12.000Z"
+    },
+    {
+      "id": 16287,
+      "productId": 2865,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDバインダー欠品",
+      "price": 620,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

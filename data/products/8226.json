@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8226,
+    "title": "Windows DVDソフト すえぜん! ～種を望む彼女～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014813",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014813.jpg",
+    "manufacturer": "CONCEPT",
+    "releaseDate": "2006-10-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014813",
+      "メーカー": "CONCEPT",
+      "発売日": "2006/10/27",
+      "定価": "9,680円",
+      "原画": "うめきち",
+      "シナリオ": "松木涼",
+      "声優": "佐々木あかり",
+      "カテゴリ": "パソコンソフト アダルト Windows"
+    },
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8240,
+      "productId": 8226,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1518,
+      "productId": 8226,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145014813001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

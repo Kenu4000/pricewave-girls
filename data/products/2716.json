@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 2716,
+    "title": "Windows95/98 CDソフト 黒姫",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004259",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004259.jpg",
+    "manufacturer": "SPD",
+    "releaseDate": "2000-12-15",
+    "listPrice": 9680,
+    "modelNumber": "COMASU-0013",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145004259001",
+      "メーカー": "SPD",
+      "発売日": "2000/12/15",
+      "定価": "9,680円",
+      "型番": "COMASU-0013",
+      "原画": "AM-DVL",
+      "シナリオ": "内田竜宮丞",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:16:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 2730,
+      "productId": 2716,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7614,
+      "productId": 2716,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:16:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 399,
+      "productId": 2716,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 890,
+      "checkedAt": "2026-08-04T16:16:07.000Z"
+    }
+  ]
+}

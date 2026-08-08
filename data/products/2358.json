@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 2358,
+    "title": "Windows98/Me/2000/XP DVDソフト StarTRain [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014695.jpg",
+    "manufacturer": "mixed up",
+    "releaseDate": "2006-09-22",
+    "listPrice": 9680,
+    "modelNumber": "MIU-201",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014695001",
+      "メーカー": "mixed up",
+      "発売日": "2006/09/22",
+      "定価": "9,680円",
+      "型番": "MIU-201",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 9850,
+    "latestRegularSalePrice": 9850,
+    "latestBuyPrice": 4700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:14:06.000Z"
+  },
+  "histories": [
+    {
+      "id": 2372,
+      "productId": 2358,
+      "salePrice": 9850,
+      "regularSalePrice": 9850,
+      "buyPrice": 4700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7245,
+      "productId": 2358,
+      "salePrice": 9850,
+      "regularSalePrice": 9850,
+      "buyPrice": 4700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:06.000Z"
+    }
+  ],
+  "junkHistories": []
+}

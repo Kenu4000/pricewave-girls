@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 8023,
+    "title": "Windows2000/XP/Vista DVDソフト 町ぐるみの罠～白濁にまみれた肢体～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019699",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019699.jpg",
+    "manufacturer": "シロップ",
+    "releaseDate": "2009-05-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019699001",
+      "メーカー": "シロップ",
+      "発売日": "2009/05/22",
+      "定価": "9,680円",
+      "原画": "芦俊",
+      "シナリオ": "草薙",
+      "声優": "汐見凛",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 3450,
+    "latestRegularSalePrice": 3450,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8037,
+      "productId": 8023,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1032,
+      "productId": 8023,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3450,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1031,
+      "productId": 8023,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3150,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1030,
+      "productId": 8023,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 1480,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

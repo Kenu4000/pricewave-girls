@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 178,
+    "title": "WindowsXP/Vista/7 DVDソフト 葬送鬼レギナルト",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031107",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031107.jpg",
+    "manufacturer": "ocelot",
+    "releaseDate": "2012-03-23",
+    "listPrice": 4180,
+    "modelNumber": "VA-00132D",
+    "category": "Windows 7 パソコン パソコンソフト",
+    "details": {
+      "管理番号": "145031107",
+      "メーカー": "ocelot",
+      "発売日": "2012/03/23",
+      "定価": "4,180円",
+      "型番": "VA-00132D",
+      "原画": "神奈月昇",
+      "シナリオ": "榊一郎",
+      "声優": "浜田夏樹\n古川慎\n田中美智\n小橋達也\n平井理子\n金元寿子\nすずきまこと\n宮健一\n田村健一",
+      "カテゴリ": "Windows 7 パソコン パソコンソフト"
+    },
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:43:25.000Z"
+  },
+  "histories": [
+    {
+      "id": 188,
+      "productId": 178,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T12:55:11.732Z"
+    },
+    {
+      "id": 3957,
+      "productId": 178,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:44:55.000Z"
+    },
+    {
+      "id": 5079,
+      "productId": 178,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:01:16.000Z"
+    },
+    {
+      "id": 7816,
+      "productId": 178,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:18:28.000Z"
+    },
+    {
+      "id": 9036,
+      "productId": 178,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:43:25.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 3186,
+      "productId": 178,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145031107001",
+      "price": 4180,
+      "checkedAt": "2026-08-04T17:43:25.000Z"
+    }
+  ]
+}

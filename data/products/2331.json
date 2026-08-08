@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 2331,
+    "title": "Windows2000/XP/Vista DVDソフト シュガーコートフリークス[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022295",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022295.jpg",
+    "manufacturer": "リトルウィッチ",
+    "releaseDate": "2010-01-29",
+    "listPrice": 10780,
+    "modelNumber": "LWEX-095",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022295",
+      "メーカー": "リトルウィッチ",
+      "発売日": "2010/01/29",
+      "定価": "10,780円",
+      "型番": "LWEX-095",
+      "原画": "大槍葦人",
+      "シナリオ": "飯田和彦",
+      "声優": "桜川めぐ",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:14:06.000Z"
+  },
+  "histories": [
+    {
+      "id": 2345,
+      "productId": 2331,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7235,
+      "productId": 2331,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:06.000Z"
+    }
+  ],
+  "junkHistories": []
+}

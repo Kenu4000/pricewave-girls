@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8414,
+    "title": "Windows98/Me/2000/XP DVDソフト 責められて ～パック～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015223",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015223.jpg",
+    "manufacturer": "Eroro",
+    "releaseDate": "2006-12-22",
+    "listPrice": 9680,
+    "modelNumber": "BASE-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015223",
+      "メーカー": "Eroro",
+      "発売日": "2006/12/22",
+      "定価": "9,680円",
+      "型番": "BASE-001",
+      "シナリオ": "結月",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1412,
+    "latestRegularSalePrice": 1412,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8428,
+      "productId": 8414,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1833,
+      "productId": 8414,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015223001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

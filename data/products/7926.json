@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": 7926,
+    "title": "Windows95 CDソフト ぱすてるノート",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000983",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000983.jpg",
+    "manufacturer": "PUMPIE",
+    "releaseDate": "1998-05-16",
+    "listPrice": 6380,
+    "modelNumber": "PUM-002",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000983001",
+      "メーカー": "PUMPIE",
+      "発売日": "1998/05/16",
+      "定価": "6,380円",
+      "型番": "PUM-002",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 10180,
+    "latestRegularSalePrice": 10180,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7940,
+      "productId": 7926,
+      "salePrice": 10180,
+      "regularSalePrice": 10180,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 716,
+      "productId": 7926,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 23070,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 715,
+      "productId": 7926,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10180,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

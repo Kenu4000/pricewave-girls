@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 2632,
+    "title": "Windows98/Me/2000/XP CDソフト ままらぶ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011887.jpg",
+    "manufacturer": "ハーミットHERMI",
+    "releaseDate": "2004-10-29",
+    "listPrice": 7150,
+    "modelNumber": "WILL-108",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145011887001",
+      "メーカー": "ハーミットHERMI",
+      "発売日": "2004/10/29",
+      "定価": "7,150円",
+      "型番": "WILL-108",
+      "原画": "ヤマ・びっこ",
+      "シナリオ": "丸戸史明",
+      "声優": "下野薫",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:58.000Z"
+  },
+  "histories": [
+    {
+      "id": 2646,
+      "productId": 2632,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7525,
+      "productId": 2632,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ],
+  "junkHistories": []
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 3051,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 甘えかたは彼女なりに。 [初回限定生産版] ウルトラプレミアムパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054109",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054109.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2016-02-26",
+    "listPrice": 15180,
+    "modelNumber": "GIGA-160226",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054109001",
+      "メーカー": "戯画",
+      "発売日": "2016/02/26",
+      "定価": "15,180円",
+      "型番": "GIGA-160226",
+      "原画": "きのこのみ",
+      "シナリオ": "上原明人\n風間ぼなんざ",
+      "声優": "中家志穂\nくすはらゆい\n花澤さくら",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 5600,
+    "latestRegularSalePrice": 5600,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3065,
+      "productId": 3051,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 5200,
+      "stockStatus": "out_of_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 12792,
+      "productId": 3051,
+      "salePrice": 7450,
+      "regularSalePrice": 7450,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 15472,
+      "productId": 3051,
+      "salePrice": 5600,
+      "regularSalePrice": 5600,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 26688,
+      "productId": 3051,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 10311,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 26687,
+      "productId": 3051,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 5600,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 16680,
+      "productId": 3051,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 10311,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    },
+    {
+      "id": 16679,
+      "productId": 3051,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 7450,
+      "checkedAt": "2026-08-06T16:36:26.000Z"
+    }
+  ]
+}

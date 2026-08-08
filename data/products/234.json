@@ -1,0 +1,125 @@
+{
+  "product": {
+    "id": 234,
+    "title": "Windows98/2000/XP/MacOS9以降 CDソフト ときめきファクトリー ～ときめきメモリアル2～ [限定版]テレカ付き",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014239",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014239.jpg",
+    "manufacturer": "コナミ",
+    "releaseDate": "2006-03-14",
+    "listPrice": 12572,
+    "modelNumber": "TFTMS",
+    "category": "パソコン パソコンソフト Mac",
+    "details": {
+      "管理番号": "中古 ：145014239001",
+      "メーカー": "コナミ",
+      "発売日": "2006/03/14",
+      "定価": "12,572円",
+      "型番": "TFTMS",
+      "声優": "くまいもとこ\n野田順子\n小菅真美\n高野直子\n野村真弓\n橘ひかり",
+      "カテゴリ": "パソコン パソコンソフト Mac",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 37800,
+    "latestRegularSalePrice": 37800,
+    "latestBuyPrice": 18000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:20:37.000Z"
+  },
+  "histories": [
+    {
+      "id": 244,
+      "productId": 234,
+      "salePrice": 39800,
+      "regularSalePrice": 39800,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T12:59:21.941Z"
+    },
+    {
+      "id": 4022,
+      "productId": 234,
+      "salePrice": 39800,
+      "regularSalePrice": 39800,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:45:29.000Z"
+    },
+    {
+      "id": 5131,
+      "productId": 234,
+      "salePrice": 39800,
+      "regularSalePrice": 39800,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:01:52.000Z"
+    },
+    {
+      "id": 16008,
+      "productId": 234,
+      "salePrice": 37800,
+      "regularSalePrice": 37800,
+      "buyPrice": 18000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28445,
+      "productId": 234,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 テレカ欠品、ディスク円周傷、箱状態難",
+      "price": 25000,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28444,
+      "productId": 234,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 25000,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 115,
+      "productId": 234,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 27900,
+      "checkedAt": "2026-08-04T16:01:52.000Z"
+    },
+    {
+      "id": 59,
+      "productId": 234,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 27900,
+      "checkedAt": "2026-08-04T15:45:29.000Z"
+    }
+  ]
+}

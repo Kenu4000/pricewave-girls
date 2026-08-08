@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8208,
+    "title": "Windows98/Me/2000/XP CDソフト the Black Box",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008485",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008485.jpg",
+    "manufacturer": "SPIEL",
+    "releaseDate": "2003-02-28",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008485",
+      "メーカー": "SPIEL",
+      "発売日": "2003/02/28",
+      "定価": "8,580円",
+      "原画": "本田強二",
+      "シナリオ": "春日いにせか",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 2112,
+    "latestRegularSalePrice": 2112,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8222,
+      "productId": 8208,
+      "salePrice": 2112,
+      "regularSalePrice": 2112,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1492,
+      "productId": 8208,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145008485001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

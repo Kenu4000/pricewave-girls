@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8217,
+    "title": "Windows95 CDソフト DOOP(ドープ)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000480",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000480.jpg",
+    "manufacturer": "MBS TRUSE",
+    "releaseDate": "1997-10-09",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000480",
+      "メーカー": "MBS TRUSE",
+      "発売日": "1997/10/09",
+      "定価": "8,580円",
+      "原画": "葉沢武梓",
+      "シナリオ": "猫柳まんぼ",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 320,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8231,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1507,
+      "productId": 8217,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000480001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8398,
+    "title": "Windows98/Me/2000/XP CDソフト おまえのなつやすみ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010458",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010458.jpg",
+    "manufacturer": "FlyingShine黒",
+    "releaseDate": "2004-03-26",
+    "listPrice": 4378,
+    "modelNumber": "FS-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145010458",
+      "メーカー": "FlyingShine黒",
+      "発売日": "2004/03/26",
+      "定価": "4,378円",
+      "型番": "FS-002",
+      "原画": "長岡建蔵",
+      "シナリオ": "石埜三千穂",
+      "声優": "島香麗子",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:08:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 8412,
+      "productId": 8398,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1816,
+      "productId": 8398,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145010458001",
+      "price": 4378,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

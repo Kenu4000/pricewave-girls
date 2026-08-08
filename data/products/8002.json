@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8002,
+    "title": "Windows98/Me/2000/XP DVDソフト Zwei Worter (ツヴァイ ウォルター)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015622",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015622.jpg",
+    "manufacturer": "CLOCKUP team.DYO",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015622",
+      "メーカー": "CLOCKUP team.DYO",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "原画": "今中光太郎",
+      "アーティスト": "佐藤ひろ美",
+      "シナリオ": "神楽玄武",
+      "声優": "鳩野比奈",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8016,
+      "productId": 8002,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 955,
+      "productId": 8002,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145015622001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ]
+}

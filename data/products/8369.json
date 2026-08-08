@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8369,
+    "title": "Windows95/98/Me CDソフト 奴令嬢",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006182",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006182.jpg",
+    "manufacturer": "Cadath",
+    "releaseDate": "2002-02-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145006182001",
+      "メーカー": "Cadath",
+      "発売日": "2002/02/22",
+      "定価": "9,680円",
+      "シナリオ": "天邪綰弥",
+      "声優": "みる",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveCondition": "サウンドトラックCD欠品、説明書状態難",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 5600,
+    "latestRegularSalePrice": 5600,
+    "latestBuyPrice": 4100,
+    "stockStatus": "in_stock",
+    "condition": "サウンドトラックCD欠品、説明書状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:08:07.000Z"
+  },
+  "histories": [
+    {
+      "id": 8383,
+      "productId": 8369,
+      "salePrice": 5600,
+      "regularSalePrice": 5600,
+      "buyPrice": 4100,
+      "stockStatus": "in_stock",
+      "condition": "サウンドトラックCD欠品、説明書状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1766,
+      "productId": 8369,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 サントラCD欠品、箱状態難",
+      "price": 3980,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ]
+}

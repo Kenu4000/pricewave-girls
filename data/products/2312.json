@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 2312,
+    "title": "Windows7/8.1/10 DVDソフト ランクB）ココロが繋ぐ恋標",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903998",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "KATE",
+    "releaseDate": "2018-11-30",
+    "listPrice": 10780,
+    "modelNumber": "MS-124",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145903998",
+      "メーカー": "KATE",
+      "発売日": "2018/11/30",
+      "定価": "10,780円",
+      "型番": "MS-124",
+      "原画": "あまみね",
+      "シナリオ": "砂部岩延",
+      "声優": "赤月ゆむ\n小波すず\nみたかりん\n奥山歩",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:44:13.000Z"
+  },
+  "histories": [
+    {
+      "id": 2326,
+      "productId": 2312,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:52.000Z"
+    },
+    {
+      "id": 7215,
+      "productId": 2312,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:06.000Z"
+    },
+    {
+      "id": 13614,
+      "productId": 2312,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19174,
+      "productId": 2312,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145903998001",
+      "price": 10780,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ]
+}

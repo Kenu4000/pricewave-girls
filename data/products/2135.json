@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 2135,
+    "title": "WindowsVista/7/8.1/10 DVDソフト グリザイア・コンプリートボックス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056465",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056465.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2017-01-27",
+    "listPrice": 21780,
+    "modelNumber": "FWS-00079",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056465001",
+      "メーカー": "フロントウイング",
+      "発売日": "2017/01/27",
+      "定価": "21,780円",
+      "型番": "FWS-00079",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "10800",
+      "__pricewaveTimeSale": "true"
+    },
+    "latestSalePrice": 10000,
+    "latestRegularSalePrice": 10800,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-08T00:17:51.226Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-08T00:17:51.000Z"
+  },
+  "histories": [
+    {
+      "id": 2149,
+      "productId": 2135,
+      "salePrice": 12800,
+      "regularSalePrice": 12800,
+      "buyPrice": 6200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7032,
+      "productId": 2135,
+      "salePrice": 12800,
+      "regularSalePrice": 12800,
+      "buyPrice": 6200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 12327,
+      "productId": 2135,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 14999,
+      "productId": 2135,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 18893,
+      "productId": 2135,
+      "salePrice": 10000,
+      "regularSalePrice": 10800,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 37910,
+      "productId": 2135,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 小説・缶バッジ・アクリルスタンド欠、箱・サントラ難",
+      "price": 6800,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    },
+    {
+      "id": 23960,
+      "productId": 2135,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 小説・缶バッジ・アクリルスタンド欠、箱・サントラ難",
+      "price": 6800,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 13980,
+      "productId": 2135,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 小説・缶バッジ・アクリルスタンド欠、箱・サントラ難",
+      "price": 7600,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

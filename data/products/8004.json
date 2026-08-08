@@ -1,0 +1,49 @@
+{
+  "product": {
+    "id": 8004,
+    "title": "Windows3.1/95 CDソフト 宇宙怪盗 ファニーBEE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001039",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001039.jpg",
+    "manufacturer": "アリスソフト",
+    "releaseDate": "1996-04-12",
+    "listPrice": 4180,
+    "modelNumber": "ALS-0019",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145001039001",
+      "メーカー": "アリスソフト",
+      "発売日": "1996/04/12",
+      "定価": "4,180円",
+      "型番": "ALS-0019",
+      "原画": "鈴木典孝",
+      "シナリオ": "イマーム",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 8018,
+      "productId": 8004,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "junkHistories": []
+}

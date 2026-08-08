@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8549,
+    "title": "Windows98/Me/2000/XP CDソフト 判決2 ～Forget Me Not～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006347",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006347.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2002-04-19",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006347",
+      "メーカー": "SPEED",
+      "発売日": "2002/04/19",
+      "定価": "9,680円",
+      "原画": "リュウ電次",
+      "シナリオ": "まどかあきら",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8563,
+      "productId": 8549,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 2012,
+      "productId": 8549,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006347001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

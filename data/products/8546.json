@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8546,
+    "title": "Windows95/98/Me CDソフト Sollunea",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145005940",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145005940.jpg",
+    "manufacturer": "ルクス",
+    "releaseDate": "2002-01-25",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145005940",
+      "メーカー": "ルクス",
+      "発売日": "2002/01/25",
+      "定価": "8,580円",
+      "原画": "むらやまたかひろ",
+      "シナリオ": "田中蛙",
+      "カテゴリ": "アダルト Windows Windows Me"
+    },
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8560,
+      "productId": 8546,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 2009,
+      "productId": 8546,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145005940001",
+      "price": 8580,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

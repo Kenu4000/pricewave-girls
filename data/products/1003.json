@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 1003,
+    "title": "Windows8/10/11 DVDソフト 癒やしてあげたい コンプリートパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076802",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076802.jpg",
+    "manufacturer": "Argonauts",
+    "releaseDate": "2023-02-24",
+    "listPrice": 10560,
+    "modelNumber": "MSTN-065",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145076802001",
+      "メーカー": "Argonauts",
+      "発売日": "2023/02/24",
+      "定価": "10,560円",
+      "型番": "MSTN-065",
+      "カテゴリ": "アダルト Windows Windows 11"
+    },
+    "latestSalePrice": 6750,
+    "latestRegularSalePrice": 6750,
+    "latestBuyPrice": 3400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:06:33.000Z"
+  },
+  "histories": [
+    {
+      "id": 1017,
+      "productId": 1003,
+      "salePrice": 6750,
+      "regularSalePrice": 6750,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4793,
+      "productId": 1003,
+      "salePrice": 6750,
+      "regularSalePrice": 6750,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:50:31.000Z"
+    },
+    {
+      "id": 5913,
+      "productId": 1003,
+      "salePrice": 6750,
+      "regularSalePrice": 6750,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:06:33.000Z"
+    }
+  ],
+  "junkHistories": []
+}

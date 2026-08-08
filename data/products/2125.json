@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 2125,
+    "title": "Windows7/8 DVDソフト 大阪AWAKING [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064856",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064856.jpg",
+    "manufacturer": "つるみく",
+    "releaseDate": "2019-04-26",
+    "listPrice": 4180,
+    "modelNumber": "TUMG-003",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145064856",
+      "メーカー": "つるみく",
+      "発売日": "2019/04/26",
+      "定価": "4,180円",
+      "型番": "TUMG-003",
+      "原画": "桜島サロマ子",
+      "シナリオ": "チャック雅\nまこっちゃ\nタスク",
+      "声優": "藤沢美月\nshizuku\n葉村夏緒\n寺本桔梗\n綾音まこ\n藤堂みさき\n櫻井ありす\n空峰羽奈",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-08T00:17:51.000Z"
+  },
+  "histories": [
+    {
+      "id": 2139,
+      "productId": 2125,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7027,
+      "productId": 2125,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 14995,
+      "productId": 2125,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    },
+    {
+      "id": 18886,
+      "productId": 2125,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 37882,
+      "productId": 2125,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145064856001",
+      "price": 4180,
+      "checkedAt": "2026-08-08T00:17:51.000Z"
+    },
+    {
+      "id": 23950,
+      "productId": 2125,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145064856001",
+      "price": 4180,
+      "checkedAt": "2026-08-07T20:11:37.000Z"
+    }
+  ]
+}

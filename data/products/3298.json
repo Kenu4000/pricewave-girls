@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 3298,
+    "title": "Windows8.1/10 DVDソフト アイキス2 もしもH追加ストーリーディスク「新入生はお好きですか？」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074834",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074834.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "GIGA-201130",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145074834001",
+      "メーカー": "戯画",
+      "型番": "GIGA-201130",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 6200,
+    "latestRegularSalePrice": 6200,
+    "latestBuyPrice": 3200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:16:03.000Z"
+  },
+  "histories": [
+    {
+      "id": 3312,
+      "productId": 3298,
+      "salePrice": 7400,
+      "regularSalePrice": 7400,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 12874,
+      "productId": 3298,
+      "salePrice": 6600,
+      "regularSalePrice": 6600,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 15554,
+      "productId": 3298,
+      "salePrice": 6200,
+      "regularSalePrice": 6200,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27024,
+      "productId": 3298,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7300,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 27023,
+      "productId": 3298,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6200,
+      "checkedAt": "2026-08-07T20:16:03.000Z"
+    },
+    {
+      "id": 17021,
+      "productId": 3298,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7300,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    },
+    {
+      "id": 17020,
+      "productId": 3298,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6600,
+      "checkedAt": "2026-08-06T16:37:17.000Z"
+    }
+  ]
+}

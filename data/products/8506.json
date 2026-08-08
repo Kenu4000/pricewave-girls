@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8506,
+    "title": "Windows95/98/2000 CDソフト 青の扉白の鍵[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048234",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048234.jpg",
+    "manufacturer": "Cyc",
+    "releaseDate": "2000-06-09",
+    "listPrice": 9680,
+    "modelNumber": "CYC111022",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "145048234",
+      "メーカー": "Cyc",
+      "発売日": "2000/06/09",
+      "定価": "9,680円",
+      "型番": "CYC111022",
+      "原画": "かん奈",
+      "シナリオ": "みきのゆう",
+      "声優": "七ヶ瀬輪",
+      "カテゴリ": "アダルト Windows Windows 2000"
+    },
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8520,
+      "productId": 8506,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1981,
+      "productId": 8506,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145048234001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

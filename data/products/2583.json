@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 2583,
+    "title": "Windows95/98 CDソフト VIPER CTR ～あすか～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001384",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001384.jpg",
+    "manufacturer": "ソニア",
+    "releaseDate": "1998-09-25",
+    "listPrice": 9680,
+    "modelNumber": "SGN-9509",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145001384001",
+      "メーカー": "ソニア",
+      "発売日": "1998/09/25",
+      "定価": "9,680円",
+      "型番": "SGN-9509",
+      "原画/シナリオ": "桂憲一郎",
+      "シナリオ": "P・ウォーリアー",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "原画": "/"
+    },
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:19.000Z"
+  },
+  "histories": [
+    {
+      "id": 2597,
+      "productId": 2583,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7474,
+      "productId": 2583,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    }
+  ],
+  "junkHistories": []
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 8101,
+    "title": "Windows95/98ソフト 眠れる森のお姫様",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003787",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003787.jpg",
+    "manufacturer": "ペンギンワークス",
+    "releaseDate": "2001-04-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003787",
+      "メーカー": "ペンギンワークス",
+      "発売日": "2001/04/01",
+      "定価": "9,680円",
+      "原画": "てぃんくる",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 811,
+    "latestRegularSalePrice": 811,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8115,
+      "productId": 8101,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1237,
+      "productId": 8101,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003787001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

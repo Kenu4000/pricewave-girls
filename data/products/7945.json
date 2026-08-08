@@ -1,0 +1,105 @@
+{
+  "product": {
+    "id": 7945,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 素直くーる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019876",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019876.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2009-05-29",
+    "listPrice": 9680,
+    "modelNumber": "VA-00046D",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019876",
+      "メーカー": "裸足少女",
+      "発売日": "2009/05/29",
+      "定価": "9,680円",
+      "型番": "VA-00046D",
+      "原画": "金目鯛ぴんく",
+      "声優": "倉田まりや\n飯田空\nかわしまりの",
+      "シナリオ": "紅鶴\n佐織佑衣\n心新\n朱姫桜花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 7959,
+      "productId": 7945,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13064,
+      "productId": 7945,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15743,
+      "productId": 7945,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27746,
+      "productId": 7945,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019876001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17769,
+      "productId": 7945,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019876001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 775,
+      "productId": 7945,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145019876001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

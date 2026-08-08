@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 1871,
+    "title": "Windows7/8/10 DVDソフト HULOTTEヤバいコンプリートパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069660",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069660.jpg",
+    "manufacturer": "HULOTTE(ユロット)",
+    "releaseDate": "2020-09-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069660",
+      "メーカー": "HULOTTE(ユロット)",
+      "発売日": "2020/09/25",
+      "定価": "9,680円",
+      "原画": "池上茜",
+      "シナリオ": "まぐろ解体\n深山ユーキ\n錦木紅葉\n桐生恭丞",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 14400,
+    "latestRegularSalePrice": 14400,
+    "latestBuyPrice": 7200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1885,
+      "productId": 1871,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 7200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:42.000Z"
+    },
+    {
+      "id": 6769,
+      "productId": 1871,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 7200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:04.000Z"
+    },
+    {
+      "id": 13557,
+      "productId": 1871,
+      "salePrice": 14400,
+      "regularSalePrice": 14400,
+      "buyPrice": 7200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19035,
+      "productId": 1871,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145069660001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

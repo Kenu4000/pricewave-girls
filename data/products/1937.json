@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 1937,
+    "title": "Windows8/10 DVDソフト ぼくを助けてくれた隣の奥さんが、目の前で寝取られて…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068337",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068337.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-04-24",
+    "listPrice": 2200,
+    "modelNumber": "APT-158",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068337",
+      "メーカー": "アパタイト",
+      "発売日": "2020/04/24",
+      "定価": "2,200円",
+      "型番": "APT-158",
+      "原画": "七王子",
+      "シナリオ": "あんずもち",
+      "声優": "椎名旭",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-06T16:43:21.000Z"
+  },
+  "histories": [
+    {
+      "id": 1951,
+      "productId": 1937,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6833,
+      "productId": 1937,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 13569,
+      "productId": 1937,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 19050,
+      "productId": 1937,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145068337001",
+      "price": 2200,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    }
+  ]
+}

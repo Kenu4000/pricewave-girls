@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 8172,
+    "title": "Windows95/98/Me/2000/XP CDソフト Deliciousらんちぱっくneo",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006862",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006862.jpg",
+    "manufacturer": "scoop",
+    "releaseDate": "2002-08-30",
+    "listPrice": 8580,
+    "modelNumber": "HADV-0017",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145006862001",
+      "メーカー": "scoop",
+      "発売日": "2002/08/30",
+      "定価": "8,580円",
+      "型番": "HADV-0017",
+      "原画": "あかふく・まろ",
+      "シナリオ": "真向転結",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1880,
+    "latestRegularSalePrice": 1880,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8186,
+      "productId": 8172,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1397,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1396,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1800,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

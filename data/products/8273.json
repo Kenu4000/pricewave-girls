@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8273,
+    "title": "Windows95/98 CDソフト 家族の絆",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003639",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003639.jpg",
+    "manufacturer": "BIND",
+    "releaseDate": "2000-06-23",
+    "listPrice": 9680,
+    "modelNumber": "COMASU-0005",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003639",
+      "メーカー": "BIND",
+      "発売日": "2000/06/23",
+      "定価": "9,680円",
+      "型番": "COMASU-0005",
+      "原画": "新田",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 1712,
+    "latestRegularSalePrice": 1712,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8287,
+      "productId": 8273,
+      "salePrice": 1712,
+      "regularSalePrice": 1712,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1608,
+      "productId": 8273,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003639001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

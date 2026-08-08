@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 8067,
+    "title": "WindowsXP/Vista/7/8 CDソフト ゆずみなつ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036985",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036985.jpg",
+    "manufacturer": "LO-LILITH",
+    "releaseDate": "2013-05-17",
+    "listPrice": 3740,
+    "modelNumber": "LOL-00001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036985",
+      "メーカー": "LO-LILITH",
+      "発売日": "2013/05/17",
+      "定価": "3,740円",
+      "型番": "LOL-00001",
+      "原画": "犬星",
+      "シナリオ": "そのだまさき",
+      "声優": "榎津まお",
+      "カテゴリ": "アダルト Windows Windows 8/8.1"
+    },
+    "latestSalePrice": 1611,
+    "latestRegularSalePrice": 1611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:02:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8081,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1158,
+      "productId": 8067,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145036985001",
+      "price": 3740,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

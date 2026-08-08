@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 7903,
+    "title": "WindowsXP/Vista/7 CDソフト 服を捨てて街を歩こう! ～透明薬で第一歩～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038049",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038049.jpg",
+    "manufacturer": "Eleonora(エレオノーラ)",
+    "releaseDate": "2013-08-09",
+    "listPrice": 2200,
+    "modelNumber": "ELE-0003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038049",
+      "メーカー": "Eleonora(エレオノーラ)",
+      "発売日": "2013/08/09",
+      "定価": "2,200円",
+      "型番": "ELE-0003",
+      "原画": "椎咲雛樹",
+      "シナリオ": "坂元星日",
+      "声優": "凪",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 440,
+    "latestRegularSalePrice": 440,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:01:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 7917,
+      "productId": 7903,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 655,
+      "productId": 7903,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145038049001",
+      "price": 2200,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

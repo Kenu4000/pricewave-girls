@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 8082,
+    "title": "Windows98/Me/2000/XP DVDソフト 檸檬・かなりあ [DVD-ROM版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009562",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009562.jpg",
+    "manufacturer": "13cm",
+    "releaseDate": "2003-06-27",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145009562001",
+      "メーカー": "13cm",
+      "発売日": "2003/06/27",
+      "定価": "7,480円",
+      "原画": "さっぽろももこ",
+      "声優": "佐伯ゆりこ\n田中美智\n佐々木あかり\n鮎川ひなた\n涼森ちさと",
+      "シナリオ": "うつろあくた\n青匣新力",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "楽譜欠品",
+      "__pricewaveConditionRank": "B"
+    },
+    "latestSalePrice": 10800,
+    "latestRegularSalePrice": 10800,
+    "latestBuyPrice": 11000,
+    "stockStatus": "in_stock",
+    "condition": "楽譜欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8096,
+      "productId": 8082,
+      "salePrice": 12100,
+      "regularSalePrice": 12100,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": "楽譜欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 13134,
+      "productId": 8082,
+      "salePrice": 12100,
+      "regularSalePrice": 12100,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": "楽譜欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15814,
+      "productId": 8082,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": "楽譜欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28008,
+      "productId": 8082,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 9800,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 18026,
+      "productId": 8082,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 10900,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 2223,
+    "title": "Windows2000/XP DVDソフト ef - the first tale.",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014882",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014882.jpg",
+    "manufacturer": "minori",
+    "releaseDate": "2006-12-22",
+    "listPrice": 7480,
+    "modelNumber": "SW-006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014882",
+      "メーカー": "minori",
+      "発売日": "2006/12/22",
+      "定価": "7,480円",
+      "型番": "SW-006",
+      "原画": "2C=がろあ\n七尾奈留",
+      "シナリオ": "鏡遊",
+      "声優": "植木卓郎\n安玖深音\n夏野こおり\n川椰珱\n城樹翔\n桜井美鈴\n遠近孝一\n中島裕美子\n北野妙\nまきいづみ\n三咲里奈\n児玉さとみ\n中澤アユム\n山中荘一",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2700,
+    "latestRegularSalePrice": 2700,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:12:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 2237,
+      "productId": 2223,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:52.000Z"
+    },
+    {
+      "id": 7120,
+      "productId": 2223,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:13:28.000Z"
+    },
+    {
+      "id": 12393,
+      "productId": 2223,
+      "salePrice": 2700,
+      "regularSalePrice": 2700,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    },
+    {
+      "id": 15068,
+      "productId": 2223,
+      "salePrice": 2700,
+      "regularSalePrice": 2700,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:12:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 24380,
+      "productId": 2223,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145014882001",
+      "price": 7480,
+      "checkedAt": "2026-08-07T20:12:28.000Z"
+    },
+    {
+      "id": 14384,
+      "productId": 2223,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145014882001",
+      "price": 7480,
+      "checkedAt": "2026-08-06T16:32:53.000Z"
+    }
+  ]
+}

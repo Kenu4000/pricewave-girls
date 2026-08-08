@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 3373,
+    "title": "WindowsXP/Vista/7 DVDソフト 僕だけの少女(モノ) ー狂おしいほど君が好きー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034449",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034449.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2012-10-26",
+    "listPrice": 5280,
+    "modelNumber": "ALL-020",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034449",
+      "メーカー": "ALL-TiME",
+      "発売日": "2012/10/26",
+      "定価": "5,280円",
+      "型番": "ALL-020",
+      "原画": "泉水いこ",
+      "シナリオ": "琴羽之文\n志村つゆり",
+      "声優": "mahilo\n明智メイ\nあさり☆\n奥川久美子",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 2411,
+    "latestRegularSalePrice": 2411,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:00.000Z"
+  },
+  "histories": [
+    {
+      "id": 3387,
+      "productId": 3373,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 12905,
+      "productId": 3373,
+      "salePrice": 2411,
+      "regularSalePrice": 2411,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    },
+    {
+      "id": 15585,
+      "productId": 3373,
+      "salePrice": 2411,
+      "regularSalePrice": 2411,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27096,
+      "productId": 3373,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145034449001",
+      "price": 5280,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    },
+    {
+      "id": 17096,
+      "productId": 3373,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145034449001",
+      "price": 5280,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    }
+  ]
+}

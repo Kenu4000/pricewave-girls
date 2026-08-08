@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 7890,
+    "title": "Windows2000/XP/Vista DVDソフト 同僚の奥さん～ネトリ妻、ネトラレ妻～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019572",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019572.jpg",
+    "manufacturer": "Guilty+",
+    "releaseDate": "2009-03-06",
+    "listPrice": 3457,
+    "modelNumber": "WILL-216",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019572",
+      "メーカー": "Guilty+",
+      "発売日": "2009/03/06",
+      "定価": "3,457円",
+      "型番": "WILL-216",
+      "原画": "紅葉-K",
+      "シナリオ": "髪ノ毛座",
+      "声優": "北都南\n如月未琴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:57.000Z"
+  },
+  "histories": [
+    {
+      "id": 7904,
+      "productId": 7890,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13043,
+      "productId": 7890,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15722,
+      "productId": 7890,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27668,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 27667,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 520,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 17691,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 17690,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 17689,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 520,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 598,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 597,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 596,
+      "productId": 7890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 520,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 2676,
+    "title": "Windows95 CDソフト Nails ネイルズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000546",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000546.jpg",
+    "manufacturer": "jam",
+    "releaseDate": "1997-11-14",
+    "listPrice": 9350,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000546001",
+      "メーカー": "jam",
+      "発売日": "1997/11/14",
+      "定価": "9,350円",
+      "原画": "虎井安夫",
+      "シナリオ": "みささぎらん",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:15:58.000Z"
+  },
+  "histories": [
+    {
+      "id": 2690,
+      "productId": 2676,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7582,
+      "productId": 2676,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    }
+  ],
+  "junkHistories": []
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8508,
+    "title": "WindowsXP/Vista/7 DVDソフト 僕の目の前で××される彼女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033641",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033641.jpg",
+    "manufacturer": "アイル【チーム・Riva】",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "AIL-141923",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033641",
+      "メーカー": "アイル【チーム・Riva】",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "AIL-141923",
+      "シナリオ": "りうのすけ",
+      "声優": "ももぞの薫",
+      "カテゴリ": "アダルト Windows Windows 7"
+    },
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:13:12.000Z"
+  },
+  "histories": [
+    {
+      "id": 8522,
+      "productId": 8508,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1983,
+      "productId": 8508,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145033641001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ]
+}

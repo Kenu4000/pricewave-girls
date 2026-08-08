@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8437,
+    "title": "Windows95/98/Me/2000/XP CDソフト Inmoral Emotion",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006676",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006676.jpg",
+    "manufacturer": "アクトレスプリマ",
+    "releaseDate": "2002-06-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006676",
+      "メーカー": "アクトレスプリマ",
+      "発売日": "2002/06/28",
+      "定価": "9,680円",
+      "原画": "沢野口由衣",
+      "シナリオ": "SEAN",
+      "声優": "金田まひる",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 1880,
+    "latestRegularSalePrice": 1880,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:12:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8451,
+      "productId": 8437,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1887,
+      "productId": 8437,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145006676001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ]
+}

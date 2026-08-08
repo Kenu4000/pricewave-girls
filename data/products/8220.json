@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 8220,
+    "title": "Windows95 CDソフト 妖女乱舞2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000504",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000504.jpg",
+    "manufacturer": "ZONE",
+    "releaseDate": "1997-05-29",
+    "listPrice": 9680,
+    "modelNumber": "ZONE-970408",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000504",
+      "メーカー": "ZONE",
+      "発売日": "1997/05/29",
+      "定価": "9,680円",
+      "型番": "ZONE-970408",
+      "シナリオ": "紙谷龍生",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8234,
+      "productId": 8220,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1510,
+      "productId": 8220,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145000504001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

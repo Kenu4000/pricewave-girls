@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 8316,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 「ている・ている」まるごと1本ぷれいでぃすく＆豪華特典オービットファンディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033042.jpg",
+    "manufacturer": "アスキー・メディアワークス",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "HIME-0401",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145033042001",
+      "メーカー": "アスキー・メディアワークス",
+      "型番": "HIME-0401",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8330,
+      "productId": 8316,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1669,
+      "productId": 8316,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1668,
+      "productId": 8316,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1667,
+      "productId": 8316,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1666,
+      "productId": 8316,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスク不備",
+      "price": 260,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 1287,
+    "title": "Windows8.1/10/11 DVDソフト dROSEra -レディ・バットエンドの初恋- 抱き枕カバー付属 豪華限定版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078061.jpg",
+    "manufacturer": "Tily",
+    "releaseDate": "2023-07-28",
+    "listPrice": 18645,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145078061",
+      "メーカー": "Tily",
+      "発売日": "2023/07/28",
+      "定価": "18,645円",
+      "原画": "K子",
+      "シナリオ": "雪丸仟",
+      "声優": "そよかぜみらい",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 13020,
+    "latestRegularSalePrice": 13020,
+    "latestBuyPrice": 9000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:21:28.000Z"
+  },
+  "histories": [
+    {
+      "id": 1301,
+      "productId": 1287,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 7800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6186,
+      "productId": 1287,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 7800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:39.000Z"
+    },
+    {
+      "id": 16141,
+      "productId": 1287,
+      "salePrice": 13020,
+      "regularSalePrice": 13020,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28772,
+      "productId": 1287,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145078061001",
+      "price": 18645,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ]
+}

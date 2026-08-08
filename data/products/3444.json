@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 3444,
+    "title": "Windows98/Me/2000/XP DVDソフト ランクB)ToHeart2 XRATED[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905004",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905004.jpg",
+    "manufacturer": "Leaf",
+    "releaseDate": "2005-12-09",
+    "listPrice": 9680,
+    "modelNumber": "LFWD-05030",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145905004",
+      "メーカー": "Leaf",
+      "発売日": "2005/12/09",
+      "定価": "9,680円",
+      "型番": "LFWD-05030",
+      "原画": "なかむらたけし\nみつみ美里\nカワタヒサシ\n甘露樹",
+      "シナリオ": "枕流\n三宅章介\n菅宗光\nまるいたけし",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:17:00.000Z"
+  },
+  "histories": [
+    {
+      "id": 3458,
+      "productId": 3444,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 12930,
+      "productId": 3444,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    },
+    {
+      "id": 15611,
+      "productId": 3444,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 27221,
+      "productId": 3444,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145905004001",
+      "price": 9680,
+      "checkedAt": "2026-08-07T20:17:00.000Z"
+    },
+    {
+      "id": 17220,
+      "productId": 3444,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145905004001",
+      "price": 9680,
+      "checkedAt": "2026-08-06T16:38:09.000Z"
+    }
+  ]
+}

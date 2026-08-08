@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8137,
+    "title": "Windows95/98 CDソフト VIPER GTB 初回ビックタオル付",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003106",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003106.jpg",
+    "manufacturer": "ソニア",
+    "releaseDate": "2000-01-15",
+    "listPrice": 10780,
+    "modelNumber": "SGN-9521",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003106",
+      "メーカー": "ソニア",
+      "発売日": "2000/01/15",
+      "定価": "10,780円",
+      "型番": "SGN-9521",
+      "原画": "木村貴宏",
+      "声優": "春日アン",
+      "カテゴリ": "アダルト Windows Windows 98/SE"
+    },
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:06:54.000Z"
+  },
+  "histories": [
+    {
+      "id": 8151,
+      "productId": 8137,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1346,
+      "productId": 8137,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145003106001",
+      "price": 10780,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ]
+}

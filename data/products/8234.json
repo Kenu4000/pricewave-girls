@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 8234,
+    "title": "Windows2000/XP/Vista DVDソフト 蠅声の王(さばえのおう) シナリオII",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019857",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019857.jpg",
+    "manufacturer": "Lost Script",
+    "releaseDate": "2009-06-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019857001",
+      "メーカー": "Lost Script",
+      "発売日": "2009/06/26",
+      "定価": "9,680円",
+      "原画": "vanilla",
+      "シナリオ": "大槻涼樹",
+      "声優": "左高蹴",
+      "音楽": "たくまる",
+      "カテゴリ": "アダルト Windows Windows Vista"
+    },
+    "latestSalePrice": 410,
+    "latestRegularSalePrice": 410,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8248,
+      "productId": 8234,
+      "salePrice": 410,
+      "regularSalePrice": 410,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1544,
+      "productId": 8234,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 1014,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1543,
+      "productId": 8234,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 410,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1542,
+      "productId": 8234,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1541,
+      "productId": 8234,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 260,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

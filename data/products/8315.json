@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 8315,
+    "title": "Windows98/Me/2000/XP CDソフト めじょく～復讐学園～（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011172.jpg",
+    "manufacturer": "生Lilim",
+    "releaseDate": "2004-04-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145011172001",
+      "メーカー": "生Lilim",
+      "発売日": "2004/04/29",
+      "定価": "9,680円",
+      "原画": "川合正起",
+      "シナリオ": "硝子丸",
+      "声優": "相模真",
+      "カテゴリ": "アダルト Windows Windows XP"
+    },
+    "latestSalePrice": 3020,
+    "latestRegularSalePrice": 3020,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8329,
+      "productId": 8315,
+      "salePrice": 3020,
+      "regularSalePrice": 3020,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1664,
+      "productId": 8315,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 3020,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 1663,
+      "productId": 8315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 3000,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 8251,
+    "title": "Windows95 CDソフト VIPER -M1-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001222",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001222.jpg",
+    "manufacturer": "ソニア",
+    "releaseDate": "1998-06-27",
+    "listPrice": 9680,
+    "modelNumber": "SGN-9511",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001222",
+      "メーカー": "ソニア",
+      "発売日": "1998/06/27",
+      "定価": "9,680円",
+      "型番": "SGN-9511",
+      "原画": "ささやん",
+      "声優": "遠山信一",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T17:07:35.000Z"
+  },
+  "histories": [
+    {
+      "id": 8265,
+      "productId": 8251,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1573,
+      "productId": 8251,
+      "sourceType": "other_shop",
+      "storeName": "メーカー",
+      "condition": "中古 ：145001222001",
+      "price": 9680,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    }
+  ]
+}

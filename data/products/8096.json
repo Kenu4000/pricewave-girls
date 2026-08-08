@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 8096,
+    "title": "WindowsXP/Vista/7 DVDソフト まかぱらっ!ーあの世でめちゃモテー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026315",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026315.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026315001",
+      "メーカー": "CLOCKUP",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "声優": "高井戸雫\nこのは\n桜川未央\n英みらい(大山チロル)\n東かりん\nサトウユキ\n御苑生メイ\n鈴音華月",
+      "原画": "睦弦",
+      "シナリオ": "穂波衛一\n秋月兎々丸",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:18:52.000Z"
+  },
+  "histories": [
+    {
+      "id": 8110,
+      "productId": 8096,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 13139,
+      "productId": 8096,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15819,
+      "productId": 8096,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28026,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 28025,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 18045,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 18044,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 1229,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1228,
+      "productId": 8096,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ]
+}

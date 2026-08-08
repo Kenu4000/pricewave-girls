@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 2494,
+    "title": "Windows95 CDソフト 闇の密猟者",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001470",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001470.jpg",
+    "manufacturer": "JADE",
+    "releaseDate": "1998-09-04",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145001470001",
+      "メーカー": "JADE",
+      "発売日": "1998/09/04",
+      "定価": "8,580円",
+      "原画": "富士参號",
+      "シナリオ": "柳本波樹",
+      "カテゴリ": "アダルト Windows Windows 95"
+    },
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-04T16:14:43.000Z"
+  },
+  "histories": [
+    {
+      "id": 2508,
+      "productId": 2494,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:58.000Z"
+    },
+    {
+      "id": 7402,
+      "productId": 2494,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    }
+  ],
+  "junkHistories": []
+}
