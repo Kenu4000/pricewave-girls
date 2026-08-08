@@ -13,6 +13,7 @@ type WorkerContext = vm.Context & {
   createdAlarms: Array<{ name: string; info: Record<string, unknown> }>;
   startedTriggers: string[];
   scriptResults: unknown[];
+  emitHeaders(details: Record<string, unknown>): void;
 };
 
 function createWorkerContext(initialStorage: Record<string, unknown> = {}): WorkerContext {
@@ -20,11 +21,15 @@ function createWorkerContext(initialStorage: Record<string, unknown> = {}): Work
   const createdAlarms: Array<{ name: string; info: Record<string, unknown> }> = [];
   const startedTriggers: string[] = [];
   const alarmListeners: Array<(alarm: { name: string }) => void> = [];
+  const headersListeners: Array<(details: Record<string, unknown>) => void> = [];
   const sandbox: Record<string, unknown> = {
     storageData,
     createdAlarms,
     startedTriggers,
     scriptResults: [],
+    emitHeaders(details: Record<string, unknown>) {
+      for (const listener of headersListeners) listener(details);
+    },
   };
   const context = vm.createContext(sandbox) as WorkerContext;
 
@@ -62,6 +67,13 @@ function createWorkerContext(initialStorage: Record<string, unknown> = {}): Work
     scripting: {
       async executeScript() {
         return context.scriptResults;
+      },
+    },
+    webRequest: {
+      onHeadersReceived: {
+        addListener(listener: (details: Record<string, unknown>) => void) {
+          headersListeners.push(listener);
+        },
       },
     },
     alarms: {
@@ -235,8 +247,8 @@ test("テストモードではアクセス確認が連続しても最後まで�
   assert.equal(context.storageData.crawlResumeCheckpoint, undefined);
 });
 
-test("テストモードでも403・429相当の強制停止はスキップしない", async () => {
-  const context = createWorkerContext({ continueThroughAccessChallenges: true });
+test("テストモードOFFでは強制停止エラーを維持する", async () => {
+  const context = createWorkerContext();
   const result = await runScenario(context, ["hard-block", "success"]);
   assert.equal(result.kind, "error");
   const checkpoint = context.storageData.crawlResumeCheckpoint as {
@@ -326,11 +338,12 @@ test("アクセス確認停止後は1分後の再開アラームを設定する"
   });
 });
 
-test("403・429ページはアクセス確認継続モードの対象外にする", async () => {
+test("HTMLに403文言があるだけでは強制停止しない", async () => {
   const context = createWorkerContext();
   context.scriptResults = [
     {
       result: {
+        url: "https://www.suruga-ya.jp/product/detail/123456789",
         title: "403 Forbidden",
         html: "<h1>403 Forbidden</h1>",
         isAccessChallenge: true,
@@ -341,7 +354,7 @@ test("403・429ページはアクセス確認継続モードの対象外にす�
   const result = (await vm.runInContext(
     `(async () => {
       try {
-        await chrome.scripting.executeScript({});
+        await chrome.scripting.executeScript({ target: { tabId: 7 } });
         return { blocked: false };
       } catch (error) {
         return { blocked: true, nonSkippable: error.nonSkippable, message: error.message };
@@ -349,6 +362,79 @@ test("403・429ページはアクセス確認継続モードの対象外にす�
     })()`,
     context,
   )) as Record<string, unknown>;
+  assert.equal(result.blocked, false);
+});
+
+test("実HTTP 403だけを強制停止として扱う", async () => {
+  const context = createWorkerContext();
+  context.emitHeaders({
+    tabId: 7,
+    type: "main_frame",
+    url: "https://www.suruga-ya.jp/product/detail/123456789",
+    statusCode: 403,
+  });
+  context.scriptResults = [
+    {
+      result: {
+        url: "https://www.suruga-ya.jp/product/detail/123456789",
+        title: "403 Forbidden",
+        html: "<h1>403 Forbidden</h1>",
+        isAccessChallenge: true,
+      },
+    },
+  ];
+
+  const result = (await vm.runInContext(
+    `(async () => {
+      try {
+        await chrome.scripting.executeScript({ target: { tabId: 7 } });
+        return { blocked: false };
+      } catch (error) {
+        return {
+          blocked: true,
+          nonSkippable: error.nonSkippable,
+          httpStatus: error.httpStatus,
+          message: error.message,
+        };
+      }
+    })()`,
+    context,
+  )) as Record<string, unknown>;
   assert.equal(result.blocked, true);
   assert.equal(result.nonSkippable, true);
+  assert.equal(result.httpStatus, 403);
+});
+
+test("実HTTP 429も強制停止として扱う", async () => {
+  const context = createWorkerContext();
+  context.emitHeaders({
+    tabId: 9,
+    type: "main_frame",
+    url: "https://www.suruga-ya.jp/product/detail/987654321",
+    statusCode: 429,
+  });
+  context.scriptResults = [
+    {
+      result: {
+        url: "https://www.suruga-ya.jp/product/detail/987654321",
+        title: "Too Many Requests",
+        html: "<h1>Too Many Requests</h1>",
+        isAccessChallenge: false,
+      },
+    },
+  ];
+
+  const result = (await vm.runInContext(
+    `(async () => {
+      try {
+        await chrome.scripting.executeScript({ target: { tabId: 9 } });
+        return { blocked: false };
+      } catch (error) {
+        return { blocked: true, httpStatus: error.httpStatus };
+      }
+    })()`,
+    context,
+  )) as Record<string, unknown>;
+  assert.equal(result.blocked, true);
+  assert.equal(result.httpStatus, 429);
 });
