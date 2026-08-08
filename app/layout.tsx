@@ -4,6 +4,7 @@ import { TimeSaleCountdown } from "@/components/TimeSaleCountdown";
 import { ViewedProductTracker } from "@/components/ViewedProductTracker";
 import { prisma } from "@/lib/prisma";
 import "./globals.css";
+import "./mobile.css";
 
 export const metadata: Metadata = {
   title: "駿河屋価格トラッキング",
