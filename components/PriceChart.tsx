@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -32,6 +32,21 @@ const yenFormatter = (value: number | string | null) => {
   }
 
   return `${Number(value).toLocaleString("ja-JP")}円`;
+};
+
+const compactYenFormatter = (value: number | string | null) => {
+  if (value === null || value === undefined) return "-";
+  const amount = Number(value);
+  if (!Number.isFinite(amount)) return "-";
+  if (Math.abs(amount) >= 10_000) {
+    const man = amount / 10_000;
+    return `${Number.isInteger(man) ? man.toFixed(0) : man.toFixed(1)}万`;
+  }
+  if (Math.abs(amount) >= 1_000) {
+    const thousand = amount / 1_000;
+    return `${Number.isInteger(thousand) ? thousand.toFixed(0) : thousand.toFixed(1)}千`;
+  }
+  return String(amount);
 };
 
 type TooltipPayloadEntry = {
@@ -69,8 +84,6 @@ function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipPro
   if (rows.length === 0) return null;
 
   const average = rows.reduce((sum, row) => sum + row.value, 0) / rows.length;
-  // 高価格帯はグラフ上側、低価格帯は下側に描かれるため、
-  // 価格帯の外側へ出して線との重なりを減らす。カーソルとの隙間は従来相当に保つ。
   const placeAbove = shouldPlaceTooltipAbove(average, rangeMidpoint);
 
   return (
@@ -97,6 +110,7 @@ function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipPro
 
 export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
   const [mode, setMode] = useState<PriceChartMode>("day");
+  const [compact, setCompact] = useState(false);
   const data = useMemo(() => aggregatePriceChartData(histories, mode), [histories, mode]);
   const tooltipRangeMidpoint = useMemo(() => {
     const values = data.flatMap((point) =>
@@ -108,12 +122,24 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
     return (Math.min(...values) + Math.max(...values)) / 2;
   }, [data]);
 
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 760px)");
+    const updateCompact = () => setCompact(media.matches);
+    updateCompact();
+    media.addEventListener("change", updateCompact);
+    return () => media.removeEventListener("change", updateCompact);
+  }, []);
+
   if (histories.length === 0) {
     return <p className="muted">まだ価格履歴がありません。</p>;
   }
 
+  const chartMargin = compact
+    ? { bottom: 2, left: -14, right: 2, top: 8 }
+    : { bottom: 8, left: 0, right: 18, top: 16 };
+
   return (
-    <>
+    <div className={styles.root}>
       <div aria-label="価格推移の表示単位" className={styles.controls}>
         {PERIOD_OPTIONS.map((option) => (
           <button
@@ -134,12 +160,22 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             ? "全期間を週ごとの最終価格で表示"
             : "全期間を月ごとの最終価格で表示"}
       </p>
-      <div className="chart-wrap">
+      <div className={styles.chartWrap}>
         <ResponsiveContainer height="100%" width="100%">
-          <LineChart data={data} margin={{ bottom: 8, left: 0, right: 18, top: 16 }}>
+          <LineChart data={data} margin={chartMargin}>
             <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="label" minTickGap={24} />
-            <YAxis tickFormatter={(value) => yenFormatter(value)} width={92} />
+            <XAxis
+              dataKey="label"
+              interval="preserveStartEnd"
+              minTickGap={compact ? 12 : 24}
+              tick={{ fontSize: compact ? 9 : 12 }}
+              tickMargin={compact ? 5 : 8}
+            />
+            <YAxis
+              tick={{ fontSize: compact ? 9 : 12 }}
+              tickFormatter={(value) => (compact ? compactYenFormatter(value) : yenFormatter(value))}
+              width={compact ? 58 : 92}
+            />
             <Tooltip
               content={(props) => (
                 <PriceTooltip
@@ -150,7 +186,10 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
                 />
               )}
             />
-            <Legend />
+            <Legend
+              iconSize={compact ? 8 : 14}
+              wrapperStyle={{ fontSize: compact ? 10 : 12, lineHeight: compact ? "16px" : "20px" }}
+            />
             {data
               .filter(
                 (point) =>
@@ -173,39 +212,42 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             <Line
               connectNulls
               dataKey="salePrice"
+              dot={compact ? false : { r: 3 }}
               name="販売価格"
               stroke="#d9469a"
-              strokeWidth={3}
+              strokeWidth={compact ? 2 : 3}
               type="monotone"
             />
             <Line
               connectNulls
               dataKey="buyPrice"
+              dot={compact ? false : { r: 3 }}
               name="買取価格"
               stroke="#3b82f6"
-              strokeWidth={3}
+              strokeWidth={compact ? 2 : 3}
               type="monotone"
             />
             <Line
               connectNulls
               dataKey="rankBPrice"
+              dot={compact ? false : { r: 3 }}
               name="ランクB"
               stroke="#16a34a"
-              strokeWidth={3}
+              strokeWidth={compact ? 2 : 3}
               type="monotone"
             />
             <Line
               connectNulls={false}
               dataKey="timeSalePrice"
-              dot={{ r: 4 }}
+              dot={{ r: compact ? 2.5 : 4 }}
               name="タイムセール"
               stroke="#eab308"
-              strokeWidth={3}
+              strokeWidth={compact ? 2 : 3}
               type="monotone"
             />
           </LineChart>
         </ResponsiveContainer>
       </div>
-    </>
+    </div>
   );
 }
