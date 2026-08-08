@@ -57,8 +57,10 @@ export function matchesPriceChangeDirection(
   currentPrice: number | null,
   direction: PriceChangeDirection,
 ): boolean {
-  if (direction === "all") return true;
+  // 未取得からの初回取得、または取得済みから未取得への遷移は
+  // 「価格変更」ではなく取得状態の変化として扱い、一覧には出さない。
   if (previousPrice === null || currentPrice === null) return false;
+  if (direction === "all") return true;
   return direction === "up"
     ? currentPrice > previousPrice
     : currentPrice < previousPrice;
@@ -82,6 +84,8 @@ export function buildPriceChangeWhere(
   }
 
   return {
+    previousPrice: { not: null },
+    currentPrice: { not: null },
     ...(filters.type === "all" ? {} : { type: filters.type }),
     ...(Object.keys(productWhere).length > 0
       ? { product: { is: productWhere } }
@@ -93,7 +97,12 @@ async function getPriceChangeBrandIndex() {
   const products = await prisma.product.findMany({
     where: {
       manufacturer: { not: null },
-      priceChanges: { some: {} },
+      priceChanges: {
+        some: {
+          previousPrice: { not: null },
+          currentPrice: { not: null },
+        },
+      },
     },
     select: {
       id: true,
