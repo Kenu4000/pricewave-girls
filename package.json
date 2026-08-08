@@ -7,9 +7,10 @@
   },
   "scripts": {
     "predev": "prisma migrate deploy && prisma generate && node --import tsx scripts/backfill-product-conditions.ts",
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H 0.0.0.0",
+    "share:url": "node scripts/show-network-url.mjs",
     "test": "node --import tsx --test lib/*.test.ts",
     "typecheck": "tsc --noEmit",
     "prisma:generate": "prisma generate",
