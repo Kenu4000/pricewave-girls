@@ -46,7 +46,7 @@ export function LiveRefresh() {
       }
 
       // 各商品の保存時点で products-changed が発火しており、一覧はすでに最新化される。
-      // 取込完了時にさらに router.refresh() すると、更新中に見えていた並びを
+      // 取込完了時に追加の再読込を行うと、更新中に見えていた並びを
       // サーバー描画結果で丸ごと置き換えてしまうため、完了時はセッション整理だけ行う。
       finishedSessionsRef.current.delete(sessionId);
     };
