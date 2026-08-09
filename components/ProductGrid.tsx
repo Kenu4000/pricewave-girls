@@ -161,11 +161,23 @@ export function ProductGrid({
     useState<ProductCardPriceChangeSummaries>({});
   const [cardStates, setCardStates] = useState<ProductCardStates>({});
   const revealKeyRef = useRef(0);
+  const liveOrderLockedRef = useRef(false);
   const productIds = products.map((product) => product.id).join(",");
 
   useEffect(() => {
+    if (!streamEnabled) {
+      liveOrderLockedRef.current = false;
+      setProducts(initialProducts.map((product) => ({ ...product, revealKey: 0 })));
+      return;
+    }
+
+    // 自動更新中に一度でも商品をライブ表示した後は、先に開始していた
+    // router.refresh / RSC Rendering の古い initialProducts で表示順を戻さない。
+    // ブラウザ再読込やヘッダーのタイトルから /products へ入り直した場合は
+    // ProductGrid 自体が再マウントされるので、DBに保存された更新順を使う。
+    if (liveOrderLockedRef.current) return;
     setProducts(initialProducts.map((product) => ({ ...product, revealKey: 0 })));
-  }, [initialProducts]);
+  }, [initialProducts, streamEnabled]);
 
   useEffect(() => {
     if (!productIds) {
@@ -213,6 +225,7 @@ export function ProductGrid({
       const product = (event as CustomEvent<ProductPreview>).detail;
       if (!product || typeof product.id !== "number") return;
 
+      liveOrderLockedRef.current = true;
       revealKeyRef.current += 1;
       const nextProduct = { ...product, revealKey: revealKeyRef.current };
       setProducts((current) => prependUniqueProduct(current, nextProduct, perPage));
