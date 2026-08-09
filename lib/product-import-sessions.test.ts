@@ -7,8 +7,9 @@ const source = readFileSync(
   "utf8",
 );
 
-test("自動更新の各商品は手動記録と同じimport queueでDB保存を完了してから成功扱いになる", () => {
-  assert.match(source, /productImportQueue\.enqueue\(input\)/u);
+test("自動更新の各商品はDB保存を完了してから専用ライブ通知へ流す", () => {
+  assert.match(source, /productImportQueue\.enqueue\(input, \{ notify: false \}\)/u);
+  assert.match(source, /notifyProductBatchSaved\(session\.id, session\.savedIds\.length, \[product\]\)/u);
   assert.doesNotMatch(source, /upsertProductSnapshotsWithTimeSale\(batch/u);
   assert.doesNotMatch(source, /pending:\s*new Map/u);
 });
