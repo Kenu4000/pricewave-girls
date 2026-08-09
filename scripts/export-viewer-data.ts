@@ -32,6 +32,13 @@ function latestChangedAt(
   return salePriceChangedAt > buyPriceChangedAt ? salePriceChangedAt : buyPriceChangedAt;
 }
 
+function latestCheckedAt(product: {
+  updatedAt: Date;
+  histories: Array<{ checkedAt: Date }>;
+}): Date {
+  return product.histories.at(-1)?.checkedAt ?? product.updatedAt;
+}
+
 async function main() {
   await rm(OUTPUT_DIR, { recursive: true, force: true });
   await mkdir(PRODUCT_DATA_DIR, { recursive: true });
@@ -39,11 +46,18 @@ async function main() {
   await writeFile(path.join(OUTPUT_DIR, ".nojekyll"), "", "utf8");
 
   const products = await prisma.product.findMany({
-    orderBy: [{ updatedAt: "desc" }, { id: "desc" }],
     include: {
       histories: { orderBy: [{ checkedAt: "asc" }, { id: "asc" }] },
       junkHistories: { orderBy: [{ checkedAt: "desc" }, { id: "desc" }] },
     },
+  });
+
+  // Product.updatedAtを中継せず、保存済み価格履歴の実際の取得時刻を直接使う。
+  // 並列取得や旧migrationの適用状況に左右されず、「更新が新しい順」が
+  // 価格を取得した順になるようにする。
+  products.sort((left, right) => {
+    const timeDifference = latestCheckedAt(right).getTime() - latestCheckedAt(left).getTime();
+    return timeDifference || right.id - left.id;
   });
 
   const priceChanges = await prisma.priceChange.findMany({
@@ -90,7 +104,7 @@ async function main() {
       isTimeSale: product.isTimeSale,
       timeSaleStartedAt: product.timeSaleStartedAt,
       timeSaleEndsAt: product.timeSaleEndsAt,
-      updatedAt: product.updatedAt,
+      updatedAt: latestCheckedAt(product),
       priceChangedAt: latestChangedAt(product.salePriceChangedAt, product.buyPriceChangedAt),
       historyCount: product.histories.length,
       latestChanges: {
@@ -162,7 +176,7 @@ async function main() {
             isTimeSale: product.isTimeSale,
             timeSaleStartedAt: product.timeSaleStartedAt,
             timeSaleEndsAt: product.timeSaleEndsAt,
-            updatedAt: product.updatedAt,
+            updatedAt: latestCheckedAt(product),
           },
           histories: product.histories,
           junkHistories: product.junkHistories,
