@@ -1,36 +1,30 @@
 import { type ProductSnapshotInput } from "@/lib/product-snapshots";
-import {
-  notifyProductBatchSaved,
-  notifyProductImportFinished,
-} from "@/lib/product-events";
-import { upsertProductSnapshotsWithTimeSale } from "@/lib/time-sale-persistence";
+import { productImportQueue } from "@/lib/product-import-queue";
+import { notifyProductImportFinished } from "@/lib/product-events";
 
-const AUTO_FLUSH_SIZE = 100;
 const SESSION_TTL_MS = 2 * 60 * 60 * 1_000;
 const SESSION_ID_PATTERN = /^[0-9a-f-]{36}$/i;
 
 type ImportSession = {
   id: string;
   createdAt: number;
-  pending: Map<string, ProductSnapshotInput>;
+  lastTouchedAt: number;
   knownUrls: Set<string>;
   savedIds: number[];
-  flushPromise?: Promise<void>;
-  flushError?: unknown;
   finalizingPromise?: Promise<number[]>;
   completedIds?: number[];
 };
 
 const globalForImportSessions = globalThis as unknown as {
-  productImportSessionsV2?: Map<string, ImportSession>;
+  productImportSessionsV3?: Map<string, ImportSession>;
 };
 
 const sessions =
-  globalForImportSessions.productImportSessionsV2 ?? new Map<string, ImportSession>();
+  globalForImportSessions.productImportSessionsV3 ?? new Map<string, ImportSession>();
 
-if (process.env.NODE_ENV !== "production") {
-  globalForImportSessions.productImportSessionsV2 = sessions;
-}
+// /api/import と /api/import/commit は別Route Moduleとして読み込まれるため、
+// 開発・本番を問わず同じNodeプロセス内ではセッションをglobalThisで共有する。
+globalForImportSessions.productImportSessionsV3 = sessions;
 
 function validateSessionId(sessionId: string) {
   if (!SESSION_ID_PATTERN.test(sessionId)) {
@@ -41,61 +35,31 @@ function validateSessionId(sessionId: string) {
 function deleteExpiredSessions(now = Date.now()) {
   for (const [sessionId, session] of sessions) {
     if (
-      !session.flushPromise &&
       !session.finalizingPromise &&
-      now - session.createdAt >= SESSION_TTL_MS
+      now - session.lastTouchedAt >= SESSION_TTL_MS
     ) {
       sessions.delete(sessionId);
     }
   }
 }
 
-function takePendingItems(session: ImportSession, count: number) {
-  const items: ProductSnapshotInput[] = [];
-  for (const [url, input] of session.pending) {
-    items.push(input);
-    session.pending.delete(url);
-    if (items.length >= count) break;
+function getOrCreateSession(sessionId: string) {
+  const now = Date.now();
+  const existing = sessions.get(sessionId);
+  if (existing) {
+    existing.lastTouchedAt = now;
+    return existing;
   }
-  return items;
-}
 
-function flushNextBatch(session: ImportSession, force: boolean) {
-  if (session.flushPromise) return session.flushPromise;
-  if (session.flushError) return undefined;
-
-  const flushCount = force
-    ? Math.min(AUTO_FLUSH_SIZE, session.pending.size)
-    : session.pending.size >= AUTO_FLUSH_SIZE
-      ? AUTO_FLUSH_SIZE
-      : 0;
-  if (flushCount === 0) return undefined;
-
-  const batch = takePendingItems(session, flushCount);
-  const flushPromise = upsertProductSnapshotsWithTimeSale(batch, { notify: false })
-    .then((products) => {
-      session.savedIds.push(...products.map((product) => product.id));
-      notifyProductBatchSaved(
-        session.id,
-        session.savedIds.length,
-        products,
-      );
-    })
-    .catch((error) => {
-      for (const input of batch) {
-        session.pending.set(input.surugayaUrl, input);
-      }
-      session.flushError = error;
-    })
-    .finally(() => {
-      session.flushPromise = undefined;
-      if (!session.flushError && session.pending.size >= AUTO_FLUSH_SIZE) {
-        void flushNextBatch(session, false);
-      }
-    });
-
-  session.flushPromise = flushPromise;
-  return flushPromise;
+  const session: ImportSession = {
+    id: sessionId,
+    createdAt: now,
+    lastTouchedAt: now,
+    knownUrls: new Set<string>(),
+    savedIds: [],
+  };
+  sessions.set(sessionId, session);
+  return session;
 }
 
 export async function stageProductSnapshot(
@@ -105,27 +69,32 @@ export async function stageProductSnapshot(
   validateSessionId(sessionId);
   deleteExpiredSessions();
 
-  const session = sessions.get(sessionId) ?? {
-    id: sessionId,
-    createdAt: Date.now(),
-    pending: new Map<string, ProductSnapshotInput>(),
-    knownUrls: new Set<string>(),
-    savedIds: [],
-  };
+  const session = getOrCreateSession(sessionId);
   if (session.finalizingPromise || session.completedIds) {
     throw new Error("確定処理を開始した取込セッションには追加できません");
   }
 
-  if (!session.knownUrls.has(input.surugayaUrl)) {
-    session.knownUrls.add(input.surugayaUrl);
-    session.pending.set(input.surugayaUrl, input);
+  if (session.knownUrls.has(input.surugayaUrl)) {
+    return session.knownUrls.size;
   }
-  sessions.set(sessionId, session);
 
-  const flushPromise = flushNextBatch(session, false);
-  if (flushPromise) await flushPromise;
+  session.knownUrls.add(input.surugayaUrl);
+  session.lastTouchedAt = Date.now();
 
-  return session.knownUrls.size;
+  try {
+    // 自動更新だけをメモリ上へ一時保存する旧経路をやめ、手動記録と同じ
+    // AsyncBatcherへ流す。POST /api/import が成功した時点でPriceHistoryまで
+    // DBへ確定しているため、巡回途中の停止やセッション消失でも履歴を失わない。
+    const productId = await productImportQueue.enqueue(input);
+    session.savedIds.push(productId);
+    session.lastTouchedAt = Date.now();
+    return session.knownUrls.size;
+  } catch (error) {
+    // 同じ商品を再試行できるよう、保存失敗時だけ既知URLから戻す。
+    session.knownUrls.delete(input.surugayaUrl);
+    session.lastTouchedAt = Date.now();
+    throw error;
+  }
 }
 
 export async function commitProductImportSession(sessionId: string) {
@@ -138,22 +107,10 @@ export async function commitProductImportSession(sessionId: string) {
   if (session.finalizingPromise) return session.finalizingPromise;
 
   const finalize = async () => {
-    if (session.flushPromise) await session.flushPromise;
-
-    // A failed 100-item write is atomic and remains in pending, so the final
-    // commit can safely retry it once through requestLocal's normal retry path.
-    session.flushError = undefined;
-
-    while (session.pending.size > 0) {
-      const flushPromise = flushNextBatch(session, true);
-      if (!flushPromise) {
-        throw session.flushError ?? new Error("一括保存を開始できませんでした");
-      }
-      await flushPromise;
-      if (session.flushError) throw session.flushError;
-    }
-
+    // 各 /api/import は productImportQueue.enqueue() の完了を待ってから応答する。
+    // したがって、この時点の savedIds はすべてDB保存済み。
     session.completedIds = [...session.savedIds];
+    session.lastTouchedAt = Date.now();
     notifyProductImportFinished(session.id, session.completedIds.length);
     return session.completedIds;
   };
