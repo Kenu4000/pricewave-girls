@@ -9,6 +9,7 @@ export type ProductPreview = {
   salePrice: number | null;
   buyPrice: number | null;
   priceChangedAt: string | null;
+  lastCheckedAt?: string | null;
   manufacturer: string | null;
   releaseDate: string | null;
   modelNumber: string | null;
@@ -24,10 +25,25 @@ export function nextProductRevealDelay(random = Math.random): number {
   return PRODUCT_REVEAL_MIN_DELAY_MS + Math.floor(random() * range);
 }
 
-export function prependUniqueProduct<T extends { id: number }>(
+function checkedAtMs(value: string | null | undefined): number | null {
+  if (!value) return null;
+  const time = Date.parse(value);
+  return Number.isFinite(time) ? time : null;
+}
+
+export function prependUniqueProduct<T extends { id: number; lastCheckedAt?: string | null }>(
   products: T[],
   product: T,
   limit: number,
 ): T[] {
-  return [product, ...products.filter((item) => item.id !== product.id)].slice(0, limit);
+  return [product, ...products.filter((item) => item.id !== product.id)]
+    .sort((left, right) => {
+      const leftCheckedAt = checkedAtMs(left.lastCheckedAt);
+      const rightCheckedAt = checkedAtMs(right.lastCheckedAt);
+      if (leftCheckedAt === null && rightCheckedAt === null) return 0;
+      if (leftCheckedAt === null) return 1;
+      if (rightCheckedAt === null) return -1;
+      return rightCheckedAt - leftCheckedAt;
+    })
+    .slice(0, limit);
 }

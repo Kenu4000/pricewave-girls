@@ -10,6 +10,7 @@ import {
   type ProductFilterCatalog,
   type RankedFilterOptions,
 } from "@/lib/product-filter-options";
+import { sortProductIdsByLatestHistory } from "@/lib/product-history-order";
 import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
 import { conditionAnnotatedProductIds } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
@@ -18,8 +19,8 @@ import type { ProductPreview } from "@/lib/product-preview";
 export const dynamic = "force-dynamic";
 
 const SORT_OPTIONS = [
-  { value: "updated-desc", label: "更新が新しい順" },
-  { value: "updated-asc", label: "更新が古い順" },
+  { value: "updated-desc", label: "確認履歴が新しい順" },
+  { value: "updated-asc", label: "確認履歴が古い順" },
   { value: "sale-asc", label: "販売価格が安い順" },
   { value: "sale-desc", label: "販売価格が高い順" },
   { value: "buy-desc", label: "買取価格が高い順" },
@@ -38,8 +39,9 @@ const STOCK_OPTIONS = [
   { value: "unknown", label: "在庫不明" },
 ] as const;
 type SortKey = (typeof SORT_OPTIONS)[number]["value"];
+type HistorySortKey = Extract<SortKey, "updated-desc" | "updated-asc">;
 type SpreadSortKey = Extract<SortKey, "spread-asc" | "spread-desc">;
-type DatabaseSortKey = Exclude<SortKey, SpreadSortKey>;
+type DatabaseSortKey = Exclude<SortKey, HistorySortKey | SpreadSortKey>;
 type PageSize = (typeof PAGE_SIZES)[number];
 type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
 type ConditionTitleFilter = "" | "exclude";
@@ -61,8 +63,6 @@ type ProductFilters = {
 };
 
 const SORT_ORDERS = {
-  "updated-desc": [{ updatedAt: "desc" }, { id: "desc" }],
-  "updated-asc": [{ updatedAt: "asc" }, { id: "asc" }],
   "sale-asc": [
     { latestSalePrice: { sort: "asc", nulls: "last" } },
     { title: "asc" },
@@ -160,6 +160,10 @@ function parseFilters(query: Record<string, string | string[] | undefined>): Pro
 
 function hasActiveFilters(filters: ProductFilters): boolean {
   return Object.values(filters).some(Boolean);
+}
+
+function isHistorySort(sort: SortKey): sort is HistorySortKey {
+  return sort === "updated-desc" || sort === "updated-asc";
 }
 
 function isSpreadSort(sort: SortKey): sort is SpreadSortKey {
@@ -288,6 +292,20 @@ function RankedOptions({ options }: { options: RankedFilterOptions }) {
   );
 }
 
+async function loadProductsByOrderedIds(orderedIds: number[]): Promise<ListedProduct[]> {
+  if (orderedIds.length === 0) return [];
+
+  const pageProducts = await prisma.product.findMany({
+    where: { id: { in: orderedIds } },
+    include: PRODUCT_INCLUDE,
+  });
+  const byId = new Map(pageProducts.map((product) => [product.id, product]));
+  return orderedIds.flatMap((id) => {
+    const product = byId.get(id);
+    return product ? [product] : [];
+  });
+}
+
 async function loadProducts(
   where: Prisma.ProductWhereInput,
   sort: SortKey,
@@ -295,6 +313,25 @@ async function loadProducts(
   perPage: PageSize,
 ): Promise<ListedProduct[]> {
   const skip = (currentPage - 1) * perPage;
+
+  if (isHistorySort(sort)) {
+    const candidates = await prisma.product.findMany({
+      where,
+      select: {
+        id: true,
+        histories: {
+          orderBy: { checkedAt: "desc" },
+          take: 1,
+          select: { checkedAt: true },
+        },
+      },
+    });
+    const orderedIds = sortProductIdsByLatestHistory(
+      candidates,
+      sort === "updated-desc" ? "desc" : "asc",
+    ).slice(skip, skip + perPage);
+    return loadProductsByOrderedIds(orderedIds);
+  }
 
   if (!isSpreadSort(sort)) {
     return prisma.product.findMany({
@@ -321,17 +358,7 @@ async function loadProducts(
   )
     .slice(skip, skip + perPage)
     .map((product) => product.id);
-  if (orderedIds.length === 0) return [];
-
-  const pageProducts = await prisma.product.findMany({
-    where: { id: { in: orderedIds } },
-    include: PRODUCT_INCLUDE,
-  });
-  const byId = new Map(pageProducts.map((product) => [product.id, product]));
-  return orderedIds.flatMap((id) => {
-    const product = byId.get(id);
-    return product ? [product] : [];
-  });
+  return loadProductsByOrderedIds(orderedIds);
 }
 
 export default async function ProductsPage({ searchParams }: { searchParams: SearchParams }) {
@@ -372,6 +399,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         .filter((value): value is Date => value !== null)
         .sort((left, right) => right.getTime() - left.getTime())[0]
         ?.toISOString() ?? null,
+    lastCheckedAt: product.histories[0]?.checkedAt.toISOString() ?? null,
     manufacturer: product.manufacturer,
     releaseDate: product.releaseDate,
     modelNumber: product.modelNumber,
