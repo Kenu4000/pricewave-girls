@@ -7,9 +7,10 @@ const source = readFileSync(
   "utf8",
 );
 
-test("自動更新の各商品はDB保存を完了してから専用ライブ通知へ流す", () => {
+test("自動更新の各商品はDB保存を完了して確認時刻付き専用ライブ通知へ流す", () => {
   assert.match(source, /productImportQueue\.enqueue\(input, \{ notify: false \}\)/u);
-  assert.match(source, /notifyProductBatchSaved\(session\.id, session\.savedIds\.length, \[product\]\)/u);
+  assert.match(source, /notifyProductBatchSaved\(session\.id, session\.savedIds\.length, \[/u);
+  assert.match(source, /lastCheckedAt: \(input\.checkedAt \?\? new Date\(\)\)\.toISOString\(\)/u);
   assert.doesNotMatch(source, /upsertProductSnapshotsWithTimeSale\(batch/u);
   assert.doesNotMatch(source, /pending:\s*new Map/u);
 });
