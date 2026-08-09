@@ -30,6 +30,9 @@ function runNpm(args) {
 }
 
 async function main() {
+  // GitHub Pagesだけを更新する場合でも、更新順などDB側の補正migrationを
+  // 取りこぼさないよう、スナップショット生成前に必ず適用する。
+  runNpm(["exec", "prisma", "migrate", "deploy"]);
   runNpm(["run", "viewer:export"]);
 
   const origin = run("git", ["remote", "get-url", "origin"], { capture: true });
