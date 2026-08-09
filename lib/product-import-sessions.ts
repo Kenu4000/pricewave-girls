@@ -1,6 +1,9 @@
 import { type ProductSnapshotInput } from "@/lib/product-snapshots";
 import { productImportQueue } from "@/lib/product-import-queue";
-import { notifyProductImportFinished } from "@/lib/product-events";
+import {
+  notifyProductBatchSaved,
+  notifyProductImportFinished,
+} from "@/lib/product-events";
 
 const SESSION_TTL_MS = 2 * 60 * 60 * 1_000;
 const SESSION_ID_PATTERN = /^[0-9a-f-]{36}$/i;
@@ -82,12 +85,14 @@ export async function stageProductSnapshot(
   session.lastTouchedAt = Date.now();
 
   try {
-    // 自動更新だけをメモリ上へ一時保存する旧経路をやめ、手動記録と同じ
-    // AsyncBatcherへ流す。POST /api/import が成功した時点でPriceHistoryまで
-    // DBへ確定しているため、巡回途中の停止やセッション消失でも履歴を失わない。
-    const productId = await productImportQueue.enqueue(input);
-    session.savedIds.push(productId);
+    // 自動更新も手動記録と同じAsyncBatcherでPriceHistoryまで確定保存する。
+    // ただし通常のproducts-changed通知は止め、専用のproducts-batch通知で
+    // 取得した商品をその順に一覧へ流す。これにより最後のrouter.refreshで
+    // ライブ表示順が上書きされない。
+    const product = await productImportQueue.enqueue(input, { notify: false });
+    session.savedIds.push(product.id);
     session.lastTouchedAt = Date.now();
+    notifyProductBatchSaved(session.id, session.savedIds.length, [product]);
     return session.knownUrls.size;
   } catch (error) {
     // 同じ商品を再試行できるよう、保存失敗時だけ既知URLから戻す。

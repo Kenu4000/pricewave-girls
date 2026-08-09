@@ -58,13 +58,13 @@ export async function POST(request: Request) {
       return NextResponse.json({ staged: true, stagedCount }, { status: 202 });
     }
 
-    const productId = await productImportQueue.enqueue({
+    const product = await productImportQueue.enqueue({
       surugayaUrl: normalizedUrl,
       fetched,
       checkedAt,
     });
 
-    return NextResponse.json({ id: productId }, { status: 201 });
+    return NextResponse.json({ id: product.id }, { status: 201 });
   } catch (caught) {
     const message = caught instanceof Error ? caught.message : "商品の取込に失敗しました";
     const status = caught instanceof InvalidSurugayaUrlError ? 400 : 422;
