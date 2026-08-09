@@ -161,11 +161,24 @@ export function ProductGrid({
     useState<ProductCardPriceChangeSummaries>({});
   const [cardStates, setCardStates] = useState<ProductCardStates>({});
   const revealKeyRef = useRef(0);
+  const previousPerPageRef = useRef(perPage);
+  const previousStreamEnabledRef = useRef(streamEnabled);
   const productIds = products.map((product) => product.id).join(",");
 
   useEffect(() => {
+    const configurationChanged =
+      previousPerPageRef.current !== perPage ||
+      previousStreamEnabledRef.current !== streamEnabled;
+    previousPerPageRef.current = perPage;
+    previousStreamEnabledRef.current = streamEnabled;
+
+    // 「更新が新しい順」のライブ表示中は、保存通知によるrouter.refreshで
+    // initialProductsが更新されても、PRODUCT_REVEAL_EVENTで積み上げた順序を維持する。
+    // 並び順・検索状態・表示件数が変わった場合だけサーバー結果へ同期する。
+    if (streamEnabled && !configurationChanged) return;
+
     setProducts(initialProducts.map((product) => ({ ...product, revealKey: 0 })));
-  }, [initialProducts]);
+  }, [initialProducts, perPage, streamEnabled]);
 
   useEffect(() => {
     if (!productIds) {
