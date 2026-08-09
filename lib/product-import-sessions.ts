@@ -86,13 +86,17 @@ export async function stageProductSnapshot(
 
   try {
     // 自動更新も手動記録と同じAsyncBatcherでPriceHistoryまで確定保存する。
-    // ただし通常のproducts-changed通知は止め、専用のproducts-batch通知で
-    // 取得した商品をその順に一覧へ流す。これにより最後のrouter.refreshで
-    // ライブ表示順が上書きされない。
+    // 通知には実際の確認時刻も載せ、並列保存の完了順ではなく
+    // PriceHistory.checkedAt の順で一覧を維持する。
     const product = await productImportQueue.enqueue(input, { notify: false });
     session.savedIds.push(product.id);
     session.lastTouchedAt = Date.now();
-    notifyProductBatchSaved(session.id, session.savedIds.length, [product]);
+    notifyProductBatchSaved(session.id, session.savedIds.length, [
+      {
+        ...product,
+        lastCheckedAt: (input.checkedAt ?? new Date()).toISOString(),
+      },
+    ]);
     return session.knownUrls.size;
   } catch (error) {
     // 同じ商品を再試行できるよう、保存失敗時だけ既知URLから戻す。
