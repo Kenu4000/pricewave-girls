@@ -24,7 +24,6 @@ export function LiveRefresh() {
   const activeSessionRef = useRef<string | null>(null);
   const finishedSessionsRef = useRef(new Set<string>());
   const revealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const finishTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const events = new EventSource("/api/events");
@@ -46,10 +45,10 @@ export function LiveRefresh() {
         return;
       }
 
-      finishTimerRef.current = setTimeout(() => {
-        refresh();
-        finishedSessionsRef.current.delete(sessionId);
-      }, 900);
+      // 各商品の保存時点で products-changed が発火しており、一覧はすでに最新化される。
+      // 取込完了時にさらに router.refresh() すると、更新中に見えていた並びを
+      // サーバー描画結果で丸ごと置き換えてしまうため、完了時はセッション整理だけ行う。
+      finishedSessionsRef.current.delete(sessionId);
     };
 
     const revealNext = () => {
@@ -107,7 +106,6 @@ export function LiveRefresh() {
     return () => {
       if (refreshTimer) clearTimeout(refreshTimer);
       if (revealTimerRef.current) clearTimeout(revealTimerRef.current);
-      if (finishTimerRef.current) clearTimeout(finishTimerRef.current);
       events.close();
     };
   }, [router]);
