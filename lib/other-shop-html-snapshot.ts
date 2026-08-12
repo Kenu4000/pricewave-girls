@@ -73,7 +73,7 @@ export function prepareOtherShopSnapshotHtml(rawHtml: string, sourceUrl: string)
   });
 
   $("a[href], form[action]").each((_, element) => {
-    const attribute = element.name === "form" ? "action" : "href";
+    const attribute = $(element).is("form") ? "action" : "href";
     const value = ($(element).attr(attribute) ?? "").trim();
     if (/^javascript:/iu.test(value)) $(element).removeAttr(attribute);
   });
