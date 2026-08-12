@@ -81,13 +81,17 @@ export function prepareOtherShopSnapshotHtml(rawHtml: string, sourceUrl: string)
   $("base").remove();
   const base = $("<base>").attr("href", sourceUrl).attr("target", "_blank");
   $("head").prepend(base);
-  if ($("meta[name='viewport']").length === 0) {
-    $("head").prepend(
-      $("<meta>").attr("name", "viewport").attr("content", "width=device-width, initial-scale=1"),
-    );
-  }
+
+  // PCで取得したHTMLでも、保存版は常にスマートフォン用viewportで描画する。
+  // 駿河屋側に既存viewport指定があっても上書きし、iframe幅によるモバイルCSSを確実に有効にする。
+  $("meta[name='viewport']").remove();
+  $("head").prepend(
+    $("<meta>")
+      .attr("name", "viewport")
+      .attr("content", "width=device-width, initial-scale=1, viewport-fit=cover"),
+  );
   $("head").append(
-    '<style id="pricewave-snapshot-guard">html,body{min-width:0!important}iframe,object,embed{display:none!important}</style>',
+    '<style id="pricewave-snapshot-guard">html,body{min-width:0!important;max-width:100%!important;overflow-x:hidden!important}body{width:100%!important}img,video,svg{max-width:100%!important}iframe,object,embed{display:none!important}</style>',
   );
 
   $("a[href]").attr("target", "_blank").attr("rel", "noreferrer noopener");
