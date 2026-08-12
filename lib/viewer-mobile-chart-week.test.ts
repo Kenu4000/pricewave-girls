@@ -37,7 +37,7 @@ test("価格線の下を同色の半透明面で塗る", () => {
   assert.match(script, /class="chart-area"/u);
   assert.match(script, /class="chart-area-hit"/u);
   assert.match(script, /areaPathForSegment/u);
-  assert.match(css, /\.chart-area\s*\{[^}]*fill:\s*currentColor[^}]*fill-opacity:\s*\.11/su);
+  assert.match(css, /\.chart-area\s*\{[\s\S]*?fill:\s*currentColor[\s\S]*?fill-opacity:\s*\.11/u);
 });
 
 test("面・線・点の広い判定から系列を選択できる", () => {
@@ -45,7 +45,7 @@ test("面・線・点の広い判定から系列を選択できる", () => {
   assert.match(script, /data-series="\$\{key\}"/u);
   assert.match(script, /addEventListener\('pointerdown'/u);
   assert.match(script, /addEventListener\('pointermove'/u);
-  assert.match(css, /\.chart-line-hit\s*\{[^}]*stroke-width:\s*30/su);
+  assert.match(css, /\.chart-line-hit\s*\{[\s\S]*?stroke-width:\s*30/u);
   assert.match(css, /\.chart-point-hit\s*\{/u);
 });
 
