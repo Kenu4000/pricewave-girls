@@ -13,9 +13,9 @@ import { withProductStateStorageMarkers } from "@/lib/time-sale";
 
 export const runtime = "nodejs";
 
-// The Edge extension embeds the marketplace listing in the product HTML before
-// import, so pages with many shop offers can exceed the former 5 MiB limit.
-const MAX_HTML_SIZE = 12 * 1024 * 1024;
+// 商品HTML内にPC版とモバイル版の他店舗一覧HTMLを埋め込むため、
+// 片方だけだった旧上限より余裕を持たせる。
+const MAX_HTML_SIZE = 24 * 1024 * 1024;
 
 export async function POST(request: Request) {
   try {
@@ -47,8 +47,8 @@ export async function POST(request: Request) {
     const checkedAt = new Date();
     const normalizedUrl = normalizeSurugayaUrl(url);
 
-    // 拡張機能が商品HTML内へ埋め込んだ /product/other/ の全文は、
-    // DBの店舗履歴とは別に最新1枚だけローカルへ保存する。
+    // 拡張機能が商品HTML内へ埋め込んだ /product/other/ のPC版・モバイル版全文は、
+    // DBの店舗履歴とは別に最新1枚ずつローカルへ保存する。
     // スナップショット保存失敗で価格取込自体を止めない。
     try {
       await syncOtherShopSnapshotFromProductHtml({
