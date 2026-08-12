@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 5px 10px;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     font-size: 12px;
   }
 
@@ -43,13 +43,26 @@
     width: 14px;
   }
 
+  .mobile-chart-readout {
+    min-height: 28px;
+    margin: 2px 0 0;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: .01em;
+  }
+
+  .mobile-chart-readout[hidden] {
+    visibility: hidden;
+    display: block;
+  }
+
   .mobile-chart-wrap {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     overscroll-behavior-x: none;
     touch-action: pan-y;
-    padding: 2px 0 0;
+    padding: 0;
   }
 
   .mobile-chart {
@@ -60,10 +73,12 @@
     min-width: 0;
     aspect-ratio: 720 / 360;
     touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
   }
 
   .mobile-chart .chart-y-label {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 700;
     fill: #667085;
   }
@@ -74,35 +89,87 @@
     fill: #667085;
   }
 
-  .mobile-chart .chart-x-tick {
-    stroke: #b9b2aa;
-    stroke-width: 1.4;
-  }
-
   .mobile-chart .gridline {
-    stroke-width: 1.4;
+    stroke-width: 1.2;
   }
 
-  .mobile-chart .sale,
-  .mobile-chart .buy,
-  .mobile-chart .rankb,
-  .mobile-chart .timesale {
-    stroke-width: 3;
-  }
-
-  .mobile-chart .chart-point {
-    fill: currentColor;
-    stroke: #fff;
-    stroke-width: 2.5;
+  .mobile-chart .chart-line {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
     vector-effect: non-scaling-stroke;
     pointer-events: none;
   }
 
-  .mobile-chart .chart-hit {
-    fill: transparent;
-    stroke: transparent;
+  .mobile-chart .chart-area {
+    fill: currentColor;
+    fill-opacity: .11;
+    stroke: none;
+    pointer-events: none;
+  }
+
+  .mobile-chart .chart-area-hit {
+    fill: rgba(0, 0, 0, .001);
+    stroke: none;
+    pointer-events: fill;
+    cursor: crosshair;
+  }
+
+  .mobile-chart .chart-line-hit {
+    fill: none;
+    stroke: rgba(0, 0, 0, .001);
+    stroke-width: 30;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: stroke;
+    cursor: crosshair;
+  }
+
+  .mobile-chart .chart-point {
+    fill: currentColor;
+    stroke: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .mobile-chart .chart-point-hit {
+    fill: rgba(0, 0, 0, .001);
+    stroke: none;
     pointer-events: all;
-    cursor: pointer;
+    cursor: crosshair;
+  }
+
+  .mobile-chart .chart-crosshair {
+    stroke: #667085;
+    stroke-width: 1.5;
+    stroke-dasharray: 4 4;
+    vector-effect: non-scaling-stroke;
+    pointer-events: none;
+  }
+
+  .mobile-chart .chart-active-point {
+    stroke: #fff;
+    stroke-width: 3;
+    vector-effect: non-scaling-stroke;
+    pointer-events: none;
+  }
+
+  .mobile-chart .chart-active-point.sale {
+    fill: #e67aa6;
+  }
+
+  .mobile-chart .chart-active-point.buy {
+    fill: #4f86c6;
+  }
+
+  .mobile-chart .chart-active-point.rankb {
+    fill: #5eaa72;
+  }
+
+  .mobile-chart .chart-active-point.timesale {
+    fill: #e0b600;
   }
 
   .mobile-chart-hint {
@@ -110,11 +177,5 @@
     text-align: center;
     color: #6b7280;
     font-size: 11px;
-  }
-
-  .chart-tooltip {
-    font-size: 14px;
-    font-weight: 700;
-    padding: 8px 10px;
   }
 }

@@ -4,6 +4,13 @@ const desktopBindChartTooltips = bindChartTooltips;
 let mobileChartRange = 'week';
 let mobileChartSourceHistories = [];
 
+const MOBILE_CHART_SERIES_LABELS = {
+  sale: '販売',
+  buy: '買取',
+  rankb: 'ランクB',
+  timesale: 'タイムセール',
+};
+
 function mobileChartPriceLabel(value) {
   const rounded = Math.round(value);
   if (Math.abs(rounded) >= 1000) {
@@ -24,11 +31,6 @@ function localDayKey(timestamp) {
   const date = new Date(timestamp);
   if (!Number.isFinite(date.getTime())) return '';
   return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-}
-
-function startOfLocalDay(timestamp) {
-  const date = new Date(timestamp);
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
 }
 
 function endOfLocalDay(timestamp) {
@@ -87,46 +89,70 @@ renderChart = function renderResponsiveChart(histories) {
   const BOTTOM = 72;
   const minT = data[0].t;
   const maxT = data[data.length - 1].t;
+  const minV = Math.min(...values);
   const maxV = Math.max(...values);
-  const lo = 0;
-  const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
+  const spread = Math.max(1, maxV - minV);
+  const pad = Math.max(120, spread * 0.16);
+  const lo = Math.max(0, minV - pad);
+  const hi = maxV + pad;
   const plotWidth = W - LEFT - RIGHT;
   const plotHeight = H - TOP - BOTTOM;
+  const plotBottom = H - BOTTOM;
 
   const xByTime = (timestamp) => LEFT + (maxT === minT ? plotWidth / 2 : ((timestamp - minT) / (maxT - minT)) * plotWidth);
   const xByIndex = (index) => LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
   const x = (point, index) => mobileChartRange === 'week' ? xByIndex(index) : xByTime(point.t);
   const y = (value) => TOP + ((hi - value) / (hi - lo || 1)) * plotHeight;
 
-  const pathFor = (key) => {
-    let out = '';
-    let open = false;
+  const segmentsFor = (key) => {
+    const segments = [];
+    let current = [];
     data.forEach((point, index) => {
-      const value = point[key];
-      if (value == null) {
-        open = false;
+      if (point[key] == null) {
+        if (current.length) segments.push(current);
+        current = [];
         return;
       }
-      out += `${open ? 'L' : 'M'}${x(point, index).toFixed(1)},${y(value).toFixed(1)} `;
-      open = true;
+      current.push({ point, index });
     });
-    return out;
+    if (current.length) segments.push(current);
+    return segments;
   };
 
-  const dots = (key) => data
+  const linePathForSegment = (segment, key) => segment
+    .map(({ point, index }, segmentIndex) => `${segmentIndex ? 'L' : 'M'}${x(point, index).toFixed(1)},${y(point[key]).toFixed(1)}`)
+    .join(' ');
+
+  const areaPathForSegment = (segment, key) => {
+    const first = segment[0];
+    const last = segment[segment.length - 1];
+    const line = linePathForSegment(segment, key);
+    return `M${x(first.point, first.index).toFixed(1)},${plotBottom} ${line.replace(/^M/, 'L')} L${x(last.point, last.index).toFixed(1)},${plotBottom} Z`;
+  };
+
+  const pointsFor = (key) => data
     .map((point, index) => ({ point, index }))
     .filter(({ point }) => point[key] != null)
     .map(({ point, index }) => {
       const cx = x(point, index);
       const cy = y(point[key]);
-      const attrs = `data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}"`;
-      return `<circle class="chart-point" ${attrs} r="5.5"></circle><circle class="chart-hit" ${attrs} r="36"></circle>`;
+      return `<circle class="chart-point" data-series="${key}" data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}" r="3"></circle><circle class="chart-point-hit" data-chart-series-hit data-series="${key}" cx="${cx}" cy="${cy}" r="28"></circle>`;
     })
     .join('');
 
+  const seriesGroup = (key) => {
+    const segments = segmentsFor(key);
+    const paths = segments.map((segment) => {
+      const linePath = linePathForSegment(segment, key);
+      const areaPath = areaPathForSegment(segment, key);
+      return `<path class="chart-area" d="${areaPath}"></path><path class="chart-area-hit" data-chart-series-hit data-series="${key}" d="${areaPath}"></path><path class="chart-line" d="${linePath}"></path><path class="chart-line-hit" data-chart-series-hit data-series="${key}" d="${linePath}"></path>`;
+    }).join('');
+    return `<g class="${key}" data-series-group="${key}">${paths}${pointsFor(key)}</g>`;
+  };
+
   const yTicks = [0, 0.5, 1].map((ratio) => {
     const yy = TOP + ratio * plotHeight;
-    const value = Math.round(hi - ratio * hi);
+    const value = Math.round(hi - ratio * (hi - lo));
     return `<line class="gridline" x1="${LEFT}" x2="${W - RIGHT}" y1="${yy}" y2="${yy}"></line><text class="chart-y-label" x="${LEFT - 10}" y="${yy + 6}" text-anchor="end">${mobileChartPriceLabel(value)}</text>`;
   }).join('');
 
@@ -136,7 +162,7 @@ renderChart = function renderResponsiveChart(histories) {
     xLabels = data.map((point, index) => {
       const xx = x(point, index);
       const anchor = index === 0 ? 'start' : index === data.length - 1 ? 'end' : 'middle';
-      return `<line class="chart-x-tick" x1="${xx}" x2="${xx}" y1="${H - BOTTOM}" y2="${H - BOTTOM + 8}"></line><text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(point.t, includeYear)}</text>`;
+      return `<text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(point.t, includeYear)}</text>`;
     }).join('');
   } else {
     const count = mobileChartRange === 'month' ? 5 : 3;
@@ -146,11 +172,11 @@ renderChart = function renderResponsiveChart(histories) {
     xLabels = tickTimes.map((timestamp, index) => {
       const xx = xByTime(timestamp);
       const anchor = index === 0 ? 'start' : index === tickTimes.length - 1 ? 'end' : 'middle';
-      return `<line class="chart-x-tick" x1="${xx}" x2="${xx}" y1="${H - BOTTOM}" y2="${H - BOTTOM + 8}"></line><text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(timestamp, includeYear)}</text>`;
+      return `<text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(timestamp, includeYear)}</text>`;
     }).join('');
   }
 
-  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}<g class="sale"><path d="${pathFor('sale')}"></path>${dots('sale')}</g><g class="buy"><path d="${pathFor('buy')}"></path>${dots('buy')}</g><g class="rankb"><path d="${pathFor('rankb')}"></path>${dots('rankb')}</g><g class="timesale"><path d="${pathFor('timesale')}"></path>${dots('timesale')}</g></svg></div><div class="mobile-chart-hint">1日1点（その日の最終確認）・点をタップすると価格を表示</div></div>`;
+  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="mobile-chart-readout" hidden></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}${seriesGroup('sale')}${seriesGroup('buy')}${seriesGroup('rankb')}${seriesGroup('timesale')}<line class="chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line><circle class="chart-active-point" cx="0" cy="0" r="8" hidden></circle></svg></div><div class="mobile-chart-hint">色の面や線を触って左右に動かすと、その日の価格を表示</div></div>`;
 };
 
 bindChartTooltips = function bindResponsiveChartTooltips() {
@@ -158,40 +184,73 @@ bindChartTooltips = function bindResponsiveChartTooltips() {
     return desktopBindChartTooltips();
   }
 
-  let tip = document.querySelector('.chart-tooltip');
-  if (!tip) {
-    tip = document.createElement('div');
-    tip.className = 'chart-tooltip';
-    tip.hidden = true;
-    document.body.appendChild(tip);
-  }
+  const svg = document.querySelector('.mobile-chart');
+  const crosshair = svg?.querySelector('.chart-crosshair');
+  const activePoint = svg?.querySelector('.chart-active-point');
+  const readout = document.querySelector('.mobile-chart-readout');
+  let activePointerId = null;
+  let activeSeries = null;
 
-  const showTip = (target) => {
-    tip.textContent = `${yen(Number(target.dataset.price))} / ${dateTime(target.dataset.date)}`;
-    tip.hidden = false;
-    const rect = target.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const measuredWidth = Math.max(130, tip.getBoundingClientRect().width || 130);
-    tip.style.left = `${Math.min(innerWidth - measuredWidth - 8, Math.max(8, centerX - measuredWidth / 2))}px`;
-    const above = rect.top - 46;
-    tip.style.top = `${above >= 8 ? above : rect.bottom + 10}px`;
+  const eventToSvgX = (event) => {
+    if (!svg) return 0;
+    const rect = svg.getBoundingClientRect();
+    const viewBox = svg.viewBox.baseVal;
+    if (!rect.width) return 0;
+    return viewBox.x + ((event.clientX - rect.left) / rect.width) * viewBox.width;
   };
 
-  document.querySelectorAll('.chart-hit').forEach((hit) => {
-    hit.addEventListener('click', (event) => {
-      event.stopPropagation();
-      showTip(hit);
-    });
-    hit.addEventListener('pointerenter', (event) => {
-      if (event.pointerType === 'mouse') showTip(hit);
-    });
-    hit.addEventListener('pointerleave', (event) => {
-      if (event.pointerType === 'mouse') tip.hidden = true;
-    });
-  });
+  const nearestPoint = (series, targetX) => {
+    const points = [...(svg?.querySelectorAll(`.chart-point[data-series="${series}"]`) || [])];
+    if (!points.length) return null;
+    return points.reduce((best, point) => {
+      const distance = Math.abs(Number(point.getAttribute('cx')) - targetX);
+      return !best || distance < best.distance ? { point, distance } : best;
+    }, null)?.point || null;
+  };
 
-  document.querySelector('.mobile-chart')?.addEventListener('click', () => {
-    tip.hidden = true;
+  const selectPoint = (series, event) => {
+    if (!svg || !crosshair || !activePoint || !readout) return;
+    const point = nearestPoint(series, eventToSvgX(event));
+    if (!point) return;
+    const cx = Number(point.getAttribute('cx'));
+    const cy = Number(point.getAttribute('cy'));
+    const price = Number(point.dataset.price);
+    const checkedAt = point.dataset.date;
+
+    crosshair.setAttribute('x1', String(cx));
+    crosshair.setAttribute('x2', String(cx));
+    crosshair.hidden = false;
+    activePoint.setAttribute('cx', String(cx));
+    activePoint.setAttribute('cy', String(cy));
+    activePoint.setAttribute('class', `chart-active-point ${series}`);
+    activePoint.hidden = false;
+    readout.textContent = `${MOBILE_CHART_SERIES_LABELS[series] || series}  ${yen(price)}  ·  ${dateTime(checkedAt)}`;
+    readout.hidden = false;
+  };
+
+  document.querySelectorAll('[data-chart-series-hit]').forEach((hit) => {
+    hit.addEventListener('pointerdown', (event) => {
+      activePointerId = event.pointerId;
+      activeSeries = hit.dataset.series;
+      hit.setPointerCapture?.(event.pointerId);
+      selectPoint(activeSeries, event);
+    });
+    hit.addEventListener('pointermove', (event) => {
+      if (event.pointerType === 'mouse' && activePointerId == null) {
+        selectPoint(hit.dataset.series, event);
+        return;
+      }
+      if (event.pointerId === activePointerId && activeSeries) {
+        selectPoint(activeSeries, event);
+      }
+    });
+    const finish = (event) => {
+      if (event.pointerId !== activePointerId) return;
+      activePointerId = null;
+      activeSeries = null;
+    };
+    hit.addEventListener('pointerup', finish);
+    hit.addEventListener('pointercancel', finish);
   });
 
   document.querySelectorAll('[data-mobile-chart-range]').forEach((button) => {
@@ -199,7 +258,6 @@ bindChartTooltips = function bindResponsiveChartTooltips() {
       const nextRange = button.dataset.mobileChartRange;
       if (!['week', 'month', 'all'].includes(nextRange) || nextRange === mobileChartRange) return;
       mobileChartRange = nextRange;
-      tip.hidden = true;
       const chartRoot = document.querySelector('.price-chart-mobile');
       if (!chartRoot) return;
       chartRoot.outerHTML = renderChart(mobileChartSourceHistories);
