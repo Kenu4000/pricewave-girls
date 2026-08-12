@@ -25,19 +25,35 @@ test("同じ日の複数確認はその日の最後の1件だけを使う", () =
   assert.match(script, /latestByDay\.set\(key, history\)/u);
 });
 
-test("縦軸は0円固定ではなく表示データに合わせて余白を取る", () => {
-  assert.match(script, /const minV = Math\.min\(\.\.\.values\)/u);
-  assert.match(script, /const spread = Math\.max\(1, maxV - minV\)/u);
-  assert.match(script, /const pad = Math\.max\(120, spread \* 0\.16\)/u);
-  assert.match(script, /const lo = Math\.max\(0, minV - pad\)/u);
-  assert.doesNotMatch(script, /const lo = 0/u);
+test("縦軸は0円から始める", () => {
+  assert.match(script, /const lo = 0/u);
+  assert.match(script, /const hi = Math\.max\(100, maxV \+ Math\.max\(80, maxV \* 0\.08\)\)/u);
+  assert.match(script, /Math\.round\(hi - ratio \* hi\)/u);
 });
 
-test("価格線の下を同色の半透明面で塗る", () => {
+test("価格線の下は折れ線対応の淡色で塗り半透明の混色を使わない", () => {
   assert.match(script, /class="chart-area"/u);
   assert.match(script, /class="chart-area-hit"/u);
   assert.match(script, /areaPathForSegment/u);
-  assert.match(css, /\.chart-area\s*\{[\s\S]*?fill:\s*currentColor[\s\S]*?fill-opacity:\s*\.11/u);
+  assert.match(css, /\.sale \.chart-area\s*\{[\s\S]*?fill:\s*#f8e2eb/u);
+  assert.match(css, /\.buy \.chart-area\s*\{[\s\S]*?fill:\s*#e2edf8/u);
+  assert.match(css, /\.rankb \.chart-area\s*\{[\s\S]*?fill:\s*#e4f1e7/u);
+  assert.match(css, /\.timesale \.chart-area\s*\{[\s\S]*?fill:\s*#fbf3c9/u);
+  assert.doesNotMatch(css, /\.chart-area\s*\{[\s\S]*?fill-opacity/u);
+});
+
+test("面は高価格側から低価格側へ上書きし混色させない", () => {
+  assert.match(
+    script,
+    /seriesGroup\('sale'\)[\s\S]*?seriesGroup\('timesale'\)[\s\S]*?seriesGroup\('rankb'\)[\s\S]*?seriesGroup\('buy'\)/u,
+  );
+});
+
+test("折れ線上の価格点は常時表示する", () => {
+  assert.match(script, /class="chart-point"[\s\S]*?r="4\.5"/u);
+  assert.match(css, /\.chart-point\s*\{[\s\S]*?fill:\s*currentColor/u);
+  assert.match(css, /\.chart-point\s*\{[\s\S]*?opacity:\s*1/u);
+  assert.match(css, /\.chart-point\s*\{[\s\S]*?stroke:\s*#fff/u);
 });
 
 test("面・線・点の広い判定から系列を選択できる", () => {
