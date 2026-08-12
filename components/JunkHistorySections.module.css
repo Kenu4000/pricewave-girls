@@ -44,13 +44,16 @@
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 12px;
+  margin-inline: auto;
+  max-width: 420px;
   overflow: hidden;
+  width: 100%;
 }
 
 .embedFrame {
   border: 0;
   display: block;
-  height: min(720px, 72vh);
+  height: min(760px, 78vh);
   min-height: 520px;
   width: 100%;
 }
@@ -122,8 +125,12 @@
     flex-direction: column;
   }
 
+  .embedFrameWrap {
+    max-width: 100%;
+  }
+
   .embedFrame {
-    height: 72vh;
+    height: 78vh;
     min-height: 480px;
   }
 

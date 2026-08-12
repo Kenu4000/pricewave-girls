@@ -40,6 +40,35 @@ test("保存HTMLは駿河屋UIを残しつつscriptと入れ子iframeを除く",
   assert.doesNotMatch(html, /<iframe/u);
 });
 
+test("保存HTMLはPC側のviewportを捨ててモバイルviewportへ固定する", () => {
+  const html = prepareOtherShopSnapshotHtml(
+    `<!doctype html><html><head><meta name="viewport" content="width=1200"><meta name="viewport" content="initial-scale=.5"></head><body></body></html>`,
+    "https://www.suruga-ya.jp/product/other/145070597",
+  );
+  assert.equal((html.match(/name="viewport"/gu) ?? []).length, 1);
+  assert.match(
+    html,
+    /<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">/u,
+  );
+  assert.doesNotMatch(html, /width=1200/u);
+  assert.match(html, /max-width:100%!important/u);
+  assert.match(html, /overflow-x:hidden!important/u);
+});
+
+test("ローカル版とViewerのiframeを常にモバイル幅へ制限する", async () => {
+  const componentCss = await readFile(
+    new URL("../components/JunkHistorySections.module.css", import.meta.url),
+    "utf8",
+  );
+  const viewerCss = await readFile(new URL("../viewer/other-shop-embed.css", import.meta.url), "utf8");
+  assert.match(componentCss, /max-width: 420px;/u);
+  assert.match(componentCss, /margin-inline: auto;/u);
+  assert.match(componentCss, /height: min\(760px, 78vh\);/u);
+  assert.match(viewerCss, /max-width:420px/u);
+  assert.match(viewerCss, /margin-inline:auto/u);
+  assert.match(viewerCss, /height:min\(760px,78vh\)/u);
+});
+
 test("readyなら最新HTMLと取得時刻を保存しnot_applicableなら消す", async () => {
   const rootDir = await mkdtemp(path.join(os.tmpdir(), "pricewave-other-shop-"));
   try {
