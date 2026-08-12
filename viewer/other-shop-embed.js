@@ -72,15 +72,21 @@ function viewerPastJunkHistories(detail) {
 function viewerOtherShopSection(detail) {
   const product = detail.product || {};
   const otherShopUrl = viewerOtherShopUrl(product.surugayaUrl);
+  const snapshot = detail.otherShopSnapshot && typeof detail.otherShopSnapshot === 'object'
+    ? detail.otherShopSnapshot
+    : null;
   const past = viewerPastJunkHistories(detail);
-  const live = otherShopUrl
-    ? `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">駿河屋の現在一覧</span></div><a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">一覧を別タブで開く</a></div><div class="other-shop-frame-wrap"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-same-origin allow-scripts" src="${esc(otherShopUrl)}" title="駿河屋の他店舗販売一覧"></iframe></div>`
-    : '<p class="muted">他店舗一覧URLを作成できませんでした。</p>';
+  const externalLink = otherShopUrl
+    ? `<a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">現在の一覧を駿河屋で開く</a>`
+    : '';
+  const live = snapshot?.path
+    ? `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">保存HTML ${esc(dateTime(snapshot.capturedAt))}</span></div>${externalLink}</div><div class="other-shop-frame-wrap"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.path)}" title="保存済みの駿河屋他店舗販売一覧"></iframe></div>`
+    : `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">保存済み一覧なし</span></div>${externalLink}</div><p class="muted">保存済みの他店舗一覧HTMLはありません。次回この商品をPCで取得した後にViewerを公開すると表示されます。</p>`;
   const pastTable = past.length
     ? `<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">${past.length.toLocaleString('ja-JP')}件保存</span></div><div class="table-wrap"><table class="data-table"><thead><tr><th>取得日時</th><th>店舗</th><th>状態</th><th>価格</th></tr></thead><tbody>${past.map((history) => `<tr><td>${esc(dateTime(history.checkedAt))}</td><td>${esc(history.storeName || '駿河屋')}</td><td>${esc(history.condition)}</td><td>${yen(history.price)}</td></tr>`).join('')}</tbody></table></div>`
     : '<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">0件</span></div><p class="muted">重複を除いた過去データはありません。</p>';
 
-  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">販売中は駿河屋を直接表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
+  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">販売中は取得時の駿河屋HTMLを表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
 }
 
 async function enhanceViewerOtherShopSection(id) {
@@ -100,7 +106,7 @@ async function enhanceViewerOtherShopSection(id) {
     else if (productDetails) productDetails.before(replacement);
     else app.append(replacement);
   } catch {
-    // Viewer本体の表示は維持し、埋め込み補助だけ失敗させる。
+    // Viewer本体の表示は維持し、保存HTML表示の補助だけ失敗させる。
   }
 }
 

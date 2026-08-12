@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { replaceAlternateConditionItems } from "@/lib/alternate-condition-items";
+import { syncOtherShopSnapshotFromProductHtml } from "@/lib/other-shop-html-snapshot";
 import { preserveIndividualDetailPeople } from "@/lib/product-detail-people";
 import { productImportQueue } from "@/lib/product-import-queue";
 import { stageProductSnapshot } from "@/lib/product-import-sessions";
@@ -45,6 +46,20 @@ export async function POST(request: Request) {
     // 価格取得時刻として保持する。これにより更新順が実際の取得順になる。
     const checkedAt = new Date();
     const normalizedUrl = normalizeSurugayaUrl(url);
+
+    // 拡張機能が商品HTML内へ埋め込んだ /product/other/ の全文は、
+    // DBの店舗履歴とは別に最新1枚だけローカルへ保存する。
+    // スナップショット保存失敗で価格取込自体を止めない。
+    try {
+      await syncOtherShopSnapshotFromProductHtml({
+        surugayaUrl: normalizedUrl,
+        productHtml: html,
+        checkedAt,
+      });
+    } catch (snapshotError) {
+      console.error("他店舗一覧HTMLスナップショットの保存に失敗しました", snapshotError);
+    }
+
     const parsed = parseProductHtml(html);
     const withSafeConditions = replaceAlternateConditionItems(html, parsed);
     const withPeople = preserveIndividualDetailPeople(html, withSafeConditions);
