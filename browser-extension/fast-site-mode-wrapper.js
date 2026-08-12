@@ -42,35 +42,39 @@ importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
     });
   }
 
-  chrome.runtime.onConnect.addListener((port) => {
-    if (port.name !== MOBILE_OTHER_SHOP_PORT) return;
-    const tabId = port.sender?.tab?.id;
-    if (!Number.isInteger(tabId) || tabId < 0) {
-      port.disconnect();
-      return;
-    }
+  // 実Extensionではruntime.onConnectが常に使える。既存の単体テスト用Chromeモックは
+  // runtime自体を持たないため、読み込み時は能力検出して従来テストを壊さない。
+  if (chrome.runtime?.onConnect?.addListener) {
+    chrome.runtime.onConnect.addListener((port) => {
+      if (port.name !== MOBILE_OTHER_SHOP_PORT) return;
+      const tabId = port.sender?.tab?.id;
+      if (!Number.isInteger(tabId) || tabId < 0) {
+        port.disconnect();
+        return;
+      }
 
-    let enabled = false;
-    port.onMessage.addListener((message) => {
-      const requestId = message?.requestId;
-      void setMobileOtherShopUserAgent(tabId, Boolean(message?.enabled))
-        .then(() => {
-          enabled = Boolean(message?.enabled);
-          port.postMessage({ requestId, ok: true });
-        })
-        .catch((error) => {
-          port.postMessage({
-            requestId,
-            ok: false,
-            error: error instanceof Error ? error.message : String(error),
+      let enabled = false;
+      port.onMessage.addListener((message) => {
+        const requestId = message?.requestId;
+        void setMobileOtherShopUserAgent(tabId, Boolean(message?.enabled))
+          .then(() => {
+            enabled = Boolean(message?.enabled);
+            port.postMessage({ requestId, ok: true });
+          })
+          .catch((error) => {
+            port.postMessage({
+              requestId,
+              ok: false,
+              error: error instanceof Error ? error.message : String(error),
+            });
           });
-        });
-    });
+      });
 
-    port.onDisconnect.addListener(() => {
-      if (enabled) void setMobileOtherShopUserAgent(tabId, false).catch(() => {});
+      port.onDisconnect.addListener(() => {
+        if (enabled) void setMobileOtherShopUserAgent(tabId, false).catch(() => {});
+      });
     });
-  });
+  }
 
   const modePolicy = globalThis.PricewaveFastSiteModePolicy;
   const discoveryPolicy = globalThis.PricewaveNewProductDiscoveryPolicy;
