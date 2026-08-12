@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "駿河屋価格トラッキング 取込",
-  "version": "0.11.7",
+  "version": "0.11.8",
   "description": "Edgeで表示中の駿河屋商品ページと他ショップ価格をローカルの駿河屋価格トラッキングへ記録します。",
   "permissions": [
     "activeTab",
@@ -19,7 +19,7 @@
     "https://*.suruga-ya.jp/*"
   ],
   "background": {
-    "service_worker": "fast-site-mode-wrapper.js"
+    "service_worker": "service-worker.js"
   },
   "content_scripts": [
     {

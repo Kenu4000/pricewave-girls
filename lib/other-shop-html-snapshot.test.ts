@@ -163,7 +163,7 @@ test("拡張機能はモバイルUAで専用HTMLを取得する", async () => {
     "utf8",
   );
 
-  assert.equal(manifest.version, "0.11.7");
+  assert.equal(manifest.version, "0.11.8");
   assert.ok(manifest.permissions?.includes("declarativeNetRequestWithHostAccess"));
   assert.match(content, /pricewave-other-shops-mobile-data/u);
   assert.match(content, /pricewave_snapshot/u);
