@@ -9,16 +9,19 @@ import {
   type JunkHistoryViewGroup,
   type JunkHistoryViewItem,
 } from "@/lib/junk-history-view";
+import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 import styles from "./JunkHistorySections.module.css";
 
 type JunkHistorySectionsProps = {
   items: JunkHistoryViewItem[];
   latestSnapshotAt: string | null;
+  surugayaUrl: string;
 };
 
 export function JunkHistorySections({
   items,
   latestSnapshotAt,
+  surugayaUrl,
 }: JunkHistorySectionsProps) {
   const sections = useMemo(
     () => buildJunkHistoryViewSections(items, latestSnapshotAt),
@@ -26,28 +29,64 @@ export function JunkHistorySections({
   );
   const currentCount = countJunkHistoryItems(sections.current);
   const pastCount = countJunkHistoryItems(sections.past);
+  const otherShopUrl = useMemo(() => buildSurugayaOtherShopUrl(surugayaUrl), [surugayaUrl]);
 
   return (
     <section className={`card ${styles.panel}`}>
       <div className={styles.summary}>
         <h2>ジャンク・他ショップ履歴</h2>
-        <span className="muted">
-          {(currentCount + pastCount).toLocaleString("ja-JP")}件
-        </span>
+        <span className="muted">過去{pastCount.toLocaleString("ja-JP")}件保存</span>
       </div>
 
       <div className={styles.sections}>
-        <HistorySection
-          emptyMessage="現在販売中として取得できた状態違い・他ショップ商品はありません。"
-          groups={sections.current}
-          title="販売中"
-        />
+        <CurrentOffersSection currentCount={currentCount} otherShopUrl={otherShopUrl} />
         <HistorySection
           emptyMessage="重複を除いた過去データはありません。"
           groups={sections.past}
           title="過去データ"
         />
       </div>
+    </section>
+  );
+}
+
+function CurrentOffersSection({
+  otherShopUrl,
+  currentCount,
+}: {
+  otherShopUrl: string | null;
+  currentCount: number;
+}) {
+  return (
+    <section>
+      <div className={styles.sectionHeader}>
+        <div className={styles.sectionTitle}>
+          <h3>販売中</h3>
+          <span className="muted">駿河屋の現在一覧</span>
+        </div>
+        {otherShopUrl ? (
+          <a className="button secondary" href={otherShopUrl} rel="noreferrer" target="_blank">
+            一覧を別タブで開く
+          </a>
+        ) : null}
+      </div>
+
+      {otherShopUrl ? (
+        <div className={styles.embedFrameWrap}>
+          <iframe
+            className={styles.embedFrame}
+            loading="lazy"
+            sandbox="allow-forms allow-popups allow-same-origin allow-scripts"
+            src={otherShopUrl}
+            title="駿河屋の他店舗販売一覧"
+          />
+        </div>
+      ) : (
+        <p className={styles.empty}>
+          他店舗一覧URLを作成できませんでした。販売中データ
+          {currentCount.toLocaleString("ja-JP")}件は履歴として保存されています。
+        </p>
+      )}
     </section>
   );
 }

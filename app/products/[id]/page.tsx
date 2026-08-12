@@ -255,7 +255,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         )}
       </section>
 
-      <JunkHistorySections items={junkHistoryItems} latestSnapshotAt={latestSnapshotAt} />
+      <JunkHistorySections
+        items={junkHistoryItems}
+        latestSnapshotAt={latestSnapshotAt}
+        surugayaUrl={product.surugayaUrl}
+      />
 
       <section className="card history-panel">
         <div className="history-summary">
