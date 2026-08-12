@@ -3,6 +3,29 @@
     margin-top: -4px;
   }
 
+  .mobile-chart-range {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    margin: 0 0 8px;
+  }
+
+  .mobile-chart-range button {
+    min-height: 38px;
+    border: 1px solid #cfc9c0;
+    border-radius: 9px;
+    background: #fff;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .mobile-chart-range button[aria-pressed="true"] {
+    background: #1f2933;
+    border-color: #1f2933;
+    color: #fff;
+  }
+
   .mobile-chart-legend {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -24,27 +47,36 @@
     width: 100%;
     max-width: 100%;
     overflow: hidden;
+    overscroll-behavior-x: none;
+    touch-action: pan-y;
     padding: 2px 0 0;
   }
 
   .mobile-chart {
+    display: block;
     width: 100%;
     max-width: 100%;
     height: auto;
     min-width: 0;
-    aspect-ratio: 720 / 280;
+    aspect-ratio: 720 / 360;
+    touch-action: pan-y;
   }
 
   .mobile-chart .chart-y-label {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     fill: #667085;
   }
 
   .mobile-chart .chart-x-label {
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 19px;
+    font-weight: 700;
     fill: #667085;
+  }
+
+  .mobile-chart .chart-x-tick {
+    stroke: #b9b2aa;
+    stroke-width: 1.4;
   }
 
   .mobile-chart .gridline {
@@ -55,6 +87,34 @@
   .mobile-chart .buy,
   .mobile-chart .rankb,
   .mobile-chart .timesale {
+    stroke-width: 3;
+  }
+
+  .mobile-chart .chart-point {
+    fill: currentColor;
+    stroke: #fff;
     stroke-width: 2.5;
+    vector-effect: non-scaling-stroke;
+    pointer-events: none;
+  }
+
+  .mobile-chart .chart-hit {
+    fill: transparent;
+    stroke: transparent;
+    pointer-events: all;
+    cursor: pointer;
+  }
+
+  .mobile-chart-hint {
+    margin-top: 2px;
+    text-align: center;
+    color: #6b7280;
+    font-size: 11px;
+  }
+
+  .chart-tooltip {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 10px;
   }
 }
