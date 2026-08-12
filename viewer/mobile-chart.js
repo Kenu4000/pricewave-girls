@@ -6,13 +6,8 @@ let mobileChartSourceHistories = [];
 
 function mobileChartPriceLabel(value) {
   const rounded = Math.round(value);
-  if (Math.abs(rounded) >= 10000) {
-    const unit = rounded / 10000;
-    return `${Number(unit.toFixed(unit < 10 ? 2 : 1))}万`;
-  }
   if (Math.abs(rounded) >= 1000) {
-    const unit = rounded / 1000;
-    return `${Number(unit.toFixed(2))}千`;
+    return `${Number((rounded / 1000).toFixed(1))}k`;
   }
   return rounded.toLocaleString('ja-JP');
 }
@@ -25,6 +20,12 @@ function mobileChartDateLabel(timestamp, includeYear = false) {
     : { month: 'numeric', day: 'numeric' });
 }
 
+function localDayKey(timestamp) {
+  const date = new Date(timestamp);
+  if (!Number.isFinite(date.getTime())) return '';
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+}
+
 function startOfLocalDay(timestamp) {
   const date = new Date(timestamp);
   return new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime();
@@ -35,38 +36,32 @@ function endOfLocalDay(timestamp) {
   return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime() - 1;
 }
 
-function mobileChartWindow(data, range) {
-  const latest = data[data.length - 1].t;
-  if (range === 'week') {
-    const end = endOfLocalDay(latest);
-    const date = new Date(latest);
-    const start = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 6).getTime();
-    return { start, end };
+function mobileChartDailyHistories(histories) {
+  const latestByDay = new Map();
+  const sorted = [...histories].sort((left, right) => new Date(left.checkedAt) - new Date(right.checkedAt));
+  for (const history of sorted) {
+    const key = localDayKey(history.checkedAt);
+    if (key) latestByDay.set(key, history);
   }
-  if (range === 'month') {
-    const end = endOfLocalDay(latest);
-    const date = new Date(latest);
-    const start = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 29).getTime();
-    return { start, end };
-  }
-  return {
-    start: data[0].t,
-    end: data[data.length - 1].t,
-  };
+  return [...latestByDay.values()];
 }
 
-function mobileChartTickTimes(start, end, range) {
-  if (range === 'week') {
-    return Array.from({ length: 7 }, (_, index) => startOfLocalDay(start) + index * 86400000);
+function mobileChartData(histories, range) {
+  const dailyData = graphSeries(mobileChartDailyHistories(histories));
+  if (range === 'week') return dailyData.slice(-7);
+  if (range === 'month' && dailyData.length) {
+    const latest = dailyData[dailyData.length - 1].t;
+    const date = new Date(latest);
+    const start = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 29).getTime();
+    const end = endOfLocalDay(latest);
+    return dailyData.filter((point) => point.t >= start && point.t <= end);
   }
-  const count = range === 'month' ? 5 : 3;
-  if (end <= start) return [start];
-  return Array.from({ length: count }, (_, index) => start + ((end - start) * index) / (count - 1));
+  return dailyData;
 }
 
 function mobileChartRangeButtons() {
   return `<div class="mobile-chart-range" role="group" aria-label="グラフ表示期間">
-    <button type="button" data-mobile-chart-range="week" ${mobileChartRange === 'week' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>1週間</button>
+    <button type="button" data-mobile-chart-range="week" ${mobileChartRange === 'week' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>7日</button>
     <button type="button" data-mobile-chart-range="month" ${mobileChartRange === 'month' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>1か月</button>
     <button type="button" data-mobile-chart-range="all" ${mobileChartRange === 'all' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>全期間</button>
   </div>`;
@@ -78,11 +73,9 @@ renderChart = function renderResponsiveChart(histories) {
   }
 
   mobileChartSourceHistories = histories;
-  const allData = graphSeries(histories);
-  if (!allData.length) return '<div class="panel empty">価格履歴がありません。</div>';
+  const data = mobileChartData(histories, mobileChartRange);
+  if (!data.length) return '<div class="panel empty">価格履歴がありません。</div>';
 
-  const windowRange = mobileChartWindow(allData, mobileChartRange);
-  const data = allData.filter((point) => point.t >= windowRange.start && point.t <= windowRange.end);
   const values = data.flatMap((point) => [point.sale, point.buy, point.rankb, point.timesale]).filter((value) => value != null);
   if (!values.length) return '<div class="panel empty">価格データがありません。</div>';
 
@@ -92,36 +85,39 @@ renderChart = function renderResponsiveChart(histories) {
   const RIGHT = 18;
   const TOP = 20;
   const BOTTOM = 72;
-  const minT = windowRange.start;
-  const maxT = windowRange.end;
-  const minV = Math.min(...values);
+  const minT = data[0].t;
+  const maxT = data[data.length - 1].t;
   const maxV = Math.max(...values);
-  const pad = Math.max(80, (maxV - minV) * 0.08);
-  const lo = Math.max(0, minV - pad);
-  const hi = maxV + pad;
+  const lo = 0;
+  const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
   const plotWidth = W - LEFT - RIGHT;
   const plotHeight = H - TOP - BOTTOM;
 
-  const x = (timestamp) => LEFT + (maxT === minT ? plotWidth / 2 : ((timestamp - minT) / (maxT - minT)) * plotWidth);
+  const xByTime = (timestamp) => LEFT + (maxT === minT ? plotWidth / 2 : ((timestamp - minT) / (maxT - minT)) * plotWidth);
+  const xByIndex = (index) => LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
+  const x = (point, index) => mobileChartRange === 'week' ? xByIndex(index) : xByTime(point.t);
   const y = (value) => TOP + ((hi - value) / (hi - lo || 1)) * plotHeight;
+
   const pathFor = (key) => {
     let out = '';
     let open = false;
-    for (const point of data) {
+    data.forEach((point, index) => {
       const value = point[key];
       if (value == null) {
         open = false;
-        continue;
+        return;
       }
-      out += `${open ? 'L' : 'M'}${x(point.t).toFixed(1)},${y(value).toFixed(1)} `;
+      out += `${open ? 'L' : 'M'}${x(point, index).toFixed(1)},${y(value).toFixed(1)} `;
       open = true;
-    }
+    });
     return out;
   };
+
   const dots = (key) => data
-    .filter((point) => point[key] != null)
-    .map((point) => {
-      const cx = x(point.t);
+    .map((point, index) => ({ point, index }))
+    .filter(({ point }) => point[key] != null)
+    .map(({ point, index }) => {
+      const cx = x(point, index);
       const cy = y(point[key]);
       const attrs = `data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}"`;
       return `<circle class="chart-point" ${attrs} r="5.5"></circle><circle class="chart-hit" ${attrs} r="36"></circle>`;
@@ -130,19 +126,31 @@ renderChart = function renderResponsiveChart(histories) {
 
   const yTicks = [0, 0.5, 1].map((ratio) => {
     const yy = TOP + ratio * plotHeight;
-    const value = Math.round(hi - ratio * (hi - lo));
+    const value = Math.round(hi - ratio * hi);
     return `<line class="gridline" x1="${LEFT}" x2="${W - RIGHT}" y1="${yy}" y2="${yy}"></line><text class="chart-y-label" x="${LEFT - 10}" y="${yy + 6}" text-anchor="end">${mobileChartPriceLabel(value)}</text>`;
   }).join('');
 
   const includeYear = new Date(minT).getFullYear() !== new Date(maxT).getFullYear();
-  const tickTimes = mobileChartTickTimes(minT, maxT, mobileChartRange);
-  const xLabels = tickTimes.map((timestamp, index) => {
-    const anchor = index === 0 ? 'start' : index === tickTimes.length - 1 ? 'end' : 'middle';
-    const xx = x(timestamp);
-    return `<line class="chart-x-tick" x1="${xx}" x2="${xx}" y1="${H - BOTTOM}" y2="${H - BOTTOM + 8}"></line><text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(timestamp, includeYear)}</text>`;
-  }).join('');
+  let xLabels = '';
+  if (mobileChartRange === 'week') {
+    xLabels = data.map((point, index) => {
+      const xx = x(point, index);
+      const anchor = index === 0 ? 'start' : index === data.length - 1 ? 'end' : 'middle';
+      return `<line class="chart-x-tick" x1="${xx}" x2="${xx}" y1="${H - BOTTOM}" y2="${H - BOTTOM + 8}"></line><text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(point.t, includeYear)}</text>`;
+    }).join('');
+  } else {
+    const count = mobileChartRange === 'month' ? 5 : 3;
+    const tickTimes = maxT <= minT
+      ? [minT]
+      : Array.from({ length: count }, (_, index) => minT + ((maxT - minT) * index) / (count - 1));
+    xLabels = tickTimes.map((timestamp, index) => {
+      const xx = xByTime(timestamp);
+      const anchor = index === 0 ? 'start' : index === tickTimes.length - 1 ? 'end' : 'middle';
+      return `<line class="chart-x-tick" x1="${xx}" x2="${xx}" y1="${H - BOTTOM}" y2="${H - BOTTOM + 8}"></line><text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(timestamp, includeYear)}</text>`;
+    }).join('');
+  }
 
-  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}<g class="sale"><path d="${pathFor('sale')}"></path>${dots('sale')}</g><g class="buy"><path d="${pathFor('buy')}"></path>${dots('buy')}</g><g class="rankb"><path d="${pathFor('rankb')}"></path>${dots('rankb')}</g><g class="timesale"><path d="${pathFor('timesale')}"></path>${dots('timesale')}</g></svg></div><div class="mobile-chart-hint">点をタップすると価格を表示</div></div>`;
+  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}<g class="sale"><path d="${pathFor('sale')}"></path>${dots('sale')}</g><g class="buy"><path d="${pathFor('buy')}"></path>${dots('buy')}</g><g class="rankb"><path d="${pathFor('rankb')}"></path>${dots('rankb')}</g><g class="timesale"><path d="${pathFor('timesale')}"></path>${dots('timesale')}</g></svg></div><div class="mobile-chart-hint">1日1点（その日の最終確認）・点をタップすると価格を表示</div></div>`;
 };
 
 bindChartTooltips = function bindResponsiveChartTooltips() {
