@@ -9,18 +9,21 @@ import {
   type JunkHistoryViewGroup,
   type JunkHistoryViewItem,
 } from "@/lib/junk-history-view";
+import type { OtherShopSnapshotMetadata } from "@/lib/other-shop-html-snapshot";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 import styles from "./JunkHistorySections.module.css";
 
 type JunkHistorySectionsProps = {
   items: JunkHistoryViewItem[];
   latestSnapshotAt: string | null;
+  otherShopSnapshot: OtherShopSnapshotMetadata | null;
   surugayaUrl: string;
 };
 
 export function JunkHistorySections({
   items,
   latestSnapshotAt,
+  otherShopSnapshot,
   surugayaUrl,
 }: JunkHistorySectionsProps) {
   const sections = useMemo(
@@ -39,7 +42,11 @@ export function JunkHistorySections({
       </div>
 
       <div className={styles.sections}>
-        <CurrentOffersSection currentCount={currentCount} otherShopUrl={otherShopUrl} />
+        <CurrentOffersSection
+          currentCount={currentCount}
+          otherShopSnapshot={otherShopSnapshot}
+          otherShopUrl={otherShopUrl}
+        />
         <HistorySection
           emptyMessage="重複を除いた過去データはありません。"
           groups={sections.past}
@@ -52,9 +59,11 @@ export function JunkHistorySections({
 
 function CurrentOffersSection({
   otherShopUrl,
+  otherShopSnapshot,
   currentCount,
 }: {
   otherShopUrl: string | null;
+  otherShopSnapshot: OtherShopSnapshotMetadata | null;
   currentCount: number;
 }) {
   return (
@@ -62,29 +71,33 @@ function CurrentOffersSection({
       <div className={styles.sectionHeader}>
         <div className={styles.sectionTitle}>
           <h3>販売中</h3>
-          <span className="muted">駿河屋の現在一覧</span>
+          <span className="muted">
+            {otherShopSnapshot
+              ? `保存HTML ${formatDateTime(otherShopSnapshot.capturedAt)}`
+              : "保存済み一覧なし"}
+          </span>
         </div>
         {otherShopUrl ? (
           <a className="button secondary" href={otherShopUrl} rel="noreferrer" target="_blank">
-            一覧を別タブで開く
+            現在の一覧を駿河屋で開く
           </a>
         ) : null}
       </div>
 
-      {otherShopUrl ? (
+      {otherShopSnapshot ? (
         <div className={styles.embedFrameWrap}>
           <iframe
             className={styles.embedFrame}
             loading="lazy"
-            sandbox="allow-forms allow-popups allow-same-origin allow-scripts"
-            src={otherShopUrl}
-            title="駿河屋の他店舗販売一覧"
+            sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox"
+            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot.productCode)}`}
+            title="保存済みの駿河屋他店舗販売一覧"
           />
         </div>
       ) : (
         <p className={styles.empty}>
-          他店舗一覧URLを作成できませんでした。販売中データ
-          {currentCount.toLocaleString("ja-JP")}件は履歴として保存されています。
+          保存済みの他店舗一覧HTMLはありません。次回この商品をPCで取得すると保存されます。
+          販売中データ{currentCount.toLocaleString("ja-JP")}件は履歴用として保持されています。
         </p>
       )}
     </section>
