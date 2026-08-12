@@ -40,7 +40,7 @@ test("Viewerも販売中を他店舗一覧へ置換し現在スナップショ�
   assert.match(script, /\/product\/other\/\$\{match\[1\]\}/u);
   assert.match(script, /currentKey/u);
   assert.match(script, /if \(group\.key === currentKey\) continue;/u);
-  assert.match(script, /class=\"other-shop-frame\"/u);
+  assert.match(script, /class="other-shop-frame"/u);
   assert.match(script, /renderProduct = async function renderProductWithOtherShopEmbed/u);
   assert.match(html, /other-shop-embed\.css/u);
   assert.match(html, /other-shop-embed\.js/u);
