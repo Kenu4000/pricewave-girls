@@ -104,10 +104,24 @@
   }
 
   .mobile-chart .chart-area {
-    fill: currentColor;
-    fill-opacity: .11;
     stroke: none;
     pointer-events: none;
+  }
+
+  .mobile-chart .sale .chart-area {
+    fill: #f8e2eb;
+  }
+
+  .mobile-chart .timesale .chart-area {
+    fill: #fbf3c9;
+  }
+
+  .mobile-chart .rankb .chart-area {
+    fill: #e4f1e7;
+  }
+
+  .mobile-chart .buy .chart-area {
+    fill: #e2edf8;
   }
 
   .mobile-chart .chart-area-hit {
@@ -129,8 +143,10 @@
 
   .mobile-chart .chart-point {
     fill: currentColor;
-    stroke: none;
-    opacity: 0;
+    stroke: #fff;
+    stroke-width: 2;
+    opacity: 1;
+    vector-effect: non-scaling-stroke;
     pointer-events: none;
   }
 

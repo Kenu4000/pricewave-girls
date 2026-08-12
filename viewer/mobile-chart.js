@@ -89,12 +89,9 @@ renderChart = function renderResponsiveChart(histories) {
   const BOTTOM = 72;
   const minT = data[0].t;
   const maxT = data[data.length - 1].t;
-  const minV = Math.min(...values);
   const maxV = Math.max(...values);
-  const spread = Math.max(1, maxV - minV);
-  const pad = Math.max(120, spread * 0.16);
-  const lo = Math.max(0, minV - pad);
-  const hi = maxV + pad;
+  const lo = 0;
+  const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
   const plotWidth = W - LEFT - RIGHT;
   const plotHeight = H - TOP - BOTTOM;
   const plotBottom = H - BOTTOM;
@@ -136,7 +133,7 @@ renderChart = function renderResponsiveChart(histories) {
     .map(({ point, index }) => {
       const cx = x(point, index);
       const cy = y(point[key]);
-      return `<circle class="chart-point" data-series="${key}" data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}" r="3"></circle><circle class="chart-point-hit" data-chart-series-hit data-series="${key}" cx="${cx}" cy="${cy}" r="28"></circle>`;
+      return `<circle class="chart-point" data-series="${key}" data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}" r="4.5"></circle><circle class="chart-point-hit" data-chart-series-hit data-series="${key}" cx="${cx}" cy="${cy}" r="28"></circle>`;
     })
     .join('');
 
@@ -152,7 +149,7 @@ renderChart = function renderResponsiveChart(histories) {
 
   const yTicks = [0, 0.5, 1].map((ratio) => {
     const yy = TOP + ratio * plotHeight;
-    const value = Math.round(hi - ratio * (hi - lo));
+    const value = Math.round(hi - ratio * hi);
     return `<line class="gridline" x1="${LEFT}" x2="${W - RIGHT}" y1="${yy}" y2="${yy}"></line><text class="chart-y-label" x="${LEFT - 10}" y="${yy + 6}" text-anchor="end">${mobileChartPriceLabel(value)}</text>`;
   }).join('');
 
@@ -176,7 +173,7 @@ renderChart = function renderResponsiveChart(histories) {
     }).join('');
   }
 
-  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="mobile-chart-readout" hidden></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}${seriesGroup('sale')}${seriesGroup('buy')}${seriesGroup('rankb')}${seriesGroup('timesale')}<line class="chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line><circle class="chart-active-point" cx="0" cy="0" r="8" hidden></circle></svg></div><div class="mobile-chart-hint">色の面や線を触って左右に動かすと、その日の価格を表示</div></div>`;
+  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="mobile-chart-readout" hidden></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}${seriesGroup('sale')}${seriesGroup('timesale')}${seriesGroup('rankb')}${seriesGroup('buy')}<line class="chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line><circle class="chart-active-point" cx="0" cy="0" r="8" hidden></circle></svg></div><div class="mobile-chart-hint">色の面や線を触って左右に動かすと、その日の価格を表示</div></div>`;
 };
 
 bindChartTooltips = function bindResponsiveChartTooltips() {
