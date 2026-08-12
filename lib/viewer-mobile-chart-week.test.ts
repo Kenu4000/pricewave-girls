@@ -25,17 +25,39 @@ test("同じ日の複数確認はその日の最後の1件だけを使う", () =
   assert.match(script, /latestByDay\.set\(key, history\)/u);
 });
 
-test("縦軸は0円始まりで1000円以上をk表記にする", () => {
-  assert.match(script, /Math\.abs\(rounded\) >= 1000/u);
-  assert.match(script, /rounded \/ 1000/u);
-  assert.match(script, /const lo = 0/u);
-  assert.match(script, /Math\.round\(hi - ratio \* hi\)/u);
+test("縦軸は0円固定ではなく表示データに合わせて余白を取る", () => {
+  assert.match(script, /const minV = Math\.min\(\.\.\.values\)/u);
+  assert.match(script, /const spread = Math\.max\(1, maxV - minV\)/u);
+  assert.match(script, /const pad = Math\.max\(120, spread \* 0\.16\)/u);
+  assert.match(script, /const lo = Math\.max\(0, minV - pad\)/u);
+  assert.doesNotMatch(script, /const lo = 0/u);
 });
 
-test("7日・1か月・全期間を切り替えられる", () => {
-  assert.match(script, /data-mobile-chart-range="week"/u);
-  assert.match(script, /data-mobile-chart-range="month"/u);
-  assert.match(script, /data-mobile-chart-range="all"/u);
+test("価格線の下を同色の半透明面で塗る", () => {
+  assert.match(script, /class="chart-area"/u);
+  assert.match(script, /class="chart-area-hit"/u);
+  assert.match(script, /areaPathForSegment/u);
+  assert.match(css, /\.chart-area\s*\{[^}]*fill:\s*currentColor[^}]*fill-opacity:\s*\.11/su);
+});
+
+test("面・線・点の広い判定から系列を選択できる", () => {
+  assert.match(script, /data-chart-series-hit/u);
+  assert.match(script, /data-series="\$\{key\}"/u);
+  assert.match(script, /addEventListener\('pointerdown'/u);
+  assert.match(script, /addEventListener\('pointermove'/u);
+  assert.match(css, /\.chart-line-hit\s*\{[^}]*stroke-width:\s*30/su);
+  assert.match(css, /\.chart-point-hit\s*\{/u);
+});
+
+test("選択位置に垂直ガイドと系列色の点を表示する", () => {
+  assert.match(script, /class="chart-crosshair"/u);
+  assert.match(script, /class="chart-active-point"/u);
+  assert.match(script, /nearestPoint\(series, eventToSvgX\(event\)\)/u);
+  assert.match(script, /readout\.textContent/u);
+  assert.match(css, /\.chart-crosshair\s*\{/u);
+  assert.match(css, /\.chart-active-point\.sale/u);
+  assert.match(css, /\.chart-active-point\.buy/u);
+  assert.match(css, /\.chart-active-point\.rankb/u);
 });
 
 test("7日表示はデータがある7点を均等配置し各日の日付を表示する", () => {
@@ -44,11 +66,10 @@ test("7日表示はデータがある7点を均等配置し各日の日付を表
   assert.match(script, /mobileChartDateLabel\(point\.t, includeYear\)/u);
 });
 
-test("価格点は見た目とは別に大きいタップ判定を持つ", () => {
-  assert.match(script, /class="chart-point"/u);
-  assert.match(script, /class="chart-hit"[^>]*r="36"/u);
-  assert.match(script, /querySelectorAll\('\.chart-hit'\)/u);
-  assert.match(script, /addEventListener\('click'/u);
+test("7日・1か月・全期間を切り替えられる", () => {
+  assert.match(script, /data-mobile-chart-range="week"/u);
+  assert.match(script, /data-mobile-chart-range="month"/u);
+  assert.match(script, /data-mobile-chart-range="all"/u);
 });
 
 test("モバイルグラフは横スワイプせず縦スクロールを維持する", () => {
