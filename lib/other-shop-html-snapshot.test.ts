@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
@@ -101,6 +101,7 @@ test("旧capturedAt metadataはPC版として読み継ぐ", async () => {
   try {
     const url = "https://www.suruga-ya.jp/product/detail/145070597";
     const metadataPath = otherShopSnapshotMetadataPath("145070597", rootDir);
+    await mkdir(path.dirname(metadataPath), { recursive: true });
     await writeFile(
       metadataPath,
       JSON.stringify({
