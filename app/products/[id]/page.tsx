@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JunkHistorySections } from "@/components/JunkHistorySections";
 import { PriceChart } from "@/components/PriceChart";
+import { readOtherShopSnapshotMetadata } from "@/lib/other-shop-html-snapshot";
 import {
   extractOperatingSystems,
   normalizeFilterChoiceValue,
@@ -188,6 +189,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   }));
   const latestSnapshotAt = currentHistories.at(-1)?.checkedAt ?? null;
   const productDetails = parseProductDetails(product.detailsJson);
+  const otherShopSnapshot = await readOtherShopSnapshotMetadata(product.surugayaUrl);
 
   return (
     <section className="product-detail-page">
@@ -258,6 +260,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <JunkHistorySections
         items={junkHistoryItems}
         latestSnapshotAt={latestSnapshotAt}
+        otherShopSnapshot={otherShopSnapshot}
         surugayaUrl={product.surugayaUrl}
       />
 
