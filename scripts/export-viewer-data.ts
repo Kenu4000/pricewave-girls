@@ -1,12 +1,17 @@
 import { PrismaClient } from "@prisma/client";
 import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import {
+  exportOtherShopSnapshots,
+  readOtherShopSnapshotMetadata,
+} from "@/lib/other-shop-html-snapshot";
 
 const prisma = new PrismaClient();
 const ROOT = process.cwd();
 const OUTPUT_DIR = path.join(ROOT, "viewer-dist");
 const STATIC_DIR = path.join(ROOT, "viewer");
 const PRODUCT_DATA_DIR = path.join(OUTPUT_DIR, "data", "products");
+const OTHER_SHOP_DATA_DIR = path.join(OUTPUT_DIR, "data", "other-shops");
 
 function parseDetailsJson(raw: string | null): Record<string, string> {
   if (!raw) return {};
@@ -43,6 +48,7 @@ async function main() {
   await rm(OUTPUT_DIR, { recursive: true, force: true });
   await mkdir(PRODUCT_DATA_DIR, { recursive: true });
   await cp(STATIC_DIR, OUTPUT_DIR, { recursive: true });
+  await exportOtherShopSnapshots(OTHER_SHOP_DATA_DIR);
   await writeFile(path.join(OUTPUT_DIR, ".nojekyll"), "", "utf8");
 
   const products = await prisma.product.findMany({
@@ -152,6 +158,7 @@ async function main() {
   );
 
   for (const product of products) {
+    const otherShopSnapshot = await readOtherShopSnapshotMetadata(product.surugayaUrl);
     await writeFile(
       path.join(PRODUCT_DATA_DIR, `${product.id}.json`),
       JSON.stringify(
@@ -180,6 +187,12 @@ async function main() {
           },
           histories: product.histories,
           junkHistories: product.junkHistories,
+          otherShopSnapshot: otherShopSnapshot
+            ? {
+                ...otherShopSnapshot,
+                path: `data/other-shops/${otherShopSnapshot.productCode}.html`,
+              }
+            : null,
         },
         null,
         2,
