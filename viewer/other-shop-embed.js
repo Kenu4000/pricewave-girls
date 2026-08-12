@@ -79,14 +79,27 @@ function viewerOtherShopSection(detail) {
   const externalLink = otherShopUrl
     ? `<a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">現在の一覧を駿河屋で開く</a>`
     : '';
-  const live = snapshot?.path
-    ? `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">保存HTML ${esc(dateTime(snapshot.capturedAt))}</span></div>${externalLink}</div><div class="other-shop-frame-wrap"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.path)}" title="保存済みの駿河屋他店舗販売一覧"></iframe></div>`
-    : `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">保存済み一覧なし</span></div>${externalLink}</div><p class="muted">保存済みの他店舗一覧HTMLはありません。次回この商品をPCで取得した後にViewerを公開すると表示されます。</p>`;
+
+  const desktopStatus = snapshot?.desktopCapturedAt
+    ? `PC版 ${esc(dateTime(snapshot.desktopCapturedAt))}`
+    : 'PC版保存なし';
+  const mobileStatus = snapshot?.mobileCapturedAt
+    ? `モバイル版 ${esc(dateTime(snapshot.mobileCapturedAt))}`
+    : 'モバイル版保存なし';
+
+  const desktopLive = snapshot?.desktopPath
+    ? `<div class="other-shop-frame-wrap other-shop-desktop-only"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.desktopPath)}" title="保存済みの駿河屋PC版他店舗販売一覧"></iframe></div>`
+    : '<p class="muted other-shop-desktop-only">保存済みのPC版他店舗一覧はありません。次回この商品をPCで取得すると保存されます。</p>';
+  const mobileLive = snapshot?.mobilePath
+    ? `<div class="other-shop-frame-wrap other-shop-mobile-only"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.mobilePath)}" title="保存済みの駿河屋モバイル版他店舗販売一覧"></iframe></div>`
+    : '<p class="muted other-shop-mobile-only">保存済みのモバイル版他店舗一覧はありません。拡張機能を更新してこの商品を再取得すると保存されます。</p>';
+
+  const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted other-shop-desktop-only">${desktopStatus}</span><span class="muted other-shop-mobile-only">${mobileStatus}</span></div>${externalLink}</div>${desktopLive}${mobileLive}`;
   const pastTable = past.length
     ? `<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">${past.length.toLocaleString('ja-JP')}件保存</span></div><div class="table-wrap"><table class="data-table"><thead><tr><th>取得日時</th><th>店舗</th><th>状態</th><th>価格</th></tr></thead><tbody>${past.map((history) => `<tr><td>${esc(dateTime(history.checkedAt))}</td><td>${esc(history.storeName || '駿河屋')}</td><td>${esc(history.condition)}</td><td>${yen(history.price)}</td></tr>`).join('')}</tbody></table></div>`
     : '<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">0件</span></div><p class="muted">重複を除いた過去データはありません。</p>';
 
-  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">販売中は取得時の駿河屋HTMLを表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
+  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">画面に合わせて駿河屋のPC版 / モバイル版UIを表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
 }
 
 async function enhanceViewerOtherShopSection(id) {

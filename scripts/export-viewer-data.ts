@@ -58,9 +58,6 @@ async function main() {
     },
   });
 
-  // Product.updatedAtを中継せず、保存済み価格履歴の実際の取得時刻を直接使う。
-  // 並列取得や旧migrationの適用状況に左右されず、「更新が新しい順」が
-  // 価格を取得した順になるようにする。
   products.sort((left, right) => {
     const timeDifference = latestCheckedAt(right).getTime() - latestCheckedAt(left).getTime();
     return timeDifference || right.id - left.id;
@@ -190,7 +187,12 @@ async function main() {
           otherShopSnapshot: otherShopSnapshot
             ? {
                 ...otherShopSnapshot,
-                path: `data/other-shops/${otherShopSnapshot.productCode}.html`,
+                desktopPath: otherShopSnapshot.desktopCapturedAt
+                  ? `data/other-shops/${otherShopSnapshot.productCode}.html`
+                  : null,
+                mobilePath: otherShopSnapshot.mobileCapturedAt
+                  ? `data/other-shops/${otherShopSnapshot.productCode}.mobile.html`
+                  : null,
               }
             : null,
         },

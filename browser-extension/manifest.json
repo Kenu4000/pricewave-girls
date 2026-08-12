@@ -1,9 +1,17 @@
 {
   "manifest_version": 3,
   "name": "駿河屋価格トラッキング 取込",
-  "version": "0.11.6",
+  "version": "0.11.7",
   "description": "Edgeで表示中の駿河屋商品ページと他ショップ価格をローカルの駿河屋価格トラッキングへ記録します。",
-  "permissions": ["activeTab", "alarms", "scripting", "storage", "tabs", "webRequest"],
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "storage",
+    "tabs",
+    "webRequest"
+  ],
   "host_permissions": [
     "http://localhost:3000/*",
     "http://127.0.0.1:3000/*",

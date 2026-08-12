@@ -1,9 +1,12 @@
-import { readOtherShopSnapshotHtml } from "@/lib/other-shop-html-snapshot";
+import {
+  readOtherShopSnapshotHtml,
+  type OtherShopSnapshotVariant,
+} from "@/lib/other-shop-html-snapshot";
 
 export const runtime = "nodejs";
 
 export async function GET(
-  _request: Request,
+  request: Request,
   { params }: { params: Promise<{ productCode: string }> },
 ) {
   const { productCode } = await params;
@@ -11,7 +14,9 @@ export async function GET(
     return new Response("Not Found", { status: 404 });
   }
 
-  const html = await readOtherShopSnapshotHtml(productCode);
+  const variantParam = new URL(request.url).searchParams.get("variant");
+  const variant: OtherShopSnapshotVariant = variantParam === "mobile" ? "mobile" : "desktop";
+  const html = await readOtherShopSnapshotHtml(productCode, variant);
   if (!html) {
     return new Response("Not Found", { status: 404 });
   }

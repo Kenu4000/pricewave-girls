@@ -40,12 +40,14 @@
   margin: 0;
 }
 
+.mobileOnly {
+  display: none !important;
+}
+
 .embedFrameWrap {
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 12px;
-  margin-inline: auto;
-  max-width: 420px;
   overflow: hidden;
   width: 100%;
 }
@@ -120,13 +122,17 @@
     padding-inline: 14px;
   }
 
+  .desktopOnly {
+    display: none !important;
+  }
+
+  .mobileOnly {
+    display: revert !important;
+  }
+
   .sectionHeader {
     align-items: stretch;
     flex-direction: column;
-  }
-
-  .embedFrameWrap {
-    max-width: 100%;
   }
 
   .embedFrame {

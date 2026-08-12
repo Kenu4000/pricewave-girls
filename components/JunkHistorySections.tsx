@@ -66,15 +66,23 @@ function CurrentOffersSection({
   otherShopSnapshot: OtherShopSnapshotMetadata | null;
   currentCount: number;
 }) {
+  const desktopAvailable = Boolean(otherShopSnapshot?.desktopCapturedAt);
+  const mobileAvailable = Boolean(otherShopSnapshot?.mobileCapturedAt);
+
   return (
     <section>
       <div className={styles.sectionHeader}>
         <div className={styles.sectionTitle}>
           <h3>販売中</h3>
-          <span className="muted">
-            {otherShopSnapshot
-              ? `保存HTML ${formatDateTime(otherShopSnapshot.capturedAt)}`
-              : "保存済み一覧なし"}
+          <span className={`muted ${styles.desktopOnly}`}>
+            {desktopAvailable
+              ? `PC版 ${formatDateTime(otherShopSnapshot!.desktopCapturedAt!)}`
+              : "PC版保存なし"}
+          </span>
+          <span className={`muted ${styles.mobileOnly}`}>
+            {mobileAvailable
+              ? `モバイル版 ${formatDateTime(otherShopSnapshot!.mobileCapturedAt!)}`
+              : "モバイル版保存なし"}
           </span>
         </div>
         {otherShopUrl ? (
@@ -84,20 +92,36 @@ function CurrentOffersSection({
         ) : null}
       </div>
 
-      {otherShopSnapshot ? (
-        <div className={styles.embedFrameWrap}>
+      {desktopAvailable ? (
+        <div className={`${styles.embedFrameWrap} ${styles.desktopOnly}`}>
           <iframe
             className={styles.embedFrame}
             loading="lazy"
             sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox"
-            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot.productCode)}`}
-            title="保存済みの駿河屋他店舗販売一覧"
+            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot!.productCode)}?variant=desktop`}
+            title="保存済みの駿河屋PC版他店舗販売一覧"
           />
         </div>
       ) : (
-        <p className={styles.empty}>
-          保存済みの他店舗一覧HTMLはありません。次回この商品をPCで取得すると保存されます。
+        <p className={`${styles.empty} ${styles.desktopOnly}`}>
+          保存済みのPC版他店舗一覧はありません。次回この商品をPCで取得すると保存されます。
           販売中データ{currentCount.toLocaleString("ja-JP")}件は履歴用として保持されています。
+        </p>
+      )}
+
+      {mobileAvailable ? (
+        <div className={`${styles.embedFrameWrap} ${styles.mobileOnly}`}>
+          <iframe
+            className={styles.embedFrame}
+            loading="lazy"
+            sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox"
+            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot!.productCode)}?variant=mobile`}
+            title="保存済みの駿河屋モバイル版他店舗販売一覧"
+          />
+        </div>
+      ) : (
+        <p className={`${styles.empty} ${styles.mobileOnly}`}>
+          保存済みのモバイル版他店舗一覧はありません。拡張機能を更新してこの商品を再取得すると保存されます。
         </p>
       )}
     </section>
