@@ -5,6 +5,8 @@ import {
   exportOtherShopSnapshots,
   readOtherShopSnapshotMetadata,
 } from "@/lib/other-shop-html-snapshot";
+import { detailFilterValue } from "@/lib/product-filter-options";
+import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
 const prisma = new PrismaClient();
 const ROOT = process.cwd();
@@ -62,6 +64,17 @@ async function main() {
     const timeDifference = latestCheckedAt(right).getTime() - latestCheckedAt(left).getTime();
     return timeDifference || right.id - left.id;
   });
+
+  const detailIndex = new Map<string, number[]>();
+  for (const product of products) {
+    for (const [label, value] of Object.entries(parseDetailsJson(product.detailsJson))) {
+      if (isInternalProductDetailLabel(label)) continue;
+      const key = detailFilterValue(label, value);
+      const ids = detailIndex.get(key) ?? [];
+      ids.push(product.id);
+      detailIndex.set(key, ids);
+    }
+  }
 
   const priceChanges = await prisma.priceChange.findMany({
     where: {
@@ -154,6 +167,19 @@ async function main() {
     "utf8",
   );
 
+  await writeFile(
+    path.join(OUTPUT_DIR, "data", "detail-index.json"),
+    JSON.stringify(
+      {
+        generatedAt: new Date(),
+        filters: Object.fromEntries(detailIndex),
+      },
+      null,
+      2,
+    ),
+    "utf8",
+  );
+
   for (const product of products) {
     const otherShopSnapshot = await readOtherShopSnapshotMetadata(product.surugayaUrl);
     await writeFile(
@@ -204,6 +230,7 @@ async function main() {
   }
 
   console.log(`GitHub Pages用スナップショット: ${summaries.length}商品`);
+  console.log(`商品詳細絞り込み索引: ${detailIndex.size.toLocaleString("ja-JP")}条件`);
   console.log(`出力先: ${OUTPUT_DIR}`);
 }
 
