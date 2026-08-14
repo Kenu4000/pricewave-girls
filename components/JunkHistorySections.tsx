@@ -9,14 +9,21 @@ import {
   type JunkHistoryViewGroup,
   type JunkHistoryViewItem,
 } from "@/lib/junk-history-view";
-import type { OtherShopSnapshotMetadata } from "@/lib/other-shop-html-snapshot";
+import type { OtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 import styles from "./JunkHistorySections.module.css";
+
+type CurrentOfferItem = {
+  id: string | number;
+  storeName: string | null;
+  condition: string;
+  price: number;
+};
 
 type JunkHistorySectionsProps = {
   items: JunkHistoryViewItem[];
   latestSnapshotAt: string | null;
-  otherShopSnapshot: OtherShopSnapshotMetadata | null;
+  otherShopSnapshot: OtherShopSnapshotData | null;
   surugayaUrl: string;
 };
 
@@ -31,10 +38,24 @@ export function JunkHistorySections({
     [items, latestSnapshotAt],
   );
   const currentGroup = sections.current[0] ?? null;
-  const currentOtherShopItems = useMemo(
-    () => currentGroup?.items.filter((item) => item.sourceType === "other_shop") ?? [],
-    [currentGroup],
-  );
+  const currentOtherShopItems = useMemo<CurrentOfferItem[]>(() => {
+    if (otherShopSnapshot) {
+      return otherShopSnapshot.items.map((item, index) => ({
+        id: `snapshot-${index}`,
+        storeName: item.storeName,
+        condition: item.condition,
+        price: item.price,
+      }));
+    }
+    return currentGroup?.items
+      .filter((item) => item.sourceType === "other_shop")
+      .map((item) => ({
+        id: item.id,
+        storeName: item.storeName,
+        condition: item.condition,
+        price: item.price,
+      })) ?? [];
+  }, [currentGroup, otherShopSnapshot]);
   const currentCount = countJunkHistoryItems(sections.current);
   const pastCount = countJunkHistoryItems(sections.past);
   const otherShopUrl = useMemo(() => buildSurugayaOtherShopUrl(surugayaUrl), [surugayaUrl]);
@@ -71,7 +92,7 @@ function CurrentOffersSection({
   currentCount,
 }: {
   otherShopUrl: string | null;
-  items: JunkHistoryViewItem[];
+  items: CurrentOfferItem[];
   capturedAt: string | null;
   currentCount: number;
 }) {

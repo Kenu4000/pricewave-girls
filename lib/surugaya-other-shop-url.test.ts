@@ -19,34 +19,42 @@ test("駿河屋以外や商品URL以外は埋め込みURLにしない", () => {
   assert.equal(buildSurugayaOtherShopUrl("https://www.suruga-ya.jp/search?category=1"), null);
 });
 
-test("ローカル商品詳細は保存行ではなくPC版・モバイル版保存HTMLを表示する", () => {
+test("ローカル商品詳細は一度取得した他店舗データをレスポンシブ表示する", () => {
   const component = readFileSync(
     new URL("../components/JunkHistorySections.tsx", import.meta.url),
     "utf8",
   );
+  const css = readFileSync(
+    new URL("../components/JunkHistorySections.module.css", import.meta.url),
+    "utf8",
+  );
   assert.match(component, /<h3>販売中<\/h3>/u);
-  assert.match(component, /variant=desktop/u);
-  assert.match(component, /variant=mobile/u);
-  assert.match(component, /otherShopSnapshot.*productCode/u);
-  assert.doesNotMatch(component, /src=\{otherShopUrl\}/u);
-  assert.doesNotMatch(component, /groups=\{sections\.current\}/u);
+  assert.match(component, /otherShopSnapshot\.items/u);
+  assert.match(component, /styles\.surugayaList/u);
   assert.match(component, /groups=\{sections\.past\}/u);
+  assert.doesNotMatch(component, /<iframe/u);
+  assert.doesNotMatch(component, /variant=desktop|variant=mobile/u);
+  assert.doesNotMatch(component, /desktopCapturedAt|mobileCapturedAt/u);
+  assert.match(css, /@media \(max-width: 720px\)/u);
+  assert.match(css, /grid-template-columns: 1fr auto/u);
 });
 
-test("Viewerも画面幅に合わせてPC版・モバイル版保存HTMLを使う", () => {
+test("Viewerも同じ他店舗データをPC・モバイル幅で描き分ける", () => {
   const script = readFileSync(
     new URL("../viewer/other-shop-embed.js", import.meta.url),
     "utf8",
   );
+  const css = readFileSync(new URL("../viewer/other-shop-embed.css", import.meta.url), "utf8");
   const html = readFileSync(new URL("../viewer/index.html", import.meta.url), "utf8");
   assert.match(script, /detail\.otherShopSnapshot/u);
-  assert.match(script, /snapshot\.desktopPath/u);
-  assert.match(script, /snapshot\.mobilePath/u);
-  assert.match(script, /other-shop-desktop-only/u);
-  assert.match(script, /other-shop-mobile-only/u);
-  assert.match(script, /currentKey/u);
-  assert.match(script, /if \(group\.key === currentKey\) continue;/u);
+  assert.match(script, /snapshot\?\.items/u);
+  assert.match(script, /viewerCurrentOfferList/u);
+  assert.match(script, /viewerJunkHistorySections/u);
+  assert.doesNotMatch(script, /<iframe/u);
+  assert.doesNotMatch(script, /desktopPath|mobilePath/u);
   assert.match(script, /renderProduct = async function renderProductWithOtherShopEmbed/u);
+  assert.match(css, /@media\(max-width:760px\)/u);
+  assert.match(css, /grid-template-columns:1fr auto/u);
   assert.match(html, /other-shop-embed\.css/u);
   assert.match(html, /other-shop-embed\.js/u);
 });

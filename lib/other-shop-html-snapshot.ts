@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { extractOtherShopItems } from "@/lib/surugaya";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
@@ -42,6 +42,23 @@ export function otherShopSnapshotDirectory(rootDir = process.cwd()): string {
 export function otherShopSnapshotJsonPath(productCode: string, rootDir = process.cwd()): string {
   assertProductCode(productCode);
   return path.join(otherShopSnapshotDirectory(rootDir), `${productCode}.json`);
+}
+
+function legacyOtherShopSnapshotPaths(productCode: string, rootDir = process.cwd()): string[] {
+  assertProductCode(productCode);
+  const directory = otherShopSnapshotDirectory(rootDir);
+  return [
+    path.join(directory, `${productCode}.html`),
+    path.join(directory, `${productCode}.mobile.html`),
+  ];
+}
+
+async function removeLegacyOtherShopSnapshots(productCode: string, rootDir = process.cwd()) {
+  await Promise.all(
+    legacyOtherShopSnapshotPaths(productCode, rootDir).map((legacyPath) =>
+      rm(legacyPath, { force: true }),
+    ),
+  );
 }
 
 export function extractCapturedOtherShopHtml(productHtml: string): {
@@ -87,7 +104,10 @@ export async function syncOtherShopSnapshotFromProductHtml({
   }
 
   if (capture.state === "not_applicable") {
-    await rm(otherShopSnapshotJsonPath(productCode, rootDir), { force: true });
+    await Promise.all([
+      rm(otherShopSnapshotJsonPath(productCode, rootDir), { force: true }),
+      removeLegacyOtherShopSnapshots(productCode, rootDir),
+    ]);
     return { status: "cleared", productCode };
   }
 
@@ -111,6 +131,7 @@ export async function syncOtherShopSnapshotFromProductHtml({
   const directory = otherShopSnapshotDirectory(rootDir);
   await mkdir(directory, { recursive: true });
   await writeFile(otherShopSnapshotJsonPath(productCode, rootDir), JSON.stringify(data, null, 2), "utf8");
+  await removeLegacyOtherShopSnapshots(productCode, rootDir);
 
   return {
     status: "saved",
@@ -193,7 +214,15 @@ export async function exportOtherShopSnapshots(
 ): Promise<void> {
   const sourceDirectory = otherShopSnapshotDirectory(rootDir);
   try {
-    await cp(sourceDirectory, outputDirectory, { recursive: true });
+    const entries = await readdir(sourceDirectory, { withFileTypes: true });
+    await mkdir(outputDirectory, { recursive: true });
+    await Promise.all(
+      entries
+        .filter((entry) => entry.isFile() && /^[0-9A-Za-z]+\.json$/u.test(entry.name))
+        .map((entry) =>
+          copyFile(path.join(sourceDirectory, entry.name), path.join(outputDirectory, entry.name)),
+        ),
+    );
   } catch (error) {
     const code = error && typeof error === "object" && "code" in error ? error.code : null;
     if (code !== "ENOENT") throw error;

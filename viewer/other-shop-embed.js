@@ -81,14 +81,13 @@ function viewerJunkHistorySections(detail) {
 }
 
 function viewerCurrentOfferList(items, otherShopUrl) {
-  const offers = items.filter((item) => item.sourceType === 'other_shop');
-  if (!offers.length) {
+  if (!items.length) {
     return '<p class="muted">この取得時点では他店舗の販売データを確認できませんでした。</p>';
   }
 
   return `<div class="other-shop-list">
     <div class="other-shop-list-head" aria-hidden="true"><span>商品状態</span><span>店舗</span><span>価格</span><span></span></div>
-    ${offers.map((item) => `<article class="other-shop-offer">
+    ${items.map((item) => `<article class="other-shop-offer">
       <div class="other-shop-condition"><span class="other-shop-type">中古商品</span><strong>${esc(item.condition || '状態不明')}</strong></div>
       <div class="other-shop-store"><span class="other-shop-mobile-label">店舗</span><span>${esc(item.storeName || '店舗名不明')}</span></div>
       <div class="other-shop-price"><span class="other-shop-mobile-label">価格</span><strong>${yen(item.price)}</strong><small>税込</small></div>
@@ -104,12 +103,14 @@ function viewerOtherShopSection(detail) {
     ? detail.otherShopSnapshot
     : null;
   const sections = viewerJunkHistorySections(detail);
+  const fallbackCurrent = sections.current.filter((item) => item.sourceType === 'other_shop');
+  const currentOffers = Array.isArray(snapshot?.items) ? snapshot.items : fallbackCurrent;
   const externalLink = otherShopUrl
     ? `<a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">現在の一覧を駿河屋で開く</a>`
     : '';
   const capturedAt = snapshot?.capturedAt || sections.currentCheckedAt;
   const status = capturedAt ? `取得 ${esc(dateTime(capturedAt))}` : '保存データなし';
-  const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">${status}</span></div>${externalLink}</div>${viewerCurrentOfferList(sections.current, otherShopUrl)}`;
+  const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">${status}</span></div>${externalLink}</div>${viewerCurrentOfferList(currentOffers, otherShopUrl)}`;
   const pastTable = sections.past.length
     ? `<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">${sections.past.length.toLocaleString('ja-JP')}件保存</span></div><div class="table-wrap"><table class="data-table"><thead><tr><th>取得日時</th><th>店舗</th><th>状態</th><th>価格</th></tr></thead><tbody>${sections.past.map((history) => `<tr><td>${esc(dateTime(history.checkedAt))}</td><td>${esc(history.storeName || '駿河屋')}</td><td>${esc(history.condition)}</td><td>${yen(history.price)}</td></tr>`).join('')}</tbody></table></div>`
     : '<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">0件</span></div><p class="muted">重複を除いた過去データはありません。</p>';

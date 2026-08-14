@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JunkHistorySections } from "@/components/JunkHistorySections";
 import { PriceChart } from "@/components/PriceChart";
-import { readOtherShopSnapshotMetadata } from "@/lib/other-shop-html-snapshot";
+import { readOtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 import {
   extractOperatingSystems,
   normalizeFilterChoiceValue,
@@ -37,16 +37,10 @@ function formatCondition(condition: string | null | undefined, rank: string | nu
 }
 
 function parseProductDetails(rawDetails: string | null | undefined): Array<[string, string]> {
-  if (!rawDetails) {
-    return [];
-  }
-
+  if (!rawDetails) return [];
   try {
     const parsed = JSON.parse(rawDetails) as unknown;
-    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
-      return [];
-    }
-
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return [];
     return Object.entries(parsed).filter(
       (entry): entry is [string, string] =>
         !isInternalProductDetailLabel(entry[0]) &&
@@ -66,9 +60,7 @@ function DetailValueLinks({ label, value }: { label: string; value: string }) {
   const labelKey = normalizeFilterChoiceValue(label);
 
   if (["メーカー", "ブランド"].includes(labelKey)) {
-    return (
-      <Link href={productListUrl({ brand: normalizeFilterChoiceValue(value) })}>{value}</Link>
-    );
+    return <Link href={productListUrl({ brand: normalizeFilterChoiceValue(value) })}>{value}</Link>;
   }
 
   const peopleFilter = ["原画", "原画家"].includes(labelKey)
@@ -120,9 +112,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const { id } = await params;
   const productId = Number(id);
 
-  if (!Number.isInteger(productId)) {
-    notFound();
-  }
+  if (!Number.isInteger(productId)) notFound();
 
   const product = await prisma.product.findUnique({
     where: { id: productId },
@@ -132,9 +122,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
     },
   });
 
-  if (!product) {
-    notFound();
-  }
+  if (!product) notFound();
 
   const relatedProducts = await prisma.product.findMany({
     where: { title: product.title, id: { not: product.id } },
@@ -189,14 +177,12 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   }));
   const latestSnapshotAt = currentHistories.at(-1)?.checkedAt ?? null;
   const productDetails = parseProductDetails(product.detailsJson);
-  const otherShopSnapshot = await readOtherShopSnapshotMetadata(product.surugayaUrl);
+  const otherShopSnapshot = await readOtherShopSnapshotData(product.surugayaUrl);
 
   return (
     <section className="product-detail-page">
       <div className="detail-toolbar">
-        <Link className="detail-back-link" href="/products">
-          ← 商品一覧へ
-        </Link>
+        <Link className="detail-back-link" href="/products">← 商品一覧へ</Link>
       </div>
 
       <section className="card detail-overview">
@@ -244,9 +230,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             {productDetails.map(([label, value]) => (
               <div key={label}>
                 <dt>{label}</dt>
-                <dd>
-                  <DetailValueLinks label={label} value={value} />
-                </dd>
+                <dd><DetailValueLinks label={label} value={value} /></dd>
               </div>
             ))}
           </dl>
@@ -277,13 +261,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <table>
             <thead>
               <tr>
-                <th>確認日時</th>
-                <th>販売価格</th>
-                <th>通常価格</th>
-                <th>価格状態</th>
-                <th>商品状態</th>
-                <th>買取価格</th>
-                <th>在庫</th>
+                <th>確認日時</th><th>販売価格</th><th>通常価格</th><th>価格状態</th>
+                <th>商品状態</th><th>買取価格</th><th>在庫</th>
               </tr>
             </thead>
             <tbody>

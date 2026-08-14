@@ -3,7 +3,7 @@ import { cp, mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import {
   exportOtherShopSnapshots,
-  readOtherShopSnapshotMetadata,
+  readOtherShopSnapshotData,
 } from "@/lib/other-shop-html-snapshot";
 import { detailFilterValue } from "@/lib/product-filter-options";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
@@ -181,7 +181,7 @@ async function main() {
   );
 
   for (const product of products) {
-    const otherShopSnapshot = await readOtherShopSnapshotMetadata(product.surugayaUrl);
+    const otherShopSnapshot = await readOtherShopSnapshotData(product.surugayaUrl);
     await writeFile(
       path.join(PRODUCT_DATA_DIR, `${product.id}.json`),
       JSON.stringify(
