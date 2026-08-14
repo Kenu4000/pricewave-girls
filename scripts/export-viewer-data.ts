@@ -65,17 +65,6 @@ async function main() {
     return timeDifference || right.id - left.id;
   });
 
-  const detailIndex = new Map<string, number[]>();
-  for (const product of products) {
-    for (const [label, value] of Object.entries(parseDetailsJson(product.detailsJson))) {
-      if (isInternalProductDetailLabel(label)) continue;
-      const key = detailFilterValue(label, value);
-      const ids = detailIndex.get(key) ?? [];
-      ids.push(product.id);
-      detailIndex.set(key, ids);
-    }
-  }
-
   const priceChanges = await prisma.priceChange.findMany({
     where: {
       type: { in: ["sale", "buy"] },
@@ -99,6 +88,17 @@ async function main() {
     if (change.type === "sale" && !current.sale) current.sale = change;
     if (change.type === "buy" && !current.buy) current.buy = change;
     latestChangeByProduct.set(change.productId, current);
+  }
+
+  const detailIndex = new Map<string, number[]>();
+  for (const product of products) {
+    for (const [label, value] of Object.entries(parseDetailsJson(product.detailsJson))) {
+      if (isInternalProductDetailLabel(label)) continue;
+      const key = detailFilterValue(label, value);
+      const ids = detailIndex.get(key) ?? [];
+      ids.push(product.id);
+      detailIndex.set(key, ids);
+    }
   }
 
   const summaries = products.map((product) => {
@@ -213,12 +213,7 @@ async function main() {
           otherShopSnapshot: otherShopSnapshot
             ? {
                 ...otherShopSnapshot,
-                desktopPath: otherShopSnapshot.desktopCapturedAt
-                  ? `data/other-shops/${otherShopSnapshot.productCode}.html`
-                  : null,
-                mobilePath: otherShopSnapshot.mobileCapturedAt
-                  ? `data/other-shops/${otherShopSnapshot.productCode}.mobile.html`
-                  : null,
+                path: `data/other-shops/${otherShopSnapshot.productCode}.json`,
               }
             : null,
         },
