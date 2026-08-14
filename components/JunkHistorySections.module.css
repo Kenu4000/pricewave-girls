@@ -40,24 +40,84 @@
   margin: 0;
 }
 
-.mobileOnly {
-  display: none !important;
-}
-
-.embedFrameWrap {
+.surugayaList {
   background: #fff;
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
-  width: 100%;
 }
 
-.embedFrame {
-  border: 0;
-  display: block;
-  height: min(760px, 78vh);
-  min-height: 520px;
-  width: 100%;
+.desktopHeader,
+.offerRow {
+  align-items: center;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: minmax(210px, 1.4fr) minmax(170px, 1fr) 130px 120px;
+}
+
+.desktopHeader {
+  background: #f5f5f5;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 9px 14px;
+}
+
+.offerRow {
+  border-bottom: 1px solid var(--border);
+  min-height: 84px;
+  padding: 12px 14px;
+}
+
+.offerRow:last-child {
+  border-bottom: 0;
+}
+
+.offerCondition {
+  display: grid;
+  gap: 5px;
+}
+
+.offerType {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.offerCondition strong {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.offerStore {
+  font-size: 0.86rem;
+  overflow-wrap: anywhere;
+}
+
+.offerPrice {
+  align-items: baseline;
+  display: flex;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.offerPrice strong {
+  font-size: 1.08rem;
+}
+
+.offerPrice small {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.mobileLabel {
+  display: none;
+}
+
+.offerAction {
+  justify-self: stretch;
+  text-align: center;
 }
 
 .filterControl {
@@ -122,22 +182,68 @@
     padding-inline: 14px;
   }
 
-  .desktopOnly {
-    display: none !important;
-  }
-
-  .mobileOnly {
-    display: revert !important;
-  }
-
   .sectionHeader {
     align-items: stretch;
     flex-direction: column;
   }
 
-  .embedFrame {
-    height: 78vh;
-    min-height: 480px;
+  .sectionTitle {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .desktopHeader {
+    display: none;
+  }
+
+  .offerRow {
+    align-items: stretch;
+    gap: 9px;
+    grid-template-columns: 1fr auto;
+    padding: 14px;
+  }
+
+  .offerCondition {
+    grid-column: 1 / -1;
+  }
+
+  .offerCondition strong {
+    font-size: 0.94rem;
+  }
+
+  .offerStore,
+  .offerPrice {
+    display: grid;
+    gap: 2px;
+  }
+
+  .offerStore {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .offerPrice {
+    grid-column: 2;
+    grid-row: 2;
+    justify-items: end;
+  }
+
+  .offerPrice strong {
+    font-size: 1.15rem;
+  }
+
+  .mobileLabel {
+    color: var(--muted);
+    display: block;
+    font-size: 0.68rem;
+    font-weight: 700;
+  }
+
+  .offerAction {
+    grid-column: 1 / -1;
+    margin-top: 2px;
+    width: 100%;
   }
 
   .filterControl {

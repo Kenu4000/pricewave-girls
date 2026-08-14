@@ -13,9 +13,9 @@ import { withProductStateStorageMarkers } from "@/lib/time-sale";
 
 export const runtime = "nodejs";
 
-// 商品HTML内にPC版とモバイル版の他店舗一覧HTMLを埋め込むため、
-// 片方だけだった旧上限より余裕を持たせる。
-const MAX_HTML_SIZE = 24 * 1024 * 1024;
+// 商品HTMLには /product/other/ の一覧HTMLを1回だけ埋め込む。
+// 解析後は構造化スナップショットとJunkHistoryへ保存する。
+const MAX_HTML_SIZE = 16 * 1024 * 1024;
 
 export async function POST(request: Request) {
   try {
@@ -47,8 +47,7 @@ export async function POST(request: Request) {
     const checkedAt = new Date();
     const normalizedUrl = normalizeSurugayaUrl(url);
 
-    // 拡張機能が商品HTML内へ埋め込んだ /product/other/ のPC版・モバイル版全文は、
-    // DBの店舗履歴とは別に最新1枚ずつローカルへ保存する。
+    // /product/other/ は一度だけ取得し、表示端末に依存しない構造化データへ変換して保存する。
     // スナップショット保存失敗で価格取込自体を止めない。
     try {
       await syncOtherShopSnapshotFromProductHtml({
@@ -57,7 +56,7 @@ export async function POST(request: Request) {
         checkedAt,
       });
     } catch (snapshotError) {
-      console.error("他店舗一覧HTMLスナップショットの保存に失敗しました", snapshotError);
+      console.error("他店舗一覧スナップショットの保存に失敗しました", snapshotError);
     }
 
     const parsed = parseProductHtml(html);

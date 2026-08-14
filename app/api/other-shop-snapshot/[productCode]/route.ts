@@ -1,30 +1,26 @@
-import {
-  readOtherShopSnapshotHtml,
-  type OtherShopSnapshotVariant,
-} from "@/lib/other-shop-html-snapshot";
+import { readOtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 
 export const runtime = "nodejs";
 
 export async function GET(
-  request: Request,
+  _request: Request,
   { params }: { params: Promise<{ productCode: string }> },
 ) {
   const { productCode } = await params;
   if (!/^[0-9A-Za-z]+$/u.test(productCode)) {
-    return new Response("Not Found", { status: 404 });
+    return Response.json({ error: "Not Found" }, { status: 404 });
   }
 
-  const variantParam = new URL(request.url).searchParams.get("variant");
-  const variant: OtherShopSnapshotVariant = variantParam === "mobile" ? "mobile" : "desktop";
-  const html = await readOtherShopSnapshotHtml(productCode, variant);
-  if (!html) {
-    return new Response("Not Found", { status: 404 });
+  const snapshot = await readOtherShopSnapshotData(
+    `https://www.suruga-ya.jp/product/detail/${productCode}`,
+  );
+  if (!snapshot) {
+    return Response.json({ error: "Not Found" }, { status: 404 });
   }
 
-  return new Response(html, {
+  return Response.json(snapshot, {
     status: 200,
     headers: {
-      "Content-Type": "text/html; charset=utf-8",
       "Cache-Control": "no-store",
       "X-Content-Type-Options": "nosniff",
     },

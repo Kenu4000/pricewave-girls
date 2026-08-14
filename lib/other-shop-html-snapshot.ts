@@ -1,20 +1,28 @@
 import * as cheerio from "cheerio";
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { extractOtherShopItems } from "@/lib/surugaya";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 
-const DESKTOP_CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
-const MOBILE_CAPTURE_ELEMENT_ID = "pricewave-other-shops-mobile-data";
+const CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
 const SNAPSHOT_ROOT_NAME = ".pricewave-snapshots";
 const SNAPSHOT_SUBDIRECTORY = "other-shops";
 
-export type OtherShopSnapshotVariant = "desktop" | "mobile";
+export type OtherShopSnapshotItem = {
+  storeName: string;
+  condition: string;
+  price: number;
+};
 
-export type OtherShopSnapshotMetadata = {
+export type OtherShopSnapshotData = {
   productCode: string;
   sourceUrl: string;
-  desktopCapturedAt: string | null;
-  mobileCapturedAt: string | null;
+  capturedAt: string;
+  items: OtherShopSnapshotItem[];
+};
+
+export type OtherShopSnapshotMetadata = Omit<OtherShopSnapshotData, "items"> & {
+  itemCount: number;
 };
 
 export type OtherShopSnapshotSyncResult =
@@ -31,31 +39,34 @@ export function otherShopSnapshotDirectory(rootDir = process.cwd()): string {
   return path.join(rootDir, SNAPSHOT_ROOT_NAME, SNAPSHOT_SUBDIRECTORY);
 }
 
-export function otherShopSnapshotHtmlPath(
-  productCode: string,
-  rootDir = process.cwd(),
-  variant: OtherShopSnapshotVariant = "desktop",
-): string {
-  assertProductCode(productCode);
-  const suffix = variant === "mobile" ? ".mobile.html" : ".html";
-  return path.join(otherShopSnapshotDirectory(rootDir), `${productCode}${suffix}`);
-}
-
-export function otherShopSnapshotMetadataPath(productCode: string, rootDir = process.cwd()): string {
+export function otherShopSnapshotJsonPath(productCode: string, rootDir = process.cwd()): string {
   assertProductCode(productCode);
   return path.join(otherShopSnapshotDirectory(rootDir), `${productCode}.json`);
 }
 
-export function extractCapturedOtherShopHtml(
-  productHtml: string,
-  variant: OtherShopSnapshotVariant = "desktop",
-): {
+function legacyOtherShopSnapshotPaths(productCode: string, rootDir = process.cwd()): string[] {
+  assertProductCode(productCode);
+  const directory = otherShopSnapshotDirectory(rootDir);
+  return [
+    path.join(directory, `${productCode}.html`),
+    path.join(directory, `${productCode}.mobile.html`),
+  ];
+}
+
+async function removeLegacyOtherShopSnapshots(productCode: string, rootDir = process.cwd()) {
+  await Promise.all(
+    legacyOtherShopSnapshotPaths(productCode, rootDir).map((legacyPath) =>
+      rm(legacyPath, { force: true }),
+    ),
+  );
+}
+
+export function extractCapturedOtherShopHtml(productHtml: string): {
   state: string | null;
   html: string | null;
 } {
   const $ = cheerio.load(productHtml);
-  const id = variant === "mobile" ? MOBILE_CAPTURE_ELEMENT_ID : DESKTOP_CAPTURE_ELEMENT_ID;
-  const marker = $(`#${id}`).first();
+  const marker = $(`#${CAPTURE_ELEMENT_ID}`).first();
   if (marker.length === 0) return { state: null, html: null };
 
   const state = marker.attr("data-state") ?? null;
@@ -63,61 +74,14 @@ export function extractCapturedOtherShopHtml(
   return { state, html: html || null };
 }
 
-export function prepareOtherShopSnapshotHtml(
-  rawHtml: string,
-  sourceUrl: string,
-  variant: OtherShopSnapshotVariant = "desktop",
-): string {
-  const $ = cheerio.load(rawHtml);
-
-  // 表示時に駿河屋側へ能動的な処理を送らないよう、保存版は閲覧専用にする。
-  // DOMと駿河屋自身のCSS・画像は残し、取得時に確定したUIをそのまま再現する。
-  $("script, iframe, object, embed, applet").remove();
-  $("link[rel='modulepreload'], link[rel='preload'][as='script']").remove();
-  $("meta[http-equiv]").each((_, element) => {
-    const value = ($(element).attr("http-equiv") ?? "").toLowerCase();
-    if (value === "content-security-policy" || value === "refresh") {
-      $(element).remove();
-    }
-  });
-
-  $("*").each((_, node) => {
-    if (!("attribs" in node) || !node.attribs) return;
-    for (const attribute of Object.keys(node.attribs)) {
-      if (/^on/i.test(attribute) || attribute.toLowerCase() === "srcdoc") {
-        $(node).removeAttr(attribute);
-      }
-    }
-  });
-
-  $("a[href], form[action]").each((_, element) => {
-    const attribute = $(element).is("form") ? "action" : "href";
-    const value = ($(element).attr(attribute) ?? "").trim();
-    if (/^javascript:/iu.test(value)) $(element).removeAttr(attribute);
-  });
-
-  $("base").remove();
-  $("head").prepend($("<base>").attr("href", sourceUrl).attr("target", "_blank"));
-
-  // モバイル版はモバイルUAで取得した専用DOMを保存する。
-  // viewportだけはViewerの実画面幅へ合わせ、PC版HTMLには手を加えない。
-  if (variant === "mobile") {
-    $("meta[name='viewport']").remove();
-    $("head").prepend(
-      $("<meta>")
-        .attr("name", "viewport")
-        .attr("content", "width=device-width, initial-scale=1, viewport-fit=cover"),
-    );
-  }
-
-  $("head").append(
-    '<style id="pricewave-snapshot-guard">iframe,object,embed{display:none!important}</style>',
-  );
-
-  $("a[href]").attr("target", "_blank").attr("rel", "noreferrer noopener");
-  $("form").attr("target", "_blank");
-
-  return `<!doctype html>\n${$.html()}`;
+export function parseOtherShopSnapshotItems(rawHtml: string): OtherShopSnapshotItem[] {
+  return extractOtherShopItems(rawHtml)
+    .filter((item) => item.sourceType === "other_shop")
+    .map((item) => ({
+      storeName: item.storeName ?? "店舗名不明",
+      condition: item.condition,
+      price: item.price,
+    }));
 }
 
 export async function syncOtherShopSnapshotFromProductHtml({
@@ -134,124 +98,114 @@ export async function syncOtherShopSnapshotFromProductHtml({
   const productCode = otherShopProductCode(surugayaUrl);
   if (!productCode) return { status: "ignored", reason: "商品コードを取得できません" };
 
-  const desktopCapture = extractCapturedOtherShopHtml(productHtml, "desktop");
-  const mobileCapture = extractCapturedOtherShopHtml(productHtml, "mobile");
-  if (desktopCapture.state === null && mobileCapture.state === null) {
+  const capture = extractCapturedOtherShopHtml(productHtml);
+  if (capture.state === null) {
     return { status: "ignored", reason: "他店舗一覧の取得マーカーがありません" };
   }
 
-  if (desktopCapture.state === "not_applicable") {
+  if (capture.state === "not_applicable") {
     await Promise.all([
-      rm(otherShopSnapshotHtmlPath(productCode, rootDir, "desktop"), { force: true }),
-      rm(otherShopSnapshotHtmlPath(productCode, rootDir, "mobile"), { force: true }),
-      rm(otherShopSnapshotMetadataPath(productCode, rootDir), { force: true }),
+      rm(otherShopSnapshotJsonPath(productCode, rootDir), { force: true }),
+      removeLegacyOtherShopSnapshots(productCode, rootDir),
     ]);
     return { status: "cleared", productCode };
+  }
+
+  if (capture.state !== "ready" || !capture.html) {
+    return {
+      status: "ignored",
+      reason: `他店舗一覧が未取得です (state=${capture.state ?? "unknown"})`,
+    };
   }
 
   const sourceUrl = buildSurugayaOtherShopUrl(surugayaUrl);
   if (!sourceUrl) return { status: "ignored", reason: "他店舗一覧URLを作成できません" };
 
-  const previous = await readOtherShopSnapshotMetadata(surugayaUrl, rootDir);
-  const metadata: OtherShopSnapshotMetadata = previous ?? {
+  const data: OtherShopSnapshotData = {
     productCode,
     sourceUrl,
-    desktopCapturedAt: null,
-    mobileCapturedAt: null,
+    capturedAt: checkedAt.toISOString(),
+    items: parseOtherShopSnapshotItems(capture.html),
   };
-  metadata.sourceUrl = sourceUrl;
 
   const directory = otherShopSnapshotDirectory(rootDir);
-  const writes: Promise<unknown>[] = [];
-  let saved = false;
+  await mkdir(directory, { recursive: true });
+  await writeFile(otherShopSnapshotJsonPath(productCode, rootDir), JSON.stringify(data, null, 2), "utf8");
+  await removeLegacyOtherShopSnapshots(productCode, rootDir);
 
-  if (desktopCapture.state === "ready" && desktopCapture.html) {
-    await mkdir(directory, { recursive: true });
-    metadata.desktopCapturedAt = checkedAt.toISOString();
-    writes.push(
-      writeFile(
-        otherShopSnapshotHtmlPath(productCode, rootDir, "desktop"),
-        prepareOtherShopSnapshotHtml(desktopCapture.html, sourceUrl, "desktop"),
-        "utf8",
-      ),
-    );
-    saved = true;
-  }
+  return {
+    status: "saved",
+    metadata: {
+      productCode,
+      sourceUrl,
+      capturedAt: data.capturedAt,
+      itemCount: data.items.length,
+    },
+  };
+}
 
-  if (mobileCapture.state === "ready" && mobileCapture.html) {
-    await mkdir(directory, { recursive: true });
-    metadata.mobileCapturedAt = checkedAt.toISOString();
-    writes.push(
-      writeFile(
-        otherShopSnapshotHtmlPath(productCode, rootDir, "mobile"),
-        prepareOtherShopSnapshotHtml(mobileCapture.html, sourceUrl, "mobile"),
-        "utf8",
-      ),
-    );
-    saved = true;
-  }
+export async function readOtherShopSnapshotData(
+  rawUrl: string | null | undefined,
+  rootDir = process.cwd(),
+): Promise<OtherShopSnapshotData | null> {
+  const productCode = otherShopProductCode(rawUrl);
+  if (!productCode) return null;
 
-  if (!saved) {
+  try {
+    const parsed = JSON.parse(
+      await readFile(otherShopSnapshotJsonPath(productCode, rootDir), "utf8"),
+    ) as Partial<OtherShopSnapshotData>;
+    if (
+      parsed.productCode !== productCode ||
+      typeof parsed.sourceUrl !== "string" ||
+      typeof parsed.capturedAt !== "string" ||
+      !Array.isArray(parsed.items)
+    ) {
+      return null;
+    }
+
+    const items = parsed.items.flatMap((item) => {
+      if (!item || typeof item !== "object") return [];
+      const candidate = item as Partial<OtherShopSnapshotItem>;
+      if (
+        typeof candidate.storeName !== "string" ||
+        typeof candidate.condition !== "string" ||
+        typeof candidate.price !== "number" ||
+        !Number.isFinite(candidate.price)
+      ) {
+        return [];
+      }
+      return [{
+        storeName: candidate.storeName,
+        condition: candidate.condition,
+        price: candidate.price,
+      }];
+    });
+
     return {
-      status: "ignored",
-      reason: `他店舗一覧が未取得です (desktop=${desktopCapture.state ?? "unknown"}, mobile=${mobileCapture.state ?? "unknown"})`,
+      productCode,
+      sourceUrl: parsed.sourceUrl,
+      capturedAt: parsed.capturedAt,
+      items,
     };
+  } catch {
+    return null;
   }
-
-  writes.push(
-    writeFile(
-      otherShopSnapshotMetadataPath(productCode, rootDir),
-      JSON.stringify(metadata, null, 2),
-      "utf8",
-    ),
-  );
-  await Promise.all(writes);
-
-  return { status: "saved", metadata };
 }
 
 export async function readOtherShopSnapshotMetadata(
   rawUrl: string | null | undefined,
   rootDir = process.cwd(),
 ): Promise<OtherShopSnapshotMetadata | null> {
-  const productCode = otherShopProductCode(rawUrl);
-  if (!productCode) return null;
-
-  try {
-    const parsed = JSON.parse(
-      await readFile(otherShopSnapshotMetadataPath(productCode, rootDir), "utf8"),
-    ) as Partial<OtherShopSnapshotMetadata> & { capturedAt?: unknown };
-    if (typeof parsed.sourceUrl !== "string") return null;
-
-    // PR #53/#54で保存した旧形式はPC版スナップショットとして引き継ぐ。
-    const legacyCapturedAt = typeof parsed.capturedAt === "string" ? parsed.capturedAt : null;
-    const desktopCapturedAt =
-      typeof parsed.desktopCapturedAt === "string" ? parsed.desktopCapturedAt : legacyCapturedAt;
-    const mobileCapturedAt =
-      typeof parsed.mobileCapturedAt === "string" ? parsed.mobileCapturedAt : null;
-    if (!desktopCapturedAt && !mobileCapturedAt) return null;
-
-    return {
-      productCode,
-      sourceUrl: parsed.sourceUrl,
-      desktopCapturedAt,
-      mobileCapturedAt,
-    };
-  } catch {
-    return null;
-  }
-}
-
-export async function readOtherShopSnapshotHtml(
-  productCode: string,
-  variant: OtherShopSnapshotVariant = "desktop",
-  rootDir = process.cwd(),
-): Promise<string | null> {
-  try {
-    return await readFile(otherShopSnapshotHtmlPath(productCode, rootDir, variant), "utf8");
-  } catch {
-    return null;
-  }
+  const data = await readOtherShopSnapshotData(rawUrl, rootDir);
+  return data
+    ? {
+        productCode: data.productCode,
+        sourceUrl: data.sourceUrl,
+        capturedAt: data.capturedAt,
+        itemCount: data.items.length,
+      }
+    : null;
 }
 
 export async function exportOtherShopSnapshots(
@@ -260,7 +214,15 @@ export async function exportOtherShopSnapshots(
 ): Promise<void> {
   const sourceDirectory = otherShopSnapshotDirectory(rootDir);
   try {
-    await cp(sourceDirectory, outputDirectory, { recursive: true });
+    const entries = await readdir(sourceDirectory, { withFileTypes: true });
+    await mkdir(outputDirectory, { recursive: true });
+    await Promise.all(
+      entries
+        .filter((entry) => entry.isFile() && /^[0-9A-Za-z]+\.json$/u.test(entry.name))
+        .map((entry) =>
+          copyFile(path.join(sourceDirectory, entry.name), path.join(outputDirectory, entry.name)),
+        ),
+    );
   } catch (error) {
     const code = error && typeof error === "object" && "code" in error ? error.code : null;
     if (code !== "ENOENT") throw error;

@@ -16,10 +16,10 @@ function viewerJunkItemIdentity(item) {
   return [normalize(item.sourceType), normalize(item.storeName), normalize(item.condition), String(item.price)].join('\u0000');
 }
 
-function viewerPastJunkHistories(detail) {
+function viewerJunkHistorySections(detail) {
   const items = Array.isArray(detail.junkHistories) ? detail.junkHistories : [];
   const histories = Array.isArray(detail.histories) ? detail.histories : [];
-  if (!items.length) return [];
+  if (!items.length) return { current: [], currentCheckedAt: null, past: [] };
 
   const latestSnapshotAt = histories.reduce((latest, history) => {
     const time = new Date(history.checkedAt).getTime();
@@ -53,8 +53,14 @@ function viewerPastJunkHistories(detail) {
   }
 
   const seen = new Set();
-  const currentGroup = orderedGroups.find((group) => group.key === currentKey);
-  currentGroup?.items.forEach((item) => seen.add(viewerJunkItemIdentity(item)));
+  const currentGroup = orderedGroups.find((group) => group.key === currentKey) || null;
+  const current = [];
+  currentGroup?.items.forEach((item) => {
+    const identity = viewerJunkItemIdentity(item);
+    if (seen.has(identity)) return;
+    seen.add(identity);
+    current.push(item);
+  });
 
   const past = [];
   for (const group of orderedGroups) {
@@ -66,7 +72,28 @@ function viewerPastJunkHistories(detail) {
       past.push(item);
     }
   }
-  return past;
+
+  return {
+    current,
+    currentCheckedAt: currentGroup?.checkedAt || null,
+    past,
+  };
+}
+
+function viewerCurrentOfferList(items, otherShopUrl) {
+  if (!items.length) {
+    return '<p class="muted">この取得時点では他店舗の販売データを確認できませんでした。</p>';
+  }
+
+  return `<div class="other-shop-list">
+    <div class="other-shop-list-head" aria-hidden="true"><span>商品状態</span><span>店舗</span><span>価格</span><span></span></div>
+    ${items.map((item) => `<article class="other-shop-offer">
+      <div class="other-shop-condition"><span class="other-shop-type">中古商品</span><strong>${esc(item.condition || '状態不明')}</strong></div>
+      <div class="other-shop-store"><span class="other-shop-mobile-label">店舗</span><span>${esc(item.storeName || '店舗名不明')}</span></div>
+      <div class="other-shop-price"><span class="other-shop-mobile-label">価格</span><strong>${yen(item.price)}</strong><small>税込</small></div>
+      ${otherShopUrl ? `<a class="button other-shop-action" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">駿河屋で見る</a>` : ''}
+    </article>`).join('')}
+  </div>`;
 }
 
 function viewerOtherShopSection(detail) {
@@ -75,31 +102,20 @@ function viewerOtherShopSection(detail) {
   const snapshot = detail.otherShopSnapshot && typeof detail.otherShopSnapshot === 'object'
     ? detail.otherShopSnapshot
     : null;
-  const past = viewerPastJunkHistories(detail);
+  const sections = viewerJunkHistorySections(detail);
+  const fallbackCurrent = sections.current.filter((item) => item.sourceType === 'other_shop');
+  const currentOffers = Array.isArray(snapshot?.items) ? snapshot.items : fallbackCurrent;
   const externalLink = otherShopUrl
     ? `<a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">現在の一覧を駿河屋で開く</a>`
     : '';
-
-  const desktopStatus = snapshot?.desktopCapturedAt
-    ? `PC版 ${esc(dateTime(snapshot.desktopCapturedAt))}`
-    : 'PC版保存なし';
-  const mobileStatus = snapshot?.mobileCapturedAt
-    ? `モバイル版 ${esc(dateTime(snapshot.mobileCapturedAt))}`
-    : 'モバイル版保存なし';
-
-  const desktopLive = snapshot?.desktopPath
-    ? `<div class="other-shop-frame-wrap other-shop-desktop-only"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.desktopPath)}" title="保存済みの駿河屋PC版他店舗販売一覧"></iframe></div>`
-    : '<p class="muted other-shop-desktop-only">保存済みのPC版他店舗一覧はありません。次回この商品をPCで取得すると保存されます。</p>';
-  const mobileLive = snapshot?.mobilePath
-    ? `<div class="other-shop-frame-wrap other-shop-mobile-only"><iframe class="other-shop-frame" loading="lazy" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox" src="./${esc(snapshot.mobilePath)}" title="保存済みの駿河屋モバイル版他店舗販売一覧"></iframe></div>`
-    : '<p class="muted other-shop-mobile-only">保存済みのモバイル版他店舗一覧はありません。拡張機能を更新してこの商品を再取得すると保存されます。</p>';
-
-  const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted other-shop-desktop-only">${desktopStatus}</span><span class="muted other-shop-mobile-only">${mobileStatus}</span></div>${externalLink}</div>${desktopLive}${mobileLive}`;
-  const pastTable = past.length
-    ? `<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">${past.length.toLocaleString('ja-JP')}件保存</span></div><div class="table-wrap"><table class="data-table"><thead><tr><th>取得日時</th><th>店舗</th><th>状態</th><th>価格</th></tr></thead><tbody>${past.map((history) => `<tr><td>${esc(dateTime(history.checkedAt))}</td><td>${esc(history.storeName || '駿河屋')}</td><td>${esc(history.condition)}</td><td>${yen(history.price)}</td></tr>`).join('')}</tbody></table></div>`
+  const capturedAt = snapshot?.capturedAt || sections.currentCheckedAt;
+  const status = capturedAt ? `取得 ${esc(dateTime(capturedAt))}` : '保存データなし';
+  const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">${status}</span></div>${externalLink}</div>${viewerCurrentOfferList(currentOffers, otherShopUrl)}`;
+  const pastTable = sections.past.length
+    ? `<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">${sections.past.length.toLocaleString('ja-JP')}件保存</span></div><div class="table-wrap"><table class="data-table"><thead><tr><th>取得日時</th><th>店舗</th><th>状態</th><th>価格</th></tr></thead><tbody>${sections.past.map((history) => `<tr><td>${esc(dateTime(history.checkedAt))}</td><td>${esc(history.storeName || '駿河屋')}</td><td>${esc(history.condition)}</td><td>${yen(history.price)}</td></tr>`).join('')}</tbody></table></div>`
     : '<div class="other-shop-past-head"><h3>過去データ</h3><span class="muted">0件</span></div><p class="muted">重複を除いた過去データはありません。</p>';
 
-  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">画面に合わせて駿河屋のPC版 / モバイル版UIを表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
+  return `<section class="panel block other-shop-live-section"><div class="section-title"><h2>ジャンク・他ショップ履歴</h2><span class="muted">同じ取得データを画面幅に合わせて表示</span></div>${live}<div class="other-shop-past">${pastTable}</div></section>`;
 }
 
 async function enhanceViewerOtherShopSection(id) {
@@ -119,7 +135,7 @@ async function enhanceViewerOtherShopSection(id) {
     else if (productDetails) productDetails.before(replacement);
     else app.append(replacement);
   } catch {
-    // Viewer本体の表示は維持し、保存HTML表示の補助だけ失敗させる。
+    // Viewer本体の表示は維持し、他店舗一覧の再構成だけ失敗させる。
   }
 }
 

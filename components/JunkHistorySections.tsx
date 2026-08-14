@@ -9,14 +9,21 @@ import {
   type JunkHistoryViewGroup,
   type JunkHistoryViewItem,
 } from "@/lib/junk-history-view";
-import type { OtherShopSnapshotMetadata } from "@/lib/other-shop-html-snapshot";
+import type { OtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 import styles from "./JunkHistorySections.module.css";
+
+type CurrentOfferItem = {
+  id: string | number;
+  storeName: string | null;
+  condition: string;
+  price: number;
+};
 
 type JunkHistorySectionsProps = {
   items: JunkHistoryViewItem[];
   latestSnapshotAt: string | null;
-  otherShopSnapshot: OtherShopSnapshotMetadata | null;
+  otherShopSnapshot: OtherShopSnapshotData | null;
   surugayaUrl: string;
 };
 
@@ -30,9 +37,29 @@ export function JunkHistorySections({
     () => buildJunkHistoryViewSections(items, latestSnapshotAt),
     [items, latestSnapshotAt],
   );
+  const currentGroup = sections.current[0] ?? null;
+  const currentOtherShopItems = useMemo<CurrentOfferItem[]>(() => {
+    if (otherShopSnapshot) {
+      return otherShopSnapshot.items.map((item, index) => ({
+        id: `snapshot-${index}`,
+        storeName: item.storeName,
+        condition: item.condition,
+        price: item.price,
+      }));
+    }
+    return currentGroup?.items
+      .filter((item) => item.sourceType === "other_shop")
+      .map((item) => ({
+        id: item.id,
+        storeName: item.storeName,
+        condition: item.condition,
+        price: item.price,
+      })) ?? [];
+  }, [currentGroup, otherShopSnapshot]);
   const currentCount = countJunkHistoryItems(sections.current);
   const pastCount = countJunkHistoryItems(sections.past);
   const otherShopUrl = useMemo(() => buildSurugayaOtherShopUrl(surugayaUrl), [surugayaUrl]);
+  const capturedAt = otherShopSnapshot?.capturedAt ?? currentGroup?.checkedAt ?? null;
 
   return (
     <section className={`card ${styles.panel}`}>
@@ -43,8 +70,9 @@ export function JunkHistorySections({
 
       <div className={styles.sections}>
         <CurrentOffersSection
+          capturedAt={capturedAt}
           currentCount={currentCount}
-          otherShopSnapshot={otherShopSnapshot}
+          items={currentOtherShopItems}
           otherShopUrl={otherShopUrl}
         />
         <HistorySection
@@ -59,30 +87,22 @@ export function JunkHistorySections({
 
 function CurrentOffersSection({
   otherShopUrl,
-  otherShopSnapshot,
+  items,
+  capturedAt,
   currentCount,
 }: {
   otherShopUrl: string | null;
-  otherShopSnapshot: OtherShopSnapshotMetadata | null;
+  items: CurrentOfferItem[];
+  capturedAt: string | null;
   currentCount: number;
 }) {
-  const desktopAvailable = Boolean(otherShopSnapshot?.desktopCapturedAt);
-  const mobileAvailable = Boolean(otherShopSnapshot?.mobileCapturedAt);
-
   return (
     <section>
       <div className={styles.sectionHeader}>
         <div className={styles.sectionTitle}>
           <h3>販売中</h3>
-          <span className={`muted ${styles.desktopOnly}`}>
-            {desktopAvailable
-              ? `PC版 ${formatDateTime(otherShopSnapshot!.desktopCapturedAt!)}`
-              : "PC版保存なし"}
-          </span>
-          <span className={`muted ${styles.mobileOnly}`}>
-            {mobileAvailable
-              ? `モバイル版 ${formatDateTime(otherShopSnapshot!.mobileCapturedAt!)}`
-              : "モバイル版保存なし"}
+          <span className="muted">
+            {capturedAt ? `取得 ${formatDateTime(capturedAt)}` : "保存データなし"}
           </span>
         </div>
         {otherShopUrl ? (
@@ -92,36 +112,47 @@ function CurrentOffersSection({
         ) : null}
       </div>
 
-      {desktopAvailable ? (
-        <div className={`${styles.embedFrameWrap} ${styles.desktopOnly}`}>
-          <iframe
-            className={styles.embedFrame}
-            loading="lazy"
-            sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox"
-            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot!.productCode)}?variant=desktop`}
-            title="保存済みの駿河屋PC版他店舗販売一覧"
-          />
+      {items.length > 0 ? (
+        <div className={styles.surugayaList}>
+          <div className={styles.desktopHeader} aria-hidden="true">
+            <span>商品状態</span>
+            <span>店舗</span>
+            <span>価格</span>
+            <span />
+          </div>
+          {items.map((item) => (
+            <article className={styles.offerRow} key={item.id}>
+              <div className={styles.offerCondition}>
+                <span className={styles.offerType}>中古商品</span>
+                <strong>{item.condition || "状態不明"}</strong>
+              </div>
+              <div className={styles.offerStore}>
+                <span className={styles.mobileLabel}>店舗</span>
+                <span>{item.storeName ?? "店舗名不明"}</span>
+              </div>
+              <div className={styles.offerPrice}>
+                <span className={styles.mobileLabel}>価格</span>
+                <strong>{formatPrice(item.price)}</strong>
+                <small>税込</small>
+              </div>
+              {otherShopUrl ? (
+                <a
+                  className={`button secondary ${styles.offerAction}`}
+                  href={otherShopUrl}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  駿河屋で見る
+                </a>
+              ) : null}
+            </article>
+          ))}
         </div>
       ) : (
-        <p className={`${styles.empty} ${styles.desktopOnly}`}>
-          保存済みのPC版他店舗一覧はありません。次回この商品をPCで取得すると保存されます。
-          販売中データ{currentCount.toLocaleString("ja-JP")}件は履歴用として保持されています。
-        </p>
-      )}
-
-      {mobileAvailable ? (
-        <div className={`${styles.embedFrameWrap} ${styles.mobileOnly}`}>
-          <iframe
-            className={styles.embedFrame}
-            loading="lazy"
-            sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox"
-            src={`/api/other-shop-snapshot/${encodeURIComponent(otherShopSnapshot!.productCode)}?variant=mobile`}
-            title="保存済みの駿河屋モバイル版他店舗販売一覧"
-          />
-        </div>
-      ) : (
-        <p className={`${styles.empty} ${styles.mobileOnly}`}>
-          保存済みのモバイル版他店舗一覧はありません。拡張機能を更新してこの商品を再取得すると保存されます。
+        <p className={styles.empty}>
+          {capturedAt
+            ? "この取得時点では他店舗の販売データを確認できませんでした。"
+            : `保存済みの他店舗一覧はありません。販売中データ${currentCount.toLocaleString("ja-JP")}件は履歴用として保持されています。`}
         </p>
       )}
     </section>
