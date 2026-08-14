@@ -80,6 +80,110 @@ function viewerJunkHistorySections(detail) {
   };
 }
 
+function viewerNormalizeOtherShopText(value) {
+  return String(value ?? '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function viewerLegacyOtherShopPrice(value) {
+  const text = viewerNormalizeOtherShopText(value).normalize('NFKC');
+  const priceZone = text.split(/(?:送料|送料無料|通信販売手数料)/)[0];
+  const matches = [...priceZone.matchAll(/(?:[¥￥]\s*([0-9][0-9,\s]*)|([0-9][0-9,\s]*)\s*円)/g)];
+  for (const match of matches) {
+    const digits = (match[1] || match[2] || '').replace(/[^0-9]/g, '');
+    const price = Number(digits);
+    if (Number.isInteger(price) && price > 0) return price;
+  }
+  return null;
+}
+
+function viewerLegacyOtherShopStore(element, text) {
+  const selectors = [
+    '.shop-name',
+    '.store-name',
+    '.shop_name',
+    '.store_name',
+    '[class*="shopName"]',
+    '[class*="storeName"]',
+    'a[href*="/shop/"]',
+  ];
+  for (const selector of selectors) {
+    const value = viewerNormalizeOtherShopText(element.querySelector(selector)?.textContent);
+    if (value) return value.replace(/(?:の)?出品を見る.*$/u, '').trim();
+  }
+
+  const match = text.match(
+    /(?:販売店舗|取扱店舗|店舗名|ショップ)\s*[:：]?\s*([^¥￥0-9]+?)(?=(?:中古|新品|予約|プレミア|ワケアリ|状態|[¥￥]|[0-9]))/u,
+  );
+  return viewerNormalizeOtherShopText(match?.[1]).replace(/(?:の)?出品を見る.*$/u, '').trim();
+}
+
+function viewerLegacyOtherShopCondition(element, text) {
+  const selectors = [
+    '.condition',
+    '.state',
+    '.rank',
+    '[class*="condition"]',
+    '[class*="state"]',
+  ];
+  for (const selector of selectors) {
+    const value = viewerNormalizeOtherShopText(element.querySelector(selector)?.textContent);
+    if (value && value.length <= 120 && !/[¥￥]\s*[0-9]/u.test(value)) return value;
+  }
+
+  const normalized = text.normalize('NFKC');
+  const explicit = normalized.match(/(?:商品状態|状態)\s*[:：]?\s*((?:難あり|中古|新品|予約|プレミア|ワケアリ)[^¥￥0-9]{0,80})/u);
+  if (explicit?.[1]) return viewerNormalizeOtherShopText(explicit[1]);
+  const standard = normalized.match(/(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ).*?)(?=\s*(?:[¥￥]\s*[0-9]|[0-9][0-9,\s]*\s*円)|$)/u);
+  return viewerNormalizeOtherShopText(standard?.[1]) || '状態不明';
+}
+
+function viewerLegacyOtherShopItems(rawHtml) {
+  const documentNode = new DOMParser().parseFromString(rawHtml, 'text/html');
+  const result = new Map();
+  const candidates = documentNode.querySelectorAll('[class*="shop"], [class*="store"], tr, li');
+
+  for (const element of candidates) {
+    const text = viewerNormalizeOtherShopText(element.textContent);
+    if (!text || !/(?:[¥￥]\s*[0-9０-９]|[0-9０-９][0-9０-９,\s]*\s*円)/u.test(text)) continue;
+
+    const priceElement = element.querySelector('.price, [class*="price"]');
+    const price = viewerLegacyOtherShopPrice(priceElement?.textContent || text);
+    if (price === null) continue;
+
+    const storeName = viewerLegacyOtherShopStore(element, text);
+    if (!storeName || /^(?:店舗|ショップ|駿河屋)$/u.test(storeName)) continue;
+
+    const condition = viewerLegacyOtherShopCondition(element, text);
+    const key = [storeName, condition, String(price)]
+      .map((value) => viewerNormalizeOtherShopText(value).normalize('NFKC').toLocaleLowerCase('ja-JP'))
+      .join('\u0000');
+    if (!result.has(key)) result.set(key, { storeName, condition, price });
+  }
+
+  return [...result.values()];
+}
+
+async function viewerCurrentOtherShopOffers(detail, sections) {
+  const snapshot = detail.otherShopSnapshot && typeof detail.otherShopSnapshot === 'object'
+    ? detail.otherShopSnapshot
+    : null;
+  if (Array.isArray(snapshot?.items)) return snapshot.items;
+
+  if (snapshot?.productCode && /^[0-9A-Za-z]+$/.test(snapshot.productCode)) {
+    try {
+      const response = await fetch(`./data/other-shops/${encodeURIComponent(snapshot.productCode)}.html`, { cache: 'no-store' });
+      if (response.ok) {
+        const legacyItems = viewerLegacyOtherShopItems(await response.text());
+        if (legacyItems.length) return legacyItems;
+      }
+    } catch {
+      // 旧HTMLスナップショットが無い商品はDB由来の現在一覧へフォールバックする。
+    }
+  }
+
+  return sections.current.filter((item) => item.sourceType === 'other_shop');
+}
+
 function viewerCurrentOfferList(items, otherShopUrl) {
   if (!items.length) {
     return '<p class="muted">この取得時点では他店舗の販売データを確認できませんでした。</p>';
@@ -96,19 +200,18 @@ function viewerCurrentOfferList(items, otherShopUrl) {
   </div>`;
 }
 
-function viewerOtherShopSection(detail) {
+async function viewerOtherShopSection(detail) {
   const product = detail.product || {};
   const otherShopUrl = viewerOtherShopUrl(product.surugayaUrl);
   const snapshot = detail.otherShopSnapshot && typeof detail.otherShopSnapshot === 'object'
     ? detail.otherShopSnapshot
     : null;
   const sections = viewerJunkHistorySections(detail);
-  const fallbackCurrent = sections.current.filter((item) => item.sourceType === 'other_shop');
-  const currentOffers = Array.isArray(snapshot?.items) ? snapshot.items : fallbackCurrent;
+  const currentOffers = await viewerCurrentOtherShopOffers(detail, sections);
   const externalLink = otherShopUrl
     ? `<a class="button" href="${esc(otherShopUrl)}" target="_blank" rel="noreferrer">現在の一覧を駿河屋で開く</a>`
     : '';
-  const capturedAt = snapshot?.capturedAt || sections.currentCheckedAt;
+  const capturedAt = snapshot?.capturedAt || snapshot?.desktopCapturedAt || sections.currentCheckedAt;
   const status = capturedAt ? `取得 ${esc(dateTime(capturedAt))}` : '保存データなし';
   const live = `<div class="other-shop-live-head"><div><h3>販売中</h3><span class="muted">${status}</span></div>${externalLink}</div>${viewerCurrentOfferList(currentOffers, otherShopUrl)}`;
   const pastTable = sections.past.length
@@ -128,7 +231,7 @@ async function enhanceViewerOtherShopSection(id) {
     const existing = sections.find((section) => section.querySelector('h2')?.textContent === 'ジャンク・他ショップ履歴');
     const productDetails = sections.find((section) => section.querySelector('h2')?.textContent === '駿河屋の商品詳細情報');
     const holder = document.createElement('div');
-    holder.innerHTML = viewerOtherShopSection(detail);
+    holder.innerHTML = await viewerOtherShopSection(detail);
     const replacement = holder.firstElementChild;
     if (!replacement) return;
     if (existing) existing.replaceWith(replacement);
