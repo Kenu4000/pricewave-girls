@@ -39,41 +39,47 @@
     return result;
   }
 
-  function fakeHeader() {
+  function proxyAttrs(href) {
+    return `data-suru-faux-link="${href}" role="link" tabindex="0"`;
+  }
+
+  function fakeHeader(href) {
+    const proxy = proxyAttrs(href);
     return `
       <div class="suru-faux-pc-header">
         <div class="suru-faux-pc-top">
-          <span class="suru-faux-menu" aria-hidden="true"><i></i><i></i><i></i></span>
-          <img class="suru-faux-logo" src="${SURUGAYA_LOGO}" alt="駿河屋">
-          <div class="suru-faux-search"><span>全商品</span><input aria-label="検索" readonly><button type="button" tabindex="-1">検索</button></div>
-          <span class="suru-faux-safe">セーフサーチ OFF</span>
-          <span class="suru-faux-account">サインイン <img src="${SURUGAYA_USER_ICON}" alt=""></span>
-          <span class="suru-faux-cart"><img src="${SURUGAYA_CART_ICON}" alt="">0</span>
+          <span class="suru-faux-menu" ${proxy} aria-label="駿河屋でメニューを開く"><i></i><i></i><i></i></span>
+          <img class="suru-faux-logo" ${proxy} src="${SURUGAYA_LOGO}" alt="駿河屋">
+          <div class="suru-faux-search" ${proxy}><span>全商品</span><input aria-label="検索" readonly><button type="button" tabindex="-1">検索</button></div>
+          <span class="suru-faux-safe" ${proxy}>セーフサーチ OFF</span>
+          <span class="suru-faux-account" ${proxy}>サインイン <img src="${SURUGAYA_USER_ICON}" alt=""></span>
+          <span class="suru-faux-cart" ${proxy}><img src="${SURUGAYA_CART_ICON}" alt="">0</span>
         </div>
-        <div class="suru-faux-pc-sub"><span>キャンペーン</span><span>新入荷</span><span>予約</span><span>特集</span><span>売りたい</span><span class="suru-faux-sub-spacer"></span><span>お気に入り</span><span>閲覧履歴</span></div>
+        <div class="suru-faux-pc-sub"><span ${proxy}>キャンペーン</span><span ${proxy}>新入荷</span><span ${proxy}>予約</span><span ${proxy}>特集</span><span ${proxy}>売りたい</span><span class="suru-faux-sub-spacer"></span><span ${proxy}>お気に入り</span><span ${proxy}>閲覧履歴</span></div>
       </div>
       <div class="suru-faux-sp-header">
         <div class="suru-faux-sp-top">
-          <span class="suru-faux-menu" aria-hidden="true"><i></i><i></i><i></i></span>
-          <img class="suru-faux-logo" src="${SURUGAYA_LOGO}" alt="駿河屋">
-          <img class="suru-faux-sp-icon" src="${SURUGAYA_USER_ICON}" alt="">
-          <span class="suru-faux-sp-cart"><img class="suru-faux-sp-icon" src="${SURUGAYA_CART_ICON}" alt=""><b>0</b></span>
+          <span class="suru-faux-menu" ${proxy} aria-label="駿河屋でメニューを開く"><i></i><i></i><i></i></span>
+          <img class="suru-faux-logo" ${proxy} src="${SURUGAYA_LOGO}" alt="駿河屋">
+          <img class="suru-faux-sp-icon" ${proxy} src="${SURUGAYA_USER_ICON}" alt="サインイン">
+          <span class="suru-faux-sp-cart" ${proxy}><img class="suru-faux-sp-icon" src="${SURUGAYA_CART_ICON}" alt="カート"><b>0</b></span>
         </div>
-        <div class="suru-faux-sp-search"><span>⌕</span><input value="" placeholder="商品を検索する" readonly><button type="button" tabindex="-1">検索</button></div>
-        <div class="suru-faux-sp-safe">セーフサーチ 未設定</div>
-        <div class="suru-faux-sp-nav"><span>● キャンペーン</span><span>● 新入荷</span><span>● 予約</span><span>● 特集</span></div>
+        <div class="suru-faux-sp-search" ${proxy}><span>⌕</span><input value="" placeholder="商品を検索する" readonly><button type="button" tabindex="-1">検索</button></div>
+        <div class="suru-faux-sp-safe" ${proxy}>セーフサーチ 未設定</div>
+        <div class="suru-faux-sp-nav"><span ${proxy}>● キャンペーン</span><span ${proxy}>● 新入荷</span><span ${proxy}>● 予約</span><span ${proxy}>● 特集</span></div>
       </div>`;
   }
 
-  function tabs(items) {
+  function tabs(items, href) {
     const c = counts(items);
+    const proxy = proxyAttrs(href);
     return `<div class="suru-faux-tabs" aria-label="商品状態タブ">
-      <span class="active">全て(<b>${c.all}</b>)</span>
-      <span>新品(<b>${c.new}</b>)</span>
-      <span>中古(<b>${c.used}</b>)</span>
-      <span>予約(<b>${c.reservation}</b>)</span>
-      <span>プレミア(<b>${c.premium}</b>)</span>
-      <span>ワケアリ(<b>${c.wakeari}</b>)</span>
+      <span class="active" ${proxy}>全て(<b>${c.all}</b>)</span>
+      <span ${proxy}>新品(<b>${c.new}</b>)</span>
+      <span ${proxy}>中古(<b>${c.used}</b>)</span>
+      <span ${proxy}>予約(<b>${c.reservation}</b>)</span>
+      <span ${proxy}>プレミア(<b>${c.premium}</b>)</span>
+      <span ${proxy}>ワケアリ(<b>${c.wakeari}</b>)</span>
     </div>`;
   }
 
@@ -88,15 +94,38 @@
     </article>`;
   }
 
+  function fauxProxyTarget(event) {
+    const origin = event.target;
+    if (!(origin instanceof Element)) return null;
+    if (origin.closest('.suru-faux-frame a[href]')) return null;
+    return origin.closest('[data-suru-faux-link]');
+  }
+
+  function openFauxProxy(event) {
+    const target = fauxProxyTarget(event);
+    if (!target) return;
+    const href = target.getAttribute('data-suru-faux-link');
+    if (!href || href === '#') return;
+    event.preventDefault();
+    event.stopPropagation();
+    window.open(href, '_blank', 'noopener,noreferrer');
+  }
+
+  document.addEventListener('click', openFauxProxy, true);
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    openFauxProxy(event);
+  }, true);
+
   viewerCurrentOfferList = function viewerCurrentOfferListAsSurugaya(items, otherShopUrl) {
+    const href = otherShopUrl ? esc(otherShopUrl) : '#';
     if (!items.length) {
-      return `<div class="suru-faux-frame">${fakeHeader()}<div class="suru-faux-page"><p class="suru-faux-soldout">申し訳ございません。品切れ中です。</p></div></div>`;
+      return `<div class="suru-faux-frame">${fakeHeader(href)}<div class="suru-faux-page"><p class="suru-faux-soldout">申し訳ございません。品切れ中です。</p></div></div>`;
     }
 
-    const href = otherShopUrl ? esc(otherShopUrl) : '#';
     const title = fauxTitle();
     return `<div class="suru-faux-frame">
-      ${fakeHeader()}
+      ${fakeHeader(href)}
       <div class="suru-faux-page">
         <div class="suru-faux-breadcrumb"><a href="${href}" target="_blank" rel="noreferrer">駿河屋TOP</a> ≫ パソコン・スマホ ≫ パソコンソフト</div>
         <section class="suru-faux-product">
@@ -108,9 +137,9 @@
             <a href="${href}" target="_blank" rel="noreferrer">＞商品詳細はこちら</a>
           </div>
         </section>
-        ${tabs(items)}
+        ${tabs(items, href)}
         <div class="suru-faux-table">
-          <div class="suru-faux-table-head"><span><select disabled><option>価格が安い順</option></select></span><span>コンディション</span><span>販売</span><span>配送</span><span>購入オプション</span></div>
+          <div class="suru-faux-table-head"><span ${proxyAttrs(href)}><select tabindex="-1" aria-hidden="true"><option>価格が安い順</option></select></span><span>コンディション</span><span>販売</span><span>配送</span><span>購入オプション</span></div>
           ${items.map((item) => row(item, otherShopUrl)).join('')}
         </div>
       </div>
