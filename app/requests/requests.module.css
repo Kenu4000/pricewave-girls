@@ -1,0 +1,107 @@
+.page {
+  display: grid;
+  gap: 18px;
+}
+
+.issueList {
+  display: grid;
+  gap: 12px;
+}
+
+.issueCard {
+  display: grid;
+  gap: 12px;
+  padding: 18px;
+}
+
+.issueHeader {
+  align-items: start;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.issueTitleBlock {
+  align-items: baseline;
+  display: flex;
+  gap: 9px;
+  min-width: 0;
+}
+
+.issueTitleBlock h2,
+.messageCard h2 {
+  margin: 0;
+}
+
+.issueTitleBlock h2 {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.issueNumber {
+  color: var(--muted);
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.labels,
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.label {
+  background: var(--surface-subtle, #f6f4f1);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 8px;
+}
+
+.issueBody {
+  background: var(--surface-subtle, #f8f6f3);
+  border-radius: 10px;
+  line-height: 1.65;
+  max-height: 15rem;
+  overflow: auto;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.messageCard {
+  padding: 20px;
+}
+
+.messageCard p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .issueCard {
+    padding: 14px;
+  }
+
+  .issueHeader,
+  .issueTitleBlock {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .issueHeader > a {
+    align-self: flex-start;
+  }
+
+  .issueBody {
+    max-height: 18rem;
+  }
+}

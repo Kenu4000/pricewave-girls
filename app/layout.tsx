@@ -55,6 +55,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             <nav className="header-nav" aria-label="主要ページ">
               <a className="button secondary" href="/changes">価格変更</a>
               <a className="button secondary" href="/history">履歴</a>
+              <a className="button secondary" href="/requests">リクエスト</a>
             </nav>
           </header>
           {children}
