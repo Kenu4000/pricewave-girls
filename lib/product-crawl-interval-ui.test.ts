@@ -13,15 +13,24 @@ test("商品一覧に1・3・7・14日・無の巡回周期ボタンを表示す
   assert.match(grid, /crawl-interval/u);
 });
 
-test("自動巡回は商品周期、手動更新は全件を選ぶ", async () => {
+test("自動巡回は長周期を均等化し、手動更新は全件を選ぶ", async () => {
   const wrapper = await readFile(
     new URL("../browser-extension/popular-refresh-wrapper.js", import.meta.url),
     "utf8",
   );
-  assert.match(wrapper, /VALID_INTERVALS = new Set\(\[1, 3, 7, 14\]\)/u);
-  assert.match(wrapper, /product\?\.crawlIntervalDays === null/u);
-  assert.match(wrapper, /source\.filter\(\(product\) => isDue\(product, now\)\)/u);
-  assert.match(wrapper, /manualFullRun \? source/u);
+  const scheduler = await readFile(
+    new URL("../browser-extension/balanced-crawl-scheduler.js", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(wrapper, /balanced-crawl-scheduler\.js/u);
+  assert.match(wrapper, /balancedScheduler\.selectBalancedProducts\(source, value\)/u);
+  assert.match(wrapper, /if \(manualFullRun\)/u);
+  assert.match(wrapper, /products: source/u);
+  assert.match(scheduler, /BALANCE_CYCLE_DAYS = 42/u);
+  assert.match(scheduler, /BALANCED_INTERVALS = new Set\(\[3, 7, 14\]\)/u);
+  assert.match(scheduler, /interval === 1/u);
+  assert.match(scheduler, /eligibleBalanced\.slice\(0, balancedTarget\)/u);
   assert.doesNotMatch(wrapper, /dailyCrawlBrandOverrideEnabled|dailyCrawlBrands/u);
 });
 

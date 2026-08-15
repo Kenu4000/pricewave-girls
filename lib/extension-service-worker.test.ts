@@ -10,6 +10,7 @@ function extensionSource(fileName: string): string {
 test("人気順更新・新商品探索・安全巡回Workerを同じService Workerで読み込める", () => {
   const sources = new Map([
     ["crawl-policy.js", extensionSource("crawl-policy.js")],
+    ["balanced-crawl-scheduler.js", extensionSource("balanced-crawl-scheduler.js")],
     ["new-product-discovery-policy.js", extensionSource("new-product-discovery-policy.js")],
     ["new-product-discovery-wrapper.js", extensionSource("new-product-discovery-wrapper.js")],
     ["safe-background.js", extensionSource("safe-background.js")],
