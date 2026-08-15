@@ -27,6 +27,7 @@ model Product {
   stockStatus            String?
   condition              String?
   conditionRank          String         @default("A")
+  crawlIntervalDays      Int?           @default(1)
   isTimeSale             Boolean        @default(false)
   previousIsTimeSale     Boolean        @default(false)
   timeSaleStartedAt      DateTime?
@@ -46,6 +47,7 @@ model Product {
   @@index([releaseDate])
   @@index([manufacturer])
   @@index([conditionRank])
+  @@index([crawlIntervalDays])
   @@index([isTimeSale, timeSaleEndsAt])
 }
 
