@@ -10,8 +10,6 @@
   let releaseDiscoveryActive = false;
   let registeredIds = new Set();
   let registeredIdsLoaded = false;
-  let stopDate = null;
-  let reachedStop = false;
   let nextExpectedPage = 1;
   let skippedFuture = 0;
   let skippedMissingDate = 0;
@@ -46,8 +44,6 @@
     releaseDiscoveryActive = discoveryPolicy.isReleaseDiscoveryUrl(sourceUrl);
     registeredIds = new Set();
     registeredIdsLoaded = false;
-    stopDate = null;
-    reachedStop = false;
     nextExpectedPage = pageNumberFromUrl(sourceUrl);
     skippedFuture = 0;
     skippedMissingDate = 0;
@@ -106,44 +102,28 @@
     return products;
   }
 
-  function blankSearchResults(results) {
-    for (const result of results ?? []) {
-      const page = result?.result;
-      if (!Array.isArray(page?.productUrls)) continue;
-      page.productUrls = [];
-      page.nextUrl = null;
-    }
-    return results;
-  }
-
   function applyDecision(results, releaseProducts) {
-    if (reachedStop) return blankSearchResults(results);
-
     const decision = discoveryPolicy.selectReleaseDiscoveryProducts(
       releaseProducts,
       registeredIds,
       discoveryPolicy.localDateKey(),
-      stopDate,
     );
 
-    stopDate = decision.stopDate;
     skippedFuture += decision.skippedFuture;
     skippedMissingDate += decision.skippedMissingDate;
     duplicateCount += decision.duplicateCount;
-    if (decision.reachedOlderDate) reachedStop = true;
 
     for (const result of results ?? []) {
       const page = result?.result;
       if (!Array.isArray(page?.productUrls)) continue;
+      // productUrlsだけ未登録商品へ絞る。nextUrlは絶対に潰さず、
+      // 未登録0件のページ・バッチでも本当の最終ページまで探索を継続させる。
       page.productUrls = decision.products.map((product) => product.url);
-      if (decision.reachedOlderDate) page.nextUrl = null;
     }
 
     void chrome.storage.local.set({
       releaseDiscoveryStatus: {
         active: releaseDiscoveryActive,
-        stopDate,
-        reachedStop,
         skippedFuture,
         skippedMissingDate,
         duplicateCount,
@@ -163,17 +143,9 @@
       pending.resolve(results);
       nextExpectedPage += 1;
     }
-
-    if (!reachedStop) return;
-    for (const [pageNumber, pending] of [...pendingSearchPages.entries()]) {
-      pendingSearchPages.delete(pageNumber);
-      clearTimeout(pending.timeout);
-      pending.resolve(blankSearchResults(pending.results));
-    }
   }
 
   function queueSearchPage(pageNumber, results, releaseProducts) {
-    if (reachedStop) return Promise.resolve(blankSearchResults(results));
     if (pageNumber < nextExpectedPage) {
       return Promise.resolve(applyDecision(results, releaseProducts));
     }
@@ -249,7 +221,7 @@
     releaseDiscoveryActive = false;
     for (const pending of pendingSearchPages.values()) {
       clearTimeout(pending.timeout);
-      pending.resolve(blankSearchResults(pending.results));
+      pending.resolve(pending.results);
     }
     pendingSearchPages.clear();
   });
