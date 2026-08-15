@@ -9,6 +9,8 @@ importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
     fastSiteModeEnabled: false,
     parallelTabs: modePolicy.DEFAULT_PARALLEL_TABS,
   };
+  const TAB_EDIT_RETRY_DELAYS_MS = [150, 300, 600, 1_000, 1_500, 2_000, 3_000];
+  const TRANSIENT_TAB_EDIT_ERROR = /Tabs cannot be edited right now|user may be dragging a tab/i;
 
   let fastSiteModeEnabled = false;
   let configuredParallelTabs = modePolicy.DEFAULT_PARALLEL_TABS;
@@ -34,6 +36,15 @@ importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
       return Object.prototype.hasOwnProperty.call(keys, "autoAddSourceUrl");
     }
     return false;
+  }
+
+  function isTransientTabEditError(error) {
+    const message = error instanceof Error ? error.message : String(error ?? "");
+    return TRANSIENT_TAB_EDIT_ERROR.test(message);
+  }
+
+  function wait(milliseconds) {
+    return new Promise((resolve) => setTimeout(resolve, milliseconds));
   }
 
   const initialSettingsReady = nativeStorageGet(DEFAULT_MODE_SETTINGS)
@@ -76,9 +87,19 @@ importScripts("fast-site-mode-policy.js", "new-product-discovery-policy.js");
   const safeTabsCreate = chrome.tabs.create.bind(chrome.tabs);
   chrome.tabs.create = async (createProperties) => {
     await initialSettingsReady;
-    if (fastSiteModeEnabled && isSurugayaUrl(createProperties?.url)) {
-      return nativeTabsCreate(createProperties);
+    const createTab =
+      fastSiteModeEnabled && isSurugayaUrl(createProperties?.url)
+        ? nativeTabsCreate
+        : safeTabsCreate;
+
+    for (let attempt = 0; ; attempt += 1) {
+      try {
+        return await createTab(createProperties);
+      } catch (error) {
+        const delayMs = TAB_EDIT_RETRY_DELAYS_MS[attempt];
+        if (delayMs === undefined || !isTransientTabEditError(error)) throw error;
+        await wait(delayMs);
+      }
     }
-    return safeTabsCreate(createProperties);
   };
 })();
