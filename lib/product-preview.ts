@@ -16,6 +16,7 @@ export type ProductPreview = {
   stockStatus: string | null;
   condition?: string | null;
   conditionRank?: string | null;
+  crawlIntervalDays?: number | null;
   hasHistory: boolean;
   isNew: boolean;
 };

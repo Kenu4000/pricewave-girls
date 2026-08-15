@@ -2,52 +2,65 @@
   position: relative;
 }
 
-.saleUp {
-  border-left-color: #c93434;
-  border-left-width: 4px;
+.productCardBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
 }
 
-.saleDown {
-  border-left-color: #2b6fb3;
-  border-left-width: 4px;
+.intervalSection {
+  border-top: 1px solid var(--border);
+  display: grid;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 10px;
 }
 
-.saleChanged {
-  border-left-color: #a56b14;
-  border-left-width: 4px;
+.intervalLabel {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
 }
 
-.saleRestocked {
-  border-left-color: #23885a;
-  border-left-width: 4px;
+.intervalButtons {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
-.saleMailOrderSoldOut {
-  border-left-color: #d17a17;
-  border-left-width: 4px;
+.intervalButton {
+  background: #f5f1f4;
+  border: 1px solid #ddced8;
+  border-radius: 8px;
+  color: #665b63;
+  font-size: 0.72rem;
+  min-width: 0;
+  padding: 6px 2px;
 }
 
-.saleOutOfStock {
-  border-left-color: #6f747b;
-  border-left-width: 4px;
+.intervalButton[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 2px rgb(255 255 255 / 65%);
+  color: #fff;
 }
 
-.saleUnfetched {
-  border-left-color: #8d6c2f;
-  border-left-width: 4px;
-}
+.intervalOne { background: #16835f; border-color: #126f51; }
+.intervalThree { background: #2878bd; border-color: #22679f; }
+.intervalSeven { background: #7558b5; border-color: #654b9d; }
+.intervalFourteen { background: #a46124; border-color: #89511e; }
+.intervalOff { background: #62676d; border-color: #50545a; }
 
-.timeSaleBorder {
-  border-left-color: #2b6fb3;
-  border-left-width: 4px;
-}
-
+.saleUp { border-left-color: #c93434; border-left-width: 4px; }
+.saleDown { border-left-color: #2b6fb3; border-left-width: 4px; }
+.saleChanged { border-left-color: #a56b14; border-left-width: 4px; }
+.saleRestocked { border-left-color: #23885a; border-left-width: 4px; }
+.saleMailOrderSoldOut { border-left-color: #d17a17; border-left-width: 4px; }
+.saleOutOfStock { border-left-color: #6f747b; border-left-width: 4px; }
+.saleUnfetched { border-left-color: #8d6c2f; border-left-width: 4px; }
+.timeSaleBorder { border-left-color: #2b6fb3; border-left-width: 4px; }
 .timeSaleBorder::before {
-  background: repeating-linear-gradient(
-    to bottom,
-    #eab308 0 7px,
-    transparent 7px 13px
-  );
+  background: repeating-linear-gradient(to bottom,#eab308 0 7px,transparent 7px 13px);
   bottom: 16px;
   content: "";
   left: -4px;
@@ -56,74 +69,16 @@
   top: 16px;
   width: 4px;
 }
-
-.buyUp {
-  border-right-color: #c93434;
-  border-right-width: 4px;
-}
-
-.buyDown {
-  border-right-color: #2b6fb3;
-  border-right-width: 4px;
-}
-
-.buyChanged {
-  border-right-color: #a56b14;
-  border-right-width: 4px;
-}
-
-.changeRail {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: -8px 0 -2px;
-}
-
-.changeTag {
-  border: 1px solid currentColor;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 800;
-  line-height: 1.2;
-  padding: 5px 8px;
-}
-
-.timeSaleTag {
-  background: #fff9d9;
-  color: #765f00;
-}
-
-.up {
-  background: #fff1f1;
-  color: #a82222;
-}
-
-.down {
-  background: #eef6ff;
-  color: #245f9c;
-}
-
-.changed {
-  background: #fff8e8;
-  color: #8b5b12;
-}
-
-.restocked {
-  background: #edf9f2;
-  color: #1f704c;
-}
-
-.mailOrderSoldOut {
-  background: #fff5e8;
-  color: #9c5c12;
-}
-
-.outOfStock {
-  background: #f1f2f3;
-  color: #555b62;
-}
-
-.unfetched {
-  background: #fff8e8;
-  color: #765820;
-}
+.buyUp { border-right-color: #c93434; border-right-width: 4px; }
+.buyDown { border-right-color: #2b6fb3; border-right-width: 4px; }
+.buyChanged { border-right-color: #a56b14; border-right-width: 4px; }
+.changeRail { display: flex; flex-wrap: wrap; gap: 6px; margin: -8px 0 -2px; }
+.changeTag { border: 1px solid currentColor; border-radius: 999px; font-size: 0.75rem; font-weight: 800; line-height: 1.2; padding: 5px 8px; }
+.timeSaleTag { background: #fff9d9; color: #765f00; }
+.up { background: #fff1f1; color: #a82222; }
+.down { background: #eef6ff; color: #245f9c; }
+.changed { background: #fff8e8; color: #8b5b12; }
+.restocked { background: #edf9f2; color: #1f704c; }
+.mailOrderSoldOut { background: #fff5e8; color: #9c5c12; }
+.outOfStock { background: #f1f2f3; color: #555b62; }
+.unfetched { background: #fff8e8; color: #765820; }

@@ -25,27 +25,29 @@ export async function GET() {
       surugayaUrl: true,
       manufacturer: true,
       detailsJson: true,
+      crawlIntervalDays: true,
+      histories: {
+        orderBy: { checkedAt: "desc" },
+        take: 1,
+        select: { checkedAt: true },
+      },
     },
   });
 
   return NextResponse.json({
     products: products.map((product) => {
-      const brandCandidates = productBrandCandidates(
-        product.manufacturer,
-        product.detailsJson,
-      );
+      const brandCandidates = productBrandCandidates(product.manufacturer, product.detailsJson);
       return {
         id: product.id,
         title: product.title,
         url: product.surugayaUrl,
+        crawlIntervalDays: product.crawlIntervalDays,
+        lastCheckedAt: product.histories[0]?.checkedAt.toISOString() ?? null,
+        // 旧拡張機能との互換用。新しい自動巡回判定には使用しない。
         brand: brandCandidates[0] ?? null,
         brands: brandCandidates,
         dailyByTitle: isDailyCrawlProductTitle(product.title),
-        crawlPriority: crawlPriorityForProduct(
-          product.title,
-          product.manufacturer,
-          product.detailsJson,
-        ),
+        crawlPriority: crawlPriorityForProduct(product.title, product.manufacturer, product.detailsJson),
       };
     }),
   });
@@ -55,17 +57,12 @@ export async function POST(request: Request) {
   try {
     const body = (await request.json()) as { url?: unknown };
     const url = typeof body.url === "string" ? body.url.trim() : "";
-
-    if (!url) {
-      return NextResponse.json({ error: "URLを入力してください" }, { status: 400 });
-    }
+    if (!url) return NextResponse.json({ error: "URLを入力してください" }, { status: 400 });
 
     const normalizedUrl = normalizeSurugayaUrl(url);
     const html = await fetchSurugayaHtml(normalizedUrl);
     const fetched = withProductStateStorageMarkers(html, parseProductHtml(html));
-    const [product] = await upsertProductSnapshotsWithTimeSale([
-      { surugayaUrl: normalizedUrl, fetched },
-    ]);
+    const [product] = await upsertProductSnapshotsWithTimeSale([{ surugayaUrl: normalizedUrl, fetched }]);
     if (!product) throw new Error("商品の保存に失敗しました");
 
     return NextResponse.json({ id: product.id }, { status: 201 });
