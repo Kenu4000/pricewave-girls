@@ -1,9 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 import styles from "./BrandCrawlIntervalBulk.module.css";
 
 export type CrawlIntervalValue = 1 | 3 | 7 | 14 | null;
+
+type BrandSummary = {
+  label: string;
+  count: number;
+  uniform: boolean;
+  crawlIntervalDays: CrawlIntervalValue;
+};
 
 const OPTIONS: Array<{ value: CrawlIntervalValue; label: string }> = [
   { value: 1, label: "1日" },
@@ -21,20 +29,47 @@ function activeClass(value: CrawlIntervalValue): string {
   return styles.off;
 }
 
-export function BrandCrawlIntervalBulk({
-  brand,
-  brandLabel,
-  productCount,
-  initialValue,
-}: {
-  brand: string;
-  brandLabel: string;
-  productCount: number;
-  initialValue?: CrawlIntervalValue;
-}) {
-  const [value, setValue] = useState<CrawlIntervalValue | undefined>(initialValue);
+export function BrandCrawlIntervalBulk() {
+  const searchParams = useSearchParams();
+  const brand = searchParams.get("brand")?.trim() ?? "";
+  const [summary, setSummary] = useState<BrandSummary | null>(null);
+  const [value, setValue] = useState<CrawlIntervalValue | undefined>(undefined);
   const [saving, setSaving] = useState(false);
   const [status, setStatus] = useState("");
+
+  useEffect(() => {
+    if (!brand) {
+      setSummary(null);
+      setValue(undefined);
+      setStatus("");
+      return;
+    }
+
+    const controller = new AbortController();
+    setSummary(null);
+    setStatus("");
+    void fetch(`/api/products/crawl-intervals/by-brand?brand=${encodeURIComponent(brand)}`, {
+      cache: "no-store",
+      signal: controller.signal,
+    })
+      .then(async (response) => {
+        const result = (await response.json().catch(() => ({}))) as BrandSummary & { error?: string };
+        if (!response.ok) throw new Error(result.error || "ブランドの巡回周期を取得できませんでした。");
+        setSummary(result);
+        setValue(result.uniform ? result.crawlIntervalDays : undefined);
+      })
+      .catch((error) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setStatus(error instanceof Error ? error.message : "ブランドの巡回周期を取得できませんでした。");
+      });
+
+    return () => controller.abort();
+  }, [brand]);
+
+  if (!brand) return null;
+  if (!summary) {
+    return status ? <p className={styles.status} role="status">{status}</p> : null;
+  }
 
   async function apply(nextValue: CrawlIntervalValue) {
     if (saving) return;
@@ -55,7 +90,7 @@ export function BrandCrawlIntervalBulk({
       };
       if (!response.ok) throw new Error(result.error || "一括変更に失敗しました。");
 
-      const count = result.count ?? productCount;
+      const count = result.count ?? summary.count;
       setStatus(`${count}件を${nextValue === null ? "無" : `${nextValue}日`}に変更`);
       window.location.reload();
     } catch (error) {
@@ -66,13 +101,16 @@ export function BrandCrawlIntervalBulk({
   }
 
   return (
-    <section className={`card ${styles.panel}`} aria-label={`${brandLabel}の巡回周期一括変更`}>
+    <section className={`card ${styles.panel}`} aria-label={`${summary.label}の巡回周期一括変更`}>
       <div className={styles.copy}>
-        <span className={styles.title}>{brandLabel} の巡回周期を一括変更</span>
-        <span className={styles.note}>このブランドの登録商品 {productCount}件すべてに適用</span>
+        <span className={styles.title}>{summary.label} の巡回周期を一括変更</span>
+        <span className={styles.note}>このブランドの登録商品 {summary.count}件すべてに適用</span>
+        {!summary.uniform && value === undefined ? (
+          <span className={styles.note}>現在は商品ごとに異なる周期が設定されています。</span>
+        ) : null}
         {status ? <span className={styles.status} role="status">{status}</span> : null}
       </div>
-      <div className={styles.buttons} role="group" aria-label={`${brandLabel}の巡回周期`}>
+      <div className={styles.buttons} role="group" aria-label={`${summary.label}の巡回周期`}>
         {OPTIONS.map((option) => {
           const selected = value === option.value;
           return (
