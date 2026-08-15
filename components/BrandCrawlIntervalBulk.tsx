@@ -90,7 +90,7 @@ export function BrandCrawlIntervalBulk() {
       };
       if (!response.ok) throw new Error(result.error || "一括変更に失敗しました。");
 
-      const count = result.count ?? summary.count;
+      const count = result.count ?? summary?.count ?? 0;
       setStatus(`${count}件を${nextValue === null ? "無" : `${nextValue}日`}に変更`);
       window.location.reload();
     } catch (error) {
