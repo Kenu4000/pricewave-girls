@@ -241,7 +241,7 @@ function normalizeSearchUrl(rawUrl) {
   }
 
   url.protocol = "https:";
-  url.hostname = "www.surugaya.jp";
+  url.hostname = "www.suruga-ya.jp";
   url.hash = "";
   return url.toString();
 }
@@ -267,7 +267,7 @@ function extractSearchPageFromDocument() {
       try {
         const url = new URL(anchor.getAttribute("href"), window.location.href);
         const match = url.pathname.match(/^\/product\/detail\/([0-9]+)\/?$/);
-        return match ? `https://www.surugaya.jp/product/detail/${match[1]}` : null;
+        return match ? `https://www.suruga-ya.jp/product/detail/${match[1]}` : null;
       } catch {
         return null;
       }
