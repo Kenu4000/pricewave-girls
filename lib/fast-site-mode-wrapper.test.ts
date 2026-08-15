@@ -22,7 +22,11 @@ type Harness = {
   safeCreateCalls(): number;
 };
 
-function createHarness(fastSiteModeEnabled: boolean, parallelTabs: number): Harness {
+function createHarness(
+  fastSiteModeEnabled: boolean,
+  parallelTabs: number,
+  transientNativeCreateFailures = 0,
+): Harness {
   const storageData: Record<string, unknown> = {
     fastSiteModeEnabled,
     parallelTabs,
@@ -64,12 +68,22 @@ function createHarness(fastSiteModeEnabled: boolean, parallelTabs: number): Harn
     tabs: {
       async create() {
         nativeCreateCount += 1;
+        if (nativeCreateCount <= transientNativeCreateFailures) {
+          throw new Error("Tabs cannot be edited right now (user may be dragging a tab).");
+        }
         return { id: nativeCreateCount };
       },
     },
   };
 
-  const context = vm.createContext({ chrome, URL });
+  const context = vm.createContext({
+    chrome,
+    URL,
+    setTimeout(callback: () => void) {
+      callback();
+      return 0;
+    },
+  });
   context.importScripts = (...fileNames: string[]) => {
     for (const fileName of fileNames) {
       if (fileName === "fast-site-mode-policy.js") {
@@ -141,6 +155,30 @@ test("高速モードONでも駿河屋以外のタブは安全側へ渡す", asy
   await harness.context.chrome.tabs.create({ url: "http://localhost:3000" });
   assert.equal(harness.nativeCreateCalls(), 0);
   assert.equal(harness.safeCreateCalls(), 1);
+});
+
+test("Edgeの一時的なタブ編集エラーはその場で再試行する", async () => {
+  const harness = createHarness(true, 10, 2);
+
+  const tab = await harness.context.chrome.tabs.create({
+    url: "https://www.suruga-ya.jp/product/detail/123456789",
+  });
+
+  assert.equal(tab.id, 3);
+  assert.equal(harness.nativeCreateCalls(), 3);
+  assert.equal(harness.safeCreateCalls(), 0);
+});
+
+test("一時的でないタブ作成エラーは再試行せず返す", async () => {
+  const harness = createHarness(true, 10);
+  harness.context.chrome.tabs.create = async () => {
+    throw new Error("fatal tab error");
+  };
+
+  await assert.rejects(
+    () => harness.context.chrome.tabs.create({ url: "https://www.suruga-ya.jp/product/detail/123" }),
+    /fatal tab error/u,
+  );
 });
 
 test("旧自動追加URLは発売日順の新商品探索URLへ読み替える", async () => {
