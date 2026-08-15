@@ -90,15 +90,13 @@
     products,
     registeredIds,
     today = localDateKey(),
-    existingStopDate = null,
+    _existingStopDate = null,
   ) {
     const source = Array.isArray(products) ? products : [];
     const registered = registeredIds instanceof Set
       ? registeredIds
       : new Set(Array.isArray(registeredIds) ? registeredIds.map(String) : []);
     const selected = [];
-    let stopDate = normalizeReleaseDate(existingStopDate) || null;
-    let reachedOlderDate = false;
     let skippedFuture = 0;
     let skippedMissingDate = 0;
     let duplicateCount = 0;
@@ -110,38 +108,32 @@
 
       const releaseDate = normalizeReleaseDate(product?.releaseDate);
       if (!releaseDate) {
-        // 発売日順の停止境界を壊さないため、日付を読めない商品は登録も停止判定もしない。
+        // 予約商品との区別ができないため、発売日を読めない商品は従来通り自動追加しない。
         skippedMissingDate += 1;
         continue;
       }
 
       if (releaseDate > today) {
-        // 予約商品。既登録でも停止境界には使わず、未登録でも発売日までは追加しない。
+        // 予約商品は発売日までは追加しない。
         skippedFuture += 1;
         continue;
       }
 
-      if (stopDate && releaseDate < stopDate) {
-        reachedOlderDate = true;
-        break;
-      }
-
       if (registered.has(id)) {
+        // 登録済み商品が並んでいても探索は止めない。
+        // 古いページに未登録商品が残っている可能性があるため、最終ページまで掘れるようにする。
         duplicateCount += 1;
-        if (!stopDate) stopDate = releaseDate;
         continue;
       }
 
-      // 重複を見つけた後でも同じ発売日の商品は最後まで確認する。
-      if (!stopDate || releaseDate >= stopDate) {
-        selected.push({ id, url, releaseDate });
-      }
+      selected.push({ id, url, releaseDate });
     }
 
     return {
       products: selected,
-      stopDate,
-      reachedOlderDate,
+      // 互換用フィールド。登録済み商品の発売日を停止境界にはしない。
+      stopDate: null,
+      reachedOlderDate: false,
       skippedFuture,
       skippedMissingDate,
       duplicateCount,
