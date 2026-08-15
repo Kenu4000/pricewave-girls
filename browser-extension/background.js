@@ -39,6 +39,11 @@ function assertTaskContinues() {
   }
 }
 
+function normalizeAutoAddLimit(value, fallback = DEFAULT_AUTO_ADD_LIMIT) {
+  const number = Number(value);
+  return Number.isSafeInteger(number) && number >= 1 ? number : fallback;
+}
+
 function localDateKey(date = new Date()) {
   return [
     date.getFullYear(),
@@ -92,10 +97,7 @@ async function getAutoAddSettings() {
       typeof stored.autoAddSourceUrl === "string"
         ? stored.autoAddSourceUrl
         : DEFAULT_AUTO_ADD_URL,
-    limit:
-      Number.isInteger(stored.autoAddLimit)
-        ? Math.min(1_000, Math.max(1, stored.autoAddLimit))
-        : DEFAULT_AUTO_ADD_LIMIT,
+    limit: normalizeAutoAddLimit(stored.autoAddLimit),
   };
 }
 
@@ -239,7 +241,7 @@ function normalizeSearchUrl(rawUrl) {
   }
 
   url.protocol = "https:";
-  url.hostname = "www.suruga-ya.jp";
+  url.hostname = "www.surugaya.jp";
   url.hash = "";
   return url.toString();
 }
@@ -265,7 +267,7 @@ function extractSearchPageFromDocument() {
       try {
         const url = new URL(anchor.getAttribute("href"), window.location.href);
         const match = url.pathname.match(/^\/product\/detail\/([0-9]+)\/?$/);
-        return match ? `https://www.suruga-ya.jp/product/detail/${match[1]}` : null;
+        return match ? `https://www.surugaya.jp/product/detail/${match[1]}` : null;
       } catch {
         return null;
       }
@@ -586,7 +588,7 @@ async function runAllProducts(trigger) {
 }
 
 async function runAutoAdd(sourceUrl, requestedLimit) {
-  const limit = Math.min(1_000, Math.max(1, Number(requestedLimit) || 1));
+  const limit = normalizeAutoAddLimit(requestedLimit, 1);
   let succeeded = 0;
   let failed = 0;
 
@@ -712,10 +714,7 @@ async function initialize() {
       typeof stored.autoAddSourceUrl === "string"
         ? stored.autoAddSourceUrl
         : DEFAULT_AUTO_ADD_URL,
-    autoAddLimit:
-      Number.isInteger(stored.autoAddLimit)
-        ? Math.min(1_000, Math.max(1, stored.autoAddLimit))
-        : DEFAULT_AUTO_ADD_LIMIT,
+    autoAddLimit: normalizeAutoAddLimit(stored.autoAddLimit),
   });
 
   const status = await getStatus();
@@ -777,7 +776,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 
     if (message?.type === "auto-add:start") {
       const sourceUrl = normalizeSearchUrl(message.sourceUrl);
-      const limit = Math.min(1_000, Math.max(1, Number(message.limit) || 1));
+      const limit = normalizeAutoAddLimit(message.limit, 1);
       await chrome.storage.local.set({ autoAddSourceUrl: sourceUrl, autoAddLimit: limit });
       return { ok: startTask(() => runAutoAdd(sourceUrl, limit)) };
     }
