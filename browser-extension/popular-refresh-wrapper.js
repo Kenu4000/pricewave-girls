@@ -17,6 +17,8 @@
     return now - lastCheckedAt >= interval * DAY_MS;
   }
 
+  // 日次ブランド・人気順・3分割ローテーションは廃止。
+  // 自動実行は商品ごとの周期だけ、手動実行は登録リスト全件を対象にする。
   refreshPolicy.selectScheduledProducts = (products, value = Date.now()) => {
     const source = Array.isArray(products) ? products : [];
     const now = value instanceof Date ? value.getTime() : Number(value);
@@ -31,6 +33,10 @@
       customDailyBrandCount: null,
     };
   };
+
+  // safe-background に残る旧人気順スナップショット処理は、巡回対象の決定にはもう不要。
+  // キャッシュ日を常に本日扱いにして追加の人気順ページ巡回を発生させない。
+  refreshPolicy.shouldRefreshPopularSnapshot = () => false;
 
   chrome.runtime.onMessage.addListener((message) => {
     if (message?.type === "auto:run-now") manualFullRun = true;
@@ -84,18 +90,7 @@
     if (!requestsPopularSnapshot(keys)) return wrappedStorageGet(...args);
 
     const stored = await wrappedStorageGet(expandedPopularSnapshotKeys(keys));
-    const inferredFailedAttemptDate =
-      !stored.popularDailyProductAttemptDate &&
-      stored.popularDailyProductScanError &&
-      Number.isFinite(stored.updateStatus?.lastRunAt)
-        ? localDateKey(new Date(stored.updateStatus.lastRunAt))
-        : null;
-    const lastAttemptDate = stored.popularDailyProductAttemptDate || inferredFailedAttemptDate || stored.popularDailyProductDate;
-
-    if (!refreshPolicy.shouldRefreshPopularSnapshot(lastAttemptDate, new Date())) {
-      stored.popularDailyProductDate = localDateKey();
-    }
-
+    stored.popularDailyProductDate = localDateKey();
     delete stored.popularDailyProductAttemptDate;
     delete stored.popularDailyProductScanError;
     delete stored.updateStatus;
