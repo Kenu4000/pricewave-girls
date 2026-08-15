@@ -61,7 +61,7 @@ test("旧自動追加URLは発売日順URLへ移行対象にする", () => {
   );
 });
 
-test("未来の予約商品は追加せず重複でも停止境界に使わない", () => {
+test("未来の予約商品は追加しないが登録済み商品では探索を止めない", () => {
   const result = policy.selectReleaseDiscoveryProducts(
     [
       item(100, "2026/09/01"),
@@ -75,47 +75,62 @@ test("未来の予約商品は追加せず重複でも停止境界に使わな�
     "2026-08-08",
   );
 
-  assert.deepEqual(result.products.map((product) => product.id), ["102", "104"]);
-  assert.equal(result.stopDate, "2026-08-08");
-  assert.equal(result.reachedOlderDate, true);
+  assert.deepEqual(result.products.map((product) => product.id), ["102", "104", "105"]);
+  assert.equal(result.stopDate, null);
+  assert.equal(result.reachedOlderDate, false);
   assert.equal(result.skippedFuture, 2);
   assert.equal(result.duplicateCount, 1);
 });
 
-test("重複を見つけても同じ発売日の未登録商品は拾う", () => {
-  const result = policy.selectReleaseDiscoveryProducts(
+test("登録済みしかないページの後にある古い未登録商品も拾える", () => {
+  const registered = new Set(["200", "201", "202"]);
+  const firstPage = policy.selectReleaseDiscoveryProducts(
     [
       item(200, "2026/08/08"),
-      item(201, "2026/08/08"),
-      item(202, "2026/08/08"),
-      item(203, "2026/08/07"),
+      item(201, "2026/08/07"),
+      item(202, "2026/08/06"),
     ],
-    new Set(["200"]),
+    registered,
     "2026-08-08",
   );
 
-  assert.deepEqual(result.products.map((product) => product.id), ["201", "202"]);
-  assert.equal(result.stopDate, "2026-08-08");
-  assert.equal(result.reachedOlderDate, true);
+  assert.deepEqual(firstPage.products, []);
+  assert.equal(firstPage.reachedOlderDate, false);
+  assert.equal(firstPage.stopDate, null);
+
+  const laterPage = policy.selectReleaseDiscoveryProducts(
+    [
+      item(203, "2026/07/20"),
+      item(204, "2026/07/01"),
+    ],
+    registered,
+    "2026-08-08",
+    firstPage.stopDate,
+  );
+
+  assert.deepEqual(laterPage.products.map((product) => product.id), ["203", "204"]);
+  assert.equal(laterPage.reachedOlderDate, false);
 });
 
-test("停止境界と同じ発売日が次ページへ続いても回収してから止める", () => {
+test("登録済みと未登録が混在しても古い商品まで全件確認する", () => {
   const result = policy.selectReleaseDiscoveryProducts(
     [
       item(300, "2026/08/08"),
       item(301, "2026/08/08"),
       item(302, "2026/08/07"),
+      item(303, "2026/07/01"),
     ],
-    new Set(["300"]),
-    "2026-08-08",
+    new Set(["300", "302"]),
     "2026-08-08",
   );
 
-  assert.deepEqual(result.products.map((product) => product.id), ["301"]);
-  assert.equal(result.reachedOlderDate, true);
+  assert.deepEqual(result.products.map((product) => product.id), ["301", "303"]);
+  assert.equal(result.duplicateCount, 2);
+  assert.equal(result.stopDate, null);
+  assert.equal(result.reachedOlderDate, false);
 });
 
-test("発売日を読めない商品は予約判定できないので追加も停止判定もしない", () => {
+test("発売日を読めない商品は予約判定できないので追加しない", () => {
   const result = policy.selectReleaseDiscoveryProducts(
     [item(400, null), item(401, "2026/08/08")],
     new Set(["400"]),
