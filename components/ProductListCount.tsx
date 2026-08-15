@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { BrandCrawlIntervalBulk } from "@/components/BrandCrawlIntervalBulk";
 import {
   PRODUCT_REVEAL_EVENT,
   type ProductPreview,
@@ -53,20 +54,23 @@ export function ProductListCount({
   const lastShown = streamEnabled ? Math.min(perPage, totalProducts) : initialLastShown;
 
   return (
-    <p aria-live="polite" className="muted">
-      {filtersActive ? (
-        <>
-          全{allProducts.toLocaleString("ja-JP")}件中、条件に一致する
-          {totalProducts.toLocaleString("ja-JP")}件
-        </>
-      ) : (
-        <>全{totalProducts.toLocaleString("ja-JP")}件</>
-      )}
-      {totalProducts > 0 ? (
-        <>
-          （{firstShown.toLocaleString("ja-JP")}〜{lastShown.toLocaleString("ja-JP")}件を表示）
-        </>
-      ) : null}
-    </p>
+    <>
+      <p aria-live="polite" className="muted">
+        {filtersActive ? (
+          <>
+            全{allProducts.toLocaleString("ja-JP")}件中、条件に一致する
+            {totalProducts.toLocaleString("ja-JP")}件
+          </>
+        ) : (
+          <>全{totalProducts.toLocaleString("ja-JP")}件</>
+        )}
+        {totalProducts > 0 ? (
+          <>
+            （{firstShown.toLocaleString("ja-JP")}〜{lastShown.toLocaleString("ja-JP")}件を表示）
+          </>
+        ) : null}
+      </p>
+      <BrandCrawlIntervalBulk />
+    </>
   );
 }
