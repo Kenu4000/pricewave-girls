@@ -17,7 +17,6 @@ import {
   type PriceChartHistory,
   type PriceChartMode,
 } from "@/lib/price-chart-data";
-import { shouldPlaceTooltipAbove } from "@/lib/tooltip-position";
 import styles from "./PriceChart.module.css";
 
 const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
@@ -59,7 +58,6 @@ type PriceTooltipProps = {
   active?: boolean;
   payload?: ReadonlyArray<TooltipPayloadEntry>;
   label?: unknown;
-  rangeMidpoint: number | null;
 };
 
 function numericValue(value: unknown): number | null {
@@ -68,7 +66,7 @@ function numericValue(value: unknown): number | null {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipProps) {
+function PriceTooltip({ active, payload, label }: PriceTooltipProps) {
   if (!active || !payload || payload.length === 0) return null;
 
   const rows = payload
@@ -83,11 +81,8 @@ function PriceTooltip({ active, payload, label, rangeMidpoint }: PriceTooltipPro
 
   if (rows.length === 0) return null;
 
-  const average = rows.reduce((sum, row) => sum + row.value, 0) / rows.length;
-  const placeAbove = shouldPlaceTooltipAbove(average, rangeMidpoint);
-
   return (
-    <div className={`${styles.tooltip} ${placeAbove ? styles.tooltipAbove : styles.tooltipBelow}`}>
+    <div className={styles.tooltip}>
       {label !== undefined && label !== null ? (
         <div className={styles.tooltipLabel}>{String(label)}</div>
       ) : null}
@@ -112,15 +107,6 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
   const [mode, setMode] = useState<PriceChartMode>("day");
   const [compact, setCompact] = useState(false);
   const data = useMemo(() => aggregatePriceChartData(histories, mode), [histories, mode]);
-  const tooltipRangeMidpoint = useMemo(() => {
-    const values = data.flatMap((point) =>
-      [point.salePrice, point.buyPrice, point.rankBPrice, point.timeSalePrice].filter(
-        (value): value is number => typeof value === "number" && Number.isFinite(value),
-      ),
-    );
-    if (values.length === 0) return null;
-    return (Math.min(...values) + Math.max(...values)) / 2;
-  }, [data]);
 
   useEffect(() => {
     const media = window.matchMedia("(max-width: 760px)");
@@ -177,12 +163,13 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
               width={compact ? 58 : 92}
             />
             <Tooltip
+              allowEscapeViewBox={{ x: false, y: false }}
+              offset={8}
               content={(props) => (
                 <PriceTooltip
                   active={props.active}
                   label={props.label}
                   payload={props.payload}
-                  rangeMidpoint={tooltipRangeMidpoint}
                 />
               )}
             />

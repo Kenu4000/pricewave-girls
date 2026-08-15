@@ -1,15 +1,21 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import test from "node:test";
-import { shouldPlaceTooltipAbove } from "./tooltip-position";
 
-test("高価格帯ではツールチップを下側へ逃がす", () => {
-  assert.equal(shouldPlaceTooltipAbove(8000, 5000), false);
-});
+const chart = readFileSync(
+  new URL("../components/PriceChart.tsx", import.meta.url),
+  "utf8",
+);
+const styles = readFileSync(
+  new URL("../components/PriceChart.module.css", import.meta.url),
+  "utf8",
+);
 
-test("低価格帯ではツールチップを上側へ逃がす", () => {
-  assert.equal(shouldPlaceTooltipAbove(3000, 5000), true);
-});
-
-test("価格範囲が不明なら標準の下側表示を維持する", () => {
-  assert.equal(shouldPlaceTooltipAbove(3000, null), false);
+test("価格詳細ツールチップをグラフ領域の外へ逃がさない", () => {
+  assert.match(chart, /allowEscapeViewBox=\{\{ x: false, y: false \}\}/u);
+  assert.doesNotMatch(chart, /shouldPlaceTooltipAbove/u);
+  assert.doesNotMatch(chart, /tooltipRangeMidpoint/u);
+  assert.doesNotMatch(styles, /tooltipAbove/u);
+  assert.doesNotMatch(styles, /tooltipBelow/u);
+  assert.doesNotMatch(styles, /translateY\(/u);
 });
