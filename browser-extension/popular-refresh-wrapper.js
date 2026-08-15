@@ -1,36 +1,40 @@
 (() => {
-  importScripts("crawl-policy.js");
+  importScripts("crawl-policy.js", "balanced-crawl-scheduler.js");
 
   const refreshPolicy = globalThis.PricewaveCrawlPolicy;
+  const balancedScheduler = globalThis.PricewaveBalancedCrawlScheduler;
   const wrappedStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const wrappedStorageSet = chrome.storage.local.set.bind(chrome.storage.local);
-  const VALID_INTERVALS = new Set([1, 3, 7, 14]);
-  const DAY_MS = 24 * 60 * 60 * 1_000;
   let manualFullRun = false;
 
-  function isDue(product, now = Date.now()) {
-    const interval = Number(product?.crawlIntervalDays);
-    if (product?.crawlIntervalDays === null || !VALID_INTERVALS.has(interval)) return false;
-    if (!product?.lastCheckedAt) return true;
-    const lastCheckedAt = Date.parse(product.lastCheckedAt);
-    if (!Number.isFinite(lastCheckedAt)) return true;
-    return now - lastCheckedAt >= interval * DAY_MS;
-  }
-
   // 日次ブランド・人気順・3分割ローテーションは廃止。
-  // 自動実行は商品ごとの周期だけ、手動実行は登録リスト全件を対象にする。
+  // 自動実行は1日周期を毎日対象にし、3/7/14日周期は理論巡回数を日ごとに均等化する。
+  // 手動実行は周期に関係なく登録リスト全件を対象にする。
   refreshPolicy.selectScheduledProducts = (products, value = Date.now()) => {
     const source = Array.isArray(products) ? products : [];
-    const now = value instanceof Date ? value.getTime() : Number(value);
-    const selected = manualFullRun ? source : source.filter((product) => isDue(product, now));
+    if (manualFullRun) {
+      return {
+        products: source,
+        bucket: null,
+        dailyCount: source.length,
+        exactDailyCount: 0,
+        rotationCount: 0,
+        totalRegistered: source.length,
+        customDailyBrandCount: null,
+      };
+    }
+
+    const plan = balancedScheduler.selectBalancedProducts(source, value);
     return {
-      products: selected,
+      products: plan.products,
       bucket: null,
-      dailyCount: selected.length,
+      dailyCount: plan.dailyCount,
       exactDailyCount: 0,
-      rotationCount: 0,
+      rotationCount: plan.balancedCount,
       totalRegistered: source.length,
       customDailyBrandCount: null,
+      balancedTarget: plan.balancedTarget,
+      deferredCount: plan.deferredCount,
     };
   };
 
