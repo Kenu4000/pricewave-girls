@@ -64,14 +64,6 @@
   pointer-events: none;
 }
 
-.tooltipAbove {
-  transform: translateY(calc(-100% - 20px));
-}
-
-.tooltipBelow {
-  transform: translateY(0);
-}
-
 .tooltipLabel {
   color: var(--muted);
   font-size: 0.76rem;
