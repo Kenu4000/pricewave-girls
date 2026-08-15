@@ -57,15 +57,10 @@ export function BrandCrawlIntervalBulk({
 
       const count = result.count ?? productCount;
       setStatus(`${count}件を${nextValue === null ? "無" : `${nextValue}日`}に変更`);
-      window.dispatchEvent(
-        new CustomEvent("pricewave:crawl-interval-brand-changed", {
-          detail: { brand, value: nextValue },
-        }),
-      );
+      window.location.reload();
     } catch (error) {
       setValue(previous);
       setStatus(error instanceof Error ? error.message : "一括変更に失敗しました。");
-    } finally {
       setSaving(false);
     }
   }
