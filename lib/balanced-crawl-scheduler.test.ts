@@ -29,12 +29,12 @@ function daysBefore(date: Date, days: number): string {
   return new Date(date.getTime() - days * 24 * 60 * 60 * 1_000).toISOString();
 }
 
-test("7日周期21件は期限が同日に来ても3件ずつ巡回する", () => {
+test("7日周期21件は最終取得日時に関係なく3件ずつ巡回する", () => {
   const now = new Date("2026-08-16T00:00:00Z");
   const products = Array.from({ length: 21 }, (_, index) => ({
     id: index + 1,
     crawlIntervalDays: 7 as const,
-    lastCheckedAt: daysBefore(now, 7),
+    lastCheckedAt: now.toISOString(),
   }));
 
   const plan = scheduler.selectBalancedProducts(products, now);
@@ -48,7 +48,7 @@ test("7日周期22件は7日間で3件か4件に均等分散する", () => {
   const products: CrawlProduct[] = Array.from({ length: 22 }, (_, index) => ({
     id: index + 1,
     crawlIntervalDays: 7,
-    lastCheckedAt: daysBefore(start, 7),
+    lastCheckedAt: start.toISOString(),
   }));
   const counts: number[] = [];
   const selectedIds = new Set<number>();
@@ -87,27 +87,36 @@ test("3日・7日・14日周期を合算した理論巡回数を42日周期で�
   assert.deepEqual(new Set(targets), new Set([4]));
 });
 
-test("巡回枠が0の日でも期限到来商品があれば最低1件は処理する", () => {
+test("14日周期1件は14日間でちょうど1回だけ巡回する", () => {
   const product: CrawlProduct = {
     id: 1,
     crawlIntervalDays: 14,
-    lastCheckedAt: "2026-07-01T00:00:00Z",
+    lastCheckedAt: "2026-08-16T00:00:00Z",
   };
   const start = new Date("2026-08-16T00:00:00Z");
-  let zeroQuotaDate: Date | null = null;
+  let selectedCount = 0;
 
   for (let day = 0; day < 14; day += 1) {
-    const candidate = new Date(start.getTime() + day * 24 * 60 * 60 * 1_000);
-    if (scheduler.balancedDailyTarget([product], candidate) === 0) {
-      zeroQuotaDate = candidate;
-      break;
-    }
+    const now = new Date(start.getTime() + day * 24 * 60 * 60 * 1_000);
+    const plan = scheduler.selectBalancedProducts([product], now);
+    selectedCount += plan.balancedCount;
+    if (plan.balancedCount > 0) product.lastCheckedAt = now.toISOString();
   }
 
-  assert.ok(zeroQuotaDate);
-  const plan = scheduler.selectBalancedProducts([product], zeroQuotaDate!);
-  assert.equal(plan.balancedCount, 1);
-  assert.equal(plan.products[0]?.id, 1);
+  assert.equal(selectedCount, 1);
+});
+
+test("長周期は最終取得が新しくても日次枠から除外しない", () => {
+  const now = new Date("2026-08-16T00:00:00Z");
+  const products: CrawlProduct[] = Array.from({ length: 6 }, (_, index) => ({
+    id: index + 1,
+    crawlIntervalDays: 3,
+    lastCheckedAt: now.toISOString(),
+  }));
+
+  const plan = scheduler.selectBalancedProducts(products, now);
+  assert.equal(plan.balancedTarget, 2);
+  assert.equal(plan.balancedCount, 2);
 });
 
 test("同じ巡回枠なら周期に対する超過率が大きい商品を先に回す", () => {
@@ -115,6 +124,11 @@ test("同じ巡回枠なら周期に対する超過率が大きい商品を先�
   const products: CrawlProduct[] = [
     { id: 1, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 8) },
     { id: 2, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 20) },
+    { id: 3, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 1) },
+    { id: 4, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 1) },
+    { id: 5, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 1) },
+    { id: 6, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 1) },
+    { id: 7, crawlIntervalDays: 7, lastCheckedAt: daysBefore(now, 1) },
   ];
 
   const plan = scheduler.selectBalancedProducts(products, now);
@@ -122,11 +136,11 @@ test("同じ巡回枠なら周期に対する超過率が大きい商品を先�
   assert.equal(plan.products[0]?.id, 2);
 });
 
-test("1日周期は従来どおり期限到来分を全件回し、無は除外する", () => {
+test("1日周期は最終取得日時に関係なく全件回し、無は除外する", () => {
   const now = new Date("2026-08-16T00:00:00Z");
   const products: CrawlProduct[] = [
-    { id: 1, crawlIntervalDays: 1, lastCheckedAt: daysBefore(now, 1) },
-    { id: 2, crawlIntervalDays: 1, lastCheckedAt: daysBefore(now, 1) },
+    { id: 1, crawlIntervalDays: 1, lastCheckedAt: now.toISOString() },
+    { id: 2, crawlIntervalDays: 1, lastCheckedAt: now.toISOString() },
     { id: 3, crawlIntervalDays: null, lastCheckedAt: daysBefore(now, 100) },
   ];
 
