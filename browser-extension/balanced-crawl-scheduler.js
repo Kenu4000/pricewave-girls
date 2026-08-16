@@ -26,22 +26,32 @@
     return Number.isFinite(timestamp) ? timestamp : null;
   }
 
-  function balancedDailyTarget(products, value = Date.now()) {
+  function balancedCycleUnits(products) {
     const source = Array.isArray(products) ? products : [];
     let cycleUnits = 0;
-
     for (const product of source) {
       const interval = normalizeInterval(product?.crawlIntervalDays);
       if (!BALANCED_INTERVALS.has(interval)) continue;
       cycleUnits += BALANCE_CYCLE_DAYS / interval;
     }
+    return cycleUnits;
+  }
 
-    if (cycleUnits <= 0) return 0;
+  function balancedScheduleWindow(products, value = Date.now()) {
+    const cycleUnits = balancedCycleUnits(products);
+    if (cycleUnits <= 0) return { slotStart: 0, target: 0 };
 
     const cycleDay = positiveModulo(localDayNumber(value), BALANCE_CYCLE_DAYS);
     const before = Math.floor((cycleDay * cycleUnits) / BALANCE_CYCLE_DAYS);
     const after = Math.floor(((cycleDay + 1) * cycleUnits) / BALANCE_CYCLE_DAYS);
-    return Math.max(0, after - before);
+    return {
+      slotStart: before,
+      target: Math.max(0, after - before),
+    };
+  }
+
+  function balancedDailyTarget(products, value = Date.now()) {
+    return balancedScheduleWindow(products, value).target;
   }
 
   function overduePriority(product, interval, nowMs) {
@@ -60,7 +70,7 @@
     };
   }
 
-  function compareCandidates(left, right, nowMs) {
+  function compareCandidatePriority(left, right, nowMs) {
     const leftInterval = normalizeInterval(left?.crawlIntervalDays) ?? 1;
     const rightInterval = normalizeInterval(right?.crawlIntervalDays) ?? 1;
     const leftPriority = overduePriority(left, leftInterval, nowMs);
@@ -76,7 +86,14 @@
       if (!Number.isFinite(rightPriority.elapsed)) return 1;
       return rightPriority.elapsed - leftPriority.elapsed;
     }
-    return (Number(left?.id) || 0) - (Number(right?.id) || 0);
+    return 0;
+  }
+
+  function rotateCandidates(candidates, slotStart) {
+    if (candidates.length <= 1) return candidates.slice();
+    const offset = positiveModulo(slotStart, candidates.length);
+    if (offset === 0) return candidates.slice();
+    return [...candidates.slice(offset), ...candidates.slice(0, offset)];
   }
 
   function selectBalancedProducts(products, value = Date.now()) {
@@ -102,16 +119,18 @@
       }
     }
 
-    balancedCandidates.sort((left, right) => compareCandidates(left, right, normalizedNow));
-
-    const balancedTarget = balancedDailyTarget(source, value);
-    const balanced = balancedCandidates.slice(0, balancedTarget);
+    balancedCandidates.sort((left, right) => (Number(left?.id) || 0) - (Number(right?.id) || 0));
+    const window = balancedScheduleWindow(source, value);
+    const rotatedCandidates = rotateCandidates(balancedCandidates, window.slotStart);
+    // sortは安定ソートなので、同じ優先度なら日ごとにずらした候補順を維持する。
+    rotatedCandidates.sort((left, right) => compareCandidatePriority(left, right, normalizedNow));
+    const balanced = rotatedCandidates.slice(0, window.target);
 
     return {
       products: [...daily, ...balanced],
       dailyCount: daily.length,
       balancedCount: balanced.length,
-      balancedTarget,
+      balancedTarget: window.target,
       deferredCount: Math.max(0, balancedCandidates.length - balanced.length),
       totalRegistered: source.length,
     };
