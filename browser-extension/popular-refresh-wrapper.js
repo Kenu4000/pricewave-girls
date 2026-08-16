@@ -81,8 +81,9 @@
   }
 
   // 日次ブランド・人気順・3分割ローテーションは廃止。
-  // 自動実行は巡回開始時に全商品の周期を一括確認する。
+  // /api/products で巡回開始時に全商品の周期を一括取得し、その一覧だけで対象を決める。
   // 同日中は周期構成に変更がなければ既存プランを再利用し、変更があれば均等化を再計算する。
+  // 翌日は日付キーが変わるため、その日の割り当てを再計算する。
   // 手動全件更新も「無」は対象外にする。
   refreshPolicy.selectScheduledProducts = (products, value = Date.now()) => {
     const source = Array.isArray(products) ? products : [];
