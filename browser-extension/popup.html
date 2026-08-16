@@ -39,7 +39,7 @@
           <input id="continue-access-challenge-mode" type="checkbox">
           <span>テスト: アクセス確認でも次へ進む</span>
         </label>
-        <p class="note">自動巡回の周期はサイトの商品一覧で商品ごとに 1日 / 3日 / 7日 / 14日 / 無 を設定します。「無」は自動巡回だけを止め、手動全件更新には含まれます。</p>
+        <p class="note">自動巡回の周期はサイトの商品一覧で商品ごとに 1日 / 3日 / 7日 / 14日 / 無 を設定します。「無」は自動巡回・手動全件更新のどちらからも除外されます。</p>
 
         <!-- 旧popup.jsとの互換用。日次巡回ブランドUIは廃止し、巡回判定には使用しない。 -->
         <div hidden aria-hidden="true">
@@ -57,7 +57,7 @@
         <button id="resume-task-button" class="secondary" type="button" disabled>停止位置から再開</button>
         <button id="stop-task-button" class="secondary danger" type="button">実行中の処理を停止</button>
         <p id="auto-status" role="status"></p>
-        <p class="note">自動実行では各商品の周期と最新確認日時から本日の対象だけを巡回します。「今すぐ全件更新」は周期に関係なく登録リスト全件を巡回します。通常モードではアクセス確認を1回スキップし、2商品連続で検出すると停止位置を保存して1分後に自動再開します。</p>
+        <p class="note">自動実行では各商品の周期と最新確認日時から本日の対象だけを巡回します。「今すぐ全件更新」は「無」を除く登録商品を周期に関係なく巡回します。実行中に「無」へ変更した商品も、取得直前に再確認してスキップします。通常モードではアクセス確認を1回スキップし、2商品連続で検出すると停止位置を保存して1分後に自動再開します。</p>
       </section>
 
       <hr>
