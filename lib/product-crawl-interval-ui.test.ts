@@ -31,7 +31,9 @@ test("自動巡回と手動巡回は同じ均等化スケジュールを使う",
   assert.match(scheduler, /BALANCE_CYCLE_DAYS = 42/u);
   assert.match(scheduler, /BALANCED_INTERVALS = new Set\(\[3, 7, 14\]\)/u);
   assert.match(scheduler, /interval === 1/u);
-  assert.match(scheduler, /eligibleBalanced\.slice\(0, balancedTarget\)/u);
+  assert.match(scheduler, /balancedCandidates\.push\(product\)/u);
+  assert.match(scheduler, /rotatedCandidates\.slice\(0, window\.target\)/u);
+  assert.doesNotMatch(scheduler, /isDue\(/u);
   assert.doesNotMatch(wrapper, /dailyCrawlBrandOverrideEnabled|dailyCrawlBrands/u);
 });
 
