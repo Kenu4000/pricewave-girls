@@ -29,7 +29,11 @@ test("Service Workerは待機ラッパーを既存処理より先に読み込む
 
   assert.match(
     serviceWorker,
-    /^importScripts\("snapshot-readiness-wrapper\.js", "fast-site-mode-wrapper\.js"\);/u,
+    /^importScripts\([\s\S]*"snapshot-readiness-wrapper\.js"[\s\S]*"fast-site-mode-wrapper\.js"[\s\S]*\);/u,
+  );
+  assert.ok(
+    serviceWorker.indexOf('"snapshot-readiness-wrapper.js"') <
+      serviceWorker.indexOf('"fast-site-mode-wrapper.js"'),
   );
   assert.equal(manifest.version, "0.11.9");
   assert.equal(manifest.background?.service_worker, "service-worker.js");
