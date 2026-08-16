@@ -5,7 +5,6 @@
   const balancedScheduler = globalThis.PricewaveBalancedCrawlScheduler;
   const wrappedStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const wrappedStorageSet = chrome.storage.local.set.bind(chrome.storage.local);
-  let manualFullRun = false;
   let cachedAutomaticPlan = null;
 
   function localDateKey(date = new Date()) {
@@ -81,27 +80,12 @@
   }
 
   // 日次ブランド・人気順・3分割ローテーションは廃止。
-  // /api/products で巡回開始時に全商品の周期を一括取得し、その一覧だけで対象を決める。
+  // 自動実行でも手動の「今すぐ巡回」でも、/api/products で取得した全商品の周期を使って
+  // 同じ均等化アルゴリズムから本日の巡回対象を決める。「無」はスケジューラ側で除外される。
   // 同日中は周期構成に変更がなければ既存プランを再利用し、変更があれば均等化を再計算する。
   // 翌日は日付キーが変わるため、その日の割り当てを再計算する。
-  // 手動全件更新も「無」は対象外にする。
   refreshPolicy.selectScheduledProducts = (products, value = Date.now()) => {
     const source = Array.isArray(products) ? products : [];
-    if (manualFullRun) {
-      const enabledProducts = source.filter(
-        (product) => product?.crawlIntervalDays !== null,
-      );
-      return {
-        products: enabledProducts,
-        bucket: null,
-        dailyCount: enabledProducts.length,
-        exactDailyCount: 0,
-        rotationCount: 0,
-        totalRegistered: source.length,
-        customDailyBrandCount: null,
-      };
-    }
-
     const plan = selectAutomaticProducts(source, value);
     return {
       products: plan.products,
@@ -119,24 +103,6 @@
   // safe-background に残る旧人気順スナップショット処理は、巡回対象の決定にはもう不要。
   // キャッシュ日を常に本日扱いにして追加の人気順ページ巡回を発生させない。
   refreshPolicy.shouldRefreshPopularSnapshot = () => false;
-
-  chrome.runtime.onMessage.addListener((message) => {
-    if (message?.type === "auto:run-now") manualFullRun = true;
-    if (message?.type === "task:cancel" || message?.type === "auto-add:start") manualFullRun = false;
-  });
-
-  chrome.alarms.onAlarm.addListener((alarm) => {
-    if (["surugaya-daily-update", "surugaya-daily-update-retry"].includes(alarm.name)) {
-      manualFullRun = false;
-    }
-  });
-
-  chrome.storage.onChanged.addListener((changes, areaName) => {
-    if (areaName !== "local" || !changes.updateStatus?.newValue) return;
-    if (["completed", "blocked", "cancelled", "error", "idle"].includes(changes.updateStatus.newValue.state)) {
-      manualFullRun = false;
-    }
-  });
 
   function requestsPopularSnapshot(keys) {
     if (typeof keys === "string") return keys === "popularDailyProductDate";
