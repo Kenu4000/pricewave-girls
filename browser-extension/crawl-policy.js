@@ -1,4 +1,11 @@
 (function exposePricewaveCrawlPolicy(globalObject) {
+  if (globalObject.PricewaveCrawlPolicy) {
+    if (typeof module !== "undefined" && module.exports) {
+      module.exports = globalObject.PricewaveCrawlPolicy;
+    }
+    return;
+  }
+
   const DAY_MS = 24 * 60 * 60 * 1_000;
   const ROTATION_DAYS = 3;
   const POPULAR_SNAPSHOT_REFRESH_DAYS = 3;
