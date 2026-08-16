@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import test from "node:test";
+import vm from "node:vm";
 
 const require = createRequire(import.meta.url);
 type CrawlProduct = {
@@ -8,7 +10,7 @@ type CrawlProduct = {
   url: string;
   crawlPriority: "daily" | "rotation";
 };
-const policy = require("../browser-extension/crawl-policy.js") as {
+type CrawlPolicy = {
   POPULAR_SNAPSHOT_REFRESH_DAYS: number;
   MIN_PRODUCT_START_INTERVAL_MS: number;
   MAX_PRODUCT_START_INTERVAL_MS: number;
@@ -35,6 +37,7 @@ const policy = require("../browser-extension/crawl-policy.js") as {
   }): "ok" | "blocked" | "temporary";
   serverRetryDelay(failureCount: number): number;
 };
+const policy = require("../browser-extension/crawl-policy.js") as CrawlPolicy;
 
 function product(id: number, crawlPriority: "daily" | "rotation"): CrawlProduct {
   return {
@@ -131,6 +134,33 @@ test("3日連続のローテーションでその他の商品をすべて一巡�
   }
 
   assert.deepEqual([...selectedIds].sort(), [0, 1, 2]);
+});
+
+test("巡回ポリシーを再読込しても後付けの周期選定ロジックを上書きしない", () => {
+  const source = readFileSync(
+    new URL("../browser-extension/crawl-policy.js", import.meta.url),
+    "utf8",
+  );
+  const context = vm.createContext({});
+
+  vm.runInContext(source, context);
+  const exposed = (context as { PricewaveCrawlPolicy?: CrawlPolicy }).PricewaveCrawlPolicy;
+  assert.ok(exposed);
+
+  const replacement = () => ({
+    products: [],
+    bucket: 0,
+    dailyCount: 0,
+    exactDailyCount: 0,
+    rotationCount: 0,
+    totalRegistered: 0,
+  });
+  exposed.selectScheduledProducts = replacement;
+
+  vm.runInContext(source, context);
+  const reloaded = (context as { PricewaveCrawlPolicy?: CrawlPolicy }).PricewaveCrawlPolicy;
+  assert.equal(reloaded, exposed);
+  assert.equal(reloaded?.selectScheduledProducts, replacement);
 });
 
 test("アクセス確認、403、429を停止対象として判定する", () => {
