@@ -26,12 +26,6 @@
     return Number.isFinite(timestamp) ? timestamp : null;
   }
 
-  function isDue(product, interval, nowMs) {
-    const checkedAt = checkedAtMs(product);
-    if (checkedAt === null) return true;
-    return nowMs - checkedAt >= interval * DAY_MS;
-  }
-
   function balancedDailyTarget(products, value = Date.now()) {
     const source = Array.isArray(products) ? products : [];
     let cycleUnits = 0;
@@ -66,7 +60,7 @@
     };
   }
 
-  function compareEligible(left, right, nowMs) {
+  function compareCandidates(left, right, nowMs) {
     const leftInterval = normalizeInterval(left?.crawlIntervalDays) ?? 1;
     const rightInterval = normalizeInterval(right?.crawlIntervalDays) ?? 1;
     const leftPriority = overduePriority(left, leftInterval, nowMs);
@@ -90,34 +84,35 @@
     const nowMs = value instanceof Date ? value.getTime() : Number(value);
     const normalizedNow = Number.isFinite(nowMs) ? nowMs : Date.now();
     const daily = [];
-    const eligibleBalanced = [];
+    const balancedCandidates = [];
 
+    // 全登録商品を毎回周期で分類する。
+    // lastCheckedAt は対象外にする条件には使わず、長周期商品の優先順位にだけ使う。
     for (const product of source) {
       const interval = normalizeInterval(product?.crawlIntervalDays);
       if (interval === null) continue;
 
       if (interval === 1) {
-        if (isDue(product, interval, normalizedNow)) daily.push(product);
+        daily.push(product);
         continue;
       }
 
-      if (BALANCED_INTERVALS.has(interval) && isDue(product, interval, normalizedNow)) {
-        eligibleBalanced.push(product);
+      if (BALANCED_INTERVALS.has(interval)) {
+        balancedCandidates.push(product);
       }
     }
 
-    eligibleBalanced.sort((left, right) => compareEligible(left, right, normalizedNow));
+    balancedCandidates.sort((left, right) => compareCandidates(left, right, normalizedNow));
 
-    let balancedTarget = balancedDailyTarget(source, value);
-    if (eligibleBalanced.length > 0 && balancedTarget === 0) balancedTarget = 1;
-    const balanced = eligibleBalanced.slice(0, balancedTarget);
+    const balancedTarget = balancedDailyTarget(source, value);
+    const balanced = balancedCandidates.slice(0, balancedTarget);
 
     return {
       products: [...daily, ...balanced],
       dailyCount: daily.length,
       balancedCount: balanced.length,
       balancedTarget,
-      deferredCount: Math.max(0, eligibleBalanced.length - balanced.length),
+      deferredCount: Math.max(0, balancedCandidates.length - balanced.length),
       totalRegistered: source.length,
     };
   }
