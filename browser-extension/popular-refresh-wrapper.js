@@ -6,17 +6,94 @@
   const wrappedStorageGet = chrome.storage.local.get.bind(chrome.storage.local);
   const wrappedStorageSet = chrome.storage.local.set.bind(chrome.storage.local);
   let manualFullRun = false;
+  let cachedAutomaticPlan = null;
+
+  function localDateKey(date = new Date()) {
+    return [
+      date.getFullYear(),
+      String(date.getMonth() + 1).padStart(2, "0"),
+      String(date.getDate()).padStart(2, "0"),
+    ].join("-");
+  }
+
+  function intervalSignature(products) {
+    return products
+      .map((product) => {
+        const id = Number(product?.id) || 0;
+        const interval = product?.crawlIntervalDays === null
+          ? "off"
+          : String(product?.crawlIntervalDays ?? "missing");
+        return `${id}:${interval}`;
+      })
+      .join("|");
+  }
+
+  function dateKeyForValue(value) {
+    if (value instanceof Date) return localDateKey(value);
+    const timestamp = Number(value);
+    return localDateKey(Number.isFinite(timestamp) ? new Date(timestamp) : new Date());
+  }
+
+  function reuseCachedPlan(source, signature, dateKey) {
+    if (
+      !cachedAutomaticPlan ||
+      cachedAutomaticPlan.signature !== signature ||
+      cachedAutomaticPlan.dateKey !== dateKey
+    ) {
+      return null;
+    }
+
+    const productById = new Map(
+      source.map((product) => [Number(product?.id) || 0, product]),
+    );
+    const products = cachedAutomaticPlan.productIds
+      .map((id) => productById.get(id))
+      .filter(Boolean);
+
+    if (products.length !== cachedAutomaticPlan.productIds.length) return null;
+    return {
+      products,
+      dailyCount: cachedAutomaticPlan.dailyCount,
+      balancedCount: cachedAutomaticPlan.balancedCount,
+      balancedTarget: cachedAutomaticPlan.balancedTarget,
+      deferredCount: cachedAutomaticPlan.deferredCount,
+      totalRegistered: source.length,
+    };
+  }
+
+  function selectAutomaticProducts(source, value) {
+    const signature = intervalSignature(source);
+    const dateKey = dateKeyForValue(value);
+    const reused = reuseCachedPlan(source, signature, dateKey);
+    if (reused) return reused;
+
+    const plan = balancedScheduler.selectBalancedProducts(source, value);
+    cachedAutomaticPlan = {
+      signature,
+      dateKey,
+      productIds: plan.products.map((product) => Number(product?.id) || 0),
+      dailyCount: plan.dailyCount,
+      balancedCount: plan.balancedCount,
+      balancedTarget: plan.balancedTarget,
+      deferredCount: plan.deferredCount,
+    };
+    return plan;
+  }
 
   // 日次ブランド・人気順・3分割ローテーションは廃止。
-  // 自動実行は1日周期を毎日対象にし、3/7/14日周期は理論巡回数を日ごとに均等化する。
-  // 手動実行は周期に関係なく登録リスト全件を対象にする。
+  // 自動実行は巡回開始時に全商品の周期を一括確認する。
+  // 同日中は周期構成に変更がなければ既存プランを再利用し、変更があれば均等化を再計算する。
+  // 手動全件更新も「無」は対象外にする。
   refreshPolicy.selectScheduledProducts = (products, value = Date.now()) => {
     const source = Array.isArray(products) ? products : [];
     if (manualFullRun) {
+      const enabledProducts = source.filter(
+        (product) => product?.crawlIntervalDays !== null,
+      );
       return {
-        products: source,
+        products: enabledProducts,
         bucket: null,
-        dailyCount: source.length,
+        dailyCount: enabledProducts.length,
         exactDailyCount: 0,
         rotationCount: 0,
         totalRegistered: source.length,
@@ -24,7 +101,7 @@
       };
     }
 
-    const plan = balancedScheduler.selectBalancedProducts(source, value);
+    const plan = selectAutomaticProducts(source, value);
     return {
       products: plan.products,
       bucket: null,
@@ -59,14 +136,6 @@
       manualFullRun = false;
     }
   });
-
-  function localDateKey(date = new Date()) {
-    return [
-      date.getFullYear(),
-      String(date.getMonth() + 1).padStart(2, "0"),
-      String(date.getDate()).padStart(2, "0"),
-    ].join("-");
-  }
 
   function requestsPopularSnapshot(keys) {
     if (typeof keys === "string") return keys === "popularDailyProductDate";
