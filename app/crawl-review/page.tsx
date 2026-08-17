@@ -5,7 +5,10 @@ export const dynamic = "force-dynamic";
 
 export default async function CrawlReviewPage() {
   const products = await prisma.product.findMany({
-    where: { crawlIntervalDays: 1 },
+    where: {
+      crawlIntervalDays: 1,
+      crawlIntervalReviewedAt: null,
+    },
     orderBy: [{ id: "asc" }],
     select: {
       id: true,
