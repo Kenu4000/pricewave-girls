@@ -46,6 +46,9 @@ function applyFeaturedBrandOrder(featuredBrands: FeaturedBrand[]) {
   const featuredValues = featuredBrands
     .map((brand) => brand.value)
     .filter((value) => options.has(value));
+  const orderSignature = featuredValues.join("\u0000");
+  if (select.dataset.featuredBrandOrder === orderSignature) return;
+
   const featuredSet = new Set(featuredValues);
   const alphabeticalValues = [...options.values()]
     .filter((option) => !featuredSet.has(option.value))
@@ -87,6 +90,7 @@ function applyFeaturedBrandOrder(featuredBrands: FeaturedBrand[]) {
 
     select.replaceChildren(...fragments);
     select.value = selectedValue;
+    select.dataset.featuredBrandOrder = orderSignature;
   } finally {
     applying = false;
   }
