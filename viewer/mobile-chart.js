@@ -1,263 +1,371 @@
-const desktopRenderChart = renderChart;
-const desktopBindChartTooltips = bindChartTooltips;
+let viewerChartMode = 'day';
+let viewerChartSourceHistories = [];
 
-let mobileChartRange = 'week';
-let mobileChartSourceHistories = [];
+const VIEWER_CHART_PERIODS = [
+  { value: 'day', label: '日（全期間）' },
+  { value: 'week', label: '週' },
+  { value: 'month', label: '月' },
+];
 
-const MOBILE_CHART_SERIES_LABELS = {
-  sale: '販売',
-  buy: '買取',
-  rankb: 'ランクB',
-  timesale: 'タイムセール',
-};
+const VIEWER_CHART_SERIES = [
+  { key: 'salePrice', label: '販売価格', className: 'sale', connectNulls: true },
+  { key: 'buyPrice', label: '買取価格', className: 'buy', connectNulls: true },
+  { key: 'rankBPrice', label: 'ランクB', className: 'rankb', connectNulls: true },
+  { key: 'timeSalePrice', label: 'タイムセール', className: 'timesale', connectNulls: false },
+];
 
-function mobileChartPriceLabel(value) {
-  const rounded = Math.round(value);
-  if (Math.abs(rounded) >= 1000) {
-    return `${Number((rounded / 1000).toFixed(1))}k`;
+function viewerChartPad(value) {
+  return String(value).padStart(2, '0');
+}
+
+function viewerChartDateKey(date) {
+  return `${date.getFullYear()}-${viewerChartPad(date.getMonth() + 1)}-${viewerChartPad(date.getDate())}`;
+}
+
+function viewerChartStartOfWeek(date) {
+  const result = new Date(date);
+  result.setHours(0, 0, 0, 0);
+  const day = result.getDay();
+  result.setDate(result.getDate() - (day === 0 ? 6 : day - 1));
+  return result;
+}
+
+function viewerChartBucketKey(date, mode) {
+  if (mode === 'month') {
+    return `${date.getFullYear()}-${viewerChartPad(date.getMonth() + 1)}`;
   }
-  return rounded.toLocaleString('ja-JP');
+  return viewerChartDateKey(viewerChartStartOfWeek(date));
 }
 
-function mobileChartDateLabel(timestamp, includeYear = false) {
-  const date = new Date(timestamp);
-  if (!Number.isFinite(date.getTime())) return '';
-  return date.toLocaleDateString('ja-JP', includeYear
-    ? { year: '2-digit', month: 'numeric', day: 'numeric' }
-    : { month: 'numeric', day: 'numeric' });
-}
-
-function localDayKey(timestamp) {
-  const date = new Date(timestamp);
-  if (!Number.isFinite(date.getTime())) return '';
-  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
-}
-
-function endOfLocalDay(timestamp) {
-  const date = new Date(timestamp);
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime() - 1;
-}
-
-function mobileChartDailyHistories(histories) {
-  const latestByDay = new Map();
-  const sorted = [...histories].sort((left, right) => new Date(left.checkedAt) - new Date(right.checkedAt));
-  for (const history of sorted) {
-    const key = localDayKey(history.checkedAt);
-    if (key) latestByDay.set(key, history);
+function viewerChartBucketLabel(date, mode) {
+  if (mode === 'month') {
+    return new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: 'short' }).format(date);
   }
-  return [...latestByDay.values()];
+  return `${new Intl.DateTimeFormat('ja-JP', {
+    month: 'numeric',
+    day: 'numeric',
+  }).format(viewerChartStartOfWeek(date))}週`;
 }
 
-function mobileChartData(histories, range) {
-  const dailyData = graphSeries(mobileChartDailyHistories(histories));
-  if (range === 'week') return dailyData.slice(-7);
-  if (range === 'month' && dailyData.length) {
-    const latest = dailyData[dailyData.length - 1].t;
-    const date = new Date(latest);
-    const start = new Date(date.getFullYear(), date.getMonth(), date.getDate() - 29).getTime();
-    const end = endOfLocalDay(latest);
-    return dailyData.filter((point) => point.t >= start && point.t <= end);
+function viewerChartDayLabel(date, includeTime) {
+  return new Intl.DateTimeFormat(
+    'ja-JP',
+    includeTime
+      ? {
+          month: 'numeric',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: false,
+        }
+      : { month: 'numeric', day: 'numeric' },
+  ).format(date);
+}
+
+function viewerChartPoint(history, key, label) {
+  const isTimeSale = history.isTimeSale === true;
+  const conditionRank = history.conditionRank === 'B' || history.condition ? 'B' : 'A';
+  const baseSalePrice = isTimeSale
+    ? (history.regularSalePrice ?? history.salePrice)
+    : history.salePrice;
+
+  return {
+    key,
+    label,
+    checkedAt: history.checkedAt,
+    salePrice: conditionRank === 'B' ? null : baseSalePrice,
+    buyPrice: history.buyPrice,
+    rankBPrice: conditionRank === 'B' ? baseSalePrice : null,
+    timeSalePrice: isTimeSale ? history.salePrice : null,
+    timeSaleBasePrice: isTimeSale ? baseSalePrice : null,
+  };
+}
+
+function viewerAggregatePriceChartData(histories, mode) {
+  const valid = histories
+    .map((history) => ({ ...history, date: new Date(history.checkedAt) }))
+    .filter((history) => !Number.isNaN(history.date.getTime()))
+    .sort((left, right) => left.date.getTime() - right.date.getTime());
+
+  if (!valid.length) return [];
+
+  if (mode === 'day') {
+    const pointsPerDay = new Map();
+    for (const history of valid) {
+      const key = viewerChartDateKey(history.date);
+      pointsPerDay.set(key, (pointsPerDay.get(key) ?? 0) + 1);
+    }
+
+    return valid.map((history, index) => {
+      const key = viewerChartDateKey(history.date);
+      return viewerChartPoint(
+        history,
+        `${history.checkedAt}-${index}`,
+        viewerChartDayLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1),
+      );
+    });
   }
-  return dailyData;
-}
 
-function mobileChartRangeButtons() {
-  return `<div class="mobile-chart-range" role="group" aria-label="グラフ表示期間">
-    <button type="button" data-mobile-chart-range="week" ${mobileChartRange === 'week' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>7日</button>
-    <button type="button" data-mobile-chart-range="month" ${mobileChartRange === 'month' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>1か月</button>
-    <button type="button" data-mobile-chart-range="all" ${mobileChartRange === 'all' ? 'aria-pressed="true"' : 'aria-pressed="false"'}>全期間</button>
-  </div>`;
-}
-
-renderChart = function renderResponsiveChart(histories) {
-  if (!matchMedia('(max-width: 760px)').matches) {
-    return desktopRenderChart(histories);
+  const buckets = new Map();
+  for (const history of valid) {
+    buckets.set(viewerChartBucketKey(history.date, mode), history);
   }
 
-  mobileChartSourceHistories = histories;
-  const data = mobileChartData(histories, mobileChartRange);
+  return [...buckets.entries()].map(([key, history]) =>
+    viewerChartPoint(history, key, viewerChartBucketLabel(history.date, mode)),
+  );
+}
+
+function viewerChartYen(value) {
+  if (value == null) return '-';
+  return `${Number(value).toLocaleString('ja-JP')}円`;
+}
+
+function viewerChartCompactYen(value) {
+  if (value == null) return '-';
+  const amount = Number(value);
+  if (!Number.isFinite(amount)) return '-';
+  if (Math.abs(amount) >= 10000) {
+    const man = amount / 10000;
+    return `${Number.isInteger(man) ? man.toFixed(0) : man.toFixed(1)}万`;
+  }
+  if (Math.abs(amount) >= 1000) {
+    const thousand = amount / 1000;
+    return `${Number.isInteger(thousand) ? thousand.toFixed(0) : thousand.toFixed(1)}千`;
+  }
+  return String(amount);
+}
+
+function viewerChartNote(mode) {
+  if (mode === 'day') {
+    return '全期間を取得時刻ごとに表示。黄色は通常価格から一時的に分岐したタイムセール価格';
+  }
+  if (mode === 'week') return '全期間を週ごとの最終価格で表示';
+  return '全期間を月ごとの最終価格で表示';
+}
+
+function viewerChartControls() {
+  return `<div class="viewer-chart-controls" role="group" aria-label="価格推移の表示単位">${VIEWER_CHART_PERIODS.map(
+    (option) =>
+      `<button type="button" data-viewer-chart-mode="${option.value}" aria-pressed="${viewerChartMode === option.value ? 'true' : 'false'}">${option.label}</button>`,
+  ).join('')}</div>`;
+}
+
+function viewerChartLegend() {
+  return `<div class="viewer-chart-legend" aria-label="価格系列">${VIEWER_CHART_SERIES.map(
+    (series) => `<span class="${series.className}">${series.label}</span>`,
+  ).join('')}</div>`;
+}
+
+function viewerChartConnectedPath(data, key, x, y) {
+  const points = data
+    .map((point, index) => ({ point, index }))
+    .filter(({ point }) => point[key] != null);
+  return points
+    .map(({ point, index }, pathIndex) =>
+      `${pathIndex === 0 ? 'M' : 'L'}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`,
+    )
+    .join(' ');
+}
+
+function viewerChartSeparatedPaths(data, key, x, y) {
+  const segments = [];
+  let current = [];
+  data.forEach((point, index) => {
+    if (point[key] == null) {
+      if (current.length) segments.push(current);
+      current = [];
+      return;
+    }
+    current.push({ point, index });
+  });
+  if (current.length) segments.push(current);
+
+  return segments.map((segment) =>
+    segment
+      .map(({ point, index }, pathIndex) =>
+        `${pathIndex === 0 ? 'M' : 'L'}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`,
+      )
+      .join(' '),
+  );
+}
+
+function viewerChartTickIndexes(length, compact) {
+  if (length <= 1) return [0];
+  const desired = Math.min(length, compact ? 4 : 7);
+  const indexes = new Set([0, length - 1]);
+  for (let index = 1; index < desired - 1; index += 1) {
+    indexes.add(Math.round(((length - 1) * index) / (desired - 1)));
+  }
+  return [...indexes].sort((left, right) => left - right);
+}
+
+renderChart = function renderMainBasedViewerChart(histories) {
+  if (viewerChartSourceHistories !== histories) viewerChartMode = 'day';
+  viewerChartSourceHistories = histories;
+  const data = viewerAggregatePriceChartData(histories, viewerChartMode);
   if (!data.length) return '<div class="panel empty">価格履歴がありません。</div>';
 
-  const values = data.flatMap((point) => [point.sale, point.buy, point.rankb, point.timesale]).filter((value) => value != null);
+  const values = data
+    .flatMap((point) => [
+      point.salePrice,
+      point.buyPrice,
+      point.rankBPrice,
+      point.timeSalePrice,
+      point.timeSaleBasePrice,
+    ])
+    .filter((value) => value != null && Number.isFinite(Number(value)))
+    .map(Number);
   if (!values.length) return '<div class="panel empty">価格データがありません。</div>';
 
-  const W = 720;
-  const H = 360;
-  const LEFT = 70;
-  const RIGHT = 18;
-  const TOP = 20;
-  const BOTTOM = 72;
-  const minT = data[0].t;
-  const maxT = data[data.length - 1].t;
-  const maxV = Math.max(...values);
-  const lo = 0;
-  const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
+  const compact = matchMedia('(max-width: 760px)').matches;
+  const W = compact ? 720 : 1000;
+  const H = compact ? 300 : 330;
+  const LEFT = compact ? 64 : 84;
+  const RIGHT = compact ? 10 : 18;
+  const TOP = compact ? 10 : 16;
+  const BOTTOM = compact ? 54 : 58;
   const plotWidth = W - LEFT - RIGHT;
   const plotHeight = H - TOP - BOTTOM;
-  const plotBottom = H - BOTTOM;
+  const plotBottom = TOP + plotHeight;
+  const maxV = Math.max(...values);
+  const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
 
-  const xByTime = (timestamp) => LEFT + (maxT === minT ? plotWidth / 2 : ((timestamp - minT) / (maxT - minT)) * plotWidth);
-  const xByIndex = (index) => LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
-  const x = (point, index) => mobileChartRange === 'week' ? xByIndex(index) : xByTime(point.t);
-  const y = (value) => TOP + ((hi - value) / (hi - lo || 1)) * plotHeight;
+  const x = (index) =>
+    LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
+  const y = (value) => TOP + ((hi - Number(value)) / hi) * plotHeight;
 
-  const segmentsFor = (key) => {
-    const segments = [];
-    let current = [];
-    data.forEach((point, index) => {
-      if (point[key] == null) {
-        if (current.length) segments.push(current);
-        current = [];
-        return;
-      }
-      current.push({ point, index });
-    });
-    if (current.length) segments.push(current);
-    return segments;
-  };
-
-  const linePathForSegment = (segment, key) => segment
-    .map(({ point, index }, segmentIndex) => `${segmentIndex ? 'L' : 'M'}${x(point, index).toFixed(1)},${y(point[key]).toFixed(1)}`)
-    .join(' ');
-
-  const areaPathForSegment = (segment, key) => {
-    const first = segment[0];
-    const last = segment[segment.length - 1];
-    const line = linePathForSegment(segment, key);
-    return `M${x(first.point, first.index).toFixed(1)},${plotBottom} ${line.replace(/^M/, 'L')} L${x(last.point, last.index).toFixed(1)},${plotBottom} Z`;
-  };
-
-  const pointsFor = (key) => data
-    .map((point, index) => ({ point, index }))
-    .filter(({ point }) => point[key] != null)
-    .map(({ point, index }) => {
-      const cx = x(point, index);
-      const cy = y(point[key]);
-      return `<circle class="chart-point" data-series="${key}" data-price="${point[key]}" data-date="${esc(point.checkedAt)}" cx="${cx}" cy="${cy}" r="4.5"></circle><circle class="chart-point-hit" data-chart-series-hit data-series="${key}" cx="${cx}" cy="${cy}" r="28"></circle>`;
+  const yTicks = [0, 0.25, 0.5, 0.75, 1]
+    .map((ratio) => {
+      const yy = TOP + ratio * plotHeight;
+      const value = Math.round(hi - ratio * hi);
+      const label = compact ? viewerChartCompactYen(value) : viewerChartYen(value);
+      return `<line class="viewer-chart-gridline" x1="${LEFT}" x2="${W - RIGHT}" y1="${yy}" y2="${yy}"></line><text class="viewer-chart-y-label" x="${LEFT - 10}" y="${yy + (compact ? 5 : 4)}" text-anchor="end">${esc(label)}</text>`;
     })
     .join('');
 
-  const seriesGroup = (key) => {
-    const segments = segmentsFor(key);
-    const paths = segments.map((segment) => {
-      const linePath = linePathForSegment(segment, key);
-      const areaPath = areaPathForSegment(segment, key);
-      return `<path class="chart-area" d="${areaPath}"></path><path class="chart-area-hit" data-chart-series-hit data-series="${key}" d="${areaPath}"></path><path class="chart-line" d="${linePath}"></path><path class="chart-line-hit" data-chart-series-hit data-series="${key}" d="${linePath}"></path>`;
-    }).join('');
-    return `<g class="${key}" data-series-group="${key}">${paths}${pointsFor(key)}</g>`;
-  };
+  const tickIndexes = viewerChartTickIndexes(data.length, compact);
+  const xTicks = tickIndexes
+    .map((index, tickPosition) => {
+      const point = data[index];
+      const anchor =
+        tickPosition === 0 ? 'start' : tickPosition === tickIndexes.length - 1 ? 'end' : 'middle';
+      return `<text class="viewer-chart-x-label" x="${x(index)}" y="${H - (compact ? 18 : 16)}" text-anchor="${anchor}">${esc(point.label)}</text>`;
+    })
+    .join('');
 
-  const yTicks = [0, 0.5, 1].map((ratio) => {
-    const yy = TOP + ratio * plotHeight;
-    const value = Math.round(hi - ratio * hi);
-    return `<line class="gridline" x1="${LEFT}" x2="${W - RIGHT}" y1="${yy}" y2="${yy}"></line><text class="chart-y-label" x="${LEFT - 10}" y="${yy + 6}" text-anchor="end">${mobileChartPriceLabel(value)}</text>`;
+  const branches = data
+    .map((point, index) => ({ point, index }))
+    .filter(
+      ({ point }) =>
+        point.timeSalePrice != null &&
+        point.timeSaleBasePrice != null &&
+        point.timeSalePrice !== point.timeSaleBasePrice,
+    )
+    .map(
+      ({ point, index }) =>
+        `<line class="viewer-chart-timesale-branch" x1="${x(index)}" x2="${x(index)}" y1="${y(point.timeSaleBasePrice)}" y2="${y(point.timeSalePrice)}"></line>`,
+    )
+    .join('');
+
+  const seriesMarkup = VIEWER_CHART_SERIES.map((series) => {
+    const paths = series.connectNulls
+      ? [viewerChartConnectedPath(data, series.key, x, y)].filter(Boolean)
+      : viewerChartSeparatedPaths(data, series.key, x, y);
+    const pathMarkup = paths
+      .map(
+        (path) =>
+          `<path class="viewer-chart-line" data-viewer-chart-series="${series.key}" d="${path}"></path>`,
+      )
+      .join('');
+
+    const visibleDots = data
+      .map((point, index) => ({ point, index }))
+      .filter(({ point }) => point[series.key] != null)
+      .map(({ point, index }) => {
+        const showDot = !compact || series.key === 'timeSalePrice';
+        return showDot
+          ? `<circle class="viewer-chart-dot" cx="${x(index)}" cy="${y(point[series.key])}" r="${series.key === 'timeSalePrice' ? (compact ? 2.5 : 4) : 3}"></circle>`
+          : '';
+      })
+      .join('');
+
+    return `<g class="viewer-chart-series ${series.className}">${pathMarkup}${visibleDots}</g>`;
   }).join('');
 
-  const includeYear = new Date(minT).getFullYear() !== new Date(maxT).getFullYear();
-  let xLabels = '';
-  if (mobileChartRange === 'week') {
-    xLabels = data.map((point, index) => {
-      const xx = x(point, index);
-      const anchor = index === 0 ? 'start' : index === data.length - 1 ? 'end' : 'middle';
-      return `<text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(point.t, includeYear)}</text>`;
-    }).join('');
-  } else {
-    const count = mobileChartRange === 'month' ? 5 : 3;
-    const tickTimes = maxT <= minT
-      ? [minT]
-      : Array.from({ length: count }, (_, index) => minT + ((maxT - minT) * index) / (count - 1));
-    xLabels = tickTimes.map((timestamp, index) => {
-      const xx = xByTime(timestamp);
-      const anchor = index === 0 ? 'start' : index === tickTimes.length - 1 ? 'end' : 'middle';
-      return `<text class="chart-x-label" x="${xx}" y="${H - 24}" text-anchor="${anchor}">${mobileChartDateLabel(timestamp, includeYear)}</text>`;
-    }).join('');
-  }
+  const hitColumns = data
+    .map((point, index) => {
+      const previousX = index === 0 ? LEFT : x(index - 1);
+      const nextX = index === data.length - 1 ? W - RIGHT : x(index + 1);
+      const left = index === 0 ? LEFT : (previousX + x(index)) / 2;
+      const right = index === data.length - 1 ? W - RIGHT : (x(index) + nextX) / 2;
+      return `<rect class="viewer-chart-hit" data-viewer-chart-index="${index}" x="${left}" y="${TOP}" width="${Math.max(1, right - left)}" height="${plotHeight}"></rect>`;
+    })
+    .join('');
 
-  return `<div class="price-chart-mobile">${mobileChartRangeButtons()}<div class="legend mobile-chart-legend"><span class="sale">販売</span><span class="buy">買取</span><span class="rankb">ランクB</span><span class="timesale">タイムセール</span></div><div class="mobile-chart-readout" hidden></div><div class="chart-wrap mobile-chart-wrap"><svg class="chart mobile-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="価格推移グラフ">${yTicks}${xLabels}${seriesGroup('sale')}${seriesGroup('timesale')}${seriesGroup('rankb')}${seriesGroup('buy')}<line class="chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line><circle class="chart-active-point" cx="0" cy="0" r="8" hidden></circle></svg></div><div class="mobile-chart-hint">色の面や線を触って左右に動かすと、その日の価格を表示</div></div>`;
+  return `<div class="viewer-price-chart">${viewerChartControls()}<p class="viewer-chart-note">${esc(viewerChartNote(viewerChartMode))}</p>${viewerChartLegend()}<div class="viewer-chart-tooltip" hidden></div><div class="viewer-chart-wrap"><svg class="viewer-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}<line class="viewer-chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line>${hitColumns}</svg></div></div>`;
 };
 
-bindChartTooltips = function bindResponsiveChartTooltips() {
-  if (!matchMedia('(max-width: 760px)').matches) {
-    return desktopBindChartTooltips();
-  }
+bindChartTooltips = function bindMainBasedViewerChart() {
+  const root = document.querySelector('.viewer-price-chart');
+  const svg = root?.querySelector('.viewer-chart');
+  const tooltip = root?.querySelector('.viewer-chart-tooltip');
+  const crosshair = root?.querySelector('.viewer-chart-crosshair');
+  if (!root || !svg || !tooltip || !crosshair) return;
 
-  const svg = document.querySelector('.mobile-chart');
-  const crosshair = svg?.querySelector('.chart-crosshair');
-  const activePoint = svg?.querySelector('.chart-active-point');
-  const readout = document.querySelector('.mobile-chart-readout');
-  let activePointerId = null;
-  let activeSeries = null;
+  const data = viewerAggregatePriceChartData(viewerChartSourceHistories, viewerChartMode);
+  const compact = matchMedia('(max-width: 760px)').matches;
+  const W = compact ? 720 : 1000;
+  const LEFT = compact ? 64 : 84;
+  const RIGHT = compact ? 10 : 18;
+  const plotWidth = W - LEFT - RIGHT;
+  const pointX = (index) =>
+    LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
 
-  const eventToSvgX = (event) => {
-    if (!svg) return 0;
-    const rect = svg.getBoundingClientRect();
-    const viewBox = svg.viewBox.baseVal;
-    if (!rect.width) return 0;
-    return viewBox.x + ((event.clientX - rect.left) / rect.width) * viewBox.width;
-  };
-
-  const nearestPoint = (series, targetX) => {
-    const points = [...(svg?.querySelectorAll(`.chart-point[data-series="${series}"]`) || [])];
-    if (!points.length) return null;
-    return points.reduce((best, point) => {
-      const distance = Math.abs(Number(point.getAttribute('cx')) - targetX);
-      return !best || distance < best.distance ? { point, distance } : best;
-    }, null)?.point || null;
-  };
-
-  const selectPoint = (series, event) => {
-    if (!svg || !crosshair || !activePoint || !readout) return;
-    const point = nearestPoint(series, eventToSvgX(event));
+  const showTooltip = (index) => {
+    const point = data[index];
     if (!point) return;
-    const cx = Number(point.getAttribute('cx'));
-    const cy = Number(point.getAttribute('cy'));
-    const price = Number(point.dataset.price);
-    const checkedAt = point.dataset.date;
+    const rows = VIEWER_CHART_SERIES
+      .filter((series) => point[series.key] != null)
+      .map(
+        (series) =>
+          `<div class="viewer-chart-tooltip-row"><span class="viewer-chart-tooltip-marker ${series.className}"></span><span>${series.label}</span><strong>${esc(viewerChartYen(point[series.key]))}</strong></div>`,
+      )
+      .join('');
+    if (!rows) return;
 
-    crosshair.setAttribute('x1', String(cx));
-    crosshair.setAttribute('x2', String(cx));
+    tooltip.innerHTML = `<div class="viewer-chart-tooltip-label">${esc(point.label)}</div><div class="viewer-chart-tooltip-rows">${rows}</div>`;
+    tooltip.hidden = false;
+    crosshair.setAttribute('x1', String(pointX(index)));
+    crosshair.setAttribute('x2', String(pointX(index)));
     crosshair.hidden = false;
-    activePoint.setAttribute('cx', String(cx));
-    activePoint.setAttribute('cy', String(cy));
-    activePoint.setAttribute('class', `chart-active-point ${series}`);
-    activePoint.hidden = false;
-    readout.textContent = `${MOBILE_CHART_SERIES_LABELS[series] || series}  ${yen(price)}  ·  ${dateTime(checkedAt)}`;
-    readout.hidden = false;
   };
 
-  document.querySelectorAll('[data-chart-series-hit]').forEach((hit) => {
+  root.querySelectorAll('[data-viewer-chart-index]').forEach((hit) => {
+    const select = () => showTooltip(Number(hit.dataset.viewerChartIndex));
+    hit.addEventListener('pointerenter', select);
     hit.addEventListener('pointerdown', (event) => {
-      activePointerId = event.pointerId;
-      activeSeries = hit.dataset.series;
-      hit.setPointerCapture?.(event.pointerId);
-      selectPoint(activeSeries, event);
+      event.preventDefault();
+      select();
     });
     hit.addEventListener('pointermove', (event) => {
-      if (event.pointerType === 'mouse' && activePointerId == null) {
-        selectPoint(hit.dataset.series, event);
-        return;
-      }
-      if (event.pointerId === activePointerId && activeSeries) {
-        selectPoint(activeSeries, event);
-      }
+      if (event.pointerType === 'mouse' || event.buttons > 0) select();
     });
-    const finish = (event) => {
-      if (event.pointerId !== activePointerId) return;
-      activePointerId = null;
-      activeSeries = null;
-    };
-    hit.addEventListener('pointerup', finish);
-    hit.addEventListener('pointercancel', finish);
   });
 
-  document.querySelectorAll('[data-mobile-chart-range]').forEach((button) => {
+  svg.addEventListener('pointerleave', () => {
+    if (matchMedia('(hover: hover)').matches) {
+      tooltip.hidden = true;
+      crosshair.hidden = true;
+    }
+  });
+
+  root.querySelectorAll('[data-viewer-chart-mode]').forEach((button) => {
     button.addEventListener('click', () => {
-      const nextRange = button.dataset.mobileChartRange;
-      if (!['week', 'month', 'all'].includes(nextRange) || nextRange === mobileChartRange) return;
-      mobileChartRange = nextRange;
-      const chartRoot = document.querySelector('.price-chart-mobile');
-      if (!chartRoot) return;
-      chartRoot.outerHTML = renderChart(mobileChartSourceHistories);
+      const nextMode = button.dataset.viewerChartMode;
+      if (!['day', 'week', 'month'].includes(nextMode) || nextMode === viewerChartMode) return;
+      viewerChartMode = nextMode;
+      root.outerHTML = renderChart(viewerChartSourceHistories);
       bindChartTooltips();
     });
   });
