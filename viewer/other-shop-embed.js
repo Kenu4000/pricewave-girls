@@ -1,5 +1,20 @@
 const originalRenderProductForOtherShopEmbed = renderProduct;
 
+const VIEWER_PRODUCT_DETAIL_LABELS = new Set([
+  '管理番号',
+  'メーカー',
+  '発売日',
+  '定価',
+  '型番',
+  'カテゴリ',
+  '対応OS',
+  '動作OS',
+  'OS',
+  '対応機種',
+  'JAN',
+  'ISBN',
+]);
+
 function viewerOtherShopUrl(rawUrl) {
   try {
     const parsed = new URL(rawUrl);
@@ -16,8 +31,18 @@ function viewerJunkItemIdentity(item) {
   return [normalize(item.sourceType), normalize(item.storeName), normalize(item.condition), String(item.price)].join('\u0000');
 }
 
+function viewerIsMisparsedOtherShopItem(item) {
+  if (!item || item.sourceType !== 'other_shop') return false;
+  const storeName = viewerNormalizeOtherShopText(item.storeName);
+  const condition = viewerNormalizeOtherShopText(item.condition);
+  if (VIEWER_PRODUCT_DETAIL_LABELS.has(storeName)) return true;
+  return /^(?:中古|新品|予約)\s*[：:]\s*[0-9A-Za-z]{8,}$/u.test(condition);
+}
+
 function viewerJunkHistorySections(detail) {
-  const items = Array.isArray(detail.junkHistories) ? detail.junkHistories : [];
+  const items = Array.isArray(detail.junkHistories)
+    ? detail.junkHistories.filter((item) => !viewerIsMisparsedOtherShopItem(item))
+    : [];
   const histories = Array.isArray(detail.histories) ? detail.histories : [];
   if (!items.length) return { current: [], currentCheckedAt: null, past: [] };
 
@@ -131,9 +156,9 @@ function viewerLegacyOtherShopCondition(element, text) {
   }
 
   const normalized = text.normalize('NFKC');
-  const explicit = normalized.match(/(?:商品状態|状態)\s*[:：]?\s*((?:難あり|中古|新品|予約|プレミア|ワケアリ)[^¥￥0-9]{0,80})/u);
+  const explicit = normalized.match(/(?:商品状態|状態)\s*[:：]?\s*((?:難あり|中古|新品|予約|プレミア|ワケアリ|ランク\s*B)[^¥￥0-9]{0,80})/u);
   if (explicit?.[1]) return viewerNormalizeOtherShopText(explicit[1]);
-  const standard = normalized.match(/(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ).*?)(?=\s*(?:[¥￥]\s*[0-9]|[0-9][0-9,\s]*\s*円)|$)/u);
+  const standard = normalized.match(/(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ|ランク\s*B).*?)(?=\s*(?:[¥￥]\s*[0-9]|[0-9][0-9,\s]*\s*円)|$)/u);
   return viewerNormalizeOtherShopText(standard?.[1]) || '状態不明';
 }
 
@@ -154,6 +179,8 @@ function viewerLegacyOtherShopItems(rawHtml) {
     if (!storeName || /^(?:店舗|ショップ|駿河屋)$/u.test(storeName)) continue;
 
     const condition = viewerLegacyOtherShopCondition(element, text);
+    const candidate = { sourceType: 'other_shop', storeName, condition, price };
+    if (viewerIsMisparsedOtherShopItem(candidate)) continue;
     const key = [storeName, condition, String(price)]
       .map((value) => viewerNormalizeOtherShopText(value).normalize('NFKC').toLocaleLowerCase('ja-JP'))
       .join('\u0000');
@@ -167,7 +194,12 @@ async function viewerCurrentOtherShopOffers(detail, sections) {
   const snapshot = detail.otherShopSnapshot && typeof detail.otherShopSnapshot === 'object'
     ? detail.otherShopSnapshot
     : null;
-  if (Array.isArray(snapshot?.items)) return snapshot.items;
+  if (Array.isArray(snapshot?.items)) {
+    return snapshot.items.filter((item) => !viewerIsMisparsedOtherShopItem({
+      ...item,
+      sourceType: 'other_shop',
+    }));
+  }
 
   if (snapshot?.productCode && /^[0-9A-Za-z]+$/.test(snapshot.productCode)) {
     try {
