@@ -298,10 +298,11 @@ renderChart = function renderMainBasedViewerChart(histories) {
 
 bindChartTooltips = function bindMainBasedViewerChart() {
   const root = document.querySelector('.viewer-price-chart');
+  const wrap = root?.querySelector('.viewer-chart-wrap');
   const svg = root?.querySelector('.viewer-chart');
   const tooltip = root?.querySelector('.viewer-chart-tooltip');
   const crosshair = root?.querySelector('.viewer-chart-crosshair');
-  if (!root || !svg || !tooltip || !crosshair) return;
+  if (!root || !wrap || !svg || !tooltip || !crosshair) return;
 
   const data = viewerAggregatePriceChartData(viewerChartSourceHistories, viewerChartMode);
   const compact = matchMedia('(max-width: 760px)').matches;
@@ -324,7 +325,32 @@ bindChartTooltips = function bindMainBasedViewerChart() {
     return Math.max(0, Math.min(data.length - 1, Math.round(relative * (data.length - 1))));
   };
 
-  const showTooltip = (index) => {
+  const positionTooltip = (event) => {
+    const wrapRect = wrap.getBoundingClientRect();
+    const gap = compact ? 8 : 12;
+    const edge = compact ? 6 : 8;
+    const pointerX = event.clientX - wrapRect.left;
+    const pointerY = event.clientY - wrapRect.top;
+    const tooltipWidth = tooltip.offsetWidth;
+    const tooltipHeight = tooltip.offsetHeight;
+
+    let left = pointerX + gap;
+    let top = pointerY + gap;
+
+    if (left + tooltipWidth > wrapRect.width - edge) {
+      left = pointerX - tooltipWidth - gap;
+    }
+    if (top + tooltipHeight > wrapRect.height - edge) {
+      top = pointerY - tooltipHeight - gap;
+    }
+
+    left = Math.max(edge, Math.min(left, wrapRect.width - tooltipWidth - edge));
+    top = Math.max(edge, Math.min(top, wrapRect.height - tooltipHeight - edge));
+    tooltip.style.left = `${left}px`;
+    tooltip.style.top = `${top}px`;
+  };
+
+  const showTooltip = (index, event) => {
     const point = data[index];
     if (!point) return;
     const rows = VIEWER_CHART_SERIES
@@ -338,13 +364,14 @@ bindChartTooltips = function bindMainBasedViewerChart() {
 
     tooltip.innerHTML = `<div class="viewer-chart-tooltip-label">${esc(point.label)}</div><div class="viewer-chart-tooltip-rows">${rows}</div>`;
     tooltip.hidden = false;
+    positionTooltip(event);
     const selectedX = pointX(index);
     crosshair.setAttribute('x1', String(selectedX));
     crosshair.setAttribute('x2', String(selectedX));
     crosshair.hidden = false;
   };
 
-  const selectFromPointer = (event) => showTooltip(nearestIndex(event));
+  const selectFromPointer = (event) => showTooltip(nearestIndex(event), event);
   svg.addEventListener('pointerenter', selectFromPointer);
   svg.addEventListener('pointermove', selectFromPointer);
   svg.addEventListener('pointerdown', selectFromPointer);
