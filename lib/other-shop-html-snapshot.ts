@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import { copyFile, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { extractOtherShopItems } from "@/lib/surugaya";
+import { extractOtherShopItemsSafely } from "@/lib/other-shop-items";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 
 const CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
@@ -75,13 +75,11 @@ export function extractCapturedOtherShopHtml(productHtml: string): {
 }
 
 export function parseOtherShopSnapshotItems(rawHtml: string): OtherShopSnapshotItem[] {
-  return extractOtherShopItems(rawHtml)
-    .filter((item) => item.sourceType === "other_shop")
-    .map((item) => ({
-      storeName: item.storeName ?? "店舗名不明",
-      condition: item.condition,
-      price: item.price,
-    }));
+  return extractOtherShopItemsSafely(rawHtml).map((item) => ({
+    storeName: item.storeName ?? "店舗名不明",
+    condition: item.condition,
+    price: item.price,
+  }));
 }
 
 export async function syncOtherShopSnapshotFromProductHtml({
