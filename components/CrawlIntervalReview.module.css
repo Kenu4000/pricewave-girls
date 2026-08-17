@@ -1,0 +1,246 @@
+.page {
+  display: grid;
+  gap: 18px;
+}
+
+.heading {
+  align-items: end;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.heading h1,
+.heading p,
+.productInfo h2,
+.error {
+  margin: 0;
+}
+
+.heading p {
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+.progressText {
+  align-items: end;
+  display: grid;
+  flex: 0 0 auto;
+  gap: 2px;
+  text-align: right;
+}
+
+.progressText strong {
+  font-size: 1.05rem;
+}
+
+.progressText span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.progressTrack {
+  background: #f1e4ec;
+  border-radius: 999px;
+  height: 9px;
+  overflow: hidden;
+}
+
+.progressTrack span {
+  background: var(--primary);
+  display: block;
+  height: 100%;
+  transition: width 180ms ease;
+}
+
+.reviewCard {
+  align-items: stretch;
+  display: grid;
+  gap: 28px;
+  grid-template-columns: minmax(220px, 340px) minmax(0, 1fr);
+}
+
+.imageArea {
+  align-items: center;
+  background: #fff0f7;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  min-height: 360px;
+  overflow: hidden;
+  padding: 18px;
+}
+
+.imageArea img {
+  height: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.productInfo {
+  align-content: start;
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  padding-block: 4px;
+}
+
+.productInfo h2 {
+  font-size: clamp(1.25rem, 2.5vw, 1.8rem);
+  line-height: 1.4;
+}
+
+.currentBadge {
+  background: #e8f7f1;
+  border: 1px solid #b8e0d0;
+  border-radius: 999px;
+  color: #126f51;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 6px 10px;
+  width: fit-content;
+}
+
+.productInfo dl {
+  display: grid;
+  gap: 0;
+  margin: 0;
+}
+
+.productInfo dl div {
+  border-bottom: 1px solid var(--border);
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  padding: 10px 0;
+}
+
+.productInfo dt {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.productInfo dd {
+  font-weight: 700;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.detailLink {
+  color: var(--primary-dark);
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  width: fit-content;
+}
+
+.decisionPanel {
+  display: grid;
+  gap: 14px;
+}
+
+.decisionPanel > div:first-child {
+  display: grid;
+  gap: 3px;
+}
+
+.decisionPanel > div:first-child span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.optionButton {
+  border: 1px solid transparent;
+  border-radius: 14px;
+  display: grid;
+  gap: 3px;
+  min-height: 78px;
+  padding: 12px 8px;
+}
+
+.optionButton strong {
+  font-size: 1rem;
+}
+
+.optionButton span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.one { background: #16835f; border-color: #126f51; }
+.three { background: #2878bd; border-color: #22679f; }
+.seven { background: #7558b5; border-color: #654b9d; }
+.fourteen { background: #a46124; border-color: #89511e; }
+.off { background: #62676d; border-color: #50545a; }
+
+.error {
+  color: var(--danger);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.finished {
+  align-items: start;
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+}
+
+.finished > strong {
+  font-size: 1.2rem;
+}
+
+.resultGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.resultGrid span {
+  background: #fff0f7;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 800;
+  padding: 7px 10px;
+}
+
+@media (max-width: 760px) {
+  .heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .progressText {
+    align-items: start;
+    text-align: left;
+  }
+
+  .reviewCard {
+    gap: 16px;
+    grid-template-columns: 1fr;
+    padding: 14px;
+  }
+
+  .imageArea {
+    min-height: 250px;
+  }
+
+  .options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .optionButton:first-child {
+    grid-column: 1 / -1;
+  }
+}
