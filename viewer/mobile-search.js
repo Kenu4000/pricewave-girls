@@ -1,6 +1,7 @@
 (() => {
   const originalRenderProducts = globalThis.renderProducts;
-  if (typeof originalRenderProducts !== 'function') return;
+  const originalFilteredProducts = globalThis.filteredProducts;
+  if (typeof originalRenderProducts !== 'function' || typeof originalFilteredProducts !== 'function') return;
 
   function bindStandardPager(results) {
     results.querySelectorAll('[data-page]').forEach((button) => {
@@ -77,11 +78,95 @@
     return `<optgroup label="よく登録されているメーカー"><option value="" ${state.brand ? '' : 'selected'}>すべて</option>${featuredOptions}</optgroup><optgroup label="五十音順">${alphabeticalOptions}</optgroup>`;
   }
 
+  function interestSeriesMetrics(changes, type) {
+    const series = changes
+      .filter((change) =>
+        change.type === type
+        && Number(change.previousPrice) > 0
+        && Number(change.currentPrice) > 0
+        && Number(change.previousPrice) !== Number(change.currentPrice))
+      .sort((left, right) => new Date(left.changedAt) - new Date(right.changedAt));
+    if (!series.length) return { rangeRatio: 0, changeCount: 0, reversalCount: 0, latestChangedAt: 0 };
+
+    const values = [];
+    const directions = [];
+    let latestChangedAt = 0;
+    for (const change of series) {
+      const previous = Number(change.previousPrice);
+      const current = Number(change.currentPrice);
+      values.push(previous, current);
+      directions.push(Math.sign(current - previous));
+      latestChangedAt = Math.max(latestChangedAt, new Date(change.changedAt).getTime());
+    }
+
+    const minPrice = Math.min(...values);
+    const maxPrice = Math.max(...values);
+    let reversalCount = 0;
+    for (let index = 1; index < directions.length; index += 1) {
+      if (directions[index] !== directions[index - 1]) reversalCount += 1;
+    }
+    return {
+      rangeRatio: minPrice > 0 ? (maxPrice - minPrice) / minPrice : 0,
+      changeCount: directions.length,
+      reversalCount,
+      latestChangedAt,
+    };
+  }
+
+  function viewerInterestScore(changes, now = Date.now()) {
+    const sale = interestSeriesMetrics(changes, 'sale');
+    const buy = interestSeriesMetrics(changes, 'buy');
+    const rangeRatio = Math.max(sale.rangeRatio, buy.rangeRatio);
+    const changeCount = sale.changeCount + buy.changeCount;
+    const reversalCount = sale.reversalCount + buy.reversalCount;
+    const latestChangedAt = Math.max(sale.latestChangedAt, buy.latestChangedAt);
+    if (!changeCount || !latestChangedAt) return { score: 0, latestChangedAt: 0 };
+
+    const ageDays = Math.max(0, (now - latestChangedAt) / 86400000);
+    const score = Math.min(rangeRatio, 2) * 40
+      + Math.min(changeCount, 12) * 3
+      + Math.min(reversalCount, 6) * 8
+      + Math.max(0, 1 - ageDays / 30) * 20;
+    return { score, latestChangedAt };
+  }
+
+  function viewerInterestScores() {
+    const changesByProduct = new Map();
+    for (const change of state.data.priceChanges || []) {
+      const changes = changesByProduct.get(change.productId) || [];
+      changes.push(change);
+      changesByProduct.set(change.productId, changes);
+    }
+
+    const now = Date.now();
+    return new Map(
+      state.data.products.map((product) => [
+        product.id,
+        viewerInterestScore(changesByProduct.get(product.id) || [], now),
+      ]),
+    );
+  }
+
+  globalThis.filteredProducts = function filteredProductsWithInterest(source = state.data.products) {
+    const items = originalFilteredProducts(source);
+    if (state.sort !== 'interesting_desc') return items;
+
+    const scores = viewerInterestScores();
+    return [...items].sort((left, right) => {
+      const leftInterest = scores.get(left.id) || { score: 0, latestChangedAt: 0 };
+      const rightInterest = scores.get(right.id) || { score: 0, latestChangedAt: 0 };
+      return rightInterest.score - leftInterest.score
+        || rightInterest.latestChangedAt - leftInterest.latestChangedAt
+        || left.title.localeCompare(right.title, 'ja')
+        || left.id - right.id;
+    });
+  };
+
   function renderStandardResults() {
     const results = document.querySelector('#viewer-product-results');
     if (!results) return;
 
-    const items = filteredProducts();
+    const items = globalThis.filteredProducts();
     const start = (state.page - 1) * state.perPage;
     const visible = items.slice(start, start + state.perPage);
     const count = document.querySelector('#viewer-product-count');
@@ -100,7 +185,7 @@
     }
 
     app.innerHTML = `<div class="section-title"><h1>${esc(title)}</h1><span class="muted" id="viewer-product-count"></span></div>
-      <div class="toolbar panel"><input class="search" id="q" value="${esc(state.query)}" placeholder="商品名で検索"><select id="brand">${viewerBrandOptions()}</select><select id="sort"><option value="updated_desc" ${state.sort === 'updated_desc' ? 'selected' : ''}>更新が新しい順</option><option value="updated_asc" ${state.sort === 'updated_asc' ? 'selected' : ''}>更新が古い順</option><option value="sale_asc" ${state.sort === 'sale_asc' ? 'selected' : ''}>販売価格が安い順</option><option value="sale_desc" ${state.sort === 'sale_desc' ? 'selected' : ''}>販売価格が高い順</option><option value="release_desc" ${state.sort === 'release_desc' ? 'selected' : ''}>発売日が新しい順</option><option value="title_asc" ${state.sort === 'title_asc' ? 'selected' : ''}>商品名順</option></select><select id="per"><option ${state.perPage === 24 ? 'selected' : ''}>24</option><option ${state.perPage === 48 ? 'selected' : ''}>48</option><option ${state.perPage === 96 ? 'selected' : ''}>96</option></select></div>
+      <div class="toolbar panel"><input class="search" id="q" value="${esc(state.query)}" placeholder="商品名で検索"><select id="brand">${viewerBrandOptions()}</select><select id="sort"><option value="updated_desc" ${state.sort === 'updated_desc' ? 'selected' : ''}>更新が新しい順</option><option value="updated_asc" ${state.sort === 'updated_asc' ? 'selected' : ''}>更新が古い順</option><option value="interesting_desc" ${state.sort === 'interesting_desc' ? 'selected' : ''}>注目度が高い順</option><option value="sale_asc" ${state.sort === 'sale_asc' ? 'selected' : ''}>販売価格が安い順</option><option value="sale_desc" ${state.sort === 'sale_desc' ? 'selected' : ''}>販売価格が高い順</option><option value="release_desc" ${state.sort === 'release_desc' ? 'selected' : ''}>発売日が新しい順</option><option value="title_asc" ${state.sort === 'title_asc' ? 'selected' : ''}>商品名順</option></select><select id="per"><option ${state.perPage === 24 ? 'selected' : ''}>24</option><option ${state.perPage === 48 ? 'selected' : ''}>48</option><option ${state.perPage === 96 ? 'selected' : ''}>96</option></select></div>
       <div id="viewer-product-results"></div>`;
 
     document.querySelector('#q').addEventListener('input', (event) => {
