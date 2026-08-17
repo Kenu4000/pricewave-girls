@@ -58,11 +58,7 @@ export function ProductCrawlIntervalControl({
 
   return (
     <section className={styles.panel} aria-label="この商品の巡回周期">
-      <div className={styles.copy}>
-        <strong>巡回周期</strong>
-        <span>この商品を取得する頻度</span>
-        {status ? <span className={styles.status} role="status">{status}</span> : null}
-      </div>
+      <strong className={styles.label}>巡回周期</strong>
       <div className={styles.buttons} role="group" aria-label="巡回周期を変更">
         {OPTIONS.map((option) => {
           const selected = sameInterval(value, option.value);
@@ -80,6 +76,7 @@ export function ProductCrawlIntervalControl({
           );
         })}
       </div>
+      {status ? <span className={styles.status} role="status">{status}</span> : null}
     </section>
   );
 }

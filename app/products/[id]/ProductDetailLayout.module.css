@@ -1,0 +1,16 @@
+.crawlControl {
+  grid-column: 2 / -1;
+  min-width: 0;
+}
+
+@media (max-width: 960px) {
+  .crawlControl {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 760px) {
+  .crawlControl {
+    grid-column: auto;
+  }
+}
