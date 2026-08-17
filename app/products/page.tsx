@@ -15,6 +15,7 @@ import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
 import { conditionAnnotatedProductIds } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
+import intervalStyles from "./CrawlIntervalFilter.module.css";
 
 export const dynamic = "force-dynamic";
 
@@ -38,12 +39,21 @@ const STOCK_OPTIONS = [
   { value: "out_of_stock", label: "在庫なし" },
   { value: "unknown", label: "在庫不明" },
 ] as const;
+const CRAWL_INTERVAL_OPTIONS = [
+  { value: "", label: "すべて", tone: "all" },
+  { value: "1", label: "1日", tone: "one" },
+  { value: "3", label: "3日", tone: "three" },
+  { value: "7", label: "7日", tone: "seven" },
+  { value: "14", label: "14日", tone: "fourteen" },
+  { value: "off", label: "無", tone: "off" },
+] as const;
 type SortKey = (typeof SORT_OPTIONS)[number]["value"];
 type HistorySortKey = Extract<SortKey, "updated-desc" | "updated-asc">;
 type SpreadSortKey = Extract<SortKey, "spread-asc" | "spread-desc">;
 type DatabaseSortKey = Exclude<SortKey, HistorySortKey | SpreadSortKey>;
 type PageSize = (typeof PAGE_SIZES)[number];
 type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
+type CrawlIntervalFilter = (typeof CRAWL_INTERVAL_OPTIONS)[number]["value"];
 type ConditionTitleFilter = "" | "exclude";
 
 type ProductFilters = {
@@ -57,6 +67,7 @@ type ProductFilters = {
   saleBand: string;
   buyBand: string;
   stock: StockFilter;
+  crawlInterval: CrawlIntervalFilter;
   conditionTitle: ConditionTitleFilter;
   detailLabel: string;
   detailValue: string;
@@ -136,6 +147,12 @@ function parseStock(value: string | undefined): StockFilter {
     : "";
 }
 
+function parseCrawlInterval(value: string | undefined): CrawlIntervalFilter {
+  return CRAWL_INTERVAL_OPTIONS.some((option) => option.value === value)
+    ? (value as CrawlIntervalFilter)
+    : "";
+}
+
 function parseConditionTitle(value: string | undefined): ConditionTitleFilter {
   return value === "exclude" ? "exclude" : "";
 }
@@ -152,6 +169,7 @@ function parseFilters(query: Record<string, string | string[] | undefined>): Pro
     saleBand: parsePriceBand(firstValue(query.saleBand)),
     buyBand: parsePriceBand(firstValue(query.buyBand)),
     stock: parseStock(firstValue(query.stock)),
+    crawlInterval: parseCrawlInterval(firstValue(query.crawlInterval)),
     conditionTitle: parseConditionTitle(firstValue(query.conditionTitle)),
     detailLabel: parseText(firstValue(query.detailLabel), 30),
     detailValue: parseText(firstValue(query.detailValue), 500),
@@ -237,6 +255,11 @@ function buildProductWhere(
     conditions.push({ OR: [{ stockStatus: "unknown" }, { stockStatus: null }] });
   } else if (filters.stock) {
     conditions.push({ stockStatus: filters.stock });
+  }
+  if (filters.crawlInterval === "off") {
+    conditions.push({ crawlIntervalDays: null });
+  } else if (filters.crawlInterval) {
+    conditions.push({ crawlIntervalDays: Number(filters.crawlInterval) });
   }
 
   return conditions.length > 0 ? { AND: conditions } : {};
@@ -422,6 +445,9 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     filters.detailValue,
   ].some(Boolean);
   const streamEnabled = currentPage === 1 && !filtersActive && sort === "updated-desc";
+  const selectedIntervalLabel = CRAWL_INTERVAL_OPTIONS.find(
+    (option) => option.value === filters.crawlInterval,
+  )?.label ?? "すべて";
 
   return (
     <section className="product-list-page">
@@ -440,7 +466,39 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         </div>
       </div>
 
+      <div className={`card ${intervalStyles.panel}`}>
+        <div className={intervalStyles.copy}>
+          <span className={intervalStyles.title}>巡回周期で絞り込み</span>
+          <span className={intervalStyles.description}>
+            {filters.crawlInterval
+              ? `${selectedIntervalLabel}設定の商品だけを表示中`
+              : "周期を押すと、その日数に設定された商品だけを表示"}
+          </span>
+        </div>
+        <div className={intervalStyles.buttons} role="group" aria-label="巡回周期で商品を絞り込み">
+          {CRAWL_INTERVAL_OPTIONS.map((option) => {
+            const selected = option.value === filters.crawlInterval;
+            return (
+              <Link
+                aria-current={selected ? "page" : undefined}
+                className={intervalStyles.button}
+                data-selected={selected ? "true" : "false"}
+                data-tone={option.tone}
+                href={listUrl(1, sort, perPage, {
+                  ...filters,
+                  crawlInterval: option.value,
+                })}
+                key={option.value || "all"}
+              >
+                {option.label}
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+
       <form action="/products" className="card filter-panel">
+        <input name="crawlInterval" type="hidden" value={filters.crawlInterval} />
         {filters.detailLabel && filters.detailValue ? (
           <div className="linked-detail-filter">
             <span>商品詳細: {filters.detailLabel}「{filters.detailValue}」</span>

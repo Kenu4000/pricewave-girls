@@ -13,6 +13,24 @@ test("商品一覧に1・3・7・14日・無の巡回周期ボタンを表示す
   assert.match(grid, /crawl-interval/u);
 });
 
+test("商品一覧を巡回周期で全登録商品から絞り込める", async () => {
+  const page = await readFile(new URL("../app/products/page.tsx", import.meta.url), "utf8");
+  const css = await readFile(
+    new URL("../app/products/CrawlIntervalFilter.module.css", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(page, /巡回周期で絞り込み/u);
+  assert.match(page, /CRAWL_INTERVAL_OPTIONS/u);
+  assert.match(page, /crawlInterval: parseCrawlInterval/u);
+  assert.match(page, /conditions\.push\(\{ crawlIntervalDays: null \}\)/u);
+  assert.match(page, /conditions\.push\(\{ crawlIntervalDays: Number\(filters\.crawlInterval\) \}\)/u);
+  assert.match(page, /name="crawlInterval" type="hidden"/u);
+  assert.match(page, /crawlInterval: option\.value/u);
+  assert.match(css, /grid-template-columns: repeat\(6/u);
+  assert.match(css, /data-tone="seven"/u);
+});
+
 test("自動巡回と手動巡回は同じ均等化スケジュールを使う", async () => {
   const wrapper = await readFile(
     new URL("../browser-extension/popular-refresh-wrapper.js", import.meta.url),
