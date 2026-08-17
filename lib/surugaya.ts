@@ -430,6 +430,9 @@ function firstText(element: cheerio.Cheerio<any>, selectors: string[]): string |
 }
 
 function extractConditionFromText(text: string): string {
+  const rankB = text.match(/(?:^|\s)(ランク\s*B(?:[)）])?)/iu);
+  if (rankB) return cleanCondition(rankB[1]);
+
   const match = text.match(
     /(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ).*?)(?=\s*[¥￥]?[0-9０-９]|$)/u,
   );
@@ -445,7 +448,7 @@ function cleanCondition(value: string): string {
 }
 
 function isConditionText(value: string): boolean {
-  return /^(?:中古|新品|予約|プレミア|ワケアリ)/u.test(normalizeText(value));
+  return /^(?:中古|新品|予約|プレミア|ワケアリ|ランク\s*B(?:[)）])?)/iu.test(normalizeText(value));
 }
 
 function containsYenPrice(value: string): boolean {
