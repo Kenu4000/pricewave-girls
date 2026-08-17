@@ -15,6 +15,7 @@ export const TIME_SALE_END_AT_DETAIL_KEY = "__pricewaveTimeSaleEndsAt";
 
 const TIME_SALE_PATTERN = /(?:※\s*)?タイム\s*セール/iu;
 const TIME_SALE_IMAGE_PATTERN = /タイム\s*セール|time[_-]?sale|flash[_-]?sale/iu;
+const PRIMARY_RANK_B_PATTERN = /(?:【\s*)?ランク\s*B(?:\s*】|\s*[)）])?/iu;
 
 export function detectPrimaryTimeSale(html: string): boolean {
   const section = primarySaleSection(html);
@@ -40,11 +41,26 @@ export function detectPrimaryTimeSaleRegularPrice(html: string): number | null {
   return null;
 }
 
+export function detectPrimaryProductCondition(html: string): {
+  condition: string | null;
+  conditionRank: "A" | "B";
+} {
+  const section = primarySaleSection(html);
+  const rankBBlock = section.blocks.find((block) => PRIMARY_RANK_B_PATTERN.test(block));
+  if (rankBBlock) {
+    return { condition: "ランクB", conditionRank: "B" };
+  }
+  return { condition: null, conditionRank: "A" };
+}
+
 export function withProductStateStorageMarkers(
   html: string,
   fetched: FetchedProduct,
 ): FetchedProduct {
   const titleState = splitProductTitleCondition(fetched.title);
+  const primaryConditionState = detectPrimaryProductCondition(html);
+  const conditionState =
+    titleState.conditionRank === "B" ? titleState : primaryConditionState;
   const isTimeSale = detectPrimaryTimeSale(html);
   const regularSalePrice = isTimeSale ? detectPrimaryTimeSaleRegularPrice(html) : null;
   const timeSaleEndsAt = isTimeSale ? detectTimeSaleEndAt(html) : null;
@@ -55,9 +71,9 @@ export function withProductStateStorageMarkers(
   delete details[TIME_SALE_REGULAR_PRICE_DETAIL_KEY];
   delete details[TIME_SALE_END_AT_DETAIL_KEY];
 
-  if (titleState.condition) {
-    details[PRODUCT_CONDITION_DETAIL_KEY] = titleState.condition;
-    details[PRODUCT_CONDITION_RANK_DETAIL_KEY] = titleState.conditionRank;
+  if (conditionState.condition) {
+    details[PRODUCT_CONDITION_DETAIL_KEY] = conditionState.condition;
+    details[PRODUCT_CONDITION_RANK_DETAIL_KEY] = conditionState.conditionRank;
   }
   if (regularSalePrice !== null) {
     details[TIME_SALE_REGULAR_PRICE_DETAIL_KEY] = String(regularSalePrice);
