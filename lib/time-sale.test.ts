@@ -5,8 +5,10 @@ import {
   PRODUCT_CONDITION_RANK_DETAIL_KEY,
 } from "./product-title-condition";
 import {
+  detectPrimaryProductCondition,
   detectPrimaryTimeSale,
   detectPrimaryTimeSaleRegularPrice,
+  productConditionStateFromFetched,
   regularSalePriceFromFetched,
   TIME_SALE_DETAIL_KEY,
   TIME_SALE_REGULAR_PRICE_DETAIL_KEY,
@@ -118,6 +120,52 @@ test("その他の状態だけがタイムセールでも主商品は通常価�
     `),
     false,
   );
+});
+
+test("タイトルが通常でも主販売欄のランクBを状態Bとして保存する", () => {
+  const html = `
+    <html><body>
+      <h1>WindowsVista/7/8 DVDソフト 智代アフター ～It’s a Wonderful Life～ PerfectEdition</h1>
+      <div class="item-price">中古 ランクB 18,000円 (税込) 在庫数：1</div>
+    </body></html>
+  `;
+  const original = {
+    ...fetchedProduct(),
+    title: "WindowsVista/7/8 DVDソフト 智代アフター ～It’s a Wonderful Life～ PerfectEdition",
+    salePrice: 18000,
+  };
+
+  assert.deepEqual(detectPrimaryProductCondition(html), {
+    condition: "ランクB",
+    conditionRank: "B",
+  });
+  const marked = withProductStateStorageMarkers(html, original);
+  assert.deepEqual(productConditionStateFromFetched(marked), {
+    condition: "ランクB",
+    conditionRank: "B",
+  });
+  assert.equal(marked.title, original.title);
+});
+
+test("その他の状態側だけがランクBでも主商品は通常として保存する", () => {
+  const html = `
+    <html><body>
+      <h1>テスト商品</h1>
+      <div>中古 6,000円 (税込)</div>
+      <h2>その他の状態を選ぶ</h2>
+      <div>中古 ランクB 5,000円 (税込)</div>
+    </body></html>
+  `;
+
+  assert.deepEqual(detectPrimaryProductCondition(html), {
+    condition: null,
+    conditionRank: "A",
+  });
+  const marked = withProductStateStorageMarkers(html, fetchedProduct());
+  assert.deepEqual(productConditionStateFromFetched(marked), {
+    condition: null,
+    conditionRank: "A",
+  });
 });
 
 test("状態難表記をタイトルから外してランクBマーカーへ保存する", () => {
