@@ -58,8 +58,8 @@ export function ProductListCount({
       <p aria-live="polite" className="muted">
         {filtersActive ? (
           <>
-            全{allProducts.toLocaleString("ja-JP")}件中、条件に一致する
-            {totalProducts.toLocaleString("ja-JP")}件
+            全{allProducts.toLocaleString("ja-JP")}件中、絞り込み結果：
+            <strong>{totalProducts.toLocaleString("ja-JP")}件</strong>
           </>
         ) : (
           <>全{totalProducts.toLocaleString("ja-JP")}件</>
