@@ -39,6 +39,24 @@ test("状態ラベルがなくても明確な欠品表記はランクBとして�
   );
 });
 
+test("駿河屋のランクB接頭表記を状態として分離する", () => {
+  assert.deepEqual(
+    splitProductTitleCondition(
+      "WindowsVista/7/8 DVDソフト ランクB)智代アフター ～It’s a Wonderful Life～ PerfectEdition",
+    ),
+    {
+      title: "WindowsVista/7/8 DVDソフト 智代アフター ～It’s a Wonderful Life～ PerfectEdition",
+      condition: "ランクB",
+      conditionRank: "B",
+    },
+  );
+  assert.deepEqual(splitProductTitleCondition("【ランクB】Kanon"), {
+    title: "Kanon",
+    condition: "ランクB",
+    conditionRank: "B",
+  });
+});
+
 test("通常の括弧を状態表記として扱わない", () => {
   assert.equal(hasTrailingConditionAnnotation("AIR(初回限定版)"), false);
   assert.equal(hasTrailingConditionAnnotation("作品名（Windows版）"), false);
@@ -51,7 +69,8 @@ test("状態表記付き商品のIDだけを抽出する", () => {
       { id: 1, title: "AIR" },
       { id: 2, title: "Kanon(状態：ディスクのみ)" },
       { id: 3, title: "CLANNAD", condition: "箱不備", conditionRank: "B" },
+      { id: 4, title: "Windows DVDソフト ランクB)智代アフター" },
     ]),
-    [2, 3],
+    [2, 3, 4],
   );
 });
