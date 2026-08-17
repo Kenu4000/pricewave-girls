@@ -227,7 +227,6 @@ renderChart = function renderMainBasedViewerChart(histories) {
   const BOTTOM = compact ? 54 : 58;
   const plotWidth = W - LEFT - RIGHT;
   const plotHeight = H - TOP - BOTTOM;
-  const plotBottom = TOP + plotHeight;
   const maxV = Math.max(...values);
   const hi = Math.max(100, maxV + Math.max(80, maxV * 0.08));
 
@@ -293,72 +292,13 @@ renderChart = function renderMainBasedViewerChart(histories) {
     return `<g class="viewer-chart-series ${series.className}">${pathMarkup}${visibleDots}</g>`;
   }).join('');
 
-  const hitColumns = data
-    .map((point, index) => {
-      const previousX = index === 0 ? LEFT : x(index - 1);
-      const nextX = index === data.length - 1 ? W - RIGHT : x(index + 1);
-      const left = index === 0 ? LEFT : (previousX + x(index)) / 2;
-      const right = index === data.length - 1 ? W - RIGHT : (x(index) + nextX) / 2;
-      return `<rect class="viewer-chart-hit" data-viewer-chart-index="${index}" x="${left}" y="${TOP}" width="${Math.max(1, right - left)}" height="${plotHeight}"></rect>`;
-    })
-    .join('');
 
-  return `<div class="viewer-price-chart">${viewerChartControls()}<p class="viewer-chart-note">${esc(viewerChartNote(viewerChartMode))}</p>${viewerChartLegend()}<div class="viewer-chart-tooltip" hidden></div><div class="viewer-chart-wrap"><svg class="viewer-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}<line class="viewer-chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line>${hitColumns}</svg></div></div>`;
+  return `<div class="viewer-price-chart">${viewerChartControls()}<p class="viewer-chart-note">${esc(viewerChartNote(viewerChartMode))}</p>${viewerChartLegend()}<div class="viewer-chart-wrap"><svg class="viewer-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}</svg></div></div>`;
 };
 
 bindChartTooltips = function bindMainBasedViewerChart() {
   const root = document.querySelector('.viewer-price-chart');
-  const svg = root?.querySelector('.viewer-chart');
-  const tooltip = root?.querySelector('.viewer-chart-tooltip');
-  const crosshair = root?.querySelector('.viewer-chart-crosshair');
-  if (!root || !svg || !tooltip || !crosshair) return;
-
-  const data = viewerAggregatePriceChartData(viewerChartSourceHistories, viewerChartMode);
-  const compact = matchMedia('(max-width: 760px)').matches;
-  const W = compact ? 720 : 1000;
-  const LEFT = compact ? 64 : 84;
-  const RIGHT = compact ? 10 : 18;
-  const plotWidth = W - LEFT - RIGHT;
-  const pointX = (index) =>
-    LEFT + (data.length <= 1 ? plotWidth / 2 : (index / (data.length - 1)) * plotWidth);
-
-  const showTooltip = (index) => {
-    const point = data[index];
-    if (!point) return;
-    const rows = VIEWER_CHART_SERIES
-      .filter((series) => point[series.key] != null)
-      .map(
-        (series) =>
-          `<div class="viewer-chart-tooltip-row"><span class="viewer-chart-tooltip-marker ${series.className}"></span><span>${series.label}</span><strong>${esc(viewerChartYen(point[series.key]))}</strong></div>`,
-      )
-      .join('');
-    if (!rows) return;
-
-    tooltip.innerHTML = `<div class="viewer-chart-tooltip-label">${esc(point.label)}</div><div class="viewer-chart-tooltip-rows">${rows}</div>`;
-    tooltip.hidden = false;
-    crosshair.setAttribute('x1', String(pointX(index)));
-    crosshair.setAttribute('x2', String(pointX(index)));
-    crosshair.hidden = false;
-  };
-
-  root.querySelectorAll('[data-viewer-chart-index]').forEach((hit) => {
-    const select = () => showTooltip(Number(hit.dataset.viewerChartIndex));
-    hit.addEventListener('pointerenter', select);
-    hit.addEventListener('pointerdown', (event) => {
-      event.preventDefault();
-      select();
-    });
-    hit.addEventListener('pointermove', (event) => {
-      if (event.pointerType === 'mouse' || event.buttons > 0) select();
-    });
-  });
-
-  svg.addEventListener('pointerleave', () => {
-    if (matchMedia('(hover: hover)').matches) {
-      tooltip.hidden = true;
-      crosshair.hidden = true;
-    }
-  });
+  if (!root) return;
 
   root.querySelectorAll('[data-viewer-chart-mode]').forEach((button) => {
     button.addEventListener('click', () => {

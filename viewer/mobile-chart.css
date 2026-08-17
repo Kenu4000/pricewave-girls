@@ -69,23 +69,19 @@
   width: 18px;
 }
 
-.viewer-chart-legend .sale::before,
-.viewer-chart-tooltip-marker.sale {
+.viewer-chart-legend .sale::before {
   background: #d9469a;
 }
 
-.viewer-chart-legend .buy::before,
-.viewer-chart-tooltip-marker.buy {
+.viewer-chart-legend .buy::before {
   background: #3b82f6;
 }
 
-.viewer-chart-legend .rankb::before,
-.viewer-chart-tooltip-marker.rankb {
+.viewer-chart-legend .rankb::before {
   background: #16a34a;
 }
 
-.viewer-chart-legend .timesale::before,
-.viewer-chart-tooltip-marker.timesale {
+.viewer-chart-legend .timesale::before {
   background: #eab308;
 }
 
@@ -103,6 +99,7 @@
   height: 100%;
   max-width: 100%;
   overflow: visible;
+  pointer-events: none;
   touch-action: pan-y;
   user-select: none;
   width: 100%;
@@ -163,57 +160,12 @@
   vector-effect: non-scaling-stroke;
 }
 
-.viewer-chart-hit {
-  fill: rgba(0, 0, 0, 0.001);
-  pointer-events: all;
-}
 
-.viewer-chart-crosshair {
-  stroke: #64748b;
-  stroke-dasharray: 3 3;
-  stroke-width: 1;
-  vector-effect: non-scaling-stroke;
-  pointer-events: none;
-}
 
-.viewer-chart-tooltip {
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid #efd7e7;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
-  margin: 2px 0 6px auto;
-  max-width: min(260px, calc(100vw - 32px));
-  min-width: 148px;
-  padding: 8px 10px;
-  width: max-content;
-}
 
-.viewer-chart-tooltip-label {
-  color: #7b6d7e;
-  font-size: 0.76rem;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
 
-.viewer-chart-tooltip-rows {
-  display: grid;
-  gap: 4px;
-}
 
-.viewer-chart-tooltip-row {
-  align-items: center;
-  display: grid;
-  font-size: 0.8rem;
-  gap: 6px;
-  grid-template-columns: 8px minmax(0, 1fr) auto;
-  white-space: nowrap;
-}
 
-.viewer-chart-tooltip-marker {
-  border-radius: 50%;
-  height: 7px;
-  width: 7px;
-}
 
 @media (max-width: 760px) {
   .viewer-chart-controls {
@@ -262,20 +214,6 @@
     stroke-width: 2;
   }
 
-  .viewer-chart-tooltip {
-    margin-left: 0;
-    max-width: calc(100vw - 40px);
-    min-width: 0;
-    padding: 7px 8px;
-  }
 
-  .viewer-chart-tooltip-label {
-    font-size: 0.7rem;
-  }
 
-  .viewer-chart-tooltip-row {
-    font-size: 0.74rem;
-    grid-template-columns: 7px minmax(0, 1fr) auto;
-    white-space: normal;
-  }
 }

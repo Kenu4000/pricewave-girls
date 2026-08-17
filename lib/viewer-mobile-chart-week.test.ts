@@ -16,7 +16,7 @@ test("Viewerの価格推移はmainと同じ日・週・月モードを使う", (
   assert.match(script, /value: 'day', label: '日（全期間）'/u);
   assert.match(script, /value: 'week', label: '週'/u);
   assert.match(script, /value: 'month', label: '月'/u);
-  assert.doesNotMatch(script, />7日<\/button>/u);
+  assert.doesNotMatch(script, />7f��<\/button>/u);
   assert.doesNotMatch(script, />1か月<\/button>/u);
 });
 
@@ -83,6 +83,16 @@ test("モバイルは横スクロールせず縦スクロールを維持する",
   assert.match(css, /overflow:\s*hidden/u);
   assert.match(css, /overscroll-behavior-x:\s*none/u);
   assert.match(css, /touch-action:\s*pan-y/u);
+});
+
+test("Viewerの価格推移グラフは固定表示でポインター操作に追従しない", () => {
+  assert.doesNotMatch(script, /data-viewer-chart-index/u);
+  assert.doesNotMatch(script, /viewer-chart-crosshair/u);
+  assert.doesNotMatch(script, /viewer-chart-tooltip/u);
+  assert.doesNotMatch(script, /addEventListener\('pointerenter'/u);
+  assert.doesNotMatch(script, /addEventListener\('pointermove'/u);
+  assert.doesNotMatch(script, /addEventListener\('pointerdown'/u);
+  assert.match(css, /\.viewer-chart\s*\{[\s\S]*?pointer-events:\s*none/u);
 });
 
 test("ViewerグラフJavaScriptを構文解析できる", () => {
