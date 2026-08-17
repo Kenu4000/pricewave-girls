@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { rankFeaturedBrandsByCrawlFrequency } from "./brand-featured-crawl-order";
 
-test("メーカー候補は1日率から順に短い巡回周期の割合を優先する", () => {
+test("メーカー候補は1日と3日を合わせた短い巡回周期の割合を最優先する", () => {
   const products = [
     ...Array.from({ length: 10 }, (_, index) => ({
       manufacturer: "A",
@@ -19,7 +19,22 @@ test("メーカー候補は1日率から順に短い巡回周期の割合を優�
   ];
 
   const ranked = rankFeaturedBrandsByCrawlFrequency(products);
-  assert.deepEqual(ranked.slice(0, 3).map((profile) => profile.label), ["C", "A", "B"]);
+  assert.deepEqual(ranked.slice(0, 3).map((profile) => profile.label), ["C", "B", "A"]);
+});
+
+test("3日周期中心のメーカーも1日周期中心のメーカーより上に入れる", () => {
+  const ranked = rankFeaturedBrandsByCrawlFrequency([
+    ...Array.from({ length: 10 }, (_, index) => ({
+      manufacturer: "ThreeDay",
+      crawlIntervalDays: index < 9 ? 3 : null,
+    })),
+    ...Array.from({ length: 10 }, (_, index) => ({
+      manufacturer: "Daily",
+      crawlIntervalDays: index < 8 ? 1 : null,
+    })),
+  ]);
+
+  assert.deepEqual(ranked.slice(0, 2).map((profile) => profile.label), ["ThreeDay", "Daily"]);
 });
 
 test("ブランド別名を統合して巡回周期比率を計算する", () => {
@@ -46,4 +61,14 @@ test("同率なら登録数が多いメーカーを先にする", () => {
   ]);
 
   assert.deepEqual(ranked.map((profile) => profile.label), ["A", "B"]);
+});
+
+test("よく登録されているメーカーは12件に制限しない", () => {
+  const products = Array.from({ length: 15 }, (_, brandIndex) => [
+    { manufacturer: `Brand${brandIndex}`, crawlIntervalDays: 3 },
+    { manufacturer: `Brand${brandIndex}`, crawlIntervalDays: 3 },
+  ]).flat();
+
+  const ranked = rankFeaturedBrandsByCrawlFrequency(products);
+  assert.equal(ranked.length, 15);
 });
