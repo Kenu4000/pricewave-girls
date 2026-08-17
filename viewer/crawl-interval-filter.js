@@ -24,6 +24,23 @@
     return originalFilteredProducts(source).filter(matchesCrawlInterval);
   };
 
+  function updateFilteredCount() {
+    const output = app.querySelector('#viewer-crawl-interval-filter-count');
+    if (!output) return;
+    const count = globalThis.filteredProducts().length;
+    output.textContent = state.crawlInterval
+      ? `絞り込み結果：${count.toLocaleString('ja-JP')}件`
+      : `全${count.toLocaleString('ja-JP')}件`;
+  }
+
+  function watchProductCount() {
+    const count = app.querySelector('#viewer-product-count');
+    if (!count || count.dataset.crawlIntervalCountWatch === 'true') return;
+    count.dataset.crawlIntervalCountWatch = 'true';
+    const observer = new MutationObserver(updateFilteredCount);
+    observer.observe(count, { childList: true, characterData: true, subtree: true });
+  }
+
   function mountFilter() {
     const toolbar = app.querySelector('.toolbar');
     if (!toolbar || app.querySelector('#viewer-crawl-interval-filter')) return;
@@ -36,6 +53,7 @@
       <div class="crawl-interval-filter-copy">
         <strong>巡回周期で絞り込み</strong>
         <span>設定されている周期の商品を一覧表示</span>
+        <span id="viewer-crawl-interval-filter-count" aria-live="polite"></span>
       </div>
       <div class="crawl-interval-filter-buttons" role="group" aria-label="巡回周期">
         ${options.map((option) => {
@@ -52,11 +70,17 @@
         globalThis.renderProducts();
       });
     });
+    watchProductCount();
+    updateFilteredCount();
   }
 
   globalThis.renderProducts = function renderProductsWithCrawlInterval(customProducts = null, title = '商品一覧') {
     const result = originalRenderProducts(customProducts, title);
-    if (!customProducts) mountFilter();
+    if (!customProducts) {
+      mountFilter();
+      watchProductCount();
+      updateFilteredCount();
+    }
     return result;
   };
 })();
