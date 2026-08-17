@@ -12,6 +12,7 @@ import {
 import { selectDisplayedPriceHistories } from "@/lib/price-history-display";
 import { prisma } from "@/lib/prisma";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
+import layoutStyles from "./ProductDetailLayout.module.css";
 
 export const dynamic = "force-dynamic";
 
@@ -216,16 +217,19 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <span className="badge">通常価格: {formatPrice(product.latestRegularSalePrice)}</span>
             ) : null}
           </div>
-          <ProductCrawlIntervalControl
-            initialValue={product.crawlIntervalDays as 1 | 3 | 7 | 14 | null}
-            productId={product.id}
-          />
         </article>
 
         <section className="detail-chart-panel">
           <h2>価格推移</h2>
           <PriceChart histories={histories} />
         </section>
+
+        <div className={layoutStyles.crawlControl}>
+          <ProductCrawlIntervalControl
+            initialValue={product.crawlIntervalDays as 1 | 3 | 7 | 14 | null}
+            productId={product.id}
+          />
+        </div>
       </section>
 
       <section className="card detail-section">
