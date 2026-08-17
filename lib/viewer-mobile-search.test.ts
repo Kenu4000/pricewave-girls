@@ -36,12 +36,23 @@ test("検索修正はapp.jsの後に読み込んでrenderProductsを差し替え
   assert.match(script, /globalThis\.renderProducts\s*=\s*renderProductsStableSearch/u);
 });
 
-test("メーカー候補は上位12件と全メーカー五十音順を分けて表示する", () => {
+test("メーカー候補は短い巡回周期の割合を優先して上位12件を決める", () => {
   assert.match(script, /label="よく登録されているメーカー"/u);
   assert.match(script, /label="五十音順"/u);
-  assert.match(script, /<option value="" \$\{state\.brand \? '' : 'selected'\}>すべて<\/option>/u);
+  assert.match(script, /product\.crawlIntervalDays === 1/u);
+  assert.match(script, /product\.crawlIntervalDays === 3/u);
+  assert.match(script, /product\.crawlIntervalDays === 7/u);
+  assert.match(script, /product\.crawlIntervalDays === 14/u);
+  assert.match(
+    script,
+    /compareRatioDescending\(left\.daily,[\s\S]*?compareRatioDescending\(left\.withinThreeDays,[\s\S]*?compareRatioDescending\(left\.withinSevenDays,[\s\S]*?compareRatioDescending\(left\.active,/u,
+  );
+  assert.match(script, /\|\| right\.total - left\.total/u);
   assert.match(script, /\.slice\(0, 12\)/u);
-  assert.match(script, /const alphabetical = \[\.\.\.counts\.keys\(\)\]/u);
+});
+
+test("五十音順には上位メーカーも含む全メーカーを残す", () => {
+  assert.match(script, /const alphabetical = \[\.\.\.profiles\.keys\(\)\]/u);
   assert.doesNotMatch(
     script,
     /const alphabetical\s*=\s*[^;]*\.filter\([^)]*featured/gu,
