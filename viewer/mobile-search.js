@@ -53,13 +53,12 @@
     const featured = [...profiles.values()]
       .filter((profile) => profile.total >= 2)
       .sort((left, right) =>
-        compareRatioDescending(left.daily, left.total, right.daily, right.total)
-        || compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total)
+        compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total)
+        || compareRatioDescending(left.daily, left.total, right.daily, right.total)
         || compareRatioDescending(left.withinSevenDays, left.total, right.withinSevenDays, right.total)
         || compareRatioDescending(left.active, left.total, right.active, right.total)
         || right.total - left.total
         || left.brand.localeCompare(right.brand, 'ja'))
-      .slice(0, 12)
       .map((profile) => profile.brand);
 
     return { featured, alphabetical };
@@ -96,7 +95,6 @@
   }
 
   function renderProductsStableSearch(customProducts = null, title = '商品一覧') {
-    // 閲覧履歴は検索ツールバーを持たないため、従来の描画処理をそのまま使う。
     if (customProducts) {
       return originalRenderProducts(customProducts, title);
     }
@@ -105,8 +103,6 @@
       <div class="toolbar panel"><input class="search" id="q" value="${esc(state.query)}" placeholder="商品名で検索"><select id="brand">${viewerBrandOptions()}</select><select id="sort"><option value="updated_desc" ${state.sort === 'updated_desc' ? 'selected' : ''}>更新が新しい順</option><option value="updated_asc" ${state.sort === 'updated_asc' ? 'selected' : ''}>更新が古い順</option><option value="sale_asc" ${state.sort === 'sale_asc' ? 'selected' : ''}>販売価格が安い順</option><option value="sale_desc" ${state.sort === 'sale_desc' ? 'selected' : ''}>販売価格が高い順</option><option value="release_desc" ${state.sort === 'release_desc' ? 'selected' : ''}>発売日が新しい順</option><option value="title_asc" ${state.sort === 'title_asc' ? 'selected' : ''}>商品名順</option></select><select id="per"><option ${state.perPage === 24 ? 'selected' : ''}>24</option><option ${state.perPage === 48 ? 'selected' : ''}>48</option><option ${state.perPage === 96 ? 'selected' : ''}>96</option></select></div>
       <div id="viewer-product-results"></div>`;
 
-    // 入力中は検索欄をDOMから外さず、結果領域だけ更新する。
-    // これによりiOS等のモバイルでフォーカスや日本語IMEが1文字ごとに切れない。
     document.querySelector('#q').addEventListener('input', (event) => {
       state.query = event.target.value;
       state.page = 1;
