@@ -1,197 +1,281 @@
-@media (max-width: 760px) {
-  .price-chart-mobile {
-    margin-top: -4px;
-  }
+.viewer-price-chart {
+  min-width: 0;
+  width: 100%;
+}
 
-  .mobile-chart-range {
+.viewer-chart-controls {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+  min-width: 0;
+}
+
+.viewer-chart-controls button {
+  background: transparent;
+  border: 1px solid #efd7e7;
+  border-radius: 999px;
+  color: #7b6d7e;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 5px 11px;
+}
+
+.viewer-chart-controls button:hover,
+.viewer-chart-controls button:focus-visible {
+  border-color: #d9469a;
+  color: #a82070;
+}
+
+.viewer-chart-controls button[aria-pressed="true"] {
+  background: #d9469a;
+  border-color: #d9469a;
+  color: #fff;
+}
+
+.viewer-chart-note {
+  color: #7b6d7e;
+  font-size: 0.78rem;
+  margin: 0 0 6px;
+  overflow-wrap: anywhere;
+  text-align: right;
+}
+
+.viewer-chart-legend {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  justify-content: center;
+  margin: 2px 0 4px;
+  font-size: 0.78rem;
+}
+
+.viewer-chart-legend span {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+}
+
+.viewer-chart-legend span::before {
+  border-radius: 999px;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 18px;
+}
+
+.viewer-chart-legend .sale::before,
+.viewer-chart-tooltip-marker.sale {
+  background: #d9469a;
+}
+
+.viewer-chart-legend .buy::before,
+.viewer-chart-tooltip-marker.buy {
+  background: #3b82f6;
+}
+
+.viewer-chart-legend .rankb::before,
+.viewer-chart-tooltip-marker.rankb {
+  background: #16a34a;
+}
+
+.viewer-chart-legend .timesale::before,
+.viewer-chart-tooltip-marker.timesale {
+  background: #eab308;
+}
+
+.viewer-chart-wrap {
+  height: 245px;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.viewer-chart {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  overflow: visible;
+  touch-action: pan-y;
+  user-select: none;
+  width: 100%;
+  -webkit-user-select: none;
+}
+
+.viewer-chart-gridline {
+  stroke: #e5e7eb;
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.viewer-chart-y-label,
+.viewer-chart-x-label {
+  fill: #7b6d7e;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.viewer-chart-line {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.viewer-chart-series.sale {
+  color: #d9469a;
+}
+
+.viewer-chart-series.buy {
+  color: #3b82f6;
+}
+
+.viewer-chart-series.rankb {
+  color: #16a34a;
+}
+
+.viewer-chart-series.timesale {
+  color: #eab308;
+}
+
+.viewer-chart-series .viewer-chart-line {
+  stroke-width: 3;
+}
+
+.viewer-chart-dot {
+  fill: currentColor;
+  vector-effect: non-scaling-stroke;
+}
+
+.viewer-chart-timesale-branch {
+  stroke: #eab308;
+  stroke-dasharray: 4 3;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.viewer-chart-hit {
+  fill: rgba(0, 0, 0, 0.001);
+  pointer-events: all;
+}
+
+.viewer-chart-crosshair {
+  stroke: #64748b;
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+.viewer-chart-tooltip {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #efd7e7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+  margin: 2px 0 6px auto;
+  max-width: min(260px, calc(100vw - 32px));
+  min-width: 148px;
+  padding: 8px 10px;
+  width: max-content;
+}
+
+.viewer-chart-tooltip-label {
+  color: #7b6d7e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.viewer-chart-tooltip-rows {
+  display: grid;
+  gap: 4px;
+}
+
+.viewer-chart-tooltip-row {
+  align-items: center;
+  display: grid;
+  font-size: 0.8rem;
+  gap: 6px;
+  grid-template-columns: 8px minmax(0, 1fr) auto;
+  white-space: nowrap;
+}
+
+.viewer-chart-tooltip-marker {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+}
+
+@media (max-width: 760px) {
+  .viewer-chart-controls {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-    margin: 0 0 8px;
-  }
-
-  .mobile-chart-range button {
-    min-height: 38px;
-    border: 1px solid #cfc9c0;
-    border-radius: 9px;
-    background: #fff;
-    font: inherit;
-    font-size: 12px;
-    font-weight: 700;
-  }
-
-  .mobile-chart-range button[aria-pressed="true"] {
-    background: #1f2933;
-    border-color: #1f2933;
-    color: #fff;
-  }
-
-  .mobile-chart-legend {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 5px 10px;
-    margin-bottom: 4px;
-    font-size: 12px;
-  }
-
-  .mobile-chart-legend span {
-    min-width: 0;
-    white-space: nowrap;
-  }
-
-  .mobile-chart-legend span::before {
-    width: 14px;
-  }
-
-  .mobile-chart-readout {
-    min-height: 28px;
-    margin: 2px 0 0;
-    font-size: 15px;
-    font-weight: 800;
-    letter-spacing: .01em;
-  }
-
-  .mobile-chart-readout[hidden] {
-    visibility: hidden;
-    display: block;
-  }
-
-  .mobile-chart-wrap {
+    justify-content: stretch;
     width: 100%;
-    max-width: 100%;
-    overflow: hidden;
+  }
+
+  .viewer-chart-controls button {
+    font-size: 0.74rem;
+    min-width: 0;
+    padding: 7px 4px;
+    width: 100%;
+  }
+
+  .viewer-chart-note {
+    font-size: 0.72rem;
+    line-height: 1.45;
+    text-align: left;
+  }
+
+  .viewer-chart-legend {
+    font-size: 10px;
+    gap: 4px 10px;
+    justify-content: center;
+    line-height: 16px;
+  }
+
+  .viewer-chart-legend span::before {
+    height: 2px;
+    width: 12px;
+  }
+
+  .viewer-chart-wrap {
+    height: 220px;
     overscroll-behavior-x: none;
-    touch-action: pan-y;
-    padding: 0;
   }
 
-  .mobile-chart {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-width: 0;
-    aspect-ratio: 720 / 360;
-    touch-action: pan-y;
-    user-select: none;
-    -webkit-user-select: none;
+  .viewer-chart-y-label,
+  .viewer-chart-x-label {
+    font-size: 9px;
   }
 
-  .mobile-chart .chart-y-label {
-    font-size: 23px;
-    font-weight: 700;
-    fill: #667085;
-  }
-
-  .mobile-chart .chart-x-label {
-    font-size: 19px;
-    font-weight: 700;
-    fill: #667085;
-  }
-
-  .mobile-chart .gridline {
-    stroke-width: 1.2;
-  }
-
-  .mobile-chart .chart-line {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 3.2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    vector-effect: non-scaling-stroke;
-    pointer-events: none;
-  }
-
-  .mobile-chart .chart-area {
-    stroke: none;
-    pointer-events: none;
-  }
-
-  .mobile-chart .sale .chart-area {
-    fill: #f8e2eb;
-  }
-
-  .mobile-chart .timesale .chart-area {
-    fill: #fbf3c9;
-  }
-
-  .mobile-chart .rankb .chart-area {
-    fill: #e4f1e7;
-  }
-
-  .mobile-chart .buy .chart-area {
-    fill: #e2edf8;
-  }
-
-  .mobile-chart .chart-area-hit {
-    fill: rgba(0, 0, 0, .001);
-    stroke: none;
-    pointer-events: fill;
-    cursor: crosshair;
-  }
-
-  .mobile-chart .chart-line-hit {
-    fill: none;
-    stroke: rgba(0, 0, 0, .001);
-    stroke-width: 30;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    pointer-events: stroke;
-    cursor: crosshair;
-  }
-
-  .mobile-chart .chart-point {
-    fill: currentColor;
-    stroke: #fff;
+  .viewer-chart-series .viewer-chart-line {
     stroke-width: 2;
-    opacity: 1;
-    vector-effect: non-scaling-stroke;
-    pointer-events: none;
   }
 
-  .mobile-chart .chart-point-hit {
-    fill: rgba(0, 0, 0, .001);
-    stroke: none;
-    pointer-events: all;
-    cursor: crosshair;
+  .viewer-chart-tooltip {
+    margin-left: 0;
+    max-width: calc(100vw - 40px);
+    min-width: 0;
+    padding: 7px 8px;
   }
 
-  .mobile-chart .chart-crosshair {
-    stroke: #667085;
-    stroke-width: 1.5;
-    stroke-dasharray: 4 4;
-    vector-effect: non-scaling-stroke;
-    pointer-events: none;
+  .viewer-chart-tooltip-label {
+    font-size: 0.7rem;
   }
 
-  .mobile-chart .chart-active-point {
-    stroke: #fff;
-    stroke-width: 3;
-    vector-effect: non-scaling-stroke;
-    pointer-events: none;
-  }
-
-  .mobile-chart .chart-active-point.sale {
-    fill: #e67aa6;
-  }
-
-  .mobile-chart .chart-active-point.buy {
-    fill: #4f86c6;
-  }
-
-  .mobile-chart .chart-active-point.rankb {
-    fill: #5eaa72;
-  }
-
-  .mobile-chart .chart-active-point.timesale {
-    fill: #e0b600;
-  }
-
-  .mobile-chart-hint {
-    margin-top: 2px;
-    text-align: center;
-    color: #6b7280;
-    font-size: 11px;
+  .viewer-chart-tooltip-row {
+    font-size: 0.74rem;
+    grid-template-columns: 7px minmax(0, 1fr) auto;
+    white-space: normal;
   }
 }
