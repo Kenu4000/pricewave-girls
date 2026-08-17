@@ -181,13 +181,13 @@
   border: 1px solid #efd7e7;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+  left: 0;
   max-width: min(260px, calc(100% - 16px));
   min-width: 148px;
   padding: 8px 10px;
   pointer-events: none;
   position: absolute;
-  right: 8px;
-  top: 8px;
+  top: 0;
   width: max-content;
   z-index: 2;
 }
@@ -274,8 +274,6 @@
     max-width: calc(100% - 12px);
     min-width: 132px;
     padding: 6px 8px;
-    right: 6px;
-    top: 6px;
   }
 
   .viewer-chart-tooltip-label {
