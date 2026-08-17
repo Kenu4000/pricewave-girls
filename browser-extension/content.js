@@ -33,7 +33,8 @@ function pricewaveHasOtherShopOffers(productId) {
       return false;
     }
   });
-  return hasLink || /他のショップ/.test(document.body?.innerText || "");
+  const text = document.body?.innerText || "";
+  return hasLink || /他のショップ|近くの店舗に在庫|全ての取扱店舗を見る/.test(text);
 }
 
 function pricewaveWaitForFrame(frame) {
