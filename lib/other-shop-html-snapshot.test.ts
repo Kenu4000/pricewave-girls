@@ -1,9 +1,10 @@
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
 import {
+  exportOtherShopSnapshots,
   extractCapturedOtherShopHtml,
   otherShopProductCode,
   otherShopSnapshotJsonPath,
@@ -34,8 +35,8 @@ test("他店舗HTMLを表示端末に依存しない構造化データへ変換�
   const items = parseOtherShopSnapshotItems(`<!doctype html><html><body>
     <table><tbody><tr>
       <td>5,700円(税込)</td>
-      <td>中古 状態難あり</td>
-      <td><a href="/shop/400477">駿河屋日本橋本館の出品を見る</a></td>
+      <td><a href="/product/detail/145070597?branch_number=1000&amp;tenpo_cd=400477">中古 状態難あり</a></td>
+      <td><a href="/search?tenpo_code=400477">駿河屋日本橋本館の出品を見る</a></td>
     </tr></tbody></table>
   </body></html>`);
 
@@ -58,7 +59,7 @@ test("最新の他店舗一覧をJSON一枚で保存する", async () => {
       checkedAt,
       rootDir,
       productHtml: `<!doctype html><html><body>
-        <textarea id="pricewave-other-shops-data" data-state="ready"><table><tbody><tr><td>5,700円(税込)</td><td>中古 状態難あり</td><td><a href="/shop/400477">駿河屋日本橋本館の出品を見る</a></td></tr></tbody></table></textarea>
+        <textarea id="pricewave-other-shops-data" data-state="ready"><table><tbody><tr><td>5,700円(税込)</td><td><a href="/product/detail/145070597?branch_number=1000&amp;amp;tenpo_cd=400477">中古 状態難あり</a></td><td><a href="/search?tenpo_code=400477">駿河屋日本橋本館の出品を見る</a></td></tr></tbody></table></textarea>
       </body></html>`,
     });
 
@@ -77,6 +78,42 @@ test("最新の他店舗一覧をJSON一枚で保存する", async () => {
       await readFile(otherShopSnapshotJsonPath("145070597", rootDir), "utf8"),
       /"items"/u,
     );
+  } finally {
+    await rm(rootDir, { recursive: true, force: true });
+  }
+});
+
+test("旧パーサが商品詳細表から作った誤スナップショットを読み出しとexportで除外する", async () => {
+  const rootDir = await mkdtemp(path.join(os.tmpdir(), "pricewave-other-shop-legacy-"));
+  const outputDirectory = path.join(rootDir, "viewer");
+  try {
+    const url = "https://www.suruga-ya.jp/product/detail/145045023";
+    const snapshotPath = otherShopSnapshotJsonPath("145045023", rootDir);
+    await mkdir(path.dirname(snapshotPath), { recursive: true });
+    await writeFile(
+      snapshotPath,
+      JSON.stringify({
+        productCode: "145045023",
+        sourceUrl: "https://www.suruga-ya.jp/product/other/145045023",
+        capturedAt: "2026-08-17T15:27:55.587Z",
+        items: [
+          { storeName: "メーカー", condition: "中古 ：145045023001", price: 5280 },
+          { storeName: "駿河屋柏青葉台店", condition: "ランクB", price: 22540 },
+        ],
+      }),
+      "utf8",
+    );
+
+    const read = await readOtherShopSnapshotData(url, rootDir);
+    assert.deepEqual(read?.items, [
+      { storeName: "駿河屋柏青葉台店", condition: "ランクB", price: 22540 },
+    ]);
+
+    await exportOtherShopSnapshots(outputDirectory, rootDir);
+    const exported = JSON.parse(
+      await readFile(path.join(outputDirectory, "145045023.json"), "utf8"),
+    ) as { items: Array<{ storeName: string }> };
+    assert.deepEqual(exported.items.map((item) => item.storeName), ["駿河屋柏青葉台店"]);
   } finally {
     await rm(rootDir, { recursive: true, force: true });
   }
