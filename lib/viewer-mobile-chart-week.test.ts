@@ -16,28 +16,28 @@ test("Viewerの価格推移はmainと同じ日・週・月モードを使う", (
   assert.match(script, /value: 'day', label: '日（全期間）'/u);
   assert.match(script, /value: 'week', label: '週'/u);
   assert.match(script, /value: 'month', label: '月'/u);
-  assert.doesNotMatch(script, />7f��<\/button>/u);
+  assert.doesNotMatch(script, />7日<\/button>/u);
   assert.doesNotMatch(script, />1か月<\/button>/u);
 });
 
-test("商品を切り替えるとmainと同じく日モードへ戻る", () => {
+test("商品を切り替えると日モードへ戻る", () => {
   assert.match(script, /viewerChartSourceHistories !== histories\) viewerChartMode = 'day'/u);
 });
 
-test("日モードはmainと同じく全取得点を保持し同日複数点だけ時刻付きラベルにする", () => {
+test("日モードは全取得点を保持し同日複数点だけ時刻付きラベルにする", () => {
   assert.match(script, /if \(mode === 'day'\)/u);
   assert.match(script, /pointsPerDay/u);
   assert.match(script, /return valid\.map\(\(history, index\)/u);
   assert.match(script, /viewerChartDayLabel\(history\.date, \(pointsPerDay\.get\(key\) \?\? 0\) > 1\)/u);
 });
 
-test("週・月モードはmainと同じく各バケットの最終取得値を使う", () => {
+test("週・月モードは各バケットの最終取得値を使う", () => {
   assert.match(script, /buckets\.set\(viewerChartBucketKey\(history\.date, mode\), history\)/u);
   assert.match(script, /viewerChartStartOfWeek/u);
   assert.match(script, /viewerChartBucketLabel/u);
 });
 
-test("タイムセールとランクBの系列分離はmainのprice-chart-dataと同じ", () => {
+test("タイムセールとランクBの系列を分離する", () => {
   assert.match(script, /const conditionRank = history\.conditionRank === 'B' \|\| history\.condition \? 'B' : 'A'/u);
   assert.match(script, /history\.regularSalePrice \?\? history\.salePrice/u);
   assert.match(script, /salePrice: conditionRank === 'B' \? null : baseSalePrice/u);
@@ -60,39 +60,27 @@ test("タイムセールは通常価格から黄色破線で分岐表示する",
   assert.match(css, /\.viewer-chart-timesale-branch\s*\{[\s\S]*?stroke-dasharray:\s*4 3/u);
 });
 
-test("mainと同じ系列色と凡例名を使う", () => {
-  assert.match(script, /label: '販売価格'/u);
-  assert.match(script, /label: '買取価格'/u);
-  assert.match(script, /label: 'ランクB'/u);
-  assert.match(script, /label: 'タイムセール'/u);
-  assert.match(css, /\.viewer-chart-series\.sale\s*\{[\s\S]*?color:\s*#d9469a/u);
-  assert.match(css, /\.viewer-chart-series\.buy\s*\{[\s\S]*?color:\s*#3b82f6/u);
-  assert.match(css, /\.viewer-chart-series\.rankb\s*\{[\s\S]*?color:\s*#16a34a/u);
-  assert.match(css, /\.viewer-chart-series\.timesale\s*\{[\s\S]*?color:\s*#eab308/u);
+test("ツールチップ追従と縦クロスヘアを表示する", () => {
+  assert.match(script, /class="viewer-chart-crosshair"/u);
+  assert.match(script, /class="viewer-chart-tooltip" hidden/u);
+  assert.match(script, /addEventListener\('pointerenter', selectFromPointer\)/u);
+  assert.match(script, /addEventListener\('pointermove', selectFromPointer\)/u);
+  assert.match(script, /addEventListener\('pointerdown', selectFromPointer\)/u);
+  assert.match(script, /nearestIndex/u);
 });
 
-test("mainと同じ説明文とレスポンシブ高さを使う", () => {
-  assert.match(script, /全期間を取得時刻ごとに表示。黄色は通常価格から一時的に分岐したタイムセール価格/u);
-  assert.match(script, /全期間を週ごとの最終価格で表示/u);
-  assert.match(script, /全期間を月ごとの最終価格で表示/u);
-  assert.match(css, /\.viewer-chart-wrap\s*\{[\s\S]*?height:\s*245px/u);
-  assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.viewer-chart-wrap\s*\{[\s\S]*?height:\s*220px/u);
+test("ツールチップは絶対配置でグラフのレイアウトを動かさない", () => {
+  assert.match(css, /\.viewer-chart-wrap\s*\{[\s\S]*?position:\s*relative/u);
+  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?position:\s*absolute/u);
+  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?right:\s*8px/u);
+  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?top:\s*8px/u);
+  assert.doesNotMatch(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?margin:/u);
 });
 
 test("モバイルは横スクロールせず縦スクロールを維持する", () => {
   assert.match(css, /overflow:\s*hidden/u);
   assert.match(css, /overscroll-behavior-x:\s*none/u);
   assert.match(css, /touch-action:\s*pan-y/u);
-});
-
-test("Viewerの価格推移グラフは固定表示でポインター操作に追従しない", () => {
-  assert.doesNotMatch(script, /data-viewer-chart-index/u);
-  assert.doesNotMatch(script, /viewer-chart-crosshair/u);
-  assert.doesNotMatch(script, /viewer-chart-tooltip/u);
-  assert.doesNotMatch(script, /addEventListener\('pointerenter'/u);
-  assert.doesNotMatch(script, /addEventListener\('pointermove'/u);
-  assert.doesNotMatch(script, /addEventListener\('pointerdown'/u);
-  assert.match(css, /\.viewer-chart\s*\{[\s\S]*?pointer-events:\s*none/u);
 });
 
 test("ViewerグラフJavaScriptを構文解析できる", () => {
