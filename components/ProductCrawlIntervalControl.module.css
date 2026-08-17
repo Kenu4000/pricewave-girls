@@ -1,0 +1,77 @@
+.panel {
+  align-items: center;
+  background: #fbfaf8;
+  border: 1px solid #e3ddd6;
+  border-radius: 12px;
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  margin-top: 14px;
+  padding: 12px 14px;
+}
+
+.copy {
+  display: grid;
+  gap: 2px;
+}
+
+.copy strong {
+  font-size: 0.9rem;
+}
+
+.copy span {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.status {
+  font-weight: 700;
+}
+
+.buttons {
+  display: grid;
+  flex: 0 0 min(400px, 46vw);
+  gap: 5px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.button {
+  background: #f5f1f4;
+  border: 1px solid #ddced8;
+  border-radius: 9px;
+  color: #665b63;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 800;
+  min-width: 0;
+  padding: 8px 4px;
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.button[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 2px rgb(255 255 255 / 65%);
+  color: #fff;
+}
+
+.one { background: #16835f; border-color: #126f51; }
+.three { background: #2878bd; border-color: #22679f; }
+.seven { background: #7558b5; border-color: #654b9d; }
+.fourteen { background: #a46124; border-color: #89511e; }
+.off { background: #62676d; border-color: #50545a; }
+
+@media (max-width: 760px) {
+  .panel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .buttons {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
