@@ -69,11 +69,14 @@ test("ツールチップ追従と縦クロスヘアを表示する", () => {
   assert.match(script, /nearestIndex/u);
 });
 
-test("ツールチップは絶対配置でグラフのレイアウトを動かさない", () => {
+test("ツールチップは絶対配置のままポインターへ追従しグラフのレイアウトを動かさない", () => {
   assert.match(css, /\.viewer-chart-wrap\s*\{[\s\S]*?position:\s*relative/u);
   assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?position:\s*absolute/u);
-  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?right:\s*8px/u);
-  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?top:\s*8px/u);
+  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?left:\s*0/u);
+  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?top:\s*0/u);
+  assert.match(script, /const positionTooltip = \(event\) =>/u);
+  assert.match(script, /tooltip\.style\.left = `\$\{left\}px`/u);
+  assert.match(script, /tooltip\.style\.top = `\$\{top\}px`/u);
   assert.doesNotMatch(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?margin:/u);
 });
 
