@@ -15,7 +15,6 @@ export type FeaturedBrandCrawlProfile = {
   active: number;
 };
 
-const FEATURED_BRAND_LIMIT = 12;
 const japaneseCollator = new Intl.Collator("ja", {
   numeric: true,
   sensitivity: "base",
@@ -35,13 +34,13 @@ function compareProfiles(
   right: FeaturedBrandCrawlProfile,
 ): number {
   return (
-    compareRatioDescending(left.daily, left.total, right.daily, right.total) ||
     compareRatioDescending(
       left.withinThreeDays,
       left.total,
       right.withinThreeDays,
       right.total,
     ) ||
+    compareRatioDescending(left.daily, left.total, right.daily, right.total) ||
     compareRatioDescending(
       left.withinSevenDays,
       left.total,
@@ -96,6 +95,5 @@ export function rankFeaturedBrandsByCrawlFrequency(
 
   return [...profiles.values()]
     .filter((profile) => profile.total >= 2)
-    .sort(compareProfiles)
-    .slice(0, FEATURED_BRAND_LIMIT);
+    .sort(compareProfiles);
 }
