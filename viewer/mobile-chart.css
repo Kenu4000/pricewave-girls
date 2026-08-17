@@ -69,19 +69,23 @@
   width: 18px;
 }
 
-.viewer-chart-legend .sale::before {
+.viewer-chart-legend .sale::before,
+.viewer-chart-tooltip-marker.sale {
   background: #d9469a;
 }
 
-.viewer-chart-legend .buy::before {
+.viewer-chart-legend .buy::before,
+.viewer-chart-tooltip-marker.buy {
   background: #3b82f6;
 }
 
-.viewer-chart-legend .rankb::before {
+.viewer-chart-legend .rankb::before,
+.viewer-chart-tooltip-marker.rankb {
   background: #16a34a;
 }
 
-.viewer-chart-legend .timesale::before {
+.viewer-chart-legend .timesale::before,
+.viewer-chart-tooltip-marker.timesale {
   background: #eab308;
 }
 
@@ -95,11 +99,12 @@
 }
 
 .viewer-chart {
+  cursor: crosshair;
   display: block;
   height: 100%;
   max-width: 100%;
   overflow: visible;
-  pointer-events: none;
+  pointer-events: auto;
   touch-action: pan-y;
   user-select: none;
   width: 100%;
@@ -122,6 +127,7 @@
 
 .viewer-chart-line {
   fill: none;
+  pointer-events: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -150,22 +156,72 @@
 
 .viewer-chart-dot {
   fill: currentColor;
+  pointer-events: none;
   vector-effect: non-scaling-stroke;
 }
 
 .viewer-chart-timesale-branch {
+  pointer-events: none;
   stroke: #eab308;
   stroke-dasharray: 4 3;
   stroke-width: 2;
   vector-effect: non-scaling-stroke;
 }
 
+.viewer-chart-crosshair {
+  pointer-events: none;
+  stroke: #64748b;
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
 
+.viewer-chart-tooltip {
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid #efd7e7;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+  max-width: min(260px, calc(100% - 16px));
+  min-width: 148px;
+  padding: 8px 10px;
+  pointer-events: none;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: max-content;
+  z-index: 2;
+}
 
+.viewer-chart-tooltip[hidden] {
+  display: none;
+}
 
+.viewer-chart-tooltip-label {
+  color: #7b6d7e;
+  font-size: 0.76rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
 
+.viewer-chart-tooltip-rows {
+  display: grid;
+  gap: 4px;
+}
 
+.viewer-chart-tooltip-row {
+  align-items: center;
+  display: grid;
+  font-size: 0.8rem;
+  gap: 6px;
+  grid-template-columns: 8px minmax(0, 1fr) auto;
+  white-space: nowrap;
+}
 
+.viewer-chart-tooltip-marker {
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+}
 
 @media (max-width: 760px) {
   .viewer-chart-controls {
@@ -214,6 +270,21 @@
     stroke-width: 2;
   }
 
+  .viewer-chart-tooltip {
+    max-width: calc(100% - 12px);
+    min-width: 132px;
+    padding: 6px 8px;
+    right: 6px;
+    top: 6px;
+  }
 
+  .viewer-chart-tooltip-label {
+    font-size: 0.7rem;
+  }
 
+  .viewer-chart-tooltip-row {
+    font-size: 0.72rem;
+    gap: 5px;
+    grid-template-columns: 7px minmax(0, 1fr) auto;
+  }
 }
