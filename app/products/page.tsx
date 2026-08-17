@@ -11,6 +11,7 @@ import {
   type RankedFilterOptions,
 } from "@/lib/product-filter-options";
 import { sortProductIdsByLatestHistory } from "@/lib/product-history-order";
+import { sortProductsByInterest } from "@/lib/product-interest-score";
 import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
 import { conditionAnnotatedProductIds } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
@@ -22,6 +23,7 @@ export const dynamic = "force-dynamic";
 const SORT_OPTIONS = [
   { value: "updated-desc", label: "確認履歴が新しい順" },
   { value: "updated-asc", label: "確認履歴が古い順" },
+  { value: "interesting-desc", label: "注目度が高い順" },
   { value: "sale-asc", label: "販売価格が安い順" },
   { value: "sale-desc", label: "販売価格が高い順" },
   { value: "buy-desc", label: "買取価格が高い順" },
@@ -50,7 +52,8 @@ const CRAWL_INTERVAL_OPTIONS = [
 type SortKey = (typeof SORT_OPTIONS)[number]["value"];
 type HistorySortKey = Extract<SortKey, "updated-desc" | "updated-asc">;
 type SpreadSortKey = Extract<SortKey, "spread-asc" | "spread-desc">;
-type DatabaseSortKey = Exclude<SortKey, HistorySortKey | SpreadSortKey>;
+type InterestSortKey = Extract<SortKey, "interesting-desc">;
+type DatabaseSortKey = Exclude<SortKey, HistorySortKey | SpreadSortKey | InterestSortKey>;
 type PageSize = (typeof PAGE_SIZES)[number];
 type StockFilter = (typeof STOCK_OPTIONS)[number]["value"];
 type CrawlIntervalFilter = (typeof CRAWL_INTERVAL_OPTIONS)[number]["value"];
@@ -186,6 +189,10 @@ function isHistorySort(sort: SortKey): sort is HistorySortKey {
 
 function isSpreadSort(sort: SortKey): sort is SpreadSortKey {
   return sort === "spread-asc" || sort === "spread-desc";
+}
+
+function isInterestSort(sort: SortKey): sort is InterestSortKey {
+  return sort === "interesting-desc";
 }
 
 function addIndexedFilter(
@@ -353,6 +360,34 @@ async function loadProducts(
       candidates,
       sort === "updated-desc" ? "desc" : "asc",
     ).slice(skip, skip + perPage);
+    return loadProductsByOrderedIds(orderedIds);
+  }
+
+  if (isInterestSort(sort)) {
+    const candidates = await prisma.product.findMany({
+      where,
+      select: {
+        id: true,
+        title: true,
+        priceChanges: {
+          where: {
+            type: { in: ["sale", "buy"] },
+            previousPrice: { not: null },
+            currentPrice: { not: null },
+          },
+          orderBy: [{ changedAt: "asc" }, { id: "asc" }],
+          select: {
+            type: true,
+            previousPrice: true,
+            currentPrice: true,
+            changedAt: true,
+          },
+        },
+      },
+    });
+    const orderedIds = sortProductsByInterest(candidates)
+      .slice(skip, skip + perPage)
+      .map((product) => product.id);
     return loadProductsByOrderedIds(orderedIds);
   }
 
