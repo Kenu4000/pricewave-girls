@@ -3,15 +3,14 @@
   if (typeof originalRoute !== 'function') return;
 
   const REPOSITORY = 'Kenu4000/pricewave-girls';
-  const ISSUES_API = `https://api.github.com/repos/${REPOSITORY}/issues`;
   const NEW_ISSUE_URL = `https://github.com/${REPOSITORY}/issues/new`;
   const CONFIRMED_ONE_KEY = 'pricewave:crawl-review:confirmed-one';
   const PENDING_KEY = 'pricewave:crawl-review:pending-issues';
   const PENDING_GRACE_MS = 5 * 60 * 1000;
-  const REQUEST_MARKER = /<!--\s*pricewave-crawl-interval-request\s+product:(\d+)\s+interval:(1|3|7|14|off)\s*-->/u;
   const intervalLabels = { '1': '1日', '3': '3日', '7': '7日', '14': '14日', off: '無' };
 
-  let openRequestIds = new Set();
+  let requestHistory = [];
+  let openRequestsByProduct = new Map();
   let issuesLoaded = false;
   let issuesError = '';
   let issuesLoading = null;
@@ -57,7 +56,7 @@
     const now = Date.now();
     for (const [id, createdAt] of Object.entries(pending)) {
       const product = byId.get(id);
-      if (!product || product.crawlIntervalDays !== 1 || openRequestIds.has(Number(id))) {
+      if (!product || product.crawlIntervalDays !== 1 || openRequestsByProduct.has(Number(id))) {
         delete pending[id];
         pendingChanged = true;
         continue;
@@ -70,27 +69,20 @@
     if (pendingChanged) writeJson(PENDING_KEY, pending);
   }
 
-  async function loadOpenRequests() {
+  async function loadRequests({ force = false } = {}) {
     if (issuesLoading) return issuesLoading;
     issuesLoading = (async () => {
-      const ids = new Set();
       try {
-        for (let page = 1; page <= 10; page += 1) {
-          const response = await fetch(`${ISSUES_API}?state=open&sort=created&direction=desc&per_page=100&page=${page}`, {
-            cache: 'no-store',
-            headers: { Accept: 'application/vnd.github+json' },
-          });
-          if (!response.ok) throw new Error(`GitHub API: HTTP ${response.status}`);
-          const issues = await response.json();
-          if (!Array.isArray(issues)) break;
-          for (const issue of issues) {
-            if (issue?.pull_request || typeof issue?.body !== 'string') continue;
-            const match = issue.body.match(REQUEST_MARKER);
-            if (match) ids.add(Number(match[1]));
+        const helper = globalThis.PricewaveCrawlIssue;
+        if (!helper) throw new Error('Issue確認処理を読み込めませんでした。');
+        const requests = await helper.fetchAllRequests({ force });
+        requestHistory = requests;
+        openRequestsByProduct = new Map();
+        for (const request of requests) {
+          if (request.state === 'open' && !openRequestsByProduct.has(request.productId)) {
+            openRequestsByProduct.set(request.productId, request);
           }
-          if (issues.length < 100) break;
         }
-        openRequestIds = ids;
         issuesError = '';
       } catch (error) {
         issuesError = error instanceof Error ? error.message : 'GitHub Issueを確認できませんでした。';
@@ -113,6 +105,17 @@
     );
   }
 
+  function snapshotIsOlderThanRequest(productId) {
+    const helper = globalThis.PricewaveCrawlIssue;
+    return Boolean(
+      helper?.hasRequestNewerThanSnapshot(
+        productId,
+        state.data?.generatedAt,
+        requestHistory,
+      ),
+    );
+  }
+
   function candidates() {
     reconcileLocalState();
     const confirmed = confirmedOneMap();
@@ -120,8 +123,9 @@
     return (state.data?.products || []).filter((product) =>
       product.crawlIntervalDays === 1
       && !confirmed[String(product.id)]
-      && !openRequestIds.has(product.id)
+      && !openRequestsByProduct.has(product.id)
       && !pending.has(product.id)
+      && !snapshotIsOlderThanRequest(product.id)
     );
   }
 
@@ -159,12 +163,33 @@
     return `${NEW_ISSUE_URL}?${params.toString()}`;
   }
 
-  function requestIntervalChange(product, interval) {
-    const pending = pendingMap();
-    pending[String(product.id)] = Date.now();
-    writeJson(PENDING_KEY, pending);
-    window.open(issueUrl(product, interval), '_blank', 'noopener,noreferrer');
-    renderCrawlReview();
+  async function requestIntervalChange(product, interval) {
+    const helper = globalThis.PricewaveCrawlIssue;
+    if (!helper) {
+      window.open(issueUrl(product, interval), '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    const popup = helper.openPlaceholder();
+    try {
+      await loadRequests({ force: true });
+      const existing = openRequestsByProduct.get(product.id);
+      if (existing?.url) {
+        helper.navigate(popup, existing.url);
+        renderCrawlReview();
+        return;
+      }
+
+      const pending = pendingMap();
+      pending[String(product.id)] = Date.now();
+      writeJson(PENDING_KEY, pending);
+      helper.navigate(popup, issueUrl(product, interval));
+      renderCrawlReview();
+    } catch (error) {
+      if (popup && !popup.closed) popup.close();
+      issuesError = error instanceof Error ? error.message : 'GitHub Issueを確認できませんでした。';
+      renderCrawlReview();
+    }
   }
 
   function reviewCard(product, remaining, totalOneDay) {
@@ -198,7 +223,7 @@
         <button class="crawl-review-choice fourteen" data-review-interval="14">14日</button>
         <button class="crawl-review-choice off" data-review-interval="off">無</button>
       </div>
-      <p class="crawl-review-note">3日・7日・14日・無はGitHub Issueとして変更依頼を作成します。「1日のまま」はこのViewerで確認済みとして保存し、以後表示しません。</p>
+      <p class="crawl-review-note">変更先を選ぶと、その場で同じ商品の未処理Issueを再確認します。既に依頼があれば新規作成せず既存Issueを開きます。「1日のまま」はこのViewerで確認済みとして保存します。</p>
     </section>`;
   }
 
@@ -206,12 +231,12 @@
     const keep = document.querySelector('[data-review-keep]');
     if (keep) keep.addEventListener('click', () => markConfirmedOne(product));
     document.querySelectorAll('[data-review-interval]').forEach((button) => {
-      button.addEventListener('click', () => requestIntervalChange(product, button.dataset.reviewInterval));
+      button.addEventListener('click', () => void requestIntervalChange(product, button.dataset.reviewInterval));
     });
     const refresh = document.querySelector('[data-review-refresh]');
     if (refresh) refresh.addEventListener('click', async () => {
       issuesLoaded = false;
-      await loadOpenRequests();
+      await loadRequests({ force: true });
       renderCrawlReview();
     });
   }
@@ -222,14 +247,14 @@
 
     if (!issuesLoaded) {
       app.innerHTML = `<div class="section-title"><h1>周期振り分け</h1></div><div class="panel loading">GitHub Issueと1日設定の商品を確認しています…</div>`;
-      await loadOpenRequests();
+      await loadRequests();
       if (!location.hash.startsWith('#/crawl-review')) return;
     }
 
     const items = candidates();
     const product = items[0];
     const confirmedCount = Object.keys(confirmedOneMap()).length;
-    const pendingCount = openRequestIds.size + activePendingIds().size;
+    const pendingCount = openRequestsByProduct.size + activePendingIds().size;
 
     app.innerHTML = `<div class="section-title crawl-review-heading">
       <div><h1>周期振り分け</h1><p class="muted">1日設定の商品を1件ずつ確認します。</p></div>
@@ -238,14 +263,14 @@
     ${issuesError ? `<div class="viewer-note crawl-review-warning">${esc(issuesError)}　Issueの除外判定は最新でない可能性があります。<button data-review-refresh>再確認</button></div>` : ''}
     ${product
       ? reviewCard(product, items.length, totalOneDay)
-      : `<div class="panel crawl-review-complete"><h2>確認対象はありません</h2><p>現在の1日設定のうち、未確認かつ変更依頼のない商品はありません。</p><button data-review-refresh>Issueを再確認</button></div>`}`;
+      : `<div class="panel crawl-review-complete"><h2>確認対象はありません</h2><p>現在のViewerデータで未確認かつ変更依頼のない1日商品はありません。Viewerより新しいIssueがある商品も、次回データ更新までは再表示しません。</p><button data-review-refresh>Issueを再確認</button></div>`}`;
 
     if (product) bindReviewActions(product);
     else {
       const refresh = document.querySelector('[data-review-refresh]');
       if (refresh) refresh.addEventListener('click', async () => {
         issuesLoaded = false;
-        await loadOpenRequests();
+        await loadRequests({ force: true });
         renderCrawlReview();
       });
     }
