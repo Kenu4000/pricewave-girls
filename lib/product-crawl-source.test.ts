@@ -83,6 +83,28 @@ test("選択店舗のBOOK欠品をランクB価格として主履歴へ反映す
   assert.equal(applied.details[PRODUCT_CONDITION_RANK_DETAIL_KEY], "B");
 });
 
+test("状態文字列へHTML断片が混入してもBOOK欠品だけを保存する", () => {
+  const malformedOtherShopsHtml = `
+    <html><body><table><tr>
+      <td>22,540円</td>
+      <td><a href="/product/detail/145045023?branch_number=1000&amp;tenpo_cd=400464">&amp;nbsp;BOOK欠品&quot;&gt; 中古&amp;nbsp;BOOK欠品 &lt;span class=&quot;text-price-detail price-buy&quot;&gt;</a></td>
+      <td>駿河屋柏青葉台店</td>
+    </tr></table></body></html>
+  `;
+  const malformedProductHtml = `
+    <html><body>
+      <textarea id="pricewave-other-shops-data">${malformedOtherShopsHtml}</textarea>
+    </body></html>
+  `;
+  const sourceUrl =
+    "https://www.suruga-ya.jp/product/detail/145045023?branch_number=1000&tenpo_cd=400464";
+  const applied = applySelectedCrawlSourceOffer(fetchedProduct(), sourceUrl, malformedProductHtml);
+
+  assert.equal(applied.salePrice, 22540);
+  assert.equal(applied.details[PRODUCT_CONDITION_DETAIL_KEY], "BOOK欠品");
+  assert.equal(applied.details[PRODUCT_CONDITION_RANK_DETAIL_KEY], "B");
+});
+
 test("巡回元URLマーカーは商品詳細表示用の情報と分離できる", () => {
   const sourceUrl = normalizeSurugayaCrawlSourceUrl(
     "https://www.suruga-ya.jp/product/detail/145045023?branch_number=1000&tenpo_cd=400464",
