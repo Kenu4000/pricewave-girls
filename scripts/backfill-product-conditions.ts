@@ -7,6 +7,20 @@ import {
 
 const prisma = new PrismaClient();
 const TRANSACTION_PRODUCT_CHUNK = 100;
+const MISPARSED_OTHER_SHOP_STORE_NAMES = [
+  "管理番号",
+  "メーカー",
+  "発売日",
+  "定価",
+  "型番",
+  "カテゴリ",
+  "対応OS",
+  "動作OS",
+  "OS",
+  "対応機種",
+  "JAN",
+  "ISBN",
+];
 
 function parseDetailsJson(raw: string | null): Record<string, string> {
   if (!raw) return {};
@@ -70,6 +84,16 @@ async function main() {
 
   if (targets.length > 0) {
     console.log(`状態表記付き商品を${targets.length}件分離しました。`);
+  }
+
+  const removedMisparsedOtherShops = await prisma.junkHistory.deleteMany({
+    where: {
+      sourceType: "other_shop",
+      storeName: { in: MISPARSED_OTHER_SHOP_STORE_NAMES },
+    },
+  });
+  if (removedMisparsedOtherShops.count > 0) {
+    console.log(`旧他店舗誤解析履歴を${removedMisparsedOtherShops.count}件削除しました。`);
   }
 }
 
