@@ -8,7 +8,10 @@
 
   async function fetchAllRequests({ force = false } = {}) {
     if (!force && cachedAllRequests) return cachedAllRequests;
-    if (loadingAllRequests) return loadingAllRequests;
+    if (loadingAllRequests) {
+      await loadingAllRequests;
+      if (!force && cachedAllRequests) return cachedAllRequests;
+    }
 
     loadingAllRequests = (async () => {
       const requests = [];
