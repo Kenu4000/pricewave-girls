@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { replaceAlternateConditionItems } from "@/lib/alternate-condition-items";
+import { replaceEmbeddedOtherShopItems } from "@/lib/other-shop-items";
 import { syncOtherShopSnapshotFromProductHtml } from "@/lib/other-shop-html-snapshot";
 import { preserveIndividualDetailPeople } from "@/lib/product-detail-people";
 import { productImportQueue } from "@/lib/product-import-queue";
@@ -61,7 +62,8 @@ export async function POST(request: Request) {
 
     const parsed = parseProductHtml(html);
     const withSafeConditions = replaceAlternateConditionItems(html, parsed);
-    const withPeople = preserveIndividualDetailPeople(html, withSafeConditions);
+    const withSafeOtherShops = replaceEmbeddedOtherShopItems(html, withSafeConditions);
+    const withPeople = preserveIndividualDetailPeople(html, withSafeOtherShops);
     const fetched = withProductStateStorageMarkers(html, withPeople);
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
