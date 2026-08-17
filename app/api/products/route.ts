@@ -4,6 +4,12 @@ import {
   isDailyCrawlProductTitle,
   productBrandCandidates,
 } from "@/lib/crawl-brand-priority";
+import {
+  hasSurugayaCrawlSourceSelector,
+  normalizeSurugayaCrawlSourceUrl,
+  productCrawlUrl,
+  withProductCrawlSource,
+} from "@/lib/product-crawl-source";
 import { prisma } from "@/lib/prisma";
 import { fetchSurugayaHtml } from "@/lib/surugaya-browser";
 import {
@@ -40,7 +46,7 @@ export async function GET() {
       return {
         id: product.id,
         title: product.title,
-        url: product.surugayaUrl,
+        url: productCrawlUrl(product.surugayaUrl, product.detailsJson),
         crawlIntervalDays: product.crawlIntervalDays,
         lastCheckedAt: product.histories[0]?.checkedAt.toISOString() ?? null,
         // 旧拡張機能との互換用。新しい自動巡回判定には使用しない。
@@ -60,8 +66,13 @@ export async function POST(request: Request) {
     if (!url) return NextResponse.json({ error: "URLを入力してください" }, { status: 400 });
 
     const normalizedUrl = normalizeSurugayaUrl(url);
-    const html = await fetchSurugayaHtml(normalizedUrl);
-    const fetched = withProductStateStorageMarkers(html, parseProductHtml(html));
+    const crawlSourceUrl = hasSurugayaCrawlSourceSelector(url)
+      ? normalizeSurugayaCrawlSourceUrl(url)
+      : null;
+    const fetchUrl = crawlSourceUrl ?? normalizedUrl;
+    const html = await fetchSurugayaHtml(fetchUrl);
+    const withState = withProductStateStorageMarkers(html, parseProductHtml(html));
+    const fetched = withProductCrawlSource(withState, crawlSourceUrl);
     const [product] = await upsertProductSnapshotsWithTimeSale([{ surugayaUrl: normalizedUrl, fetched }]);
     if (!product) throw new Error("商品の保存に失敗しました");
 
