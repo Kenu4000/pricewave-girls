@@ -11,9 +11,26 @@ export type ProductTitleCondition = {
 
 const CONDITION_HINT =
   /(?:欠品|欠損|不足|不備|難あり|状態難|破損|汚れ|シミ|ヤケ|日焼け|変色|劣化|割れ|ヒビ|剥がれ|書き込み|折れ|凹み|へこみ|ディスクのみ|本体のみ|説明書なし|説明書無し|マニュアルなし|マニュアル無し|ケースなし|ケース無し|ジャケットなし|ジャケット無し|傷あり|キズあり|傷有|キズ有|ディスク傷|盤面傷|スレあり|擦れあり)/u;
+const RANK_B_TITLE_MARKER = /(?:^|\s)(?:【\s*)?ランク\s*B(?:\s*】|\s*[)）])\s*/iu;
 
 export function splitProductTitleCondition(title: string): ProductTitleCondition {
   const trimmed = title.trim();
+  const rankBMarker = RANK_B_TITLE_MARKER.exec(trimmed);
+  if (rankBMarker && rankBMarker.index !== undefined) {
+    const markerStart = rankBMarker.index;
+    const leadingSpace = rankBMarker[0].match(/^\s/u)?.[0] ?? "";
+    const markerContentStart = markerStart + leadingSpace.length;
+    const markerEnd = markerStart + rankBMarker[0].length;
+    const normalizedTitle = `${trimmed.slice(0, markerContentStart)}${trimmed.slice(markerEnd)}`
+      .replace(/\s{2,}/gu, " ")
+      .trim();
+    return {
+      title: normalizedTitle,
+      condition: "ランクB",
+      conditionRank: "B",
+    };
+  }
+
   const trailing = trailingParenthetical(trimmed);
   if (!trailing) {
     return { title: trimmed, condition: null, conditionRank: "A" };
