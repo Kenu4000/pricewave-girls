@@ -12,23 +12,55 @@
     });
   }
 
+  function compareRatioDescending(leftNumerator, leftDenominator, rightNumerator, rightDenominator) {
+    return rightNumerator * leftDenominator - leftNumerator * rightDenominator;
+  }
+
   function viewerBrandGroups() {
-    const counts = new Map();
+    const profiles = new Map();
     for (const product of state.data.products) {
       const brand = String(product.manufacturer || '').trim();
       if (!brand) continue;
-      counts.set(brand, (counts.get(brand) || 0) + 1);
+      const profile = profiles.get(brand) || {
+        brand,
+        total: 0,
+        daily: 0,
+        withinThreeDays: 0,
+        withinSevenDays: 0,
+        active: 0,
+      };
+      profile.total += 1;
+      if (product.crawlIntervalDays === 1) {
+        profile.daily += 1;
+        profile.withinThreeDays += 1;
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 3) {
+        profile.withinThreeDays += 1;
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 7) {
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 14) {
+        profile.active += 1;
+      }
+      profiles.set(brand, profile);
     }
 
-    const alphabetical = [...counts.keys()]
+    const alphabetical = [...profiles.keys()]
       .sort((left, right) => left.localeCompare(right, 'ja'));
-    const featured = alphabetical
-      .filter((brand) => counts.get(brand) >= 2)
-      .sort((left, right) => {
-        const countDifference = counts.get(right) - counts.get(left);
-        return countDifference || left.localeCompare(right, 'ja');
-      })
-      .slice(0, 12);
+    const featured = [...profiles.values()]
+      .filter((profile) => profile.total >= 2)
+      .sort((left, right) =>
+        compareRatioDescending(left.daily, left.total, right.daily, right.total)
+        || compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total)
+        || compareRatioDescending(left.withinSevenDays, left.total, right.withinSevenDays, right.total)
+        || compareRatioDescending(left.active, left.total, right.active, right.total)
+        || right.total - left.total
+        || left.brand.localeCompare(right.brand, 'ja'))
+      .slice(0, 12)
+      .map((profile) => profile.brand);
 
     return { featured, alphabetical };
   }
