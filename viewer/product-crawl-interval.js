@@ -46,6 +46,34 @@
     return `${NEW_ISSUE_URL}?${new URLSearchParams({ title, body }).toString()}`;
   }
 
+  async function openRequest(product, next, status) {
+    const helper = globalThis.PricewaveCrawlIssue;
+    if (!helper) {
+      window.open(issueUrl(product, next), '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    const popup = helper.openPlaceholder();
+    if (status) status.textContent = '既存の変更依頼を確認中…';
+    try {
+      const existing = await helper.findOpenRequest(product.id, { force: true });
+      if (existing?.url) {
+        helper.navigate(popup, existing.url);
+        if (status) status.textContent = '既存の変更依頼を開きました';
+        return;
+      }
+      helper.navigate(popup, issueUrl(product, next));
+      if (status) status.textContent = `${intervalLabel(next === 'off' ? null : Number(next))}への変更依頼を開きました`;
+    } catch (error) {
+      if (popup && !popup.closed) popup.close();
+      if (status) {
+        status.textContent = error instanceof Error
+          ? `Issue確認失敗: ${error.message}`
+          : 'Issueを確認できませんでした。';
+      }
+    }
+  }
+
   function mount() {
     const product = currentProduct();
     if (!product || document.querySelector('#viewer-product-crawl-interval')) return;
@@ -72,7 +100,7 @@
             aria-pressed="${option.value === current ? 'true' : 'false'}"
           >${option.label}</button>`).join('')}
       </div>
-      <span class="product-crawl-interval-note">Viewerでは変更先を選ぶとGitHub Issue作成画面を開きます。</span>`;
+      <span class="product-crawl-interval-note">Viewerでは変更先を選ぶと、同じ商品の未処理Issueを確認してからGitHubを開きます。</span>`;
 
     overview.insertAdjacentElement('afterend', panel);
     const status = panel.querySelector('.product-crawl-interval-status');
@@ -80,8 +108,7 @@
       button.addEventListener('click', () => {
         const next = button.dataset.productCrawlInterval || '';
         if (!next || next === current) return;
-        window.open(issueUrl(product, next), '_blank', 'noopener,noreferrer');
-        if (status) status.textContent = `${intervalLabel(next === 'off' ? null : Number(next))}への変更依頼を開きました`;
+        void openRequest(product, next, status);
       });
     });
   }
