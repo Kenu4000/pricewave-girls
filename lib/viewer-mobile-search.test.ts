@@ -58,3 +58,13 @@ test("五十音順には注目メーカーも含む全メーカーを残す", ()
     /const alphabetical\s*=\s*[^;]*\.filter\([^)]*featured/gu,
   );
 });
+
+test("注目度ソートは価格変動率・変更回数・反転回数・直近性を評価する", () => {
+  assert.match(script, /value="interesting_desc"[^>]*>注目度が高い順/u);
+  assert.match(script, /Math\.min\(rangeRatio, 2\) \* 40/u);
+  assert.match(script, /Math\.min\(changeCount, 12\) \* 3/u);
+  assert.match(script, /Math\.min\(reversalCount, 6\) \* 8/u);
+  assert.match(script, /Math\.max\(0, 1 - ageDays \/ 30\) \* 20/u);
+  assert.match(script, /globalThis\.filteredProducts\s*=\s*function filteredProductsWithInterest/u);
+  assert.match(script, /state\.sort !== 'interesting_desc'/u);
+});
