@@ -165,7 +165,7 @@ function selectedOffer(otherShopsHtml: string, source: URL): SelectedOffer | nul
       const row = $(anchor).closest("tr");
       if (row.length === 0) return;
       matchedRow = row;
-      matchedConditionText = normalizeText($(anchor).text());
+      matchedConditionText = normalizeConditionSource($(anchor).text());
     } catch {
       // 壊れたリンクは無視する。
     }
@@ -180,20 +180,46 @@ function selectedOffer(otherShopsHtml: string, source: URL): SelectedOffer | nul
     .find((value): value is number => value !== null);
   if (price === undefined) return null;
 
-  if (!/^(?:中古|新品|予約)/u.test(matchedConditionText)) {
+  if (!/(?:^|\s)(?:中古|新品|予約)/u.test(matchedConditionText)) {
     const cells = row
       .children("th, td")
       .toArray()
-      .map((cell) => normalizeText($(cell).text()));
-    matchedConditionText = cells.find((cell) => /^(?:中古|新品|予約)/u.test(cell)) ?? "";
+      .map((cell) => normalizeConditionSource($(cell).text()));
+    matchedConditionText = cells.find((cell) => /(?:^|\s)(?:中古|新品|予約)/u.test(cell)) ?? "";
   }
 
-  const condition = matchedConditionText.replace(/^(?:中古|新品|予約)\s*/u, "").trim();
+  const condition = extractConditionName(matchedConditionText);
   return {
     price,
     condition: condition || "通常",
     conditionRank: condition ? "B" : "A",
   };
+}
+
+function normalizeConditionSource(value: string): string {
+  let normalized = value;
+
+  // 埋め込みHTMLが文字列として一段残った場合も、状態名へタグや属性を持ち込まない。
+  for (let index = 0; index < 2; index += 1) {
+    const decoded = cheerio.load(`<div>${normalized}</div>`)("div").first().text();
+    if (decoded === normalized) break;
+    normalized = decoded;
+  }
+
+  return normalizeText(normalized.replace(/<[^>]*>/gu, " "));
+}
+
+function extractConditionName(value: string): string {
+  const normalized = normalizeConditionSource(value);
+  const marker = normalized.match(/(?:中古|新品|予約)\s*/u);
+  if (!marker || marker.index === undefined) return "";
+
+  const afterMarker = normalized.slice(marker.index + marker[0].length);
+  return afterMarker
+    .replace(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円.*$/u, "")
+    .replace(/\(税込\)|（税込）/gu, "")
+    .replace(/^ランク\s*B\s*/iu, "")
+    .trim();
 }
 
 function offerKey(url: URL): string {
