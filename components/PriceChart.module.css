@@ -129,6 +129,6 @@
   .tooltipRow {
     font-size: 0.74rem;
     grid-template-columns: 7px minmax(0, 1fr) auto;
-    white-space: normal;
+    white-space: nowrap;
   }
 }
