@@ -19,6 +19,10 @@ test("商品一覧を巡回周期で全登録商品から絞り込める", async
     new URL("../app/products/CrawlIntervalFilter.module.css", import.meta.url),
     "utf8",
   );
+  const count = await readFile(
+    new URL("../components/ProductListCount.tsx", import.meta.url),
+    "utf8",
+  );
 
   assert.match(page, /巡回周期で絞り込み/u);
   assert.match(page, /CRAWL_INTERVAL_OPTIONS/u);
@@ -29,6 +33,8 @@ test("商品一覧を巡回周期で全登録商品から絞り込める", async
   assert.match(page, /crawlInterval: option\.value/u);
   assert.match(css, /grid-template-columns: repeat\(6/u);
   assert.match(css, /data-tone="seven"/u);
+  assert.match(count, /絞り込み結果：/u);
+  assert.match(count, /totalProducts\.toLocaleString/u);
 });
 
 test("自動巡回と手動巡回は同じ均等化スケジュールを使う", async () => {

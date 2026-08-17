@@ -15,6 +15,9 @@ test("Viewerの商品一覧を巡回周期で絞り込める", async () => {
   assert.match(script, /Number\(product\.crawlIntervalDays\) === Number\(state\.crawlInterval\)/u);
   assert.match(script, /originalFilteredProducts\(source\)\.filter\(matchesCrawlInterval\)/u);
   assert.match(script, /state\.page = 1/u);
+  assert.match(script, /絞り込み結果：/u);
+  assert.match(script, /globalThis\.filteredProducts\(\)\.length/u);
+  assert.match(script, /MutationObserver\(updateFilteredCount\)/u);
 
   const mobileSearchIndex = html.indexOf('./mobile-search.js');
   const intervalFilterIndex = html.indexOf('./crawl-interval-filter.js');
