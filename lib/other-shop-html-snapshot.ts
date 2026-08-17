@@ -1,5 +1,5 @@
 import * as cheerio from "cheerio";
-import { copyFile, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { extractOtherShopItemsSafely } from "@/lib/other-shop-items";
 import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
@@ -7,6 +7,20 @@ import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 const CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
 const SNAPSHOT_ROOT_NAME = ".pricewave-snapshots";
 const SNAPSHOT_SUBDIRECTORY = "other-shops";
+const PRODUCT_DETAIL_LABELS = new Set([
+  "管理番号",
+  "メーカー",
+  "発売日",
+  "定価",
+  "型番",
+  "カテゴリ",
+  "対応OS",
+  "動作OS",
+  "OS",
+  "対応機種",
+  "JAN",
+  "ISBN",
+]);
 
 export type OtherShopSnapshotItem = {
   storeName: string;
@@ -150,42 +164,8 @@ export async function readOtherShopSnapshotData(
   if (!productCode) return null;
 
   try {
-    const parsed = JSON.parse(
-      await readFile(otherShopSnapshotJsonPath(productCode, rootDir), "utf8"),
-    ) as Partial<OtherShopSnapshotData>;
-    if (
-      parsed.productCode !== productCode ||
-      typeof parsed.sourceUrl !== "string" ||
-      typeof parsed.capturedAt !== "string" ||
-      !Array.isArray(parsed.items)
-    ) {
-      return null;
-    }
-
-    const items = parsed.items.flatMap((item) => {
-      if (!item || typeof item !== "object") return [];
-      const candidate = item as Partial<OtherShopSnapshotItem>;
-      if (
-        typeof candidate.storeName !== "string" ||
-        typeof candidate.condition !== "string" ||
-        typeof candidate.price !== "number" ||
-        !Number.isFinite(candidate.price)
-      ) {
-        return [];
-      }
-      return [{
-        storeName: candidate.storeName,
-        condition: candidate.condition,
-        price: candidate.price,
-      }];
-    });
-
-    return {
-      productCode,
-      sourceUrl: parsed.sourceUrl,
-      capturedAt: parsed.capturedAt,
-      items,
-    };
+    const raw = await readFile(otherShopSnapshotJsonPath(productCode, rootDir), "utf8");
+    return parseStoredSnapshot(productCode, raw);
   } catch {
     return null;
   }
@@ -217,14 +197,68 @@ export async function exportOtherShopSnapshots(
     await Promise.all(
       entries
         .filter((entry) => entry.isFile() && /^[0-9A-Za-z]+\.json$/u.test(entry.name))
-        .map((entry) =>
-          copyFile(path.join(sourceDirectory, entry.name), path.join(outputDirectory, entry.name)),
-        ),
+        .map(async (entry) => {
+          const productCode = entry.name.replace(/\.json$/u, "");
+          const raw = await readFile(path.join(sourceDirectory, entry.name), "utf8");
+          const data = parseStoredSnapshot(productCode, raw);
+          if (!data) return;
+          await writeFile(
+            path.join(outputDirectory, entry.name),
+            JSON.stringify(data, null, 2),
+            "utf8",
+          );
+        }),
     );
   } catch (error) {
     const code = error && typeof error === "object" && "code" in error ? error.code : null;
     if (code !== "ENOENT") throw error;
   }
+}
+
+function parseStoredSnapshot(productCode: string, raw: string): OtherShopSnapshotData | null {
+  const parsed = JSON.parse(raw) as Partial<OtherShopSnapshotData>;
+  if (
+    parsed.productCode !== productCode ||
+    typeof parsed.sourceUrl !== "string" ||
+    typeof parsed.capturedAt !== "string" ||
+    !Array.isArray(parsed.items)
+  ) {
+    return null;
+  }
+
+  const items = parsed.items.flatMap((item) => {
+    if (!item || typeof item !== "object") return [];
+    const candidate = item as Partial<OtherShopSnapshotItem>;
+    if (
+      typeof candidate.storeName !== "string" ||
+      typeof candidate.condition !== "string" ||
+      typeof candidate.price !== "number" ||
+      !Number.isFinite(candidate.price)
+    ) {
+      return [];
+    }
+    const normalized = {
+      storeName: candidate.storeName.trim(),
+      condition: candidate.condition.trim(),
+      price: candidate.price,
+    };
+    if (!normalized.storeName || !normalized.condition || isLegacyMisparsedDetailItem(normalized)) {
+      return [];
+    }
+    return [normalized];
+  });
+
+  return {
+    productCode,
+    sourceUrl: parsed.sourceUrl,
+    capturedAt: parsed.capturedAt,
+    items,
+  };
+}
+
+function isLegacyMisparsedDetailItem(item: OtherShopSnapshotItem): boolean {
+  if (PRODUCT_DETAIL_LABELS.has(item.storeName)) return true;
+  return /^(?:中古|新品|予約)\s*[：:]\s*[0-9A-Za-z]{8,}$/u.test(item.condition);
 }
 
 function assertProductCode(productCode: string): void {
