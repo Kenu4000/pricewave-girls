@@ -77,13 +77,24 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
     setError("");
 
     try {
-      if (option.value !== 1) {
-        const response = await fetch(`/api/products/${current.id}/crawl-interval`, {
+      const response = await fetch(
+        option.value === 1
+          ? `/api/products/${current.id}/crawl-review`
+          : `/api/products/${current.id}/crawl-interval`,
+        {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ crawlIntervalDays: option.value }),
-        });
-        if (!response.ok) throw new Error("巡回周期を保存できませんでした。");
+          ...(option.value === 1
+            ? {}
+            : { body: JSON.stringify({ crawlIntervalDays: option.value }) }),
+        },
+      );
+      if (!response.ok) {
+        throw new Error(
+          option.value === 1
+            ? "1日として確認済みにできませんでした。"
+            : "巡回周期を保存できませんでした。",
+        );
       }
 
       setCounts((previous) => ({
@@ -104,7 +115,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
         <header className={styles.heading}>
           <div>
             <h1>巡回周期の振り分け</h1>
-            <p>現在「1日」に設定されている商品はありません。</p>
+            <p>未確認の「1日」設定商品はありません。</p>
           </div>
         </header>
         <div className={`card ${styles.finished}`}>
@@ -121,7 +132,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
         <header className={styles.heading}>
           <div>
             <h1>巡回周期の振り分け</h1>
-            <p>この画面を開いた時点で「1日」だった商品をすべて確認しました。</p>
+            <p>この画面を開いた時点で未確認だった「1日」商品をすべて確認しました。</p>
           </div>
         </header>
         <div className={`card ${styles.finished}`}>
@@ -144,7 +155,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
       <header className={styles.heading}>
         <div>
           <h1>巡回周期の振り分け</h1>
-          <p>「1日」設定の商品を1件ずつ確認して、適切な周期へ振り分けます。</p>
+          <p>未確認の「1日」設定商品を1件ずつ確認して、適切な周期へ振り分けます。</p>
         </div>
         <div className={styles.progressText}>
           <strong>{(index + 1).toLocaleString("ja-JP")} / {total.toLocaleString("ja-JP")}件目</strong>
