@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { LiveRefresh } from "@/app/live-refresh";
 import { BrandFeaturedGroupLabel } from "@/components/BrandFeaturedGroupLabel";
+import { ProductCrawlSourceLink } from "@/components/ProductCrawlSourceLink";
 import { TimeSaleCountdown } from "@/components/TimeSaleCountdown";
 import { ViewedProductTracker } from "@/components/ViewedProductTracker";
 import { prisma } from "@/lib/prisma";
@@ -40,6 +41,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         <LiveRefresh />
         <ViewedProductTracker />
         <BrandFeaturedGroupLabel />
+        <ProductCrawlSourceLink />
         <main className="container">
           <header className="header">
             <div style={{ alignItems: "center", display: "flex", flexWrap: "wrap", gap: 12 }}>
