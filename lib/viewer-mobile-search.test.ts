@@ -35,3 +35,15 @@ test("検索修正はapp.jsの後に読み込んでrenderProductsを差し替え
   assert.ok(fixIndex > appIndex);
   assert.match(script, /globalThis\.renderProducts\s*=\s*renderProductsStableSearch/u);
 });
+
+test("メーカー候補は上位12件と全メーカー五十音順を分けて表示する", () => {
+  assert.match(script, /label="よく登録されているメーカー"/u);
+  assert.match(script, /label="五十音順"/u);
+  assert.match(script, /<option value="" \$\{state\.brand \? '' : 'selected'\}>すべて<\/option>/u);
+  assert.match(script, /\.slice\(0, 12\)/u);
+  assert.match(script, /const alphabetical = \[\.\.\.counts\.keys\(\)\]/u);
+  assert.doesNotMatch(
+    script,
+    /const alphabetical\s*=\s*[^;]*\.filter\([^)]*featured/gu,
+  );
+});
