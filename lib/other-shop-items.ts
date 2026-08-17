@@ -4,7 +4,6 @@ import { normalizePrice } from "./surugaya";
 
 const CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
 const CONDITION_PREFIX = /^(?:中古|新品|予約|プレミア|ワケアリ|ランク\s*B(?:[)）])?)/iu;
-const CONDITION_IN_TEXT = /(?:^|\s)((?:中古|新品|予約|プレミア|ワケアリ|ランク\s*B(?:[)）])?).*?)(?=\s*[¥￥]?[0-9０-９][0-9０-９,，]*\s*円|$)/iu;
 const YEN_PRICE = /[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/gu;
 
 export function extractOtherShopItemsSafely(rawHtml: string): FetchedJunkItem[] {
@@ -140,9 +139,17 @@ function conditionFromContainer(
     }
   }
 
-  const text = normalizeText(container.text());
-  const match = text.match(CONDITION_IN_TEXT);
-  return match ? cleanCondition(match[1]) : null;
+  const candidates = container
+    .find("td, th, [data-condition], .condition, .item-condition, .item_condition, [class*='condition']")
+    .toArray();
+  for (const element of candidates) {
+    const text = normalizeText($(element).text());
+    if (text.length <= 200 && !containsPrice(text) && looksLikeCondition(text)) {
+      return cleanCondition(text);
+    }
+  }
+
+  return null;
 }
 
 function sellerNameFromContainer(
@@ -184,8 +191,14 @@ function cleanCondition(value: string): string {
     .trim();
 }
 
+function containsPrice(value: string): boolean {
+  YEN_PRICE.lastIndex = 0;
+  return YEN_PRICE.test(normalizeText(value));
+}
+
 function firstPrice(value: string): number | null {
-  const match = normalizeText(value).match(YEN_PRICE)?.[0];
+  YEN_PRICE.lastIndex = 0;
+  const match = YEN_PRICE.exec(normalizeText(value))?.[0];
   return match ? normalizePrice(match) : null;
 }
 
