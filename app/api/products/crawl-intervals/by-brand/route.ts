@@ -88,7 +88,10 @@ export async function PATCH(request: Request) {
 
   const result = await prisma.product.updateMany({
     where: { id: { in: target.productIds } },
-    data: { crawlIntervalDays },
+    data: {
+      crawlIntervalDays,
+      crawlIntervalReviewedAt: null,
+    },
   });
 
   return NextResponse.json({
