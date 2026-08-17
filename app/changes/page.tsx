@@ -9,6 +9,7 @@ import {
   type PriceChangeType,
 } from "@/lib/price-change-events";
 import { normalizeFilterChoiceValue } from "@/lib/product-filter-options";
+import styles from "./PriceChanges.module.css";
 
 export const dynamic = "force-dynamic";
 
@@ -25,6 +26,7 @@ const DIRECTION_OPTIONS = [
 ] as const;
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
+type DisplayDirection = "up" | "down" | "flat";
 
 function firstValue(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
@@ -53,6 +55,23 @@ function normalizeFilterText(value: string | undefined, maxLength: number) {
 
 function formatPrice(price: number | null) {
   return price === null ? "未取得" : `${price.toLocaleString("ja-JP")}円`;
+}
+
+function displayDirection(previousPrice: number | null, currentPrice: number | null): DisplayDirection {
+  if (previousPrice === null || currentPrice === null || previousPrice === currentPrice) return "flat";
+  return currentPrice > previousPrice ? "up" : "down";
+}
+
+function directionLabel(direction: DisplayDirection) {
+  if (direction === "up") return "値上げ";
+  if (direction === "down") return "値下がり";
+  return "変化なし";
+}
+
+function directionArrow(direction: DisplayDirection) {
+  if (direction === "up") return "↑";
+  if (direction === "down") return "↓";
+  return "→";
 }
 
 function pageUrl(page: number, filters: PriceChangeFilters) {
@@ -176,35 +195,51 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
               </tr>
             </thead>
             <tbody>
-              {result.events.map((event) => (
-                <tr key={event.id}>
-                  <td data-label="変更日時">{event.changedAt.toLocaleString("ja-JP")}</td>
-                  <td className="price-change-product-cell" data-label="商品">
-                    <Link className="change-product-link" href={`/products/${event.productId}`}>
-                      {event.imageUrl ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img alt="" src={event.imageUrl} />
-                      ) : null}
-                      <span>{event.title}</span>
-                    </Link>
-                  </td>
-                  <td data-label="ブランド">
-                    {event.manufacturer ?? <span className="muted">未取得</span>}
-                  </td>
-                  <td data-label="種類">
-                    <span className={`change-type-badge ${event.type}`}>
-                      {event.type === "sale" ? "販売" : "買取"}
-                    </span>
-                  </td>
-                  <td data-label="変更前">{formatPrice(event.previousPrice)}</td>
-                  <td className="price-change-current" data-label="変更後">
-                    {formatPrice(event.currentPrice)}
-                  </td>
-                  <td className="price-change-action-cell" data-label="操作">
-                    <DeletePriceChangeButton priceChangeId={event.id} />
-                  </td>
-                </tr>
-              ))}
+              {result.events.map((event) => {
+                const direction = displayDirection(event.previousPrice, event.currentPrice);
+                const directionClass =
+                  direction === "up" ? styles.up : direction === "down" ? styles.down : styles.flat;
+                const rankB = event.conditionRank === "B";
+
+                return (
+                  <tr className={rankB ? styles.rankBRow : undefined} key={event.id}>
+                    <td data-label="変更日時">{event.changedAt.toLocaleString("ja-JP")}</td>
+                    <td className="price-change-product-cell" data-label="商品">
+                      <Link className="change-product-link" href={`/products/${event.productId}`}>
+                        {event.imageUrl ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img alt="" src={event.imageUrl} />
+                        ) : null}
+                        <span>{event.title}</span>
+                      </Link>
+                    </td>
+                    <td data-label="ブランド">
+                      {event.manufacturer ?? <span className="muted">未取得</span>}
+                    </td>
+                    <td data-label="種類">
+                      <span className={styles.typeWithDirection}>
+                        <span className={`change-type-badge ${event.type}`}>
+                          {event.type === "sale" ? "販売" : "買取"}
+                        </span>
+                        <span
+                          aria-label={directionLabel(direction)}
+                          className={`${styles.directionArrow} ${directionClass}`}
+                          title={directionLabel(direction)}
+                        >
+                          {directionArrow(direction)}
+                        </span>
+                      </span>
+                    </td>
+                    <td data-label="変更前">{formatPrice(event.previousPrice)}</td>
+                    <td className="price-change-current" data-label="変更後">
+                      {formatPrice(event.currentPrice)}
+                    </td>
+                    <td className="price-change-action-cell" data-label="操作">
+                      <DeletePriceChangeButton priceChangeId={event.id} />
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
