@@ -26,7 +26,10 @@ export async function PATCH(
   try {
     const product = await prisma.product.update({
       where: { id: productId },
-      data: { crawlIntervalDays },
+      data: {
+        crawlIntervalDays,
+        crawlIntervalReviewedAt: null,
+      },
       select: { id: true, crawlIntervalDays: true },
     });
     return NextResponse.json(product);
