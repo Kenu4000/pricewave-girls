@@ -56,6 +56,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
               <a className="button secondary" href="/changes">価格変更</a>
               <a className="button secondary" href="/history">履歴</a>
               <a className="button secondary" href="/requests">リクエスト</a>
+              <a className="button secondary" href="/crawl-review">周期振り分け</a>
             </nav>
           </header>
           {children}
