@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JunkHistorySections } from "@/components/JunkHistorySections";
 import { PriceChart } from "@/components/PriceChart";
+import { ProductCrawlIntervalControl } from "@/components/ProductCrawlIntervalControl";
 import { readOtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 import {
   extractOperatingSystems,
@@ -215,6 +216,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <span className="badge">通常価格: {formatPrice(product.latestRegularSalePrice)}</span>
             ) : null}
           </div>
+          <ProductCrawlIntervalControl
+            initialValue={product.crawlIntervalDays as 1 | 3 | 7 | 14 | null}
+            productId={product.id}
+          />
         </article>
 
         <section className="detail-chart-panel">
