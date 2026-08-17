@@ -25,6 +25,13 @@ const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
   { value: "month", label: "月" },
 ];
 
+const TOOLTIP_SERIES = [
+  { name: "販売価格", color: "#d9469a" },
+  { name: "買取価格", color: "#3b82f6" },
+  { name: "ランクB", color: "#16a34a" },
+  { name: "タイムセール", color: "#eab308" },
+] as const;
+
 const yenFormatter = (value: number | string | null) => {
   if (value === null || value === undefined) {
     return "-";
@@ -67,19 +74,13 @@ function numericValue(value: unknown): number | null {
 }
 
 function PriceTooltip({ active, payload, label }: PriceTooltipProps) {
-  if (!active || !payload || payload.length === 0) return null;
+  if (!active) return null;
 
-  const rows = payload
-    .map((entry) => ({
-      color: entry.color,
-      name: typeof entry.name === "string" ? entry.name : "価格",
-      value: numericValue(entry.value),
-    }))
-    .filter((entry): entry is { color: string | undefined; name: string; value: number } =>
-      entry.value !== null,
-    );
-
-  if (rows.length === 0) return null;
+  const valuesByName = new Map<string, number | null>();
+  for (const entry of payload ?? []) {
+    if (typeof entry.name !== "string") continue;
+    valuesByName.set(entry.name, numericValue(entry.value));
+  }
 
   return (
     <div className={styles.tooltip}>
@@ -87,15 +88,15 @@ function PriceTooltip({ active, payload, label }: PriceTooltipProps) {
         <div className={styles.tooltipLabel}>{String(label)}</div>
       ) : null}
       <div className={styles.tooltipRows}>
-        {rows.map((row, index) => (
-          <div className={styles.tooltipRow} key={`${row.name}:${index}`}>
+        {TOOLTIP_SERIES.map((series) => (
+          <div className={styles.tooltipRow} key={series.name}>
             <span
               aria-hidden="true"
               className={styles.tooltipMarker}
-              style={{ backgroundColor: row.color ?? "currentColor" }}
+              style={{ backgroundColor: series.color }}
             />
-            <span>{row.name}</span>
-            <strong>{yenFormatter(row.value)}</strong>
+            <span>{series.name}</span>
+            <strong>{yenFormatter(valuesByName.get(series.name) ?? null)}</strong>
           </div>
         ))}
       </div>
@@ -164,6 +165,8 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             />
             <Tooltip
               allowEscapeViewBox={{ x: false, y: false }}
+              filterNull={false}
+              isAnimationActive={false}
               offset={8}
               content={(props) => (
                 <PriceTooltip
