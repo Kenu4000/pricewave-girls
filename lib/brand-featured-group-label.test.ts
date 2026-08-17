@@ -9,7 +9,7 @@ test("ブランド欄だけ注目候補をよく登録されているメーカ�
   );
   const layout = await readFile(new URL("../app/layout.tsx", import.meta.url), "utf8");
 
-  assert.match(component, /select\[name=\\"brand\\"\]/u);
+  assert.ok(component.includes('select[name="brand"]'));
   assert.match(component, /よく登録されているメーカー/u);
   assert.match(component, /group\.label === CURRENT_LABEL/u);
   assert.match(layout, /BrandFeaturedGroupLabel/u);
