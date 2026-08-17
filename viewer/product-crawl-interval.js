@@ -84,13 +84,9 @@
     const current = intervalKey(product.crawlIntervalDays);
     const panel = document.createElement('section');
     panel.id = 'viewer-product-crawl-interval';
-    panel.className = 'panel block product-crawl-interval-panel';
+    panel.className = 'product-crawl-interval-panel';
     panel.innerHTML = `
-      <div class="product-crawl-interval-copy">
-        <strong>巡回周期</strong>
-        <span>この商品を取得する頻度</span>
-        <span class="product-crawl-interval-status" aria-live="polite"></span>
-      </div>
+      <strong class="product-crawl-interval-label">巡回周期</strong>
       <div class="product-crawl-interval-buttons" role="group" aria-label="この商品の巡回周期">
         ${options.map((option) => `
           <button
@@ -100,7 +96,7 @@
             aria-pressed="${option.value === current ? 'true' : 'false'}"
           >${option.label}</button>`).join('')}
       </div>
-      <span class="product-crawl-interval-note">Viewerでは変更先を選ぶと、同じ商品の未処理Issueを確認してからGitHubを開きます。</span>`;
+      <span class="product-crawl-interval-status" aria-live="polite"></span>`;
 
     overview.insertAdjacentElement('afterend', panel);
     const status = panel.querySelector('.product-crawl-interval-status');
