@@ -22,6 +22,7 @@ export type PriceChangeEvent = {
   title: string;
   imageUrl: string | null;
   manufacturer: string | null;
+  conditionRank: string;
   type: Exclude<PriceChangeType, "all">;
   previousPrice: number | null;
   currentPrice: number | null;
@@ -30,7 +31,7 @@ export type PriceChangeEvent = {
 
 const PRICE_CHANGE_INCLUDE = {
   product: {
-    select: { title: true, imageUrl: true, manufacturer: true },
+    select: { title: true, imageUrl: true, manufacturer: true, conditionRank: true },
   },
 } satisfies Prisma.PriceChangeInclude;
 
@@ -45,6 +46,7 @@ function mapPriceChangeRow(row: PriceChangeRow): PriceChangeEvent {
     title: row.product.title,
     imageUrl: row.product.imageUrl,
     manufacturer: row.product.manufacturer,
+    conditionRank: row.product.conditionRank,
     type: row.type === "buy" ? "buy" : "sale",
     previousPrice: row.previousPrice,
     currentPrice: row.currentPrice,

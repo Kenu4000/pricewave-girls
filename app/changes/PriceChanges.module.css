@@ -1,0 +1,41 @@
+.typeWithDirection {
+  align-items: center;
+  display: inline-flex;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.directionArrow {
+  align-items: center;
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 900;
+  height: 26px;
+  justify-content: center;
+  line-height: 1;
+  width: 26px;
+}
+
+.up {
+  background: #fff0ee;
+  color: #b42318;
+}
+
+.down {
+  background: #eef7ff;
+  color: #175b8c;
+}
+
+.flat {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.rankBRow {
+  background: color-mix(in srgb, #16a34a 9%, white);
+}
+
+.rankBRow > td:first-child {
+  box-shadow: inset 3px 0 0 #16a34a;
+}
