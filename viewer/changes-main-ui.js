@@ -8,6 +8,10 @@
     perPage: 50,
   };
 
+  function normalizeViewerSearch(value) {
+    return String(value || '').normalize('NFKC').toLocaleLowerCase('ja');
+  }
+
   function directionOf(change) {
     if (change.currentPrice > change.previousPrice) return 'up';
     if (change.currentPrice < change.previousPrice) return 'down';
@@ -42,10 +46,18 @@
   }
 
   function filteredChanges(changes) {
-    const query = changeViewState.query.trim().toLocaleLowerCase('ja');
+    const query = normalizeViewerSearch(changeViewState.query.trim());
+    const productsById = new Map((state.data.products || []).map((product) => [product.id, product]));
     return changes.filter((change) => {
       const product = change.product || {};
-      if (query && !String(product.title || '').toLocaleLowerCase('ja').includes(query)) return false;
+      const summary = productsById.get(change.productId) || product;
+      if (query) {
+        const fallback = [summary.title, summary.manufacturer, summary.releaseDate]
+          .filter(Boolean)
+          .join('\n');
+        const haystack = summary.searchText || fallback;
+        if (!normalizeViewerSearch(haystack).includes(query)) return false;
+      }
       if (changeViewState.brand && product.manufacturer !== changeViewState.brand) return false;
       if (changeViewState.type !== 'all' && change.type !== changeViewState.type) return false;
       const direction = directionOf(change);
@@ -142,8 +154,8 @@
 
       <form id="viewer-change-filter-form" class="viewer-change-filter-form panel">
         <label class="viewer-change-filter-field viewer-change-filter-query">
-          <span>商品名</span>
-          <input id="viewer-change-query" value="${esc(changeViewState.query)}" maxlength="200" placeholder="商品名の一部を入力" type="search">
+          <span>検索</span>
+          <input id="viewer-change-query" value="${esc(changeViewState.query)}" maxlength="200" placeholder="商品名・ブランド・原画など" type="search">
         </label>
         <label class="viewer-change-filter-field viewer-change-filter-brand">
           <span>ブランド</span>
