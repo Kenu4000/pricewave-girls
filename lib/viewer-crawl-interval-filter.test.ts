@@ -24,3 +24,12 @@ test("Viewerの商品一覧を巡回周期で絞り込める", async () => {
   assert.ok(mobileSearchIndex >= 0);
   assert.ok(intervalFilterIndex > mobileSearchIndex);
 });
+
+test("Viewer巡回周期フィルタはモバイルで一行かつ横スクロール不要", async () => {
+  const css = await readFile(new URL("../viewer/crawl-interval-display.css", import.meta.url), "utf8");
+  assert.match(css, /@media\(max-width:760px\)/u);
+  assert.match(css, /grid-template-columns:auto minmax\(0,1fr\)/u);
+  assert.match(css, /grid-template-columns:repeat\(6,minmax\(0,1fr\)\)/u);
+  assert.match(css, /overflow:visible/u);
+  assert.doesNotMatch(css, /@media\(max-width:760px\)[\s\S]*?overflow-x:auto/u);
+});
