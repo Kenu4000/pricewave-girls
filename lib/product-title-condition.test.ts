@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   conditionAnnotatedProductIds,
+  conditionUnannotatedProductIds,
   hasTrailingConditionAnnotation,
   splitProductTitleCondition,
 } from "./product-title-condition";
@@ -72,5 +73,17 @@ test("状態表記付き商品のIDだけを抽出する", () => {
       { id: 4, title: "Windows DVDソフト ランクB)智代アフター" },
     ]),
     [2, 3, 4],
+  );
+});
+
+test("状態表記なし商品のIDだけを抽出する", () => {
+  assert.deepEqual(
+    conditionUnannotatedProductIds([
+      { id: 1, title: "AIR" },
+      { id: 2, title: "Kanon(状態：ディスクのみ)" },
+      { id: 3, title: "CLANNAD", condition: "箱不備", conditionRank: "B" },
+      { id: 4, title: "Windows DVDソフト ランクB)智代アフター" },
+    ]),
+    [1],
   );
 });

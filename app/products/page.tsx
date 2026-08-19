@@ -13,7 +13,7 @@ import {
 import { sortProductIdsByLatestHistory } from "@/lib/product-history-order";
 import { sortProductsByInterest } from "@/lib/product-interest-score";
 import { sortProductsByPriceSpread } from "@/lib/product-price-spread";
-import { conditionAnnotatedProductIds } from "@/lib/product-title-condition";
+import { conditionUnannotatedProductIds } from "@/lib/product-title-condition";
 import { prisma } from "@/lib/prisma";
 import type { ProductPreview } from "@/lib/product-preview";
 import intervalStyles from "./CrawlIntervalFilter.module.css";
@@ -206,7 +206,7 @@ function addIndexedFilter(
 function buildProductWhere(
   filters: ProductFilters,
   catalog: ProductFilterCatalog,
-  conditionTitleIds: number[],
+  conditionTitleAllowedIds: number[],
 ): Prisma.ProductWhereInput {
   const conditions: Prisma.ProductWhereInput[] = [];
 
@@ -218,8 +218,8 @@ function buildProductWhere(
   addIndexedFilter(conditions, filters.illustrator, catalog.illustrators);
   addIndexedFilter(conditions, filters.scenario, catalog.scenarios);
   addIndexedFilter(conditions, filters.voiceActor, catalog.voiceActors);
-  if (filters.conditionTitle === "exclude" && conditionTitleIds.length > 0) {
-    conditions.push({ id: { notIn: conditionTitleIds } });
+  if (filters.conditionTitle === "exclude") {
+    conditions.push({ id: { in: conditionTitleAllowedIds } });
   }
   if (filters.detailLabel && filters.detailValue) {
     conditions.push({
@@ -436,8 +436,8 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
     },
   });
   const filterCatalog = buildProductFilterCatalog(filterSourceProducts);
-  const conditionTitleIds = conditionAnnotatedProductIds(filterSourceProducts);
-  const where = buildProductWhere(filters, filterCatalog, conditionTitleIds);
+  const conditionTitleAllowedIds = conditionUnannotatedProductIds(filterSourceProducts);
+  const where = buildProductWhere(filters, filterCatalog, conditionTitleAllowedIds);
   const filtersActive = hasActiveFilters(filters);
   const totalProducts = await prisma.product.count({ where });
   const allProducts = filterSourceProducts.length;
