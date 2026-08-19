@@ -52,11 +52,16 @@
       const product = change.product || {};
       const summary = productsById.get(change.productId) || product;
       if (query) {
-        const fallback = [summary.title, summary.manufacturer, summary.releaseDate]
-          .filter(Boolean)
-          .join('\n');
-        const haystack = summary.searchText || fallback;
-        if (!normalizeViewerSearch(haystack).includes(query)) return false;
+        const matcher = globalThis.viewerProductMatchesSearch;
+        if (typeof matcher === 'function') {
+          if (!matcher(summary, changeViewState.query)) return false;
+        } else {
+          const fallback = [summary.title, summary.manufacturer, summary.releaseDate]
+            .filter(Boolean)
+            .join('\n');
+          const haystack = summary.searchText || fallback;
+          if (!normalizeViewerSearch(haystack).includes(query)) return false;
+        }
       }
       if (changeViewState.brand && product.manufacturer !== changeViewState.brand) return false;
       if (changeViewState.type !== 'all' && change.type !== changeViewState.type) return false;
