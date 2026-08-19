@@ -60,24 +60,44 @@ test("タイムセールは通常価格から黄色破線で分岐表示する",
   assert.match(css, /\.viewer-chart-timesale-branch\s*\{[\s\S]*?stroke-dasharray:\s*4 3/u);
 });
 
-test("ツールチップ追従と縦クロスヘアを表示する", () => {
-  assert.match(script, /class="viewer-chart-crosshair"/u);
+test("Viewerはモバイルを含め全価格系列の取得点を表示する", () => {
+  assert.match(script, /class="viewer-chart-dot"/u);
+  assert.match(script, /series\.key === 'timeSalePrice' \? \(compact \? 3 : 4\) : \(compact \? 2\.5 : 3\)/u);
+  assert.doesNotMatch(script, /const showDot = !compact/u);
+  assert.match(css, /\.viewer-chart-dot\s*\{[\s\S]*?stroke:\s*#fff/u);
+});
+
+test("触れている取得点の価格をグラフ上部の固定欄へ表示する", () => {
+  assert.match(script, /function viewerChartReadout\(point\)/u);
+  assert.match(script, /class="viewer-chart-readout"/u);
+  assert.match(script, /viewerChartReadout\(initialPoint\)/u);
+  assert.match(script, /const updateReadout = \(point\) =>/u);
+  assert.match(script, /value\.textContent = viewerChartYen\(point\[series\.key\]\)/u);
+  assert.match(css, /\.viewer-chart-readout\s*\{[\s\S]*?min-height:\s*54px/u);
+});
+
+test("PCは追従ツールチップを残しモバイルは固定価格欄だけ使う", () => {
   assert.match(script, /class="viewer-chart-tooltip" hidden/u);
+  assert.match(script, /if \(compact\) \{\s*tooltip\.hidden = true;\s*return;/su);
+  assert.match(script, /if \(compact\) return;/u);
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*?\.viewer-chart-tooltip\s*\{\s*display:\s*none !important;/su);
+});
+
+test("ポインター位置から固定価格欄と縦クロスヘアを更新する", () => {
+  assert.match(script, /class="viewer-chart-crosshair"/u);
   assert.match(script, /addEventListener\('pointerenter', selectFromPointer\)/u);
   assert.match(script, /addEventListener\('pointermove', selectFromPointer\)/u);
   assert.match(script, /addEventListener\('pointerdown', selectFromPointer\)/u);
   assert.match(script, /nearestIndex/u);
+  assert.match(script, /updateReadout\(point\)/u);
 });
 
-test("ツールチップは絶対配置のままポインターへ追従しグラフのレイアウトを動かさない", () => {
+test("PCツールチップは絶対配置でグラフのレイアウトを動かさない", () => {
   assert.match(css, /\.viewer-chart-wrap\s*\{[\s\S]*?position:\s*relative/u);
   assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?position:\s*absolute/u);
-  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?left:\s*0/u);
-  assert.match(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?top:\s*0/u);
   assert.match(script, /const positionTooltip = \(event\) =>/u);
   assert.match(script, /tooltip\.style\.left = `\$\{left\}px`/u);
   assert.match(script, /tooltip\.style\.top = `\$\{top\}px`/u);
-  assert.doesNotMatch(css, /\.viewer-chart-tooltip\s*\{[\s\S]*?margin:/u);
 });
 
 test("モバイルは横スクロールせず縦スクロールを維持する", () => {
