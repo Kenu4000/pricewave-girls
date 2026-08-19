@@ -71,6 +71,27 @@
     return detailIndexPromise;
   }
 
+  function detailFilterIds(filter) {
+    const exact = detailIndex?.[filter.key];
+    if (Array.isArray(exact)) return exact.map(Number);
+
+    const normalizedLabel = String(filter.label ?? '').normalize('NFKC').trim();
+    if (!PEOPLE_DETAIL_LABELS.has(normalizedLabel)) return [];
+
+    const labelPrefix = `${normalizeDetailPart(filter.label)}\u0000`;
+    const valueKey = normalizeDetailPart(filter.value);
+    if (!valueKey) return [];
+
+    const ids = new Set();
+    for (const [key, productIds] of Object.entries(detailIndex ?? {})) {
+      if (!key.startsWith(labelPrefix)) continue;
+      const indexedValue = key.slice(labelPrefix.length);
+      if (!indexedValue.includes(valueKey) || !Array.isArray(productIds)) continue;
+      productIds.forEach((id) => ids.add(Number(id)));
+    }
+    return [...ids];
+  }
+
   globalThis.filteredProducts = function filteredProductsWithDetailFilter(
     source = state.data.products,
   ) {
@@ -78,7 +99,7 @@
     const filter = activeDetailFilter();
     if (!filter) return items;
 
-    const matchingIds = new Set((detailIndex?.[filter.key] ?? []).map(Number));
+    const matchingIds = new Set(detailFilterIds(filter));
     return items.filter((product) => matchingIds.has(product.id));
   };
 
