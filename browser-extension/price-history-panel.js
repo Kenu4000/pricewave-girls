@@ -21,22 +21,12 @@
 
   function esc(value) {
     return String(value ?? "").replace(/[&<>"']/gu, (char) => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#39;",
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
     }[char]));
   }
 
-  function pad(value) {
-    return String(value).padStart(2, "0");
-  }
-
-  function dateKey(date) {
-    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
-  }
-
+  function pad(value) { return String(value).padStart(2, "0"); }
+  function dateKey(date) { return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`; }
   function startOfWeek(date) {
     const result = new Date(date);
     result.setHours(0, 0, 0, 0);
@@ -44,19 +34,14 @@
     result.setDate(result.getDate() - (day === 0 ? 6 : day - 1));
     return result;
   }
-
   function bucketKey(date, chartMode) {
     if (chartMode === "month") return `${date.getFullYear()}-${pad(date.getMonth() + 1)}`;
     return dateKey(startOfWeek(date));
   }
-
   function bucketLabel(date, chartMode) {
-    if (chartMode === "month") {
-      return new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "short" }).format(date);
-    }
+    if (chartMode === "month") return new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "short" }).format(date);
     return `${new Intl.DateTimeFormat("ja-JP", { month: "numeric", day: "numeric" }).format(startOfWeek(date))}週`;
   }
-
   function dayLabel(date, includeTime) {
     return new Intl.DateTimeFormat(
       "ja-JP",
@@ -69,9 +54,7 @@
   function pointFromHistory(history, key, label) {
     const isTimeSale = history.isTimeSale === true;
     const rankB = history.conditionRank === "B" || Boolean(history.condition);
-    const baseSalePrice = isTimeSale
-      ? (history.regularSalePrice ?? history.salePrice)
-      : history.salePrice;
+    const baseSalePrice = isTimeSale ? (history.regularSalePrice ?? history.salePrice) : history.salePrice;
     return {
       key,
       label,
@@ -99,25 +82,16 @@
       }
       return valid.map((history, index) => {
         const key = dateKey(history.date);
-        return pointFromHistory(
-          history,
-          `${history.checkedAt}-${index}`,
-          dayLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1),
-        );
+        return pointFromHistory(history, `${history.checkedAt}-${index}`, dayLabel(history.date, (pointsPerDay.get(key) ?? 0) > 1));
       });
     }
 
     const buckets = new Map();
     for (const history of valid) buckets.set(bucketKey(history.date, chartMode), history);
-    return [...buckets.entries()].map(([key, history]) =>
-      pointFromHistory(history, key, bucketLabel(history.date, chartMode)),
-    );
+    return [...buckets.entries()].map(([key, history]) => pointFromHistory(history, key, bucketLabel(history.date, chartMode)));
   }
 
-  function yen(value) {
-    return value == null ? "-" : `${Number(value).toLocaleString("ja-JP")}円`;
-  }
-
+  function yen(value) { return value == null ? "-" : `${Number(value).toLocaleString("ja-JP")}円`; }
   function compactYen(value) {
     const amount = Number(value);
     if (!Number.isFinite(amount)) return "-";
@@ -133,12 +107,9 @@
   }
 
   function connectedPath(data, key, x, y) {
-    return data
-      .map((point, index) => ({ point, index }))
+    return data.map((point, index) => ({ point, index }))
       .filter(({ point }) => point[key] != null)
-      .map(({ point, index }, pathIndex) =>
-        `${pathIndex === 0 ? "M" : "L"}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`,
-      )
+      .map(({ point, index }, pathIndex) => `${pathIndex === 0 ? "M" : "L"}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`)
       .join(" ");
   }
 
@@ -154,40 +125,26 @@
       current.push({ point, index });
     });
     if (current.length) segments.push(current);
-    return segments.map((segment) =>
-      segment.map(({ point, index }, pathIndex) =>
-        `${pathIndex === 0 ? "M" : "L"}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`,
-      ).join(" "),
-    );
+    return segments.map((segment) => segment.map(({ point, index }, pathIndex) => `${pathIndex === 0 ? "M" : "L"}${x(index).toFixed(1)},${y(point[key]).toFixed(1)}`).join(" "));
   }
 
   function tickIndexes(length, compact) {
     if (length <= 1) return [0];
     const desired = Math.min(length, compact ? 4 : 7);
     const indexes = new Set([0, length - 1]);
-    for (let index = 1; index < desired - 1; index += 1) {
-      indexes.add(Math.round(((length - 1) * index) / (desired - 1)));
-    }
+    for (let index = 1; index < desired - 1; index += 1) indexes.add(Math.round(((length - 1) * index) / (desired - 1)));
     return [...indexes].sort((left, right) => left - right);
   }
 
   function readoutMarkup(point) {
-    return `<div class="pricewave-history-readout" aria-live="polite">
-      <strong class="pricewave-history-readout-date">${esc(point?.label || "取得点を選択")}</strong>
-      <div class="pricewave-history-readout-values">
-        ${SERIES.map((series) => `<span class="pricewave-history-readout-item ${series.className}"><i></i><span>${series.label}</span><b>${esc(yen(point?.[series.key]))}</b></span>`).join("")}
-      </div>
-    </div>`;
+    return `<div class="pricewave-history-readout" aria-live="polite"><strong class="pricewave-history-readout-date">${esc(point?.label || "取得点を選択")}</strong><div class="pricewave-history-readout-values">${SERIES.map((series) => `<span class="pricewave-history-readout-item ${series.className}"><i></i><span>${series.label}</span><b>${esc(yen(point?.[series.key]))}</b></span>`).join("")}</div></div>`;
   }
 
   function chartMarkup() {
     const data = aggregate(histories, mode);
     if (!data.length) return '<div class="pricewave-history-empty">価格履歴がありません。</div>';
-
-    const values = data
-      .flatMap((point) => [point.salePrice, point.buyPrice, point.rankBPrice, point.timeSalePrice, point.timeSaleBasePrice])
-      .filter((value) => value != null && Number.isFinite(Number(value)))
-      .map(Number);
+    const values = data.flatMap((point) => [point.salePrice, point.buyPrice, point.rankBPrice, point.timeSalePrice, point.timeSaleBasePrice])
+      .filter((value) => value != null && Number.isFinite(Number(value))).map(Number);
     if (!values.length) return '<div class="pricewave-history-empty">価格データがありません。</div>';
 
     const compact = matchMedia("(max-width: 760px)").matches;
@@ -219,29 +176,18 @@
 
     const branches = data.map((point, index) => ({ point, index }))
       .filter(({ point }) => point.timeSalePrice != null && point.timeSaleBasePrice != null && point.timeSalePrice !== point.timeSaleBasePrice)
-      .map(({ point, index }) => `<line class="pricewave-history-timesale-branch" x1="${x(index)}" x2="${x(index)}" y1="${y(point.timeSaleBasePrice)}" y2="${y(point.timeSalePrice)}"></line>`)
-      .join("");
+      .map(({ point, index }) => `<line class="pricewave-history-timesale-branch" x1="${x(index)}" x2="${x(index)}" y1="${y(point.timeSaleBasePrice)}" y2="${y(point.timeSalePrice)}"></line>`).join("");
 
     const seriesMarkup = SERIES.map((series) => {
-      const paths = series.connectNulls
-        ? [connectedPath(data, series.key, x, y)].filter(Boolean)
-        : separatedPaths(data, series.key, x, y);
+      const paths = series.connectNulls ? [connectedPath(data, series.key, x, y)].filter(Boolean) : separatedPaths(data, series.key, x, y);
       const pathMarkup = paths.map((path) => `<path class="pricewave-history-line" d="${path}"></path>`).join("");
-      const dots = data.map((point, index) => ({ point, index }))
-        .filter(({ point }) => point[series.key] != null)
-        .map(({ point, index }) => `<circle class="pricewave-history-dot" cx="${x(index)}" cy="${y(point[series.key])}" r="${compact ? 3 : 3.5}"></circle>`)
-        .join("");
+      const dots = data.map((point, index) => ({ point, index })).filter(({ point }) => point[series.key] != null)
+        .map(({ point, index }) => `<circle class="pricewave-history-dot" cx="${x(index)}" cy="${y(point[series.key])}" r="${compact ? 3 : 3.5}"></circle>`).join("");
       return `<g class="pricewave-history-series ${series.className}">${pathMarkup}${dots}</g>`;
     }).join("");
 
     const initialPoint = data[data.length - 1];
-    return `${readoutMarkup(initialPoint)}
-      <div class="pricewave-history-chart-wrap">
-        <svg class="pricewave-history-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Pricewave価格推移グラフ">
-          ${yTicks}${xTicks}${branches}${seriesMarkup}
-          <line class="pricewave-history-crosshair" x1="${x(data.length - 1)}" x2="${x(data.length - 1)}" y1="${TOP}" y2="${plotBottom}"></line>
-        </svg>
-      </div>`;
+    return `${readoutMarkup(initialPoint)}<div class="pricewave-history-chart-wrap"><svg class="pricewave-history-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Pricewave価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}<line class="pricewave-history-crosshair" x1="${x(data.length - 1)}" x2="${x(data.length - 1)}" y1="${TOP}" y2="${plotBottom}"></line></svg></div>`;
   }
 
   function renderChart(panel) {
@@ -249,16 +195,13 @@
     if (!chartRoot) return;
     const data = aggregate(histories, mode);
     chartRoot.innerHTML = chartMarkup();
-
     panel.querySelectorAll("[data-pricewave-history-mode]").forEach((button) => {
       button.setAttribute("aria-pressed", button.dataset.pricewaveHistoryMode === mode ? "true" : "false");
     });
 
     const svg = chartRoot.querySelector(".pricewave-history-chart");
     const crosshair = chartRoot.querySelector(".pricewave-history-crosshair");
-    const readout = chartRoot.querySelector(".pricewave-history-readout");
-    if (!svg || !crosshair || !readout || !data.length) return;
-
+    if (!svg || !crosshair || !chartRoot.querySelector(".pricewave-history-readout") || !data.length) return;
     const compact = matchMedia("(max-width: 760px)").matches;
     const W = compact ? 720 : 1000;
     const LEFT = compact ? 64 : 84;
@@ -275,7 +218,8 @@
       const point = data[index];
       crosshair.setAttribute("x1", String(x(index)));
       crosshair.setAttribute("x2", String(x(index)));
-      readout.outerHTML = readoutMarkup(point);
+      const currentReadout = chartRoot.querySelector(".pricewave-history-readout");
+      if (currentReadout) currentReadout.outerHTML = readoutMarkup(point);
     };
     svg.addEventListener("pointermove", update);
     svg.addEventListener("pointerdown", update);
@@ -310,18 +254,8 @@
     histories = response.histories;
     const panel = document.createElement("section");
     panel.id = PANEL_ID;
-    panel.innerHTML = `
-      <div class="pricewave-history-heading">
-        <div><strong>Pricewave 価格推移</strong><span>${esc(response.product.title)}</span></div>
-        <a href="http://localhost:3000/products/${Number(response.product.id)}" target="_blank" rel="noreferrer">Pricewaveで開く</a>
-      </div>
-      <div class="pricewave-history-controls" role="group" aria-label="価格推移の表示単位">
-        ${MODES.map((option) => `<button type="button" data-pricewave-history-mode="${option.value}" aria-pressed="${option.value === mode ? "true" : "false"}">${option.label}</button>`).join("")}
-      </div>
-      <div class="pricewave-history-legend">${SERIES.map((series) => `<span class="${series.className}"><i></i>${series.label}</span>`).join("")}</div>
-      <div class="pricewave-history-chart-root"></div>`;
+    panel.innerHTML = `<div class="pricewave-history-heading"><div><strong>Pricewave 価格推移</strong><span>${esc(response.product.title)}</span></div><a href="http://localhost:3000/products/${Number(response.product.id)}" target="_blank" rel="noreferrer">Pricewaveで開く</a></div><div class="pricewave-history-controls" role="group" aria-label="価格推移の表示単位">${MODES.map((option) => `<button type="button" data-pricewave-history-mode="${option.value}" aria-pressed="${option.value === mode ? "true" : "false"}">${option.label}</button>`).join("")}</div><div class="pricewave-history-legend">${SERIES.map((series) => `<span class="${series.className}"><i></i>${series.label}</span>`).join("")}</div><div class="pricewave-history-chart-root"></div>`;
     insertionTarget(panel);
-
     panel.querySelectorAll("[data-pricewave-history-mode]").forEach((button) => {
       button.addEventListener("click", () => {
         mode = button.dataset.pricewaveHistoryMode || "day";
