@@ -30,7 +30,7 @@ async function rewriteProductWhereTitleContains(
     const { contains: _ignoredContains, ...remainingTitleFilter } = titleFilter;
     delete next.title;
     if (Object.keys(remainingTitleFilter).length > 0) {
-      next.title = remainingTitleFilter as Prisma.StringFilter<"Product">;
+      next.title = remainingTitleFilter as Prisma.ProductWhereInput["title"];
     }
     return {
       AND: [next, { id: { in: ids } }],
@@ -80,7 +80,7 @@ async function rewritePriceChangeWhereTitleContains(
         client,
         relation.is as Prisma.ProductWhereInput,
       );
-      next.product = relation as Prisma.ProductScalarRelationFilter;
+      next.product = relation as Prisma.PriceChangeWhereInput["product"];
     }
   }
 
