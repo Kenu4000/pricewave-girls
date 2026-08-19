@@ -1,5 +1,5 @@
 import { Prisma, PrismaClient } from "@prisma/client";
-import { includesSearchText } from "@/lib/search-text";
+import { productIncludesSearchText } from "@/lib/search-text";
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return value !== null && typeof value === "object" && !Array.isArray(value);
@@ -10,10 +10,19 @@ async function matchingProductTitleIds(
   query: string,
 ): Promise<number[]> {
   const products = await client.product.findMany({
-    select: { id: true, title: true },
+    select: {
+      id: true,
+      title: true,
+      manufacturer: true,
+      releaseDate: true,
+      category: true,
+      modelNumber: true,
+      managementNumber: true,
+      detailsJson: true,
+    },
   });
   return products
-    .filter((product) => includesSearchText(product.title, query))
+    .filter((product) => productIncludesSearchText(product, query))
     .map((product) => product.id);
 }
 
