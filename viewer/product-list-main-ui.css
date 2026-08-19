@@ -1,0 +1,52 @@
+.tags {
+  order: -1;
+  margin: 0 0 1px;
+}
+
+.tag {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 5px 8px;
+}
+
+.tag.up {
+  background: #fff1f1;
+  color: #a82222;
+}
+
+.tag.down {
+  background: #eef6ff;
+  color: #245f9c;
+}
+
+.tag.time-sale {
+  background: #fff9d9;
+  color: #765f00;
+}
+
+@media (max-width: 760px) {
+  .product-card .tags {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    order: initial;
+  }
+
+  .product-card .product-image {
+    grid-row: 2 / 5;
+  }
+
+  .product-card .product-title {
+    grid-row: 2;
+  }
+
+  .product-card .price-row {
+    grid-row: 3;
+  }
+
+  .product-card .facts {
+    grid-row: 4;
+  }
+}
