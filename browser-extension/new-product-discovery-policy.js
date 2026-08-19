@@ -1,5 +1,7 @@
 (function exposePricewaveNewProductDiscoveryPolicy(globalObject) {
   const DEFAULT_RELEASE_DISCOVERY_URL =
+    "https://www.suruga-ya.jp/search?category=6520422&search_word=&adult_s=3&rankBy=release_date%28int%29%3Adescending";
+  const LEGACY_WINDOWS_RELEASE_DISCOVERY_URL =
     "https://www.suruga-ya.jp/search?category=652042222&search_word=&adult_s=1&rankBy=release_date%28int%29%3Adescending";
   const LEGACY_DEFAULT_AUTO_ADD_URL =
     "https://www.suruga-ya.jp/search?category=65204&genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&search_word=";
@@ -58,11 +60,36 @@
       ) {
         return false;
       }
+      const category = url.searchParams.get("category") || "";
       const rankBy = url.searchParams.get("rankBy") || "";
       return (
-        url.searchParams.get("category") === "652042222" &&
+        /^6520422\d*$/u.test(category) &&
         /release_date\s*\(int\)\s*:\s*descending/iu.test(rankBy)
       );
+    } catch {
+      return false;
+    }
+  }
+
+  function sameSearchPreset(rawUrl, presetUrl) {
+    try {
+      const current = new URL(String(rawUrl || ""));
+      const preset = new URL(presetUrl);
+      if (
+        current.hostname !== preset.hostname ||
+        current.pathname !== preset.pathname ||
+        current.searchParams.get("category") !== preset.searchParams.get("category")
+      ) {
+        return false;
+      }
+
+      const presetGenre = preset.searchParams.get("genre2");
+      if (presetGenre && current.searchParams.get("genre2") !== presetGenre) return false;
+
+      const presetRank = preset.searchParams.get("rankBy");
+      if (presetRank && current.searchParams.get("rankBy") !== presetRank) return false;
+      if (!presetRank && current.searchParams.get("rankBy")) return false;
+      return true;
     } catch {
       return false;
     }
@@ -71,19 +98,10 @@
   function shouldReplaceLegacyAutoAddUrl(rawUrl) {
     const source = String(rawUrl || "").trim();
     if (!source) return true;
-    try {
-      const current = new URL(source);
-      const legacy = new URL(LEGACY_DEFAULT_AUTO_ADD_URL);
-      return (
-        current.hostname === legacy.hostname &&
-        current.pathname === legacy.pathname &&
-        current.searchParams.get("category") === legacy.searchParams.get("category") &&
-        current.searchParams.get("genre2") === legacy.searchParams.get("genre2") &&
-        !current.searchParams.get("rankBy")
-      );
-    } catch {
-      return false;
-    }
+    return (
+      sameSearchPreset(source, LEGACY_DEFAULT_AUTO_ADD_URL) ||
+      sameSearchPreset(source, LEGACY_WINDOWS_RELEASE_DISCOVERY_URL)
+    );
   }
 
   function selectReleaseDiscoveryProducts(
@@ -108,13 +126,10 @@
 
       const releaseDate = normalizeReleaseDate(product?.releaseDate);
       if (!releaseDate) {
-        // 予約商品との区別ができないため、発売日を読めない商品は従来通り自動追加しない。
+        // PC-98/X68000等の旧PCソフトは発売日未登録が多い。
+        // 欠損は記録するが除外せず、発売日が明示された未来の予約商品のみ除外する。
         skippedMissingDate += 1;
-        continue;
-      }
-
-      if (releaseDate > today) {
-        // 予約商品は発売日までは追加しない。
+      } else if (releaseDate > today) {
         skippedFuture += 1;
         continue;
       }
@@ -135,6 +150,7 @@
       stopDate: null,
       reachedOlderDate: false,
       skippedFuture,
+      // 名前は既存ステータスとの互換用。現在は「発売日欠損件数」であり除外件数ではない。
       skippedMissingDate,
       duplicateCount,
     };
@@ -142,6 +158,7 @@
 
   const policy = {
     DEFAULT_RELEASE_DISCOVERY_URL,
+    LEGACY_WINDOWS_RELEASE_DISCOVERY_URL,
     LEGACY_DEFAULT_AUTO_ADD_URL,
     productIdFromUrl,
     normalizeReleaseDate,
