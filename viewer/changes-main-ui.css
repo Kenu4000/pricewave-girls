@@ -87,6 +87,7 @@
   border-color: #efd7e7;
   overflow-x: auto;
   padding: 18px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .viewer-change-table {
@@ -281,69 +282,12 @@
   }
 
   .viewer-change-table-wrap {
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    overflow: visible;
-    padding: 0;
+    overflow-x: auto;
+    padding: 10px;
   }
 
   .viewer-change-table {
-    display: block;
-    min-width: 0;
-  }
-
-  .viewer-change-table thead {
-    display: none;
-  }
-
-  .viewer-change-table tbody {
-    display: grid;
-    gap: 10px;
-  }
-
-  .viewer-change-table tr {
-    background: #fff;
-    border: 1px solid #efd7e7;
-    border-radius: 15px;
-    box-shadow: 0 8px 22px rgb(168 32 112 / 8%);
-    display: block;
-    overflow: hidden;
-  }
-
-  .viewer-change-table tr.viewer-change-rank-b {
-    background: color-mix(in srgb, #16a34a 9%, white);
-  }
-
-  .viewer-change-table td {
-    align-items: start;
-    border-bottom: 1px solid #efd7e7;
-    display: grid;
-    font-size: .84rem;
-    gap: 8px;
-    grid-template-columns: 4.8rem minmax(0, 1fr);
-    padding: 8px 10px;
-  }
-
-  .viewer-change-table td:last-child {
-    border-bottom: 0;
-  }
-
-  .viewer-change-table td::before {
-    color: #7b6d7e;
-    content: attr(data-label);
-    font-size: .72rem;
-    font-weight: 800;
-  }
-
-  .viewer-change-product-link {
-    gap: 8px;
-    min-width: 0;
-  }
-
-  .viewer-change-product-link img {
-    height: 54px;
-    width: 54px;
+    min-width: 900px;
   }
 
   .viewer-change-pagination {
