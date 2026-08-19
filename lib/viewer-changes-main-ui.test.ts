@@ -24,6 +24,7 @@ test("Viewer価格変更はmain準拠のフィルタと表UIを持つ", async ()
 
 test("Viewer価格変更の検索は商品メタデータも対象にする", async () => {
   const js = await text("viewer/changes-main-ui.js");
+  assert.match(js, /viewerProductMatchesSearch/u);
   assert.match(js, /summary\.searchText \|\| fallback/u);
   assert.match(js, /summary\.manufacturer/u);
   assert.match(js, /summary\.releaseDate/u);
@@ -34,7 +35,7 @@ test("Viewer価格変更の検索は商品メタデータも対象にする", as
 test("Viewer価格変更UIはindexから読み込まれる", async () => {
   const html = await text("viewer/index.html");
   assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
-  assert.match(html, /changes-main-ui\.js\?v=202608191826/u);
+  assert.match(html, /changes-main-ui\.js\?v=202608191836/u);
 });
 
 test("mainとViewerの商品タイトルは最大2行に制限する", async () => {
