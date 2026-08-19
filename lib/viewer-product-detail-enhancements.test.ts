@@ -38,18 +38,24 @@ test("Viewerの商品詳細人物欄は複数人を個別リンクにする", as
   assert.doesNotThrow(() => new Function(js));
 });
 
-test("モバイル商品詳細は軽いfactsを隠し巡回周期バッジは表示する", async () => {
+test("モバイル商品詳細は軽いfactsを隠し巡回周期バッジを価格欄に表示する", async () => {
   const css = await text("viewer/mobile-detail-compact.css");
   const intervalJs = await text("viewer/crawl-interval-display.js");
   assert.match(css, /\.detail-head \.facts\s*\{\s*display:\s*none/su);
-  assert.doesNotMatch(css, /\.detail-prices \.crawl-interval-badge\s*\{[^}]*display:\s*none/su);
+  assert.match(css, /\.detail-prices \.crawl-interval-detail-badge\s*\{\s*display:\s*none/su);
+  assert.match(css, /@media \(max-width: 760px\)[\s\S]*\.detail-prices \.crawl-interval-detail-badge\s*\{\s*display:\s*inline-flex/su);
   assert.match(intervalJs, /detail \? `巡回周期 \$\{meta\.label\}`/u);
+  assert.match(intervalJs, /const detailId = location\.hash\.match/u);
+  assert.match(intervalJs, /prices\.appendChild\(element\)/u);
+  assert.match(intervalJs, /crawl-interval-detail-badge/u);
+  assert.doesNotThrow(() => new Function(intervalJs));
 });
 
 test("Viewer商品詳細改善スクリプトをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /detail-filter-links\.js\?v=202608191420/u);
-  assert.match(html, /product-detail-enhancements\.js\?v=202608191420/u);
-  assert.match(html, /product-detail-enhancements\.css\?v=202608191420/u);
-  assert.match(html, /mobile-detail-compact\.css\?v=202608191420/u);
+  assert.match(html, /crawl-interval-display\.js\?v=202608191514/u);
+  assert.match(html, /detail-filter-links\.js\?v=202608191453/u);
+  assert.match(html, /product-detail-enhancements\.js\?v=202608191453/u);
+  assert.match(html, /product-detail-enhancements\.css\?v=202608191453/u);
+  assert.match(html, /mobile-detail-compact\.css\?v=202608191514/u);
 });
