@@ -51,7 +51,7 @@
     panel.setAttribute('aria-label', '巡回周期で絞り込み');
     panel.innerHTML = `
       <div class="crawl-interval-filter-copy">
-        <strong>巡回周期で絞り込み</strong>
+        <strong><span class="crawl-interval-filter-label-long">巡回周期で絞り込み</span><span class="crawl-interval-filter-label-short">巡回周期</span></strong>
         <span>設定されている周期の商品を一覧表示</span>
         <span id="viewer-crawl-interval-filter-count" aria-live="polite"></span>
       </div>
