@@ -12,6 +12,7 @@
 
   let detailIndex = null;
   let detailIndexPromise = null;
+  const PEOPLE_DETAIL_LABELS = new Set(['原画', '原画家', 'シナリオ', '脚本', '声優', 'キャスト']);
 
   function normalizeDetailPart(value) {
     return String(value ?? '')
@@ -30,6 +31,16 @@
   function detailFilterHref(label, value) {
     const params = new URLSearchParams({ detailLabel: label, detailValue: value });
     return `#/products?${params.toString()}`;
+  }
+
+  function splitDetailValues(label, value) {
+    const normalizedLabel = String(label ?? '').normalize('NFKC').trim();
+    if (!PEOPLE_DETAIL_LABELS.has(normalizedLabel)) return [value];
+    const values = String(value ?? '')
+      .split(/\s*(?:、|,|，|\/|／|;|；|\r?\n)\s*/u)
+      .map((part) => part.normalize('NFKC').replace(/\s+/gu, ' ').trim())
+      .filter(Boolean);
+    return values.length > 1 ? values : [value];
   }
 
   function activeDetailFilter() {
@@ -96,11 +107,17 @@
       const value = valueElement?.textContent?.trim() ?? '';
       if (!label || !value || !valueElement || valueElement.querySelector('a')) return;
 
-      const link = document.createElement('a');
-      link.href = detailFilterHref(label, value);
-      link.textContent = value;
-      link.title = `${label}「${value}」で商品を絞り込む`;
-      valueElement.replaceChildren(link);
+      const parts = splitDetailValues(label, value);
+      const nodes = [];
+      parts.forEach((part, index) => {
+        if (index > 0) nodes.push(document.createTextNode('、'));
+        const link = document.createElement('a');
+        link.href = detailFilterHref(label, part);
+        link.textContent = part;
+        link.title = `${label}「${part}」で商品を絞り込む`;
+        nodes.push(link);
+      });
+      valueElement.replaceChildren(...nodes);
     });
   }
 
