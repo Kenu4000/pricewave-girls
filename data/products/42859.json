@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42859,
+    "title": "Windows98/Me/2000/XP CDソフト CLEAVAGE [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015618",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015618.jpg",
+    "manufacturer": "エンプレス Empress",
+    "releaseDate": "2007-02-23",
+    "listPrice": 3080,
+    "modelNumber": "WILL-173",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015618",
+      "メーカー": "エンプレス Empress",
+      "発売日": "2007/02/23",
+      "定価": "3,080円",
+      "型番": "WILL-173",
+      "原画": "聖少女",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "声優": "真優\n緒田マリ\n奥田香織",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:48.532Z"
+  },
+  "histories": [
+    {
+      "id": 42873,
+      "productId": 42859,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:48.532Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110504,
+      "productId": 42859,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース・未開封品）",
+      "price": 2350,
+      "checkedAt": "2026-08-17T07:15:48.000Z"
+    },
+    {
+      "id": 110503,
+      "productId": 42859,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1850,
+      "checkedAt": "2026-08-17T07:15:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015618",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015618",
+    "capturedAt": "2026-08-17T07:15:48.532Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1850
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース・未開封品）",
+        "price": 2350
+      }
+    ],
+    "path": "data/other-shops/145015618.json"
+  }
+}

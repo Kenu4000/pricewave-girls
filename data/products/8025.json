@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 8025,
+    "title": "WindowsXP/Vista/7 DVDソフト 現在(いま)もいつかもふぁるなルナ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030315",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030315.jpg",
+    "manufacturer": "MANATSU_8",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030315",
+      "メーカー": "MANATSU_8",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "原画": "神谷ともえ",
+      "シナリオ": "桃坂あきら",
+      "声優": "藤乃理香\nヒマリ\n葉村夏緒\n倉田まりや\n青葉りんご\n氷室百合\n桃井いちご\n湖月紅れ葉\n葵時緒",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 935,
+    "latestRegularSalePrice": 935,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:29.498Z"
+  },
+  "histories": [
+    {
+      "id": 8039,
+      "productId": 8025,
+      "salePrice": 940,
+      "regularSalePrice": 940,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 37478,
+      "productId": 8025,
+      "salePrice": 935,
+      "regularSalePrice": 935,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:16.222Z"
+    },
+    {
+      "id": 48003,
+      "productId": 8025,
+      "salePrice": 935,
+      "regularSalePrice": 935,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:29.498Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030315",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030315",
+    "capturedAt": "2026-08-17T16:10:29.498Z",
+    "items": [],
+    "path": "data/other-shops/145030315.json"
+  }
+}

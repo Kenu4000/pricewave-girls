@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29445,
+    "title": "Windows7/8/8.1/10 DVDソフト 牝喰いダンジョン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065361",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065361.jpg",
+    "manufacturer": "プリックリーアッシュ",
+    "releaseDate": "2019-03-29",
+    "listPrice": 4730,
+    "modelNumber": "BCT-013",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065361",
+      "メーカー": "プリックリーアッシュ",
+      "発売日": "2019/03/29",
+      "定価": "4,730円",
+      "型番": "BCT-013",
+      "原画": "東雲めかぶ",
+      "シナリオ": "池澤規律\n弥次暇時",
+      "声優": "唯香\nいねむりすやこ\n柏木逢花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:54.265Z"
+  },
+  "histories": [
+    {
+      "id": 29459,
+      "productId": 29445,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:05.341Z"
+    },
+    {
+      "id": 38286,
+      "productId": 29445,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:21.199Z"
+    },
+    {
+      "id": 49426,
+      "productId": 29445,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:54.265Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065361",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065361",
+    "capturedAt": "2026-08-19T04:30:54.265Z",
+    "items": [],
+    "path": "data/other-shops/145065361.json"
+  }
+}

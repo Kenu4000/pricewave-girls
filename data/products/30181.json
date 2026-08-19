@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30181,
+    "title": "WindowsVista/7/8/10 DVDソフト 神楽花莚譚 追加シナリオパック [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053829",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053829.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2016-04-28",
+    "listPrice": 6380,
+    "modelNumber": "DEBO-16001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053829",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2016/04/28",
+      "定価": "6,380円",
+      "型番": "DEBO-16001",
+      "原画": "山本和枝",
+      "シナリオ": "瑞守ねおん",
+      "声優": "西乃ころね\n藍川珪\n綾音まこ\n雪村とあ\n榛名れん\n野々村紗夜\n早瀬ゃょぃ\n姫川あいり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:55.810Z"
+  },
+  "histories": [
+    {
+      "id": 30195,
+      "productId": 30181,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:40.880Z"
+    },
+    {
+      "id": 38983,
+      "productId": 30181,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:34.497Z"
+    },
+    {
+      "id": 49978,
+      "productId": 30181,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:55.810Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053829",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053829",
+    "capturedAt": "2026-08-19T04:34:55.810Z",
+    "items": [],
+    "path": "data/other-shops/145053829.json"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 31846,
+    "title": "Windows2000/XP/Vista/7 DVDソフト リア充催眠 -リアルが充実する催眠生活はじめました。-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031116",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031116.jpg",
+    "manufacturer": "C：drive.",
+    "releaseDate": "2012-03-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031116001",
+      "メーカー": "C：drive.",
+      "発売日": "2012/03/30",
+      "定価": "9,680円",
+      "原画": "ふさたか式部",
+      "シナリオ": "鯉川こい\n皆川一馬\n海原楓太",
+      "声優": "美澄すい\n姫川あいり\n桜川未央\n榊るな\n新堂真弓\n大波こなみ\n川中瀬奈\n雪村とあ\n上田朱音",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:15.000Z"
+  },
+  "histories": [
+    {
+      "id": 31860,
+      "productId": 31846,
+      "salePrice": 800,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:04.981Z"
+    },
+    {
+      "id": 40595,
+      "productId": 31846,
+      "salePrice": 800,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:02.252Z"
+    },
+    {
+      "id": 43814,
+      "productId": 31846,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:15.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113322,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-17T09:35:15.000Z"
+    },
+    {
+      "id": 113321,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-17T09:35:15.000Z"
+    },
+    {
+      "id": 105533,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T01:32:02.000Z"
+    },
+    {
+      "id": 105532,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-16T01:32:02.000Z"
+    },
+    {
+      "id": 79689,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-15T23:45:09.000Z"
+    },
+    {
+      "id": 79688,
+      "productId": 31846,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-15T23:45:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031116",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031116",
+    "capturedAt": "2026-08-17T09:35:15.000Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      }
+    ],
+    "path": "data/other-shops/145031116.json"
+  }
+}

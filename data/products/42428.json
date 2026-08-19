@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42428,
+    "title": "Windows98/2000/XP/Vista DVDソフト G線上の魔王[初回超重量版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043182",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043182.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2008-05-29",
+    "listPrice": 10780,
+    "modelNumber": "AKA-0015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145043182",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2008/05/29",
+      "定価": "10,780円",
+      "型番": "AKA-0015",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:33.253Z"
+  },
+  "histories": [
+    {
+      "id": 42442,
+      "productId": 42428,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:36.073Z"
+    },
+    {
+      "id": 53818,
+      "productId": 42428,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:33.253Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043182",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043182",
+    "capturedAt": "2026-08-19T16:27:33.253Z",
+    "items": [],
+    "path": "data/other-shops/145043182.json"
+  }
+}

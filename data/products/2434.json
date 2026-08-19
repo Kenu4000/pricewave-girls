@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 2434,
+    "title": "Windows98/Me/2000/XP CDソフト 姦禁～18の穴・もう注ぎこまないで!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013612",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013612.jpg",
+    "manufacturer": "KLEINシロップ",
+    "releaseDate": "2006-01-27",
+    "listPrice": 9680,
+    "modelNumber": "DPS-1164",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145013612",
+      "メーカー": "KLEINシロップ",
+      "発売日": "2006/01/27",
+      "定価": "9,680円",
+      "型番": "DPS-1164",
+      "原画": "平木直利",
+      "シナリオ": "はやさかうたね\nみかな\n鼓あいら",
+      "声優": "夏川菜々美\n風華\n楠鈴音\n藤岡晴美\n須本綾奈\n春日りか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5811,
+    "latestRegularSalePrice": 5811,
+    "latestBuyPrice": 2900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:42:43.139Z"
+  },
+  "histories": [
+    {
+      "id": 2448,
+      "productId": 2434,
+      "salePrice": 5750,
+      "regularSalePrice": 5750,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:58.000Z"
+    },
+    {
+      "id": 7335,
+      "productId": 2434,
+      "salePrice": 5750,
+      "regularSalePrice": 5750,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 22871,
+      "productId": 2434,
+      "salePrice": 4800,
+      "regularSalePrice": 5100,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:26.834Z"
+    },
+    {
+      "id": 36444,
+      "productId": 2434,
+      "salePrice": 5111,
+      "regularSalePrice": 5111,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:53:52.784Z"
+    },
+    {
+      "id": 46827,
+      "productId": 2434,
+      "salePrice": 5811,
+      "regularSalePrice": 5811,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:42:43.139Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52072,
+      "productId": 2434,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4800,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    },
+    {
+      "id": 52071,
+      "productId": 2434,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4411,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013612",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013612",
+    "capturedAt": "2026-08-17T13:42:43.139Z",
+    "items": [],
+    "path": "data/other-shops/145013612.json"
+  }
+}

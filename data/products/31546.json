@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31546,
+    "title": "WindowsXP/Vista/7 CDソフト 堕ちていく若妻麻衣子",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035149",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035149.jpg",
+    "manufacturer": "めるてぃ",
+    "releaseDate": "2012-11-30",
+    "listPrice": 3080,
+    "modelNumber": "MLTY-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035149",
+      "メーカー": "めるてぃ",
+      "発売日": "2012/11/30",
+      "定価": "3,080円",
+      "型番": "MLTY-003",
+      "原画": "吉野恵子",
+      "シナリオ": "角田伸洋",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:26.505Z"
+  },
+  "histories": [
+    {
+      "id": 31560,
+      "productId": 31546,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:13.177Z"
+    },
+    {
+      "id": 40296,
+      "productId": 31546,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:43.281Z"
+    },
+    {
+      "id": 51289,
+      "productId": 31546,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:26.505Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035149",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035149",
+    "capturedAt": "2026-08-19T05:35:26.505Z",
+    "items": [],
+    "path": "data/other-shops/145035149.json"
+  }
+}

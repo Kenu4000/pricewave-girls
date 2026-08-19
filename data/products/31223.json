@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31223,
+    "title": "WindowsXP/Vista/7 CDソフト 受け触手",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037590.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2013-08-23",
+    "listPrice": 2200,
+    "modelNumber": "BASE-061",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145037590",
+      "メーカー": "脳内彼女",
+      "発売日": "2013/08/23",
+      "定価": "2,200円",
+      "型番": "BASE-061",
+      "原画": "空想科学青年",
+      "シナリオ": "生田あわる\n西田一",
+      "声優": "水神楓\nmahilo",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:22.684Z"
+  },
+  "histories": [
+    {
+      "id": 31237,
+      "productId": 31223,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:22.211Z"
+    },
+    {
+      "id": 39981,
+      "productId": 31223,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:34.161Z"
+    },
+    {
+      "id": 51047,
+      "productId": 31223,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:22.684Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037590",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037590",
+    "capturedAt": "2026-08-19T05:33:22.684Z",
+    "items": [],
+    "path": "data/other-shops/145037590.json"
+  }
+}

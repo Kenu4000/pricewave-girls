@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42553,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 姫∽神1/2 初回特典データCD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064563",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064563.jpg",
+    "manufacturer": "ぴんくはてな",
+    "releaseDate": "2008-01-25",
+    "listPrice": null,
+    "modelNumber": "PT-01",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145064563",
+      "メーカー": "ぴんくはてな",
+      "発売日": "2008/01/25",
+      "型番": "PT-01",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:16.729Z"
+  },
+  "histories": [
+    {
+      "id": 42567,
+      "productId": 42553,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:51.882Z"
+    },
+    {
+      "id": 53898,
+      "productId": 42553,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:16.729Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064563",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064563",
+    "capturedAt": "2026-08-19T16:28:16.729Z",
+    "items": [],
+    "path": "data/other-shops/145064563.json"
+  }
+}

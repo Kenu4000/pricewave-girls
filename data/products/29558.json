@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 29558,
+    "title": "Windows7/8/8.1/10 CDソフト ブラック企業の女社長を社畜が孕ませオナホにしてコキ使う!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062870",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062870.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2018-08-24",
+    "listPrice": 2200,
+    "modelNumber": "MIEL-105",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062870001",
+      "メーカー": "Miel",
+      "発売日": "2018/08/24",
+      "定価": "2,200円",
+      "型番": "MIEL-105",
+      "原画": "T-28",
+      "シナリオ": "有巻洋太",
+      "声優": "金松由花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:34.180Z"
+  },
+  "histories": [
+    {
+      "id": 29572,
+      "productId": 29558,
+      "salePrice": 1000,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:19.406Z"
+    },
+    {
+      "id": 38389,
+      "productId": 29558,
+      "salePrice": 1000,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:22.346Z"
+    },
+    {
+      "id": 49515,
+      "productId": 29558,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:34.180Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132500,
+      "productId": 29558,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T04:31:34.000Z"
+    },
+    {
+      "id": 132499,
+      "productId": 29558,
+      "sourceType": "other_shop",
+      "storeName": "パソコンショップMK",
+      "condition": "新品通常",
+      "price": 2200,
+      "checkedAt": "2026-08-19T04:31:34.000Z"
+    },
+    {
+      "id": 132498,
+      "productId": 29558,
+      "sourceType": "other_shop",
+      "storeName": "パソコンショップMK",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T04:31:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062870",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062870",
+    "capturedAt": "2026-08-19T04:31:34.180Z",
+    "items": [
+      {
+        "storeName": "パソコンショップMK",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "パソコンショップMK",
+        "condition": "新品通常",
+        "price": 2200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145062870.json"
+  }
+}

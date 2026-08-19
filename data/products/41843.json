@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41843,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト なかだしトリロジー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077853",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "C：drive.",
+    "releaseDate": "2009-10-30",
+    "listPrice": 6380,
+    "modelNumber": "XERO-0910",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145077853",
+      "メーカー": "C：drive.",
+      "発売日": "2009/10/30",
+      "定価": "6,380円",
+      "型番": "XERO-0910",
+      "原画": "瑠奈璃亜\n克",
+      "シナリオ": "武藤礼恵\n鯉川こい",
+      "声優": "雪都さお梨\n青葉りんご\nこのは\n神崎ちひろ\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:55.332Z"
+  },
+  "histories": [
+    {
+      "id": 41857,
+      "productId": 41843,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:52.272Z"
+    },
+    {
+      "id": 44016,
+      "productId": 41843,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:55.332Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145077853",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077853",
+    "capturedAt": "2026-08-17T09:36:55.332Z",
+    "items": [],
+    "path": "data/other-shops/145077853.json"
+  }
+}

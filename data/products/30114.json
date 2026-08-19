@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30114,
+    "title": "WindowsXP/Vista/7 CDソフト せがれの新妻【PCゲームアウトレット】",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054695.jpg",
+    "manufacturer": "モノグラム",
+    "releaseDate": "2016-06-10",
+    "listPrice": 1408,
+    "modelNumber": "7MNOG-009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145054695",
+      "メーカー": "モノグラム",
+      "発売日": "2016/06/10",
+      "定価": "1,408円",
+      "型番": "7MNOG-009",
+      "原画": "チャイニー・スゥ",
+      "シナリオ": "岡下誠",
+      "声優": "ひろは",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3600,
+    "latestRegularSalePrice": 3600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:32.028Z"
+  },
+  "histories": [
+    {
+      "id": 30128,
+      "productId": 30114,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:56.454Z"
+    },
+    {
+      "id": 38919,
+      "productId": 30114,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:59.296Z"
+    },
+    {
+      "id": 49922,
+      "productId": 30114,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:32.028Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054695",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054695",
+    "capturedAt": "2026-08-19T04:34:32.028Z",
+    "items": [],
+    "path": "data/other-shops/145054695.json"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 29692,
+    "title": "Windows DVDソフト tone work’s Perfect Voice Drama Collection",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060562",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060562.jpg",
+    "manufacturer": "tone work’s",
+    "releaseDate": "2017-12-29",
+    "listPrice": 4074,
+    "modelNumber": "VA-00199D",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145060562",
+      "メーカー": "tone work’s",
+      "発売日": "2017/12/29",
+      "定価": "4,074円",
+      "型番": "VA-00199D",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:18.965Z"
+  },
+  "histories": [
+    {
+      "id": 29706,
+      "productId": 29692,
+      "salePrice": 1350,
+      "regularSalePrice": 1380,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:44.671Z"
+    },
+    {
+      "id": 38520,
+      "productId": 29692,
+      "salePrice": 1350,
+      "regularSalePrice": 1380,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:36.271Z"
+    },
+    {
+      "id": 49617,
+      "productId": 29692,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:18.965Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132762,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-19T04:32:19.000Z"
+    },
+    {
+      "id": 132761,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 町田旭町店",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-08-19T04:32:19.000Z"
+    },
+    {
+      "id": 101288,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-16T01:12:36.000Z"
+    },
+    {
+      "id": 101287,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-16T01:12:36.000Z"
+    },
+    {
+      "id": 101286,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 町田旭町店",
+      "condition": "中古",
+      "price": 1230,
+      "checkedAt": "2026-08-16T01:12:36.000Z"
+    },
+    {
+      "id": 75279,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-15T23:09:44.000Z"
+    },
+    {
+      "id": 75278,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-15T23:09:44.000Z"
+    },
+    {
+      "id": 75277,
+      "productId": 29692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 町田旭町店",
+      "condition": "中古",
+      "price": 1230,
+      "checkedAt": "2026-08-15T23:09:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060562",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060562",
+    "capturedAt": "2026-08-19T04:32:18.965Z",
+    "items": [
+      {
+        "storeName": "駿河屋 町田旭町店",
+        "condition": "中古",
+        "price": 1250
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1311
+      }
+    ],
+    "path": "data/other-shops/145060562.json"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41848,
+    "title": "Windows2000/XP/Vista DVDソフト 限定!! ぶっかけ!・ぶっかけ2! パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021911",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021911.jpg",
+    "manufacturer": "もーにんぐ",
+    "releaseDate": "2009-10-23",
+    "listPrice": 4180,
+    "modelNumber": "SEMO-P003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021911001",
+      "メーカー": "もーにんぐ",
+      "発売日": "2009/10/23",
+      "定価": "4,180円",
+      "型番": "SEMO-P003",
+      "原画": "木枯し悶次郎",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "J・ベロア\n早乙女綾\n和葉\n平野響子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:55.382Z"
+  },
+  "histories": [
+    {
+      "id": 41862,
+      "productId": 41848,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:55.167Z"
+    },
+    {
+      "id": 53385,
+      "productId": 41848,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:55.382Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143425,
+      "productId": 41848,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-19T16:23:55.000Z"
+    },
+    {
+      "id": 143424,
+      "productId": 41848,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:23:55.000Z"
+    },
+    {
+      "id": 143423,
+      "productId": 41848,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-19T16:23:55.000Z"
+    },
+    {
+      "id": 108414,
+      "productId": 41848,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:05:55.000Z"
+    },
+    {
+      "id": 108413,
+      "productId": 41848,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-17T07:05:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021911",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021911",
+    "capturedAt": "2026-08-19T16:23:55.382Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 980
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145021911.json"
+  }
+}

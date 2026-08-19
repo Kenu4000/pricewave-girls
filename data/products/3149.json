@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 3149,
+    "title": "Windows95/98 CDソフト カレンダーガール",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003742",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003742.jpg",
+    "manufacturer": "フォスター",
+    "releaseDate": "2000-07-21",
+    "listPrice": 9680,
+    "modelNumber": "FST-00002",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003742",
+      "メーカー": "フォスター",
+      "発売日": "2000/07/21",
+      "定価": "9,680円",
+      "型番": "FST-00002",
+      "原画": "ちゃーるず☆舞論尊\nスカイハウス",
+      "シナリオ": "相模原睦",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:31.169Z"
+  },
+  "histories": [
+    {
+      "id": 3163,
+      "productId": 3149,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 26641,
+      "productId": 3149,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:35:48.352Z"
+    },
+    {
+      "id": 36956,
+      "productId": 3149,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:36.070Z"
+    },
+    {
+      "id": 47576,
+      "productId": 3149,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:31.169Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145003742",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003742",
+    "capturedAt": "2026-08-17T16:06:31.169Z",
+    "items": [],
+    "path": "data/other-shops/145003742.json"
+  }
+}

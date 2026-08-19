@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 8412,
+    "title": "Windows2000/XP/Vista DVDソフト 紫電 ～円環の絆～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021924",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021924.jpg",
+    "manufacturer": "暁WORKS-響-",
+    "releaseDate": "2009-11-26",
+    "listPrice": 9680,
+    "modelNumber": "AW-0010",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021924",
+      "メーカー": "暁WORKS-響-",
+      "発売日": "2009/11/26",
+      "定価": "9,680円",
+      "型番": "AW-0010",
+      "原画": "唯々月たすく",
+      "シナリオ": "黒曜石",
+      "声優": "きせとしみち\n金田まひる\n七ヶ瀬輪\n芹園みや\n桃井穂美\n小倉結衣\n比留間京之介\n柄本みさき\n緒田マリ\n原田友貴\n植木亨\n小池竹蔵\n藤流水\n相原詩織\n鈴谷まや\n美澄すい\n七生みこと",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:40.997Z"
+  },
+  "histories": [
+    {
+      "id": 8426,
+      "productId": 8412,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 37788,
+      "productId": 8412,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:52.207Z"
+    },
+    {
+      "id": 48264,
+      "productId": 8412,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:40.997Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021924",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021924",
+    "capturedAt": "2026-08-17T16:12:40.997Z",
+    "items": [],
+    "path": "data/other-shops/145021924.json"
+  }
+}

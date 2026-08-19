@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31018,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 世界と世界の真ん中で[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045196",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045196.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2014-01-31",
+    "listPrice": 10450,
+    "modelNumber": "LOS-014",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045196",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2014/01/31",
+      "定価": "10,450円",
+      "型番": "LOS-014",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "OS": "-014</td> </tr> <tr class=\"none-append\"> <th class=\"text-right\" width=\"100px\">",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:07.530Z"
+  },
+  "histories": [
+    {
+      "id": 31032,
+      "productId": 31018,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:26:03.060Z"
+    },
+    {
+      "id": 39781,
+      "productId": 31018,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:49.183Z"
+    },
+    {
+      "id": 50899,
+      "productId": 31018,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:07.530Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045196",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045196",
+    "capturedAt": "2026-08-19T05:32:07.530Z",
+    "items": [],
+    "path": "data/other-shops/145045196.json"
+  }
+}

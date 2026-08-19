@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 29890,
+    "title": "Windows7/8/8.1/10 CDソフト 韋駄天いかせ男1.2.3.4 [CD版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058158",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058158.jpg",
+    "manufacturer": "「刑事大打撃FC」ゲーム移植スタッフ",
+    "releaseDate": "2017-03-27",
+    "listPrice": 2852,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145058158001",
+      "メーカー": "「刑事大打撃FC」ゲーム移植スタッフ",
+      "発売日": "2017/03/27",
+      "定価": "2,852円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5900,
+    "latestRegularSalePrice": 5900,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:09.565Z"
+  },
+  "histories": [
+    {
+      "id": 29904,
+      "productId": 29890,
+      "salePrice": 5600,
+      "regularSalePrice": 5900,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:45.832Z"
+    },
+    {
+      "id": 38710,
+      "productId": 29890,
+      "salePrice": 5600,
+      "regularSalePrice": 5900,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:12.227Z"
+    },
+    {
+      "id": 43567,
+      "productId": 29890,
+      "salePrice": 5900,
+      "regularSalePrice": 5900,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:09.565Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 112700,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-17T09:33:09.000Z"
+    },
+    {
+      "id": 112699,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-17T09:33:09.000Z"
+    },
+    {
+      "id": 101653,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-16T01:14:12.000Z"
+    },
+    {
+      "id": 101652,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5600,
+      "checkedAt": "2026-08-16T01:14:12.000Z"
+    },
+    {
+      "id": 75654,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-15T23:11:46.000Z"
+    },
+    {
+      "id": 75653,
+      "productId": 29890,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5600,
+      "checkedAt": "2026-08-15T23:11:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058158",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058158",
+    "capturedAt": "2026-08-17T09:33:09.565Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5900
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 5900
+      }
+    ],
+    "path": "data/other-shops/145058158.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41346,
+    "title": "WindowsXP/Vista/7 DVDソフト アルテミスブルー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900362",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900362.jpg",
+    "manufacturer": "あっぷりけ-妹-",
+    "releaseDate": "2011-02-24",
+    "listPrice": 9680,
+    "modelNumber": "APS-0003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900362",
+      "メーカー": "あっぷりけ-妹-",
+      "発売日": "2011/02/24",
+      "定価": "9,680円",
+      "型番": "APS-0003",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:59.234Z"
+  },
+  "histories": [
+    {
+      "id": 41360,
+      "productId": 41346,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:00.564Z"
+    },
+    {
+      "id": 53028,
+      "productId": 41346,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:59.234Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900362",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900362",
+    "capturedAt": "2026-08-19T16:20:59.234Z",
+    "items": [],
+    "path": "data/other-shops/145900362.json"
+  }
+}

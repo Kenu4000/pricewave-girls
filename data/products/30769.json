@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30769,
+    "title": "WindowsVista/7/8 DVDソフト ヤキモチストリーム[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905569",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905569.jpg",
+    "manufacturer": "まどそふと",
+    "releaseDate": "2014-09-26",
+    "listPrice": 9680,
+    "modelNumber": "MADO-0002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145905569",
+      "メーカー": "まどそふと",
+      "発売日": "2014/09/26",
+      "定価": "9,680円",
+      "型番": "MADO-0002",
+      "原画": "天城七輝\nSyroh",
+      "シナリオ": "もじゃすびい\n椿また",
+      "声優": "夏野虹花\n桃山いおん\n藤咲ウサ\nくすはらゆい\n一色ヒカル\n手塚りょうこ\nみる\n秋本ねりね",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:29.146Z"
+  },
+  "histories": [
+    {
+      "id": 30783,
+      "productId": 30769,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:37.468Z"
+    },
+    {
+      "id": 39539,
+      "productId": 30769,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:41.969Z"
+    },
+    {
+      "id": 50721,
+      "productId": 30769,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:29.146Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145905569",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145905569",
+    "capturedAt": "2026-08-19T05:30:29.146Z",
+    "items": [],
+    "path": "data/other-shops/145905569.json"
+  }
+}

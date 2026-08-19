@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 8397,
+    "title": "WindowsXP/Vista DVDソフト メトラセ ～ドキらぶ☆新婚委員会～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017903",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017903.jpg",
+    "manufacturer": "UNDEAD",
+    "releaseDate": "2008-05-23",
+    "listPrice": 9680,
+    "modelNumber": "UNDEAD-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017903",
+      "メーカー": "UNDEAD",
+      "発売日": "2008/05/23",
+      "定価": "9,680円",
+      "型番": "UNDEAD-003",
+      "原画": "JOYRIDE",
+      "音楽": "電気式華憐音楽集団",
+      "シナリオ": "のがみとしあき\n横弥真彦\n島津出水\n夏椿",
+      "声優": "水島理音\nみる\n金田まひる\n神崎ちひろ\n小倉結衣",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 570,
+    "latestRegularSalePrice": 570,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:34.952Z"
+  },
+  "histories": [
+    {
+      "id": 8411,
+      "productId": 8397,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37772,
+      "productId": 8397,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:45.440Z"
+    },
+    {
+      "id": 48252,
+      "productId": 8397,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:34.952Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017903",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017903",
+    "capturedAt": "2026-08-17T16:12:34.952Z",
+    "items": [],
+    "path": "data/other-shops/145017903.json"
+  }
+}

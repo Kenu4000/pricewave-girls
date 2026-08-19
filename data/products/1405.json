@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 1405,
+    "title": "Windows8.1/10 DVDソフト BINBINコレクション.004 闇遊園地でかくれんぼ～マタビラキの夜～＋性歓恥凌マッサージ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076208",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076208.jpg",
+    "manufacturer": "BINBIN1919",
+    "releaseDate": "2022-10-28",
+    "listPrice": 4180,
+    "modelNumber": "BNBN-004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145076208",
+      "メーカー": "BINBIN1919",
+      "発売日": "2022/10/28",
+      "定価": "4,180円",
+      "型番": "BNBN-004",
+      "原画": "TOMA\n風雪花夜",
+      "シナリオ": "池かなた\nチャック雅\nまこっちゃ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:41:41.288Z"
+  },
+  "histories": [
+    {
+      "id": 1419,
+      "productId": 1405,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6301,
+      "productId": 1405,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:13.000Z"
+    },
+    {
+      "id": 22732,
+      "productId": 1405,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:16.668Z"
+    },
+    {
+      "id": 44559,
+      "productId": 1405,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:41.288Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115196,
+      "productId": 1405,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-08-17T09:41:41.000Z"
+    },
+    {
+      "id": 115195,
+      "productId": 1405,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T09:41:41.000Z"
+    },
+    {
+      "id": 51696,
+      "productId": 1405,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51695,
+      "productId": 1405,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076208",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076208",
+    "capturedAt": "2026-08-17T09:41:41.288Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 7600
+      }
+    ],
+    "path": "data/other-shops/145076208.json"
+  }
+}

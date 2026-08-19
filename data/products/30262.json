@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30262,
+    "title": "WindowsVista/7/8/10 DVDソフト らぶ撮りハレーション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900506",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2016-01-29",
+    "listPrice": 9680,
+    "modelNumber": "VAP-00023D",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145900506",
+      "メーカー": "裸足少女",
+      "発売日": "2016/01/29",
+      "定価": "9,680円",
+      "型番": "VAP-00023D",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2600,
+    "latestRegularSalePrice": 2600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:01.428Z"
+  },
+  "histories": [
+    {
+      "id": 30276,
+      "productId": 30262,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:26.858Z"
+    },
+    {
+      "id": 39059,
+      "productId": 30262,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:17.320Z"
+    },
+    {
+      "id": 50335,
+      "productId": 30262,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:01.428Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900506",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900506",
+    "capturedAt": "2026-08-19T05:27:01.428Z",
+    "items": [],
+    "path": "data/other-shops/145900506.json"
+  }
+}

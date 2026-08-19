@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41677,
+    "title": "Windows2000/XP/Vista CDソフト 女装で孕ませてっ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023710",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023710.jpg",
+    "manufacturer": "桃色劇場",
+    "releaseDate": "2010-04-16",
+    "listPrice": 3300,
+    "modelNumber": "MIG-00005",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145023710",
+      "メーカー": "桃色劇場",
+      "発売日": "2010/04/16",
+      "定価": "3,300円",
+      "型番": "MIG-00005",
+      "原画": "鳴戸成人",
+      "シナリオ": "群青",
+      "声優": "藍川珪\n渋谷ひめ\n佐倉もも花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:00.411Z"
+  },
+  "histories": [
+    {
+      "id": 41691,
+      "productId": 41677,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:25.727Z"
+    },
+    {
+      "id": 53270,
+      "productId": 41677,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:00.411Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023710",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023710",
+    "capturedAt": "2026-08-19T16:23:00.411Z",
+    "items": [],
+    "path": "data/other-shops/145023710.json"
+  }
+}

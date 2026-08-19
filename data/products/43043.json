@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 43043,
+    "title": "Windows DVDソフト 銀行淫＆乗務淫 [働女調教陵辱DVDパック]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014781",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014781.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2006-10-06",
+    "listPrice": 5280,
+    "modelNumber": "JSP-202",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014781001",
+      "メーカー": "SPEED",
+      "発売日": "2006/10/06",
+      "定価": "5,280円",
+      "型番": "JSP-202",
+      "原画": "吉野恵子",
+      "シナリオ": "卯月春香",
+      "声優": "桜川美亜\nしおみれい\n小倉結衣\n金田まひる",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:24.165Z"
+  },
+  "histories": [
+    {
+      "id": 43057,
+      "productId": 43043,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:24.165Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110872,
+      "productId": 43043,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T07:17:24.000Z"
+    },
+    {
+      "id": 110871,
+      "productId": 43043,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-17T07:17:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014781",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014781",
+    "capturedAt": "2026-08-17T07:17:24.165Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145014781.json"
+  }
+}

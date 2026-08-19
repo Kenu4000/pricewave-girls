@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42672,
+    "title": "Windows2000/XP/Vista DVDソフト に～づまはセーラー服 ～ダーリンは担任教師～ [スペシャルプライス版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016566",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016566.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2007-09-14",
+    "listPrice": 4180,
+    "modelNumber": "PUZ-007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016566",
+      "メーカー": "Puzzlebox",
+      "発売日": "2007/09/14",
+      "定価": "4,180円",
+      "型番": "PUZ-007",
+      "原画": "INO",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "深井晴花\n芹園みや\nAYA\n春野かえる\n紫華すみれ\n高宮トキ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:04.032Z"
+  },
+  "histories": [
+    {
+      "id": 42686,
+      "productId": 42672,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:58.922Z"
+    },
+    {
+      "id": 53986,
+      "productId": 42672,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:04.032Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016566",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016566",
+    "capturedAt": "2026-08-19T16:29:04.032Z",
+    "items": [],
+    "path": "data/other-shops/145016566.json"
+  }
+}

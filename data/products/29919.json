@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29919,
+    "title": "WindowsVista/7/8/10 DVDソフト ばくあね2 -弟、いっぱいしぼっちゃうぞ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901658",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901658.jpg",
+    "manufacturer": "アトリエかぐや BARE＆BUNNY",
+    "releaseDate": "2017-01-27",
+    "listPrice": 9680,
+    "modelNumber": "KA-0090",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145901658",
+      "メーカー": "アトリエかぐや BARE＆BUNNY",
+      "発売日": "2017/01/27",
+      "定価": "9,680円",
+      "型番": "KA-0090",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4200,
+    "latestRegularSalePrice": 4200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:34.359Z"
+  },
+  "histories": [
+    {
+      "id": 29933,
+      "productId": 29919,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:05.935Z"
+    },
+    {
+      "id": 38737,
+      "productId": 29919,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:26.277Z"
+    },
+    {
+      "id": 49793,
+      "productId": 29919,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:34.359Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901658",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901658",
+    "capturedAt": "2026-08-19T04:33:34.359Z",
+    "items": [],
+    "path": "data/other-shops/145901658.json"
+  }
+}

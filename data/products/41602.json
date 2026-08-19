@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 41602,
+    "title": "Windows CDソフト Soranica Ele(コムロード特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040811",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040811.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2010-06-25",
+    "listPrice": null,
+    "modelNumber": "V-1006-1",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145040811001",
+      "メーカー": "light",
+      "発売日": "2010/06/25",
+      "型番": "V-1006-1",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "シリーズ": "ディスティニーパッケージ 4,000円 すべての同一製品を見る",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:28.198Z"
+  },
+  "histories": [
+    {
+      "id": 41616,
+      "productId": 41602,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:39.141Z"
+    },
+    {
+      "id": 53206,
+      "productId": 41602,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:28.198Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143105,
+      "productId": 41602,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-19T16:22:28.000Z"
+    },
+    {
+      "id": 143104,
+      "productId": 41602,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-19T16:22:28.000Z"
+    },
+    {
+      "id": 107947,
+      "productId": 41602,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-17T07:03:39.000Z"
+    },
+    {
+      "id": 107946,
+      "productId": 41602,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-17T07:03:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040811",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040811",
+    "capturedAt": "2026-08-19T16:22:28.198Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2980
+      }
+    ],
+    "path": "data/other-shops/145040811.json"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 41068,
+    "title": "Windows DVDソフト カスタムレイドIII リメイク版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034754",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034754.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2012-09-28",
+    "listPrice": 3278,
+    "modelNumber": "KISS-040",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145034754",
+      "メーカー": "KISS",
+      "発売日": "2012/09/28",
+      "定価": "3,278円",
+      "型番": "KISS-040",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:02.493Z"
+  },
+  "histories": [
+    {
+      "id": 41082,
+      "productId": 41068,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:34.979Z"
+    },
+    {
+      "id": 52818,
+      "productId": 41068,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:02.493Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142263,
+      "productId": 41068,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-19T16:19:02.000Z"
+    },
+    {
+      "id": 142262,
+      "productId": 41068,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1001,
+      "checkedAt": "2026-08-19T16:19:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034754",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034754",
+    "capturedAt": "2026-08-19T16:19:02.493Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1001
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1011
+      }
+    ],
+    "path": "data/other-shops/145034754.json"
+  }
+}

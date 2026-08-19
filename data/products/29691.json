@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 29691,
+    "title": "WindowsVista/7/8/10 DVDソフト Pure Marriage -赤い糸物語 さくら編-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059995",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059995.jpg",
+    "manufacturer": "Lass Pixy",
+    "releaseDate": "2017-12-22",
+    "listPrice": 1628,
+    "modelNumber": "LP-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059995",
+      "メーカー": "Lass Pixy",
+      "発売日": "2017/12/22",
+      "定価": "1,628円",
+      "型番": "LP-003",
+      "原画": "しじみ\n古川れもん",
+      "シナリオ": "剣技マナ",
+      "声優": "玉天我\n広深香菜\n藤乃理香\n夢月やみ\n杏花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:18.749Z"
+  },
+  "histories": [
+    {
+      "id": 29705,
+      "productId": 29691,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:44.005Z"
+    },
+    {
+      "id": 38519,
+      "productId": 29691,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:35.920Z"
+    },
+    {
+      "id": 49616,
+      "productId": 29691,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:18.749Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132760,
+      "productId": 29691,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 990,
+      "checkedAt": "2026-08-19T04:32:18.000Z"
+    },
+    {
+      "id": 132759,
+      "productId": 29691,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T04:32:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059995",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059995",
+    "capturedAt": "2026-08-19T04:32:18.749Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 990
+      }
+    ],
+    "path": "data/other-shops/145059995.json"
+  }
+}

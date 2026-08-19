@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 29349,
+    "title": "Windows7/8.1/10 DVDソフト MORE＆NIKO 青春アンソロジー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066075",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066075.jpg",
+    "manufacturer": "NIKO",
+    "releaseDate": "2019-10-25",
+    "listPrice": 18700,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066075001",
+      "メーカー": "NIKO",
+      "発売日": "2019/10/25",
+      "定価": "18,700円",
+      "原画": "和遥キナ\n南浜よりこ",
+      "シナリオ": "小西翼",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 41000,
+    "latestRegularSalePrice": 41000,
+    "latestBuyPrice": 17000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:23.158Z"
+  },
+  "histories": [
+    {
+      "id": 29363,
+      "productId": 29349,
+      "salePrice": 38800,
+      "regularSalePrice": 41000,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:06.546Z"
+    },
+    {
+      "id": 38194,
+      "productId": 29349,
+      "salePrice": 38800,
+      "regularSalePrice": 41000,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:22.903Z"
+    },
+    {
+      "id": 49354,
+      "productId": 29349,
+      "salePrice": 41000,
+      "regularSalePrice": 41000,
+      "buyPrice": 17000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:23.158Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132067,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 41000,
+      "checkedAt": "2026-08-19T04:30:23.000Z"
+    },
+    {
+      "id": 132066,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 27820,
+      "checkedAt": "2026-08-19T04:30:23.000Z"
+    },
+    {
+      "id": 132065,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 27820,
+      "checkedAt": "2026-08-19T04:30:23.000Z"
+    },
+    {
+      "id": 100451,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 38800,
+      "checkedAt": "2026-08-16T01:09:23.000Z"
+    },
+    {
+      "id": 100450,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 27820,
+      "checkedAt": "2026-08-16T01:09:23.000Z"
+    },
+    {
+      "id": 74408,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 38800,
+      "checkedAt": "2026-08-15T23:06:06.000Z"
+    },
+    {
+      "id": 74407,
+      "productId": 29349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 27820,
+      "checkedAt": "2026-08-15T23:06:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066075",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066075",
+    "capturedAt": "2026-08-19T04:30:23.158Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 27820
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 27820
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 41000
+      }
+    ],
+    "path": "data/other-shops/145066075.json"
+  }
+}

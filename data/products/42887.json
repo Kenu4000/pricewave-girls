@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42887,
+    "title": "Windows2000/XP DVDソフト Sexyビーチ3 キャラクター追加DISC[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043738",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043738.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2007-02-02",
+    "listPrice": 4180,
+    "modelNumber": "ILN072",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145043738",
+      "メーカー": "ILLUSION",
+      "発売日": "2007/02/02",
+      "定価": "4,180円",
+      "型番": "ILN072",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:03.860Z"
+  },
+  "histories": [
+    {
+      "id": 42901,
+      "productId": 42887,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:03.860Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043738",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043738",
+    "capturedAt": "2026-08-17T07:16:03.860Z",
+    "items": [],
+    "path": "data/other-shops/145043738.json"
+  }
+}

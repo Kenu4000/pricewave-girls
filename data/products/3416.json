@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 3416,
+    "title": "Windows95 CDソフト 淫従の堕天使",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906116",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906116.jpg",
+    "manufacturer": "DISCOVERY",
+    "releaseDate": "1997-09-25",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145906116",
+      "メーカー": "DISCOVERY",
+      "発売日": "1997/09/25",
+      "定価": "8,580円",
+      "原画": "剥形寿庵",
+      "シナリオ": "小沢伝七",
+      "声優": "赤澤みのり\n永瀬瑠美\n大村智美\n萩野ちずる\n誉田悠子\n忍田理世\n辺見聡子",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2640,
+    "latestRegularSalePrice": 2640,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:00:30.798Z"
+  },
+  "histories": [
+    {
+      "id": 3430,
+      "productId": 3416,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 26705,
+      "productId": 3416,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:29.860Z"
+    },
+    {
+      "id": 37173,
+      "productId": 3416,
+      "salePrice": 2640,
+      "regularSalePrice": 2640,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:30.798Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906116",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906116",
+    "capturedAt": "2026-08-16T01:00:30.798Z",
+    "items": [],
+    "path": "data/other-shops/145906116.json"
+  }
+}

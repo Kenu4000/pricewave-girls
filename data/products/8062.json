@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 8062,
+    "title": "Windows95 CDソフト 歪み",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000256",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000256.jpg",
+    "manufacturer": "メイビーソフト",
+    "releaseDate": "1997-02-20",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000256",
+      "メーカー": "メイビーソフト",
+      "発売日": "1997/02/20",
+      "定価": "8,580円",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:42.483Z"
+  },
+  "histories": [
+    {
+      "id": 8076,
+      "productId": 8062,
+      "salePrice": 410,
+      "regularSalePrice": 410,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 23083,
+      "productId": 8062,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:20.110Z"
+    },
+    {
+      "id": 37515,
+      "productId": 8062,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:34.782Z"
+    },
+    {
+      "id": 48029,
+      "productId": 8062,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:42.483Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

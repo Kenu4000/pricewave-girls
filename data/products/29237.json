@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29237,
+    "title": "Windows8.1/10/11 DVDソフト リンパにATATA! ～メス牡蠣ミルクどぴゅらっしゅ～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073876",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073876.jpg",
+    "manufacturer": "Hending",
+    "releaseDate": "2022-03-25",
+    "listPrice": 4180,
+    "modelNumber": "HEN-0006",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145073876",
+      "メーカー": "Hending",
+      "発売日": "2022/03/25",
+      "定価": "4,180円",
+      "型番": "HEN-0006",
+      "原画": "こくと",
+      "シナリオ": "九鬼月兎",
+      "声優": "そよかぜみらい\n星鹿りえ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5180,
+    "latestRegularSalePrice": 5180,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:47.352Z"
+  },
+  "histories": [
+    {
+      "id": 29251,
+      "productId": 29237,
+      "salePrice": 5180,
+      "regularSalePrice": 5180,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:53.477Z"
+    },
+    {
+      "id": 38086,
+      "productId": 29237,
+      "salePrice": 5180,
+      "regularSalePrice": 5180,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:24.828Z"
+    },
+    {
+      "id": 49273,
+      "productId": 29237,
+      "salePrice": 5180,
+      "regularSalePrice": 5180,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:47.352Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145073876",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073876",
+    "capturedAt": "2026-08-19T04:29:47.352Z",
+    "items": [],
+    "path": "data/other-shops/145073876.json"
+  }
+}

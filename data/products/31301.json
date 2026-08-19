@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31301,
+    "title": "Windows CDソフト ライブ ア ライフ -天沢裕樹のセクシャル実況ライフ!?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037342",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037342.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2013-06-01",
+    "listPrice": 2200,
+    "modelNumber": "SEA-14",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037342",
+      "メーカー": "softhouse-seal",
+      "発売日": "2013/06/01",
+      "定価": "2,200円",
+      "型番": "SEA-14",
+      "原画": "二ノ膳",
+      "シナリオ": "草薙",
+      "声優": "英みらい(大山チロル)\n桃華れん\n貴坂理緒\nノエル\n津軽りんご\n綾川雪弥",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1140,
+    "latestRegularSalePrice": 1140,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:53.800Z"
+  },
+  "histories": [
+    {
+      "id": 31315,
+      "productId": 31301,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:13.659Z"
+    },
+    {
+      "id": 40052,
+      "productId": 31301,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:46.402Z"
+    },
+    {
+      "id": 51104,
+      "productId": 31301,
+      "salePrice": 1140,
+      "regularSalePrice": 1140,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:53.800Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037342",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037342",
+    "capturedAt": "2026-08-19T05:33:53.800Z",
+    "items": [],
+    "path": "data/other-shops/145037342.json"
+  }
+}

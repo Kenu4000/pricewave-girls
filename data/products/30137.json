@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30137,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト みにっ娘ハーフ -ないしょのあのね-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054385",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054385.jpg",
+    "manufacturer": "perle",
+    "releaseDate": "2016-05-27",
+    "listPrice": 7480,
+    "modelNumber": "MSL-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054385",
+      "メーカー": "perle",
+      "発売日": "2016/05/27",
+      "定価": "7,480円",
+      "型番": "MSL-003",
+      "原画": "やみみかん",
+      "シナリオ": "温湯珈琲",
+      "声優": "さとうもも\n桜瀬なゆ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:40.623Z"
+  },
+  "histories": [
+    {
+      "id": 30151,
+      "productId": 30137,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:09.193Z"
+    },
+    {
+      "id": 38940,
+      "productId": 30137,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:12.229Z"
+    },
+    {
+      "id": 49940,
+      "productId": 30137,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:40.623Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054385",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054385",
+    "capturedAt": "2026-08-19T04:34:40.623Z",
+    "items": [],
+    "path": "data/other-shops/145054385.json"
+  }
+}

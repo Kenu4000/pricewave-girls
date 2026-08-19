@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41167,
+    "title": "WindowsXP/Vista/7 DVDソフト Princess Evangile～プリンセスエヴァンジール～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900216",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900216.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": "MOOND-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900216",
+      "メーカー": "MOONSTONE",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "型番": "MOOND-010",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:45.710Z"
+  },
+  "histories": [
+    {
+      "id": 41181,
+      "productId": 41167,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:23.809Z"
+    },
+    {
+      "id": 52892,
+      "productId": 41167,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:45.710Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900216",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900216",
+    "capturedAt": "2026-08-19T16:19:45.710Z",
+    "items": [],
+    "path": "data/other-shops/145900216.json"
+  }
+}

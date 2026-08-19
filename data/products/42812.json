@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 42812,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 胎辱の檻",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015685",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015685.jpg",
+    "manufacturer": "BLACK PACKAGE TRY",
+    "releaseDate": "2007-04-13",
+    "listPrice": 9680,
+    "modelNumber": "BP0057",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015685001",
+      "メーカー": "BLACK PACKAGE TRY",
+      "発売日": "2007/04/13",
+      "定価": "9,680円",
+      "型番": "BP0057",
+      "原画": "藤原秋久",
+      "シナリオ": "楠ゆういち\n有巻洋太",
+      "声優": "中家菜穂\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:16.370Z"
+  },
+  "histories": [
+    {
+      "id": 42826,
+      "productId": 42812,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:16.540Z"
+    },
+    {
+      "id": 44179,
+      "productId": 42812,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:16.370Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114286,
+      "productId": 42812,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 3333,
+      "checkedAt": "2026-08-17T09:38:17.000Z"
+    },
+    {
+      "id": 114285,
+      "productId": 42812,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-08-17T09:38:17.000Z"
+    },
+    {
+      "id": 110430,
+      "productId": 42812,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 3333,
+      "checkedAt": "2026-08-17T07:15:17.000Z"
+    },
+    {
+      "id": 110429,
+      "productId": 42812,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-08-17T07:15:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015685",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015685",
+    "capturedAt": "2026-08-17T09:38:16.370Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2880
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 3333
+      }
+    ],
+    "path": "data/other-shops/145015685.json"
+  }
+}

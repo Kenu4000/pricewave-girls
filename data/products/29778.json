@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29778,
+    "title": "WindowsVista/7/8 DVDソフト 透明人間 挿れ喰い仲三",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058695.jpg",
+    "manufacturer": "Mink EGO",
+    "releaseDate": "2017-09-29",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145058695",
+      "メーカー": "Mink EGO",
+      "発売日": "2017/09/29",
+      "定価": "6,380円",
+      "原画": "なめたけのこ",
+      "シナリオ": "よこよこ",
+      "声優": "義仲愛\nいねむりすやこ\n野々村紗夜\n朝井こもも",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:48.707Z"
+  },
+  "histories": [
+    {
+      "id": 29792,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:35.590Z"
+    },
+    {
+      "id": 38602,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:16.775Z"
+    },
+    {
+      "id": 49687,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:48.707Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058695",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058695",
+    "capturedAt": "2026-08-19T04:32:48.707Z",
+    "items": [],
+    "path": "data/other-shops/145058695.json"
+  }
+}

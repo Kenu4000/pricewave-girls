@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 31276,
+    "title": "WindowsXP/Vista/7/8 DVDソフト どらぺこ! ～おねだりドラゴンとおっぱい勇者～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044504",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044504.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2013-06-28",
+    "listPrice": 8250,
+    "modelNumber": "ALS-0077",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044504",
+      "メーカー": "ALICESOFT",
+      "発売日": "2013/06/28",
+      "定価": "8,250円",
+      "型番": "ALS-0077",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:32.792Z"
+  },
+  "histories": [
+    {
+      "id": 31290,
+      "productId": 31276,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:59.456Z"
+    },
+    {
+      "id": 43725,
+      "productId": 31276,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:32.792Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044504",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044504",
+    "capturedAt": "2026-08-17T09:34:32.792Z",
+    "items": [],
+    "path": "data/other-shops/145044504.json"
+  }
+}

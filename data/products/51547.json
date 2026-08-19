@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 51547,
+    "title": "PC-9801 3.5インチソフト 暗黒千年王国 マジカルキュービック[3.5インチ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/155005508",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/155005508.jpg",
+    "manufacturer": "Katty",
+    "releaseDate": "2018-05-28",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト PC-9801",
+    "details": {
+      "管理番号": "中古 ：155005508001",
+      "メーカー": "Katty",
+      "発売日": "2018/05/28",
+      "定価": "8,580円",
+      "カテゴリ": "パソコンソフト アダルト PC-9801",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 8170,
+    "latestRegularSalePrice": 8170,
+    "latestBuyPrice": 3900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:15.211Z"
+  },
+  "histories": [
+    {
+      "id": 51561,
+      "productId": 51547,
+      "salePrice": 8170,
+      "regularSalePrice": 8170,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:39.326Z"
+    },
+    {
+      "id": 52061,
+      "productId": 51547,
+      "salePrice": 8170,
+      "regularSalePrice": 8170,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:13.732Z"
+    },
+    {
+      "id": 52744,
+      "productId": 51547,
+      "salePrice": 8170,
+      "regularSalePrice": 8170,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:15.211Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142137,
+      "productId": 51547,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 5800,
+      "checkedAt": "2026-08-19T16:18:15.000Z"
+    },
+    {
+      "id": 139590,
+      "productId": 51547,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 5800,
+      "checkedAt": "2026-08-19T15:32:13.000Z"
+    },
+    {
+      "id": 137551,
+      "productId": 51547,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 5800,
+      "checkedAt": "2026-08-19T09:28:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

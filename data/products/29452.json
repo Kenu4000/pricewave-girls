@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 29452,
+    "title": "Windows7/8/8.1/10 DVDソフト イイナリ妻色 -止まらない腰使い-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063930",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063930.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2019-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063930",
+      "メーカー": "インターハート",
+      "発売日": "2019/02/28",
+      "定価": "9,680円",
+      "原画": "火炎味噌\nスカイハウス\nマッパニナッタ\n雨霧MIO\nPAZMA",
+      "シナリオ": "神足RUN\nこおろぎアトリエ\n門戸扉\n美鈴聖\n勝山龍太郎",
+      "声優": "赤井リア\n月野夕紀\n加々美澪\n桜糀まい\n東真紘\n花杜めい\nみだみはるか\n水鱈糸\n松岡侑里\n桜華紅\n高遠あやめ\n倉下撫子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:54.830Z"
+  },
+  "histories": [
+    {
+      "id": 29466,
+      "productId": 29452,
+      "salePrice": 2680,
+      "regularSalePrice": 2680,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:08.954Z"
+    },
+    {
+      "id": 38289,
+      "productId": 29452,
+      "salePrice": 2680,
+      "regularSalePrice": 2680,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:27.406Z"
+    },
+    {
+      "id": 49428,
+      "productId": 29452,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:54.830Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132294,
+      "productId": 29452,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有・パッケージ一部破損",
+      "price": 2680,
+      "checkedAt": "2026-08-19T04:30:54.000Z"
+    },
+    {
+      "id": 132293,
+      "productId": 29452,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-19T04:30:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063930",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063930",
+    "capturedAt": "2026-08-19T04:30:54.830Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱難有・パッケージ一部破損",
+        "price": 2680
+      }
+    ],
+    "path": "data/other-shops/145063930.json"
+  }
+}

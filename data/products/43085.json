@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 43085,
+    "title": "Windows98/Me/2000/XP CDソフト 彼女たちの禁忌 -TABOO-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014629",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014629.jpg",
+    "manufacturer": "FlyingShine黒",
+    "releaseDate": "2006-09-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014629001",
+      "メーカー": "FlyingShine黒",
+      "発売日": "2006/09/01",
+      "定価": "9,680円",
+      "原画": "CRUCCU",
+      "シナリオ": "火々野未完",
+      "声優": "伊藤瞳子\n榎津まお\n町田あみ\n楠鈴音\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:48.257Z"
+  },
+  "histories": [
+    {
+      "id": 43099,
+      "productId": 43085,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:48.257Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110989,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:17:48.000Z"
+    },
+    {
+      "id": 110988,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:17:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014629",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014629",
+    "capturedAt": "2026-08-17T07:17:48.257Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 811
+      }
+    ],
+    "path": "data/other-shops/145014629.json"
+  }
+}

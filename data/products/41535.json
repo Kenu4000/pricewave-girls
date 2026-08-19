@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41535,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 天ツ風ー傀儡陣風帖ー Windows7対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024579",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024579.jpg",
+    "manufacturer": "ninetail",
+    "releaseDate": "2010-08-27",
+    "listPrice": 4180,
+    "modelNumber": "TNR-02",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024579001",
+      "メーカー": "ninetail",
+      "発売日": "2010/08/27",
+      "定価": "4,180円",
+      "型番": "TNR-02",
+      "原画": "黒崎寛哉\nトシぞー\n丹下ゲンタ",
+      "シナリオ": "あくまっこ\n鬼影姚二",
+      "声優": "咲ゆたか\n風音\n芹園みや\nかわしまりの\nみる\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:04.762Z"
+  },
+  "histories": [
+    {
+      "id": 41549,
+      "productId": 41535,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:53.331Z"
+    },
+    {
+      "id": 53161,
+      "productId": 41535,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:04.762Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142988,
+      "productId": 41535,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-19T16:22:04.000Z"
+    },
+    {
+      "id": 142987,
+      "productId": 41535,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 2222,
+      "checkedAt": "2026-08-19T16:22:04.000Z"
+    },
+    {
+      "id": 142986,
+      "productId": 41535,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-19T16:22:04.000Z"
+    },
+    {
+      "id": 107777,
+      "productId": 41535,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 2222,
+      "checkedAt": "2026-08-17T07:02:53.000Z"
+    },
+    {
+      "id": 107776,
+      "productId": 41535,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-17T07:02:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024579",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024579",
+    "capturedAt": "2026-08-19T16:22:04.762Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1980
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 2222
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145024579.json"
+  }
+}

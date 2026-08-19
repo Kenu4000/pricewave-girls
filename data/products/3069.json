@@ -1,0 +1,175 @@
+{
+  "product": {
+    "id": 3069,
+    "title": "Windows95 CDソフト インモラルスタディ シナリオ2：飯嶋由佳",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000272",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000272.jpg",
+    "manufacturer": "スクープ",
+    "releaseDate": null,
+    "listPrice": 7480,
+    "modelNumber": "SCP-WIN95-HADV-0003",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000272001",
+      "メーカー": "スクープ",
+      "定価": "7,480円",
+      "型番": "SCP-WIN95-HADV-0003",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:57.636Z"
+  },
+  "histories": [
+    {
+      "id": 3083,
+      "productId": 3069,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36890,
+      "productId": 3069,
+      "salePrice": 600,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:04.281Z"
+    },
+    {
+      "id": 47522,
+      "productId": 3069,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:57.636Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126074,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 2200,
+      "checkedAt": "2026-08-17T16:05:58.000Z"
+    },
+    {
+      "id": 126073,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:05:58.000Z"
+    },
+    {
+      "id": 126072,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-17T16:05:58.000Z"
+    },
+    {
+      "id": 126071,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T16:05:58.000Z"
+    },
+    {
+      "id": 96912,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 2200,
+      "checkedAt": "2026-08-16T00:58:04.000Z"
+    },
+    {
+      "id": 96911,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:58:04.000Z"
+    },
+    {
+      "id": 96910,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-16T00:58:04.000Z"
+    },
+    {
+      "id": 96909,
+      "productId": 3069,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T00:58:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145000272",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000272",
+    "capturedAt": "2026-08-17T16:05:57.636Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 2200
+      }
+    ],
+    "path": "data/other-shops/145000272.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 41393,
+    "title": "WindowsXP/Vista/7 CDソフト 真・恋姫†無双 -萌将伝- ビジュアルファンブック 限定特典CD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027605",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027605.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2010-12-24",
+    "listPrice": null,
+    "modelNumber": "MSDCD-R1R",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027605001",
+      "メーカー": "BaseSon",
+      "発売日": "2010/12/24",
+      "型番": "MSDCD-R1R",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:08.141Z"
+  },
+  "histories": [
+    {
+      "id": 41407,
+      "productId": 41393,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:27.845Z"
+    },
+    {
+      "id": 43919,
+      "productId": 41393,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:08.141Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113619,
+      "productId": 41393,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:36:08.000Z"
+    },
+    {
+      "id": 113618,
+      "productId": 41393,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-17T09:36:08.000Z"
+    },
+    {
+      "id": 107524,
+      "productId": 41393,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:01:28.000Z"
+    },
+    {
+      "id": 107523,
+      "productId": 41393,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-17T07:01:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027605",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027605",
+    "capturedAt": "2026-08-17T09:36:08.141Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 299
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145027605.json"
+  }
+}

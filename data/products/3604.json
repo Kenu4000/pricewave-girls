@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 3604,
+    "title": "WindowsVista/7/8/8.1/10 CDソフト 背徳の母娘丼 -淫欲に沈むママといもうと-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058142",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058142.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2017-06-23",
+    "listPrice": 2200,
+    "modelNumber": "APT-090",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145058142",
+      "メーカー": "アパタイト",
+      "発売日": "2017/06/23",
+      "定価": "2,200円",
+      "型番": "APT-090",
+      "原画": "川合正起",
+      "シナリオ": "中森南文里",
+      "声優": "宇沙美美子\n南沙耶",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:30.621Z"
+  },
+  "histories": [
+    {
+      "id": 3618,
+      "productId": 3604,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 23048,
+      "productId": 3604,
+      "salePrice": 1000,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:02.761Z"
+    },
+    {
+      "id": 44322,
+      "productId": 3604,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:30.621Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52738,
+      "productId": 3604,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52737,
+      "productId": 3604,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058142",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058142",
+    "capturedAt": "2026-08-17T09:39:30.621Z",
+    "items": [],
+    "path": "data/other-shops/145058142.json"
+  }
+}

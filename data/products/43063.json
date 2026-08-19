@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 43063,
+    "title": "Windows98/Me/2000/XP DVDソフト 魔法少女マナ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014630",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014630.jpg",
+    "manufacturer": "TOUCHABLE",
+    "releaseDate": "2006-09-29",
+    "listPrice": 9680,
+    "modelNumber": "TPB-0062",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014630",
+      "メーカー": "TOUCHABLE",
+      "発売日": "2006/09/29",
+      "定価": "9,680円",
+      "型番": "TPB-0062",
+      "原画": "スミスミ",
+      "シナリオ": "月野影也\n高橋直樹\nしだれ桜",
+      "声優": "比未子\nしまだかおり\n杏露花梨\nあさり☆\nひかる\n天天",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:34.509Z"
+  },
+  "histories": [
+    {
+      "id": 43077,
+      "productId": 43063,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:34.509Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014630",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014630",
+    "capturedAt": "2026-08-17T07:17:34.509Z",
+    "items": [],
+    "path": "data/other-shops/145014630.json"
+  }
+}

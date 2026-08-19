@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30527,
+    "title": "WindowsVista/7/8 DVDソフト 堕姫【普及版】",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049725",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049725.jpg",
+    "manufacturer": "Riddle Soft",
+    "releaseDate": "2015-05-15",
+    "listPrice": 3080,
+    "modelNumber": "RDLS-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049725",
+      "メーカー": "Riddle Soft",
+      "発売日": "2015/05/15",
+      "定価": "3,080円",
+      "型番": "RDLS-001",
+      "声優": "青木ふみぞう\n東かりん\n神谷桜子",
+      "原画": "山本和枝",
+      "シナリオ": "兄丸",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:56.954Z"
+  },
+  "histories": [
+    {
+      "id": 30541,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:09.387Z"
+    },
+    {
+      "id": 39317,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:38.849Z"
+    },
+    {
+      "id": 50542,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:56.954Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049725",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049725",
+    "capturedAt": "2026-08-19T05:28:56.954Z",
+    "items": [],
+    "path": "data/other-shops/145049725.json"
+  }
+}

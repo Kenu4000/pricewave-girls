@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41874,
+    "title": "Windows2000/XP/Vista CDソフト ブラン・ノワール～淫襲の魔女裁判～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021629",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021629.jpg",
+    "manufacturer": "極フェロ",
+    "releaseDate": "2009-09-25",
+    "listPrice": 3300,
+    "modelNumber": "GKF-00015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021629",
+      "メーカー": "極フェロ",
+      "発売日": "2009/09/25",
+      "定価": "3,300円",
+      "型番": "GKF-00015",
+      "原画": "久遠路火鷹",
+      "シナリオ": "群青",
+      "声優": "佐藤玲羅\n岩泉まい",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:04.901Z"
+  },
+  "histories": [
+    {
+      "id": 41888,
+      "productId": 41874,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:09.080Z"
+    },
+    {
+      "id": 53404,
+      "productId": 41874,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:04.901Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143459,
+      "productId": 41874,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1200,
+      "checkedAt": "2026-08-19T16:24:05.000Z"
+    },
+    {
+      "id": 143458,
+      "productId": 41874,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:24:05.000Z"
+    },
+    {
+      "id": 108463,
+      "productId": 41874,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1200,
+      "checkedAt": "2026-08-17T07:06:09.000Z"
+    },
+    {
+      "id": 108462,
+      "productId": 41874,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:06:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021629",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021629",
+    "capturedAt": "2026-08-19T16:24:04.901Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145021629.json"
+  }
+}

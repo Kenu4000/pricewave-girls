@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 42526,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 淫辱スタジオ TAKE2 -姦獄鬼畜ショータイム-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017570",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017570.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2008-02-01",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017570001",
+      "メーカー": "黒雛",
+      "発売日": "2008/02/01",
+      "定価": "3,300円",
+      "原画": "媚少女A",
+      "シナリオ": "小鳥遊マキ",
+      "声優": "榎津まお\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:12:38.238Z"
+  },
+  "histories": [
+    {
+      "id": 42540,
+      "productId": 42526,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:38.238Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 109870,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 1980,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    },
+    {
+      "id": 109869,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    },
+    {
+      "id": 109868,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    },
+    {
+      "id": 109867,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    },
+    {
+      "id": 109866,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    },
+    {
+      "id": 109865,
+      "productId": 42526,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:12:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017570",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017570",
+    "capturedAt": "2026-08-17T07:12:38.238Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "東京書店蟹江店",
+        "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145017570.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41099,
+    "title": "WindowsXP/Vista/7 DVDソフト 未来ノスタルジア[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900696",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900696.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2011-09-28",
+    "listPrice": 9680,
+    "modelNumber": "PURPLE-025",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900696",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2011/09/28",
+      "定価": "9,680円",
+      "型番": "PURPLE-025",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2480,
+    "latestRegularSalePrice": 2480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:15.125Z"
+  },
+  "histories": [
+    {
+      "id": 41113,
+      "productId": 41099,
+      "salePrice": 2480,
+      "regularSalePrice": 2480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:49.789Z"
+    },
+    {
+      "id": 52844,
+      "productId": 41099,
+      "salePrice": 2480,
+      "regularSalePrice": 2480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:15.125Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900696",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900696",
+    "capturedAt": "2026-08-19T16:19:15.125Z",
+    "items": [],
+    "path": "data/other-shops/145900696.json"
+  }
+}

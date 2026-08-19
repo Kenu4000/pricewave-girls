@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41733,
+    "title": "Windows2000/XP/Vista DVDソフト 林間島",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022743",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022743.jpg",
+    "manufacturer": "Nomad",
+    "releaseDate": "2010-01-29",
+    "listPrice": 9680,
+    "modelNumber": "NOM007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022743",
+      "メーカー": "Nomad",
+      "発売日": "2010/01/29",
+      "定価": "9,680円",
+      "型番": "NOM007",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "すまっしゅぱんだ\n大熊陣八\n小沢裕樹",
+      "声優": "氷室百合\n御苑生メイ\n桃井いちご",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1511,
+    "latestRegularSalePrice": 1511,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:15.668Z"
+  },
+  "histories": [
+    {
+      "id": 41747,
+      "productId": 41733,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:55.295Z"
+    },
+    {
+      "id": 53304,
+      "productId": 41733,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:15.668Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022743",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022743",
+    "capturedAt": "2026-08-19T16:23:15.668Z",
+    "items": [],
+    "path": "data/other-shops/145022743.json"
+  }
+}

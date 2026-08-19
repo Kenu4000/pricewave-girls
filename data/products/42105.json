@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 42105,
+    "title": "Windows2000/XP/Vista CDソフト あねいも2 いもいもFD -皐月＆唯のLOVEエロプチ旅行編-[一般流通版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019307",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019307.jpg",
+    "manufacturer": "bootUP!",
+    "releaseDate": "2009-02-27",
+    "listPrice": 3080,
+    "modelNumber": "PAM-0076",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019307001",
+      "メーカー": "bootUP!",
+      "発売日": "2009/02/27",
+      "定価": "3,080円",
+      "型番": "PAM-0076",
+      "原画": "東雲一彦",
+      "シナリオ": "長野ヒロユキ",
+      "アーティスト": "榊原ゆい",
+      "声優": "草柳順子\n松永雪希",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:20.209Z"
+  },
+  "histories": [
+    {
+      "id": 42119,
+      "productId": 42105,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:19.672Z"
+    },
+    {
+      "id": 44065,
+      "productId": 42105,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:20.209Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113983,
+      "productId": 42105,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:37:20.000Z"
+    },
+    {
+      "id": 113982,
+      "productId": 42105,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T09:37:20.000Z"
+    },
+    {
+      "id": 109010,
+      "productId": 42105,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:08:20.000Z"
+    },
+    {
+      "id": 109009,
+      "productId": 42105,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:08:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019307",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019307",
+    "capturedAt": "2026-08-17T09:37:20.209Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145019307.json"
+  }
+}

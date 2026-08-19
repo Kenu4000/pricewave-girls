@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31481,
+    "title": "Windows CDソフト サマーすいむ -私たちどんな恥ずかしい練習にも堪えてみせます- SOFMAP Original Disc",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036914",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036914.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2013-01-25",
+    "listPrice": null,
+    "modelNumber": "PS-1301SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145036914",
+      "メーカー": "TRYSET",
+      "発売日": "2013/01/25",
+      "型番": "PS-1301SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:01.726Z"
+  },
+  "histories": [
+    {
+      "id": 31495,
+      "productId": 31481,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:21.401Z"
+    },
+    {
+      "id": 40231,
+      "productId": 31481,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:13.567Z"
+    },
+    {
+      "id": 51244,
+      "productId": 31481,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:01.726Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036914",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036914",
+    "capturedAt": "2026-08-19T05:35:01.726Z",
+    "items": [],
+    "path": "data/other-shops/145036914.json"
+  }
+}

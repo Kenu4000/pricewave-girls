@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 29597,
+    "title": "Windows7/8/10 DVDソフト 変幻装姫シャインミラージュ 敗北へのカウントダウン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061673",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061673.jpg",
+    "manufacturer": "ミルフィーユ",
+    "releaseDate": "2018-05-25",
+    "listPrice": 4070,
+    "modelNumber": "MFA-0015",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061673",
+      "メーカー": "ミルフィーユ",
+      "発売日": "2018/05/25",
+      "定価": "4,070円",
+      "型番": "MFA-0015",
+      "原画": "高浜太郎\nこっぱむ",
+      "シナリオ": "でぃふぃーと",
+      "声優": "梅原亜衣\n佐倉もも花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 920,
+    "latestRegularSalePrice": 920,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:45.040Z"
+  },
+  "histories": [
+    {
+      "id": 29611,
+      "productId": 29597,
+      "salePrice": 920,
+      "regularSalePrice": 920,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:50.520Z"
+    },
+    {
+      "id": 38428,
+      "productId": 29597,
+      "salePrice": 920,
+      "regularSalePrice": 920,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:41.416Z"
+    },
+    {
+      "id": 49540,
+      "productId": 29597,
+      "salePrice": 920,
+      "regularSalePrice": 920,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:45.040Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061673",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061673",
+    "capturedAt": "2026-08-19T04:31:45.040Z",
+    "items": [],
+    "path": "data/other-shops/145061673.json"
+  }
+}

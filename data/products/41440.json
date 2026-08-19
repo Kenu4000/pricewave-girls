@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 41440,
+    "title": "WindowsXP/Vista/7 CDソフト デブプラス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025686",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025686.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2010-11-19",
+    "listPrice": 2200,
+    "modelNumber": "VAL-0018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025686001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2010/11/19",
+      "定価": "2,200円",
+      "型番": "VAL-0018",
+      "原画": "おしゃれ教室。",
+      "シナリオ": "肉29R&R",
+      "声優": "中家志穂",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:34.345Z"
+  },
+  "histories": [
+    {
+      "id": 41454,
+      "productId": 41440,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:55.106Z"
+    },
+    {
+      "id": 53099,
+      "productId": 41440,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:34.345Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142886,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 142885,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 142884,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 107618,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:01:55.000Z"
+    },
+    {
+      "id": 107617,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-17T07:01:55.000Z"
+    },
+    {
+      "id": 107616,
+      "productId": 41440,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-17T07:01:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025686",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025686",
+    "capturedAt": "2026-08-19T16:21:34.345Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145025686.json"
+  }
+}

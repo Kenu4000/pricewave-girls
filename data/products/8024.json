@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 8024,
+    "title": "Windows2000/XP DVDソフト SWAN SONG[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018395",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018395.jpg",
+    "manufacturer": "Le.Chocolat meets FlyingShine",
+    "releaseDate": "2008-07-31",
+    "listPrice": 6380,
+    "modelNumber": "SWANSONG",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018395",
+      "メーカー": "Le.Chocolat meets FlyingShine",
+      "発売日": "2008/07/31",
+      "定価": "6,380円",
+      "型番": "SWANSONG",
+      "原画": "川原誠",
+      "シナリオ": "瀬戸口廉也",
+      "声優": "有賀桃\n草柳順子\n佐々木柚香\n榎津まお\n北都南\n西田こむぎ\n歌織\n国定剛\n植木亨\n広末涼\n滝沢アツヤ\n桜坂幸平\n楠鈴音",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4280,
+    "latestRegularSalePrice": 4280,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:26.944Z"
+  },
+  "histories": [
+    {
+      "id": 8038,
+      "productId": 8024,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 26760,
+      "productId": 8024,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:03.459Z"
+    },
+    {
+      "id": 37475,
+      "productId": 8024,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:15.757Z"
+    },
+    {
+      "id": 47997,
+      "productId": 8024,
+      "salePrice": 4280,
+      "regularSalePrice": 4280,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:26.944Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 98831,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 4280,
+      "checkedAt": "2026-08-16T01:03:15.000Z"
+    },
+    {
+      "id": 98830,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-08-16T01:03:15.000Z"
+    },
+    {
+      "id": 65833,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 4280,
+      "checkedAt": "2026-08-09T21:37:03.000Z"
+    },
+    {
+      "id": 65832,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-08-09T21:37:03.000Z"
+    },
+    {
+      "id": 1034,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 4280,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 1033,
+      "productId": 8024,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018395",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018395",
+    "capturedAt": "2026-08-17T16:10:26.944Z",
+    "items": [],
+    "path": "data/other-shops/145018395.json"
+  }
+}

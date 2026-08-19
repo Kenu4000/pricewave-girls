@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 30947,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Clover Day’s",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902307",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902307.jpg",
+    "manufacturer": "ALcot",
+    "releaseDate": "2014-03-28",
+    "listPrice": 10340,
+    "modelNumber": "AL-CD-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145902307",
+      "メーカー": "ALcot",
+      "発売日": "2014/03/28",
+      "定価": "10,340円",
+      "型番": "AL-CD-001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:11.090Z"
+  },
+  "histories": [
+    {
+      "id": 30961,
+      "productId": 30947,
+      "salePrice": 5555,
+      "regularSalePrice": 5555,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:22.013Z"
+    },
+    {
+      "id": 39711,
+      "productId": 30947,
+      "salePrice": 5555,
+      "regularSalePrice": 5555,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:10.964Z"
+    },
+    {
+      "id": 43685,
+      "productId": 30947,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:11.090Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113012,
+      "productId": 30947,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）イタミ有り",
+      "price": 5555,
+      "checkedAt": "2026-08-17T09:34:11.000Z"
+    },
+    {
+      "id": 113011,
+      "productId": 30947,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 5350,
+      "checkedAt": "2026-08-17T09:34:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145902307",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902307",
+    "capturedAt": "2026-08-17T09:34:11.090Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品",
+        "price": 5350
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）イタミ有り",
+        "price": 5555
+      }
+    ],
+    "path": "data/other-shops/145902307.json"
+  }
+}

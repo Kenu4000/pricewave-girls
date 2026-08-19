@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42330,
+    "title": "Windows2000/XP/Vista DVDソフト BackStage -バックステージ- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042696",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042696.jpg",
+    "manufacturer": "TJR(ザ・ジョリー・ロジャー)",
+    "releaseDate": "2008-08-08",
+    "listPrice": 9680,
+    "modelNumber": "44801431-S1",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145042696",
+      "メーカー": "TJR(ザ・ジョリー・ロジャー)",
+      "発売日": "2008/08/08",
+      "定価": "9,680円",
+      "型番": "44801431-S1",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:50.363Z"
+  },
+  "histories": [
+    {
+      "id": 42344,
+      "productId": 42330,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:36.143Z"
+    },
+    {
+      "id": 53733,
+      "productId": 42330,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:50.363Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042696",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042696",
+    "capturedAt": "2026-08-19T16:26:50.363Z",
+    "items": [],
+    "path": "data/other-shops/145042696.json"
+  }
+}

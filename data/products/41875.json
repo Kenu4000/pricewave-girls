@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41875,
+    "title": "Windows2000/XP/Vista DVDソフト ハルカナソラ[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039878",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039878.jpg",
+    "manufacturer": "Sphere(スフィア)",
+    "releaseDate": "2009-09-25",
+    "listPrice": 7480,
+    "modelNumber": "SPH-004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145039878",
+      "メーカー": "Sphere(スフィア)",
+      "発売日": "2009/09/25",
+      "定価": "7,480円",
+      "型番": "SPH-004",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ぬいぐるみ欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 15000,
+    "latestRegularSalePrice": 15000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ぬいぐるみ欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:05.072Z"
+  },
+  "histories": [
+    {
+      "id": 41889,
+      "productId": 41875,
+      "salePrice": 15000,
+      "regularSalePrice": 15000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ぬいぐるみ欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:09.335Z"
+    },
+    {
+      "id": 53405,
+      "productId": 41875,
+      "salePrice": 15000,
+      "regularSalePrice": 15000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ぬいぐるみ欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:05.072Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039878",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039878",
+    "capturedAt": "2026-08-19T16:24:05.072Z",
+    "items": [],
+    "path": "data/other-shops/145039878.json"
+  }
+}

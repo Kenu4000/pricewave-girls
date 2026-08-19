@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41594,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 巫女さんといっしょ!ーイケナイご奉仕奮戦記ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024061.jpg",
+    "manufacturer": "SCORE【しゅこあ!】",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": "SCR012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024061",
+      "メーカー": "SCORE【しゅこあ!】",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "型番": "SCR012",
+      "声優": "一色ヒカル\n小倉由衣\n青井美海\n青葉りんご",
+      "原画": "稍日向",
+      "シナリオ": "小沢裕樹\nRe-born\nMerle\n群青",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1940,
+    "latestRegularSalePrice": 1940,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:24.810Z"
+  },
+  "histories": [
+    {
+      "id": 41608,
+      "productId": 41594,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:37.572Z"
+    },
+    {
+      "id": 53202,
+      "productId": 41594,
+      "salePrice": 1940,
+      "regularSalePrice": 1940,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:24.810Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024061",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024061",
+    "capturedAt": "2026-08-19T16:22:24.810Z",
+    "items": [],
+    "path": "data/other-shops/145024061.json"
+  }
+}

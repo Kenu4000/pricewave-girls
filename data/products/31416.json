@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 31416,
+    "title": "WindowsXP/Vista/7 DVDソフト ポケットに恋をつめて",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035192",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035192.jpg",
+    "manufacturer": "青空ビスケット",
+    "releaseDate": "2013-03-15",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035192",
+      "メーカー": "青空ビスケット",
+      "発売日": "2013/03/15",
+      "定価": "9,680円",
+      "原画": "生煮え\nくない瓜",
+      "シナリオ": "うたや\n北灯ちとせ",
+      "声優": "韮井叶\n篠原ゆみ\n御苑生メイ\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱状態難(傷み・汚れ・日焼けなど)",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "箱状態難(傷み・汚れ・日焼けなど)",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:38.852Z"
+  },
+  "histories": [
+    {
+      "id": 31430,
+      "productId": 31416,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:37.567Z"
+    },
+    {
+      "id": 40165,
+      "productId": 31416,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:40.473Z"
+    },
+    {
+      "id": 51195,
+      "productId": 31416,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難(傷み・汚れ・日焼けなど)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:38.852Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035192",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035192",
+    "capturedAt": "2026-08-19T05:34:38.852Z",
+    "items": [],
+    "path": "data/other-shops/145035192.json"
+  }
+}

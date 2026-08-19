@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42041,
+    "title": "Windows2000/XP/Vista DVDソフト 姫狩りダンジョンマイスター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039256",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039256.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9460,
+    "modelNumber": "EUDV-010",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145039256",
+      "メーカー": "エウシュリー",
+      "発売日": "2009/04/24",
+      "定価": "9,460円",
+      "型番": "EUDV-010",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2580,
+    "latestRegularSalePrice": 2580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:06.088Z"
+  },
+  "histories": [
+    {
+      "id": 42055,
+      "productId": 42041,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:35.468Z"
+    },
+    {
+      "id": 53522,
+      "productId": 42041,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:06.088Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039256",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039256",
+    "capturedAt": "2026-08-19T16:25:06.088Z",
+    "items": [],
+    "path": "data/other-shops/145039256.json"
+  }
+}

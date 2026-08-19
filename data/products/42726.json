@@ -1,0 +1,135 @@
+{
+  "product": {
+    "id": 42726,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 鬼畜眼鏡[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016280",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016280.jpg",
+    "manufacturer": "Spray",
+    "releaseDate": "2007-07-20",
+    "listPrice": 8778,
+    "modelNumber": "KICHIKU-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016280001",
+      "メーカー": "Spray",
+      "発売日": "2007/07/20",
+      "定価": "8,778円",
+      "型番": "KICHIKU-001",
+      "原画": "みささぎ楓李",
+      "シナリオ": "TAMAMI",
+      "声優": "床魔乱夢崇矢\n平井達矢\n浅野要二\n犬野忠輔\nルネッサンス山田\n大石けいぞう\n大海原渉",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4900,
+    "latestRegularSalePrice": 4900,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:27.548Z"
+  },
+  "histories": [
+    {
+      "id": 42740,
+      "productId": 42726,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:27.548Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110266,
+      "productId": 42726,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4900,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    },
+    {
+      "id": 110265,
+      "productId": 42726,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ひたちなかFC店",
+      "condition": "中古",
+      "price": 4370,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    },
+    {
+      "id": 110264,
+      "productId": 42726,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古小冊子欠品、スリーブ状態難",
+      "price": 3400,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    },
+    {
+      "id": 110263,
+      "productId": 42726,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古小冊子欠品、ケース状態難",
+      "price": 3190,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    },
+    {
+      "id": 110262,
+      "productId": 42726,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 小冊子欠品、ケース状態難",
+      "price": 3190,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    },
+    {
+      "id": 110261,
+      "productId": 42726,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 小冊子欠品、スリーブ状態難",
+      "price": 3400,
+      "checkedAt": "2026-08-17T07:14:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016280",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016280",
+    "capturedAt": "2026-08-17T07:14:27.548Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古小冊子欠品、ケース状態難",
+        "price": 3190
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古小冊子欠品、スリーブ状態難",
+        "price": 3400
+      },
+      {
+        "storeName": "駿河屋 ひたちなかFC店",
+        "condition": "中古",
+        "price": 4370
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4900
+      }
+    ],
+    "path": "data/other-shops/145016280.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 43036,
+    "title": "Windows CDソフト 字祷子D -妖都最速伝説-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014837.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2006-10-13",
+    "listPrice": 1572,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014837001",
+      "メーカー": "ニトロプラス",
+      "発売日": "2006/10/13",
+      "定価": "1,572円",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:20.248Z"
+  },
+  "histories": [
+    {
+      "id": 43050,
+      "productId": 43036,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:20.248Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110862,
+      "productId": 43036,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-17T07:17:20.000Z"
+    },
+    {
+      "id": 110861,
+      "productId": 43036,
+      "sourceType": "other_shop",
+      "storeName": "ニッポンシザイ.COM",
+      "condition": "中古 非常に良い",
+      "price": 384,
+      "checkedAt": "2026-08-17T07:17:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014837",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014837",
+    "capturedAt": "2026-08-17T07:17:20.248Z",
+    "items": [
+      {
+        "storeName": "ニッポンシザイ.COM",
+        "condition": "中古 非常に良い",
+        "price": 384
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145014837.json"
+  }
+}

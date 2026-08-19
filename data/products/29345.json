@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29345,
+    "title": "Windows7/8/10 DVDソフト JK妹。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145903756.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2019-10-25",
+    "listPrice": 9680,
+    "modelNumber": "KA-0106",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145903756",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2019/10/25",
+      "定価": "9,680円",
+      "型番": "KA-0106",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6500,
+    "latestRegularSalePrice": 6500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:19.889Z"
+  },
+  "histories": [
+    {
+      "id": 29359,
+      "productId": 29345,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:05.919Z"
+    },
+    {
+      "id": 38187,
+      "productId": 29345,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:20.212Z"
+    },
+    {
+      "id": 49348,
+      "productId": 29345,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:19.889Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903756",
+    "capturedAt": "2026-08-19T04:30:19.889Z",
+    "items": [],
+    "path": "data/other-shops/145903756.json"
+  }
+}

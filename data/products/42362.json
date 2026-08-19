@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42362,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト NOZOKI魔～ファイナル～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018398",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018398.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2008-07-25",
+    "listPrice": 9680,
+    "modelNumber": "SKM-851",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018398",
+      "メーカー": "MAIKA",
+      "発売日": "2008/07/25",
+      "定価": "9,680円",
+      "型番": "SKM-851",
+      "原画": "まる。\n沖田つばさ\nおおのつとむ\n桜ロマ子",
+      "シナリオ": "実験機八号",
+      "声優": "吉川華生\n本田みか\n計名さや香\n都筑なつる\n青井美海\n柏倉れん\n花園朱美",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1712,
+    "latestRegularSalePrice": 1712,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:04.740Z"
+  },
+  "histories": [
+    {
+      "id": 42376,
+      "productId": 42362,
+      "salePrice": 1712,
+      "regularSalePrice": 1712,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:57.782Z"
+    },
+    {
+      "id": 53759,
+      "productId": 42362,
+      "salePrice": 1712,
+      "regularSalePrice": 1712,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:04.740Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018398",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018398",
+    "capturedAt": "2026-08-19T16:27:04.740Z",
+    "items": [],
+    "path": "data/other-shops/145018398.json"
+  }
+}

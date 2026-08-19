@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29639,
+    "title": "Windows7/8.1/10 DVDソフト ボクと彼女の研修日誌",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062666",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062666.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2018-03-30",
+    "listPrice": 2728,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062666",
+      "メーカー": "プレカノ",
+      "発売日": "2018/03/30",
+      "定価": "2,728円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "クリアファイル欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "クリアファイル欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:00.289Z"
+  },
+  "histories": [
+    {
+      "id": 29653,
+      "productId": 29639,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "クリアファイル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:13.846Z"
+    },
+    {
+      "id": 38465,
+      "productId": 29639,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "クリアファイル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:05.847Z"
+    },
+    {
+      "id": 49572,
+      "productId": 29639,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "クリアファイル欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:00.289Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062666",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062666",
+    "capturedAt": "2026-08-19T04:32:00.289Z",
+    "items": [],
+    "path": "data/other-shops/145062666.json"
+  }
+}

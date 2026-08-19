@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 3233,
+    "title": "WindowsVista/7/8 DVDソフト ディバインハートマキナ外伝 フルパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046855",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046855.jpg",
+    "manufacturer": "Portion",
+    "releaseDate": "2014-12-19",
+    "listPrice": 2310,
+    "modelNumber": "POR009",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046855",
+      "メーカー": "Portion",
+      "発売日": "2014/12/19",
+      "定価": "2,310円",
+      "型番": "POR009",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:03.667Z"
+  },
+  "histories": [
+    {
+      "id": 3247,
+      "productId": 3233,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 26663,
+      "productId": 3233,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:05.070Z"
+    },
+    {
+      "id": 37026,
+      "productId": 3233,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:12.112Z"
+    },
+    {
+      "id": 47634,
+      "productId": 3233,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:03.667Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046855",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046855",
+    "capturedAt": "2026-08-17T16:07:03.667Z",
+    "items": [],
+    "path": "data/other-shops/145046855.json"
+  }
+}

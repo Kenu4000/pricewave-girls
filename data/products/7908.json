@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 7908,
+    "title": "Windows95/98 CDソフト 牲2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003956",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003956.jpg",
+    "manufacturer": "HYPERSPACE",
+    "releaseDate": "2000-09-08",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003956001",
+      "メーカー": "HYPERSPACE",
+      "発売日": "2000/09/08",
+      "定価": "9,680円",
+      "原画": "月型望",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7600,
+    "latestRegularSalePrice": 7600,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:47.950Z"
+  },
+  "histories": [
+    {
+      "id": 7922,
+      "productId": 7908,
+      "salePrice": 7600,
+      "regularSalePrice": 7600,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 37379,
+      "productId": 7908,
+      "salePrice": 7600,
+      "regularSalePrice": 7600,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:19.237Z"
+    },
+    {
+      "id": 47930,
+      "productId": 7908,
+      "salePrice": 7600,
+      "regularSalePrice": 7600,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:47.950Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127389,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7600,
+      "checkedAt": "2026-08-17T16:09:48.000Z"
+    },
+    {
+      "id": 127388,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 6860,
+      "checkedAt": "2026-08-17T16:09:48.000Z"
+    },
+    {
+      "id": 98507,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7600,
+      "checkedAt": "2026-08-16T01:02:19.000Z"
+    },
+    {
+      "id": 98506,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 6860,
+      "checkedAt": "2026-08-16T01:02:19.000Z"
+    },
+    {
+      "id": 663,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7600,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 662,
+      "productId": 7908,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 7290,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145003956",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003956",
+    "capturedAt": "2026-08-17T16:09:47.950Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 6860
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7600
+      }
+    ],
+    "path": "data/other-shops/145003956.json"
+  }
+}

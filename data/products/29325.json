@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 29325,
+    "title": "Windows8/8.1/10 DVDソフト 火箭(かせん) ゆるすまぢ! そしらぬ笑顔と汚れた下着",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067926",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067926.jpg",
+    "manufacturer": "Hending",
+    "releaseDate": "2020-03-27",
+    "listPrice": 4180,
+    "modelNumber": "HEN-0004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067926",
+      "メーカー": "Hending",
+      "発売日": "2020/03/27",
+      "定価": "4,180円",
+      "型番": "HEN-0004",
+      "原画": "浅海朝美",
+      "シナリオ": "和泉万夜",
+      "声優": "柏木逢花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:13.348Z"
+  },
+  "histories": [
+    {
+      "id": 29339,
+      "productId": 29325,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:50.957Z"
+    },
+    {
+      "id": 38165,
+      "productId": 29325,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:08.452Z"
+    },
+    {
+      "id": 49332,
+      "productId": 29325,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:13.348Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131993,
+      "productId": 29325,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-19T04:30:13.000Z"
+    },
+    {
+      "id": 131992,
+      "productId": 29325,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1470,
+      "checkedAt": "2026-08-19T04:30:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067926",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067926",
+    "capturedAt": "2026-08-19T04:30:13.348Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1470
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      }
+    ],
+    "path": "data/other-shops/145067926.json"
+  }
+}

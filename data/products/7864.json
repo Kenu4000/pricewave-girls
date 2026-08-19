@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 7864,
+    "title": "Windows8.1/10 DVDソフト 恋愛×ロワイアル 乃々香＆蓮菜＆由奈 ミニアフターストーリー [豪華限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071312",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071312.jpg",
+    "manufacturer": "ASa Project",
+    "releaseDate": "2021-03-26",
+    "listPrice": 6490,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145071312",
+      "メーカー": "ASa Project",
+      "発売日": "2021/03/26",
+      "定価": "6,490円",
+      "原画": "夕凪セシナ\n冬壱もんめ\n結城リカ",
+      "シナリオ": "八日なのか",
+      "声優": "小鳥居夕花\n杏子御津\n東雲りあ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:59.326Z"
+  },
+  "histories": [
+    {
+      "id": 7878,
+      "productId": 7864,
+      "salePrice": 3380,
+      "regularSalePrice": 3380,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 13028,
+      "productId": 7864,
+      "salePrice": 3380,
+      "regularSalePrice": 3380,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:02.000Z"
+    },
+    {
+      "id": 15707,
+      "productId": 7864,
+      "salePrice": 3380,
+      "regularSalePrice": 3380,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:17:57.000Z"
+    },
+    {
+      "id": 22263,
+      "productId": 7864,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:30:21.023Z"
+    },
+    {
+      "id": 25950,
+      "productId": 7864,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T20:38:15.023Z"
+    },
+    {
+      "id": 44371,
+      "productId": 7864,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:59.326Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114788,
+      "productId": 7864,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-08-17T09:39:59.000Z"
+    },
+    {
+      "id": 114787,
+      "productId": 7864,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古付属トールケース・ゲームディスクのみ",
+      "price": 2980,
+      "checkedAt": "2026-08-17T09:39:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071312",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071312",
+    "capturedAt": "2026-08-17T09:39:59.326Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古付属トールケース・ゲームディスクのみ",
+        "price": 2980
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 3200
+      }
+    ],
+    "path": "data/other-shops/145071312.json"
+  }
+}

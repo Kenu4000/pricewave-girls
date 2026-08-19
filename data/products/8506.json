@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 8506,
+    "title": "Windows95/98/2000 CDソフト 青の扉白の鍵[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048234",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048234.jpg",
+    "manufacturer": "Cyc",
+    "releaseDate": "2000-06-09",
+    "listPrice": 9680,
+    "modelNumber": "CYC111022",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "145048234",
+      "メーカー": "Cyc",
+      "発売日": "2000/06/09",
+      "定価": "9,680円",
+      "型番": "CYC111022",
+      "原画": "かん奈",
+      "シナリオ": "みきのゆう\n草壁祭",
+      "声優": "七ヶ瀬輪\n神無月ほのか\nYuki-Lin\nみる\nこむら菜々",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:06:32.522Z"
+  },
+  "histories": [
+    {
+      "id": 8520,
+      "productId": 8506,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 23160,
+      "productId": 8506,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:59.672Z"
+    },
+    {
+      "id": 37867,
+      "productId": 8506,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:32.522Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

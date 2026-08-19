@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 41753,
+    "title": "WindowsXP/Vista/7 DVDソフト 鴎城異聞 第一聞 彼が死ななければいけなかった理由 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022709",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022709.jpg",
+    "manufacturer": "ABHAR Tronc（アーヴァル トロン）",
+    "releaseDate": "2009-12-29",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145022709001",
+      "メーカー": "ABHAR Tronc（アーヴァル トロン）",
+      "発売日": "2009/12/29",
+      "定価": "4,378円",
+      "原画": "吉田誠治",
+      "シナリオ": "朱居あやし",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:49.856Z"
+  },
+  "histories": [
+    {
+      "id": 41767,
+      "productId": 41753,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:05.238Z"
+    },
+    {
+      "id": 44004,
+      "productId": 41753,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:49.856Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113808,
+      "productId": 41753,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:36:50.000Z"
+    },
+    {
+      "id": 113807,
+      "productId": 41753,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:36:50.000Z"
+    },
+    {
+      "id": 108237,
+      "productId": 41753,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:06.000Z"
+    },
+    {
+      "id": 108236,
+      "productId": 41753,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:05:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022709",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022709",
+    "capturedAt": "2026-08-17T09:36:49.856Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145022709.json"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41469,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋と選挙とチョコレート[初回限定特装版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902721",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902721.jpg",
+    "manufacturer": "sprite",
+    "releaseDate": "2010-10-29",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145902721",
+      "メーカー": "sprite",
+      "発売日": "2010/10/29",
+      "定価": "10,780円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:01.196Z"
+  },
+  "histories": [
+    {
+      "id": 41483,
+      "productId": 41469,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:12.127Z"
+    },
+    {
+      "id": 48767,
+      "productId": 41469,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:01.196Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902721",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902721",
+    "capturedAt": "2026-08-19T04:26:01.196Z",
+    "items": [],
+    "path": "data/other-shops/145902721.json"
+  }
+}

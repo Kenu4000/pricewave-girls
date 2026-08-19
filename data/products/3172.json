@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 3172,
+    "title": "Windows98/Me/2000/XP CDソフト 乳辱遊戯",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009385",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009385.jpg",
+    "manufacturer": "WestVision",
+    "releaseDate": "2003-09-19",
+    "listPrice": 9680,
+    "modelNumber": "TW-09",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009385",
+      "メーカー": "WestVision",
+      "発売日": "2003/09/19",
+      "定価": "9,680円",
+      "型番": "TW-09",
+      "原画": "トシぞー",
+      "シナリオ": "黒崎将弘",
+      "声優": "咲ゆたか\n苺野あいす\n風音",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 720,
+    "latestRegularSalePrice": 720,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:37.697Z"
+  },
+  "histories": [
+    {
+      "id": 3186,
+      "productId": 3172,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22964,
+      "productId": 3172,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:16.930Z"
+    },
+    {
+      "id": 36974,
+      "productId": 3172,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:44.719Z"
+    },
+    {
+      "id": 47584,
+      "productId": 3172,
+      "salePrice": 720,
+      "regularSalePrice": 720,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:37.697Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52445,
+      "productId": 3172,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 720,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52444,
+      "productId": 3172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145009385",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009385",
+    "capturedAt": "2026-08-17T16:06:37.697Z",
+    "items": [],
+    "path": "data/other-shops/145009385.json"
+  }
+}

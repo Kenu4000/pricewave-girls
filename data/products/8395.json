@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 8395,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 河原崎家の一族2 [完全版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023208",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023208.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2010-02-26",
+    "listPrice": 8580,
+    "modelNumber": "ELFD095",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023208",
+      "メーカー": "エルフ",
+      "発売日": "2010/02/26",
+      "定価": "8,580円",
+      "型番": "ELFD095",
+      "キャラクターデザイン": "りんしん",
+      "シナリオ": "土天冥海\n蛭田昌人",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 8700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:34.520Z"
+  },
+  "histories": [
+    {
+      "id": 8409,
+      "productId": 8395,
+      "salePrice": 25000,
+      "regularSalePrice": 25000,
+      "buyPrice": 8000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 23139,
+      "productId": 8395,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:49.415Z"
+    },
+    {
+      "id": 37776,
+      "productId": 8395,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:46.762Z"
+    },
+    {
+      "id": 48250,
+      "productId": 8395,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:34.520Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128165,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 25000,
+      "checkedAt": "2026-08-17T16:12:34.000Z"
+    },
+    {
+      "id": 128164,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 14412,
+      "checkedAt": "2026-08-17T16:12:34.000Z"
+    },
+    {
+      "id": 99548,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 25000,
+      "checkedAt": "2026-08-16T01:05:46.000Z"
+    },
+    {
+      "id": 99547,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 14412,
+      "checkedAt": "2026-08-16T01:05:46.000Z"
+    },
+    {
+      "id": 52961,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 25000,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 52960,
+      "productId": 8395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 14412,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023208",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023208",
+    "capturedAt": "2026-08-17T16:12:34.520Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 14412
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 25000
+      }
+    ],
+    "path": "data/other-shops/145023208.json"
+  }
+}

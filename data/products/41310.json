@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41310,
+    "title": "Windows2000/XP/Vista DVDソフト 姦系図[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027190",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027190.jpg",
+    "manufacturer": "PlumZERO",
+    "releaseDate": "2011-03-04",
+    "listPrice": 3300,
+    "modelNumber": "AK-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145027190",
+      "メーカー": "PlumZERO",
+      "発売日": "2011/03/04",
+      "定価": "3,300円",
+      "型番": "AK-001",
+      "原画": "さとをみどり",
+      "シナリオ": "樹原新\n文音(彩音)\n桃野衿",
+      "声優": "長瀬ゆずは\n民安ともえ\n梨本悠里",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2889,
+    "latestRegularSalePrice": 2889,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:47.279Z"
+  },
+  "histories": [
+    {
+      "id": 41324,
+      "productId": 41310,
+      "salePrice": 2889,
+      "regularSalePrice": 2889,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:43.083Z"
+    },
+    {
+      "id": 53005,
+      "productId": 41310,
+      "salePrice": 2889,
+      "regularSalePrice": 2889,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:47.279Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027190",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027190",
+    "capturedAt": "2026-08-19T16:20:47.279Z",
+    "items": [],
+    "path": "data/other-shops/145027190.json"
+  }
+}

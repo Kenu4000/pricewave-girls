@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31855,
+    "title": "WindowsXP/Vista/7 DVDソフト 烙印姫ルーンドプリンセス[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901599",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901599.jpg",
+    "manufacturer": "Liquid-Touchable",
+    "releaseDate": "2012-03-23",
+    "listPrice": 9680,
+    "modelNumber": "LIQ025",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145901599",
+      "メーカー": "Liquid-Touchable",
+      "発売日": "2012/03/23",
+      "定価": "9,680円",
+      "型番": "LIQ025",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:46.390Z"
+  },
+  "histories": [
+    {
+      "id": 31869,
+      "productId": 31855,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:12.199Z"
+    },
+    {
+      "id": 40604,
+      "productId": 31855,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:07.463Z"
+    },
+    {
+      "id": 52120,
+      "productId": 31855,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:46.390Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901599",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901599",
+    "capturedAt": "2026-08-19T15:32:46.390Z",
+    "items": [],
+    "path": "data/other-shops/145901599.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3595,
+    "title": "WindowsXP/Vista/7/8/10 CDソフト どれみで始まる教師生活 -せんせい気持ちいいですか-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056268",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056268.jpg",
+    "manufacturer": "ピーキー",
+    "releaseDate": "2016-12-22",
+    "listPrice": 3630,
+    "modelNumber": "PEK-008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056268",
+      "メーカー": "ピーキー",
+      "発売日": "2016/12/22",
+      "定価": "3,630円",
+      "型番": "PEK-008",
+      "原画": "岩本鮪",
+      "シナリオ": "こごめさくら",
+      "声優": "計名さや香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:16.649Z"
+  },
+  "histories": [
+    {
+      "id": 3609,
+      "productId": 3595,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 23044,
+      "productId": 3595,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:02.267Z"
+    },
+    {
+      "id": 37323,
+      "productId": 3595,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:48.614Z"
+    },
+    {
+      "id": 47879,
+      "productId": 3595,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:16.649Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056268",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056268",
+    "capturedAt": "2026-08-17T16:09:16.649Z",
+    "items": [],
+    "path": "data/other-shops/145056268.json"
+  }
+}

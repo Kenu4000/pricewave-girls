@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 3079,
+    "title": "Windows98/Me/2000/XP CDソフト ELF FAN CLUB Vol.57",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013102",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013102.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "elf-57",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145013102",
+      "メーカー": "エルフ",
+      "型番": "elf-57",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:57.710Z"
+  },
+  "histories": [
+    {
+      "id": 3093,
+      "productId": 3079,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 22947,
+      "productId": 3079,
+      "salePrice": 800,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:08.344Z"
+    },
+    {
+      "id": 36895,
+      "productId": 3079,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:05.893Z"
+    },
+    {
+      "id": 47521,
+      "productId": 3079,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:57.710Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

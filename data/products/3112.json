@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 3112,
+    "title": "Windows98/Me/2000/XP CDソフト お保母ごと～ひみつのおゆうぎ、ママにはないしょ～ 「ひみつのおゆうぎDISK」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020110",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020110.jpg",
+    "manufacturer": "g-clef",
+    "releaseDate": "2005-07-29",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145020110001",
+      "メーカー": "g-clef",
+      "発売日": "2005/07/29",
+      "原画": "卓太郎",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:16.567Z"
+  },
+  "histories": [
+    {
+      "id": 3126,
+      "productId": 3112,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 22954,
+      "productId": 3112,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:12.101Z"
+    },
+    {
+      "id": 36926,
+      "productId": 3112,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:21.304Z"
+    },
+    {
+      "id": 47553,
+      "productId": 3112,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:16.567Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126141,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T16:06:17.000Z"
+    },
+    {
+      "id": 126140,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋GIGA福岡春日店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-17T16:06:17.000Z"
+    },
+    {
+      "id": 96962,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋GIGA福岡春日店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96961,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 52409,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋GIGA福岡春日店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    },
+    {
+      "id": 52408,
+      "productId": 3112,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020110",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020110",
+    "capturedAt": "2026-08-17T16:06:16.567Z",
+    "items": [
+      {
+        "storeName": "駿河屋GIGA福岡春日店",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145020110.json"
+  }
+}

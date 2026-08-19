@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41914,
+    "title": "WindowsMe/2000/XP/Vista CDソフト おクスリ～副作用にはご注意ください～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021503",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021503.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2009-08-21",
+    "listPrice": 3080,
+    "modelNumber": "BASE-031",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021503",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2009/08/21",
+      "定価": "3,080円",
+      "型番": "BASE-031",
+      "原画": "高瀬ひろ",
+      "シナリオ": "有楽蝶",
+      "声優": "篁瑞帆",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:17.035Z"
+  },
+  "histories": [
+    {
+      "id": 41928,
+      "productId": 41914,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:28.329Z"
+    },
+    {
+      "id": 53428,
+      "productId": 41914,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:17.035Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021503",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021503",
+    "capturedAt": "2026-08-19T16:24:17.035Z",
+    "items": [],
+    "path": "data/other-shops/145021503.json"
+  }
+}

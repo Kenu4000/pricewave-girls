@@ -1,0 +1,179 @@
+{
+  "product": {
+    "id": 2867,
+    "title": "Windows95/98 CDソフト 魔性の貌 CDケース仕様",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000384",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000384.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": null,
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145000384",
+      "メーカー": "ミンク",
+      "定価": "9,680円",
+      "原画": "壽々郎\n中村錦",
+      "シナリオ": "安部三郎",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:04:32.025Z"
+  },
+  "histories": [
+    {
+      "id": 2881,
+      "productId": 2867,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:24.000Z"
+    },
+    {
+      "id": 13679,
+      "productId": 2867,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 36727,
+      "productId": 2867,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:56:36.125Z"
+    },
+    {
+      "id": 47382,
+      "productId": 2867,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:04:32.025Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125528,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 740,
+      "checkedAt": "2026-08-17T16:04:32.000Z"
+    },
+    {
+      "id": 125527,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T16:04:32.000Z"
+    },
+    {
+      "id": 96283,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 740,
+      "checkedAt": "2026-08-16T00:56:36.000Z"
+    },
+    {
+      "id": 96282,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:56:36.000Z"
+    },
+    {
+      "id": 96281,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:56:36.000Z"
+    },
+    {
+      "id": 19519,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 920,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19518,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 830,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 19517,
+      "productId": 2867,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145000384",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000384",
+    "capturedAt": "2026-08-17T16:04:32.025Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 740
+      }
+    ],
+    "path": "data/other-shops/145000384.json"
+  }
+}

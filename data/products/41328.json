@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41328,
+    "title": "WindowsXP/Vista/7 DVDソフト 姫様限定! -Princess Limited-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026351",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026351.jpg",
+    "manufacturer": "Princess Sugar",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026351",
+      "メーカー": "Princess Sugar",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "声優": "高井戸雫\n桜川未央\n藤森ゆき奈\n北見六花\n倉田まりや\n水純なな歩",
+      "主題歌/声優": "青葉りんご",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "尾之上咲太",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 540,
+    "latestRegularSalePrice": 540,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:53.600Z"
+  },
+  "histories": [
+    {
+      "id": 41342,
+      "productId": 41328,
+      "salePrice": 540,
+      "regularSalePrice": 540,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:51.599Z"
+    },
+    {
+      "id": 53019,
+      "productId": 41328,
+      "salePrice": 540,
+      "regularSalePrice": 540,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:53.600Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026351",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026351",
+    "capturedAt": "2026-08-19T16:20:53.600Z",
+    "items": [],
+    "path": "data/other-shops/145026351.json"
+  }
+}

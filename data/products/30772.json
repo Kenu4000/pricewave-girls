@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 30772,
+    "title": "WindowsVista/7/8 DVDソフト めちゃ婚! ～彼女が俺にくれたもの。俺が彼女にあげるもの。予約購入特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046313",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046313.jpg",
+    "manufacturer": "onomatope*",
+    "releaseDate": "2014-09-26",
+    "listPrice": null,
+    "modelNumber": "ONOMATOPE-005-TOKU",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145046313001",
+      "メーカー": "onomatope*",
+      "発売日": "2014/09/26",
+      "型番": "ONOMATOPE-005-TOKU",
+      "原画": "瑠奈璃亜\n成沢空\n蒔田真記",
+      "シナリオ": "武藤礼恵\n紫苑憧朋香",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:23:38.583Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:32.962Z"
+  },
+  "histories": [
+    {
+      "id": 30786,
+      "productId": 30772,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:38.434Z"
+    },
+    {
+      "id": 39543,
+      "productId": 30772,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:42.911Z"
+    },
+    {
+      "id": 50727,
+      "productId": 30772,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:32.962Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135968,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:30:33.000Z"
+    },
+    {
+      "id": 135967,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-19T05:30:33.000Z"
+    },
+    {
+      "id": 135966,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:30:33.000Z"
+    },
+    {
+      "id": 103474,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-16T01:21:43.000Z"
+    },
+    {
+      "id": 103473,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-16T01:21:43.000Z"
+    },
+    {
+      "id": 77598,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-15T23:23:38.000Z"
+    },
+    {
+      "id": 77597,
+      "productId": 30772,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-15T23:23:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046313",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046313",
+    "capturedAt": "2026-08-19T05:30:32.962Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 299
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145046313.json"
+  }
+}

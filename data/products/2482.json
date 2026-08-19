@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 2482,
+    "title": "Windows7/8.1/10 DVDソフト 姫と乙女のヤキモチLOVE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069733",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069733.jpg",
+    "manufacturer": "Princess Sugar",
+    "releaseDate": "2018-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069733",
+      "メーカー": "Princess Sugar",
+      "発売日": "2018/09/28",
+      "定価": "9,680円",
+      "原画": "えこ(eco*)\nみけおう",
+      "シナリオ": "近江谷宥",
+      "声優": "早瀬ゃょぃ\nくすはらゆい\n青葉りんご\n小倉結衣\n藤咲ウサ\n北見六花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2600,
+    "latestRegularSalePrice": 2600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:43:02.858Z"
+  },
+  "histories": [
+    {
+      "id": 2496,
+      "productId": 2482,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:58.000Z"
+    },
+    {
+      "id": 7386,
+      "productId": 2482,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 22873,
+      "productId": 2482,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:27.598Z"
+    },
+    {
+      "id": 36483,
+      "productId": 2482,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:54:17.816Z"
+    },
+    {
+      "id": 46861,
+      "productId": 2482,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:43:02.858Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069733",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069733",
+    "capturedAt": "2026-08-17T13:43:02.858Z",
+    "items": [],
+    "path": "data/other-shops/145069733.json"
+  }
+}

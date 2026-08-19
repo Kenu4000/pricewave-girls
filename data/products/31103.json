@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31103,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 妹のおかげでモテすぎてヤバい。[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045173",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045173.jpg",
+    "manufacturer": "HULOTTE(ユロット)",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": "HLT-1301DVD",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045173",
+      "メーカー": "HULOTTE(ユロット)",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "型番": "HLT-1301DVD",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:39.106Z"
+  },
+  "histories": [
+    {
+      "id": 31117,
+      "productId": 31103,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:58.639Z"
+    },
+    {
+      "id": 39864,
+      "productId": 31103,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:35.163Z"
+    },
+    {
+      "id": 50962,
+      "productId": 31103,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:39.106Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045173",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045173",
+    "capturedAt": "2026-08-19T05:32:39.106Z",
+    "items": [],
+    "path": "data/other-shops/145045173.json"
+  }
+}

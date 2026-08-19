@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 31020,
+    "title": "Windows CDソフト 愛サレるームメイト 愛の秘め事☆ディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041041",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041041.jpg",
+    "manufacturer": "Reon（リオン）",
+    "releaseDate": "2014-01-31",
+    "listPrice": null,
+    "modelNumber": "52700452",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041041001",
+      "メーカー": "Reon（リオン）",
+      "発売日": "2014/01/31",
+      "型番": "52700452",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:26:04.744Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:07.338Z"
+  },
+  "histories": [
+    {
+      "id": 31034,
+      "productId": 31020,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:26:04.621Z"
+    },
+    {
+      "id": 39782,
+      "productId": 31020,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:49.401Z"
+    },
+    {
+      "id": 50898,
+      "productId": 31020,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:07.338Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

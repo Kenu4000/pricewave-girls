@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41862,
+    "title": "Windows2000/XP/Vista DVDソフト 堕とし魔～処女攻略篇～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021636.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2009-10-02",
+    "listPrice": 9680,
+    "modelNumber": "SKM-847",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021636",
+      "メーカー": "MAIKA",
+      "発売日": "2009/10/02",
+      "定価": "9,680円",
+      "型番": "SKM-847",
+      "原画": "桜ロマ子\n綾風柳晶\n沖田つばさ",
+      "シナリオ": "実験機八号",
+      "声優": "柏倉れん\n宝井葵\n青井美海\n本田みか\n花園朱美\n桜城ちか",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:01.739Z"
+  },
+  "histories": [
+    {
+      "id": 41876,
+      "productId": 41862,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:02.577Z"
+    },
+    {
+      "id": 53395,
+      "productId": 41862,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:01.739Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021636",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021636",
+    "capturedAt": "2026-08-19T16:24:01.739Z",
+    "items": [],
+    "path": "data/other-shops/145021636.json"
+  }
+}

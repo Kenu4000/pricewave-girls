@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 42993,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 妖刀事件",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014891",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014891.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2006-11-17",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014891001",
+      "メーカー": "ライアーソフト",
+      "発売日": "2006/11/17",
+      "定価": "9,680円",
+      "原画": "天原埜乃",
+      "シナリオ": "睦月たたら",
+      "音楽": "ロックンバナナ",
+      "声優": "杉原茉莉\n中家志穂\n歌織\nかわしまりの\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:59.412Z"
+  },
+  "histories": [
+    {
+      "id": 43007,
+      "productId": 42993,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:59.412Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110803,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    },
+    {
+      "id": 110802,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    },
+    {
+      "id": 110801,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    },
+    {
+      "id": 110800,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    },
+    {
+      "id": 110799,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    },
+    {
+      "id": 110798,
+      "productId": 42993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 660,
+      "checkedAt": "2026-08-17T07:16:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014891",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014891",
+    "capturedAt": "2026-08-17T07:16:59.412Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 660
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      }
+    ],
+    "path": "data/other-shops/145014891.json"
+  }
+}

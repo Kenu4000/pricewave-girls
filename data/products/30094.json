@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 30094,
+    "title": "Windows CDソフト 恋する気持ちのかさねかた -かさねた想いをずっと- ソフマップ特典オリジナルデジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054794",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054794.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2016-06-24",
+    "listPrice": null,
+    "modelNumber": "SMPML-0017",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145054794",
+      "メーカー": "ensemble",
+      "発売日": "2016/06/24",
+      "型番": "SMPML-0017",
+      "原画": "きみしま青",
+      "シナリオ": "西田タケヲ\n無義歩",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:15:51.246Z"
+  },
+  "histories": [
+    {
+      "id": 30108,
+      "productId": 30094,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:43.478Z"
+    },
+    {
+      "id": 38900,
+      "productId": 30094,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:51.246Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054794",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054794",
+    "capturedAt": "2026-08-16T01:15:51.246Z",
+    "items": [],
+    "path": "data/other-shops/145054794.json"
+  }
+}

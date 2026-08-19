@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42437,
+    "title": "Windows2000/XP/Vista DVDソフト クロノベルト -あやかしびと＆Bullet Butlers クロスオーバーディスク-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044077",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044077.jpg",
+    "manufacturer": "propeller",
+    "releaseDate": "2008-05-23",
+    "listPrice": 7480,
+    "modelNumber": "WILL-203A",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145044077",
+      "メーカー": "propeller",
+      "発売日": "2008/05/23",
+      "定価": "7,480円",
+      "型番": "WILL-203A",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:34.497Z"
+  },
+  "histories": [
+    {
+      "id": 42451,
+      "productId": 42437,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:45.984Z"
+    },
+    {
+      "id": 53821,
+      "productId": 42437,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:34.497Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044077",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044077",
+    "capturedAt": "2026-08-19T16:27:34.497Z",
+    "items": [],
+    "path": "data/other-shops/145044077.json"
+  }
+}

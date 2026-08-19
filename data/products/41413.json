@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 41413,
+    "title": "Windows2000/XP/Vista DVDソフト 毎日がM!ーKAGUYAコレクションー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026055",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026055.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2010-12-10",
+    "listPrice": 4378,
+    "modelNumber": "KC-0011",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145026055",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2010/12/10",
+      "定価": "4,378円",
+      "型番": "KC-0011",
+      "原画": "1:02am",
+      "シナリオ": "速水漣\n須永成人\n金竹射月\nひらいでらく\nにわりはとり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1100,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:23.649Z"
+  },
+  "histories": [
+    {
+      "id": 41427,
+      "productId": 41413,
+      "salePrice": 2111,
+      "regularSalePrice": 2111,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:41.998Z"
+    },
+    {
+      "id": 53078,
+      "productId": 41413,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:23.649Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142846,
+      "productId": 41413,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-19T16:21:23.000Z"
+    },
+    {
+      "id": 142845,
+      "productId": 41413,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-19T16:21:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026055",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026055",
+    "capturedAt": "2026-08-19T16:21:23.649Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2101
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 2111
+      }
+    ],
+    "path": "data/other-shops/145026055.json"
+  }
+}

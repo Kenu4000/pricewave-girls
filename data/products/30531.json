@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 30531,
+    "title": "Windows CDソフト ねえちゃん、ごめん出しちゃった! -おねえちゃんは僕専用- 予約特典デジタルコンテンツディスク 「JK中出しディスク Season8」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049740",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049740.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2015-04-30",
+    "listPrice": null,
+    "modelNumber": "INH-330-CD",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145049740001",
+      "メーカー": "インターハート",
+      "発売日": "2015/04/30",
+      "型番": "INH-330-CD",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:21:10.401Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:58.862Z"
+  },
+  "histories": [
+    {
+      "id": 30545,
+      "productId": 30531,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:10.030Z"
+    },
+    {
+      "id": 39320,
+      "productId": 30531,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:41.437Z"
+    },
+    {
+      "id": 50547,
+      "productId": 30531,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:58.862Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135534,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:28:59.000Z"
+    },
+    {
+      "id": 135533,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 311,
+      "checkedAt": "2026-08-19T05:28:59.000Z"
+    },
+    {
+      "id": 135532,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:28:59.000Z"
+    },
+    {
+      "id": 102990,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 311,
+      "checkedAt": "2026-08-16T01:19:41.000Z"
+    },
+    {
+      "id": 102989,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-16T01:19:41.000Z"
+    },
+    {
+      "id": 77063,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 311,
+      "checkedAt": "2026-08-15T23:21:10.000Z"
+    },
+    {
+      "id": 77062,
+      "productId": 30531,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-15T23:21:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049740",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049740",
+    "capturedAt": "2026-08-19T05:28:58.862Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145049740.json"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 3347,
+    "title": "Windows95/98 CDソフト 無惨 ～血肉の生贄～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001444",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001444.jpg",
+    "manufacturer": "ハーベスト",
+    "releaseDate": "1998-10-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145001444",
+      "メーカー": "ハーベスト",
+      "発売日": "1998/10/23",
+      "定価": "9,680円",
+      "シナリオ": "紫楼巧",
+      "声優": "春野萌\n如月来夢\nクラウディア大亀\n南菜実\n浅都泉\n田中美智\n佐々木あかり\n櫻レオナ\n佐伯ゆりこ\n鮎川ひなた\n菊池いほり\nもっち",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1220,
+    "latestRegularSalePrice": 1220,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:44.765Z"
+  },
+  "histories": [
+    {
+      "id": 3361,
+      "productId": 3347,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 26691,
+      "productId": 3347,
+      "salePrice": 1230,
+      "regularSalePrice": 1230,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:22.253Z"
+    },
+    {
+      "id": 37117,
+      "productId": 3347,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:04.110Z"
+    },
+    {
+      "id": 47708,
+      "productId": 3347,
+      "salePrice": 1220,
+      "regularSalePrice": 1220,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:44.765Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145001444",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001444",
+    "capturedAt": "2026-08-17T16:07:44.765Z",
+    "items": [],
+    "path": "data/other-shops/145001444.json"
+  }
+}

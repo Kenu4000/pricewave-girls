@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 31828,
+    "title": "WindowsXP/Vista/7 DVDソフト 乙女が紡ぐ恋のキャンバス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901713",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901713.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2012-03-30",
+    "listPrice": 9680,
+    "modelNumber": "WILL-265",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145901713",
+      "メーカー": "ensemble",
+      "発売日": "2012/03/30",
+      "定価": "9,680円",
+      "型番": "WILL-265",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:31:53.740Z"
+  },
+  "histories": [
+    {
+      "id": 31842,
+      "productId": 31828,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:48.746Z"
+    },
+    {
+      "id": 40574,
+      "productId": 31828,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:53.740Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901713",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901713",
+    "capturedAt": "2026-08-16T01:31:53.740Z",
+    "items": [],
+    "path": "data/other-shops/145901713.json"
+  }
+}

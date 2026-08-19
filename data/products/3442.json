@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 3442,
+    "title": "Windows98/Me/2000 CDソフト コミックカフェ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006271",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006271.jpg",
+    "manufacturer": "ガールズソフトウェア",
+    "releaseDate": "2002-03-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145006271001",
+      "メーカー": "ガールズソフトウェア",
+      "発売日": "2002/03/29",
+      "定価": "9,680円",
+      "原画": "Niki",
+      "声優": "乃嶋架菜\n北都南\n岩田由貴\n夏野向日葵\n紫苑みやび\n白井綾乃",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:20.366Z"
+  },
+  "histories": [
+    {
+      "id": 3456,
+      "productId": 3442,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 23024,
+      "productId": 3442,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:51.116Z"
+    },
+    {
+      "id": 37198,
+      "productId": 3442,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:42.048Z"
+    },
+    {
+      "id": 47775,
+      "productId": 3442,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:20.366Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

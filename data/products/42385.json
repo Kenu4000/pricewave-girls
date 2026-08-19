@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 42385,
+    "title": "Windows2000/XP DVDソフト あまかみバンパイア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018042.jpg",
+    "manufacturer": "Grooming",
+    "releaseDate": "2008-06-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018042",
+      "メーカー": "Grooming",
+      "発売日": "2008/06/27",
+      "定価": "9,680円",
+      "原画": "しかとみよ",
+      "シナリオ": "永里しの",
+      "アーティスト": "美里",
+      "声優": "神谷奈央\n小蝶\n早乙女綾\nこのえゆずこ\n西野みく",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "/外・内箱難有・ディスクキズ有",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 380,
+    "latestRegularSalePrice": 380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "/外・内箱難有・ディスクキズ有",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:15.204Z"
+  },
+  "histories": [
+    {
+      "id": 42399,
+      "productId": 42385,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:13.685Z"
+    },
+    {
+      "id": 53781,
+      "productId": 42385,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外・内箱難有・ディスクキズ有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:15.204Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018042",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018042",
+    "capturedAt": "2026-08-19T16:27:15.204Z",
+    "items": [],
+    "path": "data/other-shops/145018042.json"
+  }
+}

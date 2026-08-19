@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42599,
+    "title": "Windows2000/XP/Vista DVDソフト こいびとどうしですることぜんぶ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016833",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016833.jpg",
+    "manufacturer": "シリウス",
+    "releaseDate": "2007-11-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016833",
+      "メーカー": "シリウス",
+      "発売日": "2007/11/30",
+      "定価": "9,680円",
+      "原画": "ミヤスリサ",
+      "シナリオ": "田中一郎\n保住圭",
+      "音楽": "ナータリオン",
+      "声優": "桜川未央\n如月葵\n金田まひる",
+      "主題歌": "nao（DystopiaGround ／ 5pb.Records）",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:32.043Z"
+  },
+  "histories": [
+    {
+      "id": 42613,
+      "productId": 42599,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:18.298Z"
+    },
+    {
+      "id": 53931,
+      "productId": 42599,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:32.043Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016833",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016833",
+    "capturedAt": "2026-08-19T16:28:32.043Z",
+    "items": [],
+    "path": "data/other-shops/145016833.json"
+  }
+}

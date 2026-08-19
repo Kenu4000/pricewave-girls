@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 42972,
+    "title": "Windows98/Me/2000/XP CDソフト バトラーズ ～召しませお嬢様～ ナイトモード",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014901",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014901.jpg",
+    "manufacturer": "ティアラモード",
+    "releaseDate": "2006-11-24",
+    "listPrice": 4180,
+    "modelNumber": "TMDD-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014901001",
+      "メーカー": "ティアラモード",
+      "発売日": "2006/11/24",
+      "定価": "4,180円",
+      "型番": "TMDD-002",
+      "原画": "山下白莉",
+      "シナリオ": "日下部春花",
+      "声優": "勝杏里\n吉井あき\n氷河流\n魁皇楽\n一条和矢\n川椰珱",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 10500,
+    "latestRegularSalePrice": 10500,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:49.137Z"
+  },
+  "histories": [
+    {
+      "id": 42986,
+      "productId": 42972,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:49.137Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110764,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 12411,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110763,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 11800,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110762,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110761,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110760,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 10411,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110759,
+      "productId": 42972,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 10011,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014901",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014901",
+    "capturedAt": "2026-08-17T07:16:49.137Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 10011
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 10411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 10500
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 10500
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 11800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 12411
+      }
+    ],
+    "path": "data/other-shops/145014901.json"
+  }
+}

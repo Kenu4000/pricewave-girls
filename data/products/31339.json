@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31339,
+    "title": "WindowsXP/Vista/7 DVDソフト 御伽話は闇の中",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036306",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036306.jpg",
+    "manufacturer": "ぱらいそ",
+    "releaseDate": "2013-05-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036306",
+      "メーカー": "ぱらいそ",
+      "発売日": "2013/05/31",
+      "定価": "9,680円",
+      "原画": "さいとうつかさ",
+      "シナリオ": "kozakana\n玉沢円",
+      "声優": "駒沢佳香\n香澄りょう\n東かりん\n桃也みなみ\n藍川珪\n鈴音華月",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:14.215Z"
+  },
+  "histories": [
+    {
+      "id": 31353,
+      "productId": 31339,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:43.107Z"
+    },
+    {
+      "id": 40096,
+      "productId": 31339,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:06.930Z"
+    },
+    {
+      "id": 51146,
+      "productId": 31339,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:14.215Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036306",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036306",
+    "capturedAt": "2026-08-19T05:34:14.215Z",
+    "items": [],
+    "path": "data/other-shops/145036306.json"
+  }
+}

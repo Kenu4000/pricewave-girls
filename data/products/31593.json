@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 31593,
+    "title": "WindowsXP/Vista/7 CDソフト いもうと誘惑えっち ～ねぇ、お兄ちゃんエッチしよ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035072",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035072.jpg",
+    "manufacturer": "Anime-seal",
+    "releaseDate": "2012-11-02",
+    "listPrice": 2200,
+    "modelNumber": "SEA-072",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145035072001",
+      "メーカー": "Anime-seal",
+      "発売日": "2012/11/02",
+      "定価": "2,200円",
+      "型番": "SEA-072",
+      "シナリオ": "東海新",
+      "声優": "奥山歩",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:57.995Z"
+  },
+  "histories": [
+    {
+      "id": 31607,
+      "productId": 31593,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:44.357Z"
+    },
+    {
+      "id": 43779,
+      "productId": 31593,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:57.995Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113255,
+      "productId": 31593,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 450,
+      "checkedAt": "2026-08-17T09:34:58.000Z"
+    },
+    {
+      "id": 113254,
+      "productId": 31593,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:34:58.000Z"
+    },
+    {
+      "id": 79174,
+      "productId": 31593,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 450,
+      "checkedAt": "2026-08-15T23:41:44.000Z"
+    },
+    {
+      "id": 79173,
+      "productId": 31593,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-15T23:41:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035072",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035072",
+    "capturedAt": "2026-08-17T09:34:57.995Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145035072.json"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 2481,
+    "title": "Windows7/8/8.1/10 DVDソフト ひとつまみ -リラクゼーションシリーズ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076956",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076956.jpg",
+    "manufacturer": "HERENCIA",
+    "releaseDate": "2018-09-28",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076956",
+      "メーカー": "HERENCIA",
+      "発売日": "2018/09/28",
+      "定価": "7,480円",
+      "原画": "ぶぶづけ\n八葉香南",
+      "シナリオ": "もみあげルパンR\n亮精類",
+      "声優": "葵時緒\n長原杏子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:43:02.929Z"
+  },
+  "histories": [
+    {
+      "id": 2495,
+      "productId": 2481,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:58.000Z"
+    },
+    {
+      "id": 7385,
+      "productId": 2481,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 36482,
+      "productId": 2481,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:54:17.741Z"
+    },
+    {
+      "id": 46862,
+      "productId": 2481,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:43:02.929Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076956",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076956",
+    "capturedAt": "2026-08-17T13:43:02.929Z",
+    "items": [],
+    "path": "data/other-shops/145076956.json"
+  }
+}

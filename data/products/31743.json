@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31743,
+    "title": "WindowsXP/Vista/7 DVDソフト 初恋1/1(いちぶんのいち)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062393",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062393.jpg",
+    "manufacturer": "tone work’s",
+    "releaseDate": "2012-06-29",
+    "listPrice": 9680,
+    "modelNumber": "MT561",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145062393",
+      "メーカー": "tone work’s",
+      "発売日": "2012/06/29",
+      "定価": "9,680円",
+      "型番": "MT561",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:47.988Z"
+  },
+  "histories": [
+    {
+      "id": 31757,
+      "productId": 31743,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:40.959Z"
+    },
+    {
+      "id": 40492,
+      "productId": 31743,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:13.466Z"
+    },
+    {
+      "id": 51439,
+      "productId": 31743,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:47.988Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062393",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062393",
+    "capturedAt": "2026-08-19T05:36:47.988Z",
+    "items": [],
+    "path": "data/other-shops/145062393.json"
+  }
+}

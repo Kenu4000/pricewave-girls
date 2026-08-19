@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42148,
+    "title": "WindowsXP/Vista DVDソフト トキノ戦華 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019151",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019151.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2009-01-23",
+    "listPrice": 11880,
+    "modelNumber": "RYUSYS-0113",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019151",
+      "メーカー": "Studio e・go!",
+      "発売日": "2009/01/23",
+      "定価": "11,880円",
+      "型番": "RYUSYS-0113",
+      "原画": "山本和枝",
+      "シナリオ": "寺岡健治",
+      "アーティスト": "神代あみ",
+      "声優": "古河徹人\n草柳順子\n香澄りょう\n彩世ゆう\n桜川未央\n鈴田美夜子\n水野咲\n阿鼻教官\n上田朱音\n後野祭\n原田友貴\n森山いちご\n五条小夜",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6980,
+    "latestRegularSalePrice": 6980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:42.962Z"
+  },
+  "histories": [
+    {
+      "id": 42162,
+      "productId": 42148,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:46.028Z"
+    },
+    {
+      "id": 53598,
+      "productId": 42148,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:42.962Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019151",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019151",
+    "capturedAt": "2026-08-19T16:25:42.962Z",
+    "items": [],
+    "path": "data/other-shops/145019151.json"
+  }
+}

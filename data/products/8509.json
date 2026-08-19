@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 8509,
+    "title": "Windows3.1/95 CDソフト 転校生",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000912",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000912.jpg",
+    "manufacturer": "シュールド・ウェーブ",
+    "releaseDate": null,
+    "listPrice": 8580,
+    "modelNumber": "SDW000C00003",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000912001",
+      "メーカー": "シュールド・ウェーブ",
+      "定価": "8,580円",
+      "型番": "SDW000C00003",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2400,
+    "latestRegularSalePrice": 2400,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:16.488Z"
+  },
+  "histories": [
+    {
+      "id": 8523,
+      "productId": 8509,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 37870,
+      "productId": 8509,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:35.147Z"
+    },
+    {
+      "id": 48331,
+      "productId": 8509,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:16.488Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

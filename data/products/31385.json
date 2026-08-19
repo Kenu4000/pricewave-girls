@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31385,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 運命予報をお知らせします",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036121",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036121.jpg",
+    "manufacturer": "ヨナキウグイス",
+    "releaseDate": "2013-04-26",
+    "listPrice": 9680,
+    "modelNumber": "UNMEI-00001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036121",
+      "メーカー": "ヨナキウグイス",
+      "発売日": "2013/04/26",
+      "定価": "9,680円",
+      "型番": "UNMEI-00001",
+      "原画": "夕霧",
+      "シナリオ": "ルクル",
+      "声優": "有川浪美\n小倉結衣\nshizuku\n唯香\n上田朱音\n美空なつひ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 200000,
+    "latestRegularSalePrice": 200000,
+    "latestBuyPrice": 56000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:29.967Z"
+  },
+  "histories": [
+    {
+      "id": 31399,
+      "productId": 31385,
+      "salePrice": 200000,
+      "regularSalePrice": 200000,
+      "buyPrice": 56000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:14.347Z"
+    },
+    {
+      "id": 40140,
+      "productId": 31385,
+      "salePrice": 200000,
+      "regularSalePrice": 200000,
+      "buyPrice": 56000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:27.391Z"
+    },
+    {
+      "id": 51177,
+      "productId": 31385,
+      "salePrice": 200000,
+      "regularSalePrice": 200000,
+      "buyPrice": 56000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:29.967Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036121",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036121",
+    "capturedAt": "2026-08-19T05:34:29.967Z",
+    "items": [],
+    "path": "data/other-shops/145036121.json"
+  }
+}

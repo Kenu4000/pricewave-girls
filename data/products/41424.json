@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41424,
+    "title": "WindowsXP/Vista/7 CDソフト 魍魎の贄 予約特典 魍魎サウンド・淫妖蟲SSあおじるMIX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026164",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026164.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2010-11-26",
+    "listPrice": null,
+    "modelNumber": "TB-044Y",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026164",
+      "メーカー": "TinkerBell",
+      "発売日": "2010/11/26",
+      "型番": "TB-044Y",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ（未開封）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ（未開封）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:28.139Z"
+  },
+  "histories": [
+    {
+      "id": 41438,
+      "productId": 41424,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:46.991Z"
+    },
+    {
+      "id": 53088,
+      "productId": 41424,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ（未開封）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:28.139Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026164",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026164",
+    "capturedAt": "2026-08-19T16:21:28.139Z",
+    "items": [],
+    "path": "data/other-shops/145026164.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29750,
+    "title": "Windows7/8/10 DVDソフト あるいは恋という名の魔法 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058500",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058500.jpg",
+    "manufacturer": "おもちそふと",
+    "releaseDate": "2017-10-27",
+    "listPrice": 7480,
+    "modelNumber": "PAM-0255",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145058500",
+      "メーカー": "おもちそふと",
+      "発売日": "2017/10/27",
+      "定価": "7,480円",
+      "型番": "PAM-0255",
+      "原画": "はすね",
+      "シナリオ": "沙万由馬",
+      "声優": "田中理々\n花影蛍\n木ノ実なみ\n星鹿りえ\n赤井リア\n百千るか",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:38.153Z"
+  },
+  "histories": [
+    {
+      "id": 29764,
+      "productId": 29750,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:14.796Z"
+    },
+    {
+      "id": 38572,
+      "productId": 29750,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:02.649Z"
+    },
+    {
+      "id": 49662,
+      "productId": 29750,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:38.153Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058500",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058500",
+    "capturedAt": "2026-08-19T04:32:38.153Z",
+    "items": [],
+    "path": "data/other-shops/145058500.json"
+  }
+}

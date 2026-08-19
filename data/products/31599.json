@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31599,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋色マリアージュ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902216",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902216.jpg",
+    "manufacturer": "ま～まれぇど",
+    "releaseDate": "2012-10-26",
+    "listPrice": 9680,
+    "modelNumber": "MAR-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145902216",
+      "メーカー": "ま～まれぇど",
+      "発売日": "2012/10/26",
+      "定価": "9,680円",
+      "型番": "MAR-007",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:47.549Z"
+  },
+  "histories": [
+    {
+      "id": 31613,
+      "productId": 31599,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:51.144Z"
+    },
+    {
+      "id": 40348,
+      "productId": 31599,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:07.113Z"
+    },
+    {
+      "id": 51325,
+      "productId": 31599,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:47.549Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902216",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902216",
+    "capturedAt": "2026-08-19T05:35:47.549Z",
+    "items": [],
+    "path": "data/other-shops/145902216.json"
+  }
+}

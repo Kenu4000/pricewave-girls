@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3415,
+    "title": "Windows98/Me/2000/XP CDソフト 夢・天・使R [お手頃版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008469",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008469.jpg",
+    "manufacturer": "セクシャル",
+    "releaseDate": "2003-01-31",
+    "listPrice": 4180,
+    "modelNumber": "HTGB-0002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008469",
+      "メーカー": "セクシャル",
+      "発売日": "2003/01/31",
+      "定価": "4,180円",
+      "型番": "HTGB-0002",
+      "原画": "Joy Division\n風明夫\n永瀬るりを\n禿山光\n詩夜月笹\n夢情\n猫御飯\nアオキヨシト",
+      "シナリオ": "c_monkey",
+      "声優": "長崎みなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:08.910Z"
+  },
+  "histories": [
+    {
+      "id": 3429,
+      "productId": 3415,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 23019,
+      "productId": 3415,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:47.644Z"
+    },
+    {
+      "id": 37172,
+      "productId": 3415,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:29.978Z"
+    },
+    {
+      "id": 47755,
+      "productId": 3415,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:08.910Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145008469",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008469",
+    "capturedAt": "2026-08-17T16:08:08.910Z",
+    "items": [],
+    "path": "data/other-shops/145008469.json"
+  }
+}

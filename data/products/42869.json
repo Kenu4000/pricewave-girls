@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42869,
+    "title": "Windows98/Me/2000/XP DVDソフト みみ×みみ! ～発情注意報～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015428",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015428.jpg",
+    "manufacturer": "ふくねこ",
+    "releaseDate": "2007-02-23",
+    "listPrice": 9680,
+    "modelNumber": "FKN-0001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015428",
+      "メーカー": "ふくねこ",
+      "発売日": "2007/02/23",
+      "定価": "9,680円",
+      "型番": "FKN-0001",
+      "原画": "ひぐちのりえ",
+      "シナリオ": "津久間一裕",
+      "声優": "民安ともえ\nヒマリ\n加乃みるく\n梨本悠里\n奥山歩",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:53.843Z"
+  },
+  "histories": [
+    {
+      "id": 42883,
+      "productId": 42869,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:53.843Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015428",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015428",
+    "capturedAt": "2026-08-17T07:15:53.843Z",
+    "items": [],
+    "path": "data/other-shops/145015428.json"
+  }
+}

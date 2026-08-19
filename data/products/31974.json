@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31974,
+    "title": "WindowsXP/Vista/7 DVDソフト 真・NOZOKI魔2ー女学寮の秘密ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030320",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030320.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": "SKM-839",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030320",
+      "メーカー": "MAIKA",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "型番": "SKM-839",
+      "原画": "綾風柳晶\nパパイヤ純\n桜ロマ子\n沖田つばさ",
+      "シナリオ": "実験機八号",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4212,
+    "latestRegularSalePrice": 4212,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:22.290Z"
+  },
+  "histories": [
+    {
+      "id": 31988,
+      "productId": 31974,
+      "salePrice": 4212,
+      "regularSalePrice": 4212,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:25.395Z"
+    },
+    {
+      "id": 40717,
+      "productId": 31974,
+      "salePrice": 4212,
+      "regularSalePrice": 4212,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:06.965Z"
+    },
+    {
+      "id": 52191,
+      "productId": 31974,
+      "salePrice": 4212,
+      "regularSalePrice": 4212,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:22.290Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030320",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030320",
+    "capturedAt": "2026-08-19T15:33:22.290Z",
+    "items": [],
+    "path": "data/other-shops/145030320.json"
+  }
+}

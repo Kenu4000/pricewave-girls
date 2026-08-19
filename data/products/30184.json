@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 30184,
+    "title": "Windows CDソフト ボクの××は寮生たちの特権です! メディオ特典 乳首バンソーコーパッチ＆ドラマCD/朝倉柚希",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054540",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054540.jpg",
+    "manufacturer": "Carol Works",
+    "releaseDate": "2016-04-28",
+    "listPrice": null,
+    "modelNumber": "CAROL-1604M",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145054540001",
+      "メーカー": "Carol Works",
+      "発売日": "2016/04/28",
+      "型番": "CAROL-1604M",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:17:41.235Z"
+  },
+  "histories": [
+    {
+      "id": 30198,
+      "productId": 30184,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:41.235Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 76326,
+      "productId": 30184,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-15T23:17:41.000Z"
+    },
+    {
+      "id": 76325,
+      "productId": 30184,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-15T23:17:41.000Z"
+    },
+    {
+      "id": 76324,
+      "productId": 30184,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-15T23:17:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054540",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054540",
+    "capturedAt": "2026-08-15T23:17:41.235Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1511
+      }
+    ],
+    "path": "data/other-shops/145054540.json"
+  }
+}

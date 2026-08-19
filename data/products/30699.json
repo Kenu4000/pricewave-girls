@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30699,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 憑夜ノ村",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057909",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057909.jpg",
+    "manufacturer": "アストロノーツ・コメット",
+    "releaseDate": "2014-11-28",
+    "listPrice": 4378,
+    "modelNumber": "AS-009",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145057909",
+      "メーカー": "アストロノーツ・コメット",
+      "発売日": "2014/11/28",
+      "定価": "4,378円",
+      "型番": "AS-009",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:01.285Z"
+  },
+  "histories": [
+    {
+      "id": 30713,
+      "productId": 30699,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:58.843Z"
+    },
+    {
+      "id": 39474,
+      "productId": 30699,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:05.264Z"
+    },
+    {
+      "id": 50668,
+      "productId": 30699,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:01.285Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057909",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057909",
+    "capturedAt": "2026-08-19T05:30:01.285Z",
+    "items": [],
+    "path": "data/other-shops/145057909.json"
+  }
+}

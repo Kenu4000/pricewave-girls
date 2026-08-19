@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41260,
+    "title": "WindowsXP/Vista/7 DVDソフト SHUFFLE! Love Rainbow",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056524",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056524.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2011-04-28",
+    "listPrice": 7480,
+    "modelNumber": "NVSW-0028",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145056524",
+      "メーカー": "Navel",
+      "発売日": "2011/04/28",
+      "定価": "7,480円",
+      "型番": "NVSW-0028",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:25:58.749Z"
+  },
+  "histories": [
+    {
+      "id": 41274,
+      "productId": 41260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:15.013Z"
+    },
+    {
+      "id": 48760,
+      "productId": 41260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:58.749Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056524",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056524",
+    "capturedAt": "2026-08-19T04:25:58.749Z",
+    "items": [],
+    "path": "data/other-shops/145056524.json"
+  }
+}

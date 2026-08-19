@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30101,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト オトメ*ドメイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900673",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "ぱれっとクオリア",
+    "releaseDate": "2016-06-24",
+    "listPrice": 7480,
+    "modelNumber": "QUALIA-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145900673",
+      "メーカー": "ぱれっとクオリア",
+      "発売日": "2016/06/24",
+      "定価": "7,480円",
+      "型番": "QUALIA-001",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5350,
+    "latestRegularSalePrice": 5350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:29.859Z"
+  },
+  "histories": [
+    {
+      "id": 30115,
+      "productId": 30101,
+      "salePrice": 5350,
+      "regularSalePrice": 5350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:49.478Z"
+    },
+    {
+      "id": 38907,
+      "productId": 30101,
+      "salePrice": 5350,
+      "regularSalePrice": 5350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:53.974Z"
+    },
+    {
+      "id": 49915,
+      "productId": 30101,
+      "salePrice": 5350,
+      "regularSalePrice": 5350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:29.859Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900673",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900673",
+    "capturedAt": "2026-08-19T04:34:29.859Z",
+    "items": [],
+    "path": "data/other-shops/145900673.json"
+  }
+}

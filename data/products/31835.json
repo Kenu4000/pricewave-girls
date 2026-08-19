@@ -1,0 +1,169 @@
+{
+  "product": {
+    "id": 31835,
+    "title": "WindowsXP/Vista/7 DVDソフト デカくてエッチな俺の姉（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031337",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031337.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2012-03-30",
+    "listPrice": 9680,
+    "modelNumber": "MGGW0116",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031337001",
+      "メーカー": "マリン",
+      "発売日": "2012/03/30",
+      "定価": "9,680円",
+      "型番": "MGGW0116",
+      "原画": "金城航",
+      "シナリオ": "桃梨蜜柑\n神樹\nK-TOK\n須々木鮎尾\n川原圭人\n永沢一朗",
+      "声優": "一色ヒカル\n都筑なつる\n姫川あいり\n蕪木徹子",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveRegularSalePrice": "950",
+      "__pricewaveTimeSale": "true",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145031337?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:44:50.322Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:26.295Z"
+  },
+  "histories": [
+    {
+      "id": 31849,
+      "productId": 31835,
+      "salePrice": 850,
+      "regularSalePrice": 950,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:50.194Z"
+    },
+    {
+      "id": 40584,
+      "productId": 31835,
+      "salePrice": 850,
+      "regularSalePrice": 950,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:56.988Z"
+    },
+    {
+      "id": 51504,
+      "productId": 31835,
+      "salePrice": 850,
+      "regularSalePrice": 950,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:26.295Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137307,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 850,
+      "checkedAt": "2026-08-19T05:37:27.000Z"
+    },
+    {
+      "id": 137306,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-08-19T05:37:27.000Z"
+    },
+    {
+      "id": 137305,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "中古ランクB",
+      "price": 850,
+      "checkedAt": "2026-08-19T05:37:27.000Z"
+    },
+    {
+      "id": 105523,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-08-16T01:31:57.000Z"
+    },
+    {
+      "id": 105522,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 850,
+      "checkedAt": "2026-08-16T01:31:57.000Z"
+    },
+    {
+      "id": 79679,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-08-15T23:44:50.000Z"
+    },
+    {
+      "id": 79678,
+      "productId": 31835,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 850,
+      "checkedAt": "2026-08-15T23:44:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031337",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031337",
+    "capturedAt": "2026-08-19T05:37:26.295Z",
+    "items": [
+      {
+        "storeName": "KMNFC",
+        "condition": "中古ランクB",
+        "price": 850
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 9680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145031337.json"
+  }
+}

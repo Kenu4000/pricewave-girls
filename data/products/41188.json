@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41188,
+    "title": "WindowsXP/Vista/7 DVDソフト Stellar☆Theater encore",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028356",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028356.jpg",
+    "manufacturer": "Rosebleu（ロゼブル）",
+    "releaseDate": "2011-06-24",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028356",
+      "メーカー": "Rosebleu（ロゼブル）",
+      "発売日": "2011/06/24",
+      "定価": "6,380円",
+      "原画": "鈴平ひろ",
+      "シナリオ": "あごバリア",
+      "声優": "北都南\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:55.989Z"
+  },
+  "histories": [
+    {
+      "id": 41202,
+      "productId": 41188,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:33.389Z"
+    },
+    {
+      "id": 52909,
+      "productId": 41188,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:55.989Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028356",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028356",
+    "capturedAt": "2026-08-17T06:59:33.389Z",
+    "items": [],
+    "path": "data/other-shops/145028356.json"
+  }
+}

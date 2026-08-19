@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31660,
+    "title": "WindowsXP/Vista/7 DVDソフト いろとりどりのヒカリ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047594",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047594.jpg",
+    "manufacturer": "FAVORITE",
+    "releaseDate": "2012-08-31",
+    "listPrice": 8580,
+    "modelNumber": "FVG-HIKAD1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145047594",
+      "メーカー": "FAVORITE",
+      "発売日": "2012/08/31",
+      "定価": "8,580円",
+      "型番": "FVG-HIKAD1",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:10.435Z"
+  },
+  "histories": [
+    {
+      "id": 31674,
+      "productId": 31660,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:37.595Z"
+    },
+    {
+      "id": 40409,
+      "productId": 31660,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:34.454Z"
+    },
+    {
+      "id": 51370,
+      "productId": 31660,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:10.435Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047594",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047594",
+    "capturedAt": "2026-08-19T05:36:10.435Z",
+    "items": [],
+    "path": "data/other-shops/145047594.json"
+  }
+}

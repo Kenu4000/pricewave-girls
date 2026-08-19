@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 8549,
+    "title": "Windows98/Me/2000/XP CDソフト 判決2 ～Forget Me Not～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006347",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006347.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2002-04-19",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145006347001",
+      "メーカー": "SPEED",
+      "発売日": "2002/04/19",
+      "定価": "9,680円",
+      "原画": "リュウ電次\n高野薫",
+      "シナリオ": "まどかあきら",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:36.958Z"
+  },
+  "histories": [
+    {
+      "id": 8563,
+      "productId": 8549,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 26858,
+      "productId": 8549,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:56.798Z"
+    },
+    {
+      "id": 37908,
+      "productId": 8549,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:53.365Z"
+    },
+    {
+      "id": 48373,
+      "productId": 8549,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:36.958Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128321,
+      "productId": 8549,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-17T16:13:37.000Z"
+    },
+    {
+      "id": 128320,
+      "productId": 8549,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:13:37.000Z"
+    },
+    {
+      "id": 99716,
+      "productId": 8549,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-16T01:06:53.000Z"
+    },
+    {
+      "id": 99715,
+      "productId": 8549,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:06:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145006347",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145006347",
+    "capturedAt": "2026-08-17T16:13:36.958Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145006347.json"
+  }
+}

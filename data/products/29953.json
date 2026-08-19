@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29953,
+    "title": "WindowsXP/Vista/7/8/10 DVDソフト 真剣で私に恋しなさい!A [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062665",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062665.jpg",
+    "manufacturer": "みなとそふと",
+    "releaseDate": "2016-12-22",
+    "listPrice": 10780,
+    "modelNumber": "MINATO-CD16005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062665",
+      "メーカー": "みなとそふと",
+      "発売日": "2016/12/22",
+      "定価": "10,780円",
+      "型番": "MINATO-CD16005",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 25000,
+    "latestRegularSalePrice": 25000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:42.649Z"
+  },
+  "histories": [
+    {
+      "id": 29967,
+      "productId": 29953,
+      "salePrice": 25000,
+      "regularSalePrice": 25000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:25.481Z"
+    },
+    {
+      "id": 38766,
+      "productId": 29953,
+      "salePrice": 25000,
+      "regularSalePrice": 25000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:40.559Z"
+    },
+    {
+      "id": 49814,
+      "productId": 29953,
+      "salePrice": 25000,
+      "regularSalePrice": 25000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:42.649Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062665",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062665",
+    "capturedAt": "2026-08-19T04:33:42.649Z",
+    "items": [],
+    "path": "data/other-shops/145062665.json"
+  }
+}

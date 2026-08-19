@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 3053,
+    "title": "Windows98/Me/2000/XP CDソフト 想い出の還る場所",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009374",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009374.jpg",
+    "manufacturer": "煉瓦舎",
+    "releaseDate": "2003-04-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009374",
+      "メーカー": "煉瓦舎",
+      "発売日": "2003/04/28",
+      "定価": "9,680円",
+      "原画": "てぃあ",
+      "シナリオ": "逢坂丈浩",
+      "声優": "佐野耕太\n芹園みや\n松永雪希\n人見はるか\n藤崎まゆ\n長崎みなみ\n静野ももか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:50.290Z"
+  },
+  "histories": [
+    {
+      "id": 3067,
+      "productId": 3053,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36875,
+      "productId": 3053,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:57.313Z"
+    },
+    {
+      "id": 47509,
+      "productId": 3053,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:50.290Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145009374",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009374",
+    "capturedAt": "2026-08-17T16:05:50.290Z",
+    "items": [],
+    "path": "data/other-shops/145009374.json"
+  }
+}

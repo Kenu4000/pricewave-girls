@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 7914,
+    "title": "Windows98/Me CDソフト ゆかちゃん あ・そ・ぼ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004825",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004825.jpg",
+    "manufacturer": "STUDIO ねこぱんち",
+    "releaseDate": "2001-07-13",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004825001",
+      "メーカー": "STUDIO ねこぱんち",
+      "発売日": "2001/07/13",
+      "定価": "9,680円",
+      "原画": "沙亭☆杏",
+      "シナリオ": "逆神紅夜",
+      "声優": "宮川麻紀\n桜川みどり\n大庭奈々\n浅海譲",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:46.755Z"
+  },
+  "histories": [
+    {
+      "id": 7928,
+      "productId": 7914,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 37382,
+      "productId": 7914,
+      "salePrice": 1000,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:20.060Z"
+    },
+    {
+      "id": 47926,
+      "productId": 7914,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:46.755Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127378,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-17T16:09:47.000Z"
+    },
+    {
+      "id": 127377,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1020,
+      "checkedAt": "2026-08-17T16:09:47.000Z"
+    },
+    {
+      "id": 98511,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1040,
+      "checkedAt": "2026-08-16T01:02:20.000Z"
+    },
+    {
+      "id": 98510,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:02:20.000Z"
+    },
+    {
+      "id": 673,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 672,
+      "productId": 7914,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1060,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004825",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004825",
+    "capturedAt": "2026-08-17T16:09:46.755Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1020
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145004825.json"
+  }
+}

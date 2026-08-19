@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 31948,
+    "title": "WindowsXP/Vista/7 DVDソフト 輝光翼戦記 銀の刻のコロナ[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045905",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045905.jpg",
+    "manufacturer": "ETERNAL",
+    "releaseDate": "2011-12-16",
+    "listPrice": 10780,
+    "modelNumber": "WILL-271A",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145045905",
+      "メーカー": "ETERNAL",
+      "発売日": "2011/12/16",
+      "定価": "10,780円",
+      "型番": "WILL-271A",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ミニ色紙欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1199,
+    "latestRegularSalePrice": 1199,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ミニ色紙欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:32:54.307Z"
+  },
+  "histories": [
+    {
+      "id": 31962,
+      "productId": 31948,
+      "salePrice": 1199,
+      "regularSalePrice": 1199,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ミニ色紙欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:11.481Z"
+    },
+    {
+      "id": 40691,
+      "productId": 31948,
+      "salePrice": 1199,
+      "regularSalePrice": 1199,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ミニ色紙欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:54.307Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045905",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045905",
+    "capturedAt": "2026-08-16T01:32:54.307Z",
+    "items": [],
+    "path": "data/other-shops/145045905.json"
+  }
+}

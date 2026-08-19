@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 29297,
+    "title": "Windows DVDソフト ユニオリヒロインズ・バニーガールコレクション・アーシェver. 「バニーアシェとご奉仕えっちなサウンドドラマ」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071698",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071698.jpg",
+    "manufacturer": "CLIP☆CRAFT",
+    "releaseDate": "2020-08-28",
+    "listPrice": null,
+    "modelNumber": "CCG1902A",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145071698001",
+      "メーカー": "CLIP☆CRAFT",
+      "発売日": "2020/08/28",
+      "型番": "CCG1902A",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1950,
+    "latestRegularSalePrice": 1950,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:05:29.500Z"
+  },
+  "histories": [
+    {
+      "id": 29311,
+      "productId": 29297,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:29.500Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 74256,
+      "productId": 29297,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース・未開封品）",
+      "price": 3500,
+      "checkedAt": "2026-08-15T23:05:29.000Z"
+    },
+    {
+      "id": 74255,
+      "productId": 29297,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-15T23:05:29.000Z"
+    },
+    {
+      "id": 74254,
+      "productId": 29297,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-08-15T23:05:29.000Z"
+    },
+    {
+      "id": 74253,
+      "productId": 29297,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-15T23:05:29.000Z"
+    },
+    {
+      "id": 74252,
+      "productId": 29297,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-08-15T23:05:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071698",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071698",
+    "capturedAt": "2026-08-15T23:05:29.500Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1850
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1950
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（正規ケース・未開封品）",
+        "price": 3500
+      }
+    ],
+    "path": "data/other-shops/145071698.json"
+  }
+}

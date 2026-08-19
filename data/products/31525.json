@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31525,
+    "title": "Windows CDソフト あっぱれ!天下御免[祭] -恋と嵐は大江戸の華- ソフマップオリジナル デジタル原画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035705",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035705.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2012-12-21",
+    "listPrice": null,
+    "modelNumber": "APTGM-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145035705",
+      "メーカー": "BaseSon",
+      "発売日": "2012/12/21",
+      "型番": "APTGM-SMSP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 290,
+    "latestRegularSalePrice": 290,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:51.201Z"
+  },
+  "histories": [
+    {
+      "id": 31539,
+      "productId": 31525,
+      "salePrice": 290,
+      "regularSalePrice": 290,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:55.094Z"
+    },
+    {
+      "id": 40277,
+      "productId": 31525,
+      "salePrice": 290,
+      "regularSalePrice": 290,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:33.264Z"
+    },
+    {
+      "id": 43765,
+      "productId": 31525,
+      "salePrice": 290,
+      "regularSalePrice": 290,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:51.201Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035705",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035705",
+    "capturedAt": "2026-08-17T09:34:51.201Z",
+    "items": [],
+    "path": "data/other-shops/145035705.json"
+  }
+}

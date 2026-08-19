@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 42945,
+    "title": "Windows98/Me/2000/XP CDソフト 恋愛組曲 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015212",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015212.jpg",
+    "manufacturer": "キューティーソフト",
+    "releaseDate": "2006-12-22",
+    "listPrice": 2200,
+    "modelNumber": "QTS-8",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015212001",
+      "メーカー": "キューティーソフト",
+      "発売日": "2006/12/22",
+      "定価": "2,200円",
+      "型番": "QTS-8",
+      "原画": "JOYRIDE",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:31.376Z"
+  },
+  "histories": [
+    {
+      "id": 42959,
+      "productId": 42945,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:31.376Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110700,
+      "productId": 42945,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-17T07:16:31.000Z"
+    },
+    {
+      "id": 110699,
+      "productId": 42945,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-17T07:16:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015212",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015212",
+    "capturedAt": "2026-08-17T07:16:31.376Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145015212.json"
+  }
+}

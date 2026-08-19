@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42312,
+    "title": "Windows98SE/Me/2000/XP CDソフト 恋する式(オトメ) ーSHIKIGAMI2008ー 音美ちゃんの「ヤンデレになるもん!」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022636.jpg",
+    "manufacturer": "ホワイトサイク",
+    "releaseDate": "2008-08-29",
+    "listPrice": null,
+    "modelNumber": "VT-0808-1S",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145022636",
+      "メーカー": "ホワイトサイク",
+      "発売日": "2008/08/29",
+      "型番": "VT-0808-1S",
+      "原画": "椎咲雛樹",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:43.384Z"
+  },
+  "histories": [
+    {
+      "id": 42326,
+      "productId": 42312,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:26.974Z"
+    },
+    {
+      "id": 53716,
+      "productId": 42312,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:43.384Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022636",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022636",
+    "capturedAt": "2026-08-19T16:26:43.384Z",
+    "items": [],
+    "path": "data/other-shops/145022636.json"
+  }
+}

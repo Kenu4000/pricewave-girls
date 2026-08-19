@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 3097,
+    "title": "Windows95 CDソフト 堕落の国のアンジー 狂界の牝奴隷達",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001306",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001306.jpg",
+    "manufacturer": "PIL",
+    "releaseDate": "1999-09-25",
+    "listPrice": 8250,
+    "modelNumber": "PIL0503",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001306",
+      "メーカー": "PIL",
+      "発売日": "1999/09/25",
+      "定価": "8,250円",
+      "型番": "PIL0503",
+      "原画": "さくらめーる\nCOMA",
+      "シナリオ": "南泌流夫",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 29000,
+    "latestRegularSalePrice": 29000,
+    "latestBuyPrice": 15000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:05.883Z"
+  },
+  "histories": [
+    {
+      "id": 3111,
+      "productId": 3097,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 15000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 22952,
+      "productId": 3097,
+      "salePrice": 29000,
+      "regularSalePrice": 29000,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:09.593Z"
+    },
+    {
+      "id": 36911,
+      "productId": 3097,
+      "salePrice": 29000,
+      "regularSalePrice": 29000,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:13.649Z"
+    },
+    {
+      "id": 47534,
+      "productId": 3097,
+      "salePrice": 29000,
+      "regularSalePrice": 29000,
+      "buyPrice": 15000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:05.883Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145001306",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001306",
+    "capturedAt": "2026-08-17T16:06:05.883Z",
+    "items": [],
+    "path": "data/other-shops/145001306.json"
+  }
+}

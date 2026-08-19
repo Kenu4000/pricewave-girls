@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31939,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 聖麗奴学園",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054168",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054168.jpg",
+    "manufacturer": "Liquid(リキッド)",
+    "releaseDate": "2011-12-22",
+    "listPrice": 9680,
+    "modelNumber": "LIQ024",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145054168",
+      "メーカー": "Liquid(リキッド)",
+      "発売日": "2011/12/22",
+      "定価": "9,680円",
+      "型番": "LIQ024",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:10.029Z"
+  },
+  "histories": [
+    {
+      "id": 31953,
+      "productId": 31939,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:05.150Z"
+    },
+    {
+      "id": 40681,
+      "productId": 31939,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:49.011Z"
+    },
+    {
+      "id": 52167,
+      "productId": 31939,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:10.029Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054168",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054168",
+    "capturedAt": "2026-08-19T15:33:10.029Z",
+    "items": [],
+    "path": "data/other-shops/145054168.json"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42984,
+    "title": "Windows DVDソフト 終末医凌",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014869",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014869.jpg",
+    "manufacturer": "Psy-chs",
+    "releaseDate": "2006-11-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014869001",
+      "メーカー": "Psy-chs",
+      "発売日": "2006/11/23",
+      "定価": "9,680円",
+      "原画": "マサぷく",
+      "シナリオ": "三頭獣\n津之深りょーじ",
+      "声優": "青井美海\nカンザキカナリ\n歌織\n幸代彩里",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:56.370Z"
+  },
+  "histories": [
+    {
+      "id": 42998,
+      "productId": 42984,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:56.370Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110787,
+      "productId": 42984,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:16:56.000Z"
+    },
+    {
+      "id": 110786,
+      "productId": 42984,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 410,
+      "checkedAt": "2026-08-17T07:16:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014869",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014869",
+    "capturedAt": "2026-08-17T07:16:56.370Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 410
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145014869.json"
+  }
+}

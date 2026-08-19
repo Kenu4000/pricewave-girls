@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 41303,
+    "title": "WindowsXP/Vista/7 DVDソフト 神学校 -Noli me tangere-[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027197",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027197.jpg",
+    "manufacturer": "PIL/SLASH",
+    "releaseDate": "2011-03-30",
+    "listPrice": 9350,
+    "modelNumber": "PIL-B005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027197001",
+      "メーカー": "PIL/SLASH",
+      "発売日": "2011/03/30",
+      "定価": "9,350円",
+      "型番": "PIL-B005",
+      "シナリオ": "草香祭",
+      "原画": "白井幸子",
+      "声優": "空野太陽\n東城直樹\nスモール佐藤\n氷河流\n青島刃",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6000,
+    "latestRegularSalePrice": 6000,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:44.773Z"
+  },
+  "histories": [
+    {
+      "id": 41317,
+      "productId": 41303,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:36.627Z"
+    },
+    {
+      "id": 52999,
+      "productId": 41303,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:44.773Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142696,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6000,
+      "checkedAt": "2026-08-19T16:20:45.000Z"
+    },
+    {
+      "id": 142695,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-08-19T16:20:45.000Z"
+    },
+    {
+      "id": 142694,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 6300,
+      "checkedAt": "2026-08-19T16:20:45.000Z"
+    },
+    {
+      "id": 142693,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-19T16:20:45.000Z"
+    },
+    {
+      "id": 107350,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-08-17T07:00:36.000Z"
+    },
+    {
+      "id": 107349,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 6300,
+      "checkedAt": "2026-08-17T07:00:36.000Z"
+    },
+    {
+      "id": 107348,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6000,
+      "checkedAt": "2026-08-17T07:00:36.000Z"
+    },
+    {
+      "id": 107347,
+      "productId": 41303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-17T07:00:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027197",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027197",
+    "capturedAt": "2026-08-19T16:20:44.773Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 5900
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 6300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 6311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6000
+      }
+    ],
+    "path": "data/other-shops/145027197.json"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 2406,
+    "title": "Windows98/Me/2000/XP DVDソフト 花と蛇 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013167",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013167.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2005-08-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145013167",
+      "メーカー": "エルフ",
+      "発売日": "2005/08/05",
+      "定価": "9,680円",
+      "シナリオ": "米倉懺悔",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 8400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:42:30.114Z"
+  },
+  "histories": [
+    {
+      "id": 2420,
+      "productId": 2406,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7307,
+      "productId": 2406,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 36413,
+      "productId": 2406,
+      "salePrice": 17211,
+      "regularSalePrice": 17211,
+      "buyPrice": 8400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:53:37.458Z"
+    },
+    {
+      "id": 46801,
+      "productId": 2406,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 8400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:42:30.114Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145013167",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013167",
+    "capturedAt": "2026-08-16T00:53:37.458Z",
+    "items": [],
+    "path": "data/other-shops/145013167.json"
+  }
+}

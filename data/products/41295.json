@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41295,
+    "title": "WindowsXP/Vista/7 DVDソフト 鬼ごっこ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044973",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044973.jpg",
+    "manufacturer": "ALcot",
+    "releaseDate": "2011-03-31",
+    "listPrice": 9680,
+    "modelNumber": "AL-ON-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145044973",
+      "メーカー": "ALcot",
+      "発売日": "2011/03/31",
+      "定価": "9,680円",
+      "型番": "AL-ON-001",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:00.553Z"
+  },
+  "histories": [
+    {
+      "id": 41309,
+      "productId": 41295,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:34.777Z"
+    },
+    {
+      "id": 43905,
+      "productId": 41295,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:00.553Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044973",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044973",
+    "capturedAt": "2026-08-17T09:36:00.553Z",
+    "items": [],
+    "path": "data/other-shops/145044973.json"
+  }
+}

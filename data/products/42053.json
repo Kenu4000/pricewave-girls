@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42053,
+    "title": "Windows2000/XP/Vista CDソフト ドキドキ痴漢電車～ボクと彼女のヒミツな関係～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019663",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019663.jpg",
+    "manufacturer": "ローズティアラ",
+    "releaseDate": "2009-04-10",
+    "listPrice": 3080,
+    "modelNumber": "ROSE-010",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019663",
+      "メーカー": "ローズティアラ",
+      "発売日": "2009/04/10",
+      "定価": "3,080円",
+      "型番": "ROSE-010",
+      "原画": "石井彰",
+      "シナリオ": "橋野次郎",
+      "声優": "鈴峰りお",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "OS": "E-010</td> </tr> <tr> <th class=\"text-right 0\">",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 200,
+    "latestRegularSalePrice": 200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:11.531Z"
+  },
+  "histories": [
+    {
+      "id": 42067,
+      "productId": 42053,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:46.387Z"
+    },
+    {
+      "id": 53534,
+      "productId": 42053,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:11.531Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019663",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019663",
+    "capturedAt": "2026-08-19T16:25:11.531Z",
+    "items": [],
+    "path": "data/other-shops/145019663.json"
+  }
+}

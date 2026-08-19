@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41375,
+    "title": "Windows2000/XP/Vista/7 DVDソフト AQUA[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043185",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043185.jpg",
+    "manufacturer": "SORAHANE",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145043185",
+      "メーカー": "SORAHANE",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3600,
+    "latestRegularSalePrice": 3600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:11.185Z"
+  },
+  "histories": [
+    {
+      "id": 41389,
+      "productId": 41375,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:15.957Z"
+    },
+    {
+      "id": 53054,
+      "productId": 41375,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:11.185Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043185",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043185",
+    "capturedAt": "2026-08-19T16:21:11.185Z",
+    "items": [],
+    "path": "data/other-shops/145043185.json"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 31648,
+    "title": "WindowsXP/Vista/7 DVDソフト Cell works Collection Vol.2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034048",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034048.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2012-09-21",
+    "listPrice": 7480,
+    "modelNumber": "ALL-019",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034048001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2012/09/21",
+      "定価": "7,480円",
+      "型番": "ALL-019",
+      "原画": "さだお\nてってち\nカンプノウ",
+      "シナリオ": "なるみおかず\nちょもと\nかすか量",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 13800,
+    "latestRegularSalePrice": 13800,
+    "latestBuyPrice": 6500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:02.403Z"
+  },
+  "histories": [
+    {
+      "id": 31662,
+      "productId": 31648,
+      "salePrice": 13800,
+      "regularSalePrice": 13800,
+      "buyPrice": 6500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:28.284Z"
+    },
+    {
+      "id": 40397,
+      "productId": 31648,
+      "salePrice": 13800,
+      "regularSalePrice": 13800,
+      "buyPrice": 6500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:29.410Z"
+    },
+    {
+      "id": 43788,
+      "productId": 31648,
+      "salePrice": 13800,
+      "regularSalePrice": 13800,
+      "buyPrice": 6500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:02.403Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113278,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 22760,
+      "checkedAt": "2026-08-17T09:35:02.000Z"
+    },
+    {
+      "id": 113277,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 13800,
+      "checkedAt": "2026-08-17T09:35:02.000Z"
+    },
+    {
+      "id": 105130,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 22770,
+      "checkedAt": "2026-08-16T01:30:29.000Z"
+    },
+    {
+      "id": 105129,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 13800,
+      "checkedAt": "2026-08-16T01:30:29.000Z"
+    },
+    {
+      "id": 79285,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 22770,
+      "checkedAt": "2026-08-15T23:42:28.000Z"
+    },
+    {
+      "id": 79284,
+      "productId": 31648,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 13800,
+      "checkedAt": "2026-08-15T23:42:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034048",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034048",
+    "capturedAt": "2026-08-17T09:35:02.403Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 13800
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 22760
+      }
+    ],
+    "path": "data/other-shops/145034048.json"
+  }
+}

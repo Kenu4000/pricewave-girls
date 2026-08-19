@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 31272,
+    "title": "WindowsXP/Vista/7/8 DVDソフト DominancE[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036294",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036294.jpg",
+    "manufacturer": "Empress",
+    "releaseDate": "2013-06-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145036294001",
+      "メーカー": "Empress",
+      "発売日": "2013/06/28",
+      "定価": "9,680円",
+      "原画": "聖少女",
+      "シナリオ": "伊集院更紗",
+      "声優": "多富満\n中野志乃\n長谷部雪奈\n御苑生メイ\n悠はるか\n高草木幸",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3780,
+    "latestRegularSalePrice": 3780,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:27:31.825Z"
+  },
+  "histories": [
+    {
+      "id": 31286,
+      "productId": 31272,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:55.152Z"
+    },
+    {
+      "id": 40034,
+      "productId": 31272,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:31.825Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 104480,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 7980,
+      "checkedAt": "2026-08-16T01:27:32.000Z"
+    },
+    {
+      "id": 104479,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7900,
+      "checkedAt": "2026-08-16T01:27:32.000Z"
+    },
+    {
+      "id": 104478,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3780,
+      "checkedAt": "2026-08-16T01:27:32.000Z"
+    },
+    {
+      "id": 78613,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 7980,
+      "checkedAt": "2026-08-15T23:37:55.000Z"
+    },
+    {
+      "id": 78612,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7900,
+      "checkedAt": "2026-08-15T23:37:55.000Z"
+    },
+    {
+      "id": 78611,
+      "productId": 31272,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3780,
+      "checkedAt": "2026-08-15T23:37:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036294",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036294",
+    "capturedAt": "2026-08-16T01:27:31.825Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3780
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+        "price": 7900
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 7980
+      }
+    ],
+    "path": "data/other-shops/145036294.json"
+  }
+}

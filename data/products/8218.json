@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 8218,
+    "title": "Windows2000/XP/Vista DVDソフト ANGEL MAGISTER[初回限定版](外付け原画集付)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020610",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020610.jpg",
+    "manufacturer": "mana",
+    "releaseDate": "2009-07-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020610",
+      "メーカー": "mana",
+      "発売日": "2009/07/24",
+      "定価": "9,680円",
+      "原画": "兎塚エイジ",
+      "シナリオ": "味塩ロケッツwith企画屋",
+      "声優": "金松由花\n民安ともえ\n涼森ちさと\nあさり☆\n姫川あいり\n手塚りょうこ\n太田亜弓\n美空なつひ\n朝咲そよ\n静陵聖\nアドレナ・リン",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:33.111Z"
+  },
+  "histories": [
+    {
+      "id": 8232,
+      "productId": 8218,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 23106,
+      "productId": 8218,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:33.514Z"
+    },
+    {
+      "id": 37628,
+      "productId": 8218,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:29.931Z"
+    },
+    {
+      "id": 48127,
+      "productId": 8218,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:33.111Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127940,
+      "productId": 8218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:11:33.000Z"
+    },
+    {
+      "id": 127939,
+      "productId": 8218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T16:11:33.000Z"
+    },
+    {
+      "id": 99270,
+      "productId": 8218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:04:29.000Z"
+    },
+    {
+      "id": 99269,
+      "productId": 8218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-16T01:04:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020610",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020610",
+    "capturedAt": "2026-08-17T16:11:33.111Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145020610.json"
+  }
+}

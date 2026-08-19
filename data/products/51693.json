@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 51693,
+    "title": "Windows98/Me/2000/XP CDソフト 家庭訪悶",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015677",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015677.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2007-03-30",
+    "listPrice": 3300,
+    "modelNumber": "KRH-00006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015677001",
+      "メーカー": "黒雛",
+      "発売日": "2007/03/30",
+      "定価": "3,300円",
+      "型番": "KRH-00006",
+      "原画": "楊夫人",
+      "声優": "早乙女綾\n草野花恋",
+      "シナリオ": "小鳥遊マキ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:30:02.498Z"
+  },
+  "histories": [
+    {
+      "id": 51707,
+      "productId": 51693,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:30:02.498Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137915,
+      "productId": 51693,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137914,
+      "productId": 51693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137913,
+      "productId": 51693,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137912,
+      "productId": 51693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137911,
+      "productId": 51693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015677",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015677",
+    "capturedAt": "2026-08-19T09:30:02.498Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145015677.json"
+  }
+}

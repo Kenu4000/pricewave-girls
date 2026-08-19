@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 30727,
+    "title": "WindowsVista/7/8/8.1 DVDソフト あねよめカルテット[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064026",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064026.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2014-10-31",
+    "listPrice": 8580,
+    "modelNumber": "INH-325",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145064026",
+      "メーカー": "CandySoft",
+      "発売日": "2014/10/31",
+      "定価": "8,580円",
+      "型番": "INH-325",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:23:15.263Z"
+  },
+  "histories": [
+    {
+      "id": 30741,
+      "productId": 30727,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:15.263Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064026",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064026",
+    "capturedAt": "2026-08-15T23:23:15.263Z",
+    "items": [],
+    "path": "data/other-shops/145064026.json"
+  }
+}

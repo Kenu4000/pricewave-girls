@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42241,
+    "title": "Windows2000/XP/Vista CDソフト 触装天使セリカ おまけディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057652",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057652.jpg",
+    "manufacturer": "TOUCHABLE",
+    "releaseDate": "2008-10-24",
+    "listPrice": null,
+    "modelNumber": "TOUCH-0012-2",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145057652",
+      "メーカー": "TOUCHABLE",
+      "発売日": "2008/10/24",
+      "型番": "TOUCH-0012-2",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:16.470Z"
+  },
+  "histories": [
+    {
+      "id": 42255,
+      "productId": 42241,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:44.433Z"
+    },
+    {
+      "id": 53667,
+      "productId": 42241,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:16.470Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057652",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057652",
+    "capturedAt": "2026-08-19T16:26:16.470Z",
+    "items": [],
+    "path": "data/other-shops/145057652.json"
+  }
+}

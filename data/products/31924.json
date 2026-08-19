@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31924,
+    "title": "WindowsXP/Vista/7 DVDソフト 美少女万華鏡 -呪われし伝説の少女-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062596",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062596.jpg",
+    "manufacturer": "ωstar",
+    "releaseDate": "2011-12-29",
+    "listPrice": 3080,
+    "modelNumber": "OVG-BIM1D1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145062596",
+      "メーカー": "ωstar",
+      "発売日": "2011/12/29",
+      "定価": "3,080円",
+      "型番": "OVG-BIM1D1",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5300,
+    "latestRegularSalePrice": 5300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:06.977Z"
+  },
+  "histories": [
+    {
+      "id": 31938,
+      "productId": 31924,
+      "salePrice": 5300,
+      "regularSalePrice": 5300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:57.485Z"
+    },
+    {
+      "id": 40670,
+      "productId": 31924,
+      "salePrice": 5300,
+      "regularSalePrice": 5300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.799Z"
+    },
+    {
+      "id": 52162,
+      "productId": 31924,
+      "salePrice": 5300,
+      "regularSalePrice": 5300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:06.977Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062596",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062596",
+    "capturedAt": "2026-08-19T15:33:06.977Z",
+    "items": [],
+    "path": "data/other-shops/145062596.json"
+  }
+}

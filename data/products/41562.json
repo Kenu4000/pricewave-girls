@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 41562,
+    "title": "WindowsXP/Vista/7 CDソフト もっと姉、ちゃんとしようよっ! オリジナルデスクトップアクセサリ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055023.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2010-07-30",
+    "listPrice": null,
+    "modelNumber": "INH-282-ODA",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145055023",
+      "メーカー": "CandySoft",
+      "発売日": "2010/07/30",
+      "型番": "INH-282-ODA",
+      "原画": "すめらぎ琥珀",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:28.332Z"
+  },
+  "histories": [
+    {
+      "id": 41576,
+      "productId": 41562,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:17.552Z"
+    },
+    {
+      "id": 43961,
+      "productId": 41562,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:28.332Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055023",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055023",
+    "capturedAt": "2026-08-17T09:36:28.332Z",
+    "items": [],
+    "path": "data/other-shops/145055023.json"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 30439,
+    "title": "WindowsXP/Vista/7 DVDソフト Ariard 少年アリス ファンディスク Under the rose",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051454",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051454.jpg",
+    "manufacturer": "Latte",
+    "releaseDate": "2015-07-29",
+    "listPrice": 3080,
+    "modelNumber": "LAT018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145051454",
+      "メーカー": "Latte",
+      "発売日": "2015/07/29",
+      "定価": "3,080円",
+      "型番": "LAT018",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4700,
+    "latestRegularSalePrice": 4700,
+    "latestBuyPrice": 2900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:22.999Z"
+  },
+  "histories": [
+    {
+      "id": 30453,
+      "productId": 30439,
+      "salePrice": 4700,
+      "regularSalePrice": 4700,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:02.125Z"
+    },
+    {
+      "id": 39232,
+      "productId": 30439,
+      "salePrice": 4700,
+      "regularSalePrice": 4700,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:55.801Z"
+    },
+    {
+      "id": 50478,
+      "productId": 30439,
+      "salePrice": 4700,
+      "regularSalePrice": 4700,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:22.999Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051454",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051454",
+    "capturedAt": "2026-08-19T05:28:22.999Z",
+    "items": [],
+    "path": "data/other-shops/145051454.json"
+  }
+}

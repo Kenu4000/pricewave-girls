@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42011,
+    "title": "Windows2000/XP DVDソフト タユタマ -It’s happy days-[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069497.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2009-05-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145069497",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2009/05/29",
+      "定価": "9,680円",
+      "原画": "萌木原ふみたけ",
+      "シナリオ": "高嶋栄二\n史方千尋\nてつじん",
+      "声優": "水鏡\n松田理沙\n花野香\n三咲里奈\n水橋かおり\n中瀬ひな\n成瀬未亜\n鈴田美夜子\n秋山樹\n比留間京之介\n松永雪希",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:53.661Z"
+  },
+  "histories": [
+    {
+      "id": 42025,
+      "productId": 42011,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:19.655Z"
+    },
+    {
+      "id": 53500,
+      "productId": 42011,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:53.661Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069497",
+    "capturedAt": "2026-08-19T16:24:53.661Z",
+    "items": [],
+    "path": "data/other-shops/145069497.json"
+  }
+}

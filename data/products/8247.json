@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 8247,
+    "title": "Windows95 CDソフト PIL caSEX( ピルケース )",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001454",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001454.jpg",
+    "manufacturer": "PIL",
+    "releaseDate": null,
+    "listPrice": 8250,
+    "modelNumber": "PIL-0504",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001454",
+      "メーカー": "PIL",
+      "定価": "8,250円",
+      "型番": "PIL-0504",
+      "原画": "キリヤマ太一\nCOMA\n長岡建蔵\nおおのつとむ\nさくらめーる",
+      "シナリオ": "丸谷秀人\n南泌流夫\n小林英茂\n川道正顕",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:40.918Z"
+  },
+  "histories": [
+    {
+      "id": 8261,
+      "productId": 8247,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 37652,
+      "productId": 8247,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:43.991Z"
+    },
+    {
+      "id": 48143,
+      "productId": 8247,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:40.918Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 1843,
+    "title": "Windows8/8.1/10 DVDソフト 寝取られ三角関係 -初恋の幼なじみがセフレにされた- [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069571",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069571.jpg",
+    "manufacturer": "TRYSET Break",
+    "releaseDate": "2020-08-28",
+    "listPrice": 3278,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145069571001",
+      "メーカー": "TRYSET Break",
+      "発売日": "2020/08/28",
+      "定価": "3,278円",
+      "原画": "相川亜利砂",
+      "シナリオ": "みけ",
+      "声優": "このえゆずこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:22.702Z"
+  },
+  "histories": [
+    {
+      "id": 1857,
+      "productId": 1843,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:42.000Z"
+    },
+    {
+      "id": 6757,
+      "productId": 1843,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:04.000Z"
+    },
+    {
+      "id": 22794,
+      "productId": 1843,
+      "salePrice": 750,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:47.819Z"
+    },
+    {
+      "id": 44305,
+      "productId": 1843,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:22.702Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114577,
+      "productId": 1843,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1200,
+      "checkedAt": "2026-08-17T09:39:22.000Z"
+    },
+    {
+      "id": 114576,
+      "productId": 1843,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 800,
+      "checkedAt": "2026-08-17T09:39:22.000Z"
+    },
+    {
+      "id": 51827,
+      "productId": 1843,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1200,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    },
+    {
+      "id": 51826,
+      "productId": 1843,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 750,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145069571",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069571",
+    "capturedAt": "2026-08-17T09:39:22.702Z",
+    "items": [
+      {
+        "storeName": "Image 1 2 of 2 中古",
+        "condition": "状態不明",
+        "price": 800
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145069571.json"
+  }
+}

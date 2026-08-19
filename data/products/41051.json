@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 41051,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 豪蔵 ～シキタリの裏で行われていた真実～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041611",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041611.jpg",
+    "manufacturer": "スタジオ カメ",
+    "releaseDate": "2014-03-28",
+    "listPrice": 3740,
+    "modelNumber": "KAM-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145041611",
+      "メーカー": "スタジオ カメ",
+      "発売日": "2014/03/28",
+      "定価": "3,740円",
+      "型番": "KAM-001",
+      "原画": "チャイニー・スゥ",
+      "シナリオ": "東人",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:56.908Z"
+  },
+  "histories": [
+    {
+      "id": 41065,
+      "productId": 41051,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:25.925Z"
+    },
+    {
+      "id": 52812,
+      "productId": 41051,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:56.908Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142251,
+      "productId": 41051,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-08-19T16:18:57.000Z"
+    },
+    {
+      "id": 142250,
+      "productId": 41051,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古(状態：使用感有)/店舗併売",
+      "price": 1280,
+      "checkedAt": "2026-08-19T16:18:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041611",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041611",
+    "capturedAt": "2026-08-19T16:18:56.908Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古(状態：使用感有)/店舗併売",
+        "price": 1280
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1301
+      }
+    ],
+    "path": "data/other-shops/145041611.json"
+  }
+}

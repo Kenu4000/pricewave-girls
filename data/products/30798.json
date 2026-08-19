@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30798,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 夢幻廻廊2-螺旋- Windows8.1動作版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044904",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044904.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2014-08-29",
+    "listPrice": 4400,
+    "modelNumber": "BCYC-004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044904",
+      "メーカー": "Black Cyc",
+      "発売日": "2014/08/29",
+      "定価": "4,400円",
+      "型番": "BCYC-004",
+      "原画": "椎咲雛樹",
+      "シナリオ": "伊藤ヒロ",
+      "声優": "咲良さく\n早乙女綾\n相模真\n平野響子\nまりもりん\n西野みく\nみすみ\n葉月るい",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1312,
+    "latestRegularSalePrice": 1312,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:57.806Z"
+  },
+  "histories": [
+    {
+      "id": 30812,
+      "productId": 30798,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:51.477Z"
+    },
+    {
+      "id": 39568,
+      "productId": 30798,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:55.709Z"
+    },
+    {
+      "id": 43661,
+      "productId": 30798,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:57.806Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044904",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044904",
+    "capturedAt": "2026-08-17T09:33:57.806Z",
+    "items": [],
+    "path": "data/other-shops/145044904.json"
+  }
+}

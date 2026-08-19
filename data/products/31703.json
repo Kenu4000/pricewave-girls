@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31703,
+    "title": "Windowsソフト つぼい君のスイッチ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906361",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906361.jpg",
+    "manufacturer": "筆柿そふと",
+    "releaseDate": "2012-07-27",
+    "listPrice": 9680,
+    "modelNumber": "FUD001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145906361",
+      "メーカー": "筆柿そふと",
+      "発売日": "2012/07/27",
+      "定価": "9,680円",
+      "型番": "FUD001",
+      "原画": "大崎シンヤ",
+      "シナリオ": "NATORI烏賊",
+      "声優": "大波こなみ\n一色ヒカル\n南波奈々子\n金田まひる",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:29.069Z"
+  },
+  "histories": [
+    {
+      "id": 31717,
+      "productId": 31703,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:14.538Z"
+    },
+    {
+      "id": 40451,
+      "productId": 31703,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:53.461Z"
+    },
+    {
+      "id": 51402,
+      "productId": 31703,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:29.069Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906361",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906361",
+    "capturedAt": "2026-08-19T05:36:29.069Z",
+    "items": [],
+    "path": "data/other-shops/145906361.json"
+  }
+}

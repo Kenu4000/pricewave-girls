@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30728,
+    "title": "WindowsVista/7/8 DVDソフト ジンコウガクエン2 アペンドディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062435",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062435.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2014-10-31",
+    "listPrice": 7480,
+    "modelNumber": "ILN-097",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145062435",
+      "メーカー": "ILLUSION",
+      "発売日": "2014/10/31",
+      "定価": "7,480円",
+      "型番": "ILN-097",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 11000,
+    "latestRegularSalePrice": 11000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:10.754Z"
+  },
+  "histories": [
+    {
+      "id": 30742,
+      "productId": 30728,
+      "salePrice": 11000,
+      "regularSalePrice": 11000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:15.525Z"
+    },
+    {
+      "id": 39497,
+      "productId": 30728,
+      "salePrice": 11000,
+      "regularSalePrice": 11000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:20.420Z"
+    },
+    {
+      "id": 50688,
+      "productId": 30728,
+      "salePrice": 11000,
+      "regularSalePrice": 11000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:10.754Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062435",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062435",
+    "capturedAt": "2026-08-19T05:30:10.754Z",
+    "items": [],
+    "path": "data/other-shops/145062435.json"
+  }
+}

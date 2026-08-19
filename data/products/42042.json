@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42042,
+    "title": "Windows2000/XP/Vista DVDソフト 私の知らない妻(メス)の貌",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039866",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039866.jpg",
+    "manufacturer": "アイル【チーム・SOIF】",
+    "releaseDate": "2009-04-24",
+    "listPrice": 4180,
+    "modelNumber": "AIL-141633",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145039866",
+      "メーカー": "アイル【チーム・SOIF】",
+      "発売日": "2009/04/24",
+      "定価": "4,180円",
+      "型番": "AIL-141633",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:06.343Z"
+  },
+  "histories": [
+    {
+      "id": 42056,
+      "productId": 42042,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:39.035Z"
+    },
+    {
+      "id": 53523,
+      "productId": 42042,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:06.343Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039866",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039866",
+    "capturedAt": "2026-08-19T16:25:06.343Z",
+    "items": [],
+    "path": "data/other-shops/145039866.json"
+  }
+}

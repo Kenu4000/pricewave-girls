@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 42594,
+    "title": "Windows CDソフト 魔法少女マナ ニョロッパディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030006",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030006.jpg",
+    "manufacturer": "TOUCHABLE",
+    "releaseDate": "2007-11-30",
+    "listPrice": null,
+    "modelNumber": "TPB-0062-2",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145030006",
+      "メーカー": "TOUCHABLE",
+      "発売日": "2007/11/30",
+      "型番": "TPB-0062-2",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 912,
+    "latestRegularSalePrice": 912,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:30.459Z"
+  },
+  "histories": [
+    {
+      "id": 42608,
+      "productId": 42594,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:17.691Z"
+    },
+    {
+      "id": 53926,
+      "productId": 42594,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:30.459Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030006",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030006",
+    "capturedAt": "2026-08-19T16:28:30.459Z",
+    "items": [],
+    "path": "data/other-shops/145030006.json"
+  }
+}

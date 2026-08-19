@@ -1,0 +1,176 @@
+{
+  "product": {
+    "id": 3098,
+    "title": "Windows95/98 CDソフト 30DAYS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002155",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002155.jpg",
+    "manufacturer": "海月倶楽部",
+    "releaseDate": "1999-04-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002155001",
+      "メーカー": "海月倶楽部",
+      "発売日": "1999/04/22",
+      "定価": "9,680円",
+      "原画": "織倉まこと",
+      "声優": "ダイナマイト亜美",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:14.116Z"
+  },
+  "histories": [
+    {
+      "id": 3112,
+      "productId": 3098,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26635,
+      "productId": 3098,
+      "salePrice": 1300,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:23:16.159Z"
+    },
+    {
+      "id": 36912,
+      "productId": 3098,
+      "salePrice": 1300,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:14.228Z"
+    },
+    {
+      "id": 49195,
+      "productId": 3098,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:14.116Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131612,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-19T04:29:14.000Z"
+    },
+    {
+      "id": 131611,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 12999,
+      "checkedAt": "2026-08-19T04:29:14.000Z"
+    },
+    {
+      "id": 131610,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-19T04:29:14.000Z"
+    },
+    {
+      "id": 96946,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 12999,
+      "checkedAt": "2026-08-16T00:58:14.000Z"
+    },
+    {
+      "id": 96945,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-16T00:58:14.000Z"
+    },
+    {
+      "id": 65421,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 12999,
+      "checkedAt": "2026-08-09T21:23:16.000Z"
+    },
+    {
+      "id": 65420,
+      "productId": 3098,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-09T21:23:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002155",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002155",
+    "capturedAt": "2026-08-19T04:29:14.116Z",
+    "items": [
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古",
+        "price": 1350
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 12999
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145002155.json"
+  }
+}

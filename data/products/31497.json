@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31497,
+    "title": "Windows DVDソフト 「boin(ボイン)」月刊メガストア 2013年02月号 Vol.237付録DVD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048001",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048001.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2012-12-27",
+    "listPrice": null,
+    "modelNumber": "MEGA1302",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145048001",
+      "メーカー": "コアマガジン",
+      "発売日": "2012/12/27",
+      "型番": "MEGA1302",
+      "原画": "八宝備仁",
+      "声優": "金田まひる",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1301,
+    "latestRegularSalePrice": 1301,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:07.589Z"
+  },
+  "histories": [
+    {
+      "id": 31511,
+      "productId": 31497,
+      "salePrice": 1301,
+      "regularSalePrice": 1301,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:37.606Z"
+    },
+    {
+      "id": 40246,
+      "productId": 31497,
+      "salePrice": 1301,
+      "regularSalePrice": 1301,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:19.834Z"
+    },
+    {
+      "id": 51255,
+      "productId": 31497,
+      "salePrice": 1301,
+      "regularSalePrice": 1301,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:07.589Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048001",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048001",
+    "capturedAt": "2026-08-19T05:35:07.589Z",
+    "items": [],
+    "path": "data/other-shops/145048001.json"
+  }
+}

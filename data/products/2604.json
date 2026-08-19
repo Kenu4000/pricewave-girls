@@ -1,0 +1,169 @@
+{
+  "product": {
+    "id": 2604,
+    "title": "Windows98/Me/2000/XP CDソフト ぎりギリLOVE [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008400",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008400.jpg",
+    "manufacturer": "林組",
+    "releaseDate": "2002-12-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145008400001",
+      "メーカー": "林組",
+      "発売日": "2002/12/27",
+      "定価": "9,680円",
+      "原画": "大泉だいさく",
+      "シナリオ": "剛田ピンキー\n林保成",
+      "音楽": "I’ve",
+      "声優": "坂本薫\n長崎みなみ\n吉川華生\n歌織\n中瀬ひな\nルネッサンス山田",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3700,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:03:29.950Z"
+  },
+  "histories": [
+    {
+      "id": 2618,
+      "productId": 2604,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7514,
+      "productId": 2604,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 36594,
+      "productId": 2604,
+      "salePrice": 3300,
+      "regularSalePrice": 3700,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:21.679Z"
+    },
+    {
+      "id": 47269,
+      "productId": 2604,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:29.950Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 124962,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-08-17T16:03:30.000Z"
+    },
+    {
+      "id": 124961,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 3510,
+      "checkedAt": "2026-08-17T16:03:30.000Z"
+    },
+    {
+      "id": 124960,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3510,
+      "checkedAt": "2026-08-17T16:03:30.000Z"
+    },
+    {
+      "id": 95640,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3510,
+      "checkedAt": "2026-08-16T00:55:21.000Z"
+    },
+    {
+      "id": 95639,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-16T00:55:21.000Z"
+    },
+    {
+      "id": 95638,
+      "productId": 2604,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 2730,
+      "checkedAt": "2026-08-16T00:55:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145008400",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008400",
+    "capturedAt": "2026-08-17T16:03:29.950Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 3510
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 3510
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3700
+      }
+    ],
+    "path": "data/other-shops/145008400.json"
+  }
+}

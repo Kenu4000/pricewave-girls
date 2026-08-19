@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42137,
+    "title": "Windows2000/XP/Vista DVDソフト スズノネセブン![初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041406",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041406.jpg",
+    "manufacturer": "クロシェットlumie",
+    "releaseDate": "2009-01-30",
+    "listPrice": 9680,
+    "modelNumber": "CLOCH-0002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145041406",
+      "メーカー": "クロシェットlumie",
+      "発売日": "2009/01/30",
+      "定価": "9,680円",
+      "型番": "CLOCH-0002",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:40.090Z"
+  },
+  "histories": [
+    {
+      "id": 42151,
+      "productId": 42137,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:37.082Z"
+    },
+    {
+      "id": 53589,
+      "productId": 42137,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:40.090Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041406",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041406",
+    "capturedAt": "2026-08-19T16:25:40.090Z",
+    "items": [],
+    "path": "data/other-shops/145041406.json"
+  }
+}

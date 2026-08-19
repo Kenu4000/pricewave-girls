@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 42844,
+    "title": "WindowsXP/Vista DVDソフト S.T.A.L.K.E.R. Shadow of Chernobyl [EU版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020703",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020703.jpg",
+    "manufacturer": "THQ",
+    "releaseDate": "2007-03-20",
+    "listPrice": null,
+    "modelNumber": "ESS763",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020703",
+      "メーカー": "THQ",
+      "発売日": "2007/03/20",
+      "型番": "ESS763",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 520,
+    "latestRegularSalePrice": 520,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:39.531Z"
+  },
+  "histories": [
+    {
+      "id": 42858,
+      "productId": 42844,
+      "salePrice": 520,
+      "regularSalePrice": 520,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:39.531Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020703",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020703",
+    "capturedAt": "2026-08-17T07:15:39.531Z",
+    "items": [],
+    "path": "data/other-shops/145020703.json"
+  }
+}

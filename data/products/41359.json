@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 41359,
+    "title": "Windows CDソフト 触祭の都 SPECIAL DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027651",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027651.jpg",
+    "manufacturer": "SYOKU",
+    "releaseDate": "2011-01-28",
+    "listPrice": null,
+    "modelNumber": "SKR228",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145027651001",
+      "メーカー": "SYOKU",
+      "発売日": "2011/01/28",
+      "型番": "SKR228",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4100,
+    "latestRegularSalePrice": 4100,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:05.098Z"
+  },
+  "histories": [
+    {
+      "id": 41373,
+      "productId": 41359,
+      "salePrice": 4100,
+      "regularSalePrice": 4100,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:08.175Z"
+    },
+    {
+      "id": 53040,
+      "productId": 41359,
+      "salePrice": 4100,
+      "regularSalePrice": 4100,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:05.098Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142775,
+      "productId": 41359,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4100,
+      "checkedAt": "2026-08-19T16:21:05.000Z"
+    },
+    {
+      "id": 142774,
+      "productId": 41359,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 4712,
+      "checkedAt": "2026-08-19T16:21:05.000Z"
+    },
+    {
+      "id": 142773,
+      "productId": 41359,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 4100,
+      "checkedAt": "2026-08-19T16:21:05.000Z"
+    },
+    {
+      "id": 107467,
+      "productId": 41359,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 4823,
+      "checkedAt": "2026-08-17T07:01:08.000Z"
+    },
+    {
+      "id": 107466,
+      "productId": 41359,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4100,
+      "checkedAt": "2026-08-17T07:01:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027651",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027651",
+    "capturedAt": "2026-08-19T16:21:05.098Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 4100
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 4712
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4100
+      }
+    ],
+    "path": "data/other-shops/145027651.json"
+  }
+}

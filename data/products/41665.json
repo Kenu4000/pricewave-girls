@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41665,
+    "title": "Windows2000/XP/Vista DVDソフト 黒獣(くろいぬ)～気高き聖女は白濁に染まる～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067776",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067776.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2010-04-23",
+    "listPrice": 9680,
+    "modelNumber": "LIQ020",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145067776",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2010/04/23",
+      "定価": "9,680円",
+      "型番": "LIQ020",
+      "原画": "日陰影次",
+      "シナリオ": "和泉万夜\n浅生詠",
+      "声優": "羽高なる\n葵時緒\nとりきんぐ\n桃井いちご\n佐倉もも花\n倉田まりや\n葉村夏緒\n青葉りんご\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:54.905Z"
+  },
+  "histories": [
+    {
+      "id": 41679,
+      "productId": 41665,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:19.080Z"
+    },
+    {
+      "id": 53261,
+      "productId": 41665,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:54.905Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067776",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067776",
+    "capturedAt": "2026-08-19T16:22:54.905Z",
+    "items": [],
+    "path": "data/other-shops/145067776.json"
+  }
+}

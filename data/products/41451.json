@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 41451,
+    "title": "Windows CDソフト Sacred†Vampire-セイクリッドヴァンパイア-「真亜沙たんの使命」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026189",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026189.jpg",
+    "manufacturer": "Silver Bullet Automatic",
+    "releaseDate": "2010-10-29",
+    "listPrice": null,
+    "modelNumber": "MESSE-557",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145026189001",
+      "メーカー": "Silver Bullet Automatic",
+      "発売日": "2010/10/29",
+      "型番": "MESSE-557",
+      "声優": "小倉結衣",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:41.321Z"
+  },
+  "histories": [
+    {
+      "id": 41465,
+      "productId": 41451,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:01.423Z"
+    },
+    {
+      "id": 53112,
+      "productId": 41451,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:41.321Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142925,
+      "productId": 41451,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:21:41.000Z"
+    },
+    {
+      "id": 142924,
+      "productId": 41451,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 460,
+      "checkedAt": "2026-08-19T16:21:41.000Z"
+    },
+    {
+      "id": 142923,
+      "productId": 41451,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:21:41.000Z"
+    },
+    {
+      "id": 107656,
+      "productId": 41451,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 460,
+      "checkedAt": "2026-08-17T07:02:01.000Z"
+    },
+    {
+      "id": 107655,
+      "productId": 41451,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:02:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026189",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026189",
+    "capturedAt": "2026-08-19T16:21:41.321Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 460
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145026189.json"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "product": {
+    "id": 3489,
+    "title": "Windows95/98 CDソフト 恋結び",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004019",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004019.jpg",
+    "manufacturer": "Spiel",
+    "releaseDate": "2000-10-06",
+    "listPrice": 9680,
+    "modelNumber": "WIC-6738",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145004019001",
+      "メーカー": "Spiel",
+      "発売日": "2000/10/06",
+      "定価": "9,680円",
+      "型番": "WIC-6738",
+      "原画": "センシュン",
+      "シナリオ": "前山信頼",
+      "声優": "永瀬江美弥\n一色ヒカル\n菅原文\n彩世ゆう\n児玉さとみ",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:36.003Z"
+  },
+  "histories": [
+    {
+      "id": 3503,
+      "productId": 3489,
+      "salePrice": 340,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37234,
+      "productId": 3489,
+      "salePrice": 340,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:03.063Z"
+    },
+    {
+      "id": 47806,
+      "productId": 3489,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:36.003Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126984,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 1176,
+      "checkedAt": "2026-08-17T16:08:36.000Z"
+    },
+    {
+      "id": 126983,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:08:36.000Z"
+    },
+    {
+      "id": 126982,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-17T16:08:36.000Z"
+    },
+    {
+      "id": 126981,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-17T16:08:36.000Z"
+    },
+    {
+      "id": 97996,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 1176,
+      "checkedAt": "2026-08-16T01:01:03.000Z"
+    },
+    {
+      "id": 97995,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:01:03.000Z"
+    },
+    {
+      "id": 97994,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-16T01:01:03.000Z"
+    },
+    {
+      "id": 97993,
+      "productId": 3489,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-16T01:01:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004019",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004019",
+    "capturedAt": "2026-08-17T16:08:36.003Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 1176
+      }
+    ],
+    "path": "data/other-shops/145004019.json"
+  }
+}

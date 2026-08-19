@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 30977,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 美少女万華鏡 -かつて少女だった君へ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040229",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040229.jpg",
+    "manufacturer": "ωstar",
+    "releaseDate": "2014-02-28",
+    "listPrice": 880,
+    "modelNumber": "OVG-BIMS1D1",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145040229001",
+      "メーカー": "ωstar",
+      "発売日": "2014/02/28",
+      "定価": "880円",
+      "型番": "OVG-BIMS1D1",
+      "声優": "真中海\n葵時緒",
+      "原画": "八宝備仁",
+      "シナリオ": "吉祥寺ドロレス",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:42.670Z"
+  },
+  "histories": [
+    {
+      "id": 30991,
+      "productId": 30977,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:40.670Z"
+    },
+    {
+      "id": 39741,
+      "productId": 30977,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:26.013Z"
+    },
+    {
+      "id": 52113,
+      "productId": 30977,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:42.670Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 139730,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-19T15:32:42.000Z"
+    },
+    {
+      "id": 139729,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-19T15:32:42.000Z"
+    },
+    {
+      "id": 139728,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-19T15:32:42.000Z"
+    },
+    {
+      "id": 103913,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-16T01:23:26.000Z"
+    },
+    {
+      "id": 103912,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-16T01:23:26.000Z"
+    },
+    {
+      "id": 78043,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-15T23:25:40.000Z"
+    },
+    {
+      "id": 78042,
+      "productId": 30977,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-15T23:25:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040229",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040229",
+    "capturedAt": "2026-08-19T15:32:42.670Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145040229.json"
+  }
+}

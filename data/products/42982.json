@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42982,
+    "title": "Windows98/Me/2000/XP DVDソフト 放課後2 ～白濁のレッスン～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042651",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042651.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2006-11-24",
+    "listPrice": 9680,
+    "modelNumber": "BSP-017",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145042651",
+      "メーカー": "BISHOP",
+      "発売日": "2006/11/24",
+      "定価": "9,680円",
+      "型番": "BSP-017",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:30.459Z"
+  },
+  "histories": [
+    {
+      "id": 42996,
+      "productId": 42982,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:55.214Z"
+    },
+    {
+      "id": 44206,
+      "productId": 42982,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:30.459Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042651",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042651",
+    "capturedAt": "2026-08-17T09:38:30.459Z",
+    "items": [],
+    "path": "data/other-shops/145042651.json"
+  }
+}

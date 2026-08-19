@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42910,
+    "title": "Windows98/2000/XP DVDソフト 車輪の国、悠久の少年少女[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050255",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050255.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2007-01-26",
+    "listPrice": 7480,
+    "modelNumber": "AKA-0011",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145050255",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2007/01/26",
+      "定価": "7,480円",
+      "型番": "AKA-0011",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:14.641Z"
+  },
+  "histories": [
+    {
+      "id": 42924,
+      "productId": 42910,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:14.641Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050255",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050255",
+    "capturedAt": "2026-08-17T07:16:14.641Z",
+    "items": [],
+    "path": "data/other-shops/145050255.json"
+  }
+}

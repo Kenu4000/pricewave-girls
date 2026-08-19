@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 8038,
+    "title": "Windows98/Me/2000 DVDソフト TEAPACK1 捕華",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009361",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009361.jpg",
+    "manufacturer": "TEATIME",
+    "releaseDate": "2003-08-08",
+    "listPrice": 7480,
+    "modelNumber": "TEA-P001",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145009361",
+      "メーカー": "TEATIME",
+      "発売日": "2003/08/08",
+      "定価": "7,480円",
+      "型番": "TEA-P001",
+      "キャラクターデザイン": "MA@YA",
+      "シナリオ": "春日アン\n弥生ひばり",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2150,
+    "latestRegularSalePrice": 2150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:35.474Z"
+  },
+  "histories": [
+    {
+      "id": 8052,
+      "productId": 8038,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 23080,
+      "productId": 8038,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:19.823Z"
+    },
+    {
+      "id": 37492,
+      "productId": 8038,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:24.292Z"
+    },
+    {
+      "id": 48016,
+      "productId": 8038,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:35.474Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145009361",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009361",
+    "capturedAt": "2026-08-17T16:10:35.474Z",
+    "items": [],
+    "path": "data/other-shops/145009361.json"
+  }
+}

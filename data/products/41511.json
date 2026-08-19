@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41511,
+    "title": "Windows2000/XP/Vista DVDソフト るいは智を呼ぶ -フルボイスエディション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046633",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046633.jpg",
+    "manufacturer": "暁WORKS",
+    "releaseDate": "2010-09-23",
+    "listPrice": 8580,
+    "modelNumber": "AW-0012",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145046633",
+      "メーカー": "暁WORKS",
+      "発売日": "2010/09/23",
+      "定価": "8,580円",
+      "型番": "AW-0012",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:02.752Z"
+  },
+  "histories": [
+    {
+      "id": 41525,
+      "productId": 41511,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:38.043Z"
+    },
+    {
+      "id": 48769,
+      "productId": 41511,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:02.752Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046633",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046633",
+    "capturedAt": "2026-08-19T04:26:02.752Z",
+    "items": [],
+    "path": "data/other-shops/145046633.json"
+  }
+}

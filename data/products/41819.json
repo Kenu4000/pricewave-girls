@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41819,
+    "title": "Windows2000/XP/Vista DVDソフト 明日の君と逢うために COMPLETE BOX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021949",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021949.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2009-11-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021949",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2009/11/27",
+      "定価": "9,680円",
+      "シナリオ": "北川晴\n鏡遊",
+      "アーティスト": "橋本みゆき",
+      "声優": "風音\n一色ヒカル\n祢乃照果\n沢野みりか\n五行なずな",
+      "原画": "まっぴーらっく.",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク・特典ディスクのみ（その他欠品）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4280,
+    "latestRegularSalePrice": 4280,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク・特典ディスクのみ（その他欠品）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:46.100Z"
+  },
+  "histories": [
+    {
+      "id": 41833,
+      "productId": 41819,
+      "salePrice": 4280,
+      "regularSalePrice": 4280,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:39.434Z"
+    },
+    {
+      "id": 53365,
+      "productId": 41819,
+      "salePrice": 4280,
+      "regularSalePrice": 4280,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク・特典ディスクのみ（その他欠品）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:46.100Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021949",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021949",
+    "capturedAt": "2026-08-19T16:23:46.100Z",
+    "items": [],
+    "path": "data/other-shops/145021949.json"
+  }
+}

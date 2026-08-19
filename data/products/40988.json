@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 40988,
+    "title": "Windows8.1/10 DVDソフト 保健室のセンセーと小悪魔な会長 [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074795",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074795.jpg",
+    "manufacturer": "Citrus",
+    "releaseDate": "2022-05-27",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145074795",
+      "メーカー": "Citrus",
+      "発売日": "2022/05/27",
+      "定価": "3,080円",
+      "原画": "さんた茉莉",
+      "シナリオ": "なかひろ",
+      "声優": "卯衣\n桃山いおん\n真宮ゆず\n杏花\n五行なずな\n咲野かなで\n御柴いすき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:34.856Z"
+  },
+  "histories": [
+    {
+      "id": 41002,
+      "productId": 40988,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:50.881Z"
+    },
+    {
+      "id": 43853,
+      "productId": 40988,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:34.856Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113421,
+      "productId": 40988,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1201,
+      "checkedAt": "2026-08-17T09:35:35.000Z"
+    },
+    {
+      "id": 113420,
+      "productId": 40988,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T09:35:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074795",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074795",
+    "capturedAt": "2026-08-17T09:35:34.856Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1201
+      }
+    ],
+    "path": "data/other-shops/145074795.json"
+  }
+}

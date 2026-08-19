@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42310,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト NOZOKI魔ビギニング",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018358",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018358.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2008-08-29",
+    "listPrice": 7480,
+    "modelNumber": "SKM-850",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018358",
+      "メーカー": "MAIKA",
+      "発売日": "2008/08/29",
+      "定価": "7,480円",
+      "型番": "SKM-850",
+      "原画": "パパイヤ純\nチャイニー・スゥ",
+      "声優": "計名さや香\n金松由花\n柏倉れん\n緒田マリ\n碓氷聖子\n本田みか",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:43.115Z"
+  },
+  "histories": [
+    {
+      "id": 42324,
+      "productId": 42310,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:26.344Z"
+    },
+    {
+      "id": 53715,
+      "productId": 42310,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:43.115Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018358",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018358",
+    "capturedAt": "2026-08-19T16:26:43.115Z",
+    "items": [],
+    "path": "data/other-shops/145018358.json"
+  }
+}

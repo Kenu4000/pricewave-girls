@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 29387,
+    "title": "Windows7/8/8.1/10 DVDソフト 姫と穢欲のサクリファイス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903520",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145903520.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2019-07-26",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-039",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145903520",
+      "メーカー": "エスクード",
+      "発売日": "2019/07/26",
+      "定価": "9,680円",
+      "型番": "ECAVG-039",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4200,
+    "latestRegularSalePrice": 4200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:09:44.200Z"
+  },
+  "histories": [
+    {
+      "id": 29401,
+      "productId": 29387,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:34.312Z"
+    },
+    {
+      "id": 38228,
+      "productId": 29387,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:44.200Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903520",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903520",
+    "capturedAt": "2026-08-16T01:09:44.200Z",
+    "items": [],
+    "path": "data/other-shops/145903520.json"
+  }
+}

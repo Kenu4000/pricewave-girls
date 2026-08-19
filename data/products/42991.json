@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42991,
+    "title": "Windows95/98/Me/2000/XP DVDソフト Libido7 DVD [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015087",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015087.jpg",
+    "manufacturer": "キューティーソフト",
+    "releaseDate": "2006-11-17",
+    "listPrice": 2200,
+    "modelNumber": "QTS-2",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015087",
+      "メーカー": "キューティーソフト",
+      "発売日": "2006/11/17",
+      "定価": "2,200円",
+      "型番": "QTS-2",
+      "原画": "JOYRIDE",
+      "声優": "Ruru\n原島瑠璃子\nみる\n芹園みや\n深井晴花\nYuki-Lin\n如月美琴",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4511,
+    "latestRegularSalePrice": 4511,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:58.383Z"
+  },
+  "histories": [
+    {
+      "id": 43005,
+      "productId": 42991,
+      "salePrice": 4511,
+      "regularSalePrice": 4511,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:58.383Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015087",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015087",
+    "capturedAt": "2026-08-17T07:16:58.383Z",
+    "items": [],
+    "path": "data/other-shops/145015087.json"
+  }
+}

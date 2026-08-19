@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31635,
+    "title": "WindowsXP/Vista/7 DVDソフト Re：birth colony -Lost azurite-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054147",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054147.jpg",
+    "manufacturer": "あっぷりけ",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "APP-006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145054147",
+      "メーカー": "あっぷりけ",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "APP-006",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:02.430Z"
+  },
+  "histories": [
+    {
+      "id": 31649,
+      "productId": 31635,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:12.482Z"
+    },
+    {
+      "id": 40385,
+      "productId": 31635,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:23.977Z"
+    },
+    {
+      "id": 51353,
+      "productId": 31635,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:02.430Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054147",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054147",
+    "capturedAt": "2026-08-19T05:36:02.430Z",
+    "items": [],
+    "path": "data/other-shops/145054147.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30949,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Clover Day’s",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045203",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045203.jpg",
+    "manufacturer": "ALcot",
+    "releaseDate": "2014-03-28",
+    "listPrice": 10340,
+    "modelNumber": "AL-CD-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045203",
+      "メーカー": "ALcot",
+      "発売日": "2014/03/28",
+      "定価": "10,340円",
+      "型番": "AL-CD-001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5200,
+    "latestRegularSalePrice": 5200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:10.713Z"
+  },
+  "histories": [
+    {
+      "id": 30963,
+      "productId": 30949,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:22.950Z"
+    },
+    {
+      "id": 39713,
+      "productId": 30949,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:12.068Z"
+    },
+    {
+      "id": 43682,
+      "productId": 30949,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:10.713Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045203",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045203",
+    "capturedAt": "2026-08-17T09:34:10.713Z",
+    "items": [],
+    "path": "data/other-shops/145045203.json"
+  }
+}

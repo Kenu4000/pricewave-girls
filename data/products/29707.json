@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 29707,
+    "title": "Windows7/8/8.1/10 DVDソフト 夏夜に悶える七人の誘女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059716",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059716.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2017-12-22",
+    "listPrice": 9680,
+    "modelNumber": "WILL-378",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059716",
+      "メーカー": "Guilty",
+      "発売日": "2017/12/22",
+      "定価": "9,680円",
+      "型番": "WILL-378",
+      "原画": "七彌\nの歯\n成海クリスティアーノート\nあいざわひろし\nB-銀河",
+      "シナリオ": "結城\n利波創造\nますのすけ",
+      "声優": "柏木逢花\n水野七海\n葉村夏緒\nいねむりすやこ\n羽鳥いち\n蒼依ハル\n朝井こもも",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:44:55.902Z"
+  },
+  "histories": [
+    {
+      "id": 29721,
+      "productId": 29707,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:51.339Z"
+    },
+    {
+      "id": 44952,
+      "productId": 29707,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:55.902Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059716",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059716",
+    "capturedAt": "2026-08-17T09:44:55.902Z",
+    "items": [],
+    "path": "data/other-shops/145059716.json"
+  }
+}

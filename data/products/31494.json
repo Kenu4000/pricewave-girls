@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31494,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 対魔忍アサギ 3[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052044",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052044.jpg",
+    "manufacturer": "Anime Lilith",
+    "releaseDate": "2012-12-28",
+    "listPrice": 9680,
+    "modelNumber": "LPK-12010",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145052044",
+      "メーカー": "Anime Lilith",
+      "発売日": "2012/12/28",
+      "定価": "9,680円",
+      "型番": "LPK-12010",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7300,
+    "latestRegularSalePrice": 7300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:48.080Z"
+  },
+  "histories": [
+    {
+      "id": 31508,
+      "productId": 31494,
+      "salePrice": 7300,
+      "regularSalePrice": 7300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:36.472Z"
+    },
+    {
+      "id": 40244,
+      "productId": 31494,
+      "salePrice": 7300,
+      "regularSalePrice": 7300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:19.506Z"
+    },
+    {
+      "id": 43755,
+      "productId": 31494,
+      "salePrice": 7300,
+      "regularSalePrice": 7300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:48.080Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052044",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052044",
+    "capturedAt": "2026-08-17T09:34:48.080Z",
+    "items": [],
+    "path": "data/other-shops/145052044.json"
+  }
+}

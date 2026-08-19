@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 41759,
+    "title": "Windows CDソフト Dies irae(ディエス・イレ) -Acta est Fabula- [L・D・O ver.]ソフマップ店舗特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023527",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023527.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2009-12-25",
+    "listPrice": null,
+    "modelNumber": "DIRE-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145023527001",
+      "メーカー": "light",
+      "発売日": "2009/12/25",
+      "型番": "DIRE-SMSP",
+      "原画": "Gユウスケ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:26.375Z"
+  },
+  "histories": [
+    {
+      "id": 41773,
+      "productId": 41759,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:07.275Z"
+    },
+    {
+      "id": 53326,
+      "productId": 41759,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:26.375Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143327,
+      "productId": 41759,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 143326,
+      "productId": 41759,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 143325,
+      "productId": 41759,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 108247,
+      "productId": 41759,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:07.000Z"
+    },
+    {
+      "id": 108246,
+      "productId": 41759,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:05:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023527",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023527",
+    "capturedAt": "2026-08-19T16:23:26.375Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145023527.json"
+  }
+}

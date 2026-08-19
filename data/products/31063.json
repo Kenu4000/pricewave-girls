@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 31063,
+    "title": "WindowsXP/Vista/7/8 DVDソフト そらのいろ、みずのいろ スペシャルプライス版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038750",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038750.jpg",
+    "manufacturer": "Ciel",
+    "releaseDate": "2013-12-20",
+    "listPrice": 4180,
+    "modelNumber": "RCL-034",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038750",
+      "メーカー": "Ciel",
+      "発売日": "2013/12/20",
+      "定価": "4,180円",
+      "型番": "RCL-034",
+      "原画": "Tony",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "みる\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1760,
+    "latestRegularSalePrice": 1760,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:11.879Z"
+  },
+  "histories": [
+    {
+      "id": 31077,
+      "productId": 31063,
+      "salePrice": 1770,
+      "regularSalePrice": 1770,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:31.285Z"
+    },
+    {
+      "id": 44979,
+      "productId": 31063,
+      "salePrice": 1760,
+      "regularSalePrice": 1760,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:11.879Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038750",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038750",
+    "capturedAt": "2026-08-17T09:45:11.879Z",
+    "items": [],
+    "path": "data/other-shops/145038750.json"
+  }
+}

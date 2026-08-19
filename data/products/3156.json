@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 3156,
+    "title": "Windows95/98/Me CDソフト 未来はぼくらの手のなかに",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004502",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004502.jpg",
+    "manufacturer": "ShapeShifter",
+    "releaseDate": "2001-02-16",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004502001",
+      "メーカー": "ShapeShifter",
+      "発売日": "2001/02/16",
+      "定価": "9,680円",
+      "原画": "黒木雅弘\nケンスケ",
+      "シナリオ": "冬寂",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 340,
+    "latestRegularSalePrice": 340,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:34.365Z"
+  },
+  "histories": [
+    {
+      "id": 3170,
+      "productId": 3156,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36966,
+      "productId": 3156,
+      "salePrice": 320,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:41.597Z"
+    },
+    {
+      "id": 47580,
+      "productId": 3156,
+      "salePrice": 340,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:34.365Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126239,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 800,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 126238,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 126237,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 126236,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 97111,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 800,
+      "checkedAt": "2026-08-16T00:58:41.000Z"
+    },
+    {
+      "id": 97110,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T00:58:41.000Z"
+    },
+    {
+      "id": 97109,
+      "productId": 3156,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-16T00:58:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004502",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004502",
+    "capturedAt": "2026-08-17T16:06:34.365Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 320
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 340
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145004502.json"
+  }
+}

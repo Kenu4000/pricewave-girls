@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 42324,
+    "title": "Windows DVDソフト HOOK AMUSEMENT DISC ZERO THREE[体験版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041800",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041800.jpg",
+    "manufacturer": "HOOK",
+    "releaseDate": "2008-08-15",
+    "listPrice": null,
+    "modelNumber": "44801446A",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041800001",
+      "メーカー": "HOOK",
+      "発売日": "2008/08/15",
+      "型番": "44801446A",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:47.755Z"
+  },
+  "histories": [
+    {
+      "id": 42338,
+      "productId": 42324,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:32.512Z"
+    },
+    {
+      "id": 53726,
+      "productId": 42324,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:47.755Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144129,
+      "productId": 42324,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:26:47.000Z"
+    },
+    {
+      "id": 144128,
+      "productId": 42324,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T16:26:47.000Z"
+    },
+    {
+      "id": 144127,
+      "productId": 42324,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:26:47.000Z"
+    },
+    {
+      "id": 109483,
+      "productId": 42324,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:10:32.000Z"
+    },
+    {
+      "id": 109482,
+      "productId": 42324,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:10:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041800",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041800",
+    "capturedAt": "2026-08-19T16:26:47.755Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145041800.json"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 42690,
+    "title": "Windows2000/XP DVDソフト Clear -クリア- [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016399",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016399.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2007-08-24",
+    "listPrice": 9680,
+    "modelNumber": "MOOND-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016399001",
+      "メーカー": "MOONSTONE",
+      "発売日": "2007/08/24",
+      "定価": "9,680円",
+      "型番": "MOOND-004",
+      "原画": "えんどり\nMitha\n稲垣みいこ\n成瀬守",
+      "シナリオ": "呉(呉一郎)",
+      "声優": "石川乃奈\n観村咲子\n水瀬沙季\n大野まりな\n草野花恋\n遠野そよぎ\nみるく\n菱勝\n仲原あおい\n葉村夏緒\n鈴美巴\n島崎比呂\n柚木かなめ\n伊吹奏音\n笠原准\n秋山樹\n波多野和俊\n戸沼ゆず\n牛柳亀三",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:13.976Z"
+  },
+  "histories": [
+    {
+      "id": 42704,
+      "productId": 42690,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:09.021Z"
+    },
+    {
+      "id": 54004,
+      "productId": 42690,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:13.976Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144657,
+      "productId": 42690,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-19T16:29:14.000Z"
+    },
+    {
+      "id": 144656,
+      "productId": 42690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1155,
+      "checkedAt": "2026-08-19T16:29:14.000Z"
+    },
+    {
+      "id": 144655,
+      "productId": 42690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1155,
+      "checkedAt": "2026-08-19T16:29:14.000Z"
+    },
+    {
+      "id": 110182,
+      "productId": 42690,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-17T07:14:09.000Z"
+    },
+    {
+      "id": 110181,
+      "productId": 42690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1165,
+      "checkedAt": "2026-08-17T07:14:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016399",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016399",
+    "capturedAt": "2026-08-19T16:29:13.976Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1155
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1155
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145016399.json"
+  }
+}

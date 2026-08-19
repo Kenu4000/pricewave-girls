@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31817,
+    "title": "WindowsXP/Vista/7 DVDソフト SHINY DAYS[初回プレス限定生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900277",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "オーバーフロー",
+    "releaseDate": "2012-04-27",
+    "listPrice": 10450,
+    "modelNumber": "STACK-008",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900277",
+      "メーカー": "オーバーフロー",
+      "発売日": "2012/04/27",
+      "定価": "10,450円",
+      "型番": "STACK-008",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9999,
+    "latestRegularSalePrice": 9999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:17.734Z"
+  },
+  "histories": [
+    {
+      "id": 31831,
+      "productId": 31817,
+      "salePrice": 9999,
+      "regularSalePrice": 9999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:38.151Z"
+    },
+    {
+      "id": 40563,
+      "productId": 31817,
+      "salePrice": 9999,
+      "regularSalePrice": 9999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:46.825Z"
+    },
+    {
+      "id": 51490,
+      "productId": 31817,
+      "salePrice": 9999,
+      "regularSalePrice": 9999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:17.734Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900277",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900277",
+    "capturedAt": "2026-08-19T05:37:17.734Z",
+    "items": [],
+    "path": "data/other-shops/145900277.json"
+  }
+}

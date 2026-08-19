@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31745,
+    "title": "WindowsXP/Vista/7 DVDソフト Liquid Black Box",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067038",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067038.jpg",
+    "manufacturer": "Liquid(リキッド)",
+    "releaseDate": "2012-06-29",
+    "listPrice": 10780,
+    "modelNumber": "LIQ026",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145067038",
+      "メーカー": "Liquid(リキッド)",
+      "発売日": "2012/06/29",
+      "定価": "10,780円",
+      "型番": "LIQ026",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "メディアのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "メディアのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:48.994Z"
+  },
+  "histories": [
+    {
+      "id": 31759,
+      "productId": 31745,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "メディアのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:41.180Z"
+    },
+    {
+      "id": 40495,
+      "productId": 31745,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "メディアのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:14.773Z"
+    },
+    {
+      "id": 51441,
+      "productId": 31745,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "メディアのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:48.994Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067038",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067038",
+    "capturedAt": "2026-08-19T05:36:48.994Z",
+    "items": [],
+    "path": "data/other-shops/145067038.json"
+  }
+}

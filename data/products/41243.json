@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 41243,
+    "title": "Windows CDソフト ヤンデレな彼女に死ぬほど尽くされるー受精させて?貴方の精子独り占めにして誰にも渡さないー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027813",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027813.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2011-05-13",
+    "listPrice": 2090,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145027813",
+      "メーカー": "Norn",
+      "発売日": "2011/05/13",
+      "定価": "2,090円",
+      "原画": "中乃空",
+      "シナリオ": "遊真一希",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:18.800Z"
+  },
+  "histories": [
+    {
+      "id": 41257,
+      "productId": 41243,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:04.692Z"
+    },
+    {
+      "id": 52946,
+      "productId": 41243,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:18.800Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142549,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:20:19.000Z"
+    },
+    {
+      "id": 142548,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:20:19.000Z"
+    },
+    {
+      "id": 142547,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-19T16:20:19.000Z"
+    },
+    {
+      "id": 107204,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:00:05.000Z"
+    },
+    {
+      "id": 107203,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:00:05.000Z"
+    },
+    {
+      "id": 107202,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-17T07:00:05.000Z"
+    },
+    {
+      "id": 107201,
+      "productId": 41243,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-17T07:00:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027813",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027813",
+    "capturedAt": "2026-08-19T16:20:18.800Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145027813.json"
+  }
+}

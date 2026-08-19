@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42075,
+    "title": "Windows2000/XP/Vista DVDソフト DAISOUNAN",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039847",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039847.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2009-03-27",
+    "listPrice": 9680,
+    "modelNumber": "CARA-90327",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145039847",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2009/03/27",
+      "定価": "9,680円",
+      "型番": "CARA-90327",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:20.739Z"
+  },
+  "histories": [
+    {
+      "id": 42089,
+      "productId": 42075,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:56.982Z"
+    },
+    {
+      "id": 53549,
+      "productId": 42075,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:20.739Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039847",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039847",
+    "capturedAt": "2026-08-19T16:25:20.739Z",
+    "items": [],
+    "path": "data/other-shops/145039847.json"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41579,
+    "title": "Windows2000/XP/Vista/7 CDソフト 先生を孕ませよう!ーひよこの呪いで透明化する 俺!?ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024289",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024289.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2010-07-02",
+    "listPrice": 2420,
+    "modelNumber": "LBL-00030",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024289001",
+      "メーカー": "Lilith",
+      "発売日": "2010/07/02",
+      "定価": "2,420円",
+      "型番": "LBL-00030",
+      "原画": "のぶしと",
+      "シナリオ": "フレーム",
+      "声優": "中瀬ひな\n紘川琴音\nみる\n安堂りゅう\n夏川菜々美",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:21.722Z"
+  },
+  "histories": [
+    {
+      "id": 41593,
+      "productId": 41579,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:26.630Z"
+    },
+    {
+      "id": 53194,
+      "productId": 41579,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:21.722Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143087,
+      "productId": 41579,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:22:21.000Z"
+    },
+    {
+      "id": 143086,
+      "productId": 41579,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-19T16:22:21.000Z"
+    },
+    {
+      "id": 143085,
+      "productId": 41579,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:22:21.000Z"
+    },
+    {
+      "id": 107908,
+      "productId": 41579,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-17T07:03:27.000Z"
+    },
+    {
+      "id": 107907,
+      "productId": 41579,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-17T07:03:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024289",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024289",
+    "capturedAt": "2026-08-19T16:22:21.722Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145024289.json"
+  }
+}

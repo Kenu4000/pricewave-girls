@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41683,
+    "title": "Windows2000/XP/Vista/7 DVDソフト Black-Teacher-Coreーブラック ティーチャー コアー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023459",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023459.jpg",
+    "manufacturer": "ゆ～かりそふと",
+    "releaseDate": "2010-03-26",
+    "listPrice": 4730,
+    "modelNumber": "YK005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023459",
+      "メーカー": "ゆ～かりそふと",
+      "発売日": "2010/03/26",
+      "定価": "4,730円",
+      "型番": "YK005",
+      "原画": "八月朔日珈瑠",
+      "シナリオ": "志村右城",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2080,
+    "latestRegularSalePrice": 2080,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:02.875Z"
+  },
+  "histories": [
+    {
+      "id": 41697,
+      "productId": 41683,
+      "salePrice": 2080,
+      "regularSalePrice": 2080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:29.864Z"
+    },
+    {
+      "id": 53275,
+      "productId": 41683,
+      "salePrice": 2080,
+      "regularSalePrice": 2080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:02.875Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023459",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023459",
+    "capturedAt": "2026-08-19T16:23:02.875Z",
+    "items": [],
+    "path": "data/other-shops/145023459.json"
+  }
+}

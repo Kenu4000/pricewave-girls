@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42878,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 教えてっ!おねてぃー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015412",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015412.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2007-02-09",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015412001",
+      "メーカー": "TRYSET",
+      "発売日": "2007/02/09",
+      "定価": "9,680円",
+      "原画": "うにに・せぶん\n菊水ナポ",
+      "声優": "山咲杏\n北都南\n木村あやか\n柴田蕗\n北条明日香",
+      "シナリオ": "渡部雅弘",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 360,
+    "latestRegularSalePrice": 360,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:57.661Z"
+  },
+  "histories": [
+    {
+      "id": 42892,
+      "productId": 42878,
+      "salePrice": 360,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:57.661Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110543,
+      "productId": 42878,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:15:57.000Z"
+    },
+    {
+      "id": 110542,
+      "productId": 42878,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-17T07:15:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015412",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015412",
+    "capturedAt": "2026-08-17T07:15:57.661Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 360
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      }
+    ],
+    "path": "data/other-shops/145015412.json"
+  }
+}

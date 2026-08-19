@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 41013,
+    "title": "Windows7/8/8.1/10 DVDソフト きゃらぶれーしょん! -乙女は恋してキャラぶれる-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062633",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062633.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2018-09-28",
+    "listPrice": 10780,
+    "modelNumber": "AKT-0030",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062633",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2018/09/28",
+      "定価": "10,780円",
+      "型番": "AKT-0030",
+      "原画": "ナイロン\nなのたろ",
+      "シナリオ": "泰良則充",
+      "声優": "逢真井もこ\nくすはらゆい\n杏花\n北見六花\n白月かなめ\n八尋まみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:34:52.405Z"
+  },
+  "histories": [
+    {
+      "id": 41027,
+      "productId": 41013,
+      "salePrice": 2212,
+      "regularSalePrice": 2212,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:05.099Z"
+    },
+    {
+      "id": 52383,
+      "productId": 41013,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:52.405Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140404,
+      "productId": 41013,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2301,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    },
+    {
+      "id": 140403,
+      "productId": 41013,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2212,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062633",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062633",
+    "capturedAt": "2026-08-19T15:34:52.405Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2212
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2301
+      }
+    ],
+    "path": "data/other-shops/145062633.json"
+  }
+}

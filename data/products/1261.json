@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 1261,
+    "title": "Windows8.1/10 DVDソフト 恥辱失禁トリロジーパック -学園で漏らされた令嬢の黄金聖水-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072454",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072454.jpg",
+    "manufacturer": "アンダームーン",
+    "releaseDate": "2021-08-27",
+    "listPrice": 14080,
+    "modelNumber": "MGGW0238",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072454",
+      "メーカー": "アンダームーン",
+      "発売日": "2021/08/27",
+      "定価": "14,080円",
+      "型番": "MGGW0238",
+      "原画": "そらモチ\n金目鯛ぴんく\nさいとうつかさ",
+      "シナリオ": "kozakana\nSEAN\n玉沢円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 4400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:36:32.331Z"
+  },
+  "histories": [
+    {
+      "id": 1275,
+      "productId": 1261,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6160,
+      "productId": 1261,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:39.000Z"
+    },
+    {
+      "id": 22705,
+      "productId": 1261,
+      "salePrice": 8711,
+      "regularSalePrice": 8711,
+      "buyPrice": 4400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:04.272Z"
+    },
+    {
+      "id": 35541,
+      "productId": 1261,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:46:20.086Z"
+    },
+    {
+      "id": 46117,
+      "productId": 1261,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:36:32.331Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 120597,
+      "productId": 1261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 8711,
+      "checkedAt": "2026-08-17T13:36:32.000Z"
+    },
+    {
+      "id": 120596,
+      "productId": 1261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 8411,
+      "checkedAt": "2026-08-17T13:36:32.000Z"
+    },
+    {
+      "id": 91760,
+      "productId": 1261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 8711,
+      "checkedAt": "2026-08-16T00:46:20.000Z"
+    },
+    {
+      "id": 91759,
+      "productId": 1261,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 8411,
+      "checkedAt": "2026-08-16T00:46:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072454",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072454",
+    "capturedAt": "2026-08-17T13:36:32.331Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 8411
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 8711
+      }
+    ],
+    "path": "data/other-shops/145072454.json"
+  }
+}

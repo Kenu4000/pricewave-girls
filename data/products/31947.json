@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31947,
+    "title": "WindowsXP/Vista/7 DVDソフト あっぱれ! 天下御免 ソフマップオリジナル デジタル原画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031421.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2011-12-22",
+    "listPrice": null,
+    "modelNumber": "APTG-SMSP",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031421",
+      "メーカー": "BaseSon",
+      "発売日": "2011/12/22",
+      "型番": "APTG-SMSP",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 399,
+    "latestRegularSalePrice": 399,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:26.160Z"
+  },
+  "histories": [
+    {
+      "id": 31961,
+      "productId": 31947,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:11.342Z"
+    },
+    {
+      "id": 40690,
+      "productId": 31947,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:54.201Z"
+    },
+    {
+      "id": 43835,
+      "productId": 31947,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:26.160Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031421",
+    "capturedAt": "2026-08-17T09:35:26.160Z",
+    "items": [],
+    "path": "data/other-shops/145031421.json"
+  }
+}

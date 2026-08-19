@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 51509,
+    "title": "Windows3.1/PC-9801/FM-TOWNS CDソフト ランス4.2 エンジェル組",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000051",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000051.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "1995-12-08",
+    "listPrice": 4180,
+    "modelNumber": "ALS-0016",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145000051001",
+      "メーカー": "ALICESOFT",
+      "発売日": "1995/12/08",
+      "定価": "4,180円",
+      "型番": "ALS-0016",
+      "原画": "YUKIMI",
+      "シナリオ": "TADA",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:05:11.416Z"
+  },
+  "histories": [
+    {
+      "id": 51523,
+      "productId": 51509,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:05:11.416Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137383,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    },
+    {
+      "id": 137382,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1050,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    },
+    {
+      "id": 137381,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古",
+      "price": 440,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    },
+    {
+      "id": 137380,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    },
+    {
+      "id": 137379,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    },
+    {
+      "id": 137378,
+      "productId": 51509,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古/ゲームディスクのみ",
+      "price": 440,
+      "checkedAt": "2026-08-19T09:05:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145000051",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000051",
+    "capturedAt": "2026-08-19T09:05:11.416Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古/ゲームディスクのみ",
+        "price": 440
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古",
+        "price": 440
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1050
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145000051.json"
+  }
+}

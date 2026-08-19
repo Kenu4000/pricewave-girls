@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41696,
+    "title": "Windows2000/XP/Vista DVDソフト ひのまるっ[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023849",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023849.jpg",
+    "manufacturer": "WHEEL（ホイール）",
+    "releaseDate": "2010-03-25",
+    "listPrice": 8580,
+    "modelNumber": "WH-0003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145023849",
+      "メーカー": "WHEEL（ホイール）",
+      "発売日": "2010/03/25",
+      "定価": "8,580円",
+      "型番": "WH-0003",
+      "原画": "鳥取砂丘\nもりたん",
+      "シナリオ": "籐太",
+      "声優": "神崎ちひろ\n大波こなみ\n新堂真弓\n金松由花\n雪都さお梨\n小倉結衣",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:06.161Z"
+  },
+  "histories": [
+    {
+      "id": 41710,
+      "productId": 41696,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:36.580Z"
+    },
+    {
+      "id": 53283,
+      "productId": 41696,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:06.161Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023849",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023849",
+    "capturedAt": "2026-08-19T16:23:06.161Z",
+    "items": [],
+    "path": "data/other-shops/145023849.json"
+  }
+}

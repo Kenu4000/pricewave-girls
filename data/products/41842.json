@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41842,
+    "title": "Windows2000/XP/Vista DVDソフト このままじゃ、姉とSEXしてしまう!? -あれ、弟よ、いま中でださなかった?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056400",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056400.jpg",
+    "manufacturer": "OLE-M",
+    "releaseDate": "2009-10-30",
+    "listPrice": 9680,
+    "modelNumber": "ANESEX",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145056400",
+      "メーカー": "OLE-M",
+      "発売日": "2009/10/30",
+      "定価": "9,680円",
+      "型番": "ANESEX",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:56.381Z"
+  },
+  "histories": [
+    {
+      "id": 41856,
+      "productId": 41842,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:52.009Z"
+    },
+    {
+      "id": 53387,
+      "productId": 41842,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:56.381Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056400",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056400",
+    "capturedAt": "2026-08-19T16:23:56.381Z",
+    "items": [],
+    "path": "data/other-shops/145056400.json"
+  }
+}

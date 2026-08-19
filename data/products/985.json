@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 985,
+    "title": "Windows8/10 DVDソフト Honey*Honey*Honey! 普及版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082260",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082260.jpg",
+    "manufacturer": "ベスコレ",
+    "releaseDate": "2024-10-25",
+    "listPrice": 4180,
+    "modelNumber": "BSCN-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "新品 ：145082260000",
+      "メーカー": "ベスコレ",
+      "発売日": "2024/10/25",
+      "定価": "4,180円",
+      "型番": "BSCN-003",
+      "原画": "大空樹",
+      "シナリオ": "ふくろー\nシト",
+      "声優": "南十字いっせい\n嶋田ツユリ\n麦芽ぷりん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3150,
+    "latestRegularSalePrice": 3150,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:35:18.583Z"
+  },
+  "histories": [
+    {
+      "id": 999,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4766,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:49:57.000Z"
+    },
+    {
+      "id": 5886,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:05:59.000Z"
+    },
+    {
+      "id": 22659,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:33:40.813Z"
+    },
+    {
+      "id": 34667,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:34:11.868Z"
+    },
+    {
+      "id": 35370,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:44:56.103Z"
+    },
+    {
+      "id": 45968,
+      "productId": 985,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:35:18.583Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 120174,
+      "productId": 985,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 3150,
+      "checkedAt": "2026-08-17T13:35:18.000Z"
+    },
+    {
+      "id": 120173,
+      "productId": 985,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 2750,
+      "checkedAt": "2026-08-17T13:35:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082260",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082260",
+    "capturedAt": "2026-08-17T13:35:18.583Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 2750
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 3150
+      }
+    ],
+    "path": "data/other-shops/145082260.json"
+  }
+}

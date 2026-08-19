@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 43102,
+    "title": "Windows95 CDソフト ALICE’S COTTAGE 10(アリスの別荘10)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001730",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001730.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2006-08-23",
+    "listPrice": null,
+    "modelNumber": "ALO-0018",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145001730001",
+      "メーカー": "ALICESOFT",
+      "発売日": "2006/08/23",
+      "型番": "ALO-0018",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:40.637Z"
+  },
+  "histories": [
+    {
+      "id": 43116,
+      "productId": 43102,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:56.108Z"
+    },
+    {
+      "id": 44226,
+      "productId": 43102,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:40.637Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

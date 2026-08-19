@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 3003,
+    "title": "Windows95/98 CDソフト 4m(フォーエム)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003485",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003485.jpg",
+    "manufacturer": "くるみ/eros.",
+    "releaseDate": "2001-03-24",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003485001",
+      "メーカー": "くるみ/eros.",
+      "発売日": "2001/03/24",
+      "定価": "8,580円",
+      "原画": "石田あきら",
+      "シナリオ": "遠藤正二朗",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:22.845Z"
+  },
+  "histories": [
+    {
+      "id": 3017,
+      "productId": 3003,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 36830,
+      "productId": 3003,
+      "salePrice": 800,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:30.619Z"
+    },
+    {
+      "id": 47460,
+      "productId": 3003,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:22.845Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

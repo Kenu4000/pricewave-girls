@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42657,
+    "title": "Windows2000/XP/Vista DVDソフト スチュワーデス桃語",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016592",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016592.jpg",
+    "manufacturer": "ほにゃららPink",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": "TH-01",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016592",
+      "メーカー": "ほにゃららPink",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "型番": "TH-01",
+      "原画": "綾風柳晶",
+      "シナリオ": "野永ももこ",
+      "声優": "月野きらら\n萌原ぷりん\n伊藤瞳子\n緒田マリ\n東かりん",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:58.737Z"
+  },
+  "histories": [
+    {
+      "id": 42671,
+      "productId": 42657,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:52.548Z"
+    },
+    {
+      "id": 53974,
+      "productId": 42657,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:58.737Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016592",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016592",
+    "capturedAt": "2026-08-19T16:28:58.737Z",
+    "items": [],
+    "path": "data/other-shops/145016592.json"
+  }
+}

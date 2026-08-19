@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 8487,
+    "title": "Windows2000/XP/Vista/7/8 DVDソフト おすめす☆らぶKiss 合盛ツインパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041967",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041967.jpg",
+    "manufacturer": "び～にゃん＆ミルククラウン",
+    "releaseDate": "2014-04-25",
+    "listPrice": 6050,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145041967",
+      "メーカー": "び～にゃん＆ミルククラウン",
+      "発売日": "2014/04/25",
+      "定価": "6,050円",
+      "原画": "もりたん",
+      "シナリオ": "ぴよみず",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:09.229Z"
+  },
+  "histories": [
+    {
+      "id": 8501,
+      "productId": 8487,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 37852,
+      "productId": 8487,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:25.455Z"
+    },
+    {
+      "id": 48315,
+      "productId": 8487,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:09.229Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1967,
+      "productId": 8487,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1966,
+      "productId": 8487,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041967",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041967",
+    "capturedAt": "2026-08-17T16:13:09.229Z",
+    "items": [],
+    "path": "data/other-shops/145041967.json"
+  }
+}

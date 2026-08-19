@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 31622,
+    "title": "WindowsXP/Vista/7 CDソフト 闇姫煉辱 -終わらない正欺の鉄槌-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034442",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034442.jpg",
+    "manufacturer": "NEGALION",
+    "releaseDate": "2012-10-12",
+    "listPrice": 2200,
+    "modelNumber": "NE-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034442",
+      "メーカー": "NEGALION",
+      "発売日": "2012/10/12",
+      "定価": "2,200円",
+      "型番": "NE-001",
+      "原画": "無望菜志",
+      "シナリオ": "玉沢円",
+      "声優": "ももぞの薫\n悠はるか\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:57.074Z"
+  },
+  "histories": [
+    {
+      "id": 31636,
+      "productId": 31622,
+      "salePrice": 600,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:04.392Z"
+    },
+    {
+      "id": 40372,
+      "productId": 31622,
+      "salePrice": 600,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:18.703Z"
+    },
+    {
+      "id": 51344,
+      "productId": 31622,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:57.074Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105068,
+      "productId": 31622,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-16T01:30:18.000Z"
+    },
+    {
+      "id": 105067,
+      "productId": 31622,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T01:30:18.000Z"
+    },
+    {
+      "id": 79223,
+      "productId": 31622,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-15T23:42:04.000Z"
+    },
+    {
+      "id": 79222,
+      "productId": 31622,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-15T23:42:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034442",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034442",
+    "capturedAt": "2026-08-19T05:35:57.074Z",
+    "items": [],
+    "path": "data/other-shops/145034442.json"
+  }
+}

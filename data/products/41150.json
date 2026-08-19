@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 41150,
+    "title": "WindowsXP/Vista/7 DVDソフト あっぷるみんとワークス 姉妹＆天使パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028732",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028732.jpg",
+    "manufacturer": "appleC.C.(あっぷるしーつー)",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028732001",
+      "メーカー": "appleC.C.(あっぷるしーつー)",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "原画": "YUKIRIN",
+      "シナリオ": "Peter本田\n天崎カケル\n黄支亮\n関町台風\n高嶋栄二",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:52.667Z"
+  },
+  "histories": [
+    {
+      "id": 41164,
+      "productId": 41150,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:16.069Z"
+    },
+    {
+      "id": 43887,
+      "productId": 41150,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:52.667Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113521,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:35:52.000Z"
+    },
+    {
+      "id": 113520,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T09:35:52.000Z"
+    },
+    {
+      "id": 113519,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 450,
+      "checkedAt": "2026-08-17T09:35:52.000Z"
+    },
+    {
+      "id": 106991,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:59:16.000Z"
+    },
+    {
+      "id": 106990,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T06:59:16.000Z"
+    },
+    {
+      "id": 106989,
+      "productId": 41150,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 450,
+      "checkedAt": "2026-08-17T06:59:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028732",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028732",
+    "capturedAt": "2026-08-17T09:35:52.667Z",
+    "items": [
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145028732.json"
+  }
+}

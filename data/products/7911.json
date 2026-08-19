@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 7911,
+    "title": "Windows95/98 CDソフト tremolo トレモロ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904008.jpg",
+    "manufacturer": "メルロー",
+    "releaseDate": "2000-12-07",
+    "listPrice": 9680,
+    "modelNumber": "GES-W004",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145904008",
+      "メーカー": "メルロー",
+      "発売日": "2000/12/07",
+      "定価": "9,680円",
+      "型番": "GES-W004",
+      "原画": "ビューティ・ヘア",
+      "声優": "森本まこと\n桜坂かい\n彩世ゆう\n茉莉奈\n永瀬江美弥",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2840,
+    "latestRegularSalePrice": 2840,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:43.259Z"
+  },
+  "histories": [
+    {
+      "id": 7925,
+      "productId": 7911,
+      "salePrice": 4590,
+      "regularSalePrice": 4590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 37377,
+      "productId": 7911,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:18.892Z"
+    },
+    {
+      "id": 47920,
+      "productId": 7911,
+      "salePrice": 2840,
+      "regularSalePrice": 2840,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:43.259Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145904008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145904008",
+    "capturedAt": "2026-08-17T16:09:43.259Z",
+    "items": [],
+    "path": "data/other-shops/145904008.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 42750,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト レコンキスタ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015699",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015699.jpg",
+    "manufacturer": "コットンソフト",
+    "releaseDate": "2007-06-22",
+    "listPrice": 9680,
+    "modelNumber": "COTTON-002DVD",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015699001",
+      "メーカー": "コットンソフト",
+      "発売日": "2007/06/22",
+      "定価": "9,680円",
+      "型番": "COTTON-002DVD",
+      "原画": "笹井さじ\nあんころもち",
+      "シナリオ": "大月佑佑\n海富一\n秋津環",
+      "声優": "如月葵\n北都南\n羽沢月乃\n芝原のぞみ\nまきいづみ\n松田理沙\n青山ゆかり\n一色ヒカル",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4200,
+    "latestRegularSalePrice": 4200,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:44.002Z"
+  },
+  "histories": [
+    {
+      "id": 42764,
+      "productId": 42750,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:44.002Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110322,
+      "productId": 42750,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4200,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110321,
+      "productId": 42750,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 3990,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110320,
+      "productId": 42750,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 3830,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110319,
+      "productId": 42750,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古サントラCD・ミニタオル欠品",
+      "price": 2000,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015699",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015699",
+    "capturedAt": "2026-08-17T07:14:44.002Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古サントラCD・ミニタオル欠品",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 3830
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 3990
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4200
+      }
+    ],
+    "path": "data/other-shops/145015699.json"
+  }
+}

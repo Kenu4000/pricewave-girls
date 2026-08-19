@@ -1,0 +1,411 @@
+{
+  "product": {
+    "id": 30165,
+    "title": "WindowsVista/7/8/10 DVDソフト PURELY×CATION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054497.jpg",
+    "manufacturer": "hibiki works",
+    "releaseDate": "2016-04-28",
+    "listPrice": 10780,
+    "modelNumber": "HW-0010",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054497",
+      "メーカー": "hibiki works",
+      "発売日": "2016/04/28",
+      "定価": "10,780円",
+      "型番": "HW-0010",
+      "原画": "架宮華",
+      "シナリオ": "おぅんごぅる\n富岡征士郎",
+      "声優": "唯香\nヒマリ\n秋野花\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 450,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:51.115Z"
+  },
+  "histories": [
+    {
+      "id": 30179,
+      "productId": 30165,
+      "salePrice": 1100,
+      "regularSalePrice": 1200,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:27.216Z"
+    },
+    {
+      "id": 38972,
+      "productId": 30165,
+      "salePrice": 1100,
+      "regularSalePrice": 1200,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:27.917Z"
+    },
+    {
+      "id": 49966,
+      "productId": 30165,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:51.115Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133512,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスク・説明書のみ",
+      "price": 2000,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133511,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+      "price": 1800,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133510,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133509,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133508,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133507,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133506,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133505,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133504,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 102272,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスク・説明書のみ",
+      "price": 2000,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102271,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+      "price": 1800,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102270,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102269,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102268,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102267,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102266,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102265,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102264,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102263,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 102262,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-16T01:16:28.000Z"
+    },
+    {
+      "id": 76312,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスク・説明書のみ",
+      "price": 2000,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76311,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+      "price": 1800,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76310,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76309,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76308,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76307,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76306,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76305,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76304,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76303,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    },
+    {
+      "id": 76302,
+      "productId": 30165,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-15T23:17:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054497",
+    "capturedAt": "2026-08-19T04:34:51.115Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 1280
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+        "price": 1800
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・特典ディスク・説明書のみ",
+        "price": 2000
+      }
+    ],
+    "path": "data/other-shops/145054497.json"
+  }
+}

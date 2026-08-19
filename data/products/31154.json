@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31154,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 机乙女。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038522",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038522.jpg",
+    "manufacturer": "M de PINK",
+    "releaseDate": "2013-10-25",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038522",
+      "メーカー": "M de PINK",
+      "発売日": "2013/10/25",
+      "定価": "6,380円",
+      "原画": "saxasa",
+      "シナリオ": "La.",
+      "声優": "森山いちご\n花南\n橘まお",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3480,
+    "latestRegularSalePrice": 3480,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:57.226Z"
+  },
+  "histories": [
+    {
+      "id": 31168,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:27.123Z"
+    },
+    {
+      "id": 39914,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:01.601Z"
+    },
+    {
+      "id": 51000,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:57.226Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038522",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038522",
+    "capturedAt": "2026-08-19T05:32:57.226Z",
+    "items": [],
+    "path": "data/other-shops/145038522.json"
+  }
+}

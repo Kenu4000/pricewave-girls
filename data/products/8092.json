@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 8092,
+    "title": "Windows98/Me/2000/XPソフト 夜勤病棟・弐 [新パッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012233",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012233.jpg",
+    "manufacturer": "MnoViolet",
+    "releaseDate": "2004-11-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012233",
+      "メーカー": "MnoViolet",
+      "発売日": "2004/11/04",
+      "定価": "9,680円",
+      "声優": "大野勝人\n野神奈々\n浅野麻理亜\n岩田由貴\n須本彩奈\n北条明日香\n御影由宇\n郷野三郎\n星置薫\n水代悠也\n大和谷康介",
+      "原画": "須賀清\n森田和明",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:51.889Z"
+  },
+  "histories": [
+    {
+      "id": 8106,
+      "productId": 8092,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 23089,
+      "productId": 8092,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:24.555Z"
+    },
+    {
+      "id": 37543,
+      "productId": 8092,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:47.399Z"
+    },
+    {
+      "id": 48048,
+      "productId": 8092,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:51.889Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145012233",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012233",
+    "capturedAt": "2026-08-17T16:10:51.889Z",
+    "items": [],
+    "path": "data/other-shops/145012233.json"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 41901,
+    "title": "Windows2000/XP/Vista DVDソフト こすぶろ・はじめました!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021025",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021025.jpg",
+    "manufacturer": "COIN-SOFTWARE",
+    "releaseDate": "2009-08-28",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021025001",
+      "メーカー": "COIN-SOFTWARE",
+      "発売日": "2009/08/28",
+      "定価": "6,380円",
+      "原画": "武蔵ダイチ",
+      "シナリオ": "LEY\n東風流雲",
+      "声優": "千早美来\n紘川琴音\nてんかわののみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:02.887Z"
+  },
+  "histories": [
+    {
+      "id": 41915,
+      "productId": 41901,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:21.478Z"
+    },
+    {
+      "id": 44033,
+      "productId": 41901,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:02.887Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113868,
+      "productId": 41901,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-17T09:37:03.000Z"
+    },
+    {
+      "id": 113867,
+      "productId": 41901,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-17T09:37:03.000Z"
+    },
+    {
+      "id": 108517,
+      "productId": 41901,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-17T07:06:21.000Z"
+    },
+    {
+      "id": 108516,
+      "productId": 41901,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-17T07:06:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021025",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021025",
+    "capturedAt": "2026-08-17T09:37:02.887Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      }
+    ],
+    "path": "data/other-shops/145021025.json"
+  }
+}

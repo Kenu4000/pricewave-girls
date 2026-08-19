@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41647,
+    "title": "WindowsXP/Vista/7 DVDソフト 霧谷伯爵家の六姉妹",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045342",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045342.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2010-05-28",
+    "listPrice": 9680,
+    "modelNumber": "KA-0053",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145045342",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2010/05/28",
+      "定価": "9,680円",
+      "型番": "KA-0053",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4300,
+    "latestRegularSalePrice": 4300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:46.839Z"
+  },
+  "histories": [
+    {
+      "id": 41661,
+      "productId": 41647,
+      "salePrice": 4300,
+      "regularSalePrice": 4300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:09.701Z"
+    },
+    {
+      "id": 53243,
+      "productId": 41647,
+      "salePrice": 4300,
+      "regularSalePrice": 4300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:46.839Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045342",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045342",
+    "capturedAt": "2026-08-19T16:22:46.839Z",
+    "items": [],
+    "path": "data/other-shops/145045342.json"
+  }
+}

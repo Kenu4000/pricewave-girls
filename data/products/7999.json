@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 7999,
+    "title": "WindowsXP/Vista/7 DVDソフト FORTUNE ARTERIAL -フォーチュン アテリアル- Windows7対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029141",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029141.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029141",
+      "メーカー": "オーガスト",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "原画": "べっかんこう",
+      "シナリオ": "安西秀明\n榊原拓\n内田ヒロユキ",
+      "声優": "姫川あいり\n観村咲子\n手塚まき\n鷹月さくら\n楠鈴音",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3800,
+    "latestRegularSalePrice": 3800,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:20.327Z"
+  },
+  "histories": [
+    {
+      "id": 8013,
+      "productId": 7999,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 23073,
+      "productId": 7999,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:15.701Z"
+    },
+    {
+      "id": 37458,
+      "productId": 7999,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:07.372Z"
+    },
+    {
+      "id": 47988,
+      "productId": 7999,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:20.327Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029141",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029141",
+    "capturedAt": "2026-08-17T16:10:20.327Z",
+    "items": [],
+    "path": "data/other-shops/145029141.json"
+  }
+}

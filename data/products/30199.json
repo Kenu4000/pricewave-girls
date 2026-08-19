@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 30199,
+    "title": "Windows CDソフト オモカゲ -えっちなハプニング!? なんでもどんとこい!- 予約特典 「これってオモカゲのせい!? エロ下着パッチROM」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054209",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054209.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2016-03-25",
+    "listPrice": null,
+    "modelNumber": "AKT-1007",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145054209001",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2016/03/25",
+      "型番": "AKT-1007",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:17:53.269Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:26:40.264Z"
+  },
+  "histories": [
+    {
+      "id": 30213,
+      "productId": 30199,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:53.098Z"
+    },
+    {
+      "id": 39000,
+      "productId": 30199,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:42.630Z"
+    },
+    {
+      "id": 50294,
+      "productId": 30199,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:40.264Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135027,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:26:40.000Z"
+    },
+    {
+      "id": 135026,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T05:26:40.000Z"
+    },
+    {
+      "id": 135025,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:26:40.000Z"
+    },
+    {
+      "id": 102309,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T01:16:42.000Z"
+    },
+    {
+      "id": 102308,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-16T01:16:42.000Z"
+    },
+    {
+      "id": 76354,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:17:53.000Z"
+    },
+    {
+      "id": 76353,
+      "productId": 30199,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-15T23:17:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054209",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054209",
+    "capturedAt": "2026-08-19T05:26:40.264Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145054209.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 8157,
+    "title": "Windows2000/XP/Vista CDソフト マーブル★ブルマ [パッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018714",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018714.jpg",
+    "manufacturer": "Noesis",
+    "releaseDate": "2008-10-10",
+    "listPrice": 3300,
+    "modelNumber": "GUN-0010",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018714",
+      "メーカー": "Noesis",
+      "発売日": "2008/10/10",
+      "定価": "3,300円",
+      "型番": "GUN-0010",
+      "原画": "珈琲貴族",
+      "シナリオ": "鈴鹿美弥",
+      "声優": "倉田まりや\n高槻つばさ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:10.967Z"
+  },
+  "histories": [
+    {
+      "id": 8171,
+      "productId": 8157,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37580,
+      "productId": 8157,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:04.893Z"
+    },
+    {
+      "id": 48085,
+      "productId": 8157,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:10.967Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018714",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018714",
+    "capturedAt": "2026-08-17T16:11:10.967Z",
+    "items": [],
+    "path": "data/other-shops/145018714.json"
+  }
+}

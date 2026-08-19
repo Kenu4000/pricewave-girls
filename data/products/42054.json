@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42054,
+    "title": "Windows2000/XP/Vista DVDソフト Flyable Heart[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048366",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "ユニゾンシフト：ブロッサム",
+    "releaseDate": "2009-04-03",
+    "listPrice": 9680,
+    "modelNumber": "SPUS-21110",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145048366",
+      "メーカー": "ユニゾンシフト：ブロッサム",
+      "発売日": "2009/04/03",
+      "定価": "9,680円",
+      "型番": "SPUS-21110",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:06.939Z"
+  },
+  "histories": [
+    {
+      "id": 42068,
+      "productId": 42054,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:47.299Z"
+    },
+    {
+      "id": 48780,
+      "productId": 42054,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:06.939Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048366",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048366",
+    "capturedAt": "2026-08-19T04:26:06.939Z",
+    "items": [],
+    "path": "data/other-shops/145048366.json"
+  }
+}

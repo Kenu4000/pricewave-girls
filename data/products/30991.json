@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30991,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ハピメア Fragmentation Dream",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079043.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2014-02-28",
+    "listPrice": 9680,
+    "modelNumber": "PURPLE-050",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145079043",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2014/02/28",
+      "定価": "9,680円",
+      "型番": "PURPLE-050",
+      "原画": "月杜尋\n克",
+      "シナリオ": "森崎亮人",
+      "声優": "平野響子\n北見六花\n青山ゆかり\n風音\n青葉りんご\n遠野そよぎ\n小池竹蔵\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)・サウンドトラックCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)・サウンドトラックCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:57.641Z"
+  },
+  "histories": [
+    {
+      "id": 31005,
+      "productId": 30991,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:48.149Z"
+    },
+    {
+      "id": 39755,
+      "productId": 30991,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:34.043Z"
+    },
+    {
+      "id": 50878,
+      "productId": 30991,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:57.641Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145079043",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079043",
+    "capturedAt": "2026-08-19T05:31:57.641Z",
+    "items": [],
+    "path": "data/other-shops/145079043.json"
+  }
+}

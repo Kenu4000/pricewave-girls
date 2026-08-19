@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 29501,
+    "title": "Windows7/8/8.1/10 DVDソフト 学園2 -淫虐の図式- インモラルエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063622",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063622.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2018-11-30",
+    "listPrice": 6380,
+    "modelNumber": "BSP-056",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145063622001",
+      "メーカー": "BISHOP",
+      "発売日": "2018/11/30",
+      "定価": "6,380円",
+      "型番": "BSP-056",
+      "原画": "水島・多也",
+      "シナリオ": "庵乃音人\n酒巻雨竜\n麿\n紫楼巧",
+      "声優": "古林めぐる\nYUKI\n緒田マリ\n草柳順子\n紫苑みやび\n深井晴花\n白井綾乃\n岩泉まい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "6900",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 6500,
+    "latestRegularSalePrice": 6900,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:07:42.391Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:07:42.194Z"
+  },
+  "histories": [
+    {
+      "id": 29515,
+      "productId": 29501,
+      "salePrice": 6500,
+      "regularSalePrice": 6900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:42.194Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 74818,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 6500,
+      "checkedAt": "2026-08-15T23:07:42.000Z"
+    },
+    {
+      "id": 74817,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6211,
+      "checkedAt": "2026-08-15T23:07:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063622",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063622",
+    "capturedAt": "2026-08-15T23:07:42.194Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6211
+      },
+      {
+        "storeName": "Image 1 2 of 2 中古",
+        "condition": "状態不明",
+        "price": 6500
+      }
+    ],
+    "path": "data/other-shops/145063622.json"
+  }
+}

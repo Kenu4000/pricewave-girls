@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 31025,
+    "title": "WindowsXP/Vista/7 DVDソフト ××な彼女のつくりかた2 プレミアムパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040213",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040213.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2014-01-31",
+    "listPrice": 11638,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145040213001",
+      "メーカー": "KISS",
+      "発売日": "2014/01/31",
+      "定価": "11,638円",
+      "原画": "金目鯛ぴんく\n弥舞秀人",
+      "声優": "杉原茉莉\n青井美海\n佐倉もも花\n沢代りず\nももぞの薫\n御苑生メイ\n青空ラムネ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "5300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5300,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:26:06.226Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:11.238Z"
+  },
+  "histories": [
+    {
+      "id": 31039,
+      "productId": 31025,
+      "salePrice": 5000,
+      "regularSalePrice": 5300,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:26:06.121Z"
+    },
+    {
+      "id": 39788,
+      "productId": 31025,
+      "salePrice": 5000,
+      "regularSalePrice": 5300,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:51.942Z"
+    },
+    {
+      "id": 50906,
+      "productId": 31025,
+      "salePrice": 5000,
+      "regularSalePrice": 5300,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:11.238Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136314,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 3290,
+      "checkedAt": "2026-08-19T05:32:11.000Z"
+    },
+    {
+      "id": 136313,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 3180,
+      "checkedAt": "2026-08-19T05:32:11.000Z"
+    },
+    {
+      "id": 104004,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 3290,
+      "checkedAt": "2026-08-16T01:23:52.000Z"
+    },
+    {
+      "id": 104003,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 3180,
+      "checkedAt": "2026-08-16T01:23:52.000Z"
+    },
+    {
+      "id": 78135,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 3290,
+      "checkedAt": "2026-08-15T23:26:06.000Z"
+    },
+    {
+      "id": 78134,
+      "productId": 31025,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 3180,
+      "checkedAt": "2026-08-15T23:26:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

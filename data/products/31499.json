@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31499,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 俺と5人の嫁さんがラブラブなのは、未来からきた赤ちゃんのおかげに違いない!?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901050",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901050.jpg",
+    "manufacturer": "onomatope*",
+    "releaseDate": "2012-12-21",
+    "listPrice": 9680,
+    "modelNumber": "ONOMATOPE-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145901050",
+      "メーカー": "onomatope*",
+      "発売日": "2012/12/21",
+      "定価": "9,680円",
+      "型番": "ONOMATOPE-003",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1924,
+    "latestRegularSalePrice": 1924,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:09.118Z"
+  },
+  "histories": [
+    {
+      "id": 31513,
+      "productId": 31499,
+      "salePrice": 1924,
+      "regularSalePrice": 1924,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:38.025Z"
+    },
+    {
+      "id": 40249,
+      "productId": 31499,
+      "salePrice": 1924,
+      "regularSalePrice": 1924,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:20.907Z"
+    },
+    {
+      "id": 51259,
+      "productId": 31499,
+      "salePrice": 1924,
+      "regularSalePrice": 1924,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:09.118Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901050",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901050",
+    "capturedAt": "2026-08-19T05:35:09.118Z",
+    "items": [],
+    "path": "data/other-shops/145901050.json"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 41034,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト クラ☆クラ -CLASSY☆CRANBERRY’S-[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053708",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053708.jpg",
+    "manufacturer": "ωstar",
+    "releaseDate": "2016-03-25",
+    "listPrice": 3960,
+    "modelNumber": "OVG-CLAD1",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053708",
+      "メーカー": "ωstar",
+      "発売日": "2016/03/25",
+      "定価": "3,960円",
+      "型番": "OVG-CLAD1",
+      "原画": "八宝備仁",
+      "シナリオ": "保住圭\n猫コスメ",
+      "声優": "空野太陽\n萌木唯\n榊木春乃\n伊東サラ\nのらのねこ\n彩世ゆう\n上井草住\n漢道男\n青山いちこ\n遠野そよぎ\n佐藤千幸\n南唐木田くぅ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:46.692Z"
+  },
+  "histories": [
+    {
+      "id": 41048,
+      "productId": 41034,
+      "salePrice": 3100,
+      "regularSalePrice": 3100,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:14.627Z"
+    },
+    {
+      "id": 52791,
+      "productId": 41034,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:46.692Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142224,
+      "productId": 41034,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-19T16:18:47.000Z"
+    },
+    {
+      "id": 142223,
+      "productId": 41034,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2701,
+      "checkedAt": "2026-08-19T16:18:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053708",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053708",
+    "capturedAt": "2026-08-19T16:18:46.692Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2701
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3100
+      }
+    ],
+    "path": "data/other-shops/145053708.json"
+  }
+}

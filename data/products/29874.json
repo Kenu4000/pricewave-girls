@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29874,
+    "title": "Windows7/8.1/10 DVDソフト ハニーセレクト パーティー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061698",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061698.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2017-04-28",
+    "listPrice": 8580,
+    "modelNumber": "ILN-105",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061698",
+      "メーカー": "ILLUSION",
+      "発売日": "2017/04/28",
+      "定価": "8,580円",
+      "型番": "ILN-105",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:19.789Z"
+  },
+  "histories": [
+    {
+      "id": 29888,
+      "productId": 29874,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:38.269Z"
+    },
+    {
+      "id": 38693,
+      "productId": 29874,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:04.274Z"
+    },
+    {
+      "id": 49761,
+      "productId": 29874,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:19.789Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061698",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061698",
+    "capturedAt": "2026-08-19T04:33:19.789Z",
+    "items": [],
+    "path": "data/other-shops/145061698.json"
+  }
+}

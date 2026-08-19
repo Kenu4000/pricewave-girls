@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 43144,
+    "title": "WindowsXP/Vista/7 DVDソフト 姦染4～the day after～[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040649",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040649.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2010-04-23",
+    "listPrice": 9680,
+    "modelNumber": "JSP-306",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040649",
+      "メーカー": "SPEED",
+      "発売日": "2010/04/23",
+      "定価": "9,680円",
+      "型番": "JSP-306",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:49:03.636Z"
+  },
+  "histories": [
+    {
+      "id": 43158,
+      "productId": 43144,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:49:03.636Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040649",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040649",
+    "capturedAt": "2026-08-17T07:49:03.636Z",
+    "items": [],
+    "path": "data/other-shops/145040649.json"
+  }
+}

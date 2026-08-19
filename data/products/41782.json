@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41782,
+    "title": "Windows2000/XP/Vista DVDソフト 彼女×彼女×彼女 ドキドキPack!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041059",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041059.jpg",
+    "manufacturer": "ωstar",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": "OMGST-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145041059",
+      "メーカー": "ωstar",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "型番": "OMGST-001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4444,
+    "latestRegularSalePrice": 4444,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:33.815Z"
+  },
+  "histories": [
+    {
+      "id": 41796,
+      "productId": 41782,
+      "salePrice": 4444,
+      "regularSalePrice": 4444,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:20.392Z"
+    },
+    {
+      "id": 53339,
+      "productId": 41782,
+      "salePrice": 4444,
+      "regularSalePrice": 4444,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:33.815Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041059",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041059",
+    "capturedAt": "2026-08-19T16:23:33.815Z",
+    "items": [],
+    "path": "data/other-shops/145041059.json"
+  }
+}

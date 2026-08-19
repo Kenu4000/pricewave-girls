@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 51676,
+    "title": "Windows98SE/Me/2000/XP CDソフト とらぶる! シスタールーム",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015834",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015834.jpg",
+    "manufacturer": "UNDEAD",
+    "releaseDate": "2007-08-31",
+    "listPrice": 7480,
+    "modelNumber": "UNDEAD-0708",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015834001",
+      "メーカー": "UNDEAD",
+      "発売日": "2007/08/31",
+      "定価": "7,480円",
+      "型番": "UNDEAD-0708",
+      "原画/シナリオ": "JOYRIDE",
+      "声優": "岩泉まい\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "原画": "/",
+      "シナリオ": "JOYRIDE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:52.903Z"
+  },
+  "histories": [
+    {
+      "id": 51690,
+      "productId": 51676,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:52.903Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137854,
+      "productId": 51676,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T09:29:53.000Z"
+    },
+    {
+      "id": 137853,
+      "productId": 51676,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T09:29:53.000Z"
+    },
+    {
+      "id": 137852,
+      "productId": 51676,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T09:29:53.000Z"
+    },
+    {
+      "id": 137851,
+      "productId": 51676,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-19T09:29:53.000Z"
+    },
+    {
+      "id": 137850,
+      "productId": 51676,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 430,
+      "checkedAt": "2026-08-19T09:29:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015834",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015834",
+    "capturedAt": "2026-08-19T09:29:52.903Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 430
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 430
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145015834.json"
+  }
+}

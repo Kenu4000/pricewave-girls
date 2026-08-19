@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31225,
+    "title": "Windows CDソフト 黄雷のガクトゥーン Sofmap特典デジタルコンテンツ「あたしの碩学さま」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038329.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2013-08-23",
+    "listPrice": null,
+    "modelNumber": "LIAR-1308SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145038329",
+      "メーカー": "ライアーソフト",
+      "発売日": "2013/08/23",
+      "型番": "LIAR-1308SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ（未開封）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ（未開封）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:22.992Z"
+  },
+  "histories": [
+    {
+      "id": 31239,
+      "productId": 31225,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:22.273Z"
+    },
+    {
+      "id": 39982,
+      "productId": 31225,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:36.112Z"
+    },
+    {
+      "id": 51048,
+      "productId": 31225,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ（未開封）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:22.992Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038329",
+    "capturedAt": "2026-08-19T05:33:22.992Z",
+    "items": [],
+    "path": "data/other-shops/145038329.json"
+  }
+}

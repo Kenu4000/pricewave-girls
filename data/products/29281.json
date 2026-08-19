@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 29281,
+    "title": "Windows8.1/10 DVDソフト 竜姫ぐーたらいふ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069678",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069678.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2020-10-30",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069678",
+      "メーカー": "Whirlpool",
+      "発売日": "2020/10/30",
+      "定価": "3,300円",
+      "原画": "鷹乃ゆき",
+      "SD原画": "またたび丸。",
+      "シナリオ": "近江谷宥",
+      "声優": "鳴瀬なごみ\n飴川紫乃\n桃山いおん\n小波すず",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:17.048Z"
+  },
+  "histories": [
+    {
+      "id": 29295,
+      "productId": 29281,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:22.699Z"
+    },
+    {
+      "id": 38127,
+      "productId": 29281,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:46.546Z"
+    },
+    {
+      "id": 44841,
+      "productId": 29281,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:00.969Z"
+    },
+    {
+      "id": 49082,
+      "productId": 29281,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:17.048Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069678",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069678",
+    "capturedAt": "2026-08-19T04:28:17.048Z",
+    "items": [],
+    "path": "data/other-shops/145069678.json"
+  }
+}

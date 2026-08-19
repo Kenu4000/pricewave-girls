@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 31117,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 真章 幻夢館 スペシャルプライス版(Win8対応)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038734",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038734.jpg",
+    "manufacturer": "Ciel",
+    "releaseDate": "2013-11-22",
+    "listPrice": 2728,
+    "modelNumber": "RCL-033",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038734",
+      "メーカー": "Ciel",
+      "発売日": "2013/11/22",
+      "定価": "2,728円",
+      "型番": "RCL-033",
+      "原画": "Tony",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "鈴美巴\n如月美琴\n内村みるく\n柑野ミカン\n久代厳\nジョウ・ブルマン",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:12.054Z"
+  },
+  "histories": [
+    {
+      "id": 31131,
+      "productId": 31117,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:06.552Z"
+    },
+    {
+      "id": 44980,
+      "productId": 31117,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:12.054Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038734",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038734",
+    "capturedAt": "2026-08-17T09:45:12.054Z",
+    "items": [],
+    "path": "data/other-shops/145038734.json"
+  }
+}

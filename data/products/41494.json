@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 41494,
+    "title": "WindowsXP/Vista DVDソフト ObsceneGuild -片翼の堕天使-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024855",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024855.jpg",
+    "manufacturer": "Yatagarasu",
+    "releaseDate": "2010-09-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145024855001",
+      "メーカー": "Yatagarasu",
+      "発売日": "2010/09/24",
+      "定価": "9,680円",
+      "原画": "TEL-O",
+      "シナリオ": "ぽんちぇん",
+      "声優": "滝沢アツヤ\n沢代りず\n東かりん\n香澄りょう\n中家志穂\n杉原茉莉\n来栖川勇\n鈴音華月\n高井戸雫\n小次狼",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:52.276Z"
+  },
+  "histories": [
+    {
+      "id": 41508,
+      "productId": 41494,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:24.896Z"
+    },
+    {
+      "id": 53134,
+      "productId": 41494,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:52.276Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142953,
+      "productId": 41494,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:21:52.000Z"
+    },
+    {
+      "id": 142952,
+      "productId": 41494,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:21:52.000Z"
+    },
+    {
+      "id": 107724,
+      "productId": 41494,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:02:25.000Z"
+    },
+    {
+      "id": 107723,
+      "productId": 41494,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:02:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024855",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024855",
+    "capturedAt": "2026-08-19T16:21:52.276Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145024855.json"
+  }
+}

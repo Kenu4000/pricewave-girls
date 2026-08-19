@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 31613,
+    "title": "WindowsXP/Vista/7 CDソフト ぜったい最胸☆おっぱい戦争!! おっぱい学園戦争パッチディスク -巨乳学園VS貧乳学園-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035058",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035058.jpg",
+    "manufacturer": "softhouse-seal GRANDEE",
+    "releaseDate": "2012-10-26",
+    "listPrice": null,
+    "modelNumber": "SSEAG-008",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145035058001",
+      "メーカー": "softhouse-seal GRANDEE",
+      "発売日": "2012/10/26",
+      "型番": "SSEAG-008",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:41:58.797Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:54.269Z"
+  },
+  "histories": [
+    {
+      "id": 31627,
+      "productId": 31613,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:58.509Z"
+    },
+    {
+      "id": 40362,
+      "productId": 31613,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:13.341Z"
+    },
+    {
+      "id": 51337,
+      "productId": 31613,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:54.269Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136996,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:35:54.000Z"
+    },
+    {
+      "id": 136995,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T05:35:54.000Z"
+    },
+    {
+      "id": 136994,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:35:54.000Z"
+    },
+    {
+      "id": 105058,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-16T01:30:13.000Z"
+    },
+    {
+      "id": 105057,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-16T01:30:13.000Z"
+    },
+    {
+      "id": 79213,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-15T23:41:58.000Z"
+    },
+    {
+      "id": 79212,
+      "productId": 31613,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-15T23:41:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035058",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035058",
+    "capturedAt": "2026-08-19T05:35:54.269Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145035058.json"
+  }
+}

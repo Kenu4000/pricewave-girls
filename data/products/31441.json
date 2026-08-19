@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31441,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 流星☆キセキ ‐SHOOTING PROBE‐[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045159",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045159.jpg",
+    "manufacturer": "ユニゾンシフト・アクセント",
+    "releaseDate": "2013-02-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045159",
+      "メーカー": "ユニゾンシフト・アクセント",
+      "発売日": "2013/02/22",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:48.535Z"
+  },
+  "histories": [
+    {
+      "id": 31455,
+      "productId": 31441,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:52.055Z"
+    },
+    {
+      "id": 40189,
+      "productId": 31441,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:53.391Z"
+    },
+    {
+      "id": 51216,
+      "productId": 31441,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:48.535Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045159",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045159",
+    "capturedAt": "2026-08-19T05:34:48.535Z",
+    "items": [],
+    "path": "data/other-shops/145045159.json"
+  }
+}

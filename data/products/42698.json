@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42698,
+    "title": "Windows98/Me/2000/XP DVDソフト あなたの知らない看護婦 ～性的病棟24時～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044482",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044482.jpg",
+    "manufacturer": "G.J？",
+    "releaseDate": "2007-08-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145044482",
+      "メーカー": "G.J？",
+      "発売日": "2007/08/24",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:16.241Z"
+  },
+  "histories": [
+    {
+      "id": 42712,
+      "productId": 42698,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:11.989Z"
+    },
+    {
+      "id": 54008,
+      "productId": 42698,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:16.241Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044482",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044482",
+    "capturedAt": "2026-08-19T16:29:16.241Z",
+    "items": [],
+    "path": "data/other-shops/145044482.json"
+  }
+}

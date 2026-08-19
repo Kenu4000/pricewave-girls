@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31532,
+    "title": "WindowsXP/Vista/7 DVDソフト 虜ノ契 ー家族のために身体を差し出す姉と妹ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047291",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047291.jpg",
+    "manufacturer": "Guilty eX",
+    "releaseDate": "2012-12-14",
+    "listPrice": 6380,
+    "modelNumber": "WILL-299",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145047291",
+      "メーカー": "Guilty eX",
+      "発売日": "2012/12/14",
+      "定価": "6,380円",
+      "型番": "WILL-299",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:19.854Z"
+  },
+  "histories": [
+    {
+      "id": 31546,
+      "productId": 31532,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:05.485Z"
+    },
+    {
+      "id": 40283,
+      "productId": 31532,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:36.979Z"
+    },
+    {
+      "id": 51279,
+      "productId": 31532,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:19.854Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047291",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047291",
+    "capturedAt": "2026-08-19T05:35:19.854Z",
+    "items": [],
+    "path": "data/other-shops/145047291.json"
+  }
+}

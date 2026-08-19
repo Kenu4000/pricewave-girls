@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 30055,
+    "title": "Windows DVDソフト 私立 寝取り学院 123パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054670",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054670.jpg",
+    "manufacturer": "アトリエさくら Team.NTR",
+    "releaseDate": "2016-07-29",
+    "listPrice": 6380,
+    "modelNumber": "ASLP-0001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145054670001",
+      "メーカー": "アトリエさくら Team.NTR",
+      "発売日": "2016/07/29",
+      "定価": "6,380円",
+      "型番": "ASLP-0001",
+      "原画": "長頼\nまる。\n黒石りんご\nジェントル佐々木\nたかぴこ",
+      "シナリオ": "髪ノ毛座\nバリバリバルカンパンツ\nおんぼろ月",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6400,
+    "latestRegularSalePrice": 6400,
+    "latestBuyPrice": 3100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:12.664Z"
+  },
+  "histories": [
+    {
+      "id": 30069,
+      "productId": 30055,
+      "salePrice": 6400,
+      "regularSalePrice": 6400,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:13:25.420Z"
+    },
+    {
+      "id": 38864,
+      "productId": 30055,
+      "salePrice": 6400,
+      "regularSalePrice": 6400,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:28.960Z"
+    },
+    {
+      "id": 49879,
+      "productId": 30055,
+      "salePrice": 6400,
+      "regularSalePrice": 6400,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:12.664Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133285,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6400,
+      "checkedAt": "2026-08-19T04:34:12.000Z"
+    },
+    {
+      "id": 133284,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 5760,
+      "checkedAt": "2026-08-19T04:34:12.000Z"
+    },
+    {
+      "id": 102009,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6400,
+      "checkedAt": "2026-08-16T01:15:29.000Z"
+    },
+    {
+      "id": 102008,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 5760,
+      "checkedAt": "2026-08-16T01:15:29.000Z"
+    },
+    {
+      "id": 76033,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6400,
+      "checkedAt": "2026-08-15T23:13:25.000Z"
+    },
+    {
+      "id": 76032,
+      "productId": 30055,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 5760,
+      "checkedAt": "2026-08-15T23:13:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054670",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054670",
+    "capturedAt": "2026-08-19T04:34:12.664Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 5760
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6400
+      }
+    ],
+    "path": "data/other-shops/145054670.json"
+  }
+}

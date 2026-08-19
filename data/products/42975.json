@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 42975,
+    "title": "Windows98/Me/2000/XP CDソフト 義姉弟同棲 ～お姉ちゃん妊娠調教～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015093",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015093.jpg",
+    "manufacturer": "黒姫",
+    "releaseDate": "2006-11-24",
+    "listPrice": 2420,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015093001",
+      "メーカー": "黒姫",
+      "発売日": "2006/11/24",
+      "定価": "2,420円",
+      "原画": "水原優",
+      "声優": "七生みこと",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:49.349Z"
+  },
+  "histories": [
+    {
+      "id": 42989,
+      "productId": 42975,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:49.349Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110777,
+      "productId": 42975,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1100,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110776,
+      "productId": 42975,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110775,
+      "productId": 42975,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015093",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015093",
+    "capturedAt": "2026-08-17T07:16:49.349Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 1100
+      }
+    ],
+    "path": "data/other-shops/145015093.json"
+  }
+}

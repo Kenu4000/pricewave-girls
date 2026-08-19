@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42535,
+    "title": "Windows2000/XP/Vista DVDソフト 仕舞妻マリッジディスク 仕舞妻ぶぶづけ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017378",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017378.jpg",
+    "manufacturer": "13cm",
+    "releaseDate": "2008-01-25",
+    "listPrice": 4180,
+    "modelNumber": "VA-00017D",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017378",
+      "メーカー": "13cm",
+      "発売日": "2008/01/25",
+      "定価": "4,180円",
+      "型番": "VA-00017D",
+      "原画": "石原そうか",
+      "シナリオ": "美汐優\n朝凪軽\n西空康誠",
+      "音楽": "U-ma",
+      "声優": "天天\n涼森ちさと\nあさり☆\n比未子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4200,
+    "latestRegularSalePrice": 4200,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:58.079Z"
+  },
+  "histories": [
+    {
+      "id": 42549,
+      "productId": 42535,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:42.307Z"
+    },
+    {
+      "id": 44140,
+      "productId": 42535,
+      "salePrice": 4200,
+      "regularSalePrice": 4200,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:58.079Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017378",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017378",
+    "capturedAt": "2026-08-17T09:37:58.079Z",
+    "items": [],
+    "path": "data/other-shops/145017378.json"
+  }
+}

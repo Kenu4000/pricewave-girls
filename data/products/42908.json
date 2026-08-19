@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42908,
+    "title": "Windows98/Me/2000/XP DVDソフト カタハネ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040291",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040291.jpg",
+    "manufacturer": "Tarte(タルト)",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": "DL-F012",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145040291",
+      "メーカー": "Tarte(タルト)",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "型番": "DL-F012",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:13.367Z"
+  },
+  "histories": [
+    {
+      "id": 42922,
+      "productId": 42908,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:13.367Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040291",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040291",
+    "capturedAt": "2026-08-17T07:16:13.367Z",
+    "items": [],
+    "path": "data/other-shops/145040291.json"
+  }
+}

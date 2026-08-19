@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41722,
+    "title": "Windows2000Pro/XP/Vista/7 DVDソフト 戦極姫2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022741",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022741.jpg",
+    "manufacturer": "unicorn-a / げーせん18",
+    "releaseDate": "2010-02-19",
+    "listPrice": 9680,
+    "modelNumber": "UNA-0180",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145022741001",
+      "メーカー": "unicorn-a / げーせん18",
+      "発売日": "2010/02/19",
+      "定価": "9,680円",
+      "型番": "UNA-0180",
+      "原画": "さいばし\nYan-Yam\n熊虎たつみ\nとむそおや\n形見心太\nkyo1\n真紅\nごばん\n開栓注意\nShiki\nぽ~しょん\n譲葉\n神吉\nこかげ\nN島\neeee\n歩鳥\nあまぎみちひと",
+      "シナリオ": "尾崎貞夫",
+      "声優": "杉原茉莉\n青葉りんご\n風音\n桜川未央\n東かりん\n歌織\n中家志穂\n成瀬未亜\n草柳順子\n花南\n野宮香央里\n藤森ゆき奈\n香澄りょう\n水純なな歩\n猪鹿ちよ\n狛乃ハルコ\n倉田まりや\n高槻つばさ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:14.016Z"
+  },
+  "histories": [
+    {
+      "id": 41736,
+      "productId": 41722,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:48.911Z"
+    },
+    {
+      "id": 53300,
+      "productId": 41722,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:14.016Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143256,
+      "productId": 41722,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-19T16:23:14.000Z"
+    },
+    {
+      "id": 143255,
+      "productId": 41722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-19T16:23:14.000Z"
+    },
+    {
+      "id": 143254,
+      "productId": 41722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 430,
+      "checkedAt": "2026-08-19T16:23:14.000Z"
+    },
+    {
+      "id": 108158,
+      "productId": 41722,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T07:04:49.000Z"
+    },
+    {
+      "id": 108157,
+      "productId": 41722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 430,
+      "checkedAt": "2026-08-17T07:04:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022741",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022741",
+    "capturedAt": "2026-08-19T16:23:14.016Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 430
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 430
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145022741.json"
+  }
+}

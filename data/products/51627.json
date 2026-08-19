@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 51627,
+    "title": "Windows2000/XP/Vista DVDソフト 天神乱漫 LUCKY or UNLUCKY!?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019700",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019700.jpg",
+    "manufacturer": "ゆずソフト",
+    "releaseDate": "2009-05-29",
+    "listPrice": 9680,
+    "modelNumber": "YSPG-0004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019700001",
+      "メーカー": "ゆずソフト",
+      "発売日": "2009/05/29",
+      "定価": "9,680円",
+      "型番": "YSPG-0004",
+      "原画": "こぶいち\nむりりん",
+      "シナリオ": "天宮りつ\n北川晴",
+      "声優": "藤流水\n高志麻矢\n成瀬未亜\n安玖深音\n佐本二厘\nタケムラ\n五行なずな\n遠野そよぎ\nみる\n本多啓吾\n榊原ゆい\n夏野こおり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3850,
+    "latestRegularSalePrice": 3850,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:27.416Z"
+  },
+  "histories": [
+    {
+      "id": 51641,
+      "productId": 51627,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:27.416Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137738,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137737,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137736,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137735,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137734,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 3500,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137733,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3301,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137732,
+      "productId": 51627,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 2980,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019700",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019700",
+    "capturedAt": "2026-08-19T09:29:27.416Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 2980
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 3301
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 3500
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 3511
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 3600
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 2980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3850
+      }
+    ],
+    "path": "data/other-shops/145019700.json"
+  }
+}

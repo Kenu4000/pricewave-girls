@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31190,
+    "title": "Windows CDソフト らぶりの変態日記-痴女になりたい女の子-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038499",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038499.jpg",
+    "manufacturer": "Parthenon",
+    "releaseDate": "2013-09-27",
+    "listPrice": 2200,
+    "modelNumber": "PART-007",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145038499",
+      "メーカー": "Parthenon",
+      "発売日": "2013/09/27",
+      "定価": "2,200円",
+      "型番": "PART-007",
+      "原画": "山崎かずま",
+      "シナリオ": "草薙",
+      "声優": "鈴谷まや",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 811,
+    "latestRegularSalePrice": 811,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:10.523Z"
+  },
+  "histories": [
+    {
+      "id": 31204,
+      "productId": 31190,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:55.082Z"
+    },
+    {
+      "id": 39949,
+      "productId": 31190,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:17.972Z"
+    },
+    {
+      "id": 51021,
+      "productId": 31190,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:10.523Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038499",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038499",
+    "capturedAt": "2026-08-19T05:33:10.523Z",
+    "items": [],
+    "path": "data/other-shops/145038499.json"
+  }
+}

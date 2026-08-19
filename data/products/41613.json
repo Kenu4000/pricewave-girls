@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41613,
+    "title": "Windows2000/XP/Vista DVDソフト SACRIFICEー捨牌の行方ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072262",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072262.jpg",
+    "manufacturer": "M no VIOLET",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145072262",
+      "メーカー": "M no VIOLET",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "原画": "雛咲",
+      "シナリオ": "イ也",
+      "声優": "春日アン\n森山いちご\n逢川奈々\n奥山歩\n計名さや香\n唯香\n都筑なつる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:34.672Z"
+  },
+  "histories": [
+    {
+      "id": 41627,
+      "productId": 41613,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:47.776Z"
+    },
+    {
+      "id": 53220,
+      "productId": 41613,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:34.672Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145072262",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072262",
+    "capturedAt": "2026-08-19T16:22:34.672Z",
+    "items": [],
+    "path": "data/other-shops/145072262.json"
+  }
+}

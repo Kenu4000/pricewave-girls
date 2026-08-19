@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42976,
+    "title": "Windows98/Me/2000/XP DVDソフト 人妻戦隊アイサイガーR",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015059",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015059.jpg",
+    "manufacturer": "DISCOVERY",
+    "releaseDate": "2006-11-24",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015059001",
+      "メーカー": "DISCOVERY",
+      "発売日": "2006/11/24",
+      "定価": "4,180円",
+      "原画": "ガンちゃん",
+      "シナリオ": "はまちょ",
+      "声優": "丈隆志\n柴田蕗\nまりもりん\n黒崎猫\n阿倉優\nみすみ\n平野響子\n月黒斗夜\n鉄滝次\n児玉さとみ\nマジック",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:50.282Z"
+  },
+  "histories": [
+    {
+      "id": 42990,
+      "productId": 42976,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:50.282Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110779,
+      "productId": 42976,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    },
+    {
+      "id": 110778,
+      "productId": 42976,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:16:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015059",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015059",
+    "capturedAt": "2026-08-17T07:16:50.282Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1400
+      }
+    ],
+    "path": "data/other-shops/145015059.json"
+  }
+}

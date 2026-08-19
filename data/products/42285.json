@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42285,
+    "title": "Windows2000/XP/Vista DVDソフト 民族淫嬢",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054039",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054039.jpg",
+    "manufacturer": "暁WORKS-黒-",
+    "releaseDate": "2008-09-25",
+    "listPrice": 9680,
+    "modelNumber": "AW-0003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145054039",
+      "メーカー": "暁WORKS-黒-",
+      "発売日": "2008/09/25",
+      "定価": "9,680円",
+      "型番": "AW-0003",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:34.000Z"
+  },
+  "histories": [
+    {
+      "id": 42299,
+      "productId": 42285,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:12.997Z"
+    },
+    {
+      "id": 53698,
+      "productId": 42285,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:34.000Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054039",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054039",
+    "capturedAt": "2026-08-19T16:26:34.000Z",
+    "items": [],
+    "path": "data/other-shops/145054039.json"
+  }
+}

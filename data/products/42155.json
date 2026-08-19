@@ -1,0 +1,188 @@
+{
+  "product": {
+    "id": 42155,
+    "title": "WindowsXP/Vista DVDソフト 永遠の終わりに",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019017",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019017.jpg",
+    "manufacturer": "たまソフト",
+    "releaseDate": "2008-12-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019017001",
+      "メーカー": "たまソフト",
+      "発売日": "2008/12/26",
+      "定価": "9,680円",
+      "原画": "長浜めぐみ",
+      "シナリオ": "0-take\n江西\n神代平",
+      "声優": "水霧けいと\n風音\nみる\n渡部由美",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:45.941Z"
+  },
+  "histories": [
+    {
+      "id": 42169,
+      "productId": 42155,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:50.481Z"
+    },
+    {
+      "id": 53602,
+      "productId": 42155,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:45.941Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143874,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-19T16:25:46.000Z"
+    },
+    {
+      "id": 143873,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-19T16:25:46.000Z"
+    },
+    {
+      "id": 143872,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 780,
+      "checkedAt": "2026-08-19T16:25:46.000Z"
+    },
+    {
+      "id": 143871,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 770,
+      "checkedAt": "2026-08-19T16:25:46.000Z"
+    },
+    {
+      "id": 143870,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 710,
+      "checkedAt": "2026-08-19T16:25:46.000Z"
+    },
+    {
+      "id": 109128,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-17T07:08:50.000Z"
+    },
+    {
+      "id": 109127,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-17T07:08:50.000Z"
+    },
+    {
+      "id": 109126,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:08:50.000Z"
+    },
+    {
+      "id": 109125,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 770,
+      "checkedAt": "2026-08-17T07:08:50.000Z"
+    },
+    {
+      "id": 109124,
+      "productId": 42155,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 710,
+      "checkedAt": "2026-08-17T07:08:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019017",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019017",
+    "capturedAt": "2026-08-19T16:25:45.941Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 710
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 770
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱難有",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145019017.json"
+  }
+}

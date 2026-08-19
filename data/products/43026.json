@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 43026,
+    "title": "Windows CDソフト めっちゃママ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014815",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014815.jpg",
+    "manufacturer": "cyon(サイオン)",
+    "releaseDate": "2006-10-27",
+    "listPrice": 2200,
+    "modelNumber": "CY-02",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014815",
+      "メーカー": "cyon(サイオン)",
+      "発売日": "2006/10/27",
+      "定価": "2,200円",
+      "型番": "CY-02",
+      "原画": "如月充",
+      "シナリオ": "倉嶋秀二",
+      "声優": "比未子\nひかる",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:36.864Z"
+  },
+  "histories": [
+    {
+      "id": 43040,
+      "productId": 43026,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:16.019Z"
+    },
+    {
+      "id": 44220,
+      "productId": 43026,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:36.864Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014815",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014815",
+    "capturedAt": "2026-08-17T09:38:36.864Z",
+    "items": [],
+    "path": "data/other-shops/145014815.json"
+  }
+}

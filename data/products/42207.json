@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42207,
+    "title": "Windows2000/XP/Vista DVDソフト それは舞い散る桜のように 完全版 Standard Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901960",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901960.jpg",
+    "manufacturer": "BasiL",
+    "releaseDate": "2008-11-28",
+    "listPrice": 9680,
+    "modelNumber": "BS2008-02G",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145901960",
+      "メーカー": "BasiL",
+      "発売日": "2008/11/28",
+      "定価": "9,680円",
+      "型番": "BS2008-02G",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:31.314Z"
+  },
+  "histories": [
+    {
+      "id": 42221,
+      "productId": 42207,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:21.831Z"
+    },
+    {
+      "id": 44087,
+      "productId": 42207,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:31.314Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901960",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901960",
+    "capturedAt": "2026-08-17T09:37:31.314Z",
+    "items": [],
+    "path": "data/other-shops/145901960.json"
+  }
+}

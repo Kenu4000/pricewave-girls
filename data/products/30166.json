@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30166,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 珊海王の円環",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065694",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065694.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2016-04-28",
+    "listPrice": 10340,
+    "modelNumber": "EUDV-017",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065694",
+      "メーカー": "エウシュリー",
+      "発売日": "2016/04/28",
+      "定価": "10,340円",
+      "型番": "EUDV-017",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:49.908Z"
+  },
+  "histories": [
+    {
+      "id": 30180,
+      "productId": 30166,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:33.290Z"
+    },
+    {
+      "id": 38967,
+      "productId": 30166,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:27.465Z"
+    },
+    {
+      "id": 49962,
+      "productId": 30166,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:49.908Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065694",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065694",
+    "capturedAt": "2026-08-19T04:34:49.908Z",
+    "items": [],
+    "path": "data/other-shops/145065694.json"
+  }
+}

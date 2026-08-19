@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 29905,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト KISS×Ω(オメガ)（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056702",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056702.jpg",
+    "manufacturer": "WINTERS",
+    "releaseDate": "2017-02-24",
+    "listPrice": 9680,
+    "modelNumber": "WTES-007",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056702001",
+      "メーカー": "WINTERS",
+      "発売日": "2017/02/24",
+      "定価": "9,680円",
+      "型番": "WTES-007",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145056702?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4480,
+    "latestRegularSalePrice": 4480,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:29.686Z"
+  },
+  "histories": [
+    {
+      "id": 29919,
+      "productId": 29905,
+      "salePrice": 4000,
+      "regularSalePrice": 4480,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:57.151Z"
+    },
+    {
+      "id": 38724,
+      "productId": 29905,
+      "salePrice": 4000,
+      "regularSalePrice": 4480,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:19.353Z"
+    },
+    {
+      "id": 49782,
+      "productId": 29905,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:29.686Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

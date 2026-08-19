@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 8329,
+    "title": "Windows95/98 CDソフト ラブラティオマニアックス（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003267",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003267.jpg",
+    "manufacturer": "AnotherRoom",
+    "releaseDate": "2000-02-17",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003267001",
+      "メーカー": "AnotherRoom",
+      "発売日": "2000/02/17",
+      "定価": "9,680円",
+      "原画": "小林広子",
+      "シナリオ": "西崎秒弥",
+      "声優": "桜路亜理須\n水野紗雪\n北川葵\n中山ココナ\n水樹いおん\nKANAMI",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:41:49.620Z"
+  },
+  "histories": [
+    {
+      "id": 8343,
+      "productId": 8329,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 23128,
+      "productId": 8329,
+      "salePrice": 850,
+      "regularSalePrice": 950,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:43.808Z"
+    },
+    {
+      "id": 44575,
+      "productId": 8329,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:49.620Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115239,
+      "productId": 8329,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-17T09:41:49.000Z"
+    },
+    {
+      "id": 115238,
+      "productId": 8329,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 950,
+      "checkedAt": "2026-08-17T09:41:49.000Z"
+    },
+    {
+      "id": 52948,
+      "productId": 8329,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 52947,
+      "productId": 8329,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 850,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145003267",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003267",
+    "capturedAt": "2026-08-17T09:41:49.620Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 950
+      },
+      {
+        "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145003267.json"
+  }
+}

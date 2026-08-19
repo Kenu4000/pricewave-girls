@@ -1,0 +1,135 @@
+{
+  "product": {
+    "id": 42172,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト 恋妻びより ～由希乃さんは人妻管理人～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019036",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019036.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2008-12-19",
+    "listPrice": 9680,
+    "modelNumber": "TB-037",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019036001",
+      "メーカー": "TinkerBell",
+      "発売日": "2008/12/19",
+      "定価": "9,680円",
+      "型番": "TB-037",
+      "原画": "深泥正",
+      "シナリオ": "小峰久生\n西村悠一",
+      "アーティスト": "小田ユウ",
+      "声優": "麻生涼音\n酒井たから\n比未子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2380,
+    "latestRegularSalePrice": 2380,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:50.884Z"
+  },
+  "histories": [
+    {
+      "id": 42186,
+      "productId": 42172,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:59.019Z"
+    },
+    {
+      "id": 53613,
+      "productId": 42172,
+      "salePrice": 2380,
+      "regularSalePrice": 2380,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:50.884Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143903,
+      "productId": 42172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2380,
+      "checkedAt": "2026-08-19T16:25:51.000Z"
+    },
+    {
+      "id": 143902,
+      "productId": 42172,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-08-19T16:25:51.000Z"
+    },
+    {
+      "id": 143901,
+      "productId": 42172,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2380,
+      "checkedAt": "2026-08-19T16:25:51.000Z"
+    },
+    {
+      "id": 109194,
+      "productId": 42172,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-08-17T07:08:59.000Z"
+    },
+    {
+      "id": 109193,
+      "productId": 42172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2800,
+      "checkedAt": "2026-08-17T07:08:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019036",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019036",
+    "capturedAt": "2026-08-19T16:25:50.884Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2380
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2380
+      }
+    ],
+    "path": "data/other-shops/145019036.json"
+  }
+}

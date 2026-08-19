@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30067,
+    "title": "WindowsVista/7/8 DVDソフト デーモンバスターズ -えっちなえっちなデーモン退治-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061297",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061297.jpg",
+    "manufacturer": "MOONSTONE Cherry",
+    "releaseDate": "2018-03-08",
+    "listPrice": 3278,
+    "modelNumber": "HBGB-058",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145061297",
+      "メーカー": "MOONSTONE Cherry",
+      "発売日": "2018/03/08",
+      "定価": "3,278円",
+      "型番": "HBGB-058",
+      "原画": "伊東ライフ",
+      "シナリオ": "和泉万夜\n篁葉月\n水瀬拓未",
+      "声優": "御苑生メイ\n早瀬ゃょぃ\n柚原みう\n中家志穂",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2580,
+    "latestRegularSalePrice": 2580,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:13.616Z"
+  },
+  "histories": [
+    {
+      "id": 30081,
+      "productId": 30067,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:28.996Z"
+    },
+    {
+      "id": 38871,
+      "productId": 30067,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:35.554Z"
+    },
+    {
+      "id": 49884,
+      "productId": 30067,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:13.616Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061297",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061297",
+    "capturedAt": "2026-08-19T04:34:13.616Z",
+    "items": [],
+    "path": "data/other-shops/145061297.json"
+  }
+}

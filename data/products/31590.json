@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31590,
+    "title": "WindowsXP/Vista/7 DVDソフト しすたー・すきーむ2 HD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043373",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "M de PINK",
+    "releaseDate": "2012-11-09",
+    "listPrice": 5170,
+    "modelNumber": "MNKC183",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145043373",
+      "メーカー": "M de PINK",
+      "発売日": "2012/11/09",
+      "定価": "5,170円",
+      "型番": "MNKC183",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:40.933Z"
+  },
+  "histories": [
+    {
+      "id": 31604,
+      "productId": 31590,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:44.012Z"
+    },
+    {
+      "id": 40340,
+      "productId": 31590,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:02.988Z"
+    },
+    {
+      "id": 51319,
+      "productId": 31590,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:40.933Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043373",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043373",
+    "capturedAt": "2026-08-19T05:35:40.933Z",
+    "items": [],
+    "path": "data/other-shops/145043373.json"
+  }
+}

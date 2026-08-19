@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 42808,
+    "title": "Windows98/Me/2000/XP CDソフト 性奴会長 ～麗しのお嬢様の輪姦地獄生活～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015887.jpg",
+    "manufacturer": "黒姫",
+    "releaseDate": "2007-04-20",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015887001",
+      "メーカー": "黒姫",
+      "発売日": "2007/04/20",
+      "定価": "2,200円",
+      "原画": "深泥正",
+      "声優": "岩泉まい\n羽高なる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 420,
+    "latestRegularSalePrice": 420,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:14.713Z"
+  },
+  "histories": [
+    {
+      "id": 42822,
+      "productId": 42808,
+      "salePrice": 420,
+      "regularSalePrice": 420,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:14.713Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110425,
+      "productId": 42808,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:15:14.000Z"
+    },
+    {
+      "id": 110424,
+      "productId": 42808,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:15:14.000Z"
+    },
+    {
+      "id": 110423,
+      "productId": 42808,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-17T07:15:14.000Z"
+    },
+    {
+      "id": 110422,
+      "productId": 42808,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 390,
+      "checkedAt": "2026-08-17T07:15:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015887",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015887",
+    "capturedAt": "2026-08-17T07:15:14.713Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 390
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 420
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145015887.json"
+  }
+}

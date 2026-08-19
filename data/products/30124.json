@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30124,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 見上げてごらん、夜空の星を FINE DAYS 本編同梱パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053996",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053996.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2016-05-27",
+    "listPrice": 11880,
+    "modelNumber": "WILL-338SET",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053996",
+      "メーカー": "PULLTOP",
+      "発売日": "2016/05/27",
+      "定価": "11,880円",
+      "型番": "WILL-338SET",
+      "原画": "吉田音\n八島タカヒロ\n基井あゆむ\nベコ太郎\n七原冬雪",
+      "シナリオ": "折畑啓介\n紺野アスタ\n高嶋栄二",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5280,
+    "latestRegularSalePrice": 5280,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:36.246Z"
+  },
+  "histories": [
+    {
+      "id": 30138,
+      "productId": 30124,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:02.417Z"
+    },
+    {
+      "id": 38929,
+      "productId": 30124,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:05.173Z"
+    },
+    {
+      "id": 49930,
+      "productId": 30124,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:36.246Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053996",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053996",
+    "capturedAt": "2026-08-19T04:34:36.246Z",
+    "items": [],
+    "path": "data/other-shops/145053996.json"
+  }
+}

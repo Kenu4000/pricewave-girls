@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 8255,
+    "title": "Windows98/Me/2000/XP DVDソフト やくchu! ～ただいま媚薬開発中～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015697",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015697.jpg",
+    "manufacturer": "SCORE",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": "SCR009",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015697",
+      "メーカー": "SCORE",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "型番": "SCR009",
+      "原画": "安藤智也",
+      "シナリオ": "神代いづみ\n尾之上咲太",
+      "声優": "新堂真弓\n如月美琴\n風音\nみる\n倉田まりや\n芹園みや\n寧々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:45.112Z"
+  },
+  "histories": [
+    {
+      "id": 8269,
+      "productId": 8255,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 26793,
+      "productId": 8255,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:21.619Z"
+    },
+    {
+      "id": 37659,
+      "productId": 8255,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:47.290Z"
+    },
+    {
+      "id": 48149,
+      "productId": 8255,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:45.112Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015697",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015697",
+    "capturedAt": "2026-08-17T16:11:45.112Z",
+    "items": [],
+    "path": "data/other-shops/145015697.json"
+  }
+}

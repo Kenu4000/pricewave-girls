@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 32028,
+    "title": "WindowsXP/Vista/7 DVDソフト マドンナ -完熟ボディCollection-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068474",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068474.jpg",
+    "manufacturer": "G.J?",
+    "releaseDate": "2011-10-21",
+    "listPrice": 9680,
+    "modelNumber": "MADONNA-1D",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145068474",
+      "メーカー": "G.J?",
+      "発売日": "2011/10/21",
+      "定価": "9,680円",
+      "型番": "MADONNA-1D",
+      "原画": "佐野俊英",
+      "シナリオ": "スパーキング博士",
+      "声優": "杉原茉莉\n高井戸雫\nかわしまりの\n香澄りょう\n桜川未央\n花南",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:17.462Z"
+  },
+  "histories": [
+    {
+      "id": 32042,
+      "productId": 32028,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:56.450Z"
+    },
+    {
+      "id": 44990,
+      "productId": 32028,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:17.462Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145068474",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068474",
+    "capturedAt": "2026-08-17T09:45:17.462Z",
+    "items": [],
+    "path": "data/other-shops/145068474.json"
+  }
+}

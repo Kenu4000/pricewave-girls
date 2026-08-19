@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 30921,
+    "title": "WindowsXP/Vista/7 DVDソフト サキガケジェネレーション!(TECH GIAN 2014年6月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060024",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060024.jpg",
+    "manufacturer": "エンターブレイン",
+    "releaseDate": "2014-04-21",
+    "listPrice": null,
+    "modelNumber": "TECH-G2014.6",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145060024",
+      "メーカー": "エンターブレイン",
+      "発売日": "2014/04/21",
+      "型番": "TECH-G2014.6",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:26.016Z"
+  },
+  "histories": [
+    {
+      "id": 30935,
+      "productId": 30921,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:07.781Z"
+    },
+    {
+      "id": 39687,
+      "productId": 30921,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:56.969Z"
+    },
+    {
+      "id": 50827,
+      "productId": 30921,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:26.016Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060024",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060024",
+    "capturedAt": "2026-08-19T05:31:26.016Z",
+    "items": [],
+    "path": "data/other-shops/145060024.json"
+  }
+}

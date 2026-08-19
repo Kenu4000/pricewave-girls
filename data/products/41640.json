@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 41640,
+    "title": "WindowsXP/Vista DVDソフト 妄想性仮想人格障害[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024024",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024024.jpg",
+    "manufacturer": "TEATIME",
+    "releaseDate": "2010-05-28",
+    "listPrice": 9680,
+    "modelNumber": "TEA-G014",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024024",
+      "メーカー": "TEATIME",
+      "発売日": "2010/05/28",
+      "定価": "9,680円",
+      "型番": "TEA-G014",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:44.918Z"
+  },
+  "histories": [
+    {
+      "id": 41654,
+      "productId": 41640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:03.233Z"
+    },
+    {
+      "id": 53241,
+      "productId": 41640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:44.918Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024024",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024024",
+    "capturedAt": "2026-08-19T16:22:44.918Z",
+    "items": [],
+    "path": "data/other-shops/145024024.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 51575,
+    "title": "Windows DVDソフト CODEPINK3800 Sweet Home おっぱいスピードクジ付き",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029161",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029161.jpg",
+    "manufacturer": "CODEPINK",
+    "releaseDate": "2011-08-26",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145029161",
+      "メーカー": "CODEPINK",
+      "発売日": "2011/08/26",
+      "定価": "4,180円",
+      "原画": "キリヤマ太一",
+      "シナリオ": "神堂劾",
+      "声優": "未来羽\n井村屋ほのか\n広森なずな\n草柳順子\n白井綾乃",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 2101,
+    "latestRegularSalePrice": 2101,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:28.946Z"
+  },
+  "histories": [
+    {
+      "id": 51589,
+      "productId": 51575,
+      "salePrice": 2101,
+      "regularSalePrice": 2101,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:57.337Z"
+    },
+    {
+      "id": 52089,
+      "productId": 51575,
+      "salePrice": 2101,
+      "regularSalePrice": 2101,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:28.998Z"
+    },
+    {
+      "id": 52767,
+      "productId": 51575,
+      "salePrice": 2101,
+      "regularSalePrice": 2101,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:28.946Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029161",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029161",
+    "capturedAt": "2026-08-19T16:18:28.946Z",
+    "items": [],
+    "path": "data/other-shops/145029161.json"
+  }
+}

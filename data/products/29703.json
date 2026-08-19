@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 29703,
+    "title": "Windows7/8/10 DVDソフト 金色ラブリッチェ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065175",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065175.jpg",
+    "manufacturer": "SAGA PLANETS",
+    "releaseDate": "2017-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065175",
+      "メーカー": "SAGA PLANETS",
+      "発売日": "2017/12/22",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:17.073Z"
+  },
+  "histories": [
+    {
+      "id": 29717,
+      "productId": 29703,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:50.073Z"
+    },
+    {
+      "id": 38530,
+      "productId": 29703,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:42.148Z"
+    },
+    {
+      "id": 44847,
+      "productId": 29703,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:03.920Z"
+    },
+    {
+      "id": 49083,
+      "productId": 29703,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:17.073Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065175",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065175",
+    "capturedAt": "2026-08-19T04:28:17.073Z",
+    "items": [],
+    "path": "data/other-shops/145065175.json"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 29654,
+    "title": "Windows7/8/10 DVDソフト 妹を汚した記憶",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060275",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060275.jpg",
+    "manufacturer": "はむはむ",
+    "releaseDate": "2018-02-23",
+    "listPrice": 5720,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060275",
+      "メーカー": "はむはむ",
+      "発売日": "2018/02/23",
+      "定価": "5,720円",
+      "原画": "紫刀",
+      "シナリオ": "下地和彦\nHatsu",
+      "声優": "mahilo\n水神楓\n木野原さやか",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:05.041Z"
+  },
+  "histories": [
+    {
+      "id": 29668,
+      "productId": 29654,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:23.161Z"
+    },
+    {
+      "id": 38483,
+      "productId": 29654,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:17.093Z"
+    },
+    {
+      "id": 49584,
+      "productId": 29654,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:05.041Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132654,
+      "productId": 29654,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-08-19T04:32:05.000Z"
+    },
+    {
+      "id": 132653,
+      "productId": 29654,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 3700,
+      "checkedAt": "2026-08-19T04:32:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060275",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060275",
+    "capturedAt": "2026-08-19T04:32:05.041Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 3700
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3700
+      }
+    ],
+    "path": "data/other-shops/145060275.json"
+  }
+}

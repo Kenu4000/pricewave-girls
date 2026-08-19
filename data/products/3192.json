@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 3192,
+    "title": "Windows95/98 CDソフト Fresh! ～ティーンズ・メモリー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002248",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002248.jpg",
+    "manufacturer": "BELL-DA",
+    "releaseDate": "1999-06-17",
+    "listPrice": 8580,
+    "modelNumber": "SKM-888",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002248001",
+      "メーカー": "BELL-DA",
+      "発売日": "1999/06/17",
+      "定価": "8,580円",
+      "型番": "SKM-888",
+      "原画": "菊池政治",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "声優": "如月美琴\n真琴のあ\nエレナ\n横奈明美\n赤城美絵",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:48.273Z"
+  },
+  "histories": [
+    {
+      "id": 3206,
+      "productId": 3192,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 44468,
+      "productId": 3192,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:48.273Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115017,
+      "productId": 3192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    },
+    {
+      "id": 115016,
+      "productId": 3192,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古ディスクのみ",
+      "price": 599,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    },
+    {
+      "id": 115015,
+      "productId": 3192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    },
+    {
+      "id": 115014,
+      "productId": 3192,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002248",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002248",
+    "capturedAt": "2026-08-17T09:40:48.273Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古ディスクのみ",
+        "price": 599
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145002248.json"
+  }
+}

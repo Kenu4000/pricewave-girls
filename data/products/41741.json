@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41741,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 巫女ママ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022978",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022978.jpg",
+    "manufacturer": "桃フェロ",
+    "releaseDate": "2010-01-29",
+    "listPrice": 3300,
+    "modelNumber": "MMF-00003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022978",
+      "メーカー": "桃フェロ",
+      "発売日": "2010/01/29",
+      "定価": "3,300円",
+      "型番": "MMF-00003",
+      "原画": "ふぃげ",
+      "シナリオ": "奇偶転置",
+      "声優": "榛名れん\n歌織\n柚木サチ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1630,
+    "latestRegularSalePrice": 1630,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:18.009Z"
+  },
+  "histories": [
+    {
+      "id": 41755,
+      "productId": 41741,
+      "salePrice": 1630,
+      "regularSalePrice": 1630,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:58.024Z"
+    },
+    {
+      "id": 53307,
+      "productId": 41741,
+      "salePrice": 1630,
+      "regularSalePrice": 1630,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:18.009Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022978",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022978",
+    "capturedAt": "2026-08-19T16:23:18.009Z",
+    "items": [],
+    "path": "data/other-shops/145022978.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30244,
+    "title": "WindowsVista/7/8 DVDソフト 罪ノ光ランデヴー [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900333",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "minori",
+    "releaseDate": "2016-02-26",
+    "listPrice": 10780,
+    "modelNumber": "SW-082EX",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145900333",
+      "メーカー": "minori",
+      "発売日": "2016/02/26",
+      "定価": "10,780円",
+      "型番": "SW-082EX",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 13500,
+    "latestRegularSalePrice": 13500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:33.219Z"
+  },
+  "histories": [
+    {
+      "id": 30258,
+      "productId": 30244,
+      "salePrice": 13500,
+      "regularSalePrice": 13500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:17.298Z"
+    },
+    {
+      "id": 39044,
+      "productId": 30244,
+      "salePrice": 13500,
+      "regularSalePrice": 13500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:08.910Z"
+    },
+    {
+      "id": 43608,
+      "productId": 30244,
+      "salePrice": 13500,
+      "regularSalePrice": 13500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:33.219Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900333",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900333",
+    "capturedAt": "2026-08-17T09:33:33.219Z",
+    "items": [],
+    "path": "data/other-shops/145900333.json"
+  }
+}

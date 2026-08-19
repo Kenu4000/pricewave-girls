@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29870,
+    "title": "Windows7/8/8.1/10 CDソフト 沙耶の唄 Nitro The Best! Vol.2 Windows 10対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057415",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057415.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2017-04-28",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057415",
+      "メーカー": "ニトロプラス",
+      "発売日": "2017/04/28",
+      "定価": "3,080円",
+      "原画": "中央東口",
+      "シナリオ": "虚淵玄",
+      "声優": "相沢正輝\n川村みどり\n海原エレナ\n矢沢泉\n佐藤まこと\n氷河流\n松本保典",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3650,
+    "latestRegularSalePrice": 3650,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:18.925Z"
+  },
+  "histories": [
+    {
+      "id": 29884,
+      "productId": 29870,
+      "salePrice": 3650,
+      "regularSalePrice": 3650,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:31.685Z"
+    },
+    {
+      "id": 38690,
+      "productId": 29870,
+      "salePrice": 3650,
+      "regularSalePrice": 3650,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:00.913Z"
+    },
+    {
+      "id": 49757,
+      "productId": 29870,
+      "salePrice": 3650,
+      "regularSalePrice": 3650,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:18.925Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057415",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057415",
+    "capturedAt": "2026-08-19T04:33:18.925Z",
+    "items": [],
+    "path": "data/other-shops/145057415.json"
+  }
+}

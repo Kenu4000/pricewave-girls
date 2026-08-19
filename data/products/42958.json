@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 42958,
+    "title": "Windows98SE/Me/2000/XP DVDソフト Under The Moon",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015112",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015112.jpg",
+    "manufacturer": "シュガービーンズ",
+    "releaseDate": "2006-12-15",
+    "listPrice": 8250,
+    "modelNumber": "WILL-164",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015112001",
+      "メーカー": "シュガービーンズ",
+      "発売日": "2006/12/15",
+      "定価": "8,250円",
+      "型番": "WILL-164",
+      "原画": "東条さかな",
+      "シナリオ": "ひよ",
+      "音楽": "あるるかん",
+      "声優": "安芸怜須ケン\n風音\n杉崎和哉\n浅野要二\n萩道彦\n空野太陽\n吉田愛理",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 17500,
+    "latestRegularSalePrice": 17500,
+    "latestBuyPrice": 7500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:38.095Z"
+  },
+  "histories": [
+    {
+      "id": 42972,
+      "productId": 42958,
+      "salePrice": 17500,
+      "regularSalePrice": 17500,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:38.095Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110744,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 17640,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110743,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 17500,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110742,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 16611,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110741,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 16611,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110740,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 15800,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110739,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 15750,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110738,
+      "productId": 42958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 15111,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015112",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015112",
+    "capturedAt": "2026-08-17T07:16:38.095Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 15111
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 15750
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 15800
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 16611
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 16611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 17500
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 17640
+      }
+    ],
+    "path": "data/other-shops/145015112.json"
+  }
+}

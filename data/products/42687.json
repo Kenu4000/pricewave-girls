@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42687,
+    "title": "Windows2000/XP/Vista DVDソフト マブラヴ ALTERED FABLE [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044272",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044272.jpg",
+    "manufacturer": "アージュ",
+    "releaseDate": "2007-08-31",
+    "listPrice": 7700,
+    "modelNumber": "AGE-031",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145044272",
+      "メーカー": "アージュ",
+      "発売日": "2007/08/31",
+      "定価": "7,700円",
+      "型番": "AGE-031",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "外箱・音楽CD欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 699,
+    "latestRegularSalePrice": 699,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "外箱・音楽CD欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:10.139Z"
+  },
+  "histories": [
+    {
+      "id": 42701,
+      "productId": 42687,
+      "salePrice": 699,
+      "regularSalePrice": 699,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱・音楽CD欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:07.848Z"
+    },
+    {
+      "id": 53995,
+      "productId": 42687,
+      "salePrice": 699,
+      "regularSalePrice": 699,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱・音楽CD欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:10.139Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044272",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044272",
+    "capturedAt": "2026-08-19T16:29:10.139Z",
+    "items": [],
+    "path": "data/other-shops/145044272.json"
+  }
+}

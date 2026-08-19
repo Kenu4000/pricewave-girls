@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31465,
+    "title": "WindowsXP/Vista/7/8 DVDソフト この大空に、翼をひろげて FLIGHT DIARY[初回ロット版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054817",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054817.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2013-01-25",
+    "listPrice": 7480,
+    "modelNumber": "WILL-291A",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145054817",
+      "メーカー": "PULLTOP",
+      "発売日": "2013/01/25",
+      "定価": "7,480円",
+      "型番": "WILL-291A",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:54.994Z"
+  },
+  "histories": [
+    {
+      "id": 31479,
+      "productId": 31465,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:14.373Z"
+    },
+    {
+      "id": 40215,
+      "productId": 31465,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:05.918Z"
+    },
+    {
+      "id": 51229,
+      "productId": 31465,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:54.994Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054817",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054817",
+    "capturedAt": "2026-08-19T05:34:54.994Z",
+    "items": [],
+    "path": "data/other-shops/145054817.json"
+  }
+}

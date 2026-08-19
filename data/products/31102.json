@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 31102,
+    "title": "WindowsXP/Vista/7 DVDソフト あまたらすリドルスター デスクトップアクセサリー集「星空からの不思議な贈り物DISC」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039671",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039671.jpg",
+    "manufacturer": "seal-QUALIA",
+    "releaseDate": "2013-11-29",
+    "listPrice": null,
+    "modelNumber": "QUAL-102",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145039671001",
+      "メーカー": "seal-QUALIA",
+      "発売日": "2013/11/29",
+      "型番": "QUAL-102",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 260,
+    "latestRegularSalePrice": 260,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:39.737Z"
+  },
+  "histories": [
+    {
+      "id": 31116,
+      "productId": 31102,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:57.734Z"
+    },
+    {
+      "id": 39863,
+      "productId": 31102,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:35.073Z"
+    },
+    {
+      "id": 50964,
+      "productId": 31102,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:39.737Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136371,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-19T05:32:40.000Z"
+    },
+    {
+      "id": 136370,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 249,
+      "checkedAt": "2026-08-19T05:32:40.000Z"
+    },
+    {
+      "id": 104127,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-16T01:24:35.000Z"
+    },
+    {
+      "id": 104126,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 249,
+      "checkedAt": "2026-08-16T01:24:35.000Z"
+    },
+    {
+      "id": 78259,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-15T23:35:57.000Z"
+    },
+    {
+      "id": 78258,
+      "productId": 31102,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 249,
+      "checkedAt": "2026-08-15T23:35:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039671",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039671",
+    "capturedAt": "2026-08-19T05:32:39.737Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 249
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 260
+      }
+    ],
+    "path": "data/other-shops/145039671.json"
+  }
+}

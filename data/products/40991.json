@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 40991,
+    "title": "Windows10/11 DVDソフト NTRマンション 純真サレ妻はタワマン不倫の沼へ沈む",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082699",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082699.jpg",
+    "manufacturer": "スタジオ奪トランス",
+    "releaseDate": "2025-02-28",
+    "listPrice": 4180,
+    "modelNumber": "UBAI-018",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082699",
+      "メーカー": "スタジオ奪トランス",
+      "発売日": "2025/02/28",
+      "定価": "4,180円",
+      "型番": "UBAI-018",
+      "原画": "みーた",
+      "声優": "野々村紗夜\n坂元星日\n有栖ねね",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:34:46.307Z"
+  },
+  "histories": [
+    {
+      "id": 41005,
+      "productId": 40991,
+      "salePrice": 3180,
+      "regularSalePrice": 3180,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:51.172Z"
+    },
+    {
+      "id": 52371,
+      "productId": 40991,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:46.307Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140378,
+      "productId": 40991,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-19T15:34:46.000Z"
+    },
+    {
+      "id": 140377,
+      "productId": 40991,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1401,
+      "checkedAt": "2026-08-19T15:34:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082699",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082699",
+    "capturedAt": "2026-08-19T15:34:46.307Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1401
+      },
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 3180
+      }
+    ],
+    "path": "data/other-shops/145082699.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42369,
+    "title": "Windows2000/XP DVDソフト 人工少女3[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048332",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048332.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2008-07-06",
+    "listPrice": 10780,
+    "modelNumber": "ILN-074",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145048332",
+      "メーカー": "ILLUSION",
+      "発売日": "2008/07/06",
+      "定価": "10,780円",
+      "型番": "ILN-074",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:07.976Z"
+  },
+  "histories": [
+    {
+      "id": 42383,
+      "productId": 42369,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:04.852Z"
+    },
+    {
+      "id": 53766,
+      "productId": 42369,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:07.976Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048332",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048332",
+    "capturedAt": "2026-08-19T16:27:07.976Z",
+    "items": [],
+    "path": "data/other-shops/145048332.json"
+  }
+}

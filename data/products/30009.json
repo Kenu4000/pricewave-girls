@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30009,
+    "title": "WindowsVista/7/8/10 DVDソフト D.C.III With You -ダ・カーポIII- ウィズユー [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065234",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065234.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2016-09-30",
+    "listPrice": 9680,
+    "modelNumber": "CIRCUS-0341",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065234",
+      "メーカー": "CIRCUS",
+      "発売日": "2016/09/30",
+      "定価": "9,680円",
+      "型番": "CIRCUS-0341",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスク+シリアルカードのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+シリアルカードのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:53.765Z"
+  },
+  "histories": [
+    {
+      "id": 30023,
+      "productId": 30009,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+シリアルカードのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:59.954Z"
+    },
+    {
+      "id": 44655,
+      "productId": 30009,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+シリアルカードのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:29.606Z"
+    },
+    {
+      "id": 48890,
+      "productId": 30009,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+シリアルカードのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:53.765Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065234",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065234",
+    "capturedAt": "2026-08-19T04:26:53.765Z",
+    "items": [],
+    "path": "data/other-shops/145065234.json"
+  }
+}

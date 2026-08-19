@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31373,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋せよ!! 妹番長",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046060",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046060.jpg",
+    "manufacturer": "Latte",
+    "releaseDate": "2013-04-26",
+    "listPrice": 9680,
+    "modelNumber": "LAT004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145046060",
+      "メーカー": "Latte",
+      "発売日": "2013/04/26",
+      "定価": "9,680円",
+      "型番": "LAT004",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 660,
+    "latestRegularSalePrice": 660,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:25.243Z"
+  },
+  "histories": [
+    {
+      "id": 31387,
+      "productId": 31373,
+      "salePrice": 660,
+      "regularSalePrice": 660,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:03.999Z"
+    },
+    {
+      "id": 40128,
+      "productId": 31373,
+      "salePrice": 660,
+      "regularSalePrice": 660,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:21.564Z"
+    },
+    {
+      "id": 51167,
+      "productId": 31373,
+      "salePrice": 660,
+      "regularSalePrice": 660,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:25.243Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046060",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046060",
+    "capturedAt": "2026-08-19T05:34:25.243Z",
+    "items": [],
+    "path": "data/other-shops/145046060.json"
+  }
+}

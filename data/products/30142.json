@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30142,
+    "title": "WindowsVista/7/8/10 DVDソフト ナツイロココロログ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064831",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064831.jpg",
+    "manufacturer": "Hearts",
+    "releaseDate": "2016-05-27",
+    "listPrice": 10780,
+    "modelNumber": "SPHT-85410",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064831",
+      "メーカー": "Hearts",
+      "発売日": "2016/05/27",
+      "定価": "10,780円",
+      "型番": "SPHT-85410",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2222,
+    "latestRegularSalePrice": 2222,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:42.257Z"
+  },
+  "histories": [
+    {
+      "id": 30156,
+      "productId": 30142,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:10.642Z"
+    },
+    {
+      "id": 38948,
+      "productId": 30142,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:14.074Z"
+    },
+    {
+      "id": 49946,
+      "productId": 30142,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:42.257Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064831",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064831",
+    "capturedAt": "2026-08-19T04:34:42.257Z",
+    "items": [],
+    "path": "data/other-shops/145064831.json"
+  }
+}

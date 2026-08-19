@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42055,
+    "title": "Windows2000/XP/Vista DVDソフト ここより、はるか -Surrounded sea in the world-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019484",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019484.jpg",
+    "manufacturer": "Pleats soft",
+    "releaseDate": "2009-03-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019484",
+      "メーカー": "Pleats soft",
+      "発売日": "2009/03/27",
+      "定価": "9,680円",
+      "原画": "村上水軍\n水瀬凛",
+      "シナリオ": "月代さや",
+      "主題歌/声優": "かわしまりの",
+      "声優": "狛乃ハルコ\n草柳順子\n桜川未央\n中家志穂\n藤森ゆき奈\n歌織",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:11.962Z"
+  },
+  "histories": [
+    {
+      "id": 42069,
+      "productId": 42055,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:47.608Z"
+    },
+    {
+      "id": 53536,
+      "productId": 42055,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:11.962Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019484",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019484",
+    "capturedAt": "2026-08-19T16:25:11.962Z",
+    "items": [],
+    "path": "data/other-shops/145019484.json"
+  }
+}

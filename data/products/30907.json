@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30907,
+    "title": "WindowsVista/7/8 CDソフト クリムゾントレイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041976",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041976.jpg",
+    "manufacturer": "クリムゾンSS",
+    "releaseDate": "2014-04-25",
+    "listPrice": 3278,
+    "modelNumber": "CRMS-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145041976",
+      "メーカー": "クリムゾンSS",
+      "発売日": "2014/04/25",
+      "定価": "3,278円",
+      "型番": "CRMS-001",
+      "原画": "カーマイン",
+      "シナリオ": "このえゆずこ\nporori",
+      "声優": "中月亜子\n高野マヤ\n佐藤千幸",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 990,
+    "latestRegularSalePrice": 990,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:22.162Z"
+  },
+  "histories": [
+    {
+      "id": 30921,
+      "productId": 30907,
+      "salePrice": 990,
+      "regularSalePrice": 990,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:00.642Z"
+    },
+    {
+      "id": 39675,
+      "productId": 30907,
+      "salePrice": 990,
+      "regularSalePrice": 990,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:51.215Z"
+    },
+    {
+      "id": 50819,
+      "productId": 30907,
+      "salePrice": 990,
+      "regularSalePrice": 990,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:22.162Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041976",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041976",
+    "capturedAt": "2026-08-19T05:31:22.162Z",
+    "items": [],
+    "path": "data/other-shops/145041976.json"
+  }
+}

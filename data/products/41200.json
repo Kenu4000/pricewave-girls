@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41200,
+    "title": "WindowsXP/Vista/7 DVDソフト マブラヴ オルタネイティヴ クロニクルズ02",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057137",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057137.jpg",
+    "manufacturer": "アージュ",
+    "releaseDate": "2011-06-24",
+    "listPrice": 8580,
+    "modelNumber": "AGE-042",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145057137",
+      "メーカー": "アージュ",
+      "発売日": "2011/06/24",
+      "定価": "8,580円",
+      "型番": "AGE-042",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:04.358Z"
+  },
+  "histories": [
+    {
+      "id": 41214,
+      "productId": 41200,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:39.954Z"
+    },
+    {
+      "id": 52922,
+      "productId": 41200,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:04.358Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057137",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057137",
+    "capturedAt": "2026-08-19T16:20:04.358Z",
+    "items": [],
+    "path": "data/other-shops/145057137.json"
+  }
+}

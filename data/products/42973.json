@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42973,
+    "title": "Windows98/Me/2000/XP DVDソフト 遥かに仰ぎ、麗しの [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040379",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040379.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2006-11-24",
+    "listPrice": 9680,
+    "modelNumber": "WILL-159A",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145040379",
+      "メーカー": "PULLTOP",
+      "発売日": "2006/11/24",
+      "定価": "9,680円",
+      "型番": "WILL-159A",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "サントラCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1511,
+    "latestRegularSalePrice": 1511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "サントラCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:49.057Z"
+  },
+  "histories": [
+    {
+      "id": 42987,
+      "productId": 42973,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:49.057Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040379",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040379",
+    "capturedAt": "2026-08-17T07:16:49.057Z",
+    "items": [],
+    "path": "data/other-shops/145040379.json"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "product": {
+    "id": 30482,
+    "title": "Windows CDソフト 幻聖神姫LINEAGE -セイクリッドリネージュ- ソフマップ特典アペンドディスク 「セイクリッドクレールの新体操恥辱発表会」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050673",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050673.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2015-06-26",
+    "listPrice": null,
+    "modelNumber": "R2SL-1506SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145050673001",
+      "メーカー": "Triangle",
+      "発売日": "2015/06/26",
+      "型番": "R2SL-1506SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "8800",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 8300,
+    "latestRegularSalePrice": 8800,
+    "latestBuyPrice": 3900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:20:33.679Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:41.714Z"
+  },
+  "histories": [
+    {
+      "id": 30496,
+      "productId": 30482,
+      "salePrice": 8300,
+      "regularSalePrice": 8800,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:33.549Z"
+    },
+    {
+      "id": 39274,
+      "productId": 30482,
+      "salePrice": 8300,
+      "regularSalePrice": 8800,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:17.674Z"
+    },
+    {
+      "id": 50511,
+      "productId": 30482,
+      "salePrice": 8300,
+      "regularSalePrice": 8800,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:41.714Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135455,
+      "productId": 30482,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 8300,
+      "checkedAt": "2026-08-19T05:28:42.000Z"
+    },
+    {
+      "id": 135454,
+      "productId": 30482,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 8811,
+      "checkedAt": "2026-08-19T05:28:42.000Z"
+    },
+    {
+      "id": 135453,
+      "productId": 30482,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 8300,
+      "checkedAt": "2026-08-19T05:28:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145050673",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050673",
+    "capturedAt": "2026-08-19T05:28:41.714Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 8300
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 8811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 8300
+      }
+    ],
+    "path": "data/other-shops/145050673.json"
+  }
+}

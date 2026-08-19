@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 8331,
+    "title": "Windows98/Me/2000/XP CDソフト 幽明境を異にする [簡易パッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011837.jpg",
+    "manufacturer": null,
+    "releaseDate": "2004-09-10",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011837",
+      "発売日": "2004/09/10",
+      "定価": "6,380円",
+      "原画": "みつや",
+      "シナリオ": "WANA",
+      "声優": "茶介\nこのかなみ\n秋月まい\n楠鈴音\n杉浦さつき\nかわせ沙希\n朝霞紫\n日向日影\n中瀬ひな",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:31:04.391Z"
+  },
+  "histories": [
+    {
+      "id": 8345,
+      "productId": 8331,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 37720,
+      "productId": 8331,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:18.107Z"
+    },
+    {
+      "id": 43463,
+      "productId": 8331,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:31:04.391Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

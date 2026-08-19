@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 2448,
+    "title": "WindowsXP/Vista/7 DVDソフト スイートロビンガール -Sweet Robin Girl-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026312",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026312.jpg",
+    "manufacturer": "チュアブルソフト",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026312",
+      "メーカー": "チュアブルソフト",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "声優": "カマンベール十円堂\nクボタハルカ\n真宮ゆず\n雪都さお梨\n有栖川みや美\n柚木サチ",
+      "原画": "関谷あさみ",
+      "シナリオ": "うたや\n草壁よしお\nおぷと",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:42:47.400Z"
+  },
+  "histories": [
+    {
+      "id": 2462,
+      "productId": 2448,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:58.000Z"
+    },
+    {
+      "id": 7341,
+      "productId": 2448,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 36454,
+      "productId": 2448,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:54:01.970Z"
+    },
+    {
+      "id": 46835,
+      "productId": 2448,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:42:47.400Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026312",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026312",
+    "capturedAt": "2026-08-17T13:42:47.400Z",
+    "items": [],
+    "path": "data/other-shops/145026312.json"
+  }
+}

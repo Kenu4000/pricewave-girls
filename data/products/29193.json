@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29193,
+    "title": "Windows8/8.1/10 DVDソフト 病みつきヤンデレハーレム!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077351",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077351.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2023-03-31",
+    "listPrice": 3850,
+    "modelNumber": "VAL-063",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145077351",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2023/03/31",
+      "定価": "3,850円",
+      "型番": "VAL-063",
+      "原画": "ヤッペン",
+      "シナリオ": "闇鍋",
+      "声優": "叶一華\n花月さや\n梅宮ここ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7000,
+    "latestRegularSalePrice": 7000,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:33.647Z"
+  },
+  "histories": [
+    {
+      "id": 29207,
+      "productId": 29193,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:25.444Z"
+    },
+    {
+      "id": 38043,
+      "productId": 29193,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:01.859Z"
+    },
+    {
+      "id": 49239,
+      "productId": 29193,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:33.647Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145077351",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077351",
+    "capturedAt": "2026-08-19T04:29:33.647Z",
+    "items": [],
+    "path": "data/other-shops/145077351.json"
+  }
+}

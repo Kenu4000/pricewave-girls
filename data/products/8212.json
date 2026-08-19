@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 8212,
+    "title": "WindowsXP/Vista/7 DVDソフト ふぃぎゅ＠デラックスセット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032033",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032033.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2012-05-25",
+    "listPrice": 9680,
+    "modelNumber": "ecavg-015x",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032033",
+      "メーカー": "エスクード",
+      "発売日": "2012/05/25",
+      "定価": "9,680円",
+      "型番": "ecavg-015x",
+      "原画": "光姫満太郎",
+      "シナリオ": "新",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4950,
+    "latestRegularSalePrice": 4950,
+    "latestBuyPrice": 3700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:04:29.330Z"
+  },
+  "histories": [
+    {
+      "id": 8226,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 13179,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15861,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:19:45.000Z"
+    },
+    {
+      "id": 22415,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:31:40.210Z"
+    },
+    {
+      "id": 26086,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T20:52:44.106Z"
+    },
+    {
+      "id": 37623,
+      "productId": 8212,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:29.330Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145032033",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032033",
+    "capturedAt": "2026-08-16T01:04:29.330Z",
+    "items": [],
+    "path": "data/other-shops/145032033.json"
+  }
+}

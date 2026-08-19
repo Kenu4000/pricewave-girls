@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 3089,
+    "title": "Windows95/98 CDソフト さすらいの料理人",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003864",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003864.jpg",
+    "manufacturer": "Jupiter",
+    "releaseDate": "2000-08-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003864",
+      "メーカー": "Jupiter",
+      "発売日": "2000/08/04",
+      "定価": "9,680円",
+      "原画": "峰堀悠\n竹井正樹",
+      "シナリオ": "そのだまさき\n山田光一郎",
+      "声優": "植田サエ\n菅原文\n永瀬江美弥\n彩世ゆう\n一色ヒカル\n坂口亜梨子\n岡田未央\n三原泉",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:01.468Z"
+  },
+  "histories": [
+    {
+      "id": 3103,
+      "productId": 3089,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26632,
+      "productId": 3089,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:23:15.954Z"
+    },
+    {
+      "id": 36902,
+      "productId": 3089,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:10.317Z"
+    },
+    {
+      "id": 47528,
+      "productId": 3089,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:01.468Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

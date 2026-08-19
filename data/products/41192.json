@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 41192,
+    "title": "WindowsXP/Vista/7 DVDソフト 学園退魔! ホーリー×モーリー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052989",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052989.jpg",
+    "manufacturer": "Frill",
+    "releaseDate": "2011-06-24",
+    "listPrice": 9680,
+    "modelNumber": "VA-00120D",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145052989",
+      "メーカー": "Frill",
+      "発売日": "2011/06/24",
+      "定価": "9,680円",
+      "型番": "VA-00120D",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:59:36.792Z"
+  },
+  "histories": [
+    {
+      "id": 41206,
+      "productId": 41192,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:36.792Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052989",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052989",
+    "capturedAt": "2026-08-17T06:59:36.792Z",
+    "items": [],
+    "path": "data/other-shops/145052989.json"
+  }
+}

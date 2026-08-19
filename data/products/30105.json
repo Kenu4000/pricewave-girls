@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30105,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 俺魔王!-砕け散った魂(俺)の欠片を収集せよ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064569",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064569.jpg",
+    "manufacturer": "WendyBell",
+    "releaseDate": "2016-06-24",
+    "listPrice": 9680,
+    "modelNumber": "WB-018",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064569",
+      "メーカー": "WendyBell",
+      "発売日": "2016/06/24",
+      "定価": "9,680円",
+      "型番": "WB-018",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:30.838Z"
+  },
+  "histories": [
+    {
+      "id": 30119,
+      "productId": 30105,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:50.421Z"
+    },
+    {
+      "id": 38911,
+      "productId": 30105,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:55.749Z"
+    },
+    {
+      "id": 49917,
+      "productId": 30105,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:30.838Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064569",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064569",
+    "capturedAt": "2026-08-19T04:34:30.838Z",
+    "items": [],
+    "path": "data/other-shops/145064569.json"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 42816,
+    "title": "Windows98/Me/2000/XP CDソフト 放課後の保健医 ～姉・汁辱～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015767",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015767.jpg",
+    "manufacturer": "Guilty+",
+    "releaseDate": "2007-04-13",
+    "listPrice": 3981,
+    "modelNumber": "WILL-182",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015767",
+      "メーカー": "Guilty+",
+      "発売日": "2007/04/13",
+      "定価": "3,981円",
+      "型番": "WILL-182",
+      "原画": "船堀斉晃",
+      "シナリオ": "北都凛",
+      "音楽": "drops-tone",
+      "声優": "芹園みや\n如月葵",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:20.110Z"
+  },
+  "histories": [
+    {
+      "id": 42830,
+      "productId": 42816,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:20.110Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015767",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015767",
+    "capturedAt": "2026-08-17T07:15:20.110Z",
+    "items": [],
+    "path": "data/other-shops/145015767.json"
+  }
+}

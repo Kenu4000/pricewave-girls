@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30562,
+    "title": "WindowsVista/7/8 DVDソフト 花の野に咲くうたかたの[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047814",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047814.jpg",
+    "manufacturer": "あっぷりけ",
+    "releaseDate": "2015-03-27",
+    "listPrice": 8580,
+    "modelNumber": "APP-0013",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145047814",
+      "メーカー": "あっぷりけ",
+      "発売日": "2015/03/27",
+      "定価": "8,580円",
+      "型番": "APP-0013",
+      "原画": "オダワラハコネ",
+      "シナリオ": "桐月",
+      "声優": "相葉美鳥\n有栖川みや美\n秋野花\n二戒堂文乃",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1855,
+    "latestRegularSalePrice": 1855,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:10.691Z"
+  },
+  "histories": [
+    {
+      "id": 30576,
+      "productId": 30562,
+      "salePrice": 1870,
+      "regularSalePrice": 1870,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:30.335Z"
+    },
+    {
+      "id": 39348,
+      "productId": 30562,
+      "salePrice": 1870,
+      "regularSalePrice": 1870,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:56.149Z"
+    },
+    {
+      "id": 50571,
+      "productId": 30562,
+      "salePrice": 1855,
+      "regularSalePrice": 1855,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:10.691Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047814",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047814",
+    "capturedAt": "2026-08-19T05:29:10.691Z",
+    "items": [],
+    "path": "data/other-shops/145047814.json"
+  }
+}

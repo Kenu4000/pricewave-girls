@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29541,
+    "title": "Windows7/8/8.1/10 DVDソフト 未来ラジオと人工鳩",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065529",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065529.jpg",
+    "manufacturer": "Laplacian",
+    "releaseDate": "2018-08-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065529",
+      "メーカー": "Laplacian",
+      "発売日": "2018/08/31",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4444,
+    "latestRegularSalePrice": 4444,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:29.578Z"
+  },
+  "histories": [
+    {
+      "id": 29555,
+      "productId": 29541,
+      "salePrice": 4444,
+      "regularSalePrice": 4444,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:05.596Z"
+    },
+    {
+      "id": 38374,
+      "productId": 29541,
+      "salePrice": 4444,
+      "regularSalePrice": 4444,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:10.628Z"
+    },
+    {
+      "id": 49504,
+      "productId": 29541,
+      "salePrice": 4444,
+      "regularSalePrice": 4444,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:29.578Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065529",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065529",
+    "capturedAt": "2026-08-19T04:31:29.578Z",
+    "items": [],
+    "path": "data/other-shops/145065529.json"
+  }
+}

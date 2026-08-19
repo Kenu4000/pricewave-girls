@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 29214,
+    "title": "Windows CDソフト 悪の女幹部ペリジーニュームーン 女神様のたわわな爆乳ボディに甘えて癒される淫靡なボイスドラマ入りディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084075",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084075.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2022-10-10",
+    "listPrice": null,
+    "modelNumber": "GSGL0076SP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145084075001",
+      "メーカー": "ルネ",
+      "発売日": "2022/10/10",
+      "型番": "GSGL0076SP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7000,
+    "latestRegularSalePrice": 7000,
+    "latestBuyPrice": 3100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:39.798Z"
+  },
+  "histories": [
+    {
+      "id": 29228,
+      "productId": 29214,
+      "salePrice": 6600,
+      "regularSalePrice": 7000,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:37.471Z"
+    },
+    {
+      "id": 38064,
+      "productId": 29214,
+      "salePrice": 6600,
+      "regularSalePrice": 7000,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:14.733Z"
+    },
+    {
+      "id": 49255,
+      "productId": 29214,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:39.798Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131756,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-19T04:29:39.000Z"
+    },
+    {
+      "id": 131755,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 6580,
+      "checkedAt": "2026-08-19T04:29:39.000Z"
+    },
+    {
+      "id": 100091,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6600,
+      "checkedAt": "2026-08-16T01:08:14.000Z"
+    },
+    {
+      "id": 100090,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 6580,
+      "checkedAt": "2026-08-16T01:08:14.000Z"
+    },
+    {
+      "id": 74020,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6600,
+      "checkedAt": "2026-08-15T23:04:37.000Z"
+    },
+    {
+      "id": 74019,
+      "productId": 29214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 6580,
+      "checkedAt": "2026-08-15T23:04:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084075",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084075",
+    "capturedAt": "2026-08-19T04:29:39.798Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 6580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7000
+      }
+    ],
+    "path": "data/other-shops/145084075.json"
+  }
+}

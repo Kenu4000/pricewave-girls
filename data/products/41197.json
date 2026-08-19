@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41197,
+    "title": "WindowsXP/Vista/7 DVDソフト はっぴぃふぁくとりー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028360",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028360.jpg",
+    "manufacturer": "Grand Cru",
+    "releaseDate": "2011-06-24",
+    "listPrice": 9680,
+    "modelNumber": "ACSGL-0008",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028360",
+      "メーカー": "Grand Cru",
+      "発売日": "2011/06/24",
+      "定価": "9,680円",
+      "型番": "ACSGL-0008",
+      "原画": "いずみ由羅\n猫生いづる",
+      "シナリオ": "阿田宰土\nカルロス",
+      "声優": "はちこ\n綾部結花\n桔梗\n日向苺\n淀川優花",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:00.374Z"
+  },
+  "histories": [
+    {
+      "id": 41211,
+      "productId": 41197,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:39.582Z"
+    },
+    {
+      "id": 52915,
+      "productId": 41197,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:00.374Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028360",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028360",
+    "capturedAt": "2026-08-19T16:20:00.374Z",
+    "items": [],
+    "path": "data/other-shops/145028360.json"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 31017,
+    "title": "WindowsVista/7/8 DVDソフト 今日からペット -マゾ堕ちする僕のラブラブペット学園ライフ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039739",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039739.jpg",
+    "manufacturer": "イノヘッドスタジオ",
+    "releaseDate": "2014-01-31",
+    "listPrice": 4620,
+    "modelNumber": "INO-004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145039739001",
+      "メーカー": "イノヘッドスタジオ",
+      "発売日": "2014/01/31",
+      "定価": "4,620円",
+      "型番": "INO-004",
+      "原画": "あさんすす",
+      "シナリオ": "東人",
+      "声優": "宮森ゆう\n日部下唯\n有賀桃",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "1980",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1880,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:26:02.039Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:10.424Z"
+  },
+  "histories": [
+    {
+      "id": 31031,
+      "productId": 31017,
+      "salePrice": 1880,
+      "regularSalePrice": 1980,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:26:01.851Z"
+    },
+    {
+      "id": 39786,
+      "productId": 31017,
+      "salePrice": 1880,
+      "regularSalePrice": 1980,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:49.959Z"
+    },
+    {
+      "id": 50905,
+      "productId": 31017,
+      "salePrice": 1880,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:10.424Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136312,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-19T05:32:10.000Z"
+    },
+    {
+      "id": 136311,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-19T05:32:10.000Z"
+    },
+    {
+      "id": 136310,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-19T05:32:10.000Z"
+    },
+    {
+      "id": 104000,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-16T01:23:50.000Z"
+    },
+    {
+      "id": 103999,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-16T01:23:50.000Z"
+    },
+    {
+      "id": 78127,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-15T23:26:02.000Z"
+    },
+    {
+      "id": 78126,
+      "productId": 31017,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-15T23:26:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039739",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039739",
+    "capturedAt": "2026-08-19T05:32:10.424Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1880
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1880
+      }
+    ],
+    "path": "data/other-shops/145039739.json"
+  }
+}

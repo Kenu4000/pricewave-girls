@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 29132,
+    "title": "Windows10/11 DVDソフト 淫紋闘技都市ソドム～大観衆の前で強制受胎させられる聖戦姫～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082421.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2024-12-20",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082421001",
+      "メーカー": "catwalkNERO",
+      "発売日": "2024/12/20",
+      "定価": "10,780円",
+      "原画": "緑木邑\nユウサギ\n七彌\nsaxasa",
+      "シナリオ": "小沢裕樹",
+      "声優": "新良かな\n梅原亜衣\n美空なつひ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveRegularSalePrice": "2780",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2700,
+    "latestRegularSalePrice": 2780,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:03:40.054Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:03:39.861Z"
+  },
+  "histories": [
+    {
+      "id": 29146,
+      "productId": 29132,
+      "salePrice": 2700,
+      "regularSalePrice": 2780,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:39.861Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 73815,
+      "productId": 29132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2920,
+      "checkedAt": "2026-08-15T23:03:40.000Z"
+    },
+    {
+      "id": 73814,
+      "productId": 29132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 2730,
+      "checkedAt": "2026-08-15T23:03:40.000Z"
+    },
+    {
+      "id": 73813,
+      "productId": 29132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-08-15T23:03:40.000Z"
+    },
+    {
+      "id": 73812,
+      "productId": 29132,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 2700,
+      "checkedAt": "2026-08-15T23:03:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082421",
+    "capturedAt": "2026-08-15T23:03:39.861Z",
+    "items": [
+      {
+        "storeName": "Image 1 2 of 2 中古",
+        "condition": "状態不明",
+        "price": 2700
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2700
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 2730
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2920
+      }
+    ],
+    "path": "data/other-shops/145082421.json"
+  }
+}

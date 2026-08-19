@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 3130,
+    "title": "WindowsXP/Vista/7/8 DVDソフト HUNTING BLUE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038131",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038131.jpg",
+    "manufacturer": "LiLiM DARKNESS",
+    "releaseDate": "2013-10-25",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038131001",
+      "メーカー": "LiLiM DARKNESS",
+      "発売日": "2013/10/25",
+      "定価": "6,380円",
+      "原画": "安藤智也",
+      "シナリオ": "東勝寺弥香李",
+      "声優": "岡本未来\n唯香\n胸肩腎\n球三郎",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:21.976Z"
+  },
+  "histories": [
+    {
+      "id": 3144,
+      "productId": 3130,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22960,
+      "productId": 3130,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:14.651Z"
+    },
+    {
+      "id": 36942,
+      "productId": 3130,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:28.835Z"
+    },
+    {
+      "id": 47560,
+      "productId": 3130,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:21.976Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126165,
+      "productId": 3130,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 126164,
+      "productId": 3130,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 52428,
+      "productId": 3130,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52427,
+      "productId": 3130,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 560,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038131",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038131",
+    "capturedAt": "2026-08-17T16:06:21.976Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145038131.json"
+  }
+}

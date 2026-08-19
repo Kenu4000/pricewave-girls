@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42886,
+    "title": "Windows98/Me/2000/XP DVDソフト 突撃天使かのん 美少女ゲーム・ベストシリーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015408",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015408.jpg",
+    "manufacturer": "RaSeN",
+    "releaseDate": "2007-02-02",
+    "listPrice": 6380,
+    "modelNumber": "VOL018",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015408",
+      "メーカー": "RaSeN",
+      "発売日": "2007/02/02",
+      "定価": "6,380円",
+      "型番": "VOL018",
+      "原画": "竜胆\n田宮秋人\n桐沢しんじ",
+      "シナリオ": "assault",
+      "声優": "如月美琴\n芹園みや\n柘翁そのか\n桜ちえり\n西田こむぎ\n寺沢えみり",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:01.506Z"
+  },
+  "histories": [
+    {
+      "id": 42900,
+      "productId": 42886,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:01.506Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015408",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015408",
+    "capturedAt": "2026-08-17T07:16:01.506Z",
+    "items": [],
+    "path": "data/other-shops/145015408.json"
+  }
+}

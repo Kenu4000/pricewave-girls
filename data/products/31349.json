@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31349,
+    "title": "WindowsXP/Vista/7 DVDソフト 脱出するのは頂いた後で ー閉じ込められた少女とオヤジー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904482",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904482.jpg",
+    "manufacturer": "ソクラテス",
+    "releaseDate": "2013-05-24",
+    "listPrice": 1572,
+    "modelNumber": "SOCR-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145904482",
+      "メーカー": "ソクラテス",
+      "発売日": "2013/05/24",
+      "定価": "1,572円",
+      "型番": "SOCR-001",
+      "声優": "野上菜月",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1219,
+    "latestRegularSalePrice": 1219,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:17.323Z"
+  },
+  "histories": [
+    {
+      "id": 31363,
+      "productId": 31349,
+      "salePrice": 1219,
+      "regularSalePrice": 1219,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:49.794Z"
+    },
+    {
+      "id": 40104,
+      "productId": 31349,
+      "salePrice": 1219,
+      "regularSalePrice": 1219,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:10.735Z"
+    },
+    {
+      "id": 51152,
+      "productId": 31349,
+      "salePrice": 1219,
+      "regularSalePrice": 1219,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:17.323Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145904482",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145904482",
+    "capturedAt": "2026-08-19T05:34:17.323Z",
+    "items": [],
+    "path": "data/other-shops/145904482.json"
+  }
+}

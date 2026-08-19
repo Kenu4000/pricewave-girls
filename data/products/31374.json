@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31374,
+    "title": "WindowsXP/Vista/7 DVDソフト 魔導巧殻 -闇の月女神は導国で詠う-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049289",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049289.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2013-04-26",
+    "listPrice": 10340,
+    "modelNumber": "EUDV-014",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145049289",
+      "メーカー": "エウシュリー",
+      "発売日": "2013/04/26",
+      "定価": "10,340円",
+      "型番": "EUDV-014",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:26.338Z"
+  },
+  "histories": [
+    {
+      "id": 31388,
+      "productId": 31374,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:03.979Z"
+    },
+    {
+      "id": 40130,
+      "productId": 31374,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:23.918Z"
+    },
+    {
+      "id": 51171,
+      "productId": 31374,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:26.338Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049289",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049289",
+    "capturedAt": "2026-08-19T05:34:26.338Z",
+    "items": [],
+    "path": "data/other-shops/145049289.json"
+  }
+}

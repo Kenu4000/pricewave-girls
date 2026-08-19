@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3109,
+    "title": "Windows2000/XP/Vista/7 DVDソフト MISTAKE×MISCAST",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028340",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028340.jpg",
+    "manufacturer": "Pocket",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "mig-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028340",
+      "メーカー": "Pocket",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "mig-001",
+      "シナリオ": "湊潤\n毘沙素",
+      "原画": "セトキアキトセ",
+      "声優": "桜城ちか\n結衣菜\n湖月紅れ葉\n唯香",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:13.589Z"
+  },
+  "histories": [
+    {
+      "id": 3123,
+      "productId": 3109,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 22953,
+      "productId": 3109,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:11.200Z"
+    },
+    {
+      "id": 36923,
+      "productId": 3109,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:19.138Z"
+    },
+    {
+      "id": 47546,
+      "productId": 3109,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:13.589Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028340",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028340",
+    "capturedAt": "2026-08-17T16:06:13.589Z",
+    "items": [],
+    "path": "data/other-shops/145028340.json"
+  }
+}

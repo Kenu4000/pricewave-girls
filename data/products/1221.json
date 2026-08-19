@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 1221,
+    "title": "Windows8.1/10 DVDソフト Hではじけた悪戯ウィザード -魔法の力でいたずらし放題!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073309",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073309.jpg",
+    "manufacturer": "evoLL",
+    "releaseDate": "2021-12-24",
+    "listPrice": 7480,
+    "modelNumber": "EVLL-008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145073309",
+      "メーカー": "evoLL",
+      "発売日": "2021/12/24",
+      "定価": "7,480円",
+      "型番": "EVLL-008",
+      "原画": "未巳エヌ",
+      "シナリオ": "篠尾カズノリ\n箒星",
+      "声優": "赤月ゆむ\n優月心菜\n花月さや",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T00:46:05.382Z"
+  },
+  "histories": [
+    {
+      "id": 1235,
+      "productId": 1221,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6115,
+      "productId": 1221,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:39.000Z"
+    },
+    {
+      "id": 16134,
+      "productId": 1221,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 35511,
+      "productId": 1221,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:46:05.382Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 91656,
+      "productId": 1221,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1340,
+      "checkedAt": "2026-08-16T00:46:05.000Z"
+    },
+    {
+      "id": 91655,
+      "productId": 1221,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-16T00:46:05.000Z"
+    },
+    {
+      "id": 28755,
+      "productId": 1221,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1340,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28754,
+      "productId": 1221,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28753,
+      "productId": 1221,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 1200,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073309",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073309",
+    "capturedAt": "2026-08-16T00:46:05.382Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1340
+      }
+    ],
+    "path": "data/other-shops/145073309.json"
+  }
+}

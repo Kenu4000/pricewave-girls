@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 42301,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 悪魔っ娘はいじっぱり ～アンタなんかアタシのアソコですぐに虜にしてやるんだから!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018553",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018553.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2008-08-29",
+    "listPrice": 1650,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018553001",
+      "メーカー": "Norn",
+      "発売日": "2008/08/29",
+      "定価": "1,650円",
+      "原画": "Louis&Visee",
+      "シナリオ": "遊真一希",
+      "声優": "水島理音\n櫻井ありす",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:40.706Z"
+  },
+  "histories": [
+    {
+      "id": 42315,
+      "productId": 42301,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:21.250Z"
+    },
+    {
+      "id": 53712,
+      "productId": 42301,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:40.706Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144110,
+      "productId": 42301,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:26:40.000Z"
+    },
+    {
+      "id": 144109,
+      "productId": 42301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T16:26:40.000Z"
+    },
+    {
+      "id": 109459,
+      "productId": 42301,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:10:21.000Z"
+    },
+    {
+      "id": 109458,
+      "productId": 42301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-17T07:10:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018553",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018553",
+    "capturedAt": "2026-08-19T16:26:40.706Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145018553.json"
+  }
+}

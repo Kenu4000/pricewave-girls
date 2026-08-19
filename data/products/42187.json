@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": 42187,
+    "title": "Windows2000/XP/Vista DVDソフト 恋の恋～れんのこい～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019023.jpg",
+    "manufacturer": "M ni AQUA",
+    "releaseDate": "2008-11-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019023",
+      "メーカー": "M ni AQUA",
+      "発売日": "2008/11/28",
+      "定価": "9,680円",
+      "原画": "さんた☆まりあ",
+      "シナリオ": "YOSHI光",
+      "声優": "逢川奈々\n水純なな歩\n東かりん\n中家志穂\n渋谷ひめ\n如月葵\n香澄りょう\n秋風弥生\n神城優斗\n小次狼",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "OS": "HI光",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:56.036Z"
+  },
+  "histories": [
+    {
+      "id": 42201,
+      "productId": 42187,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:08.610Z"
+    },
+    {
+      "id": 53624,
+      "productId": 42187,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:56.036Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

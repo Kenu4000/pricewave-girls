@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41852,
+    "title": "Windows2000/XP/Vista CDソフト 学園征服計画",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021909",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021909.jpg",
+    "manufacturer": "Angel SOFT",
+    "releaseDate": "2009-10-23",
+    "listPrice": 3300,
+    "modelNumber": "ANG-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021909",
+      "メーカー": "Angel SOFT",
+      "発売日": "2009/10/23",
+      "定価": "3,300円",
+      "型番": "ANG-001",
+      "原画": "柑武遼",
+      "シナリオ": "安斎兵梧",
+      "声優": "橘みもざ\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:56.511Z"
+  },
+  "histories": [
+    {
+      "id": 41866,
+      "productId": 41852,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:57.254Z"
+    },
+    {
+      "id": 44019,
+      "productId": 41852,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:56.511Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021909",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021909",
+    "capturedAt": "2026-08-17T09:36:56.511Z",
+    "items": [],
+    "path": "data/other-shops/145021909.json"
+  }
+}

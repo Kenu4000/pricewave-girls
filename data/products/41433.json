@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41433,
+    "title": "Windows98SE/Me/2000/XP/Vista/7 DVDソフト 紫影のソナーニル -What a beautiful memories-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057113",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057113.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2010-11-26",
+    "listPrice": 9680,
+    "modelNumber": "BP-031",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145057113",
+      "メーカー": "ライアーソフト",
+      "発売日": "2010/11/26",
+      "定価": "9,680円",
+      "型番": "BP-031",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:30.670Z"
+  },
+  "histories": [
+    {
+      "id": 41447,
+      "productId": 41433,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:52.338Z"
+    },
+    {
+      "id": 53090,
+      "productId": 41433,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:30.670Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057113",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057113",
+    "capturedAt": "2026-08-19T16:21:30.670Z",
+    "items": [],
+    "path": "data/other-shops/145057113.json"
+  }
+}

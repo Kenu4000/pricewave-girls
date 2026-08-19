@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 3245,
+    "title": "Windows98/Me/2000/XP DVDソフト 幼なじみと甘ーくエッチに過ごす方法",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015437",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015437.jpg",
+    "manufacturer": "アトリエかぐやBerkshire Yorkshire",
+    "releaseDate": "2007-02-23",
+    "listPrice": 9680,
+    "modelNumber": "KA-0038",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015437",
+      "メーカー": "アトリエかぐやBerkshire Yorkshire",
+      "発売日": "2007/02/23",
+      "定価": "9,680円",
+      "型番": "KA-0038",
+      "原画": "choco chip",
+      "シナリオ": "七央結日\nもみあげルパンR\n近江達裕\n神無月ニトロ",
+      "声優": "MI-KO\n楠鈴音\n北都南\n安玖深音\n朝田孝",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:07.658Z"
+  },
+  "histories": [
+    {
+      "id": 3259,
+      "productId": 3245,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 26670,
+      "productId": 3245,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:10.664Z"
+    },
+    {
+      "id": 37037,
+      "productId": 3245,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:19.391Z"
+    },
+    {
+      "id": 47643,
+      "productId": 3245,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:07.658Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126480,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T16:07:08.000Z"
+    },
+    {
+      "id": 126479,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:07:08.000Z"
+    },
+    {
+      "id": 97373,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T00:59:19.000Z"
+    },
+    {
+      "id": 97372,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:59:19.000Z"
+    },
+    {
+      "id": 65559,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-09T21:36:10.000Z"
+    },
+    {
+      "id": 65558,
+      "productId": 3245,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-09T21:36:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015437",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015437",
+    "capturedAt": "2026-08-17T16:07:07.658Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145015437.json"
+  }
+}

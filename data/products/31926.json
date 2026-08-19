@@ -1,0 +1,125 @@
+{
+  "product": {
+    "id": 31926,
+    "title": "Windows CDソフト 妹選抜☆総選挙 リアル妹からみた橘家の事情 追加パッチ 予約特典ディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031373",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031373.jpg",
+    "manufacturer": "Latte",
+    "releaseDate": "2011-12-22",
+    "listPrice": null,
+    "modelNumber": "LAT001Y",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145031373001",
+      "メーカー": "Latte",
+      "発売日": "2011/12/22",
+      "型番": "LAT001Y",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:06.535Z"
+  },
+  "histories": [
+    {
+      "id": 31940,
+      "productId": 31926,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:57.854Z"
+    },
+    {
+      "id": 40668,
+      "productId": 31926,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.598Z"
+    },
+    {
+      "id": 52160,
+      "productId": 31926,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:06.535Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 139813,
+      "productId": 31926,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-19T15:33:06.000Z"
+    },
+    {
+      "id": 139812,
+      "productId": 31926,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T15:33:06.000Z"
+    },
+    {
+      "id": 139811,
+      "productId": 31926,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-19T15:33:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031373",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031373",
+    "capturedAt": "2026-08-19T15:33:06.535Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145031373.json"
+  }
+}

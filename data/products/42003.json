@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 42003,
+    "title": "Windows CDソフト AlterEgo Collector’s Disc (メッセサンオー特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024461",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024461.jpg",
+    "manufacturer": "Kiss",
+    "releaseDate": "2009-05-29",
+    "listPrice": null,
+    "modelNumber": "MESSE-442",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145024461001",
+      "メーカー": "Kiss",
+      "発売日": "2009/05/29",
+      "型番": "MESSE-442",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:51.235Z"
+  },
+  "histories": [
+    {
+      "id": 42017,
+      "productId": 42003,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:15.153Z"
+    },
+    {
+      "id": 53496,
+      "productId": 42003,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:51.235Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

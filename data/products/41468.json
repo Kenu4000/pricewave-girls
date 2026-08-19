@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41468,
+    "title": "WindowsXP/Vista/7 DVDソフト 淫辱都市/堕天の贄",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063731",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063731.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2010-10-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145063731",
+      "メーカー": "CLOCKUP",
+      "発売日": "2010/10/29",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:17.731Z"
+  },
+  "histories": [
+    {
+      "id": 41482,
+      "productId": 41468,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:12.077Z"
+    },
+    {
+      "id": 43941,
+      "productId": 41468,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:17.731Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063731",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063731",
+    "capturedAt": "2026-08-17T09:36:17.731Z",
+    "items": [],
+    "path": "data/other-shops/145063731.json"
+  }
+}

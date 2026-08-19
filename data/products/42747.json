@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42747,
+    "title": "Windows2000/XP/Vista DVDソフト ドラゴンナイト4 [Windows版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015838",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015838.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "ELFD089",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015838",
+      "メーカー": "エルフ",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "ELFD089",
+      "原画": "竹井正樹",
+      "シナリオ": "蛭田昌人",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9550,
+    "latestRegularSalePrice": 9550,
+    "latestBuyPrice": 6900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:43.258Z"
+  },
+  "histories": [
+    {
+      "id": 42761,
+      "productId": 42747,
+      "salePrice": 9550,
+      "regularSalePrice": 9550,
+      "buyPrice": 6900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:43.258Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015838",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015838",
+    "capturedAt": "2026-08-17T07:14:43.258Z",
+    "items": [],
+    "path": "data/other-shops/145015838.json"
+  }
+}

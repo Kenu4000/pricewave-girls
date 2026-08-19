@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 43003,
+    "title": "Windows98/Me/2000/XP DVDソフト 三坂物語",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014864",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014864.jpg",
+    "manufacturer": "ユーミソフト U・Me SOFT",
+    "releaseDate": "2006-11-03",
+    "listPrice": 9680,
+    "modelNumber": "UME-053",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014864",
+      "メーカー": "ユーミソフト U・Me SOFT",
+      "発売日": "2006/11/03",
+      "定価": "9,680円",
+      "型番": "UME-053",
+      "原画": "ジェントル佐々木\n金目鯛ぴんく",
+      "原画/シナリオ": "てつろう",
+      "声優": "風音\n春野日和\nみる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "シナリオ": "<\nth> <td class=\"w-14\"><a class=\"link_underline\" href=\"https:\nwww.suruga-ya.jp\nsearch?category=&amp\nsearch_word=&amp\nperson_id=51303\">てつろう<\na><\ntd> <th class=\"text-right 3\">",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1212,
+    "latestRegularSalePrice": 1212,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:04.791Z"
+  },
+  "histories": [
+    {
+      "id": 43017,
+      "productId": 43003,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:04.791Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014864",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014864",
+    "capturedAt": "2026-08-17T07:17:04.791Z",
+    "items": [],
+    "path": "data/other-shops/145014864.json"
+  }
+}

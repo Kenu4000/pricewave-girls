@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42532,
+    "title": "Windows98/Me/2000/XP CDソフト 魔剣少女エンヴィー -Blade of Latens・炎の継承者-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017386",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017386.jpg",
+    "manufacturer": "ZyX",
+    "releaseDate": "2008-01-31",
+    "listPrice": 9680,
+    "modelNumber": "ZYX-00461",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145017386",
+      "メーカー": "ZyX",
+      "発売日": "2008/01/31",
+      "定価": "9,680円",
+      "型番": "ZYX-00461",
+      "原画": "さわのたかじ",
+      "声優": "三園あすか\n金田まひる\n石川徹\n加乃みるく\n白銀一樹\nむつき\n緒田マリ\n民安ともえ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:07.422Z"
+  },
+  "histories": [
+    {
+      "id": 42546,
+      "productId": 42532,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:41.303Z"
+    },
+    {
+      "id": 53882,
+      "productId": 42532,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:07.422Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017386",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017386",
+    "capturedAt": "2026-08-19T16:28:07.422Z",
+    "items": [],
+    "path": "data/other-shops/145017386.json"
+  }
+}

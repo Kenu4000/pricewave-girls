@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31371,
+    "title": "WindowsXP/Vista/7/8 CDソフト 女子校生が語る痴漢電車",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036589",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036589.jpg",
+    "manufacturer": "ZION（ザイオン）",
+    "releaseDate": "2013-04-26",
+    "listPrice": 4180,
+    "modelNumber": "ZION-JKKATA",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036589",
+      "メーカー": "ZION（ザイオン）",
+      "発売日": "2013/04/26",
+      "定価": "4,180円",
+      "型番": "ZION-JKKATA",
+      "原画": "ズルム健",
+      "シナリオ": "ハインライン座尾",
+      "声優": "伊藤瞳子\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:24.906Z"
+  },
+  "histories": [
+    {
+      "id": 31385,
+      "productId": 31371,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:03.947Z"
+    },
+    {
+      "id": 40126,
+      "productId": 31371,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:20.830Z"
+    },
+    {
+      "id": 51166,
+      "productId": 31371,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:24.906Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036589",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036589",
+    "capturedAt": "2026-08-19T05:34:24.906Z",
+    "items": [],
+    "path": "data/other-shops/145036589.json"
+  }
+}

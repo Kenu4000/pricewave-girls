@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 31628,
+    "title": "WindowsXP/Vista/7 DVDソフト おれつま! ーオレがマンション管理人になったら人妻たちとちょっとイイコトできちゃうかも!?ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034054",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034054.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034054",
+      "メーカー": "CLOCKUP",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "原画": "くまっち",
+      "シナリオ": "はやさかうたね",
+      "声優": "鶴屋春人\n榊木春乃\n芦原あけび\n御苑生メイ\n杉原茉莉\n高井戸雫\n秋野花\n榛名れん\n鈴音華月\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:00.914Z"
+  },
+  "histories": [
+    {
+      "id": 31642,
+      "productId": 31628,
+      "salePrice": 2700,
+      "regularSalePrice": 2700,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:10.307Z"
+    },
+    {
+      "id": 40377,
+      "productId": 31628,
+      "salePrice": 2700,
+      "regularSalePrice": 2700,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:20.504Z"
+    },
+    {
+      "id": 43783,
+      "productId": 31628,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:00.914Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113275,
+      "productId": 31628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-08-17T09:35:01.000Z"
+    },
+    {
+      "id": 113274,
+      "productId": 31628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-17T09:35:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034054",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034054",
+    "capturedAt": "2026-08-17T09:35:00.914Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2700
+      }
+    ],
+    "path": "data/other-shops/145034054.json"
+  }
+}

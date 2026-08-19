@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42039,
+    "title": "Windows2000/XP/Vista DVDソフト 花と乙女に祝福を [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041667",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041667.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9680,
+    "modelNumber": "WILL-219",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145041667",
+      "メーカー": "ensemble",
+      "発売日": "2009/04/24",
+      "定価": "9,680円",
+      "型番": "WILL-219",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:07:34.357Z"
+  },
+  "histories": [
+    {
+      "id": 42053,
+      "productId": 42039,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:34.357Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041667",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041667",
+    "capturedAt": "2026-08-17T07:07:34.357Z",
+    "items": [],
+    "path": "data/other-shops/145041667.json"
+  }
+}

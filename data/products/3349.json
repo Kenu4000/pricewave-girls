@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3349,
+    "title": "Windows98/Me/2000/XP CDソフト マッチ売りの美少女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008771",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008771.jpg",
+    "manufacturer": "ガイア",
+    "releaseDate": "2003-03-28",
+    "listPrice": 6380,
+    "modelNumber": "GMB3",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008771",
+      "メーカー": "ガイア",
+      "発売日": "2003/03/28",
+      "定価": "6,380円",
+      "型番": "GMB3",
+      "原画": "富沢和雄",
+      "シナリオ": "クリストファー武井",
+      "声優": "石川乃奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5090,
+    "latestRegularSalePrice": 5090,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:45.684Z"
+  },
+  "histories": [
+    {
+      "id": 3363,
+      "productId": 3349,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 23001,
+      "productId": 3349,
+      "salePrice": 5140,
+      "regularSalePrice": 5140,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:39.407Z"
+    },
+    {
+      "id": 37118,
+      "productId": 3349,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:04.338Z"
+    },
+    {
+      "id": 47711,
+      "productId": 3349,
+      "salePrice": 5090,
+      "regularSalePrice": 5090,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:45.684Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145008771",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008771",
+    "capturedAt": "2026-08-17T16:07:45.684Z",
+    "items": [],
+    "path": "data/other-shops/145008771.json"
+  }
+}

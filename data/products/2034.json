@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 2034,
+    "title": "WindowsVista/7/8/10 DVDソフト リアルエロゲシチュエーション!H×3 [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060985",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060985.jpg",
+    "manufacturer": "自宅すたじお",
+    "releaseDate": "2018-02-23",
+    "listPrice": 9350,
+    "modelNumber": "JITAKU-003N",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060985",
+      "メーカー": "自宅すたじお",
+      "発売日": "2018/02/23",
+      "定価": "9,350円",
+      "型番": "JITAKU-003N",
+      "原画": "ねたろぅ\n蒼木みなみ\n大気KEN\nどどめ色マヨネーズ",
+      "シナリオ": "保田沖次郎\nえじむら\n玲",
+      "声優": "大友アイル\n橘まお\n水野七海\n綾瀬あかり\n伊ヶ崎綾香\nこのは\n野々原まどか\nMI-KO\n唯香\nもり犬輔",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:40:21.063Z"
+  },
+  "histories": [
+    {
+      "id": 2048,
+      "productId": 2034,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:48.000Z"
+    },
+    {
+      "id": 6927,
+      "productId": 2034,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:20.000Z"
+    },
+    {
+      "id": 36102,
+      "productId": 2034,
+      "salePrice": 3230,
+      "regularSalePrice": 3230,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:50:54.331Z"
+    },
+    {
+      "id": 46574,
+      "productId": 2034,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:40:21.063Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 121794,
+      "productId": 2034,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 3230,
+      "checkedAt": "2026-08-17T13:40:21.000Z"
+    },
+    {
+      "id": 121793,
+      "productId": 2034,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-17T13:40:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060985",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060985",
+    "capturedAt": "2026-08-17T13:40:21.063Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 3230
+      }
+    ],
+    "path": "data/other-shops/145060985.json"
+  }
+}

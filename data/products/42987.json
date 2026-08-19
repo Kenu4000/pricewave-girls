@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42987,
+    "title": "Windows98/Me/2000/XP DVDソフト ふぃぎゅ＠メイト",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044033",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044033.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2006-11-24",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-015",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145044033",
+      "メーカー": "エスクード",
+      "発売日": "2006/11/24",
+      "定価": "9,680円",
+      "型番": "ECAVG-015",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:14.009Z"
+  },
+  "histories": [
+    {
+      "id": 43001,
+      "productId": 42987,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:57.454Z"
+    },
+    {
+      "id": 48797,
+      "productId": 42987,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:14.009Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044033",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044033",
+    "capturedAt": "2026-08-19T04:26:14.009Z",
+    "items": [],
+    "path": "data/other-shops/145044033.json"
+  }
+}

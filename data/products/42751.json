@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42751,
+    "title": "Windows98/Me/2000/XP CDソフト ママと妹と僕と先生",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015840",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015840.jpg",
+    "manufacturer": "ラブチェリー",
+    "releaseDate": "2007-06-22",
+    "listPrice": 4180,
+    "modelNumber": "LVCPC-0005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015840001",
+      "メーカー": "ラブチェリー",
+      "発売日": "2007/06/22",
+      "定価": "4,180円",
+      "型番": "LVCPC-0005",
+      "原画": "蓮",
+      "声優": "ひなた\n梨本悠里",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:44.268Z"
+  },
+  "histories": [
+    {
+      "id": 42765,
+      "productId": 42751,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:44.268Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110325,
+      "productId": 42751,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110324,
+      "productId": 42751,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110323,
+      "productId": 42751,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015840",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015840",
+    "capturedAt": "2026-08-17T07:14:44.268Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      }
+    ],
+    "path": "data/other-shops/145015840.json"
+  }
+}

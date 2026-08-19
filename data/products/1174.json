@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 1174,
+    "title": "Windows7/8/10 DVDソフト 螺旋遡行のディストピア (月刊メガストア 2022年7月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075485",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075485.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2022-05-30",
+    "listPrice": null,
+    "modelNumber": "MEGA2207",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145075485",
+      "メーカー": "コアマガジン",
+      "発売日": "2022/05/30",
+      "型番": "MEGA2207",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:35:59.517Z"
+  },
+  "histories": [
+    {
+      "id": 1188,
+      "productId": 1174,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6078,
+      "productId": 1174,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 22691,
+      "productId": 1174,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:33:56.749Z"
+    },
+    {
+      "id": 35475,
+      "productId": 1174,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:45:46.756Z"
+    },
+    {
+      "id": 46055,
+      "productId": 1174,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:35:59.517Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 51586,
+      "productId": 1174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51585,
+      "productId": 1174,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 2944,
+    "title": "Windows2000/XP/Vista DVDソフト Canvas3～白銀のポートレート～[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019469",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019469.jpg",
+    "manufacturer": "F＆C・FC01",
+    "releaseDate": "2009-03-20",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019469001",
+      "メーカー": "F＆C・FC01",
+      "発売日": "2009/03/20",
+      "定価": "10,780円",
+      "原画": "魚\nたにはらなつき\nひなた睦月",
+      "シナリオ": "葉月もれび\n雨野智晴\nたけうちこうた\n宮村優\n望月JET",
+      "声優": "後野勝彦\n夏野こおり\nたかはし智秋\n風音\n木村あやか\n立花あや",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:41:40.944Z"
+  },
+  "histories": [
+    {
+      "id": 2958,
+      "productId": 2944,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 22928,
+      "productId": 2944,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:56.931Z"
+    },
+    {
+      "id": 44555,
+      "productId": 2944,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:40.944Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115178,
+      "productId": 2944,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-17T09:41:41.000Z"
+    },
+    {
+      "id": 115177,
+      "productId": 2944,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 820,
+      "checkedAt": "2026-08-17T09:41:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019469",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019469",
+    "capturedAt": "2026-08-17T09:41:40.944Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 820
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145019469.json"
+  }
+}

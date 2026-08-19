@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 41804,
+    "title": "Windows2000/XP/Vista DVDソフト SHUFFLE! Essence+ -Standard Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022259",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022259.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2009-11-27",
+    "listPrice": 9680,
+    "modelNumber": "NVSW-0018",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145022259001",
+      "メーカー": "Navel",
+      "発売日": "2009/11/27",
+      "定価": "9,680円",
+      "型番": "NVSW-0018",
+      "原画": "鈴平ひろ\n西又葵",
+      "シナリオ": "森林彬",
+      "声優": "宝塚すみれ\n日向裕羅\n香取那須巳\n安玖深音\n西田こむぎ\n緒田マリ\n一色ヒカル\n向井葵\n佐々留美子\n松永雪希\n籐野らん\n北都南\n小杉十郎太\nほうでん亭ガツ\n小池竹蔵",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:04.824Z"
+  },
+  "histories": [
+    {
+      "id": 41818,
+      "productId": 41804,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:31.897Z"
+    },
+    {
+      "id": 48776,
+      "productId": 41804,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:04.824Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 129969,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-19T04:26:05.000Z"
+    },
+    {
+      "id": 129968,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-19T04:26:05.000Z"
+    },
+    {
+      "id": 129967,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 1480,
+      "checkedAt": "2026-08-19T04:26:05.000Z"
+    },
+    {
+      "id": 129966,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難/ディスク傷あり",
+      "price": 900,
+      "checkedAt": "2026-08-19T04:26:05.000Z"
+    },
+    {
+      "id": 108330,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-17T07:05:32.000Z"
+    },
+    {
+      "id": 108329,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 1480,
+      "checkedAt": "2026-08-17T07:05:32.000Z"
+    },
+    {
+      "id": 108328,
+      "productId": 41804,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難/ディスク傷あり",
+      "price": 900,
+      "checkedAt": "2026-08-17T07:05:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022259",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022259",
+    "capturedAt": "2026-08-19T04:26:04.824Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古箱状態難/ディスク傷あり",
+        "price": 900
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 1480
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1600
+      }
+    ],
+    "path": "data/other-shops/145022259.json"
+  }
+}

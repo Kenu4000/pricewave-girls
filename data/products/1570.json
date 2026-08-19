@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 1570,
+    "title": "Windows8/10 DVDソフト 巣作りカリンちゃん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066081",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066081.jpg",
+    "manufacturer": "KarinProject",
+    "releaseDate": "2019-12-20",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145066081",
+      "メーカー": "KarinProject",
+      "発売日": "2019/12/20",
+      "定価": "10,780円",
+      "原画": "夏彦\nかんたか\n日陰影次\nこ~ちゃ\nちよねここ",
+      "シナリオ": "桃ノ雑派\n内藤騎之介\n上田ながの",
+      "声優": "風花ましろ\n乃嶋架菜\n海原エレナ\n奏雨\nみる\n深井晴花\nあじ秋刀魚\n風音\n北都南\n桃井いちご\n一色ヒカル\n綾音まこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4711,
+    "latestRegularSalePrice": 4711,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:37:58.496Z"
+  },
+  "histories": [
+    {
+      "id": 1584,
+      "productId": 1570,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6478,
+      "productId": 1570,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:19.000Z"
+    },
+    {
+      "id": 22755,
+      "productId": 1570,
+      "salePrice": 3650,
+      "regularSalePrice": 4080,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:28.776Z"
+    },
+    {
+      "id": 35751,
+      "productId": 1570,
+      "salePrice": 4711,
+      "regularSalePrice": 4711,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:48:04.021Z"
+    },
+    {
+      "id": 46285,
+      "productId": 1570,
+      "salePrice": 4711,
+      "regularSalePrice": 4711,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:37:58.496Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 51748,
+      "productId": 1570,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 5040,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51747,
+      "productId": 1570,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 4711,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51746,
+      "productId": 1570,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3650,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066081",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066081",
+    "capturedAt": "2026-08-17T13:37:58.496Z",
+    "items": [],
+    "path": "data/other-shops/145066081.json"
+  }
+}

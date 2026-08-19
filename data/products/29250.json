@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 29250,
+    "title": "Windowsソフト 思い出抱えてアイにコイ!! 初回限定版同梱特典SPECIAL DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076712",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076712.jpg",
+    "manufacturer": "HOOK SOFT",
+    "releaseDate": "2021-09-24",
+    "listPrice": null,
+    "modelNumber": "DMJ-0056B",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145076712",
+      "メーカー": "HOOK SOFT",
+      "発売日": "2021/09/24",
+      "型番": "DMJ-0056B",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 399,
+    "latestRegularSalePrice": 399,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:50.116Z"
+  },
+  "histories": [
+    {
+      "id": 29264,
+      "productId": 29250,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:00.596Z"
+    },
+    {
+      "id": 38095,
+      "productId": 29250,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:30.232Z"
+    },
+    {
+      "id": 49279,
+      "productId": 29250,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:50.116Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076712",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076712",
+    "capturedAt": "2026-08-19T04:29:50.116Z",
+    "items": [],
+    "path": "data/other-shops/145076712.json"
+  }
+}

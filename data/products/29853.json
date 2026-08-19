@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29853,
+    "title": "Windows7/8/8.1/10 DVDソフト 隣人に壊されていく俺の妻",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063671",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063671.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2017-05-26",
+    "listPrice": 7920,
+    "modelNumber": "WFRO-1705",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063671",
+      "メーカー": "WAFFLE",
+      "発売日": "2017/05/26",
+      "定価": "7,920円",
+      "型番": "WFRO-1705",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3800,
+    "latestRegularSalePrice": 3800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:13.765Z"
+  },
+  "histories": [
+    {
+      "id": 29867,
+      "productId": 29853,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:23.137Z"
+    },
+    {
+      "id": 38675,
+      "productId": 29853,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:52.111Z"
+    },
+    {
+      "id": 49744,
+      "productId": 29853,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:13.765Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063671",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063671",
+    "capturedAt": "2026-08-19T04:33:13.765Z",
+    "items": [],
+    "path": "data/other-shops/145063671.json"
+  }
+}

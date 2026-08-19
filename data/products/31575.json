@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31575,
+    "title": "Windows DVDソフト いもうと××完全版 ー妹天使との戯れー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035417",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035417.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2012-11-30",
+    "listPrice": 2200,
+    "modelNumber": "VAL-015",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145035417",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2012/11/30",
+      "定価": "2,200円",
+      "型番": "VAL-015",
+      "原画": "林原ひかり",
+      "シナリオ": "モルデカイ",
+      "声優": "天野れん\nしまだかおり\n岩泉まい",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:35.513Z"
+  },
+  "histories": [
+    {
+      "id": 31589,
+      "productId": 31575,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:28.997Z"
+    },
+    {
+      "id": 40324,
+      "productId": 31575,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:55.855Z"
+    },
+    {
+      "id": 51310,
+      "productId": 31575,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:35.513Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035417",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035417",
+    "capturedAt": "2026-08-19T05:35:35.513Z",
+    "items": [],
+    "path": "data/other-shops/145035417.json"
+  }
+}

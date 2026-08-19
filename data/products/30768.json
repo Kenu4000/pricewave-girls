@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30768,
+    "title": "WindowsXP/Vista/7/8/8.1 DVDソフト お兄ちゃん、右手の使用を禁止します!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055421.jpg",
+    "manufacturer": "Galette",
+    "releaseDate": "2014-09-26",
+    "listPrice": 9680,
+    "modelNumber": "BMS-0008",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145055421",
+      "メーカー": "Galette",
+      "発売日": "2014/09/26",
+      "定価": "9,680円",
+      "型番": "BMS-0008",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:29.779Z"
+  },
+  "histories": [
+    {
+      "id": 30782,
+      "productId": 30768,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:35.633Z"
+    },
+    {
+      "id": 39540,
+      "productId": 30768,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:41.999Z"
+    },
+    {
+      "id": 50723,
+      "productId": 30768,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:29.779Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055421",
+    "capturedAt": "2026-08-19T05:30:29.779Z",
+    "items": [],
+    "path": "data/other-shops/145055421.json"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41861,
+    "title": "Windows2000Pro/XP/Vista DVDソフト 斬死刃留",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903251",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145903251.jpg",
+    "manufacturer": "AMOLPHAS",
+    "releaseDate": "2009-10-02",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145903251",
+      "メーカー": "AMOLPHAS",
+      "発売日": "2009/10/02",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 20000,
+    "latestRegularSalePrice": 20000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:56.681Z"
+  },
+  "histories": [
+    {
+      "id": 41875,
+      "productId": 41861,
+      "salePrice": 20000,
+      "regularSalePrice": 20000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:02.394Z"
+    },
+    {
+      "id": 44020,
+      "productId": 41861,
+      "salePrice": 20000,
+      "regularSalePrice": 20000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:56.681Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903251",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903251",
+    "capturedAt": "2026-08-17T09:36:56.681Z",
+    "items": [],
+    "path": "data/other-shops/145903251.json"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 2942,
+    "title": "Windows2000/XP/Vista DVDソフト オト☆プリ～恋せよ!乙女王子様♪ ドキドキウェディングベル～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019044",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019044.jpg",
+    "manufacturer": "しゃくなげ",
+    "releaseDate": "2008-12-19",
+    "listPrice": 9680,
+    "modelNumber": "SHA-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019044",
+      "メーカー": "しゃくなげ",
+      "発売日": "2008/12/19",
+      "定価": "9,680円",
+      "型番": "SHA-003",
+      "原画": "なるみすずね",
+      "シナリオ": "沢柾機\n橘ぱん",
+      "声優": "田崎あいり\nみる\nかわしまりの\n成瀬未亜\n風音\n御苑生メイ\n倉田まりや\n桃井いちご\n葉村夏緒\n神楽坂恋詩\n三原椎名\n屑星宇宙男\n深水雨音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:39.049Z"
+  },
+  "histories": [
+    {
+      "id": 2956,
+      "productId": 2942,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 26603,
+      "productId": 2942,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:12:24.309Z"
+    },
+    {
+      "id": 44448,
+      "productId": 2942,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:39.049Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 65308,
+      "productId": 2942,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1100,
+      "checkedAt": "2026-08-09T21:12:25.000Z"
+    },
+    {
+      "id": 65307,
+      "productId": 2942,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-09T21:12:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019044",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019044",
+    "capturedAt": "2026-08-17T09:40:39.049Z",
+    "items": [],
+    "path": "data/other-shops/145019044.json"
+  }
+}

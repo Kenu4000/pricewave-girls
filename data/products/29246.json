@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 29246,
+    "title": "Windows8.1/10 DVDソフト アインシュタインより愛を込めて APOLLOCRISIS [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072676",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072676.jpg",
+    "manufacturer": "GLOVETY",
+    "releaseDate": "2021-09-24",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072676",
+      "メーカー": "GLOVETY",
+      "発売日": "2021/09/24",
+      "定価": "6,380円",
+      "原画": "きみしま青",
+      "シナリオ": "新島夕",
+      "声優": "北大路ゆき\n月野きいろ\n桜木ひな\n佐本二厘\n風音\n歩サラ\n佐久間春奈",
+      "音楽": "竹下智博",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 5800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:12.197Z"
+  },
+  "histories": [
+    {
+      "id": 29260,
+      "productId": 29246,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:59.404Z"
+    },
+    {
+      "id": 38094,
+      "productId": 29246,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:30.249Z"
+    },
+    {
+      "id": 44839,
+      "productId": 29246,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 5800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:00.036Z"
+    },
+    {
+      "id": 49074,
+      "productId": 29246,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 5800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:12.197Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131098,
+      "productId": 29246,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 9900,
+      "checkedAt": "2026-08-19T04:28:12.000Z"
+    },
+    {
+      "id": 131097,
+      "productId": 29246,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 5000,
+      "checkedAt": "2026-08-19T04:28:12.000Z"
+    },
+    {
+      "id": 116107,
+      "productId": 29246,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 9900,
+      "checkedAt": "2026-08-17T09:44:00.000Z"
+    },
+    {
+      "id": 116106,
+      "productId": 29246,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 5000,
+      "checkedAt": "2026-08-17T09:44:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072676",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072676",
+    "capturedAt": "2026-08-19T04:28:12.197Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 5000
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古通常倉庫",
+        "price": 9900
+      }
+    ],
+    "path": "data/other-shops/145072676.json"
+  }
+}

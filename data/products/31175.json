@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31175,
+    "title": "WindowsXP/Vista/7/8 DVDソフト カルマルカ*サークル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045182",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045182.jpg",
+    "manufacturer": "SAGA PLANETS",
+    "releaseDate": "2013-09-27",
+    "listPrice": 9680,
+    "modelNumber": "VAP-00012D",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045182",
+      "メーカー": "SAGA PLANETS",
+      "発売日": "2013/09/27",
+      "定価": "9,680円",
+      "型番": "VAP-00012D",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:30.154Z"
+  },
+  "histories": [
+    {
+      "id": 31189,
+      "productId": 31175,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:44.166Z"
+    },
+    {
+      "id": 39934,
+      "productId": 31175,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:11.182Z"
+    },
+    {
+      "id": 44877,
+      "productId": 31175,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:19.822Z"
+    },
+    {
+      "id": 49111,
+      "productId": 31175,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:30.154Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045182",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045182",
+    "capturedAt": "2026-08-19T04:28:30.154Z",
+    "items": [],
+    "path": "data/other-shops/145045182.json"
+  }
+}

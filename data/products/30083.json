@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30083,
+    "title": "WindowsVista/7/8/10 DVDソフト 神楽訪神歌 [限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054588",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054588.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2016-07-29",
+    "listPrice": 9680,
+    "modelNumber": "DEBO-16003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054588",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2016/07/29",
+      "定価": "9,680円",
+      "型番": "DEBO-16003",
+      "原画": "山本和枝",
+      "シナリオ": "瑞守ねおん",
+      "声優": "星一人\n榛名れん\n野々村紗夜\n早瀬ゃょぃ\n藤乃理香\n杉原茉莉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2712,
+    "latestRegularSalePrice": 2712,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:24.755Z"
+  },
+  "histories": [
+    {
+      "id": 30097,
+      "productId": 30083,
+      "salePrice": 2712,
+      "regularSalePrice": 2712,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:36.822Z"
+    },
+    {
+      "id": 38893,
+      "productId": 30083,
+      "salePrice": 2712,
+      "regularSalePrice": 2712,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:44.663Z"
+    },
+    {
+      "id": 49902,
+      "productId": 30083,
+      "salePrice": 2712,
+      "regularSalePrice": 2712,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:24.755Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054588",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054588",
+    "capturedAt": "2026-08-19T04:34:24.755Z",
+    "items": [],
+    "path": "data/other-shops/145054588.json"
+  }
+}

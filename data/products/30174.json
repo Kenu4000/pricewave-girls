@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30174,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト この恋、青春により。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060040",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060040.jpg",
+    "manufacturer": "MORE",
+    "releaseDate": "2016-04-28",
+    "listPrice": 10780,
+    "modelNumber": "MS-107",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060040",
+      "メーカー": "MORE",
+      "発売日": "2016/04/28",
+      "定価": "10,780円",
+      "型番": "MS-107",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:52.828Z"
+  },
+  "histories": [
+    {
+      "id": 30188,
+      "productId": 30174,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:34.285Z"
+    },
+    {
+      "id": 38977,
+      "productId": 30174,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:32.032Z"
+    },
+    {
+      "id": 49970,
+      "productId": 30174,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:52.828Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060040",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060040",
+    "capturedAt": "2026-08-19T04:34:52.828Z",
+    "items": [],
+    "path": "data/other-shops/145060040.json"
+  }
+}

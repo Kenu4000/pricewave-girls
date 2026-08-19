@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 8166,
+    "title": "Windows95/98/Me/2000 CDソフト 注射器2（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004693",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004693.jpg",
+    "manufacturer": "13cm",
+    "releaseDate": "2001-05-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004693001",
+      "メーカー": "13cm",
+      "発売日": "2001/05/25",
+      "定価": "9,680円",
+      "原画": "こうよう",
+      "シナリオ": "青匣新力",
+      "声優": "もっち\n櫻レオナ\n佐伯ゆりこ\n南菜実\n田中美智\n伊香まのん\nあさり☆",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveRegularSalePrice": "790",
+      "__pricewaveTimeSale": "true",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145004693?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 790,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-09T01:32:00.589Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:46.663Z"
+  },
+  "histories": [
+    {
+      "id": 8180,
+      "productId": 8166,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 13160,
+      "productId": 8166,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    },
+    {
+      "id": 15841,
+      "productId": 8166,
+      "salePrice": 700,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 22393,
+      "productId": 8166,
+      "salePrice": 700,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:31:29.674Z"
+    },
+    {
+      "id": 40829,
+      "productId": 8166,
+      "salePrice": 700,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:34:02.867Z"
+    },
+    {
+      "id": 52246,
+      "productId": 8166,
+      "salePrice": 700,
+      "regularSalePrice": 790,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:46.663Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140007,
+      "productId": 8166,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 650,
+      "checkedAt": "2026-08-19T15:33:46.000Z"
+    },
+    {
+      "id": 106194,
+      "productId": 8166,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 650,
+      "checkedAt": "2026-08-16T01:34:03.000Z"
+    },
+    {
+      "id": 50920,
+      "productId": 8166,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 650,
+      "checkedAt": "2026-08-09T01:32:00.000Z"
+    },
+    {
+      "id": 28078,
+      "productId": 8166,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 650,
+      "checkedAt": "2026-08-07T20:18:52.000Z"
+    },
+    {
+      "id": 18092,
+      "productId": 8166,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 750,
+      "checkedAt": "2026-08-06T16:39:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

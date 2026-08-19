@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29808,
+    "title": "Windows7/8/10 DVDソフト 超昂神騎エクシール",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062591",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062591.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2017-07-28",
+    "listPrice": 9680,
+    "modelNumber": "ALS-0086",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062591",
+      "メーカー": "ALICESOFT",
+      "発売日": "2017/07/28",
+      "定価": "9,680円",
+      "型番": "ALS-0086",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:04.442Z"
+  },
+  "histories": [
+    {
+      "id": 29822,
+      "productId": 29808,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:52.408Z"
+    },
+    {
+      "id": 38631,
+      "productId": 29808,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:30.814Z"
+    },
+    {
+      "id": 43557,
+      "productId": 29808,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:04.442Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062591",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062591",
+    "capturedAt": "2026-08-17T09:33:04.442Z",
+    "items": [],
+    "path": "data/other-shops/145062591.json"
+  }
+}

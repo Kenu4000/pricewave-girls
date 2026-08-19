@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 43157,
+    "title": "Windows98/Me/2000/XP DVDソフト 蒼天のセレナリア～What a beautiful world～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014512",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014512.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2006-07-07",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014512001",
+      "メーカー": "ライアーソフト",
+      "発売日": "2006/07/07",
+      "定価": "9,680円",
+      "原画": "護国卿",
+      "シナリオ": "桜井光",
+      "声優": "歌織\n野月まひる\n金田まひる\n西田こむぎ\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:49:10.202Z"
+  },
+  "histories": [
+    {
+      "id": 43171,
+      "productId": 43157,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:49:10.202Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 111153,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111152,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1160,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111151,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111150,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111149,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111148,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    },
+    {
+      "id": 111147,
+      "productId": 43157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1001,
+      "checkedAt": "2026-08-17T07:49:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014512",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014512",
+    "capturedAt": "2026-08-17T07:49:10.202Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1001
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1160
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145014512.json"
+  }
+}

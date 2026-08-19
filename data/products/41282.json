@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41282,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ムコ取り十番勝負![初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073730",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073730.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2011-04-08",
+    "listPrice": 9680,
+    "modelNumber": "MUKO-JUDVD",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145073730",
+      "メーカー": "裸足少女",
+      "発売日": "2011/04/08",
+      "定価": "9,680円",
+      "型番": "MUKO-JUDVD",
+      "原画": "旭",
+      "声優": "金田まひる\n紫苑みやび\n芹園みや\n御苑生メイ",
+      "シナリオ": "水無月セツオ\n佐織佑衣",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "本編ディスク＋特典ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "本編ディスク＋特典ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:34.773Z"
+  },
+  "histories": [
+    {
+      "id": 41296,
+      "productId": 41282,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "本編ディスク＋特典ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:27.422Z"
+    },
+    {
+      "id": 52979,
+      "productId": 41282,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "本編ディスク＋特典ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:34.773Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145073730",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073730",
+    "capturedAt": "2026-08-19T16:20:34.773Z",
+    "items": [],
+    "path": "data/other-shops/145073730.json"
+  }
+}

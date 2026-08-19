@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 30182,
+    "title": "WindowsVista/7/8/10 DVDソフト ハナヒメ*アブソリュート! ハナヒメキャラバンスペシャルディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057115",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057115.jpg",
+    "manufacturer": "mirai",
+    "releaseDate": "2016-04-23",
+    "listPrice": null,
+    "modelNumber": "MIRAI-16001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057115",
+      "メーカー": "mirai",
+      "発売日": "2016/04/23",
+      "型番": "MIRAI-16001",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:55.574Z"
+  },
+  "histories": [
+    {
+      "id": 30196,
+      "productId": 30182,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:40.960Z"
+    },
+    {
+      "id": 38984,
+      "productId": 30182,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:34.521Z"
+    },
+    {
+      "id": 49976,
+      "productId": 30182,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:55.574Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057115",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057115",
+    "capturedAt": "2026-08-19T04:34:55.574Z",
+    "items": [],
+    "path": "data/other-shops/145057115.json"
+  }
+}

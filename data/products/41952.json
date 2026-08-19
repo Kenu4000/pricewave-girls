@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41952,
+    "title": "Windows2000/XP/Vista DVDソフト 肉体操作 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020604",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020604.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2009-07-10",
+    "listPrice": 9680,
+    "modelNumber": "ALL-005",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020604001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2009/07/10",
+      "定価": "9,680円",
+      "型番": "ALL-005",
+      "原画": "さだお",
+      "シナリオ": "なるみおかず",
+      "声優": "手塚りょうこ\n水純なな歩\nこのかなみ\n緒田マリ\n芹園みや\nきのみ聖",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:08.787Z"
+  },
+  "histories": [
+    {
+      "id": 41966,
+      "productId": 41952,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:46.592Z"
+    },
+    {
+      "id": 44044,
+      "productId": 41952,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:08.787Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113898,
+      "productId": 41952,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3800,
+      "checkedAt": "2026-08-17T09:37:08.000Z"
+    },
+    {
+      "id": 113897,
+      "productId": 41952,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2800,
+      "checkedAt": "2026-08-17T09:37:08.000Z"
+    },
+    {
+      "id": 108609,
+      "productId": 41952,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3800,
+      "checkedAt": "2026-08-17T07:06:46.000Z"
+    },
+    {
+      "id": 108608,
+      "productId": 41952,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2800,
+      "checkedAt": "2026-08-17T07:06:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020604",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020604",
+    "capturedAt": "2026-08-17T09:37:08.787Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2800
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3800
+      }
+    ],
+    "path": "data/other-shops/145020604.json"
+  }
+}

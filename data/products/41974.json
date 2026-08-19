@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41974,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 孕ら妻ナース!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020596",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020596.jpg",
+    "manufacturer": "スワンマニア",
+    "releaseDate": "2009-06-26",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020596",
+      "メーカー": "スワンマニア",
+      "発売日": "2009/06/26",
+      "定価": "3,080円",
+      "原画": "鬼MAYUGE",
+      "シナリオ": "南条巴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:39.596Z"
+  },
+  "histories": [
+    {
+      "id": 41988,
+      "productId": 41974,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:00.518Z"
+    },
+    {
+      "id": 53474,
+      "productId": 41974,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:39.596Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020596",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020596",
+    "capturedAt": "2026-08-19T16:24:39.596Z",
+    "items": [],
+    "path": "data/other-shops/145020596.json"
+  }
+}

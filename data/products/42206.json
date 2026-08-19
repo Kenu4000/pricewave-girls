@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42206,
+    "title": "Windows2000/XP/Vista DVDソフト さかあがりハリケーン[初回版] 予約特典付[ドラマCD、ネックストラップ]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019784",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019784.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2008-11-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019784",
+      "メーカー": "戯画",
+      "発売日": "2008/11/28",
+      "定価": "9,680円",
+      "原画": "ねこにゃん",
+      "シナリオ": "陸奥竜介\n木緒なち",
+      "声優": "遠山枝里子\n伊野美由紀\n風音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:48.318Z"
+  },
+  "histories": [
+    {
+      "id": 42220,
+      "productId": 42206,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:21.611Z"
+    },
+    {
+      "id": 44086,
+      "productId": 42206,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:30.596Z"
+    },
+    {
+      "id": 48877,
+      "productId": 42206,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:48.318Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019784",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019784",
+    "capturedAt": "2026-08-19T04:26:48.318Z",
+    "items": [],
+    "path": "data/other-shops/145019784.json"
+  }
+}

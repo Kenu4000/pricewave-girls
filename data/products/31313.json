@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31313,
+    "title": "Windows CDソフト 家族崩快 目の前で奪われていく俺の家族",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037392",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037392.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2013-06-01",
+    "listPrice": 2200,
+    "modelNumber": "SEA-76",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037392",
+      "メーカー": "softhouse-seal",
+      "発売日": "2013/06/01",
+      "定価": "2,200円",
+      "型番": "SEA-76",
+      "原画": "犬森パピコ\n陽寄瑞貴",
+      "シナリオ": "孤独食堂",
+      "声優": "ヒマリ\n飯野汐里\n片倉ひな",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:02.897Z"
+  },
+  "histories": [
+    {
+      "id": 31327,
+      "productId": 31313,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:20.849Z"
+    },
+    {
+      "id": 40071,
+      "productId": 31313,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:53.685Z"
+    },
+    {
+      "id": 51123,
+      "productId": 31313,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:02.897Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037392",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037392",
+    "capturedAt": "2026-08-19T05:34:02.897Z",
+    "items": [],
+    "path": "data/other-shops/145037392.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42131,
+    "title": "Windows2000/XP/Vista DVDソフト 俺たちに翼はない -Limited Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045151",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045151.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2009-01-30",
+    "listPrice": 9680,
+    "modelNumber": "NVSW-0015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145045151",
+      "メーカー": "Navel",
+      "発売日": "2009/01/30",
+      "定価": "9,680円",
+      "型番": "NVSW-0015",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:07.815Z"
+  },
+  "histories": [
+    {
+      "id": 42145,
+      "productId": 42131,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:35.912Z"
+    },
+    {
+      "id": 48782,
+      "productId": 42131,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:07.815Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045151",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045151",
+    "capturedAt": "2026-08-19T04:26:07.815Z",
+    "items": [],
+    "path": "data/other-shops/145045151.json"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 29948,
+    "title": "Windows CDソフト 竜騎士 Bloody†Saga 裸アーマーパッチROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056747",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056747.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2016-12-22",
+    "listPrice": null,
+    "modelNumber": "AKT-1009",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145056747",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2016/12/22",
+      "型番": "AKT-1009",
+      "原画": "桐島千夜\n相川たつき\nzunta",
+      "シナリオ": "菅原トーヤ\n伊後山勇気",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:00.759Z"
+  },
+  "histories": [
+    {
+      "id": 29962,
+      "productId": 29948,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:21.860Z"
+    },
+    {
+      "id": 44961,
+      "productId": 29948,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:00.759Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056747",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056747",
+    "capturedAt": "2026-08-17T09:45:00.759Z",
+    "items": [],
+    "path": "data/other-shops/145056747.json"
+  }
+}

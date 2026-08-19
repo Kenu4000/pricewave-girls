@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 3325,
+    "title": "Windows95/98 CDソフト 魔法使いの♀弟子",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003330",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003330.jpg",
+    "manufacturer": "deeps",
+    "releaseDate": "2000-03-10",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003330",
+      "メーカー": "deeps",
+      "発売日": "2000/03/10",
+      "定価": "9,680円",
+      "原画": "ナミカワシノヴ\n音吉",
+      "シナリオ": "木尾小白\n嘘屋佐々木酒人\n島崎一彦",
+      "声優": "白井綾乃",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 460,
+    "latestRegularSalePrice": 460,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T00:59:54.389Z"
+  },
+  "histories": [
+    {
+      "id": 3339,
+      "productId": 3325,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 22997,
+      "productId": 3325,
+      "salePrice": 460,
+      "regularSalePrice": 460,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:35.728Z"
+    },
+    {
+      "id": 37102,
+      "productId": 3325,
+      "salePrice": 460,
+      "regularSalePrice": 460,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:54.389Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145003330",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003330",
+    "capturedAt": "2026-08-16T00:59:54.389Z",
+    "items": [],
+    "path": "data/other-shops/145003330.json"
+  }
+}

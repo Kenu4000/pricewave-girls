@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 3177,
+    "title": "Windows95/98/Me CDソフト 誘惑～ゆうわく～(Scoop版)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004644",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004644.jpg",
+    "manufacturer": "Scoop",
+    "releaseDate": "2001-05-03",
+    "listPrice": 9680,
+    "modelNumber": "HADV-0014",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004644001",
+      "メーカー": "Scoop",
+      "発売日": "2001/05/03",
+      "定価": "9,680円",
+      "型番": "HADV-0014",
+      "原画": "田丸まこと",
+      "シナリオ": "三波雄",
+      "声優": "北条明日香\n北都南\n海原エレナ\n木葉楓\n飯田空\n如月来夢\nおぼれ谷リアス\n須本綾奈\n天馬和音",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveCondition": "外箱欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "外箱欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:41.232Z"
+  },
+  "histories": [
+    {
+      "id": 3191,
+      "productId": 3177,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36979,
+      "productId": 3177,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:48.061Z"
+    },
+    {
+      "id": 47595,
+      "productId": 3177,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:41.232Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126294,
+      "productId": 3177,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T16:06:41.000Z"
+    },
+    {
+      "id": 126293,
+      "productId": 3177,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古外箱欠品",
+      "price": 480,
+      "checkedAt": "2026-08-17T16:06:41.000Z"
+    },
+    {
+      "id": 97160,
+      "productId": 3177,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    },
+    {
+      "id": 97159,
+      "productId": 3177,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    },
+    {
+      "id": 97158,
+      "productId": 3177,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古外箱欠品",
+      "price": 430,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    },
+    {
+      "id": 97157,
+      "productId": 3177,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 430,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004644",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004644",
+    "capturedAt": "2026-08-17T16:06:41.232Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古外箱欠品",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 811
+      }
+    ],
+    "path": "data/other-shops/145004644.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41891,
+    "title": "WindowsXP/Vista DVDソフト 「eden*」+ 「eden* PLUS+MOSAIC」セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021773",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021773.jpg",
+    "manufacturer": "minori",
+    "releaseDate": "2009-09-18",
+    "listPrice": 8558,
+    "modelNumber": "SW-045",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021773",
+      "メーカー": "minori",
+      "発売日": "2009/09/18",
+      "定価": "8,558円",
+      "型番": "SW-045",
+      "原画": "KIMちー\nちこたむ",
+      "シナリオ": "鏡遊",
+      "声優": "須賀紀哉\n丹下葉子\n小鳥遊アキラ\n安玖深音\n中島裕美子\n遠近孝一",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 10980,
+    "latestRegularSalePrice": 10980,
+    "latestBuyPrice": 9000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:43.965Z"
+  },
+  "histories": [
+    {
+      "id": 41905,
+      "productId": 41891,
+      "salePrice": 10980,
+      "regularSalePrice": 10980,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:17.084Z"
+    },
+    {
+      "id": 44028,
+      "productId": 41891,
+      "salePrice": 10980,
+      "regularSalePrice": 10980,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:01.759Z"
+    },
+    {
+      "id": 48868,
+      "productId": 41891,
+      "salePrice": 10980,
+      "regularSalePrice": 10980,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:43.965Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021773",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021773",
+    "capturedAt": "2026-08-19T04:26:43.965Z",
+    "items": [],
+    "path": "data/other-shops/145021773.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 42572,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト StarTRain[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017049",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017049.jpg",
+    "manufacturer": "mixed up",
+    "releaseDate": "2007-12-21",
+    "listPrice": 5280,
+    "modelNumber": "MU-102",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017049",
+      "メーカー": "mixed up",
+      "発売日": "2007/12/21",
+      "定価": "5,280円",
+      "型番": "MU-102",
+      "原画": "やすゆき",
+      "シナリオ": "七烏未奏",
+      "アーティスト": "遊女",
+      "音楽": "i.o.sound",
+      "声優": "倉田まりや\nみる\n長瀬桃花\n安玖深音\n風音\nAYA\n涼森ちさと\n大河丈\n新沢真",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5499,
+    "latestRegularSalePrice": 5499,
+    "latestBuyPrice": 4400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:24.138Z"
+  },
+  "histories": [
+    {
+      "id": 42586,
+      "productId": 42572,
+      "salePrice": 5499,
+      "regularSalePrice": 5499,
+      "buyPrice": 4400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:00.400Z"
+    },
+    {
+      "id": 53914,
+      "productId": 42572,
+      "salePrice": 5499,
+      "regularSalePrice": 5499,
+      "buyPrice": 4400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:24.138Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017049",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017049",
+    "capturedAt": "2026-08-19T16:28:24.138Z",
+    "items": [],
+    "path": "data/other-shops/145017049.json"
+  }
+}

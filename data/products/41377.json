@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41377,
+    "title": "WindowsXP/Vista/7 DVDソフト 操心術0",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055354.jpg",
+    "manufacturer": "STUDIO邪恋",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": "SJRU-0007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145055354",
+      "メーカー": "STUDIO邪恋",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "型番": "SJRU-0007",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:11.045Z"
+  },
+  "histories": [
+    {
+      "id": 41391,
+      "productId": 41377,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:20.376Z"
+    },
+    {
+      "id": 53052,
+      "productId": 41377,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:11.045Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055354",
+    "capturedAt": "2026-08-19T16:21:11.045Z",
+    "items": [],
+    "path": "data/other-shops/145055354.json"
+  }
+}

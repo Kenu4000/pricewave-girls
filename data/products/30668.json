@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30668,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 紙の上の魔法使い",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053569",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053569.jpg",
+    "manufacturer": "ウグイスカグラ",
+    "releaseDate": "2014-12-19",
+    "listPrice": 9680,
+    "modelNumber": "KAMI-00001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145053569",
+      "メーカー": "ウグイスカグラ",
+      "発売日": "2014/12/19",
+      "定価": "9,680円",
+      "型番": "KAMI-00001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 29800,
+    "latestRegularSalePrice": 29800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:50.039Z"
+  },
+  "histories": [
+    {
+      "id": 30682,
+      "productId": 30668,
+      "salePrice": 29800,
+      "regularSalePrice": 29800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:40.825Z"
+    },
+    {
+      "id": 39442,
+      "productId": 30668,
+      "salePrice": 29800,
+      "regularSalePrice": 29800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:49.047Z"
+    },
+    {
+      "id": 50647,
+      "productId": 30668,
+      "salePrice": 29800,
+      "regularSalePrice": 29800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:50.039Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053569",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053569",
+    "capturedAt": "2026-08-19T05:29:50.039Z",
+    "items": [],
+    "path": "data/other-shops/145053569.json"
+  }
+}

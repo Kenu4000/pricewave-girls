@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41978,
+    "title": "Windows2000/XP/Vista DVDソフト Stellar☆Theater(ステラ☆シアター)[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020947",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020947.jpg",
+    "manufacturer": "Rosebleu（ロゼブル）",
+    "releaseDate": "2009-06-26",
+    "listPrice": 9680,
+    "modelNumber": "RBS-0001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020947",
+      "メーカー": "Rosebleu（ロゼブル）",
+      "発売日": "2009/06/26",
+      "定価": "9,680円",
+      "型番": "RBS-0001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "クリアしおり欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1999,
+    "latestRegularSalePrice": 1999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "クリアしおり欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:41.574Z"
+  },
+  "histories": [
+    {
+      "id": 41992,
+      "productId": 41978,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "クリアしおり欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:01.334Z"
+    },
+    {
+      "id": 53477,
+      "productId": 41978,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "クリアしおり欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:41.574Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020947",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020947",
+    "capturedAt": "2026-08-19T16:24:41.574Z",
+    "items": [],
+    "path": "data/other-shops/145020947.json"
+  }
+}

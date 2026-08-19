@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42402,
+    "title": "WindowsMe/2000/XP/Vista CDソフト 擦り込み少女 -本当に君はボクの彼女なんだよ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018055",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018055.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2008-06-06",
+    "listPrice": 3080,
+    "modelNumber": "BASE-018",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018055",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2008/06/06",
+      "定価": "3,080円",
+      "型番": "BASE-018",
+      "原画": "海鶏",
+      "シナリオ": "浅葱\n猫助",
+      "声優": "しまだかおり\n篁瑞帆",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:21.235Z"
+  },
+  "histories": [
+    {
+      "id": 42416,
+      "productId": 42402,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:22.290Z"
+    },
+    {
+      "id": 53793,
+      "productId": 42402,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:21.235Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018055",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018055",
+    "capturedAt": "2026-08-19T16:27:21.235Z",
+    "items": [],
+    "path": "data/other-shops/145018055.json"
+  }
+}

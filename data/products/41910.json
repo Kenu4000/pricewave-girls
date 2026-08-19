@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41910,
+    "title": "Windows2000/XP/Vista DVDソフト タイムリープぱらだいす",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065686",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065686.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2009-08-28",
+    "listPrice": 10450,
+    "modelNumber": "FWS-00047",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145065686",
+      "メーカー": "フロントウイング",
+      "発売日": "2009/08/28",
+      "定価": "10,450円",
+      "型番": "FWS-00047",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ソフト単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ソフト単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:15.572Z"
+  },
+  "histories": [
+    {
+      "id": 41924,
+      "productId": 41910,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:25.733Z"
+    },
+    {
+      "id": 53423,
+      "productId": 41910,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:15.572Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065686",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065686",
+    "capturedAt": "2026-08-19T16:24:15.572Z",
+    "items": [],
+    "path": "data/other-shops/145065686.json"
+  }
+}

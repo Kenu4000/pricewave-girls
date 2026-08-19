@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42358,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト クラス全員オレの嫁 -「私達のカラダは貴方のモノ」女子全員ペット宣言-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051536",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051536.jpg",
+    "manufacturer": "MBS TRUTH ＜Cherish Pink＞",
+    "releaseDate": "2008-07-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145051536",
+      "メーカー": "MBS TRUTH ＜Cherish Pink＞",
+      "発売日": "2008/07/25",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:02.957Z"
+  },
+  "histories": [
+    {
+      "id": 42372,
+      "productId": 42358,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:53.660Z"
+    },
+    {
+      "id": 53756,
+      "productId": 42358,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:02.957Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051536",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051536",
+    "capturedAt": "2026-08-19T16:27:02.957Z",
+    "items": [],
+    "path": "data/other-shops/145051536.json"
+  }
+}

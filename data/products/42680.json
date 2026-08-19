@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 42680,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 虹色あるけミカン -Magic of alchemy-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016304",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016304.jpg",
+    "manufacturer": "しらたま",
+    "releaseDate": "2007-08-31",
+    "listPrice": 9680,
+    "modelNumber": "WILL-186",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016304001",
+      "メーカー": "しらたま",
+      "発売日": "2007/08/31",
+      "定価": "9,680円",
+      "型番": "WILL-186",
+      "原画": "福永ユミ",
+      "シナリオ": "奈落ハジメ",
+      "声優": "如月葵\n羽沢月乃\n松田理沙\n青山ゆかり\n茶谷やすら\n大久保けんたろう\nこのかなみ\n楠鈴音\n理多\n町田あみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:10.179Z"
+  },
+  "histories": [
+    {
+      "id": 42694,
+      "productId": 42680,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:02.323Z"
+    },
+    {
+      "id": 53997,
+      "productId": 42680,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:10.179Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144636,
+      "productId": 42680,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-08-19T16:29:10.000Z"
+    },
+    {
+      "id": 144635,
+      "productId": 42680,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古",
+      "price": 660,
+      "checkedAt": "2026-08-19T16:29:10.000Z"
+    },
+    {
+      "id": 144634,
+      "productId": 42680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-19T16:29:10.000Z"
+    },
+    {
+      "id": 144633,
+      "productId": 42680,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 660,
+      "checkedAt": "2026-08-19T16:29:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016304",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016304",
+    "capturedAt": "2026-08-19T16:29:10.179Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット住之江店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 660
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "ブックマーケット住之江店",
+        "condition": "中古",
+        "price": 660
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145016304.json"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42748,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 虜ノ姫 ～淫魔の調律～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045710",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045710.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "KA-0040",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145045710",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "KA-0040",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:43.289Z"
+  },
+  "histories": [
+    {
+      "id": 42762,
+      "productId": 42748,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:43.289Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045710",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045710",
+    "capturedAt": "2026-08-17T07:14:43.289Z",
+    "items": [],
+    "path": "data/other-shops/145045710.json"
+  }
+}

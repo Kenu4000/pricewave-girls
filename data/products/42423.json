@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42423,
+    "title": "Windows2000/XP/Vista DVDソフト リリカルDS[豪華3大特典版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040172.jpg",
+    "manufacturer": "ま～まれぇど",
+    "releaseDate": "2008-05-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145040172",
+      "メーカー": "ま～まれぇど",
+      "発売日": "2008/05/30",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ソフト単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 200,
+    "latestRegularSalePrice": 200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ソフト単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:31.482Z"
+  },
+  "histories": [
+    {
+      "id": 42437,
+      "productId": 42423,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:32.192Z"
+    },
+    {
+      "id": 53813,
+      "productId": 42423,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ソフト単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:31.482Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040172",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040172",
+    "capturedAt": "2026-08-19T16:27:31.482Z",
+    "items": [],
+    "path": "data/other-shops/145040172.json"
+  }
+}

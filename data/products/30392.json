@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 30392,
+    "title": "WindowsVista/7/8 DVDソフト 姫様LOVEライフ![体験版＆デモムービー]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051954",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051954.jpg",
+    "manufacturer": "Princess Sugar",
+    "releaseDate": "2015-09-18",
+    "listPrice": null,
+    "modelNumber": "PRINCESS-DEMO",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145051954001",
+      "メーカー": "Princess Sugar",
+      "発売日": "2015/09/18",
+      "型番": "PRINCESS-DEMO",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:19:35.177Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:00.023Z"
+  },
+  "histories": [
+    {
+      "id": 30406,
+      "productId": 30392,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:35.113Z"
+    },
+    {
+      "id": 39179,
+      "productId": 30392,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:27.676Z"
+    },
+    {
+      "id": 50439,
+      "productId": 30392,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:00.023Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135310,
+      "productId": 30392,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T05:28:01.000Z"
+    },
+    {
+      "id": 135309,
+      "productId": 30392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:28:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145051954",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051954",
+    "capturedAt": "2026-08-19T05:28:00.023Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145051954.json"
+  }
+}

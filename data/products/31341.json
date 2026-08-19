@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31341,
+    "title": "WindowsXP/Vista/7 DVDソフト グリザイアの楽園 -LE EDEN DE LA GRISAIA-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900524",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900524.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2013-05-24",
+    "listPrice": 9680,
+    "modelNumber": "FWS-00060",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900524",
+      "メーカー": "フロントウイング",
+      "発売日": "2013/05/24",
+      "定価": "9,680円",
+      "型番": "FWS-00060",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:13.446Z"
+  },
+  "histories": [
+    {
+      "id": 31355,
+      "productId": 31341,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:43.190Z"
+    },
+    {
+      "id": 40095,
+      "productId": 31341,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:06.915Z"
+    },
+    {
+      "id": 51145,
+      "productId": 31341,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:13.446Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900524",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900524",
+    "capturedAt": "2026-08-19T05:34:13.446Z",
+    "items": [],
+    "path": "data/other-shops/145900524.json"
+  }
+}

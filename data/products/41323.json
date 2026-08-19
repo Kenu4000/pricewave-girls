@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 41323,
+    "title": "Windows CDソフト 蒼穹のソレイユ -FULLMETAL EYES- Special Disc(メッセサンオー特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027862",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027862.jpg",
+    "manufacturer": "SkyFish",
+    "releaseDate": "2011-02-25",
+    "listPrice": null,
+    "modelNumber": "MESSE-588",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145027862",
+      "メーカー": "SkyFish",
+      "発売日": "2011/02/25",
+      "型番": "MESSE-588",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:51.443Z"
+  },
+  "histories": [
+    {
+      "id": 41337,
+      "productId": 41323,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:49.826Z"
+    },
+    {
+      "id": 53012,
+      "productId": 41323,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:51.443Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027862",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027862",
+    "capturedAt": "2026-08-19T16:20:51.443Z",
+    "items": [],
+    "path": "data/other-shops/145027862.json"
+  }
+}

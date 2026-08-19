@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41646,
+    "title": "Windows2000/XP/Vista/7 DVDソフト いたいけな彼女ーりにゅーあるー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023723",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023723.jpg",
+    "manufacturer": "ZERO",
+    "releaseDate": "2010-04-30",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023723",
+      "メーカー": "ZERO",
+      "発売日": "2010/04/30",
+      "定価": "3,080円",
+      "原画": "むりりん",
+      "声優": "田中美智",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4202,
+    "latestRegularSalePrice": 4202,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": "ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:48.367Z"
+  },
+  "histories": [
+    {
+      "id": 41660,
+      "productId": 41646,
+      "salePrice": 4202,
+      "regularSalePrice": 4202,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:09.651Z"
+    },
+    {
+      "id": 53251,
+      "productId": 41646,
+      "salePrice": 4202,
+      "regularSalePrice": 4202,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:48.367Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023723",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023723",
+    "capturedAt": "2026-08-19T16:22:48.367Z",
+    "items": [],
+    "path": "data/other-shops/145023723.json"
+  }
+}

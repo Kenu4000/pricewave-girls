@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 951,
+    "title": "Windows10/11 DVDソフト 魔子宮聖女ビアンカ∽ノエイン -終焉なき破瓜と悦楽の煉獄-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076570",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076570.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2023-01-27",
+    "listPrice": 7700,
+    "modelNumber": "CHA-019",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145076570001",
+      "メーカー": "CHAOS-R",
+      "発売日": "2023/01/27",
+      "定価": "7,700円",
+      "型番": "CHA-019",
+      "原画": "森山しじみ\nあかつきまお",
+      "シナリオ": "天翔狗",
+      "声優": "榎津まお\nかずなさやか\n櫻井ありす\n麦畑穂香\n逢月ねる\n美空なつひ\n山口美都\n桃世ゆず姫",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:41:15.000Z"
+  },
+  "histories": [
+    {
+      "id": 965,
+      "productId": 951,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4727,
+      "productId": 951,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:49:57.000Z"
+    },
+    {
+      "id": 5861,
+      "productId": 951,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:05:59.000Z"
+    },
+    {
+      "id": 16077,
+      "productId": 951,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 44510,
+      "productId": 951,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:15.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115071,
+      "productId": 951,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 920,
+      "checkedAt": "2026-08-17T09:41:15.000Z"
+    },
+    {
+      "id": 115070,
+      "productId": 951,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 880,
+      "checkedAt": "2026-08-17T09:41:15.000Z"
+    },
+    {
+      "id": 28628,
+      "productId": 951,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 920,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28627,
+      "productId": 951,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 800,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076570",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076570",
+    "capturedAt": "2026-08-17T09:41:15.000Z",
+    "items": [
+      {
+        "storeName": "Image 1 2 of 2 中古",
+        "condition": "状態不明",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 920
+      }
+    ],
+    "path": "data/other-shops/145076570.json"
+  }
+}

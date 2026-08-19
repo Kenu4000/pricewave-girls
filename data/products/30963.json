@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 30963,
+    "title": "WindowsXP/Vista/7 CDソフト 魔触少女マナ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041362",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041362.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2014-03-28",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-103",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145041362",
+      "メーカー": "Devil-seal",
+      "発売日": "2014/03/28",
+      "定価": "2,200円",
+      "型番": "DEVL-103",
+      "原画": "神藤みけこ",
+      "シナリオ": "寺岡健治",
+      "声優": "飯野汐里\n唯香",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:23:18.273Z"
+  },
+  "histories": [
+    {
+      "id": 30977,
+      "productId": 30963,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:31.521Z"
+    },
+    {
+      "id": 39725,
+      "productId": 30963,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:18.273Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041362",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041362",
+    "capturedAt": "2026-08-16T01:23:18.273Z",
+    "items": [],
+    "path": "data/other-shops/145041362.json"
+  }
+}

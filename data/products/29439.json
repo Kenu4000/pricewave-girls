@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 29439,
+    "title": "Windows7/8/8.1/10 DVDソフト ALPHA-NIGHTHAWK",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064082",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064082.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2019-03-29",
+    "listPrice": 7480,
+    "modelNumber": "LIAR-008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064082",
+      "メーカー": "ライアーソフト",
+      "発売日": "2019/03/29",
+      "定価": "7,480円",
+      "型番": "LIAR-008",
+      "原画/シナリオ": "七星電灯",
+      "シナリオ": "高尾登山",
+      "声優": "小波すず\nやじまのぼる\n綾音まこ\n飴川紫乃\n夢野ぼたん\n野月まひる\n九財翼\n古河徹人\n奥川久美子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "原画": "/",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:51.454Z"
+  },
+  "histories": [
+    {
+      "id": 29453,
+      "productId": 29439,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:02.434Z"
+    },
+    {
+      "id": 38278,
+      "productId": 29439,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:20.486Z"
+    },
+    {
+      "id": 49420,
+      "productId": 29439,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:51.454Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064082",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064082",
+    "capturedAt": "2026-08-19T04:30:51.454Z",
+    "items": [],
+    "path": "data/other-shops/145064082.json"
+  }
+}

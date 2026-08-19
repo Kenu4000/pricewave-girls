@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 31401,
+    "title": "WindowsXP/Vista/7/8 DVDソフト えす先生のこと",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036269",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036269.jpg",
+    "manufacturer": "スタジオ カメ",
+    "releaseDate": "2013-03-29",
+    "listPrice": 2640,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145036269001",
+      "メーカー": "スタジオ カメ",
+      "発売日": "2013/03/29",
+      "定価": "2,640円",
+      "原画": "あおいうめ",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "有賀桃\n月室だいあな",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:39:30.811Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:35.919Z"
+  },
+  "histories": [
+    {
+      "id": 31415,
+      "productId": 31401,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:30.608Z"
+    },
+    {
+      "id": 40157,
+      "productId": 31401,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:36.237Z"
+    },
+    {
+      "id": 51190,
+      "productId": 31401,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:35.919Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41278,
+    "title": "WindowsXP/Vista/7 DVDソフト 神採りアルケミーマイスター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060155",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060155.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2011-04-22",
+    "listPrice": 10340,
+    "modelNumber": "EUDV-012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145060155",
+      "メーカー": "エウシュリー",
+      "発売日": "2011/04/22",
+      "定価": "10,340円",
+      "型番": "EUDV-012",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:32.815Z"
+  },
+  "histories": [
+    {
+      "id": 41292,
+      "productId": 41278,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:24.553Z"
+    },
+    {
+      "id": 52975,
+      "productId": 41278,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:32.815Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060155",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060155",
+    "capturedAt": "2026-08-19T16:20:32.815Z",
+    "items": [],
+    "path": "data/other-shops/145060155.json"
+  }
+}

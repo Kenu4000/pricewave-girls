@@ -1,0 +1,113 @@
+{
+  "product": {
+    "id": 30718,
+    "title": "Windows CDソフト 箱庭ロジック 予約特典 裸パッチROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046712",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046712.jpg",
+    "manufacturer": "Cabbit",
+    "releaseDate": "2014-10-31",
+    "listPrice": null,
+    "modelNumber": "SF-041",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145046712001",
+      "メーカー": "Cabbit",
+      "発売日": "2014/10/31",
+      "型番": "SF-041",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:23:10.270Z"
+  },
+  "histories": [
+    {
+      "id": 30732,
+      "productId": 30718,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:10.270Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 77494,
+      "productId": 30718,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:23:10.000Z"
+    },
+    {
+      "id": 77493,
+      "productId": 30718,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-15T23:23:10.000Z"
+    },
+    {
+      "id": 77492,
+      "productId": 30718,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-15T23:23:10.000Z"
+    },
+    {
+      "id": 77491,
+      "productId": 30718,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 399,
+      "checkedAt": "2026-08-15T23:23:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046712",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046712",
+    "capturedAt": "2026-08-15T23:23:10.270Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 399
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145046712.json"
+  }
+}

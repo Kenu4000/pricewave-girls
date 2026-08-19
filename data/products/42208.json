@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42208,
+    "title": "WindowsXP/Vista DVDソフト 闘神都市III",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039859",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039859.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2008-11-28",
+    "listPrice": 9350,
+    "modelNumber": "ALS-0066",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145039859",
+      "メーカー": "ALICESOFT",
+      "発売日": "2008/11/28",
+      "定価": "9,350円",
+      "型番": "ALS-0066",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:31.480Z"
+  },
+  "histories": [
+    {
+      "id": 42222,
+      "productId": 42208,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:21.858Z"
+    },
+    {
+      "id": 44088,
+      "productId": 42208,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:31.480Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039859",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039859",
+    "capturedAt": "2026-08-17T09:37:31.480Z",
+    "items": [],
+    "path": "data/other-shops/145039859.json"
+  }
+}

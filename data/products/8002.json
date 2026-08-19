@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 8002,
+    "title": "Windows98/Me/2000/XP DVDソフト Zwei Worter (ツヴァイ ウォルター)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015622",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015622.jpg",
+    "manufacturer": "CLOCKUP team.DYO",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015622",
+      "メーカー": "CLOCKUP team.DYO",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "原画": "今中光太郎",
+      "アーティスト": "佐藤ひろ美",
+      "シナリオ": "神楽玄武\nORU\n迂闊早夫\nはろぺこにゃん",
+      "声優": "鳩野比奈\nかわしまりの\n一色ヒカル\n青葉りんご\n中瀬ひな\n風音\n笠原准\n紫華すみれ\n涼森ちさと\n小町\n梅田香",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:52.151Z"
+  },
+  "histories": [
+    {
+      "id": 8016,
+      "productId": 8002,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 23074,
+      "productId": 8002,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:16.642Z"
+    },
+    {
+      "id": 40841,
+      "productId": 8002,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:34:08.018Z"
+    },
+    {
+      "id": 52257,
+      "productId": 8002,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:52.151Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015622",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015622",
+    "capturedAt": "2026-08-19T15:33:52.151Z",
+    "items": [],
+    "path": "data/other-shops/145015622.json"
+  }
+}

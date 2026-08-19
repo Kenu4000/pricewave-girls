@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 8006,
+    "title": "Windows95/98/Me CDソフト バイナリィ・ポット [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006150",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006150.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2002-02-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145006150001",
+      "メーカー": "オーガスト",
+      "発売日": "2002/02/22",
+      "定価": "9,680円",
+      "原画": "べっかんこう",
+      "シナリオ": "榊原拓",
+      "声優": "野神奈々\n鳥居花音\n日向裕羅\n春野日和\n春日アン\n風華",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3850,
+    "latestRegularSalePrice": 3850,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:23.564Z"
+  },
+  "histories": [
+    {
+      "id": 8020,
+      "productId": 8006,
+      "salePrice": 4550,
+      "regularSalePrice": 4550,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 26756,
+      "productId": 8006,
+      "salePrice": 3450,
+      "regularSalePrice": 3850,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:01.329Z"
+    },
+    {
+      "id": 37463,
+      "productId": 8006,
+      "salePrice": 3450,
+      "regularSalePrice": 3850,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:08.300Z"
+    },
+    {
+      "id": 47991,
+      "productId": 8006,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:23.564Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127582,
+      "productId": 8006,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-17T16:10:24.000Z"
+    },
+    {
+      "id": 127581,
+      "productId": 8006,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3800,
+      "checkedAt": "2026-08-17T16:10:24.000Z"
+    },
+    {
+      "id": 98790,
+      "productId": 8006,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3800,
+      "checkedAt": "2026-08-16T01:03:08.000Z"
+    },
+    {
+      "id": 98789,
+      "productId": 8006,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3450,
+      "checkedAt": "2026-08-16T01:03:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145006150",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145006150",
+    "capturedAt": "2026-08-17T16:10:23.564Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3850
+      }
+    ],
+    "path": "data/other-shops/145006150.json"
+  }
+}

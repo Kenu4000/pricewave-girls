@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42989,
+    "title": "Windows98/Me/2000/XP DVDソフト 夢幻天使エクスシア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015060",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015060.jpg",
+    "manufacturer": "トマト",
+    "releaseDate": "2006-11-24",
+    "listPrice": 9680,
+    "modelNumber": "KSTR-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015060",
+      "メーカー": "トマト",
+      "発売日": "2006/11/24",
+      "定価": "9,680円",
+      "型番": "KSTR-001",
+      "原画": "ルゴシエラ",
+      "シナリオ": "ゼフォン・ザ・ライター",
+      "声優": "平野響子\nみわ梢子\n森藍子\n西野みく",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:57.900Z"
+  },
+  "histories": [
+    {
+      "id": 43003,
+      "productId": 42989,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:57.900Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015060",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015060",
+    "capturedAt": "2026-08-17T07:16:57.900Z",
+    "items": [],
+    "path": "data/other-shops/145015060.json"
+  }
+}

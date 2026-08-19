@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 41152,
+    "title": "WindowsXP/Vista/7 DVDソフト 放課後かすたむ☆たいむ -Customize Lovers-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028746",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028746.jpg",
+    "manufacturer": "TEATIME",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": "TEA-G019",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028746001",
+      "メーカー": "TEATIME",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "型番": "TEA-G019",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:36.617Z"
+  },
+  "histories": [
+    {
+      "id": 41166,
+      "productId": 41152,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:16.405Z"
+    },
+    {
+      "id": 52877,
+      "productId": 41152,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:36.617Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142400,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:19:36.000Z"
+    },
+    {
+      "id": 142399,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：キズ、傷み少しありです。【2日以内にスピード発送！】",
+      "price": 1650,
+      "checkedAt": "2026-08-19T16:19:36.000Z"
+    },
+    {
+      "id": 142398,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:19:36.000Z"
+    },
+    {
+      "id": 142397,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:19:36.000Z"
+    },
+    {
+      "id": 106997,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：キズ、傷み少しありです。【2日以内にスピード発送！】",
+      "price": 1650,
+      "checkedAt": "2026-08-17T06:59:17.000Z"
+    },
+    {
+      "id": 106996,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:59:17.000Z"
+    },
+    {
+      "id": 106995,
+      "productId": 41152,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T06:59:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028746",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028746",
+    "capturedAt": "2026-08-19T16:19:36.617Z",
+    "items": [
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：キズ、傷み少しありです。【2日以内にスピード発送！】",
+        "price": 1650
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145028746.json"
+  }
+}

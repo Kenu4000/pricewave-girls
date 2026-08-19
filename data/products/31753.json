@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31753,
+    "title": "Windows CDソフト ××な彼女のつくりかた 2 ヨドバシカメラ スペシャルインスパイアDisc 「戦国」風衣装プラグイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035452",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035452.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2012-06-29",
+    "listPrice": null,
+    "modelNumber": "YODO-120602",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145035452",
+      "メーカー": "KISS",
+      "発売日": "2012/06/29",
+      "型番": "YODO-120602",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:50.460Z"
+  },
+  "histories": [
+    {
+      "id": 31767,
+      "productId": 31753,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:50.288Z"
+    },
+    {
+      "id": 40502,
+      "productId": 31753,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:17.492Z"
+    },
+    {
+      "id": 51444,
+      "productId": 31753,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:50.460Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035452",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035452",
+    "capturedAt": "2026-08-19T05:36:50.460Z",
+    "items": [],
+    "path": "data/other-shops/145035452.json"
+  }
+}

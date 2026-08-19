@@ -1,0 +1,182 @@
+{
+  "product": {
+    "id": 32012,
+    "title": "WindowsXP/Vista/7 CDソフト CALCITE(カルサイト)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030280",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030280.jpg",
+    "manufacturer": "Lucha Libre",
+    "releaseDate": "2011-10-28",
+    "listPrice": 2420,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145030280001",
+      "メーカー": "Lucha Libre",
+      "発売日": "2011/10/28",
+      "定価": "2,420円",
+      "原画": "川合正起",
+      "シナリオ": "すくわっと@",
+      "声優": "御神楽やこ\n笹塚真琴\n四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 340,
+    "latestRegularSalePrice": 340,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:35.876Z"
+  },
+  "histories": [
+    {
+      "id": 32026,
+      "productId": 32012,
+      "salePrice": 360,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:48.810Z"
+    },
+    {
+      "id": 40755,
+      "productId": 32012,
+      "salePrice": 360,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:23.667Z"
+    },
+    {
+      "id": 52221,
+      "productId": 32012,
+      "salePrice": 340,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:35.876Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 139968,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-19T15:33:36.000Z"
+    },
+    {
+      "id": 139967,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 580,
+      "checkedAt": "2026-08-19T15:33:36.000Z"
+    },
+    {
+      "id": 139966,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T15:33:36.000Z"
+    },
+    {
+      "id": 105895,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 580,
+      "checkedAt": "2026-08-16T01:33:23.000Z"
+    },
+    {
+      "id": 105894,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-16T01:33:23.000Z"
+    },
+    {
+      "id": 105893,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 240,
+      "checkedAt": "2026-08-16T01:33:23.000Z"
+    },
+    {
+      "id": 80054,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 580,
+      "checkedAt": "2026-08-15T23:46:49.000Z"
+    },
+    {
+      "id": 80053,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-15T23:46:49.000Z"
+    },
+    {
+      "id": 80052,
+      "productId": 32012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 240,
+      "checkedAt": "2026-08-15T23:46:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145030280",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030280",
+    "capturedAt": "2026-08-19T15:33:35.876Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 340
+      }
+    ],
+    "path": "data/other-shops/145030280.json"
+  }
+}

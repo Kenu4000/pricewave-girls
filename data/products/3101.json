@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 3101,
+    "title": "Windows95/98 CDソフト Liebe ～想い出の贈り物～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906191",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906191.jpg",
+    "manufacturer": "カスタムソフトウェア",
+    "releaseDate": "2000-11-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145906191",
+      "メーカー": "カスタムソフトウェア",
+      "発売日": "2000/11/24",
+      "定価": "9,680円",
+      "原画": "池上茜",
+      "シナリオ": "岩間正幸",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 320,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:05.123Z"
+  },
+  "histories": [
+    {
+      "id": 3115,
+      "productId": 3101,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26639,
+      "productId": 3101,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:35:48.013Z"
+    },
+    {
+      "id": 36915,
+      "productId": 3101,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:15.789Z"
+    },
+    {
+      "id": 47533,
+      "productId": 3101,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:05.123Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906191",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906191",
+    "capturedAt": "2026-08-17T16:06:05.123Z",
+    "items": [],
+    "path": "data/other-shops/145906191.json"
+  }
+}

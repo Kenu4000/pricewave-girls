@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 41019,
+    "title": "Windows7/8.1/10 DVDソフト 人妻寝取り屋 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060000",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060000.jpg",
+    "manufacturer": "INTERHEART glossy",
+    "releaseDate": "2018-01-26",
+    "listPrice": 9680,
+    "modelNumber": "INH-379",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145060000001",
+      "メーカー": "INTERHEART glossy",
+      "発売日": "2018/01/26",
+      "定価": "9,680円",
+      "型番": "INH-379",
+      "原画": "スカイハウス",
+      "シナリオ": "平乃ひら\n誘宵\n志方孝志",
+      "声優": "御苑生メイ\n渋谷ひめ\n風花ましろ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5950,
+    "latestRegularSalePrice": 5950,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:34:53.394Z"
+  },
+  "histories": [
+    {
+      "id": 41033,
+      "productId": 41019,
+      "salePrice": 5500,
+      "regularSalePrice": 5500,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:07.272Z"
+    },
+    {
+      "id": 52385,
+      "productId": 41019,
+      "salePrice": 5950,
+      "regularSalePrice": 5950,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:53.394Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140408,
+      "productId": 41019,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5950,
+      "checkedAt": "2026-08-19T15:34:53.000Z"
+    },
+    {
+      "id": 140407,
+      "productId": 41019,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 5500,
+      "checkedAt": "2026-08-19T15:34:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060000",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060000",
+    "capturedAt": "2026-08-19T15:34:53.394Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 5500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5950
+      }
+    ],
+    "path": "data/other-shops/145060000.json"
+  }
+}

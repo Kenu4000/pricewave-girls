@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29242,
+    "title": "Windows8.1/10 DVDソフト キスから始まるギャルの恋 -くるみのウワサとホントのキモチ- プレミアムエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073315",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073315.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2021-12-24",
+    "listPrice": 13178,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145073315",
+      "メーカー": "プレカノ",
+      "発売日": "2021/12/24",
+      "定価": "13,178円",
+      "原画": "もねてぃ",
+      "シナリオ": "和泉万夜",
+      "声優": "天知遥",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 13495,
+    "latestRegularSalePrice": 13495,
+    "latestBuyPrice": 7000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:49.021Z"
+  },
+  "histories": [
+    {
+      "id": 29256,
+      "productId": 29242,
+      "salePrice": 13495,
+      "regularSalePrice": 13495,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:54.776Z"
+    },
+    {
+      "id": 38090,
+      "productId": 29242,
+      "salePrice": 13495,
+      "regularSalePrice": 13495,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:28.033Z"
+    },
+    {
+      "id": 49275,
+      "productId": 29242,
+      "salePrice": 13495,
+      "regularSalePrice": 13495,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:49.021Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145073315",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073315",
+    "capturedAt": "2026-08-19T04:29:49.021Z",
+    "items": [],
+    "path": "data/other-shops/145073315.json"
+  }
+}

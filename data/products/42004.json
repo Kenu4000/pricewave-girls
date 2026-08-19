@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 42004,
+    "title": "Windows2000/XP/Vista DVDソフト あるみ箱(あると+みはる)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020236",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020236.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2009-05-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020236",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2009/05/29",
+      "定価": "9,680円",
+      "原画": "岩崎考司",
+      "シナリオ": "秋史恭\n北川晴\n守屋天",
+      "アーティスト": "橋本みゆき",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:52.580Z"
+  },
+  "histories": [
+    {
+      "id": 42018,
+      "productId": 42004,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:15.586Z"
+    },
+    {
+      "id": 53497,
+      "productId": 42004,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:52.580Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

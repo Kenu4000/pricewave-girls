@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 1854,
+    "title": "Windows7/8.1/10 DVDソフト Mink Final Best Memorial パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145980036",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145980036.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "2019-02-28",
+    "listPrice": 16500,
+    "modelNumber": "MINK-006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145980036",
+      "メーカー": "ミンク",
+      "発売日": "2019/02/28",
+      "定価": "16,500円",
+      "型番": "MINK-006",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 20911,
+    "latestRegularSalePrice": 20911,
+    "latestBuyPrice": 13000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:39:23.442Z"
+  },
+  "histories": [
+    {
+      "id": 1868,
+      "productId": 1854,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 13000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:42.000Z"
+    },
+    {
+      "id": 6750,
+      "productId": 1854,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 13000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:04.000Z"
+    },
+    {
+      "id": 35967,
+      "productId": 1854,
+      "salePrice": 20911,
+      "regularSalePrice": 20911,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:49:49.304Z"
+    },
+    {
+      "id": 46455,
+      "productId": 1854,
+      "salePrice": 20911,
+      "regularSalePrice": 20911,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:23.442Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145980036",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145980036",
+    "capturedAt": "2026-08-17T13:39:23.442Z",
+    "items": [],
+    "path": "data/other-shops/145980036.json"
+  }
+}

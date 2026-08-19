@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 42050,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト クーデレ魔界プリンセス・サラと吸精孕ませライフ!～好きなだけ子宮に注いで妊娠させなさい～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019664",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019664.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2009-04-10",
+    "listPrice": 1980,
+    "modelNumber": "NL-026",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019664001",
+      "メーカー": "Norn",
+      "発売日": "2009/04/10",
+      "定価": "1,980円",
+      "型番": "NL-026",
+      "原画": "綾瀬はづき",
+      "シナリオ": "leimonZ",
+      "声優": "藤邑鈴香",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:08.629Z"
+  },
+  "histories": [
+    {
+      "id": 42064,
+      "productId": 42050,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:40.435Z"
+    },
+    {
+      "id": 53532,
+      "productId": 42050,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:08.629Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143714,
+      "productId": 42050,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:25:08.000Z"
+    },
+    {
+      "id": 143713,
+      "productId": 42050,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T16:25:08.000Z"
+    },
+    {
+      "id": 143712,
+      "productId": 42050,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:25:08.000Z"
+    },
+    {
+      "id": 108844,
+      "productId": 42050,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:07:41.000Z"
+    },
+    {
+      "id": 108843,
+      "productId": 42050,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:07:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019664",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019664",
+    "capturedAt": "2026-08-19T16:25:08.629Z",
+    "items": [
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145019664.json"
+  }
+}

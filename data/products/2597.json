@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 2597,
+    "title": "Windows95/98 CDソフト 閉鎖病棟の女神たち",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002533",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002533.jpg",
+    "manufacturer": "アルシーヴ",
+    "releaseDate": "1999-07-23",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002533",
+      "メーカー": "アルシーヴ",
+      "発売日": "1999/07/23",
+      "定価": "8,580円",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3811,
+    "latestRegularSalePrice": 3811,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:03:26.230Z"
+  },
+  "histories": [
+    {
+      "id": 2611,
+      "productId": 2597,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7497,
+      "productId": 2597,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    },
+    {
+      "id": 13653,
+      "productId": 2597,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:44:13.000Z"
+    },
+    {
+      "id": 26575,
+      "productId": 2597,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:05:33.844Z"
+    },
+    {
+      "id": 36587,
+      "productId": 2597,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:15.156Z"
+    },
+    {
+      "id": 47263,
+      "productId": 2597,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:26.230Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145002533",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002533",
+    "capturedAt": "2026-08-17T16:03:26.230Z",
+    "items": [],
+    "path": "data/other-shops/145002533.json"
+  }
+}

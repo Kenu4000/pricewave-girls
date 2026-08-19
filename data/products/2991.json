@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 2991,
+    "title": "Windows98/Me/2000/XP DVDソフト マブラヴ [DVD-ROM版] [一次生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011161",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011161.jpg",
+    "manufacturer": "アージュ",
+    "releaseDate": "2004-04-30",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011161",
+      "メーカー": "アージュ",
+      "発売日": "2004/04/30",
+      "定価": "8,580円",
+      "原画": "八雲剣豪\nBou",
+      "声優": "千葉るり\n藤原理加\n奥田秋\n高柳香帆\n北都南\n吉野なつき\n相庭剛志\n野中真澄\n古谷治子\n若本規夫\n十文字隼人\n喜田あゆ美\n本田夏穂\n茶風林\n出口佳代\n笠井律子\n岩田健一郎\n今井麻美\n澤村しずか\n上原ともみ\n富坂晶\n阪口あや\n岬友美\n神崎めぐみ\n番菜判斗\n日高圭\n栗林みな実\n海原エレナ\n南綾香\n福島隆志\n藤田進一\n野神奈々\n宇垣秀成\n井上智\nAndraya Schacht\n海老原良雄\n岡本知佳\n朝倉開\nMai Kristine Omori\n三浦順子\n阿谷ほのか\nMelissa Heron\n朝宮咲\n内田由香\n大山泰",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:24.741Z"
+  },
+  "histories": [
+    {
+      "id": 3005,
+      "productId": 2991,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 36821,
+      "productId": 2991,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:26.005Z"
+    },
+    {
+      "id": 47465,
+      "productId": 2991,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:24.741Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125915,
+      "productId": 2991,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-17T16:05:25.000Z"
+    },
+    {
+      "id": 125914,
+      "productId": 2991,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1500,
+      "checkedAt": "2026-08-17T16:05:25.000Z"
+    },
+    {
+      "id": 125913,
+      "productId": 2991,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1400,
+      "checkedAt": "2026-08-17T16:05:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145011161",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145011161",
+    "capturedAt": "2026-08-17T16:05:24.741Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1400
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古ディスク傷あり",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1800
+      }
+    ],
+    "path": "data/other-shops/145011161.json"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41592,
+    "title": "Windows2000/XP/Vista/7 CDソフト 人妻商店街ー売り物はわ・た・し",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024281",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024281.jpg",
+    "manufacturer": "桃フェロ",
+    "releaseDate": "2010-06-25",
+    "listPrice": 3300,
+    "modelNumber": "MMF-00006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024281001",
+      "メーカー": "桃フェロ",
+      "発売日": "2010/06/25",
+      "定価": "3,300円",
+      "型番": "MMF-00006",
+      "原画": "田丸まこと",
+      "シナリオ": "野良うさぎ",
+      "声優": "岩泉まい\n春日アン\n藍川珪\n佐藤玲羅",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:24.417Z"
+  },
+  "histories": [
+    {
+      "id": 41606,
+      "productId": 41592,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:34.170Z"
+    },
+    {
+      "id": 53199,
+      "productId": 41592,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:24.417Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143103,
+      "productId": 41592,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:22:24.000Z"
+    },
+    {
+      "id": 143102,
+      "productId": 41592,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T16:22:24.000Z"
+    },
+    {
+      "id": 143101,
+      "productId": 41592,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:22:24.000Z"
+    },
+    {
+      "id": 107939,
+      "productId": 41592,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:03:38.000Z"
+    },
+    {
+      "id": 107938,
+      "productId": 41592,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:03:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024281",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024281",
+    "capturedAt": "2026-08-19T16:22:24.417Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145024281.json"
+  }
+}

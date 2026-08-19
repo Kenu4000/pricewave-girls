@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 30141,
+    "title": "Windowsソフト WIZARD LINKS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906667",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906667.jpg",
+    "manufacturer": "筆柿そふと",
+    "releaseDate": "2016-05-27",
+    "listPrice": 10230,
+    "modelNumber": "FUD005",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145906667",
+      "メーカー": "筆柿そふと",
+      "発売日": "2016/05/27",
+      "定価": "10,230円",
+      "型番": "FUD005",
+      "原画": "皇裕介\n吉野恵子\n大崎シンヤ",
+      "シナリオ": "NATORI烏賊",
+      "アーティスト": "榎津まお",
+      "声優": "小倉結衣\n木梨樹里\n白井綾乃\n金田まひる\n楠田兎\n桃井いちご\n一色ヒカル",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5555,
+    "latestRegularSalePrice": 5555,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:41.190Z"
+  },
+  "histories": [
+    {
+      "id": 30155,
+      "productId": 30141,
+      "salePrice": 5555,
+      "regularSalePrice": 5555,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:10.622Z"
+    },
+    {
+      "id": 38944,
+      "productId": 30141,
+      "salePrice": 5555,
+      "regularSalePrice": 5555,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:13.507Z"
+    },
+    {
+      "id": 49942,
+      "productId": 30141,
+      "salePrice": 5555,
+      "regularSalePrice": 5555,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:41.190Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906667",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906667",
+    "capturedAt": "2026-08-19T04:34:41.190Z",
+    "items": [],
+    "path": "data/other-shops/145906667.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31990,
+    "title": "WindowsXP/Vista/7 DVDソフト ワルキューレロマンツェ[少女騎士物語][通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903192",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145903192.jpg",
+    "manufacturer": "Ricotta(リコッタ)",
+    "releaseDate": "2011-11-18",
+    "listPrice": 9680,
+    "modelNumber": "RIC-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145903192",
+      "メーカー": "Ricotta(リコッタ)",
+      "発売日": "2011/11/18",
+      "定価": "9,680円",
+      "型番": "RIC-003",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:28.022Z"
+  },
+  "histories": [
+    {
+      "id": 32004,
+      "productId": 31990,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:36.721Z"
+    },
+    {
+      "id": 40733,
+      "productId": 31990,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:14.056Z"
+    },
+    {
+      "id": 52204,
+      "productId": 31990,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:28.022Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903192",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903192",
+    "capturedAt": "2026-08-19T15:33:28.022Z",
+    "items": [],
+    "path": "data/other-shops/145903192.json"
+  }
+}

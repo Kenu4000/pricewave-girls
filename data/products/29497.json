@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 29497,
+    "title": "Windows7/8/10 DVDソフト 家神女房-イエガミニョウボウ- -名無し猫又は神Tuber-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063433",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063433.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2018-11-30",
+    "listPrice": 2530,
+    "modelNumber": "CSK-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145063433001",
+      "メーカー": "Casket",
+      "発売日": "2018/11/30",
+      "定価": "2,530円",
+      "型番": "CSK-005",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら",
+      "声優": "花澤さくら",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "490",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 460,
+    "latestRegularSalePrice": 490,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:07:37.477Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:07:37.072Z"
+  },
+  "histories": [
+    {
+      "id": 29511,
+      "productId": 29497,
+      "salePrice": 460,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:37.072Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 74801,
+      "productId": 29497,
+      "sourceType": "other_shop",
+      "storeName": "パソコンショップMK",
+      "condition": "新品通常",
+      "price": 1280,
+      "checkedAt": "2026-08-15T23:07:37.000Z"
+    },
+    {
+      "id": 74800,
+      "productId": 29497,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:07:37.000Z"
+    },
+    {
+      "id": 74799,
+      "productId": 29497,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:07:37.000Z"
+    },
+    {
+      "id": 74798,
+      "productId": 29497,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 460,
+      "checkedAt": "2026-08-15T23:07:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063433",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063433",
+    "capturedAt": "2026-08-15T23:07:37.072Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 460
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "パソコンショップMK",
+        "condition": "新品通常",
+        "price": 1280
+      }
+    ],
+    "path": "data/other-shops/145063433.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42213,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 漆黒のシャルノス～What a beautiful tomorrow～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048272",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048272.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2008-11-21",
+    "listPrice": 9680,
+    "modelNumber": "BP-025",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145048272",
+      "メーカー": "ライアーソフト",
+      "発売日": "2008/11/21",
+      "定価": "9,680円",
+      "型番": "BP-025",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:06.235Z"
+  },
+  "histories": [
+    {
+      "id": 42227,
+      "productId": 42213,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:23.429Z"
+    },
+    {
+      "id": 53645,
+      "productId": 42213,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:06.235Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048272",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048272",
+    "capturedAt": "2026-08-19T16:26:06.235Z",
+    "items": [],
+    "path": "data/other-shops/145048272.json"
+  }
+}

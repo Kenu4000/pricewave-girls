@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41281,
+    "title": "Windows98/Me/2000/XP DVDソフト Boin super pack",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027573",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027573.jpg",
+    "manufacturer": "アンダーリップ",
+    "releaseDate": "2011-04-08",
+    "listPrice": 7480,
+    "modelNumber": "UL-124",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145027573",
+      "メーカー": "アンダーリップ",
+      "発売日": "2011/04/08",
+      "定価": "7,480円",
+      "型番": "UL-124",
+      "原画": "八宝備仁",
+      "シナリオ": "関町台風\n渋谷五壱\nさえぐさのぞみ\n朔夜桜",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6380,
+    "latestRegularSalePrice": 6380,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:34.902Z"
+  },
+  "histories": [
+    {
+      "id": 41295,
+      "productId": 41281,
+      "salePrice": 6380,
+      "regularSalePrice": 6380,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:27.017Z"
+    },
+    {
+      "id": 52980,
+      "productId": 41281,
+      "salePrice": 6380,
+      "regularSalePrice": 6380,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:34.902Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027573",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027573",
+    "capturedAt": "2026-08-19T16:20:34.902Z",
+    "items": [],
+    "path": "data/other-shops/145027573.json"
+  }
+}

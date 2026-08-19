@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 8394,
+    "title": "Windows2000/XP/Vista DVDソフト 撫子乱舞[サウンドトラック無し]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024444",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024444.jpg",
+    "manufacturer": "White Cyc",
+    "releaseDate": "2010-05-21",
+    "listPrice": 9680,
+    "modelNumber": "WCYC-4847",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024444",
+      "メーカー": "White Cyc",
+      "発売日": "2010/05/21",
+      "定価": "9,680円",
+      "型番": "WCYC-4847",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:33.108Z"
+  },
+  "histories": [
+    {
+      "id": 8408,
+      "productId": 8394,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37771,
+      "productId": 8394,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:43.287Z"
+    },
+    {
+      "id": 48249,
+      "productId": 8394,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:33.108Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024444",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024444",
+    "capturedAt": "2026-08-17T16:12:33.108Z",
+    "items": [],
+    "path": "data/other-shops/145024444.json"
+  }
+}

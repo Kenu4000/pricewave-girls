@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42087,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト 学校のヤラシイ怪談～こんな恥ずかしい除霊させないで!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019463.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2009-03-19",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019463",
+      "メーカー": "TinkerBell",
+      "発売日": "2009/03/19",
+      "定価": "9,680円",
+      "原画": "牧だいきち",
+      "シナリオ": "ZEQU\nバッハマンさんきち",
+      "声優": "杏露花梨\n一比末子\n天天\nあさり☆",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:23.413Z"
+  },
+  "histories": [
+    {
+      "id": 42101,
+      "productId": 42087,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:04.905Z"
+    },
+    {
+      "id": 53559,
+      "productId": 42087,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:23.413Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019463",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019463",
+    "capturedAt": "2026-08-19T16:25:23.413Z",
+    "items": [],
+    "path": "data/other-shops/145019463.json"
+  }
+}

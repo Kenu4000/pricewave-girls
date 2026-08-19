@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 30243,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト おさこい -俺と二人の甘々ご奉仕H生活-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053083",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053083.jpg",
+    "manufacturer": "娘娘（ニャンニャン）",
+    "releaseDate": "2016-02-26",
+    "listPrice": 6380,
+    "modelNumber": "NYAN-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053083",
+      "メーカー": "娘娘（ニャンニャン）",
+      "発売日": "2016/02/26",
+      "定価": "6,380円",
+      "型番": "NYAN-003",
+      "原画": "水月あるみ",
+      "シナリオ": "大和亮介",
+      "アーティスト": "片霧烈火",
+      "声優": "美咲桃子\n咲ゆたか\nあかしゆき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:26:54.253Z"
+  },
+  "histories": [
+    {
+      "id": 30257,
+      "productId": 30243,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:17.043Z"
+    },
+    {
+      "id": 39045,
+      "productId": 30243,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:09.029Z"
+    },
+    {
+      "id": 50320,
+      "productId": 30243,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:54.253Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053083",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053083",
+    "capturedAt": "2026-08-19T05:26:54.253Z",
+    "items": [],
+    "path": "data/other-shops/145053083.json"
+  }
+}

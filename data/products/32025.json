@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 32025,
+    "title": "WindowsXP/Vista/7 CDソフト インモラル情母ハザード",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030495",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030495.jpg",
+    "manufacturer": "トルピード",
+    "releaseDate": "2011-10-28",
+    "listPrice": 2750,
+    "modelNumber": "TRP-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030495",
+      "メーカー": "トルピード",
+      "発売日": "2011/10/28",
+      "定価": "2,750円",
+      "型番": "TRP-001",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:17.559Z"
+  },
+  "histories": [
+    {
+      "id": 32039,
+      "productId": 32025,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:55.334Z"
+    },
+    {
+      "id": 44991,
+      "productId": 32025,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:17.559Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030495",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030495",
+    "capturedAt": "2026-08-17T09:45:17.559Z",
+    "items": [],
+    "path": "data/other-shops/145030495.json"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "product": {
+    "id": 41313,
+    "title": "WindowsXP/Vista/7 DVDソフト 猫撫ディストーション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025487",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025487.jpg",
+    "manufacturer": "WHITESOFT",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": "WHS-0002",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025487001",
+      "メーカー": "WHITESOFT",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "型番": "WHS-0002",
+      "原画": "みやま零\nミヤスリサ\n月音",
+      "シナリオ": "元長柾木\n藤木隻",
+      "声優": "佐本二厘\n安玖深音\n涼森ちさと\n佐藤しずく\n夏野こおり",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:47.912Z"
+  },
+  "histories": [
+    {
+      "id": 41327,
+      "productId": 41313,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:43.988Z"
+    },
+    {
+      "id": 53007,
+      "productId": 41313,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:47.912Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142716,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:20:48.000Z"
+    },
+    {
+      "id": 142715,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+      "condition": "中古通販のみ（店頭販売は行っておりません）",
+      "price": 1008,
+      "checkedAt": "2026-08-19T16:20:48.000Z"
+    },
+    {
+      "id": 142714,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:20:48.000Z"
+    },
+    {
+      "id": 142713,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-19T16:20:48.000Z"
+    },
+    {
+      "id": 142712,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:20:48.000Z"
+    },
+    {
+      "id": 107370,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:00:44.000Z"
+    },
+    {
+      "id": 107369,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-17T07:00:44.000Z"
+    },
+    {
+      "id": 107368,
+      "productId": 41313,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:00:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025487",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025487",
+    "capturedAt": "2026-08-19T16:20:47.912Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+        "condition": "中古通販のみ（店頭販売は行っておりません）",
+        "price": 1008
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145025487.json"
+  }
+}

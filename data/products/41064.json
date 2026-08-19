@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41064,
+    "title": "WindowsXP/Vista/7 DVDソフト 大図書館の羊飼い 初回限定プレミアムパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044988",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044988.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2013-01-25",
+    "listPrice": 14080,
+    "modelNumber": "AUG-9000",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145044988",
+      "メーカー": "オーガスト",
+      "発売日": "2013/01/25",
+      "定価": "14,080円",
+      "型番": "AUG-9000",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ねんどろいど欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2970,
+    "latestRegularSalePrice": 2970,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ねんどろいど欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:00.233Z"
+  },
+  "histories": [
+    {
+      "id": 41078,
+      "productId": 41064,
+      "salePrice": 2970,
+      "regularSalePrice": 2970,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ねんどろいど欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:33.539Z"
+    },
+    {
+      "id": 52816,
+      "productId": 41064,
+      "salePrice": 2970,
+      "regularSalePrice": 2970,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ねんどろいど欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:00.233Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044988",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044988",
+    "capturedAt": "2026-08-19T16:19:00.233Z",
+    "items": [],
+    "path": "data/other-shops/145044988.json"
+  }
+}

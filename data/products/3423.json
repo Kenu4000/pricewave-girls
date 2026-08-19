@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 3423,
+    "title": "Windows98/Me/2000/XP CDソフト ぷりてぃCANDEAD! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009084",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009084.jpg",
+    "manufacturer": "UMA",
+    "releaseDate": "2003-05-30",
+    "listPrice": 9680,
+    "modelNumber": "UMA-00001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009084",
+      "メーカー": "UMA",
+      "発売日": "2003/05/30",
+      "定価": "9,680円",
+      "型番": "UMA-00001",
+      "原画": "ことみようじ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 870,
+    "latestRegularSalePrice": 870,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:12.460Z"
+  },
+  "histories": [
+    {
+      "id": 3437,
+      "productId": 3423,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37179,
+      "productId": 3423,
+      "salePrice": 870,
+      "regularSalePrice": 870,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:33.005Z"
+    },
+    {
+      "id": 47761,
+      "productId": 3423,
+      "salePrice": 870,
+      "regularSalePrice": 870,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:12.460Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145009084",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009084",
+    "capturedAt": "2026-08-17T16:08:12.460Z",
+    "items": [],
+    "path": "data/other-shops/145009084.json"
+  }
+}

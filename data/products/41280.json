@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 41280,
+    "title": "WindowsXP/Vista/7 DVDソフト 究極魔法少女 絶対☆姉貴",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027220",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027220.jpg",
+    "manufacturer": "アクシス",
+    "releaseDate": "2011-04-08",
+    "listPrice": 9680,
+    "modelNumber": "AX-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027220001",
+      "メーカー": "アクシス",
+      "発売日": "2011/04/08",
+      "定価": "9,680円",
+      "型番": "AX-003",
+      "原画": "夏木清人",
+      "シナリオ": "陽光",
+      "声優": "逢\nヒマリ\n木下鈴\n戸川亜樹\n篠原ゆみ\n星もえる\n奥山歩",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:32.916Z"
+  },
+  "histories": [
+    {
+      "id": 41294,
+      "productId": 41280,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:26.954Z"
+    },
+    {
+      "id": 52976,
+      "productId": 41280,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:32.916Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142637,
+      "productId": 41280,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:20:33.000Z"
+    },
+    {
+      "id": 142636,
+      "productId": 41280,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-19T16:20:33.000Z"
+    },
+    {
+      "id": 142635,
+      "productId": 41280,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:20:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027220",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027220",
+    "capturedAt": "2026-08-19T16:20:32.916Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145027220.json"
+  }
+}

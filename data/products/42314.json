@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42314,
+    "title": "Windows2000/XP/Vista DVDソフト 水平線まで何マイル? -Deep Blue Sky ＆ Pure White Wings-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900214",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900214.jpg",
+    "manufacturer": "ABHAR(アーヴァル)",
+    "releaseDate": "2008-08-29",
+    "listPrice": 9680,
+    "modelNumber": "46600880",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145900214",
+      "メーカー": "ABHAR(アーヴァル)",
+      "発売日": "2008/08/29",
+      "定価": "9,680円",
+      "型番": "46600880",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:49.464Z"
+  },
+  "histories": [
+    {
+      "id": 42328,
+      "productId": 42314,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:28.305Z"
+    },
+    {
+      "id": 44105,
+      "productId": 42314,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:39.151Z"
+    },
+    {
+      "id": 48881,
+      "productId": 42314,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:49.464Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900214",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900214",
+    "capturedAt": "2026-08-19T04:26:49.464Z",
+    "items": [],
+    "path": "data/other-shops/145900214.json"
+  }
+}

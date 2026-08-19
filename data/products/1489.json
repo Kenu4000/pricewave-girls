@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 1489,
+    "title": "Windows8/8.1/10 DVDソフト シスターレッスン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068190",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068190.jpg",
+    "manufacturer": "ましゅまろそふと",
+    "releaseDate": "2020-06-26",
+    "listPrice": 9680,
+    "modelNumber": "INH-431",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145068190001",
+      "メーカー": "ましゅまろそふと",
+      "発売日": "2020/06/26",
+      "定価": "9,680円",
+      "型番": "INH-431",
+      "原画": "しおこんぶ",
+      "シナリオ": "志方孝志",
+      "声優": "風鈴みすず\n月森ねね\n雪村とあ\n叶一華\n八ッ橋きなこ\n梅宮ここ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:37:37.813Z"
+  },
+  "histories": [
+    {
+      "id": 1503,
+      "productId": 1489,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "イラストカード欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6399,
+      "productId": 1489,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "イラストカード欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:47.000Z"
+    },
+    {
+      "id": 22744,
+      "productId": 1489,
+      "salePrice": 2350,
+      "regularSalePrice": 2500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:23.563Z"
+    },
+    {
+      "id": 35695,
+      "productId": 1489,
+      "salePrice": 2350,
+      "regularSalePrice": 2500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:47:35.424Z"
+    },
+    {
+      "id": 46245,
+      "productId": 1489,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:37:37.813Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 120951,
+      "productId": 1489,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 3 of 3 中古",
+      "condition": "状態不明",
+      "price": 2500,
+      "checkedAt": "2026-08-17T13:37:37.000Z"
+    },
+    {
+      "id": 120950,
+      "productId": 1489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2310,
+      "checkedAt": "2026-08-17T13:37:37.000Z"
+    },
+    {
+      "id": 51724,
+      "productId": 1489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2360,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51723,
+      "productId": 1489,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 3 of 3 中古",
+      "condition": "状態不明",
+      "price": 2350,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145068190",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068190",
+    "capturedAt": "2026-08-17T13:37:37.813Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2310
+      },
+      {
+        "storeName": "Image 1 2 3 of 3 中古",
+        "condition": "状態不明",
+        "price": 2500
+      }
+    ],
+    "path": "data/other-shops/145068190.json"
+  }
+}

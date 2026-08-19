@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41217,
+    "title": "WindowsXP/Vista/7 DVDソフト カミカゼ☆エクスプローラー[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058575",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058575.jpg",
+    "manufacturer": "クロシェット",
+    "releaseDate": "2011-05-27",
+    "listPrice": 9680,
+    "modelNumber": "CLOCH-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145058575",
+      "メーカー": "クロシェット",
+      "発売日": "2011/05/27",
+      "定価": "9,680円",
+      "型番": "CLOCH-007",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク+トールケース",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 955,
+    "latestRegularSalePrice": 955,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+トールケース",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:10.320Z"
+  },
+  "histories": [
+    {
+      "id": 41231,
+      "productId": 41217,
+      "salePrice": 965,
+      "regularSalePrice": 965,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+トールケース",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:48.353Z"
+    },
+    {
+      "id": 52934,
+      "productId": 41217,
+      "salePrice": 955,
+      "regularSalePrice": 955,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+トールケース",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:10.320Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058575",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058575",
+    "capturedAt": "2026-08-19T16:20:10.320Z",
+    "items": [],
+    "path": "data/other-shops/145058575.json"
+  }
+}

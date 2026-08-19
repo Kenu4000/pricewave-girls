@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31774,
+    "title": "WindowsXP/Vista/7 DVDソフト 愛奈-あいな-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032382",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032382.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2012-05-25",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032382",
+      "メーカー": "エレクトリップ",
+      "発売日": "2012/05/25",
+      "定価": "2,750円",
+      "原画": "高橋レコード",
+      "シナリオ": "草薙",
+      "声優": "鈴谷まや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:58.184Z"
+  },
+  "histories": [
+    {
+      "id": 31788,
+      "productId": 31774,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:04.842Z"
+    },
+    {
+      "id": 40523,
+      "productId": 31774,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:26.927Z"
+    },
+    {
+      "id": 51459,
+      "productId": 31774,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:58.184Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145032382",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032382",
+    "capturedAt": "2026-08-19T05:36:58.184Z",
+    "items": [],
+    "path": "data/other-shops/145032382.json"
+  }
+}

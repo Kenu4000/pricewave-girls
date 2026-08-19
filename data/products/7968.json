@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 7968,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 永遠のアセリア Premium Special Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056062",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056062.jpg",
+    "manufacturer": "ザウス",
+    "releaseDate": "2016-12-22",
+    "listPrice": 10780,
+    "modelNumber": "XUSE-055",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056062",
+      "メーカー": "ザウス",
+      "発売日": "2016/12/22",
+      "定価": "10,780円",
+      "型番": "XUSE-055",
+      "原画": "あらきまき\n人丸",
+      "シナリオ": "座敷猫\n高瀬奈緒文",
+      "声優": "山本直子\n紫月澄人\n乃田あす実\n清水香\nカンザキカナリ\n大野まりな\n橘裕美",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 13760,
+    "latestRegularSalePrice": 13760,
+    "latestBuyPrice": 10000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:08.775Z"
+  },
+  "histories": [
+    {
+      "id": 7982,
+      "productId": 7968,
+      "salePrice": 13800,
+      "regularSalePrice": 13800,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 37429,
+      "productId": 7968,
+      "salePrice": 13770,
+      "regularSalePrice": 13770,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:47.004Z"
+    },
+    {
+      "id": 47963,
+      "productId": 7968,
+      "salePrice": 13760,
+      "regularSalePrice": 13760,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:08.775Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056062",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056062",
+    "capturedAt": "2026-08-17T16:10:08.775Z",
+    "items": [],
+    "path": "data/other-shops/145056062.json"
+  }
+}

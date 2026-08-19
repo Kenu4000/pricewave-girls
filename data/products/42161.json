@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 42161,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 学・校・水・着 ～ザーメンプールで泳いだら～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019218",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019218.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2008-12-26",
+    "listPrice": 2200,
+    "modelNumber": "VAL-0013",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019218001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2008/12/26",
+      "定価": "2,200円",
+      "型番": "VAL-0013",
+      "原画": "つちのと",
+      "シナリオ": "ガソリンプール",
+      "声優": "小倉結衣\n岩泉まい\n七生みこと",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:47.811Z"
+  },
+  "histories": [
+    {
+      "id": 42175,
+      "productId": 42161,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:52.368Z"
+    },
+    {
+      "id": 53606,
+      "productId": 42161,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:47.811Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143877,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:25:47.000Z"
+    },
+    {
+      "id": 143876,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:25:47.000Z"
+    },
+    {
+      "id": 143875,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:25:47.000Z"
+    },
+    {
+      "id": 109159,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:08:52.000Z"
+    },
+    {
+      "id": 109158,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:08:52.000Z"
+    },
+    {
+      "id": 109157,
+      "productId": 42161,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:08:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019218",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019218",
+    "capturedAt": "2026-08-19T16:25:47.811Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145019218.json"
+  }
+}

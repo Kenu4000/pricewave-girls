@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42862,
+    "title": "Windows98/Me/2000/XP DVDソフト ナツメグ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015561",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015561.jpg",
+    "manufacturer": "コットンソフト",
+    "releaseDate": "2007-02-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015561",
+      "メーカー": "コットンソフト",
+      "発売日": "2007/02/23",
+      "定価": "9,680円",
+      "原画": "司ゆうき",
+      "シナリオ": "やなちぃ\n木緒なち",
+      "声優": "事務台車\n夏野こおり\n佐本二厘\n青山ゆかり\n韮井叶\nまきいづみ\n胸肩腎\n大久保けんたろう",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:49.332Z"
+  },
+  "histories": [
+    {
+      "id": 42876,
+      "productId": 42862,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:49.332Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015561",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015561",
+    "capturedAt": "2026-08-17T07:15:49.332Z",
+    "items": [],
+    "path": "data/other-shops/145015561.json"
+  }
+}

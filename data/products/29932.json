@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 29932,
+    "title": "WindowsVista/7/8/8.1/10/MacOSX10.9以以 DVDソフト 牝狩賊 -淫獄に穢れる乙女たち-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056483",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056483.jpg",
+    "manufacturer": "ブラックカラント",
+    "releaseDate": "2017-01-27",
+    "listPrice": 7480,
+    "modelNumber": "BCT-008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "新品 ：145056483000",
+      "メーカー": "ブラックカラント",
+      "発売日": "2017/01/27",
+      "定価": "7,480円",
+      "型番": "BCT-008",
+      "原画": "東雲めかぶ\n光の紳士",
+      "シナリオ": "池澤規律\n弥次暇時",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:38.547Z"
+  },
+  "histories": [
+    {
+      "id": 29946,
+      "productId": 29932,
+      "salePrice": 1180,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:12.619Z"
+    },
+    {
+      "id": 38752,
+      "productId": 29932,
+      "salePrice": 1180,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:33.251Z"
+    },
+    {
+      "id": 49804,
+      "productId": 29932,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:38.547Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133103,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 1350,
+      "checkedAt": "2026-08-19T04:33:38.000Z"
+    },
+    {
+      "id": 133102,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "新品",
+      "price": 812,
+      "checkedAt": "2026-08-19T04:33:38.000Z"
+    },
+    {
+      "id": 133101,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-19T04:33:38.000Z"
+    },
+    {
+      "id": 101730,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 1180,
+      "checkedAt": "2026-08-16T01:14:33.000Z"
+    },
+    {
+      "id": 101729,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-16T01:14:33.000Z"
+    },
+    {
+      "id": 75735,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 1180,
+      "checkedAt": "2026-08-15T23:12:12.000Z"
+    },
+    {
+      "id": 75734,
+      "productId": 29932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-15T23:12:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056483",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056483",
+    "capturedAt": "2026-08-19T04:33:38.547Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "新品",
+        "price": 812
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145056483.json"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 42828,
+    "title": "Windows98/Me/2000/XP DVDソフト リリミエスタ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015588",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015588.jpg",
+    "manufacturer": "SMEE",
+    "releaseDate": "2007-03-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015588001",
+      "メーカー": "SMEE",
+      "発売日": "2007/03/23",
+      "定価": "9,680円",
+      "原画": "日向恭介",
+      "シナリオ": "博恵夏樹\n浅野健司\n柊桂",
+      "声優": "高橋一休\n寧々\n南見ちはる\n榎津まお\n海老ゆめる\n新堂真弓\n藤森ゆき奈\n高槻つばさ\n御苑生メイ\nゆぅ\n白銀一樹",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:26.568Z"
+  },
+  "histories": [
+    {
+      "id": 42842,
+      "productId": 42828,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:26.568Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110453,
+      "productId": 42828,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:15:26.000Z"
+    },
+    {
+      "id": 110452,
+      "productId": 42828,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:15:26.000Z"
+    },
+    {
+      "id": 110451,
+      "productId": 42828,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-17T07:15:26.000Z"
+    },
+    {
+      "id": 110450,
+      "productId": 42828,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-17T07:15:26.000Z"
+    },
+    {
+      "id": 110449,
+      "productId": 42828,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 660,
+      "checkedAt": "2026-08-17T07:15:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015588",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015588",
+    "capturedAt": "2026-08-17T07:15:26.568Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 660
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145015588.json"
+  }
+}

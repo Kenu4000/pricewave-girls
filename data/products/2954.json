@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 2954,
+    "title": "Windows98/Me/2000/XPソフト おねパパ ～Onegai PaPa!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011739",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011739.jpg",
+    "manufacturer": "mixwill soft",
+    "releaseDate": "2004-09-03",
+    "listPrice": 9680,
+    "modelNumber": "MIX-G002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011739",
+      "メーカー": "mixwill soft",
+      "発売日": "2004/09/03",
+      "定価": "9,680円",
+      "型番": "MIX-G002",
+      "原画": "あさひかつひこ\nうさぎねずみ",
+      "シナリオ": "モリQ\nRe-born",
+      "声優": "みる\n癒世みこと\n海原エレナ\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:39.068Z"
+  },
+  "histories": [
+    {
+      "id": 2968,
+      "productId": 2954,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 26600,
+      "productId": 2954,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:12:23.514Z"
+    },
+    {
+      "id": 44449,
+      "productId": 2954,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:39.068Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145011739",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145011739",
+    "capturedAt": "2026-08-17T09:40:39.068Z",
+    "items": [],
+    "path": "data/other-shops/145011739.json"
+  }
+}

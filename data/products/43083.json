@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 43083,
+    "title": "Windows2000/XP DVDソフト らぶらび",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014757",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014757.jpg",
+    "manufacturer": "Le．Chocolat（ル・ショコラ）",
+    "releaseDate": "2006-09-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014757",
+      "メーカー": "Le．Chocolat（ル・ショコラ）",
+      "発売日": "2006/09/01",
+      "定価": "9,680円",
+      "原画": "Griffon-XIII\n疾風",
+      "シナリオ": "奈落ハジメ\n関町台風\n橘ぱん\n室井薫",
+      "声優": "ひまり(声優)\n綾川りの\n佐藤千幸\n茅野ましろ\n間瀬洋子\n民安ともえ\n更科りえ\n憂木あん\nさわたり由衣",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:47.237Z"
+  },
+  "histories": [
+    {
+      "id": 43097,
+      "productId": 43083,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:47.237Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014757",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014757",
+    "capturedAt": "2026-08-17T07:17:47.237Z",
+    "items": [],
+    "path": "data/other-shops/145014757.json"
+  }
+}

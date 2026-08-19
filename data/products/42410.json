@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 42410,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 女優・菜々子「出演条件は…おまえの肢体だ」 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017920",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017920.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2008-05-30",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0039",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017920001",
+      "メーカー": "ルネ",
+      "発売日": "2008/05/30",
+      "定価": "4,180円",
+      "型番": "MGGW0039",
+      "原画": "黒石りんご",
+      "シナリオ": "春日晶\n優妃崎章人",
+      "声優": "星野清香\n丸見桃子\n安堂りゅう\nサトウユキ\n成川クウ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:25.323Z"
+  },
+  "histories": [
+    {
+      "id": 42424,
+      "productId": 42410,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:25.212Z"
+    },
+    {
+      "id": 53800,
+      "productId": 42410,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:25.323Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144250,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:27:25.000Z"
+    },
+    {
+      "id": 144249,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-08-19T16:27:25.000Z"
+    },
+    {
+      "id": 144248,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1380,
+      "checkedAt": "2026-08-19T16:27:25.000Z"
+    },
+    {
+      "id": 144247,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-19T16:27:25.000Z"
+    },
+    {
+      "id": 109658,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-08-17T07:11:25.000Z"
+    },
+    {
+      "id": 109657,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1380,
+      "checkedAt": "2026-08-17T07:11:25.000Z"
+    },
+    {
+      "id": 109656,
+      "productId": 42410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:11:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017920",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017920",
+    "capturedAt": "2026-08-19T16:27:25.323Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1380
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145017920.json"
+  }
+}

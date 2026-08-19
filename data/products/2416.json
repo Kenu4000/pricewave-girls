@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 2416,
+    "title": "WindowsXP/Vista/7/8 DVDソフト MONSTER PARK 2 FANDISC -Lost episode-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038109",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038109.jpg",
+    "manufacturer": "Trois(トロワ)",
+    "releaseDate": "2013-10-25",
+    "listPrice": 5500,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038109",
+      "メーカー": "Trois(トロワ)",
+      "発売日": "2013/10/25",
+      "定価": "5,500円",
+      "原画": "偽おかゆ\n置弓枷",
+      "声優": "柚木サチ\n赤司弓妃\n樹ノ下やや\n夢野ぼたん\n榛名れん",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:42:35.692Z"
+  },
+  "histories": [
+    {
+      "id": 2430,
+      "productId": 2416,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:06:25.000Z"
+    },
+    {
+      "id": 7322,
+      "productId": 2416,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:14:43.000Z"
+    },
+    {
+      "id": 22867,
+      "productId": 2416,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:23.616Z"
+    },
+    {
+      "id": 36426,
+      "productId": 2416,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:53:44.654Z"
+    },
+    {
+      "id": 46810,
+      "productId": 2416,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:42:35.692Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038109",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038109",
+    "capturedAt": "2026-08-17T13:42:35.692Z",
+    "items": [],
+    "path": "data/other-shops/145038109.json"
+  }
+}

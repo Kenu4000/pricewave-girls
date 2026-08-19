@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 29407,
+    "title": "Windows7/8.1/10 DVDソフト White Blue 予約キャンペーン特典ディスク「とらいあんぐるBlue」 -Windows10対応版-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065798",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065798.jpg",
+    "manufacturer": "LiLiM DARKNESS",
+    "releaseDate": "2019-06-28",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065798001",
+      "メーカー": "LiLiM DARKNESS",
+      "発売日": "2019/06/28",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:39.414Z"
+  },
+  "histories": [
+    {
+      "id": 29421,
+      "productId": 29407,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:44.838Z"
+    },
+    {
+      "id": 38247,
+      "productId": 29407,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:53.552Z"
+    },
+    {
+      "id": 49392,
+      "productId": 29407,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:39.414Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132174,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-19T04:30:39.000Z"
+    },
+    {
+      "id": 132173,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T04:30:39.000Z"
+    },
+    {
+      "id": 132172,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-19T04:30:39.000Z"
+    },
+    {
+      "id": 100582,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:09:53.000Z"
+    },
+    {
+      "id": 100581,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 700,
+      "checkedAt": "2026-08-16T01:09:53.000Z"
+    },
+    {
+      "id": 74543,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:06:45.000Z"
+    },
+    {
+      "id": 74542,
+      "productId": 29407,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 700,
+      "checkedAt": "2026-08-15T23:06:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065798",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065798",
+    "capturedAt": "2026-08-19T04:30:39.414Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145065798.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31055,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ばくあね -弟しぼっちゃうぞ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061572",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061572.jpg",
+    "manufacturer": "アトリエかぐや BARE＆BUNNY",
+    "releaseDate": "2014-01-31",
+    "listPrice": 9680,
+    "modelNumber": "KA-0070",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145061572",
+      "メーカー": "アトリエかぐや BARE＆BUNNY",
+      "発売日": "2014/01/31",
+      "定価": "9,680円",
+      "型番": "KA-0070",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:20.174Z"
+  },
+  "histories": [
+    {
+      "id": 31069,
+      "productId": 31055,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:24.259Z"
+    },
+    {
+      "id": 39816,
+      "productId": 31055,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:11.741Z"
+    },
+    {
+      "id": 50923,
+      "productId": 31055,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:20.174Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061572",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061572",
+    "capturedAt": "2026-08-19T05:32:20.174Z",
+    "items": [],
+    "path": "data/other-shops/145061572.json"
+  }
+}

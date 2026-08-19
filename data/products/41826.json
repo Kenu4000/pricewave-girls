@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 41826,
+    "title": "Windows2000/XP/Vista DVDソフト 幼なじみは大統領 My girlfriend is the PRESIDENT.[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021665",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021665.jpg",
+    "manufacturer": "ALcot",
+    "releaseDate": "2009-10-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021665001",
+      "メーカー": "ALcot",
+      "発売日": "2009/10/30",
+      "定価": "9,680円",
+      "原画": "桜花すし\nPRIMIL\nひさたけ",
+      "シナリオ": "時乃\n宮蔵\n空下元",
+      "声優": "野村勝人\n立花あや\n海原エレナ\n柏さくら\nみる\n韮井叶\n青葉りんご\n成瀬未亜\n多富満",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:52.564Z"
+  },
+  "histories": [
+    {
+      "id": 41840,
+      "productId": 41826,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:43.789Z"
+    },
+    {
+      "id": 44011,
+      "productId": 41826,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:52.564Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113821,
+      "productId": 41826,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:36:52.000Z"
+    },
+    {
+      "id": 113820,
+      "productId": 41826,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:36:52.000Z"
+    },
+    {
+      "id": 108372,
+      "productId": 41826,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:44.000Z"
+    },
+    {
+      "id": 108371,
+      "productId": 41826,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021665",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021665",
+    "capturedAt": "2026-08-17T09:36:52.564Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145021665.json"
+  }
+}

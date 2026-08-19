@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 31249,
+    "title": "WindowsXP/Vista/7 CDソフト ポスタル2 シェアザペイン[完全日本語版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038055",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038055.jpg",
+    "manufacturer": "ドライブ",
+    "releaseDate": "2013-07-26",
+    "listPrice": 4170,
+    "modelNumber": "DR-040",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038055",
+      "メーカー": "ドライブ",
+      "発売日": "2013/07/26",
+      "定価": "4,170円",
+      "型番": "DR-040",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1312,
+    "latestRegularSalePrice": 1312,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:35.622Z"
+  },
+  "histories": [
+    {
+      "id": 31263,
+      "productId": 31249,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:41.026Z"
+    },
+    {
+      "id": 40007,
+      "productId": 31249,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:47.638Z"
+    },
+    {
+      "id": 51069,
+      "productId": 31249,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:35.622Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038055",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038055",
+    "capturedAt": "2026-08-19T05:33:35.622Z",
+    "items": [],
+    "path": "data/other-shops/145038055.json"
+  }
+}

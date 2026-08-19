@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 31088,
+    "title": "WindowsXP/Vista/7/8 DVDソフト あかときっ -もっと脱がせて恋の魔砲-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038540",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038540.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-027",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038540001",
+      "メーカー": "エスクード",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "型番": "ECAVG-027",
+      "原画": "草上明\n笹井さじ",
+      "シナリオ": "藤原休樹",
+      "声優": "空色もなか\n鈴田美夜子\n葛西優美\n青葉りんご\n桜川未央\n藤森ゆき奈\n古河徹人\n狛乃ハルコ\n小倉結衣\nいちごみるく\n倉田まりや\n杉原茉莉\n上田朱音\nまきいづみ\nかわしまりの\n森川明大\n蘭丸\n柚李",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:24:27.665Z"
+  },
+  "histories": [
+    {
+      "id": 31102,
+      "productId": 31088,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:47.207Z"
+    },
+    {
+      "id": 39846,
+      "productId": 31088,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:27.665Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 104090,
+      "productId": 31088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-16T01:24:27.000Z"
+    },
+    {
+      "id": 104089,
+      "productId": 31088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 690,
+      "checkedAt": "2026-08-16T01:24:27.000Z"
+    },
+    {
+      "id": 78235,
+      "productId": 31088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-15T23:35:50.000Z"
+    },
+    {
+      "id": 78234,
+      "productId": 31088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 690,
+      "checkedAt": "2026-08-15T23:35:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038540",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038540",
+    "capturedAt": "2026-08-16T01:24:27.665Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 690
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145038540.json"
+  }
+}

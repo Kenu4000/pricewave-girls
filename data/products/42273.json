@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42273,
+    "title": "Windows2000/XP/Vista DVDソフト アルタードピンク ～特務戦隊デュエルレンジャー～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018563",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018563.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2008-09-26",
+    "listPrice": 4180,
+    "modelNumber": "BR-084",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018563",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2008/09/26",
+      "定価": "4,180円",
+      "型番": "BR-084",
+      "原画": "皇裕介",
+      "シナリオ": "NATORI烏賊",
+      "声優": "滑川菊太郎\n未来羽\n白井綾乃\n野神奈々\nかわしまりの\n中田純\nTaka\n朝日信晴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:49.364Z"
+  },
+  "histories": [
+    {
+      "id": 42287,
+      "productId": 42273,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:04.226Z"
+    },
+    {
+      "id": 44104,
+      "productId": 42273,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:38.948Z"
+    },
+    {
+      "id": 48880,
+      "productId": 42273,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:49.364Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018563",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018563",
+    "capturedAt": "2026-08-19T04:26:49.364Z",
+    "items": [],
+    "path": "data/other-shops/145018563.json"
+  }
+}

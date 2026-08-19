@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 42000,
+    "title": "Windows2000/XP/Vista DVDソフト 人妻戦隊アイサイガーFLASH R",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019853",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019853.jpg",
+    "manufacturer": "DISCOVERY",
+    "releaseDate": "2009-05-29",
+    "listPrice": 4180,
+    "modelNumber": "KSDR-015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019853001",
+      "メーカー": "DISCOVERY",
+      "発売日": "2009/05/29",
+      "定価": "4,180円",
+      "型番": "KSDR-015",
+      "原画": "ガンちゃん",
+      "シナリオ": "はまちょ",
+      "声優": "咲良さく\n柴田蕗\n黒崎猫\n西野みく",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:07:14.209Z"
+  },
+  "histories": [
+    {
+      "id": 42014,
+      "productId": 42000,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:14.209Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 108718,
+      "productId": 42000,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 1080,
+      "checkedAt": "2026-08-17T07:07:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

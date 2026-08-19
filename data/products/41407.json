@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41407,
+    "title": "Windows98SE/Me/2000/XP/Vista/7 DVDソフト 聖皇女クラウディア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025786",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025786.jpg",
+    "manufacturer": "BLACK PACKAGE TRY",
+    "releaseDate": "2010-12-10",
+    "listPrice": 9680,
+    "modelNumber": "BP0076",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025786",
+      "メーカー": "BLACK PACKAGE TRY",
+      "発売日": "2010/12/10",
+      "定価": "9,680円",
+      "型番": "BP0076",
+      "原画": "天野雨乃",
+      "シナリオ": "春日晶\nなかぢ",
+      "声優": "野神奈々\n長原杏子\n白井うさぎ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2480,
+    "latestRegularSalePrice": 2480,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:08.957Z"
+  },
+  "histories": [
+    {
+      "id": 41421,
+      "productId": 41407,
+      "salePrice": 2480,
+      "regularSalePrice": 2480,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:34.620Z"
+    },
+    {
+      "id": 43923,
+      "productId": 41407,
+      "salePrice": 2480,
+      "regularSalePrice": 2480,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:08.957Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145025786",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025786",
+    "capturedAt": "2026-08-17T09:36:08.957Z",
+    "items": [],
+    "path": "data/other-shops/145025786.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 43039,
+    "title": "Windows DVDソフト 屍姫と羊と嗤う月 -cry for the moon- [美少女ゲーム・ベストシリーズ]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014784",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014784.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2006-10-06",
+    "listPrice": 6380,
+    "modelNumber": "VOL0012",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014784",
+      "メーカー": "BaseSon",
+      "発売日": "2006/10/06",
+      "定価": "6,380円",
+      "型番": "VOL0012",
+      "原画": "かんたか\n片桐雛太",
+      "シナリオ": "前田辺\n青山拓也",
+      "声優": "鷹月さくら\n青山ゆかり\n大波こなみ\n吉川華生\n北都南",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:36.608Z"
+  },
+  "histories": [
+    {
+      "id": 43053,
+      "productId": 43039,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:22.051Z"
+    },
+    {
+      "id": 44219,
+      "productId": 43039,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:36.608Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014784",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014784",
+    "capturedAt": "2026-08-17T09:38:36.608Z",
+    "items": [],
+    "path": "data/other-shops/145014784.json"
+  }
+}

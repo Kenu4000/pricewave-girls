@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 30511,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 妄想コンプリート!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054129",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054129.jpg",
+    "manufacturer": "Insync",
+    "releaseDate": "2015-05-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145054129",
+      "メーカー": "Insync",
+      "発売日": "2015/05/29",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:50.510Z"
+  },
+  "histories": [
+    {
+      "id": 30525,
+      "productId": 30511,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:57.965Z"
+    },
+    {
+      "id": 39300,
+      "productId": 30511,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:31.210Z"
+    },
+    {
+      "id": 50531,
+      "productId": 30511,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:50.510Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054129",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054129",
+    "capturedAt": "2026-08-19T05:28:50.510Z",
+    "items": [],
+    "path": "data/other-shops/145054129.json"
+  }
+}

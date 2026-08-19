@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31429,
+    "title": "Windows CDソフト ラヴレッシブ 玲緒の肉食乙女の解体新書 (げっちゅ屋特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036444",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036444.jpg",
+    "manufacturer": "スミレ",
+    "releaseDate": "2013-02-28",
+    "listPrice": null,
+    "modelNumber": "SMILE-1302GC",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145036444",
+      "メーカー": "スミレ",
+      "発売日": "2013/02/28",
+      "型番": "SMILE-1302GC",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:43.529Z"
+  },
+  "histories": [
+    {
+      "id": 31443,
+      "productId": 31429,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:44.841Z"
+    },
+    {
+      "id": 40181,
+      "productId": 31429,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:47.543Z"
+    },
+    {
+      "id": 51206,
+      "productId": 31429,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:43.529Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036444",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036444",
+    "capturedAt": "2026-08-19T05:34:43.529Z",
+    "items": [],
+    "path": "data/other-shops/145036444.json"
+  }
+}

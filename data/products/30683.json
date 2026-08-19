@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30683,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 魔法少女征服宣言-世界征服なんてしない-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046338",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046338.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2014-12-05",
+    "listPrice": 4070,
+    "modelNumber": "BASE-071",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046338",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2014/12/05",
+      "定価": "4,070円",
+      "型番": "BASE-071",
+      "声優": "奥川久美子\nmahilo\n木野原さやか",
+      "原画": "こもだ",
+      "シナリオ": "蒼夜\n猫にた",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:54.710Z"
+  },
+  "histories": [
+    {
+      "id": 30697,
+      "productId": 30683,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:49.359Z"
+    },
+    {
+      "id": 39457,
+      "productId": 30683,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:56.565Z"
+    },
+    {
+      "id": 50654,
+      "productId": 30683,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:54.710Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046338",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046338",
+    "capturedAt": "2026-08-19T05:29:54.710Z",
+    "items": [],
+    "path": "data/other-shops/145046338.json"
+  }
+}

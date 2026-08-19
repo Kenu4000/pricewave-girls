@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 30618,
+    "title": "WindowsVista/7/8 DVDソフト 1/7の魔法使い",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044893",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044893.jpg",
+    "manufacturer": "Regulus",
+    "releaseDate": "2015-01-30",
+    "listPrice": 10780,
+    "modelNumber": "REG-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145044893001",
+      "メーカー": "Regulus",
+      "発売日": "2015/01/30",
+      "定価": "10,780円",
+      "型番": "REG-001",
+      "原画": "T-RAy\nTEL-O",
+      "シナリオ": "たつき",
+      "声優": "夢野ぼたん\n上田朱音\n結衣菜\n鶴屋春人\n藤森ゆき奈\n柚原みう",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:22:14.217Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:31.225Z"
+  },
+  "histories": [
+    {
+      "id": 30632,
+      "productId": 30618,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:13.600Z"
+    },
+    {
+      "id": 39397,
+      "productId": 30618,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:26.444Z"
+    },
+    {
+      "id": 50610,
+      "productId": 30618,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:31.225Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135694,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:29:31.000Z"
+    },
+    {
+      "id": 135693,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T05:29:31.000Z"
+    },
+    {
+      "id": 135692,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:29:31.000Z"
+    },
+    {
+      "id": 103173,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-16T01:20:26.000Z"
+    },
+    {
+      "id": 103172,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:20:26.000Z"
+    },
+    {
+      "id": 77274,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-15T23:22:14.000Z"
+    },
+    {
+      "id": 77273,
+      "productId": 30618,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:22:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145044893",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044893",
+    "capturedAt": "2026-08-19T05:29:31.225Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      }
+    ],
+    "path": "data/other-shops/145044893.json"
+  }
+}

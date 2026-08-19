@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30001,
+    "title": "WindowsVista/7/8/10 DVDソフト レミニセンス -Collectors Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054990",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054990.jpg",
+    "manufacturer": "てぃ～ぐる",
+    "releaseDate": "2016-10-28",
+    "listPrice": 11000,
+    "modelNumber": "TIG-004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054990",
+      "メーカー": "てぃ～ぐる",
+      "発売日": "2016/10/28",
+      "定価": "11,000円",
+      "型番": "TIG-004",
+      "原画": "トモセシュンサク",
+      "シナリオ": "衣笠彰梧",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 8900,
+    "latestRegularSalePrice": 8900,
+    "latestBuyPrice": 4600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:57.720Z"
+  },
+  "histories": [
+    {
+      "id": 30015,
+      "productId": 30001,
+      "salePrice": 8900,
+      "regularSalePrice": 8900,
+      "buyPrice": 4600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:53.115Z"
+    },
+    {
+      "id": 38814,
+      "productId": 30001,
+      "salePrice": 8900,
+      "regularSalePrice": 8900,
+      "buyPrice": 4600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:03.971Z"
+    },
+    {
+      "id": 49847,
+      "productId": 30001,
+      "salePrice": 8900,
+      "regularSalePrice": 8900,
+      "buyPrice": 4600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:57.720Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054990",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054990",
+    "capturedAt": "2026-08-19T04:33:57.720Z",
+    "items": [],
+    "path": "data/other-shops/145054990.json"
+  }
+}

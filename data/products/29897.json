@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 29897,
+    "title": "WindowsVista/7/8/10 DVDソフト 星空TeaParty えくすとら ～「恋愛(アイ)」はじまりました!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055923",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055923.jpg",
+    "manufacturer": "SkyFish poco",
+    "releaseDate": "2017-03-24",
+    "listPrice": 9680,
+    "modelNumber": "SFP-009",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145055923",
+      "メーカー": "SkyFish poco",
+      "発売日": "2017/03/24",
+      "定価": "9,680円",
+      "型番": "SFP-009",
+      "原画": "野田しゅは\nヲリ\n六九導イツキ\n三村ざじゃ",
+      "シナリオ": "弘森魚",
+      "声優": "もな(声優)\n八尋まみ\n君島りさ\n結城ほのか\n綾音まこ",
+      "音楽": "MANYO",
+      "主題歌": "真理絵",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:27.099Z"
+  },
+  "histories": [
+    {
+      "id": 29911,
+      "productId": 29897,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:52.423Z"
+    },
+    {
+      "id": 38717,
+      "productId": 29897,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:14.114Z"
+    },
+    {
+      "id": 49777,
+      "productId": 29897,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:27.099Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055923",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055923",
+    "capturedAt": "2026-08-19T04:33:27.099Z",
+    "items": [],
+    "path": "data/other-shops/145055923.json"
+  }
+}

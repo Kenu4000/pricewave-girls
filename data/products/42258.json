@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42258,
+    "title": "Windows98/Me/2000/XP DVDソフト くるくる・ファナティック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018561",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018561.jpg",
+    "manufacturer": "Chien(シアン)",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018561",
+      "メーカー": "Chien(シアン)",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "原画": "明音\n大場陽炎",
+      "シナリオ": "神無月如月\n0-take\nソウヨウ",
+      "声優": "町田あみ\n海原エレナ\n雪都さお梨\n松田理沙",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1420,
+    "latestRegularSalePrice": 1420,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:36.244Z"
+  },
+  "histories": [
+    {
+      "id": 42272,
+      "productId": 42258,
+      "salePrice": 1420,
+      "regularSalePrice": 1420,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:53.785Z"
+    },
+    {
+      "id": 44095,
+      "productId": 42258,
+      "salePrice": 1420,
+      "regularSalePrice": 1420,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:36.244Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018561",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018561",
+    "capturedAt": "2026-08-17T09:37:36.244Z",
+    "items": [],
+    "path": "data/other-shops/145018561.json"
+  }
+}

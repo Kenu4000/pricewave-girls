@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 29467,
+    "title": "Windows7/8/8.1/10 DVDソフト Campus3周年記念BOX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064002",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064002.jpg",
+    "manufacturer": "Campus",
+    "releaseDate": "2019-01-25",
+    "listPrice": 15180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064002",
+      "メーカー": "Campus",
+      "発売日": "2019/01/25",
+      "定価": "15,180円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 14311,
+    "latestRegularSalePrice": 14311,
+    "latestBuyPrice": 7000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:44:54.770Z"
+  },
+  "histories": [
+    {
+      "id": 29481,
+      "productId": 29467,
+      "salePrice": 14311,
+      "regularSalePrice": 14311,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:17.694Z"
+    },
+    {
+      "id": 44949,
+      "productId": 29467,
+      "salePrice": 14311,
+      "regularSalePrice": 14311,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:54.770Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064002",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064002",
+    "capturedAt": "2026-08-17T09:44:54.770Z",
+    "items": [],
+    "path": "data/other-shops/145064002.json"
+  }
+}

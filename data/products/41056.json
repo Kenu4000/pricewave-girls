@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 41056,
+    "title": "Windows CDソフト 三極姫3 -天下新生- ソフマップ特典「左慈元放」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039393",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039393.jpg",
+    "manufacturer": "unicorn-a / げーせん18",
+    "releaseDate": "2013-09-27",
+    "listPrice": null,
+    "modelNumber": "SANG3-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145039393001",
+      "メーカー": "unicorn-a / げーせん18",
+      "発売日": "2013/09/27",
+      "型番": "SANG3-SMSP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:55.078Z"
+  },
+  "histories": [
+    {
+      "id": 41070,
+      "productId": 41056,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:26.497Z"
+    },
+    {
+      "id": 52806,
+      "productId": 41056,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:55.078Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142244,
+      "productId": 41056,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-19T16:18:55.000Z"
+    },
+    {
+      "id": 142243,
+      "productId": 41056,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:18:55.000Z"
+    },
+    {
+      "id": 142242,
+      "productId": 41056,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-19T16:18:55.000Z"
+    },
+    {
+      "id": 106788,
+      "productId": 41056,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:58:27.000Z"
+    },
+    {
+      "id": 106787,
+      "productId": 41056,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T06:58:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039393",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039393",
+    "capturedAt": "2026-08-19T16:18:55.078Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145039393.json"
+  }
+}

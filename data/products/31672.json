@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31672,
+    "title": "WindowsXP/Vista/7 DVDソフト 聖もんむす学園",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051556",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051556.jpg",
+    "manufacturer": "Vanadis",
+    "releaseDate": "2012-08-24",
+    "listPrice": 9680,
+    "modelNumber": "BASE-048",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145051556",
+      "メーカー": "Vanadis",
+      "発売日": "2012/08/24",
+      "定価": "9,680円",
+      "型番": "BASE-048",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:17.127Z"
+  },
+  "histories": [
+    {
+      "id": 31686,
+      "productId": 31672,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:46.279Z"
+    },
+    {
+      "id": 40421,
+      "productId": 31672,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:39.488Z"
+    },
+    {
+      "id": 51379,
+      "productId": 31672,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:17.127Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051556",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051556",
+    "capturedAt": "2026-08-19T05:36:17.127Z",
+    "items": [],
+    "path": "data/other-shops/145051556.json"
+  }
+}

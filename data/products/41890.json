@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 41890,
+    "title": "Windows2000/XP/Vista DVDソフト LOVE×EVOLUTION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901106",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "evee（エヴィ）",
+    "releaseDate": "2009-09-18",
+    "listPrice": 9680,
+    "modelNumber": "LOVE-EVOLUTION",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145901106",
+      "メーカー": "evee（エヴィ）",
+      "発売日": "2009/09/18",
+      "定価": "9,680円",
+      "型番": "LOVE-EVOLUTION",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:06:16.823Z"
+  },
+  "histories": [
+    {
+      "id": 41904,
+      "productId": 41890,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:16.823Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901106",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901106",
+    "capturedAt": "2026-08-17T07:06:16.823Z",
+    "items": [],
+    "path": "data/other-shops/145901106.json"
+  }
+}

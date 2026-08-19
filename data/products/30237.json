@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30237,
+    "title": "WindowsXP/Vista/7/8/8.1/10 DVDソフト 放課後3 -狙われた純潔-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062231",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062231.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2016-02-26",
+    "listPrice": 9680,
+    "modelNumber": "BSP-047",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062231",
+      "メーカー": "BISHOP",
+      "発売日": "2016/02/26",
+      "定価": "9,680円",
+      "型番": "BSP-047",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:31.683Z"
+  },
+  "histories": [
+    {
+      "id": 30251,
+      "productId": 30237,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:13.276Z"
+    },
+    {
+      "id": 39040,
+      "productId": 30237,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:04.862Z"
+    },
+    {
+      "id": 43606,
+      "productId": 30237,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:31.683Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062231",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062231",
+    "capturedAt": "2026-08-17T09:33:31.683Z",
+    "items": [],
+    "path": "data/other-shops/145062231.json"
+  }
+}

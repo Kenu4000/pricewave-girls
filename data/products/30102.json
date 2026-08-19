@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30102,
+    "title": "WindowsXP/Vista/7 DVDソフト ルネソフトプレミアムパック2 ～こんなにいっぱい入れたらアソコが壊れちゃうよぉ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058853",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058853.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2016-06-24",
+    "listPrice": 13200,
+    "modelNumber": "MGGW0167",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145058853",
+      "メーカー": "ルネ",
+      "発売日": "2016/06/24",
+      "定価": "13,200円",
+      "型番": "MGGW0167",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "説明書欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 10000,
+    "latestRegularSalePrice": 10000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "説明書欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:29.764Z"
+  },
+  "histories": [
+    {
+      "id": 30116,
+      "productId": 30102,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:49.667Z"
+    },
+    {
+      "id": 38908,
+      "productId": 30102,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:55.419Z"
+    },
+    {
+      "id": 49914,
+      "productId": 30102,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:29.764Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058853",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058853",
+    "capturedAt": "2026-08-19T04:34:29.764Z",
+    "items": [],
+    "path": "data/other-shops/145058853.json"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": 41497,
+    "title": "WindowsXP/Vista/7 DVDソフト はれがく!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024781",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024781.jpg",
+    "manufacturer": "らぱぷる",
+    "releaseDate": "2010-09-24",
+    "listPrice": 9680,
+    "modelNumber": "RP-006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024781001",
+      "メーカー": "らぱぷる",
+      "発売日": "2010/09/24",
+      "定価": "9,680円",
+      "型番": "RP-006",
+      "シナリオ": "墨",
+      "原画": "イベリコ猫",
+      "声優": "富樫ケイ\nサトウユキ\n咲ゆたか\n杉原茉莉\n青井美海\n金田まひる\n茶谷やすら\n河合しなの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:53.121Z"
+  },
+  "histories": [
+    {
+      "id": 41511,
+      "productId": 41497,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:30.136Z"
+    },
+    {
+      "id": 53138,
+      "productId": 41497,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:53.121Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 42559,
+    "title": "Windows2000/XP CDソフト ふろーりあふぇすた! ～さいきょータッグ決定戦～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020644",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020644.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2007-12-29",
+    "listPrice": null,
+    "modelNumber": "GIGA-071229",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145020644",
+      "メーカー": "戯画",
+      "発売日": "2007/12/29",
+      "型番": "GIGA-071229",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 416,
+    "latestRegularSalePrice": 416,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:59.810Z"
+  },
+  "histories": [
+    {
+      "id": 42573,
+      "productId": 42559,
+      "salePrice": 416,
+      "regularSalePrice": 416,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:54.065Z"
+    },
+    {
+      "id": 44145,
+      "productId": 42559,
+      "salePrice": 416,
+      "regularSalePrice": 416,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:59.810Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020644",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020644",
+    "capturedAt": "2026-08-17T09:37:59.810Z",
+    "items": [],
+    "path": "data/other-shops/145020644.json"
+  }
+}

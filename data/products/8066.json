@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 8066,
+    "title": "Windows98/Me/2000/XP DVDソフト 十次元立方体サイファー ～蒼き月の水底～ [DVD-ROM版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012214",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012214.jpg",
+    "manufacturer": "アーベルソフトウェア",
+    "releaseDate": "2004-12-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012214",
+      "メーカー": "アーベルソフトウェア",
+      "発売日": "2004/12/24",
+      "定価": "9,680円",
+      "原画": "すぎやま現象",
+      "シナリオ": "菅野ひろゆき",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:42.060Z"
+  },
+  "histories": [
+    {
+      "id": 8080,
+      "productId": 8066,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 26768,
+      "productId": 8066,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:07.315Z"
+    },
+    {
+      "id": 37519,
+      "productId": 8066,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:36.758Z"
+    },
+    {
+      "id": 48028,
+      "productId": 8066,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:42.060Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1157,
+      "productId": 8066,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 1156,
+      "productId": 8066,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145012214",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012214",
+    "capturedAt": "2026-08-17T16:10:42.060Z",
+    "items": [],
+    "path": "data/other-shops/145012214.json"
+  }
+}

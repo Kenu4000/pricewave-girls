@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 2901,
+    "title": "WindowsXP/Vista/7 DVDソフト 禁親相愛 -母に恋した僕-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027513",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027513.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2011-04-28",
+    "listPrice": 9680,
+    "modelNumber": "PUZ-018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027513001",
+      "メーカー": "Puzzlebox",
+      "発売日": "2011/04/28",
+      "定価": "9,680円",
+      "型番": "PUZ-018",
+      "原画": "ぷれしゃすている",
+      "シナリオ": "K-TOK\n裏ドラ",
+      "声優": "倉田まりや\n橘みもざ\nももぞの薫",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:04:46.929Z"
+  },
+  "histories": [
+    {
+      "id": 2915,
+      "productId": 2901,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:24.000Z"
+    },
+    {
+      "id": 36753,
+      "productId": 2901,
+      "salePrice": 1900,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:56:48.625Z"
+    },
+    {
+      "id": 47400,
+      "productId": 2901,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:04:46.929Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125604,
+      "productId": 2901,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2222,
+      "checkedAt": "2026-08-17T16:04:47.000Z"
+    },
+    {
+      "id": 125603,
+      "productId": 2901,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-17T16:04:47.000Z"
+    },
+    {
+      "id": 96390,
+      "productId": 2901,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2222,
+      "checkedAt": "2026-08-16T00:56:48.000Z"
+    },
+    {
+      "id": 96389,
+      "productId": 2901,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-16T00:56:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027513",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027513",
+    "capturedAt": "2026-08-17T16:04:46.929Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2222
+      }
+    ],
+    "path": "data/other-shops/145027513.json"
+  }
+}

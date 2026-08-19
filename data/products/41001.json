@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 41001,
+    "title": "Windows8.1/10 CDソフト Secret Agent～騎士学園の忍びなるもの～ ソフマップ特典ボイスコンテンツ＆OP(SHORT VERSION)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068990",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068990.jpg",
+    "manufacturer": "ENSEMBLE",
+    "releaseDate": "2020-05-29",
+    "listPrice": null,
+    "modelNumber": "SMPML-0174",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068990",
+      "メーカー": "ENSEMBLE",
+      "発売日": "2020/05/29",
+      "型番": "SMPML-0174",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:57:58.792Z"
+  },
+  "histories": [
+    {
+      "id": 41015,
+      "productId": 41001,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:58.792Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145068990",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068990",
+    "capturedAt": "2026-08-17T06:57:58.792Z",
+    "items": [],
+    "path": "data/other-shops/145068990.json"
+  }
+}

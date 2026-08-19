@@ -1,0 +1,195 @@
+{
+  "product": {
+    "id": 3276,
+    "title": "Windows3.1 CDソフト リリエンタール",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002522",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002522.jpg",
+    "manufacturer": "ドールハウス",
+    "releaseDate": "1999-01-01",
+    "listPrice": 8580,
+    "modelNumber": "DOL-003",
+    "category": "アダルト Windows Windows 3.1",
+    "details": {
+      "管理番号": "中古 ：145002522001",
+      "メーカー": "ドールハウス",
+      "発売日": "1999/01/01",
+      "定価": "8,580円",
+      "型番": "DOL-003",
+      "原画": "渦巻ユカ",
+      "カテゴリ": "アダルト Windows Windows 3.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9780,
+    "latestRegularSalePrice": 9780,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:20.590Z"
+  },
+  "histories": [
+    {
+      "id": 3290,
+      "productId": 3276,
+      "salePrice": 9780,
+      "regularSalePrice": 9780,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 37064,
+      "productId": 3276,
+      "salePrice": 9780,
+      "regularSalePrice": 9780,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:34.196Z"
+    },
+    {
+      "id": 47665,
+      "productId": 3276,
+      "salePrice": 9780,
+      "regularSalePrice": 9780,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:20.590Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126560,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 17333,
+      "checkedAt": "2026-08-17T16:07:21.000Z"
+    },
+    {
+      "id": 126559,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 9780,
+      "checkedAt": "2026-08-17T16:07:21.000Z"
+    },
+    {
+      "id": 126558,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 9711,
+      "checkedAt": "2026-08-17T16:07:21.000Z"
+    },
+    {
+      "id": 126557,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 6700,
+      "checkedAt": "2026-08-17T16:07:21.000Z"
+    },
+    {
+      "id": 126556,
+      "productId": 3276,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 6700,
+      "checkedAt": "2026-08-17T16:07:21.000Z"
+    },
+    {
+      "id": 97464,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 17333,
+      "checkedAt": "2026-08-16T00:59:34.000Z"
+    },
+    {
+      "id": 97463,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 9780,
+      "checkedAt": "2026-08-16T00:59:34.000Z"
+    },
+    {
+      "id": 97462,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 9711,
+      "checkedAt": "2026-08-16T00:59:34.000Z"
+    },
+    {
+      "id": 97461,
+      "productId": 3276,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 6000,
+      "checkedAt": "2026-08-16T00:59:34.000Z"
+    },
+    {
+      "id": 97460,
+      "productId": 3276,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 6000,
+      "checkedAt": "2026-08-16T00:59:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002522",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002522",
+    "capturedAt": "2026-08-17T16:07:20.590Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 6700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 9711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 9780
+      },
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 17333
+      }
+    ],
+    "path": "data/other-shops/145002522.json"
+  }
+}

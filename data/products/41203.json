@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 41203,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 女装山脈（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028352",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028352.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2011-06-17",
+    "listPrice": 4180,
+    "modelNumber": "BASE-044",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028352001",
+      "メーカー": "脳内彼女",
+      "発売日": "2011/06/17",
+      "定価": "4,180円",
+      "型番": "BASE-044",
+      "原画": "あおぎりぺんた",
+      "シナリオ": "芳井一味\n西田一",
+      "声優": "鈴宮まい\n民安ともえ\n小倉結衣",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145028352?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3050,
+    "latestRegularSalePrice": 3050,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:05.480Z"
+  },
+  "histories": [
+    {
+      "id": 41217,
+      "productId": 41203,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:41.367Z"
+    },
+    {
+      "id": 52923,
+      "productId": 41203,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:05.480Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142502,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 3050,
+      "checkedAt": "2026-08-19T16:20:05.000Z"
+    },
+    {
+      "id": 142501,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 4380,
+      "checkedAt": "2026-08-19T16:20:05.000Z"
+    },
+    {
+      "id": 142500,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 4350,
+      "checkedAt": "2026-08-19T16:20:05.000Z"
+    },
+    {
+      "id": 142499,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古ランクB",
+      "price": 3050,
+      "checkedAt": "2026-08-19T16:20:05.000Z"
+    },
+    {
+      "id": 107113,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 4380,
+      "checkedAt": "2026-08-17T06:59:41.000Z"
+    },
+    {
+      "id": 107112,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 4350,
+      "checkedAt": "2026-08-17T06:59:41.000Z"
+    },
+    {
+      "id": 107111,
+      "productId": 41203,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 3050,
+      "checkedAt": "2026-08-17T06:59:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028352",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028352",
+    "capturedAt": "2026-08-19T16:20:05.480Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古ランクB",
+        "price": 3050
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 4350
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 4380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 3050
+      }
+    ],
+    "path": "data/other-shops/145028352.json"
+  }
+}

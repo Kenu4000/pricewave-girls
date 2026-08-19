@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31922,
+    "title": "WindowsXP/Vista/7 DVDソフト 虐襲4 + EXTRA SCENARIO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902422",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902422.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2012-01-20",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145902422",
+      "メーカー": "ANIM",
+      "発売日": "2012/01/20",
+      "定価": "10,780円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:24.768Z"
+  },
+  "histories": [
+    {
+      "id": 31936,
+      "productId": 31922,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:54.034Z"
+    },
+    {
+      "id": 40665,
+      "productId": 31922,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.205Z"
+    },
+    {
+      "id": 43830,
+      "productId": 31922,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:24.768Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902422",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902422",
+    "capturedAt": "2026-08-17T09:35:24.768Z",
+    "items": [],
+    "path": "data/other-shops/145902422.json"
+  }
+}

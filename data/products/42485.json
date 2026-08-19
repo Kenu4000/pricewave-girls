@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42485,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 最終痴漢電車2 -KAGUYAコレクション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062607",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062607.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2008-03-28",
+    "listPrice": 4378,
+    "modelNumber": "KC-0002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145062607",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2008/03/28",
+      "定価": "4,378円",
+      "型番": "KC-0002",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:49.925Z"
+  },
+  "histories": [
+    {
+      "id": 42499,
+      "productId": 42485,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:15.002Z"
+    },
+    {
+      "id": 53849,
+      "productId": 42485,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:49.925Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062607",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062607",
+    "capturedAt": "2026-08-19T16:27:49.925Z",
+    "items": [],
+    "path": "data/other-shops/145062607.json"
+  }
+}

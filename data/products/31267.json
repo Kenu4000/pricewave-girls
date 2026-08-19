@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31267,
+    "title": "WindowsXP/Vista/7 DVDソフト LOVELY×CATION -もうずっと初恋の日々エディション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900897",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900897.jpg",
+    "manufacturer": "hibiki works",
+    "releaseDate": "2013-06-28",
+    "listPrice": 9680,
+    "modelNumber": "HW-0004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900897",
+      "メーカー": "hibiki works",
+      "発売日": "2013/06/28",
+      "定価": "9,680円",
+      "型番": "HW-0004",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2574,
+    "latestRegularSalePrice": 2574,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:41.572Z"
+  },
+  "histories": [
+    {
+      "id": 31281,
+      "productId": 31267,
+      "salePrice": 2574,
+      "regularSalePrice": 2574,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:54.556Z"
+    },
+    {
+      "id": 40023,
+      "productId": 31267,
+      "salePrice": 2574,
+      "regularSalePrice": 2574,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:55.426Z"
+    },
+    {
+      "id": 51082,
+      "productId": 31267,
+      "salePrice": 2574,
+      "regularSalePrice": 2574,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:41.572Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900897",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900897",
+    "capturedAt": "2026-08-19T05:33:41.572Z",
+    "items": [],
+    "path": "data/other-shops/145900897.json"
+  }
+}

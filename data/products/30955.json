@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 30955,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 銃騎士 Cutie☆Bullet[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900465",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900465.jpg",
+    "manufacturer": "エフォルダムソフト",
+    "releaseDate": "2014-03-28",
+    "listPrice": 9680,
+    "modelNumber": "EFS-0003",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145900465",
+      "メーカー": "エフォルダムソフト",
+      "発売日": "2014/03/28",
+      "定価": "9,680円",
+      "型番": "EFS-0003",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:45:12.366Z"
+  },
+  "histories": [
+    {
+      "id": 30969,
+      "productId": 30955,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:27.738Z"
+    },
+    {
+      "id": 44981,
+      "productId": 30955,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:45:12.366Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900465",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900465",
+    "capturedAt": "2026-08-17T09:45:12.366Z",
+    "items": [],
+    "path": "data/other-shops/145900465.json"
+  }
+}

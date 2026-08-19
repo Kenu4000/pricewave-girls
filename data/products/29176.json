@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29176,
+    "title": "Windows10/11 DVDソフト 僕色に染まる叔母",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078052",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078052.jpg",
+    "manufacturer": "だーくワン!",
+    "releaseDate": "2023-07-28",
+    "listPrice": 3080,
+    "modelNumber": "MTB013",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145078052",
+      "メーカー": "だーくワン!",
+      "発売日": "2023/07/28",
+      "定価": "3,080円",
+      "型番": "MTB013",
+      "原画": "吉野恵子",
+      "シナリオ": "NATORI烏賊",
+      "声優": "唯香",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3212,
+    "latestRegularSalePrice": 3212,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:28.420Z"
+  },
+  "histories": [
+    {
+      "id": 29190,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:14.644Z"
+    },
+    {
+      "id": 38028,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:54.366Z"
+    },
+    {
+      "id": 49227,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:28.420Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145078052",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078052",
+    "capturedAt": "2026-08-19T04:29:28.420Z",
+    "items": [],
+    "path": "data/other-shops/145078052.json"
+  }
+}

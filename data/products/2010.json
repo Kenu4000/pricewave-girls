@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 2010,
+    "title": "Windows7/8/8.1/10 DVDソフト 触手王子の種付け地獄 ～妊娠快楽人形～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067462",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067462.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2019-12-20",
+    "listPrice": 2200,
+    "modelNumber": "APT-150",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067462",
+      "メーカー": "アパタイト",
+      "発売日": "2019/12/20",
+      "定価": "2,200円",
+      "型番": "APT-150",
+      "原画": "おおたたけし",
+      "シナリオ": "岡下誠",
+      "声優": "雨森りこ\n桃瀬ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:53.151Z"
+  },
+  "histories": [
+    {
+      "id": 2024,
+      "productId": 2010,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6915,
+      "productId": 2010,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:20.000Z"
+    },
+    {
+      "id": 44251,
+      "productId": 2010,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:53.151Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067462",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067462",
+    "capturedAt": "2026-08-17T09:38:53.151Z",
+    "items": [],
+    "path": "data/other-shops/145067462.json"
+  }
+}

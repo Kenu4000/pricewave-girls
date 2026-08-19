@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 29197,
+    "title": "Windows8.1/10 DVDソフト カスタムオーダーメイド3D2 GPパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076809",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076809.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2023-02-24",
+    "listPrice": 9680,
+    "modelNumber": "KISS-144",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076809",
+      "メーカー": "KISS",
+      "発売日": "2023/02/24",
+      "定価": "9,680円",
+      "型番": "KISS-144",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 8000,
+    "latestRegularSalePrice": 8000,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:34.233Z"
+  },
+  "histories": [
+    {
+      "id": 29211,
+      "productId": 29197,
+      "salePrice": 8000,
+      "regularSalePrice": 8000,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:29.496Z"
+    },
+    {
+      "id": 38047,
+      "productId": 29197,
+      "salePrice": 8000,
+      "regularSalePrice": 8000,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:03.678Z"
+    },
+    {
+      "id": 49241,
+      "productId": 29197,
+      "salePrice": 8000,
+      "regularSalePrice": 8000,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:34.233Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076809",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076809",
+    "capturedAt": "2026-08-19T04:29:34.233Z",
+    "items": [],
+    "path": "data/other-shops/145076809.json"
+  }
+}

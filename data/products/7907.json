@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 7907,
+    "title": "Windows95 CDソフト デザイア 完全版[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001385",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001385.jpg",
+    "manufacturer": "シーズウェア",
+    "releaseDate": "1998-06-05",
+    "listPrice": 8580,
+    "modelNumber": "CSW-00474",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001385",
+      "メーカー": "シーズウェア",
+      "発売日": "1998/06/05",
+      "定価": "8,580円",
+      "型番": "CSW-00474",
+      "原画": "田島直",
+      "シナリオ": "菅野ひろゆき",
+      "声優": "茶風林\n中原茂\n増田ゆき\n吉永あゆり\n福山貴子\n小佐野恵\nASAMI\n山野美嶺\nYUMIKO\n横尾まり\n木村圭子\n豊川隆",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 450,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:43.376Z"
+  },
+  "histories": [
+    {
+      "id": 7921,
+      "productId": 7907,
+      "salePrice": 1030,
+      "regularSalePrice": 1030,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 26743,
+      "productId": 7907,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:53.921Z"
+    },
+    {
+      "id": 37375,
+      "productId": 7907,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:18.139Z"
+    },
+    {
+      "id": 47922,
+      "productId": 7907,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:43.376Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127372,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-17T16:09:44.000Z"
+    },
+    {
+      "id": 127371,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-17T16:09:44.000Z"
+    },
+    {
+      "id": 98499,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-16T01:02:18.000Z"
+    },
+    {
+      "id": 98498,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-16T01:02:18.000Z"
+    },
+    {
+      "id": 65770,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-09T21:36:54.000Z"
+    },
+    {
+      "id": 65769,
+      "productId": 7907,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-09T21:36:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145001385",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001385",
+    "capturedAt": "2026-08-17T16:09:43.376Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145001385.json"
+  }
+}

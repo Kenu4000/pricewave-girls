@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41643,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 置き場がない! 特装版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040029",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040029.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2010-05-27",
+    "listPrice": 11880,
+    "modelNumber": "AKA-0026",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040029",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2010/05/27",
+      "定価": "11,880円",
+      "型番": "AKA-0026",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "シャノンフィギュア欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "シャノンフィギュア欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:46.720Z"
+  },
+  "histories": [
+    {
+      "id": 41657,
+      "productId": 41643,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "シャノンフィギュア欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:09.062Z"
+    },
+    {
+      "id": 53242,
+      "productId": 41643,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "シャノンフィギュア欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:46.720Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040029",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040029",
+    "capturedAt": "2026-08-19T16:22:46.720Z",
+    "items": [],
+    "path": "data/other-shops/145040029.json"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "product": {
+    "id": 3267,
+    "title": "Windows95 CDソフト DIVI-DEAD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000745",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000745.jpg",
+    "manufacturer": "シーズウェア",
+    "releaseDate": "1998-01-23",
+    "listPrice": 8580,
+    "modelNumber": "B0E097",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145000745001",
+      "メーカー": "シーズウェア",
+      "発売日": "1998/01/23",
+      "定価": "8,580円",
+      "型番": "B0E097",
+      "原画": "うちだまさたか",
+      "シナリオ": "宙形安久里",
+      "声優": "若本規夫\n山野美嶺\n木村圭子\n小佐野恵\n吉永あゆり\nYUMIKO\n凛子\n葉月ミカ\n吉野裕行\n高田べん",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:18.724Z"
+  },
+  "histories": [
+    {
+      "id": 3281,
+      "productId": 3267,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 37055,
+      "productId": 3267,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:28.123Z"
+    },
+    {
+      "id": 47661,
+      "productId": 3267,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:18.724Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126546,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1300,
+      "checkedAt": "2026-08-17T16:07:19.000Z"
+    },
+    {
+      "id": 126545,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T16:07:19.000Z"
+    },
+    {
+      "id": 126544,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T16:07:19.000Z"
+    },
+    {
+      "id": 97435,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1300,
+      "checkedAt": "2026-08-16T00:59:28.000Z"
+    },
+    {
+      "id": 97434,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T00:59:28.000Z"
+    },
+    {
+      "id": 97433,
+      "productId": 3267,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-16T00:59:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145000745",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000745",
+    "capturedAt": "2026-08-17T16:07:18.724Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古通常",
+        "price": 1300
+      }
+    ],
+    "path": "data/other-shops/145000745.json"
+  }
+}

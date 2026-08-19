@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42662,
+    "title": "Windows2000/XP/Vista DVDソフト 痴漢専用車両",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053904",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053904.jpg",
+    "manufacturer": "Frill",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145053904",
+      "メーカー": "Frill",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:00.592Z"
+  },
+  "histories": [
+    {
+      "id": 42676,
+      "productId": 42662,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:54.222Z"
+    },
+    {
+      "id": 53980,
+      "productId": 42662,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:00.592Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053904",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053904",
+    "capturedAt": "2026-08-19T16:29:00.592Z",
+    "items": [],
+    "path": "data/other-shops/145053904.json"
+  }
+}

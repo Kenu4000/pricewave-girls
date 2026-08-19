@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 41227,
+    "title": "WindowsXP/Vista/7 DVDソフト あかときっ!! -花と舞わせよ恋の衣装-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027825",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027825.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2011-05-27",
+    "listPrice": 7480,
+    "modelNumber": "ECAVG-022",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027825001",
+      "メーカー": "エスクード",
+      "発売日": "2011/05/27",
+      "定価": "7,480円",
+      "型番": "ECAVG-022",
+      "原画": "草上明\n笹井さじ",
+      "シナリオ": "藤原休樹with企画屋",
+      "声優": "桜川未央\n鈴田美夜子\n葛西優美\n青葉りんご\n藤森ゆき奈\n小倉結衣\nかわしまりの\nまきいづみ\n上田朱音\n倉田まりや\n杉原茉莉\n古河徹人\n狛乃ハルコ\nいちごみるく\n蘭丸\n甘美\n森川明大",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:59:55.706Z"
+  },
+  "histories": [
+    {
+      "id": 41241,
+      "productId": 41227,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:55.706Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 107173,
+      "productId": 41227,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 2280,
+      "checkedAt": "2026-08-17T06:59:56.000Z"
+    },
+    {
+      "id": 107172,
+      "productId": 41227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T06:59:56.000Z"
+    },
+    {
+      "id": 107171,
+      "productId": 41227,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 800,
+      "checkedAt": "2026-08-17T06:59:56.000Z"
+    },
+    {
+      "id": 107170,
+      "productId": 41227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-17T06:59:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027825",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027825",
+    "capturedAt": "2026-08-17T06:59:55.706Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 2280
+      }
+    ],
+    "path": "data/other-shops/145027825.json"
+  }
+}

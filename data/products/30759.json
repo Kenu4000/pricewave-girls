@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30759,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 南十字星恋歌",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048865",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048865.jpg",
+    "manufacturer": "すたじお緑茶",
+    "releaseDate": "2014-09-26",
+    "listPrice": 9680,
+    "modelNumber": "GWSL-1409",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048865",
+      "メーカー": "すたじお緑茶",
+      "発売日": "2014/09/26",
+      "定価": "9,680円",
+      "型番": "GWSL-1409",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:23.709Z"
+  },
+  "histories": [
+    {
+      "id": 30773,
+      "productId": 30759,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:32.332Z"
+    },
+    {
+      "id": 39526,
+      "productId": 30759,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:35.426Z"
+    },
+    {
+      "id": 50710,
+      "productId": 30759,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:23.709Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048865",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048865",
+    "capturedAt": "2026-08-19T05:30:23.709Z",
+    "items": [],
+    "path": "data/other-shops/145048865.json"
+  }
+}

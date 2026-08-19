@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41340,
+    "title": "WindowsXP/Vista/7 DVDソフト With Ribbon[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903697",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "HULOTTE(ユロット)",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": "HULOTTE-001GD1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145903697",
+      "メーカー": "HULOTTE(ユロット)",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "型番": "HULOTTE-001GD1",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:57.967Z"
+  },
+  "histories": [
+    {
+      "id": 41354,
+      "productId": 41340,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:58.295Z"
+    },
+    {
+      "id": 53025,
+      "productId": 41340,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:57.967Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903697",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903697",
+    "capturedAt": "2026-08-19T16:20:57.967Z",
+    "items": [],
+    "path": "data/other-shops/145903697.json"
+  }
+}

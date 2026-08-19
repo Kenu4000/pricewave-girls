@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30625,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ひめごとユニオン Last Secret",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901886",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901886.jpg",
+    "manufacturer": "SEVEN WONDER",
+    "releaseDate": "2015-01-30",
+    "listPrice": 9680,
+    "modelNumber": "PAM-0230",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145901886",
+      "メーカー": "SEVEN WONDER",
+      "発売日": "2015/01/30",
+      "定価": "9,680円",
+      "型番": "PAM-0230",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:33.336Z"
+  },
+  "histories": [
+    {
+      "id": 30639,
+      "productId": 30625,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:14.270Z"
+    },
+    {
+      "id": 39405,
+      "productId": 30625,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:27.759Z"
+    },
+    {
+      "id": 50615,
+      "productId": 30625,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:33.336Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901886",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901886",
+    "capturedAt": "2026-08-19T05:29:33.336Z",
+    "items": [],
+    "path": "data/other-shops/145901886.json"
+  }
+}

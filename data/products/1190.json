@@ -1,0 +1,172 @@
+{
+  "product": {
+    "id": 1190,
+    "title": "Windows10 DVDソフト ヌキコレvol.44 MILK・ジャンキー 1+2+3complete",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078304",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078304.jpg",
+    "manufacturer": "ブルゲ ON DEMAND",
+    "releaseDate": "2023-08-25",
+    "listPrice": 4125,
+    "modelNumber": "NCB-0044",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145078304",
+      "メーカー": "ブルゲ ON DEMAND",
+      "発売日": "2023/08/25",
+      "定価": "4,125円",
+      "型番": "NCB-0044",
+      "原画": "辰波要徳",
+      "シナリオ": "鏡裕之",
+      "声優": "紫苑みやび\n富樫ケイ\n大波こなみ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:36:03.439Z"
+  },
+  "histories": [
+    {
+      "id": 1204,
+      "productId": 1190,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6095,
+      "productId": 1190,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 13444,
+      "productId": 1190,
+      "salePrice": 3701,
+      "regularSalePrice": 3701,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    },
+    {
+      "id": 26366,
+      "productId": 1190,
+      "salePrice": 3701,
+      "regularSalePrice": 3701,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:03:43.232Z"
+    },
+    {
+      "id": 35482,
+      "productId": 1190,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:45:51.146Z"
+    },
+    {
+      "id": 46063,
+      "productId": 1190,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:36:03.439Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 120417,
+      "productId": 1190,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3701,
+      "checkedAt": "2026-08-17T13:36:03.000Z"
+    },
+    {
+      "id": 120416,
+      "productId": 1190,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-08-17T13:36:03.000Z"
+    },
+    {
+      "id": 91573,
+      "productId": 1190,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3701,
+      "checkedAt": "2026-08-16T00:45:51.000Z"
+    },
+    {
+      "id": 91572,
+      "productId": 1190,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-08-16T00:45:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145078304",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078304",
+    "capturedAt": "2026-08-17T13:36:03.439Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 3700
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 3701
+      }
+    ],
+    "path": "data/other-shops/145078304.json"
+  }
+}

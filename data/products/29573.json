@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 29573,
+    "title": "Windows7/8/8.1/10 CDソフト はるとゆき、 予約キャンペーン特典湯上り裸立ち絵＆コスプレオーダーパッチROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062820",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062820.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2018-07-27",
+    "listPrice": null,
+    "modelNumber": "AKT-1016",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062820001",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2018/07/27",
+      "型番": "AKT-1016",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:38.646Z"
+  },
+  "histories": [
+    {
+      "id": 29587,
+      "productId": 29573,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:26.305Z"
+    },
+    {
+      "id": 38406,
+      "productId": 29573,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:31.964Z"
+    },
+    {
+      "id": 49526,
+      "productId": 29573,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:38.646Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132516,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T04:31:38.000Z"
+    },
+    {
+      "id": 132515,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-19T04:31:38.000Z"
+    },
+    {
+      "id": 132514,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T04:31:38.000Z"
+    },
+    {
+      "id": 100991,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:11:32.000Z"
+    },
+    {
+      "id": 100990,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-16T01:11:32.000Z"
+    },
+    {
+      "id": 74973,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:08:26.000Z"
+    },
+    {
+      "id": 74972,
+      "productId": 29573,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-15T23:08:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062820",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062820",
+    "capturedAt": "2026-08-19T04:31:38.646Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145062820.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 41060,
+    "title": "Windows CDソフト 魔法剣姫アークキャリバー -魔族降誕- ソフマップ特典追加アペンドディスク：アーク・レゾン 男湯で精液シャワー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037808",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037808.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2013-06-28",
+    "listPrice": null,
+    "modelNumber": "TAAC-1306SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037808",
+      "メーカー": "Triangle",
+      "発売日": "2013/06/28",
+      "型番": "TAAC-1306SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:56.765Z"
+  },
+  "histories": [
+    {
+      "id": 41074,
+      "productId": 41060,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:27.811Z"
+    },
+    {
+      "id": 52811,
+      "productId": 41060,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:56.765Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142249,
+      "productId": 41060,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1201,
+      "checkedAt": "2026-08-19T16:18:57.000Z"
+    },
+    {
+      "id": 142248,
+      "productId": 41060,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T16:18:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037808",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037808",
+    "capturedAt": "2026-08-19T16:18:56.765Z",
+    "items": [
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1201
+      }
+    ],
+    "path": "data/other-shops/145037808.json"
+  }
+}

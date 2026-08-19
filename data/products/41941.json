@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41941,
+    "title": "Windows2000/XP/Vista DVDソフト ちゅぱしてあげる～スポーツクラブのおねえさん～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049210",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049210.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2009-07-24",
+    "listPrice": 9680,
+    "modelNumber": "KA-0050",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145049210",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2009/07/24",
+      "定価": "9,680円",
+      "型番": "KA-0050",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:28.924Z"
+  },
+  "histories": [
+    {
+      "id": 41955,
+      "productId": 41941,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:42.505Z"
+    },
+    {
+      "id": 53451,
+      "productId": 41941,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:28.924Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049210",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049210",
+    "capturedAt": "2026-08-19T16:24:28.924Z",
+    "items": [],
+    "path": "data/other-shops/145049210.json"
+  }
+}

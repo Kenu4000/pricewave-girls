@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 43091,
+    "title": "Windows98/Me/2000/XP CDソフト ヴァリスX 目覚めよ!ヴァリスの戦士たち",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014682",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014682.jpg",
+    "manufacturer": "イーアンツ",
+    "releaseDate": "2006-09-08",
+    "listPrice": 2178,
+    "modelNumber": "ETC-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014682001",
+      "メーカー": "イーアンツ",
+      "発売日": "2006/09/08",
+      "定価": "2,178円",
+      "型番": "ETC-005",
+      "原画": "川合正起",
+      "シナリオ": "きもとべなたか",
+      "声優": "榊若菜\n東かりん\n伊藤瞳子\n中原ありす\n榎津まお\n韮井叶\n事務台車\n本多啓吾\n谷俊介\n児玉さとみ\n神奈川拳\n光田まさよし\n嘉島祐",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2580,
+    "latestRegularSalePrice": 2580,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:49.590Z"
+  },
+  "histories": [
+    {
+      "id": 43105,
+      "productId": 43091,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:49.590Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 111016,
+      "productId": 43091,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2580,
+      "checkedAt": "2026-08-17T07:17:50.000Z"
+    },
+    {
+      "id": 111015,
+      "productId": 43091,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1792,
+      "checkedAt": "2026-08-17T07:17:50.000Z"
+    },
+    {
+      "id": 111014,
+      "productId": 43091,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-17T07:17:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014682",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014682",
+    "capturedAt": "2026-08-17T07:17:49.590Z",
+    "items": [
+      {
+        "storeName": "駿河屋日向店",
+        "condition": "中古",
+        "price": 1650
+      },
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古通常",
+        "price": 1792
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2580
+      }
+    ],
+    "path": "data/other-shops/145014682.json"
+  }
+}

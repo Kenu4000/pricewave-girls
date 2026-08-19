@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41259,
+    "title": "WindowsXP/Vista/7 DVDソフト sisters -夏の最後の日-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061562",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061562.jpg",
+    "manufacturer": "Jellyfish（ジェリーフィッシュ）",
+    "releaseDate": "2011-04-28",
+    "listPrice": 10780,
+    "modelNumber": "SKR-1532",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145061562",
+      "メーカー": "Jellyfish（ジェリーフィッシュ）",
+      "発売日": "2011/04/28",
+      "定価": "10,780円",
+      "型番": "SKR-1532",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:25.597Z"
+  },
+  "histories": [
+    {
+      "id": 41273,
+      "productId": 41259,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:14.532Z"
+    },
+    {
+      "id": 52959,
+      "productId": 41259,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:25.597Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061562",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061562",
+    "capturedAt": "2026-08-19T16:20:25.597Z",
+    "items": [],
+    "path": "data/other-shops/145061562.json"
+  }
+}

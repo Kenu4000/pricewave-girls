@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31260,
+    "title": "WindowsXP/Vista/7/8 DVDソフト カスタムメイド3D シーズンパック 2013",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037584",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037584.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2013-07-26",
+    "listPrice": 7124,
+    "modelNumber": "KISS-048",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145037584",
+      "メーカー": "KISS",
+      "発売日": "2013/07/26",
+      "定価": "7,124円",
+      "型番": "KISS-048",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:38.637Z"
+  },
+  "histories": [
+    {
+      "id": 31274,
+      "productId": 31260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:47.848Z"
+    },
+    {
+      "id": 40017,
+      "productId": 31260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:52.511Z"
+    },
+    {
+      "id": 51076,
+      "productId": 31260,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:38.637Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037584",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037584",
+    "capturedAt": "2026-08-19T05:33:38.637Z",
+    "items": [],
+    "path": "data/other-shops/145037584.json"
+  }
+}

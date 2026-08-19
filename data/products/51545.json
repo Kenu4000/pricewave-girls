@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 51545,
+    "title": "Windows7/8/10 DVDソフト 縁りて此の葉は紅に プレミアムパック版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059342",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059342.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2018-01-26",
+    "listPrice": 17380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059342",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2018/01/26",
+      "定価": "17,380円",
+      "原画": "奏ナコト\n萌木原ふみたけ",
+      "シナリオ": "芳井一\n水月紗鳥\nてつじん",
+      "声優": "奏雨\n渚しろな\n桃山いおん\n春乃いろは",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 6000,
+    "latestRegularSalePrice": 6000,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:12.641Z"
+  },
+  "histories": [
+    {
+      "id": 51559,
+      "productId": 51545,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:38.836Z"
+    },
+    {
+      "id": 52056,
+      "productId": 51545,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:11.706Z"
+    },
+    {
+      "id": 52738,
+      "productId": 51545,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:12.641Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059342",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059342",
+    "capturedAt": "2026-08-19T16:18:12.641Z",
+    "items": [],
+    "path": "data/other-shops/145059342.json"
+  }
+}

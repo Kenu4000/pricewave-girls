@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41889,
+    "title": "Windows2000/XP/Vista DVDソフト 夜明け前より瑠璃色な -Moonlight Cradle-[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021623",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021623.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2009-09-18",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021623",
+      "メーカー": "オーガスト",
+      "発売日": "2009/09/18",
+      "定価": "7,480円",
+      "原画": "べっかんこう",
+      "シナリオ": "安西秀明\n榊原拓\n内田ヒロユキ",
+      "声優": "巌蝉秋\n手塚まき\n成瀬未亜\n佐本二厘\n遠野そよぎ\n海原エレナ\n安玖深音\n高野直子\n本山美奈\n三咲里奈\n神代岬\n富士爆発",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:09.157Z"
+  },
+  "histories": [
+    {
+      "id": 41903,
+      "productId": 41889,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:16.548Z"
+    },
+    {
+      "id": 53410,
+      "productId": 41889,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:09.157Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021623",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021623",
+    "capturedAt": "2026-08-19T16:24:09.157Z",
+    "items": [],
+    "path": "data/other-shops/145021623.json"
+  }
+}

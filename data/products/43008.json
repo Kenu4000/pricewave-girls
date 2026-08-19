@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 43008,
+    "title": "Windows DVDソフト とり×とり ～えっちしてくんなきゃイタズラしちゃうゾ?～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014798",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014798.jpg",
+    "manufacturer": "すみっこソフト",
+    "releaseDate": "2006-11-02",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014798",
+      "メーカー": "すみっこソフト",
+      "発売日": "2006/11/02",
+      "定価": "9,680円",
+      "原画": "さいとうつかさ",
+      "シナリオ": "kozakana\n玉沢円\n苑脇つぐみ\n穂波衛一\n緋川佳\n剣祐名\n竹本みかん\n土岐光鳳\n綺月鏡水",
+      "声優": "児玉さとみ\n安玖深音\n野神奈々\n中瀬ひな\n北都南\n水鏡\n草柳順子\n金田まひる\n中澤アユム\n御苑生メイ\n高橋一休",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:07.383Z"
+  },
+  "histories": [
+    {
+      "id": 43022,
+      "productId": 43008,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:07.383Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014798",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014798",
+    "capturedAt": "2026-08-17T07:17:07.383Z",
+    "items": [],
+    "path": "data/other-shops/145014798.json"
+  }
+}

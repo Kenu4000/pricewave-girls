@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 29433,
+    "title": "Windows7/8.1/10 DVDソフト となりに彼女のいる幸せ -Summer Surprise-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064165",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064165.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2019-04-26",
+    "listPrice": 2728,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064165",
+      "メーカー": "プレカノ",
+      "発売日": "2019/04/26",
+      "定価": "2,728円",
+      "原画": "ねこにゃん",
+      "シナリオ": "多喜濱一",
+      "声優": "飴川紫乃",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:47.273Z"
+  },
+  "histories": [
+    {
+      "id": 29447,
+      "productId": 29433,
+      "salePrice": 2811,
+      "regularSalePrice": 2811,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:57.703Z"
+    },
+    {
+      "id": 38267,
+      "productId": 29433,
+      "salePrice": 2811,
+      "regularSalePrice": 2811,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:10.655Z"
+    },
+    {
+      "id": 49409,
+      "productId": 29433,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:47.273Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132236,
+      "productId": 29433,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2811,
+      "checkedAt": "2026-08-19T04:30:47.000Z"
+    },
+    {
+      "id": 132235,
+      "productId": 29433,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 2640,
+      "checkedAt": "2026-08-19T04:30:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064165",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064165",
+    "capturedAt": "2026-08-19T04:30:47.273Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 2640
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2811
+      }
+    ],
+    "path": "data/other-shops/145064165.json"
+  }
+}

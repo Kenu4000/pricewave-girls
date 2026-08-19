@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 41244,
+    "title": "WindowsXP/Vista/7 DVDソフト 突然怪人になった俺が魔法少女を堕とす話",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027490",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027490.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2011-05-13",
+    "listPrice": 4180,
+    "modelNumber": "BASE-046",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027490001",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2011/05/13",
+      "定価": "4,180円",
+      "型番": "BASE-046",
+      "シナリオ": "亮精類",
+      "原画": "弐堂カナル",
+      "声優": "奥川久美子\nmahilo\n木野原さやか",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "シリーズ": "- 3,420円 Windows7/8/8.1/10 DVDソフト ひとつまみ -リラクゼーション",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:18.825Z"
+  },
+  "histories": [
+    {
+      "id": 41258,
+      "productId": 41244,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:05.449Z"
+    },
+    {
+      "id": 52947,
+      "productId": 41244,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:18.825Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142551,
+      "productId": 41244,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-19T16:20:19.000Z"
+    },
+    {
+      "id": 142550,
+      "productId": 41244,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-08-19T16:20:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027490",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027490",
+    "capturedAt": "2026-08-19T16:20:18.825Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145027490.json"
+  }
+}

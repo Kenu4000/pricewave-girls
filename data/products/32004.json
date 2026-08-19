@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 32004,
+    "title": "WindowsXP/Vista/7 DVDソフト プリーズ・レ○プ・ミー!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069481",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069481.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2011-10-28",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1582",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145069481",
+      "メーカー": "CLOCKUP",
+      "発売日": "2011/10/28",
+      "定価": "9,680円",
+      "型番": "SKR-1582",
+      "原画": "むなしむじょう",
+      "シナリオ": "TeamN.G.X",
+      "声優": "中家志穂\n春日アン\n東かりん\nサトウユキ\n御苑生メイ\n渋谷ひめ\n鈴音華月",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3333,
+    "latestRegularSalePrice": 3333,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:30.819Z"
+  },
+  "histories": [
+    {
+      "id": 32018,
+      "productId": 32004,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:44.699Z"
+    },
+    {
+      "id": 40747,
+      "productId": 32004,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:20.517Z"
+    },
+    {
+      "id": 43843,
+      "productId": 32004,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:30.819Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069481",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069481",
+    "capturedAt": "2026-08-17T09:35:30.819Z",
+    "items": [],
+    "path": "data/other-shops/145069481.json"
+  }
+}

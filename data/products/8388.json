@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 8388,
+    "title": "Windows95/98/Me/2000/XP CDソフト MiST -second edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006799",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006799.jpg",
+    "manufacturer": "Regrips",
+    "releaseDate": "2002-07-26",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006799",
+      "メーカー": "Regrips",
+      "発売日": "2002/07/26",
+      "定価": "6,380円",
+      "原画": "都月りこ",
+      "シナリオ": "伊藤弘司",
+      "声優": "児玉さとみ\n永瀬江美弥",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 770,
+    "latestRegularSalePrice": 770,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:30.605Z"
+  },
+  "histories": [
+    {
+      "id": 8402,
+      "productId": 8388,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37763,
+      "productId": 8388,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:38.826Z"
+    },
+    {
+      "id": 48243,
+      "productId": 8388,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:30.605Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145006799",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145006799",
+    "capturedAt": "2026-08-17T16:12:30.605Z",
+    "items": [],
+    "path": "data/other-shops/145006799.json"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 30410,
+    "title": "WindowsVista/7/8 DVDソフト ディバインハート カレンSP シーズン1 フルパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050796",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050796.jpg",
+    "manufacturer": "Portion",
+    "releaseDate": "2015-08-28",
+    "listPrice": 4400,
+    "modelNumber": "POR-013",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145050796001",
+      "メーカー": "Portion",
+      "発売日": "2015/08/28",
+      "定価": "4,400円",
+      "型番": "POR-013",
+      "原画": "神剣桜花\nKAGEMUSYA\nMaruto!\n椎咲雛樹\n天草帳",
+      "シナリオ": "桃野衿\n大杉和馬\nシャア専用◎\n柚坂みる\n二階堂安芸",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "1250",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:19:44.157Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:09.900Z"
+  },
+  "histories": [
+    {
+      "id": 30424,
+      "productId": 30410,
+      "salePrice": 1180,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:43.964Z"
+    },
+    {
+      "id": 39203,
+      "productId": 30410,
+      "salePrice": 1180,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:37.740Z"
+    },
+    {
+      "id": 50454,
+      "productId": 30410,
+      "salePrice": 1180,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:09.900Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135361,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-19T05:28:11.000Z"
+    },
+    {
+      "id": 135360,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T05:28:11.000Z"
+    },
+    {
+      "id": 135359,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-19T05:28:11.000Z"
+    },
+    {
+      "id": 102760,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:18:37.000Z"
+    },
+    {
+      "id": 102759,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-16T01:18:37.000Z"
+    },
+    {
+      "id": 76817,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:19:44.000Z"
+    },
+    {
+      "id": 76816,
+      "productId": 30410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-15T23:19:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145050796",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050796",
+    "capturedAt": "2026-08-19T05:28:09.900Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1180
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145050796.json"
+  }
+}

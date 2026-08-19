@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 51544,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト Re;Lord 厄災の魔女編 全三章パッケージ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057343",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057343.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2017-07-28",
+    "listPrice": 11880,
+    "modelNumber": "ECM-001Z",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057343001",
+      "メーカー": "エスクード",
+      "発売日": "2017/07/28",
+      "定価": "11,880円",
+      "型番": "ECM-001Z",
+      "原画": "水鼠",
+      "シナリオ": "西村悠一",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "シリーズ": "導入価格版 1,500円 WindowsVista/7/8 DVDソフト Re;Lord 第二章 -ケルンの魔女と黒猫-(状態：ゲームディスクのみ) 1,111円 Windows98/Me/2000/XP/Vista DVDソフト プリティプライス",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 10500,
+    "latestRegularSalePrice": 10500,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:12.269Z"
+  },
+  "histories": [
+    {
+      "id": 51558,
+      "productId": 51544,
+      "salePrice": 9411,
+      "regularSalePrice": 9411,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:38.662Z"
+    },
+    {
+      "id": 52062,
+      "productId": 51544,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:13.868Z"
+    },
+    {
+      "id": 52736,
+      "productId": 51544,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:12.269Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142129,
+      "productId": 51544,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-08-19T16:18:12.000Z"
+    },
+    {
+      "id": 142128,
+      "productId": 51544,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 9411,
+      "checkedAt": "2026-08-19T16:18:12.000Z"
+    },
+    {
+      "id": 139592,
+      "productId": 51544,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-08-19T15:32:14.000Z"
+    },
+    {
+      "id": 139591,
+      "productId": 51544,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 9411,
+      "checkedAt": "2026-08-19T15:32:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057343",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057343",
+    "capturedAt": "2026-08-19T16:18:12.269Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 9411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 10500
+      }
+    ],
+    "path": "data/other-shops/145057343.json"
+  }
+}

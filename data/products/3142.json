@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 3142,
+    "title": "Windows98/Me/2000/XP CDソフト 十六夜れんか",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009491",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009491.jpg",
+    "manufacturer": "千世",
+    "releaseDate": "2003-04-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145009491001",
+      "メーカー": "千世",
+      "発売日": "2003/04/25",
+      "定価": "9,680円",
+      "原画": "田口まこと",
+      "シナリオ": "采\n三国亮\n田中天\nるちゃ",
+      "声優": "ケンゾウジ\n天声朱夏\n皆附由衣\n御華咲丘\n藤井直子\n桐生みずき\n春日りか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:28.648Z"
+  },
+  "histories": [
+    {
+      "id": 3156,
+      "productId": 3142,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22957,
+      "productId": 3142,
+      "salePrice": 1601,
+      "regularSalePrice": 1601,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:14.247Z"
+    },
+    {
+      "id": 36951,
+      "productId": 3142,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:34.479Z"
+    },
+    {
+      "id": 47570,
+      "productId": 3142,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:28.648Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126194,
+      "productId": 3142,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-08-17T16:06:28.000Z"
+    },
+    {
+      "id": 126193,
+      "productId": 3142,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1701,
+      "checkedAt": "2026-08-17T16:06:28.000Z"
+    },
+    {
+      "id": 97052,
+      "productId": 3142,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-08-16T00:58:34.000Z"
+    },
+    {
+      "id": 97051,
+      "productId": 3142,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1501,
+      "checkedAt": "2026-08-16T00:58:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145009491",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009491",
+    "capturedAt": "2026-08-17T16:06:28.648Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1701
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1780
+      }
+    ],
+    "path": "data/other-shops/145009491.json"
+  }
+}

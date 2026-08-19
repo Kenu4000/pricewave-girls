@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 8419,
+    "title": "Windows2000/XP/Vista DVDソフト 家族愛～お母さんと姉さんはボクの物～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020231",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020231.jpg",
+    "manufacturer": "汁・ザル",
+    "releaseDate": "2009-05-29",
+    "listPrice": 3981,
+    "modelNumber": "SESR-002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020231",
+      "メーカー": "汁・ザル",
+      "発売日": "2009/05/29",
+      "定価": "3,981円",
+      "型番": "SESR-002",
+      "原画": "NOBU",
+      "シナリオ": "正村誠一",
+      "声優": "早乙女綾\n平野響子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1411,
+    "latestRegularSalePrice": 1411,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:42.730Z"
+  },
+  "histories": [
+    {
+      "id": 8433,
+      "productId": 8419,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 23144,
+      "productId": 8419,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:51.656Z"
+    },
+    {
+      "id": 37793,
+      "productId": 8419,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:54.535Z"
+    },
+    {
+      "id": 48268,
+      "productId": 8419,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:42.730Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52969,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 52968,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 52967,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 1847,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1846,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1845,
+      "productId": 8419,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020231",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020231",
+    "capturedAt": "2026-08-17T16:12:42.730Z",
+    "items": [],
+    "path": "data/other-shops/145020231.json"
+  }
+}

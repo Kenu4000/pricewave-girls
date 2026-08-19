@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30944,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 恋愛まで選択肢ひとつ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040250",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040250.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2014-03-28",
+    "listPrice": 9680,
+    "modelNumber": "BASE-067",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145040250",
+      "メーカー": "脳内彼女",
+      "発売日": "2014/03/28",
+      "定価": "9,680円",
+      "型番": "BASE-067",
+      "原画": "空維深夜\nあげきち",
+      "シナリオ": "生田あわる\n西田一\n芳井一",
+      "声優": "植木亨\n小倉結衣\n桃也みなみ\n御苑生メイ\n鈴谷まや\n桃井いちご\nゆうひ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:35.294Z"
+  },
+  "histories": [
+    {
+      "id": 30958,
+      "productId": 30944,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:20.428Z"
+    },
+    {
+      "id": 39709,
+      "productId": 30944,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:10.568Z"
+    },
+    {
+      "id": 50842,
+      "productId": 30944,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:35.294Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040250",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040250",
+    "capturedAt": "2026-08-19T05:31:35.294Z",
+    "items": [],
+    "path": "data/other-shops/145040250.json"
+  }
+}

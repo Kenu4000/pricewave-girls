@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41766,
+    "title": "Windows2000/XP/Vista DVDソフト 幻月のパンドオラ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079224",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079224.jpg",
+    "manufacturer": "Q-X",
+    "releaseDate": "2009-12-25",
+    "listPrice": 9680,
+    "modelNumber": "QX-004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145079224",
+      "メーカー": "Q-X",
+      "発売日": "2009/12/25",
+      "定価": "9,680円",
+      "型番": "QX-004",
+      "原画": "亜方逸樹",
+      "シナリオ": "茉森晶",
+      "声優": "新堂真弓\n成瀬未亜\n有栖川みや美\n牧田優\n夢咲朱花\n野神奈々\nつぼみ\n赤月糸\n徳本英一郎\n藤咲ウサ\n皇帝\n西野みく\n深川緑\n野☆球\n小倉結衣\n山咲杏",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:26.718Z"
+  },
+  "histories": [
+    {
+      "id": 41780,
+      "productId": 41766,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:13.266Z"
+    },
+    {
+      "id": 53328,
+      "productId": 41766,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:26.718Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145079224",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079224",
+    "capturedAt": "2026-08-19T16:23:26.718Z",
+    "items": [],
+    "path": "data/other-shops/145079224.json"
+  }
+}

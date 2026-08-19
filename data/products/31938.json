@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31938,
+    "title": "WindowsXP/Vista/7 CDソフト 世にも気持ちいい学園の快談 ～オバケになってあの娘に仕返し!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030997",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030997.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2011-12-22",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030997",
+      "メーカー": "softhouse-seal",
+      "発売日": "2011/12/22",
+      "定価": "2,200円",
+      "原画": "さがらいせ",
+      "シナリオ": "須々木鮎尾\n草薙",
+      "声優": "春河あかり\n奥山歩\n飯野汐里\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 411,
+    "latestRegularSalePrice": 411,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:10.186Z"
+  },
+  "histories": [
+    {
+      "id": 31952,
+      "productId": 31938,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:04.888Z"
+    },
+    {
+      "id": 40679,
+      "productId": 31938,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:48.393Z"
+    },
+    {
+      "id": 52169,
+      "productId": 31938,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:10.186Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030997",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030997",
+    "capturedAt": "2026-08-19T15:33:10.186Z",
+    "items": [],
+    "path": "data/other-shops/145030997.json"
+  }
+}

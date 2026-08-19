@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31153,
+    "title": "WindowsXP/Vista/7 DVDソフト HOUND -Targeting Hunting-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038514",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038514.jpg",
+    "manufacturer": "つるみく",
+    "releaseDate": "2013-10-25",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038514",
+      "メーカー": "つるみく",
+      "発売日": "2013/10/25",
+      "定価": "4,180円",
+      "原画": "桜島サロマ子",
+      "声優": "花南\n西乃ころね\n椎名ヨオコ\n野々村紗夜\nユリア\nこのは\n藤堂みさき",
+      "シナリオ": "タスク\nチャック雅\nまこっちゃ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:57.190Z"
+  },
+  "histories": [
+    {
+      "id": 31167,
+      "productId": 31153,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:27.090Z"
+    },
+    {
+      "id": 39913,
+      "productId": 31153,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:00.285Z"
+    },
+    {
+      "id": 50999,
+      "productId": 31153,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:57.190Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038514",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038514",
+    "capturedAt": "2026-08-19T05:32:57.190Z",
+    "items": [],
+    "path": "data/other-shops/145038514.json"
+  }
+}

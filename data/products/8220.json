@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 8220,
+    "title": "Windows95 CDソフト 妖女乱舞2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000504",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000504.jpg",
+    "manufacturer": "ZONE",
+    "releaseDate": "1997-05-29",
+    "listPrice": 9680,
+    "modelNumber": "ZONE-970408",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000504",
+      "メーカー": "ZONE",
+      "発売日": "1997/05/29",
+      "定価": "9,680円",
+      "型番": "ZONE-970408",
+      "シナリオ": "紙谷龍生",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:32.799Z"
+  },
+  "histories": [
+    {
+      "id": 8234,
+      "productId": 8220,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37631,
+      "productId": 8220,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:30.794Z"
+    },
+    {
+      "id": 48125,
+      "productId": 8220,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:32.799Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145000504",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000504",
+    "capturedAt": "2026-08-17T16:11:32.799Z",
+    "items": [],
+    "path": "data/other-shops/145000504.json"
+  }
+}

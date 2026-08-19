@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 3065,
+    "title": "Windows95/98/Me/2000 CDソフト 蕾花 for Windows",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004299",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004299.jpg",
+    "manufacturer": "リンガーベル",
+    "releaseDate": "2000-10-27",
+    "listPrice": 8580,
+    "modelNumber": "RB-W001-01",
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145004299",
+      "メーカー": "リンガーベル",
+      "発売日": "2000/10/27",
+      "定価": "8,580円",
+      "型番": "RB-W001-01",
+      "原画": "梶山弘",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1530,
+    "latestRegularSalePrice": 1530,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:51.264Z"
+  },
+  "histories": [
+    {
+      "id": 3079,
+      "productId": 3065,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26619,
+      "productId": 3065,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:13:55.387Z"
+    },
+    {
+      "id": 36883,
+      "productId": 3065,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:01.290Z"
+    },
+    {
+      "id": 47511,
+      "productId": 3065,
+      "salePrice": 1530,
+      "regularSalePrice": 1530,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:51.264Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145004299",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004299",
+    "capturedAt": "2026-08-17T16:05:51.264Z",
+    "items": [],
+    "path": "data/other-shops/145004299.json"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31633,
+    "title": "Windows2000/XP DVDソフト BEST BUY F＆C こなたよりかなたまで",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034432",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034432.jpg",
+    "manufacturer": "F＆C",
+    "releaseDate": "2012-09-28",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145034432",
+      "メーカー": "F＆C",
+      "発売日": "2012/09/28",
+      "定価": "3,300円",
+      "原画": "しゃあ",
+      "シナリオ": "健速",
+      "声優": "香月\n春瀬みき\n風音\n一色ヒカル\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:33.581Z"
+  },
+  "histories": [
+    {
+      "id": 31647,
+      "productId": 31633,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:10.978Z"
+    },
+    {
+      "id": 40382,
+      "productId": 31633,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:22.768Z"
+    },
+    {
+      "id": 44882,
+      "productId": 31633,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:21.974Z"
+    },
+    {
+      "id": 49117,
+      "productId": 31633,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:33.581Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034432",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034432",
+    "capturedAt": "2026-08-19T04:28:33.581Z",
+    "items": [],
+    "path": "data/other-shops/145034432.json"
+  }
+}

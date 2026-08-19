@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 41027,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト ビッチ姉妹が清純なはずがないっ!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055918",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055918.jpg",
+    "manufacturer": "onomatope* raspberry",
+    "releaseDate": "2017-01-27",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145055918",
+      "メーカー": "onomatope* raspberry",
+      "発売日": "2017/01/27",
+      "定価": "10,780円",
+      "原画": "O33(オゾンさん)\n雛祭桃子",
+      "シナリオ": "生田あわる\n紫苑憧朋香",
+      "声優": "新堂真弓\n蓬かすみ\n藤邑鈴香\n雪村とあ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:47.699Z"
+  },
+  "histories": [
+    {
+      "id": 41041,
+      "productId": 41027,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:11.932Z"
+    },
+    {
+      "id": 52795,
+      "productId": 41027,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:47.699Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142233,
+      "productId": 41027,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-19T16:18:47.000Z"
+    },
+    {
+      "id": 142232,
+      "productId": 41027,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1601,
+      "checkedAt": "2026-08-19T16:18:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055918",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055918",
+    "capturedAt": "2026-08-19T16:18:47.699Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1601
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1800
+      }
+    ],
+    "path": "data/other-shops/145055918.json"
+  }
+}

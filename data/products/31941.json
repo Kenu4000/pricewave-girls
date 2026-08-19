@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31941,
+    "title": "WindowsXP/Vista/7 DVDソフト あっぱれ!天下御免",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045328",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045328.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2011-12-22",
+    "listPrice": 10780,
+    "modelNumber": "BAS-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145045328",
+      "メーカー": "BaseSon",
+      "発売日": "2011/12/22",
+      "定価": "10,780円",
+      "型番": "BAS-010",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:25.214Z"
+  },
+  "histories": [
+    {
+      "id": 31955,
+      "productId": 31941,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:05.279Z"
+    },
+    {
+      "id": 40686,
+      "productId": 31941,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:49.465Z"
+    },
+    {
+      "id": 43832,
+      "productId": 31941,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:25.214Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045328",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045328",
+    "capturedAt": "2026-08-17T09:35:25.214Z",
+    "items": [],
+    "path": "data/other-shops/145045328.json"
+  }
+}

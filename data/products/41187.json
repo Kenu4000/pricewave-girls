@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41187,
+    "title": "WindowsXP/Vista/7 DVDソフト 舞風のメルト -Where leads to feeling destination-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028376",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028376.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2011-06-24",
+    "listPrice": 8580,
+    "modelNumber": "WP-108",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028376",
+      "メーカー": "Whirlpool",
+      "発売日": "2011/06/24",
+      "定価": "8,580円",
+      "型番": "WP-108",
+      "原画": "こもわた遙華\nてんまそ",
+      "シナリオ": "高嶋栄二\n大三元",
+      "声優": "月黒斗夜\n遠野そよぎ\n五行なずな\nみる\n松田理沙\n海原エレナ\n桜川未央\n雪都さお梨\n佐本二厘\n姫川あいり\n北都南",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1911,
+    "latestRegularSalePrice": 1911,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:25:58.261Z"
+  },
+  "histories": [
+    {
+      "id": 41201,
+      "productId": 41187,
+      "salePrice": 1911,
+      "regularSalePrice": 1911,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:33.172Z"
+    },
+    {
+      "id": 48758,
+      "productId": 41187,
+      "salePrice": 1911,
+      "regularSalePrice": 1911,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:58.261Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028376",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028376",
+    "capturedAt": "2026-08-19T04:25:58.261Z",
+    "items": [],
+    "path": "data/other-shops/145028376.json"
+  }
+}

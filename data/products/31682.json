@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 31682,
+    "title": "Windows DVDソフト COMIC MARKET 82 PREVIEW DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034579",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034579.jpg",
+    "manufacturer": "views",
+    "releaseDate": "2012-08-10",
+    "listPrice": null,
+    "modelNumber": "VWS-0011",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145034579001",
+      "メーカー": "views",
+      "発売日": "2012/08/10",
+      "型番": "VWS-0011",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 260,
+    "latestRegularSalePrice": 260,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:23.192Z"
+  },
+  "histories": [
+    {
+      "id": 31696,
+      "productId": 31682,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:55.307Z"
+    },
+    {
+      "id": 40430,
+      "productId": 31682,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:44.198Z"
+    },
+    {
+      "id": 51391,
+      "productId": 31682,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:23.192Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137082,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 137081,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 220,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 137080,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 220,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 105181,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-16T01:30:44.000Z"
+    },
+    {
+      "id": 105180,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 220,
+      "checkedAt": "2026-08-16T01:30:44.000Z"
+    },
+    {
+      "id": 79340,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-15T23:42:56.000Z"
+    },
+    {
+      "id": 79339,
+      "productId": 31682,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 220,
+      "checkedAt": "2026-08-15T23:42:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034579",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034579",
+    "capturedAt": "2026-08-19T05:36:23.192Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 220
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 220
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 260
+      }
+    ],
+    "path": "data/other-shops/145034579.json"
+  }
+}

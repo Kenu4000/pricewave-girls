@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 30190,
+    "title": "WindowsVista/7/8/10 DVDソフト ダンジョン オブ レガリアス -背徳の都イシュガリア- [初回限定生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053226",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053226.jpg",
+    "manufacturer": "アストロノーツ・シリウス",
+    "releaseDate": "2016-03-25",
+    "listPrice": 10780,
+    "modelNumber": "AS-012",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053226001",
+      "メーカー": "アストロノーツ・シリウス",
+      "発売日": "2016/03/25",
+      "定価": "10,780円",
+      "型番": "AS-012",
+      "原画": "M&M",
+      "シナリオ": "なかぢ\nヤマガミユウ\nすまっしゅぱんだ\n霧島へるん",
+      "声優": "有賀桃\n葵時緒\nひむろゆり\n星空ユメ\n五十嵐未空\n渋谷ひめ\n乃嶋架菜\n手塚りょうこ\n和葉\n麻優莉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3180,
+    "latestRegularSalePrice": 3180,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:57.835Z"
+  },
+  "histories": [
+    {
+      "id": 30204,
+      "productId": 30190,
+      "salePrice": 2530,
+      "regularSalePrice": 2530,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:46.995Z"
+    },
+    {
+      "id": 38991,
+      "productId": 30190,
+      "salePrice": 2530,
+      "regularSalePrice": 2530,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:38.778Z"
+    },
+    {
+      "id": 49983,
+      "productId": 30190,
+      "salePrice": 3180,
+      "regularSalePrice": 3180,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:57.835Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133523,
+      "productId": 30190,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-19T04:34:57.000Z"
+    },
+    {
+      "id": 133522,
+      "productId": 30190,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット天理店",
+      "condition": "中古",
+      "price": 2530,
+      "checkedAt": "2026-08-19T04:34:57.000Z"
+    },
+    {
+      "id": 133521,
+      "productId": 30190,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット天理店",
+      "condition": "中古:軽度な傷みあり【2日以内にスピード発送！】",
+      "price": 2530,
+      "checkedAt": "2026-08-19T04:34:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053226",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053226",
+    "capturedAt": "2026-08-19T04:34:57.835Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット天理店",
+        "condition": "中古:軽度な傷みあり【2日以内にスピード発送！】",
+        "price": 2530
+      },
+      {
+        "storeName": "ブックマーケット天理店",
+        "condition": "中古",
+        "price": 2530
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3180
+      }
+    ],
+    "path": "data/other-shops/145053226.json"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31237,
+    "title": "WindowsXP/Vista/7/8 DVDソフト たまはじ! たまたまハジケル妹たち",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037238",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037238.jpg",
+    "manufacturer": "アトリエかぐや TEAM Gassa-Q",
+    "releaseDate": "2013-07-26",
+    "listPrice": 9680,
+    "modelNumber": "KA-0067",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145037238",
+      "メーカー": "アトリエかぐや TEAM Gassa-Q",
+      "発売日": "2013/07/26",
+      "定価": "9,680円",
+      "型番": "KA-0067",
+      "声優": "有賀桃\n御苑生メイ\n桜水季\n花南",
+      "原画": "Mero",
+      "シナリオ": "双海悠\n七歌\n円町文人\n華田久作",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:29.828Z"
+  },
+  "histories": [
+    {
+      "id": 31251,
+      "productId": 31237,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:31.544Z"
+    },
+    {
+      "id": 39995,
+      "productId": 31237,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:42.671Z"
+    },
+    {
+      "id": 51060,
+      "productId": 31237,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:29.828Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037238",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037238",
+    "capturedAt": "2026-08-19T05:33:29.828Z",
+    "items": [],
+    "path": "data/other-shops/145037238.json"
+  }
+}

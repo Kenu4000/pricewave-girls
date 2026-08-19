@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 31807,
+    "title": "Windows CDソフト SHINY DAYS 野球拳 ストップバトルデイズ 初回プレス限定生産版特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034536",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034536.jpg",
+    "manufacturer": "オーバーフロー",
+    "releaseDate": "2012-04-27",
+    "listPrice": null,
+    "modelNumber": "STACK-008T",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145034536",
+      "メーカー": "オーバーフロー",
+      "発売日": "2012/04/27",
+      "型番": "STACK-008T",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:13.265Z"
+  },
+  "histories": [
+    {
+      "id": 31821,
+      "productId": 31807,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:31.613Z"
+    },
+    {
+      "id": 40556,
+      "productId": 31807,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:41.969Z"
+    },
+    {
+      "id": 51488,
+      "productId": 31807,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:13.265Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

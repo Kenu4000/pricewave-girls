@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31661,
+    "title": "WindowsXP/Vista/7 DVDソフト ILLUSION FIELD -幻影現実-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033627",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033627.jpg",
+    "manufacturer": "FULLTIME",
+    "releaseDate": "2012-08-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033627",
+      "メーカー": "FULLTIME",
+      "発売日": "2012/08/31",
+      "定価": "9,680円",
+      "声優": "秋野花\n水純なな歩\n花南",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "/外箱日焼け・外箱難有",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": "/外箱日焼け・外箱難有",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:11.127Z"
+  },
+  "histories": [
+    {
+      "id": 31675,
+      "productId": 31661,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:37.604Z"
+    },
+    {
+      "id": 40410,
+      "productId": 31661,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:35.140Z"
+    },
+    {
+      "id": 51372,
+      "productId": 31661,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": "/外箱日焼け・外箱難有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:11.127Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033627",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033627",
+    "capturedAt": "2026-08-19T05:36:11.127Z",
+    "items": [],
+    "path": "data/other-shops/145033627.json"
+  }
+}

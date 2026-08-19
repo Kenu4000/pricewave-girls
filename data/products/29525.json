@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29525,
+    "title": "Windows7/8.1/10 DVDソフト 催眠ぱらだいす!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903464",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "onomatope* raspberry",
+    "releaseDate": "2018-09-28",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145903464",
+      "メーカー": "onomatope* raspberry",
+      "発売日": "2018/09/28",
+      "定価": "10,780円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:23.725Z"
+  },
+  "histories": [
+    {
+      "id": 29539,
+      "productId": 29525,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:56.150Z"
+    },
+    {
+      "id": 38360,
+      "productId": 29525,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:03.764Z"
+    },
+    {
+      "id": 49490,
+      "productId": 29525,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:23.725Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903464",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903464",
+    "capturedAt": "2026-08-19T04:31:23.725Z",
+    "items": [],
+    "path": "data/other-shops/145903464.json"
+  }
+}

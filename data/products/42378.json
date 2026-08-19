@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42378,
+    "title": "Windows2000/XP/Vista DVDソフト 晴れハレはーれむ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018013",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018013.jpg",
+    "manufacturer": "SMEE",
+    "releaseDate": "2008-07-11",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018013",
+      "メーカー": "SMEE",
+      "発売日": "2008/07/11",
+      "定価": "9,680円",
+      "原画": "犬彦\nひなたもも",
+      "シナリオ": "よりは利葉\n久地マコト",
+      "声優": "羽島空\n夏野こおり\n海原エレナ\n日向裕羅\n青山ゆかり\nみる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:12.211Z"
+  },
+  "histories": [
+    {
+      "id": 42392,
+      "productId": 42378,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:06.566Z"
+    },
+    {
+      "id": 53776,
+      "productId": 42378,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:12.211Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018013",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018013",
+    "capturedAt": "2026-08-19T16:27:12.211Z",
+    "items": [],
+    "path": "data/other-shops/145018013.json"
+  }
+}

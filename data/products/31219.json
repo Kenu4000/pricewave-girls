@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31219,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Chu×Chuアイドる CompletePack",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038075",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038075.jpg",
+    "manufacturer": "ユニゾンシフト・アクセント",
+    "releaseDate": "2013-08-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038075",
+      "メーカー": "ユニゾンシフト・アクセント",
+      "発売日": "2013/08/30",
+      "定価": "9,680円",
+      "シナリオ": "土岐光鳳\n緋川佳\n穂波衛一\n玉沢円\n葉月博規\nOじろー\n風間ぼなんざ",
+      "原画": "織澤あきふみ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4000,
+    "latestRegularSalePrice": 4000,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:21.263Z"
+  },
+  "histories": [
+    {
+      "id": 31233,
+      "productId": 31219,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:15.466Z"
+    },
+    {
+      "id": 39977,
+      "productId": 31219,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:32.360Z"
+    },
+    {
+      "id": 51043,
+      "productId": 31219,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:21.263Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038075",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038075",
+    "capturedAt": "2026-08-19T05:33:21.263Z",
+    "items": [],
+    "path": "data/other-shops/145038075.json"
+  }
+}

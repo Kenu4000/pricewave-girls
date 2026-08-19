@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31506,
+    "title": "WindowsXP/Vista/7 DVDソフト あっぱれ!天下御免[祭] -恋と嵐は大江戸の華-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902623",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902623.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2012-12-21",
+    "listPrice": 9680,
+    "modelNumber": "BAS-011",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145902623",
+      "メーカー": "BaseSon",
+      "発売日": "2012/12/21",
+      "定価": "9,680円",
+      "型番": "BAS-011",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:48.183Z"
+  },
+  "histories": [
+    {
+      "id": 31520,
+      "productId": 31506,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:42.919Z"
+    },
+    {
+      "id": 40257,
+      "productId": 31506,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:25.086Z"
+    },
+    {
+      "id": 43756,
+      "productId": 31506,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:48.183Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902623",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902623",
+    "capturedAt": "2026-08-17T09:34:48.183Z",
+    "items": [],
+    "path": "data/other-shops/145902623.json"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42426,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト Sugar+Spice! Party☆Party [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057019",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057019.jpg",
+    "manufacturer": "チュアブルソフト",
+    "releaseDate": "2008-05-23",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145057019",
+      "メーカー": "チュアブルソフト",
+      "発売日": "2008/05/23",
+      "定価": "7,480円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "サントラCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 440,
+    "latestRegularSalePrice": 440,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "サントラCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:31.352Z"
+  },
+  "histories": [
+    {
+      "id": 42440,
+      "productId": 42426,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:35.959Z"
+    },
+    {
+      "id": 53812,
+      "productId": 42426,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:31.352Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057019",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057019",
+    "capturedAt": "2026-08-19T16:27:31.352Z",
+    "items": [],
+    "path": "data/other-shops/145057019.json"
+  }
+}

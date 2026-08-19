@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41566,
+    "title": "WindowsXP/Vista/7 DVDソフト もっと姉、ちゃんとしようよっ![限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053241",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053241.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2010-07-30",
+    "listPrice": 10780,
+    "modelNumber": "INH-282",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145053241",
+      "メーカー": "CandySoft",
+      "発売日": "2010/07/30",
+      "定価": "10,780円",
+      "型番": "INH-282",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "サントラCD・デスクトップアクセサリーCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1999,
+    "latestRegularSalePrice": 1999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "サントラCD・デスクトップアクセサリーCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:30.646Z"
+  },
+  "histories": [
+    {
+      "id": 41580,
+      "productId": 41566,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD・デスクトップアクセサリーCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:17.719Z"
+    },
+    {
+      "id": 43965,
+      "productId": 41566,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サントラCD・デスクトップアクセサリーCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:30.646Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053241",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053241",
+    "capturedAt": "2026-08-17T09:36:30.646Z",
+    "items": [],
+    "path": "data/other-shops/145053241.json"
+  }
+}

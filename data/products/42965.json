@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 42965,
+    "title": "Windows98SE/Me/2000/XP DVDソフト きすみみ!! ～Kiss!Me!Me!～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015099",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015099.jpg",
+    "manufacturer": "ぷらす+てぃっく",
+    "releaseDate": "2006-12-08",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015099001",
+      "メーカー": "ぷらす+てぃっく",
+      "発売日": "2006/12/08",
+      "定価": "9,680円",
+      "原画": "羽音るな\n憂姫はぐれ",
+      "シナリオ": "東トナタ",
+      "アーティスト": "MOSAIC.WAV",
+      "声優": "楠鈴音\nかわしまりの\n成瀬未亜\n佐本二厘\nみる\n安玖深音\n野神奈々\n新堂真弓\n木村あやか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "OS": "AIC.WAV",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:41.397Z"
+  },
+  "histories": [
+    {
+      "id": 42979,
+      "productId": 42965,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:41.397Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110752,
+      "productId": 42965,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:16:41.000Z"
+    },
+    {
+      "id": 110751,
+      "productId": 42965,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:16:41.000Z"
+    },
+    {
+      "id": 110750,
+      "productId": 42965,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-17T07:16:41.000Z"
+    },
+    {
+      "id": 110749,
+      "productId": 42965,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:16:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015099",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015099",
+    "capturedAt": "2026-08-17T07:16:41.397Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145015099.json"
+  }
+}

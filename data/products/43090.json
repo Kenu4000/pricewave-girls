@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 43090,
+    "title": "Windows98/Me/2000/XP DVDソフト あまからツインズ～双姉といっしょ～（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014677",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014677.jpg",
+    "manufacturer": "あねせん",
+    "releaseDate": "2006-09-08",
+    "listPrice": 9680,
+    "modelNumber": "UNA-0070",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014677001",
+      "メーカー": "あねせん",
+      "発売日": "2006/09/08",
+      "定価": "9,680円",
+      "型番": "UNA-0070",
+      "原画": "みたらし侯成",
+      "シナリオ": "佐野晋一郎",
+      "声優": "花園朱実\n東かりん\n榎津まお\n伊藤瞳子\n渋谷ひめ\n三池志万子\n茶谷やすら\n伊藤麻衣(声優)\n一色ヒカル\n高木もも\n幕辺つぼ子\n滝川玲\n渡合かずね\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1190,
+    "latestRegularSalePrice": 1190,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:49.534Z"
+  },
+  "histories": [
+    {
+      "id": 43104,
+      "productId": 43090,
+      "salePrice": 1190,
+      "regularSalePrice": 1190,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:49.534Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 111013,
+      "productId": 43090,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1190,
+      "checkedAt": "2026-08-17T07:17:50.000Z"
+    },
+    {
+      "id": 111012,
+      "productId": 43090,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:ディスクのみ",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:17:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014677",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014677",
+    "capturedAt": "2026-08-17T07:17:49.534Z",
+    "items": [
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:ディスクのみ",
+        "price": 800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1190
+      }
+    ],
+    "path": "data/other-shops/145014677.json"
+  }
+}

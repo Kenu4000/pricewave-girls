@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41024,
+    "title": "Windows7 DVDソフト Best Collection 毎日がM!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057734",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057734.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2017-04-21",
+    "listPrice": 3278,
+    "modelNumber": "BC-5001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145057734",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2017/04/21",
+      "定価": "3,278円",
+      "型番": "BC-5001",
+      "原画": "1:02am",
+      "シナリオ": "速水蓮\n須永成人\n金竹射月\nひらいでらく\nにわりはとり",
+      "声優": "桜川未央\nこのかなみ\n倉田まりや\n桃井いちご\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3400,
+    "latestRegularSalePrice": 3400,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:44.494Z"
+  },
+  "histories": [
+    {
+      "id": 41038,
+      "productId": 41024,
+      "salePrice": 3400,
+      "regularSalePrice": 3400,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:08.690Z"
+    },
+    {
+      "id": 52788,
+      "productId": 41024,
+      "salePrice": 3400,
+      "regularSalePrice": 3400,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:44.494Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057734",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057734",
+    "capturedAt": "2026-08-19T16:18:44.494Z",
+    "items": [],
+    "path": "data/other-shops/145057734.json"
+  }
+}

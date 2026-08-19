@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41832,
+    "title": "WindowsXP/Vista DVDソフト ましろ色シンフォニー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040705",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040705.jpg",
+    "manufacturer": "ぱれっと",
+    "releaseDate": "2009-10-30",
+    "listPrice": 9680,
+    "modelNumber": "PALETTE-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145040705",
+      "メーカー": "ぱれっと",
+      "発売日": "2009/10/30",
+      "定価": "9,680円",
+      "型番": "PALETTE-001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2222,
+    "latestRegularSalePrice": 2222,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:50.674Z"
+  },
+  "histories": [
+    {
+      "id": 41846,
+      "productId": 41832,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:46.909Z"
+    },
+    {
+      "id": 53376,
+      "productId": 41832,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:50.674Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040705",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040705",
+    "capturedAt": "2026-08-19T16:23:50.674Z",
+    "items": [],
+    "path": "data/other-shops/145040705.json"
+  }
+}

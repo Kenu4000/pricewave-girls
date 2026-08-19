@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 2715,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ナイものねだりはもうお姉妹",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036118",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036118.jpg",
+    "manufacturer": "Aries",
+    "releaseDate": "2013-04-26",
+    "listPrice": 9680,
+    "modelNumber": "46602085",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036118",
+      "メーカー": "Aries",
+      "発売日": "2013/04/26",
+      "定価": "9,680円",
+      "型番": "46602085",
+      "原画": "有子瑶一\n戌角柾",
+      "シナリオ": "毘沙素\n高津新\n保桜\n芳井一",
+      "声優": "青葉りんご\n一色ヒカル\n桃井穂美\n中家志穂\n雪村とあ\n香澄りょう",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "/外箱難有・ディスクキズ有",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "/外箱難有・ディスクキズ有",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:44.168Z"
+  },
+  "histories": [
+    {
+      "id": 2729,
+      "productId": 2715,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7601,
+      "productId": 2715,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 40822,
+      "productId": 2715,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:57.861Z"
+    },
+    {
+      "id": 52240,
+      "productId": 2715,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外箱難有・ディスクキズ有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:44.168Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036118",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036118",
+    "capturedAt": "2026-08-19T15:33:44.168Z",
+    "items": [],
+    "path": "data/other-shops/145036118.json"
+  }
+}

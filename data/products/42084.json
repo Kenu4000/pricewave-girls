@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42084,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 水スペ 川野口ノブ探検隊～これが秘境だ!人跡未踏!立ちふさがる商店街!八鏡大学に隠された地球最大の謎を追え!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019465",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019465.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2009-03-19",
+    "listPrice": 9680,
+    "modelNumber": "BP-026",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019465",
+      "メーカー": "ライアーソフト",
+      "発売日": "2009/03/19",
+      "定価": "9,680円",
+      "型番": "BP-026",
+      "原画": "みゅらっち\n東麻姫",
+      "シナリオ": "加納京太\n天野佑一\n木村航",
+      "アーティスト": "理多",
+      "声優": "かわしまりの\n桜川未央\n香澄りょう\n草村ケイ\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:21.914Z"
+  },
+  "histories": [
+    {
+      "id": 42098,
+      "productId": 42084,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:03.427Z"
+    },
+    {
+      "id": 53554,
+      "productId": 42084,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:21.914Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019465",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019465",
+    "capturedAt": "2026-08-19T16:25:21.914Z",
+    "items": [],
+    "path": "data/other-shops/145019465.json"
+  }
+}

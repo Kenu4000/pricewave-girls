@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 30875,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Golden Marriage[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053906",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053906.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2014-05-30",
+    "listPrice": 10780,
+    "modelNumber": "WILL-307",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145053906",
+      "メーカー": "ensemble",
+      "発売日": "2014/05/30",
+      "定価": "10,780円",
+      "型番": "WILL-307",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 599,
+    "latestRegularSalePrice": 599,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:22:33.983Z"
+  },
+  "histories": [
+    {
+      "id": 30889,
+      "productId": 30875,
+      "salePrice": 599,
+      "regularSalePrice": 599,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:38.371Z"
+    },
+    {
+      "id": 39642,
+      "productId": 30875,
+      "salePrice": 599,
+      "regularSalePrice": 599,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:33.983Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053906",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053906",
+    "capturedAt": "2026-08-16T01:22:33.983Z",
+    "items": [],
+    "path": "data/other-shops/145053906.json"
+  }
+}

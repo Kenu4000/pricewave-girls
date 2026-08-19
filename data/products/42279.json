@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42279,
+    "title": "Windows2000/XP/Vista DVDソフト こっすこす!あなた好みのコスプレHしてあげる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047008.jpg",
+    "manufacturer": "CLOCKUP team.ANISE",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1286",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145047008",
+      "メーカー": "CLOCKUP team.ANISE",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "SKR-1286",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:37.519Z"
+  },
+  "histories": [
+    {
+      "id": 42293,
+      "productId": 42279,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:09.468Z"
+    },
+    {
+      "id": 44099,
+      "productId": 42279,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:37.519Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047008",
+    "capturedAt": "2026-08-17T09:37:37.519Z",
+    "items": [],
+    "path": "data/other-shops/145047008.json"
+  }
+}

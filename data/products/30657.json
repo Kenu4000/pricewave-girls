@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 30657,
+    "title": "WindowsVista/7/8 CDソフト 妹尻",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047518",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047518.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2014-12-26",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-119",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145047518",
+      "メーカー": "Devil-seal",
+      "発売日": "2014/12/26",
+      "定価": "2,200円",
+      "型番": "DEVL-119",
+      "原画": "ナカジョー",
+      "シナリオ": "佐倉悠",
+      "声優": "森乃泉美\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:20:42.298Z"
+  },
+  "histories": [
+    {
+      "id": 30671,
+      "productId": 30657,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:34.737Z"
+    },
+    {
+      "id": 39433,
+      "productId": 30657,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:42.298Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047518",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047518",
+    "capturedAt": "2026-08-16T01:20:42.298Z",
+    "items": [],
+    "path": "data/other-shops/145047518.json"
+  }
+}

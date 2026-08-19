@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 30834,
+    "title": "WindowsXP/Vista/7/8 CDソフト メイクMeラバー とらのあな特典プラグイン 「オリジナル衣装：ビッチ服(Mボディ専用)＆黒ルートイベント」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044756.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2014-07-25",
+    "listPrice": null,
+    "modelNumber": "TORA-140701",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044756",
+      "メーカー": "KISS",
+      "発売日": "2014/07/25",
+      "型番": "TORA-140701",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:33:04.130Z"
+  },
+  "histories": [
+    {
+      "id": 30848,
+      "productId": 30834,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:14.200Z"
+    },
+    {
+      "id": 45677,
+      "productId": 30834,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:33:04.130Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044756",
+    "capturedAt": "2026-08-17T13:33:04.130Z",
+    "items": [],
+    "path": "data/other-shops/145044756.json"
+  }
+}

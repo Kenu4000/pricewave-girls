@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31854,
+    "title": "WindowsXP/Vista/7 DVDソフト Thief and TROLL",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064567",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064567.jpg",
+    "manufacturer": "縁 -yukari-",
+    "releaseDate": "2012-03-23",
+    "listPrice": 9680,
+    "modelNumber": "YKR004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145064567",
+      "メーカー": "縁 -yukari-",
+      "発売日": "2012/03/23",
+      "定価": "9,680円",
+      "型番": "YKR004",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:44.597Z"
+  },
+  "histories": [
+    {
+      "id": 31868,
+      "productId": 31854,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:12.164Z"
+    },
+    {
+      "id": 40602,
+      "productId": 31854,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:07.383Z"
+    },
+    {
+      "id": 52117,
+      "productId": 31854,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:44.597Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064567",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064567",
+    "capturedAt": "2026-08-19T15:32:44.597Z",
+    "items": [],
+    "path": "data/other-shops/145064567.json"
+  }
+}

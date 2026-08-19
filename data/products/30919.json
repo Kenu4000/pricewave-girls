@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30919,
+    "title": "WindowsVista/7/8 DVDソフト 天秤のLa DEA。 -戦女神MEMORIA-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045183",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045183.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2014-04-25",
+    "listPrice": 10120,
+    "modelNumber": "EUDV-015",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045183",
+      "メーカー": "エウシュリー",
+      "発売日": "2014/04/25",
+      "定価": "10,120円",
+      "型番": "EUDV-015",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:23.815Z"
+  },
+  "histories": [
+    {
+      "id": 30933,
+      "productId": 30919,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:07.201Z"
+    },
+    {
+      "id": 39681,
+      "productId": 30919,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:55.364Z"
+    },
+    {
+      "id": 50823,
+      "productId": 30919,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:23.815Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045183",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045183",
+    "capturedAt": "2026-08-19T05:31:23.815Z",
+    "items": [],
+    "path": "data/other-shops/145045183.json"
+  }
+}

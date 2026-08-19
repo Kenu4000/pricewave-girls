@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 30640,
+    "title": "WindowsVista/7/8 CDソフト 夏神楽 -決戦! 冬の陣-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053416",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053416.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2014-12-27",
+    "listPrice": null,
+    "modelNumber": "DEBO-14007",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145053416001",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2014/12/27",
+      "型番": "DEBO-14007",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "3300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3100,
+    "latestRegularSalePrice": 3300,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:22:27.387Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:40.382Z"
+  },
+  "histories": [
+    {
+      "id": 30654,
+      "productId": 30640,
+      "salePrice": 3100,
+      "regularSalePrice": 3300,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:27.236Z"
+    },
+    {
+      "id": 39419,
+      "productId": 30640,
+      "salePrice": 3100,
+      "regularSalePrice": 3300,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:35.329Z"
+    },
+    {
+      "id": 50628,
+      "productId": 30640,
+      "salePrice": 3100,
+      "regularSalePrice": 3300,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:40.382Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135724,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-19T05:29:40.000Z"
+    },
+    {
+      "id": 135723,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-19T05:29:40.000Z"
+    },
+    {
+      "id": 135722,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-19T05:29:40.000Z"
+    },
+    {
+      "id": 103210,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-16T01:20:35.000Z"
+    },
+    {
+      "id": 103209,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-16T01:20:35.000Z"
+    },
+    {
+      "id": 77308,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-15T23:22:27.000Z"
+    },
+    {
+      "id": 77307,
+      "productId": 30640,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-15T23:22:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053416",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053416",
+    "capturedAt": "2026-08-19T05:29:40.382Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3100
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3100
+      }
+    ],
+    "path": "data/other-shops/145053416.json"
+  }
+}

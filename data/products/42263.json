@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42263,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト X Change Alternative2-キミノヒトミニウツルキミ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018163",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018163.jpg",
+    "manufacturer": "クラウド",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "CB-701",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018163",
+      "メーカー": "クラウド",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "CB-701",
+      "原画": "此花",
+      "シナリオ": "okomeman",
+      "声優": "宇佐美桃香\n成瀬未亜\n民安ともえ\n大波こなみ\n桜川未央\nこんつ\n松永雪希\n植木亨\n新堂真弓\n青島刃\n神崎ちひろ\n立花十四朗\n山本パンダ\n藤流水\n本多啓吾\n紫苑みやび\nきせとしみち",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:24.116Z"
+  },
+  "histories": [
+    {
+      "id": 42277,
+      "productId": 42263,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:54.687Z"
+    },
+    {
+      "id": 53682,
+      "productId": 42263,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:24.116Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018163",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018163",
+    "capturedAt": "2026-08-19T16:26:24.116Z",
+    "items": [],
+    "path": "data/other-shops/145018163.json"
+  }
+}

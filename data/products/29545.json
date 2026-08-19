@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29545,
+    "title": "Windows7/8/10 DVDソフト 肉壺学級 [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063025",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063025.jpg",
+    "manufacturer": "Riddle Soft",
+    "releaseDate": "2018-08-31",
+    "listPrice": 3080,
+    "modelNumber": "RDLS-029",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063025",
+      "メーカー": "Riddle Soft",
+      "発売日": "2018/08/31",
+      "定価": "3,080円",
+      "型番": "RDLS-029",
+      "原画": "てすら\n鳴滝しん",
+      "シナリオ": "百合倉64",
+      "声優": "みなとみなみ\nKOHIRO\n茉莉奈\nさくらぎあおい\n桜城ちか\n風宮悠羽\n三井咲瑛",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2400,
+    "latestRegularSalePrice": 2400,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:30.580Z"
+  },
+  "histories": [
+    {
+      "id": 29559,
+      "productId": 29545,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:12.563Z"
+    },
+    {
+      "id": 38377,
+      "productId": 29545,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:17.013Z"
+    },
+    {
+      "id": 49508,
+      "productId": 29545,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:30.580Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063025",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063025",
+    "capturedAt": "2026-08-19T04:31:30.580Z",
+    "items": [],
+    "path": "data/other-shops/145063025.json"
+  }
+}

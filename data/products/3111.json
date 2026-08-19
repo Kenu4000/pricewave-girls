@@ -1,0 +1,156 @@
+{
+  "product": {
+    "id": 3111,
+    "title": "Windows2000/XP CDソフト あやつりブルマー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012940",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012940.jpg",
+    "manufacturer": "Le.Chocola",
+    "releaseDate": "2005-07-08",
+    "listPrice": 9680,
+    "modelNumber": "CHOAYA-0001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012940",
+      "メーカー": "Le.Chocola",
+      "発売日": "2005/07/08",
+      "定価": "9,680円",
+      "型番": "CHOAYA-0001",
+      "原画": "吉井ダン",
+      "シナリオ": "髪ノ毛座",
+      "声優": "胸肩腎\n成瀬未亜\n柴田蕗\n一色ヒカル\n山久悠\nみすみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:14.633Z"
+  },
+  "histories": [
+    {
+      "id": 3125,
+      "productId": 3111,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36925,
+      "productId": 3111,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:21.213Z"
+    },
+    {
+      "id": 47547,
+      "productId": 3111,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:14.633Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126123,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:06:14.000Z"
+    },
+    {
+      "id": 126122,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-17T16:06:14.000Z"
+    },
+    {
+      "id": 126121,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T16:06:14.000Z"
+    },
+    {
+      "id": 96960,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1200,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96959,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96958,
+      "productId": 3111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145012940",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012940",
+    "capturedAt": "2026-08-17T16:06:14.633Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145012940.json"
+  }
+}

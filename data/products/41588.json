@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41588,
+    "title": "Windows2000/XP/Vista DVDソフト 置き場がない![通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024584",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024584.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2010-07-01",
+    "listPrice": 8580,
+    "modelNumber": "AKA-0031",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024584",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2010/07/01",
+      "定価": "8,580円",
+      "型番": "AKA-0031",
+      "原画": "ikki\n有葉",
+      "シナリオ": "健速",
+      "声優": "桐谷華\nみる\n有栖川みや美\n真琴ひろ\n草柳順子\n石川ゆうすけ\n冬宮メア\n芹園みや\n青島刃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:24.440Z"
+  },
+  "histories": [
+    {
+      "id": 41602,
+      "productId": 41588,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:30.659Z"
+    },
+    {
+      "id": 53200,
+      "productId": 41588,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:24.440Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024584",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024584",
+    "capturedAt": "2026-08-19T16:22:24.440Z",
+    "items": [],
+    "path": "data/other-shops/145024584.json"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 43081,
+    "title": "Windows98/Me/2000/XP CDソフト ヴァリスX ヴァルナ・母と娘(こ)の苦悩",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014680",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014680.jpg",
+    "manufacturer": "イーアンツ",
+    "releaseDate": "2006-09-08",
+    "listPrice": 2178,
+    "modelNumber": "ETC-003",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014680001",
+      "メーカー": "イーアンツ",
+      "発売日": "2006/09/08",
+      "定価": "2,178円",
+      "型番": "ETC-003",
+      "原画": "川合正起",
+      "シナリオ": "きもとべなたか",
+      "声優": "榊若菜\n東かりん\n伊藤瞳子\n中原ありす\n榎津まお\n事務台車\n本多啓吾\n韮井叶\n児玉さとみ\n神奈川拳\n光田まさよし\n嘉島祐",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:45.919Z"
+  },
+  "histories": [
+    {
+      "id": 43095,
+      "productId": 43081,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:45.919Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110985,
+      "productId": 43081,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1814,
+      "checkedAt": "2026-08-17T07:17:46.000Z"
+    },
+    {
+      "id": 110984,
+      "productId": 43081,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-17T07:17:46.000Z"
+    },
+    {
+      "id": 110983,
+      "productId": 43081,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 1360,
+      "checkedAt": "2026-08-17T07:17:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014680",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014680",
+    "capturedAt": "2026-08-17T07:17:45.919Z",
+    "items": [
+      {
+        "storeName": "駿河屋日向店",
+        "condition": "中古",
+        "price": 1360
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1650
+      },
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古通常",
+        "price": 1814
+      }
+    ],
+    "path": "data/other-shops/145014680.json"
+  }
+}

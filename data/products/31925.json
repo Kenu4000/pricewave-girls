@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 31925,
+    "title": "Windows CDソフト Cotton 120% Illustration CD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033975",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033975.jpg",
+    "manufacturer": "コットンソフト",
+    "releaseDate": "2011-12-29",
+    "listPrice": null,
+    "modelNumber": "COTTON-007DVD",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145033975001",
+      "メーカー": "コットンソフト",
+      "発売日": "2011/12/29",
+      "型番": "COTTON-007DVD",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:45:57.602Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:04.632Z"
+  },
+  "histories": [
+    {
+      "id": 31939,
+      "productId": 31925,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:57.550Z"
+    },
+    {
+      "id": 40667,
+      "productId": 31925,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.522Z"
+    },
+    {
+      "id": 52159,
+      "productId": 31925,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:04.632Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31205,
+    "title": "WindowsXP/Vista/7 DVDソフト あおぞらストライプ 初回限定 PREMIUM EDITION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901702",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901702.jpg",
+    "manufacturer": "アストロノーツ・スピカ",
+    "releaseDate": "2013-08-30",
+    "listPrice": 9680,
+    "modelNumber": "AS-006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145901702",
+      "メーカー": "アストロノーツ・スピカ",
+      "発売日": "2013/08/30",
+      "定価": "9,680円",
+      "型番": "AS-006",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:17.019Z"
+  },
+  "histories": [
+    {
+      "id": 31219,
+      "productId": 31205,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:07.480Z"
+    },
+    {
+      "id": 39964,
+      "productId": 31205,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:25.368Z"
+    },
+    {
+      "id": 51035,
+      "productId": 31205,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:17.019Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901702",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901702",
+    "capturedAt": "2026-08-19T05:33:17.019Z",
+    "items": [],
+    "path": "data/other-shops/145901702.json"
+  }
+}

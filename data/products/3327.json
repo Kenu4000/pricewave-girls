@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 3327,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 蹂躙 ～じゅうりん～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015414",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015414.jpg",
+    "manufacturer": "BLACK PACKAGE XXX",
+    "releaseDate": "2007-02-09",
+    "listPrice": 9680,
+    "modelNumber": "BP0056",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015414",
+      "メーカー": "BLACK PACKAGE XXX",
+      "発売日": "2007/02/09",
+      "定価": "9,680円",
+      "型番": "BP0056",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "なかぢ",
+      "アーティスト": "Kala",
+      "声優": "紫苑みやび\n楠鈴音\n幸代彩里\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:50.756Z"
+  },
+  "histories": [
+    {
+      "id": 3341,
+      "productId": 3327,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 44471,
+      "productId": 3327,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:50.756Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015414",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015414",
+    "capturedAt": "2026-08-17T09:40:50.756Z",
+    "items": [],
+    "path": "data/other-shops/145015414.json"
+  }
+}

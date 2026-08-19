@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30889,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 神剣戦隊ブレイドレンジャー -戦闘員の野望-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045902",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045902.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2014-05-23",
+    "listPrice": 9680,
+    "modelNumber": "SKM-833",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145045902",
+      "メーカー": "MAIKA",
+      "発売日": "2014/05/23",
+      "定価": "9,680円",
+      "型番": "SKM-833",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "外箱状態難",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "外箱状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:14.140Z"
+  },
+  "histories": [
+    {
+      "id": 30903,
+      "productId": 30889,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:48.745Z"
+    },
+    {
+      "id": 39657,
+      "productId": 30889,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:41.434Z"
+    },
+    {
+      "id": 50806,
+      "productId": 30889,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:14.140Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045902",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045902",
+    "capturedAt": "2026-08-19T05:31:14.140Z",
+    "items": [],
+    "path": "data/other-shops/145045902.json"
+  }
+}

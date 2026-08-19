@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 51531,
+    "title": "Windows10/11 DVDソフト 夜勤病棟リメイク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080008.jpg",
+    "manufacturer": "FG REMAKE",
+    "releaseDate": "2024-02-22",
+    "listPrice": 10780,
+    "modelNumber": "FGRM-001",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145080008",
+      "メーカー": "FG REMAKE",
+      "発売日": "2024/02/22",
+      "定価": "10,780円",
+      "型番": "FGRM-001",
+      "原画": "上田メタヲ",
+      "声優": "風花ましろ\n白月かなめ\n鳴瀬なごみ\n鶴屋春人\n夏樹柑菜\n綾音まこ",
+      "原作": "Mink",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 5200,
+    "latestRegularSalePrice": 5200,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:04.534Z"
+  },
+  "histories": [
+    {
+      "id": 51545,
+      "productId": 51531,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:31.410Z"
+    },
+    {
+      "id": 52047,
+      "productId": 51531,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:07.117Z"
+    },
+    {
+      "id": 52723,
+      "productId": 51531,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:04.534Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145080008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080008",
+    "capturedAt": "2026-08-19T16:18:04.534Z",
+    "items": [],
+    "path": "data/other-shops/145080008.json"
+  }
+}

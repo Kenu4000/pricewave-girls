@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 31788,
+    "title": "Windows DVDソフト 俺が主人公 天使からのおくりものDISK",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047856",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047856.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2012-05-25",
+    "listPrice": null,
+    "modelNumber": "ILN089-2",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145047856001",
+      "メーカー": "ILLUSION",
+      "発売日": "2012/05/25",
+      "型番": "ILN089-2",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "1750",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:44:13.169Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:05.070Z"
+  },
+  "histories": [
+    {
+      "id": 31802,
+      "productId": 31788,
+      "salePrice": 1650,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:13.012Z"
+    },
+    {
+      "id": 40537,
+      "productId": 31788,
+      "salePrice": 1650,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:32.772Z"
+    },
+    {
+      "id": 51471,
+      "productId": 31788,
+      "salePrice": 1650,
+      "regularSalePrice": 1750,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:05.070Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

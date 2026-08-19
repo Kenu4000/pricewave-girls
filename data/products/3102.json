@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 3102,
+    "title": "Windows95/98 CDソフト SnowDropスノードロップ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003760",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003760.jpg",
+    "manufacturer": "スイートバジル",
+    "releaseDate": "2000-07-20",
+    "listPrice": 9680,
+    "modelNumber": "WILL-0034A",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003760",
+      "メーカー": "スイートバジル",
+      "発売日": "2000/07/20",
+      "定価": "9,680円",
+      "型番": "WILL-0034A",
+      "原画": "しかげなぎ",
+      "シナリオ": "まっすう",
+      "声優": "AKIRA\n白井綾乃\n北条明日香\n木葉楓\n桜井翔子",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:05.074Z"
+  },
+  "histories": [
+    {
+      "id": 3116,
+      "productId": 3102,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36916,
+      "productId": 3102,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:16.374Z"
+    },
+    {
+      "id": 47532,
+      "productId": 3102,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:05.074Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145003760",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003760",
+    "capturedAt": "2026-08-17T16:06:05.074Z",
+    "items": [],
+    "path": "data/other-shops/145003760.json"
+  }
+}

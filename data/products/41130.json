@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 41130,
+    "title": "WindowsXP/Vista/7 DVDソフト ゾンビの同級生はプリンセス -不死人ディテクティブ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028737",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028737.jpg",
+    "manufacturer": "アーベルソフトウェア",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": "ZOMBI-2011",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028737001",
+      "メーカー": "アーベルソフトウェア",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "型番": "ZOMBI-2011",
+      "原画": "七瀬葵",
+      "シナリオ": "菅野ひろゆき",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:59:05.443Z"
+  },
+  "histories": [
+    {
+      "id": 41144,
+      "productId": 41130,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:05.443Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 106964,
+      "productId": 41130,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T06:59:05.000Z"
+    },
+    {
+      "id": 106963,
+      "productId": 41130,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T06:59:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028737",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028737",
+    "capturedAt": "2026-08-17T06:59:05.443Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      }
+    ],
+    "path": "data/other-shops/145028737.json"
+  }
+}

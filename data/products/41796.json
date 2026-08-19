@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41796,
+    "title": "Windows2000/XP/Vista DVDソフト フェイクアズール・アーコロジー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900683",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900683.jpg",
+    "manufacturer": "あっぷりけ-妹-",
+    "releaseDate": "2009-12-17",
+    "listPrice": 9680,
+    "modelNumber": "APS-0002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145900683",
+      "メーカー": "あっぷりけ-妹-",
+      "発売日": "2009/12/17",
+      "定価": "9,680円",
+      "型番": "APS-0002",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4350,
+    "latestRegularSalePrice": 4350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:39.992Z"
+  },
+  "histories": [
+    {
+      "id": 41810,
+      "productId": 41796,
+      "salePrice": 4350,
+      "regularSalePrice": 4350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:28.242Z"
+    },
+    {
+      "id": 53353,
+      "productId": 41796,
+      "salePrice": 4350,
+      "regularSalePrice": 4350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:39.992Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900683",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900683",
+    "capturedAt": "2026-08-19T16:23:39.992Z",
+    "items": [],
+    "path": "data/other-shops/145900683.json"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 30958,
+    "title": "Windows CDソフト BALDRSKY ZERO 2 げっちゅ屋オリジナルデジタルコンテンツCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042262",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042262.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2014-03-28",
+    "listPrice": null,
+    "modelNumber": "GIGA-1403GC",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145042262001",
+      "メーカー": "戯画",
+      "発売日": "2014/03/28",
+      "型番": "GIGA-1403GC",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 380,
+    "latestRegularSalePrice": 380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:11.076Z"
+  },
+  "histories": [
+    {
+      "id": 30972,
+      "productId": 30958,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:28.169Z"
+    },
+    {
+      "id": 39723,
+      "productId": 30958,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:17.627Z"
+    },
+    {
+      "id": 43684,
+      "productId": 30958,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:11.076Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113010,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T09:34:11.000Z"
+    },
+    {
+      "id": 113009,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-08-17T09:34:11.000Z"
+    },
+    {
+      "id": 103886,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T01:23:17.000Z"
+    },
+    {
+      "id": 103885,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-08-16T01:23:17.000Z"
+    },
+    {
+      "id": 78016,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:25:28.000Z"
+    },
+    {
+      "id": 78015,
+      "productId": 30958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-08-15T23:25:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145042262",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042262",
+    "capturedAt": "2026-08-17T09:34:11.076Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 380
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      }
+    ],
+    "path": "data/other-shops/145042262.json"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31970,
+    "title": "WindowsXP/Vista/7 DVDソフト 正しき姫初め+俺色願望",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030633",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030633.jpg",
+    "manufacturer": "乱蝶姫(みだれあげは)",
+    "releaseDate": "2011-11-25",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030633",
+      "メーカー": "乱蝶姫(みだれあげは)",
+      "発売日": "2011/11/25",
+      "定価": "4,180円",
+      "原画": "カズマサ",
+      "シナリオ": "明海つぶら\n佐久間零式改\n比高海",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:19.523Z"
+  },
+  "histories": [
+    {
+      "id": 31984,
+      "productId": 31970,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:24.451Z"
+    },
+    {
+      "id": 40713,
+      "productId": 31970,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:04.289Z"
+    },
+    {
+      "id": 52187,
+      "productId": 31970,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:19.523Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030633",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030633",
+    "capturedAt": "2026-08-19T15:33:19.523Z",
+    "items": [],
+    "path": "data/other-shops/145030633.json"
+  }
+}

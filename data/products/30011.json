@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 30011,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト sweet pool Windows10対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055462",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055462.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2016-09-30",
+    "listPrice": 3520,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145055462",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2016/09/30",
+      "定価": "3,520円",
+      "原画": "オニツカセージ",
+      "シナリオ": "淵井鏑",
+      "声優": "空野太陽\n春野風\n鳩マン軍曹\n緑川光\n厳蝉秋",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 912,
+    "latestRegularSalePrice": 912,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:15:06.880Z"
+  },
+  "histories": [
+    {
+      "id": 30025,
+      "productId": 30011,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:13:00.187Z"
+    },
+    {
+      "id": 38822,
+      "productId": 30011,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:06.880Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055462",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055462",
+    "capturedAt": "2026-08-16T01:15:06.880Z",
+    "items": [],
+    "path": "data/other-shops/145055462.json"
+  }
+}

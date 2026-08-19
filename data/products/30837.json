@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30837,
+    "title": "Windows98/Me/2000/XP DVDソフト 乙女蹂躙遊戯 [復刻版 FFP仕様]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056320",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056320.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2014-07-11",
+    "listPrice": 3850,
+    "modelNumber": "AFRB-028",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145056320",
+      "メーカー": "Guilty",
+      "発売日": "2014/07/11",
+      "定価": "3,850円",
+      "型番": "AFRB-028",
+      "原画": "椋木尋",
+      "シナリオ": "初見Rodeo",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:52.960Z"
+  },
+  "histories": [
+    {
+      "id": 30851,
+      "productId": 30837,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:15.081Z"
+    },
+    {
+      "id": 39606,
+      "productId": 30837,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:14.371Z"
+    },
+    {
+      "id": 50767,
+      "productId": 30837,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:52.960Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056320",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056320",
+    "capturedAt": "2026-08-19T05:30:52.960Z",
+    "items": [],
+    "path": "data/other-shops/145056320.json"
+  }
+}

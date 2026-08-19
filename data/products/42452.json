@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42452,
+    "title": "Windows2000/XP/Vista DVDソフト 裏・催眠術2[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017893",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017893.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2008-04-25",
+    "listPrice": 5280,
+    "modelNumber": "BR-100B",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017893",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2008/04/25",
+      "定価": "5,280円",
+      "型番": "BR-100B",
+      "原画": "吉野恵子",
+      "シナリオ": "NATORI烏賊",
+      "声優": "かわしまりの\n未来羽\n東かりん\n芹園みや\n野神奈々\nてんかわののみ\n楠鈴音\n榎津まお\n金田まひる\n白井綾乃\n海原エレナ\n木梨樹里\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:48.940Z"
+  },
+  "histories": [
+    {
+      "id": 42466,
+      "productId": 42452,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:56.463Z"
+    },
+    {
+      "id": 44122,
+      "productId": 42452,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:48.940Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017893",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017893",
+    "capturedAt": "2026-08-17T09:37:48.940Z",
+    "items": [],
+    "path": "data/other-shops/145017893.json"
+  }
+}

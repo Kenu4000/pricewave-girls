@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 8384,
+    "title": "WindowsVista/7/8 DVDソフト こいなか completebox",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049826",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049826.jpg",
+    "manufacturer": "eRONDO",
+    "releaseDate": "2015-08-21",
+    "listPrice": 12980,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049826",
+      "メーカー": "eRONDO",
+      "発売日": "2015/08/21",
+      "定価": "12,980円",
+      "原画": "本庄マサト",
+      "シナリオ": "駒井半次郎\n神堂劾",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 7980,
+    "latestRegularSalePrice": 7980,
+    "latestBuyPrice": 3300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:05:38.398Z"
+  },
+  "histories": [
+    {
+      "id": 8398,
+      "productId": 8384,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 26825,
+      "productId": 8384,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:37.420Z"
+    },
+    {
+      "id": 37761,
+      "productId": 8384,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:38.398Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049826",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049826",
+    "capturedAt": "2026-08-16T01:05:38.398Z",
+    "items": [],
+    "path": "data/other-shops/145049826.json"
+  }
+}

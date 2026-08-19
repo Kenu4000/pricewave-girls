@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41338,
+    "title": "WindowsXP/Vista/7 DVDソフト Flyable CandyHeart[初回生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039353",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039353.jpg",
+    "manufacturer": "ユニゾンシフト：ブロッサム",
+    "releaseDate": "2011-02-25",
+    "listPrice": 8580,
+    "modelNumber": "G9038644",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145039353",
+      "メーカー": "ユニゾンシフト：ブロッサム",
+      "発売日": "2011/02/25",
+      "定価": "8,580円",
+      "型番": "G9038644",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "特典欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1999,
+    "latestRegularSalePrice": 1999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "特典欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:25:59.435Z"
+  },
+  "histories": [
+    {
+      "id": 41352,
+      "productId": 41338,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "特典欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:58.200Z"
+    },
+    {
+      "id": 48763,
+      "productId": 41338,
+      "salePrice": 1999,
+      "regularSalePrice": 1999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "特典欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:59.435Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039353",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039353",
+    "capturedAt": "2026-08-19T04:25:59.435Z",
+    "items": [],
+    "path": "data/other-shops/145039353.json"
+  }
+}

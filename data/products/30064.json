@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 30064,
+    "title": "Windows CDソフト 家族は(俺以外)サキュバスでした 咲葉楓 抱き枕カバー付属淫靡なボイスドラマディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080565",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080565.jpg",
+    "manufacturer": "ルネソフト",
+    "releaseDate": "2023-12-29",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145080565001",
+      "メーカー": "ルネソフト",
+      "発売日": "2023/12/29",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4300,
+    "latestRegularSalePrice": 4300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:18.771Z"
+  },
+  "histories": [
+    {
+      "id": 30078,
+      "productId": 30064,
+      "salePrice": 4080,
+      "regularSalePrice": 4300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:24.006Z"
+    },
+    {
+      "id": 38875,
+      "productId": 30064,
+      "salePrice": 4080,
+      "regularSalePrice": 4300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:36.490Z"
+    },
+    {
+      "id": 49888,
+      "productId": 30064,
+      "salePrice": 4300,
+      "regularSalePrice": 4300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:18.771Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133304,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4300,
+      "checkedAt": "2026-08-19T04:34:19.000Z"
+    },
+    {
+      "id": 133303,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4311,
+      "checkedAt": "2026-08-19T04:34:19.000Z"
+    },
+    {
+      "id": 133302,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4300,
+      "checkedAt": "2026-08-19T04:34:19.000Z"
+    },
+    {
+      "id": 102025,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4311,
+      "checkedAt": "2026-08-16T01:15:36.000Z"
+    },
+    {
+      "id": 102024,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4080,
+      "checkedAt": "2026-08-16T01:15:36.000Z"
+    },
+    {
+      "id": 76047,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4311,
+      "checkedAt": "2026-08-15T23:16:24.000Z"
+    },
+    {
+      "id": 76046,
+      "productId": 30064,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4080,
+      "checkedAt": "2026-08-15T23:16:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080565",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080565",
+    "capturedAt": "2026-08-19T04:34:18.771Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 4300
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 4311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4300
+      }
+    ],
+    "path": "data/other-shops/145080565.json"
+  }
+}

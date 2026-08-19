@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 3204,
+    "title": "WindowsXP/Vista/7 DVDソフト どうして抱いてくれないのっ!?ー女の子だってヤりたいの!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028734",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028734.jpg",
+    "manufacturer": "chococo",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": "WILL-262",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028734",
+      "メーカー": "chococo",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "型番": "WILL-262",
+      "原画": "七\n武シノブ\n河井まりあ",
+      "シナリオ": "一鷹\n来夢みんと",
+      "声優": "藤咲ウサ\nまきいづみ\n御景椿\n逢川奈々\n遠野そよぎ\n青山ゆかり\n多富満\n桃井いちご",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 450,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:48.502Z"
+  },
+  "histories": [
+    {
+      "id": 3218,
+      "productId": 3204,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 44469,
+      "productId": 3204,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:48.502Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115020,
+      "productId": 3204,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2460,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    },
+    {
+      "id": 115019,
+      "productId": 3204,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+      "price": 1350,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    },
+    {
+      "id": 115018,
+      "productId": 3204,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1040,
+      "checkedAt": "2026-08-17T09:40:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028734",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028734",
+    "capturedAt": "2026-08-17T09:40:48.502Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1040
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+        "price": 1350
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2460
+      }
+    ],
+    "path": "data/other-shops/145028734.json"
+  }
+}

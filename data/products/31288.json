@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31288,
+    "title": "WindowsXP/Vista/7 CDソフト なつくもゆるる「Hシーン追加ディスク 紫穂」＆「オリジナルドラマCD」(ソフマップ特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037887.jpg",
+    "manufacturer": "すみっこ",
+    "releaseDate": "2013-06-28",
+    "listPrice": null,
+    "modelNumber": "SSNY-1306SM",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145037887",
+      "メーカー": "すみっこ",
+      "発売日": "2013/06/28",
+      "型番": "SSNY-1306SM",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:48.383Z"
+  },
+  "histories": [
+    {
+      "id": 31302,
+      "productId": 31288,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:06.782Z"
+    },
+    {
+      "id": 40042,
+      "productId": 31288,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:39.120Z"
+    },
+    {
+      "id": 51095,
+      "productId": 31288,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:48.383Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037887",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037887",
+    "capturedAt": "2026-08-19T05:33:48.383Z",
+    "items": [],
+    "path": "data/other-shops/145037887.json"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42909,
+    "title": "Windows98/Me/2000/XP CDソフト となりの魔王使い [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015393",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015393.jpg",
+    "manufacturer": "び～にゃん",
+    "releaseDate": "2007-01-26",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015393",
+      "メーカー": "び～にゃん",
+      "発売日": "2007/01/26",
+      "定価": "4,180円",
+      "原画": "あんこ工房",
+      "シナリオ": "津久間一裕",
+      "音楽": "本山音響",
+      "声優": "藍川たまき\n姫羅翔子\n山田バレリー\n神無月メイ\n佐藤おりえ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:13.831Z"
+  },
+  "histories": [
+    {
+      "id": 42923,
+      "productId": 42909,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:13.831Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015393",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015393",
+    "capturedAt": "2026-08-17T07:16:13.831Z",
+    "items": [],
+    "path": "data/other-shops/145015393.json"
+  }
+}

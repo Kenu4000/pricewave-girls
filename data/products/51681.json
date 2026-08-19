@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 51681,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 淫辱スタジオ ～背徳の密室オーディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016235",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016235.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2007-06-29",
+    "listPrice": 3300,
+    "modelNumber": "KRH-00007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016235001",
+      "メーカー": "黒雛",
+      "発売日": "2007/06/29",
+      "定価": "3,300円",
+      "型番": "KRH-00007",
+      "原画": "媚少女A",
+      "声優": "春乃うらら\n紫陽花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:57.170Z"
+  },
+  "histories": [
+    {
+      "id": 51695,
+      "productId": 51681,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:57.170Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137879,
+      "productId": 51681,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T09:29:57.000Z"
+    },
+    {
+      "id": 137878,
+      "productId": 51681,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 1760,
+      "checkedAt": "2026-08-19T09:29:57.000Z"
+    },
+    {
+      "id": 137877,
+      "productId": 51681,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T09:29:57.000Z"
+    },
+    {
+      "id": 137876,
+      "productId": 51681,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T09:29:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016235",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016235",
+    "capturedAt": "2026-08-19T09:29:57.170Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "東京書店蟹江店",
+        "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+        "price": 1760
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145016235.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42100,
+    "title": "Windows2000/XP/Vista CDソフト 狂イク指導2～大和撫子増殖計画～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019457",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019457.jpg",
+    "manufacturer": "極フェロ",
+    "releaseDate": "2009-03-06",
+    "listPrice": 3122,
+    "modelNumber": "GKF-00010",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019457",
+      "メーカー": "極フェロ",
+      "発売日": "2009/03/06",
+      "定価": "3,122円",
+      "型番": "GKF-00010",
+      "原画": "フィリーネ・改",
+      "シナリオ": "蟹人",
+      "声優": "葉村夏緒\n桃井いちご",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1078,
+    "latestRegularSalePrice": 1078,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:27.860Z"
+  },
+  "histories": [
+    {
+      "id": 42114,
+      "productId": 42100,
+      "salePrice": 1078,
+      "regularSalePrice": 1078,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:13.678Z"
+    },
+    {
+      "id": 53567,
+      "productId": 42100,
+      "salePrice": 1078,
+      "regularSalePrice": 1078,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:27.860Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019457",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019457",
+    "capturedAt": "2026-08-19T16:25:27.860Z",
+    "items": [],
+    "path": "data/other-shops/145019457.json"
+  }
+}

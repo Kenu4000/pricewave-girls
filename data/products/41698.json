@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41698,
+    "title": "WindowsXP/Vista/7 DVDソフト Candy Doll [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023216",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023216.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2010-03-19",
+    "listPrice": 9680,
+    "modelNumber": "ALL-008",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023216",
+      "メーカー": "ALL-TiME",
+      "発売日": "2010/03/19",
+      "定価": "9,680円",
+      "型番": "ALL-008",
+      "原画": "さだヲ",
+      "シナリオ": "須永成人",
+      "アーティスト": "桃井はるこ",
+      "声優": "桃井いちご\nかわしまりの\n遠野そよぎ\n有栖川みや美\n小倉結衣",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2275,
+    "latestRegularSalePrice": 2275,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:40.859Z"
+  },
+  "histories": [
+    {
+      "id": 41712,
+      "productId": 41698,
+      "salePrice": 2275,
+      "regularSalePrice": 2275,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:37.855Z"
+    },
+    {
+      "id": 43987,
+      "productId": 41698,
+      "salePrice": 2275,
+      "regularSalePrice": 2275,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:40.859Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023216",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023216",
+    "capturedAt": "2026-08-17T09:36:40.859Z",
+    "items": [],
+    "path": "data/other-shops/145023216.json"
+  }
+}

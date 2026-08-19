@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 31943,
+    "title": "Windows CDソフト 聖麗奴学園 デジタル原画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031252",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031252.jpg",
+    "manufacturer": "Liquid",
+    "releaseDate": "2011-12-22",
+    "listPrice": null,
+    "modelNumber": "SRDG-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145031252001",
+      "メーカー": "Liquid",
+      "発売日": "2011/12/22",
+      "型番": "SRDG-SMSP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:11.676Z"
+  },
+  "histories": [
+    {
+      "id": 31957,
+      "productId": 31943,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:07.528Z"
+    },
+    {
+      "id": 40687,
+      "productId": 31943,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:49.995Z"
+    },
+    {
+      "id": 52172,
+      "productId": 31943,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:11.676Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 139851,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T15:33:11.000Z"
+    },
+    {
+      "id": 139850,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T15:33:11.000Z"
+    },
+    {
+      "id": 139849,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T15:33:11.000Z"
+    },
+    {
+      "id": 105741,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:32:50.000Z"
+    },
+    {
+      "id": 105740,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T01:32:50.000Z"
+    },
+    {
+      "id": 79900,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:46:07.000Z"
+    },
+    {
+      "id": 79899,
+      "productId": 31943,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-15T23:46:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031252",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031252",
+    "capturedAt": "2026-08-19T15:33:11.676Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145031252.json"
+  }
+}

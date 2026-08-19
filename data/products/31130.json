@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 31130,
+    "title": "WindowsXP/Vista/7 DVDソフト ねこねこプレミアムBOX3 価格改定版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038618",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038618.jpg",
+    "manufacturer": "E-ne!",
+    "releaseDate": "2013-10-25",
+    "listPrice": 4620,
+    "modelNumber": "ENE-013",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038618",
+      "メーカー": "E-ne!",
+      "発売日": "2013/10/25",
+      "定価": "4,620円",
+      "型番": "ENE-013",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4570,
+    "latestRegularSalePrice": 4570,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:24:48.311Z"
+  },
+  "histories": [
+    {
+      "id": 31144,
+      "productId": 31130,
+      "salePrice": 4570,
+      "regularSalePrice": 4570,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:14.069Z"
+    },
+    {
+      "id": 39886,
+      "productId": 31130,
+      "salePrice": 4570,
+      "regularSalePrice": 4570,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:48.311Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038618",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038618",
+    "capturedAt": "2026-08-16T01:24:48.311Z",
+    "items": [],
+    "path": "data/other-shops/145038618.json"
+  }
+}

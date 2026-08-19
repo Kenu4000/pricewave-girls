@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 41090,
+    "title": "WindowsXP/Vista/7 DVDソフト VenusBlood -ABYSS-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029568",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029568.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2011-09-30",
+    "listPrice": 9680,
+    "modelNumber": "TD-09",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029568001",
+      "メーカー": "Dual Tail",
+      "発売日": "2011/09/30",
+      "定価": "9,680円",
+      "型番": "TD-09",
+      "原画": "トシぞー\n丹下ゲンタ",
+      "シナリオ": "イルカ\n西矢沙広\nけーまる\n青木きりん",
+      "声優": "渋谷ひめ\n安堂りゅう\n富樫ケイ\n佐藤玲羅\n桃也みなみ\n有賀桃\n榊木春乃\n藤堂みさき\n相本さくら\n咲ゆたか\n梅椿鬼",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:58:45.511Z"
+  },
+  "histories": [
+    {
+      "id": 41104,
+      "productId": 41090,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:45.511Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 106860,
+      "productId": 41090,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1480,
+      "checkedAt": "2026-08-17T06:58:45.000Z"
+    },
+    {
+      "id": 106859,
+      "productId": 41090,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-17T06:58:45.000Z"
+    },
+    {
+      "id": 106858,
+      "productId": 41090,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-17T06:58:45.000Z"
+    },
+    {
+      "id": 106857,
+      "productId": 41090,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 880,
+      "checkedAt": "2026-08-17T06:58:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029568",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029568",
+    "capturedAt": "2026-08-17T06:58:45.511Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱難有",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145029568.json"
+  }
+}

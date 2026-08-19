@@ -1,0 +1,136 @@
+{
+  "product": {
+    "id": 42638,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト おしえて巫女先生 弐 （ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016581",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016581.jpg",
+    "manufacturer": "ユニコーンエー",
+    "releaseDate": "2007-10-12",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016581001",
+      "メーカー": "ユニコーンエー",
+      "発売日": "2007/10/12",
+      "定価": "9,680円",
+      "原画": "ごまさとし",
+      "シナリオ": "長谷川藍",
+      "声優": "韮井叶\n金松由花\n大波こなみ\n宇佐美桃香\n渋谷ひめ\n一色ヒカル",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145016581?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:52.213Z"
+  },
+  "histories": [
+    {
+      "id": 42652,
+      "productId": 42638,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:42.510Z"
+    },
+    {
+      "id": 53964,
+      "productId": 42638,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:52.213Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144593,
+      "productId": 42638,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:28:52.000Z"
+    },
+    {
+      "id": 144592,
+      "productId": 42638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1855,
+      "checkedAt": "2026-08-19T16:28:52.000Z"
+    },
+    {
+      "id": 144591,
+      "productId": 42638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ランクB",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:28:52.000Z"
+    },
+    {
+      "id": 110084,
+      "productId": 42638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1865,
+      "checkedAt": "2026-08-17T07:13:42.000Z"
+    },
+    {
+      "id": 110083,
+      "productId": 42638,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:13:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016581",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016581",
+    "capturedAt": "2026-08-19T16:28:52.213Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古ランクB",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1855
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145016581.json"
+  }
+}

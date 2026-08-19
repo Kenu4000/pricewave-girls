@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41378,
+    "title": "WindowsXP/Vista/7 DVDソフト 雀極姫",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052571",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052571.jpg",
+    "manufacturer": "unicorn-a / げーせん18",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145052571",
+      "メーカー": "unicorn-a / げーせん18",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱状態難※中箱含む",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱状態難※中箱含む",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:11.960Z"
+  },
+  "histories": [
+    {
+      "id": 41392,
+      "productId": 41378,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難※中箱含む",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:21.324Z"
+    },
+    {
+      "id": 53055,
+      "productId": 41378,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難※中箱含む",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:11.960Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052571",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052571",
+    "capturedAt": "2026-08-19T16:21:11.960Z",
+    "items": [],
+    "path": "data/other-shops/145052571.json"
+  }
+}

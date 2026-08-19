@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31428,
+    "title": "WindowsXP/Vista/7 DVDソフト ゴア・スクリーミング・ショウ 価格改定版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036066",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036066.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2013-02-22",
+    "listPrice": 4400,
+    "modelNumber": "BCYC-616",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036066",
+      "メーカー": "Black Cyc",
+      "発売日": "2013/02/22",
+      "定価": "4,400円",
+      "型番": "BCYC-616",
+      "原画": "上田メタヲ",
+      "シナリオ": "草壁祭",
+      "声優": "みる\n木村あやか\n柴田蕗\n風音\n北都南",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9111,
+    "latestRegularSalePrice": 9111,
+    "latestBuyPrice": 4500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:43.185Z"
+  },
+  "histories": [
+    {
+      "id": 31442,
+      "productId": 31428,
+      "salePrice": 9111,
+      "regularSalePrice": 9111,
+      "buyPrice": 4500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:44.729Z"
+    },
+    {
+      "id": 40180,
+      "productId": 31428,
+      "salePrice": 9111,
+      "regularSalePrice": 9111,
+      "buyPrice": 4500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:47.188Z"
+    },
+    {
+      "id": 43748,
+      "productId": 31428,
+      "salePrice": 9111,
+      "regularSalePrice": 9111,
+      "buyPrice": 4500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:43.185Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036066",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036066",
+    "capturedAt": "2026-08-17T09:34:43.185Z",
+    "items": [],
+    "path": "data/other-shops/145036066.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41029,
+    "title": "WindowsVista/7/8/10 DVDソフト 生命のスペア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054798",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054798.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2016-08-26",
+    "listPrice": 5280,
+    "modelNumber": "AKT-0017",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054798",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2016/08/26",
+      "定価": "5,280円",
+      "型番": "AKT-0017",
+      "原画": "秋空もみぢ",
+      "シナリオ": "中島大河",
+      "声優": "立花十四朗\n橘まお\n花澤さくら\n手塚りょうこ\n植木亨",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9800,
+    "latestRegularSalePrice": 9800,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:46.703Z"
+  },
+  "histories": [
+    {
+      "id": 41043,
+      "productId": 41029,
+      "salePrice": 9800,
+      "regularSalePrice": 9800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:12.341Z"
+    },
+    {
+      "id": 52792,
+      "productId": 41029,
+      "salePrice": 9800,
+      "regularSalePrice": 9800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:46.703Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054798",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054798",
+    "capturedAt": "2026-08-19T16:18:46.703Z",
+    "items": [],
+    "path": "data/other-shops/145054798.json"
+  }
+}

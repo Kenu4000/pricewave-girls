@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31121,
+    "title": "WindowsXP/Vista/7/8 DVDソフト インモラル病棟 プレミアムディスク＆インモラルスタジオ(2枚組)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040587",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040587.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2013-11-01",
+    "listPrice": null,
+    "modelNumber": "ILN094-1",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145040587",
+      "メーカー": "ILLUSION",
+      "発売日": "2013/11/01",
+      "型番": "ILN094-1",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:45.420Z"
+  },
+  "histories": [
+    {
+      "id": 31135,
+      "productId": 31121,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:08.604Z"
+    },
+    {
+      "id": 39880,
+      "productId": 31121,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:44.146Z"
+    },
+    {
+      "id": 50975,
+      "productId": 31121,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:45.420Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040587",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040587",
+    "capturedAt": "2026-08-19T05:32:45.420Z",
+    "items": [],
+    "path": "data/other-shops/145040587.json"
+  }
+}

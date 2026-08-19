@@ -1,0 +1,139 @@
+{
+  "product": {
+    "id": 42472,
+    "title": "Windows CDソフト プリンセス フロンティア SPECIAL DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028586",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028586.jpg",
+    "manufacturer": "AXL.",
+    "releaseDate": "2008-03-28",
+    "listPrice": null,
+    "modelNumber": "AXL-0011",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145028586001",
+      "メーカー": "AXL.",
+      "発売日": "2008/03/28",
+      "型番": "AXL-0011",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:53.838Z"
+  },
+  "histories": [
+    {
+      "id": 42486,
+      "productId": 42472,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:08.600Z"
+    },
+    {
+      "id": 44131,
+      "productId": 42472,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:53.838Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114178,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-17T09:37:53.000Z"
+    },
+    {
+      "id": 114177,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:37:53.000Z"
+    },
+    {
+      "id": 114176,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 250,
+      "checkedAt": "2026-08-17T09:37:53.000Z"
+    },
+    {
+      "id": 109769,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-17T07:12:08.000Z"
+    },
+    {
+      "id": 109768,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:12:08.000Z"
+    },
+    {
+      "id": 109767,
+      "productId": 42472,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 250,
+      "checkedAt": "2026-08-17T07:12:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028586",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028586",
+    "capturedAt": "2026-08-17T09:37:53.838Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 250
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 411
+      }
+    ],
+    "path": "data/other-shops/145028586.json"
+  }
+}

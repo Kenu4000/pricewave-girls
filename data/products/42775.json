@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 42775,
+    "title": "Windows CDソフト 桃華月憚 デスクトップアクセサリー 詰合せディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028422",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "オービット",
+    "releaseDate": "2007-06-01",
+    "listPrice": null,
+    "modelNumber": "ROOT-0016",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145028422",
+      "メーカー": "オービット",
+      "発売日": "2007/06/01",
+      "型番": "ROOT-0016",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:56.949Z"
+  },
+  "histories": [
+    {
+      "id": 42789,
+      "productId": 42775,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:56.949Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028422",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028422",
+    "capturedAt": "2026-08-17T07:14:56.949Z",
+    "items": [],
+    "path": "data/other-shops/145028422.json"
+  }
+}

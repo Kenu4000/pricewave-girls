@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31823,
+    "title": "WindowsXP/Vista/7 DVDソフト またにてぃもんすたぁず! ハクア＆オオコ編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031724",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031724.jpg",
+    "manufacturer": "スナック・ファクトリー",
+    "releaseDate": "2012-04-13",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031724",
+      "メーカー": "スナック・ファクトリー",
+      "発売日": "2012/04/13",
+      "定価": "3,300円",
+      "原画": "雛咲",
+      "シナリオ": "短編工坊",
+      "声優": "加乃みるく\n唯香\n森山いちご",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:21.353Z"
+  },
+  "histories": [
+    {
+      "id": 31837,
+      "productId": 31823,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:41.894Z"
+    },
+    {
+      "id": 40572,
+      "productId": 31823,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:51.690Z"
+    },
+    {
+      "id": 51496,
+      "productId": 31823,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:21.353Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031724",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031724",
+    "capturedAt": "2026-08-19T05:37:21.353Z",
+    "items": [],
+    "path": "data/other-shops/145031724.json"
+  }
+}

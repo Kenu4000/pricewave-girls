@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 8527,
+    "title": "Windows95 CDソフト 卒業写真2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001630",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001630.jpg",
+    "manufacturer": "ジャニス",
+    "releaseDate": null,
+    "listPrice": 6380,
+    "modelNumber": "JAR-0304",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001630",
+      "メーカー": "ジャニス",
+      "定価": "6,380円",
+      "型番": "JAR-0304",
+      "原画": "影崎由那",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:27.072Z"
+  },
+  "histories": [
+    {
+      "id": 8541,
+      "productId": 8527,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 23166,
+      "productId": 8527,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:38:02.512Z"
+    },
+    {
+      "id": 37888,
+      "productId": 8527,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:44.159Z"
+    },
+    {
+      "id": 48351,
+      "productId": 8527,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:27.072Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145001630",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001630",
+    "capturedAt": "2026-08-17T16:13:27.072Z",
+    "items": [],
+    "path": "data/other-shops/145001630.json"
+  }
+}

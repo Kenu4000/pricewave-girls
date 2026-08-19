@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 42479,
+    "title": "Windows2000/XP/Vista DVDソフト 瞳の烙淫～淫縛の牝奴隷～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017627",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017627.jpg",
+    "manufacturer": "WitchFlame",
+    "releaseDate": "2008-03-28",
+    "listPrice": 9680,
+    "modelNumber": "WIF-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017627001",
+      "メーカー": "WitchFlame",
+      "発売日": "2008/03/28",
+      "定価": "9,680円",
+      "型番": "WIF-001",
+      "原画": "白井恵利子",
+      "シナリオ": "show-ziii\n石弓達也\n想ファクトリー\nひらいでらく\n縛乃好",
+      "声優": "民安ともえ\nかわしまりの\n安堂りゅう\n春日アン\n広森なずな",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:48.649Z"
+  },
+  "histories": [
+    {
+      "id": 42493,
+      "productId": 42479,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:11.321Z"
+    },
+    {
+      "id": 53847,
+      "productId": 42479,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:48.649Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144326,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:27:48.000Z"
+    },
+    {
+      "id": 144325,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+      "price": 1350,
+      "checkedAt": "2026-08-19T16:27:48.000Z"
+    },
+    {
+      "id": 144324,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-19T16:27:48.000Z"
+    },
+    {
+      "id": 144323,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:27:48.000Z"
+    },
+    {
+      "id": 109781,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+      "price": 1350,
+      "checkedAt": "2026-08-17T07:12:11.000Z"
+    },
+    {
+      "id": 109780,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-17T07:12:11.000Z"
+    },
+    {
+      "id": 109779,
+      "productId": 42479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:12:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017627",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017627",
+    "capturedAt": "2026-08-19T16:27:48.649Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+        "price": 1350
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145017627.json"
+  }
+}

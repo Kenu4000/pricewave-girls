@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31683,
+    "title": "WindowsXP/Vista/7 DVDソフト ねこぷちファンディスク C82",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034497.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2012-08-10",
+    "listPrice": null,
+    "modelNumber": "NEKO2-052",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034497",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2012/08/10",
+      "型番": "NEKO2-052",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:23.157Z"
+  },
+  "histories": [
+    {
+      "id": 31697,
+      "productId": 31683,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:55.319Z"
+    },
+    {
+      "id": 40432,
+      "productId": 31683,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:44.402Z"
+    },
+    {
+      "id": 51390,
+      "productId": 31683,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:23.157Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034497",
+    "capturedAt": "2026-08-19T05:36:23.157Z",
+    "items": [],
+    "path": "data/other-shops/145034497.json"
+  }
+}

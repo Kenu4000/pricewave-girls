@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31074,
+    "title": "WindowsXP/Vista/7/8 DVDソフト つよきす NEXT[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046220",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046220.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2013-12-20",
+    "listPrice": 10450,
+    "modelNumber": "INH-313",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046220",
+      "メーカー": "CandySoft",
+      "発売日": "2013/12/20",
+      "定価": "10,450円",
+      "型番": "INH-313",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:18.528Z"
+  },
+  "histories": [
+    {
+      "id": 31088,
+      "productId": 31074,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:38.439Z"
+    },
+    {
+      "id": 39831,
+      "productId": 31074,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:19.406Z"
+    },
+    {
+      "id": 43699,
+      "productId": 31074,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:18.528Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046220",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046220",
+    "capturedAt": "2026-08-17T09:34:18.528Z",
+    "items": [],
+    "path": "data/other-shops/145046220.json"
+  }
+}

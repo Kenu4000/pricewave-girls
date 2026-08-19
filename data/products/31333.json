@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31333,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋もHもお勉強も、おまかせ!お姉ちゃん部",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059954",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059954.jpg",
+    "manufacturer": "マーブルCandySoft",
+    "releaseDate": "2013-05-31",
+    "listPrice": 7344,
+    "modelNumber": "INH-305",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145059954",
+      "メーカー": "マーブルCandySoft",
+      "発売日": "2013/05/31",
+      "定価": "7,344円",
+      "型番": "INH-305",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:09.682Z"
+  },
+  "histories": [
+    {
+      "id": 31347,
+      "productId": 31333,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:35.802Z"
+    },
+    {
+      "id": 40089,
+      "productId": 31333,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:02.950Z"
+    },
+    {
+      "id": 51137,
+      "productId": 31333,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:09.682Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059954",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059954",
+    "capturedAt": "2026-08-19T05:34:09.682Z",
+    "items": [],
+    "path": "data/other-shops/145059954.json"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31105,
+    "title": "WindowsXP/Vista/7/8 DVDソフト あねいもNeo+ Second Sisters",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053774",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053774.jpg",
+    "manufacturer": "bootUP!",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145053774",
+      "メーカー": "bootUP!",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4500,
+    "latestRegularSalePrice": 4500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:19.385Z"
+  },
+  "histories": [
+    {
+      "id": 31119,
+      "productId": 31105,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:58.743Z"
+    },
+    {
+      "id": 39866,
+      "productId": 31105,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:37.532Z"
+    },
+    {
+      "id": 43703,
+      "productId": 31105,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:19.385Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053774",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053774",
+    "capturedAt": "2026-08-17T09:34:19.385Z",
+    "items": [],
+    "path": "data/other-shops/145053774.json"
+  }
+}

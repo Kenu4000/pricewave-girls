@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 3159,
+    "title": "Windows98/Me/2000/XP DVDソフト ミライファンディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015562",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015562.jpg",
+    "manufacturer": "FlyingShine黒",
+    "releaseDate": "2007-02-23",
+    "listPrice": 5280,
+    "modelNumber": "FS-021",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015562001",
+      "メーカー": "FlyingShine黒",
+      "発売日": "2007/02/23",
+      "定価": "5,280円",
+      "型番": "FS-021",
+      "原画": "相川亜利砂",
+      "シナリオ": "三宅蒼色",
+      "声優": "吉川華生\n乃田あす実\n榎津まお\nカンザキカナリ\nかわしまりの\n大波こなみ\n歌織\n一色ヒカル\n草柳順子\n金田まひる\n児玉さとみ\n飯田空\n楠鈴音",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "サウンドトラックCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "サウンドトラックCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:35.316Z"
+  },
+  "histories": [
+    {
+      "id": 3173,
+      "productId": 3159,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36968,
+      "productId": 3159,
+      "salePrice": 600,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:42.433Z"
+    },
+    {
+      "id": 47583,
+      "productId": 3159,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "サウンドトラックCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:35.316Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126252,
+      "productId": 3159,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 126251,
+      "productId": 3159,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古サウンドトラックCD欠品",
+      "price": 700,
+      "checkedAt": "2026-08-17T16:06:35.000Z"
+    },
+    {
+      "id": 97114,
+      "productId": 3159,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T00:58:42.000Z"
+    },
+    {
+      "id": 97113,
+      "productId": 3159,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-16T00:58:42.000Z"
+    },
+    {
+      "id": 97112,
+      "productId": 3159,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古サウンドトラックCD欠品",
+      "price": 600,
+      "checkedAt": "2026-08-16T00:58:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015562",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015562",
+    "capturedAt": "2026-08-17T16:06:35.316Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古サウンドトラックCD欠品",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145015562.json"
+  }
+}

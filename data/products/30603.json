@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30603,
+    "title": "Windows2000/XP/Vista/7/8 DVDソフト 超・秘湯めぐり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048161",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048161.jpg",
+    "manufacturer": "Potage（ポタージュ）",
+    "releaseDate": "2015-02-27",
+    "listPrice": 9680,
+    "modelNumber": "HB-101",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048161",
+      "メーカー": "Potage（ポタージュ）",
+      "発売日": "2015/02/27",
+      "定価": "9,680円",
+      "型番": "HB-101",
+      "声優": "奥山歩\n寧々\n朝霧叶\n茉莉奈\n桜城ちか\n紅月奏美\n佐倉江美\n芹園みや\n千愛",
+      "原画": "てすら\n鳴滝しん",
+      "シナリオ": "百合倉裏側",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:27.318Z"
+  },
+  "histories": [
+    {
+      "id": 30617,
+      "productId": 30603,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:56.151Z"
+    },
+    {
+      "id": 39389,
+      "productId": 30603,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:19.222Z"
+    },
+    {
+      "id": 50604,
+      "productId": 30603,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:27.318Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048161",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048161",
+    "capturedAt": "2026-08-19T05:29:27.318Z",
+    "items": [],
+    "path": "data/other-shops/145048161.json"
+  }
+}

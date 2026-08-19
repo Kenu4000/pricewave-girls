@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 1902,
+    "title": "Windows7/8/10 DVDソフト 変態 穴マニア [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069057",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069057.jpg",
+    "manufacturer": "Riddle Soft",
+    "releaseDate": "2020-06-26",
+    "listPrice": 1408,
+    "modelNumber": "7RDLS-031",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069057",
+      "メーカー": "Riddle Soft",
+      "発売日": "2020/06/26",
+      "定価": "1,408円",
+      "型番": "7RDLS-031",
+      "原画": "てすら\n鳴滝しん",
+      "シナリオ": "百合倉VR",
+      "声優": "寧々\n野ノ宮恋",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:39:40.228Z"
+  },
+  "histories": [
+    {
+      "id": 1916,
+      "productId": 1902,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:42.000Z"
+    },
+    {
+      "id": 6795,
+      "productId": 1902,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:04.000Z"
+    },
+    {
+      "id": 36009,
+      "productId": 1902,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:50:09.970Z"
+    },
+    {
+      "id": 46491,
+      "productId": 1902,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:40.228Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 92984,
+      "productId": 1902,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T00:50:10.000Z"
+    },
+    {
+      "id": 92983,
+      "productId": 1902,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T00:50:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145069057",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069057",
+    "capturedAt": "2026-08-17T13:39:40.228Z",
+    "items": [],
+    "path": "data/other-shops/145069057.json"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 43131,
+    "title": "Windows2000/XP DVDソフト ぶらばん！",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044075",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044075.jpg",
+    "manufacturer": "ゆずソフト",
+    "releaseDate": "2006-07-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145044075",
+      "メーカー": "ゆずソフト",
+      "発売日": "2006/07/28",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:17:50.747Z"
+  },
+  "histories": [
+    {
+      "id": 43145,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:11.713Z"
+    },
+    {
+      "id": 47199,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:02:49.932Z"
+    },
+    {
+      "id": 48740,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:49.335Z"
+    },
+    {
+      "id": 50280,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:30.852Z"
+    },
+    {
+      "id": 52018,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:31:51.856Z"
+    },
+    {
+      "id": 52696,
+      "productId": 43131,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:17:50.747Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044075",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044075",
+    "capturedAt": "2026-08-19T16:17:50.747Z",
+    "items": [],
+    "path": "data/other-shops/145044075.json"
+  }
+}

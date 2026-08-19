@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42652,
+    "title": "Windows2000/XP/Vista DVDソフト 痴漢専用車両",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016603",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016603.jpg",
+    "manufacturer": "Frill",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016603001",
+      "メーカー": "Frill",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "原画": "恋泉天音",
+      "シナリオ": "想ファクトリー",
+      "アーティスト": "fripSide",
+      "声優": "比未子\nあさり☆\n紬叶慧\n朝咲そよ\n佐々木あかり\n民安ともえ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:29:00.798Z"
+  },
+  "histories": [
+    {
+      "id": 42666,
+      "productId": 42652,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:50.071Z"
+    },
+    {
+      "id": 53976,
+      "productId": 42652,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:00.798Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144603,
+      "productId": 42652,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 800,
+      "checkedAt": "2026-08-19T16:29:01.000Z"
+    },
+    {
+      "id": 110110,
+      "productId": 42652,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:13:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 42896,
+    "title": "Windows98/Me/2000/XP DVDソフト いつか、届く、あの空に。[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041942",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041942.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145041942",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:07.400Z"
+  },
+  "histories": [
+    {
+      "id": 42910,
+      "productId": 42896,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:07.400Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041942",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041942",
+    "capturedAt": "2026-08-17T07:16:07.400Z",
+    "items": [],
+    "path": "data/other-shops/145041942.json"
+  }
+}

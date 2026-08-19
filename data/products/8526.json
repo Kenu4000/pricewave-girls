@@ -1,0 +1,149 @@
+{
+  "product": {
+    "id": 8526,
+    "title": "Windows95 CDソフト 亜紀子・香奈子～絶叫Wパッケージ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006175",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006175.jpg",
+    "manufacturer": "レッドゾーン",
+    "releaseDate": "2001-03-30",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145006175001",
+      "メーカー": "レッドゾーン",
+      "発売日": "2001/03/30",
+      "定価": "10,780円",
+      "声優": "紫苑みやび",
+      "原画": "八月薫",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 21000,
+    "latestRegularSalePrice": 21000,
+    "latestBuyPrice": 11000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:29.889Z"
+  },
+  "histories": [
+    {
+      "id": 8540,
+      "productId": 8526,
+      "salePrice": 21000,
+      "regularSalePrice": 21000,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 37890,
+      "productId": 8526,
+      "salePrice": 21000,
+      "regularSalePrice": 21000,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:44.674Z"
+    },
+    {
+      "id": 48359,
+      "productId": 8526,
+      "salePrice": 21000,
+      "regularSalePrice": 21000,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:29.889Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128300,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 21000,
+      "checkedAt": "2026-08-17T16:13:30.000Z"
+    },
+    {
+      "id": 128299,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 20000,
+      "checkedAt": "2026-08-17T16:13:30.000Z"
+    },
+    {
+      "id": 99698,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 21000,
+      "checkedAt": "2026-08-16T01:06:44.000Z"
+    },
+    {
+      "id": 99697,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 20000,
+      "checkedAt": "2026-08-16T01:06:44.000Z"
+    },
+    {
+      "id": 1994,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 21000,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 1993,
+      "productId": 8526,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 20000,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145006175",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145006175",
+    "capturedAt": "2026-08-17T16:13:29.889Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古通常/店舗併売",
+        "price": 20000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 21000
+      }
+    ],
+    "path": "data/other-shops/145006175.json"
+  }
+}

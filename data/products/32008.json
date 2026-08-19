@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 32008,
+    "title": "WindowsXP/Vista/7 DVDソフト 翠の海 -midori no umi-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070176",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070176.jpg",
+    "manufacturer": "Cabbit",
+    "releaseDate": "2011-10-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145070176",
+      "メーカー": "Cabbit",
+      "発売日": "2011/10/28",
+      "定価": "9,680円",
+      "原画": "ゆき恵\nさえき北都",
+      "シナリオ": "御厨みくり",
+      "声優": "川中瀬菜\n羽高なる\n小倉結衣\n桃也みなみ\n金田まひる\n手塚りょうこ\n霧島はるな\n鈴谷まや\n陵陵\n川居由芽",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:30.921Z"
+  },
+  "histories": [
+    {
+      "id": 32022,
+      "productId": 32008,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:45.254Z"
+    },
+    {
+      "id": 40749,
+      "productId": 32008,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:22.145Z"
+    },
+    {
+      "id": 43844,
+      "productId": 32008,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:30.921Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145070176",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070176",
+    "capturedAt": "2026-08-17T09:35:30.921Z",
+    "items": [],
+    "path": "data/other-shops/145070176.json"
+  }
+}

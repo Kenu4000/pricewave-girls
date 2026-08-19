@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 42089,
+    "title": "Windows CDソフト もしもこんなショッピングモールがあったら!? いきます☆ 通販特典ディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019905",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019905.jpg",
+    "manufacturer": "SQUEEZ",
+    "releaseDate": "2009-03-19",
+    "listPrice": null,
+    "modelNumber": "TOKUTEN-SQU11",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145019905",
+      "メーカー": "SQUEEZ",
+      "発売日": "2009/03/19",
+      "型番": "TOKUTEN-SQU11",
+      "原画": "ゆいび",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7011,
+    "latestRegularSalePrice": 7011,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:23.429Z"
+  },
+  "histories": [
+    {
+      "id": 42103,
+      "productId": 42089,
+      "salePrice": 7011,
+      "regularSalePrice": 7011,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:05.010Z"
+    },
+    {
+      "id": 53560,
+      "productId": 42089,
+      "salePrice": 7011,
+      "regularSalePrice": 7011,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:23.429Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019905",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019905",
+    "capturedAt": "2026-08-19T16:25:23.429Z",
+    "items": [],
+    "path": "data/other-shops/145019905.json"
+  }
+}

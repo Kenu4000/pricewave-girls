@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 42856,
+    "title": "Windows DVDソフト EVE burst error(月刊メガストア 2007年4月号 Vol.167 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062118",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062118.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2007-02-27",
+    "listPrice": null,
+    "modelNumber": "MEGA0704",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145062118",
+      "メーカー": "コアマガジン",
+      "発売日": "2007/02/27",
+      "型番": "MEGA0704",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2810,
+    "latestRegularSalePrice": 2810,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:45.147Z"
+  },
+  "histories": [
+    {
+      "id": 42870,
+      "productId": 42856,
+      "salePrice": 2810,
+      "regularSalePrice": 2810,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:45.147Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062118",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062118",
+    "capturedAt": "2026-08-17T07:15:45.147Z",
+    "items": [],
+    "path": "data/other-shops/145062118.json"
+  }
+}

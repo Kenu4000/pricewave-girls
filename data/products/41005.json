@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 41005,
+    "title": "Windows7/8/10ソフト 絶対服従プリンセス -姫辱革命録- ソフマップ特典録り下ろしボイスドラマ入りデジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065226",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065226.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2019-04-26",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065226",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2019/04/26",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:34:49.926Z"
+  },
+  "histories": [
+    {
+      "id": 41019,
+      "productId": 41005,
+      "salePrice": 1265,
+      "regularSalePrice": 1265,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:59.771Z"
+    },
+    {
+      "id": 52377,
+      "productId": 41005,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:49.926Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140386,
+      "productId": 41005,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1401,
+      "checkedAt": "2026-08-19T15:34:50.000Z"
+    },
+    {
+      "id": 140385,
+      "productId": 41005,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1255,
+      "checkedAt": "2026-08-19T15:34:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065226",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065226",
+    "capturedAt": "2026-08-19T15:34:49.926Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1255
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1401
+      }
+    ],
+    "path": "data/other-shops/145065226.json"
+  }
+}

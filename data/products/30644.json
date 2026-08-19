@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 30644,
+    "title": "Windows DVDソフト ユニオリズム・カルテット デジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047886",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047886.jpg",
+    "manufacturer": "CLIP☆CRAFT",
+    "releaseDate": "2014-12-26",
+    "listPrice": null,
+    "modelNumber": "CP-261",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145047886001",
+      "メーカー": "CLIP☆CRAFT",
+      "発売日": "2014/12/26",
+      "型番": "CP-261",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "450",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:22:28.782Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:22:28.409Z"
+  },
+  "histories": [
+    {
+      "id": 30658,
+      "productId": 30644,
+      "salePrice": 400,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:28.409Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 77317,
+      "productId": 30644,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:22:28.000Z"
+    },
+    {
+      "id": 77316,
+      "productId": 30644,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:22:28.000Z"
+    },
+    {
+      "id": 77315,
+      "productId": 30644,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:22:28.000Z"
+    },
+    {
+      "id": 77314,
+      "productId": 30644,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:22:28.000Z"
+    },
+    {
+      "id": 77313,
+      "productId": 30644,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-15T23:22:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145047886",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047886",
+    "capturedAt": "2026-08-15T23:22:28.409Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 400
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145047886.json"
+  }
+}

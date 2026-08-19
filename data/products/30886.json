@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30886,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 放課後の不適格者",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049025",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "Nostalgic Chord",
+    "releaseDate": "2014-05-30",
+    "listPrice": 9680,
+    "modelNumber": "NC-0001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049025",
+      "メーカー": "Nostalgic Chord",
+      "発売日": "2014/05/30",
+      "定価": "9,680円",
+      "型番": "NC-0001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:13.270Z"
+  },
+  "histories": [
+    {
+      "id": 30900,
+      "productId": 30886,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:46.369Z"
+    },
+    {
+      "id": 39654,
+      "productId": 30886,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:40.640Z"
+    },
+    {
+      "id": 50801,
+      "productId": 30886,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:13.270Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049025",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049025",
+    "capturedAt": "2026-08-19T05:31:13.270Z",
+    "items": [],
+    "path": "data/other-shops/145049025.json"
+  }
+}

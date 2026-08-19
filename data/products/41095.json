@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41095,
+    "title": "WindowsXP/Vista/7 DVDソフト your diary[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040173",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040173.jpg",
+    "manufacturer": "CUBE",
+    "releaseDate": "2011-09-30",
+    "listPrice": 9680,
+    "modelNumber": "CUB-1101",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040173",
+      "メーカー": "CUBE",
+      "発売日": "2011/09/30",
+      "定価": "9,680円",
+      "型番": "CUB-1101",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:43.236Z"
+  },
+  "histories": [
+    {
+      "id": 41109,
+      "productId": 41095,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:48.098Z"
+    },
+    {
+      "id": 43867,
+      "productId": 41095,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:43.236Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040173",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040173",
+    "capturedAt": "2026-08-17T09:35:43.236Z",
+    "items": [],
+    "path": "data/other-shops/145040173.json"
+  }
+}

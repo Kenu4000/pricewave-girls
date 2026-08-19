@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 29341,
+    "title": "Windows7/8/10 DVDソフト JK妹。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066348",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066348.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2019-10-25",
+    "listPrice": 9680,
+    "modelNumber": "KA-0106",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066348001",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2019/10/25",
+      "定価": "9,680円",
+      "型番": "KA-0106",
+      "原画": "yoppy",
+      "シナリオ": "華田久作",
+      "声優": "朝香ナツ\n白月かなめ\n雪村とあ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6950,
+    "latestRegularSalePrice": 6950,
+    "latestBuyPrice": 3500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:19.607Z"
+  },
+  "histories": [
+    {
+      "id": 29355,
+      "productId": 29341,
+      "salePrice": 6800,
+      "regularSalePrice": 6950,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:02.512Z"
+    },
+    {
+      "id": 38186,
+      "productId": 29341,
+      "salePrice": 6800,
+      "regularSalePrice": 6950,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:19.810Z"
+    },
+    {
+      "id": 49347,
+      "productId": 29341,
+      "salePrice": 6950,
+      "regularSalePrice": 6950,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:19.607Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132058,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6950,
+      "checkedAt": "2026-08-19T04:30:19.000Z"
+    },
+    {
+      "id": 132057,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-08-19T04:30:19.000Z"
+    },
+    {
+      "id": 100439,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 6800,
+      "checkedAt": "2026-08-16T01:09:19.000Z"
+    },
+    {
+      "id": 100438,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-08-16T01:09:19.000Z"
+    },
+    {
+      "id": 74392,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 6800,
+      "checkedAt": "2026-08-15T23:06:05.000Z"
+    },
+    {
+      "id": 74391,
+      "productId": 29341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-08-15T23:06:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066348",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066348",
+    "capturedAt": "2026-08-19T04:30:19.607Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 6311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6950
+      }
+    ],
+    "path": "data/other-shops/145066348.json"
+  }
+}

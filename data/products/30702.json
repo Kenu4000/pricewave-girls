@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 30702,
+    "title": "Windows CDソフト お嬢様はカタイのがお好き! -神性なる女子寮日記- 予約特典「女子寮限定!裏レシピ -JK中出しディスク Season7-」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047212",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047212.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2014-11-28",
+    "listPrice": null,
+    "modelNumber": "INH-321-CD",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145047212001",
+      "メーカー": "インターハート",
+      "発売日": "2014/11/28",
+      "型番": "INH-321-CD",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "480",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:22:59.787Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:02.374Z"
+  },
+  "histories": [
+    {
+      "id": 30716,
+      "productId": 30702,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:59.620Z"
+    },
+    {
+      "id": 39477,
+      "productId": 30702,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:08.904Z"
+    },
+    {
+      "id": 50671,
+      "productId": 30702,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:02.374Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135810,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T05:30:02.000Z"
+    },
+    {
+      "id": 135809,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T05:30:02.000Z"
+    },
+    {
+      "id": 135808,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T05:30:02.000Z"
+    },
+    {
+      "id": 103310,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:21:09.000Z"
+    },
+    {
+      "id": 103309,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-16T01:21:09.000Z"
+    },
+    {
+      "id": 77420,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:22:59.000Z"
+    },
+    {
+      "id": 77419,
+      "productId": 30702,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-15T23:22:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145047212",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047212",
+    "capturedAt": "2026-08-19T05:30:02.374Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145047212.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 8232,
+    "title": "Windows98/Me/2000/XP DVDソフト 彗星に願いを… [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015566",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015566.jpg",
+    "manufacturer": "Sky-High feat.戯画",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015566",
+      "メーカー": "Sky-High feat.戯画",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "原画": "ねぎぼうず",
+      "シナリオ": "手塚とりぽか",
+      "声優": "春日アン\n一色ヒカル\n青山ゆかり\nこのかなみ\n草柳順子\n逢川奈々",
+      "プロデュース": "田中ロミオ(山田一)",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 975,
+    "latestRegularSalePrice": 975,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:36.676Z"
+  },
+  "histories": [
+    {
+      "id": 8246,
+      "productId": 8232,
+      "salePrice": 975,
+      "regularSalePrice": 975,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37639,
+      "productId": 8232,
+      "salePrice": 975,
+      "regularSalePrice": 975,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:37.126Z"
+    },
+    {
+      "id": 48133,
+      "productId": 8232,
+      "salePrice": 975,
+      "regularSalePrice": 975,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:36.676Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015566",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015566",
+    "capturedAt": "2026-08-17T16:11:36.676Z",
+    "items": [],
+    "path": "data/other-shops/145015566.json"
+  }
+}

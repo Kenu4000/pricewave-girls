@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 42017,
+    "title": "Windows2000/XP/Vista DVDソフト 職員室",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019844",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019844.jpg",
+    "manufacturer": "ゆめまくら",
+    "releaseDate": "2009-05-01",
+    "listPrice": 3850,
+    "modelNumber": "YMR-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019844001",
+      "メーカー": "ゆめまくら",
+      "発売日": "2009/05/01",
+      "定価": "3,850円",
+      "型番": "YMR-001",
+      "原画": "八月朔日珈瑠",
+      "シナリオ": "StarRoseQuartz",
+      "声優": "御苑生メイ\n桃井いちご",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:56.006Z"
+  },
+  "histories": [
+    {
+      "id": 42031,
+      "productId": 42017,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:22.791Z"
+    },
+    {
+      "id": 53506,
+      "productId": 42017,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:56.006Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143635,
+      "productId": 42017,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T16:24:56.000Z"
+    },
+    {
+      "id": 143634,
+      "productId": 42017,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 3500,
+      "checkedAt": "2026-08-19T16:24:56.000Z"
+    },
+    {
+      "id": 143633,
+      "productId": 42017,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T16:24:56.000Z"
+    },
+    {
+      "id": 108746,
+      "productId": 42017,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 3500,
+      "checkedAt": "2026-08-17T07:07:23.000Z"
+    },
+    {
+      "id": 108745,
+      "productId": 42017,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:07:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019844",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019844",
+    "capturedAt": "2026-08-19T16:24:56.006Z",
+    "items": [
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 3500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145019844.json"
+  }
+}

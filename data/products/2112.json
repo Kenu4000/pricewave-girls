@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 2112,
+    "title": "WindowsVista/7/8/10 DVDソフト お兄ちゃん、キッスの準備はまだですか? エッチの準備もまだですか?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056191",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056191.jpg",
+    "manufacturer": "Tinkle Position",
+    "releaseDate": "2017-02-24",
+    "listPrice": 6380,
+    "modelNumber": "TNP-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056191001",
+      "メーカー": "Tinkle Position",
+      "発売日": "2017/02/24",
+      "定価": "6,380円",
+      "型番": "TNP-002",
+      "原画": "K子\n桜みさき\n広瀬まどか",
+      "シナリオ": "東人",
+      "アーティスト": "保科めぐみ",
+      "声優": "持田幸果\n橘まお\n鶴屋春人\n柚原みう\n鈴谷まや",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2200,
+    "latestRegularSalePrice": 2200,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:40:39.795Z"
+  },
+  "histories": [
+    {
+      "id": 2126,
+      "productId": 2112,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:48.000Z"
+    },
+    {
+      "id": 7011,
+      "productId": 2112,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 36154,
+      "productId": 2112,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:51:18.050Z"
+    },
+    {
+      "id": 46615,
+      "productId": 2112,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:40:39.795Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 121837,
+      "productId": 2112,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 3080,
+      "checkedAt": "2026-08-17T13:40:39.000Z"
+    },
+    {
+      "id": 121836,
+      "productId": 2112,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-08-17T13:40:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056191",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056191",
+    "capturedAt": "2026-08-17T13:40:39.795Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2200
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 3080
+      }
+    ],
+    "path": "data/other-shops/145056191.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 30585,
+    "title": "WindowsXP/Vista/7/8 DVDソフト J×J -女子校生獣化計画-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048656",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048656.jpg",
+    "manufacturer": "Drei",
+    "releaseDate": "2015-03-27",
+    "listPrice": 5500,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048656",
+      "メーカー": "Drei",
+      "発売日": "2015/03/27",
+      "定価": "5,500円",
+      "原画": "置弓枷",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "湖月ゆら\n風花ましろ\n桜水季",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3300,
+    "latestRegularSalePrice": 3300,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:20:08.110Z"
+  },
+  "histories": [
+    {
+      "id": 30599,
+      "productId": 30585,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:42.565Z"
+    },
+    {
+      "id": 39372,
+      "productId": 30585,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:08.110Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048656",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048656",
+    "capturedAt": "2026-08-16T01:20:08.110Z",
+    "items": [],
+    "path": "data/other-shops/145048656.json"
+  }
+}

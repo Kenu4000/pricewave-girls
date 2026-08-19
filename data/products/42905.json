@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42905,
+    "title": "Windows98/Me/2000/XP DVDソフト やるきばこ [復刻版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015394",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015394.jpg",
+    "manufacturer": "キャラメルBOX",
+    "releaseDate": "2007-01-26",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015394001",
+      "メーカー": "キャラメルBOX",
+      "発売日": "2007/01/26",
+      "定価": "5,280円",
+      "原画": "神威光司\nのり太\nクロサキ\nヨダ",
+      "シナリオ": "ほしまる\n嵩夜あや",
+      "声優": "松永雪希\nあおいひとみ\n海原エレナ\n一色ヒカル\n北都南\nありす\n佐本二厘",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:11.591Z"
+  },
+  "histories": [
+    {
+      "id": 42919,
+      "productId": 42905,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:11.591Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110603,
+      "productId": 42905,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:16:11.000Z"
+    },
+    {
+      "id": 110602,
+      "productId": 42905,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:16:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015394",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015394",
+    "capturedAt": "2026-08-17T07:16:11.591Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145015394.json"
+  }
+}

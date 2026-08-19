@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41840,
+    "title": "Windows2000/XP/Vista DVDソフト 装甲悪鬼村正 [限定生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900612",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900612.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2009-10-30",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1375",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145900612",
+      "メーカー": "ニトロプラス",
+      "発売日": "2009/10/30",
+      "定価": "9,680円",
+      "型番": "SKR-1375",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 10500,
+    "latestRegularSalePrice": 10500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:53.538Z"
+  },
+  "histories": [
+    {
+      "id": 41854,
+      "productId": 41840,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:51.081Z"
+    },
+    {
+      "id": 53381,
+      "productId": 41840,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:53.538Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900612",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900612",
+    "capturedAt": "2026-08-19T16:23:53.538Z",
+    "items": [],
+    "path": "data/other-shops/145900612.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42547,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 新妻女教師 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017421.jpg",
+    "manufacturer": "H＋（エイチプラス）",
+    "releaseDate": "2008-01-25",
+    "listPrice": 9680,
+    "modelNumber": "HPLUS-005R",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017421",
+      "メーカー": "H＋（エイチプラス）",
+      "発売日": "2008/01/25",
+      "定価": "9,680円",
+      "型番": "HPLUS-005R",
+      "原画": "あぱぱ(東雲舞樹)",
+      "シナリオ": "八鹿純\n島津出水\n酒賀神音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:13.528Z"
+  },
+  "histories": [
+    {
+      "id": 42561,
+      "productId": 42547,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:48.295Z"
+    },
+    {
+      "id": 53893,
+      "productId": 42547,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:13.528Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017421",
+    "capturedAt": "2026-08-19T16:28:13.528Z",
+    "items": [],
+    "path": "data/other-shops/145017421.json"
+  }
+}

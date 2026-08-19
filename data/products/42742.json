@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42742,
+    "title": "Windows2000/XP DVDソフト 恋する乙女と守護の楯",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048349",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048349.jpg",
+    "manufacturer": "AXL(アクセル)",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "AXL-0005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145048349",
+      "メーカー": "AXL(アクセル)",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "AXL-0005",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:12.935Z"
+  },
+  "histories": [
+    {
+      "id": 42756,
+      "productId": 42742,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:41.310Z"
+    },
+    {
+      "id": 44172,
+      "productId": 42742,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:12.935Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048349",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048349",
+    "capturedAt": "2026-08-17T09:38:12.935Z",
+    "items": [],
+    "path": "data/other-shops/145048349.json"
+  }
+}

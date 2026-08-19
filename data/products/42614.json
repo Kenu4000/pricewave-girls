@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 42614,
+    "title": "Windows DVDソフト シールプリンセス -お姫様は封印中-(月刊メガストア2008年1月号 Vol.176付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041262",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041262.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2007-11-17",
+    "listPrice": null,
+    "modelNumber": "MEGA0801",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041262001",
+      "メーカー": "コアマガジン",
+      "発売日": "2007/11/17",
+      "型番": "MEGA0801",
+      "原画": "深泥正",
+      "声優": "紫華すみれ\n金田まひる\n茶谷やすら\n楠鈴音\n一色ヒカル",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:41.605Z"
+  },
+  "histories": [
+    {
+      "id": 42628,
+      "productId": 42614,
+      "salePrice": 310,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:26.985Z"
+    },
+    {
+      "id": 53943,
+      "productId": 42614,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:41.605Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144533,
+      "productId": 42614,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:28:41.000Z"
+    },
+    {
+      "id": 144532,
+      "productId": 42614,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-19T16:28:41.000Z"
+    },
+    {
+      "id": 110033,
+      "productId": 42614,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 310,
+      "checkedAt": "2026-08-17T07:13:27.000Z"
+    },
+    {
+      "id": 110032,
+      "productId": 42614,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-17T07:13:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041262",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041262",
+    "capturedAt": "2026-08-19T16:28:41.605Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145041262.json"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 42329,
+    "title": "Windows2000/XP/Vista DVDソフト BackStage -バックステージ- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018169",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018169.jpg",
+    "manufacturer": "TJR(ザ・ジョリー・ロジャー)",
+    "releaseDate": "2008-08-08",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018169",
+      "メーカー": "TJR(ザ・ジョリー・ロジャー)",
+      "発売日": "2008/08/08",
+      "定価": "9,680円",
+      "原画": "星崎ひかる\nタコ焼き",
+      "シナリオ": "おるごぅる\nはね",
+      "声優": "柚季\n猫村天\n白石めぐみ\n黒川百合\n中島れおな\n真宮ゆず\n越田直樹\nやじまのぼる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:50.026Z"
+  },
+  "histories": [
+    {
+      "id": 42343,
+      "productId": 42329,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:36.080Z"
+    },
+    {
+      "id": 53730,
+      "productId": 42329,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:50.026Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144132,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-19T16:26:50.000Z"
+    },
+    {
+      "id": 144131,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-19T16:26:50.000Z"
+    },
+    {
+      "id": 144130,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 912,
+      "checkedAt": "2026-08-19T16:26:50.000Z"
+    },
+    {
+      "id": 109495,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T07:10:36.000Z"
+    },
+    {
+      "id": 109494,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T07:10:36.000Z"
+    },
+    {
+      "id": 109493,
+      "productId": 42329,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 912,
+      "checkedAt": "2026-08-17T07:10:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018169",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018169",
+    "capturedAt": "2026-08-19T16:26:50.026Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 912
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145018169.json"
+  }
+}

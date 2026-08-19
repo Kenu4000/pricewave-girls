@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42493,
+    "title": "Windows2000/XP/Vista DVDソフト 桜花繚乱",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017605",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017605.jpg",
+    "manufacturer": "ES-pot(エスポット)",
+    "releaseDate": "2008-03-21",
+    "listPrice": 9680,
+    "modelNumber": "TE-02",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017605",
+      "メーカー": "ES-pot(エスポット)",
+      "発売日": "2008/03/21",
+      "定価": "9,680円",
+      "型番": "TE-02",
+      "原画": "CRUCCU",
+      "シナリオ": "秋山智子",
+      "声優": "伊藤瞳子\n芹園みや\n草柳順子\n鈴峰りお",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:12:18.074Z"
+  },
+  "histories": [
+    {
+      "id": 42507,
+      "productId": 42493,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:18.074Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017605",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017605",
+    "capturedAt": "2026-08-17T07:12:18.074Z",
+    "items": [],
+    "path": "data/other-shops/145017605.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30647,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ヒマワリと恋の記憶",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060802",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060802.jpg",
+    "manufacturer": "MORE",
+    "releaseDate": "2014-12-26",
+    "listPrice": 9680,
+    "modelNumber": "MS-104",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145060802",
+      "メーカー": "MORE",
+      "発売日": "2014/12/26",
+      "定価": "9,680円",
+      "型番": "MS-104",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:43.713Z"
+  },
+  "histories": [
+    {
+      "id": 30661,
+      "productId": 30647,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:29.483Z"
+    },
+    {
+      "id": 39424,
+      "productId": 30647,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:40.514Z"
+    },
+    {
+      "id": 50634,
+      "productId": 30647,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:43.713Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060802",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060802",
+    "capturedAt": "2026-08-19T05:29:43.713Z",
+    "items": [],
+    "path": "data/other-shops/145060802.json"
+  }
+}

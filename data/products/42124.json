@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 42124,
+    "title": "Windows2000/XP/Vista DVDソフト 君が呼ぶ、メギドの丘で [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019330",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019330.jpg",
+    "manufacturer": "Leaf",
+    "releaseDate": "2009-01-30",
+    "listPrice": 9680,
+    "modelNumber": "LFWD-002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019330001",
+      "メーカー": "Leaf",
+      "発売日": "2009/01/30",
+      "定価": "9,680円",
+      "型番": "LFWD-002",
+      "原画": "なかむらたけし\n甘露樹\nKaren\nみつみ美里\nカワタヒサシ",
+      "シナリオ": "枕流",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:45.124Z"
+  },
+  "histories": [
+    {
+      "id": 42138,
+      "productId": 42124,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:29.860Z"
+    },
+    {
+      "id": 44069,
+      "productId": 42124,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:21.850Z"
+    },
+    {
+      "id": 48872,
+      "productId": 42124,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:45.124Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

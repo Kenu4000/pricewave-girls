@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41911,
+    "title": "Windows2000/XP/Vista DVDソフト 若妻万華鏡 アニメーション追加完全版+夫の前で●されて… アニメーション追加完全版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052753",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052753.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2009-08-28",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145052753",
+      "メーカー": "エルフ",
+      "発売日": "2009/08/28",
+      "定価": "6,380円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4600,
+    "latestRegularSalePrice": 4600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:15.735Z"
+  },
+  "histories": [
+    {
+      "id": 41925,
+      "productId": 41911,
+      "salePrice": 4600,
+      "regularSalePrice": 4600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:26.181Z"
+    },
+    {
+      "id": 53425,
+      "productId": 41911,
+      "salePrice": 4600,
+      "regularSalePrice": 4600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:15.735Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052753",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052753",
+    "capturedAt": "2026-08-19T16:24:15.735Z",
+    "items": [],
+    "path": "data/other-shops/145052753.json"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 42602,
+    "title": "Windows2000/XP/Vista DVDソフト 明日の君と逢うために [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019326",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019326.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2007-11-30",
+    "listPrice": 9680,
+    "modelNumber": "PURPLE-013",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019326",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2007/11/30",
+      "定価": "9,680円",
+      "型番": "PURPLE-013",
+      "シナリオ": "北川晴\n鏡遊",
+      "アーティスト": "橋本みゆき",
+      "声優": "倉田まりや\n安玖深音\n祢乃照果\n五行なずな\n一色ヒカル\n沢野みりか\n井村屋ほのか\n北都南\n風音\n小池竹蔵\n城樹翔",
+      "原画": "まっぴーらっく.",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:36.466Z"
+  },
+  "histories": [
+    {
+      "id": 42616,
+      "productId": 42602,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:19.431Z"
+    },
+    {
+      "id": 53934,
+      "productId": 42602,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:36.466Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019326",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019326",
+    "capturedAt": "2026-08-19T16:28:36.466Z",
+    "items": [],
+    "path": "data/other-shops/145019326.json"
+  }
+}

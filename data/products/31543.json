@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 31543,
+    "title": "WindowsXP/7 DVDソフト CrossQuartz",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035463.jpg",
+    "manufacturer": "FLATZ",
+    "releaseDate": "2012-12-14",
+    "listPrice": 3080,
+    "modelNumber": "FZAP-1201",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035463",
+      "メーカー": "FLATZ",
+      "発売日": "2012/12/14",
+      "定価": "3,080円",
+      "型番": "FZAP-1201",
+      "声優": "小倉結衣\n奥山歩\n秋野花\n藤森ゆき奈\n桜川未央\n篠原ゆみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:29:41.060Z"
+  },
+  "histories": [
+    {
+      "id": 31557,
+      "productId": 31543,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:11.946Z"
+    },
+    {
+      "id": 40293,
+      "productId": 31543,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:41.060Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035463",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035463",
+    "capturedAt": "2026-08-16T01:29:41.060Z",
+    "items": [],
+    "path": "data/other-shops/145035463.json"
+  }
+}

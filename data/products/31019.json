@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31019,
+    "title": "Windowsソフト ダークロード",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906989",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145906989.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2014-01-31",
+    "listPrice": 9680,
+    "modelNumber": "LIQ028",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145906989",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2014/01/31",
+      "定価": "9,680円",
+      "型番": "LIQ028",
+      "原画": "夏彦",
+      "シナリオ": "八朔\n和泉万夜\n亮性類",
+      "声優": "柚原みう\n海原エレナ\n悠はるか\nこのは\n鈴音華月\n葵時緒\n手塚りょうこ\n花澤さくら\n藤乃理香\n星野七海",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:07.576Z"
+  },
+  "histories": [
+    {
+      "id": 31033,
+      "productId": 31019,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:26:04.051Z"
+    },
+    {
+      "id": 39783,
+      "productId": 31019,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:49.373Z"
+    },
+    {
+      "id": 50900,
+      "productId": 31019,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:07.576Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906989",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906989",
+    "capturedAt": "2026-08-19T05:32:07.576Z",
+    "items": [],
+    "path": "data/other-shops/145906989.json"
+  }
+}

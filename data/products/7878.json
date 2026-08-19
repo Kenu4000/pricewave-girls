@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 7878,
+    "title": "WindowsXP/Vista/7 DVDソフト SISTERSー夏の最後の日ー[Ultra Edition]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035184",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035184.jpg",
+    "manufacturer": "Jellyfish（ジェリーフィッシュ）",
+    "releaseDate": "2013-02-22",
+    "listPrice": 9680,
+    "modelNumber": "SIS-0003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035184",
+      "メーカー": "Jellyfish（ジェリーフィッシュ）",
+      "発売日": "2013/02/22",
+      "定価": "9,680円",
+      "型番": "SIS-0003",
+      "原画": "神坂公平",
+      "シナリオ": "立吹まゆか",
+      "声優": "湖月紅れ葉\n桃井いちご\n氷室百合",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:26.877Z"
+  },
+  "histories": [
+    {
+      "id": 7892,
+      "productId": 7878,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 37347,
+      "productId": 7878,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:02.887Z"
+    },
+    {
+      "id": 47896,
+      "productId": 7878,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:26.877Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127247,
+      "productId": 7878,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 3980,
+      "checkedAt": "2026-08-17T16:09:27.000Z"
+    },
+    {
+      "id": 127246,
+      "productId": 7878,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3900,
+      "checkedAt": "2026-08-17T16:09:27.000Z"
+    },
+    {
+      "id": 543,
+      "productId": 7878,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 3980,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 542,
+      "productId": 7878,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 3900,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 541,
+      "productId": 7878,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035184",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035184",
+    "capturedAt": "2026-08-17T16:09:26.877Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 3900
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有",
+        "price": 3980
+      }
+    ],
+    "path": "data/other-shops/145035184.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41866,
+    "title": "Windows2000/XP/Vista DVDソフト 勇者からは逃げられない!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044879",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044879.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2009-10-02",
+    "listPrice": 9680,
+    "modelNumber": "ILN-079",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145044879",
+      "メーカー": "ILLUSION",
+      "発売日": "2009/10/02",
+      "定価": "9,680円",
+      "型番": "ILN-079",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:02.485Z"
+  },
+  "histories": [
+    {
+      "id": 41880,
+      "productId": 41866,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:03.751Z"
+    },
+    {
+      "id": 53399,
+      "productId": 41866,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:02.485Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044879",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044879",
+    "capturedAt": "2026-08-19T16:24:02.485Z",
+    "items": [],
+    "path": "data/other-shops/145044879.json"
+  }
+}

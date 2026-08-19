@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 43052,
+    "title": "Windows98/Me/2000/XP DVDソフト いな☆こい!～お稲荷さまとモテモテのたたり～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040704",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040704.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2006-09-29",
+    "listPrice": 9680,
+    "modelNumber": "ALC-W001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145040704",
+      "メーカー": "Whirlpool",
+      "発売日": "2006/09/29",
+      "定価": "9,680円",
+      "型番": "ALC-W001",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3333,
+    "latestRegularSalePrice": 3333,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:14.420Z"
+  },
+  "histories": [
+    {
+      "id": 43066,
+      "productId": 43052,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:28.989Z"
+    },
+    {
+      "id": 48798,
+      "productId": 43052,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:14.420Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040704",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040704",
+    "capturedAt": "2026-08-19T04:26:14.420Z",
+    "items": [],
+    "path": "data/other-shops/145040704.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41879,
+    "title": "Windows2000/XP/Vista DVDソフト いただき!娘娘チャイナ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021809",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021809.jpg",
+    "manufacturer": "TranceSoft",
+    "releaseDate": "2009-09-25",
+    "listPrice": 3457,
+    "modelNumber": "WILL-239",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021809",
+      "メーカー": "TranceSoft",
+      "発売日": "2009/09/25",
+      "定価": "3,457円",
+      "型番": "WILL-239",
+      "原画": "ヤマ・びっこ",
+      "シナリオ": "文音(彩音)",
+      "音楽": "ミリオンバンブー",
+      "声優": "宮沢ゆあな\n羽沢月乃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:06.355Z"
+  },
+  "histories": [
+    {
+      "id": 41893,
+      "productId": 41879,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:10.729Z"
+    },
+    {
+      "id": 53406,
+      "productId": 41879,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:06.355Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021809",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021809",
+    "capturedAt": "2026-08-19T16:24:06.355Z",
+    "items": [],
+    "path": "data/other-shops/145021809.json"
+  }
+}

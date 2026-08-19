@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42498,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 放課後 ～濡れた制服～ [DVD-ROM版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017593",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017593.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2008-03-07",
+    "listPrice": 6380,
+    "modelNumber": "BSP-021",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017593",
+      "メーカー": "BISHOP",
+      "発売日": "2008/03/07",
+      "定価": "6,380円",
+      "型番": "BSP-021",
+      "原画": "DOH250R",
+      "声優": "カンザキカナリ\n長崎みなみ\n岩泉まい\n富樫ケイ\n歌織",
+      "シナリオ": "麿\n神門武士",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1700,
+    "latestRegularSalePrice": 1700,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:53.180Z"
+  },
+  "histories": [
+    {
+      "id": 42512,
+      "productId": 42498,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:24.479Z"
+    },
+    {
+      "id": 44130,
+      "productId": 42498,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:53.180Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017593",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017593",
+    "capturedAt": "2026-08-17T09:37:53.180Z",
+    "items": [],
+    "path": "data/other-shops/145017593.json"
+  }
+}

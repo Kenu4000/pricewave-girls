@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41560,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ななプリ。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024046",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024046.jpg",
+    "manufacturer": "TOPCAT",
+    "releaseDate": "2010-07-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024046001",
+      "メーカー": "TOPCAT",
+      "発売日": "2010/07/30",
+      "定価": "9,680円",
+      "原画": "犬神藤丸\n村上水軍",
+      "シナリオ": "山麻もと",
+      "声優": "奏雨\n小倉結衣\n茶谷やすら\n春日アン\nみる\n羽高なる\n高藤まりあ\n有栖川みや美\n萌木唯\n雪都さお梨\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:15.200Z"
+  },
+  "histories": [
+    {
+      "id": 41574,
+      "productId": 41560,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:12.937Z"
+    },
+    {
+      "id": 53182,
+      "productId": 41560,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:15.200Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143064,
+      "productId": 41560,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-19T16:22:15.000Z"
+    },
+    {
+      "id": 143063,
+      "productId": 41560,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-19T16:22:15.000Z"
+    },
+    {
+      "id": 143062,
+      "productId": 41560,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-19T16:22:15.000Z"
+    },
+    {
+      "id": 107862,
+      "productId": 41560,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:03:13.000Z"
+    },
+    {
+      "id": 107861,
+      "productId": 41560,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-17T07:03:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024046",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024046",
+    "capturedAt": "2026-08-19T16:22:15.200Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 400
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 420
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 400
+      }
+    ],
+    "path": "data/other-shops/145024046.json"
+  }
+}

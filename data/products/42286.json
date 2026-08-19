@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42286,
+    "title": "Windows2000/XP/Vista DVDソフト 魔法戦士レムティアナイツ -光の乙女たち-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018606",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018606.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "YS907K",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018606",
+      "メーカー": "Triangle",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "YS907K",
+      "原画": "偽おかゆ\n斎藤なつき\n夕暮ぱいろ",
+      "シナリオ": "坂本江麻\n反事象桂林\n島村ひろし\nassault",
+      "声優": "島香麗子\n水瀬沙季\n成瀬未亜\n愛媛みかん\n桃井いちご\n幸代彩里\n未来羽\n川崎ハレ\n遠野そよぎ\n楠鈴音\n夏樹遥\n木村あやか\n茶谷やすら",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:36.540Z"
+  },
+  "histories": [
+    {
+      "id": 42300,
+      "productId": 42286,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:13.053Z"
+    },
+    {
+      "id": 53706,
+      "productId": 42286,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:36.540Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144094,
+      "productId": 42286,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1101,
+      "checkedAt": "2026-08-19T16:26:36.000Z"
+    },
+    {
+      "id": 144093,
+      "productId": 42286,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古本体不備（中）",
+      "price": 1040,
+      "checkedAt": "2026-08-19T16:26:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018606",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018606",
+    "capturedAt": "2026-08-19T16:26:36.540Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古本体不備（中）",
+        "price": 1040
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1101
+      }
+    ],
+    "path": "data/other-shops/145018606.json"
+  }
+}

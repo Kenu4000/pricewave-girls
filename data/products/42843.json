@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42843,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 螺旋回廊 [復刻版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051771",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051771.jpg",
+    "manufacturer": "ruf",
+    "releaseDate": "2007-03-23",
+    "listPrice": 6380,
+    "modelNumber": "WILL-175",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145051771",
+      "メーカー": "ruf",
+      "発売日": "2007/03/23",
+      "定価": "6,380円",
+      "型番": "WILL-175",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 12000,
+    "latestRegularSalePrice": 12000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:38.839Z"
+  },
+  "histories": [
+    {
+      "id": 42857,
+      "productId": 42843,
+      "salePrice": 12000,
+      "regularSalePrice": 12000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:38.839Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051771",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051771",
+    "capturedAt": "2026-08-17T07:15:38.839Z",
+    "items": [],
+    "path": "data/other-shops/145051771.json"
+  }
+}

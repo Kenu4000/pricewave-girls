@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29514,
+    "title": "Windows7/8.1/10 DVDソフト 甘園ぼ -二人だけのヒミツの遊び-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062638",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062638.jpg",
+    "manufacturer": "マーブルCandySoft",
+    "releaseDate": "2018-10-26",
+    "listPrice": 7480,
+    "modelNumber": "INH-395",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062638",
+      "メーカー": "マーブルCandySoft",
+      "発売日": "2018/10/26",
+      "定価": "7,480円",
+      "型番": "INH-395",
+      "原画": "麻の葉\n真崎ケイ",
+      "シナリオ": "神堂劾\nporori\n志方孝志\nヴィシル",
+      "声優": "雪村とあ\n水野七海\n八ッ橋きなこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7750,
+    "latestRegularSalePrice": 7750,
+    "latestBuyPrice": 4700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:18.899Z"
+  },
+  "histories": [
+    {
+      "id": 29528,
+      "productId": 29514,
+      "salePrice": 7750,
+      "regularSalePrice": 7750,
+      "buyPrice": 4700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:49.174Z"
+    },
+    {
+      "id": 38348,
+      "productId": 29514,
+      "salePrice": 7750,
+      "regularSalePrice": 7750,
+      "buyPrice": 4700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:57.984Z"
+    },
+    {
+      "id": 49480,
+      "productId": 29514,
+      "salePrice": 7750,
+      "regularSalePrice": 7750,
+      "buyPrice": 4700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:18.899Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062638",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062638",
+    "capturedAt": "2026-08-19T04:31:18.899Z",
+    "items": [],
+    "path": "data/other-shops/145062638.json"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 29526,
+    "title": "Windows7/8.1/10 DVDソフト ままはは2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145903321",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145903321.jpg",
+    "manufacturer": "bootUP!",
+    "releaseDate": "2018-09-28",
+    "listPrice": 7480,
+    "modelNumber": "BOOT-0006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145903321",
+      "メーカー": "bootUP!",
+      "発売日": "2018/09/28",
+      "定価": "7,480円",
+      "型番": "BOOT-0006",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-15T23:07:56.662Z"
+  },
+  "histories": [
+    {
+      "id": 29540,
+      "productId": 29526,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:56.662Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145903321",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145903321",
+    "capturedAt": "2026-08-15T23:07:56.662Z",
+    "items": [],
+    "path": "data/other-shops/145903321.json"
+  }
+}

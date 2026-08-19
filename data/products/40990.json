@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 40990,
+    "title": "Windows10/11 DVDソフト AMBITIOUS MISSION アフターエピソード1 [豪華限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077501",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077501.jpg",
+    "manufacturer": "SAGA PLANETS",
+    "releaseDate": "2023-05-26",
+    "listPrice": 6600,
+    "modelNumber": "SPPG-0004",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145077501",
+      "メーカー": "SAGA PLANETS",
+      "発売日": "2023/05/26",
+      "定価": "6,600円",
+      "型番": "SPPG-0004",
+      "原画": "羽咲せいか\nほんたにかなえ\nとらのすけ\n有末つかさ",
+      "SD原画": "ぴこぴこぐらむ",
+      "シナリオ": "さかき傘",
+      "声優": "小高志季\n夏和小",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 4600,
+    "latestRegularSalePrice": 4600,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:25:57.249Z"
+  },
+  "histories": [
+    {
+      "id": 41004,
+      "productId": 40990,
+      "salePrice": 4600,
+      "regularSalePrice": 4600,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:51.262Z"
+    },
+    {
+      "id": 48756,
+      "productId": 40990,
+      "salePrice": 4600,
+      "regularSalePrice": 4600,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:57.249Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145077501",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077501",
+    "capturedAt": "2026-08-19T04:25:57.249Z",
+    "items": [],
+    "path": "data/other-shops/145077501.json"
+  }
+}

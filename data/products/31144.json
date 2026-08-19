@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 31144,
+    "title": "Windows CDソフト ペロペロサイミン アニメーションディスク2(DMM特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084007",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084007.jpg",
+    "manufacturer": "DMM",
+    "releaseDate": "2013-10-25",
+    "listPrice": null,
+    "modelNumber": "PPPP-046",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145084007001",
+      "メーカー": "DMM",
+      "発売日": "2013/10/25",
+      "型番": "PPPP-046",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:36:20.957Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:24:55.793Z"
+  },
+  "histories": [
+    {
+      "id": 31158,
+      "productId": 31144,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:20.851Z"
+    },
+    {
+      "id": 39903,
+      "productId": 31144,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:55.793Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

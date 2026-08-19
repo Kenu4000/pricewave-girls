@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 31652,
+    "title": "Windows CDソフト すくみず食べ放題 特典ストーリー ソフマップ特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034976",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034976.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2012-09-14",
+    "listPrice": null,
+    "modelNumber": "WFST-1209SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145034976001",
+      "メーカー": "WAFFLE",
+      "発売日": "2012/09/14",
+      "型番": "WFST-1209SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "580",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:42:29.028Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:09.476Z"
+  },
+  "histories": [
+    {
+      "id": 31666,
+      "productId": 31652,
+      "salePrice": 550,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:28.308Z"
+    },
+    {
+      "id": 40403,
+      "productId": 31652,
+      "salePrice": 550,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:31.319Z"
+    },
+    {
+      "id": 51367,
+      "productId": 31652,
+      "salePrice": 550,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:09.476Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137040,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-19T05:36:10.000Z"
+    },
+    {
+      "id": 137039,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T05:36:10.000Z"
+    },
+    {
+      "id": 105137,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-16T01:30:31.000Z"
+    },
+    {
+      "id": 105136,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T01:30:31.000Z"
+    },
+    {
+      "id": 79292,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-15T23:42:29.000Z"
+    },
+    {
+      "id": 79291,
+      "productId": 31652,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:42:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034976",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034976",
+    "capturedAt": "2026-08-19T05:36:09.476Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145034976.json"
+  }
+}

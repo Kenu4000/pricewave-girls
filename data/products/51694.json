@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 51694,
+    "title": "Windows98SE/Me/2000/XP DVDソフト EVE ～new generation X～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015595",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015595.jpg",
+    "manufacturer": "TYRELL LAB.",
+    "releaseDate": "2007-03-23",
+    "listPrice": 10780,
+    "modelNumber": "TYL-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015595001",
+      "メーカー": "TYRELL LAB.",
+      "発売日": "2007/03/23",
+      "定価": "10,780円",
+      "型番": "TYL-001",
+      "原画": "橋本タカシ",
+      "シナリオ": "打越鋼太郎",
+      "声優": "藤水颯人\nワッショイ太郎\n風音\nかわしまりの\n歌織\nカンザキカナリ\n藤森ゆき奈\n東慎\n魚田明\n春日アン\n甲賀忍\n丸山壮史\n北斗誓一\n武藤正史\n中村浩太郎",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 7950,
+    "latestRegularSalePrice": 7950,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:30:02.686Z"
+  },
+  "histories": [
+    {
+      "id": 51708,
+      "productId": 51694,
+      "salePrice": 7950,
+      "regularSalePrice": 7950,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:30:02.686Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137921,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7950,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137920,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品・説明書イタミ有り※特典未開封",
+      "price": 8500,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137919,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 3540,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137918,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6611,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137917,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 6010,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    },
+    {
+      "id": 137916,
+      "productId": 51694,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古カレンダー欠品",
+      "price": 3540,
+      "checkedAt": "2026-08-19T09:30:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015595",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015595",
+    "capturedAt": "2026-08-19T09:30:02.686Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古カレンダー欠品",
+        "price": 3540
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 6010
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6611
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 3540
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品・説明書イタミ有り※特典未開封",
+        "price": 8500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7950
+      }
+    ],
+    "path": "data/other-shops/145015595.json"
+  }
+}

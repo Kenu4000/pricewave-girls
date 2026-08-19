@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 41214,
+    "title": "WindowsXP/Vista/7 CDソフト 愛母乳辱ー妄執の巨乳責めザンマイー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028334",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028334.jpg",
+    "manufacturer": "アメノムラクモ",
+    "releaseDate": "2011-05-27",
+    "listPrice": 2530,
+    "modelNumber": "AMK-018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028334001",
+      "メーカー": "アメノムラクモ",
+      "発売日": "2011/05/27",
+      "定価": "2,530円",
+      "型番": "AMK-018",
+      "原画": "一河のあ",
+      "シナリオ": "よこよこ",
+      "声優": "夏川菜々美",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:08.042Z"
+  },
+  "histories": [
+    {
+      "id": 41228,
+      "productId": 41214,
+      "salePrice": 965,
+      "regularSalePrice": 965,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:47.564Z"
+    },
+    {
+      "id": 52930,
+      "productId": 41214,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:08.042Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142531,
+      "productId": 41214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-19T16:20:08.000Z"
+    },
+    {
+      "id": 142530,
+      "productId": 41214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 955,
+      "checkedAt": "2026-08-19T16:20:08.000Z"
+    },
+    {
+      "id": 142529,
+      "productId": 41214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 955,
+      "checkedAt": "2026-08-19T16:20:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028334",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028334",
+    "capturedAt": "2026-08-19T16:20:08.042Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 955
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 955
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145028334.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30269,
+    "title": "WindowsVista/7/8 DVDソフト 働くオトナの恋愛事情[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063249",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063249.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2016-01-29",
+    "listPrice": 9680,
+    "modelNumber": "AKT-0013",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145063249",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2016/01/29",
+      "定価": "9,680円",
+      "型番": "AKT-0013",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:04.319Z"
+  },
+  "histories": [
+    {
+      "id": 30283,
+      "productId": 30269,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:29.359Z"
+    },
+    {
+      "id": 39066,
+      "productId": 30269,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:18.305Z"
+    },
+    {
+      "id": 50341,
+      "productId": 30269,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:04.319Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063249",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063249",
+    "capturedAt": "2026-08-19T05:27:04.319Z",
+    "items": [],
+    "path": "data/other-shops/145063249.json"
+  }
+}

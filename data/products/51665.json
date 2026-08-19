@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 51665,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト エターナルファンタジー[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016590.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2007-11-22",
+    "listPrice": 14080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016590001",
+      "メーカー": "CIRCUS",
+      "発売日": "2007/11/22",
+      "定価": "14,080円",
+      "原画": "八重樫南\nみつまむ\nえこ(eco*)\nたにはらなつき\n秋蕎麦\n鳴海",
+      "シナリオ": "ごとうしん\nそのだまさき\n桑原文彦\n日富美信吾\n愛羽\n森の眼",
+      "声優": "トク\n立花あや\n中川彩子\nきのみ聖\nはるかめぐみ\nひなき藍\n新堂真弓\n北都南\n白石恵\n野村勝人\n福井信介\n西野真人\n乃嶋架菜\n越田直樹\n加賀ヒカル\n中島れおな\n戸塚和也\n山田菜穂\n梅津秀行\n唐沢けい\n中澤アユム\n山中荘一\n増岡太郎\n本山美奈\n伊藤涼",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:48.980Z"
+  },
+  "histories": [
+    {
+      "id": 51679,
+      "productId": 51665,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:48.980Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137830,
+      "productId": 51665,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T09:29:49.000Z"
+    },
+    {
+      "id": 137829,
+      "productId": 51665,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-19T09:29:49.000Z"
+    },
+    {
+      "id": 137828,
+      "productId": 51665,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 680,
+      "checkedAt": "2026-08-19T09:29:49.000Z"
+    },
+    {
+      "id": 137827,
+      "productId": 51665,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-19T09:29:49.000Z"
+    },
+    {
+      "id": 137826,
+      "productId": 51665,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 574,
+      "checkedAt": "2026-08-19T09:29:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016590",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016590",
+    "capturedAt": "2026-08-19T09:29:48.980Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 574
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 680
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145016590.json"
+  }
+}

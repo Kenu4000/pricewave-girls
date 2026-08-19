@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42482,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 戦乙女ヴァルキリー2「主よ、淫らな私をお許しください…」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041824",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041824.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2008-03-28",
+    "listPrice": 9680,
+    "modelNumber": "MGGW0077",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145041824",
+      "メーカー": "ルネ",
+      "発売日": "2008/03/28",
+      "定価": "9,680円",
+      "型番": "MGGW0077",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:48.850Z"
+  },
+  "histories": [
+    {
+      "id": 42496,
+      "productId": 42482,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:12.820Z"
+    },
+    {
+      "id": 53848,
+      "productId": 42482,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:48.850Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041824",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041824",
+    "capturedAt": "2026-08-19T16:27:48.850Z",
+    "items": [],
+    "path": "data/other-shops/145041824.json"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 30974,
+    "title": "WindowsXP/Vista/7 DVDソフト 支配妖怪ぬらりひょん -身も心も奪われた若妻-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040982",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040982.jpg",
+    "manufacturer": "ソクラテス",
+    "releaseDate": "2014-03-14",
+    "listPrice": 2090,
+    "modelNumber": "SOCR-002",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145040982001",
+      "メーカー": "ソクラテス",
+      "発売日": "2014/03/14",
+      "定価": "2,090円",
+      "型番": "SOCR-002",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "360",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 340,
+    "latestRegularSalePrice": 360,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:25:38.742Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:48.239Z"
+  },
+  "histories": [
+    {
+      "id": 30988,
+      "productId": 30974,
+      "salePrice": 340,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:38.555Z"
+    },
+    {
+      "id": 39739,
+      "productId": 30974,
+      "salePrice": 340,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:25.853Z"
+    },
+    {
+      "id": 50865,
+      "productId": 30974,
+      "salePrice": 340,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:48.239Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136243,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-19T05:31:49.000Z"
+    },
+    {
+      "id": 136242,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-19T05:31:49.000Z"
+    },
+    {
+      "id": 136241,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-19T05:31:49.000Z"
+    },
+    {
+      "id": 103905,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-16T01:23:26.000Z"
+    },
+    {
+      "id": 103904,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-16T01:23:26.000Z"
+    },
+    {
+      "id": 78034,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-15T23:25:38.000Z"
+    },
+    {
+      "id": 78033,
+      "productId": 30974,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-15T23:25:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040982",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040982",
+    "capturedAt": "2026-08-19T05:31:48.239Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 340
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 340
+      }
+    ],
+    "path": "data/other-shops/145040982.json"
+  }
+}

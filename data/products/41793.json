@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 41793,
+    "title": "Windows2000/XP/Vista DVDソフト ひだまりバスケット[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021653",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021653.jpg",
+    "manufacturer": "eufonie(ユーフォニー)",
+    "releaseDate": "2009-12-11",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021653001",
+      "メーカー": "eufonie(ユーフォニー)",
+      "発売日": "2009/12/11",
+      "定価": "9,680円",
+      "原画": "木場智士",
+      "シナリオ": "きーたん\n尾之上咲太",
+      "アーティスト": "fripSide",
+      "声優": "青島刃\n佐本二厘\n木村あやか\n黒崎猫\n手塚まき\n五行なずな\nみる\nまきいづみ\n小倉結衣\n楠鈴音\nいちごみるく\n紫華すみれ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:05:26.482Z"
+  },
+  "histories": [
+    {
+      "id": 41807,
+      "productId": 41793,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:26.482Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 108316,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 1600,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108315,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108314,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108313,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108312,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 350,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108311,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    },
+    {
+      "id": 108310,
+      "productId": 41793,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-17T07:05:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021653",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021653",
+    "capturedAt": "2026-08-17T07:05:26.482Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 1600
+      }
+    ],
+    "path": "data/other-shops/145021653.json"
+  }
+}

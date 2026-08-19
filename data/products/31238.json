@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31238,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ナマイキデレーション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046070",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046070.jpg",
+    "manufacturer": "まどそふと",
+    "releaseDate": "2013-07-26",
+    "listPrice": 9680,
+    "modelNumber": "MADO-0001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046070",
+      "メーカー": "まどそふと",
+      "発売日": "2013/07/26",
+      "定価": "9,680円",
+      "型番": "MADO-0001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:28.689Z"
+  },
+  "histories": [
+    {
+      "id": 31252,
+      "productId": 31238,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:31.558Z"
+    },
+    {
+      "id": 39994,
+      "productId": 31238,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:42.571Z"
+    },
+    {
+      "id": 51059,
+      "productId": 31238,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:28.689Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046070",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046070",
+    "capturedAt": "2026-08-19T05:33:28.689Z",
+    "items": [],
+    "path": "data/other-shops/145046070.json"
+  }
+}

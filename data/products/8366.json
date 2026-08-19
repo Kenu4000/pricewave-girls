@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 8366,
+    "title": "Windows2000/XP/Vista DVDソフト 赤線街路 -昭和33年の初雪-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016841",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016841.jpg",
+    "manufacturer": "C-side",
+    "releaseDate": "2007-11-30",
+    "listPrice": 9680,
+    "modelNumber": "TC-03",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016841001",
+      "メーカー": "C-side",
+      "発売日": "2007/11/30",
+      "定価": "9,680円",
+      "型番": "TC-03",
+      "原画": "Rけん",
+      "シナリオ": "てつじん",
+      "声優": "谷俊介\n神崎ちひろ\n金田まひる\n一色ヒカル\n一条和矢\n城崎彦太",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9800,
+    "latestRegularSalePrice": 9800,
+    "latestBuyPrice": 3200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:33:01.427Z"
+  },
+  "histories": [
+    {
+      "id": 8380,
+      "productId": 8366,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 26821,
+      "productId": 8366,
+      "salePrice": 9500,
+      "regularSalePrice": 9800,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:36.065Z"
+    },
+    {
+      "id": 45670,
+      "productId": 8366,
+      "salePrice": 9800,
+      "regularSalePrice": 9800,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:33:01.427Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 119371,
+      "productId": 8366,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 4950,
+      "checkedAt": "2026-08-17T13:33:01.000Z"
+    },
+    {
+      "id": 65929,
+      "productId": 8366,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 4500,
+      "checkedAt": "2026-08-09T21:37:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

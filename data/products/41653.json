@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41653,
+    "title": "Windows2000/XP/Vista DVDソフト memories",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023497.jpg",
+    "manufacturer": "ショコラティエ",
+    "releaseDate": "2010-04-28",
+    "listPrice": 8360,
+    "modelNumber": "KMSR-01",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145023497001",
+      "メーカー": "ショコラティエ",
+      "発売日": "2010/04/28",
+      "定価": "8,360円",
+      "型番": "KMSR-01",
+      "原画": "中条亮\n小田すずか",
+      "シナリオ": "六原トーコ\n香月露都\n月乃紫",
+      "声優": "マヲ\n佐藤タカオ\n先割れスプーン\n青島刃\n阿部敦\n代永翼\n杉浦奈保子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 15500,
+    "latestRegularSalePrice": 15500,
+    "latestBuyPrice": 6000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:48.358Z"
+  },
+  "histories": [
+    {
+      "id": 41667,
+      "productId": 41653,
+      "salePrice": 15500,
+      "regularSalePrice": 15500,
+      "buyPrice": 6000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:12.950Z"
+    },
+    {
+      "id": 53250,
+      "productId": 41653,
+      "salePrice": 15500,
+      "regularSalePrice": 15500,
+      "buyPrice": 6000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:48.358Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143168,
+      "productId": 41653,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 15500,
+      "checkedAt": "2026-08-19T16:22:48.000Z"
+    },
+    {
+      "id": 143167,
+      "productId": 41653,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 14711,
+      "checkedAt": "2026-08-19T16:22:48.000Z"
+    },
+    {
+      "id": 108025,
+      "productId": 41653,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 15500,
+      "checkedAt": "2026-08-17T07:04:13.000Z"
+    },
+    {
+      "id": 108024,
+      "productId": 41653,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 14711,
+      "checkedAt": "2026-08-17T07:04:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023497",
+    "capturedAt": "2026-08-19T16:22:48.358Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 14711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 15500
+      }
+    ],
+    "path": "data/other-shops/145023497.json"
+  }
+}

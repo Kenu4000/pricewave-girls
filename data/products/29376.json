@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 29376,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2 キャラクターパック 天然サディスティックな小悪魔",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065832",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065832.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2019-08-30",
+    "listPrice": 4359,
+    "modelNumber": "KISS-108",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065832001",
+      "メーカー": "KISS",
+      "発売日": "2019/08/30",
+      "定価": "4,359円",
+      "型番": "KISS-108",
+      "声優": "綾瀬あかり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:31.740Z"
+  },
+  "histories": [
+    {
+      "id": 29390,
+      "productId": 29376,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:28.374Z"
+    },
+    {
+      "id": 38220,
+      "productId": 29376,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:37.263Z"
+    },
+    {
+      "id": 49373,
+      "productId": 29376,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:31.740Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132131,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-19T04:30:31.000Z"
+    },
+    {
+      "id": 132130,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 2380,
+      "checkedAt": "2026-08-19T04:30:31.000Z"
+    },
+    {
+      "id": 132129,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-19T04:30:31.000Z"
+    },
+    {
+      "id": 100533,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 2380,
+      "checkedAt": "2026-08-16T01:09:37.000Z"
+    },
+    {
+      "id": 100532,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 1400,
+      "checkedAt": "2026-08-16T01:09:37.000Z"
+    },
+    {
+      "id": 74484,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 2380,
+      "checkedAt": "2026-08-15T23:06:28.000Z"
+    },
+    {
+      "id": 74483,
+      "productId": 29376,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 1400,
+      "checkedAt": "2026-08-15T23:06:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065832",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065832",
+    "capturedAt": "2026-08-19T04:30:31.740Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 2380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1400
+      }
+    ],
+    "path": "data/other-shops/145065832.json"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 7925,
+    "title": "WindowsXP/Vista/7 DVDソフト Liquid Black Box[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033613",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033613.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2012-07-27",
+    "listPrice": 10780,
+    "modelNumber": "LIQ026B",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033613",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2012/07/27",
+      "定価": "10,780円",
+      "型番": "LIQ026B",
+      "原画": "神剣桜花\n日陰影次",
+      "シナリオ": "永沢壱郎\n和泉万夜\n黒井弘騎",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4260,
+    "latestRegularSalePrice": 4260,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:52.150Z"
+  },
+  "histories": [
+    {
+      "id": 7939,
+      "productId": 7925,
+      "salePrice": 4930,
+      "regularSalePrice": 4930,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 26748,
+      "productId": 7925,
+      "salePrice": 4830,
+      "regularSalePrice": 4830,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:56.539Z"
+    },
+    {
+      "id": 37390,
+      "productId": 7925,
+      "salePrice": 4830,
+      "regularSalePrice": 4830,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:25.670Z"
+    },
+    {
+      "id": 47936,
+      "productId": 7925,
+      "salePrice": 4260,
+      "regularSalePrice": 4260,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:52.150Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033613",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033613",
+    "capturedAt": "2026-08-17T16:09:52.150Z",
+    "items": [],
+    "path": "data/other-shops/145033613.json"
+  }
+}

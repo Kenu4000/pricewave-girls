@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41884,
+    "title": "Windows2000/XP/Vista DVDソフト 性喰体育教師ー学園初出し生搾り[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021420",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021420.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2009-09-18",
+    "listPrice": 9680,
+    "modelNumber": "ALL-006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021420001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2009/09/18",
+      "定価": "9,680円",
+      "型番": "ALL-006",
+      "原画": "トヨタハヤオ",
+      "シナリオ": "周房瞬\n栗栖ティナ",
+      "声優": "野々村紗夜\n成賀くるが\n唯香\n計名さや香\n安堂りゅう",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5400,
+    "latestRegularSalePrice": 5400,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:00.931Z"
+  },
+  "histories": [
+    {
+      "id": 41898,
+      "productId": 41884,
+      "salePrice": 5400,
+      "regularSalePrice": 5400,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:13.642Z"
+    },
+    {
+      "id": 44026,
+      "productId": 41884,
+      "salePrice": 5400,
+      "regularSalePrice": 5400,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:00.931Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113853,
+      "productId": 41884,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-08-17T09:37:01.000Z"
+    },
+    {
+      "id": 113852,
+      "productId": 41884,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-08-17T09:37:01.000Z"
+    },
+    {
+      "id": 108490,
+      "productId": 41884,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-08-17T07:06:13.000Z"
+    },
+    {
+      "id": 108489,
+      "productId": 41884,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-08-17T07:06:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021420",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021420",
+    "capturedAt": "2026-08-17T09:37:00.931Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5400
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 5400
+      }
+    ],
+    "path": "data/other-shops/145021420.json"
+  }
+}

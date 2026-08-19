@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 3263,
+    "title": "Windows98/Me/2000/XP CDソフト 戦女神 II SERVICE PACK CD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030795",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030795.jpg",
+    "manufacturer": "Eushully",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "EUCD-0040",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145030795001",
+      "メーカー": "Eushully",
+      "型番": "EUCD-0040",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-09T21:36:14.451Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T00:59:27.287Z"
+  },
+  "histories": [
+    {
+      "id": 3277,
+      "productId": 3263,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 26676,
+      "productId": 3263,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:13.464Z"
+    },
+    {
+      "id": 37050,
+      "productId": 3263,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:27.287Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 97418,
+      "productId": 3263,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:59:27.000Z"
+    },
+    {
+      "id": 97417,
+      "productId": 3263,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T00:59:27.000Z"
+    },
+    {
+      "id": 65579,
+      "productId": 3263,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 1000,
+      "checkedAt": "2026-08-09T21:36:14.000Z"
+    },
+    {
+      "id": 65578,
+      "productId": 3263,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-09T21:36:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145030795",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030795",
+    "capturedAt": "2026-08-16T00:59:27.287Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145030795.json"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 3426,
+    "title": "Windows7/8.1 DVDソフト 今月はNaturalシリーズを一挙収録!(月刊メガストア 2020年6月号 Vol.325付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069884",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069884.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "MEGA2006",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145069884",
+      "メーカー": "コアマガジン",
+      "型番": "MEGA2006",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:14.579Z"
+  },
+  "histories": [
+    {
+      "id": 3440,
+      "productId": 3426,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37182,
+      "productId": 3426,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:34.692Z"
+    },
+    {
+      "id": 47764,
+      "productId": 3426,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:14.579Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069884",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069884",
+    "capturedAt": "2026-08-17T16:08:14.579Z",
+    "items": [],
+    "path": "data/other-shops/145069884.json"
+  }
+}

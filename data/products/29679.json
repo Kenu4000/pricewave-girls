@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29679,
+    "title": "Windows7/8.1/10 DVDソフト 催眠学舎",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060084",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060084.jpg",
+    "manufacturer": "include",
+    "releaseDate": "2018-01-26",
+    "listPrice": 3080,
+    "modelNumber": "INC-0004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060084",
+      "メーカー": "include",
+      "発売日": "2018/01/26",
+      "定価": "3,080円",
+      "型番": "INC-0004",
+      "原画": "もちゃん",
+      "シナリオ": "難波一一\nざくそん",
+      "声優": "ヒマリ\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:13.754Z"
+  },
+  "histories": [
+    {
+      "id": 29693,
+      "productId": 29679,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:37.067Z"
+    },
+    {
+      "id": 38504,
+      "productId": 29679,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:28.976Z"
+    },
+    {
+      "id": 49604,
+      "productId": 29679,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:13.754Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060084",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060084",
+    "capturedAt": "2026-08-19T04:32:13.754Z",
+    "items": [],
+    "path": "data/other-shops/145060084.json"
+  }
+}

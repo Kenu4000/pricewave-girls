@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 42811,
+    "title": "Windows98/Me/2000/XP DVDソフト 遊撃警艦パトベセル ～こちら首都圏上空青空署～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050211",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050211.jpg",
+    "manufacturer": "May-Be SOFT",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145050211",
+      "メーカー": "May-Be SOFT",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:15.657Z"
+  },
+  "histories": [
+    {
+      "id": 42825,
+      "productId": 42811,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:15.657Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050211",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050211",
+    "capturedAt": "2026-08-17T07:15:15.657Z",
+    "items": [],
+    "path": "data/other-shops/145050211.json"
+  }
+}

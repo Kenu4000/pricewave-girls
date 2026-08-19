@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41379,
+    "title": "Windows2000/XP/Vista/7 CDソフト 姉と妹をいいなりにする10の戒律ー法も姉妹も犯しつくせ!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026348",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026348.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2011-01-21",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026348",
+      "メーカー": "softhouse-seal",
+      "発売日": "2011/01/21",
+      "定価": "2,200円",
+      "原画": "草野ほうき",
+      "シナリオ": "まゆか",
+      "声優": "このえゆずこ\n早乙女碧\n春河あかり",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:12.336Z"
+  },
+  "histories": [
+    {
+      "id": 41393,
+      "productId": 41379,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:21.624Z"
+    },
+    {
+      "id": 53057,
+      "productId": 41379,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:12.336Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026348",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026348",
+    "capturedAt": "2026-08-19T16:21:12.336Z",
+    "items": [],
+    "path": "data/other-shops/145026348.json"
+  }
+}

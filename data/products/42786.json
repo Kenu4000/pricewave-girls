@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42786,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト みんな大好き 子づくりばんちょう",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015822",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015822.jpg",
+    "manufacturer": "アナスタシア",
+    "releaseDate": "2007-05-18",
+    "listPrice": 6380,
+    "modelNumber": "ANDV-002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015822001",
+      "メーカー": "アナスタシア",
+      "発売日": "2007/05/18",
+      "定価": "6,380円",
+      "型番": "ANDV-002",
+      "原画": "鳩月つみき",
+      "シナリオ": "HANABUSA",
+      "声優": "大波こなみ\n青井美海\n東かりん\n榎津まお\n桜川未央\nかわしまりの\n南見ちはる\n楠鈴音\n金田まひる\n松永雪希",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:03.075Z"
+  },
+  "histories": [
+    {
+      "id": 42800,
+      "productId": 42786,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:03.075Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110390,
+      "productId": 42786,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:15:03.000Z"
+    },
+    {
+      "id": 110389,
+      "productId": 42786,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:15:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015822",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015822",
+    "capturedAt": "2026-08-17T07:15:03.075Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145015822.json"
+  }
+}

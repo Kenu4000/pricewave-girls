@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30019,
+    "title": "WindowsXP/Vista/7/8/8.1/10 DVDソフト 修羅の痴漢道",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064028",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064028.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2016-09-23",
+    "listPrice": 9680,
+    "modelNumber": "BSP-048",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064028",
+      "メーカー": "BISHOP",
+      "発売日": "2016/09/23",
+      "定価": "9,680円",
+      "型番": "BSP-048",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3333,
+    "latestRegularSalePrice": 3333,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:20.395Z"
+  },
+  "histories": [
+    {
+      "id": 30033,
+      "productId": 30019,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:13:05.659Z"
+    },
+    {
+      "id": 38831,
+      "productId": 30019,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:12.591Z"
+    },
+    {
+      "id": 43588,
+      "productId": 30019,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:20.395Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064028",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064028",
+    "capturedAt": "2026-08-17T09:33:20.395Z",
+    "items": [],
+    "path": "data/other-shops/145064028.json"
+  }
+}

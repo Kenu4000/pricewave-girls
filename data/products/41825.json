@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41825,
+    "title": "Windows2000/XP/Vista DVDソフト 佐野俊英が、あなたの専用原画マンになります",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021921",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021921.jpg",
+    "manufacturer": "G.J？",
+    "releaseDate": "2009-11-20",
+    "listPrice": 9680,
+    "modelNumber": "GENGAMAN",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021921001",
+      "メーカー": "G.J？",
+      "発売日": "2009/11/20",
+      "定価": "9,680円",
+      "型番": "GENGAMAN",
+      "原画": "佐野俊英",
+      "シナリオ": "呱々",
+      "声優": "紅月ことね\n計名さや香",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:47.809Z"
+  },
+  "histories": [
+    {
+      "id": 41839,
+      "productId": 41825,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:43.311Z"
+    },
+    {
+      "id": 53370,
+      "productId": 41825,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:47.809Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143405,
+      "productId": 41825,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T16:23:48.000Z"
+    },
+    {
+      "id": 143404,
+      "productId": 41825,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 970,
+      "checkedAt": "2026-08-19T16:23:48.000Z"
+    },
+    {
+      "id": 143403,
+      "productId": 41825,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T16:23:48.000Z"
+    },
+    {
+      "id": 108370,
+      "productId": 41825,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 970,
+      "checkedAt": "2026-08-17T07:05:43.000Z"
+    },
+    {
+      "id": 108369,
+      "productId": 41825,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-17T07:05:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021921",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021921",
+    "capturedAt": "2026-08-19T16:23:47.809Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 970
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145021921.json"
+  }
+}

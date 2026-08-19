@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 31181,
+    "title": "WindowsXP/Vista/7 CDソフト ハブられ。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038488",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038488.jpg",
+    "manufacturer": "アンモライト",
+    "releaseDate": "2013-09-27",
+    "listPrice": 3300,
+    "modelNumber": "AMML-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145038488001",
+      "メーカー": "アンモライト",
+      "発売日": "2013/09/27",
+      "定価": "3,300円",
+      "型番": "AMML-001",
+      "原画": "ホルモン恋次郎",
+      "シナリオ": "姫川広明",
+      "声優": "南沙耶\n萱原ゆら",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "780",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:36:52.452Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:09.088Z"
+  },
+  "histories": [
+    {
+      "id": 31195,
+      "productId": 31181,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:49.282Z"
+    },
+    {
+      "id": 39941,
+      "productId": 31181,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:15.339Z"
+    },
+    {
+      "id": 51018,
+      "productId": 31181,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:09.088Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

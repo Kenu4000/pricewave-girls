@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31128,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ママネトリ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038730",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038730.jpg",
+    "manufacturer": "イノヘッドスタジオ",
+    "releaseDate": "2013-10-25",
+    "listPrice": 2420,
+    "modelNumber": "INO-003",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038730",
+      "メーカー": "イノヘッドスタジオ",
+      "発売日": "2013/10/25",
+      "定価": "2,420円",
+      "型番": "INO-003",
+      "原画": "NOBU",
+      "シナリオ": "ピーナツ太郎",
+      "声優": "宮森ゆう",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1155,
+    "latestRegularSalePrice": 1155,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:46.484Z"
+  },
+  "histories": [
+    {
+      "id": 31142,
+      "productId": 31128,
+      "salePrice": 1170,
+      "regularSalePrice": 1170,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:12.771Z"
+    },
+    {
+      "id": 39887,
+      "productId": 31128,
+      "salePrice": 1170,
+      "regularSalePrice": 1170,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:48.381Z"
+    },
+    {
+      "id": 50978,
+      "productId": 31128,
+      "salePrice": 1155,
+      "regularSalePrice": 1155,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:46.484Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038730",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038730",
+    "capturedAt": "2026-08-19T05:32:46.484Z",
+    "items": [],
+    "path": "data/other-shops/145038730.json"
+  }
+}

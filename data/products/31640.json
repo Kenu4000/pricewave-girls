@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31640,
+    "title": "WindowsXP/Vista/7 DVDソフト LOVELY QUEST[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051442",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051442.jpg",
+    "manufacturer": "HOOKSOFT",
+    "releaseDate": "2012-09-28",
+    "listPrice": 10340,
+    "modelNumber": "50801249",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145051442",
+      "メーカー": "HOOKSOFT",
+      "発売日": "2012/09/28",
+      "定価": "10,340円",
+      "型番": "50801249",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:02.476Z"
+  },
+  "histories": [
+    {
+      "id": 31654,
+      "productId": 31640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:19.663Z"
+    },
+    {
+      "id": 40389,
+      "productId": 31640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:25.854Z"
+    },
+    {
+      "id": 51354,
+      "productId": 31640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:02.476Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051442",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051442",
+    "capturedAt": "2026-08-19T05:36:02.476Z",
+    "items": [],
+    "path": "data/other-shops/145051442.json"
+  }
+}

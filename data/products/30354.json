@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30354,
+    "title": "WindowsVista/7/8 DVDソフト 神楽箱スペシャル Studio e・go!版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052952",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052952.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2015-10-30",
+    "listPrice": 9680,
+    "modelNumber": "EGO-15002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145052952",
+      "メーカー": "Studio e・go!",
+      "発売日": "2015/10/30",
+      "定価": "9,680円",
+      "型番": "EGO-15002",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "幻想絵巻欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 21800,
+    "latestRegularSalePrice": 21800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "幻想絵巻欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:41.978Z"
+  },
+  "histories": [
+    {
+      "id": 30368,
+      "productId": 30354,
+      "salePrice": 21800,
+      "regularSalePrice": 21800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "幻想絵巻欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:15.285Z"
+    },
+    {
+      "id": 39149,
+      "productId": 30354,
+      "salePrice": 21800,
+      "regularSalePrice": 21800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "幻想絵巻欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:09.380Z"
+    },
+    {
+      "id": 50407,
+      "productId": 30354,
+      "salePrice": 21800,
+      "regularSalePrice": 21800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "幻想絵巻欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:41.978Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052952",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052952",
+    "capturedAt": "2026-08-19T05:27:41.978Z",
+    "items": [],
+    "path": "data/other-shops/145052952.json"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 41112,
+    "title": "Windows CDソフト Sucre 初回特典 まかないDISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031385",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031385.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2011-09-22",
+    "listPrice": null,
+    "modelNumber": "GIGA-110923",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145031385",
+      "メーカー": "戯画",
+      "発売日": "2011/09/22",
+      "型番": "GIGA-110923",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:47.367Z"
+  },
+  "histories": [
+    {
+      "id": 41126,
+      "productId": 41112,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:55.846Z"
+    },
+    {
+      "id": 43877,
+      "productId": 41112,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:47.367Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031385",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031385",
+    "capturedAt": "2026-08-17T09:35:47.367Z",
+    "items": [],
+    "path": "data/other-shops/145031385.json"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 31975,
+    "title": "Windows CDソフト LEGEND SEVEN ～白雪姫と7人の英雄～ 妄想LOVEアペンドディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030928",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030928.jpg",
+    "manufacturer": "NONSUGAR",
+    "releaseDate": "2011-11-25",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145030928",
+      "メーカー": "NONSUGAR",
+      "発売日": "2011/11/25",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 411,
+    "latestRegularSalePrice": 411,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:22.315Z"
+  },
+  "histories": [
+    {
+      "id": 31989,
+      "productId": 31975,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:25.787Z"
+    },
+    {
+      "id": 40718,
+      "productId": 31975,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:07.567Z"
+    },
+    {
+      "id": 52192,
+      "productId": 31975,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:22.315Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030928",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030928",
+    "capturedAt": "2026-08-19T15:33:22.315Z",
+    "items": [],
+    "path": "data/other-shops/145030928.json"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 30917,
+    "title": "WindowsXP/Vista/7/8 CDソフト D.C.III P.P.-ダ・カーポIII プラチナパートナー- ソフマップ特典デジタルコンテンツCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042976",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042976.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2014-04-25",
+    "listPrice": null,
+    "modelNumber": "DC3PP-SOFU",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145042976001",
+      "メーカー": "CIRCUS",
+      "発売日": "2014/04/25",
+      "型番": "DC3PP-SOFU",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:55.860Z"
+  },
+  "histories": [
+    {
+      "id": 30931,
+      "productId": 30917,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:05.840Z"
+    },
+    {
+      "id": 44660,
+      "productId": 30917,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:31.376Z"
+    },
+    {
+      "id": 48897,
+      "productId": 30917,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:55.860Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 130371,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T04:26:56.000Z"
+    },
+    {
+      "id": 130370,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T04:26:56.000Z"
+    },
+    {
+      "id": 130369,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T04:26:56.000Z"
+    },
+    {
+      "id": 115446,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T09:42:31.000Z"
+    },
+    {
+      "id": 115445,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:42:31.000Z"
+    },
+    {
+      "id": 77927,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:25:06.000Z"
+    },
+    {
+      "id": 77926,
+      "productId": 30917,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-15T23:25:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145042976",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042976",
+    "capturedAt": "2026-08-19T04:26:55.860Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145042976.json"
+  }
+}

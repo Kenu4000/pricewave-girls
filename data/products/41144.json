@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 41144,
+    "title": "WindowsXP/Vista/7 CDソフト だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029152",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029152.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2011-08-05",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029152001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2011/08/05",
+      "定価": "2,200円",
+      "原画": "羽仁倉雲\n濱田麻里",
+      "シナリオ": "七央結日",
+      "声優": "逢川奈々\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:38.598Z"
+  },
+  "histories": [
+    {
+      "id": 41158,
+      "productId": 41144,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:12.100Z"
+    },
+    {
+      "id": 52882,
+      "productId": 41144,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:38.598Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142416,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:19:38.000Z"
+    },
+    {
+      "id": 142415,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T16:19:38.000Z"
+    },
+    {
+      "id": 142414,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T16:19:38.000Z"
+    },
+    {
+      "id": 142413,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-19T16:19:38.000Z"
+    },
+    {
+      "id": 106977,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T06:59:12.000Z"
+    },
+    {
+      "id": 106976,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T06:59:12.000Z"
+    },
+    {
+      "id": 106975,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T06:59:12.000Z"
+    },
+    {
+      "id": 106974,
+      "productId": 41144,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T06:59:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029152",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029152",
+    "capturedAt": "2026-08-19T16:19:38.598Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145029152.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42399,
+    "title": "Windows2000/XP/Vista DVDソフト 欲望の牢獄",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018052",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018052.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2008-06-13",
+    "listPrice": 7480,
+    "modelNumber": "PUZ-011",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018052",
+      "メーカー": "Puzzlebox",
+      "発売日": "2008/06/13",
+      "定価": "7,480円",
+      "型番": "PUZ-011",
+      "原画": "川合正起",
+      "シナリオ": "K-TOK\n和泉万夜",
+      "声優": "桃井いちご\n葉村夏緒\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1760,
+    "latestRegularSalePrice": 1760,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:19.886Z"
+  },
+  "histories": [
+    {
+      "id": 42413,
+      "productId": 42399,
+      "salePrice": 1760,
+      "regularSalePrice": 1760,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:21.079Z"
+    },
+    {
+      "id": 53790,
+      "productId": 42399,
+      "salePrice": 1760,
+      "regularSalePrice": 1760,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:19.886Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018052",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018052",
+    "capturedAt": "2026-08-19T16:27:19.886Z",
+    "items": [],
+    "path": "data/other-shops/145018052.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41157,
+    "title": "WindowsXP/Vista/7 DVDソフト 禁断の病棟 -特殊精神科医 遊佐惣介の診察記録-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040666",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040666.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": "KA-0060",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040666",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "型番": "KA-0060",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク+説明書",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+説明書",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:37.674Z"
+  },
+  "histories": [
+    {
+      "id": 41171,
+      "productId": 41157,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:17.942Z"
+    },
+    {
+      "id": 52878,
+      "productId": 41157,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:37.674Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040666",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040666",
+    "capturedAt": "2026-08-19T16:19:37.674Z",
+    "items": [],
+    "path": "data/other-shops/145040666.json"
+  }
+}

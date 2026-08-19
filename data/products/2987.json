@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 2987,
+    "title": "Windows98/Me/2000/XP CDソフト 保母さんのエプロン～ゆずりは保育園奮闘記～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011249",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011249.jpg",
+    "manufacturer": "ACTRESS",
+    "releaseDate": "2004-05-21",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011249",
+      "メーカー": "ACTRESS",
+      "発売日": "2004/05/21",
+      "定価": "9,680円",
+      "原画": "しかとみよ",
+      "シナリオ": "小沢伝七\n永里しの",
+      "アーティスト": "霜月はるか",
+      "声優": "小蝶\n木村あやか\n内野ぽち\n姫宮まりな\nみすみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:42:25.702Z"
+  },
+  "histories": [
+    {
+      "id": 3001,
+      "productId": 2987,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 26612,
+      "productId": 2987,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:12:31.201Z"
+    },
+    {
+      "id": 44648,
+      "productId": 2987,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:25.702Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145011249",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145011249",
+    "capturedAt": "2026-08-17T09:42:25.702Z",
+    "items": [],
+    "path": "data/other-shops/145011249.json"
+  }
+}

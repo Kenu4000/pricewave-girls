@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31921,
+    "title": "WindowsXP/Vista/7 DVDソフト 喰ヒ人(くらいびと)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057869",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057869.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2012-01-20",
+    "listPrice": 9680,
+    "modelNumber": "TB-050",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145057869",
+      "メーカー": "TinkerBell",
+      "発売日": "2012/01/20",
+      "定価": "9,680円",
+      "型番": "TB-050",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:07.857Z"
+  },
+  "histories": [
+    {
+      "id": 31935,
+      "productId": 31921,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:53.128Z"
+    },
+    {
+      "id": 40669,
+      "productId": 31921,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.585Z"
+    },
+    {
+      "id": 52164,
+      "productId": 31921,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:07.857Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057869",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057869",
+    "capturedAt": "2026-08-19T15:33:07.857Z",
+    "items": [],
+    "path": "data/other-shops/145057869.json"
+  }
+}

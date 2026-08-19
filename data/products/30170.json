@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 30170,
+    "title": "WindowsVista/7/8/10 DVDソフト すぺじゃに共和国スペシャルパック2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053940",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053940.jpg",
+    "manufacturer": "JANIS（ジャニス）",
+    "releaseDate": "2016-04-28",
+    "listPrice": 12100,
+    "modelNumber": "SPJ-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053940001",
+      "メーカー": "JANIS（ジャニス）",
+      "発売日": "2016/04/28",
+      "定価": "12,100円",
+      "型番": "SPJ-002",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "JAN": "IS（ジャニス）",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:51.475Z"
+  },
+  "histories": [
+    {
+      "id": 30184,
+      "productId": 30170,
+      "salePrice": 1900,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:34.150Z"
+    },
+    {
+      "id": 38973,
+      "productId": 30170,
+      "salePrice": 1900,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:29.125Z"
+    },
+    {
+      "id": 49967,
+      "productId": 30170,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:51.475Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133515,
+      "productId": 30170,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133514,
+      "productId": 30170,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    },
+    {
+      "id": 133513,
+      "productId": 30170,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-19T04:34:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053940",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053940",
+    "capturedAt": "2026-08-19T04:34:51.475Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2000
+      }
+    ],
+    "path": "data/other-shops/145053940.json"
+  }
+}

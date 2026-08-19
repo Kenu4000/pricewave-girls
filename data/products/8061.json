@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 8061,
+    "title": "WindowsVista/7/8/8.1 DVDソフト 魔物娘の育て方 -ラミア＆ハーピー-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056193",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056193.jpg",
+    "manufacturer": "Vanadis",
+    "releaseDate": "2017-01-27",
+    "listPrice": 6050,
+    "modelNumber": "V-083",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145056193",
+      "メーカー": "Vanadis",
+      "発売日": "2017/01/27",
+      "定価": "6,050円",
+      "型番": "V-083",
+      "シナリオ": "影花",
+      "声優": "榛名れん\nみたかりん",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:42.510Z"
+  },
+  "histories": [
+    {
+      "id": 8075,
+      "productId": 8061,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 37514,
+      "productId": 8061,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:34.590Z"
+    },
+    {
+      "id": 48030,
+      "productId": 8061,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:42.510Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056193",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056193",
+    "capturedAt": "2026-08-17T16:10:42.510Z",
+    "items": [],
+    "path": "data/other-shops/145056193.json"
+  }
+}

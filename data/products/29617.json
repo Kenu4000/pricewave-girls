@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29617,
+    "title": "Windows7/8/8.1/10 DVDソフト まいてつ＆ものべの 仲良しセット 第4刷",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061205",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061205.jpg",
+    "manufacturer": "Lose",
+    "releaseDate": "2018-04-27",
+    "listPrice": 17380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061205",
+      "メーカー": "Lose",
+      "発売日": "2018/04/27",
+      "定価": "17,380円",
+      "原画": "cura",
+      "シナリオ": "進行豹",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3211,
+    "latestRegularSalePrice": 3211,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:53.802Z"
+  },
+  "histories": [
+    {
+      "id": 29631,
+      "productId": 29617,
+      "salePrice": 3211,
+      "regularSalePrice": 3211,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:01.305Z"
+    },
+    {
+      "id": 38449,
+      "productId": 29617,
+      "salePrice": 3211,
+      "regularSalePrice": 3211,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:56.944Z"
+    },
+    {
+      "id": 49556,
+      "productId": 29617,
+      "salePrice": 3211,
+      "regularSalePrice": 3211,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:53.802Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061205",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061205",
+    "capturedAt": "2026-08-19T04:31:53.802Z",
+    "items": [],
+    "path": "data/other-shops/145061205.json"
+  }
+}

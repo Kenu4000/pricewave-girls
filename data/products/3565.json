@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 3565,
+    "title": "WindowsVista/7/8/10 DVDソフト タンテイセブン [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056585",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056585.jpg",
+    "manufacturer": "Digital Cute",
+    "releaseDate": "2017-06-30",
+    "listPrice": 9680,
+    "modelNumber": "DCPC-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056585",
+      "メーカー": "Digital Cute",
+      "発売日": "2017/06/30",
+      "定価": "9,680円",
+      "型番": "DCPC-005",
+      "原画": "えきもち\n工口本",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "こたつみやこ\n西野真人\n手塚りょうこ\nヒマリ\n御苑生メイ\n唯香\n美咲桃子\n琉花あか\n原田友貴\n永倉仁八",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:05.471Z"
+  },
+  "histories": [
+    {
+      "id": 3579,
+      "productId": 3565,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 23042,
+      "productId": 3565,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:59.921Z"
+    },
+    {
+      "id": 37299,
+      "productId": 3565,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:37.765Z"
+    },
+    {
+      "id": 47861,
+      "productId": 3565,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:05.471Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127115,
+      "productId": 3565,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 2222,
+      "checkedAt": "2026-08-17T16:09:05.000Z"
+    },
+    {
+      "id": 127114,
+      "productId": 3565,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-17T16:09:05.000Z"
+    },
+    {
+      "id": 98165,
+      "productId": 3565,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 2222,
+      "checkedAt": "2026-08-16T01:01:37.000Z"
+    },
+    {
+      "id": 98164,
+      "productId": 3565,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-16T01:01:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056585",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056585",
+    "capturedAt": "2026-08-17T16:09:05.471Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品",
+        "price": 2222
+      }
+    ],
+    "path": "data/other-shops/145056585.json"
+  }
+}

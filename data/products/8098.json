@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 8098,
+    "title": "Windows95 CDソフト 世紀末退魔伝つむぎちゃんSOS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000913",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000913.jpg",
+    "manufacturer": "デザイアー",
+    "releaseDate": "1998-01-30",
+    "listPrice": 9680,
+    "modelNumber": "EXC-0011",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000913",
+      "メーカー": "デザイアー",
+      "発売日": "1998/01/30",
+      "定価": "9,680円",
+      "型番": "EXC-0011",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1040,
+    "latestRegularSalePrice": 1040,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:54.970Z"
+  },
+  "histories": [
+    {
+      "id": 8112,
+      "productId": 8098,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 23090,
+      "productId": 8098,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:25.383Z"
+    },
+    {
+      "id": 37548,
+      "productId": 8098,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:49.358Z"
+    },
+    {
+      "id": 48052,
+      "productId": 8098,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:54.970Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145000913",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000913",
+    "capturedAt": "2026-08-17T16:10:54.970Z",
+    "items": [],
+    "path": "data/other-shops/145000913.json"
+  }
+}

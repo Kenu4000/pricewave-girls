@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29343,
+    "title": "Windows7/8.1/10 DVDソフト AI*少女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904035",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904035.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2019-10-25",
+    "listPrice": 10780,
+    "modelNumber": "ILN-112",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145904035",
+      "メーカー": "ILLUSION",
+      "発売日": "2019/10/25",
+      "定価": "10,780円",
+      "型番": "ILN-112",
+      "声優": "あかしゆき\n飴川紫乃\nスズナ\n森乃なんな\n和央きりか\n八尋まみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 14500,
+    "latestRegularSalePrice": 14500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:19.043Z"
+  },
+  "histories": [
+    {
+      "id": 29357,
+      "productId": 29343,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:05.875Z"
+    },
+    {
+      "id": 38184,
+      "productId": 29343,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:19.155Z"
+    },
+    {
+      "id": 49345,
+      "productId": 29343,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:19.043Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145904035",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145904035",
+    "capturedAt": "2026-08-19T04:30:19.043Z",
+    "items": [],
+    "path": "data/other-shops/145904035.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41578,
+    "title": "WindowsMe/2000/XP/Vista CDソフト おとこの娘はおんなの娘が好き",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024292",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024292.jpg",
+    "manufacturer": "可憐ソフト",
+    "releaseDate": "2010-07-16",
+    "listPrice": 3300,
+    "modelNumber": "KRN-00008",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024292",
+      "メーカー": "可憐ソフト",
+      "発売日": "2010/07/16",
+      "定価": "3,300円",
+      "型番": "KRN-00008",
+      "原画": "都々子",
+      "シナリオ": "広川マコト",
+      "声優": "草柳順子\n野宮香央里\n香澄りょう",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスクのみ（セル）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 968,
+    "latestRegularSalePrice": 968,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ（セル）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:21.498Z"
+  },
+  "histories": [
+    {
+      "id": 41592,
+      "productId": 41578,
+      "salePrice": 968,
+      "regularSalePrice": 968,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:26.396Z"
+    },
+    {
+      "id": 53193,
+      "productId": 41578,
+      "salePrice": 968,
+      "regularSalePrice": 968,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ（セル）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:21.498Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024292",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024292",
+    "capturedAt": "2026-08-19T16:22:21.498Z",
+    "items": [],
+    "path": "data/other-shops/145024292.json"
+  }
+}

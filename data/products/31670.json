@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31670,
+    "title": "WindowsXP/Vista/7 DVDソフト 教育ママと伯母と叔母[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058685",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058685.jpg",
+    "manufacturer": "CATTLEYA(カトレヤ)",
+    "releaseDate": "2012-08-24",
+    "listPrice": 9680,
+    "modelNumber": "CAT08",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145058685",
+      "メーカー": "CATTLEYA(カトレヤ)",
+      "発売日": "2012/08/24",
+      "定価": "9,680円",
+      "型番": "CAT08",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ボイスCD欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ボイスCD欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:02.751Z"
+  },
+  "histories": [
+    {
+      "id": 31684,
+      "productId": 31670,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ボイスCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:46.234Z"
+    },
+    {
+      "id": 40419,
+      "productId": 31670,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ボイスCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:38.235Z"
+    },
+    {
+      "id": 43789,
+      "productId": 31670,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ボイスCD欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:02.751Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058685",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058685",
+    "capturedAt": "2026-08-17T09:35:02.751Z",
+    "items": [],
+    "path": "data/other-shops/145058685.json"
+  }
+}

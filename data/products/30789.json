@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30789,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 星織ユメミライ[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063334",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063334.jpg",
+    "manufacturer": "tone work’s",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": "VA-00168D",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145063334",
+      "メーカー": "tone work’s",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "型番": "VA-00168D",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)・説明書欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)・説明書欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:35.748Z"
+  },
+  "histories": [
+    {
+      "id": 30803,
+      "productId": 30789,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:48.391Z"
+    },
+    {
+      "id": 39559,
+      "productId": 30789,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:50.212Z"
+    },
+    {
+      "id": 50735,
+      "productId": 30789,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)・説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:35.748Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063334",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063334",
+    "capturedAt": "2026-08-19T05:30:35.748Z",
+    "items": [],
+    "path": "data/other-shops/145063334.json"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 41523,
+    "title": "Windows2000/XP/Vista DVDソフト Elle：PrieR(エルプリエ)ーしあわせ の欠片をさがしてー[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024310",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024310.jpg",
+    "manufacturer": "Etoiles(エトワルズ)",
+    "releaseDate": "2010-08-27",
+    "listPrice": 10266,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145024310001",
+      "メーカー": "Etoiles(エトワルズ)",
+      "発売日": "2010/08/27",
+      "定価": "10,266円",
+      "原画": "朱乃月蓮夜\n雨音響\nmoric",
+      "シナリオ": "ぐみ。\n風間ぼなんざ\n中森南文里\n二瓶しのぶ\n望月JET",
+      "声優": "邊鴉凱\n桃井いちご\nまきいづみ\n氷室百合\n倉田まりや\n葵時緒\n角川竜二\n藤乃理香\n御苑生メイ\n屑星宇宙男\n三原椎名\n中澤アユム",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:24.094Z"
+  },
+  "histories": [
+    {
+      "id": 41537,
+      "productId": 41523,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:45.206Z"
+    },
+    {
+      "id": 43952,
+      "productId": 41523,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:24.094Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113684,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-17T09:36:24.000Z"
+    },
+    {
+      "id": 113683,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T09:36:24.000Z"
+    },
+    {
+      "id": 113682,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外プラケース難有",
+      "price": 780,
+      "checkedAt": "2026-08-17T09:36:24.000Z"
+    },
+    {
+      "id": 107761,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-17T07:02:46.000Z"
+    },
+    {
+      "id": 107760,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T07:02:46.000Z"
+    },
+    {
+      "id": 107759,
+      "productId": 41523,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外プラケース難有",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:02:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024310",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024310",
+    "capturedAt": "2026-08-17T09:36:24.094Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外プラケース難有",
+        "price": 780
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145024310.json"
+  }
+}

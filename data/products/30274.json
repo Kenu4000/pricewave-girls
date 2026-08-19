@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 30274,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト あなた、ごめんなさい…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053223",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053223.jpg",
+    "manufacturer": "マッセル",
+    "releaseDate": "2016-01-29",
+    "listPrice": 7480,
+    "modelNumber": "MSL-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053223",
+      "メーカー": "マッセル",
+      "発売日": "2016/01/29",
+      "定価": "7,480円",
+      "型番": "MSL-001",
+      "原画": "やみみかん",
+      "シナリオ": "紫雨涼",
+      "声優": "このかなみ\n一色ヒカル\n咲山あかね\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:08.466Z"
+  },
+  "histories": [
+    {
+      "id": 30288,
+      "productId": 30274,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:33.012Z"
+    },
+    {
+      "id": 39070,
+      "productId": 30274,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:25.941Z"
+    },
+    {
+      "id": 50347,
+      "productId": 30274,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:08.466Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053223",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053223",
+    "capturedAt": "2026-08-19T05:27:08.466Z",
+    "items": [],
+    "path": "data/other-shops/145053223.json"
+  }
+}

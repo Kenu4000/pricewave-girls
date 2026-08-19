@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 8187,
+    "title": "Windows98/Me/2000/XP DVDソフト MAID iN HEAVEN SuperS[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012662.jpg",
+    "manufacturer": "PIL",
+    "releaseDate": "2005-03-18",
+    "listPrice": 9680,
+    "modelNumber": "PIL-0529",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145012662001",
+      "メーカー": "PIL",
+      "発売日": "2005/03/18",
+      "定価": "9,680円",
+      "型番": "PIL-0529",
+      "原画": "キリヤマ太一",
+      "シナリオ": "丸谷秀人",
+      "声優": "七生みこと\nダイナマイト亜美\n一条和矢\n紫苑みやび\n小杉十郎太\n植木亨\n原田友貴\n氷室省吾\n畠山亮二\n亜月ちえみ\nきんぎょ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3700,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:21.285Z"
+  },
+  "histories": [
+    {
+      "id": 8201,
+      "productId": 8187,
+      "salePrice": 3680,
+      "regularSalePrice": 3680,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37602,
+      "productId": 8187,
+      "salePrice": 3600,
+      "regularSalePrice": 3700,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:15.196Z"
+    },
+    {
+      "id": 48105,
+      "productId": 8187,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:21.285Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127879,
+      "productId": 8187,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-08-17T16:11:21.000Z"
+    },
+    {
+      "id": 127878,
+      "productId": 8187,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3411,
+      "checkedAt": "2026-08-17T16:11:21.000Z"
+    },
+    {
+      "id": 99192,
+      "productId": 8187,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-08-16T01:04:15.000Z"
+    },
+    {
+      "id": 99191,
+      "productId": 8187,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3411,
+      "checkedAt": "2026-08-16T01:04:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145012662",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012662",
+    "capturedAt": "2026-08-17T16:11:21.285Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 3411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3700
+      }
+    ],
+    "path": "data/other-shops/145012662.json"
+  }
+}

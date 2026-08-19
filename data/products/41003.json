@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41003,
+    "title": "Windows8.1/10 DVDソフト アインシュタインより愛を込めて [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069054",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069054.jpg",
+    "manufacturer": "GLOVETY",
+    "releaseDate": "2020-10-30",
+    "listPrice": 9680,
+    "modelNumber": "VA-00226D",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069054",
+      "メーカー": "GLOVETY",
+      "発売日": "2020/10/30",
+      "定価": "9,680円",
+      "型番": "VA-00226D",
+      "原画": "きみしま青",
+      "SD原画": "こもわた遙華",
+      "シナリオ": "新島夕",
+      "声優": "朝野ヒカリ\n月野きいろ\n桜木ひな\n佐本二厘\n風音\n歩サラ\n佐久間春奈\n北大路ゆき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3300,
+    "latestRegularSalePrice": 3300,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:25:57.708Z"
+  },
+  "histories": [
+    {
+      "id": 41017,
+      "productId": 41003,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:58.863Z"
+    },
+    {
+      "id": 48757,
+      "productId": 41003,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:25:57.708Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069054",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069054",
+    "capturedAt": "2026-08-19T04:25:57.708Z",
+    "items": [],
+    "path": "data/other-shops/145069054.json"
+  }
+}

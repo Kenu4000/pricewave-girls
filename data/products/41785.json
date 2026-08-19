@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41785,
+    "title": "Windows DVDソフト 微少女[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041057",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041057.jpg",
+    "manufacturer": "たぬきそふと",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": "TNK-002L",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145041057",
+      "メーカー": "たぬきそふと",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "型番": "TNK-002L",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:35.717Z"
+  },
+  "histories": [
+    {
+      "id": 41799,
+      "productId": 41785,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:21.509Z"
+    },
+    {
+      "id": 53346,
+      "productId": 41785,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:35.717Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041057",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041057",
+    "capturedAt": "2026-08-19T16:23:35.717Z",
+    "items": [],
+    "path": "data/other-shops/145041057.json"
+  }
+}

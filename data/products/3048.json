@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 3048,
+    "title": "Windows95/98 CDソフト tremolo トレモロ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004225",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004225.jpg",
+    "manufacturer": "メルロー",
+    "releaseDate": "2000-12-07",
+    "listPrice": 9680,
+    "modelNumber": "GES-W004",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145004225",
+      "メーカー": "メルロー",
+      "発売日": "2000/12/07",
+      "定価": "9,680円",
+      "型番": "GES-W004",
+      "原画": "ビューティ・ヘア",
+      "声優": "森本まこと\n桜坂かい\n彩世ゆう\n茉莉奈\n永瀬江美弥",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:42.167Z"
+  },
+  "histories": [
+    {
+      "id": 3062,
+      "productId": 3048,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36866,
+      "productId": 3048,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:50.652Z"
+    },
+    {
+      "id": 47496,
+      "productId": 3048,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:42.167Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145004225",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004225",
+    "capturedAt": "2026-08-17T16:05:42.167Z",
+    "items": [],
+    "path": "data/other-shops/145004225.json"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 42555,
+    "title": "Windows2000/XP/Vista CDソフト LILITH-IZM01 -フェラ編-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017492",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017492.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2008-01-18",
+    "listPrice": 1100,
+    "modelNumber": "LBL-00020",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017492001",
+      "メーカー": "Lilith",
+      "発売日": "2008/01/18",
+      "定価": "1,100円",
+      "型番": "LBL-00020",
+      "原画": "のぶしと\n御堂つかさ\n金目鯛ぴんく\nZOL",
+      "シナリオ": "酒井童人\n松本竜\nフレーム",
+      "声優": "かわしまりの\n逢川奈々\n春日アン\nもえはらぶり\n榊木春乃\n茶谷やすら",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:18.236Z"
+  },
+  "histories": [
+    {
+      "id": 42569,
+      "productId": 42555,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:52.397Z"
+    },
+    {
+      "id": 53904,
+      "productId": 42555,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:18.236Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144456,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-19T16:28:18.000Z"
+    },
+    {
+      "id": 144455,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:28:18.000Z"
+    },
+    {
+      "id": 144454,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-19T16:28:18.000Z"
+    },
+    {
+      "id": 144453,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-19T16:28:18.000Z"
+    },
+    {
+      "id": 109946,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T07:12:52.000Z"
+    },
+    {
+      "id": 109945,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:12:52.000Z"
+    },
+    {
+      "id": 109944,
+      "productId": 42555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-17T07:12:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017492",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017492",
+    "capturedAt": "2026-08-19T16:28:18.236Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 400
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 400
+      }
+    ],
+    "path": "data/other-shops/145017492.json"
+  }
+}

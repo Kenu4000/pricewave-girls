@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 43071,
+    "title": "Windows98/Me/2000/XP CDソフト 虜姫～白濁まみれの令嬢～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014702",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014702.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2006-09-22",
+    "listPrice": 8580,
+    "modelNumber": "WILL-155",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014702",
+      "メーカー": "Guilty",
+      "発売日": "2006/09/22",
+      "定価": "8,580円",
+      "型番": "WILL-155",
+      "原画": "吉澤友章",
+      "シナリオ": "新澄しぃ子\n乃美糸",
+      "声優": "茶谷やすら\n楠鈴音\n野神奈々\n彩世ゆう\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1890,
+    "latestRegularSalePrice": 1890,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:39.569Z"
+  },
+  "histories": [
+    {
+      "id": 43085,
+      "productId": 43071,
+      "salePrice": 1890,
+      "regularSalePrice": 1890,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:39.569Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014702",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014702",
+    "capturedAt": "2026-08-17T07:17:39.569Z",
+    "items": [],
+    "path": "data/other-shops/145014702.json"
+  }
+}

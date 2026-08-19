@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42484,
+    "title": "Windows95/98/Me/2000/XP/Vista CDソフト わるっ!! いたずら ～悪戯～ 復刻版 初回特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048089",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048089.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2008-03-28",
+    "listPrice": null,
+    "modelNumber": "INH-253-CD",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145048089",
+      "メーカー": "インターハート",
+      "発売日": "2008/03/28",
+      "型番": "INH-253-CD",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 10000,
+    "latestRegularSalePrice": 10000,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:50.021Z"
+  },
+  "histories": [
+    {
+      "id": 42498,
+      "productId": 42484,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:13.880Z"
+    },
+    {
+      "id": 53850,
+      "productId": 42484,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:50.021Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048089",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048089",
+    "capturedAt": "2026-08-19T16:27:50.021Z",
+    "items": [],
+    "path": "data/other-shops/145048089.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31056,
+    "title": "WindowsXP/Vista/7/8 CDソフト リリウム×トライアングル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043911",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043911.jpg",
+    "manufacturer": "ぷちぱじゃま",
+    "releaseDate": "2014-06-27",
+    "listPrice": 3080,
+    "modelNumber": "PAM-0199",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145043911",
+      "メーカー": "ぷちぱじゃま",
+      "発売日": "2014/06/27",
+      "定価": "3,080円",
+      "型番": "PAM-0199",
+      "原画": "ぴよ寺むちゃ\nうさ城まに",
+      "シナリオ": "ふみや",
+      "声優": "藤森ゆき奈\n雪村とあ\n早瀬ゃょぃ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:21.909Z"
+  },
+  "histories": [
+    {
+      "id": 31070,
+      "productId": 31056,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:24.229Z"
+    },
+    {
+      "id": 39819,
+      "productId": 31056,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:12.022Z"
+    },
+    {
+      "id": 50928,
+      "productId": 31056,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:21.909Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043911",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043911",
+    "capturedAt": "2026-08-19T05:32:21.909Z",
+    "items": [],
+    "path": "data/other-shops/145043911.json"
+  }
+}

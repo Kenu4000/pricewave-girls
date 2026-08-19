@@ -1,0 +1,113 @@
+{
+  "product": {
+    "id": 1669,
+    "title": "Windows8.1/10 DVDソフト HOMESTAY a la mode",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905357",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905357.jpg",
+    "manufacturer": "アトリエかぐや honky-tonk pumpkin",
+    "releaseDate": "2021-09-24",
+    "listPrice": 9680,
+    "modelNumber": "KA-0113",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145905357",
+      "メーカー": "アトリエかぐや honky-tonk pumpkin",
+      "発売日": "2021/09/24",
+      "定価": "9,680円",
+      "型番": "KA-0113",
+      "原画": "たいのね",
+      "シナリオ": "華田久作",
+      "声優": "ヒマリ\n東シヅ\n朝香ナツ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6500,
+    "latestRegularSalePrice": 6500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:38:28.038Z"
+  },
+  "histories": [
+    {
+      "id": 1683,
+      "productId": 1669,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6574,
+      "productId": 1669,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:56.000Z"
+    },
+    {
+      "id": 22769,
+      "productId": 1669,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:36.398Z"
+    },
+    {
+      "id": 35826,
+      "productId": 1669,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:48:39.941Z"
+    },
+    {
+      "id": 46345,
+      "productId": 1669,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:38:28.038Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145905357",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145905357",
+    "capturedAt": "2026-08-17T13:38:28.038Z",
+    "items": [],
+    "path": "data/other-shops/145905357.json"
+  }
+}

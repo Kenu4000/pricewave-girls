@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42243,
+    "title": "Windows2000/XP/Vista DVDソフト ゆきうた [Vista対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018797",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018797.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2008-10-24",
+    "listPrice": 7480,
+    "modelNumber": "FWS-00043",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018797",
+      "メーカー": "フロントウイング",
+      "発売日": "2008/10/24",
+      "定価": "7,480円",
+      "型番": "FWS-00043",
+      "原画": "フミオ",
+      "シナリオ": "ヤマグチノボル\n藤崎竜太",
+      "声優": "西田こむぎ\n翠花華\n桜井ももこ\n乃田あす実\n日下千鶴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2511,
+    "latestRegularSalePrice": 2511,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:17.701Z"
+  },
+  "histories": [
+    {
+      "id": 42257,
+      "productId": 42243,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:44.543Z"
+    },
+    {
+      "id": 53669,
+      "productId": 42243,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:17.701Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018797",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018797",
+    "capturedAt": "2026-08-19T16:26:17.701Z",
+    "items": [],
+    "path": "data/other-shops/145018797.json"
+  }
+}

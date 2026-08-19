@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31426,
+    "title": "WindowsXP/Vista/7 DVDソフト ハピメア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050539",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050539.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2013-02-28",
+    "listPrice": 9680,
+    "modelNumber": "PURPLE-028",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145050539",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2013/02/28",
+      "定価": "9,680円",
+      "型番": "PURPLE-028",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク+説明書",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+説明書",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:42.420Z"
+  },
+  "histories": [
+    {
+      "id": 31440,
+      "productId": 31426,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:43.617Z"
+    },
+    {
+      "id": 40178,
+      "productId": 31426,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:46.853Z"
+    },
+    {
+      "id": 51204,
+      "productId": 31426,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:42.420Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050539",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050539",
+    "capturedAt": "2026-08-19T05:34:42.420Z",
+    "items": [],
+    "path": "data/other-shops/145050539.json"
+  }
+}

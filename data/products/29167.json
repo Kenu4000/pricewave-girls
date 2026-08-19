@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 29167,
+    "title": "Windows10/11 DVDソフト 僕の好きな人の好きな人は、女装した僕でした [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079790",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079790.jpg",
+    "manufacturer": "ensemble SWEET",
+    "releaseDate": "2023-12-22",
+    "listPrice": 9900,
+    "modelNumber": "WILL-430DX",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079790",
+      "メーカー": "ensemble SWEET",
+      "発売日": "2023/12/22",
+      "定価": "9,900円",
+      "型番": "WILL-430DX",
+      "原画": "ぐらしおん",
+      "シナリオ": "泰良則充",
+      "声優": "上原あおい\n餅梨あむ\n桃山いおん\n藤色せりな",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4000,
+    "latestRegularSalePrice": 4000,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:07:48.877Z"
+  },
+  "histories": [
+    {
+      "id": 29181,
+      "productId": 29167,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:09.841Z"
+    },
+    {
+      "id": 38018,
+      "productId": 29167,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:48.877Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145079790",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079790",
+    "capturedAt": "2026-08-16T01:07:48.877Z",
+    "items": [],
+    "path": "data/other-shops/145079790.json"
+  }
+}

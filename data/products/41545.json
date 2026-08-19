@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41545,
+    "title": "WindowsXP/Vista/7 DVDソフト 学園3ー華麗なる悦辱ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062304",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062304.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2010-08-27",
+    "listPrice": 9680,
+    "modelNumber": "BSP-030",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145062304",
+      "メーカー": "BISHOP",
+      "発売日": "2010/08/27",
+      "定価": "9,680円",
+      "型番": "BSP-030",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:24.328Z"
+  },
+  "histories": [
+    {
+      "id": 41559,
+      "productId": 41545,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:59.979Z"
+    },
+    {
+      "id": 43953,
+      "productId": 41545,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:24.328Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062304",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062304",
+    "capturedAt": "2026-08-17T09:36:24.328Z",
+    "items": [],
+    "path": "data/other-shops/145062304.json"
+  }
+}

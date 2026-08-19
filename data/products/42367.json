@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42367,
+    "title": "Windows2000/XP/Vista DVDソフト D.C. After Seasons ～ダ・カーポ～ アフターシーズンズ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018372",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018372.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2008-07-18",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018372",
+      "メーカー": "CIRCUS",
+      "発売日": "2008/07/18",
+      "定価": "9,680円",
+      "原画": "鳴海\nたにはらなつき\n雪村\n鷹乃ゆき",
+      "シナリオ": "ほっしー\nまり\nは~ふりある\n黒千蛍",
+      "声優": "桜ちとせ\n日向裕羅\n鹿島歩\n立花あや\n安玖深音\nぴろす\n智芭みどり\n北都南\n澤村弓子\n夏野向日葵\n佐々留美子\n黒川百合\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1365,
+    "latestRegularSalePrice": 1365,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:06.971Z"
+  },
+  "histories": [
+    {
+      "id": 42381,
+      "productId": 42367,
+      "salePrice": 1375,
+      "regularSalePrice": 1375,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:58.641Z"
+    },
+    {
+      "id": 53765,
+      "productId": 42367,
+      "salePrice": 1365,
+      "regularSalePrice": 1365,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:06.971Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018372",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018372",
+    "capturedAt": "2026-08-19T16:27:06.971Z",
+    "items": [],
+    "path": "data/other-shops/145018372.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 8355,
+    "title": "Windows2000/XP/Vista DVDソフト 誰かのために出来ること -Inoccent Identity- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019318",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019318.jpg",
+    "manufacturer": "フェルミ",
+    "releaseDate": "2009-02-27",
+    "listPrice": 9680,
+    "modelNumber": "GIGA-090227",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019318",
+      "メーカー": "フェルミ",
+      "発売日": "2009/02/27",
+      "定価": "9,680円",
+      "型番": "GIGA-090227",
+      "原画": "ミヨルノユメギ\nRけん",
+      "シナリオ": "田浜正成\n秋津環\nさとぴぃ",
+      "声優": "このかなみ\n金田まひる\n茶谷やすら\n如月葵",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:22.124Z"
+  },
+  "histories": [
+    {
+      "id": 8369,
+      "productId": 8355,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37738,
+      "productId": 8355,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:25.921Z"
+    },
+    {
+      "id": 48225,
+      "productId": 8355,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:22.124Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019318",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019318",
+    "capturedAt": "2026-08-17T16:12:22.124Z",
+    "items": [],
+    "path": "data/other-shops/145019318.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 43153,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト ふぃぎゅ＠謝肉祭 [豪華限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015696",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015696.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-016",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015696001",
+      "メーカー": "エスクード",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "型番": "ECAVG-016",
+      "原画": "光姫満太郎",
+      "アーティスト": "MOSAIC.WAV",
+      "声優": "枝本勇介\nみる\n幸代彩里\n未来羽\n芹園みや\n夏木ツナ\n甘美\nかわの亜衣\n川角一本松\n事務台車\n四ツ谷サイダー\n森川明大\n滝沢アツヤ",
+      "シナリオ": "新",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "OS": "AIC.WAV",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:49:08.872Z"
+  },
+  "histories": [
+    {
+      "id": 43167,
+      "productId": 43153,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:49:08.872Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 111138,
+      "productId": 43153,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:未開封",
+      "price": 6800,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111137,
+      "productId": 43153,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+      "price": 1580,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111136,
+      "productId": 43153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111135,
+      "productId": 43153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1010,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111134,
+      "productId": 43153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 900,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111133,
+      "productId": 43153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 900,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    },
+    {
+      "id": 111132,
+      "productId": 43153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1010,
+      "checkedAt": "2026-08-17T07:49:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015696",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015696",
+    "capturedAt": "2026-08-17T07:49:08.872Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1010
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・特典CDのみ（その他欠品）",
+        "price": 1580
+      },
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:未開封",
+        "price": 6800
+      }
+    ],
+    "path": "data/other-shops/145015696.json"
+  }
+}

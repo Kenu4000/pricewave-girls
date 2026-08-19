@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42705,
+    "title": "Windows98SE/2000/XP/Vista DVDソフト あかね色に染まる坂",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040712",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040712.jpg",
+    "manufacturer": "feng（フォン）",
+    "releaseDate": "2007-07-27",
+    "listPrice": 9680,
+    "modelNumber": "FENG-18",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145040712",
+      "メーカー": "feng（フォン）",
+      "発売日": "2007/07/27",
+      "定価": "9,680円",
+      "型番": "FENG-18",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2222,
+    "latestRegularSalePrice": 2222,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:11.301Z"
+  },
+  "histories": [
+    {
+      "id": 42719,
+      "productId": 42705,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:17.574Z"
+    },
+    {
+      "id": 48791,
+      "productId": 42705,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:11.301Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040712",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040712",
+    "capturedAt": "2026-08-19T04:26:11.301Z",
+    "items": [],
+    "path": "data/other-shops/145040712.json"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 41067,
+    "title": "WindowsXP/Vista/7 DVDソフト 炎の孕ませおっぱい乳同級生",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034452",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034452.jpg",
+    "manufacturer": "SQUEEZ",
+    "releaseDate": "2012-11-16",
+    "listPrice": 9680,
+    "modelNumber": "NDOUKYU",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034452001",
+      "メーカー": "SQUEEZ",
+      "発売日": "2012/11/16",
+      "定価": "9,680円",
+      "型番": "NDOUKYU",
+      "原画": "ゆいび",
+      "シナリオ": "骸坊主\n伊藤海\n原野伊瀬",
+      "声優": "青葉りんご\nかわしまりの\n中家志穂\n草柳順子\n東かりん\n佐倉もも花\n花南\n鈴音華月\n桜川未央\n未来羽\nみる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4780,
+    "latestRegularSalePrice": 4780,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:01.902Z"
+  },
+  "histories": [
+    {
+      "id": 41081,
+      "productId": 41067,
+      "salePrice": 3270,
+      "regularSalePrice": 3270,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:34.559Z"
+    },
+    {
+      "id": 52817,
+      "productId": 41067,
+      "salePrice": 4780,
+      "regularSalePrice": 4780,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:01.902Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142261,
+      "productId": 41067,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4780,
+      "checkedAt": "2026-08-19T16:19:02.000Z"
+    },
+    {
+      "id": 142260,
+      "productId": 41067,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 3270,
+      "checkedAt": "2026-08-19T16:19:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034452",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034452",
+    "capturedAt": "2026-08-19T16:19:01.902Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 3270
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4780
+      }
+    ],
+    "path": "data/other-shops/145034452.json"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42820,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 凌母 -Maternity Insult-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015687",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015687.jpg",
+    "manufacturer": "アイル【チーム・Fun2】",
+    "releaseDate": "2007-04-13",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015687",
+      "メーカー": "アイル【チーム・Fun2】",
+      "発売日": "2007/04/13",
+      "定価": "9,680円",
+      "原画": "リバ原あき",
+      "シナリオ": "FunFun\nりうのすけ",
+      "音楽": "一色由比",
+      "声優": "櫻井ありす\n風華\n羽高なる\nAYA\n北都南",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4311,
+    "latestRegularSalePrice": 4311,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:21.512Z"
+  },
+  "histories": [
+    {
+      "id": 42834,
+      "productId": 42820,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:21.512Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015687",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015687",
+    "capturedAt": "2026-08-17T07:15:21.512Z",
+    "items": [],
+    "path": "data/other-shops/145015687.json"
+  }
+}

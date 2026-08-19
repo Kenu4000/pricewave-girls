@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42188,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト ヨスガノソラ[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065551",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065551.jpg",
+    "manufacturer": "Sphere(スフィア)",
+    "releaseDate": "2008-12-05",
+    "listPrice": 9680,
+    "modelNumber": "SPH-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145065551",
+      "メーカー": "Sphere(スフィア)",
+      "発売日": "2008/12/05",
+      "定価": "9,680円",
+      "型番": "SPH-001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 17800,
+    "latestRegularSalePrice": 17800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:56.458Z"
+  },
+  "histories": [
+    {
+      "id": 42202,
+      "productId": 42188,
+      "salePrice": 17800,
+      "regularSalePrice": 17800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:08.561Z"
+    },
+    {
+      "id": 53625,
+      "productId": 42188,
+      "salePrice": 17800,
+      "regularSalePrice": 17800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:56.458Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065551",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065551",
+    "capturedAt": "2026-08-19T16:25:56.458Z",
+    "items": [],
+    "path": "data/other-shops/145065551.json"
+  }
+}

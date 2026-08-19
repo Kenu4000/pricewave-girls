@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 8203,
+    "title": "Windows98/Me/2000/XP CDソフト リズミック・レヴ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006699",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006699.jpg",
+    "manufacturer": "エクストリーム",
+    "releaseDate": "2002-07-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145006699001",
+      "メーカー": "エクストリーム",
+      "発売日": "2002/07/25",
+      "定価": "9,680円",
+      "原画": "ゆいまゆたか",
+      "シナリオ": "八雲意宇",
+      "声優": "さおり\n珠ひよこ\n北川葵\n桜井唯\n美悠\n美咲美遊\n水野沙耶",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4400,
+    "latestRegularSalePrice": 4400,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:26.266Z"
+  },
+  "histories": [
+    {
+      "id": 8217,
+      "productId": 8203,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 23104,
+      "productId": 8203,
+      "salePrice": 4180,
+      "regularSalePrice": 4400,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:32.026Z"
+    },
+    {
+      "id": 37617,
+      "productId": 8203,
+      "salePrice": 4180,
+      "regularSalePrice": 4400,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:22.747Z"
+    },
+    {
+      "id": 48115,
+      "productId": 8203,
+      "salePrice": 4400,
+      "regularSalePrice": 4400,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:26.266Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41505,
+    "title": "Windows2000/XP/Vista/7 CDソフト 催眠コスプレ広場",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024786",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024786.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2010-09-24",
+    "listPrice": 3300,
+    "modelNumber": "KRH-00023",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024786",
+      "メーカー": "黒雛",
+      "発売日": "2010/09/24",
+      "定価": "3,300円",
+      "型番": "KRH-00023",
+      "原画": "鳴戸成人",
+      "シナリオ": "井垣巧",
+      "声優": "ダイナマイト亜美",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:56.546Z"
+  },
+  "histories": [
+    {
+      "id": 41519,
+      "productId": 41505,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:31.483Z"
+    },
+    {
+      "id": 53142,
+      "productId": 41505,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:56.546Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024786",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024786",
+    "capturedAt": "2026-08-19T16:21:56.546Z",
+    "items": [],
+    "path": "data/other-shops/145024786.json"
+  }
+}

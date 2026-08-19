@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 30961,
+    "title": "WindowsXP/Vista/7 CDソフト 近親母姦 -今日もまた、お母さんがぼくを求めてくる-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040247",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040247.jpg",
+    "manufacturer": "スピンドル",
+    "releaseDate": "2014-03-28",
+    "listPrice": 2750,
+    "modelNumber": "SPDL-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145040247001",
+      "メーカー": "スピンドル",
+      "発売日": "2014/03/28",
+      "定価": "2,750円",
+      "型番": "SPDL-010",
+      "原画": "川合正起",
+      "シナリオ": "よこよこ",
+      "声優": "井上瑞樹",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "1080",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:25:29.209Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:40.869Z"
+  },
+  "histories": [
+    {
+      "id": 30975,
+      "productId": 30961,
+      "salePrice": 1000,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:29.024Z"
+    },
+    {
+      "id": 39726,
+      "productId": 30961,
+      "salePrice": 1000,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:18.369Z"
+    },
+    {
+      "id": 50852,
+      "productId": 30961,
+      "salePrice": 1000,
+      "regularSalePrice": 1080,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:40.869Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136227,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T05:31:41.000Z"
+    },
+    {
+      "id": 136226,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-19T05:31:41.000Z"
+    },
+    {
+      "id": 136225,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T05:31:41.000Z"
+    },
+    {
+      "id": 103889,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:23:18.000Z"
+    },
+    {
+      "id": 103888,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:23:18.000Z"
+    },
+    {
+      "id": 78018,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:25:29.000Z"
+    },
+    {
+      "id": 78017,
+      "productId": 30961,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:25:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040247",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040247",
+    "capturedAt": "2026-08-19T05:31:40.869Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145040247.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 30201,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 乙女が彩る恋のエッセンス [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065715",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065715.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2016-03-25",
+    "listPrice": 10780,
+    "modelNumber": "WILL-339",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065715",
+      "メーカー": "ensemble",
+      "発売日": "2016/03/25",
+      "定価": "10,780円",
+      "型番": "WILL-339",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:16:43.742Z"
+  },
+  "histories": [
+    {
+      "id": 30215,
+      "productId": 30201,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:53.537Z"
+    },
+    {
+      "id": 39002,
+      "productId": 30201,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:43.742Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065715",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065715",
+    "capturedAt": "2026-08-16T01:16:43.742Z",
+    "items": [],
+    "path": "data/other-shops/145065715.json"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 42907,
+    "title": "WindowsMe/2000/XP DVDソフト エーデルワイス [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015126",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015126.jpg",
+    "manufacturer": "OVERDRIVE",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015126",
+      "メーカー": "OVERDRIVE",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "原画": "片倉真二",
+      "シナリオ": "TeamN.G.X",
+      "音楽": "milktub",
+      "声優": "稲田徹\n井上美紀\n小松由佳\n永島由子\n松本桜\n鈴木麻里子\n田中一成\n服巻浩司\n高塚正也\n一色ヒカル\n西沢広香\n御崎朱美\n斉藤貴美子\n竹本英史",
+      "アーティスト": "NANA",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:13.392Z"
+  },
+  "histories": [
+    {
+      "id": 42921,
+      "productId": 42907,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:13.311Z"
+    },
+    {
+      "id": 48795,
+      "productId": 42907,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:13.392Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015126",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015126",
+    "capturedAt": "2026-08-19T04:26:13.392Z",
+    "items": [],
+    "path": "data/other-shops/145015126.json"
+  }
+}

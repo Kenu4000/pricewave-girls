@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 41650,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 団地ワイフ～人妻ヌードモデルの献身～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023904",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023904.jpg",
+    "manufacturer": "Guilty+",
+    "releaseDate": "2010-04-30",
+    "listPrice": 3457,
+    "modelNumber": "WILL-240",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145023904001",
+      "メーカー": "Guilty+",
+      "発売日": "2010/04/30",
+      "定価": "3,457円",
+      "型番": "WILL-240",
+      "原画": "紅葉-K",
+      "シナリオ": "髪ノ毛座",
+      "声優": "このかなみ\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:47.372Z"
+  },
+  "histories": [
+    {
+      "id": 41664,
+      "productId": 41650,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:10.869Z"
+    },
+    {
+      "id": 53245,
+      "productId": 41650,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:47.372Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143166,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-19T16:22:47.000Z"
+    },
+    {
+      "id": 143165,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-19T16:22:47.000Z"
+    },
+    {
+      "id": 143164,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-08-19T16:22:47.000Z"
+    },
+    {
+      "id": 143163,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2701,
+      "checkedAt": "2026-08-19T16:22:47.000Z"
+    },
+    {
+      "id": 108016,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-17T07:04:11.000Z"
+    },
+    {
+      "id": 108015,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-08-17T07:04:11.000Z"
+    },
+    {
+      "id": 108014,
+      "productId": 41650,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-17T07:04:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023904",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023904",
+    "capturedAt": "2026-08-19T16:22:47.372Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2701
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2711
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2980
+      }
+    ],
+    "path": "data/other-shops/145023904.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41615,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ティンクル☆くるせいだーす リマスター版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049322",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049322.jpg",
+    "manufacturer": "Lillian",
+    "releaseDate": "2010-06-24",
+    "listPrice": 9680,
+    "modelNumber": "PAM-0102",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145049322",
+      "メーカー": "Lillian",
+      "発売日": "2010/06/24",
+      "定価": "9,680円",
+      "型番": "PAM-0102",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:33.878Z"
+  },
+  "histories": [
+    {
+      "id": 41629,
+      "productId": 41615,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:50.214Z"
+    },
+    {
+      "id": 53217,
+      "productId": 41615,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:33.878Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049322",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049322",
+    "capturedAt": "2026-08-19T16:22:33.878Z",
+    "items": [],
+    "path": "data/other-shops/145049322.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41345,
+    "title": "WindowsXP/Vista/7 DVDソフト 聖戦姫ヴァルキュア・シスターズー淫闇(やみ)に堕ちたアイドルー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071526",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071526.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2011-02-25",
+    "listPrice": 8250,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145071526",
+      "メーカー": "catwalkNERO",
+      "発売日": "2011/02/25",
+      "定価": "8,250円",
+      "原画": "亀井",
+      "シナリオ": "筑摩十幸",
+      "声優": "天野咲月\n氷室百合\nあさり☆\n韮井叶\n水神楓\n加古川高",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2222,
+    "latestRegularSalePrice": 2222,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:05.538Z"
+  },
+  "histories": [
+    {
+      "id": 41359,
+      "productId": 41345,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:00.281Z"
+    },
+    {
+      "id": 43914,
+      "productId": 41345,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:05.538Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145071526",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071526",
+    "capturedAt": "2026-08-17T09:36:05.538Z",
+    "items": [],
+    "path": "data/other-shops/145071526.json"
+  }
+}

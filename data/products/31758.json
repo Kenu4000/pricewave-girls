@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 31758,
+    "title": "WindowsXP/Vista/7 DVDソフト LEWDNESSーVita sexualisー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032048",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032048.jpg",
+    "manufacturer": "Empress",
+    "releaseDate": "2012-06-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032048001",
+      "メーカー": "Empress",
+      "発売日": "2012/06/22",
+      "定価": "9,680円",
+      "原画": "聖少女",
+      "シナリオ": "卑影ムラサキ",
+      "声優": "紫陽花\n渋谷ひめ\n長谷部雪奈\n御苑生メイ\n青井美海\n中野志乃\n有賀桃\n城崎彦太\n高草木幸\n多富満",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:31:19.908Z"
+  },
+  "histories": [
+    {
+      "id": 31772,
+      "productId": 31758,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:50.861Z"
+    },
+    {
+      "id": 40506,
+      "productId": 31758,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:19.908Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105322,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-08-16T01:31:20.000Z"
+    },
+    {
+      "id": 105321,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2210,
+      "checkedAt": "2026-08-16T01:31:20.000Z"
+    },
+    {
+      "id": 105320,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-16T01:31:20.000Z"
+    },
+    {
+      "id": 105319,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1990,
+      "checkedAt": "2026-08-16T01:31:20.000Z"
+    },
+    {
+      "id": 79479,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-08-15T23:43:51.000Z"
+    },
+    {
+      "id": 79478,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2210,
+      "checkedAt": "2026-08-15T23:43:51.000Z"
+    },
+    {
+      "id": 79477,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-15T23:43:51.000Z"
+    },
+    {
+      "id": 79476,
+      "productId": 31758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1990,
+      "checkedAt": "2026-08-15T23:43:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032048",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032048",
+    "capturedAt": "2026-08-16T01:31:19.908Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1990
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2111
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2210
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2280
+      }
+    ],
+    "path": "data/other-shops/145032048.json"
+  }
+}

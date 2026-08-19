@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41658,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 魔界天使ジブリール4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023493",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023493.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2010-04-23",
+    "listPrice": 9680,
+    "modelNumber": "FWS-00052",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023493",
+      "メーカー": "フロントウイング",
+      "発売日": "2010/04/23",
+      "定価": "9,680円",
+      "型番": "FWS-00052",
+      "原画": "空中幼彩",
+      "シナリオ": "屑美たけゆき\n七鳥未奏with企画屋\n橘ぱん\n渡辺僚一\n鳴海瑛二",
+      "声優": "韮井叶\n佐倉もも花\n有栖川みや美\n東かりん\n野神奈々\n民安ともえ\nまきいづみ\n胸肩腎\n彩世ゆう\n永倉仁八\n中澤アユム",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3800,
+    "latestRegularSalePrice": 3800,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:52.834Z"
+  },
+  "histories": [
+    {
+      "id": 41672,
+      "productId": 41658,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:17.170Z"
+    },
+    {
+      "id": 53255,
+      "productId": 41658,
+      "salePrice": 3800,
+      "regularSalePrice": 3800,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:52.834Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023493",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023493",
+    "capturedAt": "2026-08-19T16:22:52.834Z",
+    "items": [],
+    "path": "data/other-shops/145023493.json"
+  }
+}

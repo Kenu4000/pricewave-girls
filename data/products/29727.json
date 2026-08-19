@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 29727,
+    "title": "Windows7/8/10 DVDソフト 艶花サクラメント -性なる御技と悪霊憑きの少女たち-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059722",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059722.jpg",
+    "manufacturer": "アストロノーツ・コメット",
+    "releaseDate": "2017-11-24",
+    "listPrice": 9680,
+    "modelNumber": "AS-015",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059722",
+      "メーカー": "アストロノーツ・コメット",
+      "発売日": "2017/11/24",
+      "定価": "9,680円",
+      "型番": "AS-015",
+      "原画": "たいのね",
+      "シナリオ": "中村亮太\n金岡さざん\n霧島へるん\nなかぢ\n桃梨蜜柑",
+      "声優": "手塚りょうこ\nヒマリ\n御苑生メイ\n岬友美",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:31.217Z"
+  },
+  "histories": [
+    {
+      "id": 29741,
+      "productId": 29727,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:02.583Z"
+    },
+    {
+      "id": 38553,
+      "productId": 29727,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:52.785Z"
+    },
+    {
+      "id": 49646,
+      "productId": 29727,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:31.217Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059722",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059722",
+    "capturedAt": "2026-08-19T04:32:31.217Z",
+    "items": [],
+    "path": "data/other-shops/145059722.json"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "product": {
+    "id": 42503,
+    "title": "Windows2000/XP CDソフト Hカップ生意気家庭教師～乳フェチ・パイズリ編～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017595",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017595.jpg",
+    "manufacturer": "みるくぱい",
+    "releaseDate": "2008-03-14",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017595001",
+      "メーカー": "みるくぱい",
+      "発売日": "2008/03/14",
+      "定価": "3,080円",
+      "原画": "真木八尋",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "音楽": "I’ve",
+      "アーティスト": "MOSAIC.WAV",
+      "声優": "風音\nまきいづみ\n逢川奈々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "OS": "AIC.WAV",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:56.051Z"
+  },
+  "histories": [
+    {
+      "id": 42517,
+      "productId": 42503,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:25.322Z"
+    },
+    {
+      "id": 53862,
+      "productId": 42503,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:56.051Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144360,
+      "productId": 42503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:27:56.000Z"
+    },
+    {
+      "id": 144359,
+      "productId": 42503,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1300,
+      "checkedAt": "2026-08-19T16:27:56.000Z"
+    },
+    {
+      "id": 144358,
+      "productId": 42503,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:27:56.000Z"
+    },
+    {
+      "id": 109826,
+      "productId": 42503,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古通常",
+      "price": 1300,
+      "checkedAt": "2026-08-17T07:12:26.000Z"
+    },
+    {
+      "id": 109825,
+      "productId": 42503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:12:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017595",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017595",
+    "capturedAt": "2026-08-19T16:27:56.051Z",
+    "items": [
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古通常",
+        "price": 1300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145017595.json"
+  }
+}

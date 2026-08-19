@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 29615,
+    "title": "Windows7/8/10 CDソフト プレイ!プレイ!プレイ!GO! ソフマップ特典デジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062133",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062133.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2018-05-25",
+    "listPrice": null,
+    "modelNumber": "HBTT-272",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062133",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2018/05/25",
+      "型番": "HBTT-272",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:52.934Z"
+  },
+  "histories": [
+    {
+      "id": 29629,
+      "productId": 29615,
+      "salePrice": 350,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:58.277Z"
+    },
+    {
+      "id": 38446,
+      "productId": 29615,
+      "salePrice": 350,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:51.737Z"
+    },
+    {
+      "id": 49555,
+      "productId": 29615,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:52.934Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 101122,
+      "productId": 29615,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:11:51.000Z"
+    },
+    {
+      "id": 101121,
+      "productId": 29615,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-16T01:11:51.000Z"
+    },
+    {
+      "id": 75105,
+      "productId": 29615,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:08:58.000Z"
+    },
+    {
+      "id": 75104,
+      "productId": 29615,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-15T23:08:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062133",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062133",
+    "capturedAt": "2026-08-19T04:31:52.934Z",
+    "items": [],
+    "path": "data/other-shops/145062133.json"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 29462,
+    "title": "Windows7/8/10 DVDソフト ギルドマスター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075146",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075146.jpg",
+    "manufacturer": "アストロノーツ・シリウス",
+    "releaseDate": "2019-02-22",
+    "listPrice": 10780,
+    "modelNumber": "AS-016",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145075146",
+      "メーカー": "アストロノーツ・シリウス",
+      "発売日": "2019/02/22",
+      "定価": "10,780円",
+      "型番": "AS-016",
+      "原画": "M&M",
+      "シナリオ": "なかぢ\nヤマガミユウ\nすまっしゅぱんだ\n霧島へるん",
+      "声優": "手塚りょうこ\n花丸あすな\n渋谷ひめ\n麻優莉\n風花ましろ\n有賀桃\nヒマリ\n八尋まみ\nももぞの薫",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "説明書欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "説明書欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:57.484Z"
+  },
+  "histories": [
+    {
+      "id": 29476,
+      "productId": 29462,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:14.582Z"
+    },
+    {
+      "id": 38294,
+      "productId": 29462,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:29.250Z"
+    },
+    {
+      "id": 49433,
+      "productId": 29462,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:57.484Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145075146",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075146",
+    "capturedAt": "2026-08-19T04:30:57.484Z",
+    "items": [],
+    "path": "data/other-shops/145075146.json"
+  }
+}

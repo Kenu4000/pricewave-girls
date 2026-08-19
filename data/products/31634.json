@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31634,
+    "title": "WindowsXP/Vista/7 DVDソフト 特別授業3 SLG",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043459",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043459.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "BSP-034",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145043459",
+      "メーカー": "BISHOP",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "BSP-034",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:00.313Z"
+  },
+  "histories": [
+    {
+      "id": 31648,
+      "productId": 31634,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:12.401Z"
+    },
+    {
+      "id": 40383,
+      "productId": 31634,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:23.310Z"
+    },
+    {
+      "id": 43781,
+      "productId": 31634,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:00.313Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043459",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043459",
+    "capturedAt": "2026-08-17T09:35:00.313Z",
+    "items": [],
+    "path": "data/other-shops/145043459.json"
+  }
+}

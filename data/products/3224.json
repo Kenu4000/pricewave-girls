@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 3224,
+    "title": "Windows95/98/Me/2000 CDソフト 奴隷介護",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145005566",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145005566.jpg",
+    "manufacturer": "エルフ",
+    "releaseDate": "2001-10-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145005566",
+      "メーカー": "エルフ",
+      "発売日": "2001/10/26",
+      "定価": "9,680円",
+      "原画": "のぶとし",
+      "シナリオ": "そのだまさき",
+      "声優": "金田まひる",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:01.127Z"
+  },
+  "histories": [
+    {
+      "id": 3238,
+      "productId": 3224,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 26666,
+      "productId": 3224,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:05.766Z"
+    },
+    {
+      "id": 37020,
+      "productId": 3224,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:09.506Z"
+    },
+    {
+      "id": 47629,
+      "productId": 3224,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:01.127Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126426,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1298,
+      "checkedAt": "2026-08-17T16:07:01.000Z"
+    },
+    {
+      "id": 126425,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-17T16:07:01.000Z"
+    },
+    {
+      "id": 97301,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1298,
+      "checkedAt": "2026-08-16T00:59:09.000Z"
+    },
+    {
+      "id": 97300,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-16T00:59:09.000Z"
+    },
+    {
+      "id": 65545,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-09T21:36:06.000Z"
+    },
+    {
+      "id": 65544,
+      "productId": 3224,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-09T21:36:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145005566",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145005566",
+    "capturedAt": "2026-08-17T16:07:01.127Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1099
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1298
+      }
+    ],
+    "path": "data/other-shops/145005566.json"
+  }
+}

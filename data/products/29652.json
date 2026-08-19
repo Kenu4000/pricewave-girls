@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29652,
+    "title": "Windows7/8/10 DVDソフト ヒミツたいけんスペシャルパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060884",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060884.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2018-03-16",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060884",
+      "メーカー": "コンプリーツ",
+      "発売日": "2018/03/16",
+      "定価": "7,480円",
+      "原画": "まめ",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 11500,
+    "latestRegularSalePrice": 11500,
+    "latestBuyPrice": 4300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:03.799Z"
+  },
+  "histories": [
+    {
+      "id": 29666,
+      "productId": 29652,
+      "salePrice": 11500,
+      "regularSalePrice": 11500,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:20.991Z"
+    },
+    {
+      "id": 38477,
+      "productId": 29652,
+      "salePrice": 11500,
+      "regularSalePrice": 11500,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:14.212Z"
+    },
+    {
+      "id": 49581,
+      "productId": 29652,
+      "salePrice": 11500,
+      "regularSalePrice": 11500,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:03.799Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060884",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060884",
+    "capturedAt": "2026-08-19T04:32:03.799Z",
+    "items": [],
+    "path": "data/other-shops/145060884.json"
+  }
+}

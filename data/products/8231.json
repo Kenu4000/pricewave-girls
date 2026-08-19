@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 8231,
+    "title": "Windows98/Me/2000/XP CDソフト 春萌 ーはるもいー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014095",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014095.jpg",
+    "manufacturer": "LOVERSOUL",
+    "releaseDate": "2006-04-14",
+    "listPrice": 9680,
+    "modelNumber": "LS-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014095",
+      "メーカー": "LOVERSOUL",
+      "発売日": "2006/04/14",
+      "定価": "9,680円",
+      "型番": "LS-002",
+      "原画": "菜然しかな\nはいおく",
+      "シナリオ": "夏葉薫\n水月紅葉",
+      "声優": "千砂\n佐本二厘\nまきいづみ\n茶谷やすら\nこのかなみ\n佐藤千幸",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 790,
+    "latestRegularSalePrice": 790,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:36.632Z"
+  },
+  "histories": [
+    {
+      "id": 8245,
+      "productId": 8231,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 26788,
+      "productId": 8231,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:18.031Z"
+    },
+    {
+      "id": 37638,
+      "productId": 8231,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:37.053Z"
+    },
+    {
+      "id": 48132,
+      "productId": 8231,
+      "salePrice": 790,
+      "regularSalePrice": 790,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:36.632Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014095",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014095",
+    "capturedAt": "2026-08-17T16:11:36.632Z",
+    "items": [],
+    "path": "data/other-shops/145014095.json"
+  }
+}

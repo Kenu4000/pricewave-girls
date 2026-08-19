@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41422,
+    "title": "WindowsXP/Vista/7 DVDソフト キッキングホース★ラプソディ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025477",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025477.jpg",
+    "manufacturer": "ALcot ハニカム",
+    "releaseDate": "2010-11-26",
+    "listPrice": 6380,
+    "modelNumber": "AH-KI-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025477001",
+      "メーカー": "ALcot ハニカム",
+      "発売日": "2010/11/26",
+      "定価": "6,380円",
+      "型番": "AH-KI-001",
+      "原画": "ミヤスリサ",
+      "シナリオ": "保住圭",
+      "声優": "藤咲ウサ\n民安ともえ\n日向苺\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:11.321Z"
+  },
+  "histories": [
+    {
+      "id": 41436,
+      "productId": 41422,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:44.478Z"
+    },
+    {
+      "id": 43925,
+      "productId": 41422,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:11.321Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113629,
+      "productId": 41422,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T09:36:11.000Z"
+    },
+    {
+      "id": 113628,
+      "productId": 41422,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T09:36:11.000Z"
+    },
+    {
+      "id": 107594,
+      "productId": 41422,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:01:45.000Z"
+    },
+    {
+      "id": 107593,
+      "productId": 41422,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:01:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025477",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025477",
+    "capturedAt": "2026-08-17T09:36:11.321Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145025477.json"
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 29251,
+    "title": "Windows CDソフト 槇村葉月の恋語り ソフマップ特典CD「槇村葉月のボイスアクセサリー＋」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073275",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073275.jpg",
+    "manufacturer": "あざらしそふと＋1",
+    "releaseDate": "2021-09-24",
+    "listPrice": null,
+    "modelNumber": "SMPML-0196",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145073275001",
+      "メーカー": "あざらしそふと＋1",
+      "発売日": "2021/09/24",
+      "型番": "SMPML-0196",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 310,
+    "latestRegularSalePrice": 310,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:50.802Z"
+  },
+  "histories": [
+    {
+      "id": 29265,
+      "productId": 29251,
+      "salePrice": 290,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:00.880Z"
+    },
+    {
+      "id": 38098,
+      "productId": 29251,
+      "salePrice": 290,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:31.639Z"
+    },
+    {
+      "id": 49280,
+      "productId": 29251,
+      "salePrice": 310,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:50.802Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131826,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 310,
+      "checkedAt": "2026-08-19T04:29:51.000Z"
+    },
+    {
+      "id": 131825,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T04:29:51.000Z"
+    },
+    {
+      "id": 131824,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T04:29:51.000Z"
+    },
+    {
+      "id": 100174,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:08:31.000Z"
+    },
+    {
+      "id": 100173,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 290,
+      "checkedAt": "2026-08-16T01:08:31.000Z"
+    },
+    {
+      "id": 74118,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:05:01.000Z"
+    },
+    {
+      "id": 74117,
+      "productId": 29251,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 290,
+      "checkedAt": "2026-08-15T23:05:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073275",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073275",
+    "capturedAt": "2026-08-19T04:29:50.802Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 310
+      }
+    ],
+    "path": "data/other-shops/145073275.json"
+  }
+}

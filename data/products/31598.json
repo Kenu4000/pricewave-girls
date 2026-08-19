@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31598,
+    "title": "WindowsXP/Vista/7 DVDソフト 露出変態遊戯",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034450",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034450.jpg",
+    "manufacturer": "WendyBell",
+    "releaseDate": "2012-10-26",
+    "listPrice": 3850,
+    "modelNumber": "WB-09",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034450",
+      "メーカー": "WendyBell",
+      "発売日": "2012/10/26",
+      "定価": "3,850円",
+      "型番": "WB-09",
+      "原画": "きいろ猫",
+      "シナリオ": "唯の言葉",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3611,
+    "latestRegularSalePrice": 3611,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:42.336Z"
+  },
+  "histories": [
+    {
+      "id": 31612,
+      "productId": 31598,
+      "salePrice": 3611,
+      "regularSalePrice": 3611,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:51.016Z"
+    },
+    {
+      "id": 40347,
+      "productId": 31598,
+      "salePrice": 3611,
+      "regularSalePrice": 3611,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:07.043Z"
+    },
+    {
+      "id": 52112,
+      "productId": 31598,
+      "salePrice": 3611,
+      "regularSalePrice": 3611,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:42.336Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034450",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034450",
+    "capturedAt": "2026-08-19T15:32:42.336Z",
+    "items": [],
+    "path": "data/other-shops/145034450.json"
+  }
+}

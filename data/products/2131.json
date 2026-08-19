@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 2131,
+    "title": "WindowsVista/7/8/10 DVDソフト ツギハギめいくぴーす! [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059023.jpg",
+    "manufacturer": "Curefull Base",
+    "releaseDate": "2017-10-27",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059023",
+      "メーカー": "Curefull Base",
+      "発売日": "2017/10/27",
+      "定価": "10,780円",
+      "原画": "水越まゆ\n蟹屋しく\nともー",
+      "シナリオ": "酒金大河",
+      "声優": "水野七海\n小倉結衣\n藤森ゆき奈\n佐倉江美\n橘まお",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2100,
+    "latestRegularSalePrice": 2100,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:40:49.178Z"
+  },
+  "histories": [
+    {
+      "id": 2145,
+      "productId": 2131,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:05:20.000Z"
+    },
+    {
+      "id": 7030,
+      "productId": 2131,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:12:54.000Z"
+    },
+    {
+      "id": 22837,
+      "productId": 2131,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:09.368Z"
+    },
+    {
+      "id": 36171,
+      "productId": 2131,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:51:29.128Z"
+    },
+    {
+      "id": 46624,
+      "productId": 2131,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:40:49.178Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059023",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059023",
+    "capturedAt": "2026-08-17T13:40:49.178Z",
+    "items": [],
+    "path": "data/other-shops/145059023.json"
+  }
+}

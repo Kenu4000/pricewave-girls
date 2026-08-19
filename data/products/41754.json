@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41754,
+    "title": "WindowsXP/Vista DVDソフト お母さんがいっぱい!![通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055072",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055072.jpg",
+    "manufacturer": "ういろうそふと",
+    "releaseDate": "2010-01-22",
+    "listPrice": 8580,
+    "modelNumber": "INH-278",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145055072",
+      "メーカー": "ういろうそふと",
+      "発売日": "2010/01/22",
+      "定価": "8,580円",
+      "型番": "INH-278",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:20.901Z"
+  },
+  "histories": [
+    {
+      "id": 41768,
+      "productId": 41754,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:05.468Z"
+    },
+    {
+      "id": 53315,
+      "productId": 41754,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:20.901Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055072",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055072",
+    "capturedAt": "2026-08-19T16:23:20.901Z",
+    "items": [],
+    "path": "data/other-shops/145055072.json"
+  }
+}

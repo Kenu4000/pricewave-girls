@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41794,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 微少女[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900038",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900038.jpg",
+    "manufacturer": "たぬきそふと",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": "TNK-002L",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900038",
+      "メーカー": "たぬきそふと",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "型番": "TNK-002L",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:37.291Z"
+  },
+  "histories": [
+    {
+      "id": 41808,
+      "productId": 41794,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:27.152Z"
+    },
+    {
+      "id": 53348,
+      "productId": 41794,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:37.291Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900038",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900038",
+    "capturedAt": "2026-08-19T16:23:37.291Z",
+    "items": [],
+    "path": "data/other-shops/145900038.json"
+  }
+}

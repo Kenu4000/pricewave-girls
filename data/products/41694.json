@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 41694,
+    "title": "Windows CDソフト Happy Wardrobe ドラマCD「女装大作戦」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046887.jpg",
+    "manufacturer": "Shallot",
+    "releaseDate": "2010-03-25",
+    "listPrice": null,
+    "modelNumber": "SHL-1002",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145046887001",
+      "メーカー": "Shallot",
+      "発売日": "2010/03/25",
+      "型番": "SHL-1002",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:06.035Z"
+  },
+  "histories": [
+    {
+      "id": 41708,
+      "productId": 41694,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:36.092Z"
+    },
+    {
+      "id": 53282,
+      "productId": 41694,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:06.035Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143226,
+      "productId": 41694,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T16:23:06.000Z"
+    },
+    {
+      "id": 143225,
+      "productId": 41694,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ（未開封）",
+      "price": 1200,
+      "checkedAt": "2026-08-19T16:23:06.000Z"
+    },
+    {
+      "id": 143224,
+      "productId": 41694,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-19T16:23:06.000Z"
+    },
+    {
+      "id": 108112,
+      "productId": 41694,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ（未開封）",
+      "price": 1200,
+      "checkedAt": "2026-08-17T07:04:36.000Z"
+    },
+    {
+      "id": 108111,
+      "productId": 41694,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:04:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046887",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046887",
+    "capturedAt": "2026-08-19T16:23:06.035Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ（未開封）",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145046887.json"
+  }
+}

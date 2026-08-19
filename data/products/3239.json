@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 3239,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 牝奴の館(ひんどのやかた)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019035",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019035.jpg",
+    "manufacturer": "BLACK PACKAGE TRY",
+    "releaseDate": "2008-12-12",
+    "listPrice": 9680,
+    "modelNumber": "BP0064",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019035001",
+      "メーカー": "BLACK PACKAGE TRY",
+      "発売日": "2008/12/12",
+      "定価": "9,680円",
+      "型番": "BP0064",
+      "原画": "天野雨乃",
+      "シナリオ": "有巻洋太",
+      "声優": "逢川奈々\n木梨樹里\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "2850",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2700,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-09T21:36:11.150Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-09T21:36:10.889Z"
+  },
+  "histories": [
+    {
+      "id": 3253,
+      "productId": 3239,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 26671,
+      "productId": 3239,
+      "salePrice": 2700,
+      "regularSalePrice": 2850,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:10.889Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 65563,
+      "productId": 3239,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2811,
+      "checkedAt": "2026-08-09T21:36:11.000Z"
+    },
+    {
+      "id": 65562,
+      "productId": 3239,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-08-09T21:36:11.000Z"
+    },
+    {
+      "id": 65561,
+      "productId": 3239,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1850,
+      "checkedAt": "2026-08-09T21:36:11.000Z"
+    },
+    {
+      "id": 65560,
+      "productId": 3239,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1850,
+      "checkedAt": "2026-08-09T21:36:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

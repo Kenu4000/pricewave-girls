@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 41924,
+    "title": "Windows98SE/Me/2000/XP DVDソフト MQ～時空の覇者～[限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020218",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020218.jpg",
+    "manufacturer": "アーベルソフトウェア",
+    "releaseDate": "2009-07-31",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145020218001",
+      "メーカー": "アーベルソフトウェア",
+      "発売日": "2009/07/31",
+      "定価": "10,780円",
+      "原画": "芹沢克己",
+      "シナリオ": "菅野ひろゆき",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:24.926Z"
+  },
+  "histories": [
+    {
+      "id": 41938,
+      "productId": 41924,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:33.058Z"
+    },
+    {
+      "id": 53445,
+      "productId": 41924,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:24.926Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143526,
+      "productId": 41924,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:24:25.000Z"
+    },
+    {
+      "id": 143525,
+      "productId": 41924,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:24:25.000Z"
+    },
+    {
+      "id": 143524,
+      "productId": 41924,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:24:25.000Z"
+    },
+    {
+      "id": 108553,
+      "productId": 41924,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:06:33.000Z"
+    },
+    {
+      "id": 108552,
+      "productId": 41924,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:06:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020218",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020218",
+    "capturedAt": "2026-08-19T16:24:24.926Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145020218.json"
+  }
+}

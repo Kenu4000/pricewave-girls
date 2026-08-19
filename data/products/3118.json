@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 3118,
+    "title": "Windows98/Me/2000/XP CDソフト 花の記憶～第七章～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008181",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008181.jpg",
+    "manufacturer": "フォスター",
+    "releaseDate": "2002-12-20",
+    "listPrice": 9680,
+    "modelNumber": "FST-0203",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008181",
+      "メーカー": "フォスター",
+      "発売日": "2002/12/20",
+      "定価": "9,680円",
+      "型番": "FST-0203",
+      "原画": "スカイハウス",
+      "シナリオ": "D.D.",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:15.562Z"
+  },
+  "histories": [
+    {
+      "id": 3132,
+      "productId": 3118,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22955,
+      "productId": 3118,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:13.850Z"
+    },
+    {
+      "id": 36932,
+      "productId": 3118,
+      "salePrice": 1630,
+      "regularSalePrice": 1630,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:23.493Z"
+    },
+    {
+      "id": 47548,
+      "productId": 3118,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:15.562Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126125,
+      "productId": 3118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1640,
+      "checkedAt": "2026-08-17T16:06:16.000Z"
+    },
+    {
+      "id": 126124,
+      "productId": 3118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1620,
+      "checkedAt": "2026-08-17T16:06:16.000Z"
+    },
+    {
+      "id": 52411,
+      "productId": 3118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1700,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    },
+    {
+      "id": 52410,
+      "productId": 3118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145008181",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008181",
+    "capturedAt": "2026-08-17T16:06:15.562Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1620
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1640
+      }
+    ],
+    "path": "data/other-shops/145008181.json"
+  }
+}

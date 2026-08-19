@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42628,
+    "title": "Windows2000/XP DVDソフト 淫烙の巫女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061258",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061258.jpg",
+    "manufacturer": "Nomad",
+    "releaseDate": "2007-10-26",
+    "listPrice": 9680,
+    "modelNumber": "NOM004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145061258",
+      "メーカー": "Nomad",
+      "発売日": "2007/10/26",
+      "定価": "9,680円",
+      "型番": "NOM004",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:47.202Z"
+  },
+  "histories": [
+    {
+      "id": 42642,
+      "productId": 42628,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:37.911Z"
+    },
+    {
+      "id": 53953,
+      "productId": 42628,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:47.202Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061258",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061258",
+    "capturedAt": "2026-08-19T16:28:47.202Z",
+    "items": [],
+    "path": "data/other-shops/145061258.json"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 42271,
+    "title": "Windows2000/XP/Vista DVDソフト リトルバスターズ!エクスタシー[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048749",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048749.jpg",
+    "manufacturer": "Key",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "YA-00030D",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145048749",
+      "メーカー": "Key",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "YA-00030D",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:17:45.904Z"
+  },
+  "histories": [
+    {
+      "id": 42285,
+      "productId": 42271,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:03.950Z"
+    },
+    {
+      "id": 44096,
+      "productId": 42271,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:36.662Z"
+    },
+    {
+      "id": 48878,
+      "productId": 42271,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:48.648Z"
+    },
+    {
+      "id": 52009,
+      "productId": 42271,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:31:47.857Z"
+    },
+    {
+      "id": 52686,
+      "productId": 42271,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:17:45.904Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048749",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048749",
+    "capturedAt": "2026-08-19T16:17:45.904Z",
+    "items": [],
+    "path": "data/other-shops/145048749.json"
+  }
+}

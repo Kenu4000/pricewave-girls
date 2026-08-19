@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 42997,
+    "title": "Windows95/98/Me/2000/XP CDソフト Rhythm 恋の律動 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015089",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015089.jpg",
+    "manufacturer": "キューティーソフト",
+    "releaseDate": "2006-11-17",
+    "listPrice": 2200,
+    "modelNumber": "QTS-6",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015089",
+      "メーカー": "キューティーソフト",
+      "発売日": "2006/11/17",
+      "定価": "2,200円",
+      "型番": "QTS-6",
+      "原画": "JOYRIDE",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1330,
+    "latestRegularSalePrice": 1330,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:02.463Z"
+  },
+  "histories": [
+    {
+      "id": 43011,
+      "productId": 42997,
+      "salePrice": 1330,
+      "regularSalePrice": 1330,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:02.463Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015089",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015089",
+    "capturedAt": "2026-08-17T07:17:02.463Z",
+    "items": [],
+    "path": "data/other-shops/145015089.json"
+  }
+}

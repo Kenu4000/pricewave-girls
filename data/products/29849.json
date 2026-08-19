@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 29849,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 処女ビッチだらけのテニス部強化合宿! [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057416",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057416.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2017-05-26",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145057416001",
+      "メーカー": "マリン",
+      "発売日": "2017/05/26",
+      "定価": "4,180円",
+      "原画": "金城航",
+      "シナリオ": "K-TOK",
+      "声優": "おぼれ谷リアス\n瀬名ゆず希\n手塚りょうこ\n市川みぃ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:11.256Z"
+  },
+  "histories": [
+    {
+      "id": 29863,
+      "productId": 29849,
+      "salePrice": 1400,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:18.061Z"
+    },
+    {
+      "id": 38670,
+      "productId": 29849,
+      "salePrice": 1400,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:50.913Z"
+    },
+    {
+      "id": 49740,
+      "productId": 29849,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:11.256Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132991,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-19T04:33:11.000Z"
+    },
+    {
+      "id": 132990,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-19T04:33:11.000Z"
+    },
+    {
+      "id": 101578,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-16T01:13:51.000Z"
+    },
+    {
+      "id": 101577,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-16T01:13:51.000Z"
+    },
+    {
+      "id": 75577,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-15T23:11:18.000Z"
+    },
+    {
+      "id": 75576,
+      "productId": 29849,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-15T23:11:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057416",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057416",
+    "capturedAt": "2026-08-19T04:33:11.256Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145057416.json"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 41775,
+    "title": "Windows2000/XP/Vista DVDソフト 嘘デレ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022690",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022690.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": "BASE-030",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145022690001",
+      "メーカー": "脳内彼女",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "型番": "BASE-030",
+      "原画": "あおぎりぺんた",
+      "シナリオ": "生田あわる\n西田一\n蒼夜",
+      "声優": "こんつ\n小倉結衣\n民安ともえ\nみる\n倉田まりや\n紫苑みやび\n桜坂かい",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:34.283Z"
+  },
+  "histories": [
+    {
+      "id": 41789,
+      "productId": 41775,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:15.659Z"
+    },
+    {
+      "id": 53342,
+      "productId": 41775,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:34.283Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143355,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-19T16:23:34.000Z"
+    },
+    {
+      "id": 143354,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:23:34.000Z"
+    },
+    {
+      "id": 143353,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 1040,
+      "checkedAt": "2026-08-19T16:23:34.000Z"
+    },
+    {
+      "id": 143352,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1040,
+      "checkedAt": "2026-08-19T16:23:34.000Z"
+    },
+    {
+      "id": 108277,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:05:15.000Z"
+    },
+    {
+      "id": 108276,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-17T07:05:15.000Z"
+    },
+    {
+      "id": 108275,
+      "productId": 41775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1040,
+      "checkedAt": "2026-08-17T07:05:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022690",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022690",
+    "capturedAt": "2026-08-19T16:23:34.283Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1040
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 1040
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145022690.json"
+  }
+}

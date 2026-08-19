@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29412,
+    "title": "Windows DVDソフト 助けたけもみみ娘たちとイチャイチャ懐かれックスしまくる異世界ファミレス繁盛記",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065579",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065579.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2019-06-21",
+    "listPrice": 2200,
+    "modelNumber": "NL-088",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145065579",
+      "メーカー": "Norn",
+      "発売日": "2019/06/21",
+      "定価": "2,200円",
+      "型番": "NL-088",
+      "シナリオ": "狩野景",
+      "声優": "月森ねね\n風鈴みすず",
+      "原画": "KYO燈弥",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:41.792Z"
+  },
+  "histories": [
+    {
+      "id": 29426,
+      "productId": 29412,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:46.689Z"
+    },
+    {
+      "id": 38251,
+      "productId": 29412,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:57.840Z"
+    },
+    {
+      "id": 49396,
+      "productId": 29412,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:41.792Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065579",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065579",
+    "capturedAt": "2026-08-19T04:30:41.792Z",
+    "items": [],
+    "path": "data/other-shops/145065579.json"
+  }
+}

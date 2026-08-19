@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30266,
+    "title": "Windows7/8 DVDソフト 妻みぐい3",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060045",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060045.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2016-01-29",
+    "listPrice": 9680,
+    "modelNumber": "ALS-0084",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145060045",
+      "メーカー": "ALICESOFT",
+      "発売日": "2016/01/29",
+      "定価": "9,680円",
+      "型番": "ALS-0084",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4800,
+    "latestRegularSalePrice": 4800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:35.225Z"
+  },
+  "histories": [
+    {
+      "id": 30280,
+      "productId": 30266,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:28.447Z"
+    },
+    {
+      "id": 39063,
+      "productId": 30266,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:18.018Z"
+    },
+    {
+      "id": 43615,
+      "productId": 30266,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:35.225Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060045",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060045",
+    "capturedAt": "2026-08-17T09:33:35.225Z",
+    "items": [],
+    "path": "data/other-shops/145060045.json"
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 8492,
+    "title": "Windows98/Me/2000/XP DVDソフト 凌辱連鎖",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013655",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013655.jpg",
+    "manufacturer": "LiLiM生",
+    "releaseDate": "2005-12-09",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145013655",
+      "メーカー": "LiLiM生",
+      "発売日": "2005/12/09",
+      "定価": "9,680円",
+      "原画": "狭雲",
+      "シナリオ": "西念鴉\n長谷焔",
+      "声優": "小林和実\n金松由花\n緒田マリ\n奥山歩\n高原くくる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:15.464Z"
+  },
+  "histories": [
+    {
+      "id": 8506,
+      "productId": 8492,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 26845,
+      "productId": 8492,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:48.971Z"
+    },
+    {
+      "id": 37858,
+      "productId": 8492,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:30.075Z"
+    },
+    {
+      "id": 48328,
+      "productId": 8492,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:15.464Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128283,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:13:15.000Z"
+    },
+    {
+      "id": 128282,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・ディスクキズ有",
+      "price": 580,
+      "checkedAt": "2026-08-17T16:13:15.000Z"
+    },
+    {
+      "id": 99676,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:06:30.000Z"
+    },
+    {
+      "id": 99675,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・ディスクキズ有",
+      "price": 580,
+      "checkedAt": "2026-08-16T01:06:30.000Z"
+    },
+    {
+      "id": 65961,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-09T21:37:49.000Z"
+    },
+    {
+      "id": 65960,
+      "productId": 8492,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・ディスクキズ有",
+      "price": 580,
+      "checkedAt": "2026-08-09T21:37:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013655",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013655",
+    "capturedAt": "2026-08-17T16:13:15.464Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・ディスクキズ有",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145013655.json"
+  }
+}

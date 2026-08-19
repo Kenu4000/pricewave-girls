@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 29721,
+    "title": "Windows CDソフト ビッチ学園が清純なはずがないっ!!? ソフマップ特典オリジナルデジタルコンテンツ 「下着パッチディスク」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060197",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060197.jpg",
+    "manufacturer": "onomatope* raspberry",
+    "releaseDate": "2017-11-24",
+    "listPrice": null,
+    "modelNumber": "HBTT-210",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145060197",
+      "メーカー": "onomatope* raspberry",
+      "発売日": "2017/11/24",
+      "型番": "HBTT-210",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:28.897Z"
+  },
+  "histories": [
+    {
+      "id": 29735,
+      "productId": 29721,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:59.377Z"
+    },
+    {
+      "id": 38547,
+      "productId": 29721,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:49.821Z"
+    },
+    {
+      "id": 49641,
+      "productId": 29721,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:28.897Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060197",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060197",
+    "capturedAt": "2026-08-19T04:32:28.897Z",
+    "items": [],
+    "path": "data/other-shops/145060197.json"
+  }
+}

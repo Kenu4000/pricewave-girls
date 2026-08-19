@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42419,
+    "title": "Windows98/98SE/Me/2000/XP DVDソフト 彼女×彼女×彼女 ～三姉妹とのドキドキ共同生活～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039849",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039849.jpg",
+    "manufacturer": "ωstar",
+    "releaseDate": "2008-05-30",
+    "listPrice": 9680,
+    "modelNumber": "CNG-KKD1",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145039849",
+      "メーカー": "ωstar",
+      "発売日": "2008/05/30",
+      "定価": "9,680円",
+      "型番": "CNG-KKD1",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 770,
+    "latestRegularSalePrice": 770,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:27:29.056Z"
+  },
+  "histories": [
+    {
+      "id": 42433,
+      "productId": 42419,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:31.051Z"
+    },
+    {
+      "id": 53809,
+      "productId": 42419,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:29.056Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039849",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039849",
+    "capturedAt": "2026-08-19T16:27:29.056Z",
+    "items": [],
+    "path": "data/other-shops/145039849.json"
+  }
+}

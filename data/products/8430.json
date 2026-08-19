@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 8430,
+    "title": "Windows95 CDソフト お嬢様を狙え!! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000076",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000076.jpg",
+    "manufacturer": "ScooP (スクープ)",
+    "releaseDate": "1997-03-28",
+    "listPrice": 9680,
+    "modelNumber": "HADV-0007",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000076",
+      "メーカー": "ScooP (スクープ)",
+      "発売日": "1997/03/28",
+      "定価": "9,680円",
+      "型番": "HADV-0007",
+      "原画": "白米玄",
+      "シナリオ": "ろん\nせごやん\n碧野まこと",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5511,
+    "latestRegularSalePrice": 5511,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:47.029Z"
+  },
+  "histories": [
+    {
+      "id": 8444,
+      "productId": 8430,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 37802,
+      "productId": 8430,
+      "salePrice": 5511,
+      "regularSalePrice": 5511,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:01.160Z"
+    },
+    {
+      "id": 48276,
+      "productId": 8430,
+      "salePrice": 5511,
+      "regularSalePrice": 5511,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:47.029Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145000076",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000076",
+    "capturedAt": "2026-08-17T16:12:47.029Z",
+    "items": [],
+    "path": "data/other-shops/145000076.json"
+  }
+}

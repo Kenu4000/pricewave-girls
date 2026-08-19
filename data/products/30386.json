@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 30386,
+    "title": "Windows CDソフト Gカップシスターズ! -妹だらけの搾乳学園祭- ルネソフト通販特典 オリジナルデータCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052209",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052209.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2015-09-18",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145052209001",
+      "メーカー": "マリン",
+      "発売日": "2015/09/18",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:00.140Z"
+  },
+  "histories": [
+    {
+      "id": 30400,
+      "productId": 30386,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:31.772Z"
+    },
+    {
+      "id": 39181,
+      "productId": 30386,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:27.651Z"
+    },
+    {
+      "id": 50440,
+      "productId": 30386,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:00.140Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135312,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-19T05:28:01.000Z"
+    },
+    {
+      "id": 135311,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1296,
+      "checkedAt": "2026-08-19T05:28:01.000Z"
+    },
+    {
+      "id": 102691,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-16T01:18:28.000Z"
+    },
+    {
+      "id": 102690,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1296,
+      "checkedAt": "2026-08-16T01:18:28.000Z"
+    },
+    {
+      "id": 76749,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-15T23:19:31.000Z"
+    },
+    {
+      "id": 76748,
+      "productId": 30386,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1296,
+      "checkedAt": "2026-08-15T23:19:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052209",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052209",
+    "capturedAt": "2026-08-19T05:28:00.140Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1296
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145052209.json"
+  }
+}

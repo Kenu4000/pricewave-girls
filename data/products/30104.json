@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30104,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト オトメ*ドメイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074829",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074829.jpg",
+    "manufacturer": "ぱれっとクオリア",
+    "releaseDate": "2016-06-24",
+    "listPrice": 7480,
+    "modelNumber": "QUALIA-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145074829",
+      "メーカー": "ぱれっとクオリア",
+      "発売日": "2016/06/24",
+      "定価": "7,480円",
+      "型番": "QUALIA-001",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:30.548Z"
+  },
+  "histories": [
+    {
+      "id": 30118,
+      "productId": 30104,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:50.341Z"
+    },
+    {
+      "id": 38909,
+      "productId": 30104,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:55.521Z"
+    },
+    {
+      "id": 49916,
+      "productId": 30104,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:30.548Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145074829",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074829",
+    "capturedAt": "2026-08-19T04:34:30.548Z",
+    "items": [],
+    "path": "data/other-shops/145074829.json"
+  }
+}

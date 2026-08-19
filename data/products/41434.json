@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41434,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 黄昏のエレジーアーDivus Rabies 0ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025294",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025294.jpg",
+    "manufacturer": "Psy-chs（サイクス）",
+    "releaseDate": "2010-11-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025294",
+      "メーカー": "Psy-chs（サイクス）",
+      "発売日": "2010/11/26",
+      "定価": "9,680円",
+      "原画": "藤井一葉",
+      "シナリオ": "慈影",
+      "声優": "鈴音華月\n香澄りょう\n榛名れん\n中家志穂\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1312,
+    "latestRegularSalePrice": 1312,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:31.001Z"
+  },
+  "histories": [
+    {
+      "id": 41448,
+      "productId": 41434,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:52.552Z"
+    },
+    {
+      "id": 53093,
+      "productId": 41434,
+      "salePrice": 1312,
+      "regularSalePrice": 1312,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:31.001Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145025294",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025294",
+    "capturedAt": "2026-08-19T16:21:31.001Z",
+    "items": [],
+    "path": "data/other-shops/145025294.json"
+  }
+}

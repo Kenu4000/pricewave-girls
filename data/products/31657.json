@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 31657,
+    "title": "WindowsXP/Vista/7 CDソフト 越えざるは紅い花 初回限定版特典 デジタルノベル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040494",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040494.jpg",
+    "manufacturer": "Operetta Due",
+    "releaseDate": "2012-09-07",
+    "listPrice": 7150,
+    "modelNumber": "001785C1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040494",
+      "メーカー": "Operetta Due",
+      "発売日": "2012/09/07",
+      "定価": "7,150円",
+      "型番": "001785C1",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1040,
+    "latestRegularSalePrice": 1040,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:09.649Z"
+  },
+  "histories": [
+    {
+      "id": 31671,
+      "productId": 31657,
+      "salePrice": 1330,
+      "regularSalePrice": 1330,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:34.652Z"
+    },
+    {
+      "id": 40406,
+      "productId": 31657,
+      "salePrice": 1330,
+      "regularSalePrice": 1330,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:32.796Z"
+    },
+    {
+      "id": 51368,
+      "productId": 31657,
+      "salePrice": 1040,
+      "regularSalePrice": 1040,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:09.649Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040494",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040494",
+    "capturedAt": "2026-08-19T05:36:09.649Z",
+    "items": [],
+    "path": "data/other-shops/145040494.json"
+  }
+}

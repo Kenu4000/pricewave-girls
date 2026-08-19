@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 42344,
+    "title": "Windows2000/XP/Vista DVDソフト 萌日記 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018142",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018142.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2008-07-25",
+    "listPrice": 9680,
+    "modelNumber": "PUZ-012",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018142",
+      "メーカー": "Puzzlebox",
+      "発売日": "2008/07/25",
+      "定価": "9,680円",
+      "型番": "PUZ-012",
+      "原画": "神手みろふ",
+      "アーティスト": "桜京子",
+      "シナリオ": "Oじろー\n葉月博規",
+      "声優": "御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:57.699Z"
+  },
+  "histories": [
+    {
+      "id": 42358,
+      "productId": 42344,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:44.277Z"
+    },
+    {
+      "id": 53744,
+      "productId": 42344,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:57.699Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018142",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018142",
+    "capturedAt": "2026-08-19T16:26:57.699Z",
+    "items": [],
+    "path": "data/other-shops/145018142.json"
+  }
+}

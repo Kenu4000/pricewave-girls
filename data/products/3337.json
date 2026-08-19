@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 3337,
+    "title": "Windows95 CDソフト 魅惑の調書 [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004508",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004508.jpg",
+    "manufacturer": "ディスカバリー",
+    "releaseDate": "1995-12-08",
+    "listPrice": 7293,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145004508001",
+      "メーカー": "ディスカバリー",
+      "発売日": "1995/12/08",
+      "定価": "7,293円",
+      "原画": "大越秀武",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:42.145Z"
+  },
+  "histories": [
+    {
+      "id": 3351,
+      "productId": 3337,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 22999,
+      "productId": 3337,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:37.900Z"
+    },
+    {
+      "id": 37110,
+      "productId": 3337,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:59.300Z"
+    },
+    {
+      "id": 47703,
+      "productId": 3337,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:42.145Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126662,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-17T16:07:43.000Z"
+    },
+    {
+      "id": 126661,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-17T16:07:43.000Z"
+    },
+    {
+      "id": 97595,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-16T00:59:59.000Z"
+    },
+    {
+      "id": 97594,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-16T00:59:59.000Z"
+    },
+    {
+      "id": 52577,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52576,
+      "productId": 3337,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004508",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004508",
+    "capturedAt": "2026-08-17T16:07:42.145Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145004508.json"
+  }
+}

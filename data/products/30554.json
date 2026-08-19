@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30554,
+    "title": "Windows DVDソフト オパスキッ!!特装版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049733",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049733.jpg",
+    "manufacturer": "ホビコレ",
+    "releaseDate": "2015-04-22",
+    "listPrice": 1758,
+    "modelNumber": "HBXP-012",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145049733",
+      "メーカー": "ホビコレ",
+      "発売日": "2015/04/22",
+      "定価": "1,758円",
+      "型番": "HBXP-012",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:08.856Z"
+  },
+  "histories": [
+    {
+      "id": 30568,
+      "productId": 30554,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:26.620Z"
+    },
+    {
+      "id": 39341,
+      "productId": 30554,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:50.573Z"
+    },
+    {
+      "id": 50565,
+      "productId": 30554,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:08.856Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049733",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049733",
+    "capturedAt": "2026-08-19T05:29:08.856Z",
+    "items": [],
+    "path": "data/other-shops/145049733.json"
+  }
+}

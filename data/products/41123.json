@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 41123,
+    "title": "WindowsXP/Vista/7 DVDソフト 女ざかりは年下好み「本気のセックス教えてあ・げ・る」[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029175",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029175.jpg",
+    "manufacturer": "CATTLEYA（カトレヤ）",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": "CAT07",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029175001",
+      "メーカー": "CATTLEYA（カトレヤ）",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "型番": "CAT07",
+      "原画": "御堂つかさ",
+      "シナリオ": "瑞守ねおん\n川原圭人\n仙道佳帆",
+      "声優": "有賀桃\nこのかなみ\n七ヶ瀬輪\n木梨樹里",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2150,
+    "latestRegularSalePrice": 2150,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:46.725Z"
+  },
+  "histories": [
+    {
+      "id": 41137,
+      "productId": 41123,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:02.096Z"
+    },
+    {
+      "id": 43876,
+      "productId": 41123,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:46.725Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113497,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2260,
+      "checkedAt": "2026-08-17T09:35:46.000Z"
+    },
+    {
+      "id": 113496,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 2200,
+      "checkedAt": "2026-08-17T09:35:46.000Z"
+    },
+    {
+      "id": 113495,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-08-17T09:35:46.000Z"
+    },
+    {
+      "id": 113494,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2001,
+      "checkedAt": "2026-08-17T09:35:46.000Z"
+    },
+    {
+      "id": 106950,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2260,
+      "checkedAt": "2026-08-17T06:59:02.000Z"
+    },
+    {
+      "id": 106949,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 2200,
+      "checkedAt": "2026-08-17T06:59:02.000Z"
+    },
+    {
+      "id": 106948,
+      "productId": 41123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-08-17T06:59:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029175",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029175",
+    "capturedAt": "2026-08-17T09:35:46.725Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2001
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2150
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+        "price": 2200
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2260
+      }
+    ],
+    "path": "data/other-shops/145029175.json"
+  }
+}

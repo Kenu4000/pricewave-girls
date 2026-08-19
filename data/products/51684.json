@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 51684,
+    "title": "Windows98/Me/2000/XP DVDソフト めいくるッ! Welcome to Happy Maid Life! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015611",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015611.jpg",
+    "manufacturer": "ASa Project",
+    "releaseDate": "2007-05-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015611001",
+      "メーカー": "ASa Project",
+      "発売日": "2007/05/25",
+      "定価": "9,680円",
+      "原画": "都桜なごみ\n夕凪セシナ\n燵成",
+      "シナリオ": "如月瑠印\n天都",
+      "声優": "永倉仁八\n遠野そよぎ\n奥山歩\n春河あかり\n香澄りょう\n計名さや香\n本多未季(本多しの舞)\n杉宮加奈\n藤原鞠菜\n菅生詩音",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:58.050Z"
+  },
+  "histories": [
+    {
+      "id": 51698,
+      "productId": 51684,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:58.050Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137887,
+      "productId": 51684,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-19T09:29:58.000Z"
+    },
+    {
+      "id": 137886,
+      "productId": 51684,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-19T09:29:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015611",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015611",
+    "capturedAt": "2026-08-19T09:29:58.050Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1600
+      }
+    ],
+    "path": "data/other-shops/145015611.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31214,
+    "title": "WindowsXP/Vista/7/8 DVDソフト パパドキッ! ーパパが大好きだけど、家族だから問題ないよね!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063321",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063321.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2013-08-23",
+    "listPrice": 9680,
+    "modelNumber": "BGDV-013",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145063321",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2013/08/23",
+      "定価": "9,680円",
+      "型番": "BGDV-013",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:31.794Z"
+  },
+  "histories": [
+    {
+      "id": 31228,
+      "productId": 31214,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:15.231Z"
+    },
+    {
+      "id": 39972,
+      "productId": 31214,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:30.368Z"
+    },
+    {
+      "id": 43723,
+      "productId": 31214,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:31.794Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063321",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063321",
+    "capturedAt": "2026-08-17T09:34:31.794Z",
+    "items": [],
+    "path": "data/other-shops/145063321.json"
+  }
+}

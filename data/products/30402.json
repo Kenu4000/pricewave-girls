@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 30402,
+    "title": "Windows CDソフト Sexyビーチ プレミアムリゾート ソフマップ店舗予約特典 剣闘士衣装データセット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052041",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052041.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2015-09-11",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145052041001",
+      "メーカー": "ILLUSION",
+      "発売日": "2015/09/11",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:19:40.508Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:05.438Z"
+  },
+  "histories": [
+    {
+      "id": 30416,
+      "productId": 30402,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:40.252Z"
+    },
+    {
+      "id": 39196,
+      "productId": 30402,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:36.456Z"
+    },
+    {
+      "id": 50448,
+      "productId": 30402,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:05.438Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135332,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:28:06.000Z"
+    },
+    {
+      "id": 135331,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T05:28:06.000Z"
+    },
+    {
+      "id": 135330,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:28:06.000Z"
+    },
+    {
+      "id": 102716,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T01:18:36.000Z"
+    },
+    {
+      "id": 102715,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-16T01:18:36.000Z"
+    },
+    {
+      "id": 76773,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-15T23:19:40.000Z"
+    },
+    {
+      "id": 76772,
+      "productId": 30402,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-15T23:19:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052041",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052041",
+    "capturedAt": "2026-08-19T05:28:05.438Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145052041.json"
+  }
+}

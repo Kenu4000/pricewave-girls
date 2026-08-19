@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 42078,
+    "title": "Windows2000/XP/Vista DVDソフト W.L.O.世界恋愛機構[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044860",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044860.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2009-03-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145044860",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2009/03/26",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:21.657Z"
+  },
+  "histories": [
+    {
+      "id": 42092,
+      "productId": 42078,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:58.187Z"
+    },
+    {
+      "id": 53553,
+      "productId": 42078,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:21.657Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044860",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044860",
+    "capturedAt": "2026-08-19T16:25:21.657Z",
+    "items": [],
+    "path": "data/other-shops/145044860.json"
+  }
+}

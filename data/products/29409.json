@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 29409,
+    "title": "Windows7/8.1/10 CDソフト White Blue ソフマップ特典デジタルコンテンツデータ集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065797",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065797.jpg",
+    "manufacturer": "LiLiM Darkness",
+    "releaseDate": "2019-06-28",
+    "listPrice": null,
+    "modelNumber": "HBMT-012",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065797",
+      "メーカー": "LiLiM Darkness",
+      "発売日": "2019/06/28",
+      "型番": "HBMT-012",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:40.012Z"
+  },
+  "histories": [
+    {
+      "id": 29423,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:45.980Z"
+    },
+    {
+      "id": 38248,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:54.320Z"
+    },
+    {
+      "id": 49393,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:40.012Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065797",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065797",
+    "capturedAt": "2026-08-19T04:30:40.012Z",
+    "items": [],
+    "path": "data/other-shops/145065797.json"
+  }
+}

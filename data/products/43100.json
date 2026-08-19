@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 43100,
+    "title": "Windows98/Me/2000/XP CDソフト まわり姫",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014625",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014625.jpg",
+    "manufacturer": "MARRYBELL",
+    "releaseDate": "2006-08-25",
+    "listPrice": 3300,
+    "modelNumber": "MARY-011",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014625",
+      "メーカー": "MARRYBELL",
+      "発売日": "2006/08/25",
+      "定価": "3,300円",
+      "型番": "MARY-011",
+      "原画": "らくじん",
+      "シナリオ": "時雨月",
+      "声優": "MOMOKA\n西園青葉",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:55.800Z"
+  },
+  "histories": [
+    {
+      "id": 43114,
+      "productId": 43100,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:55.800Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014625",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014625",
+    "capturedAt": "2026-08-17T07:17:55.800Z",
+    "items": [],
+    "path": "data/other-shops/145014625.json"
+  }
+}

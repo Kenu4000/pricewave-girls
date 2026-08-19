@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41341,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ラブラブル-Lover Able-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900148",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900148.jpg",
+    "manufacturer": "SMEE",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": "110200004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900148",
+      "メーカー": "SMEE",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "型番": "110200004",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:58.136Z"
+  },
+  "histories": [
+    {
+      "id": 41355,
+      "productId": 41341,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:58.331Z"
+    },
+    {
+      "id": 53026,
+      "productId": 41341,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:58.136Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900148",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900148",
+    "capturedAt": "2026-08-19T16:20:58.136Z",
+    "items": [],
+    "path": "data/other-shops/145900148.json"
+  }
+}

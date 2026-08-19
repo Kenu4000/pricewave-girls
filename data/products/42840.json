@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42840,
+    "title": "Windows98SE/Me/2000/XP DVDソフト SHOGUN8 ～ショーグンエイト～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015596",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015596.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2007-03-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015596001",
+      "メーカー": "ライアーソフト",
+      "発売日": "2007/03/23",
+      "定価": "9,680円",
+      "原画": "みゅらっち",
+      "シナリオ": "天野祐一",
+      "アーティスト": "理多",
+      "声優": "山内花梨\n滝沢アツヤ\nかわしまりの\n桜川未央\n愛原瑞生\n天水るみ\n香澄りょう\n小次郎\nオルタナティブ山田\nBack麗男\n歌織\n竹田彬夫\n藤森ゆき奈\n真田雪人\n桜井雅斗\n蔵前力士\n皇蒼真\n草村ケイ\n杉原茉莉\n南見ちはる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:34.107Z"
+  },
+  "histories": [
+    {
+      "id": 42854,
+      "productId": 42840,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:34.107Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110485,
+      "productId": 42840,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:15:34.000Z"
+    },
+    {
+      "id": 110484,
+      "productId": 42840,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:15:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015596",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015596",
+    "capturedAt": "2026-08-17T07:15:34.107Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145015596.json"
+  }
+}

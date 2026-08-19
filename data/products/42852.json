@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42852,
+    "title": "Windows98SE/Me/2000/XP CDソフト 守ってあげちゃう!フルセットパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015581",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015581.jpg",
+    "manufacturer": "ポアシャラ",
+    "releaseDate": "2007-03-09",
+    "listPrice": 9680,
+    "modelNumber": "POA-013",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015581",
+      "メーカー": "ポアシャラ",
+      "発売日": "2007/03/09",
+      "定価": "9,680円",
+      "型番": "POA-013",
+      "原画": "ジェントル佐々木",
+      "シナリオ": "森口たえ子",
+      "声優": "ヒマリ\nこのかなみ\nAKIRA\n民安ともえ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:42.178Z"
+  },
+  "histories": [
+    {
+      "id": 42866,
+      "productId": 42852,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:42.178Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015581",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015581",
+    "capturedAt": "2026-08-17T07:15:42.178Z",
+    "items": [],
+    "path": "data/other-shops/145015581.json"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 31042,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 鯨神のティアスティラ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065030",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065030.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2015-02-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145065030",
+      "メーカー": "Whirlpool",
+      "発売日": "2015/02/27",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:29.233Z"
+  },
+  "histories": [
+    {
+      "id": 31056,
+      "productId": 31042,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:15.919Z"
+    },
+    {
+      "id": 39806,
+      "productId": 31042,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:03.913Z"
+    },
+    {
+      "id": 44875,
+      "productId": 31042,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:17.932Z"
+    },
+    {
+      "id": 49106,
+      "productId": 31042,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:29.233Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065030",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065030",
+    "capturedAt": "2026-08-19T04:28:29.233Z",
+    "items": [],
+    "path": "data/other-shops/145065030.json"
+  }
+}

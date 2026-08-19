@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 31880,
+    "title": "WindowsXP/Vista/7 CDソフト ツクモノツキ マキシCD＆デジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031644",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031644.jpg",
+    "manufacturer": "Sugar pot",
+    "releaseDate": "2012-02-24",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031644",
+      "メーカー": "Sugar pot",
+      "発売日": "2012/02/24",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:51.825Z"
+  },
+  "histories": [
+    {
+      "id": 31894,
+      "productId": 31880,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:31.511Z"
+    },
+    {
+      "id": 40627,
+      "productId": 31880,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:20.430Z"
+    },
+    {
+      "id": 52132,
+      "productId": 31880,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:51.825Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031644",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031644",
+    "capturedAt": "2026-08-19T15:32:51.825Z",
+    "items": [],
+    "path": "data/other-shops/145031644.json"
+  }
+}

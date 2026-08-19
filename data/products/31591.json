@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 31591,
+    "title": "Windows2000/XP/Vista DVDソフト プリズム◇リコレクション!(TECH GIAN 2013年1月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058285",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058285.jpg",
+    "manufacturer": "エンターブレイン",
+    "releaseDate": "2012-11-21",
+    "listPrice": null,
+    "modelNumber": "TECH-G2013.11D",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145058285001",
+      "メーカー": "エンターブレイン",
+      "発売日": "2012/11/21",
+      "型番": "TECH-G2013.11D",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:41:44.537Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:42.019Z"
+  },
+  "histories": [
+    {
+      "id": 31605,
+      "productId": 31591,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:44.232Z"
+    },
+    {
+      "id": 40341,
+      "productId": 31591,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:03.235Z"
+    },
+    {
+      "id": 51320,
+      "productId": 31591,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:42.019Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136959,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:35:42.000Z"
+    },
+    {
+      "id": 136958,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:35:42.000Z"
+    },
+    {
+      "id": 105017,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:30:03.000Z"
+    },
+    {
+      "id": 105016,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:30:03.000Z"
+    },
+    {
+      "id": 79170,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:41:44.000Z"
+    },
+    {
+      "id": 79169,
+      "productId": 31591,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:41:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058285",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058285",
+    "capturedAt": "2026-08-19T05:35:42.019Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      }
+    ],
+    "path": "data/other-shops/145058285.json"
+  }
+}

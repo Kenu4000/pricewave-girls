@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42013,
+    "title": "Windows2000/XP/Vista CDソフト DISCIPLINE LS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044243",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044243.jpg",
+    "manufacturer": "くるりアクティブ",
+    "releaseDate": "2009-05-29",
+    "listPrice": 6160,
+    "modelNumber": "AH-KA143",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145044243",
+      "メーカー": "くるりアクティブ",
+      "発売日": "2009/05/29",
+      "定価": "6,160円",
+      "型番": "AH-KA143",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:53.540Z"
+  },
+  "histories": [
+    {
+      "id": 42027,
+      "productId": 42013,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:20.797Z"
+    },
+    {
+      "id": 53499,
+      "productId": 42013,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:53.540Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044243",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044243",
+    "capturedAt": "2026-08-19T16:24:53.540Z",
+    "items": [],
+    "path": "data/other-shops/145044243.json"
+  }
+}

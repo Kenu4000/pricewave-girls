@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42012,
+    "title": "WindowsXP/Vista DVDソフト マジスキ～Marginal Skip～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020237",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020237.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2009-05-29",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020237",
+      "メーカー": "MOONSTONE",
+      "発売日": "2009/05/29",
+      "定価": "8,580円",
+      "原画": "伊東ライフ\nMitha\nひなた睦月\n稲垣みいこ",
+      "シナリオ": "呉(呉一郎)",
+      "アーティスト": "NANA",
+      "声優": "岩橋直哉\n佐本二厘\n青山ゆかり\n安玖深音\n民安ともえ\n風音\nみる\n井村屋ほのか\n川崎ハレ\n水捲真魚\nまきいづみ\n中瀬ひな\n祭大!",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:07:20.171Z"
+  },
+  "histories": [
+    {
+      "id": 42026,
+      "productId": 42012,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:20.171Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020237",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020237",
+    "capturedAt": "2026-08-17T07:07:20.171Z",
+    "items": [],
+    "path": "data/other-shops/145020237.json"
+  }
+}

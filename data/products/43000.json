@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 43000,
+    "title": "Windows DVDソフト 寝盗ラレ -NakedTranceRamble- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014863",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014863.jpg",
+    "manufacturer": "イーアンツ",
+    "releaseDate": "2006-11-03",
+    "listPrice": 7480,
+    "modelNumber": "GCT-001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014863",
+      "メーカー": "イーアンツ",
+      "発売日": "2006/11/03",
+      "定価": "7,480円",
+      "型番": "GCT-001",
+      "原画": "とら",
+      "シナリオ": "マスター☆きゅん",
+      "声優": "水瀬慮介\n雛木らむね\n北都南\n一色ヒカル\n児玉さとみ\n茶谷やすら\n金子大悟",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:03.959Z"
+  },
+  "histories": [
+    {
+      "id": 43014,
+      "productId": 43000,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:03.959Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014863",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014863",
+    "capturedAt": "2026-08-17T07:17:03.959Z",
+    "items": [],
+    "path": "data/other-shops/145014863.json"
+  }
+}

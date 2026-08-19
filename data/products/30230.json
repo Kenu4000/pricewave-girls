@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 30230,
+    "title": "Windows CDソフト 俺の彼女が就職した会社は、ブラック企業だった…。ルネソフト通販特典 オリジナルデータCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054203",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054203.jpg",
+    "manufacturer": "ルネ Team Bitters",
+    "releaseDate": "2016-02-26",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145054203",
+      "メーカー": "ルネ Team Bitters",
+      "発売日": "2016/02/26",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 14020,
+    "latestRegularSalePrice": 14020,
+    "latestBuyPrice": 10000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:26:49.597Z"
+  },
+  "histories": [
+    {
+      "id": 30244,
+      "productId": 30230,
+      "salePrice": 14020,
+      "regularSalePrice": 14020,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:09.545Z"
+    },
+    {
+      "id": 39030,
+      "productId": 30230,
+      "salePrice": 14020,
+      "regularSalePrice": 14020,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:02.555Z"
+    },
+    {
+      "id": 50312,
+      "productId": 30230,
+      "salePrice": 14020,
+      "regularSalePrice": 14020,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:49.597Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054203",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054203",
+    "capturedAt": "2026-08-19T05:26:49.597Z",
+    "items": [],
+    "path": "data/other-shops/145054203.json"
+  }
+}

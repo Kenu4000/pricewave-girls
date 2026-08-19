@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 41233,
+    "title": "WindowsXP/Vista/7 DVDソフト 魔法の守護姫アルテミナ -猟辱と絶望と魔法少女-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056507",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056507.jpg",
+    "manufacturer": "Delta",
+    "releaseDate": "2011-05-27",
+    "listPrice": 9680,
+    "modelNumber": "M31",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145056507",
+      "メーカー": "Delta",
+      "発売日": "2011/05/27",
+      "定価": "9,680円",
+      "型番": "M31",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3600,
+    "latestRegularSalePrice": 3600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:00:00.152Z"
+  },
+  "histories": [
+    {
+      "id": 41247,
+      "productId": 41233,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:00.152Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056507",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056507",
+    "capturedAt": "2026-08-17T07:00:00.152Z",
+    "items": [],
+    "path": "data/other-shops/145056507.json"
+  }
+}

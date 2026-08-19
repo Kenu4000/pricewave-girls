@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 43032,
+    "title": "Windows98/Me/2000/XP DVDソフト 魔法天使ミサキ2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066426",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066426.jpg",
+    "manufacturer": "RaSeN",
+    "releaseDate": "2006-10-20",
+    "listPrice": 9680,
+    "modelNumber": "RAS015",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145066426",
+      "メーカー": "RaSeN",
+      "発売日": "2006/10/20",
+      "定価": "9,680円",
+      "型番": "RAS015",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:19.002Z"
+  },
+  "histories": [
+    {
+      "id": 43046,
+      "productId": 43032,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:19.002Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145066426",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066426",
+    "capturedAt": "2026-08-17T07:17:19.002Z",
+    "items": [],
+    "path": "data/other-shops/145066426.json"
+  }
+}

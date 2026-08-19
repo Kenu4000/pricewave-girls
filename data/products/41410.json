@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41410,
+    "title": "Windows CDソフト 診てくださいます?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026056",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026056.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2010-12-10",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145026056",
+      "メーカー": "コンプリーツ",
+      "発売日": "2010/12/10",
+      "定価": "4,180円",
+      "原画": "TATSU屋",
+      "シナリオ": "日高真一",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:24.546Z"
+  },
+  "histories": [
+    {
+      "id": 41424,
+      "productId": 41410,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:37.536Z"
+    },
+    {
+      "id": 53081,
+      "productId": 41410,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:24.546Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026056",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026056",
+    "capturedAt": "2026-08-19T16:21:24.546Z",
+    "items": [],
+    "path": "data/other-shops/145026056.json"
+  }
+}

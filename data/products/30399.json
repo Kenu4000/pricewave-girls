@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30399,
+    "title": "Windows7/8/8.1/10 CDソフト ご奉仕ナース-真夜中の強精コール-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051108",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051108.jpg",
+    "manufacturer": "ホットピンク",
+    "releaseDate": "2015-09-18",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145051108",
+      "メーカー": "ホットピンク",
+      "発売日": "2015/09/18",
+      "定価": "3,300円",
+      "原画": "池咲ミサ",
+      "シナリオ": "不二川“でぇすて”巴人",
+      "声優": "汐見鳥花\n久慈茜",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 811,
+    "latestRegularSalePrice": 811,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:02.883Z"
+  },
+  "histories": [
+    {
+      "id": 30413,
+      "productId": 30399,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:38.079Z"
+    },
+    {
+      "id": 39193,
+      "productId": 30399,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:35.510Z"
+    },
+    {
+      "id": 50447,
+      "productId": 30399,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:02.883Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051108",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051108",
+    "capturedAt": "2026-08-19T05:28:02.883Z",
+    "items": [],
+    "path": "data/other-shops/145051108.json"
+  }
+}

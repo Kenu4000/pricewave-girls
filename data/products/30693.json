@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 30693,
+    "title": "WindowsVista/7/8 DVDソフト 姪ドキッ!茶。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046334",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046334.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2014-11-28",
+    "listPrice": 9680,
+    "modelNumber": "KA-0076",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145046334001",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2014/11/28",
+      "定価": "9,680円",
+      "型番": "KA-0076",
+      "原画": "yoppy\n有栖川千里",
+      "シナリオ": "七歌",
+      "声優": "市川彩華\n氷室ゆり\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "3780",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3780,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:22:54.216Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:57.555Z"
+  },
+  "histories": [
+    {
+      "id": 30707,
+      "productId": 30693,
+      "salePrice": 3580,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:54.069Z"
+    },
+    {
+      "id": 39469,
+      "productId": 30693,
+      "salePrice": 3580,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:04.638Z"
+    },
+    {
+      "id": 50662,
+      "productId": 30693,
+      "salePrice": 3580,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:57.555Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135798,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-19T05:29:58.000Z"
+    },
+    {
+      "id": 135797,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3780,
+      "checkedAt": "2026-08-19T05:29:58.000Z"
+    },
+    {
+      "id": 135796,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-19T05:29:58.000Z"
+    },
+    {
+      "id": 103300,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3780,
+      "checkedAt": "2026-08-16T01:21:04.000Z"
+    },
+    {
+      "id": 103299,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-16T01:21:04.000Z"
+    },
+    {
+      "id": 77412,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3780,
+      "checkedAt": "2026-08-15T23:22:54.000Z"
+    },
+    {
+      "id": 77411,
+      "productId": 30693,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-15T23:22:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046334",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046334",
+    "capturedAt": "2026-08-19T05:29:57.555Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 3580
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 3780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3580
+      }
+    ],
+    "path": "data/other-shops/145046334.json"
+  }
+}

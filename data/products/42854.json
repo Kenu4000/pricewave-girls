@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 42854,
+    "title": "Windows2000/XP CDソフト マコトねーちゃんのボク教育法?!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015118",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015118.jpg",
+    "manufacturer": "オーサリングヘヴン",
+    "releaseDate": "2007-03-02",
+    "listPrice": 6285,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015118001",
+      "メーカー": "オーサリングヘヴン",
+      "発売日": "2007/03/02",
+      "定価": "6,285円",
+      "原画": "TATSU屋",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:44.493Z"
+  },
+  "histories": [
+    {
+      "id": 42868,
+      "productId": 42854,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:44.493Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110500,
+      "productId": 42854,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:15:44.000Z"
+    },
+    {
+      "id": 110499,
+      "productId": 42854,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:15:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015118",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015118",
+    "capturedAt": "2026-08-17T07:15:44.493Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145015118.json"
+  }
+}

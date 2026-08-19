@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30911,
+    "title": "WindowsXP/Vista/7/8 DVDソフト D.C.III P.P.～ダ・カーポIII プラチナパートナー～[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045202",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045202.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2014-04-25",
+    "listPrice": 10780,
+    "modelNumber": "CIRCUS-0326",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045202",
+      "メーカー": "CIRCUS",
+      "発売日": "2014/04/25",
+      "定価": "10,780円",
+      "型番": "CIRCUS-0326",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:26:55.743Z"
+  },
+  "histories": [
+    {
+      "id": 30925,
+      "productId": 30911,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:01.932Z"
+    },
+    {
+      "id": 44659,
+      "productId": 30911,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:30.961Z"
+    },
+    {
+      "id": 48896,
+      "productId": 30911,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:26:55.743Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045202",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045202",
+    "capturedAt": "2026-08-19T04:26:55.743Z",
+    "items": [],
+    "path": "data/other-shops/145045202.json"
+  }
+}

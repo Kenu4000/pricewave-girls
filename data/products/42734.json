@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 42734,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 虜ノ姫 ～淫魔の調律～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016245",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016245.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "KA-0040",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016245001",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "KA-0040",
+      "原画": "M&M",
+      "シナリオ": "うつろあくた\n神無月ニトロ\nもみあげルパンR\n速水漣",
+      "声優": "葉月\n中家志穂\n岩泉まい\n香澄りょう\n水瀬沙季",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:34.536Z"
+  },
+  "histories": [
+    {
+      "id": 42748,
+      "productId": 42734,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:34.536Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110295,
+      "productId": 42734,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-17T07:14:35.000Z"
+    },
+    {
+      "id": 110294,
+      "productId": 42734,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1280,
+      "checkedAt": "2026-08-17T07:14:35.000Z"
+    },
+    {
+      "id": 110293,
+      "productId": 42734,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-17T07:14:35.000Z"
+    },
+    {
+      "id": 110292,
+      "productId": 42734,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1040,
+      "checkedAt": "2026-08-17T07:14:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016245",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016245",
+    "capturedAt": "2026-08-17T07:14:34.536Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1040
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1280
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1300
+      }
+    ],
+    "path": "data/other-shops/145016245.json"
+  }
+}

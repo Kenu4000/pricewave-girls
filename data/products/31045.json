@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 31045,
+    "title": "Windows CDソフト 激情版!? ガチゆるヒーローバトル カムイッコたん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045981",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045981.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2014-08-15",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145045981",
+      "メーカー": "ライアーソフト",
+      "発売日": "2014/08/15",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:17.106Z"
+  },
+  "histories": [
+    {
+      "id": 31059,
+      "productId": 31045,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:16.041Z"
+    },
+    {
+      "id": 39807,
+      "productId": 31045,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:03.995Z"
+    },
+    {
+      "id": 50919,
+      "productId": 31045,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:17.106Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045981",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045981",
+    "capturedAt": "2026-08-19T05:32:17.106Z",
+    "items": [],
+    "path": "data/other-shops/145045981.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31329,
+    "title": "WindowsXP/Vista/7 DVDソフト 女装海峡",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037003",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037003.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2013-05-31",
+    "listPrice": 4180,
+    "modelNumber": "BASE-057",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145037003",
+      "メーカー": "脳内彼女",
+      "発売日": "2013/05/31",
+      "定価": "4,180円",
+      "型番": "BASE-057",
+      "原画": "あおぎりぺんた",
+      "シナリオ": "芳井一\n西田一",
+      "声優": "手塚りょうこ\n鈴谷まや\n桜川未央",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:10.065Z"
+  },
+  "histories": [
+    {
+      "id": 31343,
+      "productId": 31329,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:35.748Z"
+    },
+    {
+      "id": 40085,
+      "productId": 31329,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:00.790Z"
+    },
+    {
+      "id": 51139,
+      "productId": 31329,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:10.065Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037003",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037003",
+    "capturedAt": "2026-08-19T05:34:10.065Z",
+    "items": [],
+    "path": "data/other-shops/145037003.json"
+  }
+}

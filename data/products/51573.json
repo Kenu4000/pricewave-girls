@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 51573,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ゆきいろ ー空に六花の住む町ー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031042.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2012-04-27",
+    "listPrice": 9680,
+    "modelNumber": "NEKO02-048",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031042",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2012/04/27",
+      "定価": "9,680円",
+      "型番": "NEKO02-048",
+      "原画": "笹井さじ\nPikazo\nあんころもち\n司ゆうき\n秋乃武彦",
+      "シナリオ": "早狩武志\n片岡とも\n海富一",
+      "声優": "藤森ゆき奈\n安玖深音\n雪都さお梨\n遠野そよぎ\n夏野こおり\n宮沢ゆあな\n雪村とあ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:26.629Z"
+  },
+  "histories": [
+    {
+      "id": 51587,
+      "productId": 51573,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:57.303Z"
+    },
+    {
+      "id": 52082,
+      "productId": 51573,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:25.875Z"
+    },
+    {
+      "id": 52763,
+      "productId": 51573,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:26.629Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031042",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031042",
+    "capturedAt": "2026-08-19T16:18:26.629Z",
+    "items": [],
+    "path": "data/other-shops/145031042.json"
+  }
+}

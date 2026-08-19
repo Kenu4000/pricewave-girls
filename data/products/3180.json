@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 3180,
+    "title": "Windows3.1/95/Mac漢字Talk7以降 CDソフト 全国制服美少女グランプリ vol.3 ミッドエリアファイナル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008404",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008404.jpg",
+    "manufacturer": "リセアン",
+    "releaseDate": null,
+    "listPrice": 5280,
+    "modelNumber": "LYC-HB004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145008404001",
+      "メーカー": "リセアン",
+      "定価": "5,280円",
+      "型番": "LYC-HB004",
+      "原画": "山田正樹",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:48.181Z"
+  },
+  "histories": [
+    {
+      "id": 3194,
+      "productId": 3180,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36984,
+      "productId": 3180,
+      "salePrice": 750,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:49.748Z"
+    },
+    {
+      "id": 47606,
+      "productId": 3180,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:48.181Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126330,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:06:48.000Z"
+    },
+    {
+      "id": 126329,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 960,
+      "checkedAt": "2026-08-17T16:06:48.000Z"
+    },
+    {
+      "id": 126328,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-17T16:06:48.000Z"
+    },
+    {
+      "id": 97167,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:58:50.000Z"
+    },
+    {
+      "id": 97166,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 970,
+      "checkedAt": "2026-08-16T00:58:50.000Z"
+    },
+    {
+      "id": 97165,
+      "productId": 3180,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-16T00:58:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145008404",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008404",
+    "capturedAt": "2026-08-17T16:06:48.181Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 960
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145008404.json"
+  }
+}

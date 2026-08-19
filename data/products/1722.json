@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 1722,
+    "title": "Windows8/8.1/10 DVDソフト ぱられるAKIBA学園",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905155",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905155.jpg",
+    "manufacturer": "panache",
+    "releaseDate": "2021-05-28",
+    "listPrice": 10780,
+    "modelNumber": "PNCE-0001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145905155",
+      "メーカー": "panache",
+      "発売日": "2021/05/28",
+      "定価": "10,780円",
+      "型番": "PNCE-0001",
+      "原画": "雛祭桃子",
+      "シナリオ": "大和うみ\n紫苑憧朋香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:38:49.696Z"
+  },
+  "histories": [
+    {
+      "id": 1736,
+      "productId": 1722,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:10.000Z"
+    },
+    {
+      "id": 6631,
+      "productId": 1722,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:10:29.000Z"
+    },
+    {
+      "id": 16223,
+      "productId": 1722,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:22:04.000Z"
+    },
+    {
+      "id": 35871,
+      "productId": 1722,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:49:01.961Z"
+    },
+    {
+      "id": 46385,
+      "productId": 1722,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:38:49.696Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145905155",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145905155",
+    "capturedAt": "2026-08-17T13:38:49.696Z",
+    "items": [],
+    "path": "data/other-shops/145905155.json"
+  }
+}

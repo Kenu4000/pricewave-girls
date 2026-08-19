@@ -1,0 +1,256 @@
+{
+  "product": {
+    "id": 3113,
+    "title": "Windows95 CDソフト VIPER アイランド vol.1",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001871",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001871.jpg",
+    "manufacturer": "ソニア",
+    "releaseDate": null,
+    "listPrice": 3850,
+    "modelNumber": "SGN-9515",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145001871001",
+      "メーカー": "ソニア",
+      "定価": "3,850円",
+      "型番": "SGN-9515",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:12.983Z"
+  },
+  "histories": [
+    {
+      "id": 3127,
+      "productId": 3113,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26644,
+      "productId": 3113,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:35:48.846Z"
+    },
+    {
+      "id": 36927,
+      "productId": 3113,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:21.599Z"
+    },
+    {
+      "id": 47543,
+      "productId": 3113,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:12.983Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126111,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:06:13.000Z"
+    },
+    {
+      "id": 126110,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T16:06:13.000Z"
+    },
+    {
+      "id": 126109,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T16:06:13.000Z"
+    },
+    {
+      "id": 126108,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T16:06:13.000Z"
+    },
+    {
+      "id": 126107,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T16:06:13.000Z"
+    },
+    {
+      "id": 96967,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96966,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96965,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96964,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 96963,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-16T00:58:21.000Z"
+    },
+    {
+      "id": 65451,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-09T21:35:49.000Z"
+    },
+    {
+      "id": 65450,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-09T21:35:49.000Z"
+    },
+    {
+      "id": 65449,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-09T21:35:49.000Z"
+    },
+    {
+      "id": 65448,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-09T21:35:49.000Z"
+    },
+    {
+      "id": 65447,
+      "productId": 3113,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-09T21:35:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145001871",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001871",
+    "capturedAt": "2026-08-17T16:06:12.983Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145001871.json"
+  }
+}

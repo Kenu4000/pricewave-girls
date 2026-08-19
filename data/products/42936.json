@@ -1,0 +1,135 @@
+{
+  "product": {
+    "id": 42936,
+    "title": "Windows98/Me/2000/XP DVDソフト レイナナ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015066",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015066.jpg",
+    "manufacturer": "プレイム PLAYM",
+    "releaseDate": "2006-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015066001",
+      "メーカー": "プレイム PLAYM",
+      "発売日": "2006/12/22",
+      "定価": "9,680円",
+      "原画": "水無月徹",
+      "シナリオ": "高橋龍也",
+      "音楽": "渡部恭久",
+      "声優": "おだかず\n涼森ちさと\n今井ナルハ\n花野うさぎ\nもっち\n佐々木あかり\n櫻レオナ\n新田祐一\n加古川高",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:26.927Z"
+  },
+  "histories": [
+    {
+      "id": 42950,
+      "productId": 42936,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:26.927Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110683,
+      "productId": 42936,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    },
+    {
+      "id": 110682,
+      "productId": 42936,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    },
+    {
+      "id": 110681,
+      "productId": 42936,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1030,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    },
+    {
+      "id": 110680,
+      "productId": 42936,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1020,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    },
+    {
+      "id": 110679,
+      "productId": 42936,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 1020,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    },
+    {
+      "id": 110678,
+      "productId": 42936,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1030,
+      "checkedAt": "2026-08-17T07:16:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015066",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015066",
+    "capturedAt": "2026-08-17T07:16:26.927Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1020
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1030
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145015066.json"
+  }
+}

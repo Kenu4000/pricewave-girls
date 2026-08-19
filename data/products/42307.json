@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 42307,
+    "title": "Windows2000/XP/Vista DVDソフト 昇龍戦姫 天夢",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018172.jpg",
+    "manufacturer": "LiLiM",
+    "releaseDate": "2008-08-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018172001",
+      "メーカー": "LiLiM",
+      "発売日": "2008/08/29",
+      "定価": "9,680円",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "髪ノ毛座",
+      "主題歌/声優": "青葉りんご",
+      "声優": "中家志穂\n楠上ありか\n北谷賢一\n相良文雄\n金松由花\n富樫ケイ\n古崎杏\n中島裕美子\n原田友貴\nカンザキカナリ\n蓮香\nルネッサンス山田\n胸肩腎\n水純なな歩\n西田こむぎ\n桜川未央\n小次狼\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:44.612Z"
+  },
+  "histories": [
+    {
+      "id": 42321,
+      "productId": 42307,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:23.920Z"
+    },
+    {
+      "id": 53721,
+      "productId": 42307,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:44.612Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144119,
+      "productId": 42307,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:26:44.000Z"
+    },
+    {
+      "id": 144118,
+      "productId": 42307,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:26:44.000Z"
+    },
+    {
+      "id": 144117,
+      "productId": 42307,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:26:44.000Z"
+    },
+    {
+      "id": 109464,
+      "productId": 42307,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:10:24.000Z"
+    },
+    {
+      "id": 109463,
+      "productId": 42307,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:10:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018172",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018172",
+    "capturedAt": "2026-08-19T16:26:44.612Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145018172.json"
+  }
+}

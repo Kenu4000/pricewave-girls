@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31891,
+    "title": "WindowsXP/Vista/7 CDソフト ハードコア・ティーチャー ー絶対服従へのロジックー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031309",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031309.jpg",
+    "manufacturer": "トルピード",
+    "releaseDate": "2012-02-24",
+    "listPrice": 2750,
+    "modelNumber": "TRP-005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031309",
+      "メーカー": "トルピード",
+      "発売日": "2012/02/24",
+      "定価": "2,750円",
+      "型番": "TRP-005",
+      "原画": "mashue",
+      "シナリオ": "岡下誠",
+      "声優": "井上瑞樹",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:32:54.952Z"
+  },
+  "histories": [
+    {
+      "id": 31905,
+      "productId": 31891,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:38.147Z"
+    },
+    {
+      "id": 40635,
+      "productId": 31891,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:25.550Z"
+    },
+    {
+      "id": 52136,
+      "productId": 31891,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:54.952Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031309",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031309",
+    "capturedAt": "2026-08-19T15:32:54.952Z",
+    "items": [],
+    "path": "data/other-shops/145031309.json"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "product": {
+    "id": 678,
+    "title": "Windows10/11 DVDソフト 蟲の王 -全テノ雌ハ我ガ子孫ノ苗床-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079785",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079785.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2024-02-22",
+    "listPrice": 7700,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079785",
+      "メーカー": "CHAOS-R",
+      "発売日": "2024/02/22",
+      "定価": "7,700円",
+      "声優": "櫻井ありす\n奥山歩\n来海\n灰音",
+      "シナリオ": "玉沢円",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:41:07.034Z"
+  },
+  "histories": [
+    {
+      "id": 692,
+      "productId": 678,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4461,
+      "productId": 678,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:47:51.000Z"
+    },
+    {
+      "id": 5586,
+      "productId": 678,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:04:13.000Z"
+    },
+    {
+      "id": 16040,
+      "productId": 678,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 44493,
+      "productId": 678,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:07.034Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115050,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-17T09:41:07.000Z"
+    },
+    {
+      "id": 115049,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-17T09:41:07.000Z"
+    },
+    {
+      "id": 28523,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28522,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28521,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 28520,
+      "productId": 678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079785",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079785",
+    "capturedAt": "2026-08-17T09:41:07.034Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1911
+      }
+    ],
+    "path": "data/other-shops/145079785.json"
+  }
+}

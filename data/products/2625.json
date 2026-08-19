@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 2625,
+    "title": "Windows95/98/Me CDソフト 狂い～凌辱教室～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004435",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004435.jpg",
+    "manufacturer": "ひよこソフト",
+    "releaseDate": "2001-02-23",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "中古 ：145004435001",
+      "メーカー": "ひよこソフト",
+      "発売日": "2001/02/23",
+      "定価": "8,580円",
+      "原画": "めいそ\nとよますたかひろ\nたんな",
+      "声優": "本条真琴\n茶谷やすら\n如月葵",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:03:38.185Z"
+  },
+  "histories": [
+    {
+      "id": 2639,
+      "productId": 2625,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7533,
+      "productId": 2625,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 36613,
+      "productId": 2625,
+      "salePrice": 950,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:30.080Z"
+    },
+    {
+      "id": 47283,
+      "productId": 2625,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:38.185Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125034,
+      "productId": 2625,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-17T16:03:38.000Z"
+    },
+    {
+      "id": 125033,
+      "productId": 2625,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-17T16:03:38.000Z"
+    },
+    {
+      "id": 95737,
+      "productId": 2625,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-16T00:55:30.000Z"
+    },
+    {
+      "id": 95736,
+      "productId": 2625,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T00:55:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145004435",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145004435",
+    "capturedAt": "2026-08-17T16:03:38.185Z",
+    "items": [
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145004435.json"
+  }
+}

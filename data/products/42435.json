@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42435,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 桜華 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018023",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018023.jpg",
+    "manufacturer": "Anise",
+    "releaseDate": "2008-05-23",
+    "listPrice": 4180,
+    "modelNumber": "PCMS-7572",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018023",
+      "メーカー": "Anise",
+      "発売日": "2008/05/23",
+      "定価": "4,180円",
+      "型番": "PCMS-7572",
+      "原画": "麺帝マブ\nここのか",
+      "シナリオ": "康盛禅\nそら\nJUN",
+      "声優": "鈴木ロウ\n夏野こおり\n楠鈴音\n榊るな\n文月かな\n佐々留美子\n桐島やよい\n芹園みや\n馬並硬太\nAYA",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 770,
+    "latestRegularSalePrice": 770,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:46.994Z"
+  },
+  "histories": [
+    {
+      "id": 42449,
+      "productId": 42435,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:45.434Z"
+    },
+    {
+      "id": 44119,
+      "productId": 42435,
+      "salePrice": 770,
+      "regularSalePrice": 770,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:46.994Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018023",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018023",
+    "capturedAt": "2026-08-17T09:37:46.994Z",
+    "items": [],
+    "path": "data/other-shops/145018023.json"
+  }
+}

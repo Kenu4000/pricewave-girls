@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41177,
+    "title": "WindowsXP/Vista/7 DVDソフト LOVELY×CATION[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902002",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902002.jpg",
+    "manufacturer": "暁WORKS-響-",
+    "releaseDate": "2011-07-01",
+    "listPrice": 8580,
+    "modelNumber": "AW-0019",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145902002",
+      "メーカー": "暁WORKS-響-",
+      "発売日": "2011/07/01",
+      "定価": "8,580円",
+      "型番": "AW-0019",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:51.800Z"
+  },
+  "histories": [
+    {
+      "id": 41191,
+      "productId": 41177,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:29.609Z"
+    },
+    {
+      "id": 52903,
+      "productId": 41177,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:51.800Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902002",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902002",
+    "capturedAt": "2026-08-19T16:19:51.800Z",
+    "items": [],
+    "path": "data/other-shops/145902002.json"
+  }
+}

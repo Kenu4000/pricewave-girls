@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 3279,
+    "title": "WindowsXP/Vista/7 DVDソフト ヌキアニ!! Sweet Home",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037012",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037012.jpg",
+    "manufacturer": "CODEPINK",
+    "releaseDate": "2013-07-12",
+    "listPrice": 5280,
+    "modelNumber": "CP-0010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145037012001",
+      "メーカー": "CODEPINK",
+      "発売日": "2013/07/12",
+      "定価": "5,280円",
+      "型番": "CP-0010",
+      "原画": "キリヤマ太一",
+      "シナリオ": "みささぎらん\n神堂劾\n丸谷秀人",
+      "声優": "井村屋ほのか\n白井綾乃\n草柳順子\n未来羽\n広森なずな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3300,
+    "latestRegularSalePrice": 3300,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:50.719Z"
+  },
+  "histories": [
+    {
+      "id": 3293,
+      "productId": 3279,
+      "salePrice": 3600,
+      "regularSalePrice": 3600,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 44470,
+      "productId": 3279,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:50.719Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115022,
+      "productId": 3279,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3411,
+      "checkedAt": "2026-08-17T09:40:51.000Z"
+    },
+    {
+      "id": 115021,
+      "productId": 3279,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-17T09:40:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037012",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037012",
+    "capturedAt": "2026-08-17T09:40:50.719Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3300
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3411
+      }
+    ],
+    "path": "data/other-shops/145037012.json"
+  }
+}

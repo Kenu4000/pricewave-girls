@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 41955,
+    "title": "WindowsXP/Vista DVDソフト らのべえ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020995",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020995.jpg",
+    "manufacturer": "イーフロンティア",
+    "releaseDate": "2009-07-03",
+    "listPrice": 10780,
+    "modelNumber": "FG101W111",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020995001",
+      "メーカー": "イーフロンティア",
+      "発売日": "2009/07/03",
+      "定価": "10,780円",
+      "型番": "FG101W111",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:24:32.526Z"
+  },
+  "histories": [
+    {
+      "id": 41969,
+      "productId": 41955,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:49.356Z"
+    },
+    {
+      "id": 53460,
+      "productId": 41955,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:32.526Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143556,
+      "productId": 41955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:24:32.000Z"
+    },
+    {
+      "id": 143555,
+      "productId": 41955,
+      "sourceType": "other_shop",
+      "storeName": "ニッポンシザイ.COM",
+      "condition": "中古 非常に良い",
+      "price": 1250,
+      "checkedAt": "2026-08-19T16:24:32.000Z"
+    },
+    {
+      "id": 143554,
+      "productId": 41955,
+      "sourceType": "other_shop",
+      "storeName": "ニッポンシザイ.COM",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:24:32.000Z"
+    },
+    {
+      "id": 108613,
+      "productId": 41955,
+      "sourceType": "other_shop",
+      "storeName": "ニッポンシザイ.COM",
+      "condition": "中古 非常に良い",
+      "price": 1250,
+      "checkedAt": "2026-08-17T07:06:49.000Z"
+    },
+    {
+      "id": 108612,
+      "productId": 41955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:06:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020995",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020995",
+    "capturedAt": "2026-08-19T16:24:32.526Z",
+    "items": [
+      {
+        "storeName": "ニッポンシザイ.COM",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "ニッポンシザイ.COM",
+        "condition": "中古 非常に良い",
+        "price": 1250
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145020995.json"
+  }
+}

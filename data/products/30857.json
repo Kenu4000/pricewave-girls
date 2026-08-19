@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 30857,
+    "title": "WindowsXP/Vista/7/8/8.1 DVDソフト P/A -Potential Ability-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042008.jpg",
+    "manufacturer": "Empress",
+    "releaseDate": "2014-06-27",
+    "listPrice": 9680,
+    "modelNumber": "WILL-312",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145042008",
+      "メーカー": "Empress",
+      "発売日": "2014/06/27",
+      "定価": "9,680円",
+      "型番": "WILL-312",
+      "原画": "聖少女",
+      "シナリオ": "神無月ニトロ\n和泉万夜",
+      "声優": "葉村夏緒\n平木三月",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3612,
+    "latestRegularSalePrice": 3612,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:22:25.445Z"
+  },
+  "histories": [
+    {
+      "id": 30871,
+      "productId": 30857,
+      "salePrice": 3612,
+      "regularSalePrice": 3612,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:27.845Z"
+    },
+    {
+      "id": 39624,
+      "productId": 30857,
+      "salePrice": 3612,
+      "regularSalePrice": 3612,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:25.445Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042008",
+    "capturedAt": "2026-08-16T01:22:25.445Z",
+    "items": [],
+    "path": "data/other-shops/145042008.json"
+  }
+}

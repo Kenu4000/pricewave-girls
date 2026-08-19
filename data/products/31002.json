@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31002,
+    "title": "Windows2000/XP/Vista/7 DVDソフト Clover Days(TECH GIAN 2014年4月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058288",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058288.jpg",
+    "manufacturer": "エンターブレイン",
+    "releaseDate": "2014-02-21",
+    "listPrice": null,
+    "modelNumber": "TECH-G2014.041D",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145058288",
+      "メーカー": "エンターブレイン",
+      "発売日": "2014/02/21",
+      "型番": "TECH-G2014.041D",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:00.406Z"
+  },
+  "histories": [
+    {
+      "id": 31016,
+      "productId": 31002,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:54.033Z"
+    },
+    {
+      "id": 39766,
+      "productId": 31002,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:40.303Z"
+    },
+    {
+      "id": 50886,
+      "productId": 31002,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:00.406Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058288",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058288",
+    "capturedAt": "2026-08-19T05:32:00.406Z",
+    "items": [],
+    "path": "data/other-shops/145058288.json"
+  }
+}

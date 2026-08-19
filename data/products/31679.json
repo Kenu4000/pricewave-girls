@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 31679,
+    "title": "WindowsXP/Vista/7 DVDソフト 大図書館の羊飼い[体験版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034286",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034286.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2012-08-24",
+    "listPrice": null,
+    "modelNumber": "AUG-9001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034286001",
+      "メーカー": "オーガスト",
+      "発売日": "2012/08/24",
+      "型番": "AUG-9001",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:42:55.805Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:22.508Z"
+  },
+  "histories": [
+    {
+      "id": 31693,
+      "productId": 31679,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:55.223Z"
+    },
+    {
+      "id": 40428,
+      "productId": 31679,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:43.647Z"
+    },
+    {
+      "id": 51388,
+      "productId": 31679,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:22.508Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137076,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 137075,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古",
+      "price": 200,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 137074,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 200,
+      "checkedAt": "2026-08-19T05:36:23.000Z"
+    },
+    {
+      "id": 105177,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-16T01:30:43.000Z"
+    },
+    {
+      "id": 105176,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 200,
+      "checkedAt": "2026-08-16T01:30:43.000Z"
+    },
+    {
+      "id": 79332,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-15T23:42:55.000Z"
+    },
+    {
+      "id": 79331,
+      "productId": 31679,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 200,
+      "checkedAt": "2026-08-15T23:42:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034286",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034286",
+    "capturedAt": "2026-08-19T05:36:22.508Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 200
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古",
+        "price": 200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145034286.json"
+  }
+}

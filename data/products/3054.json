@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 3054,
+    "title": "Windows95/98 CDソフト 蒼刻ノ夜想曲",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002990",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002990.jpg",
+    "manufacturer": "PL+US",
+    "releaseDate": "1999-11-26",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002990001",
+      "メーカー": "PL+US",
+      "発売日": "1999/11/26",
+      "定価": "8,580円",
+      "原画": "とーかい林檎",
+      "シナリオ": "青山拓也",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 27800,
+    "latestRegularSalePrice": 27800,
+    "latestBuyPrice": 13000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:47.489Z"
+  },
+  "histories": [
+    {
+      "id": 3068,
+      "productId": 3054,
+      "salePrice": 27800,
+      "regularSalePrice": 27800,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36877,
+      "productId": 3054,
+      "salePrice": 26000,
+      "regularSalePrice": 27800,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:57.445Z"
+    },
+    {
+      "id": 47501,
+      "productId": 3054,
+      "salePrice": 27800,
+      "regularSalePrice": 27800,
+      "buyPrice": 13000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:47.489Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126055,
+      "productId": 3054,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスクのみ",
+      "price": 13900,
+      "checkedAt": "2026-08-17T16:05:47.000Z"
+    },
+    {
+      "id": 96897,
+      "productId": 3054,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスクのみ",
+      "price": 12500,
+      "checkedAt": "2026-08-16T00:57:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

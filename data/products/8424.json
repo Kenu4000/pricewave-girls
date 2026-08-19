@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 8424,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 尽くして愛DOLL! ～マスター大好きっ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015849",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015849.jpg",
+    "manufacturer": "スワンマニア",
+    "releaseDate": "2007-05-25",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015849001",
+      "メーカー": "スワンマニア",
+      "発売日": "2007/05/25",
+      "定価": "3,080円",
+      "原画": "桃竜",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 470,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:12:44.619Z"
+  },
+  "histories": [
+    {
+      "id": 8438,
+      "productId": 8424,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 37799,
+      "productId": 8424,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:56.862Z"
+    },
+    {
+      "id": 48272,
+      "productId": 8424,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:44.619Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128192,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:12:45.000Z"
+    },
+    {
+      "id": 128191,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-17T16:12:45.000Z"
+    },
+    {
+      "id": 99580,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:05:56.000Z"
+    },
+    {
+      "id": 99579,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:05:56.000Z"
+    },
+    {
+      "id": 1858,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1857,
+      "productId": 8424,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015849",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015849",
+    "capturedAt": "2026-08-17T16:12:44.619Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145015849.json"
+  }
+}

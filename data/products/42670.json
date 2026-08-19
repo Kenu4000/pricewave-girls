@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 42670,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 特警戦隊サイレンジャー [初回限定版] + 特命戦隊ユズレンジャー [特別パック版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016422",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016422.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2007-09-14",
+    "listPrice": 10780,
+    "modelNumber": "ANM-713",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016422001",
+      "メーカー": "ANIM",
+      "発売日": "2007/09/14",
+      "定価": "10,780円",
+      "型番": "ANM-713",
+      "原画": "ほたかたまごろー",
+      "シナリオ": "酒井童人",
+      "アーティスト": "あん",
+      "声優": "かわしまりの\n金田まひる\n春日アン\n安堂りゅう\n七生みこと\n渋谷ひめ\n蒼花\n上条茗\nSHIN\nアキラ\n珠ひよこ\nDr.Kei\n月山かなる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:05.613Z"
+  },
+  "histories": [
+    {
+      "id": 42684,
+      "productId": 42670,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:58.129Z"
+    },
+    {
+      "id": 44157,
+      "productId": 42670,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:05.613Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114221,
+      "productId": 42670,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-17T09:38:05.000Z"
+    },
+    {
+      "id": 114220,
+      "productId": 42670,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T09:38:05.000Z"
+    },
+    {
+      "id": 110137,
+      "productId": 42670,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-17T07:13:58.000Z"
+    },
+    {
+      "id": 110136,
+      "productId": 42670,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:13:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016422",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016422",
+    "capturedAt": "2026-08-17T09:38:05.613Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1511
+      }
+    ],
+    "path": "data/other-shops/145016422.json"
+  }
+}

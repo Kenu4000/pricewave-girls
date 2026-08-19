@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30796,
+    "title": "WindowsXP/Vista/7/8/8.1 CDソフト 淫獣戯画-妹を喰らう夢-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042457",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042457.jpg",
+    "manufacturer": "可憐ソフト",
+    "releaseDate": "2014-08-29",
+    "listPrice": 3300,
+    "modelNumber": "KRN-011",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145042457",
+      "メーカー": "可憐ソフト",
+      "発売日": "2014/08/29",
+      "定価": "3,300円",
+      "型番": "KRN-011",
+      "シナリオ": "広川マコト",
+      "原画": "都々子",
+      "声優": "桃也みなみ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1120,
+    "latestRegularSalePrice": 1120,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:38.561Z"
+  },
+  "histories": [
+    {
+      "id": 30810,
+      "productId": 30796,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:50.477Z"
+    },
+    {
+      "id": 39564,
+      "productId": 30796,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:53.925Z"
+    },
+    {
+      "id": 50738,
+      "productId": 30796,
+      "salePrice": 1120,
+      "regularSalePrice": 1120,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:38.561Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042457",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042457",
+    "capturedAt": "2026-08-19T05:30:38.561Z",
+    "items": [],
+    "path": "data/other-shops/145042457.json"
+  }
+}

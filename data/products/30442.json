@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 30442,
+    "title": "Windows CDソフト カスタムメイド3D II メディオ!特典プラグインディスク 「レーシングメイドセット」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051041",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051041.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2015-07-24",
+    "listPrice": null,
+    "modelNumber": "KISS-063DS",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145051041",
+      "メーカー": "KISS",
+      "発売日": "2015/07/24",
+      "型番": "KISS-063DS",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5280,
+    "latestRegularSalePrice": 5280,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:28:25.179Z"
+  },
+  "histories": [
+    {
+      "id": 30456,
+      "productId": 30442,
+      "salePrice": 2670,
+      "regularSalePrice": 2670,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:07.832Z"
+    },
+    {
+      "id": 39235,
+      "productId": 30442,
+      "salePrice": 2670,
+      "regularSalePrice": 2670,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:57.615Z"
+    },
+    {
+      "id": 50481,
+      "productId": 30442,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:25.179Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051041",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051041",
+    "capturedAt": "2026-08-19T05:28:25.179Z",
+    "items": [],
+    "path": "data/other-shops/145051041.json"
+  }
+}

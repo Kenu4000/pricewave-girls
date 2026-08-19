@@ -1,0 +1,193 @@
+{
+  "product": {
+    "id": 3123,
+    "title": "Windows95/98 CDソフト CrossHelix(クロスヘリックス)（ランクB）",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002790",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002790.jpg",
+    "manufacturer": "システムロゼ",
+    "releaseDate": "1999-11-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002790001",
+      "メーカー": "システムロゼ",
+      "発売日": "1999/11/05",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:21.571Z"
+  },
+  "histories": [
+    {
+      "id": 3137,
+      "productId": 3123,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36936,
+      "productId": 3123,
+      "salePrice": 1000,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:24.889Z"
+    },
+    {
+      "id": 47559,
+      "productId": 3123,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:21.571Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126163,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 126162,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1412,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 126161,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1150,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 126160,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書欠け",
+      "price": 840,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 126159,
+      "productId": 3123,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 840,
+      "checkedAt": "2026-08-17T16:06:22.000Z"
+    },
+    {
+      "id": 97004,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-16T00:58:25.000Z"
+    },
+    {
+      "id": 97003,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1412,
+      "checkedAt": "2026-08-16T00:58:25.000Z"
+    },
+    {
+      "id": 97002,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:58:25.000Z"
+    },
+    {
+      "id": 97001,
+      "productId": 3123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古説明書欠け",
+      "price": 750,
+      "checkedAt": "2026-08-16T00:58:25.000Z"
+    },
+    {
+      "id": 97000,
+      "productId": 3123,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 750,
+      "checkedAt": "2026-08-16T00:58:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002790",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002790",
+    "capturedAt": "2026-08-17T16:06:21.571Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古説明書欠け",
+        "price": 840
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1150
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1412
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1800
+      }
+    ],
+    "path": "data/other-shops/145002790.json"
+  }
+}

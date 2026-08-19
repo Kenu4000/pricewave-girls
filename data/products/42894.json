@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 42894,
+    "title": "Windows98/Me/2000/XP DVDソフト リゾートBOIN",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015297",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015297.jpg",
+    "manufacturer": "Crossnet-Pie",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": "CNG-RBD1",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015297001",
+      "メーカー": "Crossnet-Pie",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "型番": "CNG-RBD1",
+      "原画": "八宝備仁",
+      "シナリオ": "若林浩太郎\n朔夜桜",
+      "声優": "トク\n北都南\n金田まひる\n榊木春乃\n海原エレナ\n内野ぽち\n成瀬未亜\n胸肩腎\n一一\n谷口ケイ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2580,
+    "latestRegularSalePrice": 2580,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:20.254Z"
+  },
+  "histories": [
+    {
+      "id": 42908,
+      "productId": 42894,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:06.861Z"
+    },
+    {
+      "id": 44187,
+      "productId": 42894,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:20.254Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114310,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2580,
+      "checkedAt": "2026-08-17T09:38:20.000Z"
+    },
+    {
+      "id": 114309,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-08-17T09:38:20.000Z"
+    },
+    {
+      "id": 114308,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-17T09:38:20.000Z"
+    },
+    {
+      "id": 114307,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-08-17T09:38:20.000Z"
+    },
+    {
+      "id": 110589,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2580,
+      "checkedAt": "2026-08-17T07:16:07.000Z"
+    },
+    {
+      "id": 110588,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-08-17T07:16:07.000Z"
+    },
+    {
+      "id": 110587,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-17T07:16:07.000Z"
+    },
+    {
+      "id": 110586,
+      "productId": 42894,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-08-17T07:16:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015297",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015297",
+    "capturedAt": "2026-08-17T09:38:20.254Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2411
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 2500
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2580
+      }
+    ],
+    "path": "data/other-shops/145015297.json"
+  }
+}

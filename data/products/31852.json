@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31852,
+    "title": "WindowsXP/Vista/7 DVDソフト しりこん☆まじっく ー生まれる前からあなた専用?!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055429",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055429.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2012-03-23",
+    "listPrice": 9680,
+    "modelNumber": "BSP-033",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145055429",
+      "メーカー": "BISHOP",
+      "発売日": "2012/03/23",
+      "定価": "9,680円",
+      "型番": "BSP-033",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:13.332Z"
+  },
+  "histories": [
+    {
+      "id": 31866,
+      "productId": 31852,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:12.054Z"
+    },
+    {
+      "id": 40601,
+      "productId": 31852,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:06.297Z"
+    },
+    {
+      "id": 43807,
+      "productId": 31852,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:13.332Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055429",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055429",
+    "capturedAt": "2026-08-17T09:35:13.332Z",
+    "items": [],
+    "path": "data/other-shops/145055429.json"
+  }
+}

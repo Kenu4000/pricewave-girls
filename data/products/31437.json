@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 31437,
+    "title": "WindowsXP/Vista/7 DVDソフト デデンデン!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034889",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034889.jpg",
+    "manufacturer": "One-up",
+    "releaseDate": "2013-02-22",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1680",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034889001",
+      "メーカー": "One-up",
+      "発売日": "2013/02/22",
+      "定価": "9,680円",
+      "型番": "SKR-1680",
+      "声優": "鶴屋春人\n和葉\n桜川未央\n東かりん",
+      "原画": "オギン★バラ",
+      "シナリオ": "呱々\n廣瀬一貴",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "2180",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2180,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:39:50.560Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:49.343Z"
+  },
+  "histories": [
+    {
+      "id": 31451,
+      "productId": 31437,
+      "salePrice": 2050,
+      "regularSalePrice": 2180,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:50.397Z"
+    },
+    {
+      "id": 40193,
+      "productId": 31437,
+      "salePrice": 2050,
+      "regularSalePrice": 2180,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:53.726Z"
+    },
+    {
+      "id": 51218,
+      "productId": 31437,
+      "salePrice": 2050,
+      "regularSalePrice": 2180,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:49.343Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136794,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-19T05:34:49.000Z"
+    },
+    {
+      "id": 136793,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2001,
+      "checkedAt": "2026-08-19T05:34:49.000Z"
+    },
+    {
+      "id": 104754,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-16T01:28:54.000Z"
+    },
+    {
+      "id": 104753,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2001,
+      "checkedAt": "2026-08-16T01:28:54.000Z"
+    },
+    {
+      "id": 78913,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-15T23:39:50.000Z"
+    },
+    {
+      "id": 78912,
+      "productId": 31437,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2001,
+      "checkedAt": "2026-08-15T23:39:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034889",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034889",
+    "capturedAt": "2026-08-19T05:34:49.343Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2001
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145034889.json"
+  }
+}

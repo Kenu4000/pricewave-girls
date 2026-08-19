@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30143,
+    "title": "WindowsVista/7/8/10 DVDソフト サクラノモリ†ドリーマーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901348",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901348.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2016-05-27",
+    "listPrice": 9680,
+    "modelNumber": "MSTN-033",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145901348",
+      "メーカー": "MOONSTONE",
+      "発売日": "2016/05/27",
+      "定価": "9,680円",
+      "型番": "MSTN-033",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:41.563Z"
+  },
+  "histories": [
+    {
+      "id": 30157,
+      "productId": 30143,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:12.609Z"
+    },
+    {
+      "id": 38946,
+      "productId": 30143,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:13.966Z"
+    },
+    {
+      "id": 49943,
+      "productId": 30143,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:41.563Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901348",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901348",
+    "capturedAt": "2026-08-19T04:34:41.563Z",
+    "items": [],
+    "path": "data/other-shops/145901348.json"
+  }
+}

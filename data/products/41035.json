@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 41035,
+    "title": "WindowsVista/7/8/10 DVDソフト ステルラエクエス アンサンブルパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051109",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051109.jpg",
+    "manufacturer": "C：drive.",
+    "releaseDate": "2015-09-25",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145051109",
+      "メーカー": "C：drive.",
+      "発売日": "2015/09/25",
+      "定価": "6,380円",
+      "原画": "蒔田真記\n克\n宮坂良",
+      "シナリオ": "武藤礼恵",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:40.570Z"
+  },
+  "histories": [
+    {
+      "id": 41049,
+      "productId": 41035,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:14.664Z"
+    },
+    {
+      "id": 43862,
+      "productId": 41035,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:40.570Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051109",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051109",
+    "capturedAt": "2026-08-17T09:35:40.570Z",
+    "items": [],
+    "path": "data/other-shops/145051109.json"
+  }
+}

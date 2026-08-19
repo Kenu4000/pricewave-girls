@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30761,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 信長の欲とボウ -淫乳記ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045400",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045400.jpg",
+    "manufacturer": "フェアリーテール",
+    "releaseDate": "2014-09-26",
+    "listPrice": 3278,
+    "modelNumber": "PFCSG-008",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045400",
+      "メーカー": "フェアリーテール",
+      "発売日": "2014/09/26",
+      "定価": "3,278円",
+      "型番": "PFCSG-008",
+      "原画": "水城たくや\n石原ますみ\n吉都しばる",
+      "シナリオ": "那珂湊\nマイケル内藤",
+      "声優": "安芸河えな\n星空ユメ\n丹羽りん",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1201,
+    "latestRegularSalePrice": 1201,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:56.948Z"
+  },
+  "histories": [
+    {
+      "id": 30775,
+      "productId": 30761,
+      "salePrice": 1201,
+      "regularSalePrice": 1201,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:32.886Z"
+    },
+    {
+      "id": 39531,
+      "productId": 30761,
+      "salePrice": 1201,
+      "regularSalePrice": 1201,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:36.953Z"
+    },
+    {
+      "id": 43657,
+      "productId": 30761,
+      "salePrice": 1201,
+      "regularSalePrice": 1201,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:56.948Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045400",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045400",
+    "capturedAt": "2026-08-17T09:33:56.948Z",
+    "items": [],
+    "path": "data/other-shops/145045400.json"
+  }
+}

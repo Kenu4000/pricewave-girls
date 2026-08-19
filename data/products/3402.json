@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 3402,
+    "title": "Windows95/98/Me/2000/XP CDソフト 楔～くさび～[限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008053",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008053.jpg",
+    "manufacturer": "Dark Side",
+    "releaseDate": "2002-11-15",
+    "listPrice": 9680,
+    "modelNumber": "BP0026",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145008053001",
+      "メーカー": "Dark Side",
+      "発売日": "2002/11/15",
+      "定価": "9,680円",
+      "型番": "BP0026",
+      "原画": "村上真",
+      "シナリオ": "永沢壱朗",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "980",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-16T01:00:26.339Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:00:26.086Z"
+  },
+  "histories": [
+    {
+      "id": 3416,
+      "productId": 3402,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 37163,
+      "productId": 3402,
+      "salePrice": 950,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:26.086Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 97725,
+      "productId": 3402,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    },
+    {
+      "id": 97724,
+      "productId": 3402,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    },
+    {
+      "id": 97723,
+      "productId": 3402,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    },
+    {
+      "id": 97722,
+      "productId": 3402,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    },
+    {
+      "id": 97721,
+      "productId": 3402,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 680,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    },
+    {
+      "id": 97720,
+      "productId": 3402,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 680,
+      "checkedAt": "2026-08-16T01:00:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145008053",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008053",
+    "capturedAt": "2026-08-16T01:00:26.086Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 680
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・特典ディスクのみ（その他欠品）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1011
+      }
+    ],
+    "path": "data/other-shops/145008053.json"
+  }
+}

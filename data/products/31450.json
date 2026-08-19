@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 31450,
+    "title": "WindowsXP/Vista/7 CDソフト 父娘の秘密 ー妻に言えない親子の関係ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036068",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036068.jpg",
+    "manufacturer": "Monogram",
+    "releaseDate": "2013-02-22",
+    "listPrice": 2750,
+    "modelNumber": "MNOG-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145036068001",
+      "メーカー": "Monogram",
+      "発売日": "2013/02/22",
+      "定価": "2,750円",
+      "型番": "MNOG-007",
+      "原画": "はるゆきこ",
+      "シナリオ": "岡下誠",
+      "声優": "凪",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "650",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:39:57.376Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:53.785Z"
+  },
+  "histories": [
+    {
+      "id": 31464,
+      "productId": 31450,
+      "salePrice": 600,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:57.110Z"
+    },
+    {
+      "id": 40206,
+      "productId": 31450,
+      "salePrice": 600,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:00.956Z"
+    },
+    {
+      "id": 51227,
+      "productId": 31450,
+      "salePrice": 600,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:53.785Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136801,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T05:34:54.000Z"
+    },
+    {
+      "id": 136800,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "新品バーコード部分にシールが貼ってあります。",
+      "price": 990,
+      "checkedAt": "2026-08-19T05:34:54.000Z"
+    },
+    {
+      "id": 136799,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T05:34:54.000Z"
+    },
+    {
+      "id": 104766,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "新品バーコード部分にシールが貼ってあります。",
+      "price": 990,
+      "checkedAt": "2026-08-16T01:29:01.000Z"
+    },
+    {
+      "id": 104765,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T01:29:01.000Z"
+    },
+    {
+      "id": 78925,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "新品バーコード部分にシールが貼ってあります。",
+      "price": 990,
+      "checkedAt": "2026-08-15T23:39:57.000Z"
+    },
+    {
+      "id": 78924,
+      "productId": 31450,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-15T23:39:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036068",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036068",
+    "capturedAt": "2026-08-19T05:34:53.785Z",
+    "items": [
+      {
+        "storeName": "こみい屋",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "こみい屋",
+        "condition": "新品バーコード部分にシールが貼ってあります。",
+        "price": 990
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145036068.json"
+  }
+}

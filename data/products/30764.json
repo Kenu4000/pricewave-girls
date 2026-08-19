@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 30764,
+    "title": "WindowsVista/7/8 DVDソフト あの晴れわたる空より高く",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043984",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043984.jpg",
+    "manufacturer": "チュアブルソフト",
+    "releaseDate": "2014-09-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145043984",
+      "メーカー": "チュアブルソフト",
+      "発売日": "2014/09/26",
+      "定価": "9,680円",
+      "原画": "オレンジゼリー\n田那辺",
+      "シナリオ": "草壁よしお\n範乃秋晴",
+      "声優": "野☆球\n結衣菜\nあじ秋刀魚\n秋野花\n香澄りょう\n藤森ゆき奈\n上田朱音\n橘まお\n西乃ころね\n風見トーリ\n樫野樹\n西岡賢吾\n水上司郎\n有栖川みや美",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:27.452Z"
+  },
+  "histories": [
+    {
+      "id": 30778,
+      "productId": 30764,
+      "salePrice": 5800,
+      "regularSalePrice": 5800,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:34.490Z"
+    },
+    {
+      "id": 39535,
+      "productId": 30764,
+      "salePrice": 5800,
+      "regularSalePrice": 5800,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:39.772Z"
+    },
+    {
+      "id": 50718,
+      "productId": 30764,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:27.452Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135961,
+      "productId": 30764,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:箱に難有り",
+      "price": 5800,
+      "checkedAt": "2026-08-19T05:30:27.000Z"
+    },
+    {
+      "id": 135960,
+      "productId": 30764,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 4440,
+      "checkedAt": "2026-08-19T05:30:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043984",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043984",
+    "capturedAt": "2026-08-19T05:30:27.452Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 4440
+      },
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:箱に難有り",
+        "price": 5800
+      }
+    ],
+    "path": "data/other-shops/145043984.json"
+  }
+}

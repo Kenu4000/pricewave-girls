@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 3321,
+    "title": "Windows98/Me/2000 CDソフト Cherryboy(チェリーボーイ)にくびったけ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008841",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008841.jpg",
+    "manufacturer": "アクトレス",
+    "releaseDate": "2003-04-11",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145008841",
+      "メーカー": "アクトレス",
+      "発売日": "2003/04/11",
+      "定価": "9,680円",
+      "原画": "千葉千夏",
+      "シナリオ": "大隈晃洋",
+      "声優": "MI-KO\n深井晴花\n乃田あす実\n飯田空\nみる",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1860,
+    "latestRegularSalePrice": 1860,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:07:35.775Z"
+  },
+  "histories": [
+    {
+      "id": 3335,
+      "productId": 3321,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 37097,
+      "productId": 3321,
+      "salePrice": 1860,
+      "regularSalePrice": 1860,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:51.144Z"
+    },
+    {
+      "id": 47693,
+      "productId": 3321,
+      "salePrice": 1860,
+      "regularSalePrice": 1860,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:35.775Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145008841",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008841",
+    "capturedAt": "2026-08-17T16:07:35.775Z",
+    "items": [],
+    "path": "data/other-shops/145008841.json"
+  }
+}

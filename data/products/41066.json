@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 41066,
+    "title": "WindowsXP/Vista/7 DVDソフト もしも明日が晴れならば リニューアルパッケージ版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034598",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034598.jpg",
+    "manufacturer": "ぱれっと",
+    "releaseDate": "2012-10-26",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034598",
+      "メーカー": "ぱれっと",
+      "発売日": "2012/10/26",
+      "定価": "6,380円",
+      "原画": "くすくす",
+      "シナリオ": "NYAON",
+      "声優": "一色ヒカル\n西田こむぎ\nみる\nまきいづみ\nAYA\n星野みく\n小池竹蔵\n倉田まりや\n神月あおい\n吉沢悠亜",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:04.425Z"
+  },
+  "histories": [
+    {
+      "id": 41080,
+      "productId": 41066,
+      "salePrice": 2111,
+      "regularSalePrice": 2111,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:34.333Z"
+    },
+    {
+      "id": 52823,
+      "productId": 41066,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:04.425Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142283,
+      "productId": 41066,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-19T16:19:04.000Z"
+    },
+    {
+      "id": 142282,
+      "productId": 41066,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-08-19T16:19:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034598",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034598",
+    "capturedAt": "2026-08-19T16:19:04.425Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1901
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2111
+      }
+    ],
+    "path": "data/other-shops/145034598.json"
+  }
+}

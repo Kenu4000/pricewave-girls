@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 41143,
+    "title": "WindowsXP/Vista/7 CDソフト 時を奏でる円舞曲 2011年コミックマーケット80 夏セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031366",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031366.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2011-08-12",
+    "listPrice": 3143,
+    "modelNumber": "DEBO-11005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031366",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2011/08/12",
+      "定価": "3,143円",
+      "型番": "DEBO-11005",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:19:35.728Z"
+  },
+  "histories": [
+    {
+      "id": 41157,
+      "productId": 41143,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:11.541Z"
+    },
+    {
+      "id": 52875,
+      "productId": 41143,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:35.728Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031366",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031366",
+    "capturedAt": "2026-08-19T16:19:35.728Z",
+    "items": [],
+    "path": "data/other-shops/145031366.json"
+  }
+}

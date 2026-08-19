@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 29415,
+    "title": "Windows7/8/10 CDソフト スマホを忘れただけなのに… -脅され快楽に堕とされていくギャル-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064841",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064841.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2019-05-31",
+    "listPrice": 2200,
+    "modelNumber": "APT-135",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145064841001",
+      "メーカー": "アパタイト",
+      "発売日": "2019/05/31",
+      "定価": "2,200円",
+      "型番": "APT-135",
+      "原画": "一葉モカ",
+      "シナリオ": "岡下誠",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "800",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:06:49.147Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:10:01.295Z"
+  },
+  "histories": [
+    {
+      "id": 29429,
+      "productId": 29415,
+      "salePrice": 780,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:48.991Z"
+    },
+    {
+      "id": 38258,
+      "productId": 29415,
+      "salePrice": 780,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:01.295Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 100603,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-16T01:10:01.000Z"
+    },
+    {
+      "id": 100602,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-16T01:10:01.000Z"
+    },
+    {
+      "id": 100601,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-16T01:10:01.000Z"
+    },
+    {
+      "id": 100600,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-16T01:10:01.000Z"
+    },
+    {
+      "id": 74565,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-15T23:06:49.000Z"
+    },
+    {
+      "id": 74564,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-15T23:06:49.000Z"
+    },
+    {
+      "id": 74563,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-15T23:06:49.000Z"
+    },
+    {
+      "id": 74562,
+      "productId": 29415,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-15T23:06:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064841",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064841",
+    "capturedAt": "2026-08-16T01:10:01.295Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 811
+      }
+    ],
+    "path": "data/other-shops/145064841.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42204,
+    "title": "Windows2000/XP/Vista DVDソフト それは舞い散る桜のように 完全版 Standard Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019112",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019112.jpg",
+    "manufacturer": "BasiL",
+    "releaseDate": "2008-11-28",
+    "listPrice": 9680,
+    "modelNumber": "BS2008-02G",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019112",
+      "メーカー": "BasiL",
+      "発売日": "2008/11/28",
+      "定価": "9,680円",
+      "型番": "BS2008-02G",
+      "原画": "チームBasiL",
+      "シナリオ": "丘亮助\nあごバリア\n王雀孫",
+      "声優": "神谷浩史\n佐々留美子\n九条信乃\n櫛引絵里\n高山沙希\n鈴木麻里子\nかわしまりの\nみる\nほうでん亭ノドガシラ\n氷河流\n井原早紀\n島田純\nビッグバン平太",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5491,
+    "latestRegularSalePrice": 5491,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:30.567Z"
+  },
+  "histories": [
+    {
+      "id": 42218,
+      "productId": 42204,
+      "salePrice": 5491,
+      "regularSalePrice": 5491,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:21.532Z"
+    },
+    {
+      "id": 44085,
+      "productId": 42204,
+      "salePrice": 5491,
+      "regularSalePrice": 5491,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:30.567Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019112",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019112",
+    "capturedAt": "2026-08-17T09:37:30.567Z",
+    "items": [],
+    "path": "data/other-shops/145019112.json"
+  }
+}

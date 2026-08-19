@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42944,
+    "title": "Windows98/Me/2000/XP DVDソフト フォセット -Cafe au Le Ciel Bleu- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041957",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041957.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2006-12-22",
+    "listPrice": 7480,
+    "modelNumber": "GIGA-061222",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145041957",
+      "メーカー": "戯画",
+      "発売日": "2006/12/22",
+      "定価": "7,480円",
+      "型番": "GIGA-061222",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:25.456Z"
+  },
+  "histories": [
+    {
+      "id": 42958,
+      "productId": 42944,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:30.942Z"
+    },
+    {
+      "id": 44197,
+      "productId": 42944,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:25.456Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041957",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041957",
+    "capturedAt": "2026-08-17T09:38:25.456Z",
+    "items": [],
+    "path": "data/other-shops/145041957.json"
+  }
+}

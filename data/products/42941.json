@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 42941,
+    "title": "Windows98SE/Me/2000/XP DVDソフト ねとって女神!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015219",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015219.jpg",
+    "manufacturer": "ビタミン",
+    "releaseDate": "2006-12-22",
+    "listPrice": 9680,
+    "modelNumber": "KSBR-008",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015219",
+      "メーカー": "ビタミン",
+      "発売日": "2006/12/22",
+      "定価": "9,680円",
+      "型番": "KSBR-008",
+      "原画": "かみやまねき",
+      "シナリオ": "ポルノソムリエ",
+      "音楽": "CUBE",
+      "声優": "月黒斗夜\nみすみ\n森藍子\n西野みく\n永野らび",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:30.262Z"
+  },
+  "histories": [
+    {
+      "id": 42955,
+      "productId": 42941,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:30.262Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015219",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015219",
+    "capturedAt": "2026-08-17T07:16:30.262Z",
+    "items": [],
+    "path": "data/other-shops/145015219.json"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42955,
+    "title": "Windows98SE/Me/2000/XP CDソフト OL凌辱セット WVセレクション9",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015109",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015109.jpg",
+    "manufacturer": "West Vision",
+    "releaseDate": "2006-12-15",
+    "listPrice": 5280,
+    "modelNumber": "TWR-09",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015109001",
+      "メーカー": "West Vision",
+      "発売日": "2006/12/15",
+      "定価": "5,280円",
+      "型番": "TWR-09",
+      "原画": "トシぞー",
+      "シナリオ": "あくまっこ\n板皮類",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:16:37.454Z"
+  },
+  "histories": [
+    {
+      "id": 42969,
+      "productId": 42955,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:37.454Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110721,
+      "productId": 42955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110720,
+      "productId": 42955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    },
+    {
+      "id": 110719,
+      "productId": 42955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-17T07:16:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015109",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015109",
+    "capturedAt": "2026-08-17T07:16:37.454Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1400
+      }
+    ],
+    "path": "data/other-shops/145015109.json"
+  }
+}

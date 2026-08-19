@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 1637,
+    "title": "Windows8/8.1/10 DVDソフト ニート娘を更生させよ! -性技があれば生きていける-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073093",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073093.jpg",
+    "manufacturer": "Calcite",
+    "releaseDate": "2021-11-26",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145073093",
+      "メーカー": "Calcite",
+      "発売日": "2021/11/26",
+      "定価": "7,480円",
+      "原画": "筆廻狂十郎\n七瀬にちか",
+      "シナリオ": "未刻点\n龍胆生",
+      "声優": "榎本ねむ\n柚原みう\n月永りと",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:42:19.942Z"
+  },
+  "histories": [
+    {
+      "id": 1651,
+      "productId": 1637,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6540,
+      "productId": 1637,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:56.000Z"
+    },
+    {
+      "id": 13515,
+      "productId": 1637,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    },
+    {
+      "id": 26438,
+      "productId": 1637,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:04:19.798Z"
+    },
+    {
+      "id": 44635,
+      "productId": 1637,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:19.942Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115408,
+      "productId": 1637,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 680,
+      "checkedAt": "2026-08-17T09:42:20.000Z"
+    },
+    {
+      "id": 115407,
+      "productId": 1637,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T09:42:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073093",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073093",
+    "capturedAt": "2026-08-17T09:42:19.942Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145073093.json"
+  }
+}

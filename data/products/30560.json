@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 30560,
+    "title": "WindowsVista/7/8 DVDソフト 今夜、おじ様に抱かれます…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048662.jpg",
+    "manufacturer": "Nomad",
+    "releaseDate": "2015-03-27",
+    "listPrice": 2310,
+    "modelNumber": "NOM011",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048662",
+      "メーカー": "Nomad",
+      "発売日": "2015/03/27",
+      "定価": "2,310円",
+      "型番": "NOM011",
+      "声優": "花澤さくら\n星野七海",
+      "原画": "麻倉桜",
+      "シナリオ": "大熊陣八",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:09.891Z"
+  },
+  "histories": [
+    {
+      "id": 30574,
+      "productId": 30560,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:29.168Z"
+    },
+    {
+      "id": 39346,
+      "productId": 30560,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:55.493Z"
+    },
+    {
+      "id": 50569,
+      "productId": 30560,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:09.891Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048662",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048662",
+    "capturedAt": "2026-08-19T05:29:09.891Z",
+    "items": [],
+    "path": "data/other-shops/145048662.json"
+  }
+}

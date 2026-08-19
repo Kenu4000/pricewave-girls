@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41844,
+    "title": "Windows2000/XP/Vista DVDソフト 真剣(マジ)で私に恋しなさい!![通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064801",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064801.jpg",
+    "manufacturer": "みなとそふと",
+    "releaseDate": "2009-10-30",
+    "listPrice": 10780,
+    "modelNumber": "MINATO-M",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145064801",
+      "メーカー": "みなとそふと",
+      "発売日": "2009/10/30",
+      "定価": "10,780円",
+      "型番": "MINATO-M",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:55.095Z"
+  },
+  "histories": [
+    {
+      "id": 41858,
+      "productId": 41844,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:52.567Z"
+    },
+    {
+      "id": 53383,
+      "productId": 41844,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:55.095Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064801",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064801",
+    "capturedAt": "2026-08-19T16:23:55.095Z",
+    "items": [],
+    "path": "data/other-shops/145064801.json"
+  }
+}

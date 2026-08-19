@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30778,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 妹欲DEAD催眠",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045836",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045836.jpg",
+    "manufacturer": "TRYSET MAD",
+    "releaseDate": "2014-09-26",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045836",
+      "メーカー": "TRYSET MAD",
+      "発売日": "2014/09/26",
+      "定価": "3,300円",
+      "シナリオ": "橋野次郎",
+      "原画": "風花",
+      "声優": "渡会ななせ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:33.315Z"
+  },
+  "histories": [
+    {
+      "id": 30792,
+      "productId": 30778,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:40.895Z"
+    },
+    {
+      "id": 39548,
+      "productId": 30778,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:45.991Z"
+    },
+    {
+      "id": 50728,
+      "productId": 30778,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:33.315Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045836",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045836",
+    "capturedAt": "2026-08-19T05:30:33.315Z",
+    "items": [],
+    "path": "data/other-shops/145045836.json"
+  }
+}

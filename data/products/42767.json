@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42767,
+    "title": "Windows2000/XP DVDソフト 続・秘湯めぐり [特別版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016225",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016225.jpg",
+    "manufacturer": "Riddle Soft",
+    "releaseDate": "2007-06-08",
+    "listPrice": 11880,
+    "modelNumber": "RYUSYS-0092",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016225",
+      "メーカー": "Riddle Soft",
+      "発売日": "2007/06/08",
+      "定価": "11,880円",
+      "型番": "RYUSYS-0092",
+      "原画": "ぎんぱち",
+      "シナリオ": "兄丸",
+      "声優": "千愛\n奥田梨々香\n民安ともえ\n芹園みや\nおのまつり\n茉莉奈\n唐沢けい",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:53.239Z"
+  },
+  "histories": [
+    {
+      "id": 42781,
+      "productId": 42767,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:53.239Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016225",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016225",
+    "capturedAt": "2026-08-17T07:14:53.239Z",
+    "items": [],
+    "path": "data/other-shops/145016225.json"
+  }
+}

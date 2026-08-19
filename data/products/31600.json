@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 31600,
+    "title": "Windows CDソフト Chu→ninG Lover 初回特典 奈津夏希ヒロイン化パッチ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056143",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056143.jpg",
+    "manufacturer": "シュガーハウス",
+    "releaseDate": "2012-10-26",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145056143",
+      "メーカー": "シュガーハウス",
+      "発売日": "2012/10/26",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:47.441Z"
+  },
+  "histories": [
+    {
+      "id": 31614,
+      "productId": 31600,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:51.249Z"
+    },
+    {
+      "id": 40349,
+      "productId": 31600,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:07.310Z"
+    },
+    {
+      "id": 51324,
+      "productId": 31600,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:47.441Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056143",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056143",
+    "capturedAt": "2026-08-19T05:35:47.441Z",
+    "items": [],
+    "path": "data/other-shops/145056143.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 42185,
+    "title": "Windows2000/XP/Vista DVDソフト 操心術3",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045684",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045684.jpg",
+    "manufacturer": "STUDIO邪恋",
+    "releaseDate": "2008-12-12",
+    "listPrice": 9680,
+    "modelNumber": "SJRU-0005",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145045684",
+      "メーカー": "STUDIO邪恋",
+      "発売日": "2008/12/12",
+      "定価": "9,680円",
+      "型番": "SJRU-0005",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:25:54.878Z"
+  },
+  "histories": [
+    {
+      "id": 42199,
+      "productId": 42185,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:05.759Z"
+    },
+    {
+      "id": 53621,
+      "productId": 42185,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:54.878Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045684",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045684",
+    "capturedAt": "2026-08-19T16:25:54.878Z",
+    "items": [],
+    "path": "data/other-shops/145045684.json"
+  }
+}

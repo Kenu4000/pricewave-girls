@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 8518,
+    "title": "Windows95/98 CDソフト すもも白書 パラダイス38シリーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004467",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004467.jpg",
+    "manufacturer": "アリエルーフ",
+    "releaseDate": null,
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145004467",
+      "メーカー": "アリエルーフ",
+      "定価": "4,180円",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:13:21.914Z"
+  },
+  "histories": [
+    {
+      "id": 8532,
+      "productId": 8518,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 23162,
+      "productId": 8518,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:38:01.485Z"
+    },
+    {
+      "id": 37879,
+      "productId": 8518,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:38.348Z"
+    },
+    {
+      "id": 48339,
+      "productId": 8518,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:21.914Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 41779,
+    "title": "Windows2000/XP/Vista DVDソフト 嘘デレ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076207",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076207.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": "BASE-030",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145076207",
+      "メーカー": "脳内彼女",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "型番": "BASE-030",
+      "原画": "あおぎりぺんた",
+      "シナリオ": "生田あわる\n西田一\n蒼夜",
+      "声優": "こんつ\n小倉結衣\n民安ともえ\nみる\n倉田まりや\n紫苑みやび\n桜坂かい",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "説明書欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "説明書欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:32.110Z"
+  },
+  "histories": [
+    {
+      "id": 41793,
+      "productId": 41779,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:19.607Z"
+    },
+    {
+      "id": 53336,
+      "productId": 41779,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:32.110Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076207",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076207",
+    "capturedAt": "2026-08-19T16:23:32.110Z",
+    "items": [],
+    "path": "data/other-shops/145076207.json"
+  }
+}

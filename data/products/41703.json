@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 41703,
+    "title": "Windows98SE/2000/XP/Vista/7 CDソフト 水スペ 川野口ノブ探検隊ファンクラブ通販特典CD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064696",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064696.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2010-03-19",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145064696001",
+      "メーカー": "ライアーソフト",
+      "発売日": "2010/03/19",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:08.912Z"
+  },
+  "histories": [
+    {
+      "id": 41717,
+      "productId": 41703,
+      "salePrice": 360,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:39.257Z"
+    },
+    {
+      "id": 53289,
+      "productId": 41703,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:08.912Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143250,
+      "productId": 41703,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-19T16:23:09.000Z"
+    },
+    {
+      "id": 143249,
+      "productId": 41703,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:23:09.000Z"
+    },
+    {
+      "id": 143248,
+      "productId": 41703,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-19T16:23:09.000Z"
+    },
+    {
+      "id": 108134,
+      "productId": 41703,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:04:39.000Z"
+    },
+    {
+      "id": 108133,
+      "productId": 41703,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-17T07:04:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064696",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064696",
+    "capturedAt": "2026-08-19T16:23:08.912Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 350
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 350
+      }
+    ],
+    "path": "data/other-shops/145064696.json"
+  }
+}

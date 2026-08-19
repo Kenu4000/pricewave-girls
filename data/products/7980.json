@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 7980,
+    "title": "WindowsXP/Vista/7 DVDソフト お前のパンツは何色だ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030345",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030345.jpg",
+    "manufacturer": "Molamola.software",
+    "releaseDate": "2011-12-22",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1601",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030345",
+      "メーカー": "Molamola.software",
+      "発売日": "2011/12/22",
+      "定価": "9,680円",
+      "型番": "SKR-1601",
+      "原画": "bomi",
+      "シナリオ": "川波無人\n永瀬晶\n雪仁\n七海ユウリ",
+      "声優": "J・ベロア\n日向咲みつ\n西野みく\n相模真\n有賀桃\n奥山歩\n杉浦奈保子\n未空",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1412,
+    "latestRegularSalePrice": 1412,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:10:13.072Z"
+  },
+  "histories": [
+    {
+      "id": 7994,
+      "productId": 7980,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 37441,
+      "productId": 7980,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:52.569Z"
+    },
+    {
+      "id": 47970,
+      "productId": 7980,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:13.072Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030345",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030345",
+    "capturedAt": "2026-08-17T16:10:13.072Z",
+    "items": [],
+    "path": "data/other-shops/145030345.json"
+  }
+}

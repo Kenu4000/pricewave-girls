@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 43013,
+    "title": "Windows98SE/Me/2000/XP DVDソフト あいかぎ2 -濡れた髪が乾く前に- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014810",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014810.jpg",
+    "manufacturer": "F＆C・FC02",
+    "releaseDate": "2006-10-27",
+    "listPrice": 9680,
+    "modelNumber": "FC-274",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014810001",
+      "メーカー": "F＆C・FC02",
+      "発売日": "2006/10/27",
+      "定価": "9,680円",
+      "型番": "FC-274",
+      "原画": "双龍",
+      "シナリオ": "うらわ",
+      "声優": "滝沢アツヤ\n未来羽\n桜川未央\nみる\n鳥井紅子\n立花伊織\n天水るみ\n香澄りょう\n杉原茉莉\n青葉りんご\n竹田彬夫\n蔵前力士",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 360,
+    "latestRegularSalePrice": 360,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:17:09.955Z"
+  },
+  "histories": [
+    {
+      "id": 43027,
+      "productId": 43013,
+      "salePrice": 360,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:09.955Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110825,
+      "productId": 43013,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:17:10.000Z"
+    },
+    {
+      "id": 110824,
+      "productId": 43013,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-17T07:17:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014810",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014810",
+    "capturedAt": "2026-08-17T07:17:09.955Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 360
+      },
+      {
+        "storeName": "ブックエコ浅川店",
+        "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145014810.json"
+  }
+}

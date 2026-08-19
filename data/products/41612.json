@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41612,
+    "title": "WindowsXP/Vista/7 DVDソフト すくぅーるメイト2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046756.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": "ILN-081",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145046756",
+      "メーカー": "ILLUSION",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "型番": "ILN-081",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク、説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク、説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:33.763Z"
+  },
+  "histories": [
+    {
+      "id": 41626,
+      "productId": 41612,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク、説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:47.574Z"
+    },
+    {
+      "id": 53216,
+      "productId": 41612,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク、説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:33.763Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046756",
+    "capturedAt": "2026-08-19T16:22:33.763Z",
+    "items": [],
+    "path": "data/other-shops/145046756.json"
+  }
+}

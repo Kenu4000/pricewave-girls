@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41234,
+    "title": "Windows DVDソフト 獄淫の尖塔",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062595",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062595.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2011-05-27",
+    "listPrice": 9680,
+    "modelNumber": "BCYC-1024",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145062595",
+      "メーカー": "Black Cyc",
+      "発売日": "2011/05/27",
+      "定価": "9,680円",
+      "型番": "BCYC-1024",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:55.783Z"
+  },
+  "histories": [
+    {
+      "id": 41248,
+      "productId": 41234,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:00.625Z"
+    },
+    {
+      "id": 43894,
+      "productId": 41234,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:55.783Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062595",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062595",
+    "capturedAt": "2026-08-17T09:35:55.783Z",
+    "items": [],
+    "path": "data/other-shops/145062595.json"
+  }
+}

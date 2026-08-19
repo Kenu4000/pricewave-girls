@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 3219,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 聖鍵遣いの命題(プロポジション)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053094",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053094.jpg",
+    "manufacturer": "UnicoЯn",
+    "releaseDate": "2016-05-27",
+    "listPrice": 10780,
+    "modelNumber": "UNI-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053094001",
+      "メーカー": "UnicoЯn",
+      "発売日": "2016/05/27",
+      "定価": "10,780円",
+      "型番": "UNI-001",
+      "原画": "こなた\n結月かりん",
+      "シナリオ": "松下紗知",
+      "声優": "橘まお\n山本希望\n美咲桃子\n早瀬ゃょぃ\n小鳥居夕花\n藤咲ウサ\nくすはらゆい\n在原ほたる\n沢澤砂羽\n結城ほのか\n笹本和音\n上田朱音\n風祭鉄平\nLee\n手塚りょうこ\n秋野花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:06:58.116Z"
+  },
+  "histories": [
+    {
+      "id": 3233,
+      "productId": 3219,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 37016,
+      "productId": 3219,
+      "salePrice": 1100,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:05.266Z"
+    },
+    {
+      "id": 47625,
+      "productId": 3219,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:58.116Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126413,
+      "productId": 3219,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:06:58.000Z"
+    },
+    {
+      "id": 126412,
+      "productId": 3219,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1140,
+      "checkedAt": "2026-08-17T16:06:58.000Z"
+    },
+    {
+      "id": 97288,
+      "productId": 3219,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1140,
+      "checkedAt": "2026-08-16T00:59:05.000Z"
+    },
+    {
+      "id": 97287,
+      "productId": 3219,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-16T00:59:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053094",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053094",
+    "capturedAt": "2026-08-17T16:06:58.116Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1140
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145053094.json"
+  }
+}

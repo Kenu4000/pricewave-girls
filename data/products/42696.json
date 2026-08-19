@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42696,
+    "title": "Windows2000/XP CDソフト ましろぼたん ミニファンディスク -ゆかなんのホワイトバレンタイン-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016410",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016410.jpg",
+    "manufacturer": "Fizz",
+    "releaseDate": "2007-08-24",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016410001",
+      "メーカー": "Fizz",
+      "発売日": "2007/08/24",
+      "定価": "2,750円",
+      "原画": "水月悠\n闇野ケンジ",
+      "シナリオ": "不二川“でぇすて”巴人\n雪村戌\n朧月",
+      "声優": "桜川未央\n安玖深音\n北都南\nHa☆chi\n神咲あかり\n佐本二厘\n海原エレナ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:14:10.706Z"
+  },
+  "histories": [
+    {
+      "id": 42710,
+      "productId": 42696,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:10.706Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110197,
+      "productId": 42696,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:14:11.000Z"
+    },
+    {
+      "id": 110196,
+      "productId": 42696,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:14:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016410",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016410",
+    "capturedAt": "2026-08-17T07:14:10.706Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145016410.json"
+  }
+}

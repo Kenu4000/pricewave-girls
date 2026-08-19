@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 42242,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト WIZARD GIRL AMBITIOUS",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018590.jpg",
+    "manufacturer": "Sugar pot",
+    "releaseDate": "2008-10-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018590",
+      "メーカー": "Sugar pot",
+      "発売日": "2008/10/24",
+      "定価": "9,680円",
+      "原画": "豆戦車\n涼香\nここのか\nさそりがため\n綾瀬はづき",
+      "シナリオ": "さくら楓\n座敷猫\n姫ノ木あく",
+      "声優": "藤邑鈴香\n安玖深音\nまきいづみ\n木村あやか\n神崎ちひろ\n風音\n大波こなみ\n金松由花\n紫苑みやび\n雪都さお梨",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:26:16.006Z"
+  },
+  "histories": [
+    {
+      "id": 42256,
+      "productId": 42242,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:44.512Z"
+    },
+    {
+      "id": 53666,
+      "productId": 42242,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:16.006Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144001,
+      "productId": 42242,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 1111,
+      "checkedAt": "2026-08-19T16:26:16.000Z"
+    },
+    {
+      "id": 144000,
+      "productId": 42242,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:26:16.000Z"
+    },
+    {
+      "id": 109327,
+      "productId": 42242,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 1111,
+      "checkedAt": "2026-08-17T07:09:45.000Z"
+    },
+    {
+      "id": 109326,
+      "productId": 42242,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:09:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018590",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018590",
+    "capturedAt": "2026-08-19T16:26:16.006Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145018590.json"
+  }
+}

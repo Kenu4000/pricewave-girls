@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 1980,
+    "title": "Windows DVDソフト BugBug 25th Anniversary DVD アペンドHディスク集 PART 2(BugBug2017年12月号特別付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061226",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061226.jpg",
+    "manufacturer": "富士美出版",
+    "releaseDate": "2017-11-02",
+    "listPrice": null,
+    "modelNumber": "BUGBUG1712G",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145061226",
+      "メーカー": "富士美出版",
+      "発売日": "2017/11/02",
+      "型番": "BUGBUG1712G",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T13:40:04.329Z"
+  },
+  "histories": [
+    {
+      "id": 1994,
+      "productId": 1980,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6877,
+      "productId": 1980,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 36064,
+      "productId": 1980,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:50:36.676Z"
+    },
+    {
+      "id": 46540,
+      "productId": 1980,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:40:04.329Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 121697,
+      "productId": 1980,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-08-17T13:40:04.000Z"
+    },
+    {
+      "id": 121696,
+      "productId": 1980,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1300,
+      "checkedAt": "2026-08-17T13:40:04.000Z"
+    },
+    {
+      "id": 93115,
+      "productId": 1980,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-08-16T00:50:36.000Z"
+    },
+    {
+      "id": 93114,
+      "productId": 1980,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1300,
+      "checkedAt": "2026-08-16T00:50:36.000Z"
+    },
+    {
+      "id": 93113,
+      "productId": 1980,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1270,
+      "checkedAt": "2026-08-16T00:50:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061226",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061226",
+    "capturedAt": "2026-08-17T13:40:04.329Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1711
+      }
+    ],
+    "path": "data/other-shops/145061226.json"
+  }
+}

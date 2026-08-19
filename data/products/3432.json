@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 3432,
+    "title": "Windows98/Me/2000/XP CDソフト FOLKLORE JAM [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009447",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009447.jpg",
+    "manufacturer": "ハーミット",
+    "releaseDate": "2003-10-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145009447001",
+      "メーカー": "ハーミット",
+      "発売日": "2003/10/24",
+      "定価": "9,680円",
+      "原画": "厘京太朗",
+      "シナリオ": "丸戸史明",
+      "声優": "遊佐晶\n本条真琴\n茶谷やすら\n乃田あすみ\n一色ヒカル\n青山ゆかり\nまきいづみ\n野神奈々\n児玉さとみ\n如月葵",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:08:17.001Z"
+  },
+  "histories": [
+    {
+      "id": 3446,
+      "productId": 3432,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37188,
+      "productId": 3432,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:37.794Z"
+    },
+    {
+      "id": 47768,
+      "productId": 3432,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:17.001Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 126820,
+      "productId": 3432,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-17T16:08:17.000Z"
+    },
+    {
+      "id": 126819,
+      "productId": 3432,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-17T16:08:17.000Z"
+    },
+    {
+      "id": 97786,
+      "productId": 3432,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-16T01:00:37.000Z"
+    },
+    {
+      "id": 97785,
+      "productId": 3432,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-16T01:00:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145009447",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009447",
+    "capturedAt": "2026-08-17T16:08:17.001Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 2111
+      }
+    ],
+    "path": "data/other-shops/145009447.json"
+  }
+}

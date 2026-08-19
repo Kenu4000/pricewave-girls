@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 42810,
+    "title": "Windows98/Me/2000/XP DVDソフト 兄嫁はいじっぱり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046236",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046236.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": "TB-030",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145046236",
+      "メーカー": "TinkerBell",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "型番": "TB-030",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:15.474Z"
+  },
+  "histories": [
+    {
+      "id": 42824,
+      "productId": 42810,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:15.474Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046236",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046236",
+    "capturedAt": "2026-08-17T07:15:15.474Z",
+    "items": [],
+    "path": "data/other-shops/145046236.json"
+  }
+}

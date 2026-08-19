@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 2958,
+    "title": "Windows95/98/Me/2000/XP DVDソフト しちゅえ～しょん1.2.3 DVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145007251",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145007251.jpg",
+    "manufacturer": "バーサーカー",
+    "releaseDate": "2002-06-28",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145007251001",
+      "メーカー": "バーサーカー",
+      "発売日": "2002/06/28",
+      "定価": "8,580円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:05:09.210Z"
+  },
+  "histories": [
+    {
+      "id": 2972,
+      "productId": 2958,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 36797,
+      "productId": 2958,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:15.525Z"
+    },
+    {
+      "id": 47439,
+      "productId": 2958,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:09.210Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125822,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T16:05:09.000Z"
+    },
+    {
+      "id": 125821,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T16:05:09.000Z"
+    },
+    {
+      "id": 125820,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-17T16:05:09.000Z"
+    },
+    {
+      "id": 96611,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-16T00:57:15.000Z"
+    },
+    {
+      "id": 96610,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:57:15.000Z"
+    },
+    {
+      "id": 96609,
+      "productId": 2958,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-16T00:57:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145007251",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145007251",
+    "capturedAt": "2026-08-17T16:05:09.210Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1011
+      }
+    ],
+    "path": "data/other-shops/145007251.json"
+  }
+}

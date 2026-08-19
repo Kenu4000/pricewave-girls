@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41577,
+    "title": "Windows2000/XP/Vista/7 CDソフト 天気姉",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024305",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024305.jpg",
+    "manufacturer": "桃色劇場",
+    "releaseDate": "2010-07-23",
+    "listPrice": 3300,
+    "modelNumber": "MIG-00007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024305",
+      "メーカー": "桃色劇場",
+      "発売日": "2010/07/23",
+      "定価": "3,300円",
+      "型番": "MIG-00007",
+      "原画": "さっぽろももこ",
+      "シナリオ": "有巻洋太",
+      "声優": "藤ノ森秋穂\n小日向なつ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:22:18.686Z"
+  },
+  "histories": [
+    {
+      "id": 41591,
+      "productId": 41577,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:25.431Z"
+    },
+    {
+      "id": 53190,
+      "productId": 41577,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:18.686Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024305",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024305",
+    "capturedAt": "2026-08-19T16:22:18.686Z",
+    "items": [],
+    "path": "data/other-shops/145024305.json"
+  }
+}

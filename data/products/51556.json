@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 51556,
+    "title": "WindowsVista/7/8 DVDソフト リアルプレイ[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044591",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044591.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2014-07-11",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044591",
+      "メーカー": "ILLUSION",
+      "発売日": "2014/07/11",
+      "定価": "9,680円",
+      "声優": "片倉ひな\nヒマリ\n御苑生メイ\n手塚りょうこ\n和葉",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:15.535Z"
+  },
+  "histories": [
+    {
+      "id": 51570,
+      "productId": 51556,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:28:47.923Z"
+    },
+    {
+      "id": 52066,
+      "productId": 51556,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:32:16.922Z"
+    },
+    {
+      "id": 52745,
+      "productId": 51556,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:15.535Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044591",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044591",
+    "capturedAt": "2026-08-19T16:18:15.535Z",
+    "items": [],
+    "path": "data/other-shops/145044591.json"
+  }
+}

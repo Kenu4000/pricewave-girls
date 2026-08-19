@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31706,
+    "title": "WindowsXP/Vista/7 DVDソフト すぽコン!ーSPORTS WEAR-COMPLEXー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050343",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050343.jpg",
+    "manufacturer": "アストロノーツ・アリア",
+    "releaseDate": "2012-07-27",
+    "listPrice": 9680,
+    "modelNumber": "AS-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145050343",
+      "メーカー": "アストロノーツ・アリア",
+      "発売日": "2012/07/27",
+      "定価": "9,680円",
+      "型番": "AS-003",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:32.325Z"
+  },
+  "histories": [
+    {
+      "id": 31720,
+      "productId": 31706,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:14.696Z"
+    },
+    {
+      "id": 40456,
+      "productId": 31706,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:57.496Z"
+    },
+    {
+      "id": 51408,
+      "productId": 31706,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:32.325Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050343",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050343",
+    "capturedAt": "2026-08-19T05:36:32.325Z",
+    "items": [],
+    "path": "data/other-shops/145050343.json"
+  }
+}

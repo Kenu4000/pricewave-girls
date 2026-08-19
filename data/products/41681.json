@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 41681,
+    "title": "WindowsXP/Vista/7 DVDソフト 夏に奏でる僕らの詩",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023237",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023237.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2010-03-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023237",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2010/03/26",
+      "定価": "9,680円",
+      "原画": "月杜尋",
+      "シナリオ": "森崎亮人\n冬雀",
+      "声優": "勝沼紀義\n木村あやか\nまきいづみ\n桜川未央\n風音\n倉田まりや\n野神奈々\n小池竹蔵",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:00.420Z"
+  },
+  "histories": [
+    {
+      "id": 41695,
+      "productId": 41681,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:29.356Z"
+    },
+    {
+      "id": 53271,
+      "productId": 41681,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:00.420Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143212,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 770,
+      "checkedAt": "2026-08-19T16:23:00.000Z"
+    },
+    {
+      "id": 143211,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T16:23:00.000Z"
+    },
+    {
+      "id": 143210,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-19T16:23:00.000Z"
+    },
+    {
+      "id": 108095,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 770,
+      "checkedAt": "2026-08-17T07:04:29.000Z"
+    },
+    {
+      "id": 108094,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:04:29.000Z"
+    },
+    {
+      "id": 108093,
+      "productId": 41681,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T07:04:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023237",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023237",
+    "capturedAt": "2026-08-19T16:23:00.420Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古通常倉庫",
+        "price": 770
+      }
+    ],
+    "path": "data/other-shops/145023237.json"
+  }
+}

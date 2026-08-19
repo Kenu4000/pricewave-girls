@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 30723,
+    "title": "WindowsVista/7/8 DVDソフト 運命線上のφ[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145905399",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145905399.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2014-10-31",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145905399",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2014/10/31",
+      "定価": "10,780円",
+      "原画": "あゆや\n萌木原ふみたけ\n架宮華",
+      "シナリオ": "冬茜トム\nしげた",
+      "声優": "すずな\n春菜さくら\n米倉沙弥\n羽衣翠\n小鳥居夕花\n對馬芳哲\nおおしたこうた\n羽杉沙希\n木ノ下やや\n中瀬ひな",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:10.210Z"
+  },
+  "histories": [
+    {
+      "id": 30737,
+      "productId": 30723,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:12.193Z"
+    },
+    {
+      "id": 39492,
+      "productId": 30723,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:19.028Z"
+    },
+    {
+      "id": 50685,
+      "productId": 30723,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:10.210Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145905399",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145905399",
+    "capturedAt": "2026-08-19T05:30:10.210Z",
+    "items": [],
+    "path": "data/other-shops/145905399.json"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 2817,
+    "title": "WindowsVista/7/8.1 DVDソフト 催眠委員長",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053701",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053701.jpg",
+    "manufacturer": "include",
+    "releaseDate": "2016-08-26",
+    "listPrice": 7480,
+    "modelNumber": "INC-0002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145053701",
+      "メーカー": "include",
+      "発売日": "2016/08/26",
+      "定価": "7,480円",
+      "型番": "INC-0002",
+      "原画": "吉飛雄馬",
+      "シナリオ": "おくとぱす\n難波一一",
+      "声優": "藤堂みさき\n中家志穂\n東かりん\n義仲愛\n星空ユメ\n野々村紗夜\n赤井リア\n静陵聖\n町田あみ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:53.636Z"
+  },
+  "histories": [
+    {
+      "id": 2831,
+      "productId": 2817,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:24.000Z"
+    },
+    {
+      "id": 7620,
+      "productId": 2817,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:16:07.000Z"
+    },
+    {
+      "id": 44252,
+      "productId": 2817,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:53.636Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114442,
+      "productId": 2817,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3011,
+      "checkedAt": "2026-08-17T09:38:53.000Z"
+    },
+    {
+      "id": 114441,
+      "productId": 2817,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 2500,
+      "checkedAt": "2026-08-17T09:38:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053701",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053701",
+    "capturedAt": "2026-08-17T09:38:53.636Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 2500
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3011
+      }
+    ],
+    "path": "data/other-shops/145053701.json"
+  }
+}

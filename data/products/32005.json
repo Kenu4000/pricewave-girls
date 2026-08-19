@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 32005,
+    "title": "Windows2000/XP/Vista/7 CDソフト 改 やらせてっ! てぃーちゃー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030695.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2011-10-28",
+    "listPrice": null,
+    "modelNumber": "CD-0015",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030695",
+      "メーカー": "TRYSET",
+      "発売日": "2011/10/28",
+      "型番": "CD-0015",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:33.579Z"
+  },
+  "histories": [
+    {
+      "id": 32019,
+      "productId": 32005,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:44.836Z"
+    },
+    {
+      "id": 40748,
+      "productId": 32005,
+      "salePrice": 200,
+      "regularSalePrice": 200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:21.530Z"
+    },
+    {
+      "id": 52216,
+      "productId": 32005,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:33.579Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

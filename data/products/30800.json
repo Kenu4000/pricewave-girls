@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 30800,
+    "title": "Windows7/8/8.1 DVDソフト 月に寄りそう乙女の作法 アペンドディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046825",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046825.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2014-08-29",
+    "listPrice": 3080,
+    "modelNumber": "NVSW-0053/NVSW-0047A",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046825",
+      "メーカー": "Navel",
+      "発売日": "2014/08/29",
+      "定価": "3,080円",
+      "型番": "NVSW-0053/NVSW-0047A",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:28:24.905Z"
+  },
+  "histories": [
+    {
+      "id": 30814,
+      "productId": 30800,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:54.270Z"
+    },
+    {
+      "id": 39571,
+      "productId": 30800,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:56.172Z"
+    },
+    {
+      "id": 44865,
+      "productId": 30800,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:13.839Z"
+    },
+    {
+      "id": 49100,
+      "productId": 30800,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:28:24.905Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046825",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046825",
+    "capturedAt": "2026-08-19T04:28:24.905Z",
+    "items": [],
+    "path": "data/other-shops/145046825.json"
+  }
+}

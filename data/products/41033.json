@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41033,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト つよきすNEXT GENERATION -NEXT+FESTIVAL- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051691",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051691.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2015-12-25",
+    "listPrice": 14278,
+    "modelNumber": "INH-349",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145051691",
+      "メーカー": "CandySoft",
+      "発売日": "2015/12/25",
+      "定価": "14,278円",
+      "型番": "INH-349",
+      "原画": "天海雪乃",
+      "シナリオ": "さかき傘",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3330,
+    "latestRegularSalePrice": 3330,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:41.069Z"
+  },
+  "histories": [
+    {
+      "id": 41047,
+      "productId": 41033,
+      "salePrice": 3330,
+      "regularSalePrice": 3330,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:14.386Z"
+    },
+    {
+      "id": 43866,
+      "productId": 41033,
+      "salePrice": 3330,
+      "regularSalePrice": 3330,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:41.069Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051691",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051691",
+    "capturedAt": "2026-08-17T09:35:41.069Z",
+    "items": [],
+    "path": "data/other-shops/145051691.json"
+  }
+}

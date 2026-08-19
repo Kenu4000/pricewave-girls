@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41575,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 真・恋姫†無双 ～萌将伝～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145900298",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145900298.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2010-07-23",
+    "listPrice": 9680,
+    "modelNumber": "BAS-009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145900298",
+      "メーカー": "BaseSon",
+      "発売日": "2010/07/23",
+      "定価": "9,680円",
+      "型番": "BAS-009",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:30.206Z"
+  },
+  "histories": [
+    {
+      "id": 41589,
+      "productId": 41575,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:24.506Z"
+    },
+    {
+      "id": 43962,
+      "productId": 41575,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:30.206Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145900298",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145900298",
+    "capturedAt": "2026-08-17T09:36:30.206Z",
+    "items": [],
+    "path": "data/other-shops/145900298.json"
+  }
+}

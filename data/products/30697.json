@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 30697,
+    "title": "WindowsVista/7/8 DVDソフト キミのとなりで恋してる!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054126",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054126.jpg",
+    "manufacturer": "ALcot ハニカム",
+    "releaseDate": "2014-11-28",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145054126",
+      "メーカー": "ALcot ハニカム",
+      "発売日": "2014/11/28",
+      "定価": "7,480円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:50.845Z"
+  },
+  "histories": [
+    {
+      "id": 30711,
+      "productId": 30697,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:58.581Z"
+    },
+    {
+      "id": 39471,
+      "productId": 30697,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:05.044Z"
+    },
+    {
+      "id": 43646,
+      "productId": 30697,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:50.845Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054126",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054126",
+    "capturedAt": "2026-08-17T09:33:50.845Z",
+    "items": [],
+    "path": "data/other-shops/145054126.json"
+  }
+}

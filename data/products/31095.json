@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31095,
+    "title": "WindowsXP/Vista/7/8 DVDソフト そして煌めく乙女と秘密5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038544",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038544.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038544",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "原画": "かのら\n生名多聞\nゆん\n麻の葉",
+      "シナリオ": "海富一\n御導はるか\n池波智香",
+      "声優": "みる\n田中理々\n民安ともえ\n藤森ゆき奈\n夏野こおり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:34.183Z"
+  },
+  "histories": [
+    {
+      "id": 31109,
+      "productId": 31095,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:52.990Z"
+    },
+    {
+      "id": 39854,
+      "productId": 31095,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:32.739Z"
+    },
+    {
+      "id": 50954,
+      "productId": 31095,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:34.183Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038544",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038544",
+    "capturedAt": "2026-08-19T05:32:34.183Z",
+    "items": [],
+    "path": "data/other-shops/145038544.json"
+  }
+}

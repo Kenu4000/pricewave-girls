@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 31821,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ひだまり リニューアルパッケージ版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032018",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032018.jpg",
+    "manufacturer": "AXL(アクセル)",
+    "releaseDate": "2012-04-27",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032018001",
+      "メーカー": "AXL(アクセル)",
+      "発売日": "2012/04/27",
+      "定価": "4,180円",
+      "原画": "瀬之本久史",
+      "シナリオ": "長谷川藍",
+      "声優": "大福子\n風音\nまきいずみ\n青山ゆかり\n羽沢月乃\n一色ヒカル\n七原ことみ\n保村真\n如月葵\n古賀寛之",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:35:14.815Z"
+  },
+  "histories": [
+    {
+      "id": 31835,
+      "productId": 31821,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:41.343Z"
+    },
+    {
+      "id": 40570,
+      "productId": 31821,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:49.271Z"
+    },
+    {
+      "id": 43813,
+      "productId": 31821,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:14.815Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113320,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-17T09:35:14.000Z"
+    },
+    {
+      "id": 113319,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 700,
+      "checkedAt": "2026-08-17T09:35:14.000Z"
+    },
+    {
+      "id": 105459,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-16T01:31:49.000Z"
+    },
+    {
+      "id": 105458,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 700,
+      "checkedAt": "2026-08-16T01:31:49.000Z"
+    },
+    {
+      "id": 79615,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-15T23:44:41.000Z"
+    },
+    {
+      "id": 79614,
+      "productId": 31821,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 700,
+      "checkedAt": "2026-08-15T23:44:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032018",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032018",
+    "capturedAt": "2026-08-17T09:35:14.815Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145032018.json"
+  }
+}

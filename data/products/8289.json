@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 8289,
+    "title": "Windows95/98 CDソフト 魔法少女メルル 神々の至宝を求めて",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002090",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002090.jpg",
+    "manufacturer": "あかとんぼ",
+    "releaseDate": null,
+    "listPrice": 8580,
+    "modelNumber": "ANPC-002",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145002090001",
+      "メーカー": "あかとんぼ",
+      "定価": "8,580円",
+      "型番": "ANPC-002",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2550,
+    "latestRegularSalePrice": 2550,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:11:57.231Z"
+  },
+  "histories": [
+    {
+      "id": 8303,
+      "productId": 8289,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 37686,
+      "productId": 8289,
+      "salePrice": 2480,
+      "regularSalePrice": 2550,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:59.904Z"
+    },
+    {
+      "id": 48172,
+      "productId": 8289,
+      "salePrice": 2550,
+      "regularSalePrice": 2550,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:57.231Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

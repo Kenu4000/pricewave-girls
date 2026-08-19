@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31720,
+    "title": "WindowsXP/Vista/7 DVDソフト この大空に、翼をひろげて",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051614",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051614.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2012-07-13",
+    "listPrice": 9680,
+    "modelNumber": "WILL-282",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145051614",
+      "メーカー": "PULLTOP",
+      "発売日": "2012/07/13",
+      "定価": "9,680円",
+      "型番": "WILL-282",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク + 説明書",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:36:39.004Z"
+  },
+  "histories": [
+    {
+      "id": 31734,
+      "productId": 31720,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:26.046Z"
+    },
+    {
+      "id": 40470,
+      "productId": 31720,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:03.632Z"
+    },
+    {
+      "id": 51422,
+      "productId": 31720,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:39.004Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051614",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051614",
+    "capturedAt": "2026-08-19T05:36:39.004Z",
+    "items": [],
+    "path": "data/other-shops/145051614.json"
+  }
+}

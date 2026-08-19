@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 29955,
+    "title": "WindowsVista/7/8/10 DVDソフト 廻るセカイで永遠なるチカイを! [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055613",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055613.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2016-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055613001",
+      "メーカー": "Studio e・go!",
+      "発売日": "2016/12/22",
+      "定価": "9,680円",
+      "原画": "もっつぉ\n山本和枝",
+      "シナリオ": "太開らいん\n衆堂ジョオ",
+      "声優": "小林由依\n奏雨\n小鳥居夕花\n早川優雅\n藤咲ウサ\n水純なな歩\nヒマリ\n草村ケイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:43.461Z"
+  },
+  "histories": [
+    {
+      "id": 29969,
+      "productId": 29955,
+      "salePrice": 800,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:25.761Z"
+    },
+    {
+      "id": 38769,
+      "productId": 29955,
+      "salePrice": 800,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:41.345Z"
+    },
+    {
+      "id": 49816,
+      "productId": 29955,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:43.461Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133169,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-19T04:33:43.000Z"
+    },
+    {
+      "id": 133168,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-19T04:33:43.000Z"
+    },
+    {
+      "id": 133167,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-19T04:33:43.000Z"
+    },
+    {
+      "id": 101812,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-16T01:14:41.000Z"
+    },
+    {
+      "id": 101811,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-16T01:14:41.000Z"
+    },
+    {
+      "id": 75823,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-15T23:12:25.000Z"
+    },
+    {
+      "id": 75822,
+      "productId": 29955,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-15T23:12:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055613",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055613",
+    "capturedAt": "2026-08-19T04:33:43.461Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145055613.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41352,
+    "title": "WindowsXP/Vista/7 DVDソフト 操心術0",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026026",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026026.jpg",
+    "manufacturer": "STUDIO邪恋",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": "SJRU-0007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026026",
+      "メーカー": "STUDIO邪恋",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "型番": "SJRU-0007",
+      "原画": "YUKIRIN",
+      "シナリオ": "おくとぱす",
+      "声優": "逢川奈々\n沢代りず\n香澄りょう\n金松由花\n幸代彩里\n羽高なる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:04.179Z"
+  },
+  "histories": [
+    {
+      "id": 41366,
+      "productId": 41352,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:06.663Z"
+    },
+    {
+      "id": 53039,
+      "productId": 41352,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:04.179Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026026",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026026",
+    "capturedAt": "2026-08-19T16:21:04.179Z",
+    "items": [],
+    "path": "data/other-shops/145026026.json"
+  }
+}
