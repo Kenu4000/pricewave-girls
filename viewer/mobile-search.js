@@ -3,6 +3,8 @@
   const originalFilteredProducts = globalThis.filteredProducts;
   if (typeof originalRenderProducts !== 'function' || typeof originalFilteredProducts !== 'function') return;
 
+  state.sort = 'interesting_desc';
+
   function bindStandardPager(results) {
     results.querySelectorAll('[data-page]').forEach((button) => {
       button.addEventListener('click', () => {
