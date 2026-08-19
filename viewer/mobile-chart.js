@@ -157,6 +157,16 @@ function viewerChartLegend() {
   ).join('')}</div>`;
 }
 
+function viewerChartReadout(point) {
+  const current = point || {};
+  return `<div class="viewer-chart-readout" aria-live="polite">
+    <div class="viewer-chart-readout-label">${esc(current.label || '取得点を選択')}</div>
+    <div class="viewer-chart-readout-values">${VIEWER_CHART_SERIES.map(
+      (series) => `<span class="viewer-chart-readout-item ${series.className}"><span class="viewer-chart-readout-marker"></span><span>${series.label}</span><strong>${esc(viewerChartYen(current[series.key]))}</strong></span>`,
+    ).join('')}</div>
+  </div>`;
+}
+
 function viewerChartConnectedPath(data, key, x, y) {
   const points = data
     .map((point, index) => ({ point, index }))
@@ -282,18 +292,16 @@ renderChart = function renderMainBasedViewerChart(histories) {
     const visibleDots = data
       .map((point, index) => ({ point, index }))
       .filter(({ point }) => point[series.key] != null)
-      .map(({ point, index }) => {
-        const showDot = !compact || series.key === 'timeSalePrice';
-        return showDot
-          ? `<circle class="viewer-chart-dot" cx="${x(index)}" cy="${y(point[series.key])}" r="${series.key === 'timeSalePrice' ? (compact ? 2.5 : 4) : 3}"></circle>`
-          : '';
-      })
+      .map(({ point, index }) =>
+        `<circle class="viewer-chart-dot" cx="${x(index)}" cy="${y(point[series.key])}" r="${series.key === 'timeSalePrice' ? (compact ? 3 : 4) : (compact ? 2.5 : 3)}"></circle>`,
+      )
       .join('');
 
     return `<g class="viewer-chart-series ${series.className}">${pathMarkup}${visibleDots}</g>`;
   }).join('');
 
-  return `<div class="viewer-price-chart">${viewerChartControls()}<p class="viewer-chart-note">${esc(viewerChartNote(viewerChartMode))}</p>${viewerChartLegend()}<div class="viewer-chart-wrap"><svg class="viewer-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}<line class="viewer-chart-crosshair" x1="0" x2="0" y1="${TOP}" y2="${plotBottom}" hidden></line></svg><div class="viewer-chart-tooltip" hidden></div></div></div>`;
+  const initialPoint = data[data.length - 1];
+  return `<div class="viewer-price-chart">${viewerChartControls()}<p class="viewer-chart-note">${esc(viewerChartNote(viewerChartMode))}</p>${viewerChartLegend()}${viewerChartReadout(initialPoint)}<div class="viewer-chart-wrap"><svg class="viewer-chart" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="価格推移グラフ">${yTicks}${xTicks}${branches}${seriesMarkup}<line class="viewer-chart-crosshair" x1="${x(data.length - 1)}" x2="${x(data.length - 1)}" y1="${TOP}" y2="${plotBottom}"></line></svg><div class="viewer-chart-tooltip" hidden></div></div></div>`;
 };
 
 bindChartTooltips = function bindMainBasedViewerChart() {
@@ -302,7 +310,8 @@ bindChartTooltips = function bindMainBasedViewerChart() {
   const svg = root?.querySelector('.viewer-chart');
   const tooltip = root?.querySelector('.viewer-chart-tooltip');
   const crosshair = root?.querySelector('.viewer-chart-crosshair');
-  if (!root || !wrap || !svg || !tooltip || !crosshair) return;
+  const readout = root?.querySelector('.viewer-chart-readout');
+  if (!root || !wrap || !svg || !tooltip || !crosshair || !readout) return;
 
   const data = viewerAggregatePriceChartData(viewerChartSourceHistories, viewerChartMode);
   const compact = matchMedia('(max-width: 760px)').matches;
@@ -326,9 +335,10 @@ bindChartTooltips = function bindMainBasedViewerChart() {
   };
 
   const positionTooltip = (event) => {
+    if (compact) return;
     const wrapRect = wrap.getBoundingClientRect();
-    const gap = compact ? 8 : 12;
-    const edge = compact ? 6 : 8;
+    const gap = 12;
+    const edge = 8;
     const pointerX = event.clientX - wrapRect.left;
     const pointerY = event.clientY - wrapRect.top;
     const tooltipWidth = tooltip.offsetWidth;
@@ -350,33 +360,47 @@ bindChartTooltips = function bindMainBasedViewerChart() {
     tooltip.style.top = `${top}px`;
   };
 
-  const showTooltip = (index, event) => {
+  const updateReadout = (point) => {
+    if (!point) return;
+    const label = readout.querySelector('.viewer-chart-readout-label');
+    if (label) label.textContent = point.label || '取得点を選択';
+    readout.querySelectorAll('.viewer-chart-readout-item').forEach((item, index) => {
+      const series = VIEWER_CHART_SERIES[index];
+      const value = item.querySelector('strong');
+      if (series && value) value.textContent = viewerChartYen(point[series.key]);
+    });
+  };
+
+  const updateSelection = (index, event) => {
     const point = data[index];
     if (!point) return;
-    const rows = VIEWER_CHART_SERIES
-      .filter((series) => point[series.key] != null)
-      .map(
-        (series) =>
-          `<div class="viewer-chart-tooltip-row"><span class="viewer-chart-tooltip-marker ${series.className}"></span><span>${series.label}</span><strong>${esc(viewerChartYen(point[series.key]))}</strong></div>`,
-      )
-      .join('');
-    if (!rows) return;
+    updateReadout(point);
 
-    tooltip.innerHTML = `<div class="viewer-chart-tooltip-label">${esc(point.label)}</div><div class="viewer-chart-tooltip-rows">${rows}</div>`;
-    tooltip.hidden = false;
-    positionTooltip(event);
     const selectedX = pointX(index);
     crosshair.setAttribute('x1', String(selectedX));
     crosshair.setAttribute('x2', String(selectedX));
     crosshair.hidden = false;
+
+    if (compact) {
+      tooltip.hidden = true;
+      return;
+    }
+
+    const rows = VIEWER_CHART_SERIES.map(
+      (series) =>
+        `<div class="viewer-chart-tooltip-row"><span class="viewer-chart-tooltip-marker ${series.className}"></span><span>${series.label}</span><strong>${esc(viewerChartYen(point[series.key]))}</strong></div>`,
+    ).join('');
+    tooltip.innerHTML = `<div class="viewer-chart-tooltip-label">${esc(point.label)}</div><div class="viewer-chart-tooltip-rows">${rows}</div>`;
+    tooltip.hidden = false;
+    positionTooltip(event);
   };
 
-  const selectFromPointer = (event) => showTooltip(nearestIndex(event), event);
+  const selectFromPointer = (event) => updateSelection(nearestIndex(event), event);
   svg.addEventListener('pointerenter', selectFromPointer);
   svg.addEventListener('pointermove', selectFromPointer);
   svg.addEventListener('pointerdown', selectFromPointer);
   svg.addEventListener('pointerleave', () => {
-    if (matchMedia('(hover: hover)').matches) {
+    if (!compact && matchMedia('(hover: hover)').matches) {
       tooltip.hidden = true;
       crosshair.hidden = true;
     }
