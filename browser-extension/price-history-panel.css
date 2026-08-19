@@ -1,0 +1,262 @@
+#pricewave-history-panel {
+  --pricewave-border: #e6d7df;
+  --pricewave-muted: #766b72;
+  --pricewave-text: #2f252b;
+  --pricewave-pink: #d9469a;
+  background: #fff;
+  border: 1px solid var(--pricewave-border);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgb(72 45 60 / 8%);
+  color: var(--pricewave-text);
+  font-family: Arial, "Yu Gothic UI", Meiryo, sans-serif;
+  margin: 18px 0;
+  max-width: 100%;
+  padding: 16px;
+}
+
+#pricewave-history-panel *,
+#pricewave-history-panel *::before,
+#pricewave-history-panel *::after {
+  box-sizing: border-box;
+}
+
+.pricewave-history-heading {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pricewave-history-heading > div {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.pricewave-history-heading strong {
+  font-size: 18px;
+}
+
+.pricewave-history-heading span {
+  color: var(--pricewave-muted);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pricewave-history-heading a {
+  background: #fff0f7;
+  border: 1px solid var(--pricewave-border);
+  border-radius: 999px;
+  color: #a82070 !important;
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 10px;
+  text-decoration: none !important;
+}
+
+.pricewave-history-controls,
+.pricewave-history-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.pricewave-history-controls {
+  margin-bottom: 9px;
+}
+
+.pricewave-history-controls button {
+  background: #fff;
+  border: 1px solid #d9cbd3;
+  border-radius: 999px;
+  color: #554950;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  min-height: 30px;
+  padding: 5px 10px;
+}
+
+.pricewave-history-controls button[aria-pressed="true"] {
+  background: var(--pricewave-pink);
+  border-color: var(--pricewave-pink);
+  color: #fff;
+}
+
+.pricewave-history-legend {
+  color: var(--pricewave-muted);
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.pricewave-history-legend span,
+.pricewave-history-readout-item {
+  align-items: center;
+  display: inline-flex;
+  gap: 5px;
+}
+
+.pricewave-history-legend i,
+.pricewave-history-readout-item i {
+  background: currentColor;
+  border-radius: 999px;
+  display: inline-block;
+  height: 3px;
+  width: 15px;
+}
+
+.pricewave-history-legend .sale,
+.pricewave-history-readout-item.sale,
+.pricewave-history-series.sale { color: #e67aa6; }
+.pricewave-history-legend .buy,
+.pricewave-history-readout-item.buy,
+.pricewave-history-series.buy { color: #4f86c6; }
+.pricewave-history-legend .rankb,
+.pricewave-history-readout-item.rankb,
+.pricewave-history-series.rankb { color: #5eaa72; }
+.pricewave-history-legend .timesale,
+.pricewave-history-readout-item.timesale,
+.pricewave-history-series.timesale { color: #d1a900; }
+
+.pricewave-history-readout {
+  background: #faf7f9;
+  border: 1px solid #eee3e9;
+  border-radius: 10px;
+  display: grid;
+  gap: 7px;
+  margin-bottom: 8px;
+  padding: 9px 10px;
+}
+
+.pricewave-history-readout-date {
+  color: #554950;
+  font-size: 12px;
+}
+
+.pricewave-history-readout-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+
+.pricewave-history-readout-item {
+  font-size: 11px;
+}
+
+.pricewave-history-readout-item b {
+  color: var(--pricewave-text);
+  font-size: 12px;
+}
+
+.pricewave-history-chart-wrap {
+  overflow: hidden;
+  touch-action: pan-y;
+  width: 100%;
+}
+
+.pricewave-history-chart {
+  cursor: crosshair;
+  display: block;
+  height: 310px;
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
+}
+
+.pricewave-history-gridline {
+  stroke: #ece6e9;
+  stroke-width: 1;
+}
+
+.pricewave-history-y-label,
+.pricewave-history-x-label {
+  fill: #746a70;
+  font-size: 11px;
+}
+
+.pricewave-history-line {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.2;
+  vector-effect: non-scaling-stroke;
+}
+
+.pricewave-history-dot {
+  fill: currentColor;
+  stroke: #fff;
+  stroke-width: 1.2;
+  vector-effect: non-scaling-stroke;
+}
+
+.pricewave-history-timesale-branch {
+  stroke: #d1a900;
+  stroke-dasharray: 4 3;
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.pricewave-history-crosshair {
+  pointer-events: none;
+  stroke: #8c8187;
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.pricewave-history-empty {
+  color: var(--pricewave-muted);
+  font-size: 13px;
+  padding: 14px 0 4px;
+}
+
+@media (max-width: 760px) {
+  #pricewave-history-panel {
+    border-radius: 11px;
+    margin: 12px 0;
+    padding: 11px;
+  }
+
+  .pricewave-history-heading {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .pricewave-history-heading a {
+    align-self: flex-start;
+  }
+
+  .pricewave-history-heading span {
+    white-space: normal;
+  }
+
+  .pricewave-history-controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pricewave-history-controls button {
+    min-width: 0;
+    padding-inline: 4px;
+  }
+
+  .pricewave-history-readout-values {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pricewave-history-readout-item {
+    min-width: 0;
+  }
+
+  .pricewave-history-chart {
+    height: 270px;
+  }
+}
