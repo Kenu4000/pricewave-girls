@@ -22,13 +22,14 @@
     ))
     .catch(() => new Map());
 
-  function badge(value) {
+  function badge(value, detail = false) {
     const meta = intervalMeta(value);
     if (!meta) return null;
     const element = document.createElement('span');
     element.className = `badge crawl-interval-badge crawl-interval-${meta.key}`;
-    element.textContent = `巡回: ${meta.label}`;
+    element.textContent = detail ? `巡回周期 ${meta.label}` : `巡回: ${meta.label}`;
     element.title = `自動巡回周期: ${meta.label}`;
+    if (detail) element.classList.add('crawl-interval-detail-badge');
     return element;
   }
 
@@ -43,6 +44,13 @@
       if (!element) continue;
       (card.querySelector('.price-row') || card).appendChild(element);
     }
+
+    const detailId = location.hash.match(/^#\/products\/(\d+)/)?.[1];
+    if (!detailId || !intervals.has(detailId)) return;
+    const prices = app.querySelector('.detail-prices');
+    if (!prices || prices.querySelector('.crawl-interval-detail-badge')) return;
+    const element = badge(intervals.get(detailId), true);
+    if (element) prices.appendChild(element);
   }
 
   let queued = false;
