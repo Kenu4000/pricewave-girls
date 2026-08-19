@@ -24,7 +24,7 @@ test("Viewer価格変更はmain準拠のフィルタと表UIを持つ", async ()
 
 test("Viewer価格変更UIはindexから読み込まれる", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /changes-main-ui\.css\?v=202608191340/u);
+  assert.match(html, /changes-main-ui\.css\?v=202608191355/u);
   assert.match(html, /changes-main-ui\.js\?v=202608191340/u);
 });
 
@@ -42,9 +42,11 @@ test("mainとViewerの商品タイトルは最大2行に制限する", async () 
   assert.match(layout, /\.\/title-clamp\.css/u);
 });
 
-test("Viewer価格変更はスマホで表をカード表示へ切り替える", async () => {
+test("Viewer価格変更は狭い画面でも横長表を維持する", async () => {
   const css = await text("viewer/changes-main-ui.css");
-  assert.match(css, /@media \(max-width: 760px\)/u);
-  assert.match(css, /\.viewer-change-table thead\s*\{[^}]*display:\s*none/su);
-  assert.match(css, /content:\s*attr\(data-label\)/u);
+  assert.match(css, /\.viewer-change-table-wrap\s*\{[^}]*overflow-x:\s*auto/su);
+  assert.match(css, /\.viewer-change-table\s*\{[^}]*min-width:\s*900px/su);
+  assert.doesNotMatch(css, /\.viewer-change-table thead\s*\{[^}]*display:\s*none/su);
+  assert.doesNotMatch(css, /content:\s*attr\(data-label\)/u);
+  assert.doesNotMatch(css, /\.viewer-change-table tr\s*\{[^}]*display:\s*block/su);
 });
