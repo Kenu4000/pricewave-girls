@@ -10,7 +10,7 @@ async function text(path: string) {
 
 test("Viewer価格変更はmain準拠のフィルタと表UIを持つ", async () => {
   const js = await text("viewer/changes-main-ui.js");
-  assert.match(js, /商品名/u);
+  assert.match(js, /<span>検索<\/span>/u);
   assert.match(js, /ブランド/u);
   assert.match(js, /価格の種類/u);
   assert.match(js, /値動き/u);
@@ -22,10 +22,19 @@ test("Viewer価格変更はmain準拠のフィルタと表UIを持つ", async ()
   assert.doesNotThrow(() => new Function(js));
 });
 
+test("Viewer価格変更の検索は商品メタデータも対象にする", async () => {
+  const js = await text("viewer/changes-main-ui.js");
+  assert.match(js, /summary\.searchText \|\| fallback/u);
+  assert.match(js, /summary\.manufacturer/u);
+  assert.match(js, /summary\.releaseDate/u);
+  assert.match(js, /normalize\('NFKC'\)/u);
+  assert.match(js, /商品名・ブランド・原画など/u);
+});
+
 test("Viewer価格変更UIはindexから読み込まれる", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /changes-main-ui\.css\?v=202608191431/u);
-  assert.match(html, /changes-main-ui\.js\?v=202608191340/u);
+  assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
+  assert.match(html, /changes-main-ui\.js\?v=202608191826/u);
 });
 
 test("mainとViewerの商品タイトルは最大2行に制限する", async () => {
