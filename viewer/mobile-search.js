@@ -5,19 +5,61 @@
 
   state.sort = 'interesting_desc';
 
+  let detailSearchEntries = [];
+  let cachedDetailQuery = '';
+  let cachedDetailProductIds = new Set();
+
   function normalizeViewerSearch(value) {
     return String(value || '').normalize('NFKC').toLocaleLowerCase('ja');
   }
 
-  function matchesViewerSearch(product, rawQuery) {
+  function normalizeDetailSearch(value) {
+    return normalizeViewerSearch(value).replace(/[\s\p{P}\p{S}]/gu, '');
+  }
+
+  function detailMatchingProductIds(rawQuery) {
+    const query = normalizeDetailSearch(rawQuery.trim());
+    if (!query || !detailSearchEntries.length) return new Set();
+    if (query === cachedDetailQuery) return cachedDetailProductIds;
+
+    const ids = new Set();
+    for (const [value, productIds] of detailSearchEntries) {
+      if (!value.includes(query)) continue;
+      for (const id of productIds) ids.add(Number(id));
+    }
+    cachedDetailQuery = query;
+    cachedDetailProductIds = ids;
+    return ids;
+  }
+
+  function matchesViewerSearch(product, rawQuery, detailIds = detailMatchingProductIds(rawQuery)) {
     const query = normalizeViewerSearch(rawQuery.trim());
     if (!query) return true;
     const fallback = [product.title, product.manufacturer, product.releaseDate]
       .filter(Boolean)
       .join('\n');
     const haystack = product.searchText || fallback;
-    return normalizeViewerSearch(haystack).includes(query);
+    return normalizeViewerSearch(haystack).includes(query) || detailIds.has(Number(product.id));
   }
+
+  globalThis.viewerProductMatchesSearch = (product, rawQuery) =>
+    matchesViewerSearch(product, rawQuery);
+
+  void fetch('./data/detail-index.json', { cache: 'no-store' })
+    .then((response) => response.ok ? response.json() : null)
+    .then((data) => {
+      const filters = data?.filters && typeof data.filters === 'object' ? data.filters : {};
+      detailSearchEntries = Object.entries(filters).flatMap(([key, productIds]) => {
+        if (!Array.isArray(productIds)) return [];
+        const separator = key.indexOf('\u0000');
+        const value = separator >= 0 ? key.slice(separator + 1) : key;
+        return value ? [[value, productIds]] : [];
+      });
+      cachedDetailQuery = '';
+      cachedDetailProductIds = new Set();
+      if (state.query && location.hash.startsWith('#/products')) renderStandardResults();
+    })
+    .catch(() => {});
 
   function bindStandardPager(results) {
     results.querySelectorAll('[data-page]').forEach((button) => {
@@ -172,7 +214,8 @@
     } finally {
       state.query = rawQuery;
     }
-    items = items.filter((product) => matchesViewerSearch(product, rawQuery));
+    const detailIds = detailMatchingProductIds(rawQuery);
+    items = items.filter((product) => matchesViewerSearch(product, rawQuery, detailIds));
     if (state.sort !== 'interesting_desc') return items;
 
     const scores = viewerInterestScores();
