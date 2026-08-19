@@ -1,0 +1,10 @@
+@media (max-width: 760px) {
+  .detail-head .facts {
+    display: none;
+  }
+
+  #viewer-product-crawl-interval,
+  .detail-prices .crawl-interval-badge {
+    display: none !important;
+  }
+}
