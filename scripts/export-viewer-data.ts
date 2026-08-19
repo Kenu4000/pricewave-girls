@@ -6,6 +6,7 @@ import {
   readOtherShopSnapshotData,
 } from "@/lib/other-shop-html-snapshot";
 import { detailFilterValue, splitDetailPeople } from "@/lib/product-filter-options";
+import { buildProductSearchText } from "@/lib/search-text";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
 const prisma = new PrismaClient();
@@ -133,6 +134,7 @@ async function main() {
       updatedAt: latestCheckedAt(product),
       priceChangedAt: latestChangedAt(product.salePriceChangedAt, product.buyPriceChangedAt),
       historyCount: product.histories.length,
+      searchText: buildProductSearchText(product),
       latestChanges: {
         sale: latestChange?.sale
           ? {
