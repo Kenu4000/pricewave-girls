@@ -3,8 +3,7 @@
     display: none;
   }
 
-  #viewer-product-crawl-interval,
-  .detail-prices .crawl-interval-badge {
+  #viewer-product-crawl-interval {
     display: none !important;
   }
 }
