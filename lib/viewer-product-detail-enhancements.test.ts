@@ -30,6 +30,8 @@ test("Viewerの商品詳細人物欄は複数人を個別リンクにする", as
   assert.match(js, /splitDetailValues/u);
   assert.match(js, /document\.createTextNode\('、'\)/u);
   assert.match(js, /detailFilterHref\(label, part\)/u);
+  assert.match(js, /function detailFilterIds\(filter\)/u);
+  assert.match(js, /indexedValue\.includes\(valueKey\)/u);
   assert.match(exporter, /splitDetailPeople/u);
   assert.match(exporter, /detailIndexValues/u);
   assert.match(exporter, /for \(const indexedValue of detailIndexValues\(label, value\)\)/u);
@@ -46,8 +48,8 @@ test("モバイル商品詳細は軽いfactsを隠し巡回周期バッジは表
 
 test("Viewer商品詳細改善スクリプトをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /detail-filter-links\.js\?v=202608191419/u);
-  assert.match(html, /product-detail-enhancements\.js\?v=202608191419/u);
-  assert.match(html, /product-detail-enhancements\.css\?v=202608191419/u);
-  assert.match(html, /mobile-detail-compact\.css\?v=202608191419/u);
+  assert.match(html, /detail-filter-links\.js\?v=202608191420/u);
+  assert.match(html, /product-detail-enhancements\.js\?v=202608191420/u);
+  assert.match(html, /product-detail-enhancements\.css\?v=202608191420/u);
+  assert.match(html, /mobile-detail-compact\.css\?v=202608191420/u);
 });
