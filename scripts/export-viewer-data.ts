@@ -5,7 +5,7 @@ import {
   exportOtherShopSnapshots,
   readOtherShopSnapshotData,
 } from "@/lib/other-shop-html-snapshot";
-import { detailFilterValue } from "@/lib/product-filter-options";
+import { detailFilterValue, splitDetailPeople } from "@/lib/product-filter-options";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
 
 const prisma = new PrismaClient();
@@ -14,6 +14,7 @@ const OUTPUT_DIR = path.join(ROOT, "viewer-dist");
 const STATIC_DIR = path.join(ROOT, "viewer");
 const PRODUCT_DATA_DIR = path.join(OUTPUT_DIR, "data", "products");
 const OTHER_SHOP_DATA_DIR = path.join(OUTPUT_DIR, "data", "other-shops");
+const PEOPLE_DETAIL_LABELS = new Set(["原画", "原画家", "シナリオ", "脚本", "声優", "キャスト"]);
 
 function parseDetailsJson(raw: string | null): Record<string, string> {
   if (!raw) return {};
@@ -44,6 +45,12 @@ function latestCheckedAt(product: {
   histories: Array<{ checkedAt: Date }>;
 }): Date {
   return product.histories.at(-1)?.checkedAt ?? product.updatedAt;
+}
+
+function detailIndexValues(label: string, value: string): string[] {
+  const normalizedLabel = label.normalize("NFKC").trim();
+  if (!PEOPLE_DETAIL_LABELS.has(normalizedLabel)) return [value];
+  return [...new Set([value, ...splitDetailPeople(value)])];
 }
 
 async function main() {
@@ -94,10 +101,12 @@ async function main() {
   for (const product of products) {
     for (const [label, value] of Object.entries(parseDetailsJson(product.detailsJson))) {
       if (isInternalProductDetailLabel(label)) continue;
-      const key = detailFilterValue(label, value);
-      const ids = detailIndex.get(key) ?? [];
-      ids.push(product.id);
-      detailIndex.set(key, ids);
+      for (const indexedValue of detailIndexValues(label, value)) {
+        const key = detailFilterValue(label, indexedValue);
+        const ids = detailIndex.get(key) ?? [];
+        if (!ids.includes(product.id)) ids.push(product.id);
+        detailIndex.set(key, ids);
+      }
     }
   }
 
