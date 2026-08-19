@@ -19,10 +19,8 @@ async function matchingProductTitleIds(
 
 async function rewriteProductWhereTitleContains(
   client: PrismaClient,
-  where: Prisma.ProductWhereInput | undefined,
-): Promise<Prisma.ProductWhereInput | undefined> {
-  if (!where) return where;
-
+  where: Prisma.ProductWhereInput,
+): Promise<Prisma.ProductWhereInput> {
   const next: Prisma.ProductWhereInput = { ...where };
   const titleFilter = isRecord(next.title) ? next.title : null;
   const contains = titleFilter?.contains;
@@ -39,18 +37,32 @@ async function rewriteProductWhereTitleContains(
     };
   }
 
-  for (const key of ["AND", "OR", "NOT"] as const) {
-    const value = next[key];
-    if (Array.isArray(value)) {
-      next[key] = await Promise.all(
-        value.map((item) => rewriteProductWhereTitleContains(client, item)),
-      ) as Prisma.ProductWhereInput[];
-    } else if (isRecord(value)) {
-      next[key] = await rewriteProductWhereTitleContains(
-        client,
-        value as Prisma.ProductWhereInput,
-      );
-    }
+  if (Array.isArray(next.AND)) {
+    next.AND = await Promise.all(
+      next.AND.map((item) => rewriteProductWhereTitleContains(client, item)),
+    );
+  } else if (next.AND && isRecord(next.AND)) {
+    next.AND = await rewriteProductWhereTitleContains(
+      client,
+      next.AND as Prisma.ProductWhereInput,
+    );
+  }
+
+  if (Array.isArray(next.OR)) {
+    next.OR = await Promise.all(
+      next.OR.map((item) => rewriteProductWhereTitleContains(client, item)),
+    );
+  }
+
+  if (Array.isArray(next.NOT)) {
+    next.NOT = await Promise.all(
+      next.NOT.map((item) => rewriteProductWhereTitleContains(client, item)),
+    );
+  } else if (next.NOT && isRecord(next.NOT)) {
+    next.NOT = await rewriteProductWhereTitleContains(
+      client,
+      next.NOT as Prisma.ProductWhereInput,
+    );
   }
 
   return next;
@@ -58,10 +70,8 @@ async function rewriteProductWhereTitleContains(
 
 async function rewritePriceChangeWhereTitleContains(
   client: PrismaClient,
-  where: Prisma.PriceChangeWhereInput | undefined,
-): Promise<Prisma.PriceChangeWhereInput | undefined> {
-  if (!where) return where;
-
+  where: Prisma.PriceChangeWhereInput,
+): Promise<Prisma.PriceChangeWhereInput> {
   const next: Prisma.PriceChangeWhereInput = { ...where };
   if (isRecord(next.product)) {
     const relation = { ...next.product } as Record<string, unknown>;
