@@ -11,12 +11,16 @@ const html = readFileSync(
   new URL("../viewer/index.html", import.meta.url),
   "utf8",
 );
+const exporter = readFileSync(
+  new URL("../scripts/export-viewer-data.ts", import.meta.url),
+  "utf8",
+);
 
 test("viewerのモバイル検索補助スクリプトを構文解析できる", () => {
   assert.doesNotThrow(() => new vm.Script(script));
 });
 
-test("商品名入力では検索欄全体を再描画せず結果領域だけ更新する", () => {
+test("検索入力では検索欄全体を再描画せず結果領域だけ更新する", () => {
   assert.match(
     script,
     /querySelector\('#q'\)\.addEventListener\('input',[\s\S]*?state\.query\s*=\s*event\.target\.value;[\s\S]*?renderStandardResults\(\);/u,
@@ -29,11 +33,20 @@ test("商品名入力では検索欄全体を再描画せず結果領域だけ�
 });
 
 test("検索修正はapp.jsの後に読み込んでrenderProductsを差し替える", () => {
-  const appIndex = html.indexOf('<script src="./app.js"></script>');
-  const fixIndex = html.indexOf('<script src="./mobile-search.js"></script>');
+  const appIndex = html.search(/<script src="\.\/app\.js\?v=[^"]+"><\/script>/u);
+  const fixIndex = html.search(/<script src="\.\/mobile-search\.js\?v=[^"]+"><\/script>/u);
   assert.ok(appIndex >= 0);
   assert.ok(fixIndex > appIndex);
   assert.match(script, /globalThis\.renderProducts\s*=\s*renderProductsStableSearch/u);
+});
+
+test("Viewer検索は商品名だけでなくブランド・発売日・詳細検索文字列も対象にする", () => {
+  assert.match(script, /product\.searchText \|\| fallback/u);
+  assert.match(script, /product\.manufacturer/u);
+  assert.match(script, /product\.releaseDate/u);
+  assert.match(script, /normalize\('NFKC'\)/u);
+  assert.match(script, /商品名・ブランド・原画などで検索/u);
+  assert.match(exporter, /searchText:\s*buildProductSearchText\(product\)/u);
 });
 
 test("メーカー候補は3日以内率を最優先して件数制限せず並べる", () => {
