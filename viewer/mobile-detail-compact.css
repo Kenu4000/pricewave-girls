@@ -1,3 +1,7 @@
+.detail-prices .crawl-interval-detail-badge {
+  display: none;
+}
+
 @media (max-width: 760px) {
   .detail-head .facts {
     display: none;
@@ -5,5 +9,9 @@
 
   #viewer-product-crawl-interval {
     display: none !important;
+  }
+
+  .detail-prices .crawl-interval-detail-badge {
+    display: inline-flex;
   }
 }
