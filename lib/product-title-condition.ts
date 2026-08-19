@@ -73,6 +73,21 @@ export function conditionAnnotatedProductIds(
     .map((product) => product.id);
 }
 
+export function conditionUnannotatedProductIds(
+  products: Array<{
+    id: number;
+    title: string;
+    condition?: string | null;
+    conditionRank?: string | null;
+    detailsJson?: string | null;
+  }>,
+): number[] {
+  const annotatedIds = new Set(conditionAnnotatedProductIds(products));
+  return products
+    .filter((product) => !annotatedIds.has(product.id))
+    .map((product) => product.id);
+}
+
 export function productConditionFromDetails(details: Record<string, string>): {
   condition: string | null;
   conditionRank: ProductConditionRank;
