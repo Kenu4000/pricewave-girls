@@ -11,18 +11,19 @@ test("Viewerメーカー候補補正スクリプトを構文解析できる", as
   assert.doesNotThrow(() => new vm.Script(source));
 });
 
-test("Viewerのよく登録されているメーカーは20件に制限し五十音順で表示する", async () => {
+test("Viewerの自動注目メーカーは20件を上限にし指定追加は別枠にする", async () => {
   const source = await readFile(
     new URL("../viewer/brand-featured-options.js", import.meta.url),
     "utf8",
   );
 
   assert.match(source, /FEATURED_LIMIT = 20/u);
-  assert.match(source, /\.slice\(0, FEATURED_LIMIT\)/u);
+  assert.match(source, /const automatic =[\s\S]*\.slice\(0, FEATURED_LIMIT\)/u);
+  assert.match(source, /return \[\.\.\.automatic, \.\.\.pinned\]/u);
   assert.match(source, /featured[\s\S]*collator\.compare\(left\.label, right\.label\)/u);
 });
 
-test("Viewerの注目枠からBEEPとAiNOを除外し指定4メーカーを固定追加する", async () => {
+test("Viewerの注目枠からBEEPとAiNOを除外し指定5メーカーを追加する", async () => {
   const source = await readFile(
     new URL("../viewer/brand-featured-options.js", import.meta.url),
     "utf8",
@@ -32,9 +33,10 @@ test("Viewerの注目枠からBEEPとAiNOを除外し指定4メーカーを固�
   assert.match(source, /FEATURED_PINNED_ALIASES[\s\S]*暁[\s\S]*あっぷりけ/u);
   assert.match(source, /Purple software[\s\S]*パープルソフトウェア/u);
   assert.match(source, /Navel/u);
+  assert.match(source, /ぱれっと[\s\S]*パレット[\s\S]*Palette/u);
 });
 
-test("Viewerの五十音一覧には上段20件も含めた全メーカーを載せる", async () => {
+test("Viewerの五十音一覧には注目メーカーも含めた全メーカーを載せる", async () => {
   const source = await readFile(
     new URL("../viewer/brand-featured-options.js", import.meta.url),
     "utf8",
@@ -44,5 +46,5 @@ test("Viewerの五十音一覧には上段20件も含めた全メーカーを載
   assert.match(source, /const alphabetical = \[\.\.\.optionMap\.values\(\)\]/u);
   assert.match(source, /group\.label = 'よく登録されているメーカー'/u);
   assert.match(source, /group\.label = '五十音順'/u);
-  assert.match(html, /brand-featured-options\.js\?v=202609021408/u);
+  assert.match(html, /brand-featured-options\.js\?v=202609021416/u);
 });
