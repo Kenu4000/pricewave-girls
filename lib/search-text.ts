@@ -1,3 +1,6 @@
+import { resolveBrandIdentity } from "@/lib/brand-aliases";
+import { manufacturerForProduct } from "@/lib/product-manufacturer-override";
+
 export type SearchableProductText = {
   title?: string | null;
   manufacturer?: string | null;
@@ -31,9 +34,18 @@ function detailSearchValues(raw: string | null | undefined): string[] {
 }
 
 export function productSearchValues(product: SearchableProductText): string[] {
+  const effectiveManufacturer = product.title
+    ? manufacturerForProduct(product.title, product.manufacturer)
+    : product.manufacturer ?? null;
+  const canonicalManufacturer = effectiveManufacturer
+    ? resolveBrandIdentity(effectiveManufacturer).label
+    : null;
+
   return [
     product.title,
     product.manufacturer,
+    effectiveManufacturer,
+    canonicalManufacturer,
     product.releaseDate,
     product.category,
     product.modelNumber,
