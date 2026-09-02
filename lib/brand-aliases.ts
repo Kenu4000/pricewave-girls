@@ -9,7 +9,8 @@ const BRAND_ALIAS_GROUPS = [
   ["FrontWing", "FrontWing（フロントウィング）", "FrontWing", "フロントウィング", "フロントウイング"],
   ["NitroPlus", "NitroPlus（ニトロプラス）", "NitroPlus", "Nitro+", "ニトロプラス"],
   ["Purple software", "Purple software（パープルソフトウェア）", "Purple software", "パープルソフトウェア"],
-  ["AQUAPLUS", "AQUAPLUS（アクアプラス）", "AQUAPLUS", "アクアプラス"],
+  ["AQUAPLUS", "AQUAPLUS（アクアプラス）", "AQUAPLUS", "アクアプラス", "Leaf", "LEAF", "リーフ"],
+  ["あかべぇそふとつぅ", "あかべぇそふとつぅ", "あかべぇそふとつぅ", "AKABEi SOFT2", "AKABEiSOFT2", "AiNO", "AINO"],
   ["Liar-soft", "Liar-soft（ライアーソフト）", "Liar-soft", "ライアーソフト"],
   ["Escu:de", "Escu:de（エスクード）", "Escu:de", "エスクード"],
   ["Overflow", "Overflow（オーバーフロー）", "Overflow", "オーバーフロー"],
@@ -20,7 +21,7 @@ const BRAND_ALIAS_GROUPS = [
   ["CandySoft", "CandySoft（きゃんでぃそふと）", "CandySoft", "きゃんでぃそふと"],
   ["D.O.", "D.O.（ディーオー）", "D.O.", "ディーオー"],
   ["HOOKSOFT", "HOOKSOFT（HOOK）", "HOOKSOFT", "HOOK"],
-  ["âge", "âge（age）", "âge", "age"],
+  ["âge", "âge（age）", "âge", "age", "aNTIQ", "ANTIQ"],
   [
     "F&C",
     "F&C",
