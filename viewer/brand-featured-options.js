@@ -1,5 +1,12 @@
 (() => {
   const FEATURED_LIMIT = 20;
+  const FEATURED_EXCLUDED = new Set(['BEEP', 'AiNO'].map(normalize));
+  const FEATURED_PINNED_ALIASES = [
+    ['暁'],
+    ['あっぷりけ'],
+    ['Purple software', 'パープルソフトウェア', 'Purple software（パープルソフトウェア）'],
+    ['Navel', 'NAVEL', 'navel'],
+  ];
   const app = document.querySelector('#app');
   if (!app) return;
 
@@ -17,12 +24,21 @@
     return rightNumerator * leftDenominator - leftNumerator * rightDenominator;
   }
 
+  function pinnedValues(availableValues) {
+    const values = [];
+    for (const aliases of FEATURED_PINNED_ALIASES) {
+      const value = aliases.map(normalize).find((candidate) => availableValues.has(candidate));
+      if (value && !FEATURED_EXCLUDED.has(value) && !values.includes(value)) values.push(value);
+    }
+    return values;
+  }
+
   function rankedFeaturedValues(products, availableValues) {
     const profiles = new Map();
     for (const product of products || []) {
       const label = String(product.manufacturer || '').trim();
       const value = normalize(label);
-      if (!value || !availableValues.has(value)) continue;
+      if (!value || FEATURED_EXCLUDED.has(value) || !availableValues.has(value)) continue;
       const profile = profiles.get(value) || {
         value,
         total: 0,
@@ -50,8 +66,10 @@
       profiles.set(value, profile);
     }
 
-    return [...profiles.values()]
-      .filter((profile) => profile.total >= 2)
+    const pinned = pinnedValues(availableValues);
+    const pinnedSet = new Set(pinned);
+    const ranked = [...profiles.values()]
+      .filter((profile) => profile.total >= 2 && !pinnedSet.has(profile.value))
       .sort((left, right) =>
         compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total) ||
         compareRatioDescending(left.daily, left.total, right.daily, right.total) ||
@@ -60,8 +78,9 @@
         right.total - left.total ||
         collator.compare(left.value, right.value),
       )
-      .slice(0, FEATURED_LIMIT)
       .map((profile) => profile.value);
+
+    return [...pinned, ...ranked].slice(0, FEATURED_LIMIT);
   }
 
   const productsPromise = fetch('./data/index.json', { cache: 'no-store' })
