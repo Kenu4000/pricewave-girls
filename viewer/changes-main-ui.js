@@ -1,15 +1,113 @@
 (() => {
+  const FEATURED_LIMIT = 20;
+  const FEATURED_EXCLUDED = new Set(['BEEP', 'AiNO'].map(normalizeBrand));
+  const FEATURED_PINNED_ALIASES = [
+    ['暁'],
+    ['あっぷりけ'],
+    ['Purple software', 'パープルソフトウェア', 'Purple software（パープルソフトウェア）'],
+    ['Navel', 'NAVEL', 'navel'],
+    ['ぱれっと', 'パレット', 'Palette', 'PALETTE'],
+  ];
+  const featuredCollator = new Intl.Collator('ja', { numeric: true, sensitivity: 'base' });
+
   const changeViewState = {
     query: '',
     brand: '',
     type: 'all',
     direction: 'all',
+    scope: 'focused',
     page: 1,
     perPage: 50,
   };
 
   function normalizeViewerSearch(value) {
     return String(value || '').normalize('NFKC').toLocaleLowerCase('ja');
+  }
+
+  function normalizeBrand(value) {
+    return String(value || '')
+      .normalize('NFKC')
+      .toLocaleLowerCase('ja')
+      .replace(/[\s\p{P}\p{S}]/gu, '');
+  }
+
+  function compareRatioDescending(leftNumerator, leftDenominator, rightNumerator, rightDenominator) {
+    return rightNumerator * leftDenominator - leftNumerator * rightDenominator;
+  }
+
+  function featuredBrandValues(products) {
+    const profiles = new Map();
+    const availableValues = new Set();
+
+    for (const product of products || []) {
+      const rawBrand = String(product.manufacturer || '').trim();
+      const value = normalizeBrand(rawBrand);
+      if (!value) continue;
+      availableValues.add(value);
+      if (FEATURED_EXCLUDED.has(value)) continue;
+
+      const profile = profiles.get(value) || {
+        value,
+        total: 0,
+        daily: 0,
+        withinThreeDays: 0,
+        withinSevenDays: 0,
+        active: 0,
+      };
+      profile.total += 1;
+      if (product.crawlIntervalDays === 1) {
+        profile.daily += 1;
+        profile.withinThreeDays += 1;
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 3) {
+        profile.withinThreeDays += 1;
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 7) {
+        profile.withinSevenDays += 1;
+        profile.active += 1;
+      } else if (product.crawlIntervalDays === 14) {
+        profile.active += 1;
+      }
+      profiles.set(value, profile);
+    }
+
+    const automatic = [...profiles.values()]
+      .filter((profile) => profile.total >= 2)
+      .sort((left, right) =>
+        compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total) ||
+        compareRatioDescending(left.daily, left.total, right.daily, right.total) ||
+        compareRatioDescending(left.withinSevenDays, left.total, right.withinSevenDays, right.total) ||
+        compareRatioDescending(left.active, left.total, right.active, right.total) ||
+        right.total - left.total ||
+        featuredCollator.compare(left.value, right.value),
+      )
+      .slice(0, FEATURED_LIMIT)
+      .map((profile) => profile.value);
+
+    const selected = new Set(automatic);
+    for (const aliases of FEATURED_PINNED_ALIASES) {
+      const value = aliases.map(normalizeBrand).find((candidate) => availableValues.has(candidate));
+      if (value && !FEATURED_EXCLUDED.has(value)) selected.add(value);
+    }
+    return selected;
+  }
+
+  function isThreeDaysOrMore(product) {
+    const days = Number(product?.crawlIntervalDays);
+    return Number.isFinite(days) && days >= 3;
+  }
+
+  function focusedProductIds(products) {
+    const featured = featuredBrandValues(products);
+    const ids = new Set();
+    for (const product of products || []) {
+      if (featured.has(normalizeBrand(product.manufacturer)) || isThreeDaysOrMore(product)) {
+        ids.add(Number(product.id));
+      }
+    }
+    return ids;
   }
 
   function directionOf(change) {
@@ -47,10 +145,15 @@
 
   function filteredChanges(changes) {
     const query = normalizeViewerSearch(changeViewState.query.trim());
-    const productsById = new Map((state.data.products || []).map((product) => [product.id, product]));
+    const products = Array.isArray(state.data?.products) ? state.data.products : [];
+    const productsById = new Map(products.map((product) => [Number(product.id), product]));
+    const scopedIds = changeViewState.scope === 'focused' ? focusedProductIds(products) : null;
+
     return changes.filter((change) => {
+      if (scopedIds && !scopedIds.has(Number(change.productId))) return false;
+
       const product = change.product || {};
-      const summary = productsById.get(change.productId) || product;
+      const summary = productsById.get(Number(change.productId)) || product;
       if (query) {
         const matcher = globalThis.viewerProductMatchesSearch;
         if (typeof matcher === 'function') {
@@ -82,10 +185,10 @@
   }
 
   function renderChangeRows(changes) {
-    const productsById = new Map((state.data.products || []).map((product) => [product.id, product]));
+    const productsById = new Map((state.data.products || []).map((product) => [Number(product.id), product]));
     return changes.map((change) => {
       const direction = directionOf(change);
-      const summary = productsById.get(change.productId);
+      const summary = productsById.get(Number(change.productId));
       const rankB = summary?.conditionRank === 'B' || Boolean(summary?.condition);
       return `<tr class="${rankB ? 'viewer-change-rank-b' : ''}">
         <td data-label="変更日時">${esc(dateTime(change.changedAt))}</td>
@@ -109,6 +212,17 @@
   }
 
   function bindChangeUi(totalPages) {
+    document.querySelectorAll('[data-change-scope]').forEach((button) => {
+      button.addEventListener('click', () => {
+        const next = button.dataset.changeScope;
+        if (next !== 'focused' && next !== 'all') return;
+        if (changeViewState.scope === next) return;
+        changeViewState.scope = next;
+        changeViewState.page = 1;
+        renderChanges();
+      });
+    });
+
     const form = document.querySelector('#viewer-change-filter-form');
     form?.addEventListener('submit', (event) => {
       event.preventDefault();
@@ -154,6 +268,10 @@
         <div>
           <h1>価格変更</h1>
           <p class="muted">条件に一致する価格変更 ${changes.length.toLocaleString('ja-JP')}件</p>
+        </div>
+        <div class="viewer-change-scope" aria-label="価格変更の表示対象">
+          <button type="button" data-change-scope="focused" class="${changeViewState.scope === 'focused' ? 'active' : ''}">注目メーカー＋3日以上</button>
+          <button type="button" data-change-scope="all" class="${changeViewState.scope === 'all' ? 'active' : ''}">全商品</button>
         </div>
       </div>
 
