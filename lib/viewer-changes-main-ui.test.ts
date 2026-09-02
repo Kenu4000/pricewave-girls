@@ -32,10 +32,9 @@ test("Viewer価格変更の検索は商品メタデータも対象にする", as
   assert.match(js, /商品名・ブランド・原画など/u);
 });
 
-test("Viewer価格変更は注目メーカーまたは巡回周期3日以上を初期表示にする", async () => {
-  const js = await text("viewer/changes-focus-filter.js");
-  assert.doesNotThrow(() => new Function(js));
-  assert.match(js, /let scope = 'focused'/u);
+test("Viewer価格変更は注目メーカーまたは巡回周期3日以上を本体で初期表示にする", async () => {
+  const js = await text("viewer/changes-main-ui.js");
+  assert.match(js, /scope: 'focused'/u);
   assert.match(js, /FEATURED_LIMIT = 20/u);
   assert.match(js, /BEEP/u);
   assert.match(js, /AiNO/u);
@@ -45,23 +44,27 @@ test("Viewer価格変更は注目メーカーまたは巡回周期3日以上を�
   assert.match(js, /Navel/u);
   assert.match(js, /ぱれっと/u);
   assert.match(js, /days >= 3/u);
-  assert.match(js, /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isThreeDaysOrMore\(product\)/u);
+  assert.match(
+    js,
+    /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isThreeDaysOrMore\(product\)/u,
+  );
+  assert.match(js, /scopedIds && !scopedIds\.has\(Number\(change\.productId\)\)/u);
 });
 
 test("Viewer価格変更は全商品へ切り替えられる", async () => {
-  const js = await text("viewer/changes-focus-filter.js");
+  const js = await text("viewer/changes-main-ui.js");
   assert.match(js, /data-change-scope="all"/u);
   assert.match(js, />全商品<\/button>/u);
-  assert.match(js, /scope === 'all'/u);
-  assert.match(js, /globalThis\.renderChanges/u);
+  assert.match(js, /changeViewState\.scope === 'focused'/u);
+  assert.match(js, /changeViewState\.scope = next/u);
 });
 
-test("Viewer価格変更UIはindexから読み込まれる", async () => {
+test("Viewer価格変更UIは本体統合版だけをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
   assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
-  assert.match(html, /changes-main-ui\.js\?v=202608191836/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609030652/u);
   assert.match(html, /changes-focus-filter\.css\?v=202609021424/u);
-  assert.match(html, /changes-focus-filter\.js\?v=202609021424/u);
+  assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
 
 test("mainとViewerの商品タイトルは最大2行に制限する", async () => {
