@@ -41,8 +41,15 @@ test("F&Cの主要レーベルをF&Cとしてまとめる", () => {
   ]);
 });
 
-test("LeafとAQUAPLUSを同一メーカーとしてまとめる", () => {
-  assertSameBrand("AQUAPLUS（アクアプラス）", ["Leaf", "LEAF", "リーフ", "AQUAPLUS", "アクアプラス"]);
+test("LeafとAQUAPLUSをLeaf表記へまとめる", () => {
+  assertSameBrand("Leaf", [
+    "Leaf",
+    "LEAF",
+    "リーフ",
+    "AQUAPLUS",
+    "AQUAPLUS（アクアプラス）",
+    "アクアプラス",
+  ]);
 });
 
 test("AiNOをあかべぇそふとつぅへまとめる", () => {
