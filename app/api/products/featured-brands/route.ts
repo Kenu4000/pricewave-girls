@@ -1,6 +1,14 @@
 import { NextResponse } from "next/server";
-import { selectFeaturedBrands } from "@/lib/brand-featured-crawl-order";
+import {
+  rankFeaturedBrandsByCrawlFrequency,
+  selectFeaturedBrands,
+} from "@/lib/brand-featured-crawl-order";
 import { prisma } from "@/lib/prisma";
+
+const japaneseCollator = new Intl.Collator("ja", {
+  numeric: true,
+  sensitivity: "base",
+});
 
 export async function GET() {
   const products = await prisma.product.findMany({
@@ -19,6 +27,16 @@ export async function GET() {
     withinSevenDays: profile.withinSevenDays,
     active: profile.active,
   }));
+  const byProductCount = rankFeaturedBrandsByCrawlFrequency(products, 1)
+    .sort(
+      (left, right) =>
+        right.total - left.total || japaneseCollator.compare(left.label, right.label),
+    )
+    .map((profile) => ({
+      value: profile.value,
+      label: profile.label,
+      total: profile.total,
+    }));
 
-  return NextResponse.json({ featured });
+  return NextResponse.json({ featured, byProductCount });
 }
