@@ -152,7 +152,7 @@ test("拡張機能は /product/other/ を一回だけ取得する", async () => 
     "utf8",
   );
 
-  assert.equal(manifest.version, "0.11.9");
+  assert.equal(manifest.version, "0.12.0");
   assert.ok(!manifest.permissions?.includes("declarativeNetRequestWithHostAccess"));
   assert.match(content, /pricewave-other-shops-data/u);
   assert.doesNotMatch(content, /pricewave-other-shops-mobile-data/u);
