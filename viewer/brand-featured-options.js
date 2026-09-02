@@ -6,6 +6,7 @@
     ['あっぷりけ'],
     ['Purple software', 'パープルソフトウェア', 'Purple software（パープルソフトウェア）'],
     ['Navel', 'NAVEL', 'navel'],
+    ['ぱれっと', 'パレット', 'Palette', 'PALETTE'],
   ];
   const app = document.querySelector('#app');
   if (!app) return;
@@ -66,10 +67,8 @@
       profiles.set(value, profile);
     }
 
-    const pinned = pinnedValues(availableValues);
-    const pinnedSet = new Set(pinned);
-    const ranked = [...profiles.values()]
-      .filter((profile) => profile.total >= 2 && !pinnedSet.has(profile.value))
+    const automatic = [...profiles.values()]
+      .filter((profile) => profile.total >= 2)
       .sort((left, right) =>
         compareRatioDescending(left.withinThreeDays, left.total, right.withinThreeDays, right.total) ||
         compareRatioDescending(left.daily, left.total, right.daily, right.total) ||
@@ -78,9 +77,12 @@
         right.total - left.total ||
         collator.compare(left.value, right.value),
       )
+      .slice(0, FEATURED_LIMIT)
       .map((profile) => profile.value);
+    const automaticSet = new Set(automatic);
+    const pinned = pinnedValues(availableValues).filter((value) => !automaticSet.has(value));
 
-    return [...pinned, ...ranked].slice(0, FEATURED_LIMIT);
+    return [...automatic, ...pinned];
   }
 
   const productsPromise = fetch('./data/index.json', { cache: 'no-store' })
