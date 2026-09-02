@@ -127,7 +127,7 @@
   }
 
   globalThis.renderChanges = function renderChangesWithFocusScope() {
-    const data = globalThis.state?.data;
+    const data = state?.data;
     if (!data || !Array.isArray(data.priceChanges) || scope === 'all') {
       originalRenderChanges();
       injectScopeButtons();
