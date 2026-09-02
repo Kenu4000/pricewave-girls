@@ -15,14 +15,20 @@ test("ブランド欄だけ注目候補をよく登録されているメーカ�
   assert.match(layout, /BrandFeaturedGroupLabel/u);
 });
 
-test("よく登録されているメーカーは上位20件だけ選抜する", async () => {
+test("よく登録されているメーカーは自動上位20件に指定追加を加える", async () => {
   const route = await readFile(
     new URL("../app/api/products/featured-brands/route.ts", import.meta.url),
     "utf8",
   );
+  const selector = await readFile(
+    new URL("../lib/brand-featured-crawl-order.ts", import.meta.url),
+    "utf8",
+  );
 
-  assert.match(route, /FEATURED_BRAND_LIMIT = 20/u);
-  assert.match(route, /rankFeaturedBrandsByCrawlFrequency\(products\)\s*\.slice\(0, FEATURED_BRAND_LIMIT\)/su);
+  assert.match(route, /selectFeaturedBrands\(products\)/u);
+  assert.match(selector, /FEATURED_BRAND_LIMIT = 20/u);
+  assert.match(selector, /const automatic =[\s\S]*\.slice\(0, Math\.max\(0, limit\)\)/u);
+  assert.match(selector, /return \[\.\.\.automatic, \.\.\.pinned\]/u);
 });
 
 test("選抜メーカーも五十音順で表示し下の五十音一覧から除外しない", async () => {
