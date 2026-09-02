@@ -2,6 +2,7 @@ import * as cheerio from "cheerio";
 import { PRODUCT_CRAWL_SOURCE_DETAIL_KEY } from "./product-crawl-source";
 import {
   isInternalProductConditionDetailLabel,
+  isProductConditionText,
   PRODUCT_CONDITION_DETAIL_KEY,
   PRODUCT_CONDITION_RANK_DETAIL_KEY,
   productConditionFromDetails,
@@ -16,9 +17,7 @@ export const TIME_SALE_END_AT_DETAIL_KEY = "__pricewaveTimeSaleEndsAt";
 
 const TIME_SALE_PATTERN = /(?:※\s*)?タイム\s*セール/iu;
 const TIME_SALE_IMAGE_PATTERN = /タイム\s*セール|time[_-]?sale|flash[_-]?sale/iu;
-const PRIMARY_RANK_B_PATTERN = /(?:【\s*)?ランク\s*B(?:\s*】|\s*[)）])?/iu;
-const PRIMARY_CONDITION_HINT_PATTERN =
-  /(?:欠品|欠損|不足|不備|難あり|状態難|破損|汚れ|シミ|ヤケ|日焼け|変色|劣化|割れ|ヒビ|剥がれ|書き込み|折れ|凹み|へこみ|ディスクのみ|本体のみ|説明書なし|説明書無し|マニュアルなし|マニュアル無し|ケースなし|ケース無し|ジャケットなし|ジャケット無し|傷あり|キズあり|傷有|キズ有|ディスク傷|盤面傷|スレあり|擦れあり)/iu;
+const PRIMARY_RANK_B_PATTERN = /(?:【\s*)?ランク\s*[BＢ](?:\s*】|\s*[)）])?/iu;
 
 export function detectPrimaryTimeSale(html: string): boolean {
   const section = primarySaleSection(html);
@@ -51,15 +50,15 @@ export function detectPrimaryProductCondition(html: string): {
   const section = primarySaleSection(html);
 
   for (const block of section.blocks) {
-    if (PRIMARY_RANK_B_PATTERN.test(block)) {
-      return { condition: "ランクB", conditionRank: "B" };
-    }
-
     const priceIndex = block.search(/[¥￥]?\s*[0-9０-９][0-9０-９,，]*\s*円/u);
     const beforePrice = normalizeText(priceIndex >= 0 ? block.slice(0, priceIndex) : block)
       .replace(TIME_SALE_PATTERN, "")
       .trim();
-    if (beforePrice && PRIMARY_CONDITION_HINT_PATTERN.test(beforePrice)) {
+
+    if (PRIMARY_RANK_B_PATTERN.test(beforePrice)) {
+      return { condition: "ランクB", conditionRank: "B" };
+    }
+    if (beforePrice && isProductConditionText(beforePrice)) {
       return { condition: beforePrice, conditionRank: "B" };
     }
   }
