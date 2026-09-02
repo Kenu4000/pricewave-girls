@@ -4,6 +4,7 @@ import { manufacturerForProduct } from "./product-manufacturer-override";
 
 test("メタルオレンジ EXカスタムはカスタムへ補正する", () => {
   assert.equal(manufacturerForProduct("メタルオレンジ EXカスタム", "別メーカー"), "カスタム");
+  assert.equal(manufacturerForProduct("メタルオレンジEXカスタム", "別メーカー"), "カスタム");
   assert.equal(
     manufacturerForProduct("メタルオレンジ EXカスタム（説明書欠け）", "別メーカー"),
     "カスタム",
