@@ -52,3 +52,7 @@ test("AiNOをあかべぇそふとつぅへまとめる", () => {
 test("aNTIQをâgeへまとめる", () => {
   assertSameBrand("âge（age）", ["aNTIQ", "ANTIQ", "âge", "age"]);
 });
+
+test("パレット表記をぱれっとへまとめる", () => {
+  assertSameBrand("ぱれっと", ["ぱれっと", "パレット", "Palette", "PALETTE"]);
+});
