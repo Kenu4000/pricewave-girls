@@ -1,3 +1,5 @@
+import { splitProductTitleCondition } from "@/lib/product-title-condition";
+
 function normalizeProductTitle(value: string): string {
   return value.normalize("NFKC").replace(/\s+/gu, " ").trim();
 }
@@ -11,7 +13,8 @@ export function manufacturerForProduct(
   title: string,
   manufacturer: string | null | undefined,
 ): string | null {
-  return TITLE_MANUFACTURER_OVERRIDES.get(normalizeProductTitle(title)) ?? manufacturer ?? null;
+  const baseTitle = splitProductTitleCondition(title).title;
+  return TITLE_MANUFACTURER_OVERRIDES.get(normalizeProductTitle(baseTitle)) ?? manufacturer ?? null;
 }
 
 export function withProductManufacturerOverride<T extends { title: string; manufacturer: string | null }>(
