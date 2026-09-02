@@ -59,3 +59,13 @@ test("mainのメーカー詳細検索に製品数が多い順を追加する", a
   assert.match(route, /right\.total - left\.total/u);
   assert.match(route, /byProductCount/u);
 });
+
+test("メーカー候補の組み替えにMutationObserverを使わない", async () => {
+  const component = await readFile(
+    new URL("../components/BrandFeaturedGroupLabel.tsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.doesNotMatch(component, /MutationObserver/u);
+  assert.match(component, /cancelled/u);
+});
