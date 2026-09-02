@@ -109,8 +109,6 @@ function createHarness(
         continue;
       }
       if (fileName === "access-challenge-test-mode-wrapper.js") {
-        // このテストは高速タブ設定の配線だけを検証する。アクセス確認テストモード
-        // 自体の挙動は専用テストで確認するため、ここでは読み込みだけ許可する。
         continue;
       }
       throw new Error(`想定外のimportScriptsです: ${fileName}`);
@@ -181,12 +179,12 @@ test("一時的でないタブ作成エラーは再試行せず返す", async ()
   );
 });
 
-test("旧自動追加URLは発売日順の新商品探索URLへ読み替える", async () => {
+test("旧自動追加URLは発売日順のアダルトPCソフト全体探索URLへ読み替える", async () => {
   const harness = createHarness(false, 10);
   const stored = await harness.context.chrome.storage.local.get({
     autoAddSourceUrl:
       "https://www.suruga-ya.jp/search?category=65204&genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&search_word=",
   });
-  assert.match(stored.autoAddSourceUrl, /category=652042222/u);
+  assert.match(stored.autoAddSourceUrl, /category=6520422/u);
   assert.match(stored.autoAddSourceUrl, /rankBy=release_date/u);
 });
