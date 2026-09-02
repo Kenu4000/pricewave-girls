@@ -56,7 +56,7 @@ test("よく登録されているメーカーは12件に制限しない", () => 
   assert.equal(ranked.length, 15);
 });
 
-test("注目枠はBEEPとAiNOを除外し指定4メーカーを固定追加して20件以内にする", () => {
+test("注目枠はBEEPとAiNOを除外し自動20件に指定5メーカーを追加する", () => {
   const products = [
     { manufacturer: "ＢＥＥＰ", crawlIntervalDays: 1 },
     { manufacturer: "ＢＥＥＰ", crawlIntervalDays: 1 },
@@ -66,6 +66,7 @@ test("注目枠はBEEPとAiNOを除外し指定4メーカーを固定追加し�
     { manufacturer: "あっぷりけ", crawlIntervalDays: null },
     { manufacturer: "パープルソフトウェア", crawlIntervalDays: null },
     { manufacturer: "Navel", crawlIntervalDays: null },
+    { manufacturer: "パレット", crawlIntervalDays: null },
     ...Array.from({ length: 24 }, (_, index) => [
       { manufacturer: `Auto${index}`, crawlIntervalDays: 3 },
       { manufacturer: `Auto${index}`, crawlIntervalDays: 3 },
@@ -74,11 +75,12 @@ test("注目枠はBEEPとAiNOを除外し指定4メーカーを固定追加し�
 
   const selected = selectFeaturedBrands(products);
   const labels = selected.map((profile) => profile.label);
-  assert.equal(selected.length, 20);
+  assert.equal(selected.length, 25);
   assert.ok(labels.includes("暁"));
   assert.ok(labels.includes("あっぷりけ"));
   assert.ok(labels.includes("Purple software（パープルソフトウェア）"));
   assert.ok(labels.includes("Navel"));
+  assert.ok(labels.includes("ぱれっと"));
   assert.ok(!labels.includes("ＢＥＥＰ"));
   assert.ok(!labels.includes("あかべぇそふとつぅ"));
 });
