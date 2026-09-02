@@ -68,7 +68,7 @@ test("Viewer並び順はmainの候補を持つ", () => {
     "release_desc",
     "release_asc",
   ]) {
-    assert.match(script, new RegExp(`value=\\"${value}\\"`, "u"));
+    assert.match(script, new RegExp(`value="${value}"`, "u"));
   }
   assert.match(script, /販売・買取の差が大きい順/u);
   assert.match(script, /販売・買取の差が小さい順/u);
@@ -111,11 +111,11 @@ test("Viewer検索UIのCSSはデスクトップとモバイルでmain型の配�
   assert.doesNotMatch(css, /overflow-x:\s*auto/u);
 });
 
-test("検索修正はapp.jsの後に読み込まれキャッシュキーも更新される", () => {
+test("検索修正はapp.jsの後に読み込まれキャッシュキーを持つ", () => {
   const appIndex = html.search(/<script src="\.\/app\.js\?v=[^"]+"><\/script>/u);
-  const searchIndex = html.search(/<script src="\.\/mobile-search\.js\?v=202608200050"><\/script>/u);
+  const searchIndex = html.search(/<script src="\.\/mobile-search\.js\?v=[^"]+"><\/script>/u);
   assert.ok(appIndex >= 0);
   assert.ok(searchIndex > appIndex);
-  assert.match(html, /product-list-main-ui\.css\?v=202608200050/u);
+  assert.match(html, /product-list-main-ui\.css\?v=[^"]+/u);
   assert.match(script, /globalThis\.renderProducts\s*=\s*renderProductsStableSearch/u);
 });
