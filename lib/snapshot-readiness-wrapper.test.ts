@@ -31,6 +31,6 @@ test("Service Workerは待機ラッパーを既存処理より先に読み込む
     serviceWorker,
     /^importScripts\("snapshot-readiness-wrapper\.js", "fast-site-mode-wrapper\.js"\);/u,
   );
-  assert.equal(manifest.version, "0.11.9");
+  assert.equal(manifest.version, "0.12.0");
   assert.equal(manifest.background?.service_worker, "service-worker.js");
 });
