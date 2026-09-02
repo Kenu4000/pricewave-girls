@@ -12,6 +12,7 @@ import {
 import { preserveIndividualDetailPeople } from "@/lib/product-detail-people";
 import { productImportQueue } from "@/lib/product-import-queue";
 import { stageProductSnapshot } from "@/lib/product-import-sessions";
+import { withProductManufacturerOverride } from "@/lib/product-manufacturer-override";
 import { prisma } from "@/lib/prisma";
 import {
   InvalidSurugayaUrlError,
@@ -107,7 +108,8 @@ export async function POST(request: Request) {
     const withPeople = preserveIndividualDetailPeople(html, withSafeOtherShops);
     const withState = withProductStateStorageMarkers(html, withPeople);
     const withSelectedOffer = applySelectedCrawlSourceOffer(withState, resolvedSourceUrl, html);
-    const fetched = withProductCrawlSource(withSelectedOffer, resolvedSourceUrl);
+    const withSource = withProductCrawlSource(withSelectedOffer, resolvedSourceUrl);
+    const fetched = withProductManufacturerOverride(withSource);
 
     if (sessionId) {
       const stagedCount = await stageProductSnapshot(sessionId, {
