@@ -1,7 +1,7 @@
 import { splitProductTitleCondition } from "@/lib/product-title-condition";
 
 function normalizeProductTitle(value: string): string {
-  return value.normalize("NFKC").replace(/\s+/gu, " ").trim();
+  return value.normalize("NFKC").replace(/\s+/gu, "").trim();
 }
 
 const TITLE_MANUFACTURER_OVERRIDES = new Map<string, string>([
