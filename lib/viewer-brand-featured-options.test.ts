@@ -22,6 +22,18 @@ test("Viewerのよく登録されているメーカーは20件に制限し五十
   assert.match(source, /featured[\s\S]*collator\.compare\(left\.label, right\.label\)/u);
 });
 
+test("Viewerの注目枠からBEEPとAiNOを除外し指定4メーカーを固定追加する", async () => {
+  const source = await readFile(
+    new URL("../viewer/brand-featured-options.js", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(source, /FEATURED_EXCLUDED[\s\S]*BEEP[\s\S]*AiNO/u);
+  assert.match(source, /FEATURED_PINNED_ALIASES[\s\S]*暁[\s\S]*あっぷりけ/u);
+  assert.match(source, /Purple software[\s\S]*パープルソフトウェア/u);
+  assert.match(source, /Navel/u);
+});
+
 test("Viewerの五十音一覧には上段20件も含めた全メーカーを載せる", async () => {
   const source = await readFile(
     new URL("../viewer/brand-featured-options.js", import.meta.url),
@@ -30,8 +42,7 @@ test("Viewerの五十音一覧には上段20件も含めた全メーカーを載
   const html = await readFile(new URL("../viewer/index.html", import.meta.url), "utf8");
 
   assert.match(source, /const alphabetical = \[\.\.\.optionMap\.values\(\)\]/u);
-  assert.doesNotMatch(source, /!featured/u);
   assert.match(source, /group\.label = 'よく登録されているメーカー'/u);
   assert.match(source, /group\.label = '五十音順'/u);
-  assert.match(html, /brand-featured-options\.js\?v=202609021236/u);
+  assert.match(html, /brand-featured-options\.js\?v=202609021408/u);
 });
