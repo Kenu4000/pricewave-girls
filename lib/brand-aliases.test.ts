@@ -40,3 +40,15 @@ test("F&Cの主要レーベルをF&Cとしてまとめる", () => {
     "HARDCOVER",
   ]);
 });
+
+test("LeafとAQUAPLUSを同一メーカーとしてまとめる", () => {
+  assertSameBrand("AQUAPLUS（アクアプラス）", ["Leaf", "LEAF", "リーフ", "AQUAPLUS", "アクアプラス"]);
+});
+
+test("AiNOをあかべぇそふとつぅへまとめる", () => {
+  assertSameBrand("あかべぇそふとつぅ", ["AiNO", "AINO", "AKABEi SOFT2", "あかべぇそふとつぅ"]);
+});
+
+test("aNTIQをâgeへまとめる", () => {
+  assertSameBrand("âge（age）", ["aNTIQ", "ANTIQ", "âge", "age"]);
+});
