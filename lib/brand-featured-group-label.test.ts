@@ -42,3 +42,20 @@ test("選抜メーカーも五十音順で表示し下の五十音一覧から�
   assert.doesNotMatch(component, /featuredSet/u);
   assert.doesNotMatch(component, /filter\(\(option\) => !featured/u);
 });
+
+test("mainのメーカー詳細検索に製品数が多い順を追加する", async () => {
+  const component = await readFile(
+    new URL("../components/BrandFeaturedGroupLabel.tsx", import.meta.url),
+    "utf8",
+  );
+  const route = await readFile(
+    new URL("../app/api/products/featured-brands/route.ts", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(component, /製品数が多い順/u);
+  assert.match(component, /byProductCount/u);
+  assert.match(route, /rankFeaturedBrandsByCrawlFrequency\(products, 1\)/u);
+  assert.match(route, /right\.total - left\.total/u);
+  assert.match(route, /byProductCount/u);
+});
