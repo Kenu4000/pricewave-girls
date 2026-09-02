@@ -4,6 +4,10 @@ import { useEffect } from "react";
 
 const CURRENT_LABEL = "よく登録されている";
 const BRAND_LABEL = "よく登録されているメーカー";
+const japaneseCollator = new Intl.Collator("ja", {
+  numeric: true,
+  sensitivity: "base",
+});
 
 type FeaturedBrand = {
   value: string;
@@ -45,14 +49,16 @@ function applyFeaturedBrandOrder(featuredBrands: FeaturedBrand[]) {
 
   const featuredValues = featuredBrands
     .map((brand) => brand.value)
-    .filter((value) => options.has(value));
-  const orderSignature = featuredValues.join("\u0000");
+    .filter((value) => options.has(value))
+    .map((value) => options.get(value))
+    .filter((option): option is { value: string; label: string } => Boolean(option))
+    .sort((left, right) => japaneseCollator.compare(left.label, right.label));
+  const orderSignature = featuredValues.map((option) => option.value).join("\u0000");
   if (select.dataset.featuredBrandOrder === orderSignature) return;
 
-  const featuredSet = new Set(featuredValues);
-  const alphabeticalValues = [...options.values()]
-    .filter((option) => !featuredSet.has(option.value))
-    .sort((left, right) => left.label.localeCompare(right.label, "ja"));
+  const alphabeticalValues = [...options.values()].sort((left, right) =>
+    japaneseCollator.compare(left.label, right.label),
+  );
 
   applying = true;
   try {
@@ -65,9 +71,7 @@ function applyFeaturedBrandOrder(featuredBrands: FeaturedBrand[]) {
     if (featuredValues.length > 0) {
       const group = document.createElement("optgroup");
       group.label = BRAND_LABEL;
-      for (const value of featuredValues) {
-        const source = options.get(value);
-        if (!source) continue;
+      for (const source of featuredValues) {
         const option = document.createElement("option");
         option.value = source.value;
         option.textContent = source.label;
