@@ -15,6 +15,19 @@ test("狂った果実はフェアリーテイルへ補正する", () => {
   assert.equal(manufacturerForProduct("狂った果実", "別メーカー"), "フェアリーテイル");
 });
 
-test("他商品は元メーカーを保持する", () => {
-  assert.equal(manufacturerForProduct("別の商品", "Leaf"), "Leaf");
+test("AQUAPLUS系のメーカー表記はLeafへ統一する", () => {
+  for (const manufacturer of [
+    "Leaf",
+    "LEAF",
+    "リーフ",
+    "AQUAPLUS",
+    "AQUAPLUS（アクアプラス）",
+    "アクアプラス",
+  ]) {
+    assert.equal(manufacturerForProduct("通常商品", manufacturer), "Leaf");
+  }
+});
+
+test("他商品・他メーカーは元メーカーを保持する", () => {
+  assert.equal(manufacturerForProduct("別の商品", "Purple software"), "Purple software");
 });
