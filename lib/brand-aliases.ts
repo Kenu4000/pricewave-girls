@@ -9,6 +9,7 @@ const BRAND_ALIAS_GROUPS = [
   ["FrontWing", "FrontWing（フロントウィング）", "FrontWing", "フロントウィング", "フロントウイング"],
   ["NitroPlus", "NitroPlus（ニトロプラス）", "NitroPlus", "Nitro+", "ニトロプラス"],
   ["Purple software", "Purple software（パープルソフトウェア）", "Purple software", "パープルソフトウェア"],
+  ["ぱれっと", "ぱれっと", "ぱれっと", "パレット", "Palette", "PALETTE"],
   ["AQUAPLUS", "AQUAPLUS（アクアプラス）", "AQUAPLUS", "アクアプラス", "Leaf", "LEAF", "リーフ"],
   ["あかべぇそふとつぅ", "あかべぇそふとつぅ", "あかべぇそふとつぅ", "AKABEi SOFT2", "AKABEiSOFT2", "AiNO", "AINO"],
   ["Liar-soft", "Liar-soft（ライアーソフト）", "Liar-soft", "ライアーソフト"],
