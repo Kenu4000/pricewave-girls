@@ -1,4 +1,4 @@
-import { resolveBrandIdentity } from "@/lib/brand-aliases";
+import { normalizeBrandKey, resolveBrandIdentity } from "@/lib/brand-aliases";
 
 export type BrandCrawlSourceProduct = {
   manufacturer: string | null;
@@ -14,6 +14,13 @@ export type FeaturedBrandCrawlProfile = {
   withinSevenDays: number;
   active: number;
 };
+
+export const FEATURED_BRAND_LIMIT = 20;
+
+const FEATURED_EXCLUDED_SOURCE_KEYS = new Set(
+  ["BEEP", "AiNO"].map((value) => normalizeBrandKey(value)),
+);
+const FEATURED_PINNED_BRANDS = ["暁", "あっぷりけ", "パープルソフトウェア", "Navel"] as const;
 
 const japaneseCollator = new Intl.Collator("ja", {
   numeric: true,
@@ -55,6 +62,7 @@ function compareProfiles(
 
 export function rankFeaturedBrandsByCrawlFrequency(
   products: BrandCrawlSourceProduct[],
+  minimumTotal = 2,
 ): FeaturedBrandCrawlProfile[] {
   const profiles = new Map<string, FeaturedBrandCrawlProfile>();
 
@@ -94,6 +102,29 @@ export function rankFeaturedBrandsByCrawlFrequency(
   }
 
   return [...profiles.values()]
-    .filter((profile) => profile.total >= 2)
+    .filter((profile) => profile.total >= minimumTotal)
     .sort(compareProfiles);
+}
+
+export function selectFeaturedBrands(
+  products: BrandCrawlSourceProduct[],
+  limit = FEATURED_BRAND_LIMIT,
+): FeaturedBrandCrawlProfile[] {
+  const eligibleProducts = products.filter(
+    (product) =>
+      !product.manufacturer ||
+      !FEATURED_EXCLUDED_SOURCE_KEYS.has(normalizeBrandKey(product.manufacturer)),
+  );
+  const allProfiles = rankFeaturedBrandsByCrawlFrequency(eligibleProducts, 1);
+  const byValue = new Map(allProfiles.map((profile) => [profile.value, profile]));
+  const pinned = FEATURED_PINNED_BRANDS.flatMap((brand) => {
+    const profile = byValue.get(resolveBrandIdentity(brand).key);
+    return profile ? [profile] : [];
+  });
+  const pinnedValues = new Set(pinned.map((profile) => profile.value));
+  const ranked = allProfiles.filter(
+    (profile) => profile.total >= 2 && !pinnedValues.has(profile.value),
+  );
+
+  return [...pinned, ...ranked].slice(0, Math.max(0, limit));
 }
