@@ -124,18 +124,20 @@ async function loadBrandGroups(): Promise<BrandGroups> {
 
 export function BrandFeaturedGroupLabel() {
   useEffect(() => {
+    let cancelled = false;
     renameBrandGroup();
-    void loadBrandGroups()
-      .then((groups) => applyBrandOrder(groups))
-      .catch(() => renameBrandGroup());
 
-    const observer = new MutationObserver(() => {
-      if (applying) return;
-      if (cachedBrandGroups) applyBrandOrder(cachedBrandGroups);
-      else renameBrandGroup();
-    });
-    observer.observe(document.body, { childList: true, subtree: true });
-    return () => observer.disconnect();
+    void loadBrandGroups()
+      .then((groups) => {
+        if (!cancelled) applyBrandOrder(groups);
+      })
+      .catch(() => {
+        if (!cancelled) renameBrandGroup();
+      });
+
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return null;
