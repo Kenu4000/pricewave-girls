@@ -40,6 +40,48 @@ test("状態ラベルがなくても明確な欠品表記はランクBとして�
   );
 });
 
+test("末尾括弧のランクB表記を状態として分離する", () => {
+  assert.deepEqual(
+    splitProductTitleCondition("WindowsXP/Vista/7 DVDソフト DEAR DROPS（ランクB）"),
+    {
+      title: "WindowsXP/Vista/7 DVDソフト DEAR DROPS",
+      condition: "ランクB",
+      conditionRank: "B",
+    },
+  );
+  assert.deepEqual(splitProductTitleCondition("DEAR DROPS（ランクＢ）"), {
+    title: "DEAR DROPS",
+    condition: "ランクB",
+    conditionRank: "B",
+  });
+});
+
+test("説明書欠けを欠品系のランクBとして分離する", () => {
+  assert.deepEqual(
+    splitProductTitleCondition(
+      "Windows7/8/8.1/10 DVDソフト 戯画ロイヤルスウィートコレクション（説明書欠け）",
+    ),
+    {
+      title: "Windows7/8/8.1/10 DVDソフト 戯画ロイヤルスウィートコレクション",
+      condition: "説明書欠け",
+      conditionRank: "B",
+    },
+  );
+});
+
+test("複数の構成物しかない表記をランクBとして分離する", () => {
+  assert.deepEqual(
+    splitProductTitleCondition(
+      "Windows95/98/Me/2000/XP CDソフト Quartett![初回版]（ゲームディスク+説明書のみ）",
+    ),
+    {
+      title: "Windows95/98/Me/2000/XP CDソフト Quartett![初回版]",
+      condition: "ゲームディスク+説明書のみ",
+      conditionRank: "B",
+    },
+  );
+});
+
 test("駿河屋のランクB接頭表記を状態として分離する", () => {
   assert.deepEqual(
     splitProductTitleCondition(
@@ -56,11 +98,18 @@ test("駿河屋のランクB接頭表記を状態として分離する", () => {
     condition: "ランクB",
     conditionRank: "B",
   });
+  assert.deepEqual(splitProductTitleCondition("【ランクＢ】Kanon"), {
+    title: "Kanon",
+    condition: "ランクB",
+    conditionRank: "B",
+  });
 });
 
 test("通常の括弧を状態表記として扱わない", () => {
   assert.equal(hasTrailingConditionAnnotation("AIR(初回限定版)"), false);
   assert.equal(hasTrailingConditionAnnotation("作品名（Windows版）"), false);
+  assert.equal(hasTrailingConditionAnnotation("作品名（Windows版のみ）"), false);
+  assert.equal(hasTrailingConditionAnnotation("作品名（ゲームディスク版）"), false);
   assert.equal(hasTrailingConditionAnnotation("状態：説明書欠品"), false);
 });
 
@@ -71,8 +120,11 @@ test("状態表記付き商品のIDだけを抽出する", () => {
       { id: 2, title: "Kanon(状態：ディスクのみ)" },
       { id: 3, title: "CLANNAD", condition: "箱不備", conditionRank: "B" },
       { id: 4, title: "Windows DVDソフト ランクB)智代アフター" },
+      { id: 5, title: "DEAR DROPS（ランクB）" },
+      { id: 6, title: "戯画ロイヤルスウィートコレクション（説明書欠け）" },
+      { id: 7, title: "Quartett![初回版]（ゲームディスク+説明書のみ）" },
     ]),
-    [2, 3, 4],
+    [2, 3, 4, 5, 6, 7],
   );
 });
 
@@ -83,6 +135,9 @@ test("状態表記なし商品のIDだけを抽出する", () => {
       { id: 2, title: "Kanon(状態：ディスクのみ)" },
       { id: 3, title: "CLANNAD", condition: "箱不備", conditionRank: "B" },
       { id: 4, title: "Windows DVDソフト ランクB)智代アフター" },
+      { id: 5, title: "DEAR DROPS（ランクB）" },
+      { id: 6, title: "戯画ロイヤルスウィートコレクション（説明書欠け）" },
+      { id: 7, title: "Quartett![初回版]（ゲームディスク+説明書のみ）" },
     ]),
     [1],
   );
