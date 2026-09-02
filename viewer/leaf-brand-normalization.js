@@ -24,10 +24,11 @@
   }
 
   function normalizeViewerData() {
-    if (!state?.data) return;
+    if (!state?.data) return false;
     for (const product of state.data.products || []) normalizeProduct(product);
     for (const change of state.data.priceChanges || []) normalizeProduct(change.product);
     if (LEAF_KEYS.has(normalizeKey(state.brand))) state.brand = 'Leaf';
+    return true;
   }
 
   for (const name of ['renderProducts', 'renderChanges', 'renderProduct']) {
@@ -38,4 +39,15 @@
       return original.apply(this, args);
     };
   }
+
+  let attempts = 0;
+  function normalizeInitialSnapshot() {
+    attempts += 1;
+    if (!normalizeViewerData()) {
+      if (attempts < 100) setTimeout(normalizeInitialSnapshot, 50);
+      return;
+    }
+    window.dispatchEvent(new Event('hashchange'));
+  }
+  setTimeout(normalizeInitialSnapshot, 0);
 })();
