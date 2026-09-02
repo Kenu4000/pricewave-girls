@@ -95,7 +95,7 @@
     const focusedProductIds = new Set();
 
     for (const product of products) {
-      if (featured.has(normalizeBrand(product.manufacturer)) || isThreeDaysOrMore(product)) {
+      if (featured.has(normalizeBrand(product.manufacturer)) && isThreeDaysOrMore(product)) {
         focusedProductIds.add(Number(product.id));
       }
     }
