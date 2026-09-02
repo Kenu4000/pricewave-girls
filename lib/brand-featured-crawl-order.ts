@@ -20,7 +20,13 @@ export const FEATURED_BRAND_LIMIT = 20;
 const FEATURED_EXCLUDED_SOURCE_KEYS = new Set(
   ["BEEP", "AiNO"].map((value) => normalizeBrandKey(value)),
 );
-const FEATURED_PINNED_BRANDS = ["暁", "あっぷりけ", "パープルソフトウェア", "Navel"] as const;
+const FEATURED_PINNED_BRANDS = [
+  "暁",
+  "あっぷりけ",
+  "パープルソフトウェア",
+  "Navel",
+  "ぱれっと",
+] as const;
 
 const japaneseCollator = new Intl.Collator("ja", {
   numeric: true,
@@ -117,14 +123,14 @@ export function selectFeaturedBrands(
   );
   const allProfiles = rankFeaturedBrandsByCrawlFrequency(eligibleProducts, 1);
   const byValue = new Map(allProfiles.map((profile) => [profile.value, profile]));
+  const automatic = allProfiles
+    .filter((profile) => profile.total >= 2)
+    .slice(0, Math.max(0, limit));
+  const selectedValues = new Set(automatic.map((profile) => profile.value));
   const pinned = FEATURED_PINNED_BRANDS.flatMap((brand) => {
     const profile = byValue.get(resolveBrandIdentity(brand).key);
-    return profile ? [profile] : [];
+    return profile && !selectedValues.has(profile.value) ? [profile] : [];
   });
-  const pinnedValues = new Set(pinned.map((profile) => profile.value));
-  const ranked = allProfiles.filter(
-    (profile) => profile.total >= 2 && !pinnedValues.has(profile.value),
-  );
 
-  return [...pinned, ...ranked].slice(0, Math.max(0, limit));
+  return [...automatic, ...pinned];
 }
