@@ -32,10 +32,9 @@ async function rewriteProductWhereTitleContains(
 ): Promise<Prisma.ProductWhereInput> {
   const next: Prisma.ProductWhereInput = { ...where };
   const titleFilter = isRecord(next.title) ? next.title : null;
-  const contains = titleFilter?.contains;
 
-  if (typeof contains === "string") {
-    const ids = await matchingProductTitleIds(client, contains);
+  if (titleFilter && typeof titleFilter.contains === "string") {
+    const ids = await matchingProductTitleIds(client, titleFilter.contains);
     const { contains: _ignoredContains, ...remainingTitleFilter } = titleFilter;
     delete next.title;
     if (Object.keys(remainingTitleFilter).length > 0) {
