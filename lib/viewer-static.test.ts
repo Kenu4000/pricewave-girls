@@ -27,9 +27,9 @@ test("閲覧版はローカルAPIではなく静的JSONだけを読む", () => {
   assert.doesNotMatch(appSource, /localhost:3000/u);
 });
 
-test("閲覧版HTMLは相対パスで静的アセットを読む", () => {
-  assert.match(htmlSource, /href="\.\/styles\.css"/u);
-  assert.match(htmlSource, /src="\.\/app\.js"/u);
+test("閲覧版HTMLはキャッシュキー付きでも相対パスで静的アセットを読む", () => {
+  assert.match(htmlSource, /href="\.\/styles\.css(?:\?v=[^"]+)?"/u);
+  assert.match(htmlSource, /src="\.\/app\.js(?:\?v=[^"]+)?"/u);
 });
 
 test("公開スクリプトは専用gh-pagesブランチだけをforce更新する", () => {
