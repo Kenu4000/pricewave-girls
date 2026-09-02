@@ -1,7 +1,8 @@
 import { AsyncBatcher } from "@/lib/async-batcher";
 import {
-  allDisabledManufacturerKeys,
   manufacturerIdentityKey,
+  uniformManufacturerCrawlIntervals,
+  type InheritableCrawlInterval,
 } from "@/lib/new-product-crawl-interval";
 import { notifyProductsChanged } from "@/lib/product-events";
 import type { ProductPreview } from "@/lib/product-preview";
@@ -41,7 +42,7 @@ const productImportBatcher =
         }),
       );
 
-      let disabledManufacturerKeys = new Set<string>();
+      let inheritedIntervals = new Map<string, InheritableCrawlInterval>();
       if (newManufacturerKeys.size > 0) {
         // 判定対象は保存前から存在する商品だけ。同じバッチで追加される新商品同士は
         // 「過去に登録済みの商品」には数えない。
@@ -49,7 +50,7 @@ const productImportBatcher =
           where: { manufacturer: { not: null } },
           select: { manufacturer: true, crawlIntervalDays: true },
         });
-        disabledManufacturerKeys = allDisabledManufacturerKeys(
+        inheritedIntervals = uniformManufacturerCrawlIntervals(
           manufacturerStates.filter((product) => {
             const key = manufacturerIdentityKey(product.manufacturer);
             return key !== null && newManufacturerKeys.has(key);
@@ -61,16 +62,24 @@ const productImportBatcher =
       // 専用のライブ表示順が最後にサーバー描画結果で上書きされる。
       const products = await upsertProductSnapshotsWithTimeSale(inputs, { notify: false });
 
-      const inheritedDisabledIds = products.flatMap((product, index) => {
+      const inheritedIdsByInterval = new Map<InheritableCrawlInterval, number[]>();
+      for (let index = 0; index < products.length; index += 1) {
+        const product = products[index];
         const input = inputs[index];
-        if (!input || existingUrls.has(input.surugayaUrl)) return [];
+        if (!product || !input || existingUrls.has(input.surugayaUrl)) continue;
         const key = manufacturerIdentityKey(input.fetched.manufacturer);
-        return key && disabledManufacturerKeys.has(key) ? [product.id] : [];
-      });
-      if (inheritedDisabledIds.length > 0) {
+        if (!key || !inheritedIntervals.has(key)) continue;
+        const interval = inheritedIntervals.get(key)!;
+        const ids = inheritedIdsByInterval.get(interval) ?? [];
+        ids.push(product.id);
+        inheritedIdsByInterval.set(interval, ids);
+      }
+
+      for (const [interval, ids] of inheritedIdsByInterval) {
+        if (ids.length === 0) continue;
         await prisma.product.updateMany({
-          where: { id: { in: inheritedDisabledIds } },
-          data: { crawlIntervalDays: null },
+          where: { id: { in: ids } },
+          data: { crawlIntervalDays: interval },
         });
       }
 
