@@ -43,7 +43,7 @@ test("Viewerの巡回周期色はmainの商品一覧と同じ5色を使う", () 
   assert.match(cssSource, /#62676d/u);
 });
 
-test("Viewer HTMLが巡回周期のCSSとJavaScriptを読み込む", () => {
-  assert.match(htmlSource, /href="\.\/crawl-interval-display\.css"/u);
-  assert.match(htmlSource, /src="\.\/crawl-interval-display\.js"/u);
+test("Viewer HTMLがキャッシュキー付きで巡回周期のCSSとJavaScriptを読み込む", () => {
+  assert.match(htmlSource, /href="\.\/crawl-interval-display\.css\?v=[^"]+"/u);
+  assert.match(htmlSource, /src="\.\/crawl-interval-display\.js\?v=[^"]+"/u);
 });
