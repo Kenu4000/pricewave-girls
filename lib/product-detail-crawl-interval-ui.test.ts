@@ -34,32 +34,23 @@ test("通常版の商品詳細で巡回周期を1・3・7・14・無へ変更で
   assert.match(layout, /grid-column: 2 \/ -1/u);
 });
 
-test("Viewerの商品詳細にもコンパクトな巡回周期UIを表示し重複確認後に変更依頼Issueを開く", async () => {
+test("Viewerの商品詳細は巡回周期を閲覧用バッジとして表示する", async () => {
   const html = await readFile(new URL("../viewer/index.html", import.meta.url), "utf8");
   const script = await readFile(
-    new URL("../viewer/product-crawl-interval.js", import.meta.url),
+    new URL("../viewer/crawl-interval-display.js", import.meta.url),
     "utf8",
   );
   const css = await readFile(
-    new URL("../viewer/product-crawl-interval.css", import.meta.url),
+    new URL("../viewer/mobile-detail-compact.css", import.meta.url),
     "utf8",
   );
 
-  assert.match(html, /product-crawl-interval\.css/u);
-  assert.match(html, /product-crawl-interval\.js/u);
-  assert.match(html, /crawl-issue-utils\.js/u);
-  assert.match(script, /label: '1日'/u);
-  assert.match(script, /label: '3日'/u);
-  assert.match(script, /label: '7日'/u);
-  assert.match(script, /label: '14日'/u);
-  assert.match(script, /label: '無'/u);
-  assert.match(script, /pricewave-crawl-interval-request product:\$\{product\.id\}/u);
-  assert.match(script, /issues\/new/u);
-  assert.match(script, /aria-pressed/u);
-  assert.match(script, /findOpenRequest\(product\.id, \{ force: true \}\)/u);
-  assert.match(script, /既存の変更依頼を開きました/u);
-  assert.doesNotMatch(script, /この商品を取得する頻度/u);
-  assert.doesNotMatch(script, /同じ商品の未処理Issueを確認してからGitHubを開きます/u);
-  assert.match(css, /display:flex/u);
-  assert.match(css, /white-space:nowrap/u);
+  assert.match(html, /crawl-interval-display\.css\?v=/u);
+  assert.match(html, /crawl-interval-display\.js\?v=/u);
+  assert.doesNotMatch(html, /product-crawl-interval\.js/u);
+  assert.doesNotMatch(html, /crawl-issue-utils\.js/u);
+  assert.match(script, /\.detail-prices/u);
+  assert.match(script, /detail \? `巡回周期 \$\{meta\.label\}`/u);
+  assert.match(script, /crawl-interval-detail-badge/u);
+  assert.match(css, /\.detail-prices \.crawl-interval-detail-badge/u);
 });
