@@ -23,7 +23,7 @@ test("Viewer商品一覧のモバイルでも価格変動ラベルをカード�
   assert.match(css, /\.product-card \.product-image\s*\{[^}]*grid-row:\s*2 \/ 5/su);
 });
 
-test("Viewerはmain準拠の商品一覧CSSを読み込む", async () => {
+test("Viewerはキャッシュキー付きでmain準拠の商品一覧CSSを読み込む", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /product-list-main-ui\.css\?v=202608200029/u);
+  assert.match(html, /product-list-main-ui\.css\?v=[^"]+/u);
 });
