@@ -18,16 +18,24 @@ export async function GET() {
     },
   });
 
-  const featured = selectFeaturedBrands(products).map((profile) => ({
-    value: profile.value,
-    label: profile.label,
-    total: profile.total,
-    daily: profile.daily,
-    withinThreeDays: profile.withinThreeDays,
-    withinSevenDays: profile.withinSevenDays,
-    active: profile.active,
-  }));
-  const byProductCount = rankFeaturedBrandsByCrawlFrequency(products, 1)
+  const profiles = rankFeaturedBrandsByCrawlFrequency(products, 1);
+  const stoppedValues = new Set(
+    profiles.filter((profile) => profile.active === 0).map((profile) => profile.value),
+  );
+
+  const featured = selectFeaturedBrands(products)
+    .filter((profile) => !stoppedValues.has(profile.value))
+    .map((profile) => ({
+      value: profile.value,
+      label: profile.label,
+      total: profile.total,
+      daily: profile.daily,
+      withinThreeDays: profile.withinThreeDays,
+      withinSevenDays: profile.withinSevenDays,
+      active: profile.active,
+    }));
+  const byProductCount = profiles
+    .filter((profile) => profile.active > 0)
     .sort(
       (left, right) =>
         right.total - left.total || japaneseCollator.compare(left.label, right.label),
@@ -37,6 +45,14 @@ export async function GET() {
       label: profile.label,
       total: profile.total,
     }));
+  const stopped = profiles
+    .filter((profile) => profile.active === 0)
+    .sort((left, right) => japaneseCollator.compare(left.label, right.label))
+    .map((profile) => ({
+      value: profile.value,
+      label: profile.label,
+      total: profile.total,
+    }));
 
-  return NextResponse.json({ featured, byProductCount });
+  return NextResponse.json({ featured, byProductCount, stopped });
 }
