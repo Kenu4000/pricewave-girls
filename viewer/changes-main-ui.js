@@ -270,7 +270,7 @@
           <p class="muted">条件に一致する価格変更 ${changes.length.toLocaleString('ja-JP')}件</p>
         </div>
         <div class="viewer-change-scope" aria-label="価格変更の表示対象">
-          <button type="button" data-change-scope="focused" class="${changeViewState.scope === 'focused' ? 'active' : ''}">注目メーカー＋1・3日</button>
+          <button type="button" data-change-scope="focused" class="${changeViewState.scope === 'focused' ? 'active' : ''}">注目</button>
           <button type="button" data-change-scope="all" class="${changeViewState.scope === 'all' ? 'active' : ''}">全商品</button>
         </div>
       </div>
