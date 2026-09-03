@@ -32,7 +32,7 @@ test("Viewer価格変更の検索は商品メタデータも対象にする", as
   assert.match(js, /商品名・ブランド・原画など/u);
 });
 
-test("Viewer価格変更は注目メーカーまたは巡回周期3日以上を本体で初期表示にする", async () => {
+test("Viewer価格変更は注目メーカーまたは巡回周期1日・3日を本体で初期表示にする", async () => {
   const js = await text("viewer/changes-main-ui.js");
   assert.match(js, /scope: 'focused'/u);
   assert.match(js, /FEATURED_LIMIT = 20/u);
@@ -43,10 +43,11 @@ test("Viewer価格変更は注目メーカーまたは巡回周期3日以上を�
   assert.match(js, /パープルソフトウェア/u);
   assert.match(js, /Navel/u);
   assert.match(js, /ぱれっと/u);
-  assert.match(js, /days >= 3/u);
+  assert.match(js, /days === 1 \|\| days === 3/u);
+  assert.doesNotMatch(js, /days >= 3/u);
   assert.match(
     js,
-    /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isThreeDaysOrMore\(product\)/u,
+    /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isOneOrThreeDays\(product\)/u,
   );
   assert.match(js, /scopedIds && !scopedIds\.has\(Number\(change\.productId\)\)/u);
 });
@@ -62,7 +63,7 @@ test("Viewer価格変更は全商品へ切り替えられる", async () => {
 test("Viewer価格変更UIは本体統合版だけをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
   assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
-  assert.match(html, /changes-main-ui\.js\?v=202609030652/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609031420/u);
   assert.match(html, /changes-focus-filter\.css\?v=202609021424/u);
   assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
