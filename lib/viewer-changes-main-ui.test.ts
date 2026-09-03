@@ -8,28 +8,28 @@ async function text(path: string) {
   return readFile(`${ROOT}/${path}`, "utf8");
 }
 
-test("Viewer価格変更はmain準拠のフィルタと表UIを持つ", async () => {
+test("Viewer価格変更は表UIと注目切り替えを持つ", async () => {
   const js = await text("viewer/changes-main-ui.js");
-  assert.match(js, /<span>検索<\/span>/u);
-  assert.match(js, /ブランド/u);
-  assert.match(js, /価格の種類/u);
-  assert.match(js, /値動き/u);
   assert.match(js, /viewer-change-table/u);
   assert.match(js, /変更日時/u);
   assert.match(js, /変更前/u);
   assert.match(js, /変更後/u);
   assert.match(js, /data-label=/u);
+  assert.match(js, /data-change-scope="focused"/u);
+  assert.match(js, />注目<\/button>/u);
+  assert.match(js, /data-change-scope="all"/u);
+  assert.match(js, />全商品<\/button>/u);
   assert.doesNotThrow(() => new Function(js));
 });
 
-test("Viewer価格変更の検索は商品メタデータも対象にする", async () => {
+test("Viewer価格変更から検索フォームを廃止する", async () => {
   const js = await text("viewer/changes-main-ui.js");
-  assert.match(js, /viewerProductMatchesSearch/u);
-  assert.match(js, /summary\.searchText \|\| fallback/u);
-  assert.match(js, /summary\.manufacturer/u);
-  assert.match(js, /summary\.releaseDate/u);
-  assert.match(js, /normalize\('NFKC'\)/u);
-  assert.match(js, /商品名・ブランド・原画など/u);
+  assert.doesNotMatch(js, /viewer-change-filter-form/u);
+  assert.doesNotMatch(js, /viewer-change-query/u);
+  assert.doesNotMatch(js, /viewer-change-brand/u);
+  assert.doesNotMatch(js, /viewer-change-type/u);
+  assert.doesNotMatch(js, /viewer-change-direction/u);
+  assert.doesNotMatch(js, /viewerProductMatchesSearch/u);
 });
 
 test("Viewer価格変更は注目メーカーまたは巡回周期1日・3日を本体で初期表示にする", async () => {
@@ -49,7 +49,7 @@ test("Viewer価格変更は注目メーカーまたは巡回周期1日・3日を
     js,
     /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isOneOrThreeDays\(product\)/u,
   );
-  assert.match(js, /scopedIds && !scopedIds\.has\(Number\(change\.productId\)\)/u);
+  assert.match(js, /!scopedIds \|\| scopedIds\.has\(Number\(change\.productId\)\)/u);
 });
 
 test("Viewer価格変更は全商品へ切り替えられる", async () => {
@@ -63,7 +63,7 @@ test("Viewer価格変更は全商品へ切り替えられる", async () => {
 test("Viewer価格変更UIは本体統合版だけをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
   assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
-  assert.match(html, /changes-main-ui\.js\?v=202609031428/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609031440/u);
   assert.match(html, /changes-focus-filter\.css\?v=202609021424/u);
   assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
