@@ -43,7 +43,7 @@ test("選抜メーカーは五十音順で表示し巡回中なら五十音一�
   assert.doesNotMatch(component, /featuredSet/u);
 });
 
-test("mainのメーカー詳細検索に製品数が多い順を追加する", async () => {
+test("製品数が多い順はメーカー欄と別の選択欄にする", async () => {
   const component = await readFile(
     new URL("../components/BrandFeaturedGroupLabel.tsx", import.meta.url),
     "utf8",
@@ -53,8 +53,12 @@ test("mainのメーカー詳細検索に製品数が多い順を追加する", a
     "utf8",
   );
 
-  assert.match(component, /製品数が多い順/u);
-  assert.match(component, /byProductCount/u);
+  assert.match(component, /PRODUCT_COUNT_LABEL = "製品数が多い順"/u);
+  assert.match(component, /ensureProductCountField/u);
+  assert.match(component, /insertAdjacentElement\("afterend", field\)/u);
+  assert.match(component, /data-product-count-brand-select/u);
+  assert.match(component, /brandSelect\.value = countSelect\.value/u);
+  assert.doesNotMatch(component, /appendGroup\(PRODUCT_COUNT_LABEL/u);
   assert.match(route, /rankFeaturedBrandsByCrawlFrequency\(products, 1\)/u);
   assert.match(route, /right\.total - left\.total/u);
   assert.match(route, /byProductCount/u);
