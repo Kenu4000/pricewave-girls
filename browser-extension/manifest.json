@@ -29,6 +29,14 @@
       "css": ["price-history-panel.css"],
       "js": ["content.js", "price-history-panel.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "http://localhost:3000/automation/run*",
+        "http://127.0.0.1:3000/automation/run*"
+      ],
+      "js": ["automation-runner.js"],
+      "run_at": "document_idle"
     }
   ],
   "action": {
