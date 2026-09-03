@@ -1,3 +1,7 @@
+param(
+  [switch]$NoVSCode
+)
+
 $ErrorActionPreference = "Stop"
 
 $Root = Split-Path -Parent $PSScriptRoot
@@ -32,10 +36,12 @@ function Start-PricewaveDevServer {
   }
 }
 
-if (Get-Command code.cmd -ErrorAction SilentlyContinue) {
-  Start-Process code.cmd -ArgumentList "." | Out-Null
-} elseif (Get-Command code.exe -ErrorAction SilentlyContinue) {
-  Start-Process code.exe -ArgumentList "." | Out-Null
+if (-not $NoVSCode) {
+  if (Get-Command code.cmd -ErrorAction SilentlyContinue) {
+    Start-Process code.cmd -ArgumentList "." | Out-Null
+  } elseif (Get-Command code.exe -ErrorAction SilentlyContinue) {
+    Start-Process code.exe -ArgumentList "." | Out-Null
+  }
 }
 
 if (-not (Test-PricewaveServer)) {
