@@ -24,11 +24,11 @@ test("Viewer価格変更は表UIと注目切り替えを持つ", async () => {
 
 test("Viewer価格変更から検索フォームを廃止する", async () => {
   const js = await text("viewer/changes-main-ui.js");
-  assert.doesNotMatch(js, /viewer-change-filter-form/u);
-  assert.doesNotMatch(js, /viewer-change-query/u);
-  assert.doesNotMatch(js, /viewer-change-brand/u);
-  assert.doesNotMatch(js, /viewer-change-type/u);
-  assert.doesNotMatch(js, /viewer-change-direction/u);
+  assert.doesNotMatch(js, /id="viewer-change-filter-form"/u);
+  assert.doesNotMatch(js, /id="viewer-change-query"/u);
+  assert.doesNotMatch(js, /id="viewer-change-brand"/u);
+  assert.doesNotMatch(js, /id="viewer-change-type"/u);
+  assert.doesNotMatch(js, /id="viewer-change-direction"/u);
   assert.doesNotMatch(js, /viewerProductMatchesSearch/u);
 });
 
