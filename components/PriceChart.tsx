@@ -1,19 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import {
-  CartesianGrid,
-  Legend,
-  Line,
-  LineChart,
-  ReferenceLine,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
+import { useMemo, useState } from "react";
 import {
   aggregatePriceChartData,
+  type AggregatedPriceChartPoint,
   type PriceChartHistory,
   type PriceChartMode,
 } from "@/lib/price-chart-data";
@@ -25,105 +15,106 @@ const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
   { value: "month", label: "月" },
 ];
 
-const TOOLTIP_SERIES = [
-  { name: "販売価格", color: "#d9469a" },
-  { name: "買取価格", color: "#3b82f6" },
-  { name: "ランクB", color: "#16a34a" },
-  { name: "タイムセール", color: "#eab308" },
+const SERIES = [
+  { key: "salePrice", name: "販売価格", color: "#d9469a" },
+  { key: "buyPrice", name: "買取価格", color: "#3b82f6" },
+  { key: "rankBPrice", name: "ランクB", color: "#16a34a" },
+  { key: "timeSalePrice", name: "タイムセール", color: "#eab308" },
 ] as const;
 
-const yenFormatter = (value: number | string | null) => {
-  if (value === null || value === undefined) {
-    return "-";
-  }
+type SeriesKey = (typeof SERIES)[number]["key"];
 
-  return `${Number(value).toLocaleString("ja-JP")}円`;
-};
+const WIDTH = 960;
+const HEIGHT = 300;
+const LEFT = 72;
+const RIGHT = 18;
+const TOP = 18;
+const BOTTOM = 46;
 
-const compactYenFormatter = (value: number | string | null) => {
-  if (value === null || value === undefined) return "-";
-  const amount = Number(value);
-  if (!Number.isFinite(amount)) return "-";
-  if (Math.abs(amount) >= 10_000) {
-    const man = amount / 10_000;
-    return `${Number.isInteger(man) ? man.toFixed(0) : man.toFixed(1)}万`;
-  }
-  if (Math.abs(amount) >= 1_000) {
-    const thousand = amount / 1_000;
-    return `${Number.isInteger(thousand) ? thousand.toFixed(0) : thousand.toFixed(1)}千`;
-  }
-  return String(amount);
-};
-
-type TooltipPayloadEntry = {
-  color?: string;
-  name?: unknown;
-  value?: unknown;
-};
-
-type PriceTooltipProps = {
-  active?: boolean;
-  payload?: ReadonlyArray<TooltipPayloadEntry>;
-  label?: unknown;
-};
-
-function numericValue(value: unknown): number | null {
-  if (typeof value !== "number" && typeof value !== "string") return null;
-  const parsed = Number(value);
-  return Number.isFinite(parsed) ? parsed : null;
+function yen(value: number | null | undefined): string {
+  return value == null ? "-" : `${value.toLocaleString("ja-JP")}円`;
 }
 
-function PriceTooltip({ active, payload, label }: PriceTooltipProps) {
-  if (!active) return null;
-
-  const valuesByName = new Map<string, number | null>();
-  for (const entry of payload ?? []) {
-    if (typeof entry.name !== "string") continue;
-    valuesByName.set(entry.name, numericValue(entry.value));
+function compactYen(value: number): string {
+  if (Math.abs(value) >= 10_000) {
+    const man = value / 10_000;
+    return `${Number.isInteger(man) ? man.toFixed(0) : man.toFixed(1)}万`;
   }
+  if (Math.abs(value) >= 1_000) {
+    const thousand = value / 1_000;
+    return `${Number.isInteger(thousand) ? thousand.toFixed(0) : thousand.toFixed(1)}千`;
+  }
+  return String(Math.round(value));
+}
 
-  return (
-    <div className={styles.tooltip}>
-      {label !== undefined && label !== null ? (
-        <div className={styles.tooltipLabel}>{String(label)}</div>
-      ) : null}
-      <div className={styles.tooltipRows}>
-        {TOOLTIP_SERIES.map((series) => (
-          <div className={styles.tooltipRow} key={series.name}>
-            <span
-              aria-hidden="true"
-              className={styles.tooltipMarker}
-              style={{ backgroundColor: series.color }}
-            />
-            <span>{series.name}</span>
-            <strong>{yenFormatter(valuesByName.get(series.name) ?? null)}</strong>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+function seriesValue(point: AggregatedPriceChartPoint, key: SeriesKey): number | null {
+  return point[key];
+}
+
+function linePath(
+  data: AggregatedPriceChartPoint[],
+  key: SeriesKey,
+  xAt: (index: number) => number,
+  yAt: (value: number) => number,
+): string {
+  const parts: string[] = [];
+  let started = false;
+  for (let index = 0; index < data.length; index += 1) {
+    const value = seriesValue(data[index], key);
+    if (value == null) continue;
+    parts.push(`${started ? "L" : "M"}${xAt(index).toFixed(2)},${yAt(value).toFixed(2)}`);
+    started = true;
+  }
+  return parts.join(" ");
+}
+
+function tickIndices(length: number, maximum = 6): number[] {
+  if (length <= maximum) return Array.from({ length }, (_, index) => index);
+  const result = new Set<number>([0, length - 1]);
+  for (let index = 1; index < maximum - 1; index += 1) {
+    result.add(Math.round((index * (length - 1)) / (maximum - 1)));
+  }
+  return [...result].sort((left, right) => left - right);
 }
 
 export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
   const [mode, setMode] = useState<PriceChartMode>("day");
-  const [compact, setCompact] = useState(false);
+  const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const data = useMemo(() => aggregatePriceChartData(histories, mode), [histories, mode]);
 
-  useEffect(() => {
-    const media = window.matchMedia("(max-width: 760px)");
-    const updateCompact = () => setCompact(media.matches);
-    updateCompact();
-    media.addEventListener("change", updateCompact);
-    return () => media.removeEventListener("change", updateCompact);
-  }, []);
+  const selectedIndex = selectedKey
+    ? data.findIndex((point) => point.key === selectedKey)
+    : data.length - 1;
+  const safeSelectedIndex = selectedIndex >= 0 ? selectedIndex : data.length - 1;
+  const selectedPoint = data[safeSelectedIndex] ?? null;
 
-  if (histories.length === 0) {
+  const values = data.flatMap((point) => [
+    point.salePrice,
+    point.buyPrice,
+    point.rankBPrice,
+    point.timeSalePrice,
+    point.timeSaleBasePrice,
+  ]).filter((value): value is number => typeof value === "number" && Number.isFinite(value));
+
+  if (histories.length === 0 || data.length === 0 || values.length === 0) {
     return <p className="muted">まだ価格履歴がありません。</p>;
   }
 
-  const chartMargin = compact
-    ? { bottom: 2, left: -14, right: 2, top: 8 }
-    : { bottom: 8, left: 0, right: 18, top: 16 };
+  const rawMin = Math.min(...values);
+  const rawMax = Math.max(...values);
+  const span = Math.max(1, rawMax - rawMin);
+  const padding = Math.max(100, span * 0.08);
+  const minValue = Math.max(0, rawMin - padding);
+  const maxValue = rawMax + padding;
+  const plotWidth = WIDTH - LEFT - RIGHT;
+  const plotHeight = HEIGHT - TOP - BOTTOM;
+  const xAt = (index: number) =>
+    data.length <= 1 ? LEFT + plotWidth / 2 : LEFT + (index / (data.length - 1)) * plotWidth;
+  const yAt = (value: number) => TOP + ((maxValue - value) / (maxValue - minValue)) * plotHeight;
+  const yTicks = Array.from({ length: 5 }, (_, index) => minValue + ((maxValue - minValue) * index) / 4);
+  const xTicks = tickIndices(data.length);
+
+  const selectPoint = (point: AggregatedPriceChartPoint) => setSelectedKey(point.key);
 
   return (
     <div className={styles.root}>
@@ -133,7 +124,10 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             aria-pressed={mode === option.value}
             className={styles.periodButton}
             key={option.value}
-            onClick={() => setMode(option.value)}
+            onClick={() => {
+              setMode(option.value);
+              setSelectedKey(null);
+            }}
             type="button"
           >
             {option.label}
@@ -147,96 +141,107 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
             ? "全期間を週ごとの最終価格で表示"
             : "全期間を月ごとの最終価格で表示"}
       </p>
+
+      {selectedPoint ? (
+        <div aria-live="polite" className={styles.readout}>
+          <strong>{selectedPoint.label}</strong>
+          <div className={styles.readoutValues}>
+            {SERIES.map((series) => (
+              <span key={series.key}>
+                <i aria-hidden="true" style={{ backgroundColor: series.color }} />
+                {series.name}: {yen(seriesValue(selectedPoint, series.key))}
+              </span>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       <div className={styles.chartWrap}>
-        <ResponsiveContainer height="100%" width="100%">
-          <LineChart data={data} margin={chartMargin}>
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis
-              dataKey="label"
-              interval="preserveStartEnd"
-              minTickGap={compact ? 12 : 24}
-              tick={{ fontSize: compact ? 9 : 12 }}
-              tickMargin={compact ? 5 : 8}
-            />
-            <YAxis
-              tick={{ fontSize: compact ? 9 : 12 }}
-              tickFormatter={(value) => (compact ? compactYenFormatter(value) : yenFormatter(value))}
-              width={compact ? 58 : 92}
-            />
-            <Tooltip
-              allowEscapeViewBox={{ x: false, y: false }}
-              filterNull={false}
-              isAnimationActive={false}
-              offset={8}
-              content={(props) => (
-                <PriceTooltip
-                  active={props.active}
-                  label={props.label}
-                  payload={props.payload}
+        <svg
+          aria-label="価格推移グラフ"
+          className={styles.svg}
+          preserveAspectRatio="none"
+          role="img"
+          viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+        >
+          {yTicks.map((value) => {
+            const y = yAt(value);
+            return (
+              <g key={`y-${value}`}>
+                <line className={styles.gridLine} x1={LEFT} x2={WIDTH - RIGHT} y1={y} y2={y} />
+                <text className={styles.yLabel} x={LEFT - 10} y={y + 4}>{compactYen(value)}</text>
+              </g>
+            );
+          })}
+
+          {xTicks.map((index) => (
+            <text
+              className={styles.xLabel}
+              key={`x-${data[index].key}`}
+              textAnchor={index === 0 ? "start" : index === data.length - 1 ? "end" : "middle"}
+              x={xAt(index)}
+              y={HEIGHT - 14}
+            >
+              {data[index].label}
+            </text>
+          ))}
+
+          {SERIES.filter((series) => series.key !== "timeSalePrice").map((series) => {
+            const path = linePath(data, series.key, xAt, yAt);
+            return path ? (
+              <path
+                className={styles.seriesLine}
+                d={path}
+                key={series.key}
+                stroke={series.color}
+              />
+            ) : null;
+          })}
+
+          {data.map((point, index) => {
+            if (point.timeSalePrice == null || point.timeSaleBasePrice == null) return null;
+            return (
+              <line
+                className={styles.timeSaleBranch}
+                key={`sale-branch-${point.key}`}
+                x1={xAt(index)}
+                x2={xAt(index)}
+                y1={yAt(point.timeSaleBasePrice)}
+                y2={yAt(point.timeSalePrice)}
+              />
+            );
+          })}
+
+          {SERIES.map((series) =>
+            data.map((point, index) => {
+              const value = seriesValue(point, series.key);
+              if (value == null) return null;
+              const selected = index === safeSelectedIndex;
+              return (
+                <circle
+                  aria-label={`${point.label} ${series.name} ${yen(value)}`}
+                  className={styles.point}
+                  cx={xAt(index)}
+                  cy={yAt(value)}
+                  key={`${series.key}-${point.key}`}
+                  onFocus={() => selectPoint(point)}
+                  onPointerDown={() => selectPoint(point)}
+                  onPointerEnter={() => selectPoint(point)}
+                  r={selected ? 5 : series.key === "timeSalePrice" ? 4 : 3}
+                  role="button"
+                  stroke={series.color}
+                  tabIndex={0}
                 />
-              )}
-            />
-            <Legend
-              iconSize={compact ? 8 : 14}
-              wrapperStyle={{ fontSize: compact ? 10 : 12, lineHeight: compact ? "16px" : "20px" }}
-            />
-            {data
-              .filter(
-                (point) =>
-                  point.timeSalePrice !== null &&
-                  point.timeSaleBasePrice !== null &&
-                  point.timeSalePrice !== point.timeSaleBasePrice,
-              )
-              .map((point) => (
-                <ReferenceLine
-                  key={`time-sale-branch-${point.key}`}
-                  segment={[
-                    { x: point.label, y: point.timeSaleBasePrice! },
-                    { x: point.label, y: point.timeSalePrice! },
-                  ]}
-                  stroke="#eab308"
-                  strokeDasharray="4 3"
-                  strokeWidth={2}
-                />
-              ))}
-            <Line
-              connectNulls
-              dataKey="salePrice"
-              dot={compact ? false : { r: 3 }}
-              name="販売価格"
-              stroke="#d9469a"
-              strokeWidth={compact ? 2 : 3}
-              type="monotone"
-            />
-            <Line
-              connectNulls
-              dataKey="buyPrice"
-              dot={compact ? false : { r: 3 }}
-              name="買取価格"
-              stroke="#3b82f6"
-              strokeWidth={compact ? 2 : 3}
-              type="monotone"
-            />
-            <Line
-              connectNulls
-              dataKey="rankBPrice"
-              dot={compact ? false : { r: 3 }}
-              name="ランクB"
-              stroke="#16a34a"
-              strokeWidth={compact ? 2 : 3}
-              type="monotone"
-            />
-            <Line
-              connectNulls={false}
-              dataKey="timeSalePrice"
-              dot={{ r: compact ? 2.5 : 4 }}
-              name="タイムセール"
-              stroke="#eab308"
-              strokeWidth={compact ? 2 : 3}
-              type="monotone"
-            />
-          </LineChart>
-        </ResponsiveContainer>
+              );
+            }),
+          )}
+        </svg>
+      </div>
+
+      <div className={styles.legend} aria-label="価格系列">
+        {SERIES.map((series) => (
+          <span key={series.key}><i aria-hidden="true" style={{ backgroundColor: series.color }} />{series.name}</span>
+        ))}
       </div>
     </div>
   );
