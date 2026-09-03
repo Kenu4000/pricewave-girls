@@ -6,6 +6,7 @@ const CURRENT_LABEL = "よく登録されている";
 const BRAND_LABEL = "よく登録されているメーカー";
 const PRODUCT_COUNT_LABEL = "製品数が多い順";
 const STOPPED_LABEL = "巡回停止";
+const PRODUCT_COUNT_FIELD = "productCountBrandField";
 const japaneseCollator = new Intl.Collator("ja", {
   numeric: true,
   sensitivity: "base",
@@ -34,6 +35,72 @@ function renameBrandGroup() {
       group.label = BRAND_LABEL;
       break;
     }
+  }
+}
+
+function ensureProductCountField(
+  brandSelect: HTMLSelectElement,
+  values: Array<{ value: string; label: string }>,
+  selectedValue: string,
+) {
+  const brandField = brandSelect.closest<HTMLLabelElement>("label.filter-field");
+  if (!brandField) return;
+
+  let field = brandField.parentElement?.querySelector<HTMLLabelElement>(
+    `label[data-${PRODUCT_COUNT_FIELD.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`)}="true"]`,
+  );
+  if (!field) {
+    field = document.createElement("label");
+    field.className = "filter-field";
+    field.dataset[PRODUCT_COUNT_FIELD] = "true";
+
+    const label = document.createElement("span");
+    label.textContent = PRODUCT_COUNT_LABEL;
+    field.append(label);
+
+    const countSelect = document.createElement("select");
+    countSelect.className = "select";
+    countSelect.dataset.productCountBrandSelect = "true";
+    field.append(countSelect);
+
+    brandField.insertAdjacentElement("afterend", field);
+  }
+
+  const countSelect = field.querySelector<HTMLSelectElement>(
+    'select[data-product-count-brand-select="true"]',
+  );
+  if (!countSelect) return;
+
+  const blank = document.createElement("option");
+  blank.value = "";
+  blank.textContent = "すべて";
+  const options = values.map((source) => {
+    const option = document.createElement("option");
+    option.value = source.value;
+    option.textContent = source.label;
+    return option;
+  });
+  countSelect.replaceChildren(blank, ...options);
+  countSelect.value = values.some((option) => option.value === selectedValue) ? selectedValue : "";
+
+  countSelect.onchange = () => {
+    brandSelect.value = countSelect.value;
+    brandSelect.dispatchEvent(new Event("change", { bubbles: true }));
+  };
+
+  if (brandSelect.dataset.productCountSync !== "true") {
+    brandSelect.dataset.productCountSync = "true";
+    brandSelect.addEventListener("change", () => {
+      const companion = brandSelect
+        .closest<HTMLDivElement>(".advanced-filter-grid")
+        ?.querySelector<HTMLSelectElement>('select[data-product-count-brand-select="true"]');
+      if (!companion) return;
+      companion.value = [...companion.options].some(
+        (option) => option.value === brandSelect.value,
+      )
+        ? brandSelect.value
+        : "";
+    });
   }
 }
 
@@ -81,7 +148,10 @@ function applyBrandOrder(groups: BrandGroups) {
     alphabeticalValues.map((option) => option.value).join("\u0000"),
     stoppedValues.map((option) => option.value).join("\u0000"),
   ].join("\u0001");
-  if (select.dataset.featuredBrandOrder === orderSignature) return;
+  if (select.dataset.featuredBrandOrder === orderSignature) {
+    ensureProductCountField(select, productCountValues, selectedValue);
+    return;
+  }
 
   applying = true;
   try {
@@ -105,13 +175,13 @@ function applyBrandOrder(groups: BrandGroups) {
     };
 
     appendGroup(BRAND_LABEL, featuredValues);
-    appendGroup(PRODUCT_COUNT_LABEL, productCountValues);
     appendGroup("五十音順", alphabeticalValues);
     appendGroup(STOPPED_LABEL, stoppedValues);
 
     select.replaceChildren(...fragments);
     select.value = selectedValue;
     select.dataset.featuredBrandOrder = orderSignature;
+    ensureProductCountField(select, productCountValues, selectedValue);
   } finally {
     applying = false;
   }
