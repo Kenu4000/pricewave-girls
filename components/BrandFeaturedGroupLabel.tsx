@@ -5,6 +5,7 @@ import { useEffect } from "react";
 const CURRENT_LABEL = "よく登録されている";
 const BRAND_LABEL = "よく登録されているメーカー";
 const PRODUCT_COUNT_LABEL = "製品数が多い順";
+const STOPPED_LABEL = "巡回停止";
 const japaneseCollator = new Intl.Collator("ja", {
   numeric: true,
   sensitivity: "base",
@@ -18,6 +19,7 @@ type BrandOption = {
 type BrandGroups = {
   featured: BrandOption[];
   byProductCount: BrandOption[];
+  stopped: BrandOption[];
 };
 
 let cachedBrandGroups: BrandGroups | null = null;
@@ -60,17 +62,24 @@ function applyBrandOrder(groups: BrandGroups) {
       .map((value) => options.get(value))
       .filter((option): option is { value: string; label: string } => Boolean(option));
 
-  const featuredValues = available(groups.featured).sort((left, right) =>
+  const stoppedValues = available(groups.stopped).sort((left, right) =>
     japaneseCollator.compare(left.label, right.label),
   );
-  const productCountValues = available(groups.byProductCount);
-  const alphabeticalValues = [...options.values()].sort((left, right) =>
-    japaneseCollator.compare(left.label, right.label),
+  const stoppedSet = new Set(stoppedValues.map((option) => option.value));
+  const featuredValues = available(groups.featured)
+    .filter((option) => !stoppedSet.has(option.value))
+    .sort((left, right) => japaneseCollator.compare(left.label, right.label));
+  const productCountValues = available(groups.byProductCount).filter(
+    (option) => !stoppedSet.has(option.value),
   );
+  const alphabeticalValues = [...options.values()]
+    .filter((option) => !stoppedSet.has(option.value))
+    .sort((left, right) => japaneseCollator.compare(left.label, right.label));
   const orderSignature = [
     featuredValues.map((option) => option.value).join("\u0000"),
     productCountValues.map((option) => option.value).join("\u0000"),
     alphabeticalValues.map((option) => option.value).join("\u0000"),
+    stoppedValues.map((option) => option.value).join("\u0000"),
   ].join("\u0001");
   if (select.dataset.featuredBrandOrder === orderSignature) return;
 
@@ -98,6 +107,7 @@ function applyBrandOrder(groups: BrandGroups) {
     appendGroup(BRAND_LABEL, featuredValues);
     appendGroup(PRODUCT_COUNT_LABEL, productCountValues);
     appendGroup("五十音順", alphabeticalValues);
+    appendGroup(STOPPED_LABEL, stoppedValues);
 
     select.replaceChildren(...fragments);
     select.value = selectedValue;
@@ -114,10 +124,12 @@ async function loadBrandGroups(): Promise<BrandGroups> {
   const data = (await response.json()) as {
     featured?: BrandOption[];
     byProductCount?: BrandOption[];
+    stopped?: BrandOption[];
   };
   cachedBrandGroups = {
     featured: Array.isArray(data.featured) ? data.featured : [],
     byProductCount: Array.isArray(data.byProductCount) ? data.byProductCount : [],
+    stopped: Array.isArray(data.stopped) ? data.stopped : [],
   };
   return cachedBrandGroups;
 }
