@@ -45,6 +45,44 @@
   text-align: right;
 }
 
+.readout {
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 8px 10px;
+}
+
+.readout strong {
+  font-size: 0.82rem;
+}
+
+.readoutValues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+}
+
+.readoutValues span,
+.legend span {
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.76rem;
+  gap: 5px;
+}
+
+.readoutValues i,
+.legend i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
 .chartWrap {
   height: 245px;
   max-width: 100%;
@@ -53,42 +91,64 @@
   width: 100%;
 }
 
-.tooltip {
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
-  max-width: min(260px, calc(100vw - 32px));
-  min-width: 148px;
-  padding: 8px 10px;
-  pointer-events: none;
+.svg {
+  display: block;
+  height: 100%;
+  overflow: visible;
+  touch-action: pan-y;
+  width: 100%;
 }
 
-.tooltipLabel {
-  color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 700;
-  margin-bottom: 5px;
+.gridLine {
+  stroke: var(--border);
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
 }
 
-.tooltipRows {
-  display: grid;
-  gap: 4px;
+.seriesLine {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+  vector-effect: non-scaling-stroke;
 }
 
-.tooltipRow {
-  align-items: center;
-  display: grid;
-  font-size: 0.8rem;
-  gap: 6px;
-  grid-template-columns: 8px minmax(0, 1fr) auto;
-  white-space: nowrap;
+.timeSaleBranch {
+  stroke: #eab308;
+  stroke-dasharray: 4 3;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
 }
 
-.tooltipMarker {
-  border-radius: 50%;
-  height: 7px;
-  width: 7px;
+.point {
+  cursor: pointer;
+  fill: white;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.point:focus-visible {
+  outline: none;
+  stroke-width: 4;
+}
+
+.xLabel,
+.yLabel {
+  fill: var(--muted);
+  font-size: 12px;
+}
+
+.yLabel {
+  text-anchor: end;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  justify-content: center;
+  margin-top: 4px;
 }
 
 @media (max-width: 760px) {
@@ -112,23 +172,38 @@
     text-align: left;
   }
 
+  .readout {
+    align-items: flex-start;
+    display: grid;
+    gap: 5px;
+    padding: 7px 8px;
+  }
+
+  .readout strong {
+    font-size: 0.76rem;
+  }
+
+  .readoutValues {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .readoutValues span,
+  .legend span {
+    font-size: 0.7rem;
+  }
+
   .chartWrap {
     height: 220px;
   }
 
-  .tooltip {
-    max-width: calc(100vw - 40px);
-    min-width: 0;
-    padding: 7px 8px;
+  .xLabel,
+  .yLabel {
+    font-size: 10px;
   }
 
-  .tooltipLabel {
-    font-size: 0.7rem;
-  }
-
-  .tooltipRow {
-    font-size: 0.74rem;
-    grid-template-columns: 7px minmax(0, 1fr) auto;
-    white-space: nowrap;
+  .legend {
+    gap: 5px 10px;
   }
 }
