@@ -8,24 +8,25 @@ async function text(path: string) {
   return readFile(`${ROOT}/${path}`, "utf8");
 }
 
-test("Viewer価格変更の注目表示は注目メーカーOR巡回周期3日以上である", async () => {
+test("Viewer価格変更の注目表示は注目メーカーOR巡回周期1日・3日である", async () => {
   const js = await text("viewer/changes-main-ui.js");
 
   assert.match(
     js,
-    /featured\.has\(normalizeBrand\(product\.manufacturer\)\)\s*\|\|\s*isThreeDaysOrMore\(product\)/u,
+    /featured\.has\(normalizeBrand\(product\.manufacturer\)\)\s*\|\|\s*isOneOrThreeDays\(product\)/u,
   );
   assert.doesNotMatch(
     js,
-    /featured\.has\(normalizeBrand\(product\.manufacturer\)\)\s*&&\s*isThreeDaysOrMore\(product\)/u,
+    /featured\.has\(normalizeBrand\(product\.manufacturer\)\)\s*&&\s*isOneOrThreeDays\(product\)/u,
   );
-  assert.match(js, /注目メーカー＋3日以上/u);
+  assert.match(js, /days === 1 \|\| days === 3/u);
+  assert.match(js, /注目メーカー＋1・3日/u);
   assert.match(js, /全商品/u);
   assert.doesNotThrow(() => new Function(js));
 });
 
 test("Viewerは外付け価格変更フィルタを読み込まず本体統合版を使う", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /changes-main-ui\.js\?v=202609030652/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609031420/u);
   assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
