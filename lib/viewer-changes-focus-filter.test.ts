@@ -27,6 +27,6 @@ test("Viewer価格変更の注目表示は注目メーカーOR巡回周期1日�
 
 test("Viewerは外付け価格変更フィルタを読み込まず本体統合版を使う", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /changes-main-ui\.js\?v=202609031428/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609031440/u);
   assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
