@@ -225,8 +225,6 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
                   cy={yAt(value)}
                   key={`${series.key}-${point.key}`}
                   onFocus={() => selectPoint(point)}
-                  onPointerDown={() => selectPoint(point)}
-                  onPointerEnter={() => selectPoint(point)}
                   r={selected ? 5 : series.key === "timeSalePrice" ? 4 : 3}
                   role="button"
                   stroke={series.color}
@@ -235,6 +233,26 @@ export function PriceChart({ histories }: { histories: PriceChartHistory[] }) {
               );
             }),
           )}
+
+          {data.map((point, index) => {
+            const center = xAt(index);
+            const left = index === 0 ? LEFT : (xAt(index - 1) + center) / 2;
+            const right = index === data.length - 1 ? WIDTH - RIGHT : (center + xAt(index + 1)) / 2;
+            return (
+              <rect
+                aria-hidden="true"
+                fill="transparent"
+                height={plotHeight}
+                key={`hit-${point.key}`}
+                onPointerDown={() => selectPoint(point)}
+                onPointerEnter={() => selectPoint(point)}
+                onPointerMove={() => selectPoint(point)}
+                width={Math.max(1, right - left)}
+                x={left}
+                y={TOP}
+              />
+            );
+          })}
         </svg>
       </div>
 
