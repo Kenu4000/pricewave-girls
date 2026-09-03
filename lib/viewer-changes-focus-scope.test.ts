@@ -15,5 +15,5 @@ test("Viewer価格変更の通常範囲は注目メーカーまたは1日・3日
     /featured\.has\(normalizeBrand\(product\.manufacturer\)\) \|\| isOneOrThreeDays\(product\)/u,
   );
   assert.doesNotMatch(source, /days >= 3/u);
-  assert.match(source, /注目メーカー＋1・3日/u);
+  assert.match(source, />注目<\/button>/u);
 });
