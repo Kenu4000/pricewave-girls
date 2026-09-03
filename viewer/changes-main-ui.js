@@ -94,16 +94,16 @@
     return selected;
   }
 
-  function isThreeDaysOrMore(product) {
+  function isOneOrThreeDays(product) {
     const days = Number(product?.crawlIntervalDays);
-    return Number.isFinite(days) && days >= 3;
+    return days === 1 || days === 3;
   }
 
   function focusedProductIds(products) {
     const featured = featuredBrandValues(products);
     const ids = new Set();
     for (const product of products || []) {
-      if (featured.has(normalizeBrand(product.manufacturer)) || isThreeDaysOrMore(product)) {
+      if (featured.has(normalizeBrand(product.manufacturer)) || isOneOrThreeDays(product)) {
         ids.add(Number(product.id));
       }
     }
@@ -270,7 +270,7 @@
           <p class="muted">条件に一致する価格変更 ${changes.length.toLocaleString('ja-JP')}件</p>
         </div>
         <div class="viewer-change-scope" aria-label="価格変更の表示対象">
-          <button type="button" data-change-scope="focused" class="${changeViewState.scope === 'focused' ? 'active' : ''}">注目メーカー＋3日以上</button>
+          <button type="button" data-change-scope="focused" class="${changeViewState.scope === 'focused' ? 'active' : ''}">注目メーカー＋1・3日</button>
           <button type="button" data-change-scope="all" class="${changeViewState.scope === 'all' ? 'active' : ''}">全商品</button>
         </div>
       </div>
