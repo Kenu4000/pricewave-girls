@@ -63,7 +63,7 @@ test("Viewer価格変更は全商品へ切り替えられる", async () => {
 test("Viewer価格変更UIは本体統合版だけをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
   assert.match(html, /changes-main-ui\.css\?v=202608191453/u);
-  assert.match(html, /changes-main-ui\.js\?v=202609031420/u);
+  assert.match(html, /changes-main-ui\.js\?v=202609031428/u);
   assert.match(html, /changes-focus-filter\.css\?v=202609021424/u);
   assert.doesNotMatch(html, /changes-focus-filter\.js/u);
 });
