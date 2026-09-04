@@ -1,5 +1,5 @@
 importScripts("snapshot-readiness-wrapper.js", "fast-site-mode-wrapper.js");
-importScripts("crawl-run-history-wrapper.js");
+importScripts("auto-add-condition-filter-wrapper.js", "crawl-run-history-wrapper.js");
 
 chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   if (message?.type !== "pricewave:history") return undefined;
