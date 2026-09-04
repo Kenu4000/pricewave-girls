@@ -12,6 +12,13 @@ const ROOT = process.cwd();
 const OUTPUT_DIR = path.join(ROOT, "viewer-dist", "data");
 const SERIES_DATA_DIR = path.join(OUTPUT_DIR, "series");
 
+type ViewerSeriesIndexEntry = {
+  id: string;
+  name: string;
+  definedTitleCount: number;
+  path: string;
+};
+
 async function main() {
   await mkdir(SERIES_DATA_DIR, { recursive: true });
 
@@ -76,21 +83,17 @@ async function main() {
     );
   }
 
-  const productIndex = Object.fromEntries(
-    products.flatMap((product) => {
-      const series = findProductSeries(product.title);
-      if (!series || !exportedSeriesIds.has(series.id)) return [];
-      return [[
-        String(product.id),
-        {
-          id: series.id,
-          name: series.name,
-          definedTitleCount: series.titles.length,
-          path: `data/series/${series.id}.json`,
-        },
-      ]];
-    }),
-  );
+  const productIndex: Record<string, ViewerSeriesIndexEntry> = {};
+  for (const product of products) {
+    const series = findProductSeries(product.title);
+    if (!series || !exportedSeriesIds.has(series.id)) continue;
+    productIndex[String(product.id)] = {
+      id: series.id,
+      name: series.name,
+      definedTitleCount: series.titles.length,
+      path: `data/series/${series.id}.json`,
+    };
+  }
 
   await writeFile(
     path.join(OUTPUT_DIR, "series-index.json"),
