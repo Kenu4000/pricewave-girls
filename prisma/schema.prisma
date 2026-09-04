@@ -29,6 +29,7 @@ model Product {
   conditionRank          String         @default("A")
   crawlIntervalDays      Int?           @default(1)
   crawlIntervalReviewedAt DateTime?
+  releaseCrawlPromotedAt DateTime?
   isTimeSale             Boolean        @default(false)
   previousIsTimeSale     Boolean        @default(false)
   timeSaleStartedAt      DateTime?
@@ -50,6 +51,7 @@ model Product {
   @@index([conditionRank])
   @@index([crawlIntervalDays])
   @@index([crawlIntervalDays, crawlIntervalReviewedAt])
+  @@index([releaseCrawlPromotedAt])
   @@index([isTimeSale, timeSaleEndsAt])
 }
 
@@ -58,7 +60,7 @@ model PriceChange {
   productId     Int
   type          String
   previousPrice Int?
-  currentPrice  Int?
+  currentPrice Int?
   changedAt     DateTime @default(now())
   product       Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
 
@@ -107,7 +109,7 @@ model CrawlRun {
   status               String    @default("running")
   total                Int       @default(0)
   succeeded            Int       @default(0)
-  failed               Int       @default(0)
+  failed                Int       @default(0)
   message              String?
   startedAt            DateTime  @default(now())
   finishedAt           DateTime?
