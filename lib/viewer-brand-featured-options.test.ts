@@ -36,7 +36,9 @@ test("Viewerのブランド欄はmain同様に五十音順と巡回停止を分�
   assert.match(text, /appendGroup\(nodes, '五十音順',/u);
   assert.match(text, /appendGroup\(nodes, '巡回停止',/u);
   assert.match(text, /profile\.active === 0/u);
-  assert.match(html, /brand-featured-options\.js\?v=202609041107/u);
+  assert.match(text, /runtime\.register\('brand-featured-options'/u);
+  assert.doesNotMatch(text, /new MutationObserver/u);
+  assert.match(html, /brand-featured-options\.js\?v=202609041235/u);
 });
 
 test("Viewerの製品数が多い順はブランド欄と別の選択欄にする", async () => {
