@@ -21,7 +21,9 @@
 }
 
 .count,
-.note {
+.note,
+.legendHint,
+.scaleDescription {
   color: var(--muted);
   font-size: 0.78rem;
 }
@@ -48,8 +50,60 @@
   color: var(--primary);
 }
 
+.scaleToolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin: 4px 0 8px;
+}
+
+.scaleToolbar > span:first-child {
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.scaleButtons {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.scaleButtons button {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 4px 10px;
+}
+
+.scaleButtons button:hover:not(:disabled),
+.scaleButtons button:focus-visible:not(:disabled) {
+  border-color: var(--primary);
+  color: var(--primary-dark);
+}
+
+.scaleButtons button[aria-pressed="true"] {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.scaleButtons button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.scaleDescription {
+  flex: 1 1 300px;
+}
+
 .chartWrap {
-  height: 280px;
+  height: 300px;
   max-width: 100%;
   min-width: 0;
   overflow: hidden;
@@ -72,15 +126,32 @@
 
 .seriesLine {
   fill: none;
+  pointer-events: none;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2;
+  transition: opacity 120ms ease, stroke-width 120ms ease;
+  vector-effect: non-scaling-stroke;
+}
+
+.focusedLine {
+  stroke-width: 4;
+}
+
+.hitLine {
+  cursor: pointer;
+  fill: none;
+  pointer-events: stroke;
+  stroke: transparent;
+  stroke-width: 14;
   vector-effect: non-scaling-stroke;
 }
 
 .endPoint {
   fill: white;
+  pointer-events: none;
   stroke-width: 2;
+  transition: opacity 120ms ease;
   vector-effect: non-scaling-stroke;
 }
 
@@ -94,23 +165,48 @@
   text-anchor: end;
 }
 
+.legendHint {
+  margin: 6px 0 2px;
+}
+
 .legend {
   display: grid;
   gap: 5px 12px;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  margin-top: 8px;
+  margin-top: 4px;
   max-height: 190px;
   overflow: auto;
   padding-right: 4px;
 }
 
-.legend span {
+.legend button {
   align-items: center;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: inherit;
+  cursor: pointer;
   display: grid;
+  font: inherit;
   font-size: 0.73rem;
   gap: 6px;
   grid-template-columns: 8px minmax(0, 1fr) auto;
   min-width: 0;
+  padding: 4px 6px;
+  text-align: left;
+  transition: opacity 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.legend button:hover,
+.legend button:focus-visible,
+.legend button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--primary) 6%, transparent);
+  border-color: var(--border);
+  outline: none;
+}
+
+.legendDimmed {
+  opacity: 0.28;
 }
 
 .legend i {
@@ -143,8 +239,18 @@
     justify-self: start;
   }
 
+  .scaleToolbar {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .scaleDescription {
+    grid-column: 1 / -1;
+  }
+
   .chartWrap {
-    height: 245px;
+    height: 260px;
   }
 
   .xLabel,
@@ -154,6 +260,6 @@
 
   .legend {
     grid-template-columns: 1fr;
-    max-height: 220px;
+    max-height: 240px;
   }
 }
