@@ -204,19 +204,29 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             productId: true,
             checkedAt: true,
             salePrice: true,
+            buyPrice: true,
           },
         })
       : [];
-    const historiesByProduct = new Map<number, Array<{ checkedAt: string; salePrice: number | null }>>();
+    const historiesByProduct = new Map<
+      number,
+      Array<{ checkedAt: string; salePrice: number | null; buyPrice: number | null }>
+    >();
     for (const history of seriesHistories) {
       const bucket = historiesByProduct.get(history.productId) ?? [];
-      bucket.push({ checkedAt: history.checkedAt.toISOString(), salePrice: history.salePrice });
+      bucket.push({
+        checkedAt: history.checkedAt.toISOString(),
+        salePrice: history.salePrice,
+        buyPrice: history.buyPrice,
+      });
       historiesByProduct.set(history.productId, bucket);
     }
     seriesPriceLines = seriesGroups
       .map((group) => {
         const representativeProductId = group.productIds.find((seriesProductId) =>
-          (historiesByProduct.get(seriesProductId) ?? []).some((history) => history.salePrice !== null),
+          (historiesByProduct.get(seriesProductId) ?? []).some(
+            (history) => history.salePrice !== null || history.buyPrice !== null,
+          ),
         ) ?? group.productIds[0];
         return {
           productId: representativeProductId,
@@ -229,7 +239,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             ),
         };
       })
-      .filter((line) => line.histories.some((history) => history.salePrice !== null));
+      .filter((line) =>
+        line.histories.some(
+          (history) => history.salePrice !== null || history.buyPrice !== null,
+        ),
+      );
   }
 
   return (

@@ -96,3 +96,17 @@ test("同名商品が複数あっても商品IDをReact識別子と表示補助�
   assert.doesNotMatch(component, /setSelectedTitle/u);
   assert.doesNotMatch(component, /setHoveredTitle/u);
 });
+
+test("シリーズグラフで販売価格と買取価格を切り替えられる", async () => {
+  const component = await text("components/SeriesPriceChart.tsx");
+  const page = await text("app/products/[id]/page.tsx");
+
+  assert.match(component, /type SeriesPriceMetric = "sale" \| "buy"/u);
+  assert.match(component, /label: "販売"/u);
+  assert.match(component, /label: "買取"/u);
+  assert.match(component, /history\.buyPrice/u);
+  assert.match(component, /metric === "sale" \? history\.salePrice : history\.buyPrice/u);
+  assert.match(component, /aria-label="シリーズ価格の種別"/u);
+  assert.match(page, /buyPrice: true/u);
+  assert.match(page, /history\.salePrice !== null \|\| history\.buyPrice !== null/u);
+});
