@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { JunkHistorySections } from "@/components/JunkHistorySections";
 import { PriceChart } from "@/components/PriceChart";
 import { ProductCrawlIntervalControl } from "@/components/ProductCrawlIntervalControl";
+import { SeriesPriceChart, type SeriesPriceLine } from "@/components/SeriesPriceChart";
 import { readOtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
 import {
   extractOperatingSystems,
@@ -11,6 +12,7 @@ import {
 } from "@/lib/product-filter-options";
 import { selectDisplayedPriceHistories } from "@/lib/price-history-display";
 import { prisma } from "@/lib/prisma";
+import { buildSeriesProductGroups, findProductSeries } from "@/lib/series-catalog";
 import { isInternalProductDetailLabel } from "@/lib/time-sale";
 import layoutStyles from "./ProductDetailLayout.module.css";
 
@@ -181,6 +183,49 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const productDetails = parseProductDetails(product.detailsJson);
   const otherShopSnapshot = await readOtherShopSnapshotData(product.surugayaUrl);
 
+  const productSeries = findProductSeries(product.title);
+  let seriesPriceLines: SeriesPriceLine[] = [];
+  if (productSeries) {
+    const productCandidates = await prisma.product.findMany({
+      select: {
+        id: true,
+        title: true,
+        condition: true,
+        conditionRank: true,
+      },
+    });
+    const seriesGroups = buildSeriesProductGroups(productSeries, productCandidates);
+    const seriesProductIds = seriesGroups.flatMap((group) => group.productIds);
+    const seriesHistories = seriesProductIds.length > 0
+      ? await prisma.priceHistory.findMany({
+          where: { productId: { in: seriesProductIds } },
+          orderBy: [{ checkedAt: "asc" }, { id: "asc" }],
+          select: {
+            productId: true,
+            checkedAt: true,
+            salePrice: true,
+          },
+        })
+      : [];
+    const historiesByProduct = new Map<number, Array<{ checkedAt: string; salePrice: number | null }>>();
+    for (const history of seriesHistories) {
+      const bucket = historiesByProduct.get(history.productId) ?? [];
+      bucket.push({ checkedAt: history.checkedAt.toISOString(), salePrice: history.salePrice });
+      historiesByProduct.set(history.productId, bucket);
+    }
+    seriesPriceLines = seriesGroups
+      .map((group) => ({
+        title: group.title,
+        histories: group.productIds
+          .flatMap((seriesProductId) => historiesByProduct.get(seriesProductId) ?? [])
+          .sort(
+            (left, right) =>
+              new Date(left.checkedAt).getTime() - new Date(right.checkedAt).getTime(),
+          ),
+      }))
+      .filter((line) => line.histories.some((history) => history.salePrice !== null));
+  }
+
   return (
     <section className="product-detail-page">
       <div className="detail-toolbar">
@@ -222,6 +267,13 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         <section className="detail-chart-panel">
           <h2>価格推移</h2>
           <PriceChart histories={histories} />
+          {productSeries ? (
+            <SeriesPriceChart
+              definedTitleCount={productSeries.titles.length}
+              lines={seriesPriceLines}
+              seriesName={productSeries.name}
+            />
+          ) : null}
         </section>
 
         <div className={layoutStyles.crawlControl}>
