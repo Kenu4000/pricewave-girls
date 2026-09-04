@@ -26,12 +26,15 @@ type ParsedLine = {
   color: string;
 };
 
+type ScaleMode = "auto" | "linear" | "log";
+
 const WIDTH = 960;
 const HEIGHT = 340;
 const LEFT = 72;
 const RIGHT = 18;
 const TOP = 18;
 const BOTTOM = 46;
+const AUTO_LOG_RATIO = 8;
 
 function yen(value: number | null): string {
   return value == null ? "未取得" : `${value.toLocaleString("ja-JP")}円`;
@@ -94,6 +97,9 @@ export function SeriesPriceChart({
   lines: SeriesPriceLine[];
 }) {
   const [open, setOpen] = useState(false);
+  const [scaleMode, setScaleMode] = useState<ScaleMode>("auto");
+  const [selectedTitle, setSelectedTitle] = useState<string | null>(null);
+  const [hoveredTitle, setHoveredTitle] = useState<string | null>(null);
   const parsedLines = useMemo(() => parseLines(lines), [lines]);
   const allPoints = parsedLines.flatMap((line) => line.points);
 
@@ -125,24 +131,54 @@ export function SeriesPriceChart({
   const timeSpan = Math.max(1, maxTimestamp - minTimestamp);
   const rawMin = Math.min(...prices);
   const rawMax = Math.max(...prices);
-  const priceSpan = Math.max(1, rawMax - rawMin);
-  const padding = Math.max(100, priceSpan * 0.08);
-  const minPrice = Math.max(0, rawMin - padding);
-  const maxPrice = rawMax + padding;
+  const canUseLogScale = rawMin > 0;
+  const useLogScale = canUseLogScale && (
+    scaleMode === "log" ||
+    (scaleMode === "auto" && rawMax / rawMin >= AUTO_LOG_RATIO)
+  );
   const plotWidth = WIDTH - LEFT - RIGHT;
   const plotHeight = HEIGHT - TOP - BOTTOM;
   const xAt = (timestamp: number) =>
     minTimestamp === maxTimestamp
       ? LEFT + plotWidth / 2
       : LEFT + ((timestamp - minTimestamp) / (maxTimestamp - minTimestamp)) * plotWidth;
-  const yAt = (price: number) =>
-    TOP + ((maxPrice - price) / Math.max(1, maxPrice - minPrice)) * plotHeight;
-  const yTicks = Array.from({ length: 5 }, (_, index) =>
-    minPrice + ((maxPrice - minPrice) * index) / 4,
-  );
+
+  let yAt: (price: number) => number;
+  let yTicks: number[];
+
+  if (useLogScale) {
+    const rawLogMin = Math.log10(rawMin);
+    const rawLogMax = Math.log10(rawMax);
+    const logSpan = Math.max(0.05, rawLogMax - rawLogMin);
+    const logPadding = logSpan * 0.08;
+    const minLog = rawLogMin - logPadding;
+    const maxLog = rawLogMax + logPadding;
+    yAt = (price: number) =>
+      TOP + ((maxLog - Math.log10(Math.max(price, Number.MIN_VALUE))) / (maxLog - minLog)) * plotHeight;
+    yTicks = Array.from({ length: 5 }, (_, index) =>
+      10 ** (minLog + ((maxLog - minLog) * index) / 4),
+    );
+  } else {
+    const priceSpan = Math.max(1, rawMax - rawMin);
+    const padding = Math.max(100, priceSpan * 0.08);
+    const minPrice = Math.max(0, rawMin - padding);
+    const maxPrice = rawMax + padding;
+    yAt = (price: number) =>
+      TOP + ((maxPrice - price) / Math.max(1, maxPrice - minPrice)) * plotHeight;
+    yTicks = Array.from({ length: 5 }, (_, index) =>
+      minPrice + ((maxPrice - minPrice) * index) / 4,
+    );
+  }
+
   const xTicks = Array.from({ length: 6 }, (_, index) =>
     minTimestamp + (timeSpan * index) / 5,
   );
+  const focusedTitle = selectedTitle ?? hoveredTitle;
+  const scaleDescription = useLogScale
+    ? scaleMode === "auto"
+      ? "価格差が大きいため、自動で対数目盛にして低価格帯も見えるようにしています。"
+      : "対数目盛で価格差の大きい作品も同じグラフで見やすくしています。"
+    : "通常の金額差で表示しています。";
 
   return (
     <div className={styles.root}>
@@ -159,6 +195,35 @@ export function SeriesPriceChart({
       </div>
 
       <p className={styles.note}>シリーズ内の各作品について、販売価格の推移を1本ずつ重ねて表示</p>
+
+      <div className={styles.scaleToolbar}>
+        <span>縦軸</span>
+        <div aria-label="シリーズ価格グラフの縦軸" className={styles.scaleButtons}>
+          <button
+            aria-pressed={scaleMode === "auto"}
+            onClick={() => setScaleMode("auto")}
+            type="button"
+          >
+            自動
+          </button>
+          <button
+            aria-pressed={scaleMode === "linear"}
+            onClick={() => setScaleMode("linear")}
+            type="button"
+          >
+            通常
+          </button>
+          <button
+            aria-pressed={scaleMode === "log"}
+            disabled={!canUseLogScale}
+            onClick={() => setScaleMode("log")}
+            type="button"
+          >
+            対数
+          </button>
+        </div>
+        <span className={styles.scaleDescription}>{scaleDescription}</span>
+      </div>
 
       <div className={styles.chartWrap}>
         <svg
@@ -195,13 +260,34 @@ export function SeriesPriceChart({
               .map((point, index) => `${index === 0 ? "M" : "L"}${xAt(point.timestamp).toFixed(2)},${yAt(point.salePrice).toFixed(2)}`)
               .join(" ");
             const last = line.points.at(-1);
+            const dimmed = focusedTitle !== null && focusedTitle !== line.title;
+            const focused = focusedTitle === line.title;
             return (
               <g key={line.title}>
-                <path className={styles.seriesLine} d={path} stroke={line.color}>
+                <path
+                  className={styles.hitLine}
+                  d={path}
+                  onClick={() => setSelectedTitle((current) => current === line.title ? null : line.title)}
+                  onPointerEnter={() => setHoveredTitle(line.title)}
+                  onPointerLeave={() => setHoveredTitle(null)}
+                />
+                <path
+                  className={`${styles.seriesLine}${focused ? ` ${styles.focusedLine}` : ""}`}
+                  d={path}
+                  opacity={dimmed ? 0.12 : 1}
+                  stroke={line.color}
+                >
                   <title>{`${line.title} 現在 ${yen(line.currentPrice)}`}</title>
                 </path>
                 {last ? (
-                  <circle className={styles.endPoint} cx={xAt(last.timestamp)} cy={yAt(last.salePrice)} r={3.2} stroke={line.color}>
+                  <circle
+                    className={styles.endPoint}
+                    cx={xAt(last.timestamp)}
+                    cy={yAt(last.salePrice)}
+                    opacity={dimmed ? 0.12 : 1}
+                    r={focused ? 4.5 : 3.2}
+                    stroke={line.color}
+                  >
                     <title>{`${line.title} ${new Date(last.checkedAt).toLocaleString("ja-JP")} ${yen(last.salePrice)}`}</title>
                   </circle>
                 ) : null}
@@ -211,14 +297,27 @@ export function SeriesPriceChart({
         </svg>
       </div>
 
+      <p className={styles.legendHint}>作品名にカーソルを合わせるとその線を強調。クリックすると固定できます。</p>
       <div className={styles.legend} aria-label={`${seriesName}シリーズの作品一覧`}>
-        {parsedLines.map((line) => (
-          <span key={line.title} title={line.title}>
-            <i aria-hidden="true" style={{ backgroundColor: line.color }} />
-            <b>{line.title}</b>
-            <em>{yen(line.currentPrice)}</em>
-          </span>
-        ))}
+        {parsedLines.map((line) => {
+          const dimmed = focusedTitle !== null && focusedTitle !== line.title;
+          return (
+            <button
+              aria-pressed={selectedTitle === line.title}
+              className={dimmed ? styles.legendDimmed : undefined}
+              key={line.title}
+              onClick={() => setSelectedTitle((current) => current === line.title ? null : line.title)}
+              onPointerEnter={() => setHoveredTitle(line.title)}
+              onPointerLeave={() => setHoveredTitle(null)}
+              title={line.title}
+              type="button"
+            >
+              <i aria-hidden="true" style={{ backgroundColor: line.color }} />
+              <b>{line.title}</b>
+              <em>{yen(line.currentPrice)}</em>
+            </button>
+          );
+        })}
       </div>
     </div>
   );
