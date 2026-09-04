@@ -27,12 +27,12 @@
     ['feng', 'feng（フォン）', 'feng', 'フォン', 'ふぉん'],
   ];
   const app = document.querySelector('#app');
-  if (!app) return;
+  const runtime = globalThis.PricewaveViewerEnhancements;
+  if (!app || typeof runtime?.register !== 'function') return;
 
   const collator = new Intl.Collator('ja', { numeric: true, sensitivity: 'base' });
   const aliasIndex = new Map();
   let applying = false;
-  let queued = false;
 
   function cleanBrandLabel(value) {
     return String(value || '')
@@ -309,16 +309,5 @@
     };
   }
 
-  function scheduleApply() {
-    if (queued || applying) return;
-    queued = true;
-    requestAnimationFrame(() => {
-      queued = false;
-      void applyBrandOptions();
-    });
-  }
-
-  new MutationObserver(scheduleApply).observe(app, { childList: true, subtree: true });
-  window.addEventListener('hashchange', scheduleApply);
-  scheduleApply();
+  runtime.register('brand-featured-options', applyBrandOptions);
 })();
