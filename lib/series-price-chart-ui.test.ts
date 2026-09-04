@@ -29,3 +29,29 @@ test("シリーズ表示は閉じた状態ではシリーズボタンだけを�
   assert.match(component, /parsedLines\.map/u);
   assert.match(component, /currentPrice/u);
 });
+
+test("価格差が大きいシリーズは自動で対数目盛を使える", async () => {
+  const component = await text("components/SeriesPriceChart.tsx");
+
+  assert.match(component, /const AUTO_LOG_RATIO = 8/u);
+  assert.match(component, /scaleMode === "auto" && rawMax \/ rawMin >= AUTO_LOG_RATIO/u);
+  assert.match(component, /Math\.log10/u);
+  assert.match(component, />\s*自動\s*</u);
+  assert.match(component, />\s*通常\s*</u);
+  assert.match(component, />\s*対数\s*</u);
+  assert.match(component, /価格差が大きいため、自動で対数目盛/u);
+});
+
+test("作品を選ぶと他の線を薄くして注目作品を固定できる", async () => {
+  const component = await text("components/SeriesPriceChart.tsx");
+  const css = await text("components/SeriesPriceChart.module.css");
+
+  assert.match(component, /selectedTitle/u);
+  assert.match(component, /hoveredTitle/u);
+  assert.match(component, /focusedTitle/u);
+  assert.match(component, /opacity=\{dimmed \? 0\.12 : 1\}/u);
+  assert.match(component, /aria-pressed=\{selectedTitle === line\.title\}/u);
+  assert.match(css, /\.focusedLine/u);
+  assert.match(css, /\.legendDimmed/u);
+  assert.match(css, /\.hitLine/u);
+});
