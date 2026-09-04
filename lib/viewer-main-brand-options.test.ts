@@ -22,6 +22,7 @@ test("Viewerの詳細検索ブランド一覧はmainと同じ区分と別名統�
   assert.match(viewer, /profile\.active === 0/u);
   assert.match(viewer, /profile\.active > 0/u);
   assert.match(viewer, /resolveBrandIdentity\(product\.manufacturer\)\.key === selectedKey/u);
+  assert.match(viewer, /mainBrandCountOrder/u);
 
   for (const alias of [
     "ALICESOFT（アリスソフト）",
@@ -43,5 +44,5 @@ test("Viewerブランド一覧スクリプトはJavaScriptとして構文エラ�
 
 test("Viewerはブランド一覧の新しいスクリプトを読み込む", async () => {
   const index = await readFile(new URL("../viewer/index.html", import.meta.url), "utf8");
-  assert.match(index, /brand-featured-options\.js\?v=202609041052/u);
+  assert.match(index, /brand-featured-options\.js\?v=202609041107/u);
 });
