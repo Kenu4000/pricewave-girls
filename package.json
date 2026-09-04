@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit",
     "viewer:export": "node --import tsx scripts/export-viewer-data.ts && node --import tsx scripts/export-viewer-series-data.ts",
     "viewer:publish": "node scripts/publish-viewer.mjs",
+    "cleanup:created-products": "node --import tsx scripts/delete-created-products.ts",
     "crawl:set-after-flatz-7": "node --import tsx scripts/set-crawl-interval-after-brand.ts --after=FLATZ --days=7",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev && prisma generate",

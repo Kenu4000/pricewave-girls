@@ -5,6 +5,8 @@
     "https://www.suruga-ya.jp/search?category=652042222&search_word=&adult_s=1&rankBy=release_date%28int%29%3Adescending";
   const LEGACY_DEFAULT_AUTO_ADD_URL =
     "https://www.suruga-ya.jp/search?category=65204&genre2=%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%8E%E3%83%99%E3%83%AB%28%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%B2%E3%83%BC%E3%83%A0%29&search_word=";
+  const CONDITION_VARIANT_HINT =
+    /(?:状態\s*[:：]|ランク\s*[BＢ]|欠品|欠損|状態難|説明書(?:なし|無し)|マニュアル(?:なし|無し)|ケース(?:なし|無し)|ジャケット(?:なし|無し)|ディスクのみ|本体のみ|傷あり|キズあり|傷有|キズ有)/iu;
 
   function productIdFromUrl(rawUrl) {
     try {
@@ -49,6 +51,11 @@
       String(date.getMonth() + 1).padStart(2, "0"),
       String(date.getDate()).padStart(2, "0"),
     ].join("-");
+  }
+
+  function isConditionVariantTitle(value) {
+    const title = String(value || "").normalize("NFKC").replace(/\s+/gu, " ").trim();
+    return Boolean(title && CONDITION_VARIANT_HINT.test(title));
   }
 
   function isReleaseDiscoveryUrl(rawUrl) {
@@ -117,12 +124,18 @@
     const selected = [];
     let skippedFuture = 0;
     let skippedMissingDate = 0;
+    let skippedCondition = 0;
     let duplicateCount = 0;
 
     for (const product of source) {
       const url = String(product?.url || "");
       const id = productIdFromUrl(url);
       if (!id) continue;
+
+      if (isConditionVariantTitle(product?.title)) {
+        skippedCondition += 1;
+        continue;
+      }
 
       const releaseDate = normalizeReleaseDate(product?.releaseDate);
       if (!releaseDate) {
@@ -152,6 +165,7 @@
       skippedFuture,
       // 名前は既存ステータスとの互換用。現在は「発売日欠損件数」であり除外件数ではない。
       skippedMissingDate,
+      skippedCondition,
       duplicateCount,
     };
   }
@@ -163,6 +177,7 @@
     productIdFromUrl,
     normalizeReleaseDate,
     localDateKey,
+    isConditionVariantTitle,
     isReleaseDiscoveryUrl,
     shouldReplaceLegacyAutoAddUrl,
     selectReleaseDiscoveryProducts,
