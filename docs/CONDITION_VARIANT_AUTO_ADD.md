@@ -39,7 +39,9 @@
 
 したがって今回の対策では、探索範囲を旧URLへ戻して問題を隠すのではなく、現在の広い探索範囲を維持したまま「状態違いは未登録の新editionではない」と判定して除外する。
 
-2026-09-04に、駿河屋側の検索設定で「品切れ表示」を有効にしていたことで、過去に登録済みの状態違いProductが多数再取得され、同じ作品のカードが重複して見える事象が発生した。`Product.createdAt` は当日0件でも `PriceHistory.checkedAt` が17:59台に増えていたため、新規Product作成ではなく既存状態違いProductの再取得と判明した。
+2026-09-04に、駿河屋側の検索設定で「品切れ表示」を有効にしていたことで、状態違いProductが同じ作品の別カードとして多数見える事象が発生した。17:59台にそれらの `PriceHistory.checkedAt` が集中している一方、`Product.createdAt` を当日範囲で照合しても0件になるDBが確認された。
+
+このため「画面上でその時刻に新しく現れたカード」を消す運用では、`Product.createdAt` だけを新規判定に使わない。既存DBでは作成時刻と初回取得時刻が一致しないケースがあるため、対象時間帯に**初めてPriceHistoryを持ったProduct**を新規カードとして扱える削除コマンドを用意する。
 
 今後、拡張機能の未登録探索で回帰が出た場合は、現行コードだけでなくPR #20前後の `background.js` / Service Worker chain / 検索URL変更履歴も確認すること。また「新規登録された」と判断する前に `Product.createdAt` と `PriceHistory.checkedAt` を分けて確認する。
 
@@ -76,12 +78,31 @@
 
 削除はProduct IDを400件ずつに分割し、SQLiteのパラメータ上限を避ける。Product配下の `PriceHistory` / `PriceChange` / `JunkHistory` は既存のCASCADE設定に従って削除される。
 
-### 作成時刻で削除する
+### 画面上でその時間帯に初めて現れたカードをまとめて消す
+
+`Product.createdAt` が実際の初回取得時刻と一致しない既存データがあるため、今回のように「17:59頃の処理で新しく見えるようになったカードを全部消したい」場合はこちらを使う。
+
+確認のみ:
+
+`npm run cleanup:first-seen-products -- --from=<ISO日時> --to=<ISO日時>`
+
+削除:
+
+`npm run cleanup:first-seen-products -- --from=<ISO日時> --to=<ISO日時> --apply`
+
+対象条件は以下の両方。
+
+1. 指定範囲内の `PriceHistory.checkedAt` が1件以上ある。
+2. 範囲開始より前の `PriceHistory` が1件もない。
+
+つまり状態・タイトルに関係なく、その時間帯に初めて価格履歴を持ったProductカードを全削除する。既存商品がたまたま同時刻に通常巡回されただけなら、過去履歴があるため対象外になる。
+
+### Product.createdAtで削除する
 
 `Product` には過去のimport元が「手動」「自動追加」のどちらだったかを永続化するフィールドがない。そのため過去の自動追加だけを後から完全には識別できない。
 
-指定した作成時刻範囲のProductを削除するため、以下を用意している。
+指定した `Product.createdAt` 範囲で削除する旧コマンドも残す。
 
 `npm run cleanup:created-products -- --from=<ISO日時> --to=<ISO日時> --apply`
 
-`--apply` を外すと削除対象の確認のみを行う。ただし、今回のように既存Productが再取得されただけのケースでは `createdAt` による削除は使わない。
+`--apply` を外すと削除対象の確認のみを行う。`createdAt` が実際の新規カード発生時刻と一致しないケースでは `cleanup:first-seen-products` を優先する。
