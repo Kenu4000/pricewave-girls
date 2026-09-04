@@ -1,12 +1,13 @@
 import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { fileURLToPath } from "node:url";
+
+const viewerScriptUrl = new URL("../viewer/brand-featured-options.js", import.meta.url);
 
 test("Viewerの詳細検索ブランド一覧はmainと同じ区分と別名統合を使う", async () => {
-  const viewer = await readFile(
-    new URL("../viewer/brand-featured-options.js", import.meta.url),
-    "utf8",
-  );
+  const viewer = await readFile(viewerScriptUrl, "utf8");
   const mainAliases = await readFile(
     new URL("../lib/brand-aliases.ts", import.meta.url),
     "utf8",
@@ -32,6 +33,12 @@ test("Viewerの詳細検索ブランド一覧はmainと同じ区分と別名統�
     assert.ok(mainAliases.includes(alias), `mainに ${alias} がある`);
     assert.ok(viewer.includes(alias), `Viewerにも ${alias} がある`);
   }
+});
+
+test("Viewerブランド一覧スクリプトはJavaScriptとして構文エラーがない", () => {
+  execFileSync(process.execPath, ["--check", fileURLToPath(viewerScriptUrl)], {
+    stdio: "pipe",
+  });
 });
 
 test("Viewerはブランド一覧の新しいスクリプトを読み込む", async () => {
