@@ -39,3 +39,24 @@ test("Viewer商品詳細でシリーズグラフを読み込み商品詳細へ�
   assert.ok(homeScript > seriesScript, "home-ui.jsは引き続き最後に読み込む");
   assert.match(html, /series-price-chart\.css/u);
 });
+
+test("公開済みViewerにシリーズJSONがなくても既存商品JSONから補完できる", async () => {
+  const fallback = await text("viewer/series-price-data-fallback.js");
+  const html = await text("viewer/index.html");
+
+  assert.doesNotThrow(() => new Function(fallback));
+  assert.match(fallback, /series-index\.json/u);
+  assert.match(fallback, /data\/series\/\(\[\^\/?#\]\+\)/u);
+  assert.match(fallback, /raw\.githubusercontent\.com\/Kenu4000\/pricewave-girls\/main\/data\/series-catalog/u);
+  assert.match(fallback, /\.\/data\/index\.json/u);
+  assert.match(fallback, /\.\/data\/products\/\$\{product\.id\}\.json/u);
+  assert.match(fallback, /productId: product\.id/u);
+  assert.match(fallback, /original\.status !== 404/u);
+
+  const fallbackScript = html.indexOf("./series-price-data-fallback.js");
+  const seriesScript = html.indexOf("./series-price-chart.js");
+  const homeScript = html.indexOf("./home-ui.js");
+  assert.ok(fallbackScript >= 0);
+  assert.ok(seriesScript > fallbackScript, "補完fetchはシリーズUIより先に読み込む");
+  assert.ok(homeScript > seriesScript, "home-ui.jsは引き続き最後に読み込む");
+});
