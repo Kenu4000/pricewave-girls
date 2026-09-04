@@ -52,9 +52,7 @@ function titleMatches(productTitle: string, catalogTitle: string): boolean {
   const product = normalizeTitle(productTitle);
   const catalog = normalizeTitle(catalogTitle);
   if (!product || !catalog) return false;
-  if (product === catalog) return true;
-  if (product.startsWith(catalog)) return true;
-  return catalog.length >= 6 && product.includes(catalog);
+  return product === catalog || product.startsWith(catalog);
 }
 
 const CATALOG_TITLES: CatalogTitleEntry[] = SERIES_CATALOG.flatMap((series) =>
@@ -69,11 +67,9 @@ export function findProductSeries(productTitle: string): ProductSeries | null {
   const normalized = normalizeTitle(productTitle);
   if (!normalized) return null;
 
-  const match = CATALOG_TITLES.find((entry) => {
-    if (normalized === entry.normalized) return true;
-    if (normalized.startsWith(entry.normalized)) return true;
-    return entry.normalized.length >= 6 && normalized.includes(entry.normalized);
-  });
+  const match = CATALOG_TITLES.find(
+    (entry) => normalized === entry.normalized || normalized.startsWith(entry.normalized),
+  );
   return match?.series ?? null;
 }
 
@@ -85,11 +81,10 @@ export function findSeriesCanonicalTitle(
     .map((title) => ({ title, normalized: normalizeTitle(title) }))
     .sort((left, right) => right.normalized.length - left.normalized.length);
   const normalized = normalizeTitle(productTitle);
-  const match = candidates.find((candidate) => {
-    if (normalized === candidate.normalized) return true;
-    if (normalized.startsWith(candidate.normalized)) return true;
-    return candidate.normalized.length >= 6 && normalized.includes(candidate.normalized);
-  });
+  const match = candidates.find(
+    (candidate) =>
+      normalized === candidate.normalized || normalized.startsWith(candidate.normalized),
+  );
   return match?.title ?? null;
 }
 
