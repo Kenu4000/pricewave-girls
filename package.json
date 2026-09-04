@@ -12,7 +12,7 @@
     "start": "next start",
     "test": "node --import tsx --test lib/*.test.ts",
     "typecheck": "tsc --noEmit",
-    "viewer:export": "node --import tsx scripts/export-viewer-data.ts",
+    "viewer:export": "node --import tsx scripts/export-viewer-data.ts && node --import tsx scripts/export-viewer-series-data.ts",
     "viewer:publish": "node scripts/publish-viewer.mjs",
     "crawl:set-after-flatz-7": "node --import tsx scripts/set-crawl-interval-after-brand.ts --after=FLATZ --days=7",
     "prisma:generate": "prisma generate",
