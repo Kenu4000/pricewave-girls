@@ -39,7 +39,11 @@
   }
 
   runAllProducts = async function runAllProductsWithHistory(trigger) {
-    await setStatus({ crawlRunId: null });
+    await setStatus({
+      state: "running",
+      message: "巡回実行履歴を開始しています。",
+      crawlRunId: null,
+    });
     const crawlRunId = await createCrawlRun(trigger);
     if (crawlRunId !== null) await setStatus({ crawlRunId });
 
