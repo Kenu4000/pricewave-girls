@@ -28,6 +28,7 @@ type ParsedPoint = {
 type ParsedLine = {
   productId: number;
   title: string;
+  label: string;
   points: ParsedPoint[];
   currentPrice: number | null;
   color: string;
@@ -90,6 +91,11 @@ function formatSelectedTime(timestamp: number, mode: PriceChartMode): string {
 }
 
 function parseLines(lines: SeriesPriceLine[], mode: PriceChartMode): ParsedLine[] {
+  const titleCounts = new Map<string, number>();
+  for (const line of lines) {
+    titleCounts.set(line.title, (titleCounts.get(line.title) ?? 0) + 1);
+  }
+
   return lines.flatMap((line, index) => {
     const aggregated = aggregatePriceChartData(
       line.histories.map((history) => ({
@@ -109,6 +115,9 @@ function parseLines(lines: SeriesPriceLine[], mode: PriceChartMode): ParsedLine[
     return [{
       productId: line.productId,
       title: line.title,
+      label: (titleCounts.get(line.title) ?? 0) > 1
+        ? `${line.title} [#${line.productId}]`
+        : line.title,
       points,
       currentPrice: points.at(-1)?.salePrice ?? null,
       color: lineColor(index),
@@ -149,8 +158,8 @@ export function SeriesPriceChart({
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState<PriceChartMode>("day");
   const [scaleMode, setScaleMode] = useState<ScaleMode>("auto");
-  const [selectedTitle, setSelectedTitle] = useState<string | null>(null);
-  const [hoveredTitle, setHoveredTitle] = useState<string | null>(null);
+  const [selectedProductId, setSelectedProductId] = useState<number | null>(null);
+  const [hoveredProductId, setHoveredProductId] = useState<number | null>(null);
   const [selectedTimestamp, setSelectedTimestamp] = useState<number | null>(null);
   const parsedLines = useMemo(() => parseLines(lines, mode), [lines, mode]);
   const allPoints = parsedLines.flatMap((line) => line.points);
@@ -227,7 +236,7 @@ export function SeriesPriceChart({
   const xTicks = Array.from({ length: 6 }, (_, index) =>
     minTimestamp + (timeSpan * index) / 5,
   );
-  const focusedTitle = selectedTitle ?? hoveredTitle;
+  const focusedProductId = selectedProductId ?? hoveredProductId;
   const selectedValues = parsedLines.flatMap((line) => {
     const point = pointAtOrBefore(line, activeTimestamp);
     return point ? [{ line, point }] : [];
@@ -311,11 +320,11 @@ export function SeriesPriceChart({
         <div className={styles.readoutValues}>
           {selectedValues.map(({ line, point }) => (
             <span
-              className={focusedTitle !== null && focusedTitle !== line.title ? styles.readoutDimmed : undefined}
-              key={line.title}
+              className={focusedProductId !== null && focusedProductId !== line.productId ? styles.readoutDimmed : undefined}
+              key={line.productId}
             >
               <i aria-hidden="true" style={{ backgroundColor: line.color }} />
-              {line.title}: {yen(point.salePrice)}
+              {line.label}: {yen(point.salePrice)}
             </span>
           ))}
         </div>
@@ -367,16 +376,16 @@ export function SeriesPriceChart({
               .join(" ");
             const last = line.points.at(-1);
             const selectedPoint = pointAtOrBefore(line, activeTimestamp);
-            const dimmed = focusedTitle !== null && focusedTitle !== line.title;
-            const focused = focusedTitle === line.title;
+            const dimmed = focusedProductId !== null && focusedProductId !== line.productId;
+            const focused = focusedProductId === line.productId;
             return (
-              <g key={line.title}>
+              <g key={line.productId}>
                 <path
                   className={styles.hitLine}
                   d={path}
-                  onClick={() => setSelectedTitle((current) => current === line.title ? null : line.title)}
-                  onPointerEnter={() => setHoveredTitle(line.title)}
-                  onPointerLeave={() => setHoveredTitle(null)}
+                  onClick={() => setSelectedProductId((current) => current === line.productId ? null : line.productId)}
+                  onPointerEnter={() => setHoveredProductId(line.productId)}
+                  onPointerLeave={() => setHoveredProductId(null)}
                 />
                 <path
                   className={`${styles.seriesLine}${focused ? ` ${styles.focusedLine}` : ""}`}
@@ -384,7 +393,7 @@ export function SeriesPriceChart({
                   opacity={dimmed ? 0.12 : 1}
                   stroke={line.color}
                 >
-                  <title>{`${line.title} 現在 ${yen(line.currentPrice)}`}</title>
+                  <title>{`${line.label} 現在 ${yen(line.currentPrice)}`}</title>
                 </path>
                 {last ? (
                   <circle
@@ -405,7 +414,7 @@ export function SeriesPriceChart({
                     r={focused ? 5 : 3.5}
                     stroke={line.color}
                   >
-                    <title>{`${line.title} ${yen(selectedPoint.salePrice)}`}</title>
+                    <title>{`${line.label} ${yen(selectedPoint.salePrice)}`}</title>
                   </circle>
                 ) : null}
               </g>
@@ -419,18 +428,18 @@ export function SeriesPriceChart({
       </p>
       <div className={styles.legend} aria-label={`${seriesName}シリーズの作品一覧`}>
         {parsedLines.map((line) => {
-          const dimmed = focusedTitle !== null && focusedTitle !== line.title;
+          const dimmed = focusedProductId !== null && focusedProductId !== line.productId;
           return (
             <Link
               className={dimmed ? styles.legendDimmed : undefined}
               href={`/products/${line.productId}`}
-              key={line.title}
-              onPointerEnter={() => setHoveredTitle(line.title)}
-              onPointerLeave={() => setHoveredTitle(null)}
-              title={`${line.title}の商品詳細を開く`}
+              key={line.productId}
+              onPointerEnter={() => setHoveredProductId(line.productId)}
+              onPointerLeave={() => setHoveredProductId(null)}
+              title={`${line.label}の商品詳細を開く`}
             >
               <i aria-hidden="true" style={{ backgroundColor: line.color }} />
-              <b>{line.title}</b>
+              <b>{line.label}</b>
               <em>{yen(line.currentPrice)}</em>
             </Link>
           );
