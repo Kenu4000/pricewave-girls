@@ -53,11 +53,14 @@ function stripStorefrontCategoryPrefix(value: string): string {
 }
 
 function displayProductTitle(value: string): string {
-  return splitProductTitleCondition(stripStorefrontCategoryPrefix(value)).title.trim();
+  // 凡例では機種・媒体表記もedition識別情報として残す。
+  // 状態違いだけは商品名から除く。
+  return splitProductTitleCondition(value).title.trim();
 }
 
 function normalizeTitle(value: string): string {
-  return displayProductTitle(value)
+  // シリーズ判定時だけ駿河屋の機種・媒体カテゴリ前置きを無視する。
+  return splitProductTitleCondition(stripStorefrontCategoryPrefix(value)).title
     .normalize("NFKC")
     .toLocaleLowerCase("ja-JP")
     .replace(/[\s\p{P}]/gu, "")
