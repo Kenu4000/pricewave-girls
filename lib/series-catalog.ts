@@ -52,8 +52,12 @@ function stripStorefrontCategoryPrefix(value: string): string {
   return prefix ? trimmed.slice(prefix[0].length).trim() : trimmed;
 }
 
+function displayProductTitle(value: string): string {
+  return splitProductTitleCondition(stripStorefrontCategoryPrefix(value)).title.trim();
+}
+
 function normalizeTitle(value: string): string {
-  return splitProductTitleCondition(stripStorefrontCategoryPrefix(value)).title
+  return displayProductTitle(value)
     .normalize("NFKC")
     .toLocaleLowerCase("ja-JP")
     .replace(/[\s\p{P}]/gu, "")
@@ -123,8 +127,22 @@ export function buildSeriesProductGroups(
     const matches = grouped.get(title) ?? [];
     if (matches.length === 0) return [];
     const normal = matches.filter(isNormalConditionProduct);
-    const selected = normal.length > 0 ? normal : matches;
-    return [{ title, productIds: selected.map((product) => product.id) }];
+    const selected = (normal.length > 0 ? normal : matches)
+      .slice()
+      .sort((left, right) => {
+        const titleCompare = displayProductTitle(left.title).localeCompare(
+          displayProductTitle(right.title),
+          "ja-JP",
+        );
+        return titleCompare || left.id - right.id;
+      });
+
+    // 同じシリーズ作品でも通常版・廉価版・対応OS版などは別商品として価格履歴を分離する。
+    // productIds をまとめると異なるeditionの履歴が1本の線へ混ざるため、1商品=1グループにする。
+    return selected.map((product) => ({
+      title: displayProductTitle(product.title),
+      productIds: [product.id],
+    }));
   });
 }
 

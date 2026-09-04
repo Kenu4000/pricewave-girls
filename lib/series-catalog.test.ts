@@ -77,3 +77,31 @@ test("同一作品に通常品がある場合はランクB登録をシリーズ�
     ],
   );
 });
+
+test("同じシリーズ作品のedition違いは別々の価格線として保持する", () => {
+  const series = findProductSeries("ランス01 光をもとめて");
+  assert.ok(series);
+
+  const groups = buildSeriesProductGroups(series, [
+    {
+      id: 10,
+      title: "WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて",
+      conditionRank: "A",
+      condition: null,
+    },
+    {
+      id: 11,
+      title: "WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて 廉価版",
+      conditionRank: "A",
+      condition: null,
+    },
+  ]);
+
+  assert.deepEqual(
+    groups.map((group) => [group.title, group.productIds]),
+    [
+      ["ランス01 光をもとめて", [10]],
+      ["ランス01 光をもとめて 廉価版", [11]],
+    ],
+  );
+});
