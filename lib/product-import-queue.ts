@@ -8,6 +8,7 @@ import { notifyProductsChanged } from "@/lib/product-events";
 import type { ProductPreview } from "@/lib/product-preview";
 import { type ProductSnapshotInput } from "@/lib/product-snapshots";
 import { prisma } from "@/lib/prisma";
+import { isReleaseDateTodayInJapan } from "@/lib/release-day-crawl";
 import { upsertProductSnapshotsWithTimeSale } from "@/lib/time-sale-persistence";
 
 const IMPORT_BATCH_SIZE = 100;
@@ -36,7 +37,12 @@ const productImportBatcher =
       const existingUrls = new Set(existingProducts.map((product) => product.surugayaUrl));
       const newManufacturerKeys = new Set(
         inputs.flatMap((input) => {
-          if (existingUrls.has(input.surugayaUrl)) return [];
+          if (
+            existingUrls.has(input.surugayaUrl) ||
+            isReleaseDateTodayInJapan(input.fetched.releaseDate)
+          ) {
+            return [];
+          }
           const key = manufacturerIdentityKey(input.fetched.manufacturer);
           return key ? [key] : [];
         }),
@@ -66,7 +72,14 @@ const productImportBatcher =
       for (let index = 0; index < products.length; index += 1) {
         const product = products[index];
         const input = inputs[index];
-        if (!product || !input || existingUrls.has(input.surugayaUrl)) continue;
+        if (
+          !product ||
+          !input ||
+          existingUrls.has(input.surugayaUrl) ||
+          isReleaseDateTodayInJapan(input.fetched.releaseDate)
+        ) {
+          continue;
+        }
         const key = manufacturerIdentityKey(input.fetched.manufacturer);
         if (!key || !inheritedIntervals.has(key)) continue;
         const interval = inheritedIntervals.get(key)!;
