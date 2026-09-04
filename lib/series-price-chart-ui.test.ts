@@ -72,9 +72,9 @@ test("作品の強調を保ちつつ凡例の商品名から商品詳細へ移�
   const component = await text("components/SeriesPriceChart.tsx");
   const css = await text("components/SeriesPriceChart.module.css");
 
-  assert.match(component, /selectedTitle/u);
-  assert.match(component, /hoveredTitle/u);
-  assert.match(component, /focusedTitle/u);
+  assert.match(component, /selectedProductId/u);
+  assert.match(component, /hoveredProductId/u);
+  assert.match(component, /focusedProductId/u);
   assert.match(component, /opacity=\{dimmed \? 0\.12 : 1\}/u);
   assert.match(component, /productId: number/u);
   assert.match(component, /href=\{`\/products\/\$\{line\.productId\}`\}/u);
@@ -83,4 +83,16 @@ test("作品の強調を保ちつつ凡例の商品名から商品詳細へ移�
   assert.match(css, /\.legendDimmed/u);
   assert.match(css, /\.hitLine/u);
   assert.match(css, /\.legend a/u);
+});
+
+test("同名商品が複数あっても商品IDをReact識別子と表示補助に使う", async () => {
+  const component = await text("components/SeriesPriceChart.tsx");
+
+  assert.match(component, /const titleCounts = new Map<string, number>\(\)/u);
+  assert.match(component, /`\$\{line\.title\} \[#\$\{line\.productId\}\]`/u);
+  assert.match(component, /key=\{line\.productId\}/u);
+  assert.match(component, /focusedProductId !== line\.productId/u);
+  assert.doesNotMatch(component, /key=\{line\.title\}/u);
+  assert.doesNotMatch(component, /setSelectedTitle/u);
+  assert.doesNotMatch(component, /setHoveredTitle/u);
 });
