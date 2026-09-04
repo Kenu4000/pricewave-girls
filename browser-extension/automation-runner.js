@@ -15,11 +15,13 @@
     return response;
   }
 
-  async function publishViewer() {
+  async function publishViewer(crawlRunId) {
     setStatus("巡回完了。Viewerを生成してGitHub Pagesへ公開しています…");
     const response = await fetch("http://localhost:3000/api/automation/publish-viewer", {
       method: "POST",
       cache: "no-store",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ crawlRunId }),
     });
     const result = await response.json().catch(() => ({}));
     if (!response.ok || !result.ok) {
@@ -67,7 +69,7 @@
       if (!belongsToThisRun) continue;
 
       if (state === "completed") {
-        await publishViewer();
+        await publishViewer(response.status?.crawlRunId ?? null);
         return;
       }
       if (["error", "blocked", "cancelled"].includes(state)) {
