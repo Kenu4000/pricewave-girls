@@ -11,6 +11,7 @@ async function text(path: string) {
 test("Viewer後付け処理は共通ランタイムのDOM監視を共有する", async () => {
   const runtime = await text("viewer/enhancement-runtime.js");
   const interval = await text("viewer/crawl-interval-display.js");
+  const brand = await text("viewer/brand-featured-options.js");
   const detail = await text("viewer/product-detail-enhancements.js");
 
   assert.equal(runtime.match(/new MutationObserver/gu)?.length ?? 0, 1);
@@ -18,8 +19,10 @@ test("Viewer後付け処理は共通ランタイムのDOM監視を共有する",
   assert.match(runtime, /register\(name, enhancement\)/u);
   assert.match(runtime, /pricewave:viewer-rendered/u);
   assert.doesNotMatch(interval, /new MutationObserver/u);
+  assert.doesNotMatch(brand, /new MutationObserver/u);
   assert.doesNotMatch(detail, /new MutationObserver/u);
   assert.match(interval, /runtime\.register\('crawl-interval-display'/u);
+  assert.match(brand, /runtime\.register\('brand-featured-options'/u);
   assert.match(detail, /runtime\.register\('product-detail-enhancements'/u);
 });
 
@@ -27,11 +30,13 @@ test("Viewer共通ランタイムは補正対象より前、home-uiより前に�
   const html = await text("viewer/index.html");
   const runtime = html.indexOf("enhancement-runtime.js");
   const interval = html.indexOf("crawl-interval-display.js");
+  const brand = html.indexOf("brand-featured-options.js");
   const detail = html.indexOf("product-detail-enhancements.js");
   const home = html.indexOf("home-ui.js");
 
   assert.ok(runtime >= 0);
   assert.ok(runtime < interval);
+  assert.ok(runtime < brand);
   assert.ok(runtime < detail);
   assert.ok(detail < home);
   assert.equal(html.indexOf("<script", home), -1);
