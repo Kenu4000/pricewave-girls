@@ -57,31 +57,32 @@ export function splitProductTitleCondition(title: string): ProductTitleCondition
     };
   }
 
-  const trailing = trailingParenthetical(trimmed);
-  if (!trailing) {
-    return { title: trimmed, condition: null, conditionRank: "A" };
+  for (const parenthetical of topLevelParentheticals(trimmed)) {
+    const normalizedContent = normalizeConditionText(parenthetical.content);
+    const explicit = parenthetical.content.match(/^\s*状態\s*[:：]\s*(.+)$/u);
+    const condition = (
+      TRAILING_RANK_B_PATTERN.test(normalizedContent)
+        ? "ランクB"
+        : explicit?.[1] ?? (isProductConditionText(parenthetical.content) ? parenthetical.content : "")
+    ).trim();
+
+    if (!condition) continue;
+
+    return {
+      // 状態括弧の後ろに「（Windows 10）」等のedition情報が続く場合も、それは残す。
+      title: `${trimmed.slice(0, parenthetical.start)}${trimmed.slice(parenthetical.end)}`
+        .replace(/\s{2,}/gu, " ")
+        .trim(),
+      condition,
+      conditionRank: "B",
+    };
   }
 
-  const normalizedTrailing = normalizeConditionText(trailing.content);
-  const explicit = trailing.content.match(/^\s*状態\s*[:：]\s*(.+)$/u);
-  const condition = (
-    TRAILING_RANK_B_PATTERN.test(normalizedTrailing)
-      ? "ランクB"
-      : explicit?.[1] ?? (isProductConditionText(trailing.content) ? trailing.content : "")
-  ).trim();
-
-  if (!condition) {
-    return { title: trimmed, condition: null, conditionRank: "A" };
-  }
-
-  return {
-    title: trimmed.slice(0, trailing.start).trim(),
-    condition,
-    conditionRank: "B",
-  };
+  return { title: trimmed, condition: null, conditionRank: "A" };
 }
 
 export function hasTrailingConditionAnnotation(title: string): boolean {
+  // 互換のため関数名は維持するが、状態括弧の後ろに機種表記が続くケースも検出する。
   return splitProductTitleCondition(title).conditionRank === "B";
 }
 
@@ -155,31 +156,37 @@ function conditionFromDetailsJson(detailsJson: string | null | undefined): {
   }
 }
 
-type TrailingParenthetical = {
+type Parenthetical = {
   start: number;
+  end: number;
   content: string;
 };
 
-function trailingParenthetical(value: string): TrailingParenthetical | null {
-  if (!/[)）]$/u.test(value)) return null;
-
+function topLevelParentheticals(value: string): Parenthetical[] {
+  const groups: Parenthetical[] = [];
   let depth = 0;
-  for (let index = value.length - 1; index >= 0; index -= 1) {
+  let start = -1;
+
+  for (let index = 0; index < value.length; index += 1) {
     const char = value[index];
-    if (char === ")" || char === "）") {
+    if (char === "(" || char === "（") {
+      if (depth === 0) start = index;
       depth += 1;
       continue;
     }
-    if (char !== "(" && char !== "（") continue;
+    if (char !== ")" && char !== "）") continue;
+    if (depth <= 0) continue;
 
     depth -= 1;
-    if (depth === 0) {
-      return {
-        start: index,
-        content: value.slice(index + 1, -1).trim(),
-      };
+    if (depth === 0 && start >= 0) {
+      groups.push({
+        start,
+        end: index + 1,
+        content: value.slice(start + 1, index).trim(),
+      });
+      start = -1;
     }
   }
 
-  return null;
+  return groups;
 }
