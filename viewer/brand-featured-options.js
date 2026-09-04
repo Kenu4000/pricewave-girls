@@ -196,17 +196,23 @@
 
     const countSelect = field.querySelector('#brand-product-count');
     if (!(countSelect instanceof HTMLSelectElement)) return;
-    const blank = document.createElement('option');
-    blank.value = '';
-    blank.textContent = 'すべて';
-    const options = values.map((source) => {
-      const option = document.createElement('option');
-      option.value = source.value;
-      option.textContent = source.label;
-      option.dataset.brandKey = source.key;
-      return option;
-    });
-    countSelect.replaceChildren(blank, ...options);
+    const countSignature = values
+      .map((source) => `${source.key}\u0000${source.value}\u0000${source.label}`)
+      .join('\u0001');
+    if (countSelect.dataset.mainBrandCountOrder !== countSignature) {
+      const blank = document.createElement('option');
+      blank.value = '';
+      blank.textContent = 'すべて';
+      const options = values.map((source) => {
+        const option = document.createElement('option');
+        option.value = source.value;
+        option.textContent = source.label;
+        option.dataset.brandKey = source.key;
+        return option;
+      });
+      countSelect.replaceChildren(blank, ...options);
+      countSelect.dataset.mainBrandCountOrder = countSignature;
+    }
     const selected = values.find((source) => source.key === selectedKey);
     countSelect.value = selected?.value || '';
 
@@ -268,10 +274,9 @@
       blank.value = '';
       blank.textContent = blankLabel;
       const nodes = [blank];
-      const tagBrandKey = (values) => values.map((source) => ({ ...source }));
-      appendGroup(nodes, 'よく登録されているメーカー', tagBrandKey(featured));
-      appendGroup(nodes, '五十音順', tagBrandKey(alphabetical));
-      appendGroup(nodes, '巡回停止', tagBrandKey(stopped));
+      appendGroup(nodes, 'よく登録されているメーカー', featured);
+      appendGroup(nodes, '五十音順', alphabetical);
+      appendGroup(nodes, '巡回停止', stopped);
       select.replaceChildren(...nodes);
       for (const option of select.querySelectorAll('option')) {
         if (!option.value) continue;
