@@ -214,15 +214,21 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       historiesByProduct.set(history.productId, bucket);
     }
     seriesPriceLines = seriesGroups
-      .map((group) => ({
-        title: group.title,
-        histories: group.productIds
-          .flatMap((seriesProductId) => historiesByProduct.get(seriesProductId) ?? [])
-          .sort(
-            (left, right) =>
-              new Date(left.checkedAt).getTime() - new Date(right.checkedAt).getTime(),
-          ),
-      }))
+      .map((group) => {
+        const representativeProductId = group.productIds.find((seriesProductId) =>
+          (historiesByProduct.get(seriesProductId) ?? []).some((history) => history.salePrice !== null),
+        ) ?? group.productIds[0];
+        return {
+          productId: representativeProductId,
+          title: group.title,
+          histories: group.productIds
+            .flatMap((seriesProductId) => historiesByProduct.get(seriesProductId) ?? [])
+            .sort(
+              (left, right) =>
+                new Date(left.checkedAt).getTime() - new Date(right.checkedAt).getTime(),
+            ),
+        };
+      })
       .filter((line) => line.histories.some((history) => history.salePrice !== null));
   }
 
