@@ -1,6 +1,7 @@
 (() => {
   const app = document.querySelector('#app');
-  if (!app) return;
+  const runtime = globalThis.PricewaveViewerEnhancements;
+  if (!app || typeof runtime?.register !== 'function') return;
 
   function collapsePriceHistory() {
     for (const section of app.querySelectorAll('section.panel.block')) {
@@ -34,17 +35,5 @@
     }
   }
 
-  let queued = false;
-  function schedule() {
-    if (queued) return;
-    queued = true;
-    queueMicrotask(() => {
-      queued = false;
-      collapsePriceHistory();
-    });
-  }
-
-  new MutationObserver(schedule).observe(app, { childList: true, subtree: true });
-  window.addEventListener('hashchange', schedule);
-  schedule();
+  runtime.register('product-detail-enhancements', collapsePriceHistory);
 })();
