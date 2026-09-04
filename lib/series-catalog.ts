@@ -127,10 +127,8 @@ export function buildSeriesProductGroups(
   }
 
   return series.titles.flatMap((title) => {
-    const matches = grouped.get(title) ?? [];
-    if (matches.length === 0) return [];
-    const normal = matches.filter(isNormalConditionProduct);
-    const selected = (normal.length > 0 ? normal : matches)
+    const normal = (grouped.get(title) ?? [])
+      .filter(isNormalConditionProduct)
       .slice()
       .sort((left, right) => {
         const titleCompare = displayProductTitle(left.title).localeCompare(
@@ -140,9 +138,9 @@ export function buildSeriesProductGroups(
         return titleCompare || left.id - right.id;
       });
 
-    // 同じシリーズ作品でも通常版・廉価版・対応OS版などは別商品として価格履歴を分離する。
-    // productIds をまとめると異なるeditionの履歴が1本の線へ混ざるため、1商品=1グループにする。
-    return selected.map((product) => ({
+    // ランクB・欠品等の状態違いは、通常品がDBに存在しない場合でもシリーズ商品として代用しない。
+    // 同じシリーズ作品の通常版・廉価版・対応OS版など、状態Aのeditionだけを1商品=1グループで保持する。
+    return normal.map((product) => ({
       title: displayProductTitle(product.title),
       productIds: [product.id],
     }));

@@ -52,6 +52,8 @@ test("公開済みViewerにシリーズJSONがなくても既存商品JSONから
   assert.match(fallback, /\.\/data\/products\/\$\{product\.id\}\.json/u);
   assert.match(fallback, /productId: product\.id/u);
   assert.match(fallback, /original\.status !== 404/u);
+  assert.match(fallback, /\.filter\(isNormalConditionProduct\)/u);
+  assert.doesNotMatch(fallback, /normal\.length\s*\?\s*normal\s*:\s*matches/u);
 
   const fallbackScript = html.indexOf("./series-price-data-fallback.js");
   const seriesScript = html.indexOf("./series-price-chart.js");
