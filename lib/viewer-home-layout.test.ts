@@ -41,5 +41,5 @@ test("ホーム補正はLeaf正規化の後に最後に読み込む", async () =
   const home = html.indexOf("home-ui.js");
   assert.ok(leaf >= 0);
   assert.ok(home > leaf);
-  assert.equal(html.slice(home).match(/<script\s+src=/gu)?.length ?? 0, 1);
+  assert.equal(html.indexOf("<script", home), -1);
 });
