@@ -15,6 +15,8 @@ test("Viewer価格履歴は初期状態で格納する", async () => {
   assert.match(js, /document\.createElement\('details'\)/u);
   assert.match(js, /document\.createElement\('summary'\)/u);
   assert.match(js, /section\.replaceChildren\(details\)/u);
+  assert.match(js, /runtime\.register\('product-detail-enhancements'/u);
+  assert.doesNotMatch(js, /new MutationObserver/u);
   assert.doesNotMatch(js, /details\.open\s*=\s*true/u);
   assert.match(css, /\.viewer-price-history-summary/u);
   assert.doesNotThrow(() => new Function(js));
@@ -48,14 +50,17 @@ test("モバイル商品詳細は軽いfactsを隠し巡回周期バッジを価
   assert.match(intervalJs, /const detailId = location\.hash\.match/u);
   assert.match(intervalJs, /prices\.appendChild\(element\)/u);
   assert.match(intervalJs, /crawl-interval-detail-badge/u);
+  assert.match(intervalJs, /runtime\.register\('crawl-interval-display'/u);
+  assert.doesNotMatch(intervalJs, /new MutationObserver/u);
   assert.doesNotThrow(() => new Function(intervalJs));
 });
 
 test("Viewer商品詳細改善スクリプトをindexから読み込む", async () => {
   const html = await text("viewer/index.html");
-  assert.match(html, /crawl-interval-display\.js\?v=202608191514/u);
+  assert.match(html, /enhancement-runtime\.js\?v=202609041230/u);
+  assert.match(html, /crawl-interval-display\.js\?v=202609041230/u);
   assert.match(html, /detail-filter-links\.js\?v=202608191453/u);
-  assert.match(html, /product-detail-enhancements\.js\?v=202608191453/u);
+  assert.match(html, /product-detail-enhancements\.js\?v=202609041230/u);
   assert.match(html, /product-detail-enhancements\.css\?v=202608191453/u);
   assert.match(html, /mobile-detail-compact\.css\?v=202608191514/u);
 });
