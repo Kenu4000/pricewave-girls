@@ -6,6 +6,7 @@ export type ConditionDuplicateProduct = {
   condition?: string | null;
   conditionRank?: string | null;
   detailsJson?: string | null;
+  surugayaUrl?: string | null;
 };
 
 export type ConditionDuplicateMatch = {
