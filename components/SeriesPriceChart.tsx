@@ -1,6 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import Link from "next/link";
+import { useMemo, useState, type PointerEvent } from "react";
+import {
+  aggregatePriceChartData,
+  type PriceChartMode,
+} from "@/lib/price-chart-data";
 import styles from "./SeriesPriceChart.module.css";
 
 export type SeriesPriceHistoryPoint = {
@@ -9,6 +14,7 @@ export type SeriesPriceHistoryPoint = {
 };
 
 export type SeriesPriceLine = {
+  productId: number;
   title: string;
   histories: SeriesPriceHistoryPoint[];
 };
@@ -20,6 +26,7 @@ type ParsedPoint = {
 };
 
 type ParsedLine = {
+  productId: number;
   title: string;
   points: ParsedPoint[];
   currentPrice: number | null;
@@ -28,9 +35,15 @@ type ParsedLine = {
 
 type ScaleMode = "auto" | "linear" | "log";
 
+const PERIOD_OPTIONS: Array<{ value: PriceChartMode; label: string }> = [
+  { value: "day", label: "日（全期間）" },
+  { value: "week", label: "週" },
+  { value: "month", label: "月" },
+];
+
 const WIDTH = 960;
 const HEIGHT = 340;
-const LEFT = 72;
+const LEFT = 92;
 const RIGHT = 18;
 const TOP = 18;
 const BOTTOM = 46;
@@ -40,16 +53,8 @@ function yen(value: number | null): string {
   return value == null ? "未取得" : `${value.toLocaleString("ja-JP")}円`;
 }
 
-function compactYen(value: number): string {
-  if (Math.abs(value) >= 10_000) {
-    const man = value / 10_000;
-    return `${Number.isInteger(man) ? man.toFixed(0) : man.toFixed(1)}万`;
-  }
-  if (Math.abs(value) >= 1_000) {
-    const thousand = value / 1_000;
-    return `${Number.isInteger(thousand) ? thousand.toFixed(0) : thousand.toFixed(1)}千`;
-  }
-  return String(Math.round(value));
+function axisYen(value: number): string {
+  return `${Math.round(value).toLocaleString("ja-JP")}円`;
 }
 
 function lineColor(index: number): string {
@@ -67,24 +72,69 @@ function formatTick(timestamp: number, span: number): string {
   ).format(date);
 }
 
-function parseLines(lines: SeriesPriceLine[]): ParsedLine[] {
+function formatSelectedTime(timestamp: number, mode: PriceChartMode): string {
+  const date = new Date(timestamp);
+  if (mode === "month") {
+    return new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "short" }).format(date);
+  }
+  if (mode === "week") {
+    return `${new Intl.DateTimeFormat("ja-JP", { month: "numeric", day: "numeric" }).format(date)}時点`;
+  }
+  return new Intl.DateTimeFormat("ja-JP", {
+    month: "numeric",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+}
+
+function parseLines(lines: SeriesPriceLine[], mode: PriceChartMode): ParsedLine[] {
   return lines.flatMap((line, index) => {
-    const points = line.histories
-      .flatMap((history) => {
-        if (history.salePrice == null || !Number.isFinite(history.salePrice)) return [];
-        const timestamp = new Date(history.checkedAt).getTime();
-        if (!Number.isFinite(timestamp)) return [];
-        return [{ checkedAt: history.checkedAt, timestamp, salePrice: history.salePrice }];
-      })
-      .sort((left, right) => left.timestamp - right.timestamp);
+    const aggregated = aggregatePriceChartData(
+      line.histories.map((history) => ({
+        checkedAt: history.checkedAt,
+        salePrice: history.salePrice,
+        buyPrice: null,
+      })),
+      mode,
+    );
+    const points = aggregated.flatMap((history) => {
+      if (history.salePrice == null || !Number.isFinite(history.salePrice)) return [];
+      const timestamp = new Date(history.checkedAt).getTime();
+      if (!Number.isFinite(timestamp)) return [];
+      return [{ checkedAt: history.checkedAt, timestamp, salePrice: history.salePrice }];
+    });
     if (points.length === 0) return [];
     return [{
+      productId: line.productId,
       title: line.title,
       points,
       currentPrice: points.at(-1)?.salePrice ?? null,
       color: lineColor(index),
     }];
   });
+}
+
+function pointAtOrBefore(line: ParsedLine, timestamp: number): ParsedPoint | null {
+  let selected: ParsedPoint | null = null;
+  for (const point of line.points) {
+    if (point.timestamp > timestamp) break;
+    selected = point;
+  }
+  return selected;
+}
+
+function nearestTimestamp(timestamps: number[], target: number): number {
+  let nearest = timestamps[0] ?? target;
+  let distance = Math.abs(nearest - target);
+  for (let index = 1; index < timestamps.length; index += 1) {
+    const nextDistance = Math.abs(timestamps[index] - target);
+    if (nextDistance >= distance) continue;
+    nearest = timestamps[index];
+    distance = nextDistance;
+  }
+  return nearest;
 }
 
 export function SeriesPriceChart({
@@ -97,10 +147,12 @@ export function SeriesPriceChart({
   lines: SeriesPriceLine[];
 }) {
   const [open, setOpen] = useState(false);
+  const [mode, setMode] = useState<PriceChartMode>("day");
   const [scaleMode, setScaleMode] = useState<ScaleMode>("auto");
   const [selectedTitle, setSelectedTitle] = useState<string | null>(null);
   const [hoveredTitle, setHoveredTitle] = useState<string | null>(null);
-  const parsedLines = useMemo(() => parseLines(lines), [lines]);
+  const [selectedTimestamp, setSelectedTimestamp] = useState<number | null>(null);
+  const parsedLines = useMemo(() => parseLines(lines, mode), [lines, mode]);
   const allPoints = parsedLines.flatMap((line) => line.points);
 
   if (!open) {
@@ -125,9 +177,11 @@ export function SeriesPriceChart({
   }
 
   const timestamps = allPoints.map((point) => point.timestamp);
+  const selectionTimestamps = [...new Set(timestamps)].sort((left, right) => left - right);
   const prices = allPoints.map((point) => point.salePrice);
   const minTimestamp = Math.min(...timestamps);
   const maxTimestamp = Math.max(...timestamps);
+  const activeTimestamp = selectedTimestamp ?? maxTimestamp;
   const timeSpan = Math.max(1, maxTimestamp - minTimestamp);
   const rawMin = Math.min(...prices);
   const rawMax = Math.max(...prices);
@@ -174,11 +228,24 @@ export function SeriesPriceChart({
     minTimestamp + (timeSpan * index) / 5,
   );
   const focusedTitle = selectedTitle ?? hoveredTitle;
+  const selectedValues = parsedLines.flatMap((line) => {
+    const point = pointAtOrBefore(line, activeTimestamp);
+    return point ? [{ line, point }] : [];
+  });
   const scaleDescription = useLogScale
     ? scaleMode === "auto"
-      ? "価格差が大きいため、自動で対数目盛にして低価格帯も見えるようにしています。"
-      : "対数目盛で価格差の大きい作品も同じグラフで見やすくしています。"
+      ? "価格差が大きいため、自動で対数目盛にしています。縦軸には実際の価格を表示します。"
+      : "対数目盛で表示しています。縦軸には実際の価格を表示します。"
     : "通常の金額差で表示しています。";
+
+  const selectByPointer = (event: PointerEvent<SVGSVGElement>) => {
+    const bounds = event.currentTarget.getBoundingClientRect();
+    if (bounds.width <= 0) return;
+    const viewX = ((event.clientX - bounds.left) / bounds.width) * WIDTH;
+    const ratio = Math.max(0, Math.min(1, (viewX - LEFT) / plotWidth));
+    const target = minTimestamp + ratio * (maxTimestamp - minTimestamp);
+    setSelectedTimestamp(nearestTimestamp(selectionTimestamps, target));
+  };
 
   return (
     <div className={styles.root}>
@@ -194,23 +261,37 @@ export function SeriesPriceChart({
         </button>
       </div>
 
-      <p className={styles.note}>シリーズ内の各作品について、販売価格の推移を1本ずつ重ねて表示</p>
+      <div aria-label="シリーズ価格推移の表示単位" className={styles.controls}>
+        {PERIOD_OPTIONS.map((option) => (
+          <button
+            aria-pressed={mode === option.value}
+            className={styles.periodButton}
+            key={option.value}
+            onClick={() => {
+              setMode(option.value);
+              setSelectedTimestamp(null);
+            }}
+            type="button"
+          >
+            {option.label}
+          </button>
+        ))}
+      </div>
+      <p className={styles.note}>
+        {mode === "day"
+          ? "全期間を取得時刻ごとに表示。グラフ上を動かすと、その時点の各作品価格を確認できます。"
+          : mode === "week"
+            ? "全期間を週ごとの最終価格で表示"
+            : "全期間を月ごとの最終価格で表示"}
+      </p>
 
       <div className={styles.scaleToolbar}>
         <span>縦軸</span>
         <div aria-label="シリーズ価格グラフの縦軸" className={styles.scaleButtons}>
-          <button
-            aria-pressed={scaleMode === "auto"}
-            onClick={() => setScaleMode("auto")}
-            type="button"
-          >
+          <button aria-pressed={scaleMode === "auto"} onClick={() => setScaleMode("auto")} type="button">
             自動
           </button>
-          <button
-            aria-pressed={scaleMode === "linear"}
-            onClick={() => setScaleMode("linear")}
-            type="button"
-          >
+          <button aria-pressed={scaleMode === "linear"} onClick={() => setScaleMode("linear")} type="button">
             通常
           </button>
           <button
@@ -225,10 +306,27 @@ export function SeriesPriceChart({
         <span className={styles.scaleDescription}>{scaleDescription}</span>
       </div>
 
+      <div aria-live="polite" className={styles.readout}>
+        <strong>{formatSelectedTime(activeTimestamp, mode)}</strong>
+        <div className={styles.readoutValues}>
+          {selectedValues.map(({ line, point }) => (
+            <span
+              className={focusedTitle !== null && focusedTitle !== line.title ? styles.readoutDimmed : undefined}
+              key={line.title}
+            >
+              <i aria-hidden="true" style={{ backgroundColor: line.color }} />
+              {line.title}: {yen(point.salePrice)}
+            </span>
+          ))}
+        </div>
+      </div>
+
       <div className={styles.chartWrap}>
         <svg
           aria-label={`${seriesName}シリーズの販売価格推移`}
           className={styles.svg}
+          onPointerDown={selectByPointer}
+          onPointerMove={selectByPointer}
           preserveAspectRatio="none"
           role="img"
           viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
@@ -238,7 +336,7 @@ export function SeriesPriceChart({
             return (
               <g key={`y-${value}`}>
                 <line className={styles.gridLine} x1={LEFT} x2={WIDTH - RIGHT} y1={y} y2={y} />
-                <text className={styles.yLabel} x={LEFT - 10} y={y + 4}>{compactYen(value)}</text>
+                <text className={styles.yLabel} x={LEFT - 10} y={y + 4}>{axisYen(value)}</text>
               </g>
             );
           })}
@@ -255,11 +353,20 @@ export function SeriesPriceChart({
             </text>
           ))}
 
+          <line
+            className={styles.selectionLine}
+            x1={xAt(activeTimestamp)}
+            x2={xAt(activeTimestamp)}
+            y1={TOP}
+            y2={TOP + plotHeight}
+          />
+
           {parsedLines.map((line) => {
             const path = line.points
               .map((point, index) => `${index === 0 ? "M" : "L"}${xAt(point.timestamp).toFixed(2)},${yAt(point.salePrice).toFixed(2)}`)
               .join(" ");
             const last = line.points.at(-1);
+            const selectedPoint = pointAtOrBefore(line, activeTimestamp);
             const dimmed = focusedTitle !== null && focusedTitle !== line.title;
             const focused = focusedTitle === line.title;
             return (
@@ -287,8 +394,18 @@ export function SeriesPriceChart({
                     opacity={dimmed ? 0.12 : 1}
                     r={focused ? 4.5 : 3.2}
                     stroke={line.color}
+                  />
+                ) : null}
+                {selectedPoint ? (
+                  <circle
+                    className={styles.selectedPoint}
+                    cx={xAt(activeTimestamp)}
+                    cy={yAt(selectedPoint.salePrice)}
+                    opacity={dimmed ? 0.12 : 1}
+                    r={focused ? 5 : 3.5}
+                    stroke={line.color}
                   >
-                    <title>{`${line.title} ${new Date(last.checkedAt).toLocaleString("ja-JP")} ${yen(last.salePrice)}`}</title>
+                    <title>{`${line.title} ${yen(selectedPoint.salePrice)}`}</title>
                   </circle>
                 ) : null}
               </g>
@@ -297,25 +414,25 @@ export function SeriesPriceChart({
         </svg>
       </div>
 
-      <p className={styles.legendHint}>作品名にカーソルを合わせるとその線を強調。クリックすると固定できます。</p>
+      <p className={styles.legendHint}>
+        商品名にカーソルを合わせると該当線を強調。商品名を押すとその商品詳細へ移動します。
+      </p>
       <div className={styles.legend} aria-label={`${seriesName}シリーズの作品一覧`}>
         {parsedLines.map((line) => {
           const dimmed = focusedTitle !== null && focusedTitle !== line.title;
           return (
-            <button
-              aria-pressed={selectedTitle === line.title}
+            <Link
               className={dimmed ? styles.legendDimmed : undefined}
+              href={`/products/${line.productId}`}
               key={line.title}
-              onClick={() => setSelectedTitle((current) => current === line.title ? null : line.title)}
               onPointerEnter={() => setHoveredTitle(line.title)}
               onPointerLeave={() => setHoveredTitle(null)}
-              title={line.title}
-              type="button"
+              title={`${line.title}の商品詳細を開く`}
             >
               <i aria-hidden="true" style={{ backgroundColor: line.color }} />
               <b>{line.title}</b>
               <em>{yen(line.currentPrice)}</em>
-            </button>
+            </Link>
           );
         })}
       </div>
