@@ -89,13 +89,13 @@ test("発売日にPCが動いていなくても次回起動時に1日へ昇格�
   );
 });
 
-test("機能導入前に発売済みの商品は既存の巡回周期を変えない", () => {
+test("機能導入前に発売済みの商品は既存の巡回周期を変えずDB書き込みもしない", () => {
   assert.equal(RELEASE_CRAWL_AUTOMATION_START_DATE, "2026-09-04");
   assert.deepEqual(
     releaseDayCrawlDecision(product({ releaseDate: "2026/08/31" }), now),
     {
       releaseDateKey: "2026-08-31",
-      shouldMarkHandled: true,
+      shouldMarkHandled: false,
       shouldSetDaily: false,
     },
   );
@@ -114,7 +114,7 @@ test("発売後に新規登録した過去作品は1日へ強制変更しない"
     ),
     {
       releaseDateKey: "2026-09-04",
-      shouldMarkHandled: true,
+      shouldMarkHandled: false,
       shouldSetDaily: false,
     },
   );
