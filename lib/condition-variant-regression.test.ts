@@ -95,3 +95,17 @@ test("実際のEdge自動追加経路で状態違いフィルタを読み込む"
   assert.match(wrapper, /page\.productUrls\.filter/u);
   assert.doesNotThrow(() => new Function(wrapper));
 });
+
+test("作成時刻指定の削除は範囲必須・apply必須・分割削除にする", async () => {
+  const script = await readFile("scripts/delete-created-products.ts", "utf8");
+  const packageJson = JSON.parse(await readFile("package.json", "utf8")) as {
+    scripts: Record<string, string>;
+  };
+
+  assert.match(packageJson.scripts["cleanup:created-products"], /delete-created-products\.ts/u);
+  assert.match(script, /requiredDate\("from"\)/u);
+  assert.match(script, /requiredDate\("to"\)/u);
+  assert.match(script, /process\.argv\.includes\("--apply"\)/u);
+  assert.match(script, /createdAt:\s*\{\s*gte: from,\s*lt: to/u);
+  assert.match(script, /DELETE_CHUNK_SIZE = 400/u);
+});
