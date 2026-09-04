@@ -75,14 +75,14 @@ export function releaseDayCrawlDecision(
     return { releaseDateKey, shouldMarkHandled: false, shouldSetDaily: false };
   }
 
-  // 導入前に発売済みの商品は現在の手動設定を維持し、処理済みだけ記録する。
+  // 導入前に発売済みの商品は現在の設定を維持する。大量の旧作へ処理済み書き込みもしない。
   if (releaseDateKey < RELEASE_CRAWL_AUTOMATION_START_DATE) {
-    return { releaseDateKey, shouldMarkHandled: true, shouldSetDaily: false };
+    return { releaseDateKey, shouldMarkHandled: false, shouldSetDaily: false };
   }
 
   // 発売後に初めて登録した過去作品まで一律1日に戻さない。
   if (createdDate > releaseDateKey) {
-    return { releaseDateKey, shouldMarkHandled: true, shouldSetDaily: false };
+    return { releaseDateKey, shouldMarkHandled: false, shouldSetDaily: false };
   }
 
   return {
