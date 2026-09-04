@@ -8,7 +8,8 @@ async function source() {
 }
 
 test("Viewerメーカー候補補正スクリプトを構文解析できる", async () => {
-  assert.doesNotThrow(() => new vm.Script(await source()));
+  const text = await source();
+  assert.doesNotThrow(() => new vm.Script(text));
 });
 
 test("Viewerの自動注目メーカーは20件を上限にし指定追加は別枠にする", async () => {
