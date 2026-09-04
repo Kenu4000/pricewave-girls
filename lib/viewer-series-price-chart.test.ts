@@ -45,8 +45,8 @@ test("公開済みViewerにシリーズJSONがなくても既存商品JSONから
   const html = await text("viewer/index.html");
 
   assert.doesNotThrow(() => new Function(fallback));
-  assert.match(fallback, /series-index\.json/u);
-  assert.match(fallback, /data\/series\/\(\[\^\/?#\]\+\)/u);
+  assert.match(fallback, /SERIES_INDEX_PATTERN/u);
+  assert.match(fallback, /SERIES_DATA_PATTERN/u);
   assert.match(fallback, /raw\.githubusercontent\.com\/Kenu4000\/pricewave-girls\/main\/data\/series-catalog/u);
   assert.match(fallback, /\.\/data\/index\.json/u);
   assert.match(fallback, /\.\/data\/products\/\$\{product\.id\}\.json/u);
