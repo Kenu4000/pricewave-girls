@@ -13,7 +13,8 @@ test("Viewer公開時にシリーズ価格データも生成する", async () =>
   assert.match(exporter, /buildSeriesProductGroups/u);
   assert.match(exporter, /findProductSeries/u);
   assert.match(exporter, /series-index\.json/u);
-  assert.match(exporter, /data["', ]+series/u);
+  assert.match(exporter, /SERIES_DATA_DIR/u);
+  assert.match(exporter, /`\$\{series\.id\}\.json`/u);
   assert.match(exporter, /productIds\[0\]/u);
   assert.doesNotMatch(exporter, /flatMap\(\(seriesProductId\)/u);
 });
