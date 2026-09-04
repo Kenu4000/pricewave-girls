@@ -78,6 +78,28 @@ test("同一作品に通常品がある場合はランクB登録をシリーズ�
   );
 });
 
+test("通常品が未登録でもランクB・欠品商品をシリーズ作品として代用しない", () => {
+  const series = findProductSeries("ランス01 光をもとめて");
+  assert.ok(series);
+
+  const groups = buildSeriesProductGroups(series, [
+    {
+      id: 20,
+      title: "WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて（説明書なし）",
+      conditionRank: "B",
+      condition: "説明書なし",
+    },
+    {
+      id: 21,
+      title: "WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて",
+      conditionRank: "B",
+      condition: "ディスク傷あり",
+    },
+  ]);
+
+  assert.deepEqual(groups, []);
+});
+
 test("同じシリーズ作品のedition違いは別々の価格線として保持する", () => {
   const series = findProductSeries("ランス01 光をもとめて");
   assert.ok(series);
