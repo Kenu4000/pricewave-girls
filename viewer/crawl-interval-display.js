@@ -1,6 +1,7 @@
 (() => {
   const app = document.querySelector('#app');
-  if (!app) return;
+  const runtime = globalThis.PricewaveViewerEnhancements;
+  if (!app || typeof runtime?.register !== 'function') return;
 
   const intervalMeta = (value) => {
     if (value === null) return { label: '無', key: 'off' };
@@ -53,18 +54,5 @@
     if (element) prices.appendChild(element);
   }
 
-  let queued = false;
-  function scheduleDecorate() {
-    if (queued) return;
-    queued = true;
-    requestAnimationFrame(() => {
-      queued = false;
-      void decorate();
-    });
-  }
-
-  const observer = new MutationObserver(scheduleDecorate);
-  observer.observe(app, { childList: true, subtree: true });
-  window.addEventListener('hashchange', scheduleDecorate);
-  scheduleDecorate();
+  runtime.register('crawl-interval-display', decorate);
 })();
