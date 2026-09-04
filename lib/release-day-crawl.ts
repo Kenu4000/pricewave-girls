@@ -1,5 +1,9 @@
 const JST_OFFSET_MS = 9 * 60 * 60 * 1_000;
 
+// 機能導入前に発売済みの商品を一斉に1日へ戻さないための適用開始日。
+// この日以降に発売日を迎える、発売前から登録済みのカードだけを自動昇格する。
+export const RELEASE_CRAWL_AUTOMATION_START_DATE = "2026-09-04";
+
 export type ReleaseDayCrawlProduct = {
   id: number;
   releaseDate: string | null;
@@ -67,10 +71,18 @@ export function releaseDayCrawlDecision(
     return { releaseDateKey, shouldMarkHandled: false, shouldSetDaily: false };
   }
 
-  // 発売前から（または発売日当日に）登録されていたカードだけを対象にする。
-  // 過去作品を発売後に新規登録したケースまで一律1日に戻さない。
-  if (releaseDateKey > today || createdDate > releaseDateKey) {
+  if (releaseDateKey > today) {
     return { releaseDateKey, shouldMarkHandled: false, shouldSetDaily: false };
+  }
+
+  // 導入前に発売済みの商品は現在の手動設定を維持し、処理済みだけ記録する。
+  if (releaseDateKey < RELEASE_CRAWL_AUTOMATION_START_DATE) {
+    return { releaseDateKey, shouldMarkHandled: true, shouldSetDaily: false };
+  }
+
+  // 発売後に初めて登録した過去作品まで一律1日に戻さない。
+  if (createdDate > releaseDateKey) {
+    return { releaseDateKey, shouldMarkHandled: true, shouldSetDaily: false };
   }
 
   return {
