@@ -7,7 +7,7 @@
 駿河屋で別の商品詳細IDを持っていても、`(状態：○○欠品)`、`ランクB` 等は通常版・廉価版・対応OS版のようなeditionではなく「状態違い」として扱う。
 
 - シリーズ価格グラフでは状態違いをeditionとして別カウントしない。
-- 同じシリーズ作品に通常品が存在する場合、状態違いProductはシリーズ線から除外する。
+- PR #101以降、通常品の有無に関係なく状態違いProductをシリーズ線へ代用しない。
 - 新商品自動追加の検索一覧では、タイトルから明確に状態違いと判定できる商品URLを追加候補から除外する。
 - editionを識別する後続表記（例: `（Windows 10）`）は状態括弧を除去した後もタイトルに残す。
 
@@ -39,7 +39,9 @@
 
 したがって今回の対策では、探索範囲を旧URLへ戻して問題を隠すのではなく、現在の広い探索範囲を維持したまま「状態違いは未登録の新editionではない」と判定して除外する。
 
-今後、拡張機能の未登録探索で回帰が出た場合は、現行コードだけでなくPR #20前後の `background.js` / Service Worker chain / 検索URL変更履歴も確認すること。
+2026-09-04に、駿河屋側の検索設定で「品切れ表示」を有効にしていたことで、過去に登録済みの状態違いProductが多数再取得され、同じ作品のカードが重複して見える事象が発生した。`Product.createdAt` は当日0件でも `PriceHistory.checkedAt` が17:59台に増えていたため、新規Product作成ではなく既存状態違いProductの再取得と判明した。
+
+今後、拡張機能の未登録探索で回帰が出た場合は、現行コードだけでなくPR #20前後の `background.js` / Service Worker chain / 検索URL変更履歴も確認すること。また「新規登録された」と判断する前に `Product.createdAt` と `PriceHistory.checkedAt` を分けて確認する。
 
 ## 実装
 
@@ -56,12 +58,30 @@
 
 検索一覧に状態情報が一切出ていない商品は一覧段階では判定できない。その場合でも、保存後の状態判定やシリーズ集計では `splitProductTitleCondition()` の結果を使用すること。
 
-## 既存データの一時削除
+## 既存データの削除
+
+### 状態違いで重複したカードを消す
+
+通常状態の商品と、状態表記を除いたタイトルが同一のランクB/欠品/状態難Productだけを削除する。
+
+まず確認のみ:
+
+`npm run cleanup:condition-duplicates`
+
+確認した対象を削除:
+
+`npm run cleanup:condition-duplicates -- --apply`
+
+`lib/condition-duplicate-products.ts` で状態表記を除いた商品タイトルをNFKC正規化し、空白・句読点を無視して同一editionを照合する。通常状態の商品が存在しない状態違いProductは自動削除しない。通常版・廉価版・対応OS版など、タイトル本体が異なる状態A商品も削除しない。
+
+削除はProduct IDを400件ずつに分割し、SQLiteのパラメータ上限を避ける。Product配下の `PriceHistory` / `PriceChange` / `JunkHistory` は既存のCASCADE設定に従って削除される。
+
+### 作成時刻で削除する
 
 `Product` には過去のimport元が「手動」「自動追加」のどちらだったかを永続化するフィールドがない。そのため過去の自動追加だけを後から完全には識別できない。
 
-指定した作成時刻範囲のProductを削除するため、以下を用意する。
+指定した作成時刻範囲のProductを削除するため、以下を用意している。
 
 `npm run cleanup:created-products -- --from=<ISO日時> --to=<ISO日時> --apply`
 
-`--apply` を外すと削除対象の確認のみを行う。削除はProduct IDを小分けにし、SQLiteのパラメータ上限を避ける。Product配下の履歴は既存のCASCADE設定に従う。
+`--apply` を外すと削除対象の確認のみを行う。ただし、今回のように既存Productが再取得されただけのケースでは `createdAt` による削除は使わない。
