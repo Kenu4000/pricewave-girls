@@ -122,16 +122,14 @@
         grouped.set(canonicalTitle, bucket);
       }
 
-      const selected = series.titles.flatMap((title) => {
-        const matches = grouped.get(title) || [];
-        if (!matches.length) return [];
-        const normal = matches.filter(isNormalConditionProduct);
-        return (normal.length ? normal : matches)
+      const selected = series.titles.flatMap((title) =>
+        (grouped.get(title) || [])
+          .filter(isNormalConditionProduct)
           .slice()
           .sort((left, right) =>
             displayProductTitle(left.title).localeCompare(displayProductTitle(right.title), 'ja-JP') || left.id - right.id,
-          );
-      });
+          ),
+      );
 
       const lines = (await Promise.all(selected.map(async (product) => {
         if (product.historyCount === 0) return null;
