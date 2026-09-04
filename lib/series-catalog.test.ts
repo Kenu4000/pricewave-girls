@@ -38,6 +38,16 @@ test("ランクB等の状態表記が付いたタイトルでも同じシリー�
   assert.equal(series?.id, "S001");
 });
 
+test("+などタイトルを識別する記号は別作品として保持する", () => {
+  const amakano = findProductSeries("アマカノ＋");
+  assert.equal(amakano?.id, "S152");
+  assert.equal(findSeriesCanonicalTitle("アマカノ＋", amakano!), "アマカノ＋");
+
+  const custom = findProductSeries("カスタムメイド3D2+");
+  assert.equal(custom?.id, "S145");
+  assert.equal(findSeriesCanonicalTitle("カスタムメイド3D2+", custom!), "カスタムメイド3D2+");
+});
+
 test("同一作品に通常品がある場合はランクB登録をシリーズ線から除外する", () => {
   const series = findProductSeries("戦国ランス");
   assert.ok(series);
