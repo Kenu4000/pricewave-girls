@@ -40,8 +40,20 @@ type CatalogTitleEntry = {
   normalized: string;
 };
 
+const STOREFRONT_PLATFORM_PREFIX =
+  /^(?:Windows|Macintosh|Mac(?:\s*OS)?|PC[- ]?98|X68000|FM[- ]?TOWNS|MS[- ]?DOS|DOS)/iu;
+const STOREFRONT_SOFTWARE_PREFIX = /^.{0,100}?ソフト[\s　]+/u;
+
+function stripStorefrontCategoryPrefix(value: string): string {
+  const trimmed = value.trim();
+  if (!STOREFRONT_PLATFORM_PREFIX.test(trimmed)) return trimmed;
+
+  const prefix = STOREFRONT_SOFTWARE_PREFIX.exec(trimmed);
+  return prefix ? trimmed.slice(prefix[0].length).trim() : trimmed;
+}
+
 function normalizeTitle(value: string): string {
-  return splitProductTitleCondition(value).title
+  return splitProductTitleCondition(stripStorefrontCategoryPrefix(value)).title
     .normalize("NFKC")
     .toLocaleLowerCase("ja-JP")
     .replace(/[\s\p{P}]/gu, "")
