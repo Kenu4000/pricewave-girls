@@ -28,6 +28,18 @@ test("商品タイトルからシリーズを判定し正式タイトルへ寄�
   );
 });
 
+test("駿河屋の機種・媒体カテゴリ前置きが付いていてもシリーズを判定する", () => {
+  const title = "WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて";
+  const series = findProductSeries(title);
+  assert.equal(series?.id, "S001");
+  assert.equal(findSeriesCanonicalTitle(title, series!), "ランス01 光をもとめて");
+
+  const cdTitle = "Windows98/Me/2000/XP CDソフト 鬼畜王ランス";
+  const cdSeries = findProductSeries(cdTitle);
+  assert.equal(cdSeries?.id, "S001");
+  assert.equal(findSeriesCanonicalTitle(cdTitle, cdSeries!), "鬼畜王ランス");
+});
+
 test("長い正式タイトルを優先して隣接シリーズへの誤分類を避ける", () => {
   const dungeon = findProductSeries("ToHeart2 ダンジョントラベラーズ");
   assert.equal(dungeon?.id, "S042");
