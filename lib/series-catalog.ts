@@ -44,7 +44,7 @@ function normalizeTitle(value: string): string {
   return splitProductTitleCondition(value).title
     .normalize("NFKC")
     .toLocaleLowerCase("ja-JP")
-    .replace(/[\s\p{P}\p{S}]/gu, "")
+    .replace(/[\s\p{P}]/gu, "")
     .trim();
 }
 
