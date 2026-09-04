@@ -1,0 +1,159 @@
+.root {
+  border-top: 1px solid var(--border);
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.toolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.toolbar > div {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+
+.count,
+.note {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.note {
+  margin: 0 0 8px;
+}
+
+.toggleButton {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--primary-dark);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 6px 14px;
+}
+
+.toggleButton:hover,
+.toggleButton:focus-visible {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.chartWrap {
+  height: 280px;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.svg {
+  display: block;
+  height: 100%;
+  overflow: visible;
+  width: 100%;
+}
+
+.gridLine {
+  stroke: var(--border);
+  stroke-dasharray: 3 3;
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.seriesLine {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.endPoint {
+  fill: white;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.xLabel,
+.yLabel {
+  fill: var(--muted);
+  font-size: 12px;
+}
+
+.yLabel {
+  text-anchor: end;
+}
+
+.legend {
+  display: grid;
+  gap: 5px 12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 8px;
+  max-height: 190px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.legend span {
+  align-items: center;
+  display: grid;
+  font-size: 0.73rem;
+  gap: 6px;
+  grid-template-columns: 8px minmax(0, 1fr) auto;
+  min-width: 0;
+}
+
+.legend i {
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+}
+
+.legend b {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.legend em {
+  color: var(--muted);
+  font-style: normal;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .toolbar {
+    align-items: stretch;
+    display: grid;
+  }
+
+  .toggleButton {
+    justify-self: start;
+  }
+
+  .chartWrap {
+    height: 245px;
+  }
+
+  .xLabel,
+  .yLabel {
+    font-size: 10px;
+  }
+
+  .legend {
+    grid-template-columns: 1fr;
+    max-height: 220px;
+  }
+}
