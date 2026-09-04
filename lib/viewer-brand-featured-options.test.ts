@@ -36,7 +36,7 @@ test("Viewerのブランド欄はmain同様に五十音順と巡回停止を分�
   assert.match(text, /appendGroup\(nodes, '五十音順',/u);
   assert.match(text, /appendGroup\(nodes, '巡回停止',/u);
   assert.match(text, /profile\.active === 0/u);
-  assert.match(html, /brand-featured-options\.js\?v=202609041052/u);
+  assert.match(html, /brand-featured-options\.js\?v=202609041107/u);
 });
 
 test("Viewerの製品数が多い順はブランド欄と別の選択欄にする", async () => {
@@ -45,4 +45,5 @@ test("Viewerの製品数が多い順はブランド欄と別の選択欄にす�
   assert.match(text, /select\.id = 'brand-product-count'/u);
   assert.match(text, /profile\.active > 0/u);
   assert.match(text, /right\.total - left\.total/u);
+  assert.match(text, /mainBrandCountOrder/u);
 });
