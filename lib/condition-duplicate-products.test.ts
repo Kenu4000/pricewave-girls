@@ -21,8 +21,8 @@ test("状態表記を除いた同一editionのランクBだけを重複削除候
     { id: 5, title: "サクラノ刻 [初回限定版](状態：冊子欠品)（Windows 10）", conditionRank: "B", condition: "冊子欠品" },
   ]);
 
-  assert.deepEqual(matches.map((match) => match.product.id), [2, 3]);
-  assert.deepEqual(matches.map((match) => match.normalProductIds), [[1], [1]]);
+  assert.deepEqual(matches.map((match) => match.product.id), [2, 3, 5]);
+  assert.deepEqual(matches.map((match) => match.normalProductIds), [[1], [1], [4]]);
 });
 
 test("DBのconditionだけでランクBになっている同名カードも削除候補にする", () => {
