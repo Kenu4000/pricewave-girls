@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42579,
+    "title": "Windows98/Me/2000/XP DVDソフト 春恋*乙女 ～乙女の園でごきげんよう。～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016969",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016969.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2007-12-14",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016969",
+      "メーカー": "BaseSon",
+      "発売日": "2007/12/14",
+      "定価": "9,680円",
+      "原画": "魚\n片桐雛太\n騎士二千",
+      "シナリオ": "まじか\n青山拓也\nK.バッジョ\n尾之上咲太\n中本穂積",
+      "アーティスト": "理多",
+      "声優": "大波こなみ\n榊原ゆい\n手塚まき\n日向裕羅\n籐野らん\n青山ゆかり\n本山美奈\n成瀬未亜\nまきいづみ\n海原エレナ\n北都南",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:45.906Z"
+  },
+  "histories": [
+    {
+      "id": 42593,
+      "productId": 42579,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:04.838Z"
+    },
+    {
+      "id": 44150,
+      "productId": 42579,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:02.550Z"
+    },
+    {
+      "id": 72188,
+      "productId": 42579,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:45.906Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016969",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016969",
+    "capturedAt": "2026-09-03T01:16:45.906Z",
+    "items": [],
+    "path": "data/other-shops/145016969.json"
+  }
+}

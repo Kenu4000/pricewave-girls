@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42906,
+    "title": "Windows2000/XP DVDソフト 潮風の消える海に",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015400",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015400.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2007-01-26",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015400",
+      "メーカー": "light",
+      "発売日": "2007/01/26",
+      "定価": "3,300円",
+      "原画": "ぽよよんろっく",
+      "シナリオ": "早狩武志",
+      "声優": "秋山樹\n安玖深音\n木島宇太\n杉崎和哉\n佐本二厘",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9680,
+    "latestRegularSalePrice": 9680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:52.762Z"
+  },
+  "histories": [
+    {
+      "id": 42920,
+      "productId": 42906,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:12.887Z"
+    },
+    {
+      "id": 55041,
+      "productId": 42906,
+      "salePrice": 9680,
+      "regularSalePrice": 9680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:22.672Z"
+    },
+    {
+      "id": 66133,
+      "productId": 42906,
+      "salePrice": 9680,
+      "regularSalePrice": 9680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:52.762Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015400",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015400",
+    "capturedAt": "2026-08-29T13:05:52.762Z",
+    "items": [],
+    "path": "data/other-shops/145015400.json"
+  }
+}

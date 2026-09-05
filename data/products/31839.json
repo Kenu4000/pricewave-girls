@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 31839,
+    "title": "Windows CDソフト ヴァンパイアクルセイダーズ クルセイダープライムver.",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032645",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032645.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2012-03-30",
+    "listPrice": null,
+    "modelNumber": "TAVC-1203GC",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145032645001",
+      "メーカー": "Triangle",
+      "発売日": "2012/03/30",
+      "型番": "TAVC-1203GC",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:21:53.088Z"
+  },
+  "histories": [
+    {
+      "id": 31853,
+      "productId": 31839,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:56.356Z"
+    },
+    {
+      "id": 40588,
+      "productId": 31839,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:00.401Z"
+    },
+    {
+      "id": 51506,
+      "productId": 31839,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:27.640Z"
+    },
+    {
+      "id": 72783,
+      "productId": 31839,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:21:53.088Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 209489,
+      "productId": 31839,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T01:21:54.000Z"
+    },
+    {
+      "id": 209488,
+      "productId": 31839,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:21:54.000Z"
+    },
+    {
+      "id": 209487,
+      "productId": 31839,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T01:21:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032645",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032645",
+    "capturedAt": "2026-09-03T01:21:53.088Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145032645.json"
+  }
+}

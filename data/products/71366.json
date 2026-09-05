@@ -1,0 +1,106 @@
+{
+  "product": {
+    "id": 71366,
+    "title": "WindowsXP/Vista/7 DVDソフト さくら、咲きました。[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032861",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032861.jpg",
+    "manufacturer": "SORAHANE",
+    "releaseDate": "2012-08-24",
+    "listPrice": 9680,
+    "modelNumber": "SORAHANE-0011",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032861001",
+      "メーカー": "SORAHANE",
+      "発売日": "2012/08/24",
+      "定価": "9,680円",
+      "型番": "SORAHANE-0011",
+      "原画": "腹ぺ娘\n秋月つかさ",
+      "シナリオ": "五十嵐十六\nポチくん\n甲二\n砥石大樹\n昼王\n小野楽園",
+      "声優": "椎那天\n上田朱音\n雪村とあ\n藤森ゆき奈\nアイカリツ\n鶴屋春人\n宮沢ゆあな\n鈴音華月\n香澄りょう\n涼貴涼\n英みらい(大山チロル)\nあじ秋刀魚\n古河徹人\n荒川虎鉄",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145032861?branch_number=0002"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:14.973Z"
+  },
+  "histories": [
+    {
+      "id": 71380,
+      "productId": 71366,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:14.973Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204852,
+      "productId": 71366,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 2050,
+      "checkedAt": "2026-09-02T21:37:15.000Z"
+    },
+    {
+      "id": 204851,
+      "productId": 71366,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ランクB",
+      "price": 1600,
+      "checkedAt": "2026-09-02T21:37:15.000Z"
+    },
+    {
+      "id": 204850,
+      "productId": 71366,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1600,
+      "checkedAt": "2026-09-02T21:37:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032861",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032861",
+    "capturedAt": "2026-09-02T21:37:14.973Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1600
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古ランクB",
+        "price": 1600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145032861.json"
+  }
+}

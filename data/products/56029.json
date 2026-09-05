@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 56029,
+    "title": "Windows2000/XP/Vista CDソフト こなゆき ふるり～柚子原町カーリング部～ 外伝 冴子の通い妻日記",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018549",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018549.jpg",
+    "manufacturer": "ブルームハンドル",
+    "releaseDate": "2008-08-29",
+    "listPrice": 2096,
+    "modelNumber": "BH-108",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018549",
+      "メーカー": "ブルームハンドル",
+      "発売日": "2008/08/29",
+      "定価": "2,096円",
+      "型番": "BH-108",
+      "原画": "ぺこ",
+      "声優": "和泉あやか\n春奈有美\n五行なずな",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:38.019Z"
+  },
+  "histories": [
+    {
+      "id": 56043,
+      "productId": 56029,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:22.835Z"
+    },
+    {
+      "id": 75144,
+      "productId": 56029,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:38.019Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018549",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018549",
+    "capturedAt": "2026-09-04T08:41:38.019Z",
+    "items": [],
+    "path": "data/other-shops/145018549.json"
+  }
+}

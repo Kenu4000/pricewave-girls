@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 3150,
+    "title": "Windows3.1/PC-9801 CDソフト 猟奇の檻",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000462",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000462.jpg",
+    "manufacturer": "日本プランテック",
+    "releaseDate": "1996-01-16",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145000462001",
+      "メーカー": "日本プランテック",
+      "発売日": "1996/01/16",
+      "定価": "9,680円",
+      "原画": "横田守",
+      "シナリオ": "佐野一馬",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5000,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:50:55.844Z"
+  },
+  "histories": [
+    {
+      "id": 3164,
+      "productId": 3150,
+      "salePrice": 5880,
+      "regularSalePrice": 5880,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36955,
+      "productId": 3150,
+      "salePrice": 5600,
+      "regularSalePrice": 5900,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:35.840Z"
+    },
+    {
+      "id": 47569,
+      "productId": 3150,
+      "salePrice": 5900,
+      "regularSalePrice": 5900,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:28.452Z"
+    },
+    {
+      "id": 58439,
+      "productId": 3150,
+      "salePrice": 4500,
+      "regularSalePrice": 5000,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:39:07.112Z"
+    },
+    {
+      "id": 69253,
+      "productId": 3150,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:50:55.844Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

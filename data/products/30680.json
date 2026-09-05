@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 30680,
+    "title": "WindowsXP/Vista/7/8 CDソフト その花びらにくちづけを ミカエルの乙女たち[普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046975",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046975.jpg",
+    "manufacturer": "ゆりんゆりん",
+    "releaseDate": "2014-12-12",
+    "listPrice": 5489,
+    "modelNumber": "YRN-004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046975",
+      "メーカー": "ゆりんゆりん",
+      "発売日": "2014/12/12",
+      "定価": "5,489円",
+      "型番": "YRN-004",
+      "声優": "真鶴コウ\n黒井音瑚\n秋本ねりね\n小鳥遊このこ\n内野ぽち\n五行なずな\n羽里さつき\n和泉あやか\n杏花\n未瑛\n桜川未央\nあずまゆい\n上田幸姫",
+      "原画": "ぺこ",
+      "シナリオ": "JUN",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:05:18.522Z"
+  },
+  "histories": [
+    {
+      "id": 30694,
+      "productId": 30680,
+      "salePrice": 2980,
+      "regularSalePrice": 3150,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:46.856Z"
+    },
+    {
+      "id": 39459,
+      "productId": 30680,
+      "salePrice": 2980,
+      "regularSalePrice": 3150,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:57.336Z"
+    },
+    {
+      "id": 50655,
+      "productId": 30680,
+      "salePrice": 2980,
+      "regularSalePrice": 3150,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:55.109Z"
+    },
+    {
+      "id": 61729,
+      "productId": 30680,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:19:45.379Z"
+    },
+    {
+      "id": 73511,
+      "productId": 30680,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:05:18.522Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135772,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-19T05:29:55.000Z"
+    },
+    {
+      "id": 135771,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-19T05:29:55.000Z"
+    },
+    {
+      "id": 103270,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-16T01:20:57.000Z"
+    },
+    {
+      "id": 103269,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-16T01:20:57.000Z"
+    },
+    {
+      "id": 77376,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-08-15T23:22:47.000Z"
+    },
+    {
+      "id": 77375,
+      "productId": 30680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-15T23:22:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

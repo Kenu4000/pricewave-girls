@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 71248,
+    "title": "WindowsVista/7/8/10 DVDソフト 弓張月の導き雲はるか [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057996",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057996.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2017-07-28",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057996001",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2017/07/28",
+      "定価": "10,780円",
+      "原画": "山本和枝",
+      "シナリオ": "ミシマ\n御導はるか",
+      "声優": "飯田空\n榊原ゆい\n六条太助\n成瀬未亜\n歩サラ\nくすはらゆい\n花園めい\n歩河みぃな\n三嶋ワタル",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:21.827Z"
+  },
+  "histories": [
+    {
+      "id": 71262,
+      "productId": 71248,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:21.827Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204532,
+      "productId": 71248,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-09-02T21:36:22.000Z"
+    },
+    {
+      "id": 204531,
+      "productId": 71248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:36:22.000Z"
+    },
+    {
+      "id": 204530,
+      "productId": 71248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1455,
+      "checkedAt": "2026-09-02T21:36:22.000Z"
+    },
+    {
+      "id": 204529,
+      "productId": 71248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:36:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057996",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057996",
+    "capturedAt": "2026-09-02T21:36:21.827Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1455
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145057996.json"
+  }
+}

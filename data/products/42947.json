@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 42947,
+    "title": "Windows98SE/Me/2000/XP DVDソフト たまたまクリスマスBOX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067241",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067241.jpg",
+    "manufacturer": "BANANA shu-shu",
+    "releaseDate": "2006-12-22",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145067241",
+      "メーカー": "BANANA shu-shu",
+      "発売日": "2006/12/22",
+      "定価": "6,380円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:04.439Z"
+  },
+  "histories": [
+    {
+      "id": 42961,
+      "productId": 42947,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:33.141Z"
+    },
+    {
+      "id": 44198,
+      "productId": 42947,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:25.476Z"
+    },
+    {
+      "id": 72214,
+      "productId": 42947,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:04.439Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067241",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067241",
+    "capturedAt": "2026-09-03T01:17:04.439Z",
+    "items": [],
+    "path": "data/other-shops/145067241.json"
+  }
+}

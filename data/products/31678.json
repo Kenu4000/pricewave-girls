@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 31678,
+    "title": "Windows CDソフト AQUA・さくら、咲きました。デジタル原画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034543",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034543.jpg",
+    "manufacturer": "SORAHANE",
+    "releaseDate": "2012-08-24",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145034543001",
+      "メーカー": "SORAHANE",
+      "発売日": "2012/08/24",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:08:36.411Z"
+  },
+  "histories": [
+    {
+      "id": 31692,
+      "productId": 31678,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:55.217Z"
+    },
+    {
+      "id": 40426,
+      "productId": 31678,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:43.071Z"
+    },
+    {
+      "id": 51386,
+      "productId": 31678,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:19.818Z"
+    },
+    {
+      "id": 63383,
+      "productId": 31678,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:08:59.613Z"
+    },
+    {
+      "id": 73940,
+      "productId": 31678,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:08:36.411Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

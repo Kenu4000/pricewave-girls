@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42803,
+    "title": "WindowsXP/Vista DVDソフト とらぶるDAYS [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015768",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015768.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": "RYUSYS-0093",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015768",
+      "メーカー": "Studio e・go!",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "型番": "RYUSYS-0093",
+      "原画": "山本和枝",
+      "シナリオ": "寺岡健治",
+      "声優": "杏\n水野江麻\n山咲杏\n白井せいな\n黒崎猫\n西野みく\n丈隆志\n九条忍\n青井京四郎\n高岡政人\n森藍子\n風音\n夏田空\n浅見ちほ\n木春三十郎\n広田菜月\n一章節\nまりもりん",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 720,
+    "latestRegularSalePrice": 720,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:14.583Z"
+  },
+  "histories": [
+    {
+      "id": 42817,
+      "productId": 42803,
+      "salePrice": 720,
+      "regularSalePrice": 720,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:13.535Z"
+    },
+    {
+      "id": 54953,
+      "productId": 42803,
+      "salePrice": 720,
+      "regularSalePrice": 720,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:37.821Z"
+    },
+    {
+      "id": 66054,
+      "productId": 42803,
+      "salePrice": 720,
+      "regularSalePrice": 720,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:14.583Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015768",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015768",
+    "capturedAt": "2026-08-29T13:05:14.583Z",
+    "items": [],
+    "path": "data/other-shops/145015768.json"
+  }
+}

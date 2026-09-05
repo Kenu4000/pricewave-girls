@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 31754,
+    "title": "Windows CDソフト インモラル・リトル ソフマップ スペシャルディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034544",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034544.jpg",
+    "manufacturer": "Apricot Cherry",
+    "releaseDate": "2012-06-29",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145034544",
+      "メーカー": "Apricot Cherry",
+      "発売日": "2012/06/29",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 90,
+    "latestRegularSalePrice": 90,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:42.759Z"
+  },
+  "histories": [
+    {
+      "id": 31768,
+      "productId": 31754,
+      "salePrice": 90,
+      "regularSalePrice": 90,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:50.297Z"
+    },
+    {
+      "id": 40503,
+      "productId": 31754,
+      "salePrice": 90,
+      "regularSalePrice": 90,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:17.800Z"
+    },
+    {
+      "id": 43802,
+      "productId": 31754,
+      "salePrice": 90,
+      "regularSalePrice": 90,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:09.432Z"
+    },
+    {
+      "id": 72058,
+      "productId": 31754,
+      "salePrice": 90,
+      "regularSalePrice": 90,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:42.759Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034544",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034544",
+    "capturedAt": "2026-09-03T01:15:42.759Z",
+    "items": [],
+    "path": "data/other-shops/145034544.json"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 29247,
+    "title": "Windows8/8.1/10 DVDソフト 屈辱3",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072863",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072863.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2021-09-24",
+    "listPrice": 9680,
+    "modelNumber": "BSP-065",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145072863001",
+      "メーカー": "BISHOP",
+      "発売日": "2021/09/24",
+      "定価": "9,680円",
+      "型番": "BSP-065",
+      "原画": "T-28\n水島☆多也\n赤木リオ",
+      "シナリオ": "高橋冷夢\n麿\n大津菜美\n紺乃瑞樹",
+      "声優": "渋谷ひめ\n桜水季\n高梨はなみ\n御苑生メイ",
+      "主題歌": "赤月ゆむ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6050,
+    "latestRegularSalePrice": 6050,
+    "latestBuyPrice": 2900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:34.871Z"
+  },
+  "histories": [
+    {
+      "id": 29261,
+      "productId": 29247,
+      "salePrice": 5750,
+      "regularSalePrice": 5750,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:59.975Z"
+    },
+    {
+      "id": 70769,
+      "productId": 29247,
+      "salePrice": 6050,
+      "regularSalePrice": 6050,
+      "buyPrice": 2900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:34.871Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202988,
+      "productId": 29247,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6050,
+      "checkedAt": "2026-09-02T20:47:35.000Z"
+    },
+    {
+      "id": 202987,
+      "productId": 29247,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5700,
+      "checkedAt": "2026-09-02T20:47:35.000Z"
+    },
+    {
+      "id": 74111,
+      "productId": 29247,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 5750,
+      "checkedAt": "2026-08-15T23:05:00.000Z"
+    },
+    {
+      "id": 74110,
+      "productId": 29247,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5000,
+      "checkedAt": "2026-08-15T23:05:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072863",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072863",
+    "capturedAt": "2026-09-02T20:47:34.871Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 5700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6050
+      }
+    ],
+    "path": "data/other-shops/145072863.json"
+  }
+}

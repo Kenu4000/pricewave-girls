@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 42323,
+    "title": "Windows2000/XP/Vista CDソフト PRISM ARK らぶりーヘルたん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026154",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "ぱじゃまソフト",
+    "releaseDate": "2008-08-15",
+    "listPrice": null,
+    "modelNumber": "PPP-0001R",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145026154001",
+      "メーカー": "ぱじゃまソフト",
+      "発売日": "2008/08/15",
+      "型番": "PPP-0001R",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 290,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:02:21.949Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:21.828Z"
+  },
+  "histories": [
+    {
+      "id": 42337,
+      "productId": 42323,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:32.566Z"
+    },
+    {
+      "id": 53727,
+      "productId": 42323,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:48.373Z"
+    },
+    {
+      "id": 65699,
+      "productId": 42323,
+      "salePrice": 290,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:21.828Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

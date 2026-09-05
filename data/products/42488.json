@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42488,
+    "title": "Windows98/Me/2000/XP DVDソフト 初恋撫子(こいおとめ)[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017606",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017606.jpg",
+    "manufacturer": "キャリエール",
+    "releaseDate": "2008-03-25",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145017606",
+      "メーカー": "キャリエール",
+      "発売日": "2008/03/25",
+      "定価": "4,180円",
+      "原画": "igul\nMA@YA",
+      "シナリオ": "JUN\nそら\n雪乃府宏明",
+      "声優": "中澤アユム\n榊原ゆい\n安玖深音\n北都南\n金田まひる\n文月かな\n芹園みや\n涼森ちさと\nYuki-Lin",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:15.179Z"
+  },
+  "histories": [
+    {
+      "id": 42502,
+      "productId": 42488,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:16.435Z"
+    },
+    {
+      "id": 53853,
+      "productId": 42488,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:51.119Z"
+    },
+    {
+      "id": 65811,
+      "productId": 42488,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:15.179Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017606",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017606",
+    "capturedAt": "2026-08-29T13:03:15.179Z",
+    "items": [],
+    "path": "data/other-shops/145017606.json"
+  }
+}

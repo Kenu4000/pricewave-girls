@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 29524,
+    "title": "Windows7/8/8.1/10 DVDソフト ひとつまみ -リラクゼーションシリーズ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062793",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062793.jpg",
+    "manufacturer": "HERENCIA",
+    "releaseDate": "2018-09-28",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062793",
+      "メーカー": "HERENCIA",
+      "発売日": "2018/09/28",
+      "定価": "7,480円",
+      "原画": "ぶぶづけ\n八葉香南",
+      "シナリオ": "もみあげルパンR\n亮精類",
+      "声優": "葵時緒\n長原杏子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3420,
+    "latestRegularSalePrice": 3420,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:38.045Z"
+  },
+  "histories": [
+    {
+      "id": 29538,
+      "productId": 29524,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:55.765Z"
+    },
+    {
+      "id": 38359,
+      "productId": 29524,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:03.467Z"
+    },
+    {
+      "id": 49491,
+      "productId": 29524,
+      "salePrice": 3420,
+      "regularSalePrice": 3420,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:23.906Z"
+    },
+    {
+      "id": 60226,
+      "productId": 29524,
+      "salePrice": 3420,
+      "regularSalePrice": 3420,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:10:35.173Z"
+    },
+    {
+      "id": 70509,
+      "productId": 29524,
+      "salePrice": 3420,
+      "regularSalePrice": 3420,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:38.045Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062793",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062793",
+    "capturedAt": "2026-09-02T20:45:38.045Z",
+    "items": [],
+    "path": "data/other-shops/145062793.json"
+  }
+}

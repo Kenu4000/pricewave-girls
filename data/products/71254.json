@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 71254,
+    "title": "WindowsXP/Vista/7/8.1 DVDソフト 姉辱/妹辱/娘辱(月刊メガストア 2017年5月号 Vol.288 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063224",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063224.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2017-01-30",
+    "listPrice": null,
+    "modelNumber": "MEGA1705",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145063224001",
+      "メーカー": "コアマガジン",
+      "発売日": "2017/01/30",
+      "型番": "MEGA1705",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:23.777Z"
+  },
+  "histories": [
+    {
+      "id": 71268,
+      "productId": 71254,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:23.777Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204558,
+      "productId": 71254,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-02T21:36:23.000Z"
+    },
+    {
+      "id": 204557,
+      "productId": 71254,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 2000,
+      "checkedAt": "2026-09-02T21:36:23.000Z"
+    },
+    {
+      "id": 204556,
+      "productId": 71254,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-02T21:36:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063224",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063224",
+    "capturedAt": "2026-09-02T21:36:23.777Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1580
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 2000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145063224.json"
+  }
+}

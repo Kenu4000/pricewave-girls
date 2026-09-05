@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 30499,
+    "title": "WindowsXP/Vista/7/8 DVDソフト love.VAMPIRE FLOWERS[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048665",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048665.jpg",
+    "manufacturer": "COSMIC CUTE",
+    "releaseDate": "2015-05-29",
+    "listPrice": 9680,
+    "modelNumber": "CC-0004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048665",
+      "メーカー": "COSMIC CUTE",
+      "発売日": "2015/05/29",
+      "定価": "9,680円",
+      "型番": "CC-0004",
+      "声優": "橘まお\n柊香礼\n星リルカ\n唯香\n秋野花",
+      "原画": "むうつき",
+      "シナリオ": "早狩武志",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "OS": "MIC CUTE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:46.399Z"
+  },
+  "histories": [
+    {
+      "id": 30513,
+      "productId": 30499,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:50.550Z"
+    },
+    {
+      "id": 70795,
+      "productId": 30499,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:46.399Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203065,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-02T20:47:46.000Z"
+    },
+    {
+      "id": 203064,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 510,
+      "checkedAt": "2026-09-02T20:47:46.000Z"
+    },
+    {
+      "id": 203063,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 390,
+      "checkedAt": "2026-09-02T20:47:46.000Z"
+    },
+    {
+      "id": 76997,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:20:50.000Z"
+    },
+    {
+      "id": 76996,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:20:50.000Z"
+    },
+    {
+      "id": 76995,
+      "productId": 30499,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:20:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145048665",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048665",
+    "capturedAt": "2026-09-02T20:47:46.399Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 390
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 510
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145048665.json"
+  }
+}

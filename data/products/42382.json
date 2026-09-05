@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 42382,
+    "title": "Windows2000/XP/Vista DVDソフト ラッキー×クロス [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018033",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018033.jpg",
+    "manufacturer": "コトノハ",
+    "releaseDate": "2008-06-27",
+    "listPrice": 9680,
+    "modelNumber": "DVD-ROM",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018033001",
+      "メーカー": "コトノハ",
+      "発売日": "2008/06/27",
+      "定価": "9,680円",
+      "型番": "DVD-ROM",
+      "原画": "bomi",
+      "シナリオ": "御茶ノ水電子製作所",
+      "音楽": "Pianos DauGe",
+      "声優": "岩沢郁海\n七生ゆう\nMI-KO\n桃井いちご\n奥山歩\n芽々\nヒマリ\n本多未季(本多しの舞)\nこのえゆずこ\n蔵前力士",
+      "アーティスト": "NANA",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "1480",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:02:43.764Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:43.560Z"
+  },
+  "histories": [
+    {
+      "id": 42396,
+      "productId": 42382,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:12.608Z"
+    },
+    {
+      "id": 53777,
+      "productId": 42382,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:13.300Z"
+    },
+    {
+      "id": 65746,
+      "productId": 42382,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:43.560Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 29293,
+    "title": "Windows7/8/8.1/10 DVDソフト Lkyt.",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068503",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068503.jpg",
+    "manufacturer": "parade",
+    "releaseDate": "2020-08-28",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068503",
+      "メーカー": "parade",
+      "発売日": "2020/08/28",
+      "定価": "8,580円",
+      "原画": "二階堂紫乃",
+      "シナリオ": "七角\n昏式龍也\n沢柾機\n栗栖\n小沢裕樹\n坂元星日",
+      "声優": "沖之正一\n風見灰児\n藤堂ロキ\n虎沢猫助\nマスカレード木瀬\n七篠響\n咲久間匠\n七ヶ瀬輪\n小桜やえ\nレモン澤一\n六本木天人\n狩山剛\n遊郭野郎",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 6500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:46.339Z"
+  },
+  "histories": [
+    {
+      "id": 29307,
+      "productId": 29293,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 4900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:29.138Z"
+    },
+    {
+      "id": 38134,
+      "productId": 29293,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 4900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:53.170Z"
+    },
+    {
+      "id": 49309,
+      "productId": 29293,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:02.295Z"
+    },
+    {
+      "id": 60116,
+      "productId": 29293,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 6500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:35.195Z"
+    },
+    {
+      "id": 70399,
+      "productId": 29293,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 6500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:46.339Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201903,
+      "productId": 29293,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 10712,
+      "checkedAt": "2026-09-02T20:44:46.000Z"
+    },
+    {
+      "id": 201902,
+      "productId": 29293,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 10692,
+      "checkedAt": "2026-09-02T20:44:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145068503",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068503",
+    "capturedAt": "2026-09-02T20:44:46.339Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 10692
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 10712
+      }
+    ],
+    "path": "data/other-shops/145068503.json"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 71260,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト ビッチなあの娘に性活指導! JKビッチ★はめぱこスクールライフ Plus",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056190",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056190.jpg",
+    "manufacturer": "PacoPacoSoft+",
+    "releaseDate": "2016-12-22",
+    "listPrice": 6380,
+    "modelNumber": "PAC-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056190001",
+      "メーカー": "PacoPacoSoft+",
+      "発売日": "2016/12/22",
+      "定価": "6,380円",
+      "型番": "PAC-003",
+      "原画": "ほ~さく",
+      "シナリオ": "上田ながの\nke-mura",
+      "声優": "ヒマリ\n花寺香蓮\n柚原みう\n花澤さくら\n天間あい\n藤乃理香\n星野七海",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145056190?branch_number=0014"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6400,
+    "latestRegularSalePrice": 6400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:27.737Z"
+  },
+  "histories": [
+    {
+      "id": 71274,
+      "productId": 71260,
+      "salePrice": 6400,
+      "regularSalePrice": 6400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:27.737Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204583,
+      "productId": 71260,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 6400,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204582,
+      "productId": 71260,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古取扱説明書欠品",
+      "price": 17000,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204581,
+      "productId": 71260,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 12520,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204580,
+      "productId": 71260,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古ディスクのみ",
+      "price": 6400,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056190",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056190",
+    "capturedAt": "2026-09-02T21:36:27.737Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古ディスクのみ",
+        "price": 6400
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 12520
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古取扱説明書欠品",
+        "price": 17000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 6400
+      }
+    ],
+    "path": "data/other-shops/145056190.json"
+  }
+}

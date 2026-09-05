@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 31215,
+    "title": "WindowsXP/Vista/7/8 CDソフト 豚便器 -醜悪オークに子種を注がれる女子校生-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038095",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038095.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2013-08-30",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-088",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038095001",
+      "メーカー": "Devil-seal",
+      "発売日": "2013/08/30",
+      "定価": "2,200円",
+      "型番": "DEVL-088",
+      "原画": "レクリエール",
+      "シナリオ": "永沢壱朗",
+      "声優": "このえゆずこ\n加乃みるく\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:51.725Z"
+  },
+  "histories": [
+    {
+      "id": 31229,
+      "productId": 31215,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:15.270Z"
+    },
+    {
+      "id": 39973,
+      "productId": 31215,
+      "salePrice": 380,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:30.566Z"
+    },
+    {
+      "id": 71083,
+      "productId": 31215,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:51.725Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204024,
+      "productId": 31215,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-02T20:49:51.000Z"
+    },
+    {
+      "id": 204023,
+      "productId": 31215,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-09-02T20:49:51.000Z"
+    },
+    {
+      "id": 204022,
+      "productId": 31215,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/マニュアル欠品",
+      "price": 380,
+      "checkedAt": "2026-09-02T20:49:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038095",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038095",
+    "capturedAt": "2026-09-02T20:49:51.725Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/マニュアル欠品",
+        "price": 380
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145038095.json"
+  }
+}

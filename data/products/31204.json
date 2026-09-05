@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 31204,
+    "title": "Windows DVDソフト 辻堂さんのバージンロード",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045467",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045467.jpg",
+    "manufacturer": "みなとカーニバル",
+    "releaseDate": "2013-08-30",
+    "listPrice": 6930,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145045467",
+      "メーカー": "みなとカーニバル",
+      "発売日": "2013/08/30",
+      "定価": "6,930円",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:06:34.869Z"
+  },
+  "histories": [
+    {
+      "id": 31218,
+      "productId": 31204,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:07.465Z"
+    },
+    {
+      "id": 39963,
+      "productId": 31204,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:24.846Z"
+    },
+    {
+      "id": 51034,
+      "productId": 31204,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:16.660Z"
+    },
+    {
+      "id": 63070,
+      "productId": 31204,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:34.869Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045467",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045467",
+    "capturedAt": "2026-08-27T16:06:34.869Z",
+    "items": [],
+    "path": "data/other-shops/145045467.json"
+  }
+}

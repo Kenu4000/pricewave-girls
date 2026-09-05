@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 71225,
+    "title": "WindowsVista/7/8/10 DVDソフト カタハネ --An’ call Belle-- [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062027",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062027.jpg",
+    "manufacturer": "10mile",
+    "releaseDate": "2018-06-29",
+    "listPrice": 6050,
+    "modelNumber": "FJ-004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062027",
+      "メーカー": "10mile",
+      "発売日": "2018/06/29",
+      "定価": "6,050円",
+      "型番": "FJ-004",
+      "原画": "笛",
+      "シナリオ": "J-MENT",
+      "声優": "加藤一樹\n安玖深音\n五行なずな\n成瀬未亜\n佐本二厘\nかわしまりの\n富士爆発\n三咲里奈",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 3199,
+    "latestRegularSalePrice": 3199,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:14:04.099Z"
+  },
+  "histories": [
+    {
+      "id": 71239,
+      "productId": 71225,
+      "salePrice": 3199,
+      "regularSalePrice": 3199,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:10.615Z"
+    },
+    {
+      "id": 77451,
+      "productId": 71225,
+      "salePrice": 3199,
+      "regularSalePrice": 3199,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:14:04.099Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062027",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062027",
+    "capturedAt": "2026-09-05T13:14:04.099Z",
+    "items": [],
+    "path": "data/other-shops/145062027.json"
+  }
+}

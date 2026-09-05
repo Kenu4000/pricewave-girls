@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 31004,
+    "title": "WindowsXP/Vista/7/8 DVDソフト なつドキッ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039746",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039746.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2014-02-21",
+    "listPrice": 7480,
+    "modelNumber": "BGDV-014",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145039746",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2014/02/21",
+      "定価": "7,480円",
+      "型番": "BGDV-014",
+      "声優": "計名さや香\n木緑あかね\nかぐや凛子\n手塚りょうこ",
+      "原画": "ネミタロウ",
+      "シナリオ": "鞘空\nJUN",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 912,
+    "latestRegularSalePrice": 912,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:11.111Z"
+  },
+  "histories": [
+    {
+      "id": 31018,
+      "productId": 31004,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:54.751Z"
+    },
+    {
+      "id": 39764,
+      "productId": 31004,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:40.183Z"
+    },
+    {
+      "id": 43691,
+      "productId": 31004,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:13.197Z"
+    },
+    {
+      "id": 72006,
+      "productId": 31004,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:11.111Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039746",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039746",
+    "capturedAt": "2026-09-03T01:15:11.111Z",
+    "items": [],
+    "path": "data/other-shops/145039746.json"
+  }
+}

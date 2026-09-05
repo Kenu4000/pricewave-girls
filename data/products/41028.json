@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41028,
+    "title": "Windowsソフト 仄暗き時の果てより",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055837.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2016-12-22",
+    "listPrice": 8580,
+    "modelNumber": "MSTN-035",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145055837",
+      "メーカー": "MOONSTONE",
+      "発売日": "2016/12/22",
+      "定価": "8,580円",
+      "型番": "MSTN-035",
+      "原画": "桜坂つちゆ",
+      "シナリオ": "呉(呉一郎)",
+      "声優": "サトウユキ\nこたつみやこ\n桃山いおん",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 16500,
+    "latestRegularSalePrice": 16500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:56.108Z"
+  },
+  "histories": [
+    {
+      "id": 41042,
+      "productId": 41028,
+      "salePrice": 16500,
+      "regularSalePrice": 16500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:11.983Z"
+    },
+    {
+      "id": 52789,
+      "productId": 41028,
+      "salePrice": 16500,
+      "regularSalePrice": 16500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:45.620Z"
+    },
+    {
+      "id": 63765,
+      "productId": 41028,
+      "salePrice": 16500,
+      "regularSalePrice": 16500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:56.108Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055837",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055837",
+    "capturedAt": "2026-08-27T16:11:56.108Z",
+    "items": [],
+    "path": "data/other-shops/145055837.json"
+  }
+}

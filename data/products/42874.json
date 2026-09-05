@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42874,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 真・女教師 誘惑進路指導室 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015431",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015431.jpg",
+    "manufacturer": "CATTLEYA",
+    "releaseDate": "2007-02-23",
+    "listPrice": 9350,
+    "modelNumber": "CAT03",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015431",
+      "メーカー": "CATTLEYA",
+      "発売日": "2007/02/23",
+      "定価": "9,350円",
+      "型番": "CAT03",
+      "原画": "あんみつ草",
+      "シナリオ": "有限会社りっくりっく\n朝凪軽",
+      "声優": "深井晴花\n風音\n白井綾乃",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:58.817Z"
+  },
+  "histories": [
+    {
+      "id": 42888,
+      "productId": 42874,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:55.630Z"
+    },
+    {
+      "id": 44184,
+      "productId": 42874,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:18.098Z"
+    },
+    {
+      "id": 72205,
+      "productId": 42874,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:58.817Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015431",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015431",
+    "capturedAt": "2026-09-03T01:16:58.817Z",
+    "items": [],
+    "path": "data/other-shops/145015431.json"
+  }
+}

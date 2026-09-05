@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 62148,
+    "title": "WindowsXP/Vista/7 DVDソフト 黒虹本2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029144",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029144.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2011-07-29",
+    "listPrice": 4180,
+    "modelNumber": "BR-144",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029144",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2011/07/29",
+      "定価": "4,180円",
+      "型番": "BR-144",
+      "原画": "吉野恵子",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:24.046Z"
+  },
+  "histories": [
+    {
+      "id": 62162,
+      "productId": 62148,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:38.761Z"
+    },
+    {
+      "id": 62827,
+      "productId": 62148,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:39.185Z"
+    },
+    {
+      "id": 64620,
+      "productId": 62148,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:24.046Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029144",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029144",
+    "capturedAt": "2026-08-29T01:13:24.046Z",
+    "items": [],
+    "path": "data/other-shops/145029144.json"
+  }
+}

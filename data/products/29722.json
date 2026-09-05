@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 29722,
+    "title": "Windows7/8.1/10 DVDソフト 今夜だけでも泊めて下さい",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059726",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059726.jpg",
+    "manufacturer": "ヘクセンハウス",
+    "releaseDate": "2017-11-24",
+    "listPrice": 3300,
+    "modelNumber": "HXHS-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059726",
+      "メーカー": "ヘクセンハウス",
+      "発売日": "2017/11/24",
+      "定価": "3,300円",
+      "型番": "HXHS-005",
+      "原画": "月杜尋",
+      "シナリオ": "神野マサキ\n望月JET",
+      "声優": "藤崎紗矢香\n唯香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:28.876Z"
+  },
+  "histories": [
+    {
+      "id": 29736,
+      "productId": 29722,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:59.882Z"
+    },
+    {
+      "id": 38548,
+      "productId": 29722,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:49.962Z"
+    },
+    {
+      "id": 49640,
+      "productId": 29722,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:28.876Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132801,
+      "productId": 29722,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1760,
+      "checkedAt": "2026-08-19T04:32:29.000Z"
+    },
+    {
+      "id": 132800,
+      "productId": 29722,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-19T04:32:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059726",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059726",
+    "capturedAt": "2026-08-19T04:32:28.876Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1760
+      }
+    ],
+    "path": "data/other-shops/145059726.json"
+  }
+}

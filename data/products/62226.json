@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 62226,
+    "title": "Windows CDソフト 続 荒野の賞金首 DJANGO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023060",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023060.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2007-07-27",
+    "listPrice": null,
+    "modelNumber": "MESSE-289",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145023060001",
+      "メーカー": "ニトロプラス",
+      "発売日": "2007/07/27",
+      "型番": "MESSE-289",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:42:22.674Z"
+  },
+  "histories": [
+    {
+      "id": 62240,
+      "productId": 62226,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:15.416Z"
+    },
+    {
+      "id": 62904,
+      "productId": 62226,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:14.909Z"
+    },
+    {
+      "id": 64697,
+      "productId": 62226,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:57.732Z"
+    },
+    {
+      "id": 75233,
+      "productId": 62226,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:42:22.674Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

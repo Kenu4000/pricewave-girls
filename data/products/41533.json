@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 41533,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ふぇいばりっと Sweet!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024047",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024047.jpg",
+    "manufacturer": "Lost Script",
+    "releaseDate": "2010-08-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024047",
+      "メーカー": "Lost Script",
+      "発売日": "2010/08/27",
+      "定価": "9,680円",
+      "原画": "天羽真理",
+      "シナリオ": "鷹取兵馬",
+      "アーティスト": "榊原ゆい",
+      "声優": "萌木唯\n小倉結衣\n茶谷やすら\n羽高なる\n雪都さお梨\n高藤まりあ\n桐谷華\n春日アン\n有栖川みや美\nみる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:42:29.019Z"
+  },
+  "histories": [
+    {
+      "id": 41547,
+      "productId": 41533,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:52.600Z"
+    },
+    {
+      "id": 53160,
+      "productId": 41533,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:04.308Z"
+    },
+    {
+      "id": 64746,
+      "productId": 41533,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:21.763Z"
+    },
+    {
+      "id": 75247,
+      "productId": 41533,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:42:29.019Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218724,
+      "productId": 41533,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-04T08:42:29.000Z"
+    },
+    {
+      "id": 218723,
+      "productId": 41533,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-04T08:42:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024047",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024047",
+    "capturedAt": "2026-09-04T08:42:29.019Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145024047.json"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 42524,
+    "title": "Windows2000/XP/Vista DVDソフト Clover Point[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054343",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054343.jpg",
+    "manufacturer": "Meteor(メテオ)",
+    "releaseDate": "2008-02-10",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1219",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145054343",
+      "メーカー": "Meteor(メテオ)",
+      "発売日": "2008/02/10",
+      "定価": "9,680円",
+      "型番": "SKR-1219",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:28.409Z"
+  },
+  "histories": [
+    {
+      "id": 42538,
+      "productId": 42524,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:37.047Z"
+    },
+    {
+      "id": 53875,
+      "productId": 42524,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:03.777Z"
+    },
+    {
+      "id": 65830,
+      "productId": 42524,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:23.711Z"
+    },
+    {
+      "id": 75464,
+      "productId": 42524,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:28.409Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054343",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054343",
+    "capturedAt": "2026-09-04T08:44:28.409Z",
+    "items": [],
+    "path": "data/other-shops/145054343.json"
+  }
+}

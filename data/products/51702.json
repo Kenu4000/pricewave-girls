@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 51702,
+    "title": "Windows95/98/Me/2000/XP CDソフト Girl Friends [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015086",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015086.jpg",
+    "manufacturer": "キューティーソフト",
+    "releaseDate": "2006-11-17",
+    "listPrice": 2200,
+    "modelNumber": "QTS-5",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015086",
+      "メーカー": "キューティーソフト",
+      "発売日": "2006/11/17",
+      "定価": "2,200円",
+      "型番": "QTS-5",
+      "原画": "JOYRIDE",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1401,
+    "latestRegularSalePrice": 1401,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:09:20.643Z"
+  },
+  "histories": [
+    {
+      "id": 51716,
+      "productId": 51702,
+      "salePrice": 1466,
+      "regularSalePrice": 1466,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:30:07.716Z"
+    },
+    {
+      "id": 63517,
+      "productId": 51702,
+      "salePrice": 1436,
+      "regularSalePrice": 1436,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:10:01.570Z"
+    },
+    {
+      "id": 74036,
+      "productId": 51702,
+      "salePrice": 1401,
+      "regularSalePrice": 1401,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:09:20.643Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015086",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015086",
+    "capturedAt": "2026-09-03T16:09:20.643Z",
+    "items": [],
+    "path": "data/other-shops/145015086.json"
+  }
+}

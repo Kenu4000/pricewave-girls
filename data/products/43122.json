@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": 43122,
+    "title": "Windows DVDソフト まほ☆たまシリーズ ～みみっこ編～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014540",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014540.jpg",
+    "manufacturer": "EROGOS",
+    "releaseDate": "2006-07-28",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014540001",
+      "メーカー": "EROGOS",
+      "発売日": "2006/07/28",
+      "定価": "4,180円",
+      "キャラクターデザイン": "牧だいきち",
+      "シナリオ": "火々野未完",
+      "声優": "蓮香\n木村あやか\n九段綾奈\n御苑生メイ\n如月葵",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "OS": "発売日 2006/07/28",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:15.775Z"
+  },
+  "histories": [
+    {
+      "id": 43136,
+      "productId": 43122,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:04.518Z"
+    },
+    {
+      "id": 71913,
+      "productId": 43122,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:15.775Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

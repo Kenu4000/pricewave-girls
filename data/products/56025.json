@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 56025,
+    "title": "Windows2000/XP/Vista DVDソフト シスタ×シスタ ～Lovevery Sisters～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019677",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019677.jpg",
+    "manufacturer": "Apricot Cherry",
+    "releaseDate": "2009-04-24",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019677",
+      "メーカー": "Apricot Cherry",
+      "発売日": "2009/04/24",
+      "定価": "7,480円",
+      "原画": "いまだこずへ\nTOMA",
+      "声優": "大久保けんたろう\n一色ヒカル\n成瀬未亜\n茶谷やすら\n如月葵\nかめまる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:39.482Z"
+  },
+  "histories": [
+    {
+      "id": 56039,
+      "productId": 56025,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:20.484Z"
+    },
+    {
+      "id": 75148,
+      "productId": 56025,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:39.482Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019677",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019677",
+    "capturedAt": "2026-09-04T08:41:39.482Z",
+    "items": [],
+    "path": "data/other-shops/145019677.json"
+  }
+}

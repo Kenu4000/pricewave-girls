@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 29811,
+    "title": "WindowsVista/7/8/8.1/10 CDソフト Re;Lord 厄災の魔女編 コンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059404",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059404.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2017-07-28",
+    "listPrice": null,
+    "modelNumber": "ELE-A021A",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059404001",
+      "メーカー": "エスクード",
+      "発売日": "2017/07/28",
+      "型番": "ELE-A021A",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 310,
+    "latestRegularSalePrice": 310,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:20.110Z"
+  },
+  "histories": [
+    {
+      "id": 29825,
+      "productId": 29811,
+      "salePrice": 410,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:54.446Z"
+    },
+    {
+      "id": 38634,
+      "productId": 29811,
+      "salePrice": 410,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:31.621Z"
+    },
+    {
+      "id": 71011,
+      "productId": 29811,
+      "salePrice": 310,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:20.110Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203889,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 310,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203888,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203887,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 310,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 101504,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-16T01:13:31.000Z"
+    },
+    {
+      "id": 101503,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-16T01:13:31.000Z"
+    },
+    {
+      "id": 75503,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-08-15T23:10:54.000Z"
+    },
+    {
+      "id": 75502,
+      "productId": 29811,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-15T23:10:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059404",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059404",
+    "capturedAt": "2026-09-02T20:49:20.110Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 310
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 310
+      }
+    ],
+    "path": "data/other-shops/145059404.json"
+  }
+}

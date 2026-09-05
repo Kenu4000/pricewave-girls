@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": 56035,
+    "title": "Windows2000/XP DVDソフト まじよめ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016293",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016293.jpg",
+    "manufacturer": "クリーミートリップス",
+    "releaseDate": "2007-07-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016293",
+      "メーカー": "クリーミートリップス",
+      "発売日": "2007/07/27",
+      "定価": "9,680円",
+      "原画": "猫生いづる",
+      "シナリオ": "髪ノ毛座",
+      "アーティスト": "せんたろ",
+      "声優": "一条和也\n平野響子\n北都南\n天水るみ\n須本綾奈\n北条明日香\n胸肩腎",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:41.032Z"
+  },
+  "histories": [
+    {
+      "id": 56049,
+      "productId": 56035,
+      "salePrice": 330,
+      "regularSalePrice": 330,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:26.051Z"
+    },
+    {
+      "id": 75150,
+      "productId": 56035,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:41.032Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

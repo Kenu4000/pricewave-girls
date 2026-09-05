@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31518,
+    "title": "WindowsXP/Vista/7 CDソフト 魔法少女ホーリープリンセス!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035471",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035471.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2012-12-21",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035471",
+      "メーカー": "Devil-seal",
+      "発売日": "2012/12/21",
+      "定価": "2,200円",
+      "原画": "あきのしん",
+      "シナリオ": "トリトメ酢",
+      "声優": "飯野汐里\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:59.984Z"
+  },
+  "histories": [
+    {
+      "id": 31532,
+      "productId": 31518,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:49.609Z"
+    },
+    {
+      "id": 40269,
+      "productId": 31518,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:30.563Z"
+    },
+    {
+      "id": 71100,
+      "productId": 31518,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:59.984Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035471",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035471",
+    "capturedAt": "2026-09-02T20:49:59.984Z",
+    "items": [],
+    "path": "data/other-shops/145035471.json"
+  }
+}

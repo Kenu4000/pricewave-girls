@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 62233,
+    "title": "Windows98/Me/2000/XP DVDソフト ジオグラマトン CLOCKUP Collection Vol.5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015772",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015772.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2007-04-27",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015772",
+      "メーカー": "CLOCKUP",
+      "発売日": "2007/04/27",
+      "定価": "4,180円",
+      "原画": "しのづかあつと",
+      "シナリオ": "文音(彩音)\nトンビ(とんび)\n池かなた\nORU\n迂闊早夫",
+      "声優": "紫華すみれ\n草柳順子\n涼森ちさと\n理多\n一色ヒカル\n神村ひな\n北都南\n白井綾乃\n鈴美巴\n成瀬未亜\n西田こむぎ\n水瀬雫",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 411,
+    "latestRegularSalePrice": 411,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:01.010Z"
+  },
+  "histories": [
+    {
+      "id": 62247,
+      "productId": 62233,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:18.181Z"
+    },
+    {
+      "id": 62912,
+      "productId": 62233,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:18.826Z"
+    },
+    {
+      "id": 64702,
+      "productId": 62233,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:01.010Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015772",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015772",
+    "capturedAt": "2026-08-29T01:14:01.010Z",
+    "items": [],
+    "path": "data/other-shops/145015772.json"
+  }
+}

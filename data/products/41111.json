@@ -1,0 +1,173 @@
+{
+  "product": {
+    "id": 41111,
+    "title": "WindowsXP/Vista/7 CDソフト 発情退散!中出しお孕い除霊性活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030133",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030133.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2011-09-22",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145030133001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2011/09/22",
+      "定価": "2,200円",
+      "原画": "にの子",
+      "シナリオ": "遊真一希",
+      "声優": "飯野汐里\n春河あかり\n奥山歩",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:24.420Z"
+  },
+  "histories": [
+    {
+      "id": 41125,
+      "productId": 41111,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:55.621Z"
+    },
+    {
+      "id": 52854,
+      "productId": 41111,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:20.913Z"
+    },
+    {
+      "id": 63816,
+      "productId": 41111,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:24.420Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178594,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 178593,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 178592,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 142357,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 142356,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 142355,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 106916,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:58:55.000Z"
+    },
+    {
+      "id": 106915,
+      "productId": 41111,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T06:58:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145030133",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030133",
+    "capturedAt": "2026-08-27T16:12:24.420Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145030133.json"
+  }
+}

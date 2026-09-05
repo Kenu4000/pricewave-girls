@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 30786,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 蒼撃のイェーガー[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042460",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042460.jpg",
+    "manufacturer": "propeller",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": "WILL-315",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145042460",
+      "メーカー": "propeller",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "型番": "WILL-315",
+      "声優": "梅咲チャーリー\n八神大輔\n野☆球\n桐谷華\n北見六花\n美月\n青山ゆかり\n西尾まちや\n七ヶ瀬輪",
+      "原画": "中央東口",
+      "シナリオ": "可動命\n空蝉座\n黒白線\n結城\n利波創造\n佐藤四十六杯\n小沢修一",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:20:16.925Z"
+  },
+  "histories": [
+    {
+      "id": 30800,
+      "productId": 30786,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:45.859Z"
+    },
+    {
+      "id": 39555,
+      "productId": 30786,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:49.129Z"
+    },
+    {
+      "id": 50732,
+      "productId": 30786,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:34.056Z"
+    },
+    {
+      "id": 61793,
+      "productId": 30786,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:20:16.925Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042460",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042460",
+    "capturedAt": "2026-08-27T09:20:16.925Z",
+    "items": [],
+    "path": "data/other-shops/145042460.json"
+  }
+}

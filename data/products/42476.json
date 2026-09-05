@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42476,
+    "title": "Windows DVDソフト DUEL VISUAL CHRONICLE デジタル設定資料集・高画質版ムービー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030011",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030011.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2008-03-28",
+    "listPrice": null,
+    "modelNumber": "GIGA-080329",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145030011001",
+      "メーカー": "戯画",
+      "発売日": "2008/03/28",
+      "型番": "GIGA-080329",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:08:49.199Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:12:27.889Z"
+  },
+  "histories": [
+    {
+      "id": 42490,
+      "productId": 42476,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:10.644Z"
+    },
+    {
+      "id": 44126,
+      "productId": 42476,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:51.483Z"
+    },
+    {
+      "id": 55404,
+      "productId": 42476,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:49:37.818Z"
+    },
+    {
+      "id": 66471,
+      "productId": 42476,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:08:48.531Z"
+    },
+    {
+      "id": 77246,
+      "productId": 42476,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:12:27.889Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

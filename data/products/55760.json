@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 55760,
+    "title": "Windows8/10 DVDソフト 空の少女 -美娼女学園1- 特製全巻収納BOX付き [初回版限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067945",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067945.jpg",
+    "manufacturer": "Argonauts",
+    "releaseDate": "2020-04-24",
+    "listPrice": 3520,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067945001",
+      "メーカー": "Argonauts",
+      "発売日": "2020/04/24",
+      "定価": "3,520円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:05.666Z"
+  },
+  "histories": [
+    {
+      "id": 55774,
+      "productId": 55760,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:59.178Z"
+    },
+    {
+      "id": 75081,
+      "productId": 55760,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:05.666Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218115,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-09-04T08:40:06.000Z"
+    },
+    {
+      "id": 218114,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-09-04T08:40:06.000Z"
+    },
+    {
+      "id": 218113,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-09-04T08:40:06.000Z"
+    },
+    {
+      "id": 150618,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-08-21T05:29:59.000Z"
+    },
+    {
+      "id": 150617,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-21T05:29:59.000Z"
+    },
+    {
+      "id": 150616,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1811,
+      "checkedAt": "2026-08-21T05:29:59.000Z"
+    },
+    {
+      "id": 150615,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-08-21T05:29:59.000Z"
+    },
+    {
+      "id": 150614,
+      "productId": 55760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1650,
+      "checkedAt": "2026-08-21T05:29:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067945",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067945",
+    "capturedAt": "2026-09-04T08:40:05.666Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1911
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145067945.json"
+  }
+}

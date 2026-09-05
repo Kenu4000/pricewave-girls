@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 30463,
+    "title": "WindowsXP/Vista/7/8/8.1 DVDソフト すとれい★すくーる -STRAY SCHOOL-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049332",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049332.jpg",
+    "manufacturer": "AURORA",
+    "releaseDate": "2015-06-26",
+    "listPrice": 9680,
+    "modelNumber": "AUR-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049332",
+      "メーカー": "AURORA",
+      "発売日": "2015/06/26",
+      "定価": "9,680円",
+      "型番": "AUR-001",
+      "声優": "長瀬ゆずは\nヒマリ\n赤司弓妃\n弥黒\n櫻井ありす",
+      "原画": "そらモチ",
+      "シナリオ": "逆神紅夜",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1395,
+    "latestRegularSalePrice": 1395,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:51.828Z"
+  },
+  "histories": [
+    {
+      "id": 30477,
+      "productId": 30463,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:18.927Z"
+    },
+    {
+      "id": 39253,
+      "productId": 30463,
+      "salePrice": 1470,
+      "regularSalePrice": 1470,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:05.974Z"
+    },
+    {
+      "id": 43622,
+      "productId": 30463,
+      "salePrice": 1460,
+      "regularSalePrice": 1460,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:40.187Z"
+    },
+    {
+      "id": 71980,
+      "productId": 30463,
+      "salePrice": 1395,
+      "regularSalePrice": 1395,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:51.828Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049332",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049332",
+    "capturedAt": "2026-09-03T01:14:51.828Z",
+    "items": [],
+    "path": "data/other-shops/145049332.json"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 3182,
+    "title": "Windows95 CDソフト 愛が見えはじめたら",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000267",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000267.jpg",
+    "manufacturer": "シーズウェア",
+    "releaseDate": "1997-06-27",
+    "listPrice": 7480,
+    "modelNumber": "CSW-00429",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000267",
+      "メーカー": "シーズウェア",
+      "発売日": "1997/06/27",
+      "定価": "7,480円",
+      "型番": "CSW-00429",
+      "シナリオ": "大和環",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:51:06.587Z"
+  },
+  "histories": [
+    {
+      "id": 3196,
+      "productId": 3182,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 26656,
+      "productId": 3182,
+      "salePrice": 370,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:35:57.863Z"
+    },
+    {
+      "id": 36981,
+      "productId": 3182,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:49.259Z"
+    },
+    {
+      "id": 47594,
+      "productId": 3182,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:40.978Z"
+    },
+    {
+      "id": 58463,
+      "productId": 3182,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:39:22.362Z"
+    },
+    {
+      "id": 69276,
+      "productId": 3182,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:51:06.587Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 65507,
+      "productId": 3182,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 370,
+      "checkedAt": "2026-08-09T21:35:58.000Z"
+    },
+    {
+      "id": 65506,
+      "productId": 3182,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-08-09T21:35:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145000267",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000267",
+    "capturedAt": "2026-09-02T02:51:06.587Z",
+    "items": [],
+    "path": "data/other-shops/145000267.json"
+  }
+}

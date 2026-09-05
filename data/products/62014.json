@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 62014,
+    "title": "Windows7/8/10 DVDソフト 俺の彼女がガチ変態すぎる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060538",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060538.jpg",
+    "manufacturer": "スタジオ桃華",
+    "releaseDate": "2018-03-23",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060538",
+      "メーカー": "スタジオ桃華",
+      "発売日": "2018/03/23",
+      "定価": "7,480円",
+      "原画": "凛花",
+      "シナリオ": "宮村優",
+      "声優": "小波渡陸\n杏花\nこはる凪\n結城ほのか\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:24.047Z"
+  },
+  "histories": [
+    {
+      "id": 62028,
+      "productId": 62014,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:39.439Z"
+    },
+    {
+      "id": 62692,
+      "productId": 62014,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:36.401Z"
+    },
+    {
+      "id": 64485,
+      "productId": 62014,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:24.047Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060538",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060538",
+    "capturedAt": "2026-08-29T01:12:24.047Z",
+    "items": [],
+    "path": "data/other-shops/145060538.json"
+  }
+}

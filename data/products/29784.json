@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 29784,
+    "title": "WindowsXP/Vista/7/8/10 DVDソフト Best Windows LOVEトレ -エッチな恋愛トレーニング-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059532",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059532.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2017-09-29",
+    "listPrice": 6028,
+    "modelNumber": "BW-0006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059532",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2017/09/29",
+      "定価": "6,028円",
+      "型番": "BW-0006",
+      "原画": "yoppy",
+      "シナリオ": "華田久作",
+      "声優": "蒼依ハル\n佐倉もも花\n手塚りょうこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:46:42.821Z"
+  },
+  "histories": [
+    {
+      "id": 29798,
+      "productId": 29784,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:37.483Z"
+    },
+    {
+      "id": 38608,
+      "productId": 29784,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:18.827Z"
+    },
+    {
+      "id": 49693,
+      "productId": 29784,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:51.166Z"
+    },
+    {
+      "id": 60378,
+      "productId": 29784,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:11:50.991Z"
+    },
+    {
+      "id": 70660,
+      "productId": 29784,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:46:42.821Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202680,
+      "productId": 29784,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3050,
+      "checkedAt": "2026-09-02T20:46:42.000Z"
+    },
+    {
+      "id": 202679,
+      "productId": 29784,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T20:46:42.000Z"
+    },
+    {
+      "id": 202678,
+      "productId": 29784,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 2500,
+      "checkedAt": "2026-09-02T20:46:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059532",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059532",
+    "capturedAt": "2026-09-02T20:46:42.821Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 2500
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 3050
+      }
+    ],
+    "path": "data/other-shops/145059532.json"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 30915,
+    "title": "Windows DVDソフト カスタムメイド3D スキルパック4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041973",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041973.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2014-04-25",
+    "listPrice": 3666,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041973001",
+      "メーカー": "KISS",
+      "発売日": "2014/04/25",
+      "定価": "3,666円",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 360,
+    "latestRegularSalePrice": 360,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:20:52.839Z"
+  },
+  "histories": [
+    {
+      "id": 30929,
+      "productId": 30915,
+      "salePrice": 380,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:02.861Z"
+    },
+    {
+      "id": 39682,
+      "productId": 30915,
+      "salePrice": 380,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:55.856Z"
+    },
+    {
+      "id": 50825,
+      "productId": 30915,
+      "salePrice": 380,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:24.834Z"
+    },
+    {
+      "id": 61869,
+      "productId": 30915,
+      "salePrice": 360,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:20:52.839Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

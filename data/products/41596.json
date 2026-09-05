@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 41596,
+    "title": "Windows CDソフト Soranica Ele[メロンブックス店舗特典]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027617",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027617.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2010-06-25",
+    "listPrice": null,
+    "modelNumber": "MLB-0001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145027617",
+      "メーカー": "light",
+      "発売日": "2010/06/25",
+      "型番": "MLB-0001",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1220,
+    "latestRegularSalePrice": 1220,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:41.532Z"
+  },
+  "histories": [
+    {
+      "id": 41610,
+      "productId": 41596,
+      "salePrice": 1265,
+      "regularSalePrice": 1265,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:37.638Z"
+    },
+    {
+      "id": 53208,
+      "productId": 41596,
+      "salePrice": 1255,
+      "regularSalePrice": 1255,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:28.408Z"
+    },
+    {
+      "id": 64792,
+      "productId": 41596,
+      "salePrice": 1220,
+      "regularSalePrice": 1220,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:41.532Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027617",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027617",
+    "capturedAt": "2026-08-29T01:14:41.532Z",
+    "items": [],
+    "path": "data/other-shops/145027617.json"
+  }
+}

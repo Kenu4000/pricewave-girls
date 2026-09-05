@@ -1,0 +1,245 @@
+{
+  "product": {
+    "id": 42889,
+    "title": "Windows98/Me/2000/XP DVDソフト いつか、届く、あの空に。[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015292",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015292.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015292",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "原画": "萌木原ふみたけ",
+      "シナリオ": "朱門優",
+      "声優": "山田悠\n遠井実瑠\n風華\n北都南\n中瀬ひな\n安玖深音\n韮井叶\n大花どん\n犬野忠輔\n間寺司\n水鏡",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:32.788Z"
+  },
+  "histories": [
+    {
+      "id": 42903,
+      "productId": 42889,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:04.240Z"
+    },
+    {
+      "id": 55026,
+      "productId": 42889,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:16.050Z"
+    },
+    {
+      "id": 66118,
+      "productId": 42889,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:44.827Z"
+    },
+    {
+      "id": 75586,
+      "productId": 42889,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:32.788Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219519,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1780,
+      "checkedAt": "2026-09-04T08:45:33.000Z"
+    },
+    {
+      "id": 219518,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-09-04T08:45:33.000Z"
+    },
+    {
+      "id": 219517,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-09-04T08:45:33.000Z"
+    },
+    {
+      "id": 219516,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1510,
+      "checkedAt": "2026-09-04T08:45:33.000Z"
+    },
+    {
+      "id": 185506,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-08-29T13:05:46.000Z"
+    },
+    {
+      "id": 185505,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-08-29T13:05:46.000Z"
+    },
+    {
+      "id": 185504,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1550,
+      "checkedAt": "2026-08-29T13:05:46.000Z"
+    },
+    {
+      "id": 185503,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1540,
+      "checkedAt": "2026-08-29T13:05:46.000Z"
+    },
+    {
+      "id": 148451,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-08-21T04:46:16.000Z"
+    },
+    {
+      "id": 148450,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1680,
+      "checkedAt": "2026-08-21T04:46:16.000Z"
+    },
+    {
+      "id": 148449,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1510,
+      "checkedAt": "2026-08-21T04:46:16.000Z"
+    },
+    {
+      "id": 110564,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1680,
+      "checkedAt": "2026-08-17T07:16:04.000Z"
+    },
+    {
+      "id": 110563,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-08-17T07:16:04.000Z"
+    },
+    {
+      "id": 110562,
+      "productId": 42889,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1510,
+      "checkedAt": "2026-08-17T07:16:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015292",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015292",
+    "capturedAt": "2026-09-04T08:45:32.788Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1510
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1711
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1780
+      }
+    ],
+    "path": "data/other-shops/145015292.json"
+  }
+}

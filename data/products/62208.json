@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62208,
+    "title": "Windows2000/XP/Vista CDソフト 絶望少女 ～ 復讐の性裁教室",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017880",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017880.jpg",
+    "manufacturer": "暗黒劇場",
+    "releaseDate": "2008-04-18",
+    "listPrice": 3122,
+    "modelNumber": "AKG-00001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017880",
+      "メーカー": "暗黒劇場",
+      "発売日": "2008/04/18",
+      "定価": "3,122円",
+      "型番": "AKG-00001",
+      "原画": "新堂道弘",
+      "シナリオ": "広崎悠意",
+      "声優": "倉田まりや\n水瀬沙希\n木下鈴\n望月まゆ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:49.623Z"
+  },
+  "histories": [
+    {
+      "id": 62222,
+      "productId": 62208,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:06.295Z"
+    },
+    {
+      "id": 62887,
+      "productId": 62208,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:07.277Z"
+    },
+    {
+      "id": 64678,
+      "productId": 62208,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:49.623Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017880",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017880",
+    "capturedAt": "2026-08-29T01:13:49.623Z",
+    "items": [],
+    "path": "data/other-shops/145017880.json"
+  }
+}

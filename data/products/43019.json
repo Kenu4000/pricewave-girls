@@ -1,0 +1,124 @@
+{
+  "product": {
+    "id": 43019,
+    "title": "Windows DVDソフト 相姦遊戯",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014820",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014820.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2006-10-27",
+    "listPrice": 5478,
+    "modelNumber": "BR-067",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014820",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2006/10/27",
+      "定価": "5,478円",
+      "型番": "BR-067",
+      "原画": "吉野恵子",
+      "声優": "蓮香\n木梨樹里",
+      "シナリオ": "NATORI烏賊",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 799,
+    "latestRegularSalePrice": 799,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:08.121Z"
+  },
+  "histories": [
+    {
+      "id": 43033,
+      "productId": 43019,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:12.181Z"
+    },
+    {
+      "id": 44217,
+      "productId": 43019,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:35.542Z"
+    },
+    {
+      "id": 72220,
+      "productId": 43019,
+      "salePrice": 799,
+      "regularSalePrice": 799,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:08.121Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114356,
+      "productId": 43019,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-17T09:38:35.000Z"
+    },
+    {
+      "id": 114355,
+      "productId": 43019,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古ディスクのみ",
+      "price": 799,
+      "checkedAt": "2026-08-17T09:38:35.000Z"
+    },
+    {
+      "id": 110843,
+      "productId": 43019,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-08-17T07:17:12.000Z"
+    },
+    {
+      "id": 110842,
+      "productId": 43019,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古ディスクのみ",
+      "price": 799,
+      "checkedAt": "2026-08-17T07:17:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014820",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014820",
+    "capturedAt": "2026-09-03T01:17:08.121Z",
+    "items": [],
+    "path": "data/other-shops/145014820.json"
+  }
+}

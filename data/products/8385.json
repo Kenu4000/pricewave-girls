@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 8385,
+    "title": "Windows98/Me/2000 CDソフト Hotel ergriffen -ホテル エァグリッフェン-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145005678",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145005678.jpg",
+    "manufacturer": "maple",
+    "releaseDate": "2001-10-26",
+    "listPrice": 8250,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145005678",
+      "メーカー": "maple",
+      "発売日": "2001/10/26",
+      "定価": "8,250円",
+      "原画": "灰村キヨタカ",
+      "シナリオ": "佐藤一九丸",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 50000,
+    "latestRegularSalePrice": 50000,
+    "latestBuyPrice": 7500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:51.422Z"
+  },
+  "histories": [
+    {
+      "id": 8399,
+      "productId": 8385,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37760,
+      "productId": 8385,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:38.299Z"
+    },
+    {
+      "id": 48241,
+      "productId": 8385,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:29.325Z"
+    },
+    {
+      "id": 59044,
+      "productId": 8385,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:44:28.818Z"
+    },
+    {
+      "id": 70137,
+      "productId": 8385,
+      "salePrice": 50000,
+      "regularSalePrice": 50000,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:51.422Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145005678",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145005678",
+    "capturedAt": "2026-09-02T20:42:51.422Z",
+    "items": [],
+    "path": "data/other-shops/145005678.json"
+  }
+}

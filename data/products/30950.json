@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 30950,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Tiny DungeonーBRAVE or SLAVEー 白の書",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060720",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060720.jpg",
+    "manufacturer": "Rosebleu(ロゼブル)",
+    "releaseDate": "2014-03-28",
+    "listPrice": null,
+    "modelNumber": "RBD-0004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145060720",
+      "メーカー": "Rosebleu(ロゼブル)",
+      "発売日": "2014/03/28",
+      "型番": "RBD-0004",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:21:01.886Z"
+  },
+  "histories": [
+    {
+      "id": 30964,
+      "productId": 30950,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:23.170Z"
+    },
+    {
+      "id": 39716,
+      "productId": 30950,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:12.345Z"
+    },
+    {
+      "id": 50847,
+      "productId": 30950,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:39.466Z"
+    },
+    {
+      "id": 61888,
+      "productId": 30950,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:21:01.886Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060720",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060720",
+    "capturedAt": "2026-08-27T09:21:01.886Z",
+    "items": [],
+    "path": "data/other-shops/145060720.json"
+  }
+}

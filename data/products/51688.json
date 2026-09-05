@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 51688,
+    "title": "Windows98/Me/2000/XP DVDソフト DEVOTE2 いけない放課後 -Standard Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015827",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015827.jpg",
+    "manufacturer": "13cm",
+    "releaseDate": "2007-05-25",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015827",
+      "メーカー": "13cm",
+      "発売日": "2007/05/25",
+      "定価": "3,080円",
+      "原画": "白猫参謀",
+      "声優": "もっち\n田中美智\n涼森ちさと\n櫻レオナ\n南菜実\n佐々木あかり",
+      "アーティスト": "I’ve",
+      "シナリオ": "元長柾木\n朝凪軽\n神谷涼\n鼎耀一楼",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2101,
+    "latestRegularSalePrice": 2101,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:01.222Z"
+  },
+  "histories": [
+    {
+      "id": 51702,
+      "productId": 51688,
+      "salePrice": 2101,
+      "regularSalePrice": 2101,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:59.528Z"
+    },
+    {
+      "id": 73213,
+      "productId": 51688,
+      "salePrice": 2101,
+      "regularSalePrice": 2101,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:01.222Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015827",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015827",
+    "capturedAt": "2026-09-03T16:03:01.222Z",
+    "items": [],
+    "path": "data/other-shops/145015827.json"
+  }
+}

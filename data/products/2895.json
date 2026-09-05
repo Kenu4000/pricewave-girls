@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 2895,
+    "title": "Windows95/Me/2000/XP CDソフト ちびママ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012193",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012193.jpg",
+    "manufacturer": "CoreMoreco",
+    "releaseDate": "2004-12-10",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145012193001",
+      "メーカー": "CoreMoreco",
+      "発売日": "2004/12/10",
+      "定価": "9,680円",
+      "原画": "津路参汰",
+      "シナリオ": "LONE GUY",
+      "声優": "笠原准\n野神奈々\n神村ひな\n成瀬未亜\n霜月のどか\n本山美奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "フィギュア欠品、クリアシート状態難",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145012193?branch_number=1002"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2900,
+    "latestRegularSalePrice": 2900,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": "フィギュア欠品、クリアシート状態難",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:13.677Z"
+  },
+  "histories": [
+    {
+      "id": 2909,
+      "productId": 2895,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": "フィギュア欠品、箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:24.000Z"
+    },
+    {
+      "id": 44462,
+      "productId": 2895,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:46.777Z"
+    },
+    {
+      "id": 72233,
+      "productId": 2895,
+      "salePrice": 2900,
+      "regularSalePrice": 2900,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": "フィギュア欠品、クリアシート状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:13.677Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207847,
+      "productId": 2895,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 フィギュア欠品、箱状態難",
+      "price": 2800,
+      "checkedAt": "2026-09-03T01:17:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

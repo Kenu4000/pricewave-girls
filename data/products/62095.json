@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 62095,
+    "title": "WindowsVista/7/8/8.1 CDソフト 催眠ライブ -知らないうちに変態アイドル活動で専用孕ドルにされちゃった-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046164",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046164.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2014-10-24",
+    "listPrice": 2200,
+    "modelNumber": "MIEL-055",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145046164001",
+      "メーカー": "Miel",
+      "発売日": "2014/10/24",
+      "定価": "2,200円",
+      "型番": "MIEL-055",
+      "原画": "桜衣まいり",
+      "シナリオ": "神鷹輝",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:01.585Z"
+  },
+  "histories": [
+    {
+      "id": 62109,
+      "productId": 62095,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:15.275Z"
+    },
+    {
+      "id": 62773,
+      "productId": 62095,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:14.563Z"
+    },
+    {
+      "id": 64568,
+      "productId": 62095,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:01.585Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181351,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-29T01:13:01.000Z"
+    },
+    {
+      "id": 181350,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-29T01:13:01.000Z"
+    },
+    {
+      "id": 176378,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-27T16:04:14.000Z"
+    },
+    {
+      "id": 176377,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-27T16:04:14.000Z"
+    },
+    {
+      "id": 173703,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-27T10:43:15.000Z"
+    },
+    {
+      "id": 173702,
+      "productId": 62095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-27T10:43:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046164",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046164",
+    "capturedAt": "2026-08-29T01:13:01.585Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145046164.json"
+  }
+}

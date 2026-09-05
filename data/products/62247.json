@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 62247,
+    "title": "Windows98/Me/2000/XP CDソフト 続妖獣戦記 -真説・砂塵の黙示録-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014801",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014801.jpg",
+    "manufacturer": "ディーオー",
+    "releaseDate": "2006-10-20",
+    "listPrice": 7480,
+    "modelNumber": "DCD-00671",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014801001",
+      "メーカー": "ディーオー",
+      "発売日": "2006/10/20",
+      "定価": "7,480円",
+      "型番": "DCD-00671",
+      "原画": "さえき北都",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:05:24.265Z"
+  },
+  "histories": [
+    {
+      "id": 62261,
+      "productId": 62247,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:24.619Z"
+    },
+    {
+      "id": 62924,
+      "productId": 62247,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:24.265Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 176797,
+      "productId": 62247,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-08-27T16:05:24.000Z"
+    },
+    {
+      "id": 176796,
+      "productId": 62247,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-27T16:05:24.000Z"
+    },
+    {
+      "id": 174130,
+      "productId": 62247,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-08-27T10:44:24.000Z"
+    },
+    {
+      "id": 174129,
+      "productId": 62247,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-27T10:44:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014801",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014801",
+    "capturedAt": "2026-08-27T16:05:24.265Z",
+    "items": [
+      {
+        "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2050
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2280
+      }
+    ],
+    "path": "data/other-shops/145014801.json"
+  }
+}

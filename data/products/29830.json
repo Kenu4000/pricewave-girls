@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 29830,
+    "title": "Windows CDソフト アイよりアオい海の果て げっちゅ屋特典デジタルコンテンツCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058568",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058568.jpg",
+    "manufacturer": "AXL",
+    "releaseDate": "2017-06-30",
+    "listPrice": null,
+    "modelNumber": "AXL-1706GC",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145058568",
+      "メーカー": "AXL",
+      "発売日": "2017/06/30",
+      "型番": "AXL-1706GC",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:37.377Z"
+  },
+  "histories": [
+    {
+      "id": 29844,
+      "productId": 29830,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:05.707Z"
+    },
+    {
+      "id": 38651,
+      "productId": 29830,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:40.370Z"
+    },
+    {
+      "id": 43560,
+      "productId": 29830,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:06.533Z"
+    },
+    {
+      "id": 71955,
+      "productId": 29830,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:37.377Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058568",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058568",
+    "capturedAt": "2026-09-03T01:14:37.377Z",
+    "items": [],
+    "path": "data/other-shops/145058568.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 55791,
+    "title": "Windows7/8/8.1/10 DVDソフト 悪魔聖女 -デモンズガール・ステップ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063441",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063441.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2018-11-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063441",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2018/11/30",
+      "定価": "9,680円",
+      "原画": "佐々木珠流",
+      "シナリオ": "内藤騎之介",
+      "声優": "羽高なる\n綾音まこ\n八尋まみ\n霧島はるな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:08.985Z"
+  },
+  "histories": [
+    {
+      "id": 55805,
+      "productId": 55791,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:14.681Z"
+    },
+    {
+      "id": 75085,
+      "productId": 55791,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:08.985Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063441",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063441",
+    "capturedAt": "2026-09-04T08:40:08.985Z",
+    "items": [],
+    "path": "data/other-shops/145063441.json"
+  }
+}

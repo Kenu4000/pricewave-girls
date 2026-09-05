@@ -1,0 +1,193 @@
+{
+  "product": {
+    "id": 29845,
+    "title": "Windows CDソフト カサブランカの蕾 デジタルコンテンツDISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058172.jpg",
+    "manufacturer": "DOLCE",
+    "releaseDate": "2017-05-26",
+    "listPrice": null,
+    "modelNumber": "MS-113Y",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145058172001",
+      "メーカー": "DOLCE",
+      "発売日": "2017/05/26",
+      "型番": "MS-113Y",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:20.436Z"
+  },
+  "histories": [
+    {
+      "id": 29859,
+      "productId": 29845,
+      "salePrice": 300,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:13.929Z"
+    },
+    {
+      "id": 38666,
+      "productId": 29845,
+      "salePrice": 300,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:49.903Z"
+    },
+    {
+      "id": 71013,
+      "productId": 29845,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:20.436Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203893,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203892,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203891,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 330,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203890,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 101570,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:13:50.000Z"
+    },
+    {
+      "id": 101569,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 330,
+      "checkedAt": "2026-08-16T01:13:50.000Z"
+    },
+    {
+      "id": 101568,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-16T01:13:50.000Z"
+    },
+    {
+      "id": 75569,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:11:17.000Z"
+    },
+    {
+      "id": 75568,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 330,
+      "checkedAt": "2026-08-15T23:11:17.000Z"
+    },
+    {
+      "id": 75567,
+      "productId": 29845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-15T23:11:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058172",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058172",
+    "capturedAt": "2026-09-02T20:49:20.436Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 330
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145058172.json"
+  }
+}

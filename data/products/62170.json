@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 62170,
+    "title": "Windows98SE/Me/2000/XP/Vista/7 DVDソフト アッチむいて恋 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023485",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023485.jpg",
+    "manufacturer": "ASa Project",
+    "releaseDate": "2010-04-30",
+    "listPrice": 9680,
+    "modelNumber": "AP-03",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023485",
+      "メーカー": "ASa Project",
+      "発売日": "2010/04/30",
+      "定価": "9,680円",
+      "型番": "AP-03",
+      "原画": "ぱん太\n夕凪セシナ",
+      "シナリオ": "藤井リルケ\n天都",
+      "声優": "貴坂理緒\n松田理沙\n五行なずな\n遠野そよぎ\n春河あかり\n北都南\n木村あやか\n杉原茉莉\n島田友樹",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:32.449Z"
+  },
+  "histories": [
+    {
+      "id": 62184,
+      "productId": 62170,
+      "salePrice": 1949,
+      "regularSalePrice": 1949,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:49.380Z"
+    },
+    {
+      "id": 62849,
+      "productId": 62170,
+      "salePrice": 1949,
+      "regularSalePrice": 1949,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:48.925Z"
+    },
+    {
+      "id": 64642,
+      "productId": 62170,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:32.449Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181544,
+      "productId": 62170,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 1949,
+      "checkedAt": "2026-08-29T01:13:32.000Z"
+    },
+    {
+      "id": 181543,
+      "productId": 62170,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-08-29T01:13:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023485",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023485",
+    "capturedAt": "2026-08-29T01:13:32.449Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "ブックエコ浅川店",
+        "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+        "price": 1949
+      }
+    ],
+    "path": "data/other-shops/145023485.json"
+  }
+}

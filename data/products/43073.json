@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 43073,
+    "title": "Windows DVDソフト プリズム・アーク ～プリズム・ハート エピソード2～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014770",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014770.jpg",
+    "manufacturer": "ぱじゃまソフト",
+    "releaseDate": "2006-09-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014770",
+      "メーカー": "ぱじゃまソフト",
+      "発売日": "2006/09/22",
+      "定価": "9,680円",
+      "原画": "大野哲也",
+      "シナリオ": "亜麻矢幹(まろにぃ)",
+      "音楽": "I’ve",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:47.673Z"
+  },
+  "histories": [
+    {
+      "id": 43087,
+      "productId": 43073,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:40.454Z"
+    },
+    {
+      "id": 55156,
+      "productId": 43073,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:17.882Z"
+    },
+    {
+      "id": 66241,
+      "productId": 43073,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:47.673Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185798,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-29T13:06:48.000Z"
+    },
+    {
+      "id": 185797,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 370,
+      "checkedAt": "2026-08-29T13:06:48.000Z"
+    },
+    {
+      "id": 148746,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-21T04:47:18.000Z"
+    },
+    {
+      "id": 148745,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-21T04:47:18.000Z"
+    },
+    {
+      "id": 110964,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-17T07:17:40.000Z"
+    },
+    {
+      "id": 110963,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-08-17T07:17:40.000Z"
+    },
+    {
+      "id": 110962,
+      "productId": 43073,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:17:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014770",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014770",
+    "capturedAt": "2026-08-29T13:06:47.673Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 370
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145014770.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 55972,
+    "title": "WindowsXP/Vista/7 DVDソフト 昆蟲姦察",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032412",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032412.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2012-07-06",
+    "listPrice": 3300,
+    "modelNumber": "CYCL-3073",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032412",
+      "メーカー": "CYCLET",
+      "発売日": "2012/07/06",
+      "定価": "3,300円",
+      "型番": "CYCL-3073",
+      "原画": "千葉哲太郎",
+      "シナリオ": "桜庭丸男",
+      "声優": "宮森ゆう",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3110,
+    "latestRegularSalePrice": 3110,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:30.827Z"
+  },
+  "histories": [
+    {
+      "id": 55986,
+      "productId": 55972,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:52.270Z"
+    },
+    {
+      "id": 75125,
+      "productId": 55972,
+      "salePrice": 3110,
+      "regularSalePrice": 3110,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:30.827Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145032412",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032412",
+    "capturedAt": "2026-09-04T08:40:30.827Z",
+    "items": [],
+    "path": "data/other-shops/145032412.json"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 41757,
+    "title": "Windows DVDソフト ECLIPS/かけた月は戻らない(月刊メガストア 2010年2月号 Vol.201付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077579",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077579.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2009-12-28",
+    "listPrice": null,
+    "modelNumber": "MEGA1002",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145077579001",
+      "メーカー": "コアマガジン",
+      "発売日": "2009/12/28",
+      "型番": "MEGA1002",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T01:15:25.572Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:25.371Z"
+  },
+  "histories": [
+    {
+      "id": 41771,
+      "productId": 41757,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:06.340Z"
+    },
+    {
+      "id": 53319,
+      "productId": 41757,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:22.673Z"
+    },
+    {
+      "id": 64890,
+      "productId": 41757,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:25.371Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

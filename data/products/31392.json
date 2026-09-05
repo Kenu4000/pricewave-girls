@@ -1,0 +1,173 @@
+{
+  "product": {
+    "id": 31392,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋めくりクローバー ミニファンディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037070",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037070.jpg",
+    "manufacturer": "クリップ・クラフト",
+    "releaseDate": "2013-04-15",
+    "listPrice": 2096,
+    "modelNumber": "TDE-0598",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145037070001",
+      "メーカー": "クリップ・クラフト",
+      "発売日": "2013/04/15",
+      "定価": "2,096円",
+      "型番": "TDE-0598",
+      "原画": "天坂隆志",
+      "シナリオ": "新ヰ幸広\n加賀ひふみ",
+      "声優": "陸奥出流\n有栖川みや美\n香澄りょう\n白雪碧\n桜川未央\n柚木かなめ\n上田朱音\n遠野そよぎ\nかわしまりの\n渡辺みなと\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:07:38.724Z"
+  },
+  "histories": [
+    {
+      "id": 31406,
+      "productId": 31392,
+      "salePrice": 1670,
+      "regularSalePrice": 1670,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:24.703Z"
+    },
+    {
+      "id": 40146,
+      "productId": 31392,
+      "salePrice": 1670,
+      "regularSalePrice": 1670,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:32.999Z"
+    },
+    {
+      "id": 51182,
+      "productId": 31392,
+      "salePrice": 1670,
+      "regularSalePrice": 1670,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:32.607Z"
+    },
+    {
+      "id": 63205,
+      "productId": 31392,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:38.420Z"
+    },
+    {
+      "id": 73813,
+      "productId": 31392,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:07:38.724Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 212831,
+      "productId": 31392,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-09-03T16:07:39.000Z"
+    },
+    {
+      "id": 212830,
+      "productId": 31392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-09-03T16:07:39.000Z"
+    },
+    {
+      "id": 212829,
+      "productId": 31392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-09-03T16:07:39.000Z"
+    },
+    {
+      "id": 177273,
+      "productId": 31392,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-27T16:07:38.000Z"
+    },
+    {
+      "id": 177272,
+      "productId": 31392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1940,
+      "checkedAt": "2026-08-27T16:07:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037070",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037070",
+    "capturedAt": "2026-09-03T16:07:38.724Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2150
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1800
+      }
+    ],
+    "path": "data/other-shops/145037070.json"
+  }
+}

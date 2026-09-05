@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 41685,
+    "title": "Windows2000/XP/Vista DVDソフト ドキドキ痴漢くらぶ～ねえ、電車の中でHしよ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023234",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023234.jpg",
+    "manufacturer": "ローズクラウン",
+    "releaseDate": "2010-03-26",
+    "listPrice": 9680,
+    "modelNumber": "ROCR-002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145023234001",
+      "メーカー": "ローズクラウン",
+      "発売日": "2010/03/26",
+      "定価": "9,680円",
+      "型番": "ROCR-002",
+      "原画": "石井彰",
+      "シナリオ": "橋野次郎",
+      "声優": "夏川菜々美\n芹園みや\n伊藤瞳子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:07.454Z"
+  },
+  "histories": [
+    {
+      "id": 41699,
+      "productId": 41685,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:30.171Z"
+    },
+    {
+      "id": 53274,
+      "productId": 41685,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:01.974Z"
+    },
+    {
+      "id": 64850,
+      "productId": 41685,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:07.454Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182017,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-29T01:15:07.000Z"
+    },
+    {
+      "id": 182016,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-29T01:15:07.000Z"
+    },
+    {
+      "id": 143215,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T16:23:02.000Z"
+    },
+    {
+      "id": 143214,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-19T16:23:02.000Z"
+    },
+    {
+      "id": 143213,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-19T16:23:02.000Z"
+    },
+    {
+      "id": 108100,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-17T07:04:30.000Z"
+    },
+    {
+      "id": 108099,
+      "productId": 41685,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-17T07:04:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023234",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023234",
+    "capturedAt": "2026-08-29T01:15:07.454Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145023234.json"
+  }
+}

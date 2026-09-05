@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 71179,
+    "title": "Windows8.1/10 DVDソフト 凛とした最愛妻は、人知れず淫乱ら妻へと堕ちて -他の男を受け挿れ拡げられた濡れ穴は、もう俺のモノでは埋められない-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074054",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074054.jpg",
+    "manufacturer": "ANIM.teamMM",
+    "releaseDate": "2022-03-25",
+    "listPrice": 7480,
+    "modelNumber": "ANM-470",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145074054001",
+      "メーカー": "ANIM.teamMM",
+      "発売日": "2022/03/25",
+      "定価": "7,480円",
+      "型番": "ANM-470",
+      "原画": "うん=食太郎",
+      "シナリオ": "内藤自由\n山野詠子\nシャア専用◎",
+      "声優": "天見美んと\n花寺香蓮\n夢月やみ\n笹戸泉花\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:47.131Z"
+  },
+  "histories": [
+    {
+      "id": 71193,
+      "productId": 71179,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:47.131Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204333,
+      "productId": 71179,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:35:47.000Z"
+    },
+    {
+      "id": 204332,
+      "productId": 71179,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-02T21:35:47.000Z"
+    },
+    {
+      "id": 204331,
+      "productId": 71179,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-09-02T21:35:47.000Z"
+    },
+    {
+      "id": 204330,
+      "productId": 71179,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-02T21:35:47.000Z"
+    },
+    {
+      "id": 204329,
+      "productId": 71179,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-09-02T21:35:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074054",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074054",
+    "capturedAt": "2026-09-02T21:35:47.131Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145074054.json"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42218,
+    "title": "Windows2000/XP/Vista DVDソフト 人妻戦隊アイサイガーぱいぱいポン! 地球のピンチだ、宇宙人妻魔女襲来!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018809",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018809.jpg",
+    "manufacturer": "DISCOVERY",
+    "releaseDate": "2008-10-31",
+    "listPrice": 7480,
+    "modelNumber": "KSDR-014",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018809001",
+      "メーカー": "DISCOVERY",
+      "発売日": "2008/10/31",
+      "定価": "7,480円",
+      "型番": "KSDR-014",
+      "原画": "ガンちゃん",
+      "シナリオ": "はまちょ",
+      "声優": "児玉さとみ\n柴田蕗\nまりもりん\n黒崎猫\n西野みく\n咲良さく\n平野響子\n葉月るい\n鉄滝次\n榎津まお\n阿倉優",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:13:54.151Z"
+  },
+  "histories": [
+    {
+      "id": 42232,
+      "productId": 42218,
+      "salePrice": 1670,
+      "regularSalePrice": 1670,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:28.915Z"
+    },
+    {
+      "id": 71878,
+      "productId": 42218,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:13:54.151Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207015,
+      "productId": 42218,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-09-03T01:13:55.000Z"
+    },
+    {
+      "id": 207014,
+      "productId": 42218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1830,
+      "checkedAt": "2026-09-03T01:13:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018809",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018809",
+    "capturedAt": "2026-09-03T01:13:54.151Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1830
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145018809.json"
+  }
+}

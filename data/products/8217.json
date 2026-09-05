@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 8217,
+    "title": "Windows95 CDソフト DOOP(ドープ)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000480",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000480.jpg",
+    "manufacturer": "MBS TRUSE",
+    "releaseDate": "1997-10-09",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000480",
+      "メーカー": "MBS TRUSE",
+      "発売日": "1997/10/09",
+      "定価": "8,580円",
+      "原画": "葉沢武梓",
+      "シナリオ": "猫柳まんぼ",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 320,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:15.635Z"
+  },
+  "histories": [
+    {
+      "id": 8231,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37625,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:29.423Z"
+    },
+    {
+      "id": 48121,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:30.922Z"
+    },
+    {
+      "id": 58937,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:43:28.095Z"
+    },
+    {
+      "id": 70049,
+      "productId": 8217,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:15.635Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145000480",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000480",
+    "capturedAt": "2026-09-02T20:42:15.635Z",
+    "items": [],
+    "path": "data/other-shops/145000480.json"
+  }
+}

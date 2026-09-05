@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 30358,
+    "title": "WindowsVista/7/8/10 DVDソフト 私が好きなら「好き」って言って!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051354.jpg",
+    "manufacturer": "チュアブルソフト",
+    "releaseDate": "2015-10-30",
+    "listPrice": 9680,
+    "modelNumber": "CABL-1510",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145051354001",
+      "メーカー": "チュアブルソフト",
+      "発売日": "2015/10/30",
+      "定価": "9,680円",
+      "型番": "CABL-1510",
+      "原画": "Syroh\n田那辺",
+      "シナリオ": "範乃秋晴",
+      "声優": "手塚りょうこ\n歩サラ\n橘まお\n秋野花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:18:03.568Z"
+  },
+  "histories": [
+    {
+      "id": 30372,
+      "productId": 30358,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:18.274Z"
+    },
+    {
+      "id": 39152,
+      "productId": 30358,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:11.910Z"
+    },
+    {
+      "id": 50410,
+      "productId": 30358,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:42.548Z"
+    },
+    {
+      "id": 61523,
+      "productId": 30358,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:18:03.568Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 172077,
+      "productId": 30358,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-27T09:18:03.000Z"
+    },
+    {
+      "id": 172076,
+      "productId": 30358,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-27T09:18:03.000Z"
+    },
+    {
+      "id": 172075,
+      "productId": 30358,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 912,
+      "checkedAt": "2026-08-27T09:18:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145051354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051354",
+    "capturedAt": "2026-08-27T09:18:03.568Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 912
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145051354.json"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42439,
+    "title": "Windows2000/XP/Vista DVDソフト BIFRONTE ～公界島奇譚～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017898",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017898.jpg",
+    "manufacturer": "LAPIS BLUe.",
+    "releaseDate": "2008-05-23",
+    "listPrice": 9680,
+    "modelNumber": "BGLB-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017898",
+      "メーカー": "LAPIS BLUe.",
+      "発売日": "2008/05/23",
+      "定価": "9,680円",
+      "型番": "BGLB-001",
+      "原画": "椎咲雛樹",
+      "シナリオ": "沖水ミル",
+      "アーティスト": "片霧烈火",
+      "声優": "一色ヒカル\n榎津まお\n桜川未央\nみる\n香澄りょう",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:03.363Z"
+  },
+  "histories": [
+    {
+      "id": 42453,
+      "productId": 42439,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:46.272Z"
+    },
+    {
+      "id": 53822,
+      "productId": 42439,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:35.668Z"
+    },
+    {
+      "id": 65786,
+      "productId": 42439,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:03.363Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017898",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017898",
+    "capturedAt": "2026-08-29T13:03:03.363Z",
+    "items": [],
+    "path": "data/other-shops/145017898.json"
+  }
+}

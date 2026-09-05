@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 3457,
+    "title": "Windows95/98 CDソフト 僕の為に鐘は鳴る",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001769",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001769.jpg",
+    "manufacturer": "IMAGE CRAFT",
+    "releaseDate": "1998-12-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145001769",
+      "メーカー": "IMAGE CRAFT",
+      "発売日": "1998/12/04",
+      "定価": "9,680円",
+      "原画": "K-INABA",
+      "シナリオ": "久遠涼",
+      "声優": "如月来夢\nめぐりぐり\n佐伯ゆりこ\n比未子\n南菜実\nなかのくみん\n菊理ちさと\n吉川綾音",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:15.772Z"
+  },
+  "histories": [
+    {
+      "id": 3471,
+      "productId": 3457,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 23029,
+      "productId": 3457,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:52.435Z"
+    },
+    {
+      "id": 37203,
+      "productId": 3457,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:46.801Z"
+    },
+    {
+      "id": 47780,
+      "productId": 3457,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:23.248Z"
+    },
+    {
+      "id": 58631,
+      "productId": 3457,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:40:50.404Z"
+    },
+    {
+      "id": 69431,
+      "productId": 3457,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:15.772Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145001769",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001769",
+    "capturedAt": "2026-09-02T02:52:15.772Z",
+    "items": [],
+    "path": "data/other-shops/145001769.json"
+  }
+}

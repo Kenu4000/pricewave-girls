@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 29182,
+    "title": "Windows10/11 DVDソフト スロウ・ダメージ 普及版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077496",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077496.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2023-04-28",
+    "listPrice": 4070,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077496001",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2023/04/28",
+      "定価": "4,070円",
+      "原画": "山田外朗",
+      "シナリオ": "淵井鏑",
+      "声優": "井伊筋肉\n柊三太\n胸肩腎\n宮尾章\n一之瀬昴\n田中一朗\n縞馬男爵",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4850,
+    "latestRegularSalePrice": 4850,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:10.795Z"
+  },
+  "histories": [
+    {
+      "id": 29196,
+      "productId": 29182,
+      "salePrice": 6530,
+      "regularSalePrice": 6530,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:18.844Z"
+    },
+    {
+      "id": 38032,
+      "productId": 29182,
+      "salePrice": 6530,
+      "regularSalePrice": 6530,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:55.999Z"
+    },
+    {
+      "id": 70997,
+      "productId": 29182,
+      "salePrice": 4850,
+      "regularSalePrice": 4850,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:10.795Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203855,
+      "productId": 29182,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4850,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    },
+    {
+      "id": 203854,
+      "productId": 29182,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 盛岡MOSSビル店",
+      "condition": "中古",
+      "price": 6530,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    },
+    {
+      "id": 203853,
+      "productId": 29182,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 盛岡MOSSビル店",
+      "condition": "中古",
+      "price": 4850,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077496",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077496",
+    "capturedAt": "2026-09-02T20:49:10.795Z",
+    "items": [
+      {
+        "storeName": "駿河屋 盛岡MOSSビル店",
+        "condition": "中古",
+        "price": 4850
+      },
+      {
+        "storeName": "駿河屋 盛岡MOSSビル店",
+        "condition": "中古",
+        "price": 6530
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4850
+      }
+    ],
+    "path": "data/other-shops/145077496.json"
+  }
+}

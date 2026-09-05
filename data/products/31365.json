@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 31365,
+    "title": "WindowsXP/Vista/7 DVDソフト TinkerBell あおじる5本パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036580",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036580.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2013-04-26",
+    "listPrice": 10780,
+    "modelNumber": "TB-025P",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036580",
+      "メーカー": "TinkerBell",
+      "発売日": "2013/04/26",
+      "定価": "10,780円",
+      "型番": "TB-025P",
+      "原画": "あおじる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2911,
+    "latestRegularSalePrice": 2911,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:23.228Z"
+  },
+  "histories": [
+    {
+      "id": 31379,
+      "productId": 31365,
+      "salePrice": 2911,
+      "regularSalePrice": 2911,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:57.206Z"
+    },
+    {
+      "id": 40122,
+      "productId": 31365,
+      "salePrice": 2911,
+      "regularSalePrice": 2911,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:19.506Z"
+    },
+    {
+      "id": 51163,
+      "productId": 31365,
+      "salePrice": 2911,
+      "regularSalePrice": 2911,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:23.228Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036580",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036580",
+    "capturedAt": "2026-08-19T05:34:23.228Z",
+    "items": [],
+    "path": "data/other-shops/145036580.json"
+  }
+}

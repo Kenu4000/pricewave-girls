@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41931,
+    "title": "Windows2000/XP/Vista DVDソフト Dies irae(ディエス・イレ) Also sprach Zarathustra -die Wiederkunft-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020611",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020611.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2009-07-24",
+    "listPrice": 9680,
+    "modelNumber": "GRWOC077",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020611",
+      "メーカー": "light",
+      "発売日": "2009/07/24",
+      "定価": "9,680円",
+      "型番": "GRWOC077",
+      "原画": "Gユウスケ",
+      "シナリオ": "正田崇",
+      "声優": "左高蹴\n佐本二厘\n手塚まき\nルネッサンス山田\n榊原ゆい\n皆美伊吹\nトム・クノレーズ\n青島刃\n杉崎和哉\nかわしまりの\n木村あやか\n谷口ケイ\n三川春人\n彩世ゆう\n日椰たぬき\n先割れスプーン",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 732,
+    "latestRegularSalePrice": 732,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:12.250Z"
+  },
+  "histories": [
+    {
+      "id": 41945,
+      "productId": 41931,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:37.109Z"
+    },
+    {
+      "id": 53442,
+      "productId": 41931,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:24.451Z"
+    },
+    {
+      "id": 64998,
+      "productId": 41931,
+      "salePrice": 732,
+      "regularSalePrice": 732,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:12.250Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143509,
+      "productId": 41931,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-19T16:24:24.000Z"
+    },
+    {
+      "id": 143508,
+      "productId": 41931,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 767,
+      "checkedAt": "2026-08-19T16:24:24.000Z"
+    },
+    {
+      "id": 143507,
+      "productId": 41931,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 767,
+      "checkedAt": "2026-08-19T16:24:24.000Z"
+    },
+    {
+      "id": 108567,
+      "productId": 41931,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-17T07:06:37.000Z"
+    },
+    {
+      "id": 108566,
+      "productId": 41931,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 777,
+      "checkedAt": "2026-08-17T07:06:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020611",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020611",
+    "capturedAt": "2026-08-29T01:16:12.250Z",
+    "items": [],
+    "path": "data/other-shops/145020611.json"
+  }
+}

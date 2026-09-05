@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 55735,
+    "title": "Windows8.1/10 DVDソフト ドM妹の露出遊戯 -誰にも言えない秘密の遊び-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072662.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2021-08-27",
+    "listPrice": 2200,
+    "modelNumber": "APT-191",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145072662001",
+      "メーカー": "アパタイト",
+      "発売日": "2021/08/27",
+      "定価": "2,200円",
+      "型番": "APT-191",
+      "原画": "鈴音れな",
+      "シナリオ": "ツキカズ",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:45.504Z"
+  },
+  "histories": [
+    {
+      "id": 55749,
+      "productId": 55735,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:45.504Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150501,
+      "productId": 55735,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-21T05:29:45.000Z"
+    },
+    {
+      "id": 150500,
+      "productId": 55735,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1080,
+      "checkedAt": "2026-08-21T05:29:45.000Z"
+    },
+    {
+      "id": 150499,
+      "productId": 55735,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-21T05:29:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072662",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072662",
+    "capturedAt": "2026-08-21T05:29:45.504Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145072662.json"
+  }
+}

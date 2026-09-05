@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 41888,
+    "title": "Windows2000/XP/Vista DVDソフト ひしょ×ひしょ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020635",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020635.jpg",
+    "manufacturer": "ゆ～かりそふと",
+    "releaseDate": "2009-09-18",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020635",
+      "メーカー": "ゆ～かりそふと",
+      "発売日": "2009/09/18",
+      "定価": "9,680円",
+      "原画": "今井ハートブレイク",
+      "シナリオ": "StarRoseQuartz",
+      "声優": "湖月紅れ葉\n倉田まりや\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:59.124Z"
+  },
+  "histories": [
+    {
+      "id": 41902,
+      "productId": 41888,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:16.170Z"
+    },
+    {
+      "id": 53409,
+      "productId": 41888,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:08.292Z"
+    },
+    {
+      "id": 64968,
+      "productId": 41888,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:59.124Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020635",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020635",
+    "capturedAt": "2026-08-29T01:15:59.124Z",
+    "items": [],
+    "path": "data/other-shops/145020635.json"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41801,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト つく×つく お姉さんナースに尽くされるゲーム",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021651",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021651.jpg",
+    "manufacturer": "DUEE",
+    "releaseDate": "2009-11-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021651001",
+      "メーカー": "DUEE",
+      "発売日": "2009/11/27",
+      "定価": "9,680円",
+      "原画": "さっぽろももこ",
+      "シナリオ": "灰猫",
+      "声優": "韮井叶\n民安ともえ\nヒマリ\n緒田マリ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:13:44.838Z"
+  },
+  "histories": [
+    {
+      "id": 41815,
+      "productId": 41801,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:30.613Z"
+    },
+    {
+      "id": 71860,
+      "productId": 41801,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:13:44.838Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 206974,
+      "productId": 41801,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-03T01:13:45.000Z"
+    },
+    {
+      "id": 206973,
+      "productId": 41801,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-03T01:13:45.000Z"
+    },
+    {
+      "id": 206972,
+      "productId": 41801,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-03T01:13:45.000Z"
+    },
+    {
+      "id": 108327,
+      "productId": 41801,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:05:30.000Z"
+    },
+    {
+      "id": 108326,
+      "productId": 41801,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:05:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021651",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021651",
+    "capturedAt": "2026-09-03T01:13:44.838Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145021651.json"
+  }
+}

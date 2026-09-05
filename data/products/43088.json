@@ -1,0 +1,182 @@
+{
+  "product": {
+    "id": 43088,
+    "title": "Windows98/Me/2000/XP CDソフト ヴァリスX チャム・新たなる戦友(とも)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014681",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014681.jpg",
+    "manufacturer": "イーアンツ",
+    "releaseDate": "2006-09-08",
+    "listPrice": 2178,
+    "modelNumber": "ETC-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014681",
+      "メーカー": "イーアンツ",
+      "発売日": "2006/09/08",
+      "定価": "2,178円",
+      "型番": "ETC-004",
+      "原画": "川合正起",
+      "シナリオ": "きもとべなたか",
+      "声優": "榊若菜\n東かりん\n伊藤瞳子\n中原ありす\n事務台車\n榎津まお\n本多啓吾\n谷俊介\n児玉さとみ\n神奈川拳\n光田まさよし\n嘉島祐",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T01:25:48.487Z"
+  },
+  "histories": [
+    {
+      "id": 43102,
+      "productId": 43088,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:48.960Z"
+    },
+    {
+      "id": 55169,
+      "productId": 43088,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:24.959Z"
+    },
+    {
+      "id": 66256,
+      "productId": 43088,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:55.187Z"
+    },
+    {
+      "id": 76847,
+      "productId": 43088,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T01:25:48.487Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 222050,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-09-05T01:25:48.000Z"
+    },
+    {
+      "id": 222049,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 810,
+      "checkedAt": "2026-09-05T01:25:48.000Z"
+    },
+    {
+      "id": 185821,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-29T13:06:55.000Z"
+    },
+    {
+      "id": 185820,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 830,
+      "checkedAt": "2026-08-29T13:06:55.000Z"
+    },
+    {
+      "id": 148776,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-21T04:47:25.000Z"
+    },
+    {
+      "id": 148775,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 870,
+      "checkedAt": "2026-08-21T04:47:25.000Z"
+    },
+    {
+      "id": 111003,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-17T07:17:49.000Z"
+    },
+    {
+      "id": 111002,
+      "productId": 43088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日向店",
+      "condition": "中古",
+      "price": 890,
+      "checkedAt": "2026-08-17T07:17:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014681",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014681",
+    "capturedAt": "2026-09-05T01:25:48.487Z",
+    "items": [
+      {
+        "storeName": "駿河屋日向店",
+        "condition": "中古",
+        "price": 810
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145014681.json"
+  }
+}

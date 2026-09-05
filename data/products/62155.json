@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 62155,
+    "title": "Windows2000/XP/Vista DVDソフト シークレットゲーム-KILLER QUEEN- DEPTH EDITION[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027483",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027483.jpg",
+    "manufacturer": "FLAT",
+    "releaseDate": "2011-03-31",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145027483",
+      "メーカー": "FLAT",
+      "発売日": "2011/03/31",
+      "定価": "6,380円",
+      "原画": "己即是空",
+      "シナリオ": "座敷猫\n健速",
+      "声優": "大久保けんたろう\n遠藤紗哉\n天神祭\n北都南\n南\n一条和矢\n水瀬慮介\n梨本悠里\n紅月ことね\nHARUNA\n里都",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2650,
+    "latestRegularSalePrice": 2650,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:26.372Z"
+  },
+  "histories": [
+    {
+      "id": 62169,
+      "productId": 62155,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:41.944Z"
+    },
+    {
+      "id": 62833,
+      "productId": 62155,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:41.499Z"
+    },
+    {
+      "id": 64627,
+      "productId": 62155,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:26.372Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027483",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027483",
+    "capturedAt": "2026-08-29T01:13:26.372Z",
+    "items": [],
+    "path": "data/other-shops/145027483.json"
+  }
+}

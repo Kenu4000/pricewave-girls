@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 71249,
+    "title": "Windows7/8/8.1/10 DVDソフト 茜色の境界線 [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057338",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057338.jpg",
+    "manufacturer": "ALcot ハニカム",
+    "releaseDate": "2017-06-30",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057338",
+      "メーカー": "ALcot ハニカム",
+      "発売日": "2017/06/30",
+      "定価": "7,480円",
+      "原画": "ここあ\n空維深夜\n真崎ケイ",
+      "シナリオ": "えじむら\n8",
+      "声優": "機知通\n榊原ゆい\nあじ秋刀魚\n御苑生メイ\n永瀬蜜柑",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:21.844Z"
+  },
+  "histories": [
+    {
+      "id": 71263,
+      "productId": 71249,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:21.844Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057338",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057338",
+    "capturedAt": "2026-09-02T21:36:21.844Z",
+    "items": [],
+    "path": "data/other-shops/145057338.json"
+  }
+}

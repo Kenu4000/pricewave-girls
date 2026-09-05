@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 42570,
+    "title": "Windows2000/XP/Vista CDソフト 禁区に咲く花。-淫徳の牝姉妹-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017043.jpg",
+    "manufacturer": "ブルゲDL",
+    "releaseDate": "2007-12-21",
+    "listPrice": 3562,
+    "modelNumber": "BDL-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017043",
+      "メーカー": "ブルゲDL",
+      "発売日": "2007/12/21",
+      "定価": "3,562円",
+      "型番": "BDL-001",
+      "原画": "桜衣まいり",
+      "シナリオ": "左右田たかひろ",
+      "音楽": "中山莉緒",
+      "声優": "青葉りんご\n星乃あずみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:30.437Z"
+  },
+  "histories": [
+    {
+      "id": 42584,
+      "productId": 42570,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:59.835Z"
+    },
+    {
+      "id": 53915,
+      "productId": 42570,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:24.274Z"
+    },
+    {
+      "id": 65865,
+      "productId": 42570,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:41.063Z"
+    },
+    {
+      "id": 75466,
+      "productId": 42570,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:30.437Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144475,
+      "productId": 42570,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:28:24.000Z"
+    },
+    {
+      "id": 144474,
+      "productId": 42570,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-19T16:28:24.000Z"
+    },
+    {
+      "id": 144473,
+      "productId": 42570,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:28:24.000Z"
+    },
+    {
+      "id": 109962,
+      "productId": 42570,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:13:00.000Z"
+    },
+    {
+      "id": 109961,
+      "productId": 42570,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:13:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017043",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017043",
+    "capturedAt": "2026-09-04T08:44:30.437Z",
+    "items": [],
+    "path": "data/other-shops/145017043.json"
+  }
+}

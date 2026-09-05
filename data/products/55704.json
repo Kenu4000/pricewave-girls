@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 55704,
+    "title": "Windows10/11 DVDソフト それは舞い散る桜のように-Re：BIRTH- [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077306",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077306.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2023-09-29",
+    "listPrice": 16280,
+    "modelNumber": "NVSW-0200",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145077306",
+      "メーカー": "Navel",
+      "発売日": "2023/09/29",
+      "定価": "16,280円",
+      "型番": "NVSW-0200",
+      "原画": "西又葵",
+      "シナリオ": "森崎亮人\n王雀孫\nあごバリア",
+      "声優": "西野タオ子\n崇井愁\n九条信乃\n桃山いおん\n夏和小",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 18600,
+    "latestRegularSalePrice": 18600,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:13:04.489Z"
+  },
+  "histories": [
+    {
+      "id": 55718,
+      "productId": 55704,
+      "salePrice": 9290,
+      "regularSalePrice": 9290,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:30.226Z"
+    },
+    {
+      "id": 66574,
+      "productId": 55704,
+      "salePrice": 14740,
+      "regularSalePrice": 14740,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:09:38.604Z"
+    },
+    {
+      "id": 77321,
+      "productId": 55704,
+      "salePrice": 18600,
+      "regularSalePrice": 18600,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:13:04.489Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145077306",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077306",
+    "capturedAt": "2026-09-05T13:13:04.489Z",
+    "items": [],
+    "path": "data/other-shops/145077306.json"
+  }
+}

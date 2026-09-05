@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 71436,
+    "title": "Windows2000/XP/Vista DVDソフト そらふね",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020634",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020634.jpg",
+    "manufacturer": "だんでらいおん",
+    "releaseDate": "2009-09-18",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020634",
+      "メーカー": "だんでらいおん",
+      "発売日": "2009/09/18",
+      "定価": "9,680円",
+      "原画": "いせのやじん\n松乃かねる",
+      "シナリオ": "玉沢円",
+      "声優": "宮沢ゆあな\nかわしまりの\n青葉りんご\n大波こなみ\n中瀬ひな\nまきいづみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:50.391Z"
+  },
+  "histories": [
+    {
+      "id": 71450,
+      "productId": 71436,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:50.391Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020634",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020634",
+    "capturedAt": "2026-09-02T21:37:50.391Z",
+    "items": [],
+    "path": "data/other-shops/145020634.json"
+  }
+}

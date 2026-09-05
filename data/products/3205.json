@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 3205,
+    "title": "Windows98/Me/2000/XP DVDソフト まいんど☆ぱぺっと ～ファミレス店長のアブない野望～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014194",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014194.jpg",
+    "manufacturer": "TOP",
+    "releaseDate": "2006-04-21",
+    "listPrice": 9680,
+    "modelNumber": "TPM-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014194",
+      "メーカー": "TOP",
+      "発売日": "2006/04/21",
+      "定価": "9,680円",
+      "型番": "TPM-004",
+      "原画": "emily",
+      "シナリオ": "てけわい",
+      "声優": "歌織\n中瀬ひな\n木梨樹里\nかわしまりの\n金田まひる\n高橋一休\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2490,
+    "latestRegularSalePrice": 2490,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:51:13.133Z"
+  },
+  "histories": [
+    {
+      "id": 3219,
+      "productId": 3205,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22966,
+      "productId": 3205,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:20.157Z"
+    },
+    {
+      "id": 37001,
+      "productId": 3205,
+      "salePrice": 2490,
+      "regularSalePrice": 2490,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:58.404Z"
+    },
+    {
+      "id": 47611,
+      "productId": 3205,
+      "salePrice": 2490,
+      "regularSalePrice": 2490,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:51.865Z"
+    },
+    {
+      "id": 58480,
+      "productId": 3205,
+      "salePrice": 2490,
+      "regularSalePrice": 2490,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:39:30.396Z"
+    },
+    {
+      "id": 69291,
+      "productId": 3205,
+      "salePrice": 2490,
+      "regularSalePrice": 2490,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:51:13.133Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52455,
+      "productId": 3205,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 1270,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52454,
+      "productId": 3205,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014194",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014194",
+    "capturedAt": "2026-09-02T02:51:13.133Z",
+    "items": [],
+    "path": "data/other-shops/145014194.json"
+  }
+}

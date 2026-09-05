@@ -1,0 +1,174 @@
+{
+  "product": {
+    "id": 41114,
+    "title": "WindowsXP/Vista/7 CDソフト 魔触三十六景ー処女が堕ちる夢ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029546",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029546.jpg",
+    "manufacturer": "可憐ソフト",
+    "releaseDate": "2011-09-09",
+    "listPrice": 3300,
+    "modelNumber": "KRN-00010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029546001",
+      "メーカー": "可憐ソフト",
+      "発売日": "2011/09/09",
+      "定価": "3,300円",
+      "型番": "KRN-00010",
+      "原画": "都々子",
+      "シナリオ": "広川マコト",
+      "声優": "唯香",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:23.872Z"
+  },
+  "histories": [
+    {
+      "id": 41128,
+      "productId": 41114,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:56.766Z"
+    },
+    {
+      "id": 52855,
+      "productId": 41114,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:21.310Z"
+    },
+    {
+      "id": 63814,
+      "productId": 41114,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:23.872Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178589,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 178588,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 178587,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-27T16:12:24.000Z"
+    },
+    {
+      "id": 142360,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 142359,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 142358,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:19:21.000Z"
+    },
+    {
+      "id": 106918,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:58:57.000Z"
+    },
+    {
+      "id": 106917,
+      "productId": 41114,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T06:58:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029546",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029546",
+    "capturedAt": "2026-08-27T16:12:23.872Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145029546.json"
+  }
+}

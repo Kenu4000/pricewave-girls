@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 55757,
+    "title": "Windows8.1/10 DVDソフト 姫と乙女のヤキモチLOVE -きらめき夏物語！- [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068478",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068478.jpg",
+    "manufacturer": "Princess Sugar",
+    "releaseDate": "2020-06-26",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068478",
+      "メーカー": "Princess Sugar",
+      "発売日": "2020/06/26",
+      "定価": "7,480円",
+      "原画": "みけおう",
+      "SD原画": "eco*",
+      "シナリオ": "近江谷宥",
+      "声優": "早瀬ゃょぃ\nくすはらゆい\n青葉りんご\n小倉結衣\n藤咲ウサ\n北見六花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:09:49.187Z"
+  },
+  "histories": [
+    {
+      "id": 55771,
+      "productId": 55757,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:57.255Z"
+    },
+    {
+      "id": 66594,
+      "productId": 55757,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:09:49.187Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145068478",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068478",
+    "capturedAt": "2026-08-29T13:09:49.187Z",
+    "items": [],
+    "path": "data/other-shops/145068478.json"
+  }
+}

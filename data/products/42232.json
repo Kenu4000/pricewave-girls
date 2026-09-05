@@ -1,0 +1,92 @@
+{
+  "product": {
+    "id": 42232,
+    "title": "Windows2000/XP/Vista DVDソフト 明日の七海と逢うために～明日の君と逢うために～FAN DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018804",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018804.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2008-10-24",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018804",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2008/10/24",
+      "定価": "6,380円",
+      "シナリオ": "鏡遊",
+      "アーティスト": "橋本みゆき",
+      "声優": "夏野こおり\n風音",
+      "原画": "まっぴーらっく.",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:57.572Z"
+  },
+  "histories": [
+    {
+      "id": 42246,
+      "productId": 42232,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:37.015Z"
+    },
+    {
+      "id": 53658,
+      "productId": 42232,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:11.832Z"
+    },
+    {
+      "id": 65636,
+      "productId": 42232,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:01:53.269Z"
+    },
+    {
+      "id": 75413,
+      "productId": 42232,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:57.572Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 8247,
+    "title": "Windows95 CDソフト PIL caSEX( ピルケース )",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001454",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001454.jpg",
+    "manufacturer": "PIL",
+    "releaseDate": null,
+    "listPrice": 8250,
+    "modelNumber": "PIL-0504",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "中古 ：145001454001",
+      "メーカー": "PIL",
+      "定価": "8,250円",
+      "型番": "PIL-0504",
+      "原画": "キリヤマ太一\nCOMA\n長岡建蔵\nおおのつとむ\nさくらめーる",
+      "シナリオ": "丸谷秀人\n南泌流夫\n小林英茂\n川道正顕",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:22.670Z"
+  },
+  "histories": [
+    {
+      "id": 8261,
+      "productId": 8247,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:07:35.000Z"
+    },
+    {
+      "id": 37652,
+      "productId": 8247,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:43.991Z"
+    },
+    {
+      "id": 48143,
+      "productId": 8247,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:40.918Z"
+    },
+    {
+      "id": 58955,
+      "productId": 8247,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:43:37.085Z"
+    },
+    {
+      "id": 70064,
+      "productId": 8247,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:22.670Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

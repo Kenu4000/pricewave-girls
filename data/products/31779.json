@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 31779,
+    "title": "WindowsXP/Vista/7 DVDソフト キャラメルBOXコレクション 処女はお姉さまに恋してる 2人のエルダー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032037",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032037.jpg",
+    "manufacturer": "キャラメルBOX",
+    "releaseDate": "2012-05-25",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032037",
+      "メーカー": "キャラメルBOX",
+      "発売日": "2012/05/25",
+      "定価": "4,180円",
+      "原画": "のり太",
+      "シナリオ": "嵩夜あや",
+      "声優": "森保しほ\n菜ノ花さくら\n波奈束風景\n大花どん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 440,
+    "latestRegularSalePrice": 440,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:08:55.763Z"
+  },
+  "histories": [
+    {
+      "id": 31793,
+      "productId": 31779,
+      "salePrice": 410,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:05.267Z"
+    },
+    {
+      "id": 40528,
+      "productId": 31779,
+      "salePrice": 410,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:28.789Z"
+    },
+    {
+      "id": 51467,
+      "productId": 31779,
+      "salePrice": 410,
+      "regularSalePrice": 410,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:01.387Z"
+    },
+    {
+      "id": 63451,
+      "productId": 31779,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:09:30.776Z"
+    },
+    {
+      "id": 73983,
+      "productId": 31779,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:08:55.763Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105369,
+      "productId": 31779,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-16T01:31:28.000Z"
+    },
+    {
+      "id": 105368,
+      "productId": 31779,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-16T01:31:28.000Z"
+    },
+    {
+      "id": 79524,
+      "productId": 31779,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-15T23:44:05.000Z"
+    },
+    {
+      "id": 79523,
+      "productId": 31779,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-15T23:44:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032037",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032037",
+    "capturedAt": "2026-09-03T16:08:55.763Z",
+    "items": [],
+    "path": "data/other-shops/145032037.json"
+  }
+}

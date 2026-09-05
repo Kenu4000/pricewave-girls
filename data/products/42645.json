@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42645,
+    "title": "Windows2000/XP/Vista DVDソフト 彗聖天使プリマヴェールZwei",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016607",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016607.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-017",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016607",
+      "メーカー": "エスクード",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "型番": "ECAVG-017",
+      "原画": "はなたかれとも",
+      "シナリオ": "林ふみと",
+      "声優": "甘美\nこのかなみ\n楠鈴音\n茶谷やすら\n木村あやか\n理多\n一色ヒカル\n城崎彦太\n森川明大\n涼森ちさと\n胸肩腎\n町田あみ\n紫陽花\n大久保けんたろう\n松園ルイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:00.106Z"
+  },
+  "histories": [
+    {
+      "id": 42659,
+      "productId": 42645,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:46.498Z"
+    },
+    {
+      "id": 71888,
+      "productId": 42645,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:00.106Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207036,
+      "productId": 42645,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品・外箱日焼け有",
+      "price": 880,
+      "checkedAt": "2026-09-03T01:14:00.000Z"
+    },
+    {
+      "id": 207035,
+      "productId": 42645,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-03T01:14:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016607",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016607",
+    "capturedAt": "2026-09-03T01:14:00.106Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品・外箱日焼け有",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145016607.json"
+  }
+}

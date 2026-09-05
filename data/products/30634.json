@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 30634,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ひめごとユニオン こんぷりーと!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047462",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047462.jpg",
+    "manufacturer": "SEVEN WONDER",
+    "releaseDate": "2015-01-30",
+    "listPrice": 14080,
+    "modelNumber": "PAM-0231",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145047462",
+      "メーカー": "SEVEN WONDER",
+      "発売日": "2015/01/30",
+      "定価": "14,080円",
+      "型番": "PAM-0231",
+      "原画": "川原誠\nたけやまさみ",
+      "シナリオ": "保住圭\n下原正\nもみあげルパンR",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱状態難 / プラケース欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9000,
+    "latestRegularSalePrice": 9000,
+    "latestBuyPrice": 8500,
+    "stockStatus": "in_stock",
+    "condition": "箱状態難 / プラケース欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:05:09.601Z"
+  },
+  "histories": [
+    {
+      "id": 30648,
+      "productId": 30634,
+      "salePrice": 9000,
+      "regularSalePrice": 9000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:22.249Z"
+    },
+    {
+      "id": 39415,
+      "productId": 30634,
+      "salePrice": 9000,
+      "regularSalePrice": 9000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:34.466Z"
+    },
+    {
+      "id": 50624,
+      "productId": 30634,
+      "salePrice": 9000,
+      "regularSalePrice": 9000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難 / プラケース欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:39.268Z"
+    },
+    {
+      "id": 61701,
+      "productId": 30634,
+      "salePrice": 9000,
+      "regularSalePrice": 9000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難 / プラケース欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:19:32.565Z"
+    },
+    {
+      "id": 73490,
+      "productId": 30634,
+      "salePrice": 9000,
+      "regularSalePrice": 9000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難 / プラケース欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:05:09.601Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047462",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047462",
+    "capturedAt": "2026-09-03T16:05:09.601Z",
+    "items": [],
+    "path": "data/other-shops/145047462.json"
+  }
+}

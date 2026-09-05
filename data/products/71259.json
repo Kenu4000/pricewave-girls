@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 71259,
+    "title": "Windows7/8.1/10 DVDソフト 残念な姉との幸福論(ラブコメディー)[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055897",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055897.jpg",
+    "manufacturer": "りびどーそふと",
+    "releaseDate": "2016-12-22",
+    "listPrice": 7480,
+    "modelNumber": "LBGP-0001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055897001",
+      "メーカー": "りびどーそふと",
+      "発売日": "2016/12/22",
+      "定価": "7,480円",
+      "型番": "LBGP-0001",
+      "原画": "綾瀬はづき\nちょびぺろ",
+      "シナリオ": "taca\n浅月蒼志",
+      "声優": "美空なつひ\n水野七海",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:27.627Z"
+  },
+  "histories": [
+    {
+      "id": 71273,
+      "productId": 71259,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:27.627Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204579,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204578,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古説明書状態難(傷み・汚れ・日焼けなど)",
+      "price": 1800,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204577,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 1145,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204576,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204575,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1145,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    },
+    {
+      "id": 204574,
+      "productId": 71259,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古箱不備（大）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 1145,
+      "checkedAt": "2026-09-02T21:36:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055897",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055897",
+    "capturedAt": "2026-09-02T21:36:27.627Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古箱不備（大）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 1145
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1145
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 1145
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古説明書状態難(傷み・汚れ・日焼けなど)",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145055897.json"
+  }
+}

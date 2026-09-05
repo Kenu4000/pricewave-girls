@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 71277,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト プラネット ドラゴン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054562",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054562.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2016-06-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054562001",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2016/06/24",
+      "定価": "9,680円",
+      "原画": "佐々木珠流",
+      "シナリオ": "内藤騎之介",
+      "声優": "山本パンダ\n綾音まこ\n大波こなみ\n芹園みや\n羽高なる\n青山ゆかり\n新堂真弓\n手塚りょうこ\n藤邑鈴香\n萌花ちょこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:34.515Z"
+  },
+  "histories": [
+    {
+      "id": 71291,
+      "productId": 71277,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:34.515Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204635,
+      "productId": 71277,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-09-02T21:36:34.000Z"
+    },
+    {
+      "id": 204634,
+      "productId": 71277,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション上大岡店 Supported by 駿河屋",
+      "condition": "中古通常",
+      "price": 3480,
+      "checkedAt": "2026-09-02T21:36:34.000Z"
+    },
+    {
+      "id": 204633,
+      "productId": 71277,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1695,
+      "checkedAt": "2026-09-02T21:36:34.000Z"
+    },
+    {
+      "id": 204632,
+      "productId": 71277,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1812,
+      "checkedAt": "2026-09-02T21:36:34.000Z"
+    },
+    {
+      "id": 204631,
+      "productId": 71277,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1695,
+      "checkedAt": "2026-09-02T21:36:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054562",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054562",
+    "capturedAt": "2026-09-02T21:36:34.515Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1695
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1812
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1695
+      },
+      {
+        "storeName": "ゲームステーション上大岡店 Supported by 駿河屋",
+        "condition": "中古通常",
+        "price": 3480
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145054562.json"
+  }
+}

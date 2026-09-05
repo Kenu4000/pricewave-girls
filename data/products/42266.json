@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 42266,
+    "title": "Windows CDソフト ティンクル☆くるせいだーす KURU KURU MIRACLE SET",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049951",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049951.jpg",
+    "manufacturer": "Lillian",
+    "releaseDate": "2008-09-26",
+    "listPrice": 5238,
+    "modelNumber": "PPP-0015MF",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145049951",
+      "メーカー": "Lillian",
+      "発売日": "2008/09/26",
+      "定価": "5,238円",
+      "型番": "PPP-0015MF",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "紙袋欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2299,
+    "latestRegularSalePrice": 2299,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "紙袋欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:04.795Z"
+  },
+  "histories": [
+    {
+      "id": 42280,
+      "productId": 42266,
+      "salePrice": 2299,
+      "regularSalePrice": 2299,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "紙袋欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:58.592Z"
+    },
+    {
+      "id": 53684,
+      "productId": 42266,
+      "salePrice": 2299,
+      "regularSalePrice": 2299,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "紙袋欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:27.107Z"
+    },
+    {
+      "id": 65662,
+      "productId": 42266,
+      "salePrice": 2299,
+      "regularSalePrice": 2299,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "紙袋欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:05.235Z"
+    },
+    {
+      "id": 75424,
+      "productId": 42266,
+      "salePrice": 2299,
+      "regularSalePrice": 2299,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "紙袋欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:04.795Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049951",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049951",
+    "capturedAt": "2026-09-04T08:44:04.795Z",
+    "items": [],
+    "path": "data/other-shops/145049951.json"
+  }
+}

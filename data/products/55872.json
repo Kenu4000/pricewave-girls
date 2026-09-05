@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 55872,
+    "title": "WindowsVista/7/8 CDソフト みずたま",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048845",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048845.jpg",
+    "manufacturer": "BLT",
+    "releaseDate": "2015-05-03",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145048845001",
+      "メーカー": "BLT",
+      "発売日": "2015/05/03",
+      "定価": "2,750円",
+      "原画": "スズケン",
+      "シナリオ": "休養沢ライチ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:58.538Z"
+  },
+  "histories": [
+    {
+      "id": 55886,
+      "productId": 55872,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:58.538Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151079,
+      "productId": 55872,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-21T05:30:58.000Z"
+    },
+    {
+      "id": 151078,
+      "productId": 55872,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:58.000Z"
+    },
+    {
+      "id": 151077,
+      "productId": 55872,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-21T05:30:58.000Z"
+    },
+    {
+      "id": 151076,
+      "productId": 55872,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-21T05:30:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145048845",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048845",
+    "capturedAt": "2026-08-21T05:30:58.538Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145048845.json"
+  }
+}

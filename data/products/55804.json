@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 55804,
+    "title": "Windows7/8.1/10 DVDソフト となりに彼女のいる幸せ -Winter Guest-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060532",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060532.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2018-02-23",
+    "listPrice": 2728,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145060532001",
+      "メーカー": "プレカノ",
+      "発売日": "2018/02/23",
+      "定価": "2,728円",
+      "原画": "ねこにゃん",
+      "シナリオ": "多喜濱一",
+      "声優": "鈴谷まや",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:11.295Z"
+  },
+  "histories": [
+    {
+      "id": 55818,
+      "productId": 55804,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:21.650Z"
+    },
+    {
+      "id": 75090,
+      "productId": 55804,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:11.295Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218156,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-09-04T08:40:12.000Z"
+    },
+    {
+      "id": 218155,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 990,
+      "checkedAt": "2026-09-04T08:40:12.000Z"
+    },
+    {
+      "id": 218154,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-09-04T08:40:12.000Z"
+    },
+    {
+      "id": 218153,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 853,
+      "checkedAt": "2026-09-04T08:40:12.000Z"
+    },
+    {
+      "id": 150843,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-21T05:30:21.000Z"
+    },
+    {
+      "id": 150842,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 990,
+      "checkedAt": "2026-08-21T05:30:21.000Z"
+    },
+    {
+      "id": 150841,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 853,
+      "checkedAt": "2026-08-21T05:30:21.000Z"
+    },
+    {
+      "id": 150840,
+      "productId": 55804,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-21T05:30:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060532",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060532",
+    "capturedAt": "2026-09-04T08:40:11.295Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 853
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 990
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145060532.json"
+  }
+}

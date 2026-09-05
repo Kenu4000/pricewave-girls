@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 55939,
+    "title": "WindowsXP/Vista/7 DVDソフト せんすいぶ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036692",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036692.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2013-06-28",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-026",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036692",
+      "メーカー": "エスクード",
+      "発売日": "2013/06/28",
+      "定価": "9,680円",
+      "型番": "ECAVG-026",
+      "原画": "〆鯖コハダ\n光姫満太郎\nここのか",
+      "シナリオ": "村田咲人",
+      "声優": "鴨ノ宮ゆう\n萌花ちょこ\n上田朱音\nかわしまりの\n水霧けいと\n赤司弓妃\n杉原茉莉\n秋野花\n藤森ゆき奈\n桜川未央\n来栖川勇\n榛名れん\n甘美\n如月葵",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:24.731Z"
+  },
+  "histories": [
+    {
+      "id": 55953,
+      "productId": 55939,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:34.105Z"
+    },
+    {
+      "id": 75112,
+      "productId": 55939,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:24.731Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151334,
+      "productId": 55939,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-21T05:31:34.000Z"
+    },
+    {
+      "id": 151333,
+      "productId": 55939,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1850,
+      "checkedAt": "2026-08-21T05:31:34.000Z"
+    },
+    {
+      "id": 151332,
+      "productId": 55939,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1830,
+      "checkedAt": "2026-08-21T05:31:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036692",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036692",
+    "capturedAt": "2026-09-04T08:40:24.731Z",
+    "items": [],
+    "path": "data/other-shops/145036692.json"
+  }
+}

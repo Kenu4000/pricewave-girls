@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 55841,
+    "title": "WindowsXP/Vista/7/8/8.1/10 DVDソフト 修羅の痴漢道",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054977",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054977.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2016-09-23",
+    "listPrice": 9680,
+    "modelNumber": "BSP-048",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054977001",
+      "メーカー": "BISHOP",
+      "発売日": "2016/09/23",
+      "定価": "9,680円",
+      "型番": "BSP-048",
+      "原画": "玄野トモアキ\n水島・多也\n深泥正",
+      "シナリオ": "ZEQU\n麿\n酒巻雨竜\n大津菜美\n紺乃瑞樹\n勝山龍太郎",
+      "声優": "あかしゆき\n星空ユメ\nももぞの薫\n鶴屋春人\n唯香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3180,
+    "latestRegularSalePrice": 3180,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:41.233Z"
+  },
+  "histories": [
+    {
+      "id": 55855,
+      "productId": 55841,
+      "salePrice": 3180,
+      "regularSalePrice": 3180,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:41.233Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150991,
+      "productId": 55841,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-21T05:30:41.000Z"
+    },
+    {
+      "id": 150990,
+      "productId": 55841,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 4000,
+      "checkedAt": "2026-08-21T05:30:41.000Z"
+    },
+    {
+      "id": 150989,
+      "productId": 55841,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 3000,
+      "checkedAt": "2026-08-21T05:30:41.000Z"
+    },
+    {
+      "id": 150988,
+      "productId": 55841,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-08-21T05:30:41.000Z"
+    },
+    {
+      "id": 150987,
+      "productId": 55841,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2501,
+      "checkedAt": "2026-08-21T05:30:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054977",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054977",
+    "capturedAt": "2026-08-21T05:30:41.233Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2501
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2711
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 3000
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 4000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3180
+      }
+    ],
+    "path": "data/other-shops/145054977.json"
+  }
+}

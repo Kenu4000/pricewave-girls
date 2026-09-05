@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 3456,
+    "title": "Windows95/98 CDソフト まゆ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001650",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001650.jpg",
+    "manufacturer": "BELL-DA",
+    "releaseDate": "1998-11-13",
+    "listPrice": 8580,
+    "modelNumber": "SKM-891-A",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145001650",
+      "メーカー": "BELL-DA",
+      "発売日": "1998/11/13",
+      "定価": "8,580円",
+      "型番": "SKM-891-A",
+      "原画": "影崎由那",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:18.316Z"
+  },
+  "histories": [
+    {
+      "id": 3470,
+      "productId": 3456,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 44472,
+      "productId": 3456,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:50.776Z"
+    },
+    {
+      "id": 72242,
+      "productId": 3456,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:18.316Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

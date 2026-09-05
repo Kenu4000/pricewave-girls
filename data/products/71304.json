@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 71304,
+    "title": "WindowsVista/7/8 DVDソフト 神楽花莚譚(かぐらかえんたん)[初回限定サントラ同梱版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048577",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048577.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2015-04-24",
+    "listPrice": 9680,
+    "modelNumber": "DEBO-15001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145048577001",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2015/04/24",
+      "定価": "9,680円",
+      "型番": "DEBO-15001",
+      "原画": "山本和枝",
+      "シナリオ": "瑞守ねおん\n若林浩太郎",
+      "声優": "西乃ころね\n榛名れん\n野々村紗夜\n早瀬ゃょぃ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145048577?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:45.715Z"
+  },
+  "histories": [
+    {
+      "id": 71318,
+      "productId": 71304,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:45.715Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204694,
+      "productId": 71304,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-09-02T21:36:45.000Z"
+    },
+    {
+      "id": 204693,
+      "productId": 71304,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-09-02T21:36:45.000Z"
+    },
+    {
+      "id": 204692,
+      "productId": 71304,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:36:45.000Z"
+    },
+    {
+      "id": 204691,
+      "productId": 71304,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-09-02T21:36:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145048577",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048577",
+    "capturedAt": "2026-09-02T21:36:45.715Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ディスクのみ",
+        "price": 750
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145048577.json"
+  }
+}

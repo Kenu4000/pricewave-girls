@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 55820,
+    "title": "Windows DVDソフト 爆乳温泉 -淫乱女将悦楽の湯篇-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058550",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058550.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2017-08-25",
+    "listPrice": 3740,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145058550001",
+      "メーカー": "エレクトリップ",
+      "発売日": "2017/08/25",
+      "定価": "3,740円",
+      "原画": "高橋レコード",
+      "シナリオ": "大久保貴美子\n天城悠理",
+      "声優": "唯香\n逢月ねる\n伊東サラ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4050,
+    "latestRegularSalePrice": 4050,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:29.702Z"
+  },
+  "histories": [
+    {
+      "id": 55834,
+      "productId": 55820,
+      "salePrice": 4050,
+      "regularSalePrice": 4050,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:29.702Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150912,
+      "productId": 55820,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4050,
+      "checkedAt": "2026-08-21T05:30:29.000Z"
+    },
+    {
+      "id": 150911,
+      "productId": 55820,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 3760,
+      "checkedAt": "2026-08-21T05:30:29.000Z"
+    },
+    {
+      "id": 150910,
+      "productId": 55820,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 3800,
+      "checkedAt": "2026-08-21T05:30:29.000Z"
+    },
+    {
+      "id": 150909,
+      "productId": 55820,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 3760,
+      "checkedAt": "2026-08-21T05:30:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058550",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058550",
+    "capturedAt": "2026-08-21T05:30:29.702Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 3760
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 3800
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 3760
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4050
+      }
+    ],
+    "path": "data/other-shops/145058550.json"
+  }
+}

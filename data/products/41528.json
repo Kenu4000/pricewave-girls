@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 41528,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ラブ・バインド",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041733",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041733.jpg",
+    "manufacturer": "13cc",
+    "releaseDate": "2010-08-27",
+    "listPrice": 7480,
+    "modelNumber": "VA-00091D",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145041733",
+      "メーカー": "13cc",
+      "発売日": "2010/08/27",
+      "定価": "7,480円",
+      "型番": "VA-00091D",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:10.128Z"
+  },
+  "histories": [
+    {
+      "id": 41542,
+      "productId": 41528,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:50.246Z"
+    },
+    {
+      "id": 43950,
+      "productId": 41528,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:23.900Z"
+    },
+    {
+      "id": 72116,
+      "productId": 41528,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:10.128Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 42361,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト はっぴぃプリンセス [Vista対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018495",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018495.jpg",
+    "manufacturer": "テリオス",
+    "releaseDate": "2008-07-25",
+    "listPrice": 7124,
+    "modelNumber": "TRI-0020",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018495",
+      "メーカー": "テリオス",
+      "発売日": "2008/07/25",
+      "定価": "7,124円",
+      "型番": "TRI-0020",
+      "原画": "桐生蒼八\n横田守",
+      "シナリオ": "codeX\n狩野伊太朗\n稀文堂",
+      "声優": "早乙女綾\n星川未流来\n鈴木ナン\n井村屋ほのか\n佐久間紅美\n大花どん\n鳴露のの\n黒川百合\n宮代ゆず\n遠山枝里子\n神村ひな\nどてら4号\n夏田空\n加賀ヒカル\n木島宇太\n高木渉\nプログレス\nかわせ沙希\n水野江麻",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:16.540Z"
+  },
+  "histories": [
+    {
+      "id": 42375,
+      "productId": 42361,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:53.844Z"
+    },
+    {
+      "id": 53758,
+      "productId": 42361,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:04.589Z"
+    },
+    {
+      "id": 65725,
+      "productId": 42361,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:34.909Z"
+    },
+    {
+      "id": 75439,
+      "productId": 42361,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:16.540Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018495",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018495",
+    "capturedAt": "2026-09-04T08:44:16.540Z",
+    "items": [],
+    "path": "data/other-shops/145018495.json"
+  }
+}

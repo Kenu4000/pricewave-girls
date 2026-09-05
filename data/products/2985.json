@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 2985,
+    "title": "Windows95 CDソフト LOST MIND ～歪んだ世界～ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002378",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002378.jpg",
+    "manufacturer": "アクティブ",
+    "releaseDate": "1999-06-17",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145002378",
+      "メーカー": "アクティブ",
+      "発売日": "1999/06/17",
+      "定価": "9,680円",
+      "原画": "しぃけんしゃる",
+      "シナリオ": "まこっち",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:50:11.399Z"
+  },
+  "histories": [
+    {
+      "id": 2999,
+      "productId": 2985,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 36815,
+      "productId": 2985,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:23.695Z"
+    },
+    {
+      "id": 47454,
+      "productId": 2985,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:16.683Z"
+    },
+    {
+      "id": 58336,
+      "productId": 2985,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:38:12.645Z"
+    },
+    {
+      "id": 69157,
+      "productId": 2985,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:50:11.399Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145002378",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002378",
+    "capturedAt": "2026-09-02T02:50:11.399Z",
+    "items": [],
+    "path": "data/other-shops/145002378.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 43123,
+    "title": "Windows CDソフト かいわれっ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014533",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014533.jpg",
+    "manufacturer": "FlyingShine",
+    "releaseDate": "2006-07-28",
+    "listPrice": 9680,
+    "modelNumber": "FS-014",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014533",
+      "メーカー": "FlyingShine",
+      "発売日": "2006/07/28",
+      "定価": "9,680円",
+      "型番": "FS-014",
+      "原画": "鮭",
+      "シナリオ": "神堂劾",
+      "声優": "たくま\n広末涼\n大空七海\nみる\n水橋かおり\n細田なな\n本田みか\n風音",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T01:25:49.394Z"
+  },
+  "histories": [
+    {
+      "id": 43137,
+      "productId": 43123,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:05.176Z"
+    },
+    {
+      "id": 55195,
+      "productId": 43123,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:37.711Z"
+    },
+    {
+      "id": 66276,
+      "productId": 43123,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:03.758Z"
+    },
+    {
+      "id": 76851,
+      "productId": 43123,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T01:25:49.394Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014533",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014533",
+    "capturedAt": "2026-09-05T01:25:49.394Z",
+    "items": [],
+    "path": "data/other-shops/145014533.json"
+  }
+}

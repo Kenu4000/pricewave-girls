@@ -1,0 +1,149 @@
+{
+  "product": {
+    "id": 55700,
+    "title": "Windows8.1/10 DVDソフト Role player：とろろ姉妹の粘膜ポトレ ぐりぐちゃ LIVE! APPEND+版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079162",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079162.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2023-09-29",
+    "listPrice": 8580,
+    "modelNumber": "AKA-0058",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145079162",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2023/09/29",
+      "定価": "8,580円",
+      "型番": "AKA-0058",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 3700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:01.986Z"
+  },
+  "histories": [
+    {
+      "id": 55714,
+      "productId": 55700,
+      "salePrice": 7350,
+      "regularSalePrice": 7350,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:28.493Z"
+    },
+    {
+      "id": 75073,
+      "productId": 55700,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:01.986Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218069,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 8411,
+      "checkedAt": "2026-09-04T08:40:02.000Z"
+    },
+    {
+      "id": 218068,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 7411,
+      "checkedAt": "2026-09-04T08:40:02.000Z"
+    },
+    {
+      "id": 218067,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 6711,
+      "checkedAt": "2026-09-04T08:40:02.000Z"
+    },
+    {
+      "id": 150369,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7350,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    },
+    {
+      "id": 150368,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 7600,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    },
+    {
+      "id": 150367,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 6711,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    },
+    {
+      "id": 150366,
+      "productId": 55700,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6111,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079162",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079162",
+    "capturedAt": "2026-09-04T08:40:01.986Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 6711
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 7411
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 8411
+      }
+    ],
+    "path": "data/other-shops/145079162.json"
+  }
+}

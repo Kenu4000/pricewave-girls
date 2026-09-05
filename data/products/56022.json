@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 56022,
+    "title": "Windows2000/XP/Vista/7 DVDソフト エグゼクタースクリプト",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024287",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024287.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2010-07-02",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024287",
+      "メーカー": "Triangle",
+      "発売日": "2010/07/02",
+      "定価": "9,680円",
+      "原画": "夕暮ぱいろ\n斎藤なつき",
+      "シナリオ": "島村ひろし\n反事象桂林",
+      "声優": "幸代彩里\n民安ともえ\n青井美海\n愛媛みかん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "(ディスクのみ)",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "(ディスクのみ)",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:38.179Z"
+  },
+  "histories": [
+    {
+      "id": 56036,
+      "productId": 56022,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "(ディスクのみ)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:18.351Z"
+    },
+    {
+      "id": 75146,
+      "productId": 56022,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "(ディスクのみ)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:38.179Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024287",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024287",
+    "capturedAt": "2026-09-04T08:41:38.179Z",
+    "items": [],
+    "path": "data/other-shops/145024287.json"
+  }
+}

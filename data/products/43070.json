@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 43070,
+    "title": "Windows CDソフト 魔法も、ひとつくださいな。DIGITAL CONTENTS DISC 予約キャンペーン特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020108",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020108.jpg",
+    "manufacturer": "ホワイトクラリティ",
+    "releaseDate": "2006-09-26",
+    "listPrice": null,
+    "modelNumber": "WC-001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145020108001",
+      "メーカー": "ホワイトクラリティ",
+      "発売日": "2006/09/26",
+      "型番": "WC-001",
+      "原画": "まゆくら",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:06:47.520Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:47.372Z"
+  },
+  "histories": [
+    {
+      "id": 43084,
+      "productId": 43070,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:38.327Z"
+    },
+    {
+      "id": 55153,
+      "productId": 43070,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:16.982Z"
+    },
+    {
+      "id": 66240,
+      "productId": 43070,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:47.372Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

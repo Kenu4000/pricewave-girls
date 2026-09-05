@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 71215,
+    "title": "Windows7/8/10 DVDソフト その日の獣には、[シンプル版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063426",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063426.jpg",
+    "manufacturer": "minori",
+    "releaseDate": "2019-01-25",
+    "listPrice": 8580,
+    "modelNumber": "SW-092",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063426",
+      "メーカー": "minori",
+      "発売日": "2019/01/25",
+      "定価": "8,580円",
+      "型番": "SW-092",
+      "原画": "柚子奈ひよ\nきのこのみ\n蟹屋しく",
+      "シナリオ": "此ノ花しな\n花見田ひかる",
+      "声優": "鳴瀬愛\n夜長桜\n灯里\nくすはらゆい\n柳ひとみ\n要しおり",
+      "ディレクター": "酒井伸和",
+      "原作": "鋏鷺",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9700,
+    "latestRegularSalePrice": 9700,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:07.793Z"
+  },
+  "histories": [
+    {
+      "id": 71229,
+      "productId": 71215,
+      "salePrice": 9700,
+      "regularSalePrice": 9700,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:07.793Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063426",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063426",
+    "capturedAt": "2026-09-02T21:36:07.793Z",
+    "items": [],
+    "path": "data/other-shops/145063426.json"
+  }
+}

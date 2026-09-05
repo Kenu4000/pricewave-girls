@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42757,
+    "title": "Windows2000/XP/Vista DVDソフト るるるとささらの先生☆教えて ～ボクは女のお坊っちゃま～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015859",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015859.jpg",
+    "manufacturer": "あんでる",
+    "releaseDate": "2007-06-22",
+    "listPrice": 9680,
+    "modelNumber": "TU-06",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015859",
+      "メーカー": "あんでる",
+      "発売日": "2007/06/22",
+      "定価": "9,680円",
+      "型番": "TU-06",
+      "原画": "宗田しんめ",
+      "シナリオ": "中森南文里\n東人\nおくとぱす\nHatsu",
+      "声優": "草柳順子\n民安ともえ\n戸沼ゆず\n茉莉奈\n安玖深音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:04:59.000Z"
+  },
+  "histories": [
+    {
+      "id": 42771,
+      "productId": 42757,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:47.987Z"
+    },
+    {
+      "id": 54916,
+      "productId": 42757,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:19.081Z"
+    },
+    {
+      "id": 66021,
+      "productId": 42757,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:59.000Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015859",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015859",
+    "capturedAt": "2026-08-29T13:04:59.000Z",
+    "items": [],
+    "path": "data/other-shops/145015859.json"
+  }
+}

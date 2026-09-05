@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42383,
+    "title": "Windows DVDソフト The ガッツ! 2(月刊メガストア 2008年8月号 Vol.183 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078467",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078467.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2008-06-27",
+    "listPrice": null,
+    "modelNumber": "MEGA0808",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145078467001",
+      "メーカー": "コアマガジン",
+      "発売日": "2008/06/27",
+      "型番": "MEGA0808",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:02:45.229Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:17.630Z"
+  },
+  "histories": [
+    {
+      "id": 42397,
+      "productId": 42383,
+      "salePrice": 310,
+      "regularSalePrice": 310,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:12.680Z"
+    },
+    {
+      "id": 53778,
+      "productId": 42383,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:13.356Z"
+    },
+    {
+      "id": 65747,
+      "productId": 42383,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:45.029Z"
+    },
+    {
+      "id": 75441,
+      "productId": 42383,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:17.630Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

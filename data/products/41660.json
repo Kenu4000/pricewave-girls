@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 41660,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ノーブレスオブリージュ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023487",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023487.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2010-04-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023487",
+      "メーカー": "CLOCKUP",
+      "発売日": "2010/04/23",
+      "定価": "9,680円",
+      "原画": "かみやまねき",
+      "シナリオ": "ヒポポ☆タ☆マス",
+      "声優": "狛乃ハルコ\nかわしまりの\n一色ヒカル\n戸沼ゆず\n北都南\n柚季\n高井戸雫",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:37.922Z"
+  },
+  "histories": [
+    {
+      "id": 41674,
+      "productId": 41660,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:17.703Z"
+    },
+    {
+      "id": 43977,
+      "productId": 41660,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:36.587Z"
+    },
+    {
+      "id": 55367,
+      "productId": 41660,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:49:17.379Z"
+    },
+    {
+      "id": 75027,
+      "productId": 41660,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:37.922Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023487",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023487",
+    "capturedAt": "2026-09-04T08:39:37.922Z",
+    "items": [],
+    "path": "data/other-shops/145023487.json"
+  }
+}

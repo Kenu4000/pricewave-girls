@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 55870,
+    "title": "WindowsVista/7/8 DVDソフト ピュア×コネクト[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050359",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050359.jpg",
+    "manufacturer": "SMEE",
+    "releaseDate": "2015-06-26",
+    "listPrice": 10175,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145050359",
+      "メーカー": "SMEE",
+      "発売日": "2015/06/26",
+      "定価": "10,175円",
+      "原画": "あめとゆき",
+      "シナリオ": "早瀬ゆう",
+      "声優": "柳沢降臨\n春日アン\n新山ゆうき\n柚木サチ\n森谷実園\n井ノ上花\n歩河みぃな\n伊藤麻衣(声優)\n真神昌\n夏村伊介",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:10:11.414Z"
+  },
+  "histories": [
+    {
+      "id": 55884,
+      "productId": 55870,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:57.212Z"
+    },
+    {
+      "id": 66637,
+      "productId": 55870,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:11.414Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 186986,
+      "productId": 55870,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 1880,
+      "checkedAt": "2026-08-29T13:10:11.000Z"
+    },
+    {
+      "id": 186985,
+      "productId": 55870,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-08-29T13:10:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145050359",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050359",
+    "capturedAt": "2026-08-29T13:10:11.414Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 1880
+      }
+    ],
+    "path": "data/other-shops/145050359.json"
+  }
+}

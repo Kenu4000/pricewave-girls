@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 55721,
+    "title": "Windows8.1/10 DVDソフト 月に寄りそう乙女の作法 10th GAME COMPLETE BOX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076334",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076334.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2023-01-27",
+    "listPrice": 21780,
+    "modelNumber": "NVSB-0001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145076334001",
+      "メーカー": "Navel",
+      "発売日": "2023/01/27",
+      "定価": "21,780円",
+      "型番": "NVSB-0001",
+      "原画": "西又葵\n鈴平ひろ",
+      "シナリオ": "森林彬\n真紀士\n王雀孫\n東ノ助",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 36800,
+    "latestRegularSalePrice": 36800,
+    "latestBuyPrice": 19000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T01:25:29.052Z"
+  },
+  "histories": [
+    {
+      "id": 55735,
+      "productId": 55721,
+      "salePrice": 41700,
+      "regularSalePrice": 41700,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:38.136Z"
+    },
+    {
+      "id": 60021,
+      "productId": 55721,
+      "salePrice": 41700,
+      "regularSalePrice": 41700,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:08:46.134Z"
+    },
+    {
+      "id": 61293,
+      "productId": 55721,
+      "salePrice": 41700,
+      "regularSalePrice": 41700,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:16:06.812Z"
+    },
+    {
+      "id": 68749,
+      "productId": 55721,
+      "salePrice": 34800,
+      "regularSalePrice": 34800,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:47:11.219Z"
+    },
+    {
+      "id": 76806,
+      "productId": 55721,
+      "salePrice": 36800,
+      "regularSalePrice": 36800,
+      "buyPrice": 19000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T01:25:29.052Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 221886,
+      "productId": 55721,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 36800,
+      "checkedAt": "2026-09-05T01:25:29.000Z"
+    },
+    {
+      "id": 221885,
+      "productId": 55721,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 34800,
+      "checkedAt": "2026-09-05T01:25:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076334",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076334",
+    "capturedAt": "2026-09-05T01:25:29.052Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 34800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 36800
+      }
+    ],
+    "path": "data/other-shops/145076334.json"
+  }
+}

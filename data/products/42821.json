@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 42821,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 女将・静香 ～熟れた果実が堕ちる刻～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015603",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015603.jpg",
+    "manufacturer": "mini-mam",
+    "releaseDate": "2007-03-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015603",
+      "メーカー": "mini-mam",
+      "発売日": "2007/03/30",
+      "定価": "9,680円",
+      "原画": "李KPA",
+      "シナリオ": "優妃崎章人\nbridge",
+      "声優": "計名さや香\n春日アン\n榎津まお\n瑠月未来\n成瀬ゆら",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2285,
+    "latestRegularSalePrice": 2285,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:15.684Z"
+  },
+  "histories": [
+    {
+      "id": 42835,
+      "productId": 42821,
+      "salePrice": 2365,
+      "regularSalePrice": 2365,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:21.781Z"
+    },
+    {
+      "id": 54966,
+      "productId": 42821,
+      "salePrice": 2350,
+      "regularSalePrice": 2350,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:43.930Z"
+    },
+    {
+      "id": 66066,
+      "productId": 42821,
+      "salePrice": 2315,
+      "regularSalePrice": 2315,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:20.103Z"
+    },
+    {
+      "id": 75555,
+      "productId": 42821,
+      "salePrice": 2285,
+      "regularSalePrice": 2285,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:15.684Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015603",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015603",
+    "capturedAt": "2026-09-04T08:45:15.684Z",
+    "items": [],
+    "path": "data/other-shops/145015603.json"
+  }
+}

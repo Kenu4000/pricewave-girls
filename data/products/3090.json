@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 3090,
+    "title": "Windowsソフト RKリバーシブルカルテ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145906401",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "BLACK PACKAGE",
+    "releaseDate": "1997-11-14",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145906401",
+      "メーカー": "BLACK PACKAGE",
+      "発売日": "1997/11/14",
+      "定価": "9,680円",
+      "原画": "DONOVAN\n大越秀武",
+      "シナリオ": "桜吹雪仁",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 570,
+    "latestRegularSalePrice": 570,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:16.860Z"
+  },
+  "histories": [
+    {
+      "id": 3104,
+      "productId": 3090,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 44466,
+      "productId": 3090,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:47.183Z"
+    },
+    {
+      "id": 72238,
+      "productId": 3090,
+      "salePrice": 570,
+      "regularSalePrice": 570,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:16.860Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145906401",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145906401",
+    "capturedAt": "2026-09-03T01:17:16.860Z",
+    "items": [],
+    "path": "data/other-shops/145906401.json"
+  }
+}

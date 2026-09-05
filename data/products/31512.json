@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31512,
+    "title": "WindowsXP/Vista/7 DVDソフト あっぱれ!天下御免[祭] ー恋と嵐は大江戸の華ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039807",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039807.jpg",
+    "manufacturer": "BaseSon",
+    "releaseDate": "2012-12-21",
+    "listPrice": 9680,
+    "modelNumber": "BAS-011",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145039807",
+      "メーカー": "BaseSon",
+      "発売日": "2012/12/21",
+      "定価": "9,680円",
+      "型番": "BAS-011",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:30.673Z"
+  },
+  "histories": [
+    {
+      "id": 31526,
+      "productId": 31512,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:47.709Z"
+    },
+    {
+      "id": 40263,
+      "productId": 31512,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:27.486Z"
+    },
+    {
+      "id": 43762,
+      "productId": 31512,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:49.964Z"
+    },
+    {
+      "id": 72033,
+      "productId": 31512,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:30.673Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039807",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039807",
+    "capturedAt": "2026-09-03T01:15:30.673Z",
+    "items": [],
+    "path": "data/other-shops/145039807.json"
+  }
+}

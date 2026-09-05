@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 29986,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 乙女が彩る恋のエッセンス-笑顔で織りなす未来- 本編同梱版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055602",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055602.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2016-11-25",
+    "listPrice": 11880,
+    "modelNumber": "WILL-353SET",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055602001",
+      "メーカー": "ensemble",
+      "発売日": "2016/11/25",
+      "定価": "11,880円",
+      "型番": "WILL-353SET",
+      "原画": "zinno\n庄名泉石\n浅海朝美\n武藤此史",
+      "シナリオ": "水瀬拓未\n甲二",
+      "声優": "中島裕美子\nひな葉月\n藤森ゆき奈\n萌花ちょこ\n白月かなめ\n有栖川みや美\n奏雨\n上田朱音\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145055602?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:25.480Z"
+  },
+  "histories": [
+    {
+      "id": 30000,
+      "productId": 29986,
+      "salePrice": 3770,
+      "regularSalePrice": 3770,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:44.096Z"
+    },
+    {
+      "id": 38800,
+      "productId": 29986,
+      "salePrice": 3770,
+      "regularSalePrice": 3770,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:56.678Z"
+    },
+    {
+      "id": 71019,
+      "productId": 29986,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:25.480Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203917,
+      "productId": 29986,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 1100,
+      "checkedAt": "2026-09-02T20:49:25.000Z"
+    },
+    {
+      "id": 203916,
+      "productId": 29986,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 3770,
+      "checkedAt": "2026-09-02T20:49:25.000Z"
+    },
+    {
+      "id": 203915,
+      "productId": 29986,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古ディスクのみ",
+      "price": 1100,
+      "checkedAt": "2026-09-02T20:49:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055602",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055602",
+    "capturedAt": "2026-09-02T20:49:25.480Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古ディスクのみ",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 3770
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 1100
+      }
+    ],
+    "path": "data/other-shops/145055602.json"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 41865,
+    "title": "Windows2000Pro/XP/Vista DVDソフト 斬死刃留",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021425",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021425.jpg",
+    "manufacturer": "AMOLPHAS",
+    "releaseDate": "2009-10-02",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021425001",
+      "メーカー": "AMOLPHAS",
+      "発売日": "2009/10/02",
+      "定価": "9,680円",
+      "声優": "このかなみ\n白井綾乃\n飯田空\n金松由花\nたかはし智秋\n青井美海\n松涛エルサ\n増岡太郎\n松本保典",
+      "原画/シナリオ": "田宮秋人",
+      "シナリオ": "〆鯖コハダ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "原画": "/",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 10800,
+    "latestRegularSalePrice": 10800,
+    "latestBuyPrice": 5900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:24.751Z"
+  },
+  "histories": [
+    {
+      "id": 41879,
+      "productId": 41865,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": 8000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:03.220Z"
+    },
+    {
+      "id": 44018,
+      "productId": 41865,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": 8000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:56.356Z"
+    },
+    {
+      "id": 72143,
+      "productId": 41865,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:24.751Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207632,
+      "productId": 41865,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 7600,
+      "checkedAt": "2026-09-03T01:16:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

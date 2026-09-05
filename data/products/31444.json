@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 31444,
+    "title": "Windows CDソフト 星彩のレゾナンス Special Conteints Disk",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036499",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036499.jpg",
+    "manufacturer": "Yatagarasu",
+    "releaseDate": "2013-02-22",
+    "listPrice": null,
+    "modelNumber": "SKR-349",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145036499001",
+      "メーカー": "Yatagarasu",
+      "発売日": "2013/02/22",
+      "型番": "SKR-349",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:07:50.730Z"
+  },
+  "histories": [
+    {
+      "id": 31458,
+      "productId": 31444,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:56.581Z"
+    },
+    {
+      "id": 40196,
+      "productId": 31444,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:54.340Z"
+    },
+    {
+      "id": 51222,
+      "productId": 31444,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:51.695Z"
+    },
+    {
+      "id": 63241,
+      "productId": 31444,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:54.042Z"
+    },
+    {
+      "id": 73842,
+      "productId": 31444,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:07:50.730Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

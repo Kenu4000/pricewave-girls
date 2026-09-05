@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 3475,
+    "title": "Windows95 CDソフト 樹木姫",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002026",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002026.jpg",
+    "manufacturer": "デザイアー",
+    "releaseDate": "1999-01-14",
+    "listPrice": 9680,
+    "modelNumber": "EXC-0028",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145002026",
+      "メーカー": "デザイアー",
+      "発売日": "1999/01/14",
+      "定価": "9,680円",
+      "型番": "EXC-0028",
+      "原画": "中北晃二",
+      "シナリオ": "中本穂積",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 402,
+    "latestRegularSalePrice": 402,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:21.143Z"
+  },
+  "histories": [
+    {
+      "id": 3489,
+      "productId": 3475,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 23030,
+      "productId": 3475,
+      "salePrice": 922,
+      "regularSalePrice": 922,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:54.209Z"
+    },
+    {
+      "id": 37222,
+      "productId": 3475,
+      "salePrice": 922,
+      "regularSalePrice": 922,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:56.021Z"
+    },
+    {
+      "id": 47795,
+      "productId": 3475,
+      "salePrice": 922,
+      "regularSalePrice": 922,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:30.485Z"
+    },
+    {
+      "id": 58644,
+      "productId": 3475,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:40:56.408Z"
+    },
+    {
+      "id": 69442,
+      "productId": 3475,
+      "salePrice": 402,
+      "regularSalePrice": 402,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:21.143Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 162188,
+      "productId": 3475,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-23T13:40:56.000Z"
+    },
+    {
+      "id": 162187,
+      "productId": 3475,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 402,
+      "checkedAt": "2026-08-23T13:40:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002026",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002026",
+    "capturedAt": "2026-09-02T02:52:21.143Z",
+    "items": [],
+    "path": "data/other-shops/145002026.json"
+  }
+}

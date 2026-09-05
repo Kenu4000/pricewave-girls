@@ -1,0 +1,135 @@
+{
+  "product": {
+    "id": 42141,
+    "title": "Windows2000/XP/Vista DVDソフト 輝光翼戦記 天空のユミナ[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018818",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018818.jpg",
+    "manufacturer": "ETERNAL",
+    "releaseDate": "2009-01-23",
+    "listPrice": 9680,
+    "modelNumber": "WILL-211B",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018818001",
+      "メーカー": "ETERNAL",
+      "発売日": "2009/01/23",
+      "定価": "9,680円",
+      "型番": "WILL-211B",
+      "原画": "双月明\n松竜",
+      "SD原画": "こもわた遙華",
+      "シナリオ": "小林且典\n高瀬奈緒文\n折畑啓助\n座敷猫",
+      "声優": "里宮アリサ\n櫻井真人\n水霧けいと\n遠山枝里子\nまきいづみ\n加賀ヒカル\n松田理沙\nヘルシー太郎\n鮎川ひなた\n風音\n三咲里奈\n天野かえで\n姫川あいり\n松本保典\n波動拳\nこのかなみ\n神月あおい\n伏羅りん\n山中荘一\n子太明\n大河内正和\n木島宇太\nかわしまりの\n春野伊吹\n十文字隼人\n野神奈々\n一色ヒカル\n一条和矢\n春乃伊吹",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:13:50.227Z"
+  },
+  "histories": [
+    {
+      "id": 42155,
+      "productId": 42141,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:43.160Z"
+    },
+    {
+      "id": 71870,
+      "productId": 42141,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:13:50.227Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 206996,
+      "productId": 42141,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-03T01:13:50.000Z"
+    },
+    {
+      "id": 206995,
+      "productId": 42141,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-03T01:13:50.000Z"
+    },
+    {
+      "id": 206994,
+      "productId": 42141,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-03T01:13:50.000Z"
+    },
+    {
+      "id": 109072,
+      "productId": 42141,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:08:43.000Z"
+    },
+    {
+      "id": 109071,
+      "productId": 42141,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-08-17T07:08:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018818",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018818",
+    "capturedAt": "2026-09-03T01:13:50.227Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145018818.json"
+  }
+}

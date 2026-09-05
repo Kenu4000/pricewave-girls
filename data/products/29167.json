@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 29167,
+    "title": "Windows10/11 DVDソフト 僕の好きな人の好きな人は、女装した僕でした [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079790",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079790.jpg",
+    "manufacturer": "ensemble SWEET",
+    "releaseDate": "2023-12-22",
+    "listPrice": 9900,
+    "modelNumber": "WILL-430DX",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145079790001",
+      "メーカー": "ensemble SWEET",
+      "発売日": "2023/12/22",
+      "定価": "9,900円",
+      "型番": "WILL-430DX",
+      "原画": "ぐらしおん",
+      "シナリオ": "泰良則充",
+      "声優": "上原あおい\n餅梨あむ\n桃山いおん\n藤色せりな",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4380,
+    "latestRegularSalePrice": 4380,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:10.753Z"
+  },
+  "histories": [
+    {
+      "id": 29181,
+      "productId": 29167,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:09.841Z"
+    },
+    {
+      "id": 38018,
+      "productId": 29167,
+      "salePrice": 4000,
+      "regularSalePrice": 4000,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:48.877Z"
+    },
+    {
+      "id": 70996,
+      "productId": 29167,
+      "salePrice": 4380,
+      "regularSalePrice": 4380,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:10.753Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203852,
+      "productId": 29167,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4380,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    },
+    {
+      "id": 203851,
+      "productId": 29167,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 4000,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    },
+    {
+      "id": 203850,
+      "productId": 29167,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+      "condition": "中古ジャンク品 ※動作保証出来ません。",
+      "price": 4000,
+      "checkedAt": "2026-09-02T20:49:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079790",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079790",
+    "capturedAt": "2026-09-02T20:49:10.753Z",
+    "items": [
+      {
+        "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+        "condition": "中古ジャンク品 ※動作保証出来ません。",
+        "price": 4000
+      },
+      {
+        "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 4000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4380
+      }
+    ],
+    "path": "data/other-shops/145079790.json"
+  }
+}

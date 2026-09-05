@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 42222,
+    "title": "Windows98/98SE/Me/2000/XP DVDソフト まままままま",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018741",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018741.jpg",
+    "manufacturer": "らぱぷる",
+    "releaseDate": "2008-10-31",
+    "listPrice": 9680,
+    "modelNumber": "RP-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018741",
+      "メーカー": "らぱぷる",
+      "発売日": "2008/10/31",
+      "定価": "9,680円",
+      "型番": "RP-004",
+      "原画": "鳩矢豆七",
+      "シナリオ": "墨",
+      "声優": "ヒマリ\n春日アン\n紫苑みやび\n佐藤千幸\n藤乃理香",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:01:48.767Z"
+  },
+  "histories": [
+    {
+      "id": 42236,
+      "productId": 42222,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:31.282Z"
+    },
+    {
+      "id": 53649,
+      "productId": 42222,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:07.656Z"
+    },
+    {
+      "id": 65629,
+      "productId": 42222,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:01:48.767Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184589,
+      "productId": 42222,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 2222,
+      "checkedAt": "2026-08-29T13:01:49.000Z"
+    },
+    {
+      "id": 184588,
+      "productId": 42222,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1401,
+      "checkedAt": "2026-08-29T13:01:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018741",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018741",
+    "capturedAt": "2026-08-29T13:01:48.767Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1401
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 2222
+      }
+    ],
+    "path": "data/other-shops/145018741.json"
+  }
+}

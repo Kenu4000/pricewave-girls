@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 8067,
+    "title": "WindowsXP/Vista/7/8 CDソフト ゆずみなつ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036985",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036985.jpg",
+    "manufacturer": "LO-LILITH",
+    "releaseDate": "2013-05-17",
+    "listPrice": 3740,
+    "modelNumber": "LOL-00001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036985",
+      "メーカー": "LO-LILITH",
+      "発売日": "2013/05/17",
+      "定価": "3,740円",
+      "型番": "LOL-00001",
+      "原画": "犬星",
+      "シナリオ": "そのだまさき\n巫浄スウ",
+      "声優": "榎津まお\n藤堂みさき",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1611,
+    "latestRegularSalePrice": 1611,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:59.588Z"
+  },
+  "histories": [
+    {
+      "id": 8081,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 37520,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:36.969Z"
+    },
+    {
+      "id": 48027,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:42.003Z"
+    },
+    {
+      "id": 59370,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:03:02.892Z"
+    },
+    {
+      "id": 70153,
+      "productId": 8067,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:59.588Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036985",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036985",
+    "capturedAt": "2026-09-02T20:42:59.588Z",
+    "items": [],
+    "path": "data/other-shops/145036985.json"
+  }
+}

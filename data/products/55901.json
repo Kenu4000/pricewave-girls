@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 55901,
+    "title": "WindowsXP/Vista/7 DVDソフト 病マナヒ姉ハ無ヒ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041985",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041985.jpg",
+    "manufacturer": "Tangerine",
+    "releaseDate": "2014-05-30",
+    "listPrice": 3300,
+    "modelNumber": "TNJR-002",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145041985",
+      "メーカー": "Tangerine",
+      "発売日": "2014/05/30",
+      "定価": "3,300円",
+      "型番": "TNJR-002",
+      "原画": "さっぽろももこ",
+      "シナリオ": "有巻洋太\n森ジムソン",
+      "声優": "小波渡陸\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:19.254Z"
+  },
+  "histories": [
+    {
+      "id": 55915,
+      "productId": 55901,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:16.499Z"
+    },
+    {
+      "id": 75101,
+      "productId": 55901,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:19.254Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041985",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041985",
+    "capturedAt": "2026-09-04T08:40:19.254Z",
+    "items": [],
+    "path": "data/other-shops/145041985.json"
+  }
+}

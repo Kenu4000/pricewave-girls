@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41506,
+    "title": "WindowsXP/Vista/7 DVDソフト 匣の中の情事",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025178",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025178.jpg",
+    "manufacturer": "WendyBell",
+    "releaseDate": "2010-09-24",
+    "listPrice": 3080,
+    "modelNumber": "WB-06",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025178",
+      "メーカー": "WendyBell",
+      "発売日": "2010/09/24",
+      "定価": "3,080円",
+      "型番": "WB-06",
+      "原画": "唄飛鳥",
+      "シナリオ": "草薙",
+      "声優": "酒井たから\n志方馨",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:15.767Z"
+  },
+  "histories": [
+    {
+      "id": 41520,
+      "productId": 41506,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:31.538Z"
+    },
+    {
+      "id": 53144,
+      "productId": 41506,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:57.250Z"
+    },
+    {
+      "id": 64733,
+      "productId": 41506,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:15.767Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145025178",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025178",
+    "capturedAt": "2026-08-29T01:14:15.767Z",
+    "items": [],
+    "path": "data/other-shops/145025178.json"
+  }
+}

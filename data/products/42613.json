@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42613,
+    "title": "Windows98/Me/2000/XP DVDソフト 絶対★妹至上主義!! [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048799",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048799.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2007-11-16",
+    "listPrice": 8580,
+    "modelNumber": "BASE-012",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145048799",
+      "メーカー": "脳内彼女",
+      "発売日": "2007/11/16",
+      "定価": "8,580円",
+      "型番": "BASE-012",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:52.003Z"
+  },
+  "histories": [
+    {
+      "id": 42627,
+      "productId": 42613,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:26.944Z"
+    },
+    {
+      "id": 53940,
+      "productId": 42613,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:37.172Z"
+    },
+    {
+      "id": 65884,
+      "productId": 42613,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:52.003Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048799",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048799",
+    "capturedAt": "2026-08-29T13:03:52.003Z",
+    "items": [],
+    "path": "data/other-shops/145048799.json"
+  }
+}

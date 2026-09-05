@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 41812,
+    "title": "WindowsXP/Vista/7 CDソフト 神楽道中記 追加シナリオパック(vol.1+vol.2)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022267",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022267.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2009-11-27",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145022267001",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2009/11/27",
+      "定価": "4,180円",
+      "原画": "山本和枝",
+      "シナリオ": "寺岡健治",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:01.895Z"
+  },
+  "histories": [
+    {
+      "id": 41826,
+      "productId": 41812,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:36.609Z"
+    },
+    {
+      "id": 53362,
+      "productId": 41812,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外・内箱状態難有・テレカ欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:43.764Z"
+    },
+    {
+      "id": 64928,
+      "productId": 41812,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外・内箱状態難有・テレカ欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:41.910Z"
+    },
+    {
+      "id": 75306,
+      "productId": 41812,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:01.895Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218870,
+      "productId": 41812,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-04T08:43:02.000Z"
+    },
+    {
+      "id": 218869,
+      "productId": 41812,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-09-04T08:43:02.000Z"
+    },
+    {
+      "id": 218868,
+      "productId": 41812,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱状態難有・テレカ欠品",
+      "price": 280,
+      "checkedAt": "2026-09-04T08:43:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022267",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022267",
+    "capturedAt": "2026-09-04T08:43:01.895Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱状態難有・テレカ欠品",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145022267.json"
+  }
+}

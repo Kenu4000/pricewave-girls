@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 30366,
+    "title": "WindowsVista/7/8/10 DVDソフト GEARS of DRAGOON 廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051687",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051687.jpg",
+    "manufacturer": "ninetail",
+    "releaseDate": "2015-10-23",
+    "listPrice": 4840,
+    "modelNumber": "TNR-04",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145051687",
+      "メーカー": "ninetail",
+      "発売日": "2015/10/23",
+      "定価": "4,840円",
+      "型番": "TNR-04",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "和人\n内山涼介\n青木きりん\nけーまる",
+      "声優": "笹崎こじろう\n咲ゆたか\n錫宮那由太\n桃也みなみ\n東かりん\n榊木春乃\n大波こなみ\nくわがたみほ\n芦久比剥巳\n御苑生メイ\nももぞの薫\n森野ハイジ\n渋谷ひめ\n中田樹ユロヒカ\n星一人\n有賀桃\n花南",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:18:07.637Z"
+  },
+  "histories": [
+    {
+      "id": 30380,
+      "productId": 30366,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:21.504Z"
+    },
+    {
+      "id": 39161,
+      "productId": 30366,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:14.658Z"
+    },
+    {
+      "id": 50421,
+      "productId": 30366,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:49.039Z"
+    },
+    {
+      "id": 61530,
+      "productId": 30366,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:18:07.637Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051687",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051687",
+    "capturedAt": "2026-08-27T09:18:07.637Z",
+    "items": [],
+    "path": "data/other-shops/145051687.json"
+  }
+}

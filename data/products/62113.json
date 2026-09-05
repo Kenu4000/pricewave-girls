@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62113,
+    "title": "WindowsXP/Vista/7/8 CDソフト 恋人(おやこ)でできること",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039743",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039743.jpg",
+    "manufacturer": "My Daughter",
+    "releaseDate": "2014-01-31",
+    "listPrice": 3300,
+    "modelNumber": "QMD-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145039743",
+      "メーカー": "My Daughter",
+      "発売日": "2014/01/31",
+      "定価": "3,300円",
+      "型番": "QMD-001",
+      "原画": "上弦",
+      "シナリオ": "草薙",
+      "声優": "中家志穂",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:08.254Z"
+  },
+  "histories": [
+    {
+      "id": 62127,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:23.423Z"
+    },
+    {
+      "id": 62791,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:22.938Z"
+    },
+    {
+      "id": 64586,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:08.254Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039743",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039743",
+    "capturedAt": "2026-08-29T01:13:08.254Z",
+    "items": [],
+    "path": "data/other-shops/145039743.json"
+  }
+}

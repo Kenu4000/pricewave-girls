@@ -1,0 +1,686 @@
+{
+  "product": {
+    "id": 62011,
+    "title": "Windows7/8.1/10 DVDソフト コイカツ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061336",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061336.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2018-04-27",
+    "listPrice": 10780,
+    "modelNumber": "ILN-108",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145061336001",
+      "メーカー": "ILLUSION",
+      "発売日": "2018/04/27",
+      "定価": "10,780円",
+      "型番": "ILN-108",
+      "声優": "綾瀬あかり\n藤崎紗矢香\n榊原ゆい\n片倉ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6400,
+    "latestRegularSalePrice": 6400,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:41:57.851Z"
+  },
+  "histories": [
+    {
+      "id": 62025,
+      "productId": 62011,
+      "salePrice": 7550,
+      "regularSalePrice": 7550,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:38.233Z"
+    },
+    {
+      "id": 62689,
+      "productId": 62011,
+      "salePrice": 7550,
+      "regularSalePrice": 7550,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:35.281Z"
+    },
+    {
+      "id": 64483,
+      "productId": 62011,
+      "salePrice": 7550,
+      "regularSalePrice": 7550,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:23.493Z"
+    },
+    {
+      "id": 70012,
+      "productId": 62011,
+      "salePrice": 6400,
+      "regularSalePrice": 6400,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:41:57.851Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 200995,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6400,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200994,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム(外箱付・未開封品)",
+      "price": 20000,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200993,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 13800,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200992,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 13150,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200991,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット別府店",
+      "condition": "中古中古",
+      "price": 10800,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200990,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 8957,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200989,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 8888,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200988,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 8380,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200987,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7500,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200986,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7400,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200985,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 7170,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200984,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 6811,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200983,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 6750,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200982,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 6645,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 200981,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 6400,
+      "checkedAt": "2026-09-02T20:41:58.000Z"
+    },
+    {
+      "id": 181060,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7550,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181059,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム(外箱付・未開封品)",
+      "price": 20000,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181058,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 13800,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181057,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 13150,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181056,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット別府店",
+      "condition": "中古中古",
+      "price": 10800,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181055,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 8957,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181054,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 8888,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181053,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 8380,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181052,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 6670,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181051,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7500,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181050,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 7211,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181049,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181048,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 6750,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 181047,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 6670,
+      "checkedAt": "2026-08-29T01:12:23.000Z"
+    },
+    {
+      "id": 176086,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7550,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176085,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム(外箱付・未開封品)",
+      "price": 20000,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176084,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 13800,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176083,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 13150,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176082,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット別府店",
+      "condition": "中古中古",
+      "price": 10800,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176081,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 8957,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176080,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 8888,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176079,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 8380,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176078,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 6675,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176077,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7500,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176076,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 7211,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176075,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176074,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 6750,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 176073,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 6675,
+      "checkedAt": "2026-08-27T16:03:35.000Z"
+    },
+    {
+      "id": 173408,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7550,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173407,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム(外箱付・未開封品)",
+      "price": 20000,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173406,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 13800,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173405,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 13150,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173404,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット別府店",
+      "condition": "中古中古",
+      "price": 10800,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173403,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 8957,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173402,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 8888,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173401,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 8380,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173400,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 6675,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173399,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+      "price": 7500,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173398,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 7211,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173397,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173396,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 6750,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    },
+    {
+      "id": 173395,
+      "productId": 62011,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 6675,
+      "checkedAt": "2026-08-27T10:42:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061336",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061336",
+    "capturedAt": "2026-09-02T20:41:57.851Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 6400
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 6645
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 6750
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 6811
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 7170
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 7400
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古DVD・良 盤面に視聴に影響のない小傷がある場合あり。",
+        "price": 7500
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 8380
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 8888
+      },
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 8957
+      },
+      {
+        "storeName": "ブックマーケット別府店",
+        "condition": "中古中古",
+        "price": 10800
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 13150
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 13800
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム(外箱付・未開封品)",
+        "price": 20000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6400
+      }
+    ],
+    "path": "data/other-shops/145061336.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42607,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト 幼なじみはベッドヤクザ! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902054",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902054.jpg",
+    "manufacturer": "脳内彼女",
+    "releaseDate": "2007-11-22",
+    "listPrice": 9680,
+    "modelNumber": "BASE-011",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145902054",
+      "メーカー": "脳内彼女",
+      "発売日": "2007/11/22",
+      "定価": "9,680円",
+      "型番": "BASE-011",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:48.759Z"
+  },
+  "histories": [
+    {
+      "id": 42621,
+      "productId": 42607,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:25.917Z"
+    },
+    {
+      "id": 53933,
+      "productId": 42607,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:36.488Z"
+    },
+    {
+      "id": 65881,
+      "productId": 42607,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:48.759Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902054",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902054",
+    "capturedAt": "2026-08-29T13:03:48.759Z",
+    "items": [],
+    "path": "data/other-shops/145902054.json"
+  }
+}

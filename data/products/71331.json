@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 71331,
+    "title": "WindowsXP/Vista/7/8 DVDソフト MA☆KO HUNTER",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038539",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038539.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038539001",
+      "メーカー": "CLOCKUP",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "声優": "杉原茉莉\n桜水季\n鈴音華月\n榛名れん\n御苑生メイ\n花南\n赤司弓妃\n東かりん\n蒼依ハル",
+      "原画": "睦弦\nむなしむじょう",
+      "シナリオ": "さんきち\n七央結日\n逆神喧云",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145038539?branch_number=0002"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:57.736Z"
+  },
+  "histories": [
+    {
+      "id": 71345,
+      "productId": 71331,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:57.736Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204767,
+      "productId": 71331,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1350,
+      "checkedAt": "2026-09-02T21:36:58.000Z"
+    },
+    {
+      "id": 204766,
+      "productId": 71331,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1701,
+      "checkedAt": "2026-09-02T21:36:58.000Z"
+    },
+    {
+      "id": 204765,
+      "productId": 71331,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-09-02T21:36:58.000Z"
+    },
+    {
+      "id": 204764,
+      "productId": 71331,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1506,
+      "checkedAt": "2026-09-02T21:36:58.000Z"
+    },
+    {
+      "id": 204763,
+      "productId": 71331,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ランクB",
+      "price": 1350,
+      "checkedAt": "2026-09-02T21:36:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038539",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038539",
+    "capturedAt": "2026-09-02T21:36:57.736Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古ランクB",
+        "price": 1350
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1506
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1701
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145038539.json"
+  }
+}

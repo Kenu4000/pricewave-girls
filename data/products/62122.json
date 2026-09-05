@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 62122,
+    "title": "WindowsXP/Vista/7/8 CDソフト 戦刃乙女 -WOTAKUに宿りし心が願うは…-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039282",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039282.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2013-08-09",
+    "listPrice": null,
+    "modelNumber": "DEBO-13004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145039282",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2013/08/09",
+      "型番": "DEBO-13004",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:12.153Z"
+  },
+  "histories": [
+    {
+      "id": 62136,
+      "productId": 62122,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:27.259Z"
+    },
+    {
+      "id": 62801,
+      "productId": 62122,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:27.159Z"
+    },
+    {
+      "id": 64593,
+      "productId": 62122,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:12.153Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039282",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039282",
+    "capturedAt": "2026-08-29T01:13:12.153Z",
+    "items": [],
+    "path": "data/other-shops/145039282.json"
+  }
+}

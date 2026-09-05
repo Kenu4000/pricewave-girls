@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 41196,
+    "title": "Windows DVDソフト LOVELY×CATION[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057771",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057771.jpg",
+    "manufacturer": "暁WORKS-響-",
+    "releaseDate": "2011-06-24",
+    "listPrice": 9680,
+    "modelNumber": "AW-0015",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145057771",
+      "メーカー": "暁WORKS-響-",
+      "発売日": "2011/06/24",
+      "定価": "9,680円",
+      "型番": "AW-0015",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ゲームディスク + 説明書のみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク + 説明書のみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:08.645Z"
+  },
+  "histories": [
+    {
+      "id": 41210,
+      "productId": 41196,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:39.265Z"
+    },
+    {
+      "id": 52916,
+      "productId": 41196,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:00.726Z"
+    },
+    {
+      "id": 63869,
+      "productId": 41196,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:49.412Z"
+    },
+    {
+      "id": 74969,
+      "productId": 41196,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク + 説明書のみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:08.645Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057771",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057771",
+    "capturedAt": "2026-09-04T08:39:08.645Z",
+    "items": [],
+    "path": "data/other-shops/145057771.json"
+  }
+}

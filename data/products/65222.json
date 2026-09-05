@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 65222,
+    "title": "WindowsXP/Vista/7 CDソフト はるまで、くるる。予約特典 オリジナルサウンドトラック + あきおの名探偵",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032434",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032434.jpg",
+    "manufacturer": "すみっこ",
+    "releaseDate": "2012-04-27",
+    "listPrice": null,
+    "modelNumber": "SSHK-1204T",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032434",
+      "メーカー": "すみっこ",
+      "発売日": "2012/04/27",
+      "型番": "SSHK-1204T",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2212,
+    "latestRegularSalePrice": 2212,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T12:55:38.525Z"
+  },
+  "histories": [
+    {
+      "id": 65236,
+      "productId": 65222,
+      "salePrice": 2212,
+      "regularSalePrice": 2212,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T12:55:38.525Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145032434",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032434",
+    "capturedAt": "2026-08-29T12:55:38.525Z",
+    "items": [],
+    "path": "data/other-shops/145032434.json"
+  }
+}

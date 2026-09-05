@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 31244,
+    "title": "WindowsXP/Vista/7 CDソフト 異触の檻 -あんな化け物に犯されるなんて絶対に嫌っ!!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037587",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037587.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2013-07-26",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-086",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145037587001",
+      "メーカー": "Devil-seal",
+      "発売日": "2013/07/26",
+      "定価": "2,200円",
+      "型番": "DEVL-086",
+      "原画": "空維深夜",
+      "シナリオ": "南郷一八",
+      "声優": "奥山歩\n飯野汐里\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 320,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:52.635Z"
+  },
+  "histories": [
+    {
+      "id": 31258,
+      "productId": 31244,
+      "salePrice": 340,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:40.313Z"
+    },
+    {
+      "id": 40002,
+      "productId": 31244,
+      "salePrice": 340,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:46.142Z"
+    },
+    {
+      "id": 71085,
+      "productId": 31244,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:52.635Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 104419,
+      "productId": 31244,
+      "sourceType": "other_shop",
+      "storeName": "シンク書店松前店",
+      "condition": "中古商品状態-良い",
+      "price": 1100,
+      "checkedAt": "2026-08-16T01:25:46.000Z"
+    },
+    {
+      "id": 104418,
+      "productId": 31244,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-16T01:25:46.000Z"
+    },
+    {
+      "id": 78557,
+      "productId": 31244,
+      "sourceType": "other_shop",
+      "storeName": "シンク書店松前店",
+      "condition": "中古商品状態-良い",
+      "price": 1100,
+      "checkedAt": "2026-08-15T23:37:41.000Z"
+    },
+    {
+      "id": 78556,
+      "productId": 31244,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-15T23:37:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

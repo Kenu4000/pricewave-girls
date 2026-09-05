@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 42603,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 七人のオンラインゲーマーズ ～オフライン～ Theアニメ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017026",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017026.jpg",
+    "manufacturer": "G.J？",
+    "releaseDate": "2007-11-22",
+    "listPrice": 6380,
+    "modelNumber": "7ONLINETA",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017026",
+      "メーカー": "G.J？",
+      "発売日": "2007/11/22",
+      "定価": "6,380円",
+      "型番": "7ONLINETA",
+      "原画": "佐野俊英",
+      "アーティスト": "いとうかなこ",
+      "シナリオ": "夏木さん\n呱々\n水栽培マン",
+      "声優": "桜川未央\n蓮香\nかわしまりの\n西田こむぎ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:23.323Z"
+  },
+  "histories": [
+    {
+      "id": 42617,
+      "productId": 42603,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:20.318Z"
+    },
+    {
+      "id": 53932,
+      "productId": 42603,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:36.478Z"
+    },
+    {
+      "id": 73261,
+      "productId": 42603,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:23.323Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 211672,
+      "productId": 42603,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1940,
+      "checkedAt": "2026-09-03T16:03:23.000Z"
+    },
+    {
+      "id": 211671,
+      "productId": 42603,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1101,
+      "checkedAt": "2026-09-03T16:03:23.000Z"
+    },
+    {
+      "id": 144517,
+      "productId": 42603,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1001,
+      "checkedAt": "2026-08-19T16:28:37.000Z"
+    },
+    {
+      "id": 144516,
+      "productId": 42603,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 900,
+      "checkedAt": "2026-08-19T16:28:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017026",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017026",
+    "capturedAt": "2026-09-03T16:03:23.323Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1101
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1940
+      }
+    ],
+    "path": "data/other-shops/145017026.json"
+  }
+}

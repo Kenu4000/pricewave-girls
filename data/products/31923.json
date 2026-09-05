@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 31923,
+    "title": "WindowsMe/2000/XP/Vista/7 DVDソフト 体育教師 極",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031787",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031787.jpg",
+    "manufacturer": "FG",
+    "releaseDate": "2012-01-16",
+    "listPrice": 6050,
+    "modelNumber": "FG004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031787001",
+      "メーカー": "FG",
+      "発売日": "2012/01/16",
+      "定価": "6,050円",
+      "型番": "FG004",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 90080,
+    "latestRegularSalePrice": 90080,
+    "latestBuyPrice": 36000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:50:07.899Z"
+  },
+  "histories": [
+    {
+      "id": 31937,
+      "productId": 31923,
+      "salePrice": 90080,
+      "regularSalePrice": 90080,
+      "buyPrice": 36000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:57.252Z"
+    },
+    {
+      "id": 40666,
+      "productId": 31923,
+      "salePrice": 90080,
+      "regularSalePrice": 90080,
+      "buyPrice": 36000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:41.378Z"
+    },
+    {
+      "id": 71118,
+      "productId": 31923,
+      "salePrice": 90080,
+      "regularSalePrice": 90080,
+      "buyPrice": 36000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:50:07.899Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204095,
+      "productId": 31923,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正パッチCD欠品",
+      "price": 60400,
+      "checkedAt": "2026-09-02T20:50:07.000Z"
+    },
+    {
+      "id": 105682,
+      "productId": 31923,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正パッチCD欠品",
+      "price": 50000,
+      "checkedAt": "2026-08-16T01:32:41.000Z"
+    },
+    {
+      "id": 79842,
+      "productId": 31923,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正パッチCD欠品",
+      "price": 50000,
+      "checkedAt": "2026-08-15T23:45:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

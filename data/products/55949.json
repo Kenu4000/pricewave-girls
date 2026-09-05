@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 55949,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 恋する乙女と守護の楯 リニューアルパッケージ版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036102",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036102.jpg",
+    "manufacturer": "AXL（アクセル）",
+    "releaseDate": "2013-03-29",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036102",
+      "メーカー": "AXL（アクセル）",
+      "発売日": "2013/03/29",
+      "定価": "4,180円",
+      "原画": "瀬之本久史",
+      "シナリオ": "長谷川藍",
+      "声優": "岡崎優\n青山ゆかり\n風音\n北都南\n如月葵\n松田理沙\n茶谷やすら\nこのかなみ\n一色ヒカル\n先割れスプーン",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1490,
+    "latestRegularSalePrice": 1490,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:13:32.489Z"
+  },
+  "histories": [
+    {
+      "id": 55963,
+      "productId": 55949,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:40.195Z"
+    },
+    {
+      "id": 66661,
+      "productId": 55949,
+      "salePrice": 1490,
+      "regularSalePrice": 1490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:26.431Z"
+    },
+    {
+      "id": 77384,
+      "productId": 55949,
+      "salePrice": 1490,
+      "regularSalePrice": 1490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:13:32.489Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036102",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036102",
+    "capturedAt": "2026-09-05T13:13:32.489Z",
+    "items": [],
+    "path": "data/other-shops/145036102.json"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 3000,
+    "title": "Windows98/Me/2000/XP CDソフト サンダークラップス![初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009145",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009145.jpg",
+    "manufacturer": "colors",
+    "releaseDate": "2003-06-27",
+    "listPrice": 9680,
+    "modelNumber": "COL0005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009145",
+      "メーカー": "colors",
+      "発売日": "2003/06/27",
+      "定価": "9,680円",
+      "型番": "COL0005",
+      "原画": "黒木雅弘",
+      "シナリオ": "羽沢向一",
+      "声優": "本山美奈\n北都南\n笠原准\n岬友美\n風華\n乃嶋架菜\n白井綾乃\n野神奈々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:15.815Z"
+  },
+  "histories": [
+    {
+      "id": 3014,
+      "productId": 3000,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 44465,
+      "productId": 3000,
+      "salePrice": 2423,
+      "regularSalePrice": 2423,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:46.867Z"
+    },
+    {
+      "id": 72236,
+      "productId": 3000,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:15.815Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207864,
+      "productId": 3000,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-09-03T01:17:16.000Z"
+    },
+    {
+      "id": 207863,
+      "productId": 3000,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 1502,
+      "checkedAt": "2026-09-03T01:17:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145009145",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009145",
+    "capturedAt": "2026-09-03T01:17:15.815Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 1502
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1700
+      }
+    ],
+    "path": "data/other-shops/145009145.json"
+  }
+}

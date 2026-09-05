@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 71140,
+    "title": "Windows10/11 DVDソフト きまぐれテンプテーション1＆2セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082076",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082076.jpg",
+    "manufacturer": "シルキーズプラス WASABI",
+    "releaseDate": "2024-11-29",
+    "listPrice": 7920,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082076001",
+      "メーカー": "シルキーズプラス WASABI",
+      "発売日": "2024/11/29",
+      "定価": "7,920円",
+      "原画": "きみしま青",
+      "シナリオ": "かずきふみ",
+      "声優": "歩サラ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5400,
+    "latestRegularSalePrice": 5400,
+    "latestBuyPrice": 3200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:27.338Z"
+  },
+  "histories": [
+    {
+      "id": 71154,
+      "productId": 71140,
+      "salePrice": 5400,
+      "regularSalePrice": 5400,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:27.338Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204199,
+      "productId": 71140,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-09-02T21:35:27.000Z"
+    },
+    {
+      "id": 204198,
+      "productId": 71140,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 4880,
+      "checkedAt": "2026-09-02T21:35:27.000Z"
+    },
+    {
+      "id": 204197,
+      "productId": 71140,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 4800,
+      "checkedAt": "2026-09-02T21:35:27.000Z"
+    },
+    {
+      "id": 204196,
+      "productId": 71140,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 4500,
+      "checkedAt": "2026-09-02T21:35:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082076",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082076",
+    "capturedAt": "2026-09-02T21:35:27.338Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 4500
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 4800
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 4880
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5400
+      }
+    ],
+    "path": "data/other-shops/145082076.json"
+  }
+}

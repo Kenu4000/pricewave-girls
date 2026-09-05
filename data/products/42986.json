@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42986,
+    "title": "Windows98/Me/2000/XP DVDソフト おかえしび～すと!! [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015204",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015204.jpg",
+    "manufacturer": "Studio e・go!",
+    "releaseDate": "2006-11-24",
+    "listPrice": 7480,
+    "modelNumber": "RYUSYS-0078",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015204",
+      "メーカー": "Studio e・go!",
+      "発売日": "2006/11/24",
+      "定価": "7,480円",
+      "型番": "RYUSYS-0078",
+      "原画": "山本和枝",
+      "シナリオ": "兄丸\n鳩ハト。",
+      "声優": "渡辺仁\n佐倉江美\n彩世ゆう\n茉莉奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 7480,
+    "latestRegularSalePrice": 7480,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:18.250Z"
+  },
+  "histories": [
+    {
+      "id": 43000,
+      "productId": 42986,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:57.504Z"
+    },
+    {
+      "id": 55092,
+      "productId": 42986,
+      "salePrice": 7480,
+      "regularSalePrice": 7480,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:48.077Z"
+    },
+    {
+      "id": 66181,
+      "productId": 42986,
+      "salePrice": 7480,
+      "regularSalePrice": 7480,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:18.250Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015204",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015204",
+    "capturedAt": "2026-08-29T13:06:18.250Z",
+    "items": [],
+    "path": "data/other-shops/145015204.json"
+  }
+}

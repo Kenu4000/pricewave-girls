@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41026,
+    "title": "WindowsVista/7/8/8.1 DVDソフト なつえっち -めいといなかのなつやすみ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055743",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055743.jpg",
+    "manufacturer": "フェアリーテール",
+    "releaseDate": "2016-09-30",
+    "listPrice": 2200,
+    "modelNumber": "FCSG-010",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145055743",
+      "メーカー": "フェアリーテール",
+      "発売日": "2016/09/30",
+      "定価": "2,200円",
+      "型番": "FCSG-010",
+      "原画": "Pikazo",
+      "シナリオ": "マイケル内藤",
+      "声優": "七瀬あかり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:52.906Z"
+  },
+  "histories": [
+    {
+      "id": 41040,
+      "productId": 41026,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:11.650Z"
+    },
+    {
+      "id": 43861,
+      "productId": 41026,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:40.085Z"
+    },
+    {
+      "id": 72080,
+      "productId": 41026,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:52.906Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055743",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055743",
+    "capturedAt": "2026-09-03T01:15:52.906Z",
+    "items": [],
+    "path": "data/other-shops/145055743.json"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 3178,
+    "title": "Windows98/Me/2000/XP CDソフト はなきゅ～ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145010414",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145010414.jpg",
+    "manufacturer": "MEGAMI",
+    "releaseDate": "2004-04-02",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145010414",
+      "メーカー": "MEGAMI",
+      "発売日": "2004/04/02",
+      "定価": "9,680円",
+      "原画": "葵渚",
+      "シナリオ": "雑音ラジオ",
+      "声優": "このかなみ\n茶谷やすら\n理多\n乃田あす実",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:51:06.493Z"
+  },
+  "histories": [
+    {
+      "id": 3192,
+      "productId": 3178,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 22969,
+      "productId": 3178,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:20.874Z"
+    },
+    {
+      "id": 36980,
+      "productId": 3178,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:48.680Z"
+    },
+    {
+      "id": 47591,
+      "productId": 3178,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:40.278Z"
+    },
+    {
+      "id": 58462,
+      "productId": 3178,
+      "salePrice": 660,
+      "regularSalePrice": 660,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:39:21.813Z"
+    },
+    {
+      "id": 69275,
+      "productId": 3178,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:51:06.493Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 97162,
+      "productId": 3178,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 770,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    },
+    {
+      "id": 97161,
+      "productId": 3178,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-16T00:58:48.000Z"
+    },
+    {
+      "id": 52461,
+      "productId": 3178,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 770,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52460,
+      "productId": 3178,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145010414",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145010414",
+    "capturedAt": "2026-09-02T02:51:06.493Z",
+    "items": [],
+    "path": "data/other-shops/145010414.json"
+  }
+}

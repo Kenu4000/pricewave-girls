@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 31012,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 腐果の濡獄 -蠢く妄執の連鎖……終わりのない饗宴-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039074",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039074.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2014-01-31",
+    "listPrice": 9680,
+    "modelNumber": "TB-055",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145039074001",
+      "メーカー": "TinkerBell",
+      "発売日": "2014/01/31",
+      "定価": "9,680円",
+      "型番": "TB-055",
+      "原画": "あおじる",
+      "シナリオ": "小峰久生",
+      "声優": "麻優莉\n椎那天\n橘まお\n柚凪",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7150,
+    "latestRegularSalePrice": 7150,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:32:05.860Z"
+  },
+  "histories": [
+    {
+      "id": 31026,
+      "productId": 31012,
+      "salePrice": 7150,
+      "regularSalePrice": 7150,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:59.692Z"
+    },
+    {
+      "id": 39775,
+      "productId": 31012,
+      "salePrice": 7150,
+      "regularSalePrice": 7150,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:43.688Z"
+    },
+    {
+      "id": 50894,
+      "productId": 31012,
+      "salePrice": 7150,
+      "regularSalePrice": 7150,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:05.860Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136290,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7150,
+      "checkedAt": "2026-08-19T05:32:06.000Z"
+    },
+    {
+      "id": 136289,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 6980,
+      "checkedAt": "2026-08-19T05:32:06.000Z"
+    },
+    {
+      "id": 136288,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6011,
+      "checkedAt": "2026-08-19T05:32:06.000Z"
+    },
+    {
+      "id": 103989,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7150,
+      "checkedAt": "2026-08-16T01:23:43.000Z"
+    },
+    {
+      "id": 103988,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6011,
+      "checkedAt": "2026-08-16T01:23:43.000Z"
+    },
+    {
+      "id": 78120,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7150,
+      "checkedAt": "2026-08-15T23:25:59.000Z"
+    },
+    {
+      "id": 78119,
+      "productId": 31012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 6011,
+      "checkedAt": "2026-08-15T23:25:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039074",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039074",
+    "capturedAt": "2026-08-19T05:32:05.860Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 6011
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 6980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7150
+      }
+    ],
+    "path": "data/other-shops/145039074.json"
+  }
+}

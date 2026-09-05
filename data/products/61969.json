@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 61969,
+    "title": "Windows8/10 DVDソフト CUBEコレクションボックス 兼清みわエディション [限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071059",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071059.jpg",
+    "manufacturer": "CUBE",
+    "releaseDate": "2021-02-26",
+    "listPrice": 12100,
+    "modelNumber": "CUB-2103",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145071059",
+      "メーカー": "CUBE",
+      "発売日": "2021/02/26",
+      "定価": "12,100円",
+      "型番": "CUB-2103",
+      "原画": "兼清みわ",
+      "シナリオ": "東雲和也\n双葉亮一\n夜村卓\n仲田恵",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9711,
+    "latestRegularSalePrice": 9711,
+    "latestBuyPrice": 6500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:41:54.650Z"
+  },
+  "histories": [
+    {
+      "id": 61983,
+      "productId": 61969,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:19.267Z"
+    },
+    {
+      "id": 62646,
+      "productId": 61969,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:14.944Z"
+    },
+    {
+      "id": 64440,
+      "productId": 61969,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:04.851Z"
+    },
+    {
+      "id": 70006,
+      "productId": 61969,
+      "salePrice": 9711,
+      "regularSalePrice": 9711,
+      "buyPrice": 6500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:41:54.650Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 180909,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-08-29T01:12:05.000Z"
+    },
+    {
+      "id": 180908,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 9011,
+      "checkedAt": "2026-08-29T01:12:05.000Z"
+    },
+    {
+      "id": 175924,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-08-27T16:03:15.000Z"
+    },
+    {
+      "id": 175923,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 9011,
+      "checkedAt": "2026-08-27T16:03:15.000Z"
+    },
+    {
+      "id": 173254,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-08-27T10:42:19.000Z"
+    },
+    {
+      "id": 173253,
+      "productId": 61969,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 9011,
+      "checkedAt": "2026-08-27T10:42:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071059",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071059",
+    "capturedAt": "2026-09-02T20:41:54.650Z",
+    "items": [],
+    "path": "data/other-shops/145071059.json"
+  }
+}

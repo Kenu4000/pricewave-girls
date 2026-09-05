@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 71212,
+    "title": "Windows7/8.1/10 DVDソフト メイドさんのいる暮らし",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063938",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063938.jpg",
+    "manufacturer": "あざらしそふと",
+    "releaseDate": "2019-03-29",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145063938001",
+      "メーカー": "あざらしそふと",
+      "発売日": "2019/03/29",
+      "定価": "3,080円",
+      "原画": "yaman**",
+      "シナリオ": "栗栖",
+      "声優": "飴川紫乃\n海原エレナ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:03.975Z"
+  },
+  "histories": [
+    {
+      "id": 71226,
+      "productId": 71212,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:03.975Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204423,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204422,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1499,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204421,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204420,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204419,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1280,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204418,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    },
+    {
+      "id": 204417,
+      "productId": 71212,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1130,
+      "checkedAt": "2026-09-02T21:36:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063938",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063938",
+    "capturedAt": "2026-09-02T21:36:03.975Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1130
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1280
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1499
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145063938.json"
+  }
+}

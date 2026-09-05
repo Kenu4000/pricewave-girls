@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31172,
+    "title": "WindowsXP/Vista/7 CDソフト 破瓜の連鎖に捕らわれた処女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038495",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038495.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2013-09-27",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-090",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038495",
+      "メーカー": "Devil-seal",
+      "発売日": "2013/09/27",
+      "定価": "2,200円",
+      "型番": "DEVL-090",
+      "原画": "くろうり",
+      "シナリオ": "寺岡健治",
+      "声優": "ヒマリ\n加乃みるく",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "/ディスクのみ/盤面研磨/消毒済み/",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1130,
+    "latestRegularSalePrice": 1130,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": "/ディスクのみ/盤面研磨/消毒済み/",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:51.180Z"
+  },
+  "histories": [
+    {
+      "id": 31186,
+      "productId": 31172,
+      "salePrice": 1130,
+      "regularSalePrice": 1130,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:44.153Z"
+    },
+    {
+      "id": 39931,
+      "productId": 31172,
+      "salePrice": 1130,
+      "regularSalePrice": 1130,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:10.008Z"
+    },
+    {
+      "id": 71081,
+      "productId": 31172,
+      "salePrice": 1130,
+      "regularSalePrice": 1130,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": "/ディスクのみ/盤面研磨/消毒済み/",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:51.180Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038495",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038495",
+    "capturedAt": "2026-09-02T20:49:51.180Z",
+    "items": [],
+    "path": "data/other-shops/145038495.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "product": {
+    "id": 3080,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト らくがきオーバーハート",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019845",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019845.jpg",
+    "manufacturer": "Chien(シアン)",
+    "releaseDate": "2009-05-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019845",
+      "メーカー": "Chien(シアン)",
+      "発売日": "2009/05/01",
+      "定価": "9,680円",
+      "原画": "瑠奈璃亜",
+      "シナリオ": "0-take\nソウヨウ\n神無月如月",
+      "アーティスト": "榊原ゆい",
+      "声優": "本多啓吾\n草柳順子\n風音\n楠鈴音\nこのかなみ\n天野かなで\n遠見はるか",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:18:32.114Z"
+  },
+  "histories": [
+    {
+      "id": 3094,
+      "productId": 3080,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 26628,
+      "productId": 3080,
+      "salePrice": 600,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:23:15.674Z"
+    },
+    {
+      "id": 44649,
+      "productId": 3080,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:25.803Z"
+    },
+    {
+      "id": 72394,
+      "productId": 3080,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:18:32.114Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

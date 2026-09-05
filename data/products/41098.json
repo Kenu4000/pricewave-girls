@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 41098,
+    "title": "WindowsXP/Vista/7 CDソフト 水夏弐律 「飛び出せ報道部 外伝 五月の花嫁」 ドラマCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030359",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030359.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2011-09-30",
+    "listPrice": null,
+    "modelNumber": "SKR-1573",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030359",
+      "メーカー": "CIRCUS",
+      "発売日": "2011/09/30",
+      "型番": "SKR-1573",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 399,
+    "latestRegularSalePrice": 399,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:55.102Z"
+  },
+  "histories": [
+    {
+      "id": 41112,
+      "productId": 41098,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:49.604Z"
+    },
+    {
+      "id": 43868,
+      "productId": 41098,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:43.464Z"
+    },
+    {
+      "id": 72085,
+      "productId": 41098,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:55.102Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030359",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030359",
+    "capturedAt": "2026-09-03T01:15:55.102Z",
+    "items": [],
+    "path": "data/other-shops/145030359.json"
+  }
+}

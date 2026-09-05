@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 7869,
+    "title": "WindowsVista/7/8.1/10 DVDソフト 千の刃濤、桃花染の皇姫 プレミアムパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054605",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054605.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2016-09-23",
+    "listPrice": 15180,
+    "modelNumber": "AUG-1810-4",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054605",
+      "メーカー": "オーガスト",
+      "発売日": "2016/09/23",
+      "定価": "15,180円",
+      "型番": "AUG-1810-4",
+      "原画": "夏野イオ\nべっかんこう",
+      "シナリオ": "安西秀明\n榊原拓\n内田ヒロユキ",
+      "声優": "羽鳥いち\n遥そら\n猫村ゆき\n小鳥居夕花\n波奈束風景\n奏雨\n春野風\n二郷あずさ\n雨音遊",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5280,
+    "latestRegularSalePrice": 5280,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:54.038Z"
+  },
+  "histories": [
+    {
+      "id": 7883,
+      "productId": 7869,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 37343,
+      "productId": 7869,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:00.306Z"
+    },
+    {
+      "id": 47891,
+      "productId": 7869,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:24.454Z"
+    },
+    {
+      "id": 58721,
+      "productId": 7869,
+      "salePrice": 4800,
+      "regularSalePrice": 4800,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:41:36.977Z"
+    },
+    {
+      "id": 69516,
+      "productId": 7869,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:54.038Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127224,
+      "productId": 7869,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5000,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127223,
+      "productId": 7869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 4800,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 98349,
+      "productId": 7869,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5000,
+      "checkedAt": "2026-08-16T01:02:01.000Z"
+    },
+    {
+      "id": 98348,
+      "productId": 7869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 4800,
+      "checkedAt": "2026-08-16T01:02:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054605",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054605",
+    "capturedAt": "2026-09-02T02:52:54.038Z",
+    "items": [],
+    "path": "data/other-shops/145054605.json"
+  }
+}

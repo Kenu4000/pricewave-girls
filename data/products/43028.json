@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 43028,
+    "title": "Windows98/Me/2000/XP DVDソフト エルフィン・ローズ ～囚われの三皇女～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902274",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2006-10-27",
+    "listPrice": 9680,
+    "modelNumber": "BGDV-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145902274",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2006/10/27",
+      "定価": "9,680円",
+      "型番": "BGDV-004",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:08.651Z"
+  },
+  "histories": [
+    {
+      "id": 43042,
+      "productId": 43028,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:17.305Z"
+    },
+    {
+      "id": 44218,
+      "productId": 43028,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:36.399Z"
+    },
+    {
+      "id": 72221,
+      "productId": 43028,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:08.651Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902274",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902274",
+    "capturedAt": "2026-09-03T01:17:08.651Z",
+    "items": [],
+    "path": "data/other-shops/145902274.json"
+  }
+}

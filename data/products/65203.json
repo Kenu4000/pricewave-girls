@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 65203,
+    "title": "Windows10/11 DVDソフト 魔導巧殻-闇の月女神は導国で詠う- [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084665",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084665.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2026-08-28",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145084665",
+      "メーカー": "エウシュリー",
+      "発売日": "2026/08/28",
+      "定価": "5,280円",
+      "原画": "よしだたくま\nやくり\n夜ノみつき\n鳩月つみき",
+      "シナリオ": "飛行候補生\n福山貴紀\n箱十\n平安京",
+      "声優": "鈴音華月\n北見六花\n篠崎双葉\n夏川文香\n冬馬由美\n紫苑みやび\n楠鈴音\n榎津まお\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:52.011Z"
+  },
+  "histories": [
+    {
+      "id": 65217,
+      "productId": 65203,
+      "salePrice": 5280,
+      "regularSalePrice": 5280,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T12:55:28.855Z"
+    },
+    {
+      "id": 75403,
+      "productId": 65203,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:52.011Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219162,
+      "productId": 65203,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 5280,
+      "checkedAt": "2026-09-04T08:43:52.000Z"
+    },
+    {
+      "id": 219161,
+      "productId": 65203,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 5280,
+      "checkedAt": "2026-09-04T08:43:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084665",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084665",
+    "capturedAt": "2026-09-04T08:43:52.011Z",
+    "items": [
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 5280
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 5280
+      }
+    ],
+    "path": "data/other-shops/145084665.json"
+  }
+}

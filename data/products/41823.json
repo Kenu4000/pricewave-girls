@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41823,
+    "title": "Windows98SE/Me/2000/XP CDソフト 俺と妹の校内プレイー妹は誰にも渡さないー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022250",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022250.jpg",
+    "manufacturer": "MAGI",
+    "releaseDate": "2009-11-13",
+    "listPrice": 3300,
+    "modelNumber": "MAGL-002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145022250001",
+      "メーカー": "MAGI",
+      "発売日": "2009/11/13",
+      "定価": "3,300円",
+      "型番": "MAGL-002",
+      "原画": "赤木リオ",
+      "シナリオ": "泉海斗\n池かなた",
+      "声優": "水島理音\n羽高なる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:47.530Z"
+  },
+  "histories": [
+    {
+      "id": 41837,
+      "productId": 41823,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:42.885Z"
+    },
+    {
+      "id": 53368,
+      "productId": 41823,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:47.530Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143398,
+      "productId": 41823,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:23:47.000Z"
+    },
+    {
+      "id": 143397,
+      "productId": 41823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T16:23:47.000Z"
+    },
+    {
+      "id": 143396,
+      "productId": 41823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:23:47.000Z"
+    },
+    {
+      "id": 108365,
+      "productId": 41823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:05:43.000Z"
+    },
+    {
+      "id": 108364,
+      "productId": 41823,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:05:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022250",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022250",
+    "capturedAt": "2026-08-19T16:23:47.530Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145022250.json"
+  }
+}

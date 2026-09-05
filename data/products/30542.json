@@ -1,0 +1,178 @@
+{
+  "product": {
+    "id": 30542,
+    "title": "Windows CDソフト プラマイウォーズ 予約特典シナリオ追加パッチCD 『水無月時野 追加エピソード「正しいお金の使い方」』",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049737",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049737.jpg",
+    "manufacturer": "ASa Project",
+    "releaseDate": "2015-04-24",
+    "listPrice": null,
+    "modelNumber": "47720102",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145049737001",
+      "メーカー": "ASa Project",
+      "発売日": "2015/04/24",
+      "型番": "47720102",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:55.524Z"
+  },
+  "histories": [
+    {
+      "id": 30556,
+      "productId": 30542,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:16.653Z"
+    },
+    {
+      "id": 39331,
+      "productId": 30542,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:45.695Z"
+    },
+    {
+      "id": 43634,
+      "productId": 30542,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:45.364Z"
+    },
+    {
+      "id": 71986,
+      "productId": 30542,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:55.524Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207356,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-03T01:14:55.000Z"
+    },
+    {
+      "id": 207355,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 230,
+      "checkedAt": "2026-09-03T01:14:55.000Z"
+    },
+    {
+      "id": 112885,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T09:33:45.000Z"
+    },
+    {
+      "id": 112884,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 236,
+      "checkedAt": "2026-08-17T09:33:45.000Z"
+    },
+    {
+      "id": 103026,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-16T01:19:45.000Z"
+    },
+    {
+      "id": 103025,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 236,
+      "checkedAt": "2026-08-16T01:19:45.000Z"
+    },
+    {
+      "id": 77095,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-15T23:21:17.000Z"
+    },
+    {
+      "id": 77094,
+      "productId": 30542,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 236,
+      "checkedAt": "2026-08-15T23:21:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049737",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049737",
+    "capturedAt": "2026-09-03T01:14:55.524Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 230
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145049737.json"
+  }
+}

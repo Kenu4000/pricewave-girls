@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 71325,
+    "title": "WindowsXP/Vista/7 DVDソフト 大図書館の羊飼い[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040819",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040819.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2014-01-31",
+    "listPrice": 9680,
+    "modelNumber": "AUG-9003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145040819",
+      "メーカー": "オーガスト",
+      "発売日": "2014/01/31",
+      "定価": "9,680円",
+      "型番": "AUG-9003",
+      "原画": "べっかんこう",
+      "シナリオ": "安西秀明\n榊原拓\n内田ヒロユキ",
+      "声優": "アンダルシア\n三代眞子\n橘桜\n山本希望\n遥そら\n桐谷華\n波奈束風景\n朝倉鈴音\n真宮ゆず",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "&nbsp;箱・ジャケット・ケース不備（中）\"> 中古&nbsp;箱・ジャケット・ケース不備（中） <span class=\"text-price-detail price-buy\">",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2140,
+    "latestRegularSalePrice": 2140,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": "&nbsp;箱・ジャケット・ケース不備（中）\"> 中古&nbsp;箱・ジャケット・ケース不備（中） <span class=\"text-price-detail price-buy\">",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:14:04.336Z"
+  },
+  "histories": [
+    {
+      "id": 71339,
+      "productId": 71325,
+      "salePrice": 2140,
+      "regularSalePrice": 2140,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:57.125Z"
+    },
+    {
+      "id": 77452,
+      "productId": 71325,
+      "salePrice": 2140,
+      "regularSalePrice": 2140,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "&nbsp;箱・ジャケット・ケース不備（中）\"> 中古&nbsp;箱・ジャケット・ケース不備（中） <span class=\"text-price-detail price-buy\">",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:14:04.336Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145040819",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040819",
+    "capturedAt": "2026-09-05T13:14:04.336Z",
+    "items": [],
+    "path": "data/other-shops/145040819.json"
+  }
+}

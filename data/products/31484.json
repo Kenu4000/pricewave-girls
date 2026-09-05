@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 31484,
+    "title": "Windows2000/XP/Vista DVDソフト 虚ノ少女(TECH GIAN 2013年3月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052058",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052058.jpg",
+    "manufacturer": "エンターブレイン",
+    "releaseDate": "2013-01-21",
+    "listPrice": null,
+    "modelNumber": "TECH-G20133",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145052058",
+      "メーカー": "エンターブレイン",
+      "発売日": "2013/01/21",
+      "型番": "TECH-G20133",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:07:57.690Z"
+  },
+  "histories": [
+    {
+      "id": 31498,
+      "productId": 31484,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:30.058Z"
+    },
+    {
+      "id": 40235,
+      "productId": 31484,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:14.174Z"
+    },
+    {
+      "id": 51247,
+      "productId": 31484,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:03.940Z"
+    },
+    {
+      "id": 63264,
+      "productId": 31484,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:08:05.092Z"
+    },
+    {
+      "id": 73857,
+      "productId": 31484,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:07:57.690Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

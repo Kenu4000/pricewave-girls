@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 71197,
+    "title": "Windows8.1/10 DVDソフト ジンキ・リザレクション [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067532",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067532.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2020-03-27",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067532001",
+      "メーカー": "戯画",
+      "発売日": "2020/03/27",
+      "定価": "10,780円",
+      "原画": "綱島志朗",
+      "シナリオ": "和泉万夜\n保田沖次郎",
+      "声優": "中家志穂\n青山ゆかり\n越飛花梨\n八尋まみ\n唯香\n手塚りょうこ\n柏木逢花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9350,
+    "latestRegularSalePrice": 9350,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:56.981Z"
+  },
+  "histories": [
+    {
+      "id": 71211,
+      "productId": 71197,
+      "salePrice": 9350,
+      "regularSalePrice": 9350,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:56.981Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204370,
+      "productId": 71197,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 9350,
+      "checkedAt": "2026-09-02T21:35:57.000Z"
+    },
+    {
+      "id": 204369,
+      "productId": 71197,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 25000,
+      "checkedAt": "2026-09-02T21:35:57.000Z"
+    },
+    {
+      "id": 204368,
+      "productId": 71197,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 8900,
+      "checkedAt": "2026-09-02T21:35:57.000Z"
+    },
+    {
+      "id": 204367,
+      "productId": 71197,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 8812,
+      "checkedAt": "2026-09-02T21:35:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067532",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067532",
+    "capturedAt": "2026-09-02T21:35:56.981Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 8812
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 8900
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 25000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 9350
+      }
+    ],
+    "path": "data/other-shops/145067532.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42205,
+    "title": "Windows2000/XP/Vista CDソフト ねこマタ～くろねこ編～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018825",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018825.jpg",
+    "manufacturer": "すもも",
+    "releaseDate": "2008-11-28",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018825",
+      "メーカー": "すもも",
+      "発売日": "2008/11/28",
+      "定価": "2,750円",
+      "原画": "大泉だいさく",
+      "シナリオ": "PETA",
+      "アーティスト": "encounter+",
+      "声優": "倉田まりや\n御苑生メイ\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:01:45.130Z"
+  },
+  "histories": [
+    {
+      "id": 42219,
+      "productId": 42205,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:21.574Z"
+    },
+    {
+      "id": 53639,
+      "productId": 42205,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:03.463Z"
+    },
+    {
+      "id": 65621,
+      "productId": 42205,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:01:45.130Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018825",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018825",
+    "capturedAt": "2026-08-29T13:01:45.130Z",
+    "items": [],
+    "path": "data/other-shops/145018825.json"
+  }
+}

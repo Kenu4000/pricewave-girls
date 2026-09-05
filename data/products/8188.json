@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 8188,
+    "title": "Windows95 CDソフト LOFTY FORM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000568",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000568.jpg",
+    "manufacturer": "アアル",
+    "releaseDate": "1997-11-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000568",
+      "メーカー": "アアル",
+      "発売日": "1997/11/27",
+      "定価": "9,680円",
+      "キャラクターデザイン": "浅原健児",
+      "原画": "おおのつとむ",
+      "シナリオ": "花田桂一",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1700,
+    "latestRegularSalePrice": 1700,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:06.812Z"
+  },
+  "histories": [
+    {
+      "id": 8202,
+      "productId": 8188,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 23099,
+      "productId": 8188,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:30.543Z"
+    },
+    {
+      "id": 37601,
+      "productId": 8188,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:15.114Z"
+    },
+    {
+      "id": 48104,
+      "productId": 8188,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:21.018Z"
+    },
+    {
+      "id": 58919,
+      "productId": 8188,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:43:19.425Z"
+    },
+    {
+      "id": 70032,
+      "productId": 8188,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:06.812Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145000568",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145000568",
+    "capturedAt": "2026-09-02T20:42:06.812Z",
+    "items": [],
+    "path": "data/other-shops/145000568.json"
+  }
+}

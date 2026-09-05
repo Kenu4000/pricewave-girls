@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 31469,
+    "title": "Windows2000/XP/Vista DVDソフト BEST BUY F＆C With You",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035804",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035804.jpg",
+    "manufacturer": "F＆C",
+    "releaseDate": "2013-01-25",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145035804001",
+      "メーカー": "F＆C",
+      "発売日": "2013/01/25",
+      "定価": "3,300円",
+      "原画": "橋本タカシ",
+      "シナリオ": "草薙こうたろう",
+      "声優": "ギンジ\n鳩野比奈\n美都いずみ\n藤咲かおり\n倖月美和\n水無瀬凌\n冴月まりあ\n長崎みなみ\n近藤夢大",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:58.600Z"
+  },
+  "histories": [
+    {
+      "id": 31483,
+      "productId": 31469,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:15.222Z"
+    },
+    {
+      "id": 40221,
+      "productId": 31469,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:07.910Z"
+    },
+    {
+      "id": 71098,
+      "productId": 31469,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:58.600Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204054,
+      "productId": 31469,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-02T20:49:58.000Z"
+    },
+    {
+      "id": 204053,
+      "productId": 31469,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-02T20:49:58.000Z"
+    },
+    {
+      "id": 104820,
+      "productId": 31469,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-16T01:29:08.000Z"
+    },
+    {
+      "id": 104819,
+      "productId": 31469,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-16T01:29:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035804",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035804",
+    "capturedAt": "2026-09-02T20:49:58.600Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145035804.json"
+  }
+}

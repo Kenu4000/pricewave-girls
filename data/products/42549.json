@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42549,
+    "title": "Windows2000/XP/Vista CDソフト From M[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017415",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017415.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2008-01-25",
+    "listPrice": 6380,
+    "modelNumber": "BR-109",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017415",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2008/01/25",
+      "定価": "6,380円",
+      "型番": "BR-109",
+      "原画": "皇裕介",
+      "シナリオ": "NATORI烏賊",
+      "声優": "亀山助清\n小蝶\n夏野向日葵\n加乃みるく\nこづえ秋乃\n佐々留美子\n岩城由奈\n清水洋",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 811,
+    "latestRegularSalePrice": 811,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:44.995Z"
+  },
+  "histories": [
+    {
+      "id": 42563,
+      "productId": 42549,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:49.230Z"
+    },
+    {
+      "id": 44146,
+      "productId": 42549,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:00.026Z"
+    },
+    {
+      "id": 72186,
+      "productId": 42549,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:44.995Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017415",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017415",
+    "capturedAt": "2026-09-03T01:16:44.995Z",
+    "items": [],
+    "path": "data/other-shops/145017415.json"
+  }
+}

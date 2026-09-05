@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 43126,
+    "title": "Windows98/Me/2000/XP CDソフト くろふぁん 2GHz CLOCKUP FANDISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034687",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034687.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2006-07-28",
+    "listPrice": null,
+    "modelNumber": "SKR-1100-2",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145034687",
+      "メーカー": "CLOCKUP",
+      "発売日": "2006/07/28",
+      "型番": "SKR-1100-2",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:11.450Z"
+  },
+  "histories": [
+    {
+      "id": 43140,
+      "productId": 43126,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:09.268Z"
+    },
+    {
+      "id": 44232,
+      "productId": 43126,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:42.913Z"
+    },
+    {
+      "id": 72226,
+      "productId": 43126,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:11.450Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034687",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034687",
+    "capturedAt": "2026-09-03T01:17:11.450Z",
+    "items": [],
+    "path": "data/other-shops/145034687.json"
+  }
+}

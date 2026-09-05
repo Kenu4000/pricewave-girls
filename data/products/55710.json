@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55710,
+    "title": "Windows10/11 DVDソフト ギャル姉妹-ハーレムタイムが止まらない!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077762",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077762.jpg",
+    "manufacturer": "コンフィチュールソフト",
+    "releaseDate": "2023-06-30",
+    "listPrice": 4180,
+    "modelNumber": "CFTS-003",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077762001",
+      "メーカー": "コンフィチュールソフト",
+      "発売日": "2023/06/30",
+      "定価": "4,180円",
+      "型番": "CFTS-003",
+      "原画": "秋野すばる",
+      "シナリオ": "東人",
+      "声優": "榎本ねむ\n鶴巻ちとせ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:33.728Z"
+  },
+  "histories": [
+    {
+      "id": 55724,
+      "productId": 55710,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:33.728Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150420,
+      "productId": 55710,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-08-21T05:29:33.000Z"
+    },
+    {
+      "id": 150419,
+      "productId": 55710,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-08-21T05:29:33.000Z"
+    },
+    {
+      "id": 150418,
+      "productId": 55710,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1250,
+      "checkedAt": "2026-08-21T05:29:33.000Z"
+    },
+    {
+      "id": 150417,
+      "productId": 55710,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-08-21T05:29:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077762",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077762",
+    "capturedAt": "2026-08-21T05:29:33.728Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1250
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1250
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 7600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145077762.json"
+  }
+}

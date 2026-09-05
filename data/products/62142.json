@@ -1,0 +1,82 @@
+{
+  "product": {
+    "id": 62142,
+    "title": "Windows CDソフト 眠れない夜のタイピングゲーム",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032345",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032345.jpg",
+    "manufacturer": "ハイクオソフト",
+    "releaseDate": "2011-12-28",
+    "listPrice": 1320,
+    "modelNumber": "18684647",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145032345",
+      "メーカー": "ハイクオソフト",
+      "発売日": "2011/12/28",
+      "定価": "1,320円",
+      "型番": "18684647",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:20.268Z"
+  },
+  "histories": [
+    {
+      "id": 62156,
+      "productId": 62142,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:36.214Z"
+    },
+    {
+      "id": 62820,
+      "productId": 62142,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:35.551Z"
+    },
+    {
+      "id": 64613,
+      "productId": 62142,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:20.268Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145032345",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032345",
+    "capturedAt": "2026-08-29T01:13:20.268Z",
+    "items": [],
+    "path": "data/other-shops/145032345.json"
+  }
+}

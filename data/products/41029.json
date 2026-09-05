@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 41029,
+    "title": "WindowsVista/7/8/10 DVDソフト 生命のスペア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054798",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054798.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2016-08-26",
+    "listPrice": 5280,
+    "modelNumber": "AKT-0017",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054798001",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2016/08/26",
+      "定価": "5,280円",
+      "型番": "AKT-0017",
+      "原画": "秋空もみぢ",
+      "シナリオ": "中島大河",
+      "声優": "立花十四朗\n橘まお\n花澤さくら\n手塚りょうこ\n植木亨",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "9700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 9200,
+    "latestRegularSalePrice": 9700,
+    "latestBuyPrice": 5000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-04T08:38:54.470Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:38:52.976Z"
+  },
+  "histories": [
+    {
+      "id": 41043,
+      "productId": 41029,
+      "salePrice": 9800,
+      "regularSalePrice": 9800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:12.341Z"
+    },
+    {
+      "id": 52792,
+      "productId": 41029,
+      "salePrice": 9800,
+      "regularSalePrice": 9800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:46.703Z"
+    },
+    {
+      "id": 63773,
+      "productId": 41029,
+      "salePrice": 11500,
+      "regularSalePrice": 11500,
+      "buyPrice": 6000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:59.389Z"
+    },
+    {
+      "id": 74939,
+      "productId": 41029,
+      "salePrice": 9200,
+      "regularSalePrice": 9700,
+      "buyPrice": 5000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:38:52.976Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 217774,
+      "productId": 41029,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 9200,
+      "checkedAt": "2026-09-04T08:38:54.000Z"
+    },
+    {
+      "id": 217773,
+      "productId": 41029,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 11000,
+      "checkedAt": "2026-09-04T08:38:54.000Z"
+    },
+    {
+      "id": 217772,
+      "productId": 41029,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 9200,
+      "checkedAt": "2026-09-04T08:38:54.000Z"
+    },
+    {
+      "id": 178503,
+      "productId": 41029,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 11500,
+      "checkedAt": "2026-08-27T16:11:59.000Z"
+    },
+    {
+      "id": 178502,
+      "productId": 41029,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 11000,
+      "checkedAt": "2026-08-27T16:11:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054798",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054798",
+    "capturedAt": "2026-09-04T08:38:52.976Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 9200
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 11000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 9200
+      }
+    ],
+    "path": "data/other-shops/145054798.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 42841,
+    "title": "Windows2000/XP DVDソフト きみはぐ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015585",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015585.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2007-03-23",
+    "listPrice": 9680,
+    "modelNumber": "FWS-00035",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015585",
+      "メーカー": "フロントウイング",
+      "発売日": "2007/03/23",
+      "定価": "9,680円",
+      "型番": "FWS-00035",
+      "原画": "INO",
+      "シナリオ": "木村ころや\nヤマグチノボル\n日比生あお\n鳴海瑛二\n屑美たけゆき\n橘ぱん",
+      "声優": "大花どん\n遠野そよぎ\n佐本二厘\n井村屋ほのか\n夏野こおり\nみる\n紫陽花\n青山華\nつばき三十朗\n胸肩腎\n渡辺ヒカル\n如月美琴\n鷹宮涼\n萌里まる子\n後野祭",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:19.629Z"
+  },
+  "histories": [
+    {
+      "id": 42855,
+      "productId": 42841,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:34.237Z"
+    },
+    {
+      "id": 54985,
+      "productId": 42841,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:55.438Z"
+    },
+    {
+      "id": 66081,
+      "productId": 42841,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:27.486Z"
+    },
+    {
+      "id": 75563,
+      "productId": 42841,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:19.629Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015585",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015585",
+    "capturedAt": "2026-09-04T08:45:19.629Z",
+    "items": [],
+    "path": "data/other-shops/145015585.json"
+  }
+}

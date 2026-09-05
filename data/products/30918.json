@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 30918,
+    "title": "WindowsXP/Vista/7 CDソフト 神待ち少女はもう帰れない～言うとおりにしますから、神様もうお家へ帰して……～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042212",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042212.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2014-04-25",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-104",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145042212001",
+      "メーカー": "Devil-seal",
+      "発売日": "2014/04/25",
+      "定価": "2,200円",
+      "型番": "DEVL-104",
+      "原画": "めかぶ味MAX",
+      "シナリオ": "ZEQU",
+      "声優": "ももぞの薫\nサトウユキ\n櫻井ありす",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:45.835Z"
+  },
+  "histories": [
+    {
+      "id": 30932,
+      "productId": 30918,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:06.349Z"
+    },
+    {
+      "id": 39686,
+      "productId": 30918,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:56.354Z"
+    },
+    {
+      "id": 71069,
+      "productId": 30918,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:45.835Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203995,
+      "productId": 30918,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-02T20:49:46.000Z"
+    },
+    {
+      "id": 203994,
+      "productId": 30918,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ南アルプス店",
+      "condition": "中古通常",
+      "price": 1100,
+      "checkedAt": "2026-09-02T20:49:46.000Z"
+    },
+    {
+      "id": 203993,
+      "productId": 30918,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ南アルプス店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-02T20:49:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145042212",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042212",
+    "capturedAt": "2026-09-02T20:49:45.835Z",
+    "items": [
+      {
+        "storeName": "ブックジョイ南アルプス店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "ブックジョイ南アルプス店",
+        "condition": "中古通常",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145042212.json"
+  }
+}

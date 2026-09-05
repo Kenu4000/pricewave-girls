@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 41062,
+    "title": "WindowsXP/Vista/7/8 DVDソフト Magical Charming! [初回限定スターターパック同梱版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036141",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036141.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2013-05-31",
+    "listPrice": 10450,
+    "modelNumber": "LOS-013",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036141",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2013/05/31",
+      "定価": "10,450円",
+      "型番": "LOS-013",
+      "声優": "黒井勇人\n愛理サクラ\n桃山いおん\n遙そら\n夏峰いろは\n小鳥居夕花\n上原あおい",
+      "原画": "梱枝りこ",
+      "シナリオ": "冬茜トム\nしげた\nてつじん\n二葉つばさ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "OS": "-013",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:38:55.141Z"
+  },
+  "histories": [
+    {
+      "id": 41076,
+      "productId": 41062,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:29.903Z"
+    },
+    {
+      "id": 52814,
+      "productId": 41062,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:58.889Z"
+    },
+    {
+      "id": 63787,
+      "productId": 41062,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:06.189Z"
+    },
+    {
+      "id": 74946,
+      "productId": 41062,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:38:55.141Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142259,
+      "productId": 41062,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-19T16:18:59.000Z"
+    },
+    {
+      "id": 142258,
+      "productId": 41062,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-19T16:18:59.000Z"
+    },
+    {
+      "id": 142257,
+      "productId": 41062,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古カードスターターパック欠品",
+      "price": 2000,
+      "checkedAt": "2026-08-19T16:18:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

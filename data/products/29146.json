@@ -1,0 +1,125 @@
+{
+  "product": {
+    "id": 29146,
+    "title": "Windows10/11 DVDソフト 健全!変態隣人のサダメ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081662.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2024-09-27",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145081662",
+      "メーカー": "CLOCKUP",
+      "発売日": "2024/09/27",
+      "定価": "5,280円",
+      "声優": "芦原あけび\n紫苑みやび\n榛名れん\n佐倉もも花\n新堂真弓\n姫川あいり\n柚木サチ\n手塚りょうこ\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:48.729Z"
+  },
+  "histories": [
+    {
+      "id": 29160,
+      "productId": 29146,
+      "salePrice": 1912,
+      "regularSalePrice": 1912,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:51.995Z"
+    },
+    {
+      "id": 44939,
+      "productId": 29146,
+      "salePrice": 1912,
+      "regularSalePrice": 1912,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:44:49.387Z"
+    },
+    {
+      "id": 55580,
+      "productId": 29146,
+      "salePrice": 1912,
+      "regularSalePrice": 1912,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:51:26.598Z"
+    },
+    {
+      "id": 75049,
+      "productId": 29146,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:48.729Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218034,
+      "productId": 29146,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-09-04T08:39:49.000Z"
+    },
+    {
+      "id": 218033,
+      "productId": 29146,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 2400,
+      "checkedAt": "2026-09-04T08:39:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081662",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081662",
+    "capturedAt": "2026-09-04T08:39:48.729Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 2400
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2411
+      }
+    ],
+    "path": "data/other-shops/145081662.json"
+  }
+}

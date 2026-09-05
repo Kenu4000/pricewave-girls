@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 71144,
+    "title": "Windows10/11 DVDソフト ハミダシクリエイティブ＆凸 Wパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082478",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082478.jpg",
+    "manufacturer": "まどそふと",
+    "releaseDate": "2024-12-20",
+    "listPrice": 10780,
+    "modelNumber": "MADO-0010",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082478",
+      "メーカー": "まどそふと",
+      "発売日": "2024/12/20",
+      "定価": "10,780円",
+      "型番": "MADO-0010",
+      "原画": "宇都宮つみれ",
+      "シナリオ": "甲木順之助",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveCondition": "復刻ミニ色紙セット欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145082478?branch_number=1000"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 5200,
+    "stockStatus": "out_of_stock",
+    "condition": "復刻ミニ色紙セット欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:14:03.121Z"
+  },
+  "histories": [
+    {
+      "id": 71158,
+      "productId": 71144,
+      "salePrice": 5600,
+      "regularSalePrice": 5600,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": "復刻ミニ色紙セット欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:27.892Z"
+    },
+    {
+      "id": 77448,
+      "productId": 71144,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 5200,
+      "stockStatus": "out_of_stock",
+      "condition": "復刻ミニ色紙セット欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:14:03.121Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 224670,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 非常に良い",
+      "price": 9255,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 224669,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 8000,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 224668,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 7980,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 204220,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古復刻ミニ色紙セット欠品",
+      "price": 5600,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204219,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 非常に良い",
+      "price": 9255,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204218,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 8000,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204217,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 7980,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204216,
+      "productId": 71144,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古復刻ミニ色紙セット欠品",
+      "price": 5600,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082478",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082478",
+    "capturedAt": "2026-09-05T13:14:03.121Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 7980
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 8000
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 非常に良い",
+        "price": 9255
+      }
+    ],
+    "path": "data/other-shops/145082478.json"
+  }
+}

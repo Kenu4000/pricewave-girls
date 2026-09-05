@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 31100,
+    "title": "Windows DVDソフト そして煌めく乙女と秘密5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045153",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045153.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145045153",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "外箱欠品、説明書欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "外箱欠品、説明書欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:06:40.025Z"
+  },
+  "histories": [
+    {
+      "id": 31114,
+      "productId": 31100,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品、説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:35:57.341Z"
+    },
+    {
+      "id": 39859,
+      "productId": 31100,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品、説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:34.653Z"
+    },
+    {
+      "id": 50959,
+      "productId": 31100,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品、説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:37.290Z"
+    },
+    {
+      "id": 63008,
+      "productId": 31100,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品、説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:04.811Z"
+    },
+    {
+      "id": 73690,
+      "productId": 31100,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品、説明書欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:06:40.025Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045153",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045153",
+    "capturedAt": "2026-09-03T16:06:40.025Z",
+    "items": [],
+    "path": "data/other-shops/145045153.json"
+  }
+}

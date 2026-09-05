@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 41607,
+    "title": "Windows98/2000/XP/Vista DVDソフト あまあね",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023738",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023738.jpg",
+    "manufacturer": "PeasSoft",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145023738",
+      "メーカー": "PeasSoft",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "原画": "羽鳥ぴよこ\nきくらげ\n四条定史\n熊虎たつみ",
+      "シナリオ": "川口トオル\n八延",
+      "声優": "マーガリン天狗\n柚木かなめ\n桜川未央\n青葉りんご\n民安ともえ\n青山ゆかり\n藤森ゆき奈\n遠野そよぎ\n東かりん\nみる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:42.134Z"
+  },
+  "histories": [
+    {
+      "id": 41621,
+      "productId": 41607,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:46.238Z"
+    },
+    {
+      "id": 53211,
+      "productId": 41607,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:30.461Z"
+    },
+    {
+      "id": 64793,
+      "productId": 41607,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:42.134Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143110,
+      "productId": 41607,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-08-19T16:22:30.000Z"
+    },
+    {
+      "id": 143109,
+      "productId": 41607,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T16:22:30.000Z"
+    },
+    {
+      "id": 143108,
+      "productId": 41607,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-08-19T16:22:30.000Z"
+    },
+    {
+      "id": 107951,
+      "productId": 41607,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:03:47.000Z"
+    },
+    {
+      "id": 107950,
+      "productId": 41607,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-08-17T07:03:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023738",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023738",
+    "capturedAt": "2026-08-29T01:14:42.134Z",
+    "items": [],
+    "path": "data/other-shops/145023738.json"
+  }
+}

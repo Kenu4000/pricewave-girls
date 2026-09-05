@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 29815,
+    "title": "Windows CDソフト 真・恋姫†夢想-革命- 蒼天の覇王 ソフマップ特典 原画・設定画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058926",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058926.jpg",
+    "manufacturer": "Baseson",
+    "releaseDate": "2017-07-28",
+    "listPrice": null,
+    "modelNumber": "SMPML-0074",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145058926001",
+      "メーカー": "Baseson",
+      "発売日": "2017/07/28",
+      "型番": "SMPML-0074",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:36.387Z"
+  },
+  "histories": [
+    {
+      "id": 29829,
+      "productId": 29815,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:54.894Z"
+    },
+    {
+      "id": 38637,
+      "productId": 29815,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:33.927Z"
+    },
+    {
+      "id": 43559,
+      "productId": 29815,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:06.027Z"
+    },
+    {
+      "id": 71953,
+      "productId": 29815,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:36.387Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207271,
+      "productId": 29815,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-03T01:14:37.000Z"
+    },
+    {
+      "id": 207270,
+      "productId": 29815,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T01:14:37.000Z"
+    },
+    {
+      "id": 207269,
+      "productId": 29815,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-03T01:14:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058926",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058926",
+    "capturedAt": "2026-09-03T01:14:36.387Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145058926.json"
+  }
+}

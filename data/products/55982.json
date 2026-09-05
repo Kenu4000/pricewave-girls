@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 55982,
+    "title": "WindowsXP/Vista/7 DVDソフト 恋めくりクローバー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031108",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031108.jpg",
+    "manufacturer": "CLIP☆CRAFT",
+    "releaseDate": "2012-03-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031108001",
+      "メーカー": "CLIP☆CRAFT",
+      "発売日": "2012/03/30",
+      "定価": "9,680円",
+      "原画": "天坂隆志",
+      "シナリオ": "加賀ひふみ",
+      "声優": "芹園みや\n有栖川みや美\n香澄りょう\n白雪碧\n桜川未央\n陸奥出流\n柚木かなめ\n上田朱音\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:33.321Z"
+  },
+  "histories": [
+    {
+      "id": 55996,
+      "productId": 55982,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:57.737Z"
+    },
+    {
+      "id": 75128,
+      "productId": 55982,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:33.321Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218289,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-04T08:40:34.000Z"
+    },
+    {
+      "id": 218288,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1630,
+      "checkedAt": "2026-09-04T08:40:34.000Z"
+    },
+    {
+      "id": 218287,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-09-04T08:40:34.000Z"
+    },
+    {
+      "id": 218286,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-04T08:40:34.000Z"
+    },
+    {
+      "id": 151434,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-08-21T05:31:57.000Z"
+    },
+    {
+      "id": 151433,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1420,
+      "checkedAt": "2026-08-21T05:31:57.000Z"
+    },
+    {
+      "id": 151432,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-21T05:31:57.000Z"
+    },
+    {
+      "id": 151431,
+      "productId": 55982,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-21T05:31:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031108",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031108",
+    "capturedAt": "2026-09-04T08:40:33.321Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1630
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145031108.json"
+  }
+}

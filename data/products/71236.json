@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 71236,
+    "title": "Windows7/8/10 CDソフト 妹ぱらだいす!3 -お兄ちゃんと5人の妹のすご-く!エッチしまくりな毎日- 予約キャンペーン特典ハーレムルート メイド服パッチ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060759",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060759.jpg",
+    "manufacturer": "MOONSTONE Cherry",
+    "releaseDate": "2018-01-26",
+    "listPrice": null,
+    "modelNumber": "MOONR-004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145060759001",
+      "メーカー": "MOONSTONE Cherry",
+      "発売日": "2018/01/26",
+      "型番": "MOONR-004",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:15.837Z"
+  },
+  "histories": [
+    {
+      "id": 71250,
+      "productId": 71236,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:15.837Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204483,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    },
+    {
+      "id": 204482,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 525,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    },
+    {
+      "id": 204481,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    },
+    {
+      "id": 204480,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古",
+      "price": 315,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    },
+    {
+      "id": 204479,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    },
+    {
+      "id": 204478,
+      "productId": 71236,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 315,
+      "checkedAt": "2026-09-02T21:36:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060759",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060759",
+    "capturedAt": "2026-09-02T21:36:15.837Z",
+    "items": [
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 315
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古",
+        "price": 315
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 525
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145060759.json"
+  }
+}

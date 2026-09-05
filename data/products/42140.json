@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 42140,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 夏神 -KAGUYAコレクション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019280",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019280.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2009-01-23",
+    "listPrice": 4378,
+    "modelNumber": "KC-0006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019280",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2009/01/23",
+      "定価": "4,378円",
+      "型番": "KC-0006",
+      "原画": "M&M",
+      "シナリオ": "松山怜史\n神無月ニトロ\nうつろあくた\nもみあげルパンR\n泉教\n近江達裕\n速水漣",
+      "声優": "馬並硬太\nみる\nかわしまりの\n水瀬沙季\n飯田空\n香澄りょう\n広野大地\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:17:12.355Z"
+  },
+  "histories": [
+    {
+      "id": 42154,
+      "productId": 42140,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:43.103Z"
+    },
+    {
+      "id": 53591,
+      "productId": 42140,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:40.560Z"
+    },
+    {
+      "id": 65130,
+      "productId": 42140,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:17:12.355Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182522,
+      "productId": 42140,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 2200,
+      "checkedAt": "2026-08-29T01:17:13.000Z"
+    },
+    {
+      "id": 182521,
+      "productId": 42140,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-08-29T01:17:13.000Z"
+    },
+    {
+      "id": 143849,
+      "productId": 42140,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 2200,
+      "checkedAt": "2026-08-19T16:25:40.000Z"
+    },
+    {
+      "id": 143848,
+      "productId": 42140,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-08-19T16:25:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019280",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019280",
+    "capturedAt": "2026-08-29T01:17:12.355Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2200
+      },
+      {
+        "storeName": "東京書店蟹江店",
+        "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+        "price": 2200
+      }
+    ],
+    "path": "data/other-shops/145019280.json"
+  }
+}

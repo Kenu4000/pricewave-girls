@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 42851,
+    "title": "Windows98/Me/2000/XP DVDソフト ラヴァーズ・コレクション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015580",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015580.jpg",
+    "manufacturer": "リボンマジック",
+    "releaseDate": "2007-03-09",
+    "listPrice": 8580,
+    "modelNumber": "RBM-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015580001",
+      "メーカー": "リボンマジック",
+      "発売日": "2007/03/09",
+      "定価": "8,580円",
+      "型番": "RBM-001",
+      "原画": "葦珈のぞむ",
+      "シナリオ": "中峰由佳",
+      "声優": "加乃みるく\n一色ヒカル\n木島宇太\n石川ゆうすけ\n空野太陽\n平井達矢\n舞蹴応援\n竜宮ダイナ\nZEN\n骨折太郎\n七瀬修一郎\n榎津まお\n緒田マリ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 11800,
+    "latestRegularSalePrice": 11800,
+    "latestBuyPrice": 6300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:24.920Z"
+  },
+  "histories": [
+    {
+      "id": 42865,
+      "productId": 42851,
+      "salePrice": 10711,
+      "regularSalePrice": 10711,
+      "buyPrice": 6300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:42.009Z"
+    },
+    {
+      "id": 54993,
+      "productId": 42851,
+      "salePrice": 10711,
+      "regularSalePrice": 10711,
+      "buyPrice": 6300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:59.805Z"
+    },
+    {
+      "id": 66088,
+      "productId": 42851,
+      "salePrice": 11800,
+      "regularSalePrice": 11800,
+      "buyPrice": 6300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:31.359Z"
+    },
+    {
+      "id": 75573,
+      "productId": 42851,
+      "salePrice": 11800,
+      "regularSalePrice": 11800,
+      "buyPrice": 6300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:24.920Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219485,
+      "productId": 42851,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 11800,
+      "checkedAt": "2026-09-04T08:45:25.000Z"
+    },
+    {
+      "id": 219484,
+      "productId": 42851,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 10611,
+      "checkedAt": "2026-09-04T08:45:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015580",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015580",
+    "capturedAt": "2026-09-04T08:45:24.920Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 10611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 11800
+      }
+    ],
+    "path": "data/other-shops/145015580.json"
+  }
+}

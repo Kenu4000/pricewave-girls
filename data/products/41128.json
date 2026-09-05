@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 41128,
+    "title": "WindowsXP/Vista/7 DVDソフト ラブライド・イヴ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028741",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028741.jpg",
+    "manufacturer": "WHITESOFT",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028741",
+      "メーカー": "WHITESOFT",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "原画": "むつみまさと",
+      "シナリオ": "無月さよ",
+      "声優": "安玖深音\n夏野こおり\n九条信乃\n佐藤しずく\n榊原ゆい\n雪都さお梨",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:55.624Z"
+  },
+  "histories": [
+    {
+      "id": 41142,
+      "productId": 41128,
+      "salePrice": 740,
+      "regularSalePrice": 740,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:03.464Z"
+    },
+    {
+      "id": 54859,
+      "productId": 41128,
+      "salePrice": 740,
+      "regularSalePrice": 740,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:44:47.846Z"
+    },
+    {
+      "id": 65974,
+      "productId": 41128,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:35.800Z"
+    },
+    {
+      "id": 75519,
+      "productId": 41128,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:55.624Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219392,
+      "productId": 41128,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 730,
+      "checkedAt": "2026-09-04T08:44:56.000Z"
+    },
+    {
+      "id": 219391,
+      "productId": 41128,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-04T08:44:56.000Z"
+    },
+    {
+      "id": 185227,
+      "productId": 41128,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 740,
+      "checkedAt": "2026-08-29T13:04:36.000Z"
+    },
+    {
+      "id": 185226,
+      "productId": 41128,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 730,
+      "checkedAt": "2026-08-29T13:04:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028741",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028741",
+    "capturedAt": "2026-09-04T08:44:55.624Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 680
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 730
+      }
+    ],
+    "path": "data/other-shops/145028741.json"
+  }
+}

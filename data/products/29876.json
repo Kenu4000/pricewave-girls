@@ -1,0 +1,125 @@
+{
+  "product": {
+    "id": 29876,
+    "title": "Windows CDソフト 麗佳Final -獣悦の記憶- Original Digital Content 麗佳牝牛調教",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058529",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058529.jpg",
+    "manufacturer": "Drei",
+    "releaseDate": "2017-04-28",
+    "listPrice": null,
+    "modelNumber": "DREI-T003",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145058529001",
+      "メーカー": "Drei",
+      "発売日": "2017/04/28",
+      "型番": "DREI-T003",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 10800,
+    "latestRegularSalePrice": 10800,
+    "latestBuyPrice": 5100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:20.475Z"
+  },
+  "histories": [
+    {
+      "id": 29890,
+      "productId": 29876,
+      "salePrice": 13000,
+      "regularSalePrice": 13800,
+      "buyPrice": 5100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:38.451Z"
+    },
+    {
+      "id": 38698,
+      "productId": 29876,
+      "salePrice": 13000,
+      "regularSalePrice": 13800,
+      "buyPrice": 5100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:05.033Z"
+    },
+    {
+      "id": 71015,
+      "productId": 29876,
+      "salePrice": 10800,
+      "regularSalePrice": 10800,
+      "buyPrice": 5100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:20.475Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203896,
+      "productId": 29876,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203895,
+      "productId": 29876,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 12011,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    },
+    {
+      "id": 203894,
+      "productId": 29876,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 10800,
+      "checkedAt": "2026-09-02T20:49:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058529",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058529",
+    "capturedAt": "2026-09-02T20:49:20.475Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 10800
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 12011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 10800
+      }
+    ],
+    "path": "data/other-shops/145058529.json"
+  }
+}

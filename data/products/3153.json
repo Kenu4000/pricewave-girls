@@ -1,0 +1,861 @@
+{
+  "product": {
+    "id": 3153,
+    "title": "Windows95/98 CDソフト 夜勤病棟 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003042.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "1999-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "中古 ：145003042001",
+      "メーカー": "ミンク",
+      "発売日": "1999/12/22",
+      "定価": "9,680円",
+      "原画": "大田和範\nZATOU",
+      "シナリオ": "米倉俵",
+      "声優": "星置薫\n御影由宇\n榊るな\n逢川奈々",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145003042?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:51:01.002Z"
+  },
+  "histories": [
+    {
+      "id": 3167,
+      "productId": 3153,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:07.000Z"
+    },
+    {
+      "id": 36961,
+      "productId": 3153,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:58:38.006Z"
+    },
+    {
+      "id": 47574,
+      "productId": 3153,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:06:30.517Z"
+    },
+    {
+      "id": 58446,
+      "productId": 3153,
+      "salePrice": 1500,
+      "regularSalePrice": 1700,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:39:09.380Z"
+    },
+    {
+      "id": 69263,
+      "productId": 3153,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:51:01.002Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 197847,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1280,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197846,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスク不備",
+      "price": 1020,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197845,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 800,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197844,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 750,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197843,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197842,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197841,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197840,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197839,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1900,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197838,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197837,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197836,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古ランクB",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197835,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古ディスク不備",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197834,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197833,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197832,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197831,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197830,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDキャリングケース・メモパッド欠品",
+      "price": 750,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197829,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（大）",
+      "price": 800,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 197828,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 1020,
+      "checkedAt": "2026-09-02T02:51:01.000Z"
+    },
+    {
+      "id": 161454,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161453,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1150,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161452,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスク不備",
+      "price": 1020,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161451,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 800,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161450,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161449,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161448,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2311,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161447,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161446,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161445,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161444,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1940,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161443,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161442,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ランクB",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161441,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ディスク不備",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161440,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161439,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161438,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161437,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161436,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161435,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（大）",
+      "price": 800,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161434,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 1020,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 161433,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1150,
+      "checkedAt": "2026-08-23T13:39:10.000Z"
+    },
+    {
+      "id": 126224,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2311,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126223,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126222,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126221,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126220,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126219,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1960,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126218,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1500,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126217,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスク不備",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126216,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 940,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126215,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 880,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126214,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 820,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126213,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 820,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126212,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDキャリングケース・メモパッド欠品",
+      "price": 880,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126211,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（大）",
+      "price": 940,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126210,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 1200,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 126209,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1500,
+      "checkedAt": "2026-08-17T16:06:31.000Z"
+    },
+    {
+      "id": 97091,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2311,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97090,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97089,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97088,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97087,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97086,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1970,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97085,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1350,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97084,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスク不備",
+      "price": 1200,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97083,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 940,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97082,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 820,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97081,
+      "productId": 3153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97080,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 820,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97079,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 CDキャリングケース・メモパッド欠品",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97078,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（大）",
+      "price": 940,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97077,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 1200,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    },
+    {
+      "id": 97076,
+      "productId": 3153,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1350,
+      "checkedAt": "2026-08-16T00:58:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145003042",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003042",
+    "capturedAt": "2026-09-02T02:51:01.002Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古CDキャリングケース・メモパッド欠品",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古箱・ジャケット・ケース不備（大）",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古ディスク不備",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古ランクB",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1711
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1900
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古CDキャリングケース・メモパッド欠品",
+        "price": 750
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（大）",
+        "price": 800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスク不備",
+        "price": 1020
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1280
+      }
+    ],
+    "path": "data/other-shops/145003042.json"
+  }
+}

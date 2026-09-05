@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 3447,
+    "title": "Windows98/Me/2000/XP CDソフト きんぎん☆はぁと☆さっきゅばす [限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008632",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008632.jpg",
+    "manufacturer": "MEGAMI",
+    "releaseDate": "2003-03-27",
+    "listPrice": 9680,
+    "modelNumber": "MEGAMI-010",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008632",
+      "メーカー": "MEGAMI",
+      "発売日": "2003/03/27",
+      "定価": "9,680円",
+      "型番": "MEGAMI-010",
+      "原画": "葵渚",
+      "声優": "櫻井薔子\nしまだかおり\n如月ケーコ\n西端由美",
+      "シナリオ": "渡部好範",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:15.488Z"
+  },
+  "histories": [
+    {
+      "id": 3461,
+      "productId": 3447,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37202,
+      "productId": 3447,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:45.320Z"
+    },
+    {
+      "id": 47779,
+      "productId": 3447,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:22.167Z"
+    },
+    {
+      "id": 58630,
+      "productId": 3447,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:40:48.448Z"
+    },
+    {
+      "id": 69430,
+      "productId": 3447,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:15.488Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145008632",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008632",
+    "capturedAt": "2026-09-02T02:52:15.488Z",
+    "items": [],
+    "path": "data/other-shops/145008632.json"
+  }
+}

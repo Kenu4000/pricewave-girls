@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 56034,
+    "title": "Windows2000/XP DVDソフト TECH GIAN BRILLIANT 2007 下半期(DISC A/DISCB)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041252",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041252.jpg",
+    "manufacturer": "エンターブレイン",
+    "releaseDate": "2008-04-02",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145041252",
+      "メーカー": "エンターブレイン",
+      "発売日": "2008/04/02",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:36.342Z"
+  },
+  "histories": [
+    {
+      "id": 56048,
+      "productId": 56034,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:24.457Z"
+    },
+    {
+      "id": 75140,
+      "productId": 56034,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:36.342Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

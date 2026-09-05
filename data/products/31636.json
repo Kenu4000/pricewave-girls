@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31636,
+    "title": "WindowsXP/Vista/7 DVDソフト パパラブ 2軒目 ー私たちみーんな、お父さん大好き!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065054",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065054.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "BGDV-012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145065054",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "BGDV-012",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:38.700Z"
+  },
+  "histories": [
+    {
+      "id": 31650,
+      "productId": 31636,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:15.154Z"
+    },
+    {
+      "id": 40384,
+      "productId": 31636,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:23.961Z"
+    },
+    {
+      "id": 43786,
+      "productId": 31636,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:01.339Z"
+    },
+    {
+      "id": 72050,
+      "productId": 31636,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:38.700Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065054",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065054",
+    "capturedAt": "2026-09-03T01:15:38.700Z",
+    "items": [],
+    "path": "data/other-shops/145065054.json"
+  }
+}

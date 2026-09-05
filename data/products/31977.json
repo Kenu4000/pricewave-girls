@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 31977,
+    "title": "Windows CDソフト 彼女は高天に祈らない デジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031970",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031970.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2011-11-25",
+    "listPrice": null,
+    "modelNumber": "KSQG-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145031970001",
+      "メーカー": "エスクード",
+      "発売日": "2011/11/25",
+      "型番": "KSQG-SMSP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 360,
+    "latestRegularSalePrice": 360,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:50:11.555Z"
+  },
+  "histories": [
+    {
+      "id": 31991,
+      "productId": 31977,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:27.558Z"
+    },
+    {
+      "id": 40722,
+      "productId": 31977,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:09.467Z"
+    },
+    {
+      "id": 71127,
+      "productId": 31977,
+      "salePrice": 360,
+      "regularSalePrice": 360,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:50:11.555Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204133,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-09-02T20:50:11.000Z"
+    },
+    {
+      "id": 204132,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 400,
+      "checkedAt": "2026-09-02T20:50:11.000Z"
+    },
+    {
+      "id": 204131,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-09-02T20:50:11.000Z"
+    },
+    {
+      "id": 105815,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-16T01:33:09.000Z"
+    },
+    {
+      "id": 105814,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 400,
+      "checkedAt": "2026-08-16T01:33:09.000Z"
+    },
+    {
+      "id": 79974,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-08-15T23:46:27.000Z"
+    },
+    {
+      "id": 79973,
+      "productId": 31977,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 400,
+      "checkedAt": "2026-08-15T23:46:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031970",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031970",
+    "capturedAt": "2026-09-02T20:50:11.555Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古",
+        "price": 360
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+        "price": 400
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 360
+      }
+    ],
+    "path": "data/other-shops/145031970.json"
+  }
+}

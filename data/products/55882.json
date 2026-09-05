@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 55882,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ユニオリズム・カルテット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044413",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044413.jpg",
+    "manufacturer": "CLIP☆CRAFT",
+    "releaseDate": "2014-12-26",
+    "listPrice": 9680,
+    "modelNumber": "CCS-261",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044413",
+      "メーカー": "CLIP☆CRAFT",
+      "発売日": "2014/12/26",
+      "定価": "9,680円",
+      "型番": "CCS-261",
+      "声優": "陸奥出流\n橘まお\n白月かなめ\n小日向律\n藤咲ウサ\n成瀬未亜\n香澄りょう\n手塚りょうこ\n秋野花\nひうらまさこ\n楠鈴音\nかわしまりの\n上田朱音\n西岡賢吾\nいちごみるく",
+      "原画": "和真\n天坂隆志",
+      "シナリオ": "sh@i\n新ヰユキヒロ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:15.826Z"
+  },
+  "histories": [
+    {
+      "id": 55896,
+      "productId": 55882,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:03.540Z"
+    },
+    {
+      "id": 75098,
+      "productId": 55882,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:15.826Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151133,
+      "productId": 55882,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-21T05:31:03.000Z"
+    },
+    {
+      "id": 151132,
+      "productId": 55882,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 非常に良い",
+      "price": 1600,
+      "checkedAt": "2026-08-21T05:31:03.000Z"
+    },
+    {
+      "id": 151131,
+      "productId": 55882,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1212,
+      "checkedAt": "2026-08-21T05:31:03.000Z"
+    },
+    {
+      "id": 151130,
+      "productId": 55882,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-21T05:31:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145044413",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044413",
+    "capturedAt": "2026-09-04T08:40:15.826Z",
+    "items": [],
+    "path": "data/other-shops/145044413.json"
+  }
+}

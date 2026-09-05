@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 71279,
+    "title": "WindowsVista/7/8 DVDソフト 鬼父afterパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054099",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054099.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2016-04-28",
+    "listPrice": 3850,
+    "modelNumber": "BGDV-019",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145054099",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2016/04/28",
+      "定価": "3,850円",
+      "型番": "BGDV-019",
+      "原画": "鋼丸",
+      "シナリオ": "照",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2701,
+    "latestRegularSalePrice": 2701,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:34.557Z"
+  },
+  "histories": [
+    {
+      "id": 71293,
+      "productId": 71279,
+      "salePrice": 2701,
+      "regularSalePrice": 2701,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:34.557Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054099",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054099",
+    "capturedAt": "2026-09-02T21:36:34.557Z",
+    "items": [],
+    "path": "data/other-shops/145054099.json"
+  }
+}

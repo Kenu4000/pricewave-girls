@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 29513,
+    "title": "Windows7/8/10 DVDソフト 手垢塗れの復讐",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063188",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063188.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2018-10-26",
+    "listPrice": 3080,
+    "modelNumber": "AKT-0031",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063188",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2018/10/26",
+      "定価": "3,080円",
+      "型番": "AKT-0031",
+      "原画": "奥蓮メロ\nMasaya",
+      "シナリオ": "和泉万夜",
+      "声優": "植木亨\n結城ほのか\n波野夏花\n風花ましろ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:37.384Z"
+  },
+  "histories": [
+    {
+      "id": 29527,
+      "productId": 29513,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:48.081Z"
+    },
+    {
+      "id": 38347,
+      "productId": 29513,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:57.957Z"
+    },
+    {
+      "id": 49478,
+      "productId": 29513,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:18.658Z"
+    },
+    {
+      "id": 60220,
+      "productId": 29513,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:10:30.242Z"
+    },
+    {
+      "id": 70503,
+      "productId": 29513,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:37.384Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202282,
+      "productId": 29513,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-09-02T20:45:38.000Z"
+    },
+    {
+      "id": 202281,
+      "productId": 29513,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-02T20:45:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063188",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063188",
+    "capturedAt": "2026-09-02T20:45:37.384Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 911
+      }
+    ],
+    "path": "data/other-shops/145063188.json"
+  }
+}

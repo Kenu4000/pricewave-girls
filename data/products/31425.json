@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 31425,
+    "title": "WindowsXP/Vista/7 DVDソフト いんぴゅり -ヒトとアナタとアヤカシと-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046072",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046072.jpg",
+    "manufacturer": "Rosebleu（ロゼブル）",
+    "releaseDate": "2013-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145046072",
+      "メーカー": "Rosebleu（ロゼブル）",
+      "発売日": "2013/02/28",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:07:46.860Z"
+  },
+  "histories": [
+    {
+      "id": 31439,
+      "productId": 31425,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:43.604Z"
+    },
+    {
+      "id": 40176,
+      "productId": 31425,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:46.659Z"
+    },
+    {
+      "id": 51202,
+      "productId": 31425,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:41.809Z"
+    },
+    {
+      "id": 63224,
+      "productId": 31425,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:46.860Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046072",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046072",
+    "capturedAt": "2026-08-27T16:07:46.860Z",
+    "items": [],
+    "path": "data/other-shops/145046072.json"
+  }
+}

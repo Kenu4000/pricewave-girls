@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 41329,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 少女のきもちーおんなのこだって、エッチだもん!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026355",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026355.jpg",
+    "manufacturer": "うらら",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026355",
+      "メーカー": "うらら",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "声優": "未空\n黒岩心々\n西中光\n半田せり\n西野みく\n朝倉奏美\n平野響子",
+      "原画": "NOBU",
+      "シナリオ": "じゃんべえ\nはときいん\n真黒乱",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2110,
+    "latestRegularSalePrice": 2110,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:17.230Z"
+  },
+  "histories": [
+    {
+      "id": 41343,
+      "productId": 41329,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:51.854Z"
+    },
+    {
+      "id": 53020,
+      "productId": 41329,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:54.993Z"
+    },
+    {
+      "id": 63961,
+      "productId": 41329,
+      "salePrice": 2110,
+      "regularSalePrice": 2110,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:13:35.822Z"
+    },
+    {
+      "id": 74986,
+      "productId": 41329,
+      "salePrice": 2110,
+      "regularSalePrice": 2110,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:17.230Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142757,
+      "productId": 41329,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:20:55.000Z"
+    },
+    {
+      "id": 142756,
+      "productId": 41329,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 710,
+      "checkedAt": "2026-08-19T16:20:55.000Z"
+    },
+    {
+      "id": 142755,
+      "productId": 41329,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T16:20:55.000Z"
+    },
+    {
+      "id": 107427,
+      "productId": 41329,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:00:52.000Z"
+    },
+    {
+      "id": 107426,
+      "productId": 41329,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 710,
+      "checkedAt": "2026-08-17T07:00:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026355",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026355",
+    "capturedAt": "2026-09-04T08:39:17.230Z",
+    "items": [],
+    "path": "data/other-shops/145026355.json"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31715,
+    "title": "WindowsXP/Vista/7 CDソフト 魔物っ娘ふぁんたじー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033621",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033621.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2012-07-27",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033621",
+      "メーカー": "softhouse-seal",
+      "発売日": "2012/07/27",
+      "定価": "2,200円",
+      "シナリオ": "坂本星日",
+      "原画": "Syroh",
+      "声優": "奥山歩\n加乃みるく\nこのえゆずこ\n片倉ひな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 530,
+    "latestRegularSalePrice": 530,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:09:10.585Z"
+  },
+  "histories": [
+    {
+      "id": 31729,
+      "productId": 31715,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:20.098Z"
+    },
+    {
+      "id": 40463,
+      "productId": 31715,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:58.727Z"
+    },
+    {
+      "id": 51416,
+      "productId": 31715,
+      "salePrice": 530,
+      "regularSalePrice": 530,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:35.844Z"
+    },
+    {
+      "id": 63407,
+      "productId": 31715,
+      "salePrice": 530,
+      "regularSalePrice": 530,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:09:10.585Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033621",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033621",
+    "capturedAt": "2026-08-27T16:09:10.585Z",
+    "items": [],
+    "path": "data/other-shops/145033621.json"
+  }
+}

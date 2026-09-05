@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 55840,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 絶望魔法少女 -堕ちゆく少女の果て-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055265",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055265.jpg",
+    "manufacturer": "HERENCIA",
+    "releaseDate": "2016-09-30",
+    "listPrice": 3080,
+    "modelNumber": "HER006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145055265",
+      "メーカー": "HERENCIA",
+      "発売日": "2016/09/30",
+      "定価": "3,080円",
+      "型番": "HER006",
+      "原画": "七G",
+      "シナリオ": "クイシ\n亮精類",
+      "声優": "槙野凪紗\n櫻レオナ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 811,
+    "latestRegularSalePrice": 811,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:10:05.484Z"
+  },
+  "histories": [
+    {
+      "id": 55854,
+      "productId": 55840,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:40.402Z"
+    },
+    {
+      "id": 66624,
+      "productId": 55840,
+      "salePrice": 811,
+      "regularSalePrice": 811,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:05.484Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055265",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055265",
+    "capturedAt": "2026-08-29T13:10:05.484Z",
+    "items": [],
+    "path": "data/other-shops/145055265.json"
+  }
+}

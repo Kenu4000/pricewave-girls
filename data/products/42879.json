@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42879,
+    "title": "Windows98/Me/2000/XP DVDソフト スガタ [完全版] ～The アニメ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015410",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015410.jpg",
+    "manufacturer": "May-Be SOFT",
+    "releaseDate": "2007-02-09",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015410",
+      "メーカー": "May-Be SOFT",
+      "発売日": "2007/02/09",
+      "定価": "6,380円",
+      "原画": "望月望",
+      "シナリオ": "んじゃが倫也",
+      "声優": "根岸雅\nMilky ゆかり\n山崎美佳\n徳永綾子\n内田千春\n島雪江\n山内智",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1912,
+    "latestRegularSalePrice": 1912,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:43.005Z"
+  },
+  "histories": [
+    {
+      "id": 42893,
+      "productId": 42879,
+      "salePrice": 1612,
+      "regularSalePrice": 1612,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:57.892Z"
+    },
+    {
+      "id": 55018,
+      "productId": 42879,
+      "salePrice": 1612,
+      "regularSalePrice": 1612,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:11.686Z"
+    },
+    {
+      "id": 66112,
+      "productId": 42879,
+      "salePrice": 1912,
+      "regularSalePrice": 1912,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:43.005Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015410",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015410",
+    "capturedAt": "2026-08-29T13:05:43.005Z",
+    "items": [],
+    "path": "data/other-shops/145015410.json"
+  }
+}

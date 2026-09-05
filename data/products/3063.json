@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 3063,
+    "title": "WindowsXP/Vista/7 DVDソフト Royal Duty / Flush!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035490",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035490.jpg",
+    "manufacturer": "Lime",
+    "releaseDate": "2013-02-22",
+    "listPrice": 6270,
+    "modelNumber": "LMSW-0010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035490",
+      "メーカー": "Lime",
+      "発売日": "2013/02/22",
+      "定価": "6,270円",
+      "型番": "LMSW-0010",
+      "原画": "羽純りお",
+      "シナリオ": "藤海琢樹",
+      "声優": "植木亨\n民安ともえ\n南里一花\n小倉結衣\n原田友貴\nゆうひ\n八ッ橋きなこ\n藍川珪",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:50:31.305Z"
+  },
+  "histories": [
+    {
+      "id": 3077,
+      "productId": 3063,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:40:34.000Z"
+    },
+    {
+      "id": 36881,
+      "productId": 3063,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:58.732Z"
+    },
+    {
+      "id": 47505,
+      "productId": 3063,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:48.269Z"
+    },
+    {
+      "id": 58382,
+      "productId": 3063,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:38:37.400Z"
+    },
+    {
+      "id": 69198,
+      "productId": 3063,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:50:31.305Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 197681,
+      "productId": 3063,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-02T02:50:31.000Z"
+    },
+    {
+      "id": 197680,
+      "productId": 3063,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1112,
+      "checkedAt": "2026-09-02T02:50:31.000Z"
+    },
+    {
+      "id": 96905,
+      "productId": 3063,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T00:57:58.000Z"
+    },
+    {
+      "id": 96904,
+      "productId": 3063,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-16T00:57:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035490",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035490",
+    "capturedAt": "2026-09-02T02:50:31.305Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1112
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1300
+      }
+    ],
+    "path": "data/other-shops/145035490.json"
+  }
+}

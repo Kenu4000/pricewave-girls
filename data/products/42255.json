@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42255,
+    "title": "Windows CDソフト とっぱら ～ざしきわらしのはなし～ よーかい萌えもえ!すぺしゃるディスク [Sofmap特典]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019177",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019177.jpg",
+    "manufacturer": "キャラメルBOX いちご味",
+    "releaseDate": "2008-09-26",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145019177",
+      "メーカー": "キャラメルBOX いちご味",
+      "発売日": "2008/09/26",
+      "原画": "アマクラ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:03.926Z"
+  },
+  "histories": [
+    {
+      "id": 42269,
+      "productId": 42255,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:53.044Z"
+    },
+    {
+      "id": 53673,
+      "productId": 42255,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:20.555Z"
+    },
+    {
+      "id": 65653,
+      "productId": 42255,
+      "salePrice": 600,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:00.986Z"
+    },
+    {
+      "id": 75418,
+      "productId": 42255,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:03.926Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

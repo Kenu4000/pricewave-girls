@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 42046,
+    "title": "Windows2000/XP/Vista DVDソフト 死神の接吻は別離の味",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043854",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043854.jpg",
+    "manufacturer": "ALcot シトラス",
+    "releaseDate": "2009-04-24",
+    "listPrice": 7480,
+    "modelNumber": "AC-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145043854",
+      "メーカー": "ALcot シトラス",
+      "発売日": "2009/04/24",
+      "定価": "7,480円",
+      "型番": "AC-001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:12:23.652Z"
+  },
+  "histories": [
+    {
+      "id": 42060,
+      "productId": 42046,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:39.944Z"
+    },
+    {
+      "id": 44055,
+      "productId": 42046,
+      "salePrice": 2222,
+      "regularSalePrice": 2222,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:16.045Z"
+    },
+    {
+      "id": 55385,
+      "productId": 42046,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:49:26.229Z"
+    },
+    {
+      "id": 66455,
+      "productId": 42046,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:08:40.143Z"
+    },
+    {
+      "id": 77236,
+      "productId": 42046,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:12:23.652Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043854",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043854",
+    "capturedAt": "2026-09-05T13:12:23.652Z",
+    "items": [],
+    "path": "data/other-shops/145043854.json"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 43104,
+    "title": "Windows CDソフト 今夜のオカズはレンジdeまりね 初回特典MAXIシングル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035993",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035993.jpg",
+    "manufacturer": "RUNE",
+    "releaseDate": "2006-08-25",
+    "listPrice": null,
+    "modelNumber": "RUNE-020ST",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145035993",
+      "メーカー": "RUNE",
+      "発売日": "2006/08/25",
+      "型番": "RUNE-020ST",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "ディスクのみになります。",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみになります。",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T01:25:49.105Z"
+  },
+  "histories": [
+    {
+      "id": 43118,
+      "productId": 43104,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:56.732Z"
+    },
+    {
+      "id": 55182,
+      "productId": 43104,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:31.390Z"
+    },
+    {
+      "id": 66263,
+      "productId": 43104,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:58.196Z"
+    },
+    {
+      "id": 76850,
+      "productId": 43104,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T01:25:49.105Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035993",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035993",
+    "capturedAt": "2026-09-05T01:25:49.105Z",
+    "items": [],
+    "path": "data/other-shops/145035993.json"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "product": {
+    "id": 42326,
+    "title": "Windows2000/XP/Vista CDソフト Lingeries(ランジェリーズ) 新パッケージ版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018613",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018613.jpg",
+    "manufacturer": "M no VIOLET",
+    "releaseDate": "2008-08-14",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018613",
+      "メーカー": "M no VIOLET",
+      "発売日": "2008/08/14",
+      "定価": "8,580円",
+      "原画": "みうらたけひろ",
+      "シナリオ": "鈴木幸一",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:21.730Z"
+  },
+  "histories": [
+    {
+      "id": 42340,
+      "productId": 42326,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:33.873Z"
+    },
+    {
+      "id": 53728,
+      "productId": 42326,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:49.804Z"
+    },
+    {
+      "id": 65698,
+      "productId": 42326,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:21.730Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

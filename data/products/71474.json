@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 71474,
+    "title": "Windows2000/XP/Vista DVDソフト Dies irae -Also sprach Zarathstra-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016576",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016576.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2007-12-21",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016576001",
+      "メーカー": "light",
+      "発売日": "2007/12/21",
+      "定価": "9,680円",
+      "原画": "Gユウスケ",
+      "シナリオ": "上野健太郎\n正田崇\n奈落ハジメ\n中島聖\n門松和哉\n嘘屋佐々木酒人\n夢野Q作",
+      "声優": "左高蹴\n佐本二厘\n榊原ゆい\n皆美伊吹\nかわしまりの\n木村あやか\nルネッサンス山田\n青島刃\n杉崎和哉\n先割れスプーン\n日椰たぬき\n谷口ケイ\nトム・クノレーズ\n彩世ゆう\n三川春人\n手塚まき",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:38:08.212Z"
+  },
+  "histories": [
+    {
+      "id": 71488,
+      "productId": 71474,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:38:08.212Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 205089,
+      "productId": 71474,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-02T21:38:08.000Z"
+    },
+    {
+      "id": 205088,
+      "productId": 71474,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-02T21:38:08.000Z"
+    },
+    {
+      "id": 205087,
+      "productId": 71474,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-09-02T21:38:08.000Z"
+    },
+    {
+      "id": 205086,
+      "productId": 71474,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 287,
+      "checkedAt": "2026-09-02T21:38:08.000Z"
+    },
+    {
+      "id": 205085,
+      "productId": 71474,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・外箱日焼け有",
+      "price": 280,
+      "checkedAt": "2026-09-02T21:38:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016576",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016576",
+    "capturedAt": "2026-09-02T21:38:08.212Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・外箱日焼け有",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 287
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145016576.json"
+  }
+}

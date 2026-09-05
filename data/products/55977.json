@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55977,
+    "title": "WindowsXP/Vista/7 DVDソフト つぼい君のスイッチ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032982",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032982.jpg",
+    "manufacturer": "筆柿そふと",
+    "releaseDate": "2012-07-27",
+    "listPrice": 9680,
+    "modelNumber": "FUD001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032982001",
+      "メーカー": "筆柿そふと",
+      "発売日": "2012/07/27",
+      "定価": "9,680円",
+      "型番": "FUD001",
+      "原画": "大崎シンヤ",
+      "シナリオ": "NATORI烏賊",
+      "声優": "大波こなみ\n一色ヒカル\n南波奈々子\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:55.261Z"
+  },
+  "histories": [
+    {
+      "id": 55991,
+      "productId": 55977,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:55.261Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151410,
+      "productId": 55977,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-08-21T05:31:55.000Z"
+    },
+    {
+      "id": 151409,
+      "productId": 55977,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2830,
+      "checkedAt": "2026-08-21T05:31:55.000Z"
+    },
+    {
+      "id": 151408,
+      "productId": 55977,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 1734,
+      "checkedAt": "2026-08-21T05:31:55.000Z"
+    },
+    {
+      "id": 151407,
+      "productId": 55977,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-21T05:31:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032982",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032982",
+    "capturedAt": "2026-08-21T05:31:55.261Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 1734
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2830
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145032982.json"
+  }
+}

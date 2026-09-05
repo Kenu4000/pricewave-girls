@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 42722,
+    "title": "Windows2000/XP/Vista DVDソフト 続・殺戮のジャンゴ ～地獄の賞金首～ [皆殺しパック]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050044",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050044.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2007-07-27",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1179",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145050044",
+      "メーカー": "ニトロプラス",
+      "発売日": "2007/07/27",
+      "定価": "9,680円",
+      "型番": "SKR-1179",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:13:35.661Z"
+  },
+  "histories": [
+    {
+      "id": 42736,
+      "productId": 42722,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:26.697Z"
+    },
+    {
+      "id": 56396,
+      "productId": 42722,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T15:52:51.009Z"
+    },
+    {
+      "id": 66672,
+      "productId": 42722,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:33.089Z"
+    },
+    {
+      "id": 77390,
+      "productId": 42722,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:13:35.661Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050044",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050044",
+    "capturedAt": "2026-09-05T13:13:35.661Z",
+    "items": [],
+    "path": "data/other-shops/145050044.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 62024,
+    "title": "WindowsVista/7/8 CDソフト 幼馴染は、隠れドM -変態調教に誘ったらドハマりしちゃった-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059039",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059039.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2017-10-27",
+    "listPrice": 2200,
+    "modelNumber": "APT-097",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145059039001",
+      "メーカー": "アパタイト",
+      "発売日": "2017/10/27",
+      "定価": "2,200円",
+      "型番": "APT-097",
+      "原画": "桜ロマ子",
+      "シナリオ": "岡下誠",
+      "声優": "雨森りこ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1950,
+    "latestRegularSalePrice": 1950,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:28.692Z"
+  },
+  "histories": [
+    {
+      "id": 62038,
+      "productId": 62024,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:43.569Z"
+    },
+    {
+      "id": 62702,
+      "productId": 62024,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:40.840Z"
+    },
+    {
+      "id": 64495,
+      "productId": 62024,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:28.692Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181097,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-08-29T01:12:28.000Z"
+    },
+    {
+      "id": 181096,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-29T01:12:28.000Z"
+    },
+    {
+      "id": 176121,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-08-27T16:03:40.000Z"
+    },
+    {
+      "id": 176120,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-27T16:03:40.000Z"
+    },
+    {
+      "id": 173446,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-08-27T10:42:43.000Z"
+    },
+    {
+      "id": 173445,
+      "productId": 62024,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-27T10:42:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059039",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059039",
+    "capturedAt": "2026-08-29T01:12:28.692Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1950
+      }
+    ],
+    "path": "data/other-shops/145059039.json"
+  }
+}

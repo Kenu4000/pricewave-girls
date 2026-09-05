@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31351,
+    "title": "WindowsXP/Vista/7/8 DVDソフト お嬢様はご機嫌ナナメ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064295",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064295.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2013-05-24",
+    "listPrice": 9680,
+    "modelNumber": "WILL-283",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145064295",
+      "メーカー": "ensemble",
+      "発売日": "2013/05/24",
+      "定価": "9,680円",
+      "型番": "WILL-283",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:55.673Z"
+  },
+  "histories": [
+    {
+      "id": 31365,
+      "productId": 31351,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:49.888Z"
+    },
+    {
+      "id": 40107,
+      "productId": 31351,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:12.555Z"
+    },
+    {
+      "id": 71090,
+      "productId": 31351,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:55.673Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064295",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064295",
+    "capturedAt": "2026-09-02T20:49:55.673Z",
+    "items": [],
+    "path": "data/other-shops/145064295.json"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 31114,
+    "title": "WindowsXP/Vista/7 CDソフト 膣内の異物 -リモコンバイブで強制命令-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039037",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039037.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2013-11-29",
+    "listPrice": 2200,
+    "modelNumber": "DEVL-094",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145039037001",
+      "メーカー": "Devil-seal",
+      "発売日": "2013/11/29",
+      "定価": "2,200円",
+      "型番": "DEVL-094",
+      "原画": "神藤みけこ",
+      "シナリオ": "左右田たかひろ",
+      "声優": "御苑生メイ\n佐倉もも花",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:50.252Z"
+  },
+  "histories": [
+    {
+      "id": 31128,
+      "productId": 31114,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:04.416Z"
+    },
+    {
+      "id": 39872,
+      "productId": 31114,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:24:41.388Z"
+    },
+    {
+      "id": 71077,
+      "productId": 31114,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:50.252Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204018,
+      "productId": 31114,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-02T20:49:50.000Z"
+    },
+    {
+      "id": 204017,
+      "productId": 31114,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-02T20:49:50.000Z"
+    },
+    {
+      "id": 204016,
+      "productId": 31114,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-02T20:49:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039037",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039037",
+    "capturedAt": "2026-09-02T20:49:50.252Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145039037.json"
+  }
+}

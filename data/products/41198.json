@@ -1,0 +1,96 @@
+{
+  "product": {
+    "id": 41198,
+    "title": "Windows CDソフト Navel “鈴平ひろ”Collection vol.2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028705",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028705.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2011-06-24",
+    "listPrice": 3080,
+    "modelNumber": "NVSW-0036",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145028705",
+      "メーカー": "Navel",
+      "発売日": "2011/06/24",
+      "定価": "3,080円",
+      "型番": "NVSW-0036",
+      "原画": "鈴平ひろ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:08.684Z"
+  },
+  "histories": [
+    {
+      "id": 41212,
+      "productId": 41198,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:39.622Z"
+    },
+    {
+      "id": 52918,
+      "productId": 41198,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:02.010Z"
+    },
+    {
+      "id": 63871,
+      "productId": 41198,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:50.595Z"
+    },
+    {
+      "id": 74970,
+      "productId": 41198,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:08.684Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028705",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028705",
+    "capturedAt": "2026-09-04T08:39:08.684Z",
+    "items": [],
+    "path": "data/other-shops/145028705.json"
+  }
+}

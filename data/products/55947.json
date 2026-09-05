@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 55947,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 乙女達の恋物語 ensemble3本+1セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036282",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036282.jpg",
+    "manufacturer": "ensemble",
+    "releaseDate": "2013-04-26",
+    "listPrice": 7480,
+    "modelNumber": "WILL-305",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036282",
+      "メーカー": "ensemble",
+      "発売日": "2013/04/26",
+      "定価": "7,480円",
+      "型番": "WILL-305",
+      "原画": "みこしまつり\n武藤此史\nあんころもち\nigul",
+      "シナリオ": "歌鳥\nじんべい\n籐太\nANTENNA",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:26.654Z"
+  },
+  "histories": [
+    {
+      "id": 55961,
+      "productId": 55947,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:39.699Z"
+    },
+    {
+      "id": 75114,
+      "productId": 55947,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:26.654Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036282",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036282",
+    "capturedAt": "2026-09-04T08:40:26.654Z",
+    "items": [],
+    "path": "data/other-shops/145036282.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 43137,
+    "title": "Windows98/Me/2000/XP DVDソフト ルナそら[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014337",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014337.jpg",
+    "manufacturer": "light",
+    "releaseDate": "2006-07-21",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014337001",
+      "メーカー": "light",
+      "発売日": "2006/07/21",
+      "定価": "9,680円",
+      "原画": "AKINOKO.",
+      "シナリオ": "上野研太郎\n佐野心音",
+      "声優": "松本保典\nまきいづみ\n草柳順子\n愛原ちづる\n韮井叶\nかわしまりの\nポポ龍",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:07:11.419Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:07:10.759Z"
+  },
+  "histories": [
+    {
+      "id": 43151,
+      "productId": 43137,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:12.791Z"
+    },
+    {
+      "id": 55210,
+      "productId": 43137,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:45.228Z"
+    },
+    {
+      "id": 66291,
+      "productId": 43137,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:10.759Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185886,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-29T13:07:11.000Z"
+    },
+    {
+      "id": 185885,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-29T13:07:11.000Z"
+    },
+    {
+      "id": 148862,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-21T04:47:45.000Z"
+    },
+    {
+      "id": 148861,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-21T04:47:45.000Z"
+    },
+    {
+      "id": 111084,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:18:13.000Z"
+    },
+    {
+      "id": 111083,
+      "productId": 43137,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-17T07:18:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014337",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014337",
+    "capturedAt": "2026-08-29T13:07:10.759Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145014337.json"
+  }
+}

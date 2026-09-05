@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 7933,
+    "title": "Windows95/98 CDソフト NANAMI ワンダーランド",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002172.jpg",
+    "manufacturer": "アルシーヴ",
+    "releaseDate": "1999-04-16",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002172",
+      "メーカー": "アルシーヴ",
+      "発売日": "1999/04/16",
+      "定価": "8,580円",
+      "原画": "おかのはじめ",
+      "シナリオ": "斎藤ケンイチ",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:53:16.051Z"
+  },
+  "histories": [
+    {
+      "id": 7947,
+      "productId": 7933,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 23062,
+      "productId": 7933,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:09.893Z"
+    },
+    {
+      "id": 37398,
+      "productId": 7933,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:02:27.968Z"
+    },
+    {
+      "id": 47939,
+      "productId": 7933,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:54.754Z"
+    },
+    {
+      "id": 58770,
+      "productId": 7933,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:42:00.070Z"
+    },
+    {
+      "id": 69565,
+      "productId": 7933,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:53:16.051Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 743,
+      "productId": 7933,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    },
+    {
+      "id": 742,
+      "productId": 7933,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-04T17:01:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002172",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002172",
+    "capturedAt": "2026-09-02T02:53:16.051Z",
+    "items": [],
+    "path": "data/other-shops/145002172.json"
+  }
+}

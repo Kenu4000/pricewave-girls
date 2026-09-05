@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 8334,
+    "title": "Windows95/98/2000 CDソフト Rimlet",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003848",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003848.jpg",
+    "manufacturer": "Tail",
+    "releaseDate": "2000-07-28",
+    "listPrice": 9680,
+    "modelNumber": "DT-A001",
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "中古 ：145003848001",
+      "メーカー": "Tail",
+      "発売日": "2000/07/28",
+      "定価": "9,680円",
+      "型番": "DT-A001",
+      "原画": "秋月亮",
+      "シナリオ": "紺野優希\n四天",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:42:44.911Z"
+  },
+  "histories": [
+    {
+      "id": 8348,
+      "productId": 8334,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37722,
+      "productId": 8334,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:18.518Z"
+    },
+    {
+      "id": 48208,
+      "productId": 8334,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:14.659Z"
+    },
+    {
+      "id": 59016,
+      "productId": 8334,
+      "salePrice": 650,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:44:16.139Z"
+    },
+    {
+      "id": 70120,
+      "productId": 8334,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:42:44.911Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201237,
+      "productId": 8334,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正FD欠品",
+      "price": 410,
+      "checkedAt": "2026-09-02T20:42:45.000Z"
+    },
+    {
+      "id": 163271,
+      "productId": 8334,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正FD欠品",
+      "price": 430,
+      "checkedAt": "2026-08-23T13:44:16.000Z"
+    },
+    {
+      "id": 128079,
+      "productId": 8334,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正FD欠品",
+      "price": 530,
+      "checkedAt": "2026-08-17T16:12:14.000Z"
+    },
+    {
+      "id": 99436,
+      "productId": 8334,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 修正FD欠品",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:05:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

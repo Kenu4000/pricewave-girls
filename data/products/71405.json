@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 71405,
+    "title": "WindowsXP/Vista/7 CDソフト 魔法少女イクシア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026333",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026333.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2011-01-28",
+    "listPrice": 2640,
+    "modelNumber": "SPEL-6190",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026333",
+      "メーカー": "エレクトリップ",
+      "発売日": "2011/01/28",
+      "定価": "2,640円",
+      "型番": "SPEL-6190",
+      "原画": "絶巨主",
+      "シナリオ": "朝凪軽",
+      "声優": "榊木春乃",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:32.244Z"
+  },
+  "histories": [
+    {
+      "id": 71419,
+      "productId": 71405,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:32.244Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026333",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026333",
+    "capturedAt": "2026-09-02T21:37:32.244Z",
+    "items": [],
+    "path": "data/other-shops/145026333.json"
+  }
+}

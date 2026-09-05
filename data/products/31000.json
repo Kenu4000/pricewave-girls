@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 31000,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 痴漢優遇列車 -種付け無限ループ 永遠に止まらない学園都市環状線-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039073",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039073.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2014-02-28",
+    "listPrice": 8580,
+    "modelNumber": "VA-00158D",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145039073",
+      "メーカー": "catwalkNERO",
+      "発売日": "2014/02/28",
+      "定価": "8,580円",
+      "型番": "VA-00158D",
+      "原画": "なかじまこんた\nテンモク\n木ノ碕由貴",
+      "シナリオ": "澪戸小路\n若林浩太郎\n小沢裕樹\n道師すくね",
+      "声優": "手塚りょうこ\nshizuku\n美空なつひ\n桜城ちか\n花野うさぎ\n大野花桜",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスク傷あり",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": "ディスク傷あり",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:51.379Z"
+  },
+  "histories": [
+    {
+      "id": 31014,
+      "productId": 31000,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:53.519Z"
+    },
+    {
+      "id": 70805,
+      "productId": 31000,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": "ディスク傷あり",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:51.379Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145039073",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039073",
+    "capturedAt": "2026-09-02T20:47:51.379Z",
+    "items": [],
+    "path": "data/other-shops/145039073.json"
+  }
+}

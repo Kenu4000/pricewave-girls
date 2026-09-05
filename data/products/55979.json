@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 55979,
+    "title": "WindowsXP/Vista/7 DVDソフト らぶらぼ 予約特典ディスク らぶらぼ7～ちょうきょうちょっときょかきょく～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033423",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033423.jpg",
+    "manufacturer": "bolero",
+    "releaseDate": "2012-06-29",
+    "listPrice": null,
+    "modelNumber": "BOLD-0002",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033423001",
+      "メーカー": "bolero",
+      "発売日": "2012/06/29",
+      "型番": "BOLD-0002",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "400",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 360,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:10:27.572Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:13:31.916Z"
+  },
+  "histories": [
+    {
+      "id": 55993,
+      "productId": 55979,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:55.532Z"
+    },
+    {
+      "id": 66660,
+      "productId": 55979,
+      "salePrice": 430,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:26.651Z"
+    },
+    {
+      "id": 77382,
+      "productId": 55979,
+      "salePrice": 360,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:13:31.916Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

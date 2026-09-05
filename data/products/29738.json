@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 29738,
+    "title": "Windows7/8.1/10 DVDソフト あざやかな彩りの中で、君らしく プレミアムエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059737",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059737.jpg",
+    "manufacturer": "プレカノ",
+    "releaseDate": "2017-11-24",
+    "listPrice": 11528,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059737",
+      "メーカー": "プレカノ",
+      "発売日": "2017/11/24",
+      "定価": "11,528円",
+      "原画": "堀井久美",
+      "シナリオ": "叶希一",
+      "声優": "あじ秋刀魚",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:21:29.517Z"
+  },
+  "histories": [
+    {
+      "id": 29752,
+      "productId": 29738,
+      "salePrice": 3000,
+      "regularSalePrice": 3200,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:08.073Z"
+    },
+    {
+      "id": 38562,
+      "productId": 29738,
+      "salePrice": 3000,
+      "regularSalePrice": 3200,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:56.621Z"
+    },
+    {
+      "id": 49652,
+      "productId": 29738,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:33.723Z"
+    },
+    {
+      "id": 72737,
+      "productId": 29738,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:21:29.517Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

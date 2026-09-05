@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 30352,
+    "title": "Windows CDソフト はにつまHs -アフターウェディング- ソフマップ特典デジタルコンテンツディスク 「録り下ろしドラマ円盤プラス4」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052294",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052294.jpg",
+    "manufacturer": "bootUP!",
+    "releaseDate": "2015-10-30",
+    "listPrice": null,
+    "modelNumber": "BUHS-1510SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145052294001",
+      "メーカー": "bootUP!",
+      "発売日": "2015/10/30",
+      "型番": "BUHS-1510SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:45.910Z"
+  },
+  "histories": [
+    {
+      "id": 30366,
+      "productId": 30352,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:13.713Z"
+    },
+    {
+      "id": 70792,
+      "productId": 30352,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:45.910Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203055,
+      "productId": 30352,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-02T20:47:46.000Z"
+    },
+    {
+      "id": 203054,
+      "productId": 30352,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-02T20:47:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052294",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052294",
+    "capturedAt": "2026-09-02T20:47:45.910Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145052294.json"
+  }
+}

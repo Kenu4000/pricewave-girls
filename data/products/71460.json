@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 71460,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト ペロペロさせて～みみっこメイド発情期～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018600",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018600.jpg",
+    "manufacturer": "TOMATO",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "KSTR-006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018600",
+      "メーカー": "TOMATO",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "KSTR-006",
+      "原画": "ルゴシエラ",
+      "シナリオ": "チーム大吉\nDr.どっぷり\n夜行人間",
+      "声優": "和葉\n千房こまめ\n木下鈴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:38:01.649Z"
+  },
+  "histories": [
+    {
+      "id": 71474,
+      "productId": 71460,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:38:01.649Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018600",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018600",
+    "capturedAt": "2026-09-02T21:38:01.649Z",
+    "items": [],
+    "path": "data/other-shops/145018600.json"
+  }
+}

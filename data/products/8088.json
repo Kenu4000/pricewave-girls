@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 8088,
+    "title": "Windows2000/XP DVDソフト 夜勤病棟 [復刻版+]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015225",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015225.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "2006-12-22",
+    "listPrice": 3666,
+    "modelNumber": "MNK000C00160",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015225",
+      "メーカー": "ミンク",
+      "発売日": "2006/12/22",
+      "定価": "3,666円",
+      "型番": "MNK000C00160",
+      "原画": "ZATOU",
+      "シナリオ": "米倉俵",
+      "声優": "逢川奈々\n御影由宇\n草柳順子\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:53:56.935Z"
+  },
+  "histories": [
+    {
+      "id": 8102,
+      "productId": 8088,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 37539,
+      "productId": 8088,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:46.147Z"
+    },
+    {
+      "id": 48043,
+      "productId": 8088,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:49.700Z"
+    },
+    {
+      "id": 58865,
+      "productId": 8088,
+      "salePrice": 2100,
+      "regularSalePrice": 2350,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:42:51.916Z"
+    },
+    {
+      "id": 69654,
+      "productId": 8088,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:53:56.935Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 199231,
+      "productId": 8088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-09-02T02:53:57.000Z"
+    },
+    {
+      "id": 199230,
+      "productId": 8088,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-09-02T02:53:57.000Z"
+    },
+    {
+      "id": 199229,
+      "productId": 8088,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-09-02T02:53:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015225",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015225",
+    "capturedAt": "2026-09-02T02:53:56.935Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 2211
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145015225.json"
+  }
+}

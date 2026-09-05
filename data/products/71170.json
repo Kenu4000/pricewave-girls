@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 71170,
+    "title": "Windows8.1/10/11 DVDソフト 黒獣 Premium Complete Box",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076353",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076353.jpg",
+    "manufacturer": "Liquid(リキッド)",
+    "releaseDate": "2022-12-23",
+    "listPrice": 26400,
+    "modelNumber": "LIQ041",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145076353001",
+      "メーカー": "Liquid(リキッド)",
+      "発売日": "2022/12/23",
+      "定価": "26,400円",
+      "型番": "LIQ041",
+      "原画": "日陰影次",
+      "シナリオ": "亮精類\n上田ながの\n浅生詠\n和泉万夜\n屋島狸",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveRegularSalePrice": "45800",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 41000,
+    "latestRegularSalePrice": 45800,
+    "latestBuyPrice": 27000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-05T13:14:03.757Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:14:03.579Z"
+  },
+  "histories": [
+    {
+      "id": 71184,
+      "productId": 71170,
+      "salePrice": 45800,
+      "regularSalePrice": 45800,
+      "buyPrice": 27000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:43.466Z"
+    },
+    {
+      "id": 77450,
+      "productId": 71170,
+      "salePrice": 41000,
+      "regularSalePrice": 45800,
+      "buyPrice": 27000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:14:03.579Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 224681,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 41000,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 224680,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+      "price": 43445,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 224679,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古",
+      "price": 41000,
+      "checkedAt": "2026-09-05T13:14:03.000Z"
+    },
+    {
+      "id": 204315,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 45800,
+      "checkedAt": "2026-09-02T21:35:43.000Z"
+    },
+    {
+      "id": 204314,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古",
+      "price": 43455,
+      "checkedAt": "2026-09-02T21:35:43.000Z"
+    },
+    {
+      "id": 204313,
+      "productId": 71170,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+      "price": 43455,
+      "checkedAt": "2026-09-02T21:35:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076353",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076353",
+    "capturedAt": "2026-09-05T13:14:03.579Z",
+    "items": [
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古",
+        "price": 41000
+      },
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+        "price": 43445
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 41000
+      }
+    ],
+    "path": "data/other-shops/145076353.json"
+  }
+}

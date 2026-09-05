@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 62079,
+    "title": "WindowsVista/7/8 DVDソフト フェアリーテイル・レクイエム",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049444",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049444.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2015-07-24",
+    "listPrice": 9680,
+    "modelNumber": "LIAR-002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049444",
+      "メーカー": "ライアーソフト",
+      "発売日": "2015/07/24",
+      "定価": "9,680円",
+      "型番": "LIAR-002",
+      "原画": "大石竜子",
+      "シナリオ": "禾刀郷\n海原望\n高尾登山\n希(まれに)",
+      "声優": "桜城ちか\n萌花ちょこ\n草柳順子\nかわしまりの\n水純なな歩\nあかしゆき",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4311,
+    "latestRegularSalePrice": 4311,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:42:15.810Z"
+  },
+  "histories": [
+    {
+      "id": 62093,
+      "productId": 62079,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:08.667Z"
+    },
+    {
+      "id": 62757,
+      "productId": 62079,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:06.948Z"
+    },
+    {
+      "id": 64550,
+      "productId": 62079,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:52.576Z"
+    },
+    {
+      "id": 75220,
+      "productId": 62079,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:42:15.810Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049444",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049444",
+    "capturedAt": "2026-09-04T08:42:15.810Z",
+    "items": [],
+    "path": "data/other-shops/145049444.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 43054,
+    "title": "Windows DVDソフト NOZOKI魔",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014843",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014843.jpg",
+    "manufacturer": "MAIKA",
+    "releaseDate": "2006-09-29",
+    "listPrice": 9680,
+    "modelNumber": "SKM-857",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014843001",
+      "メーカー": "MAIKA",
+      "発売日": "2006/09/29",
+      "定価": "9,680円",
+      "型番": "SKM-857",
+      "原画": "チャイニー・スゥ\nパパイヤ純",
+      "声優": "碓氷聖子\n金松由花\n柏倉れん\n緒田マリ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "1100",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:06:38.405Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:38.189Z"
+  },
+  "histories": [
+    {
+      "id": 43068,
+      "productId": 43054,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:30.031Z"
+    },
+    {
+      "id": 55135,
+      "productId": 43054,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:09.337Z"
+    },
+    {
+      "id": 66223,
+      "productId": 43054,
+      "salePrice": 1000,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:38.189Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

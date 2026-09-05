@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 8523,
+    "title": "Windows95/98 CDソフト 崩壊",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003823",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003823.jpg",
+    "manufacturer": null,
+    "releaseDate": "2000-07-14",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003823",
+      "発売日": "2000/07/14",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:29.259Z"
+  },
+  "histories": [
+    {
+      "id": 8537,
+      "productId": 8523,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 37884,
+      "productId": 8523,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:40.992Z"
+    },
+    {
+      "id": 43475,
+      "productId": 8523,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:31:10.723Z"
+    },
+    {
+      "id": 71937,
+      "productId": 8523,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:29.259Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145003823",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003823",
+    "capturedAt": "2026-09-03T01:14:29.259Z",
+    "items": [],
+    "path": "data/other-shops/145003823.json"
+  }
+}

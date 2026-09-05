@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 71312,
+    "title": "WindowsXP/Vista/7/8 DVDソフト できない私が、くり返す。[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043565",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043565.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": "AKT-0009",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145043565001",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "型番": "AKT-0009",
+      "原画": "蒼月しのぶ\n秋空もみぢ",
+      "シナリオ": "中島大河",
+      "声優": "柚原みう\n星野七海\n藤乃理香\n花澤さくら\n葵ゆり\n手塚りょうこ\n水野咲希\n水野咲\n楠鈴音\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145043565?branch_number=0014"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2700,
+    "latestRegularSalePrice": 2700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:50.820Z"
+  },
+  "histories": [
+    {
+      "id": 71326,
+      "productId": 71312,
+      "salePrice": 2700,
+      "regularSalePrice": 2700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:50.820Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204715,
+      "productId": 71312,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 2700,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204714,
+      "productId": 71312,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・シークレットシート欠品",
+      "price": 7980,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204713,
+      "productId": 71312,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古サウンドトラックCD欠品",
+      "price": 6780,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204712,
+      "productId": 71312,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古付属メディア欠け",
+      "price": 4901,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204711,
+      "productId": 71312,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古ディスクのみ",
+      "price": 2700,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043565",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043565",
+    "capturedAt": "2026-09-02T21:36:50.820Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古ディスクのみ",
+        "price": 2700
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古付属メディア欠け",
+        "price": 4901
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古サウンドトラックCD欠品",
+        "price": 6780
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・シークレットシート欠品",
+        "price": 7980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 2700
+      }
+    ],
+    "path": "data/other-shops/145043565.json"
+  }
+}

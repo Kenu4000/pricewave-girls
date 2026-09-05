@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 42018,
+    "title": "Windows2000/XP/Vista DVDソフト 真説 猟奇の檻 第2章",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075303",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075303.jpg",
+    "manufacturer": "CALIGULA",
+    "releaseDate": "2009-05-01",
+    "listPrice": 9680,
+    "modelNumber": "CLI-0006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145075303",
+      "メーカー": "CALIGULA",
+      "発売日": "2009/05/01",
+      "定価": "9,680円",
+      "型番": "CLI-0006",
+      "原画": "横田守",
+      "シナリオ": "佐野一馬",
+      "声優": "萌木唯\n五行なずな\n神谷奈央\n海原エレナ\n岩田由貴\n咲良さく\nみる\n深井晴花\nしがけんじ\n土門熱\nみすみ\n丈隆志\n山咲杏",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク+DVDケースのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+DVDケースのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:32.213Z"
+  },
+  "histories": [
+    {
+      "id": 42032,
+      "productId": 42018,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+DVDケースのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:22.833Z"
+    },
+    {
+      "id": 44050,
+      "productId": 42018,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+DVDケースのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:11.483Z"
+    },
+    {
+      "id": 72159,
+      "productId": 42018,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+DVDケースのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:32.213Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145075303",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075303",
+    "capturedAt": "2026-09-03T01:16:32.213Z",
+    "items": [],
+    "path": "data/other-shops/145075303.json"
+  }
+}

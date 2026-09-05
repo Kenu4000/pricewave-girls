@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 42752,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 戦場デ少女ハ心ヲサガス [初回特典版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015866",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015866.jpg",
+    "manufacturer": "サイク",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "CYC-6575",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015866",
+      "メーカー": "サイク",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "CYC-6575",
+      "原画": "吉澤友章\ninkey\n海苔餅太",
+      "シナリオ": "伊藤ヒロ\n坂東真紅郎",
+      "アーティスト": "井月稀世伽",
+      "声優": "小岩井いちご\n榎津まお\n白井綾乃\nまきいづみ\n真鶴七\n山口るな\n不二まどか\n中里圭太\n千羽輪子\n飯田征利",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:04.139Z"
+  },
+  "histories": [
+    {
+      "id": 42766,
+      "productId": 42752,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:44.564Z"
+    },
+    {
+      "id": 54910,
+      "productId": 42752,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:14.926Z"
+    },
+    {
+      "id": 66016,
+      "productId": 42752,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:56.812Z"
+    },
+    {
+      "id": 75534,
+      "productId": 42752,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:04.139Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110327,
+      "productId": 42752,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    },
+    {
+      "id": 110326,
+      "productId": 42752,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:14:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

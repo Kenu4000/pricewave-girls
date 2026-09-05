@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 2572,
+    "title": "Windows95/98 CDソフト MAID in HEAVEN めいどいんへぶん -愛という名の欲望- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001780",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001780.jpg",
+    "manufacturer": "ピル",
+    "releaseDate": "1998-12-18",
+    "listPrice": 9350,
+    "modelNumber": "PIL-0511",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145001780",
+      "メーカー": "ピル",
+      "発売日": "1998/12/18",
+      "定価": "9,350円",
+      "型番": "PIL-0511",
+      "原画": "キリヤマ太一",
+      "シナリオ": "丸谷秀人",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:48:53.953Z"
+  },
+  "histories": [
+    {
+      "id": 2586,
+      "productId": 2572,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7480,
+      "productId": 2572,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    },
+    {
+      "id": 22886,
+      "productId": 2572,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:33.828Z"
+    },
+    {
+      "id": 36564,
+      "productId": 2572,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:04.404Z"
+    },
+    {
+      "id": 47239,
+      "productId": 2572,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:15.186Z"
+    },
+    {
+      "id": 58137,
+      "productId": 2572,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:36:24.077Z"
+    },
+    {
+      "id": 68981,
+      "productId": 2572,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:48:53.953Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52124,
+      "productId": 2572,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    },
+    {
+      "id": 52123,
+      "productId": 2572,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-09T01:36:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145001780",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001780",
+    "capturedAt": "2026-09-02T02:48:53.953Z",
+    "items": [],
+    "path": "data/other-shops/145001780.json"
+  }
+}

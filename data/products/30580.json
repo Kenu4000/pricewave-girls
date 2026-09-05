@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 30580,
+    "title": "Windows CDソフト ぞく・真希ちゃんとなう。ソフマップ特典 追加コンテンツディスク「正月＆バレンタイン編」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049363",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049363.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2015-03-27",
+    "listPrice": null,
+    "modelNumber": "WFMN-1503SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145049363",
+      "メーカー": "WAFFLE",
+      "発売日": "2015/03/27",
+      "型番": "WFMN-1503SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1412,
+    "latestRegularSalePrice": 1412,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:29:19.139Z"
+  },
+  "histories": [
+    {
+      "id": 30594,
+      "productId": 30580,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:41.866Z"
+    },
+    {
+      "id": 39366,
+      "productId": 30580,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:04.180Z"
+    },
+    {
+      "id": 50585,
+      "productId": 30580,
+      "salePrice": 1412,
+      "regularSalePrice": 1412,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:19.139Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049363",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049363",
+    "capturedAt": "2026-08-19T05:29:19.139Z",
+    "items": [],
+    "path": "data/other-shops/145049363.json"
+  }
+}

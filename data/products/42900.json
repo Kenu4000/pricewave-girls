@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42900,
+    "title": "Windows CDソフト COTTON 100% CD5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041152",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041152.jpg",
+    "manufacturer": "コットンソフト",
+    "releaseDate": "2007-01-26",
+    "listPrice": null,
+    "modelNumber": "COTTON-005CD",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041152001",
+      "メーカー": "コットンソフト",
+      "発売日": "2007/01/26",
+      "型番": "COTTON-005CD",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:05:50.101Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:34.924Z"
+  },
+  "histories": [
+    {
+      "id": 42914,
+      "productId": 42900,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:09.526Z"
+    },
+    {
+      "id": 55033,
+      "productId": 42900,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:18.960Z"
+    },
+    {
+      "id": 66125,
+      "productId": 42900,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:49.915Z"
+    },
+    {
+      "id": 75591,
+      "productId": 42900,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:34.924Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

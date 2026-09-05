@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 30667,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 超昂閃忍ハルカ[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047167",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047167.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2014-12-19",
+    "listPrice": 3080,
+    "modelNumber": "ALS-0064A",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145047167",
+      "メーカー": "ALICESOFT",
+      "発売日": "2014/12/19",
+      "定価": "3,080円",
+      "型番": "ALS-0064A",
+      "原画": "桐島千夜\nおにぎりくん\nながの~ん",
+      "シナリオ": "春原陽\nHIRO\nもみあげルパンR",
+      "声優": "小次郎\n風音\n青葉りんご\n一ノ瀬リコ\nかわしまりの\n滝沢アツヤ\n飯田空\nヘルシー太郎\n北都南\n桜川未央\n草柳順子\nみる\n胸肩腎\nルネッサンス山田\n七ヶ瀬輪\n馬並硬太\n後野祭\n荒木幸男",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:12:00.080Z"
+  },
+  "histories": [
+    {
+      "id": 30681,
+      "productId": 30667,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:22:40.175Z"
+    },
+    {
+      "id": 39444,
+      "productId": 30667,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:49.086Z"
+    },
+    {
+      "id": 43637,
+      "productId": 30667,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:47.799Z"
+    },
+    {
+      "id": 55283,
+      "productId": 30667,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:48:29.181Z"
+    },
+    {
+      "id": 66360,
+      "productId": 30667,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:47.961Z"
+    },
+    {
+      "id": 77185,
+      "productId": 30667,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:12:00.080Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 223775,
+      "productId": 30667,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-09-05T13:12:00.000Z"
+    },
+    {
+      "id": 223774,
+      "productId": 30667,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1400,
+      "checkedAt": "2026-09-05T13:12:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145047167",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047167",
+    "capturedAt": "2026-09-05T13:12:00.080Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1611
+      }
+    ],
+    "path": "data/other-shops/145047167.json"
+  }
+}

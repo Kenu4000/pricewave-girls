@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 43107,
+    "title": "Windows CDソフト 和服セット WVセレクション5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014620",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014620.jpg",
+    "manufacturer": "West Vision",
+    "releaseDate": "2006-08-11",
+    "listPrice": 5280,
+    "modelNumber": "TWR-05",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014620001",
+      "メーカー": "West Vision",
+      "発売日": "2006/08/11",
+      "定価": "5,280円",
+      "型番": "TWR-05",
+      "原画": "トシぞー",
+      "シナリオ": "黒崎将弘",
+      "声優": "桜井あいな\nかわせ志乃\n木村あやか\nちとせ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:07:02.849Z"
+  },
+  "histories": [
+    {
+      "id": 43121,
+      "productId": 43107,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:57.827Z"
+    },
+    {
+      "id": 55190,
+      "productId": 43107,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:36.361Z"
+    },
+    {
+      "id": 66274,
+      "productId": 43107,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:02.849Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185865,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-29T13:07:03.000Z"
+    },
+    {
+      "id": 185864,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-29T13:07:03.000Z"
+    },
+    {
+      "id": 148838,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T04:47:36.000Z"
+    },
+    {
+      "id": 148837,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-21T04:47:36.000Z"
+    },
+    {
+      "id": 148836,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T04:47:36.000Z"
+    },
+    {
+      "id": 111039,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:17:58.000Z"
+    },
+    {
+      "id": 111038,
+      "productId": 43107,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-08-17T07:17:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014620",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014620",
+    "capturedAt": "2026-08-29T13:07:02.849Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145014620.json"
+  }
+}

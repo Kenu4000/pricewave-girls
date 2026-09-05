@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 31781,
+    "title": "WindowsXP/Vista/7 DVDソフト 四畳半プリンセス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031740",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031740.jpg",
+    "manufacturer": "ぱらいそ",
+    "releaseDate": "2012-05-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031740",
+      "メーカー": "ぱらいそ",
+      "発売日": "2012/05/25",
+      "定価": "9,680円",
+      "声優": "野神奈々\n夏野こおり\n内村詩織\n井村屋ほのか\n桃井いちご\n涼屋スイ",
+      "原画": "さいとうつかさ",
+      "シナリオ": "土岐光鳳",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:08:56.450Z"
+  },
+  "histories": [
+    {
+      "id": 31795,
+      "productId": 31781,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:09.258Z"
+    },
+    {
+      "id": 40530,
+      "productId": 31781,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:30.231Z"
+    },
+    {
+      "id": 51469,
+      "productId": 31781,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:02.406Z"
+    },
+    {
+      "id": 63452,
+      "productId": 31781,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:09:31.769Z"
+    },
+    {
+      "id": 73985,
+      "productId": 31781,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:08:56.450Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031740",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031740",
+    "capturedAt": "2026-09-03T16:08:56.450Z",
+    "items": [],
+    "path": "data/other-shops/145031740.json"
+  }
+}

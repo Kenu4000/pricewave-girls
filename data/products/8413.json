@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 8413,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 蔵の中はキケンがいっぱい!?",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016239",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016239.jpg",
+    "manufacturer": "FAIRYTALE ETHIX",
+    "releaseDate": "2007-06-29",
+    "listPrice": 7480,
+    "modelNumber": "FCD-700629KUR-DG",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016239",
+      "メーカー": "FAIRYTALE ETHIX",
+      "発売日": "2007/06/29",
+      "定価": "7,480円",
+      "型番": "FCD-700629KUR-DG",
+      "原画": "シルエットさくら",
+      "シナリオ": "teamETHIX",
+      "声優": "鳩マン軍曹\n浅倉四季\n篠原佳音\n井村屋ほのか\n朝田孝\n南雲涼\nモイマン拓也",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "/外箱難有・設定資料集欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3880,
+    "latestRegularSalePrice": 3880,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": "/外箱難有・設定資料集欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:08.094Z"
+  },
+  "histories": [
+    {
+      "id": 8427,
+      "productId": 8413,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 23143,
+      "productId": 8413,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:51.543Z"
+    },
+    {
+      "id": 37790,
+      "productId": 8413,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:54.023Z"
+    },
+    {
+      "id": 70989,
+      "productId": 8413,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": "/外箱難有・設定資料集欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:08.094Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016239",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016239",
+    "capturedAt": "2026-09-02T20:49:08.094Z",
+    "items": [],
+    "path": "data/other-shops/145016239.json"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 41534,
+    "title": "Windows CDソフト 秋空に舞うコンフェティ Kozue DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025215",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025215.jpg",
+    "manufacturer": "etude",
+    "releaseDate": "2010-08-27",
+    "listPrice": null,
+    "modelNumber": "ETU-003S3",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145025215001",
+      "メーカー": "etude",
+      "発売日": "2010/08/27",
+      "型番": "ETU-003S3",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T01:14:20.759Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:20.561Z"
+  },
+  "histories": [
+    {
+      "id": 41548,
+      "productId": 41534,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:53.048Z"
+    },
+    {
+      "id": 53159,
+      "productId": 41534,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:03.909Z"
+    },
+    {
+      "id": 64745,
+      "productId": 41534,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:20.561Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181820,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-29T01:14:20.000Z"
+    },
+    {
+      "id": 181819,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-29T01:14:20.000Z"
+    },
+    {
+      "id": 181818,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-08-29T01:14:20.000Z"
+    },
+    {
+      "id": 142985,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:22:04.000Z"
+    },
+    {
+      "id": 142984,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-19T16:22:04.000Z"
+    },
+    {
+      "id": 107775,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:02:53.000Z"
+    },
+    {
+      "id": 107774,
+      "productId": 41534,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-17T07:02:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025215",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025215",
+    "capturedAt": "2026-08-29T01:14:20.561Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 299
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145025215.json"
+  }
+}

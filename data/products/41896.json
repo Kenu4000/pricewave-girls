@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 41896,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 聖天使ユミエル シャドークルセイド",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021406",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021406.jpg",
+    "manufacturer": "ミルフィーユ",
+    "releaseDate": "2009-09-11",
+    "listPrice": 2619,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021406001",
+      "メーカー": "ミルフィーユ",
+      "発売日": "2009/09/11",
+      "定価": "2,619円",
+      "原画": "本町圭祐",
+      "シナリオ": "黒井弘騎",
+      "声優": "榊木春乃\n水瀬沙季\n氷室百合\n望月まゆ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:01.272Z"
+  },
+  "histories": [
+    {
+      "id": 41910,
+      "productId": 41896,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:18.937Z"
+    },
+    {
+      "id": 53414,
+      "productId": 41896,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:09.700Z"
+    },
+    {
+      "id": 64973,
+      "productId": 41896,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:01.272Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182217,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-29T01:16:01.000Z"
+    },
+    {
+      "id": 182216,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-29T01:16:01.000Z"
+    },
+    {
+      "id": 182215,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-29T01:16:01.000Z"
+    },
+    {
+      "id": 143462,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:24:09.000Z"
+    },
+    {
+      "id": 143461,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:24:09.000Z"
+    },
+    {
+      "id": 143460,
+      "productId": 41896,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:24:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021406",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021406",
+    "capturedAt": "2026-08-29T01:16:01.272Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145021406.json"
+  }
+}

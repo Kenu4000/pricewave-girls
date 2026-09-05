@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 42327,
+    "title": "Windows2000/XP/Vista CDソフト PRISM ARK set 2008 SUMMER",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019779",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019779.jpg",
+    "manufacturer": "ぱじゃまソフト",
+    "releaseDate": "2008-08-13",
+    "listPrice": 5000,
+    "modelNumber": "PPP-0001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019779001",
+      "メーカー": "ぱじゃまソフト",
+      "発売日": "2008/08/13",
+      "定価": "5,000円",
+      "型番": "PPP-0001",
+      "原画": "大野哲也",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:02:24.250Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:24.015Z"
+  },
+  "histories": [
+    {
+      "id": 42341,
+      "productId": 42327,
+      "salePrice": 340,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:33.999Z"
+    },
+    {
+      "id": 53731,
+      "productId": 42327,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:50.160Z"
+    },
+    {
+      "id": 65704,
+      "productId": 42327,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:24.015Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

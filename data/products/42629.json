@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42629,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト ひとりじめ! ～ママも姉妹もお隣さんも～ -Standard Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016670",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016670.jpg",
+    "manufacturer": "ZERO",
+    "releaseDate": "2007-10-26",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016670",
+      "メーカー": "ZERO",
+      "発売日": "2007/10/26",
+      "定価": "3,080円",
+      "声優": "白井うさぎ\nこのかなみ\n伊藤瞳子\n茶谷やすら\n広森なずな",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:26.636Z"
+  },
+  "histories": [
+    {
+      "id": 42643,
+      "productId": 42629,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:38.143Z"
+    },
+    {
+      "id": 53954,
+      "productId": 42629,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:47.776Z"
+    },
+    {
+      "id": 73266,
+      "productId": 42629,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:26.636Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016670",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016670",
+    "capturedAt": "2026-09-03T16:03:26.636Z",
+    "items": [],
+    "path": "data/other-shops/145016670.json"
+  }
+}

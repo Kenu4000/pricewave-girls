@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 30527,
+    "title": "WindowsVista/7/8 DVDソフト 堕姫【普及版】",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049725",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049725.jpg",
+    "manufacturer": "Riddle Soft",
+    "releaseDate": "2015-05-15",
+    "listPrice": 3080,
+    "modelNumber": "RDLS-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145049725001",
+      "メーカー": "Riddle Soft",
+      "発売日": "2015/05/15",
+      "定価": "3,080円",
+      "型番": "RDLS-001",
+      "声優": "青木ふみぞう\n東かりん\n神谷桜子",
+      "原画": "山本和枝",
+      "シナリオ": "兄丸",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:18:58.263Z"
+  },
+  "histories": [
+    {
+      "id": 30541,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:09.387Z"
+    },
+    {
+      "id": 39317,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:38.849Z"
+    },
+    {
+      "id": 50542,
+      "productId": 30527,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:56.954Z"
+    },
+    {
+      "id": 61632,
+      "productId": 30527,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:18:58.263Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 172285,
+      "productId": 30527,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-27T09:18:58.000Z"
+    },
+    {
+      "id": 172284,
+      "productId": 30527,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-27T09:18:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049725",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049725",
+    "capturedAt": "2026-08-27T09:18:58.263Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1600
+      }
+    ],
+    "path": "data/other-shops/145049725.json"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 41718,
+    "title": "Windows2000/XP/Vista DVDソフト サーカス サーカス まじかるぼっくす2009 祭・冬一番[コミケ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023202",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023202.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2010-02-26",
+    "listPrice": 5238,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145023202",
+      "メーカー": "CIRCUS",
+      "発売日": "2010/02/26",
+      "定価": "5,238円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:13:39.410Z"
+  },
+  "histories": [
+    {
+      "id": 41732,
+      "productId": 41718,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:47.191Z"
+    },
+    {
+      "id": 71851,
+      "productId": 41718,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:13:39.410Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023202",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023202",
+    "capturedAt": "2026-09-03T01:13:39.410Z",
+    "items": [],
+    "path": "data/other-shops/145023202.json"
+  }
+}

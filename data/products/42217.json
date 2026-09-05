@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 42217,
+    "title": "Windows2000/XP/Vista DVDソフト VenusBlood -CHIMERA- [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018736",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018736.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2008-10-31",
+    "listPrice": 9680,
+    "modelNumber": "TD-04",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018736",
+      "メーカー": "Dual Tail",
+      "発売日": "2008/10/31",
+      "定価": "9,680円",
+      "型番": "TD-04",
+      "原画": "黒崎寛哉\nトシぞー\n丹下ゲンタ",
+      "シナリオ": "西矢沙広",
+      "声優": "渋谷ひめ\n金松由花\n岩泉まい\n中瀬ひな\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:09:28.861Z"
+  },
+  "histories": [
+    {
+      "id": 42231,
+      "productId": 42217,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:28.861Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018736",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018736",
+    "capturedAt": "2026-08-17T07:09:28.861Z",
+    "items": [],
+    "path": "data/other-shops/145018736.json"
+  }
+}

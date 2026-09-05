@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 41829,
+    "title": "Windows2000/XP/Vista DVDソフト 碧ヶ淵 夜伽の村のお嫁様 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021664",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021664.jpg",
+    "manufacturer": "ネル",
+    "releaseDate": "2009-10-30",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021664001",
+      "メーカー": "ネル",
+      "発売日": "2009/10/30",
+      "定価": "4,180円",
+      "原画": "瑞井鹿央",
+      "シナリオ": "そのだまさき",
+      "声優": "白井綾乃\n草柳順子\n青山ゆかり\n鷹月さくら\n野神奈々",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:43.770Z"
+  },
+  "histories": [
+    {
+      "id": 41843,
+      "productId": 41829,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:44.367Z"
+    },
+    {
+      "id": 53373,
+      "productId": 41829,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:48.972Z"
+    },
+    {
+      "id": 64934,
+      "productId": 41829,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:43.770Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182178,
+      "productId": 41829,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-29T01:15:43.000Z"
+    },
+    {
+      "id": 182177,
+      "productId": 41829,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-08-29T01:15:43.000Z"
+    },
+    {
+      "id": 182176,
+      "productId": 41829,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-29T01:15:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021664",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021664",
+    "capturedAt": "2026-08-29T01:15:43.770Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145021664.json"
+  }
+}

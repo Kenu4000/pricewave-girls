@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 41903,
+    "title": "Windows CDソフト タイムリープぱらだいす 予約特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021790",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021790.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2009-08-28",
+    "listPrice": null,
+    "modelNumber": "47700921",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145021790",
+      "メーカー": "フロントウイング",
+      "発売日": "2009/08/28",
+      "型番": "47700921",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 399,
+    "latestRegularSalePrice": 399,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:09.439Z"
+  },
+  "histories": [
+    {
+      "id": 41917,
+      "productId": 41903,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:23.466Z"
+    },
+    {
+      "id": 53421,
+      "productId": 41903,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:13.392Z"
+    },
+    {
+      "id": 64980,
+      "productId": 41903,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:04.386Z"
+    },
+    {
+      "id": 75320,
+      "productId": 41903,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:09.439Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143473,
+      "productId": 41903,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-19T16:24:13.000Z"
+    },
+    {
+      "id": 143472,
+      "productId": 41903,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 249,
+      "checkedAt": "2026-08-19T16:24:13.000Z"
+    },
+    {
+      "id": 108519,
+      "productId": 41903,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-08-17T07:06:23.000Z"
+    },
+    {
+      "id": 108518,
+      "productId": 41903,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 249,
+      "checkedAt": "2026-08-17T07:06:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021790",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021790",
+    "capturedAt": "2026-09-04T08:43:09.439Z",
+    "items": [],
+    "path": "data/other-shops/145021790.json"
+  }
+}

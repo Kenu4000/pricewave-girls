@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62085,
+    "title": "WindowsVista/7/8 DVDソフト Re;Lord 第二章 -ケルンの魔女と黒猫-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048667",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048667.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2015-05-29",
+    "listPrice": 4950,
+    "modelNumber": "ECM-002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048667",
+      "メーカー": "エスクード",
+      "発売日": "2015/05/29",
+      "定価": "4,950円",
+      "型番": "ECM-002",
+      "原画": "はなたかれとも\n水鼠",
+      "シナリオ": "西村悠一",
+      "声優": "杉原茉莉\n藤森ゆき奈\n榛名れん",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 911,
+    "latestRegularSalePrice": 911,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:55.540Z"
+  },
+  "histories": [
+    {
+      "id": 62099,
+      "productId": 62085,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:10.946Z"
+    },
+    {
+      "id": 62762,
+      "productId": 62085,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:09.455Z"
+    },
+    {
+      "id": 64557,
+      "productId": 62085,
+      "salePrice": 911,
+      "regularSalePrice": 911,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:55.540Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048667",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048667",
+    "capturedAt": "2026-08-29T01:12:55.540Z",
+    "items": [],
+    "path": "data/other-shops/145048667.json"
+  }
+}

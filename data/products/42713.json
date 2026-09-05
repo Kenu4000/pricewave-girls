@@ -1,0 +1,148 @@
+{
+  "product": {
+    "id": 42713,
+    "title": "Windows98SE/Me/2000/XP CDソフト 禁断淫触パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016391",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016391.jpg",
+    "manufacturer": "FINISH!",
+    "releaseDate": "2007-07-27",
+    "listPrice": 6380,
+    "modelNumber": "FNSS-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016391001",
+      "メーカー": "FINISH!",
+      "発売日": "2007/07/27",
+      "定価": "6,380円",
+      "型番": "FNSS-005",
+      "原画": "甲斐",
+      "シナリオ": "おくとぱす\nたかのみはる\nassault\n東人",
+      "声優": "寧々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:01.548Z"
+  },
+  "histories": [
+    {
+      "id": 42727,
+      "productId": 42713,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:20.582Z"
+    },
+    {
+      "id": 71891,
+      "productId": 42713,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:01.548Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207054,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-03T01:14:03.000Z"
+    },
+    {
+      "id": 207053,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1500,
+      "checkedAt": "2026-09-03T01:14:03.000Z"
+    },
+    {
+      "id": 207052,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T01:14:03.000Z"
+    },
+    {
+      "id": 207051,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-03T01:14:03.000Z"
+    },
+    {
+      "id": 110239,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:14:20.000Z"
+    },
+    {
+      "id": 110238,
+      "productId": 42713,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-17T07:14:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016391",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016391",
+    "capturedAt": "2026-09-03T01:14:01.548Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145016391.json"
+  }
+}

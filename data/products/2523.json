@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 2523,
+    "title": "Windows98/Me/2000/XP CDソフト VIPER-M3-3.2 [初回特典版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145008240",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145008240.jpg",
+    "manufacturer": "ソニア",
+    "releaseDate": "2002-12-20",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145008240",
+      "メーカー": "ソニア",
+      "発売日": "2002/12/20",
+      "定価": "10,780円",
+      "原画": "江端里沙",
+      "声優": "逢川奈々\n紫苑みやび\n伊藤瞳子",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:31.062Z"
+  },
+  "histories": [
+    {
+      "id": 2537,
+      "productId": 2523,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:07:33.000Z"
+    },
+    {
+      "id": 7430,
+      "productId": 2523,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:19.000Z"
+    },
+    {
+      "id": 36522,
+      "productId": 2523,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:54:37.262Z"
+    },
+    {
+      "id": 46888,
+      "productId": 2523,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:43:18.572Z"
+    },
+    {
+      "id": 58100,
+      "productId": 2523,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:36:00.822Z"
+    },
+    {
+      "id": 75362,
+      "productId": 2523,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:31.062Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145008240",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145008240",
+    "capturedAt": "2026-09-04T08:43:31.062Z",
+    "items": [],
+    "path": "data/other-shops/145008240.json"
+  }
+}

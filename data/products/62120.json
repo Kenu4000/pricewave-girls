@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 62120,
+    "title": "WindowsXP/Vista/7 DVDソフト ガールズ be アンビシャス!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037028",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037028.jpg",
+    "manufacturer": "SCORE",
+    "releaseDate": "2013-08-30",
+    "listPrice": 9680,
+    "modelNumber": "SCR014",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145037028",
+      "メーカー": "SCORE",
+      "発売日": "2013/08/30",
+      "定価": "9,680円",
+      "型番": "SCR014",
+      "声優": "おにぎり山次郎\n海乃奏多\n柚木サチ\n倉田まりや\n民安ともえ\n椎名新\n桃井いちご\n堀井茶渡",
+      "原画": "MtU\nぎん太郎",
+      "シナリオ": "ギハラ\nミノリ\ndanke",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:11.670Z"
+  },
+  "histories": [
+    {
+      "id": 62134,
+      "productId": 62120,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:26.793Z"
+    },
+    {
+      "id": 62798,
+      "productId": 62120,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:25.628Z"
+    },
+    {
+      "id": 64592,
+      "productId": 62120,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:11.670Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037028",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037028",
+    "capturedAt": "2026-08-29T01:13:11.670Z",
+    "items": [],
+    "path": "data/other-shops/145037028.json"
+  }
+}

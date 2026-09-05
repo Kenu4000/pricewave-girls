@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 42856,
+    "title": "Windows DVDソフト EVE burst error(月刊メガストア 2007年4月号 Vol.167 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062118",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062118.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2007-02-27",
+    "listPrice": null,
+    "modelNumber": "MEGA0704",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145062118",
+      "メーカー": "コアマガジン",
+      "発売日": "2007/02/27",
+      "型番": "MEGA0704",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:23.698Z"
+  },
+  "histories": [
+    {
+      "id": 42870,
+      "productId": 42856,
+      "salePrice": 2810,
+      "regularSalePrice": 2810,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:45.147Z"
+    },
+    {
+      "id": 54997,
+      "productId": 42856,
+      "salePrice": 2810,
+      "regularSalePrice": 2810,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:01.525Z"
+    },
+    {
+      "id": 66092,
+      "productId": 42856,
+      "salePrice": 2810,
+      "regularSalePrice": 2810,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:32.833Z"
+    },
+    {
+      "id": 75567,
+      "productId": 42856,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:23.698Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

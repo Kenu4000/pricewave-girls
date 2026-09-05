@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 71489,
+    "title": "Windows98/Me/2000/XP DVDソフト ぽっと -Rondo for Dears-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014731",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014731.jpg",
+    "manufacturer": "あんく",
+    "releaseDate": "2006-12-08",
+    "listPrice": 9680,
+    "modelNumber": "ANK-006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014731001",
+      "メーカー": "あんく",
+      "発売日": "2006/12/08",
+      "定価": "9,680円",
+      "型番": "ANK-006",
+      "声優": "中家志穂\n松田理沙\n榊原ゆい\n桜川未央\nかわしまりの\n草柳順子\nルネッサンス山田\n青葉りんご\n滝沢アツヤ\n中家菜穂",
+      "原画": "榊MAKI",
+      "シナリオ": "姫ノ木あく\n秋史恭\n大三元\n瀬尾順",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145014731?branch_number=0002"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:38:16.285Z"
+  },
+  "histories": [
+    {
+      "id": 71503,
+      "productId": 71489,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:38:16.285Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 205121,
+      "productId": 71489,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1050,
+      "checkedAt": "2026-09-02T21:38:16.000Z"
+    },
+    {
+      "id": 205120,
+      "productId": 71489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-09-02T21:38:16.000Z"
+    },
+    {
+      "id": 205119,
+      "productId": 71489,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1811,
+      "checkedAt": "2026-09-02T21:38:16.000Z"
+    },
+    {
+      "id": 205118,
+      "productId": 71489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1731,
+      "checkedAt": "2026-09-02T21:38:16.000Z"
+    },
+    {
+      "id": 205117,
+      "productId": 71489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ランクB",
+      "price": 1050,
+      "checkedAt": "2026-09-02T21:38:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014731",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014731",
+    "capturedAt": "2026-09-02T21:38:16.285Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古ランクB",
+        "price": 1050
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1731
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1811
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145014731.json"
+  }
+}

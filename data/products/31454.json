@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31454,
+    "title": "WindowsXP/Vista/7 CDソフト くノ一葵、悪ニ堕チル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036049",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036049.jpg",
+    "manufacturer": "Devil-seal",
+    "releaseDate": "2013-02-08",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036049",
+      "メーカー": "Devil-seal",
+      "発売日": "2013/02/08",
+      "定価": "2,200円",
+      "原画": "神藤みけこ",
+      "シナリオ": "南郷一八",
+      "声優": "片倉ひな\n宮森ゆう\n櫻井ありす\nこのえゆずこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1117,
+    "latestRegularSalePrice": 1117,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:56.933Z"
+  },
+  "histories": [
+    {
+      "id": 31468,
+      "productId": 31454,
+      "salePrice": 1188,
+      "regularSalePrice": 1188,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:03.834Z"
+    },
+    {
+      "id": 40205,
+      "productId": 31454,
+      "salePrice": 1188,
+      "regularSalePrice": 1188,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:00.424Z"
+    },
+    {
+      "id": 71095,
+      "productId": 31454,
+      "salePrice": 1117,
+      "regularSalePrice": 1117,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:56.933Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036049",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036049",
+    "capturedAt": "2026-09-02T20:49:56.933Z",
+    "items": [],
+    "path": "data/other-shops/145036049.json"
+  }
+}

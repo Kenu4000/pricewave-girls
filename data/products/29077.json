@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 29077,
+    "title": "Windows11 DVDソフト カスタムオーダーメイド3D2＆2.5 夜伽クラス プレミアムパック2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084684",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084684.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2026-07-31",
+    "listPrice": 10780,
+    "modelNumber": "KISS-182",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145084684000",
+      "メーカー": "KISS",
+      "発売日": "2026/07/31",
+      "定価": "10,780円",
+      "型番": "KISS-182",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9480,
+    "latestRegularSalePrice": 9480,
+    "latestBuyPrice": 5200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:43:53.795Z"
+  },
+  "histories": [
+    {
+      "id": 29091,
+      "productId": 29077,
+      "salePrice": 9480,
+      "regularSalePrice": 9480,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:06.675Z"
+    },
+    {
+      "id": 37932,
+      "productId": 29077,
+      "salePrice": 9480,
+      "regularSalePrice": 9480,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:07.444Z"
+    },
+    {
+      "id": 48376,
+      "productId": 29077,
+      "salePrice": 9480,
+      "regularSalePrice": 9480,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:38.273Z"
+    },
+    {
+      "id": 59496,
+      "productId": 29077,
+      "salePrice": 9480,
+      "regularSalePrice": 9480,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:04:10.137Z"
+    },
+    {
+      "id": 70279,
+      "productId": 29077,
+      "salePrice": 9480,
+      "regularSalePrice": 9480,
+      "buyPrice": 5200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:43:53.795Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201517,
+      "productId": 29077,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 9480,
+      "checkedAt": "2026-09-02T20:43:53.000Z"
+    },
+    {
+      "id": 201516,
+      "productId": 29077,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "新品",
+      "price": 8480,
+      "checkedAt": "2026-09-02T20:43:53.000Z"
+    },
+    {
+      "id": 201515,
+      "productId": 29077,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 8480,
+      "checkedAt": "2026-09-02T20:43:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084684",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084684",
+    "capturedAt": "2026-09-02T20:43:53.795Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 8480
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "新品",
+        "price": 8480
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 9480
+      }
+    ],
+    "path": "data/other-shops/145084684.json"
+  }
+}

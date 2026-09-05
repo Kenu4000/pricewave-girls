@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 3342,
+    "title": "Windows95/98 CDソフト FU・shi・da・ra Premium Box",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002638",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002638.jpg",
+    "manufacturer": "ミンク",
+    "releaseDate": "1999-09-03",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002638",
+      "メーカー": "ミンク",
+      "発売日": "1999/09/03",
+      "定価": "9,680円",
+      "原画/シナリオ": "壽々郎",
+      "声優": "Kana\n浅野麻理亜\n甘夏みかん\n桃山愛",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "原画": "/",
+      "シナリオ": "壽々郎",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:51:50.736Z"
+  },
+  "histories": [
+    {
+      "id": 3356,
+      "productId": 3342,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 37113,
+      "productId": 3342,
+      "salePrice": 1180,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:59.628Z"
+    },
+    {
+      "id": 47710,
+      "productId": 3342,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:07:45.640Z"
+    },
+    {
+      "id": 58572,
+      "productId": 3342,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:40:20.540Z"
+    },
+    {
+      "id": 69378,
+      "productId": 3342,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:51:50.736Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 198297,
+      "productId": 3342,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-09-02T02:51:51.000Z"
+    },
+    {
+      "id": 198296,
+      "productId": 3342,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-09-02T02:51:51.000Z"
+    },
+    {
+      "id": 97608,
+      "productId": 3342,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-16T00:59:59.000Z"
+    },
+    {
+      "id": 97607,
+      "productId": 3342,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-16T00:59:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002638",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002638",
+    "capturedAt": "2026-09-02T02:51:50.736Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145002638.json"
+  }
+}

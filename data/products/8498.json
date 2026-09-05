@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 8498,
+    "title": "Windows95 CDソフト ウィンターキス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145000809",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145000809.jpg",
+    "manufacturer": "ユーコム",
+    "releaseDate": "1997-09-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145000809",
+      "メーカー": "ユーコム",
+      "発売日": "1997/09/05",
+      "定価": "9,680円",
+      "声優": "藤枝巴\n星野彼方\n永井雨\n吉倉あやめ\n山咲くらら\n香月小夜\n草柳順子",
+      "音楽": "ミリオンバンブー",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:43:39.120Z"
+  },
+  "histories": [
+    {
+      "id": 8512,
+      "productId": 8498,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 37865,
+      "productId": 8498,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:31.910Z"
+    },
+    {
+      "id": 48336,
+      "productId": 8498,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:17.886Z"
+    },
+    {
+      "id": 59461,
+      "productId": 8498,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:03:51.346Z"
+    },
+    {
+      "id": 70243,
+      "productId": 8498,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:43:39.120Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 128288,
+      "productId": 8498,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-17T16:13:18.000Z"
+    },
+    {
+      "id": 128287,
+      "productId": 8498,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-08-17T16:13:18.000Z"
+    },
+    {
+      "id": 99682,
+      "productId": 8498,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T01:06:32.000Z"
+    },
+    {
+      "id": 99681,
+      "productId": 8498,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-08-16T01:06:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

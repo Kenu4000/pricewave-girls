@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 31207,
+    "title": "Windows DVDソフト propeller 燃焼系パック2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038077",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038077.jpg",
+    "manufacturer": "propeller",
+    "releaseDate": "2013-08-30",
+    "listPrice": 7480,
+    "modelNumber": "WILL-311",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145038077",
+      "メーカー": "propeller",
+      "発売日": "2013/08/30",
+      "定価": "7,480円",
+      "型番": "WILL-311",
+      "原画": "中央東口\n石井久雄",
+      "シナリオ": "東出祐一郎",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1411,
+    "latestRegularSalePrice": 1411,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:06:35.611Z"
+  },
+  "histories": [
+    {
+      "id": 31221,
+      "productId": 31207,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:07.697Z"
+    },
+    {
+      "id": 39966,
+      "productId": 31207,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:26.478Z"
+    },
+    {
+      "id": 51036,
+      "productId": 31207,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:17.579Z"
+    },
+    {
+      "id": 63073,
+      "productId": 31207,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:35.611Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038077",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038077",
+    "capturedAt": "2026-08-27T16:06:35.611Z",
+    "items": [],
+    "path": "data/other-shops/145038077.json"
+  }
+}

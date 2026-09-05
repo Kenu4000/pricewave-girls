@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 30735,
+    "title": "Windows CDソフト 天精国取りセックス合戦!! 予約特典Disc 首都防衛デーモンバスターズ「セレニテス」結成!パッチ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046708",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046708.jpg",
+    "manufacturer": "softhouse-seal GRANDEE",
+    "releaseDate": "2014-10-31",
+    "listPrice": null,
+    "modelNumber": "SEAG-015",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145046708001",
+      "メーカー": "softhouse-seal GRANDEE",
+      "発売日": "2014/10/31",
+      "型番": "SEAG-015",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:05:26.920Z"
+  },
+  "histories": [
+    {
+      "id": 30749,
+      "productId": 30735,
+      "salePrice": 260,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:18.089Z"
+    },
+    {
+      "id": 39504,
+      "productId": 30735,
+      "salePrice": 260,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:24.041Z"
+    },
+    {
+      "id": 50693,
+      "productId": 30735,
+      "salePrice": 260,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:16.029Z"
+    },
+    {
+      "id": 61758,
+      "productId": 30735,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:19:59.710Z"
+    },
+    {
+      "id": 73530,
+      "productId": 30735,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:05:26.920Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 212278,
+      "productId": 30735,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-03T16:05:27.000Z"
+    },
+    {
+      "id": 212277,
+      "productId": 30735,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-03T16:05:27.000Z"
+    },
+    {
+      "id": 212276,
+      "productId": 30735,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-03T16:05:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046708",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046708",
+    "capturedAt": "2026-09-03T16:05:26.920Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145046708.json"
+  }
+}

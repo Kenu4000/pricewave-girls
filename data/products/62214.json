@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 62214,
+    "title": "Windows98/Me/2000/XP CDソフト 新婚さん～Sweet Sweet honeymoon～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016982",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016982.jpg",
+    "manufacturer": "BaseSon SPICE*",
+    "releaseDate": "2007-12-21",
+    "listPrice": 7480,
+    "modelNumber": "SPI001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016982001",
+      "メーカー": "BaseSon SPICE*",
+      "発売日": "2007/12/21",
+      "定価": "7,480円",
+      "型番": "SPI001",
+      "原画": "片桐雛太",
+      "シナリオ": "青木花菜子\n花七\n八咲",
+      "声優": "島崎比呂\n空野太陽\n高橋広樹\n鈴木千尋\n青島刃\nプログレス\nこのかなみ",
+      "音楽": "たくまる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:52.682Z"
+  },
+  "histories": [
+    {
+      "id": 62228,
+      "productId": 62214,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:10.648Z"
+    },
+    {
+      "id": 62892,
+      "productId": 62214,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:09.905Z"
+    },
+    {
+      "id": 64684,
+      "productId": 62214,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:52.682Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181701,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-29T01:13:52.000Z"
+    },
+    {
+      "id": 181700,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-29T01:13:52.000Z"
+    },
+    {
+      "id": 176732,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-27T16:05:10.000Z"
+    },
+    {
+      "id": 176731,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-27T16:05:10.000Z"
+    },
+    {
+      "id": 174057,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-27T10:44:10.000Z"
+    },
+    {
+      "id": 174056,
+      "productId": 62214,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-27T10:44:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016982",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016982",
+    "capturedAt": "2026-08-29T01:13:52.682Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145016982.json"
+  }
+}

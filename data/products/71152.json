@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 71152,
+    "title": "Windows10/11 DVDソフト 鏖殺ノ乙女. [豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081887.jpg",
+    "manufacturer": "metalogiq",
+    "releaseDate": "2024-10-25",
+    "listPrice": 14080,
+    "modelNumber": "META-065",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081887001",
+      "メーカー": "metalogiq",
+      "発売日": "2024/10/25",
+      "定価": "14,080円",
+      "型番": "META-065",
+      "原画": "上田メタヲ",
+      "シナリオ": "丸谷秀人",
+      "主題歌": "電気式華憐音楽集団",
+      "音楽": "宮内信子",
+      "声優": "いねむりすやこ\n夏樹柑菜\n綾音まこ\n歩サラ\n今谷皆美\n四ロ坂蜜菜",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4950,
+    "latestRegularSalePrice": 4950,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:34.546Z"
+  },
+  "histories": [
+    {
+      "id": 71166,
+      "productId": 71152,
+      "salePrice": 4950,
+      "regularSalePrice": 4950,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:34.546Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204237,
+      "productId": 71152,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4950,
+      "checkedAt": "2026-09-02T21:35:34.000Z"
+    },
+    {
+      "id": 204236,
+      "productId": 71152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 6470,
+      "checkedAt": "2026-09-02T21:35:34.000Z"
+    },
+    {
+      "id": 204235,
+      "productId": 71152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 3815,
+      "checkedAt": "2026-09-02T21:35:34.000Z"
+    },
+    {
+      "id": 204234,
+      "productId": 71152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古付属メディア欠け",
+      "price": 3850,
+      "checkedAt": "2026-09-02T21:35:34.000Z"
+    },
+    {
+      "id": 204233,
+      "productId": 71152,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 3815,
+      "checkedAt": "2026-09-02T21:35:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081887",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081887",
+    "capturedAt": "2026-09-02T21:35:34.546Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 3815
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古付属メディア欠け",
+        "price": 3850
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 3815
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 6470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4950
+      }
+    ],
+    "path": "data/other-shops/145081887.json"
+  }
+}

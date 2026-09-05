@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62096,
+    "title": "WindowsVista/7/8 DVDソフト PigeonBlood[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043983",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043983.jpg",
+    "manufacturer": "PIL/SLASH XXX",
+    "releaseDate": "2014-10-03",
+    "listPrice": 8140,
+    "modelNumber": "PIL-B011",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145043983",
+      "メーカー": "PIL/SLASH XXX",
+      "発売日": "2014/10/03",
+      "定価": "8,140円",
+      "型番": "PIL-B011",
+      "シナリオ": "松永也槻\n片桐由摩\n中条ローザ",
+      "原画": "コウジ",
+      "声優": "清風涼\n松田春樹\n佐藤タカ\n髭内悪太\n634",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1940,
+    "latestRegularSalePrice": 1940,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:01.217Z"
+  },
+  "histories": [
+    {
+      "id": 62110,
+      "productId": 62096,
+      "salePrice": 1940,
+      "regularSalePrice": 1940,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:16.322Z"
+    },
+    {
+      "id": 62774,
+      "productId": 62096,
+      "salePrice": 1940,
+      "regularSalePrice": 1940,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:14.896Z"
+    },
+    {
+      "id": 64567,
+      "productId": 62096,
+      "salePrice": 1940,
+      "regularSalePrice": 1940,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:01.217Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043983",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043983",
+    "capturedAt": "2026-08-29T01:13:01.217Z",
+    "items": [],
+    "path": "data/other-shops/145043983.json"
+  }
+}

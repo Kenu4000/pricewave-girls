@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 31987,
+    "title": "WindowsXP/Vista/7 DVDソフト テンタクルロード -我が手に堕ちよ勇壮なる乙女-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030311",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030311.jpg",
+    "manufacturer": "Yatagarasu",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": "YGS-0004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030311",
+      "メーカー": "Yatagarasu",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "型番": "YGS-0004",
+      "原画": "TEL-O",
+      "シナリオ": "西村悠一",
+      "声優": "鈴音華月\n柚木サチ\n秋野花\n榛名れん\n桜水季",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:09:41.993Z"
+  },
+  "histories": [
+    {
+      "id": 32001,
+      "productId": 31987,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:32.568Z"
+    },
+    {
+      "id": 40730,
+      "productId": 31987,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:13.005Z"
+    },
+    {
+      "id": 52199,
+      "productId": 31987,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:25.711Z"
+    },
+    {
+      "id": 63598,
+      "productId": 31987,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:10:40.182Z"
+    },
+    {
+      "id": 74084,
+      "productId": 31987,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:09:41.993Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030311",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030311",
+    "capturedAt": "2026-09-03T16:09:41.993Z",
+    "items": [],
+    "path": "data/other-shops/145030311.json"
+  }
+}

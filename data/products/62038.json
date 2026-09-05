@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 62038,
+    "title": "Windows7/8/10 DVDソフト あなたに恋する恋愛ルセット [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057721",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057721.jpg",
+    "manufacturer": "ユニゾンシフト",
+    "releaseDate": "2017-05-26",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057721001",
+      "メーカー": "ユニゾンシフト",
+      "発売日": "2017/05/26",
+      "定価": "10,780円",
+      "原画": "ぺろ\n米白粕\nふみー",
+      "シナリオ": "若瀬諒\nギハラ\n風間ぼなんざ\n西ノ宮勇希",
+      "声優": "美月\nみたかりん\n風音\n和葉\nみる\n遠野そよぎ\n奏雨\n小池竹蔵",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4300,
+    "latestRegularSalePrice": 4300,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:42:14.824Z"
+  },
+  "histories": [
+    {
+      "id": 62052,
+      "productId": 62038,
+      "salePrice": 3630,
+      "regularSalePrice": 3630,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:50.838Z"
+    },
+    {
+      "id": 62717,
+      "productId": 62038,
+      "salePrice": 3630,
+      "regularSalePrice": 3630,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:48.161Z"
+    },
+    {
+      "id": 64510,
+      "productId": 62038,
+      "salePrice": 3625,
+      "regularSalePrice": 3625,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:34.601Z"
+    },
+    {
+      "id": 75217,
+      "productId": 62038,
+      "salePrice": 4300,
+      "regularSalePrice": 4300,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:42:14.824Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218636,
+      "productId": 62038,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4300,
+      "checkedAt": "2026-09-04T08:42:15.000Z"
+    },
+    {
+      "id": 218635,
+      "productId": 62038,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 3590,
+      "checkedAt": "2026-09-04T08:42:15.000Z"
+    },
+    {
+      "id": 218634,
+      "productId": 62038,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3590,
+      "checkedAt": "2026-09-04T08:42:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057721",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057721",
+    "capturedAt": "2026-09-04T08:42:14.824Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 3590
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 3590
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4300
+      }
+    ],
+    "path": "data/other-shops/145057721.json"
+  }
+}

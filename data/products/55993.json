@@ -1,0 +1,180 @@
+{
+  "product": {
+    "id": 55993,
+    "title": "WindowsXP/Vista/7 DVDソフト あまかん えっちな“ラブいちゃ”詰めちゃいました",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030302",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030302.jpg",
+    "manufacturer": "PeasSoft",
+    "releaseDate": "2011-12-22",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145030302001",
+      "メーカー": "PeasSoft",
+      "発売日": "2011/12/22",
+      "定価": "8,580円",
+      "原画": "長谷川ユキノ\nきくらげ",
+      "シナリオ": "武藤礼恵\n宮村優",
+      "声優": "松田理沙\n桜川未央\n柚木かなめ\n鈴田美夜子\n真中海",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-04T08:40:35.453Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:40:34.018Z"
+  },
+  "histories": [
+    {
+      "id": 56007,
+      "productId": 55993,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:03.821Z"
+    },
+    {
+      "id": 75130,
+      "productId": 55993,
+      "salePrice": 600,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:40:34.018Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 218299,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-04T08:40:35.000Z"
+    },
+    {
+      "id": 218298,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古本編ゲームディスクのみ（その他欠品）",
+      "price": 1000,
+      "checkedAt": "2026-09-04T08:40:35.000Z"
+    },
+    {
+      "id": 218297,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 近見店",
+      "condition": "中古",
+      "price": 820,
+      "checkedAt": "2026-09-04T08:40:35.000Z"
+    },
+    {
+      "id": 218296,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-09-04T08:40:35.000Z"
+    },
+    {
+      "id": 218295,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-04T08:40:35.000Z"
+    },
+    {
+      "id": 151461,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-21T05:32:04.000Z"
+    },
+    {
+      "id": 151460,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古本編ゲームディスクのみ（その他欠品）",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:32:04.000Z"
+    },
+    {
+      "id": 151459,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 近見店",
+      "condition": "中古",
+      "price": 820,
+      "checkedAt": "2026-08-21T05:32:04.000Z"
+    },
+    {
+      "id": 151458,
+      "productId": 55993,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-21T05:32:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145030302",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030302",
+    "capturedAt": "2026-09-04T08:40:34.018Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "駿河屋 近見店",
+        "condition": "中古",
+        "price": 820
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古本編ゲームディスクのみ（その他欠品）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145030302.json"
+  }
+}

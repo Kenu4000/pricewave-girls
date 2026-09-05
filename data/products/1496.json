@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 1496,
+    "title": "Windows8/10 DVDソフト 家神女房 -イエガミニョウボウ- -かさねばこ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070580",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070580.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2020-12-25",
+    "listPrice": 9680,
+    "modelNumber": "CSK-P-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145070580",
+      "メーカー": "Casket",
+      "発売日": "2020/12/25",
+      "定価": "9,680円",
+      "型番": "CSK-P-002",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら\n新井しーな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:18:24.081Z"
+  },
+  "histories": [
+    {
+      "id": 1510,
+      "productId": 1496,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6395,
+      "productId": 1496,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:47.000Z"
+    },
+    {
+      "id": 13493,
+      "productId": 1496,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    },
+    {
+      "id": 26416,
+      "productId": 1496,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:04:08.570Z"
+    },
+    {
+      "id": 44630,
+      "productId": 1496,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:17.327Z"
+    },
+    {
+      "id": 72378,
+      "productId": 1496,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:18:24.081Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 115401,
+      "productId": 1496,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）外箱日焼け有り",
+      "price": 3500,
+      "checkedAt": "2026-08-17T09:42:17.000Z"
+    },
+    {
+      "id": 115400,
+      "productId": 1496,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-17T09:42:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145070580",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070580",
+    "capturedAt": "2026-09-03T01:18:24.081Z",
+    "items": [],
+    "path": "data/other-shops/145070580.json"
+  }
+}

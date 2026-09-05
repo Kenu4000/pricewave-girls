@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 43097,
+    "title": "Windows98SE/Me/2000/XP CDソフト 玉響 -たまゆら- [初回特典版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014628",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014628.jpg",
+    "manufacturer": "パルミエ",
+    "releaseDate": "2006-08-25",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014628001",
+      "メーカー": "パルミエ",
+      "発売日": "2006/08/25",
+      "定価": "8,580円",
+      "原画": "穂波ゆきね",
+      "シナリオ": "青木花菜子\n清水なを\n下条恵子\n日野光里",
+      "声優": "秋元美夕\n高橋広樹\n宮田幸季\n羽多野渉\n平井達矢\n成田剣\nジョージ若島\n夏之はちみつ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "7180",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6800,
+    "latestRegularSalePrice": 7180,
+    "latestBuyPrice": 3400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-05T01:25:48.187Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T01:25:48.049Z"
+  },
+  "histories": [
+    {
+      "id": 43111,
+      "productId": 43097,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:53.576Z"
+    },
+    {
+      "id": 55174,
+      "productId": 43097,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:28.563Z"
+    },
+    {
+      "id": 66254,
+      "productId": 43097,
+      "salePrice": 7980,
+      "regularSalePrice": 7980,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:54.780Z"
+    },
+    {
+      "id": 76845,
+      "productId": 43097,
+      "salePrice": 6800,
+      "regularSalePrice": 7180,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T01:25:48.049Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 222048,
+      "productId": 43097,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6800,
+      "checkedAt": "2026-09-05T01:25:48.000Z"
+    },
+    {
+      "id": 222047,
+      "productId": 43097,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 6280,
+      "checkedAt": "2026-09-05T01:25:48.000Z"
+    },
+    {
+      "id": 222046,
+      "productId": 43097,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・小冊子欠品",
+      "price": 6280,
+      "checkedAt": "2026-09-05T01:25:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014628",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014628",
+    "capturedAt": "2026-09-05T01:25:48.049Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・小冊子欠品",
+        "price": 6280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 6280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6800
+      }
+    ],
+    "path": "data/other-shops/145014628.json"
+  }
+}

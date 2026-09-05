@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 41007,
+    "title": "Windows7/8/8.1/10 DVDソフト メイドinウィッチライフ! -館で始まるHな魅了性活-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063629",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063629.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2019-01-25",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-038",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063629",
+      "メーカー": "エスクード",
+      "発売日": "2019/01/25",
+      "定価": "9,680円",
+      "型番": "ECAVG-038",
+      "原画": "遊丸\n一葉モカ\n鈴音れな\n梅鳥うりり\n蒼瀬",
+      "シナリオ": "さんきち\n犬童飛沫\n御導はるか",
+      "声優": "雪村とあ\n風花ましろ\nありかわ真奈\n榎津まお\n結城ほのか\n水野七海",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:50:13.604Z"
+  },
+  "histories": [
+    {
+      "id": 41021,
+      "productId": 41007,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:00.014Z"
+    },
+    {
+      "id": 71132,
+      "productId": 41007,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:50:13.604Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204145,
+      "productId": 41007,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3301,
+      "checkedAt": "2026-09-02T20:50:13.000Z"
+    },
+    {
+      "id": 204144,
+      "productId": 41007,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-09-02T20:50:13.000Z"
+    },
+    {
+      "id": 204143,
+      "productId": 41007,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 3106,
+      "checkedAt": "2026-09-02T20:50:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063629",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063629",
+    "capturedAt": "2026-09-02T20:50:13.604Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 3106
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 3111
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 3301
+      }
+    ],
+    "path": "data/other-shops/145063629.json"
+  }
+}

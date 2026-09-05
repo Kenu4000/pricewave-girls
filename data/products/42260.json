@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42260,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト まほこい-KAGUYAコレクション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018703",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018703.jpg",
+    "manufacturer": "アトリエかぐや Berkshire Yorkshire",
+    "releaseDate": "2008-09-26",
+    "listPrice": 4378,
+    "modelNumber": "KC-0005",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018703",
+      "メーカー": "アトリエかぐや Berkshire Yorkshire",
+      "発売日": "2008/09/26",
+      "定価": "4,378円",
+      "型番": "KC-0005",
+      "原画": "choco chip",
+      "シナリオ": "速水漣\n神無月ニトロ\nさんきち\nもみあげルパンR",
+      "声優": "乃田あす実\n北都南\n鳩野比奈\n萌木唯\n金田まひる\n青山ゆかり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:02.315Z"
+  },
+  "histories": [
+    {
+      "id": 42274,
+      "productId": 42260,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:53.714Z"
+    },
+    {
+      "id": 53679,
+      "productId": 42260,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:22.086Z"
+    },
+    {
+      "id": 65658,
+      "productId": 42260,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:02.315Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018703",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018703",
+    "capturedAt": "2026-08-29T13:02:02.315Z",
+    "items": [],
+    "path": "data/other-shops/145018703.json"
+  }
+}

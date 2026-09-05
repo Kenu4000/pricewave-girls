@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 30202,
+    "title": "Windows CDソフト 時を紡ぐ約束 [体験版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053766",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053766.jpg",
+    "manufacturer": "あっぷりけ",
+    "releaseDate": "2016-03-25",
+    "listPrice": null,
+    "modelNumber": "APP-110",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145053766",
+      "メーカー": "あっぷりけ",
+      "発売日": "2016/03/25",
+      "型番": "APP-110",
+      "原画": "師走ほりお\nオダワラハコネ",
+      "シナリオ": "憲yuki",
+      "声優": "雪味ちよこ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 250,
+    "latestRegularSalePrice": 250,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:59.865Z"
+  },
+  "histories": [
+    {
+      "id": 30216,
+      "productId": 30202,
+      "salePrice": 250,
+      "regularSalePrice": 250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:53.581Z"
+    },
+    {
+      "id": 39003,
+      "productId": 30202,
+      "salePrice": 250,
+      "regularSalePrice": 250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:44.253Z"
+    },
+    {
+      "id": 50295,
+      "productId": 30202,
+      "salePrice": 250,
+      "regularSalePrice": 250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:40.235Z"
+    },
+    {
+      "id": 61428,
+      "productId": 30202,
+      "salePrice": 250,
+      "regularSalePrice": 250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:17:16.327Z"
+    },
+    {
+      "id": 73335,
+      "productId": 30202,
+      "salePrice": 250,
+      "regularSalePrice": 250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:59.865Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053766",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053766",
+    "capturedAt": "2026-09-03T16:03:59.865Z",
+    "items": [],
+    "path": "data/other-shops/145053766.json"
+  }
+}

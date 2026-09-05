@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 30088,
+    "title": "Windows7/8/8.1/10 DVDソフト 遊聖天使プリマヴェールDrei",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054453",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054453.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2016-07-29",
+    "listPrice": 9680,
+    "modelNumber": "ECAVG-031",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054453",
+      "メーカー": "エスクード",
+      "発売日": "2016/07/29",
+      "定価": "9,680円",
+      "型番": "ECAVG-031",
+      "原画": "小鳥遊丸\nはなたかれとも",
+      "声優": "八尋まみ\n小倉結衣\n中家志穂\n蓬かすみ\nみたかりん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:26.778Z"
+  },
+  "histories": [
+    {
+      "id": 30102,
+      "productId": 30088,
+      "salePrice": 1500,
+      "regularSalePrice": 1600,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:39.414Z"
+    },
+    {
+      "id": 38895,
+      "productId": 30088,
+      "salePrice": 1500,
+      "regularSalePrice": 1600,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:48.734Z"
+    },
+    {
+      "id": 71026,
+      "productId": 30088,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:26.778Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 102078,
+      "productId": 30088,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 3500,
+      "checkedAt": "2026-08-16T01:15:48.000Z"
+    },
+    {
+      "id": 102077,
+      "productId": 30088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-16T01:15:48.000Z"
+    },
+    {
+      "id": 76114,
+      "productId": 30088,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 3500,
+      "checkedAt": "2026-08-15T23:16:39.000Z"
+    },
+    {
+      "id": 76113,
+      "productId": 30088,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-15T23:16:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054453",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054453",
+    "capturedAt": "2026-09-02T20:49:26.778Z",
+    "items": [],
+    "path": "data/other-shops/145054453.json"
+  }
+}

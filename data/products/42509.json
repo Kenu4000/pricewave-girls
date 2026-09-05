@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 42509,
+    "title": "Windows2000/XP/Vista DVDソフト おあずけフェティッシュ![初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017477",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017477.jpg",
+    "manufacturer": "EXA",
+    "releaseDate": "2008-02-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017477",
+      "メーカー": "EXA",
+      "発売日": "2008/02/29",
+      "定価": "9,680円",
+      "原画": "古野将士\nかどつかさ",
+      "シナリオ": "神堂劾",
+      "声優": "春日アン\nさくら\n宝井葵\nかわしまりの\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:13:55.596Z"
+  },
+  "histories": [
+    {
+      "id": 42523,
+      "productId": 42509,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:27.535Z"
+    },
+    {
+      "id": 71882,
+      "productId": 42509,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:13:55.596Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207032,
+      "productId": 42509,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-09-03T01:13:55.000Z"
+    },
+    {
+      "id": 207031,
+      "productId": 42509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1112,
+      "checkedAt": "2026-09-03T01:13:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017477",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017477",
+    "capturedAt": "2026-09-03T01:13:55.596Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1112
+      },
+      {
+        "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145017477.json"
+  }
+}

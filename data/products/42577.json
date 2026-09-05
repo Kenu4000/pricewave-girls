@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 42577,
+    "title": "Windows DVDソフト My dear アレながおじさん(月刊メガストア2008年2月号 Vol.177付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041263",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041263.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2007-12-17",
+    "listPrice": null,
+    "modelNumber": "MEGA0802",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145041263001",
+      "メーカー": "コアマガジン",
+      "発売日": "2007/12/17",
+      "型番": "MEGA0802",
+      "原画": "鋼丸",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:03:40.109Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:29.081Z"
+  },
+  "histories": [
+    {
+      "id": 42591,
+      "productId": 42577,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:03.765Z"
+    },
+    {
+      "id": 53912,
+      "productId": 42577,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:23.641Z"
+    },
+    {
+      "id": 65860,
+      "productId": 42577,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:39.702Z"
+    },
+    {
+      "id": 75465,
+      "productId": 42577,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:29.081Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

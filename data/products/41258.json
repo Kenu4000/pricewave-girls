@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41258,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 新婚性活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026354.jpg",
+    "manufacturer": "ニコチンソフト",
+    "releaseDate": "2011-04-28",
+    "listPrice": 9680,
+    "modelNumber": "NC-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026354",
+      "メーカー": "ニコチンソフト",
+      "発売日": "2011/04/28",
+      "定価": "9,680円",
+      "型番": "NC-001",
+      "原画": "大崎シンヤ",
+      "シナリオ": "八朔\nNATORI烏賊\nORU\nシャア専用◎\n夢野Q作",
+      "声優": "菊川滑太郎\n千葉信子\n神埼ちひろ\n芹園みや\nTaka\n大波こなみ\n一色ヒカル\n北原かなん\n中田純\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2200,
+    "latestRegularSalePrice": 2200,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:13:09.869Z"
+  },
+  "histories": [
+    {
+      "id": 41272,
+      "productId": 41258,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:12.691Z"
+    },
+    {
+      "id": 52960,
+      "productId": 41258,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:25.619Z"
+    },
+    {
+      "id": 63911,
+      "productId": 41258,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:13:09.869Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026354",
+    "capturedAt": "2026-08-27T16:13:09.869Z",
+    "items": [],
+    "path": "data/other-shops/145026354.json"
+  }
+}

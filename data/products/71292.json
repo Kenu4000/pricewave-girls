@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 71292,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト その古城に勇者砲あり!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052034",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052034.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2015-12-18",
+    "listPrice": 9680,
+    "modelNumber": "CHARA-151218",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145052034001",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2015/12/18",
+      "定価": "9,680円",
+      "型番": "CHARA-151218",
+      "原画": "アラタ\n紅村かる\nたかとうすずのすけ\n皇征介",
+      "シナリオ": "桃ノ雑派\nTeam・Birth-tale\nカズマ",
+      "声優": "もな(声優)\n原田友貴\n綾音まこ\n霧島はるな\n鈴谷まや\n八尋まみ\n南乃こと\n羽高なる",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1880,
+    "latestRegularSalePrice": 1880,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:40.258Z"
+  },
+  "histories": [
+    {
+      "id": 71306,
+      "productId": 71292,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:40.258Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204676,
+      "productId": 71292,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204675,
+      "productId": 71292,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204674,
+      "productId": 71292,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1795,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204673,
+      "productId": 71292,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1300,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052034",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052034",
+    "capturedAt": "2026-09-02T21:36:40.258Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古ディスク傷あり",
+        "price": 1300
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1795
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 1300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1880
+      }
+    ],
+    "path": "data/other-shops/145052034.json"
+  }
+}

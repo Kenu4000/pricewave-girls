@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29911,
+    "title": "Windows7/8/8.1/10 CDソフト みんな孕ませ♪女子校修学旅行",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056925",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056925.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2017-02-17",
+    "listPrice": 2200,
+    "modelNumber": "MIEL-086",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056925",
+      "メーカー": "Miel",
+      "発売日": "2017/02/17",
+      "定価": "2,200円",
+      "型番": "MIEL-086",
+      "シナリオ": "有巻洋太",
+      "原画": "T-28",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:33:31.903Z"
+  },
+  "histories": [
+    {
+      "id": 29925,
+      "productId": 29911,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:59.443Z"
+    },
+    {
+      "id": 38730,
+      "productId": 29911,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:22.149Z"
+    },
+    {
+      "id": 49788,
+      "productId": 29911,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:31.903Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056925",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056925",
+    "capturedAt": "2026-08-19T04:33:31.903Z",
+    "items": [],
+    "path": "data/other-shops/145056925.json"
+  }
+}

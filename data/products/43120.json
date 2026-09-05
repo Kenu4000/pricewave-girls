@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 43120,
+    "title": "Windows98/Me/2000/XP CDソフト オゲレツセット WVセレクション4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014541",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014541.jpg",
+    "manufacturer": "West Vision",
+    "releaseDate": "2006-07-28",
+    "listPrice": 5280,
+    "modelNumber": "TWR-04",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014541001",
+      "メーカー": "West Vision",
+      "発売日": "2006/07/28",
+      "定価": "5,280円",
+      "型番": "TWR-04",
+      "原画": "丹下ゲンタ\nトシぞー",
+      "シナリオ": "鬼影姚二\n黒崎将弘",
+      "声優": "深井晴花\n咲ゆたか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:07:02.755Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:07:02.350Z"
+  },
+  "histories": [
+    {
+      "id": 43134,
+      "productId": 43120,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:04.221Z"
+    },
+    {
+      "id": 55192,
+      "productId": 43120,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:36.997Z"
+    },
+    {
+      "id": 66269,
+      "productId": 43120,
+      "salePrice": 650,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:02.350Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

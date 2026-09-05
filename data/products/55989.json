@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 55989,
+    "title": "WindowsXP/Vista/7 DVDソフト ツクモノツキ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031043.jpg",
+    "manufacturer": "Sugar pot",
+    "releaseDate": "2012-02-24",
+    "listPrice": 9680,
+    "modelNumber": "D01",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031043",
+      "メーカー": "Sugar pot",
+      "発売日": "2012/02/24",
+      "定価": "9,680円",
+      "型番": "D01",
+      "原画": "オダワラハコネ\n月嶋悠虎\n成瀬守",
+      "シナリオ": "尾之上咲太",
+      "声優": "雪村とあ\n宮沢ゆあな\n青葉りんご\n上田朱音\n藤森ゆき奈\n早瀬やよい\n鈴音華月",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T13:13:32.000Z"
+  },
+  "histories": [
+    {
+      "id": 56003,
+      "productId": 55989,
+      "salePrice": 2380,
+      "regularSalePrice": 2380,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:01.807Z"
+    },
+    {
+      "id": 66664,
+      "productId": 55989,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:27.587Z"
+    },
+    {
+      "id": 77383,
+      "productId": 55989,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:13:32.000Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

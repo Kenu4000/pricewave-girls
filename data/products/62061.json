@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 62061,
+    "title": "WindowsVista/7/8.1/10 DVDソフト 乙女理論とその周辺 -Ecole de Paris- アペンドディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065148",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065148.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2016-05-27",
+    "listPrice": null,
+    "modelNumber": "NVSW-0056A",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065148",
+      "メーカー": "Navel",
+      "発売日": "2016/05/27",
+      "型番": "NVSW-0056A",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 311,
+    "latestRegularSalePrice": 311,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:43.850Z"
+  },
+  "histories": [
+    {
+      "id": 62075,
+      "productId": 62061,
+      "salePrice": 311,
+      "regularSalePrice": 311,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:59.979Z"
+    },
+    {
+      "id": 62742,
+      "productId": 62061,
+      "salePrice": 311,
+      "regularSalePrice": 311,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:59.456Z"
+    },
+    {
+      "id": 64533,
+      "productId": 62061,
+      "salePrice": 311,
+      "regularSalePrice": 311,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:43.850Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065148",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065148",
+    "capturedAt": "2026-08-29T01:12:43.850Z",
+    "items": [],
+    "path": "data/other-shops/145065148.json"
+  }
+}

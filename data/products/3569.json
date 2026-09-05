@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 3569,
+    "title": "Windows CDソフト Dolphin Blade -ドルフィンブレード- メロンブックス特典デジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059601",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059601.jpg",
+    "manufacturer": "Island Belle",
+    "releaseDate": "2017-09-29",
+    "listPrice": null,
+    "modelNumber": "MBCD-0031",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145059601",
+      "メーカー": "Island Belle",
+      "発売日": "2017/09/29",
+      "型番": "MBCD-0031",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:44.936Z"
+  },
+  "histories": [
+    {
+      "id": 3583,
+      "productId": 3569,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 26733,
+      "productId": 3569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:47.871Z"
+    },
+    {
+      "id": 37301,
+      "productId": 3569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:38.467Z"
+    },
+    {
+      "id": 47863,
+      "productId": 3569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:07.392Z"
+    },
+    {
+      "id": 58700,
+      "productId": 3569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:41:26.067Z"
+    },
+    {
+      "id": 69494,
+      "productId": 3569,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:44.936Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059601",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059601",
+    "capturedAt": "2026-09-02T02:52:44.936Z",
+    "items": [],
+    "path": "data/other-shops/145059601.json"
+  }
+}

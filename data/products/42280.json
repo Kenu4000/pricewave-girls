@@ -1,0 +1,169 @@
+{
+  "product": {
+    "id": 42280,
+    "title": "Windows2000/XP/Vista DVDソフト スマガ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018597",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018597.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2008-09-26",
+    "listPrice": 9680,
+    "modelNumber": "SKR-1282-P",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018597001",
+      "メーカー": "ニトロプラス",
+      "発売日": "2008/09/26",
+      "定価": "9,680円",
+      "型番": "SKR-1282-P",
+      "原画": "津路参汰",
+      "シナリオ": "下倉バイオ",
+      "声優": "波動拳\n手塚まき\n守田羽糸\n杏子御津\n榊原ゆい\n神代岬\n阿部敦\n一色ヒカル\n舞幸運\nいちごみるく\n美月\n石丸博也\n河合春華",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:10.030Z"
+  },
+  "histories": [
+    {
+      "id": 42294,
+      "productId": 42280,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:10.049Z"
+    },
+    {
+      "id": 53695,
+      "productId": 42280,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:29.886Z"
+    },
+    {
+      "id": 65673,
+      "productId": 42280,
+      "salePrice": 1799,
+      "regularSalePrice": 1799,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:09.956Z"
+    },
+    {
+      "id": 75426,
+      "productId": 42280,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:10.030Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219198,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-04T08:44:10.000Z"
+    },
+    {
+      "id": 219197,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1799,
+      "checkedAt": "2026-09-04T08:44:10.000Z"
+    },
+    {
+      "id": 219196,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-04T08:44:10.000Z"
+    },
+    {
+      "id": 144050,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:26:30.000Z"
+    },
+    {
+      "id": 144049,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1799,
+      "checkedAt": "2026-08-19T16:26:30.000Z"
+    },
+    {
+      "id": 144048,
+      "productId": 42280,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-19T16:26:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018597",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018597",
+    "capturedAt": "2026-09-04T08:44:10.030Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1580
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1799
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145018597.json"
+  }
+}

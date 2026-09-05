@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 42317,
+    "title": "Windows DVDソフト えらぶる(月刊メガストア 2008年9月号 Vol.184 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076989",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076989.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2008-08-27",
+    "listPrice": null,
+    "modelNumber": "MEGA0809",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145076989001",
+      "メーカー": "コアマガジン",
+      "発売日": "2008/08/27",
+      "型番": "MEGA0809",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:02:21.615Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:44:11.309Z"
+  },
+  "histories": [
+    {
+      "id": 42331,
+      "productId": 42317,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:29.749Z"
+    },
+    {
+      "id": 53722,
+      "productId": 42317,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:45.827Z"
+    },
+    {
+      "id": 65695,
+      "productId": 42317,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:20.849Z"
+    },
+    {
+      "id": 75431,
+      "productId": 42317,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:44:11.309Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

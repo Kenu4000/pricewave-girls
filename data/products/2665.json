@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 2665,
+    "title": "Windows2000/XP/Vista/7 DVDソフト se・きらら[外箱・figma無し]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024260",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024260.jpg",
+    "manufacturer": "native",
+    "releaseDate": "2010-03-26",
+    "listPrice": 2934,
+    "modelNumber": "SE-KIRARA",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024260",
+      "メーカー": "native",
+      "発売日": "2010/03/26",
+      "定価": "2,934円",
+      "型番": "SE-KIRARA",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:49:19.980Z"
+  },
+  "histories": [
+    {
+      "id": 2679,
+      "productId": 2665,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7557,
+      "productId": 2665,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 22894,
+      "productId": 2665,
+      "salePrice": 730,
+      "regularSalePrice": 730,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:39.201Z"
+    },
+    {
+      "id": 36648,
+      "productId": 2665,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:50.337Z"
+    },
+    {
+      "id": 47312,
+      "productId": 2665,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:54.012Z"
+    },
+    {
+      "id": 58208,
+      "productId": 2665,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:37:03.124Z"
+    },
+    {
+      "id": 69043,
+      "productId": 2665,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:49:19.980Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 196837,
+      "productId": 2665,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-02T02:49:20.000Z"
+    },
+    {
+      "id": 196836,
+      "productId": 2665,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-09-02T02:49:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024260",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024260",
+    "capturedAt": "2026-09-02T02:49:19.980Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      }
+    ],
+    "path": "data/other-shops/145024260.json"
+  }
+}

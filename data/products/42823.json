@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 42823,
+    "title": "Windows98/Me/2000/XP CDソフト ヒトカタノオウ パッケージ版[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015720",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015720.jpg",
+    "manufacturer": "Artel",
+    "releaseDate": "2007-03-30",
+    "listPrice": 6380,
+    "modelNumber": "SKR-1154",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015720001",
+      "メーカー": "Artel",
+      "発売日": "2007/03/30",
+      "定価": "6,380円",
+      "型番": "SKR-1154",
+      "原画": "ちょちょポリス\nお杉",
+      "シナリオ": "花ツバメ",
+      "声優": "越智悠\n桃井いちご\n倉田まりや\n杞梨\n藤月もか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ポストカード欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145015720?branch_number=1000"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "ポストカード欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:57.210Z"
+  },
+  "histories": [
+    {
+      "id": 42837,
+      "productId": 42823,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "ポストカード欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:22.622Z"
+    },
+    {
+      "id": 44180,
+      "productId": 42823,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "ポストカード欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:16.665Z"
+    },
+    {
+      "id": 72199,
+      "productId": 42823,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "ポストカード欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:57.210Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207748,
+      "productId": 42823,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ポストカード欠品",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:16:58.000Z"
+    },
+    {
+      "id": 207747,
+      "productId": 42823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-09-03T01:16:58.000Z"
+    },
+    {
+      "id": 207746,
+      "productId": 42823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古ポストカード欠品",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:16:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015720",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015720",
+    "capturedAt": "2026-09-03T01:16:57.210Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古ポストカード欠品",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ポストカード欠品",
+        "price": 1100
+      }
+    ],
+    "path": "data/other-shops/145015720.json"
+  }
+}

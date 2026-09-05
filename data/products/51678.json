@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 51678,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト Pia▼ キャロットへようこそ[VISTA対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016736",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016736.jpg",
+    "manufacturer": "カクテル・ソフト",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "FC-289",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016736",
+      "メーカー": "カクテル・ソフト",
+      "発売日": "2007/07/99",
+      "型番": "FC-289",
+      "原画": "松尾幸洋\n甘露樹\nCHARM\nNAK村",
+      "シナリオ": "jane稲村",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7611,
+    "latestRegularSalePrice": 7611,
+    "latestBuyPrice": 3800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:09:15.256Z"
+  },
+  "histories": [
+    {
+      "id": 51692,
+      "productId": 51678,
+      "salePrice": 6300,
+      "regularSalePrice": 6650,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:55.532Z"
+    },
+    {
+      "id": 63505,
+      "productId": 51678,
+      "salePrice": 6611,
+      "regularSalePrice": 6611,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:09:56.037Z"
+    },
+    {
+      "id": 74025,
+      "productId": 51678,
+      "salePrice": 7611,
+      "regularSalePrice": 7611,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:09:15.256Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137865,
+      "productId": 51678,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6300,
+      "checkedAt": "2026-08-19T09:29:55.000Z"
+    },
+    {
+      "id": 137864,
+      "productId": 51678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6611,
+      "checkedAt": "2026-08-19T09:29:55.000Z"
+    },
+    {
+      "id": 137863,
+      "productId": 51678,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6300,
+      "checkedAt": "2026-08-19T09:29:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016736",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016736",
+    "capturedAt": "2026-09-03T16:09:15.256Z",
+    "items": [],
+    "path": "data/other-shops/145016736.json"
+  }
+}

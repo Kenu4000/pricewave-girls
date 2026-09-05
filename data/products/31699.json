@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 31699,
+    "title": "WindowsXP/Vista/7 DVDソフト Cell works Collection Vol.1",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033612",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033612.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2012-07-27",
+    "listPrice": 7480,
+    "modelNumber": "ALL-018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033612001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2012/07/27",
+      "定価": "7,480円",
+      "型番": "ALL-018",
+      "原画": "葵渚",
+      "シナリオ": "琴羽之文",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 18000,
+    "latestRegularSalePrice": 18000,
+    "latestBuyPrice": 8500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:15:39.774Z"
+  },
+  "histories": [
+    {
+      "id": 31713,
+      "productId": 31699,
+      "salePrice": 22222,
+      "regularSalePrice": 22222,
+      "buyPrice": 9500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:43:07.814Z"
+    },
+    {
+      "id": 40448,
+      "productId": 31699,
+      "salePrice": 22222,
+      "regularSalePrice": 22222,
+      "buyPrice": 9500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:51.583Z"
+    },
+    {
+      "id": 43793,
+      "productId": 31699,
+      "salePrice": 22222,
+      "regularSalePrice": 22222,
+      "buyPrice": 9500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:06.044Z"
+    },
+    {
+      "id": 72054,
+      "productId": 31699,
+      "salePrice": 18000,
+      "regularSalePrice": 18000,
+      "buyPrice": 8500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:15:39.774Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207489,
+      "productId": 31699,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 18000,
+      "checkedAt": "2026-09-03T01:15:40.000Z"
+    },
+    {
+      "id": 207488,
+      "productId": 31699,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）ジャケットイタミ有り",
+      "price": 22222,
+      "checkedAt": "2026-09-03T01:15:40.000Z"
+    },
+    {
+      "id": 207487,
+      "productId": 31699,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 18000,
+      "checkedAt": "2026-09-03T01:15:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145033612",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033612",
+    "capturedAt": "2026-09-03T01:15:39.774Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 18000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）ジャケットイタミ有り",
+        "price": 22222
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 18000
+      }
+    ],
+    "path": "data/other-shops/145033612.json"
+  }
+}

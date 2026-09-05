@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 42692,
+    "title": "Windows98/Me/2000/XP DVDソフト テレビの消えた日",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145904661",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145904661.jpg",
+    "manufacturer": "プチケロQ",
+    "releaseDate": "2007-08-31",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145904661",
+      "メーカー": "プチケロQ",
+      "発売日": "2007/08/31",
+      "定価": "4,378円",
+      "原画": "梱枝りこ",
+      "声優": "野神奈々\n本山美奈\nかわしまりの\n金田まひる",
+      "シナリオ": "十崎悠太\n柚子璃刃\n有限会社やしまや\n迂闊早夫\n文音(彩音)\n桃野衿",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 18500,
+    "latestRegularSalePrice": 18500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:38:25.253Z"
+  },
+  "histories": [
+    {
+      "id": 42706,
+      "productId": 42692,
+      "salePrice": 12600,
+      "regularSalePrice": 12600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:09.358Z"
+    },
+    {
+      "id": 54001,
+      "productId": 42692,
+      "salePrice": 12600,
+      "regularSalePrice": 12600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:13.189Z"
+    },
+    {
+      "id": 65940,
+      "productId": 42692,
+      "salePrice": 12600,
+      "regularSalePrice": 12600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:18.833Z"
+    },
+    {
+      "id": 74885,
+      "productId": 42692,
+      "salePrice": 18500,
+      "regularSalePrice": 18500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:38:25.253Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145904661",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145904661",
+    "capturedAt": "2026-09-04T08:38:25.253Z",
+    "items": [],
+    "path": "data/other-shops/145904661.json"
+  }
+}

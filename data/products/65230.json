@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 65230,
+    "title": "Windows98SE/Me/2000/XP DVDソフト アメサラサ -雨と、不思議な君に、恋をする- [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015892",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015892.jpg",
+    "manufacturer": "CUFFS",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015892",
+      "メーカー": "CUFFS",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "原画": "兼清みわ\nカントク",
+      "シナリオ": "風間ぼなんざ\n市川環",
+      "アーティスト": "Duca",
+      "声優": "香澄りょう\n安玖深音\n本山美奈\n北都南\n草柳順子\nまきいづみ\n竹内幸輔\n竹田彬夫\n小次郎\n藤森ゆき奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:52.460Z"
+  },
+  "histories": [
+    {
+      "id": 65244,
+      "productId": 65230,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "/外箱日焼け有・外・内箱状態難有・サントラ欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T12:55:43.690Z"
+    },
+    {
+      "id": 75405,
+      "productId": 65230,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:52.460Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219164,
+      "productId": 65230,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 3750,
+      "checkedAt": "2026-09-04T08:43:52.000Z"
+    },
+    {
+      "id": 219163,
+      "productId": 65230,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱日焼け有・外・内箱状態難有・サントラ欠品",
+      "price": 1780,
+      "checkedAt": "2026-09-04T08:43:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015892",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015892",
+    "capturedAt": "2026-09-04T08:43:52.460Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱日焼け有・外・内箱状態難有・サントラ欠品",
+        "price": 1780
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 3750
+      }
+    ],
+    "path": "data/other-shops/145015892.json"
+  }
+}

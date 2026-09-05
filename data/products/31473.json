@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 31473,
+    "title": "WindowsXP/Vista/7 DVDソフト マテリアルブレイブ イグニッション ソフマップLIMITED EDITION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036470",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036470.jpg",
+    "manufacturer": "戯画/TEAM BALDRHEAD",
+    "releaseDate": "2013-01-25",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036470",
+      "メーカー": "戯画/TEAM BALDRHEAD",
+      "発売日": "2013/01/25",
+      "原画": "平つくね\n菊池政治",
+      "シナリオ": "沙月with企画屋",
+      "声優": "成瀬未亜\n斎藤愛子\n羽鳥空\n山本華\n羽高なる\n北川友梨\n星一人\n鶴屋春人\nLee\n越田直樹\n木ノ下やや\n野々村紗夜\n〆〆\n奥川久美子\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:07:54.772Z"
+  },
+  "histories": [
+    {
+      "id": 31487,
+      "productId": 31473,
+      "salePrice": 1450,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:20.771Z"
+    },
+    {
+      "id": 40223,
+      "productId": 31473,
+      "salePrice": 1450,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:08.848Z"
+    },
+    {
+      "id": 51236,
+      "productId": 31473,
+      "salePrice": 1450,
+      "regularSalePrice": 1550,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:58.391Z"
+    },
+    {
+      "id": 63254,
+      "productId": 31473,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:08:00.637Z"
+    },
+    {
+      "id": 73850,
+      "productId": 31473,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:07:54.772Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 177340,
+      "productId": 31473,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-08-27T16:08:00.000Z"
+    },
+    {
+      "id": 177339,
+      "productId": 31473,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-27T16:08:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 71442,
+    "title": "Windows2000/XP/Vista DVDソフト ナツユメナギサ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145902365",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145902365.jpg",
+    "manufacturer": "SAGA PLANETS",
+    "releaseDate": "2009-07-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145902365",
+      "メーカー": "SAGA PLANETS",
+      "発売日": "2009/07/31",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4500,
+    "latestRegularSalePrice": 4500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:53.347Z"
+  },
+  "histories": [
+    {
+      "id": 71456,
+      "productId": 71442,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:53.347Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145902365",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145902365",
+    "capturedAt": "2026-09-02T21:37:53.347Z",
+    "items": [],
+    "path": "data/other-shops/145902365.json"
+  }
+}

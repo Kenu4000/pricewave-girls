@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 43109,
+    "title": "Windows98SE/Me/2000/XP CDソフト ワンコとリリー[コミックマーケット70限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014655",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014655.jpg",
+    "manufacturer": "CUFFS",
+    "releaseDate": "2006-08-11",
+    "listPrice": 5238,
+    "modelNumber": "CFS004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014655001",
+      "メーカー": "CUFFS",
+      "発売日": "2006/08/11",
+      "定価": "5,238円",
+      "型番": "CFS004",
+      "原画": "桜沢いづみ",
+      "シナリオ": "トノイケダイスケ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 15500,
+    "latestRegularSalePrice": 15500,
+    "latestBuyPrice": 7000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:11.796Z"
+  },
+  "histories": [
+    {
+      "id": 43123,
+      "productId": 43109,
+      "salePrice": 5800,
+      "regularSalePrice": 5800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "オフィシャルブック・サントラCD欠品、箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:58.644Z"
+    },
+    {
+      "id": 44234,
+      "productId": 43109,
+      "salePrice": 5800,
+      "regularSalePrice": 5800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "オフィシャルブック・サントラCD欠品、箱状態難",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:43.544Z"
+    },
+    {
+      "id": 72227,
+      "productId": 43109,
+      "salePrice": 15500,
+      "regularSalePrice": 15500,
+      "buyPrice": 7000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:11.796Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207812,
+      "productId": 43109,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 オフィシャルブック・サントラCD欠品、箱状態難",
+      "price": 5400,
+      "checkedAt": "2026-09-03T01:17:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

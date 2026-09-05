@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 1929,
+    "title": "Windows7/8/10 DVDソフト 私、あの人に抱かれました…… -夫に言えない妻の秘密-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067924",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067924.jpg",
+    "manufacturer": "アトリエさくら",
+    "releaseDate": "2020-03-27",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0103",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067924",
+      "メーカー": "アトリエさくら",
+      "発売日": "2020/03/27",
+      "定価": "3,080円",
+      "型番": "ASPC-0103",
+      "原画": "NOSA",
+      "シナリオ": "中森南文里",
+      "声優": "一原わこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "OS": "A</a></td> <th class=\"text-right 1\">",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-22T16:02:34.907Z"
+  },
+  "histories": [
+    {
+      "id": 1943,
+      "productId": 1929,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6838,
+      "productId": 1929,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 36022,
+      "productId": 1929,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:50:17.780Z"
+    },
+    {
+      "id": 46502,
+      "productId": 1929,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:46.054Z"
+    },
+    {
+      "id": 57419,
+      "productId": 1929,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T16:02:34.907Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067924",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067924",
+    "capturedAt": "2026-08-22T16:02:34.907Z",
+    "items": [],
+    "path": "data/other-shops/145067924.json"
+  }
+}

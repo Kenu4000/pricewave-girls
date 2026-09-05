@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41854,
+    "title": "Windows2000/XP/Vista CDソフト 尾上さん家の悦楽生活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021903",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021903.jpg",
+    "manufacturer": "萌雛",
+    "releaseDate": "2009-10-16",
+    "listPrice": 3300,
+    "modelNumber": "MEH-00004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021903",
+      "メーカー": "萌雛",
+      "発売日": "2009/10/16",
+      "定価": "3,300円",
+      "型番": "MEH-00004",
+      "原画": "にの子",
+      "シナリオ": "沖水ミル",
+      "声優": "千早美来\nこのかなみ\n白井うさぎ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:52.031Z"
+  },
+  "histories": [
+    {
+      "id": 41868,
+      "productId": 41854,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:58.094Z"
+    },
+    {
+      "id": 53390,
+      "productId": 41854,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:58.023Z"
+    },
+    {
+      "id": 64950,
+      "productId": 41854,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:52.031Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021903",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021903",
+    "capturedAt": "2026-08-29T01:15:52.031Z",
+    "items": [],
+    "path": "data/other-shops/145021903.json"
+  }
+}

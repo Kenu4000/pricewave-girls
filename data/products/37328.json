@@ -1,0 +1,704 @@
+{
+  "product": {
+    "id": 37328,
+    "title": "Windows98/Me/2000/XP DVDソフト Fate/hollow ataraxia[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013888",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013888.jpg",
+    "manufacturer": "TYPE-MOON",
+    "releaseDate": "2005-12-29",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013888001",
+      "メーカー": "TYPE-MOON",
+      "発売日": "2005/12/29",
+      "定価": "7,480円",
+      "原画": "武内崇",
+      "シナリオ": "森崎亮人\n奈須きのこ\n星空めてお\n阿羅本景",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:57.046Z"
+  },
+  "histories": [
+    {
+      "id": 37342,
+      "productId": 37328,
+      "salePrice": 3000,
+      "regularSalePrice": 3180,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:58.468Z"
+    },
+    {
+      "id": 47893,
+      "productId": 37328,
+      "salePrice": 3180,
+      "regularSalePrice": 3180,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:24.920Z"
+    },
+    {
+      "id": 58725,
+      "productId": 37328,
+      "salePrice": 2400,
+      "regularSalePrice": 2700,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:41:37.592Z"
+    },
+    {
+      "id": 69523,
+      "productId": 37328,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:57.046Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 198754,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198753,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 2970,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198752,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198751,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198750,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198749,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198748,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2600,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198747,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2570,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198746,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198745,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2480,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198744,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198743,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198742,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198741,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1711,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 198740,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1500,
+      "checkedAt": "2026-09-02T02:52:57.000Z"
+    },
+    {
+      "id": 162462,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162461,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162460,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162459,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3020,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162458,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 2970,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162457,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162456,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162455,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2860,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162454,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162453,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162452,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162451,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162450,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 162449,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1500,
+      "checkedAt": "2026-08-23T13:41:37.000Z"
+    },
+    {
+      "id": 127241,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127240,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127239,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127238,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127237,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127236,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3020,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127235,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3020,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127234,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3011,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127233,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 2970,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127232,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127231,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127230,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127229,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127228,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2860,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127227,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 127226,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1500,
+      "checkedAt": "2026-08-17T16:09:25.000Z"
+    },
+    {
+      "id": 98347,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98346,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98345,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 3180,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98344,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98343,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3020,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98342,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3020,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98341,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3011,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98340,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3000,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98339,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98338,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98337,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98336,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2901,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98335,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    },
+    {
+      "id": 98334,
+      "productId": 37328,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古ディスク傷あり",
+      "price": 1500,
+      "checkedAt": "2026-08-16T01:01:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013888",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013888",
+    "capturedAt": "2026-09-02T02:52:57.046Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古ディスク傷あり",
+        "price": 1500
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1711
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 2400
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2411
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 2411
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 2480
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2511
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2570
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2600
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 2700
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古通常倉庫",
+        "price": 2970
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2750
+      }
+    ],
+    "path": "data/other-shops/145013888.json"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 71371,
+    "title": "WindowsXP/Vista/7 DVDソフト JOKER -死線の果ての道化師- ワンピースジャケット[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032854",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032854.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2012-06-29",
+    "listPrice": 10230,
+    "modelNumber": "AKT-0002",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032854001",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2012/06/29",
+      "定価": "10,230円",
+      "型番": "AKT-0002",
+      "原画": "おりょう",
+      "シナリオ": "小山田伸",
+      "声優": "魁皇楽\n白井春乃\nほうでん亭ガツ\n小鳥遊アキラ\n紺野澄香\n青山ゆかり\n三代眞子\n石川ゆうすけ\n籐野らん\nRina\n桐谷華\n野次馬根性",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱・特典冊子欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145032854?branch_number=1001"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3450,
+    "latestRegularSalePrice": 3450,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": "箱・特典冊子欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:16.451Z"
+  },
+  "histories": [
+    {
+      "id": 71385,
+      "productId": 71371,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "箱・特典冊子欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:16.451Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204863,
+      "productId": 71371,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・特典冊子欠品",
+      "price": 3450,
+      "checkedAt": "2026-09-02T21:37:16.000Z"
+    },
+    {
+      "id": 204862,
+      "productId": 71371,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 3499,
+      "checkedAt": "2026-09-02T21:37:16.000Z"
+    },
+    {
+      "id": 204861,
+      "productId": 71371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古箱・特典冊子欠品",
+      "price": 2685,
+      "checkedAt": "2026-09-02T21:37:16.000Z"
+    },
+    {
+      "id": 204860,
+      "productId": 71371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2685,
+      "checkedAt": "2026-09-02T21:37:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032854",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032854",
+    "capturedAt": "2026-09-02T21:37:16.451Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2685
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古箱・特典冊子欠品",
+        "price": 2685
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 3499
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・特典冊子欠品",
+        "price": 3450
+      }
+    ],
+    "path": "data/other-shops/145032854.json"
+  }
+}

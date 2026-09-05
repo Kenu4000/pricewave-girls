@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 41216,
+    "title": "WindowsXP/Vista/7 DVDソフト あかときっ!! ご入隊セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027826",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027826.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2011-05-27",
+    "listPrice": 12980,
+    "modelNumber": "ECAVG-022",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145027826",
+      "メーカー": "エスクード",
+      "発売日": "2011/05/27",
+      "定価": "12,980円",
+      "型番": "ECAVG-022",
+      "声優": "森川明大\n鈴田美夜子\n葛西優美\n青葉りんご\n桜川未央\n藤森ゆき奈\n小倉結衣\nかわしまりの\nまきいづみ\n上田朱音\n倉田まりや\n杉原茉莉\n古河徹人\n狛乃ハルコ\nいちごみるく\n蘭丸\n甘美",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1100,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:50:14.411Z"
+  },
+  "histories": [
+    {
+      "id": 41230,
+      "productId": 41216,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:47.980Z"
+    },
+    {
+      "id": 71136,
+      "productId": 41216,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:50:14.411Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204155,
+      "productId": 41216,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-02T20:50:14.000Z"
+    },
+    {
+      "id": 204154,
+      "productId": 41216,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱日焼け・タバコ臭有",
+      "price": 780,
+      "checkedAt": "2026-09-02T20:50:14.000Z"
+    },
+    {
+      "id": 107152,
+      "productId": 41216,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-17T06:59:48.000Z"
+    },
+    {
+      "id": 107151,
+      "productId": 41216,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-08-17T06:59:48.000Z"
+    },
+    {
+      "id": 107150,
+      "productId": 41216,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱日焼け・タバコ臭有",
+      "price": 780,
+      "checkedAt": "2026-08-17T06:59:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027826",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027826",
+    "capturedAt": "2026-09-02T20:50:14.411Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱日焼け・タバコ臭有",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145027826.json"
+  }
+}

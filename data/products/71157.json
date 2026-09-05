@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 71157,
+    "title": "Windows10/11 DVDソフト 夕凪荘のS級の彼女たち2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079811",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079811.jpg",
+    "manufacturer": "MOONSTONE Cherry",
+    "releaseDate": "2023-12-22",
+    "listPrice": 9900,
+    "modelNumber": "MSTN-066",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145079811001",
+      "メーカー": "MOONSTONE Cherry",
+      "発売日": "2023/12/22",
+      "定価": "9,900円",
+      "型番": "MSTN-066",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3750,
+    "latestRegularSalePrice": 3750,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:35.102Z"
+  },
+  "histories": [
+    {
+      "id": 71171,
+      "productId": 71157,
+      "salePrice": 3750,
+      "regularSalePrice": 3750,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:35.102Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204268,
+      "productId": 71157,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3750,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204267,
+      "productId": 71157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 近見店",
+      "condition": "中古",
+      "price": 4940,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204266,
+      "productId": 71157,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 4500,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204265,
+      "productId": 71157,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古通常倉庫",
+      "price": 3465,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204264,
+      "productId": 71157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079811",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079811",
+    "capturedAt": "2026-09-02T21:35:35.102Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3111
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古通常倉庫",
+        "price": 3465
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 4500
+      },
+      {
+        "storeName": "駿河屋 近見店",
+        "condition": "中古",
+        "price": 4940
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3750
+      }
+    ],
+    "path": "data/other-shops/145079811.json"
+  }
+}

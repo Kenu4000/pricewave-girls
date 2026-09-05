@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 71241,
+    "title": "Windows7/8/10 DVDソフト Dolphin Blade-ドルフィンブレード-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058354.jpg",
+    "manufacturer": "Island Belle",
+    "releaseDate": "2017-09-29",
+    "listPrice": 9680,
+    "modelNumber": "IB-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145058354",
+      "メーカー": "Island Belle",
+      "発売日": "2017/09/29",
+      "定価": "9,680円",
+      "型番": "IB-001",
+      "原画": "くきは\nこなた\nみけおう\nあまみね\nひなたもも",
+      "シナリオ": "高町健二\nみうらさぶろう",
+      "声優": "民安ともえ\n結城ほのか\n葵ゆり\n秋野花\n水野七海",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1201,
+    "latestRegularSalePrice": 1201,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:18.574Z"
+  },
+  "histories": [
+    {
+      "id": 71255,
+      "productId": 71241,
+      "salePrice": 1201,
+      "regularSalePrice": 1201,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:18.574Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058354",
+    "capturedAt": "2026-09-02T21:36:18.574Z",
+    "items": [],
+    "path": "data/other-shops/145058354.json"
+  }
+}

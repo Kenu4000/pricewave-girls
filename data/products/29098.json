@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 29098,
+    "title": "Windows ダウンロードカードソフト 【復刻】ハミダシクリエイティブ ASMR(音声作品)第4弾『鎌倉詩桜に飼いならされる膝枕八幡宮』WスエードB2タペストリー付限定版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084165",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "まどぼいす",
+    "releaseDate": "2026-03-27",
+    "listPrice": 4620,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145084165001",
+      "メーカー": "まどぼいす",
+      "発売日": "2026/03/27",
+      "定価": "4,620円",
+      "声優": "浜辺実雨",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:00.650Z"
+  },
+  "histories": [
+    {
+      "id": 29112,
+      "productId": 29098,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:18.740Z"
+    },
+    {
+      "id": 37954,
+      "productId": 29098,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:19.030Z"
+    },
+    {
+      "id": 48395,
+      "productId": 29098,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:49.884Z"
+    },
+    {
+      "id": 59513,
+      "productId": 29098,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:04:17.487Z"
+    },
+    {
+      "id": 70295,
+      "productId": 29098,
+      "salePrice": 3700,
+      "regularSalePrice": 3700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:00.650Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201556,
+      "productId": 29098,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3700,
+      "checkedAt": "2026-09-02T20:44:00.000Z"
+    },
+    {
+      "id": 201555,
+      "productId": 29098,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3611,
+      "checkedAt": "2026-09-02T20:44:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084165",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084165",
+    "capturedAt": "2026-09-02T20:44:00.650Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3700
+      }
+    ],
+    "path": "data/other-shops/145084165.json"
+  }
+}

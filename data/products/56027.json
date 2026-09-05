@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 56027,
+    "title": "Windows2000/XP/Vista DVDソフト 夏色ストレート!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019679",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019679.jpg",
+    "manufacturer": "White Cyc",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9680,
+    "modelNumber": "WCYC-4748",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019679",
+      "メーカー": "White Cyc",
+      "発売日": "2009/04/24",
+      "定価": "9,680円",
+      "型番": "WCYC-4748",
+      "原画": "水沢深森\n奈月ここ\nMAKOTO\n成沢空",
+      "シナリオ": "セーヤ",
+      "声優": "月黒斗夜\n成瀬未亜\nみる\n風音\n佐本二厘\n民安ともえ\nみすみ\n西野みく\n海原エレナ\n咲良さく\n土門熱\n夏田空",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:41:37.747Z"
+  },
+  "histories": [
+    {
+      "id": 56041,
+      "productId": 56027,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:20.839Z"
+    },
+    {
+      "id": 75143,
+      "productId": 56027,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:37.747Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019679",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019679",
+    "capturedAt": "2026-09-04T08:41:37.747Z",
+    "items": [],
+    "path": "data/other-shops/145019679.json"
+  }
+}

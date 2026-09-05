@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 41120,
+    "title": "WindowsXP/Vista/7 DVDソフト ラブ☆キス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029171",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029171.jpg",
+    "manufacturer": "Lime",
+    "releaseDate": "2011-08-26",
+    "listPrice": 7480,
+    "modelNumber": "LMSW-0007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029171",
+      "メーカー": "Lime",
+      "発売日": "2011/08/26",
+      "定価": "7,480円",
+      "型番": "LMSW-0007",
+      "原画": "羽純りお",
+      "シナリオ": "藤海琢樹",
+      "声優": "小倉結衣\n真宮ゆず\n大波こなみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:39:02.428Z"
+  },
+  "histories": [
+    {
+      "id": 41134,
+      "productId": 41120,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:00.551Z"
+    },
+    {
+      "id": 52860,
+      "productId": 41120,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:25.054Z"
+    },
+    {
+      "id": 63821,
+      "productId": 41120,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:27.239Z"
+    },
+    {
+      "id": 74959,
+      "productId": 41120,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:02.428Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142370,
+      "productId": 41120,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-19T16:19:25.000Z"
+    },
+    {
+      "id": 142369,
+      "productId": 41120,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-19T16:19:25.000Z"
+    },
+    {
+      "id": 142368,
+      "productId": 41120,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 480,
+      "checkedAt": "2026-08-19T16:19:25.000Z"
+    },
+    {
+      "id": 106941,
+      "productId": 41120,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T06:59:00.000Z"
+    },
+    {
+      "id": 106940,
+      "productId": 41120,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 480,
+      "checkedAt": "2026-08-17T06:59:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029171",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029171",
+    "capturedAt": "2026-09-04T08:39:02.428Z",
+    "items": [],
+    "path": "data/other-shops/145029171.json"
+  }
+}

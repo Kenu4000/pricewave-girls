@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 42417,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 魔女道 -あの散り際の美しさ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017923",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017923.jpg",
+    "manufacturer": "G.J？",
+    "releaseDate": "2008-05-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017923",
+      "メーカー": "G.J？",
+      "発売日": "2008/05/30",
+      "定価": "9,680円",
+      "原画": "佐野俊英",
+      "シナリオ": "わらしもん\n呱々",
+      "声優": "青葉りんご\n未来羽\n桜川未央\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:20.835Z"
+  },
+  "histories": [
+    {
+      "id": 42431,
+      "productId": 42417,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:30.130Z"
+    },
+    {
+      "id": 53807,
+      "productId": 42417,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:27.646Z"
+    },
+    {
+      "id": 73252,
+      "productId": 42417,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:20.835Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

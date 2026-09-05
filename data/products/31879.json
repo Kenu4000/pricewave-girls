@@ -1,0 +1,170 @@
+{
+  "product": {
+    "id": 31879,
+    "title": "Windows CDソフト ホチキス 恒楠学園制服 ご予約ありがとうDISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031884",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031884.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2012-02-24",
+    "listPrice": null,
+    "modelNumber": "GIGA-120217",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145031884001",
+      "メーカー": "戯画",
+      "発売日": "2012/02/24",
+      "型番": "GIGA-120217",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "580",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:08:07.363Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:08:06.961Z"
+  },
+  "histories": [
+    {
+      "id": 31893,
+      "productId": 31879,
+      "salePrice": 899,
+      "regularSalePrice": 899,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:31.400Z"
+    },
+    {
+      "id": 40628,
+      "productId": 31879,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:20.557Z"
+    },
+    {
+      "id": 43821,
+      "productId": 31879,
+      "salePrice": 899,
+      "regularSalePrice": 899,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:19.431Z"
+    },
+    {
+      "id": 55323,
+      "productId": 31879,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:48:51.858Z"
+    },
+    {
+      "id": 66399,
+      "productId": 31879,
+      "salePrice": 500,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:08:06.961Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 186200,
+      "productId": 31879,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-29T13:08:07.000Z"
+    },
+    {
+      "id": 186199,
+      "productId": 31879,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-29T13:08:07.000Z"
+    },
+    {
+      "id": 186198,
+      "productId": 31879,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 499,
+      "checkedAt": "2026-08-29T13:08:07.000Z"
+    },
+    {
+      "id": 149214,
+      "productId": 31879,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-21T04:48:51.000Z"
+    },
+    {
+      "id": 149213,
+      "productId": 31879,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 499,
+      "checkedAt": "2026-08-21T04:48:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031884",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031884",
+    "capturedAt": "2026-08-29T13:08:06.961Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 499
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145031884.json"
+  }
+}

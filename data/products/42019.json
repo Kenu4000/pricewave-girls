@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 42019,
+    "title": "Windows2000Pro/XP/Vista DVDソフト つくもの～やどりぎロマンス～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019843",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019843.jpg",
+    "manufacturer": "ザウス",
+    "releaseDate": "2009-05-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019843",
+      "メーカー": "ザウス",
+      "発売日": "2009/05/01",
+      "定価": "9,680円",
+      "原画": "人丸",
+      "シナリオ": "黒瀧糸由",
+      "アーティスト": "理多",
+      "声優": "桜井美鈴\n青山ゆかり\n杉沢結花\n佐々留美子\n佐久間紅美\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:19.341Z"
+  },
+  "histories": [
+    {
+      "id": 42033,
+      "productId": 42019,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:23.243Z"
+    },
+    {
+      "id": 53507,
+      "productId": 42019,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:56.400Z"
+    },
+    {
+      "id": 65060,
+      "productId": 42019,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:39.801Z"
+    },
+    {
+      "id": 75338,
+      "productId": 42019,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:19.341Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019843",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019843",
+    "capturedAt": "2026-09-04T08:43:19.341Z",
+    "items": [],
+    "path": "data/other-shops/145019843.json"
+  }
+}

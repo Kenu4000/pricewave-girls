@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 62134,
+    "title": "WindowsXP/Vista/7 DVDソフト JOKER -死線の果ての道化師- キャラメルボックス[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033595",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033595.jpg",
+    "manufacturer": "あかべぇそふとすりぃ",
+    "releaseDate": "2012-06-29",
+    "listPrice": 9680,
+    "modelNumber": "AKT-0001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033595",
+      "メーカー": "あかべぇそふとすりぃ",
+      "発売日": "2012/06/29",
+      "定価": "9,680円",
+      "型番": "AKT-0001",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "特典冊子欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": "特典冊子欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:16.718Z"
+  },
+  "histories": [
+    {
+      "id": 62148,
+      "productId": 62134,
+      "salePrice": 2640,
+      "regularSalePrice": 2640,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "特典冊子欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:32.630Z"
+    },
+    {
+      "id": 62812,
+      "productId": 62134,
+      "salePrice": 2640,
+      "regularSalePrice": 2640,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "特典冊子欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:31.803Z"
+    },
+    {
+      "id": 64605,
+      "productId": 62134,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": "特典冊子欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:16.718Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181459,
+      "productId": 62134,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 2640,
+      "checkedAt": "2026-08-29T01:13:16.000Z"
+    },
+    {
+      "id": 181458,
+      "productId": 62134,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高松瓦町FLAG店",
+      "condition": "中古",
+      "price": 2560,
+      "checkedAt": "2026-08-29T01:13:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145033595",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033595",
+    "capturedAt": "2026-08-29T01:13:16.718Z",
+    "items": [
+      {
+        "storeName": "駿河屋高松瓦町FLAG店",
+        "condition": "中古",
+        "price": 2560
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 2640
+      }
+    ],
+    "path": "data/other-shops/145033595.json"
+  }
+}

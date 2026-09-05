@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71142,
+    "title": "Windows10/11 DVDソフト 神様ちゅ～ず! センセー女の子似合ってるよっ! [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083333",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083333.jpg",
+    "manufacturer": "くまのみそふと",
+    "releaseDate": "2025-07-25",
+    "listPrice": 3850,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083333001",
+      "メーカー": "くまのみそふと",
+      "発売日": "2025/07/25",
+      "定価": "3,850円",
+      "原画": "星クズの夜\n栗餅ちづる",
+      "シナリオ": "瀬戸こうへい",
+      "声優": "榎本ねむ\n七種結花",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:27.874Z"
+  },
+  "histories": [
+    {
+      "id": 71156,
+      "productId": 71142,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:27.874Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204205,
+      "productId": 71142,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204204,
+      "productId": 71142,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3011,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204203,
+      "productId": 71142,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083333",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083333",
+    "capturedAt": "2026-09-02T21:35:27.874Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 2880
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 3011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2880
+      }
+    ],
+    "path": "data/other-shops/145083333.json"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 8057,
+    "title": "Windows95/98/Me CDソフト Trois～トロワ～ [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145005140",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145005140.jpg",
+    "manufacturer": "リメイン",
+    "releaseDate": "2001-10-05",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145005140",
+      "メーカー": "リメイン",
+      "発売日": "2001/10/05",
+      "定価": "9,680円",
+      "原画": "KeG",
+      "シナリオ": "鷹乃一生\nさとぴぃ",
+      "声優": "春野ゆきね\nカンザキカナリ\n春野日和\n原西希京\nこおろぎさとみ",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:53:49.487Z"
+  },
+  "histories": [
+    {
+      "id": 8071,
+      "productId": 8057,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:54.000Z"
+    },
+    {
+      "id": 26766,
+      "productId": 8057,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:06.254Z"
+    },
+    {
+      "id": 37510,
+      "productId": 8057,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:32.745Z"
+    },
+    {
+      "id": 48025,
+      "productId": 8057,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:41.026Z"
+    },
+    {
+      "id": 58847,
+      "productId": 8057,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:42:39.702Z"
+    },
+    {
+      "id": 69637,
+      "productId": 8057,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:53:49.487Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145005140",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145005140",
+    "capturedAt": "2026-09-02T02:53:49.487Z",
+    "items": [],
+    "path": "data/other-shops/145005140.json"
+  }
+}

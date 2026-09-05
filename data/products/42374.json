@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42374,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 美少女ゲーム・ベストシリーズ 触区 -学園妖触譚-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018178",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018178.jpg",
+    "manufacturer": "Lusterise",
+    "releaseDate": "2008-07-04",
+    "listPrice": 6380,
+    "modelNumber": "VOL032",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145018178",
+      "メーカー": "Lusterise",
+      "発売日": "2008/07/04",
+      "定価": "6,380円",
+      "型番": "VOL032",
+      "原画": "雪村一",
+      "声優": "佐藤玲羅\n中瀬ひな\n安堂りゅう\nTHOKO",
+      "シナリオ": "銀狐\n若林浩太郎\nすまっしゅぱんだ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:41.938Z"
+  },
+  "histories": [
+    {
+      "id": 42388,
+      "productId": 42374,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:05.777Z"
+    },
+    {
+      "id": 53772,
+      "productId": 42374,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:11.631Z"
+    },
+    {
+      "id": 65740,
+      "productId": 42374,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:41.938Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018178",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018178",
+    "capturedAt": "2026-08-29T13:02:41.938Z",
+    "items": [],
+    "path": "data/other-shops/145018178.json"
+  }
+}

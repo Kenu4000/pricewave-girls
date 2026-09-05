@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 31013,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 麻雀2014",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040421.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2014-01-31",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145040421",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2014/01/31",
+      "定価": "4,378円",
+      "原画": "かのら\n生名多聞\nゆん\n麻の葉",
+      "シナリオ": "片岡とも\n池波智香",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1790,
+    "latestRegularSalePrice": 1790,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:06:26.202Z"
+  },
+  "histories": [
+    {
+      "id": 31027,
+      "productId": 31013,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:59.894Z"
+    },
+    {
+      "id": 39778,
+      "productId": 31013,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:46.061Z"
+    },
+    {
+      "id": 50896,
+      "productId": 31013,
+      "salePrice": 1855,
+      "regularSalePrice": 1855,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:06.729Z"
+    },
+    {
+      "id": 62957,
+      "productId": 31013,
+      "salePrice": 1825,
+      "regularSalePrice": 1825,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:42.078Z"
+    },
+    {
+      "id": 73659,
+      "productId": 31013,
+      "salePrice": 1790,
+      "regularSalePrice": 1790,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:06:26.202Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 103993,
+      "productId": 31013,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1870,
+      "checkedAt": "2026-08-16T01:23:47.000Z"
+    },
+    {
+      "id": 103992,
+      "productId": 31013,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:23:47.000Z"
+    },
+    {
+      "id": 78122,
+      "productId": 31013,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1870,
+      "checkedAt": "2026-08-15T23:26:00.000Z"
+    },
+    {
+      "id": 78121,
+      "productId": 31013,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:26:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040421",
+    "capturedAt": "2026-09-03T16:06:26.202Z",
+    "items": [],
+    "path": "data/other-shops/145040421.json"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 31421,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 恋の話と",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035504",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035504.jpg",
+    "manufacturer": "I.D.",
+    "releaseDate": "2013-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145035504",
+      "メーカー": "I.D.",
+      "発売日": "2013/02/28",
+      "定価": "9,680円",
+      "原画": "龍牙翔",
+      "シナリオ": "靖子\n来夢みんと",
+      "声優": "手塚りょうこ\n絢音遥\n涼森ちさと\nshizuku",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 586,
+    "latestRegularSalePrice": 586,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:07:45.718Z"
+  },
+  "histories": [
+    {
+      "id": 31435,
+      "productId": 31421,
+      "salePrice": 617,
+      "regularSalePrice": 617,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:41.262Z"
+    },
+    {
+      "id": 40173,
+      "productId": 31421,
+      "salePrice": 617,
+      "regularSalePrice": 617,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:45.144Z"
+    },
+    {
+      "id": 51200,
+      "productId": 31421,
+      "salePrice": 617,
+      "regularSalePrice": 617,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:40.670Z"
+    },
+    {
+      "id": 63222,
+      "productId": 31421,
+      "salePrice": 617,
+      "regularSalePrice": 617,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:45.892Z"
+    },
+    {
+      "id": 73830,
+      "productId": 31421,
+      "salePrice": 586,
+      "regularSalePrice": 586,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:07:45.718Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035504",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035504",
+    "capturedAt": "2026-09-03T16:07:45.718Z",
+    "items": [],
+    "path": "data/other-shops/145035504.json"
+  }
+}

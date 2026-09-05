@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 61971,
+    "title": "Windows8/8.1 DVDソフト Canvas DVD パッケージ復刻版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071329.jpg",
+    "manufacturer": "F＆C FC01",
+    "releaseDate": "2021-03-26",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145071329",
+      "メーカー": "F＆C FC01",
+      "発売日": "2021/03/26",
+      "定価": "4,180円",
+      "原画": "植田亮\n☆画野朗\n魚\nぽん酢",
+      "シナリオ": "雨城弘明\n宮村優\nトノイケダイスケ",
+      "声優": "桜井みき\n藤咲かおり\n友永朱音\n坂口亜梨子\n静木亜美",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3870,
+    "latestRegularSalePrice": 3870,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:05.786Z"
+  },
+  "histories": [
+    {
+      "id": 61985,
+      "productId": 61971,
+      "salePrice": 3875,
+      "regularSalePrice": 3875,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:42:19.579Z"
+    },
+    {
+      "id": 62649,
+      "productId": 61971,
+      "salePrice": 3875,
+      "regularSalePrice": 3875,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:03:16.667Z"
+    },
+    {
+      "id": 64442,
+      "productId": 61971,
+      "salePrice": 3870,
+      "regularSalePrice": 3870,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:05.786Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145071329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071329",
+    "capturedAt": "2026-08-29T01:12:05.786Z",
+    "items": [],
+    "path": "data/other-shops/145071329.json"
+  }
+}

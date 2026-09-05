@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 51652,
+    "title": "Windows DVDソフト MARIONETTE ～糸使い～ DVD Edition[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018290",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018290.jpg",
+    "manufacturer": "Anise",
+    "releaseDate": "2008-06-20",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145018290",
+      "メーカー": "Anise",
+      "発売日": "2008/06/20",
+      "定価": "4,180円",
+      "原画": "ここのか",
+      "シナリオ": "t-kun",
+      "声優": "氷河流\n内村みるく\n春野かえる\n深井晴花\n北都南",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:22:12.200Z"
+  },
+  "histories": [
+    {
+      "id": 51666,
+      "productId": 51652,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:41.570Z"
+    },
+    {
+      "id": 72820,
+      "productId": 51652,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:22:12.200Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

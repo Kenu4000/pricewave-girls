@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 30119,
+    "title": "WindowsVista/7/8.1/10 DVDソフト EXTRAVAGANZA コンプリートエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054505",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054505.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2016-05-27",
+    "listPrice": 15180,
+    "modelNumber": "BCYC-188",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054505001",
+      "メーカー": "Black Cyc",
+      "発売日": "2016/05/27",
+      "定価": "15,180円",
+      "型番": "BCYC-188",
+      "原画": "上田メタヲ",
+      "シナリオ": "和泉万夜",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 19000,
+    "latestRegularSalePrice": 19000,
+    "latestBuyPrice": 10000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:14:44.547Z"
+  },
+  "histories": [
+    {
+      "id": 30133,
+      "productId": 30119,
+      "salePrice": 13500,
+      "regularSalePrice": 19800,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:57.180Z"
+    },
+    {
+      "id": 38924,
+      "productId": 30119,
+      "salePrice": 13500,
+      "regularSalePrice": 19800,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:02.954Z"
+    },
+    {
+      "id": 43601,
+      "productId": 30119,
+      "salePrice": 19800,
+      "regularSalePrice": 19800,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:27.969Z"
+    },
+    {
+      "id": 71966,
+      "productId": 30119,
+      "salePrice": 19000,
+      "regularSalePrice": 19000,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:14:44.547Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207302,
+      "productId": 30119,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱・蟲狂編ソフト・ファンブック欠品",
+      "price": 13000,
+      "checkedAt": "2026-09-03T01:14:45.000Z"
+    },
+    {
+      "id": 112794,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 19800,
+      "checkedAt": "2026-08-17T09:33:28.000Z"
+    },
+    {
+      "id": 112793,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 13111,
+      "checkedAt": "2026-08-17T09:33:28.000Z"
+    },
+    {
+      "id": 102132,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 13500,
+      "checkedAt": "2026-08-16T01:16:03.000Z"
+    },
+    {
+      "id": 102131,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 13111,
+      "checkedAt": "2026-08-16T01:16:03.000Z"
+    },
+    {
+      "id": 76171,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 13500,
+      "checkedAt": "2026-08-15T23:16:57.000Z"
+    },
+    {
+      "id": 76170,
+      "productId": 30119,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 13111,
+      "checkedAt": "2026-08-15T23:16:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

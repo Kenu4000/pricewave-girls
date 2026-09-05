@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 42762,
+    "title": "Windows98/Me/2000/XP CDソフト 雷の戦士ライディII ～邪淫の神殿～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016228",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016228.jpg",
+    "manufacturer": "ZyX",
+    "releaseDate": "2007-06-15",
+    "listPrice": 8580,
+    "modelNumber": "ZYX-00431",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016228001",
+      "メーカー": "ZyX",
+      "発売日": "2007/06/15",
+      "定価": "8,580円",
+      "型番": "ZYX-00431",
+      "原画": "肥後王国\n和馬村政\nさわのたかじ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "3900",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3700,
+    "latestRegularSalePrice": 3900,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:05:01.341Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:01.186Z"
+  },
+  "histories": [
+    {
+      "id": 42776,
+      "productId": 42762,
+      "salePrice": 4350,
+      "regularSalePrice": 4350,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:50.603Z"
+    },
+    {
+      "id": 54922,
+      "productId": 42762,
+      "salePrice": 3900,
+      "regularSalePrice": 3900,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:21.420Z"
+    },
+    {
+      "id": 66026,
+      "productId": 42762,
+      "salePrice": 3700,
+      "regularSalePrice": 3900,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:01.186Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

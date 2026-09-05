@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 31982,
+    "title": "WindowsXP/Vista/7 DVDソフト びんかんアスリート[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030629",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030629.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2011-11-25",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0082",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030629",
+      "メーカー": "マリン",
+      "発売日": "2011/11/25",
+      "定価": "4,180円",
+      "型番": "MGGW0082",
+      "原画": "飛行海",
+      "シナリオ": "倉嶋秀二\n慈恩大\n東人\n真黒乱\nピーナツ太郎",
+      "声優": "木梨樹里\n一色ヒカル\n楠鈴音\nサトウユキ\nみる\nまきいづみ\n風音\n金田まひる\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:33:24.605Z"
+  },
+  "histories": [
+    {
+      "id": 31996,
+      "productId": 31982,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:31.257Z"
+    },
+    {
+      "id": 40726,
+      "productId": 31982,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:09.955Z"
+    },
+    {
+      "id": 52198,
+      "productId": 31982,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:24.605Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105822,
+      "productId": 31982,
+      "sourceType": "other_shop",
+      "storeName": "ｒストアBOOKS",
+      "condition": "中古良い",
+      "price": 811,
+      "checkedAt": "2026-08-16T01:33:10.000Z"
+    },
+    {
+      "id": 105821,
+      "productId": 31982,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:33:10.000Z"
+    },
+    {
+      "id": 79980,
+      "productId": 31982,
+      "sourceType": "other_shop",
+      "storeName": "ｒストアBOOKS",
+      "condition": "中古良い",
+      "price": 811,
+      "checkedAt": "2026-08-15T23:46:31.000Z"
+    },
+    {
+      "id": 79979,
+      "productId": 31982,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:46:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

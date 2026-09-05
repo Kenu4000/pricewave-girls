@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 41063,
+    "title": "WindowsXP/Vista/7/8 DVDソフト LO(ロー)あんぐる!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036286",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036286.jpg",
+    "manufacturer": "はむはむソフト",
+    "releaseDate": "2013-05-24",
+    "listPrice": 9555,
+    "modelNumber": "VAP-00005D",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036286",
+      "メーカー": "はむはむソフト",
+      "発売日": "2013/05/24",
+      "定価": "9,555円",
+      "型番": "VAP-00005D",
+      "原画": "池田淳\n風瑛なづき\n希望つばめ",
+      "シナリオ": "下地和彦\nHatsu",
+      "声優": "奥山歩\n花野うさぎ\n手塚りょうこ\nmahilo\nあさり☆",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1000,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:08.236Z"
+  },
+  "histories": [
+    {
+      "id": 41077,
+      "productId": 41063,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:32.573Z"
+    },
+    {
+      "id": 52815,
+      "productId": 41063,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:59.255Z"
+    },
+    {
+      "id": 63792,
+      "productId": 41063,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:08.236Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178530,
+      "productId": 41063,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1530,
+      "checkedAt": "2026-08-27T16:12:08.000Z"
+    },
+    {
+      "id": 178529,
+      "productId": 41063,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1520,
+      "checkedAt": "2026-08-27T16:12:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036286",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036286",
+    "capturedAt": "2026-08-27T16:12:08.236Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1520
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1530
+      }
+    ],
+    "path": "data/other-shops/145036286.json"
+  }
+}

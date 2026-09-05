@@ -1,0 +1,171 @@
+{
+  "product": {
+    "id": 3008,
+    "title": "Windows95/98/Me/2000/Mac CDソフト Dual Colors",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145004592",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145004592.jpg",
+    "manufacturer": "シフォン",
+    "releaseDate": "2001-04-13",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Me",
+    "details": {
+      "管理番号": "145004592",
+      "メーカー": "シフォン",
+      "発売日": "2001/04/13",
+      "定価": "9,680円",
+      "原画": "このは",
+      "シナリオ": "二階堂弥生",
+      "カテゴリ": "アダルト Windows Windows Me",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:50:13.573Z"
+  },
+  "histories": [
+    {
+      "id": 3022,
+      "productId": 3008,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 26613,
+      "productId": 3008,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:12:31.513Z"
+    },
+    {
+      "id": 36833,
+      "productId": 3008,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:32.812Z"
+    },
+    {
+      "id": 47464,
+      "productId": 3008,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:24.674Z"
+    },
+    {
+      "id": 58346,
+      "productId": 3008,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:38:21.005Z"
+    },
+    {
+      "id": 69162,
+      "productId": 3008,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:50:13.573Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 125912,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-17T16:05:25.000Z"
+    },
+    {
+      "id": 125911,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 511,
+      "checkedAt": "2026-08-17T16:05:25.000Z"
+    },
+    {
+      "id": 96745,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:57:33.000Z"
+    },
+    {
+      "id": 96744,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 511,
+      "checkedAt": "2026-08-16T00:57:33.000Z"
+    },
+    {
+      "id": 65353,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-09T21:12:32.000Z"
+    },
+    {
+      "id": 65352,
+      "productId": 3008,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 511,
+      "checkedAt": "2026-08-09T21:12:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

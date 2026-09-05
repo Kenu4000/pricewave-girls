@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41388,
+    "title": "WindowsXP/Vista/7 DVDソフト 5inブルトパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026059",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026059.jpg",
+    "manufacturer": "BlueTopaz",
+    "releaseDate": "2010-12-24",
+    "listPrice": 9680,
+    "modelNumber": "BLTP-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026059",
+      "メーカー": "BlueTopaz",
+      "発売日": "2010/12/24",
+      "定価": "9,680円",
+      "型番": "BLTP-007",
+      "原画": "椋木尋",
+      "シナリオ": "初見Rodeo",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 16611,
+    "latestRegularSalePrice": 16611,
+    "latestBuyPrice": 8700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:16:03.832Z"
+  },
+  "histories": [
+    {
+      "id": 41402,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:23.953Z"
+    },
+    {
+      "id": 43921,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:08.529Z"
+    },
+    {
+      "id": 72103,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:03.832Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026059",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026059",
+    "capturedAt": "2026-09-03T01:16:03.832Z",
+    "items": [],
+    "path": "data/other-shops/145026059.json"
+  }
+}

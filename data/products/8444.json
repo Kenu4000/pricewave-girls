@@ -1,0 +1,369 @@
+{
+  "product": {
+    "id": 8444,
+    "title": "Windows98/Me/2000/XP CDソフト MilkywayDVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011256",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011256.jpg",
+    "manufacturer": "Witch",
+    "releaseDate": "2004-05-28",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011256",
+      "メーカー": "Witch",
+      "発売日": "2004/05/28",
+      "定価": "7,480円",
+      "原画": "瀬之本久史\n真広雄海",
+      "シナリオ": "悠月魅夜",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:43:24.988Z"
+  },
+  "histories": [
+    {
+      "id": 8458,
+      "productId": 8444,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 26837,
+      "productId": 8444,
+      "salePrice": 1150,
+      "regularSalePrice": 1180,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:44.883Z"
+    },
+    {
+      "id": 37817,
+      "productId": 8444,
+      "salePrice": 1150,
+      "regularSalePrice": 1180,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:09.970Z"
+    },
+    {
+      "id": 48295,
+      "productId": 8444,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:55.778Z"
+    },
+    {
+      "id": 59426,
+      "productId": 8444,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:03:32.759Z"
+    },
+    {
+      "id": 70208,
+      "productId": 8444,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:43:24.988Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201481,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-09-02T20:43:25.000Z"
+    },
+    {
+      "id": 201480,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-02T20:43:25.000Z"
+    },
+    {
+      "id": 201479,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-02T20:43:25.000Z"
+    },
+    {
+      "id": 201478,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 999,
+      "checkedAt": "2026-09-02T20:43:25.000Z"
+    },
+    {
+      "id": 165022,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-08-23T16:03:34.000Z"
+    },
+    {
+      "id": 165021,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-23T16:03:34.000Z"
+    },
+    {
+      "id": 165020,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-23T16:03:34.000Z"
+    },
+    {
+      "id": 165019,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 999,
+      "checkedAt": "2026-08-23T16:03:34.000Z"
+    },
+    {
+      "id": 128247,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-08-17T16:12:56.000Z"
+    },
+    {
+      "id": 128246,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-17T16:12:56.000Z"
+    },
+    {
+      "id": 128245,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T16:12:56.000Z"
+    },
+    {
+      "id": 128244,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T16:12:56.000Z"
+    },
+    {
+      "id": 128243,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-17T16:12:56.000Z"
+    },
+    {
+      "id": 99620,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-08-16T01:06:10.000Z"
+    },
+    {
+      "id": 99619,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-16T01:06:10.000Z"
+    },
+    {
+      "id": 99618,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:06:10.000Z"
+    },
+    {
+      "id": 99617,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:06:10.000Z"
+    },
+    {
+      "id": 99616,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-16T01:06:10.000Z"
+    },
+    {
+      "id": 65949,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-08-09T21:37:45.000Z"
+    },
+    {
+      "id": 65948,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-09T21:37:45.000Z"
+    },
+    {
+      "id": 65947,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-09T21:37:45.000Z"
+    },
+    {
+      "id": 65946,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-09T21:37:45.000Z"
+    },
+    {
+      "id": 1905,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1180,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1904,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    },
+    {
+      "id": 1903,
+      "productId": 8444,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-04T17:12:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145011256",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145011256",
+    "capturedAt": "2026-09-02T20:43:24.988Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 999
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145011256.json"
+  }
+}

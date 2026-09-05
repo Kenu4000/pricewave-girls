@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41839,
+    "title": "Windows2000/XP/Vista DVDソフト 触装!魔法少女ヒカル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021914",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021914.jpg",
+    "manufacturer": "Black Lilith",
+    "releaseDate": "2009-10-30",
+    "listPrice": 2420,
+    "modelNumber": "LBK-10044",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021914",
+      "メーカー": "Black Lilith",
+      "発売日": "2009/10/30",
+      "定価": "2,420円",
+      "型番": "LBK-10044",
+      "原画": "ズンダレぽん",
+      "シナリオ": "そのだまさき",
+      "声優": "小次狼\n計名さや香\n緒田マリ\n平野響子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:53.763Z"
+  },
+  "histories": [
+    {
+      "id": 41853,
+      "productId": 41839,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:50.408Z"
+    },
+    {
+      "id": 44013,
+      "productId": 41839,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:53.763Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021914",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021914",
+    "capturedAt": "2026-08-17T09:36:53.763Z",
+    "items": [],
+    "path": "data/other-shops/145021914.json"
+  }
+}

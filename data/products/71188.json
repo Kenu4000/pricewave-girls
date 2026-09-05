@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 71188,
+    "title": "Windows8/8.1/10 DVDソフト 痴的な熟女エロリスト -満員電車で夫に隠れて他人棒搾り-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071348",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071348.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2021-02-26",
+    "listPrice": 2200,
+    "modelNumber": "APT-179",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071348001",
+      "メーカー": "アパタイト",
+      "発売日": "2021/02/26",
+      "定価": "2,200円",
+      "型番": "APT-179",
+      "原画": "紅葉-K",
+      "シナリオ": "岡下誠",
+      "声優": "雨森りこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:50.688Z"
+  },
+  "histories": [
+    {
+      "id": 71202,
+      "productId": 71188,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:50.688Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204360,
+      "productId": 71188,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    },
+    {
+      "id": 204359,
+      "productId": 71188,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1280,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    },
+    {
+      "id": 204358,
+      "productId": 71188,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071348",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071348",
+    "capturedAt": "2026-09-02T21:35:50.688Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145071348.json"
+  }
+}

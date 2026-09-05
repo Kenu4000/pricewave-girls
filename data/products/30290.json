@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 30290,
+    "title": "WindowsXP/Vista/7 DVDソフト BEST BUY F＆C 17 ナチュラル 1・2パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066552",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066552.jpg",
+    "manufacturer": "F＆C",
+    "releaseDate": "2015-12-25",
+    "listPrice": 4400,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145066552",
+      "メーカー": "F＆C",
+      "発売日": "2015/12/25",
+      "定価": "4,400円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:32.246Z"
+  },
+  "histories": [
+    {
+      "id": 30304,
+      "productId": 30290,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:40.286Z"
+    },
+    {
+      "id": 39085,
+      "productId": 30290,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:33.641Z"
+    },
+    {
+      "id": 71035,
+      "productId": 30290,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:32.246Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145066552",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066552",
+    "capturedAt": "2026-09-02T20:49:32.246Z",
+    "items": [],
+    "path": "data/other-shops/145066552.json"
+  }
+}

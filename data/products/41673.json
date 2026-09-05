@@ -1,0 +1,171 @@
+{
+  "product": {
+    "id": 41673,
+    "title": "Windows CDソフト W.L.O. 世界恋愛機構 未来のために、いま恋をしよう。 Sofmap特典 デジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025889",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025889.jpg",
+    "manufacturer": "あかべぇそふとつぅ",
+    "releaseDate": "2010-04-15",
+    "listPrice": null,
+    "modelNumber": "SKR-1441",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145025889001",
+      "メーカー": "あかべぇそふとつぅ",
+      "発売日": "2010/04/15",
+      "型番": "SKR-1441",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T01:15:04.741Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:04.435Z"
+  },
+  "histories": [
+    {
+      "id": 41687,
+      "productId": 41673,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:24.548Z"
+    },
+    {
+      "id": 53266,
+      "productId": 41673,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:58.616Z"
+    },
+    {
+      "id": 64842,
+      "productId": 41673,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:04.435Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181995,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-29T01:15:04.000Z"
+    },
+    {
+      "id": 181994,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-29T01:15:04.000Z"
+    },
+    {
+      "id": 181993,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-29T01:15:04.000Z"
+    },
+    {
+      "id": 143193,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:22:58.000Z"
+    },
+    {
+      "id": 143192,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:22:58.000Z"
+    },
+    {
+      "id": 143191,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-19T16:22:58.000Z"
+    },
+    {
+      "id": 108058,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:04:24.000Z"
+    },
+    {
+      "id": 108057,
+      "productId": 41673,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:04:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025889",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025889",
+    "capturedAt": "2026-08-29T01:15:04.435Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145025889.json"
+  }
+}

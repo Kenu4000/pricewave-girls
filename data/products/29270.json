@@ -1,0 +1,137 @@
+{
+  "product": {
+    "id": 29270,
+    "title": "Windows8.1/10 DVDソフト もっと！孕ませ！炎のおっぱい異世界超エロサキュバス学園！ ソフマップ特典オリジナルデジタルコンテンツ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072219",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072219.jpg",
+    "manufacturer": "みるくふぁくとりー",
+    "releaseDate": "2021-04-30",
+    "listPrice": null,
+    "modelNumber": "MILK-300sfmp",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072219",
+      "メーカー": "みるくふぁくとりー",
+      "発売日": "2021/04/30",
+      "型番": "MILK-300sfmp",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:45.657Z"
+  },
+  "histories": [
+    {
+      "id": 29284,
+      "productId": 29270,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:16.412Z"
+    },
+    {
+      "id": 38115,
+      "productId": 29270,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:40.423Z"
+    },
+    {
+      "id": 49298,
+      "productId": 29270,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:57.426Z"
+    },
+    {
+      "id": 60110,
+      "productId": 29270,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:32.043Z"
+    },
+    {
+      "id": 70395,
+      "productId": 29270,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:45.657Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201893,
+      "productId": 29270,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1412,
+      "checkedAt": "2026-09-02T20:44:45.000Z"
+    },
+    {
+      "id": 201892,
+      "productId": 29270,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-02T20:44:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072219",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072219",
+    "capturedAt": "2026-09-02T20:44:45.657Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1412
+      }
+    ],
+    "path": "data/other-shops/145072219.json"
+  }
+}

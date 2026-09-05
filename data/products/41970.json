@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 41970,
+    "title": "Windows2000Pro/XP/Vista DVDソフト 2度咲き!タルトレット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019851",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019851.jpg",
+    "manufacturer": "しらたま",
+    "releaseDate": "2009-06-26",
+    "listPrice": 9680,
+    "modelNumber": "WILL-220",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019851",
+      "メーカー": "しらたま",
+      "発売日": "2009/06/26",
+      "定価": "9,680円",
+      "型番": "WILL-220",
+      "原画": "あかり☆かずと\nヤマ・びっこ",
+      "シナリオ": "ANTENNA\n髪ノ毛座",
+      "声優": "水島理音\n小鳥遊アキラ\n狛乃ハルコ\n遠山枝里子\n勅使川原あかり\n逸見らら",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク・サントラCDのみ（その他欠品）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4500,
+    "latestRegularSalePrice": 4500,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク・サントラCDのみ（その他欠品）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:43:15.744Z"
+  },
+  "histories": [
+    {
+      "id": 41984,
+      "productId": 41970,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:55.772Z"
+    },
+    {
+      "id": 53467,
+      "productId": 41970,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク・サントラCDのみ（その他欠品）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:36.988Z"
+    },
+    {
+      "id": 65020,
+      "productId": 41970,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク・サントラCDのみ（その他欠品）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:21.490Z"
+    },
+    {
+      "id": 75333,
+      "productId": 41970,
+      "salePrice": 4500,
+      "regularSalePrice": 4500,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク・サントラCDのみ（その他欠品）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:15.744Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019851",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019851",
+    "capturedAt": "2026-09-04T08:43:15.744Z",
+    "items": [],
+    "path": "data/other-shops/145019851.json"
+  }
+}

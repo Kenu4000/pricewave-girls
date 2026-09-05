@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 40999,
+    "title": "Windows8.1/10 DVDソフト はじカノ -君がいる部屋- 普及版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071875",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071875.jpg",
+    "manufacturer": "キャラメルBOX いちご味",
+    "releaseDate": "2021-04-30",
+    "listPrice": 4180,
+    "modelNumber": "CRMB-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145071875",
+      "メーカー": "キャラメルBOX いちご味",
+      "発売日": "2021/04/30",
+      "定価": "4,180円",
+      "型番": "CRMB-002",
+      "原画": "月杜尋",
+      "シナリオ": "真崎ジーノ\n望月JET",
+      "声優": "御苑生メイ\n歩サラ\n鈴谷まや",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:38:51.280Z"
+  },
+  "histories": [
+    {
+      "id": 41013,
+      "productId": 40999,
+      "salePrice": 7600,
+      "regularSalePrice": 7600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:57.126Z"
+    },
+    {
+      "id": 52378,
+      "productId": 40999,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:50.061Z"
+    },
+    {
+      "id": 63754,
+      "productId": 40999,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:50.596Z"
+    },
+    {
+      "id": 74936,
+      "productId": 40999,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:38:51.280Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 217760,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-09-04T08:38:51.000Z"
+    },
+    {
+      "id": 217759,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-09-04T08:38:51.000Z"
+    },
+    {
+      "id": 178460,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-08-27T16:11:50.000Z"
+    },
+    {
+      "id": 178459,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-08-27T16:11:50.000Z"
+    },
+    {
+      "id": 140388,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-08-19T15:34:50.000Z"
+    },
+    {
+      "id": 140387,
+      "productId": 40999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1301,
+      "checkedAt": "2026-08-19T15:34:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071875",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071875",
+    "capturedAt": "2026-09-04T08:38:51.280Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1301
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 7600
+      }
+    ],
+    "path": "data/other-shops/145071875.json"
+  }
+}

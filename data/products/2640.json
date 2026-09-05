@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 2640,
+    "title": "Windows DVDソフト Milkyway 2.5 with SPECIAL DEMO MOVIES",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029729",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029729.jpg",
+    "manufacturer": "Witch",
+    "releaseDate": null,
+    "listPrice": null,
+    "modelNumber": "HIME0408",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145029729",
+      "メーカー": "Witch",
+      "型番": "HIME0408",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:49:10.186Z"
+  },
+  "histories": [
+    {
+      "id": 2654,
+      "productId": 2640,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:08:07.000Z"
+    },
+    {
+      "id": 7534,
+      "productId": 2640,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:15:58.000Z"
+    },
+    {
+      "id": 36620,
+      "productId": 2640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:55:37.166Z"
+    },
+    {
+      "id": 47292,
+      "productId": 2640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:03:41.618Z"
+    },
+    {
+      "id": 58183,
+      "productId": 2640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:36:46.968Z"
+    },
+    {
+      "id": 69020,
+      "productId": 2640,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:49:10.186Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029729",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029729",
+    "capturedAt": "2026-09-02T02:49:10.186Z",
+    "items": [],
+    "path": "data/other-shops/145029729.json"
+  }
+}

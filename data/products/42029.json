@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 42029,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト Nachtmusik(ナハトムジーク)～穢れし姫に淫獄の旋律を捧ぐ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019685",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019685.jpg",
+    "manufacturer": "Muscadet(ミュスカデ)",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9680,
+    "modelNumber": "MUSCADET-01",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019685",
+      "メーカー": "Muscadet(ミュスカデ)",
+      "発売日": "2009/04/24",
+      "定価": "9,680円",
+      "型番": "MUSCADET-01",
+      "原画": "天坂隆志",
+      "シナリオ": "鶴切巌",
+      "声優": "金松由花\n草柳順子\n木梨樹里\n花南\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:40.388Z"
+  },
+  "histories": [
+    {
+      "id": 42043,
+      "productId": 42029,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:29.452Z"
+    },
+    {
+      "id": 53515,
+      "productId": 42029,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:00.634Z"
+    },
+    {
+      "id": 65061,
+      "productId": 42029,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:40.388Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143679,
+      "productId": 42029,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-19T16:25:00.000Z"
+    },
+    {
+      "id": 143678,
+      "productId": 42029,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット天理店",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-19T16:25:00.000Z"
+    },
+    {
+      "id": 143677,
+      "productId": 42029,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット天理店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1650,
+      "checkedAt": "2026-08-19T16:25:00.000Z"
+    },
+    {
+      "id": 108796,
+      "productId": 42029,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-17T07:07:29.000Z"
+    },
+    {
+      "id": 108795,
+      "productId": 42029,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット天理店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1650,
+      "checkedAt": "2026-08-17T07:07:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019685",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019685",
+    "capturedAt": "2026-08-29T01:16:40.388Z",
+    "items": [],
+    "path": "data/other-shops/145019685.json"
+  }
+}

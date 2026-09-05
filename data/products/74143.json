@@ -1,0 +1,54 @@
+{
+  "product": {
+    "id": 74143,
+    "title": "Windows CDソフト 月あかりランチ デジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037418",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037418.jpg",
+    "manufacturer": "EX-ONE",
+    "releaseDate": "2013-05-31",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037418",
+      "メーカー": "EX-ONE",
+      "発売日": "2013/05/31",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T20:29:23.984Z"
+  },
+  "histories": [
+    {
+      "id": 74157,
+      "productId": 74143,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T20:29:23.984Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037418",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037418",
+    "capturedAt": "2026-09-03T20:29:23.984Z",
+    "items": [],
+    "path": "data/other-shops/145037418.json"
+  }
+}

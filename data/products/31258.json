@@ -1,0 +1,139 @@
+{
+  "product": {
+    "id": 31258,
+    "title": "Windows CDソフト せんすいぶ! 予約キャンペーン特典 全裸DISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037782",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037782.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2013-06-28",
+    "listPrice": null,
+    "modelNumber": "ELE-D004",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145037782001",
+      "メーカー": "エスクード",
+      "発売日": "2013/06/28",
+      "型番": "ELE-D004",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:53.482Z"
+  },
+  "histories": [
+    {
+      "id": 31272,
+      "productId": 31258,
+      "salePrice": 270,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:47.860Z"
+    },
+    {
+      "id": 40015,
+      "productId": 31258,
+      "salePrice": 270,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:51.450Z"
+    },
+    {
+      "id": 71086,
+      "productId": 31258,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:53.482Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204033,
+      "productId": 31258,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:49:53.000Z"
+    },
+    {
+      "id": 204032,
+      "productId": 31258,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-02T20:49:53.000Z"
+    },
+    {
+      "id": 204031,
+      "productId": 31258,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-02T20:49:53.000Z"
+    },
+    {
+      "id": 204030,
+      "productId": 31258,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:49:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037782",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037782",
+    "capturedAt": "2026-09-02T20:49:53.482Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145037782.json"
+  }
+}

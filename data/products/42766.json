@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42766,
+    "title": "Windows98/Me/2000/XP CDソフト 雷の戦士ライディII ～邪淫の神殿～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071515",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071515.jpg",
+    "manufacturer": "ZyX",
+    "releaseDate": "2007-06-15",
+    "listPrice": 9680,
+    "modelNumber": "ZYX-00431",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145071515",
+      "メーカー": "ZyX",
+      "発売日": "2007/06/15",
+      "定価": "9,680円",
+      "型番": "ZYX-00431",
+      "原画": "肥後王国\n和馬村政\nさわのたかじ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:00.973Z"
+  },
+  "histories": [
+    {
+      "id": 42780,
+      "productId": 42766,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:52.088Z"
+    },
+    {
+      "id": 54920,
+      "productId": 42766,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:20.922Z"
+    },
+    {
+      "id": 66025,
+      "productId": 42766,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:00.973Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145071515",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071515",
+    "capturedAt": "2026-08-29T13:05:00.973Z",
+    "items": [],
+    "path": "data/other-shops/145071515.json"
+  }
+}

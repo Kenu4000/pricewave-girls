@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 29710,
+    "title": "Windows7/8/10 CDソフト オレは、触手ブリーダー -寄生触手で苗床化する女たち-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060288",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060288.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2017-12-22",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145060288001",
+      "メーカー": "アパタイト",
+      "発売日": "2017/12/22",
+      "定価": "2,200円",
+      "原画": "おおたたけし",
+      "シナリオ": "平目カレイ",
+      "声優": "雨森りこ\n四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "1350",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:09:53.787Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:12:44.207Z"
+  },
+  "histories": [
+    {
+      "id": 29724,
+      "productId": 29710,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:53.581Z"
+    },
+    {
+      "id": 38536,
+      "productId": 29710,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:44.207Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 101316,
+      "productId": 29710,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）背表紙日焼け",
+      "price": 1350,
+      "checkedAt": "2026-08-16T01:12:44.000Z"
+    },
+    {
+      "id": 101315,
+      "productId": 29710,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-16T01:12:44.000Z"
+    },
+    {
+      "id": 75308,
+      "productId": 29710,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）背表紙日焼け",
+      "price": 1350,
+      "checkedAt": "2026-08-15T23:09:53.000Z"
+    },
+    {
+      "id": 75307,
+      "productId": 29710,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-15T23:09:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060288",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060288",
+    "capturedAt": "2026-08-16T01:12:44.207Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）背表紙日焼け",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145060288.json"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 8547,
+    "title": "Windows95 CDソフト ハイスクールテラストーリー[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145001541",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145001541.jpg",
+    "manufacturer": "ウラン",
+    "releaseDate": null,
+    "listPrice": 8580,
+    "modelNumber": "URCD-9705",
+    "category": "アダルト Windows Windows 95",
+    "details": {
+      "管理番号": "145001541",
+      "メーカー": "ウラン",
+      "定価": "8,580円",
+      "型番": "URCD-9705",
+      "原画": "浅野ヒロ\n早川ナオミ",
+      "シナリオ": "日高豊",
+      "声優": "富士爆発\n岩居由希子(岩井由希子)\n内川藍維\n深水由美\n飯島京子\nかないみか\n高瀬くるみ\n岡本麻弥\n高野直子\n谷山紀章",
+      "カテゴリ": "アダルト Windows Windows 95",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:43:50.855Z"
+  },
+  "histories": [
+    {
+      "id": 8561,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 37904,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:52.360Z"
+    },
+    {
+      "id": 48366,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:34.442Z"
+    },
+    {
+      "id": 59488,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:04:05.890Z"
+    },
+    {
+      "id": 70271,
+      "productId": 8547,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:43:50.855Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145001541",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145001541",
+    "capturedAt": "2026-09-02T20:43:50.855Z",
+    "items": [],
+    "path": "data/other-shops/145001541.json"
+  }
+}

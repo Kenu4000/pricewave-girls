@@ -1,0 +1,176 @@
+{
+  "product": {
+    "id": 1185,
+    "title": "Windows8/10/11 DVDソフト あやかし遊郭～花魁道中～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074800",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074800.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2022-05-27",
+    "listPrice": 10648,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145074800001",
+      "メーカー": "Casket",
+      "発売日": "2022/05/27",
+      "定価": "10,648円",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら",
+      "声優": "雲雀ゆい\n花澤さくら",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:38.905Z"
+  },
+  "histories": [
+    {
+      "id": 1199,
+      "productId": 1185,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6090,
+      "productId": 1185,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16130,
+      "productId": 1185,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 44517,
+      "productId": 1185,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:20.284Z"
+    },
+    {
+      "id": 72287,
+      "productId": 1185,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:38.905Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207952,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-09-03T01:17:39.000Z"
+    },
+    {
+      "id": 207951,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-03T01:17:39.000Z"
+    },
+    {
+      "id": 115096,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-17T09:41:20.000Z"
+    },
+    {
+      "id": 115095,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-17T09:41:20.000Z"
+    },
+    {
+      "id": 28751,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28750,
+      "productId": 1185,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074800",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074800",
+    "capturedAt": "2026-09-03T01:17:38.905Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145074800.json"
+  }
+}
