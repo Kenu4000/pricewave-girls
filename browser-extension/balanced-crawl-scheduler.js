@@ -89,6 +89,12 @@
     return 0;
   }
 
+  function compareExecutionOrder(left, right) {
+    const leftInterval = normalizeInterval(left?.crawlIntervalDays) ?? 0;
+    const rightInterval = normalizeInterval(right?.crawlIntervalDays) ?? 0;
+    return rightInterval - leftInterval;
+  }
+
   function rotateCandidates(candidates, slotStart) {
     if (candidates.length <= 1) return candidates.slice();
     const offset = positiveModulo(slotStart, candidates.length);
@@ -126,8 +132,12 @@
     rotatedCandidates.sort((left, right) => compareCandidatePriority(left, right, normalizedNow));
     const balanced = rotatedCandidates.slice(0, window.target);
 
+    // 対象の選定ロジックは変えず、実際の巡回順だけを長周期優先にする。
+    // 同じ周期の中では上で決めた超過率・経過時間の優先順位を維持する。
+    const executionOrder = [...balanced, ...daily].sort(compareExecutionOrder);
+
     return {
-      products: [...daily, ...balanced],
+      products: executionOrder,
       dailyCount: daily.length,
       balancedCount: balanced.length,
       balancedTarget: window.target,
