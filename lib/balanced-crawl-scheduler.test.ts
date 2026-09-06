@@ -136,6 +136,26 @@ test("同じ巡回枠なら周期に対する超過率が大きい商品を先�
   assert.equal(plan.products[0]?.id, 2);
 });
 
+test("選ばれた商品は14日→7日→3日→1日の順で巡回する", () => {
+  const now = new Date("2026-08-16T00:00:00Z");
+  const products: CrawlProduct[] = [
+    ...Array.from({ length: 42 }, (_, index) => ({
+      id: index + 1,
+      crawlIntervalDays: ([14, 7, 3] as const)[index % 3],
+      lastCheckedAt: null,
+    })),
+    { id: 1000, crawlIntervalDays: 1, lastCheckedAt: now.toISOString() },
+  ];
+
+  const plan = scheduler.selectBalancedProducts(products, now);
+  const intervals = plan.products.map((product) => product.crawlIntervalDays);
+  assert.ok(intervals.includes(14));
+  assert.ok(intervals.includes(7));
+  assert.ok(intervals.includes(3));
+  assert.equal(intervals.at(-1), 1);
+  assert.deepEqual(intervals, [...intervals].sort((left, right) => Number(right) - Number(left)));
+});
+
 test("1日周期は最終取得日時に関係なく全件回し、無は除外する", () => {
   const now = new Date("2026-08-16T00:00:00Z");
   const products: CrawlProduct[] = [
