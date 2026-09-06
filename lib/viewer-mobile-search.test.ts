@@ -19,9 +19,14 @@ const exporter = readFileSync(
   new URL("../scripts/export-viewer-data.ts", import.meta.url),
   "utf8",
 );
+const lazyLoader = readFileSync(
+  new URL("../viewer/lazy-data.js", import.meta.url),
+  "utf8",
+);
 
 test("Viewerの商品検索スクリプトを構文解析できる", () => {
   assert.doesNotThrow(() => new vm.Script(script));
+  assert.doesNotThrow(() => new vm.Script(lazyLoader));
 });
 
 test("Viewer検索はmainと同じ上段構成を持つ", () => {
@@ -80,7 +85,11 @@ test("Viewer検索は商品名だけでなくブランド・発売日・詳細�
   assert.match(script, /product\.releaseDate/u);
   assert.match(script, /detailMatchingProductIds/u);
   assert.match(script, /normalize\('NFKC'\)/u);
-  assert.match(exporter, /searchText:\s*buildProductSearchText\(product\)/u);
+  assert.match(exporter, /const searchTextByProductId = Object\.fromEntries/u);
+  assert.match(exporter, /buildProductSearchText\(product\)/u);
+  assert.match(exporter, /writeCompactJson\("search-index\.json"/u);
+  assert.match(lazyLoader, /searchTextByProductId/u);
+  assert.match(lazyLoader, /product\.searchText =/u);
 });
 
 test("詳細検索は価格帯・在庫・状態表記を実際の絞り込みに使う", () => {
@@ -113,9 +122,11 @@ test("Viewer検索UIのCSSはデスクトップとモバイルでmain型の配�
 
 test("検索修正はapp.jsの後に読み込まれキャッシュキーを持つ", () => {
   const appIndex = html.search(/<script src="\.\/app\.js\?v=[^"]+"><\/script>/u);
+  const lazyIndex = html.search(/<script src="\.\/lazy-data\.js\?v=[^"]+"><\/script>/u);
   const searchIndex = html.search(/<script src="\.\/mobile-search\.js\?v=[^"]+"><\/script>/u);
   assert.ok(appIndex >= 0);
-  assert.ok(searchIndex > appIndex);
+  assert.ok(lazyIndex > appIndex);
+  assert.ok(searchIndex > lazyIndex);
   assert.match(html, /product-list-main-ui\.css\?v=[^"]+/u);
   assert.match(script, /globalThis\.renderProducts\s*=\s*renderProductsStableSearch/u);
 });
