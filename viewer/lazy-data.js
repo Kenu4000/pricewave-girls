@@ -41,6 +41,7 @@
   let productsPromise = null;
   let searchIndexPromise = null;
   let searchIndexLoaded = false;
+  let bypassSearchGuardOnce = false;
 
   async function ensureChanges() {
     if (legacySnapshotAvailable() && Array.isArray(state.data.priceChanges)) {
@@ -180,6 +181,10 @@
   document.addEventListener('submit', (event) => {
     const form = event.target;
     if (!(form instanceof HTMLFormElement) || form.id !== 'viewer-product-search') return;
+    if (bypassSearchGuardOnce) {
+      bypassSearchGuardOnce = false;
+      return;
+    }
     const query = form.querySelector('#q')?.value?.trim() || '';
     if (!query || searchIndexLoaded) return;
 
@@ -193,6 +198,7 @@
       })
       .catch((error) => {
         console.error('Viewer検索索引の読み込みに失敗しました。', error);
+        bypassSearchGuardOnce = true;
         if (form.isConnected) form.requestSubmit(submitter instanceof HTMLElement ? submitter : undefined);
       });
   }, true);
