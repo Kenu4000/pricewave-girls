@@ -17,6 +17,8 @@ const PRODUCT_DATA_DIR = path.join(OUTPUT_DIR, "data", "products");
 const OTHER_SHOP_DATA_DIR = path.join(OUTPUT_DIR, "data", "other-shops");
 const PEOPLE_DETAIL_LABELS = new Set(["原画", "原画家", "シナリオ", "脚本", "声優", "キャスト"]);
 
+type JsonValue = unknown;
+
 function parseDetailsJson(raw: string | null): Record<string, string> {
   if (!raw) return {};
   try {
@@ -52,6 +54,10 @@ function detailIndexValues(label: string, value: string): string[] {
   const normalizedLabel = label.normalize("NFKC").trim();
   if (!PEOPLE_DETAIL_LABELS.has(normalizedLabel)) return [value];
   return [...new Set([value, ...splitDetailPeople(value)])];
+}
+
+async function writeCompactJson(fileName: string, value: JsonValue): Promise<void> {
+  await writeFile(path.join(OUTPUT_DIR, "data", fileName), JSON.stringify(value), "utf8");
 }
 
 async function main() {
@@ -134,7 +140,6 @@ async function main() {
       updatedAt: latestCheckedAt(product),
       priceChangedAt: latestChangedAt(product.salePriceChangedAt, product.buyPriceChangedAt),
       historyCount: product.histories.length,
-      searchText: buildProductSearchText(product),
       latestChanges: {
         sale: latestChange?.sale
           ? {
@@ -154,6 +159,10 @@ async function main() {
     };
   });
 
+  const searchTextByProductId = Object.fromEntries(
+    products.map((product) => [String(product.id), buildProductSearchText(product)]),
+  );
+
   const publicChanges = priceChanges.map((change) => ({
     id: change.id,
     productId: change.productId,
@@ -164,33 +173,39 @@ async function main() {
     product: change.product,
   }));
 
-  await writeFile(
-    path.join(OUTPUT_DIR, "data", "index.json"),
-    JSON.stringify(
-      {
-        generatedAt: new Date(),
-        productCount: summaries.length,
-        products: summaries,
-        priceChanges: publicChanges,
-      },
-      null,
-      2,
-    ),
-    "utf8",
+  const generatedAt = new Date();
+  // app.jsは互換のためindex.jsonを読み続けるが、初回表示に不要な10,000件超の商品一覧は入れない。
+  // タイムセール終了カウントダウンに必要な最小商品だけをbootstrapとして残す。
+  const bootstrapProducts = summaries.filter(
+    (product) => product.isTimeSale && product.timeSaleEndsAt,
   );
 
-  await writeFile(
-    path.join(OUTPUT_DIR, "data", "detail-index.json"),
-    JSON.stringify(
-      {
-        generatedAt: new Date(),
-        filters: Object.fromEntries(detailIndex),
-      },
-      null,
-      2,
-    ),
-    "utf8",
-  );
+  await Promise.all([
+    writeCompactJson("index.json", {
+      generatedAt,
+      productCount: summaries.length,
+      products: bootstrapProducts,
+      priceChanges: [],
+      splitData: true,
+    }),
+    writeCompactJson("changes.json", {
+      generatedAt,
+      priceChanges: publicChanges,
+    }),
+    writeCompactJson("products.json", {
+      generatedAt,
+      productCount: summaries.length,
+      products: summaries,
+    }),
+    writeCompactJson("search-index.json", {
+      generatedAt,
+      searchTextByProductId,
+    }),
+    writeCompactJson("detail-index.json", {
+      generatedAt,
+      filters: Object.fromEntries(detailIndex),
+    }),
+  ]);
 
   for (const product of products) {
     const otherShopSnapshot = await readOtherShopSnapshotData(product.surugayaUrl);
@@ -238,7 +253,9 @@ async function main() {
   }
 
   console.log(`GitHub Pages用スナップショット: ${summaries.length}商品`);
+  console.log(`初期bootstrap: ${bootstrapProducts.length.toLocaleString("ja-JP")}商品`);
   console.log(`商品詳細絞り込み索引: ${detailIndex.size.toLocaleString("ja-JP")}条件`);
+  console.log("Viewer一覧・価格変更・検索索引を用途別JSONへ分割しました。");
   console.log(`出力先: ${OUTPUT_DIR}`);
 }
 
