@@ -23,6 +23,16 @@
     return response.json();
   }
 
+  async function productIndexJson() {
+    const split = await nativeFetch('./data/products.json', { cache: 'no-store' });
+    if (split.ok) return split.json();
+    if (split.status !== 404) {
+      throw new Error(`failed to load ./data/products.json: ${split.status}`);
+    }
+    // 分割Viewerをまだ公開していないgh-pagesでは旧index.jsonを使う。
+    return json('./data/index.json');
+  }
+
   function stripStorefrontCategoryPrefix(value) {
     const trimmed = String(value ?? '').trim();
     if (!STOREFRONT_PLATFORM_PREFIX.test(trimmed)) return trimmed;
@@ -83,7 +93,7 @@
     if (fallbackStatePromise) return fallbackStatePromise;
     fallbackStatePromise = Promise.all([
       Promise.all(CATALOG_URLS.map((url) => json(url))).then((parts) => parts.flat()),
-      json('./data/index.json'),
+      productIndexJson(),
     ]).then(([catalog, index]) => {
       const entries = catalogEntries(catalog);
       const seriesById = new Map(catalog.map((series) => [series.id, series]));
