@@ -122,8 +122,8 @@ test("同じシリーズ作品のedition違いは別々の価格線として保�
   assert.deepEqual(
     groups.map((group) => [group.title, group.productIds]),
     [
-      ["WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて", [10]],
-      ["WindowsXP/Vista/7/8 DVD ソフト ランス01 光をもとめて 廉価版", [11]],
+      ["ランス01 光をもとめて　WindowsXP/Vista/7/8 DVD ソフト", [10]],
+      ["ランス01 光をもとめて 廉価版　WindowsXP/Vista/7/8 DVD ソフト", [11]],
     ],
   );
 });
