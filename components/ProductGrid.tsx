@@ -11,6 +11,7 @@ import {
   type ProductCardPriceChangeSummaries,
   type SaleAvailabilityState,
 } from "@/lib/product-card-price-change";
+import { formatProductDisplayTitle } from "@/lib/product-display-title";
 import {
   prependUniqueProduct,
   PRODUCT_REVEAL_EVENT,
@@ -296,6 +297,7 @@ export function ProductGrid({ initialProducts, perPage, streamEnabled, filtersAc
         const crawlInterval = Object.prototype.hasOwnProperty.call(crawlIntervals, product.id)
           ? crawlIntervals[product.id]
           : (product.crawlIntervalDays ?? 1) as CrawlIntervalValue;
+        const displayTitle = formatProductDisplayTitle(product.title);
 
         return (
           <article
@@ -314,10 +316,10 @@ export function ProductGrid({ initialProducts, perPage, streamEnabled, filtersAc
               <div className="product-image">
                 {product.imageUrl ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img alt={product.title} src={product.imageUrl} />
+                  <img alt={displayTitle} src={product.imageUrl} />
                 ) : <span className="muted">No Image</span>}
               </div>
-              <div className="product-title">{product.title}</div>
+              <div className="product-title">{displayTitle}</div>
               <div className="price-row">
                 <span className="badge">販売: {formatPrice(product.salePrice)}</span>
                 <span className="badge">買取: {formatPrice(product.buyPrice)}</span>

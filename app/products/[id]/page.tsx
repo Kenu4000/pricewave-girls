@@ -5,6 +5,7 @@ import { PriceChart } from "@/components/PriceChart";
 import { ProductCrawlIntervalControl } from "@/components/ProductCrawlIntervalControl";
 import { SeriesPriceChart, type SeriesPriceLine } from "@/components/SeriesPriceChart";
 import { readOtherShopSnapshotData } from "@/lib/other-shop-html-snapshot";
+import { formatProductDisplayTitle } from "@/lib/product-display-title";
 import {
   extractOperatingSystems,
   normalizeFilterChoiceValue,
@@ -127,6 +128,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   });
 
   if (!product) notFound();
+  const displayTitle = formatProductDisplayTitle(product.title);
 
   const relatedProducts = await prisma.product.findMany({
     where: { title: product.title, id: { not: product.id } },
@@ -257,7 +259,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div className="detail-product-image">
             {product.imageUrl ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img alt={product.title} src={product.imageUrl} />
+              <img alt={displayTitle} src={product.imageUrl} />
             ) : (
               <span className="muted">No Image</span>
             )}
@@ -269,7 +271,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
         <article className="detail-summary">
           <header>
-            <h1>{product.title}</h1>
+            <h1>{displayTitle}</h1>
             <p className="muted">最終更新: {product.updatedAt.toLocaleString("ja-JP")}</p>
           </header>
           <div className="price-row">

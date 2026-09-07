@@ -4,6 +4,7 @@ import catalog03 from "../data/series-catalog-03.json";
 import catalog04 from "../data/series-catalog-04.json";
 import catalog05 from "../data/series-catalog-05.json";
 import catalog06 from "../data/series-catalog-06.json";
+import { formatProductDisplayTitle } from "./product-display-title";
 import { splitProductTitleCondition } from "./product-title-condition";
 
 export type ProductSeries = {
@@ -53,9 +54,9 @@ function stripStorefrontCategoryPrefix(value: string): string {
 }
 
 function displayProductTitle(value: string): string {
-  // 凡例では機種・媒体表記もedition識別情報として残す。
+  // 凡例では機種・媒体表記もedition識別情報として残すが、視認性のため末尾へ回す。
   // 状態違いだけは商品名から除く。
-  return splitProductTitleCondition(value).title.trim();
+  return formatProductDisplayTitle(splitProductTitleCondition(value).title.trim());
 }
 
 function normalizeTitle(value: string): string {
