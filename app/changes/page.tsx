@@ -8,6 +8,7 @@ import {
   type PriceChangeFilters,
   type PriceChangeType,
 } from "@/lib/price-change-events";
+import { formatProductDisplayTitle } from "@/lib/product-display-title";
 import { normalizeFilterChoiceValue } from "@/lib/product-filter-options";
 import styles from "./PriceChanges.module.css";
 
@@ -210,7 +211,7 @@ export default async function PriceChangesPage({ searchParams }: { searchParams:
                           // eslint-disable-next-line @next/next/no-img-element
                           <img alt="" src={event.imageUrl} />
                         ) : null}
-                        <span>{event.title}</span>
+                        <span>{formatProductDisplayTitle(event.title)}</span>
                       </Link>
                     </td>
                     <td data-label="ブランド">
