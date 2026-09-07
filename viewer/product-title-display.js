@@ -20,6 +20,11 @@
     const before = element.textContent?.trim() || '';
     const after = formatProductDisplayTitle(before);
     if (after !== before) element.textContent = after;
+    const titleAttribute = element.getAttribute?.('title');
+    if (titleAttribute) {
+      const formattedTitle = formatProductDisplayTitle(titleAttribute);
+      if (formattedTitle !== titleAttribute) element.setAttribute('title', formattedTitle);
+    }
   }
 
   function enhance() {
@@ -28,6 +33,7 @@
       '.product-title',
       '.change-product a',
       '.change-product-link span',
+      '.viewer-change-product-title',
       'h1',
       'h2',
       '[data-legend-product] b',
