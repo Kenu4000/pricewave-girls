@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { formatProductDisplayTitle } from "@/lib/product-display-title";
 import styles from "./CrawlIntervalReview.module.css";
 
 type ReviewProduct = {
@@ -150,6 +151,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
     );
   }
 
+  const displayTitle = formatProductDisplayTitle(current.title);
   return (
     <div className={styles.page}>
       <header className={styles.heading}>
@@ -171,7 +173,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
         <div className={styles.imageArea}>
           {current.imageUrl ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img alt={current.title} src={current.imageUrl} />
+            <img alt={displayTitle} src={current.imageUrl} />
           ) : (
             <span className="muted">No Image</span>
           )}
@@ -179,7 +181,7 @@ export function CrawlIntervalReview({ initialProducts }: { initialProducts: Revi
 
         <div className={styles.productInfo}>
           <div className={styles.currentBadge}>現在：1日</div>
-          <h2>{current.title}</h2>
+          <h2>{displayTitle}</h2>
           <dl>
             <div><dt>ブランド</dt><dd>{current.manufacturer ?? "未登録"}</dd></div>
             <div><dt>発売日</dt><dd>{formatReleaseDate(current.releaseDate)}</dd></div>
