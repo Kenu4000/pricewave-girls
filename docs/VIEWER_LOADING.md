@@ -1,6 +1,6 @@
 # Viewer 分割データ・遅延読み込み
 
-最終更新: 2026-09-06
+最終更新: 2026-09-09
 
 ## 目的
 
@@ -33,6 +33,17 @@ SQLiteを唯一の正本とする方針は変更しない。分割JSONはすべ�
   - 従来どおりシリーズ価格グラフ用。
 
 分割JSONは転送量を減らすためpretty printを行わず `JSON.stringify(value)` で出力する。商品詳細JSONはデバッグ性を優先し従来どおり整形出力のまま。
+
+## 他店舗スナップショットの大量出力
+
+`viewer:export` は `.pricewave-snapshots/other-shops/*.json` も `viewer-dist/data/other-shops/` へコピーする。
+
+2026-09-09時点で8,000件を超えるスナップショットを `Promise.all` で一度に読み書きすると、Windowsで `EMFILE: too many open files` が発生した。そのため `exportOtherShopSnapshots()` は **32件ずつ** のバッチで読み書きする。
+
+- 同時に数千ファイルを開かない。
+- 全件を順次バッチ処理するため、出力内容は従来と同じ。
+- `ENOENT`（スナップショットディレクトリ自体がない）は従来どおり無視する。
+- バッチサイズは `OTHER_SHOP_SNAPSHOT_EXPORT_BATCH_SIZE` で固定し、無制限 `Promise.all` に戻さない。
 
 ## 読み込み順
 
@@ -70,5 +81,6 @@ SQLiteを唯一の正本とする方針は変更しない。分割JSONはすべ�
 - 商品一覧の「注目度が高い順」は従来どおり価格変更履歴を使うため、一覧表示前に `changes.json` を利用可能にする。
 - 商品詳細単独表示では全商品一覧を取得しない。
 - 新規取得商品は次回 `viewer:export` で各用途別JSONへ自動反映される。
+- 他店舗スナップショット出力で全ファイルを無制限に同時openしない。
 
-関連テスト: `lib/viewer-lazy-data-loading.test.ts`、`lib/viewer-mobile-search.test.ts`、`lib/viewer-series-price-chart.test.ts`。
+関連テスト: `lib/viewer-lazy-data-loading.test.ts`、`lib/viewer-mobile-search.test.ts`、`lib/viewer-series-price-chart.test.ts`、`lib/other-shop-html-snapshot-export.test.ts`。
