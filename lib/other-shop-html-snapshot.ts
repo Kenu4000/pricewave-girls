@@ -7,6 +7,7 @@ import { buildSurugayaOtherShopUrl } from "@/lib/surugaya-other-shop-url";
 const CAPTURE_ELEMENT_ID = "pricewave-other-shops-data";
 const SNAPSHOT_ROOT_NAME = ".pricewave-snapshots";
 const SNAPSHOT_SUBDIRECTORY = "other-shops";
+export const OTHER_SHOP_SNAPSHOT_EXPORT_BATCH_SIZE = 32;
 const PRODUCT_DETAIL_LABELS = new Set([
   "管理番号",
   "メーカー",
@@ -193,11 +194,24 @@ export async function exportOtherShopSnapshots(
   const sourceDirectory = otherShopSnapshotDirectory(rootDir);
   try {
     const entries = await readdir(sourceDirectory, { withFileTypes: true });
+    const snapshotEntries = entries.filter(
+      (entry) => entry.isFile() && /^[0-9A-Za-z]+\.json$/u.test(entry.name),
+    );
     await mkdir(outputDirectory, { recursive: true });
-    await Promise.all(
-      entries
-        .filter((entry) => entry.isFile() && /^[0-9A-Za-z]+\.json$/u.test(entry.name))
-        .map(async (entry) => {
+
+    // 数千件を一度にPromise.allするとWindowsでEMFILEになり得るため、
+    // 開くファイル数を小さいバッチへ制限する。
+    for (
+      let offset = 0;
+      offset < snapshotEntries.length;
+      offset += OTHER_SHOP_SNAPSHOT_EXPORT_BATCH_SIZE
+    ) {
+      const batch = snapshotEntries.slice(
+        offset,
+        offset + OTHER_SHOP_SNAPSHOT_EXPORT_BATCH_SIZE,
+      );
+      await Promise.all(
+        batch.map(async (entry) => {
           const productCode = entry.name.replace(/\.json$/u, "");
           const raw = await readFile(path.join(sourceDirectory, entry.name), "utf8");
           const data = parseStoredSnapshot(productCode, raw);
@@ -208,7 +222,8 @@ export async function exportOtherShopSnapshots(
             "utf8",
           );
         }),
-    );
+      );
+    }
   } catch (error) {
     const code = error && typeof error === "object" && "code" in error ? error.code : null;
     if (code !== "ENOENT") throw error;
