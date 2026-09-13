@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 80692,
+    "title": "Windows10/11 DVDソフト VenusBlood GAIA International [特装版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078299",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078299.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2023-07-28",
+    "listPrice": 9900,
+    "modelNumber": "TDI-11",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145078299",
+      "メーカー": "Dual Tail",
+      "発売日": "2023/07/28",
+      "定価": "9,900円",
+      "型番": "TDI-11",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:50.352Z"
+  },
+  "histories": [
+    {
+      "id": 80706,
+      "productId": 80692,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:50.352Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237415,
+      "productId": 80692,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品（外箱に日焼け有）",
+      "price": 6280,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    },
+    {
+      "id": 237414,
+      "productId": 80692,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 5511,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145078299",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078299",
+    "capturedAt": "2026-09-07T13:47:50.352Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 5511
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品（外箱に日焼け有）",
+        "price": 6280
+      }
+    ],
+    "path": "data/other-shops/145078299.json"
+  }
+}

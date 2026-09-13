@@ -1,0 +1,67 @@
+{
+  "product": {
+    "id": 42999,
+    "title": "Windows2000/XP CDソフト Warhammer：MARK OF CHAOS [北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016329.jpg",
+    "manufacturer": "BANDAINAMCOGAMES",
+    "releaseDate": "2006-11-14",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016329",
+      "メーカー": "BANDAINAMCOGAMES",
+      "発売日": "2006/11/14",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 656,
+    "latestRegularSalePrice": 656,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:32.016Z"
+  },
+  "histories": [
+    {
+      "id": 43013,
+      "productId": 42999,
+      "salePrice": 656,
+      "regularSalePrice": 656,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:03.213Z"
+    },
+    {
+      "id": 44210,
+      "productId": 42999,
+      "salePrice": 656,
+      "regularSalePrice": 656,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:32.016Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016329",
+    "capturedAt": "2026-08-17T09:38:32.016Z",
+    "items": [],
+    "path": "data/other-shops/145016329.json"
+  }
+}

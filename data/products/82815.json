@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82815,
+    "title": "Windows2000/XP/Vista DVDソフト いろは ～秋の夕日に影ふみを～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016277",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016277.jpg",
+    "manufacturer": "Caitsith（ケットシー）",
+    "releaseDate": "2007-07-20",
+    "listPrice": 9680,
+    "modelNumber": "CTS-0001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016277001",
+      "メーカー": "Caitsith（ケットシー）",
+      "発売日": "2007/07/20",
+      "定価": "9,680円",
+      "型番": "CTS-0001",
+      "原画": "秋乃武彦\nあぶりだしざくろ",
+      "シナリオ": "うに\nC2H6O\nてつじん",
+      "声優": "茶谷やすら\n町田あみ\n小塚環\nまきいづみ\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:44.163Z"
+  },
+  "histories": [
+    {
+      "id": 82829,
+      "productId": 82815,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:44.163Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245816,
+      "productId": 82815,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-09T05:33:44.000Z"
+    },
+    {
+      "id": 245815,
+      "productId": 82815,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1111,
+      "checkedAt": "2026-09-09T05:33:44.000Z"
+    },
+    {
+      "id": 245814,
+      "productId": 82815,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱日焼け（大）・外・内箱難有",
+      "price": 880,
+      "checkedAt": "2026-09-09T05:33:44.000Z"
+    },
+    {
+      "id": 245813,
+      "productId": 82815,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-09T05:33:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016277",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016277",
+    "capturedAt": "2026-09-09T05:33:44.163Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 680
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱日焼け（大）・外・内箱難有",
+        "price": 880
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145016277.json"
+  }
+}

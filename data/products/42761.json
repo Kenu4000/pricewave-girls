@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 42761,
+    "title": "Windows98/Me/2000/XP CDソフト 雷の戦士ライディII ～邪淫の神殿～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016227",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016227.jpg",
+    "manufacturer": "ZyX",
+    "releaseDate": "2007-06-15",
+    "listPrice": 9680,
+    "modelNumber": "ZYX-00431",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016227001",
+      "メーカー": "ZyX",
+      "発売日": "2007/06/15",
+      "定価": "9,680円",
+      "型番": "ZYX-00431",
+      "原画": "肥後王国\n和馬村政\nさわのたかじ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:34:02.866Z"
+  },
+  "histories": [
+    {
+      "id": 42775,
+      "productId": 42761,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:50.496Z"
+    },
+    {
+      "id": 54919,
+      "productId": 42761,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:20.402Z"
+    },
+    {
+      "id": 66024,
+      "productId": 42761,
+      "salePrice": 650,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:00.311Z"
+    },
+    {
+      "id": 80550,
+      "productId": 42761,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:34:02.866Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 236994,
+      "productId": 42761,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-07T13:34:02.000Z"
+    },
+    {
+      "id": 236993,
+      "productId": 42761,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-07T13:34:02.000Z"
+    },
+    {
+      "id": 236992,
+      "productId": 42761,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-07T13:34:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016227",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016227",
+    "capturedAt": "2026-09-07T13:34:02.866Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145016227.json"
+  }
+}

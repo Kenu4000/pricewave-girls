@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 82811,
+    "title": "Windows2000/XP/Vista DVDソフト 続・殺戮のジャンゴ ～地獄の賞金首～ [皆殺しパック]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016302",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016302.jpg",
+    "manufacturer": "ニトロプラス",
+    "releaseDate": "2007-07-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016302001",
+      "メーカー": "ニトロプラス",
+      "発売日": "2007/07/27",
+      "定価": "9,680円",
+      "原画": "Niθ",
+      "シナリオ": "虚淵玄",
+      "声優": "滑川菊太郎\n岩田由貴\n鈴美巴\n篠崎双葉\n空野太陽\n鮎川ひなた\n波動拳\nトム・クノレーズ\n牛柳亀三\n春野風\n長島雄一\n由貴恵\n一一\n水鏡\n秋山樹\n戸塚和也\nどてら4号\n左高蹴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 10500,
+    "latestRegularSalePrice": 10500,
+    "latestBuyPrice": 5500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:42.419Z"
+  },
+  "histories": [
+    {
+      "id": 82825,
+      "productId": 82811,
+      "salePrice": 10500,
+      "regularSalePrice": 10500,
+      "buyPrice": 5500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:42.419Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245802,
+      "productId": 82811,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 10500,
+      "checkedAt": "2026-09-09T05:33:43.000Z"
+    },
+    {
+      "id": 245801,
+      "productId": 82811,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外カバー難有",
+      "price": 10800,
+      "checkedAt": "2026-09-09T05:33:43.000Z"
+    },
+    {
+      "id": 245800,
+      "productId": 82811,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 8211,
+      "checkedAt": "2026-09-09T05:33:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016302",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016302",
+    "capturedAt": "2026-09-09T05:33:42.419Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 8211
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外カバー難有",
+        "price": 10800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 10500
+      }
+    ],
+    "path": "data/other-shops/145016302.json"
+  }
+}

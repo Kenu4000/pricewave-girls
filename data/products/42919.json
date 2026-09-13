@@ -1,0 +1,80 @@
+{
+  "product": {
+    "id": 42919,
+    "title": "WindowsXP DVDソフト The Elder Scrolls IV OBLIVION [北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021062",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021062.jpg",
+    "manufacturer": "Bethesda Softworks",
+    "releaseDate": "2006-12-29",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145021062001",
+      "メーカー": "Bethesda Softworks",
+      "発売日": "2006/12/29",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:22.484Z"
+  },
+  "histories": [
+    {
+      "id": 42933,
+      "productId": 42919,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:19.032Z"
+    },
+    {
+      "id": 44189,
+      "productId": 42919,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:22.484Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114311,
+      "productId": 42919,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1970,
+      "checkedAt": "2026-08-17T09:38:22.000Z"
+    },
+    {
+      "id": 110624,
+      "productId": 42919,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 1970,
+      "checkedAt": "2026-08-17T07:16:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

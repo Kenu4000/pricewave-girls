@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 82777,
+    "title": "WindowsXP/Vista/7 DVDソフト はるかぜどりに、とまりぎを。 2nd Story ～月の扉と海の欠片～[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022721",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022721.jpg",
+    "manufacturer": "SkyFish",
+    "releaseDate": "2010-01-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145022721001",
+      "メーカー": "SkyFish",
+      "発売日": "2010/01/29",
+      "定価": "9,680円",
+      "原画": "ゆき恵\n蔓木鋼音\n唐辛子ひでゆ\nひなた睦月\n山田ゆき恵\nコバぴょん",
+      "シナリオ": "巳無月\n弘森魚\n御厨みくり\n素浪人",
+      "声優": "愛原瑞生\n雪村とあ\n藤森ゆき奈\n青葉りんご\n水純なな歩\n東かりん\n胸肩腎\n狛乃ハルコ\n草柳順子\n鈴音華月\n鳥井紅子\n中家志穂",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:23.651Z"
+  },
+  "histories": [
+    {
+      "id": 82791,
+      "productId": 82777,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:23.651Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245717,
+      "productId": 82777,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-09T05:33:24.000Z"
+    },
+    {
+      "id": 245716,
+      "productId": 82777,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:33:24.000Z"
+    },
+    {
+      "id": 245715,
+      "productId": 82777,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-09T05:33:24.000Z"
+    },
+    {
+      "id": 245714,
+      "productId": 82777,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-09T05:33:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022721",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022721",
+    "capturedAt": "2026-09-09T05:33:23.651Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145022721.json"
+  }
+}

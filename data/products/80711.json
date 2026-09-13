@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 80711,
+    "title": "WindowsVista/7/8 DVDソフト 迷える2人とセカイのすべて LOVE HEAVEN 300%[抱き枕カバー付版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049057",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049057.jpg",
+    "manufacturer": "Lass",
+    "releaseDate": "2015-05-29",
+    "listPrice": 15180,
+    "modelNumber": "LASS-0009",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049057",
+      "メーカー": "Lass",
+      "発売日": "2015/05/29",
+      "定価": "15,180円",
+      "型番": "LASS-0009",
+      "原画": "しじみ\nよう太",
+      "シナリオ": "剣技マナ\nLEGIOん",
+      "声優": "星鹿りえ\nユリア\n青山ゆかり\n越雪光\n上原あおい\nかわしまりの\n神無月真琴\n波風たてる\nますおかゆうじ\n田中理々\n柳井猿彦",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "シリーズ": "】抱き枕カバー スクールスタイル 美遊・エーデルフェルト(よう太) 俺の嫁!弐陸/あまとう 75,000円 男性向18禁同人誌 <<とある魔術の禁書目録>> あまとう玖 / よう太 / あまとう 300円 同人生活用品・バッグ・神社関連 【Fate",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:00.357Z"
+  },
+  "histories": [
+    {
+      "id": 80725,
+      "productId": 80711,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:00.357Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237430,
+      "productId": 80711,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 7299,
+      "checkedAt": "2026-09-07T13:48:00.000Z"
+    },
+    {
+      "id": 237429,
+      "productId": 80711,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4411,
+      "checkedAt": "2026-09-07T13:48:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049057",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049057",
+    "capturedAt": "2026-09-07T13:48:00.357Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 4411
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 7299
+      }
+    ],
+    "path": "data/other-shops/145049057.json"
+  }
+}

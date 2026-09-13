@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 80735,
+    "title": "Windows98SE/Me/2000/XP DVDソフト カスタム隷奴F",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014732",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014732.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2006-09-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014732001",
+      "メーカー": "KISS",
+      "発売日": "2006/09/29",
+      "定価": "9,680円",
+      "原画": "みどり葵\n弥舞秀人\n金目鯛ぴんく",
+      "シナリオ": "黒和雷人\n小原誠\n都築チキン",
+      "声優": "翔\n宮前友花\n宝井葵\n暁姫路",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:12.938Z"
+  },
+  "histories": [
+    {
+      "id": 80749,
+      "productId": 80735,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:12.938Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237439,
+      "productId": 80735,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-07T13:48:13.000Z"
+    },
+    {
+      "id": 237438,
+      "productId": 80735,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-07T13:48:13.000Z"
+    },
+    {
+      "id": 237437,
+      "productId": 80735,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-07T13:48:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014732",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014732",
+    "capturedAt": "2026-09-07T13:48:12.938Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 680
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145014732.json"
+  }
+}

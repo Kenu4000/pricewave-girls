@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 29638,
+    "title": "Windows7/8/10 DVDソフト お姫様だってXXXしたい!! -Horny magical princess-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059719",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059719.jpg",
+    "manufacturer": "Kalmia8",
+    "releaseDate": "2018-03-30",
+    "listPrice": 4928,
+    "modelNumber": "KLMA-0004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "新品 ：145059719000",
+      "メーカー": "Kalmia8",
+      "発売日": "2018/03/30",
+      "定価": "4,928円",
+      "型番": "KLMA-0004",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4900,
+    "latestRegularSalePrice": 4900,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:46:01.678Z"
+  },
+  "histories": [
+    {
+      "id": 29652,
+      "productId": 29638,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:11.282Z"
+    },
+    {
+      "id": 38461,
+      "productId": 29638,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:05.567Z"
+    },
+    {
+      "id": 49569,
+      "productId": 29638,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:58.764Z"
+    },
+    {
+      "id": 60279,
+      "productId": 29638,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:11:00.679Z"
+    },
+    {
+      "id": 70561,
+      "productId": 29638,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:46:01.678Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202432,
+      "productId": 29638,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 4900,
+      "checkedAt": "2026-09-02T20:46:01.000Z"
+    },
+    {
+      "id": 202431,
+      "productId": 29638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "新品",
+      "price": 3600,
+      "checkedAt": "2026-09-02T20:46:01.000Z"
+    },
+    {
+      "id": 202430,
+      "productId": 29638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3611,
+      "checkedAt": "2026-09-02T20:46:01.000Z"
+    },
+    {
+      "id": 202429,
+      "productId": 29638,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-09-02T20:46:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059719",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059719",
+    "capturedAt": "2026-09-02T20:46:01.678Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3600
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3611
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "新品",
+        "price": 3600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 4900
+      }
+    ],
+    "path": "data/other-shops/145059719.json"
+  }
+}

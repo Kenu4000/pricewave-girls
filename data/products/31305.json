@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 31305,
+    "title": "Windows CDソフト キリエ・エレイソンPCDX -今宵は触手で孕ませNIGHT-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037335",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037335.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2013-06-01",
+    "listPrice": 2200,
+    "modelNumber": "SEA-4",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037335",
+      "メーカー": "softhouse-seal",
+      "発売日": "2013/06/01",
+      "定価": "2,200円",
+      "型番": "SEA-4",
+      "原画": "かごのとり",
+      "シナリオ": "若林浩太郎",
+      "声優": "霜月優\n貴坂理緒\n梨本悠里\n双葉ななみ\n本多未季(本多しの舞)",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1140,
+    "latestRegularSalePrice": 1140,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:07:07.014Z"
+  },
+  "histories": [
+    {
+      "id": 31319,
+      "productId": 31305,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:18.346Z"
+    },
+    {
+      "id": 40061,
+      "productId": 31305,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:49.777Z"
+    },
+    {
+      "id": 51110,
+      "productId": 31305,
+      "salePrice": 1140,
+      "regularSalePrice": 1140,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:56.256Z"
+    },
+    {
+      "id": 63136,
+      "productId": 31305,
+      "salePrice": 1140,
+      "regularSalePrice": 1140,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:07.014Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037335",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037335",
+    "capturedAt": "2026-08-27T16:07:07.014Z",
+    "items": [],
+    "path": "data/other-shops/145037335.json"
+  }
+}

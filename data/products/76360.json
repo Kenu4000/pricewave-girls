@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 76360,
+    "title": "Windows7/8/8.1/10 DVDソフト あぶのーまるらばーず",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059008.jpg",
+    "manufacturer": "とるてそふと",
+    "releaseDate": "2017-11-24",
+    "listPrice": 8580,
+    "modelNumber": "TRT001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059008",
+      "メーカー": "とるてそふと",
+      "発売日": "2017/11/24",
+      "定価": "8,580円",
+      "型番": "TRT001",
+      "原画": "繭咲悠\nあゆま紗由",
+      "シナリオ": "御厨みくり\n丸谷秀人\n保住圭\n籐太",
+      "声優": "奏雨\n歩サラ\n萌花ちょこ\n汝鳥類",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2599,
+    "latestRegularSalePrice": 2599,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T10:08:44.197Z"
+  },
+  "histories": [
+    {
+      "id": 76374,
+      "productId": 76360,
+      "salePrice": 2599,
+      "regularSalePrice": 2599,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T10:08:44.197Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059008",
+    "capturedAt": "2026-09-04T10:08:44.197Z",
+    "items": [],
+    "path": "data/other-shops/145059008.json"
+  }
+}

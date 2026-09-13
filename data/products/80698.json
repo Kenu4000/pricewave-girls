@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 80698,
+    "title": "Windows8/8.1/10 DVDソフト VS Nightmare TRINITY PACK",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070977",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070977.jpg",
+    "manufacturer": "Guilty Nightmare Project",
+    "releaseDate": "2021-02-26",
+    "listPrice": 8580,
+    "modelNumber": "WILL-424-420-409SET",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145070977",
+      "メーカー": "Guilty Nightmare Project",
+      "発売日": "2021/02/26",
+      "定価": "8,580円",
+      "型番": "WILL-424-420-409SET",
+      "原画": "さいもん\nの歯\nティータ.J",
+      "シナリオ": "上島向陽\n可動命\n藤枝卓也\n結城\n利波創造",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:54.643Z"
+  },
+  "histories": [
+    {
+      "id": 80712,
+      "productId": 80698,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:54.643Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237428,
+      "productId": 80698,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-09-07T13:47:54.000Z"
+    },
+    {
+      "id": 237427,
+      "productId": 80698,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 3460,
+      "checkedAt": "2026-09-07T13:47:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145070977",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070977",
+    "capturedAt": "2026-09-07T13:47:54.643Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 3460
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3711
+      }
+    ],
+    "path": "data/other-shops/145070977.json"
+  }
+}

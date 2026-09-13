@@ -1,0 +1,173 @@
+{
+  "product": {
+    "id": 55788,
+    "title": "Windows7/8.1/10 DVDソフト Kiss＆Crisis",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062630",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062630.jpg",
+    "manufacturer": "pure more",
+    "releaseDate": "2018-09-28",
+    "listPrice": 7480,
+    "modelNumber": "MS-122",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062630001",
+      "メーカー": "pure more",
+      "発売日": "2018/09/28",
+      "定価": "7,480円",
+      "型番": "MS-122",
+      "原画": "あずま蘭",
+      "シナリオ": "垂花",
+      "声優": "汐路美晴\n鈴谷まや\n榛名れん\n水純なな歩",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:13.173Z"
+  },
+  "histories": [
+    {
+      "id": 55802,
+      "productId": 55788,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:13.173Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150771,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150770,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150769,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150768,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150767,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150766,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150765,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    },
+    {
+      "id": 150764,
+      "productId": 55788,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古通常",
+      "price": 600,
+      "checkedAt": "2026-08-21T05:30:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062630",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062630",
+    "capturedAt": "2026-08-21T05:30:13.173Z",
+    "items": [
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古通常",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145062630.json"
+  }
+}

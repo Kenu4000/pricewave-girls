@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 86611,
+    "title": "Windows2000/XP/Vista CDソフト 魔法少女スバル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022707",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022707.jpg",
+    "manufacturer": "Black Lilith",
+    "releaseDate": "2009-12-25",
+    "listPrice": 2420,
+    "modelNumber": "LBK-00046",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022707",
+      "メーカー": "Black Lilith",
+      "発売日": "2009/12/25",
+      "定価": "2,420円",
+      "型番": "LBK-00046",
+      "原画": "龍炎狼牙",
+      "シナリオ": "ZEQU",
+      "声優": "紘川琴音\n花南\n青井美海",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-11T07:11:22.027Z"
+  },
+  "histories": [
+    {
+      "id": 86625,
+      "productId": 86611,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T07:11:22.027Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022707",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022707",
+    "capturedAt": "2026-09-11T07:11:22.027Z",
+    "items": [],
+    "path": "data/other-shops/145022707.json"
+  }
+}

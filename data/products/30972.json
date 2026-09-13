@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 30972,
+    "title": "WindowsXP/Vista/7 DVDソフト 神学校 -Noli me tangere-[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041959",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041959.jpg",
+    "manufacturer": "PIL/SLASH",
+    "releaseDate": "2014-03-20",
+    "listPrice": 9350,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145041959001",
+      "メーカー": "PIL/SLASH",
+      "発売日": "2014/03/20",
+      "定価": "9,350円",
+      "声優": "空野太陽\n東城直樹\n氷河流\nスモール佐藤\n青島刃\n夕凪孝\n縞馬男爵\n青宿住人\n華房宰\n河村眞人\n蒼葉優\n三軒長介\n神威古潭",
+      "原画": "白井幸子",
+      "シナリオ": "草香祭",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4550,
+    "latestRegularSalePrice": 4550,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:21:08.464Z"
+  },
+  "histories": [
+    {
+      "id": 30986,
+      "productId": 30972,
+      "salePrice": 3850,
+      "regularSalePrice": 4300,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:35.356Z"
+    },
+    {
+      "id": 39737,
+      "productId": 30972,
+      "salePrice": 3850,
+      "regularSalePrice": 4300,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:25.463Z"
+    },
+    {
+      "id": 50863,
+      "productId": 30972,
+      "salePrice": 3911,
+      "regularSalePrice": 3911,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:47.502Z"
+    },
+    {
+      "id": 61898,
+      "productId": 30972,
+      "salePrice": 4550,
+      "regularSalePrice": 4550,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:21:08.464Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 172911,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4550,
+      "checkedAt": "2026-08-27T09:21:08.000Z"
+    },
+    {
+      "id": 172910,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 3911,
+      "checkedAt": "2026-08-27T09:21:08.000Z"
+    },
+    {
+      "id": 103902,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 3911,
+      "checkedAt": "2026-08-16T01:23:25.000Z"
+    },
+    {
+      "id": 103901,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-16T01:23:25.000Z"
+    },
+    {
+      "id": 78032,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 3911,
+      "checkedAt": "2026-08-15T23:25:35.000Z"
+    },
+    {
+      "id": 78031,
+      "productId": 30972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3850,
+      "checkedAt": "2026-08-15T23:25:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041959",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041959",
+    "capturedAt": "2026-08-27T09:21:08.464Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 3911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4550
+      }
+    ],
+    "path": "data/other-shops/145041959.json"
+  }
+}

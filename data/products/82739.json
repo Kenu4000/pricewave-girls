@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 82739,
+    "title": "WindowsXP/Vista/7 DVDソフト WEDDING BLUE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032400",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032400.jpg",
+    "manufacturer": "LiLiM DARKNESS",
+    "releaseDate": "2012-06-29",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032400001",
+      "メーカー": "LiLiM DARKNESS",
+      "発売日": "2012/06/29",
+      "定価": "5,280円",
+      "原画": "黒田晶見",
+      "シナリオ": "坂元星日",
+      "声優": "邊鴉凱\n三郷綾夢\n黒須珊汰\n野宮カヲル",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:02.589Z"
+  },
+  "histories": [
+    {
+      "id": 82753,
+      "productId": 82739,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:02.589Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245630,
+      "productId": 82739,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245629,
+      "productId": 82739,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1799,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245628,
+      "productId": 82739,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 1750,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245627,
+      "productId": 82739,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1500,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245626,
+      "productId": 82739,
+      "sourceType": "other_shop",
+      "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032400",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032400",
+    "capturedAt": "2026-09-09T05:33:02.589Z",
+    "items": [
+      {
+        "storeName": "エンターキング南行徳店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1300
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 1750
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1799
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145032400.json"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 86601,
+    "title": "WindowsXP/Vista/7/8/8.1 DVDソフト プレミアムアーカイブス 北側寒囲",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046442",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046442.jpg",
+    "manufacturer": "D.O.",
+    "releaseDate": "2014-12-19",
+    "listPrice": 10780,
+    "modelNumber": "COND-006",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046442",
+      "メーカー": "D.O.",
+      "発売日": "2014/12/19",
+      "定価": "10,780円",
+      "型番": "COND-006",
+      "シナリオ": "佐野心音\n北側寒囲\n佐野晋一朗\n長谷川藍",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6980,
+    "latestRegularSalePrice": 6980,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-11T07:11:16.259Z"
+  },
+  "histories": [
+    {
+      "id": 86615,
+      "productId": 86601,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T07:11:16.259Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046442",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046442",
+    "capturedAt": "2026-09-11T07:11:16.259Z",
+    "items": [],
+    "path": "data/other-shops/145046442.json"
+  }
+}

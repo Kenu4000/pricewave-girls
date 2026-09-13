@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 31658,
+    "title": "WindowsXP/Vista/7 CDソフト 魔王様の孕ませ道中記",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034043.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2012-09-07",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034043001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2012/09/07",
+      "定価": "2,200円",
+      "シナリオ": "須々木鮎尾",
+      "原画": "宮本一佐",
+      "声優": "大葉じゅん\n奥山歩\nヒマリ\n春河あかり\nこのえゆずこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 320,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:08:52.809Z"
+  },
+  "histories": [
+    {
+      "id": 31672,
+      "productId": 31658,
+      "salePrice": 360,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:42:37.590Z"
+    },
+    {
+      "id": 40407,
+      "productId": 31658,
+      "salePrice": 360,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:30:33.141Z"
+    },
+    {
+      "id": 51369,
+      "productId": 31658,
+      "salePrice": 360,
+      "regularSalePrice": 380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:36:10.177Z"
+    },
+    {
+      "id": 63368,
+      "productId": 31658,
+      "salePrice": 320,
+      "regularSalePrice": 320,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:08:52.809Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 177503,
+      "productId": 31658,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-27T16:08:53.000Z"
+    },
+    {
+      "id": 177502,
+      "productId": 31658,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-27T16:08:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034043",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034043",
+    "capturedAt": "2026-08-27T16:08:52.809Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 320
+      }
+    ],
+    "path": "data/other-shops/145034043.json"
+  }
+}

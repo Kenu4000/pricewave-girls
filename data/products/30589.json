@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 30589,
+    "title": "WindowsVista/7/8 DVDソフト カミツレ -7の二乗不思議-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045880",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045880.jpg",
+    "manufacturer": "りぷる",
+    "releaseDate": "2015-02-27",
+    "listPrice": 9680,
+    "modelNumber": "LBRE-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145045880001",
+      "メーカー": "りぷる",
+      "発売日": "2015/02/27",
+      "定価": "9,680円",
+      "型番": "LBRE-001",
+      "原画": "あかつきまお",
+      "シナリオ": "玉沢円",
+      "声優": "八ッ橋きなこ\n八尋まみ\n綾音まこ\n春日アン",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-08T22:16:11.289Z"
+  },
+  "histories": [
+    {
+      "id": 30603,
+      "productId": 30589,
+      "salePrice": 1501,
+      "regularSalePrice": 1501,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:49.258Z"
+    },
+    {
+      "id": 39376,
+      "productId": 30589,
+      "salePrice": 1501,
+      "regularSalePrice": 1501,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:11.076Z"
+    },
+    {
+      "id": 50593,
+      "productId": 30589,
+      "salePrice": 1501,
+      "regularSalePrice": 1501,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:22.962Z"
+    },
+    {
+      "id": 61673,
+      "productId": 30589,
+      "salePrice": 1501,
+      "regularSalePrice": 1501,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:19:18.623Z"
+    },
+    {
+      "id": 73471,
+      "productId": 30589,
+      "salePrice": 1501,
+      "regularSalePrice": 1501,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:05:00.908Z"
+    },
+    {
+      "id": 81044,
+      "productId": 30589,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-08T22:16:11.289Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 238581,
+      "productId": 30589,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-09-08T22:16:11.000Z"
+    },
+    {
+      "id": 238580,
+      "productId": 30589,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-08T22:16:11.000Z"
+    },
+    {
+      "id": 238579,
+      "productId": 30589,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1401,
+      "checkedAt": "2026-09-08T22:16:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145045880",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045880",
+    "capturedAt": "2026-09-08T22:16:11.289Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1401
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1650
+      }
+    ],
+    "path": "data/other-shops/145045880.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 80687,
+    "title": "Windows CDソフト アマカノ2 ビジュアルファンブック ボイスドラマCD(DVD)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073022",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073022.jpg",
+    "manufacturer": "ジーオーティー",
+    "releaseDate": "2021-05-31",
+    "listPrice": null,
+    "modelNumber": "TKDISK-206",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145073022",
+      "メーカー": "ジーオーティー",
+      "発売日": "2021/05/31",
+      "型番": "TKDISK-206",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 6600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:49.219Z"
+  },
+  "histories": [
+    {
+      "id": 80701,
+      "productId": 80687,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 6600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:49.219Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237409,
+      "productId": 80687,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 35000,
+      "checkedAt": "2026-09-07T13:47:49.000Z"
+    },
+    {
+      "id": 237408,
+      "productId": 80687,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 11511,
+      "checkedAt": "2026-09-07T13:47:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073022",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073022",
+    "capturedAt": "2026-09-07T13:47:49.219Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 11511
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 35000
+      }
+    ],
+    "path": "data/other-shops/145073022.json"
+  }
+}

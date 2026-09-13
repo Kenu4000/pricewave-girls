@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 86606,
+    "title": "Windows8/8.1/10 DVDソフト 虜ノ姉妹 -淫らに弄ばれる運命の迷い子- if エロパッチ対応豪華版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072144",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072144.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2021-06-25",
+    "listPrice": 12100,
+    "modelNumber": "WILL-422DX",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145072144001",
+      "メーカー": "Guilty",
+      "発売日": "2021/06/25",
+      "定価": "12,100円",
+      "型番": "WILL-422DX",
+      "原画": "ティータ.J\nの歯\nあかつき聖\nさいもん",
+      "シナリオ": "結城\n利波創造",
+      "声優": "東シヅ\n星宮リリィ\n猫田みけ\n藤崎紗矢香\n星空ユメ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3280,
+    "latestRegularSalePrice": 3280,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-11T07:11:16.630Z"
+  },
+  "histories": [
+    {
+      "id": 86620,
+      "productId": 86606,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T07:11:16.630Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 261748,
+      "productId": 86606,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3280,
+      "checkedAt": "2026-09-11T07:11:17.000Z"
+    },
+    {
+      "id": 261747,
+      "productId": 86606,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 4800,
+      "checkedAt": "2026-09-11T07:11:17.000Z"
+    },
+    {
+      "id": 261746,
+      "productId": 86606,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2811,
+      "checkedAt": "2026-09-11T07:11:17.000Z"
+    },
+    {
+      "id": 261745,
+      "productId": 86606,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2712,
+      "checkedAt": "2026-09-11T07:11:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072144",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072144",
+    "capturedAt": "2026-09-11T07:11:16.630Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2712
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 2811
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 4800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3280
+      }
+    ],
+    "path": "data/other-shops/145072144.json"
+  }
+}

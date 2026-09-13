@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 42981,
+    "title": "Windows CDソフト Sentinel ORIGINAL AFTER EPISODE DISC -優衣 編- (メッセサンオー特典)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027368",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027368.jpg",
+    "manufacturer": "CLOCKUP",
+    "releaseDate": "2006-11-24",
+    "listPrice": null,
+    "modelNumber": "MESSE-257",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145027368001",
+      "メーカー": "CLOCKUP",
+      "発売日": "2006/11/24",
+      "型番": "MESSE-257",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-13T00:06:00.807Z"
+  },
+  "histories": [
+    {
+      "id": 42995,
+      "productId": 42981,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:54.283Z"
+    },
+    {
+      "id": 44205,
+      "productId": 42981,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:29.817Z"
+    },
+    {
+      "id": 55417,
+      "productId": 42981,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:49:43.389Z"
+    },
+    {
+      "id": 75029,
+      "productId": 42981,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:39:38.956Z"
+    },
+    {
+      "id": 87815,
+      "productId": 42981,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:06:00.807Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 265690,
+      "productId": 42981,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-09-13T00:06:00.000Z"
+    },
+    {
+      "id": 265689,
+      "productId": 42981,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ",
+      "price": 9500,
+      "checkedAt": "2026-09-13T00:06:00.000Z"
+    },
+    {
+      "id": 265688,
+      "productId": 42981,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-09-13T00:06:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027368",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027368",
+    "capturedAt": "2026-09-13T00:06:00.807Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 950
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ",
+        "price": 9500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145027368.json"
+  }
+}

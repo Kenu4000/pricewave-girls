@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 80712,
+    "title": "WindowsVista/7/8 DVDソフト セーラーエレメント",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048573",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048573.jpg",
+    "manufacturer": "HERENCIA",
+    "releaseDate": "2015-03-27",
+    "listPrice": 4180,
+    "modelNumber": "HER-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048573",
+      "メーカー": "HERENCIA",
+      "発売日": "2015/03/27",
+      "定価": "4,180円",
+      "型番": "HER-001",
+      "声優": "葵時緒\n星野七海\n花澤さくら",
+      "原画": "七G",
+      "シナリオ": "クイシ\n亮精類",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:00.491Z"
+  },
+  "histories": [
+    {
+      "id": 80726,
+      "productId": 80712,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:00.491Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237432,
+      "productId": 80712,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-09-07T13:48:00.000Z"
+    },
+    {
+      "id": 237431,
+      "productId": 80712,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 3050,
+      "checkedAt": "2026-09-07T13:48:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145048573",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048573",
+    "capturedAt": "2026-09-07T13:48:00.491Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 3050
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3511
+      }
+    ],
+    "path": "data/other-shops/145048573.json"
+  }
+}

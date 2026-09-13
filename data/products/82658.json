@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82658,
+    "title": "Windows8.1/10 DVDソフト なごりさんは六堂和里になりきれない -恋愛偏差値0の心理学-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067294",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067294.jpg",
+    "manufacturer": "INTERHEART glossy",
+    "releaseDate": "2020-02-28",
+    "listPrice": 3520,
+    "modelNumber": "INH-425",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067294001",
+      "メーカー": "INTERHEART glossy",
+      "発売日": "2020/02/28",
+      "定価": "3,520円",
+      "型番": "INH-425",
+      "原画": "スカイハウス",
+      "シナリオ": "こおろぎアトリエ",
+      "声優": "叶一華",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:19.289Z"
+  },
+  "histories": [
+    {
+      "id": 82672,
+      "productId": 82658,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:19.289Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245380,
+      "productId": 82658,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245379,
+      "productId": 82658,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245378,
+      "productId": 82658,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 945,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245377,
+      "productId": 82658,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067294",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067294",
+    "capturedAt": "2026-09-09T05:32:19.289Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 945
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145067294.json"
+  }
+}

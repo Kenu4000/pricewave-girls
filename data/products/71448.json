@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71448,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト まとめてたねつけ♪女神姉妹孕ませ多妻生活!～全員一緒に妊娠させてっ♪～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020246",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020246.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2009-06-12",
+    "listPrice": 2090,
+    "modelNumber": "NL-029",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020246001",
+      "メーカー": "Norn",
+      "発売日": "2009/06/12",
+      "定価": "2,090円",
+      "型番": "NL-029",
+      "原画": "綾瀬はづき",
+      "シナリオ": "leimonZ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:56.350Z"
+  },
+  "histories": [
+    {
+      "id": 71462,
+      "productId": 71448,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:56.350Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 205026,
+      "productId": 71448,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205025,
+      "productId": 71448,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205024,
+      "productId": 71448,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020246",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020246",
+    "capturedAt": "2026-09-02T21:37:56.350Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 1150
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145020246.json"
+  }
+}

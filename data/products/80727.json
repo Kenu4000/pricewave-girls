@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 80727,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 触禍 -処女を狙う黒い触手-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025481",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025481.jpg",
+    "manufacturer": "Lusterise",
+    "releaseDate": "2010-11-26",
+    "listPrice": 9680,
+    "modelNumber": "LUS007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025481",
+      "メーカー": "Lusterise",
+      "発売日": "2010/11/26",
+      "定価": "9,680円",
+      "型番": "LUS007",
+      "原画": "雪村一",
+      "シナリオ": "小熊猫八\nすまっしゅぱんだ",
+      "声優": "御苑生メイ\n三郷綾夢\n倉田まりや\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "シリーズ": "触区 -学園妖触譚- 700円 DVDPGソフト 最凶魔法少女アリナ DVD-PG 2,000円 男性向18禁同人誌 <<ラブライブ！>> ことりと朝まで一緒 3 / 雪村一 / STUDIO Min 900円 Windows2000/XP DVDソフト W触区 -新・学園妖触譚- 1,095円 雪村一の作品リストを見るLusteriseの製品 WindowsVista/7/8 DVDソフト 光翼戦姫エクスティアA 2,550円 WindowsVista/7/8 DVDソフト 光翼戦姫エクスティア2 2,000円 WindowsVista/7/8 DVDソフト 光翼戦姫エクスティア 3,420円 WindowsXP/Vista/7 DVDソフト モンスターズ・レイド -魔に堕ちる姫騎士- 2,580円",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:07.719Z"
+  },
+  "histories": [
+    {
+      "id": 80741,
+      "productId": 80727,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:07.719Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237436,
+      "productId": 80727,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 3200,
+      "checkedAt": "2026-09-07T13:48:07.000Z"
+    },
+    {
+      "id": 237435,
+      "productId": 80727,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-09-07T13:48:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025481",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025481",
+    "capturedAt": "2026-09-07T13:48:07.719Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2911
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 3200
+      }
+    ],
+    "path": "data/other-shops/145025481.json"
+  }
+}

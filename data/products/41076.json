@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41076,
+    "title": "WindowsXP/Vista/7 DVDソフト Wanna. SpartanSex Spermax!!![通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031017",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031017.jpg",
+    "manufacturer": "Guilty eX",
+    "releaseDate": "2012-01-27",
+    "listPrice": 6380,
+    "modelNumber": "WILL-281B",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031017",
+      "メーカー": "Guilty eX",
+      "発売日": "2012/01/27",
+      "定価": "6,380円",
+      "型番": "WILL-281B",
+      "原画": "椋木尋",
+      "声優": "御苑生メイ\n佐倉もも花\n青井美海",
+      "シナリオ": "kaku",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 3700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:09.563Z"
+  },
+  "histories": [
+    {
+      "id": 41090,
+      "productId": 41076,
+      "salePrice": 6660,
+      "regularSalePrice": 6660,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:38.759Z"
+    },
+    {
+      "id": 52825,
+      "productId": 41076,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:04.847Z"
+    },
+    {
+      "id": 64719,
+      "productId": 41076,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:09.563Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181779,
+      "productId": 41076,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 7501,
+      "checkedAt": "2026-08-29T01:14:09.000Z"
+    },
+    {
+      "id": 181778,
+      "productId": 41076,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 6660,
+      "checkedAt": "2026-08-29T01:14:09.000Z"
+    },
+    {
+      "id": 142285,
+      "productId": 41076,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 7501,
+      "checkedAt": "2026-08-19T16:19:04.000Z"
+    },
+    {
+      "id": 142284,
+      "productId": 41076,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 6660,
+      "checkedAt": "2026-08-19T16:19:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031017",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031017",
+    "capturedAt": "2026-08-29T01:14:09.563Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 6660
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 7501
+      }
+    ],
+    "path": "data/other-shops/145031017.json"
+  }
+}

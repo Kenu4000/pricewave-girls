@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 82625,
+    "title": "Windows10/11 DVDソフト 遥か碧の花嫁に [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078030",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078030.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2023-07-28",
+    "listPrice": 10780,
+    "modelNumber": "LOS-026",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145078030001",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2023/07/28",
+      "定価": "10,780円",
+      "型番": "LOS-026",
+      "原画": "萌木原ふみたけ",
+      "SD原画": "流かさね",
+      "シナリオ": "泰良則充\n玉城琴也\n詠野万知子",
+      "声優": "すずな\nつままもふ",
+      "演奏": "結城ほのか",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-026",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4600,
+    "latestRegularSalePrice": 4600,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:00.994Z"
+  },
+  "histories": [
+    {
+      "id": 82639,
+      "productId": 82625,
+      "salePrice": 4600,
+      "regularSalePrice": 4600,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:00.994Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245248,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4600,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245247,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 4949,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245246,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245245,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+      "price": 4300,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245244,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 4112,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245243,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 4100,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245242,
+      "productId": 82625,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2980,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145078030",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078030",
+    "capturedAt": "2026-09-09T05:32:00.994Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2980
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 4100
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 4112
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+        "price": 4300
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 2980
+      },
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 4949
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4600
+      }
+    ],
+    "path": "data/other-shops/145078030.json"
+  }
+}

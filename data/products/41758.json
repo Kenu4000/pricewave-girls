@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 41758,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 姉のいいなり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022702",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022702.jpg",
+    "manufacturer": "スワンマニア",
+    "releaseDate": "2009-12-25",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022702",
+      "メーカー": "スワンマニア",
+      "発売日": "2009/12/25",
+      "定価": "3,080円",
+      "原画": "鬼MAYUGE",
+      "シナリオ": "神城綾斗",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1520,
+    "latestRegularSalePrice": 1520,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:28.319Z"
+  },
+  "histories": [
+    {
+      "id": 41772,
+      "productId": 41758,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:06.481Z"
+    },
+    {
+      "id": 53325,
+      "productId": 41758,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:26.245Z"
+    },
+    {
+      "id": 64897,
+      "productId": 41758,
+      "salePrice": 1520,
+      "regularSalePrice": 1520,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:28.319Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143324,
+      "productId": 41758,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 143323,
+      "productId": 41758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1440,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 143322,
+      "productId": 41758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-08-19T16:23:26.000Z"
+    },
+    {
+      "id": 108245,
+      "productId": 41758,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-08-17T07:05:06.000Z"
+    },
+    {
+      "id": 108244,
+      "productId": 41758,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1440,
+      "checkedAt": "2026-08-17T07:05:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022702",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022702",
+    "capturedAt": "2026-08-29T01:15:28.319Z",
+    "items": [],
+    "path": "data/other-shops/145022702.json"
+  }
+}

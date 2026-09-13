@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 82629,
+    "title": "Windows10/11 DVDソフト 一人旅で行った先でまさかあの嫌いな上司と遭遇 -こうなったのも全部、ドタキャンした彼氏のせいだからね-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083314",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083314.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2025-07-25",
+    "listPrice": 3080,
+    "modelNumber": "APT-284",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083314001",
+      "メーカー": "アパタイト",
+      "発売日": "2025/07/25",
+      "定価": "3,080円",
+      "型番": "APT-284",
+      "原画": "じゃっじ",
+      "シナリオ": "たき",
+      "声優": "高崎ゆめ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:02.834Z"
+  },
+  "histories": [
+    {
+      "id": 82643,
+      "productId": 82629,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:02.834Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245272,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245271,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 5600,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245270,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1980,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245269,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245268,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245267,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1401,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245266,
+      "productId": 82629,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 1300,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083314",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083314",
+    "capturedAt": "2026-09-09T05:32:02.834Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 1300
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1401
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 1300
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 1980
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 5600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1680
+      }
+    ],
+    "path": "data/other-shops/145083314.json"
+  }
+}

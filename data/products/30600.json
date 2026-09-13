@@ -1,0 +1,180 @@
+{
+  "product": {
+    "id": 30600,
+    "title": "WindowsVista/7/8 CDソフト 妹はナマイキJK",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049291",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049291.jpg",
+    "manufacturer": "スタジオ カメ",
+    "releaseDate": "2015-02-27",
+    "listPrice": 2420,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145049291001",
+      "メーカー": "スタジオ カメ",
+      "発売日": "2015/02/27",
+      "定価": "2,420円",
+      "原画": "道玄",
+      "シナリオ": "ヤタベトシキ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:05:02.888Z"
+  },
+  "histories": [
+    {
+      "id": 30614,
+      "productId": 30600,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:21:55.634Z"
+    },
+    {
+      "id": 39387,
+      "productId": 30600,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:20:14.947Z"
+    },
+    {
+      "id": 50601,
+      "productId": 30600,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:29:26.645Z"
+    },
+    {
+      "id": 61678,
+      "productId": 30600,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:19:22.361Z"
+    },
+    {
+      "id": 73475,
+      "productId": 30600,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:05:02.888Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 212120,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-03T16:05:03.000Z"
+    },
+    {
+      "id": 212119,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T16:05:03.000Z"
+    },
+    {
+      "id": 212118,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-03T16:05:03.000Z"
+    },
+    {
+      "id": 172397,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-27T09:19:22.000Z"
+    },
+    {
+      "id": 172396,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-27T09:19:22.000Z"
+    },
+    {
+      "id": 172395,
+      "productId": 30600,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-27T09:19:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049291",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049291",
+    "capturedAt": "2026-09-03T16:05:02.888Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145049291.json"
+  }
+}

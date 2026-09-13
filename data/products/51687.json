@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 51687,
+    "title": "Windows98/Me/2000/XP DVDソフト クライミライ4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015776",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015776.jpg",
+    "manufacturer": "FlyingShine黒",
+    "releaseDate": "2007-04-27",
+    "listPrice": 9680,
+    "modelNumber": "FS-023",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015776001",
+      "メーカー": "FlyingShine黒",
+      "発売日": "2007/04/27",
+      "定価": "9,680円",
+      "型番": "FS-023",
+      "原画": "相川亜利砂",
+      "シナリオ": "三宅蒼色",
+      "アーティスト": "Marica",
+      "声優": "乃田あす実\nカンザキカナリ\n早乙女綾\n榎津まお\nかわしまりの\n草柳順子\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:01.992Z"
+  },
+  "histories": [
+    {
+      "id": 51701,
+      "productId": 51687,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:59.397Z"
+    },
+    {
+      "id": 73216,
+      "productId": 51687,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:01.992Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 211565,
+      "productId": 51687,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-03T16:03:02.000Z"
+    },
+    {
+      "id": 211564,
+      "productId": 51687,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-03T16:03:02.000Z"
+    },
+    {
+      "id": 211563,
+      "productId": 51687,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-03T16:03:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015776",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015776",
+    "capturedAt": "2026-09-03T16:03:01.992Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145015776.json"
+  }
+}

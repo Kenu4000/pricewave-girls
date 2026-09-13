@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 80688,
+    "title": "Windows8.1/10 DVDソフト 閃鋼のクラリアスF -グリムを紡ぎしもの- [完全生産限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073089",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073089.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2021-11-26",
+    "listPrice": 10978,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145073089001",
+      "メーカー": "戯画",
+      "発売日": "2021/11/26",
+      "定価": "10,978円",
+      "原画": "鈴平ひろ",
+      "シナリオ": "吉川信夫\n新島夕\n垂花",
+      "声優": "青葉りんご\n白月かなめ\n鹿瀬紫卯\n蒼乃むすび\n小波すず\n稲荷結\n陽乃ゆゆ\n野☆球\n黒衣虹男\n中里圭太\n越雪光\n柚原みう\n東シヅ\n芝村純\n古河徹人\n奥山歩\n綾瀬あかり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 7180,
+    "latestRegularSalePrice": 7180,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-13T00:07:34.867Z"
+  },
+  "histories": [
+    {
+      "id": 80702,
+      "productId": 80688,
+      "salePrice": 7010,
+      "regularSalePrice": 7010,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:49.185Z"
+    },
+    {
+      "id": 88120,
+      "productId": 80688,
+      "salePrice": 7180,
+      "regularSalePrice": 7180,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:34.867Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 266517,
+      "productId": 80688,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7180,
+      "checkedAt": "2026-09-13T00:07:35.000Z"
+    },
+    {
+      "id": 266516,
+      "productId": 80688,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 6010,
+      "checkedAt": "2026-09-13T00:07:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073089",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073089",
+    "capturedAt": "2026-09-13T00:07:34.867Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 6010
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7180
+      }
+    ],
+    "path": "data/other-shops/145073089.json"
+  }
+}

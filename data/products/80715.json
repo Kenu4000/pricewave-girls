@@ -1,0 +1,119 @@
+{
+  "product": {
+    "id": 80715,
+    "title": "WindowsVista/7/8 DVDソフト 女子のおしっこいじめ -女子便くんといわれたボクの6年間-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043982",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043982.jpg",
+    "manufacturer": "しろいぱんつ",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145043982",
+      "メーカー": "しろいぱんつ",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "原画": "はつ",
+      "シナリオ": "御不浄くん",
+      "声優": "八ッ橋きなこ\n安芸河えな\n安堂りゅう\n綾音まこ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 4200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-13T00:07:34.287Z"
+  },
+  "histories": [
+    {
+      "id": 80729,
+      "productId": 80715,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:02.137Z"
+    },
+    {
+      "id": 88116,
+      "productId": 80715,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 4200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:34.287Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 266509,
+      "productId": 80715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 7811,
+      "checkedAt": "2026-09-13T00:07:34.000Z"
+    },
+    {
+      "id": 266508,
+      "productId": 80715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 6800,
+      "checkedAt": "2026-09-13T00:07:34.000Z"
+    },
+    {
+      "id": 237434,
+      "productId": 80715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 7811,
+      "checkedAt": "2026-09-07T13:48:02.000Z"
+    },
+    {
+      "id": 237433,
+      "productId": 80715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 6800,
+      "checkedAt": "2026-09-07T13:48:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043982",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043982",
+    "capturedAt": "2026-09-13T00:07:34.287Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 6800
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 7811
+      }
+    ],
+    "path": "data/other-shops/145043982.json"
+  }
+}

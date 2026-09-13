@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 30934,
+    "title": "WindowsXP/Vista/7 CDソフト 劣等姦 ～優良種の身も心も壊す劣等種～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041613",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041613.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2014-03-28",
+    "listPrice": 3300,
+    "modelNumber": "CYCL-360",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145041613001",
+      "メーカー": "CYCLET",
+      "発売日": "2014/03/28",
+      "定価": "3,300円",
+      "型番": "CYCL-360",
+      "シナリオ": "池かなた",
+      "原画": "Alber",
+      "声優": "榛名れん\n有賀桃",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "1180",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:25:14.965Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:23:03.713Z"
+  },
+  "histories": [
+    {
+      "id": 30948,
+      "productId": 30934,
+      "salePrice": 1100,
+      "regularSalePrice": 1180,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:25:14.625Z"
+    },
+    {
+      "id": 39699,
+      "productId": 30934,
+      "salePrice": 1100,
+      "regularSalePrice": 1180,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:23:03.713Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 103847,
+      "productId": 30934,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:23:03.000Z"
+    },
+    {
+      "id": 103846,
+      "productId": 30934,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-16T01:23:03.000Z"
+    },
+    {
+      "id": 77976,
+      "productId": 30934,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:25:14.000Z"
+    },
+    {
+      "id": 77975,
+      "productId": 30934,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-08-15T23:25:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041613",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041613",
+    "capturedAt": "2026-08-16T01:23:03.713Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145041613.json"
+  }
+}

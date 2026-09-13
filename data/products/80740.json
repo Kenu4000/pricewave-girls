@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 80740,
+    "title": "Windows98/Me/2000/XP DVDソフト 幼なじみとの暮らし方 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014619",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014619.jpg",
+    "manufacturer": "ハイクオソフト",
+    "releaseDate": "2006-08-11",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014619",
+      "メーカー": "ハイクオソフト",
+      "発売日": "2006/08/11",
+      "定価": "6,380円",
+      "原画": "ひーで",
+      "シナリオ": "keikei\nたとむ",
+      "声優": "紫華すみれ\n榊原ゆい\n成瀬未亜",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1511,
+    "latestRegularSalePrice": 1511,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:16.579Z"
+  },
+  "histories": [
+    {
+      "id": 80754,
+      "productId": 80740,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:16.579Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014619",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014619",
+    "capturedAt": "2026-09-07T13:48:16.579Z",
+    "items": [],
+    "path": "data/other-shops/145014619.json"
+  }
+}

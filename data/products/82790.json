@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 82790,
+    "title": "Windows2000/XP/Vista DVDソフト るいは智を呼ぶ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018496",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018496.jpg",
+    "manufacturer": "暁WORKS",
+    "releaseDate": "2008-07-31",
+    "listPrice": 8580,
+    "modelNumber": "AW-0004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018496",
+      "メーカー": "暁WORKS",
+      "発売日": "2008/07/31",
+      "定価": "8,580円",
+      "型番": "AW-0004",
+      "原画": "さえき北都",
+      "シナリオ": "衆堂ジョオ\n日野亘",
+      "声優": "鈴峰りお\n有栖川みや美\n天乃そら\n鷹月さくら\n桜坂かい\n水鏡\n芹園みや\n真琴ひろ\nさくらひな\n羅々菜\n六月紫音\nJACK\n麻野紗雪\n日椰たぬき",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:31.153Z"
+  },
+  "histories": [
+    {
+      "id": 82804,
+      "productId": 82790,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:31.153Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018496",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018496",
+    "capturedAt": "2026-09-09T05:33:31.153Z",
+    "items": [],
+    "path": "data/other-shops/145018496.json"
+  }
+}

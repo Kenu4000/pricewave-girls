@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 42169,
+    "title": "Windows CDソフト SWEET POOL オリジナルデジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019958",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019958.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2008-12-19",
+    "listPrice": null,
+    "modelNumber": "SKR-137",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145019958",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2008/12/19",
+      "型番": "SKR-137",
+      "声優": "空野太陽\n春野風\n鳩マン軍曹\n緑川光\n浅野要二",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:08:57.231Z"
+  },
+  "histories": [
+    {
+      "id": 42183,
+      "productId": 42169,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:57.231Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019958",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019958",
+    "capturedAt": "2026-08-17T07:08:57.231Z",
+    "items": [],
+    "path": "data/other-shops/145019958.json"
+  }
+}

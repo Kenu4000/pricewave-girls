@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 55868,
+    "title": "Windows CDソフト カスタムメイド3D with Chu-B Lip 流通特典プラグインディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050669",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050669.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2015-06-26",
+    "listPrice": null,
+    "modelNumber": "KISS-062CO",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145050669001",
+      "メーカー": "KISS",
+      "発売日": "2015/06/26",
+      "型番": "KISS-062CO",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "450",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:10:11.174Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:10:10.941Z"
+  },
+  "histories": [
+    {
+      "id": 55882,
+      "productId": 55868,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:56.223Z"
+    },
+    {
+      "id": 66636,
+      "productId": 55868,
+      "salePrice": 400,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:10:10.941Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 29125,
+    "title": "Windows DVDソフト LiLiM25周年記念デジタルコンテンツディスク集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083639",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083639.jpg",
+    "manufacturer": "LiLiM",
+    "releaseDate": "2025-01-31",
+    "listPrice": null,
+    "modelNumber": "HBTT-472",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145083639",
+      "メーカー": "LiLiM",
+      "発売日": "2025/01/31",
+      "型番": "HBTT-472",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:05.509Z"
+  },
+  "histories": [
+    {
+      "id": 29139,
+      "productId": 29125,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:38.738Z"
+    },
+    {
+      "id": 37980,
+      "productId": 29125,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:30.965Z"
+    },
+    {
+      "id": 48413,
+      "productId": 29125,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:58.319Z"
+    },
+    {
+      "id": 59525,
+      "productId": 29125,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:04:23.621Z"
+    },
+    {
+      "id": 70307,
+      "productId": 29125,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:05.509Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

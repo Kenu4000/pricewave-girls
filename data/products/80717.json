@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 80717,
+    "title": "WindowsXP/Vista/7/8 DVDソフト バトルフォース",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038497.jpg",
+    "manufacturer": "5bit",
+    "releaseDate": "2013-09-27",
+    "listPrice": 7480,
+    "modelNumber": "FBIT-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038497",
+      "メーカー": "5bit",
+      "発売日": "2013/09/27",
+      "定価": "7,480円",
+      "型番": "FBIT-001",
+      "原画": "音乃夏\n23",
+      "シナリオ": "蔵前航",
+      "声優": "竜胆凜\n奥山歩\n佐藤千幸\n篠原ゆみ\n高野マヤ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1502,
+    "latestRegularSalePrice": 1502,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:03.634Z"
+  },
+  "histories": [
+    {
+      "id": 80731,
+      "productId": 80717,
+      "salePrice": 1502,
+      "regularSalePrice": 1502,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:03.634Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038497",
+    "capturedAt": "2026-09-07T13:48:03.634Z",
+    "items": [],
+    "path": "data/other-shops/145038497.json"
+  }
+}

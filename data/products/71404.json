@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 71404,
+    "title": "WindowsXP/Vista/7 DVDソフト 聖戦姫ヴァルキュア・シスターズー淫闇(やみ)に堕ちたアイドルー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026353",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026353.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2011-02-25",
+    "listPrice": 8250,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026353001",
+      "メーカー": "catwalkNERO",
+      "発売日": "2011/02/25",
+      "定価": "8,250円",
+      "原画": "亀井",
+      "シナリオ": "筑摩十幸",
+      "声優": "天野咲月\n氷室百合\nあさり☆\n韮井叶\n水神楓\n加古川高",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2250,
+    "latestRegularSalePrice": 2250,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:32.208Z"
+  },
+  "histories": [
+    {
+      "id": 71418,
+      "productId": 71404,
+      "salePrice": 2250,
+      "regularSalePrice": 2250,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:32.208Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204936,
+      "productId": 71404,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2250,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204935,
+      "productId": 71404,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204934,
+      "productId": 71404,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1920,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204933,
+      "productId": 71404,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1900,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026353",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026353",
+    "capturedAt": "2026-09-02T21:37:32.208Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1900
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1920
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2250
+      }
+    ],
+    "path": "data/other-shops/145026353.json"
+  }
+}

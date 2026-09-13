@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 82760,
+    "title": "WindowsXP/Vista/7 DVDソフト とらバ![通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029165",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029165.jpg",
+    "manufacturer": "bootUP!",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029165001",
+      "メーカー": "bootUP!",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "原画": "葵渚",
+      "シナリオ": "青野景人",
+      "声優": "こんつ\nかわしまりの\n御景椿\n越雪光\n遠野そよぎ\n桜川未央\n藤森ゆき奈\nいちごみるく",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2450,
+    "latestRegularSalePrice": 2450,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:15.146Z"
+  },
+  "histories": [
+    {
+      "id": 82774,
+      "productId": 82760,
+      "salePrice": 2450,
+      "regularSalePrice": 2450,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:15.146Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245671,
+      "productId": 82760,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2450,
+      "checkedAt": "2026-09-09T05:33:15.000Z"
+    },
+    {
+      "id": 245670,
+      "productId": 82760,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2600,
+      "checkedAt": "2026-09-09T05:33:15.000Z"
+    },
+    {
+      "id": 245669,
+      "productId": 82760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2212,
+      "checkedAt": "2026-09-09T05:33:15.000Z"
+    },
+    {
+      "id": 245668,
+      "productId": 82760,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-09-09T05:33:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029165",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029165",
+    "capturedAt": "2026-09-09T05:33:15.146Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2200
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2212
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2450
+      }
+    ],
+    "path": "data/other-shops/145029165.json"
+  }
+}

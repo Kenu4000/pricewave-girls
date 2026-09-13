@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 31157,
+    "title": "WindowsXP/Vista/7 DVDソフト 魔女っ娘LO-るプレイ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038513",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038513.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2013-10-11",
+    "listPrice": 4180,
+    "modelNumber": "BASE-065",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038513",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2013/10/11",
+      "定価": "4,180円",
+      "型番": "BASE-065",
+      "原画": "えかきびと",
+      "シナリオ": "almi3104",
+      "声優": "mahilo\n水神楓",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 520,
+    "latestRegularSalePrice": 520,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:06:23.284Z"
+  },
+  "histories": [
+    {
+      "id": 31171,
+      "productId": 31157,
+      "salePrice": 520,
+      "regularSalePrice": 520,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:27.745Z"
+    },
+    {
+      "id": 39917,
+      "productId": 31157,
+      "salePrice": 520,
+      "regularSalePrice": 520,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:02.772Z"
+    },
+    {
+      "id": 51003,
+      "productId": 31157,
+      "salePrice": 520,
+      "regularSalePrice": 520,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:59.164Z"
+    },
+    {
+      "id": 63048,
+      "productId": 31157,
+      "salePrice": 520,
+      "regularSalePrice": 520,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:23.284Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038513",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038513",
+    "capturedAt": "2026-08-27T16:06:23.284Z",
+    "items": [],
+    "path": "data/other-shops/145038513.json"
+  }
+}

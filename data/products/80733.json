@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 80733,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 魔界天使ジブリール -episode2- [Vista対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017890",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017890.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2008-05-23",
+    "listPrice": 9680,
+    "modelNumber": "FWS-00042",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017890",
+      "メーカー": "フロントウイング",
+      "発売日": "2008/05/23",
+      "定価": "9,680円",
+      "型番": "FWS-00042",
+      "原画": "空中幼彩",
+      "シナリオ": "苑脇つぐみ\n反転星\n橘ぱん",
+      "声優": "祭大!\n北都南\n青山ゆかり\n野神奈々\n成瀬未亜\nまきいづみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-13T00:07:34.615Z"
+  },
+  "histories": [
+    {
+      "id": 80747,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:11.745Z"
+    },
+    {
+      "id": 88117,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:34.615Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017890",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017890",
+    "capturedAt": "2026-09-13T00:07:34.615Z",
+    "items": [],
+    "path": "data/other-shops/145017890.json"
+  }
+}

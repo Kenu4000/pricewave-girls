@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 82630,
+    "title": "Windows10/11 DVDソフト 極限痴漢特異点NEO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083036",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083036.jpg",
+    "manufacturer": "アストロノーツ・シリウス",
+    "releaseDate": "2025-06-27",
+    "listPrice": 9680,
+    "modelNumber": "AS-029",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083036001",
+      "メーカー": "アストロノーツ・シリウス",
+      "発売日": "2025/06/27",
+      "定価": "9,680円",
+      "型番": "AS-029",
+      "原画": "M&M",
+      "シナリオ": "DANKE\nヤマガミユウ\nassault\n霧島へるん\nくれべよういちろう\n月影彰太\n尼子士",
+      "声優": "姫川あいり\n白い金魚草\n赤月ゆむ\n花月さや\n波野夏花\n奥寺かすみ\n榛名れん\n榎津まお\n大和桜\n逢坂菜乃花\n手塚りょう子",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4550,
+    "latestRegularSalePrice": 4550,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:03.298Z"
+  },
+  "histories": [
+    {
+      "id": 82644,
+      "productId": 82630,
+      "salePrice": 4550,
+      "regularSalePrice": 4550,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:03.298Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245278,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4550,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245277,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古説明書不備",
+      "price": 6600,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245276,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 5280,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245275,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 4550,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245274,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 4500,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    },
+    {
+      "id": 245273,
+      "productId": 82630,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 4300,
+      "checkedAt": "2026-09-09T05:32:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083036",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083036",
+    "capturedAt": "2026-09-09T05:32:03.298Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 4300
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 4500
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 4550
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 5280
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古説明書不備",
+        "price": 6600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4550
+      }
+    ],
+    "path": "data/other-shops/145083036.json"
+  }
+}

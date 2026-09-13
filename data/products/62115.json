@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62115,
+    "title": "WindowsXP/Vista/7/8 CDソフト おとメイド＠cafe",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038728",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038728.jpg",
+    "manufacturer": "おとこの娘倶楽部",
+    "releaseDate": "2013-10-25",
+    "listPrice": 3300,
+    "modelNumber": "OTC-00012",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038728",
+      "メーカー": "おとこの娘倶楽部",
+      "発売日": "2013/10/25",
+      "定価": "3,300円",
+      "型番": "OTC-00012",
+      "原画": "まくろ",
+      "シナリオ": "奇偶転置\n長野和泉",
+      "声優": "野中みかん\n犬飼あお(夕凪音)\n椎那天",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:08.284Z"
+  },
+  "histories": [
+    {
+      "id": 62129,
+      "productId": 62115,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:24.382Z"
+    },
+    {
+      "id": 62795,
+      "productId": 62115,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:24.115Z"
+    },
+    {
+      "id": 64587,
+      "productId": 62115,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:08.284Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038728",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038728",
+    "capturedAt": "2026-08-29T01:13:08.284Z",
+    "items": [],
+    "path": "data/other-shops/145038728.json"
+  }
+}

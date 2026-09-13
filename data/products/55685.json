@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 55685,
+    "title": "Windows10/11 DVDソフト 家出少女・高邑緋雪の秘蜜",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082463.jpg",
+    "manufacturer": "アトリエさくら",
+    "releaseDate": "2024-09-27",
+    "listPrice": null,
+    "modelNumber": "ASPC-0155",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082463",
+      "メーカー": "アトリエさくら",
+      "発売日": "2024/09/27",
+      "型番": "ASPC-0155",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2212,
+    "latestRegularSalePrice": 2212,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:21.276Z"
+  },
+  "histories": [
+    {
+      "id": 55699,
+      "productId": 55685,
+      "salePrice": 2212,
+      "regularSalePrice": 2212,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:21.276Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145082463",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082463",
+    "capturedAt": "2026-08-21T05:29:21.276Z",
+    "items": [],
+    "path": "data/other-shops/145082463.json"
+  }
+}

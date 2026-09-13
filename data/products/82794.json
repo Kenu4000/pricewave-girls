@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 82794,
+    "title": "Windows2000/XP/Vista DVDソフト 戦女神ZERO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018053",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018053.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2008-06-13",
+    "listPrice": 10340,
+    "modelNumber": "EUDV-009",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018053001",
+      "メーカー": "エウシュリー",
+      "発売日": "2008/06/13",
+      "定価": "10,340円",
+      "型番": "EUDV-009",
+      "原画": "鳩月つみき",
+      "シナリオ": "松江旺來\n矢田影見",
+      "アーティスト": "ちづ",
+      "声優": "野神奈々\nかわしまりの\n芹園みや\n春日アン\n新堂真弓\n海原エレナ\n富樫ケイ\n大波こなみ\n神崎ちひろ\n岩泉まい\n民安ともえ\n奥田香織\n知七\n緒田マリ\n逢川奈々\n広森なずな\n中野志乃\nダイナマイト亜美\n雪都さお梨\n青山ゆかり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3150,
+    "latestRegularSalePrice": 3150,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:32.756Z"
+  },
+  "histories": [
+    {
+      "id": 82808,
+      "productId": 82794,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:32.756Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245765,
+      "productId": 82794,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3150,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    },
+    {
+      "id": 245764,
+      "productId": 82794,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    },
+    {
+      "id": 245763,
+      "productId": 82794,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古外箱日焼け・内箱難有",
+      "price": 2880,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018053",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018053",
+    "capturedAt": "2026-09-09T05:33:32.756Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古外箱日焼け・内箱難有",
+        "price": 2880
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 2880
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3150
+      }
+    ],
+    "path": "data/other-shops/145018053.json"
+  }
+}

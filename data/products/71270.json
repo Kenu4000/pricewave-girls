@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71270,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト Lamento -BEYOND THE VOID- Windows10対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055463.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2016-09-30",
+    "listPrice": 4070,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055463001",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2016/09/30",
+      "定価": "4,070円",
+      "原画": "倉花千夏(たたなかな)",
+      "シナリオ": "淵井鏑",
+      "声優": "中原茂\n波多野和俊\n森川智之\n春野風\n舞幸運\n犬野忠輔\n小次郎\nオイリーはな\n笹沼晃\n桜塚瞬一\n木島宇太\n葉月ミカ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2850,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:32.108Z"
+  },
+  "histories": [
+    {
+      "id": 71284,
+      "productId": 71270,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:32.108Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204623,
+      "productId": 71270,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-09-02T21:36:32.000Z"
+    },
+    {
+      "id": 204622,
+      "productId": 71270,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2600,
+      "checkedAt": "2026-09-02T21:36:32.000Z"
+    },
+    {
+      "id": 204621,
+      "productId": 71270,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2390,
+      "checkedAt": "2026-09-02T21:36:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055463",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055463",
+    "capturedAt": "2026-09-02T21:36:32.108Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 2390
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2850
+      }
+    ],
+    "path": "data/other-shops/145055463.json"
+  }
+}

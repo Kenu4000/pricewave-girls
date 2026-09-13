@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42554,
+    "title": "Windows98SE/Me/2000/Vista DVDソフト 夏神",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901195",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901195.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2008-01-25",
+    "listPrice": 9680,
+    "modelNumber": "KA-0043",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145901195",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2008/01/25",
+      "定価": "9,680円",
+      "型番": "KA-0043",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:35.326Z"
+  },
+  "histories": [
+    {
+      "id": 42568,
+      "productId": 42554,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:52.134Z"
+    },
+    {
+      "id": 53902,
+      "productId": 42554,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:17.883Z"
+    },
+    {
+      "id": 65854,
+      "productId": 42554,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:35.326Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901195",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901195",
+    "capturedAt": "2026-08-29T13:03:35.326Z",
+    "items": [],
+    "path": "data/other-shops/145901195.json"
+  }
+}

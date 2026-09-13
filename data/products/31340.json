@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 31340,
+    "title": "WindowsXP/Vista/7 DVDソフト ××な彼女のつくりかた ハプニング 価格改定版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036988",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036988.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2013-05-24",
+    "listPrice": 3278,
+    "modelNumber": "KISS-045",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036988",
+      "メーカー": "KISS",
+      "発売日": "2013/05/24",
+      "定価": "3,278円",
+      "型番": "KISS-045",
+      "原画": "弥舞秀人\n金目鯛ぴんく\nぱふぇ",
+      "シナリオ": "シャア専用◎\n小原誠\n都築チキン",
+      "声優": "大波こなみ\nみる\n成瀬未亜\n風音\n神村ひな\n桜川未央\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 840,
+    "latestRegularSalePrice": 840,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:07:22.465Z"
+  },
+  "histories": [
+    {
+      "id": 31354,
+      "productId": 31340,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:43.253Z"
+    },
+    {
+      "id": 40094,
+      "productId": 31340,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:06.826Z"
+    },
+    {
+      "id": 51144,
+      "productId": 31340,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:13.009Z"
+    },
+    {
+      "id": 63170,
+      "productId": 31340,
+      "salePrice": 840,
+      "regularSalePrice": 840,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:07:22.465Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136686,
+      "productId": 31340,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:34:13.000Z"
+    },
+    {
+      "id": 136685,
+      "productId": 31340,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:34:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036988",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036988",
+    "capturedAt": "2026-08-27T16:07:22.465Z",
+    "items": [],
+    "path": "data/other-shops/145036988.json"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 80726,
+    "title": "Windows CDソフト 電激ストライカー にこにこ劇場 原作版パッチ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029956",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029956.jpg",
+    "manufacturer": "OVERDRIVE",
+    "releaseDate": "2011-06-24",
+    "listPrice": null,
+    "modelNumber": "OVCD-18",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145029956",
+      "メーカー": "OVERDRIVE",
+      "発売日": "2011/06/24",
+      "型番": "OVCD-18",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 440,
+    "latestRegularSalePrice": 440,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:07.568Z"
+  },
+  "histories": [
+    {
+      "id": 80740,
+      "productId": 80726,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:07.568Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029956",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029956",
+    "capturedAt": "2026-09-07T13:48:07.568Z",
+    "items": [],
+    "path": "data/other-shops/145029956.json"
+  }
+}

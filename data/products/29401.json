@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 29401,
+    "title": "Windows7/8/10 CDソフト おじさんの、おじさんによる、おじさんのための黒ギャル催眠恥育",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065275",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065275.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2019-06-28",
+    "listPrice": 2200,
+    "modelNumber": "APT-137",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065275001",
+      "メーカー": "アパタイト",
+      "発売日": "2019/06/28",
+      "定価": "2,200円",
+      "型番": "APT-137",
+      "原画": "Aotonbo",
+      "シナリオ": "雲井砂",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "2150",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2150,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:06:41.381Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:09:52.940Z"
+  },
+  "histories": [
+    {
+      "id": 29415,
+      "productId": 29401,
+      "salePrice": 2000,
+      "regularSalePrice": 2150,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:41.194Z"
+    },
+    {
+      "id": 38241,
+      "productId": 29401,
+      "salePrice": 2000,
+      "regularSalePrice": 2150,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:52.940Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 100566,
+      "productId": 29401,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-16T01:09:53.000Z"
+    },
+    {
+      "id": 100565,
+      "productId": 29401,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1870,
+      "checkedAt": "2026-08-16T01:09:53.000Z"
+    },
+    {
+      "id": 74530,
+      "productId": 29401,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-08-15T23:06:41.000Z"
+    },
+    {
+      "id": 74529,
+      "productId": 29401,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1870,
+      "checkedAt": "2026-08-15T23:06:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065275",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065275",
+    "capturedAt": "2026-08-16T01:09:52.940Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1870
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2000
+      }
+    ],
+    "path": "data/other-shops/145065275.json"
+  }
+}

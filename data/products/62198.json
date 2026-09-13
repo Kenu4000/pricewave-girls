@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 62198,
+    "title": "Windows2000/XP/Vista DVDソフト 時間封鎖[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018814",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018814.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2008-11-14",
+    "listPrice": 9680,
+    "modelNumber": "ALL-002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018814001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2008/11/14",
+      "定価": "9,680円",
+      "型番": "ALL-002",
+      "原画": "さだお",
+      "シナリオ": "なるみおかず",
+      "声優": "如月葵\n春乃伊吹\n小倉結衣\n金田まひる\n彩世ゆう",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5500,
+    "latestRegularSalePrice": 5500,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T16:07:43.149Z"
+  },
+  "histories": [
+    {
+      "id": 62212,
+      "productId": 62198,
+      "salePrice": 6180,
+      "regularSalePrice": 6180,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:01.361Z"
+    },
+    {
+      "id": 62874,
+      "productId": 62198,
+      "salePrice": 6180,
+      "regularSalePrice": 6180,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:01.153Z"
+    },
+    {
+      "id": 64669,
+      "productId": 62198,
+      "salePrice": 6180,
+      "regularSalePrice": 6180,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:44.398Z"
+    },
+    {
+      "id": 78645,
+      "productId": 62198,
+      "salePrice": 5500,
+      "regularSalePrice": 5500,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:07:43.149Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 229238,
+      "productId": 62198,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5500,
+      "checkedAt": "2026-09-05T16:07:43.000Z"
+    },
+    {
+      "id": 229237,
+      "productId": 62198,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6111,
+      "checkedAt": "2026-09-05T16:07:43.000Z"
+    },
+    {
+      "id": 229236,
+      "productId": 62198,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 5500,
+      "checkedAt": "2026-09-05T16:07:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018814",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018814",
+    "capturedAt": "2026-09-05T16:07:43.149Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 5500
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5500
+      }
+    ],
+    "path": "data/other-shops/145018814.json"
+  }
+}

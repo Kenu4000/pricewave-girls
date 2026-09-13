@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29568,
+    "title": "Windows7/8.1/10 DVDソフト いたずらVR",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062031",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062031.jpg",
+    "manufacturer": "REAL",
+    "releaseDate": "2018-07-27",
+    "listPrice": 5280,
+    "modelNumber": "INH-391",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062031",
+      "メーカー": "REAL",
+      "発売日": "2018/07/27",
+      "定価": "5,280円",
+      "型番": "INH-391",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:35.941Z"
+  },
+  "histories": [
+    {
+      "id": 29582,
+      "productId": 29568,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:25.679Z"
+    },
+    {
+      "id": 38399,
+      "productId": 29568,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:26.267Z"
+    },
+    {
+      "id": 49517,
+      "productId": 29568,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:35.941Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062031",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062031",
+    "capturedAt": "2026-08-19T04:31:35.941Z",
+    "items": [],
+    "path": "data/other-shops/145062031.json"
+  }
+}

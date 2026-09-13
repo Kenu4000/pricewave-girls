@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82766,
+    "title": "Windows2000/XP/Vista/7 CDソフト 妻交換ーあいつのワイフと俺の嫁ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025794",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025794.jpg",
+    "manufacturer": "ブルゲLIGHT",
+    "releaseDate": "2010-12-17",
+    "listPrice": 3300,
+    "modelNumber": "BGLT-005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025794001",
+      "メーカー": "ブルゲLIGHT",
+      "発売日": "2010/12/17",
+      "定価": "3,300円",
+      "型番": "BGLT-005",
+      "声優": "ダイナマイト亜美\n金松由花",
+      "原画": "Ring×2",
+      "シナリオ": "白黒ねこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:16.426Z"
+  },
+  "histories": [
+    {
+      "id": 82780,
+      "productId": 82766,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:16.426Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245690,
+      "productId": 82766,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-09-09T05:33:17.000Z"
+    },
+    {
+      "id": 245689,
+      "productId": 82766,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:33:17.000Z"
+    },
+    {
+      "id": 245688,
+      "productId": 82766,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 985,
+      "checkedAt": "2026-09-09T05:33:17.000Z"
+    },
+    {
+      "id": 245687,
+      "productId": 82766,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-09T05:33:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025794",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025794",
+    "capturedAt": "2026-09-09T05:33:16.426Z",
+    "items": [
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 985
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145025794.json"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 82722,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 巨乳ファンタジー外伝2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038523",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038523.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2013-10-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038523001",
+      "メーカー": "WAFFLE",
+      "発売日": "2013/10/25",
+      "定価": "9,680円",
+      "原画": "深泥正\nQ-Gaku",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "声優": "和葉\n蕪木徹子\n鈴音華月\n榊木春乃\n金松由花\n咲ゆたか",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:53.482Z"
+  },
+  "histories": [
+    {
+      "id": 82736,
+      "productId": 82722,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:53.482Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245599,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245598,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245597,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245596,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245595,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245594,
+      "productId": 82722,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038523",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038523",
+    "capturedAt": "2026-09-09T05:32:53.482Z",
+    "items": [
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145038523.json"
+  }
+}

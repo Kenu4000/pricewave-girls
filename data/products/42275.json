@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 42275,
+    "title": "Windows2000/XP/Vista CDソフト お母さんは俺専用!-あなたの初めてを…母さんが貰ってア・ゲ・ル-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018701",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018701.jpg",
+    "manufacturer": "ういろうそふと",
+    "releaseDate": "2008-09-26",
+    "listPrice": 3300,
+    "modelNumber": "INH-265",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018701001",
+      "メーカー": "ういろうそふと",
+      "発売日": "2008/09/26",
+      "定価": "3,300円",
+      "型番": "INH-265",
+      "原画": "オカシハジメ",
+      "シナリオ": "牧田良信",
+      "声優": "谷中麻衣\n佐藤玲羅",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 330,
+    "latestRegularSalePrice": 330,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:06.185Z"
+  },
+  "histories": [
+    {
+      "id": 42289,
+      "productId": 42275,
+      "salePrice": 340,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:04.722Z"
+    },
+    {
+      "id": 53686,
+      "productId": 42275,
+      "salePrice": 330,
+      "regularSalePrice": 330,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:27.826Z"
+    },
+    {
+      "id": 65665,
+      "productId": 42275,
+      "salePrice": 330,
+      "regularSalePrice": 330,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:06.185Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184651,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 330,
+      "checkedAt": "2026-08-29T13:02:06.000Z"
+    },
+    {
+      "id": 184650,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-29T13:02:06.000Z"
+    },
+    {
+      "id": 144036,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 330,
+      "checkedAt": "2026-08-19T16:26:27.000Z"
+    },
+    {
+      "id": 144035,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-19T16:26:27.000Z"
+    },
+    {
+      "id": 109387,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 340,
+      "checkedAt": "2026-08-17T07:10:05.000Z"
+    },
+    {
+      "id": 109386,
+      "productId": 42275,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-08-17T07:10:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018701",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018701",
+    "capturedAt": "2026-08-29T13:02:06.185Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 320
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 330
+      }
+    ],
+    "path": "data/other-shops/145018701.json"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "product": {
+    "id": 43138,
+    "title": "Windows CDソフト AYAME～人形婬戯～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014603",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014603.jpg",
+    "manufacturer": "Lilith Mist",
+    "releaseDate": "2006-07-07",
+    "listPrice": 2200,
+    "modelNumber": "LMT-00001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014603001",
+      "メーカー": "Lilith Mist",
+      "発売日": "2006/07/07",
+      "定価": "2,200円",
+      "型番": "LMT-00001",
+      "原画": "のぶしと",
+      "シナリオ": "そのだまさき\n松本竜",
+      "声優": "春日アン\n逢川奈々",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "600",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:07:09.173Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:07:08.766Z"
+  },
+  "histories": [
+    {
+      "id": 43152,
+      "productId": 43138,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:18:14.330Z"
+    },
+    {
+      "id": 55203,
+      "productId": 43138,
+      "salePrice": 600,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:43.292Z"
+    },
+    {
+      "id": 66283,
+      "productId": 43138,
+      "salePrice": 500,
+      "regularSalePrice": 600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:07:08.766Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185869,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-29T13:07:09.000Z"
+    },
+    {
+      "id": 185868,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1080,
+      "checkedAt": "2026-08-29T13:07:09.000Z"
+    },
+    {
+      "id": 185867,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-29T13:07:09.000Z"
+    },
+    {
+      "id": 185866,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-29T13:07:09.000Z"
+    },
+    {
+      "id": 148844,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-21T04:47:43.000Z"
+    },
+    {
+      "id": 148843,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1080,
+      "checkedAt": "2026-08-21T04:47:43.000Z"
+    },
+    {
+      "id": 148842,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-21T04:47:43.000Z"
+    },
+    {
+      "id": 148841,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-21T04:47:43.000Z"
+    },
+    {
+      "id": 111088,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1080,
+      "checkedAt": "2026-08-17T07:18:14.000Z"
+    },
+    {
+      "id": 111087,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-17T07:18:14.000Z"
+    },
+    {
+      "id": 111086,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:18:14.000Z"
+    },
+    {
+      "id": 111085,
+      "productId": 43138,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-17T07:18:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014603",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014603",
+    "capturedAt": "2026-08-29T13:07:08.766Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145014603.json"
+  }
+}

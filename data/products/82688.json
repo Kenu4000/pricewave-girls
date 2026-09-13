@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 82688,
+    "title": "Windows7/8/8.1/10 DVDソフト ピュアソングガーデン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057217",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057217.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2017-06-30",
+    "listPrice": 10780,
+    "modelNumber": "WILL-357",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057217001",
+      "メーカー": "PULLTOP",
+      "発売日": "2017/06/30",
+      "定価": "10,780円",
+      "型番": "WILL-357",
+      "原画": "ベコ太郎\n基井あゆむ\nmarui",
+      "シナリオ": "不動尊\n高嶋栄二\nなたけ",
+      "音楽": "Elements Garden",
+      "アーティスト": "三代眞子",
+      "声優": "百瀬ぽこ\n桜乃ひよ\n花園めい\n奏雨\n羽鳥いち\n五行なずな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:36.560Z"
+  },
+  "histories": [
+    {
+      "id": 82702,
+      "productId": 82688,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:36.560Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245512,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    },
+    {
+      "id": 245511,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    },
+    {
+      "id": 245510,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    },
+    {
+      "id": 245509,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    },
+    {
+      "id": 245508,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    },
+    {
+      "id": 245507,
+      "productId": 82688,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-09T05:32:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057217",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057217",
+    "capturedAt": "2026-09-09T05:32:36.560Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145057217.json"
+  }
+}

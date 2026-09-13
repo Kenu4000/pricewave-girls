@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 42693,
+    "title": "Windows98SE/Me/2000/XP CDソフト コイビト遊戯[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016411",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016411.jpg",
+    "manufacturer": "PIL/SLASH",
+    "releaseDate": "2007-08-24",
+    "listPrice": 7875,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016411001",
+      "メーカー": "PIL/SLASH",
+      "発売日": "2007/08/24",
+      "定価": "7,875円",
+      "原画/シナリオ": "丸木文華",
+      "声優": "氷河流\n瀧川大輔\n平井達矢\n花山啓冶\n富士爆発\nヘルシー太郎\n犬野忠輔\n浅野要二",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "原画": "/",
+      "シナリオ": "丸木文華",
+      "__pricewaveRegularSalePrice": "4900",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4650,
+    "latestRegularSalePrice": 4900,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:04:17.822Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:04:17.626Z"
+  },
+  "histories": [
+    {
+      "id": 42707,
+      "productId": 42693,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:09.956Z"
+    },
+    {
+      "id": 53999,
+      "productId": 42693,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:12.998Z"
+    },
+    {
+      "id": 65938,
+      "productId": 42693,
+      "salePrice": 4650,
+      "regularSalePrice": 4900,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:17.626Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185151,
+      "productId": 42693,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームディスク再生に不具合の出る可能性のある傷あり",
+      "price": 3400,
+      "checkedAt": "2026-08-29T13:04:17.000Z"
+    },
+    {
+      "id": 144641,
+      "productId": 42693,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームディスク再生に不具合の出る可能性のある傷あり",
+      "price": 3400,
+      "checkedAt": "2026-08-19T16:29:13.000Z"
+    },
+    {
+      "id": 110191,
+      "productId": 42693,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ゲームディスク再生に不具合の出る可能性のある傷あり",
+      "price": 3400,
+      "checkedAt": "2026-08-17T07:14:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 82690,
+    "title": "WindowsVista/7/8/10 DVDソフト スイセイギンカ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056284",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056284.jpg",
+    "manufacturer": "暁WORKS",
+    "releaseDate": "2017-02-24",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056284001",
+      "メーカー": "暁WORKS",
+      "発売日": "2017/02/24",
+      "定価": "8,580円",
+      "原画": "さえき北都",
+      "シナリオ": "森崎亮人",
+      "声優": "河村眞人\n沢澤砂羽\n桜乃ひよ\n北見六花\nかわしまりの\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:37.291Z"
+  },
+  "histories": [
+    {
+      "id": 82704,
+      "productId": 82690,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:37.291Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245515,
+      "productId": 82690,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-09-09T05:32:38.000Z"
+    },
+    {
+      "id": 245514,
+      "productId": 82690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-09-09T05:32:38.000Z"
+    },
+    {
+      "id": 245513,
+      "productId": 82690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056284",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056284",
+    "capturedAt": "2026-09-09T05:32:37.291Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145056284.json"
+  }
+}

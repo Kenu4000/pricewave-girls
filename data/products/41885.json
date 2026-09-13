@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 41885,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 淫乱お嬢様～中出しの誘惑～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021618",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021618.jpg",
+    "manufacturer": "GRAY ZONE",
+    "releaseDate": "2009-09-18",
+    "listPrice": 3300,
+    "modelNumber": "DRY-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021618001",
+      "メーカー": "GRAY ZONE",
+      "発売日": "2009/09/18",
+      "定価": "3,300円",
+      "型番": "DRY-001",
+      "原画": "赤木リオ\nちんじゃおろおす",
+      "シナリオ": "トンビ(とんび)",
+      "声優": "春日りか\n吉川華生",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T04:45:13.154Z"
+  },
+  "histories": [
+    {
+      "id": 41899,
+      "productId": 41885,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:13.911Z"
+    },
+    {
+      "id": 53408,
+      "productId": 41885,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:08.177Z"
+    },
+    {
+      "id": 64967,
+      "productId": 41885,
+      "salePrice": 399,
+      "regularSalePrice": 399,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:58.692Z"
+    },
+    {
+      "id": 75314,
+      "productId": 41885,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:43:05.427Z"
+    },
+    {
+      "id": 81898,
+      "productId": 41885,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T04:45:13.154Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 242128,
+      "productId": 41885,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-09T04:45:13.000Z"
+    },
+    {
+      "id": 242127,
+      "productId": 41885,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-09-09T04:45:13.000Z"
+    },
+    {
+      "id": 242126,
+      "productId": 41885,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古通常",
+      "price": 320,
+      "checkedAt": "2026-09-09T04:45:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021618",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021618",
+    "capturedAt": "2026-09-09T04:45:13.154Z",
+    "items": [
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古通常",
+        "price": 320
+      },
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古",
+        "price": 320
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145021618.json"
+  }
+}

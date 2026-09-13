@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 65221,
+    "title": "Windows CDソフト 夏の終わりのニルヴァーナ シークレットディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035976",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035976.jpg",
+    "manufacturer": "ぱじゃまソフト",
+    "releaseDate": "2013-01-25",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145035976001",
+      "メーカー": "ぱじゃまソフト",
+      "発売日": "2013/01/25",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "340",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 320,
+    "latestRegularSalePrice": 340,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-05T16:08:42.713Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T16:08:42.503Z"
+  },
+  "histories": [
+    {
+      "id": 65235,
+      "productId": 65221,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T12:55:38.292Z"
+    },
+    {
+      "id": 78758,
+      "productId": 65221,
+      "salePrice": 320,
+      "regularSalePrice": 340,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:08:42.503Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

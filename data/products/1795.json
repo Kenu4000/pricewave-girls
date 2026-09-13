@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 1795,
+    "title": "Windows DVDソフト 好きだった年下幼馴染が誰とでも寝ている件",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069965",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069965.jpg",
+    "manufacturer": "アトリエさくら",
+    "releaseDate": "2020-10-30",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145069965",
+      "メーカー": "アトリエさくら",
+      "発売日": "2020/10/30",
+      "定価": "3,080円",
+      "原画": "かん奈",
+      "シナリオ": "づか",
+      "声優": "夢月やみ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-22T16:01:57.026Z"
+  },
+  "histories": [
+    {
+      "id": 1809,
+      "productId": 1795,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:10.000Z"
+    },
+    {
+      "id": 6689,
+      "productId": 1795,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:10:29.000Z"
+    },
+    {
+      "id": 22787,
+      "productId": 1795,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:44.652Z"
+    },
+    {
+      "id": 35927,
+      "productId": 1795,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:49:28.877Z"
+    },
+    {
+      "id": 46424,
+      "productId": 1795,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:07.600Z"
+    },
+    {
+      "id": 57353,
+      "productId": 1795,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T16:01:57.026Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 92790,
+      "productId": 1795,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-16T00:49:29.000Z"
+    },
+    {
+      "id": 92789,
+      "productId": 1795,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:49:29.000Z"
+    },
+    {
+      "id": 51821,
+      "productId": 1795,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    },
+    {
+      "id": 51820,
+      "productId": 1795,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "price": 1000,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145069965",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069965",
+    "capturedAt": "2026-08-22T16:01:57.026Z",
+    "items": [],
+    "path": "data/other-shops/145069965.json"
+  }
+}

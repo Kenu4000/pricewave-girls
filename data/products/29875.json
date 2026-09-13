@@ -1,0 +1,150 @@
+{
+  "product": {
+    "id": 29875,
+    "title": "WindowsVista/7/8/10 CDソフト 性換姉妹 Amazon特典スペシャルディスク 「まだまだ続くよ!入れ替わり生活」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057833",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057833.jpg",
+    "manufacturer": "ノアールソフト",
+    "releaseDate": "2017-04-28",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057833001",
+      "メーカー": "ノアールソフト",
+      "発売日": "2017/04/28",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5600,
+    "latestRegularSalePrice": 5600,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:03.340Z"
+  },
+  "histories": [
+    {
+      "id": 29889,
+      "productId": 29875,
+      "salePrice": 6600,
+      "regularSalePrice": 7000,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:38.421Z"
+    },
+    {
+      "id": 38695,
+      "productId": 29875,
+      "salePrice": 6600,
+      "regularSalePrice": 7000,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:04.610Z"
+    },
+    {
+      "id": 49760,
+      "productId": 29875,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:19.699Z"
+    },
+    {
+      "id": 60422,
+      "productId": 29875,
+      "salePrice": 6300,
+      "regularSalePrice": 6300,
+      "buyPrice": 3100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:12:13.402Z"
+    },
+    {
+      "id": 70702,
+      "productId": 29875,
+      "salePrice": 5600,
+      "regularSalePrice": 5600,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:03.340Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202788,
+      "productId": 29875,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5600,
+      "checkedAt": "2026-09-02T20:47:03.000Z"
+    },
+    {
+      "id": 202787,
+      "productId": 29875,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6311,
+      "checkedAt": "2026-09-02T20:47:03.000Z"
+    },
+    {
+      "id": 202786,
+      "productId": 29875,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 5600,
+      "checkedAt": "2026-09-02T20:47:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057833",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057833",
+    "capturedAt": "2026-09-02T20:47:03.340Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 5600
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5600
+      }
+    ],
+    "path": "data/other-shops/145057833.json"
+  }
+}

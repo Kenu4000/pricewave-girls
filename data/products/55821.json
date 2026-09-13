@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 55821,
+    "title": "Windows7/8/10 DVDソフト 新人20歳のお姉ちゃんAVデビュー!! 悠木 倫 ねーちゃん、いくらなんでもイキすぎだろ……",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059718",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059718.jpg",
+    "manufacturer": "アトリエさくら",
+    "releaseDate": "2017-11-24",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0076",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059718001",
+      "メーカー": "アトリエさくら",
+      "発売日": "2017/11/24",
+      "定価": "3,080円",
+      "型番": "ASPC-0076",
+      "原画": "NOSA",
+      "シナリオ": "おんぼろ月",
+      "声優": "藤乃理香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "OS": "A",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:30.757Z"
+  },
+  "histories": [
+    {
+      "id": 55835,
+      "productId": 55821,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:30.757Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150916,
+      "productId": 55821,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-21T05:30:30.000Z"
+    },
+    {
+      "id": 150915,
+      "productId": 55821,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古",
+      "price": 720,
+      "checkedAt": "2026-08-21T05:30:30.000Z"
+    },
+    {
+      "id": 150914,
+      "productId": 55821,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-21T05:30:30.000Z"
+    },
+    {
+      "id": 150913,
+      "productId": 55821,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 720,
+      "checkedAt": "2026-08-21T05:30:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059718",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059718",
+    "capturedAt": "2026-08-21T05:30:30.757Z",
+    "items": [
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 720
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古",
+        "price": 720
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145059718.json"
+  }
+}

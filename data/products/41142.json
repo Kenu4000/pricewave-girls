@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 41142,
+    "title": "Windows DVDソフト Campanella(カンパネラ) Digital Gallery",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034664",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034664.jpg",
+    "manufacturer": "ういんどみるOasis",
+    "releaseDate": "2011-08-12",
+    "listPrice": null,
+    "modelNumber": "WMEDV-001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145034664001",
+      "メーカー": "ういんどみるOasis",
+      "発売日": "2011/08/12",
+      "型番": "WMEDV-001",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "430",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 430,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-05T16:06:07.284Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-05T16:06:06.872Z"
+  },
+  "histories": [
+    {
+      "id": 41156,
+      "productId": 41142,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:11.047Z"
+    },
+    {
+      "id": 52873,
+      "productId": 41142,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:34.228Z"
+    },
+    {
+      "id": 63834,
+      "productId": 41142,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:33.105Z"
+    },
+    {
+      "id": 78467,
+      "productId": 41142,
+      "salePrice": 400,
+      "regularSalePrice": 430,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:06:06.872Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

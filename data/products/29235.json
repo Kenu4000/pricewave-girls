@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 29235,
+    "title": "Windows8.1/10/11 DVDソフト 燦然可憐エクセルシフォン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074042.jpg",
+    "manufacturer": "ミルフィーユ",
+    "releaseDate": "2022-03-25",
+    "listPrice": 4180,
+    "modelNumber": "MFA-0017",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145074042001",
+      "メーカー": "ミルフィーユ",
+      "発売日": "2022/03/25",
+      "定価": "4,180円",
+      "型番": "MFA-0017",
+      "原画": "桜坂つちゆ",
+      "シナリオ": "上田ながの",
+      "声優": "君島りさ\n麦芽ぷりん\n風鈴みすず\n波野夏花\n梅宮ここ\n花月さや\n海音ねう\n姫嶋ことみ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7680,
+    "latestRegularSalePrice": 7680,
+    "latestBuyPrice": 3800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:33.538Z"
+  },
+  "histories": [
+    {
+      "id": 29249,
+      "productId": 29235,
+      "salePrice": 8550,
+      "regularSalePrice": 8550,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:53.337Z"
+    },
+    {
+      "id": 38079,
+      "productId": 29235,
+      "salePrice": 8550,
+      "regularSalePrice": 8550,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:08:22.857Z"
+    },
+    {
+      "id": 49264,
+      "productId": 29235,
+      "salePrice": 8550,
+      "regularSalePrice": 8550,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:44.592Z"
+    },
+    {
+      "id": 60084,
+      "productId": 29235,
+      "salePrice": 8550,
+      "regularSalePrice": 8550,
+      "buyPrice": 4300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:19.537Z"
+    },
+    {
+      "id": 70371,
+      "productId": 29235,
+      "salePrice": 7680,
+      "regularSalePrice": 7680,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:33.538Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201806,
+      "productId": 29235,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7680,
+      "checkedAt": "2026-09-02T20:44:33.000Z"
+    },
+    {
+      "id": 201805,
+      "productId": 29235,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 8400,
+      "checkedAt": "2026-09-02T20:44:33.000Z"
+    },
+    {
+      "id": 201804,
+      "productId": 29235,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7680,
+      "checkedAt": "2026-09-02T20:44:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074042",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074042",
+    "capturedAt": "2026-09-02T20:44:33.538Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 7680
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 8400
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7680
+      }
+    ],
+    "path": "data/other-shops/145074042.json"
+  }
+}

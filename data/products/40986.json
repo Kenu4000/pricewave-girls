@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 40986,
+    "title": "Windows11 DVDソフト 走る巨乳!泳ぐ巨乳!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084546",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084546.jpg",
+    "manufacturer": "ももはなソフト",
+    "releaseDate": "2026-07-31",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145084546",
+      "メーカー": "ももはなソフト",
+      "発売日": "2026/07/31",
+      "定価": "4,378円",
+      "原画": "筆廻狂十郎",
+      "シナリオ": "土間ふぁん太",
+      "声優": "水城すい\n奈桐未來",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:49.194Z"
+  },
+  "histories": [
+    {
+      "id": 41000,
+      "productId": 40986,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:49.159Z"
+    },
+    {
+      "id": 52369,
+      "productId": 40986,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:46.149Z"
+    },
+    {
+      "id": 63750,
+      "productId": 40986,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:49.194Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140373,
+      "productId": 40986,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-08-19T15:34:46.000Z"
+    },
+    {
+      "id": 140372,
+      "productId": 40986,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-08-19T15:34:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084546",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084546",
+    "capturedAt": "2026-08-27T16:11:49.194Z",
+    "items": [],
+    "path": "data/other-shops/145084546.json"
+  }
+}

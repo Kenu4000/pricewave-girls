@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 29176,
+    "title": "Windows10/11 DVDソフト 僕色に染まる叔母",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078052",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078052.jpg",
+    "manufacturer": "だーくワン!",
+    "releaseDate": "2023-07-28",
+    "listPrice": 3080,
+    "modelNumber": "MTB013",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145078052",
+      "メーカー": "だーくワン!",
+      "発売日": "2023/07/28",
+      "定価": "3,080円",
+      "型番": "MTB013",
+      "原画": "吉野恵子",
+      "シナリオ": "NATORI烏賊",
+      "声優": "唯香",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:22.009Z"
+  },
+  "histories": [
+    {
+      "id": 29190,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:14.644Z"
+    },
+    {
+      "id": 38028,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:54.366Z"
+    },
+    {
+      "id": 49227,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:28.420Z"
+    },
+    {
+      "id": 60063,
+      "productId": 29176,
+      "salePrice": 3212,
+      "regularSalePrice": 3212,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:08.460Z"
+    },
+    {
+      "id": 70348,
+      "productId": 29176,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:22.009Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201733,
+      "productId": 29176,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3212,
+      "checkedAt": "2026-09-02T20:44:22.000Z"
+    },
+    {
+      "id": 201732,
+      "productId": 29176,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3200,
+      "checkedAt": "2026-09-02T20:44:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145078052",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078052",
+    "capturedAt": "2026-09-02T20:44:22.009Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3200
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3212
+      }
+    ],
+    "path": "data/other-shops/145078052.json"
+  }
+}

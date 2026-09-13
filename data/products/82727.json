@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 82727,
+    "title": "Windows2000/XP/Vista/7 DVDソフト Princess Frontier リニューアルパッケージ版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036136",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036136.jpg",
+    "manufacturer": "AXL（アクセル）",
+    "releaseDate": "2013-05-24",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145036136001",
+      "メーカー": "AXL（アクセル）",
+      "発売日": "2013/05/24",
+      "定価": "4,180円",
+      "原画": "茶谷やすら\n瀬之本久史\n事務台車\nヘルシー太郎",
+      "シナリオ": "北側寒囲",
+      "声優": "空野太陽\n七原ことみ\n松田理沙\n青山ゆかり\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:56.935Z"
+  },
+  "histories": [
+    {
+      "id": 82741,
+      "productId": 82727,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:56.935Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245603,
+      "productId": 82727,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-09-09T05:32:57.000Z"
+    },
+    {
+      "id": 245602,
+      "productId": 82727,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-09T05:32:57.000Z"
+    },
+    {
+      "id": 245601,
+      "productId": 82727,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-09T05:32:57.000Z"
+    },
+    {
+      "id": 245600,
+      "productId": 82727,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 780,
+      "checkedAt": "2026-09-09T05:32:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036136",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036136",
+    "capturedAt": "2026-09-09T05:32:56.935Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145036136.json"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 80719,
+    "title": "Windows2000/XP/Vista/7/8 DVDソフト ツゴウノイイ彼女タチ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036117",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036117.jpg",
+    "manufacturer": "D：drive.",
+    "releaseDate": "2013-04-26",
+    "listPrice": 9680,
+    "modelNumber": "DDRIVE-004",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036117",
+      "メーカー": "D：drive.",
+      "発売日": "2013/04/26",
+      "定価": "9,680円",
+      "型番": "DDRIVE-004",
+      "原画": "ふさたか式部",
+      "シナリオ": "三根崎優介\nleimonZ",
+      "声優": "佐藤遼佳\n沢代りず\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1240,
+    "latestRegularSalePrice": 1240,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:03.766Z"
+  },
+  "histories": [
+    {
+      "id": 80733,
+      "productId": 80719,
+      "salePrice": 1240,
+      "regularSalePrice": 1240,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:03.766Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036117",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036117",
+    "capturedAt": "2026-09-07T13:48:03.766Z",
+    "items": [],
+    "path": "data/other-shops/145036117.json"
+  }
+}

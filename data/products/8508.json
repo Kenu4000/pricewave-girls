@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 8508,
+    "title": "WindowsXP/Vista/7 DVDソフト 僕の目の前で××される彼女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033641",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033641.jpg",
+    "manufacturer": "アイル【チーム・Riva】",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "AIL-141923",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033641",
+      "メーカー": "アイル【チーム・Riva】",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "AIL-141923",
+      "シナリオ": "りうのすけ\nリバ原あき",
+      "声優": "ももぞの薫\n姫川あいり\nヒマリ\n鶴屋春人",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3500,
+    "latestRegularSalePrice": 3500,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:43:38.765Z"
+  },
+  "histories": [
+    {
+      "id": 8522,
+      "productId": 8508,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:13:12.000Z"
+    },
+    {
+      "id": 37869,
+      "productId": 8508,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:06:34.540Z"
+    },
+    {
+      "id": 48333,
+      "productId": 8508,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:16.945Z"
+    },
+    {
+      "id": 59459,
+      "productId": 8508,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:03:49.739Z"
+    },
+    {
+      "id": 70242,
+      "productId": 8508,
+      "salePrice": 3500,
+      "regularSalePrice": 3500,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:43:38.765Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033641",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033641",
+    "capturedAt": "2026-09-02T20:43:38.765Z",
+    "items": [],
+    "path": "data/other-shops/145033641.json"
+  }
+}

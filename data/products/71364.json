@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71364,
+    "title": "WindowsXP/Vista/7 DVDソフト 絶体絶命少女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031742",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031742.jpg",
+    "manufacturer": "TABOO",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031742001",
+      "メーカー": "TABOO",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "原画": "キヲヤール・ド・フランス",
+      "シナリオ": "関町台風\n蟹原舞菜",
+      "声優": "氷室百合\n葵時緒",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:14.386Z"
+  },
+  "histories": [
+    {
+      "id": 71378,
+      "productId": 71364,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:14.386Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204849,
+      "productId": 71364,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-02T21:37:14.000Z"
+    },
+    {
+      "id": 204848,
+      "productId": 71364,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 390,
+      "checkedAt": "2026-09-02T21:37:14.000Z"
+    },
+    {
+      "id": 204847,
+      "productId": 71364,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 320,
+      "checkedAt": "2026-09-02T21:37:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031742",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031742",
+    "capturedAt": "2026-09-02T21:37:14.386Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 320
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 390
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145031742.json"
+  }
+}

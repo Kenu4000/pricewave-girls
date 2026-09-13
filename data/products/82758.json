@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 82758,
+    "title": "WindowsXP/Vista/7 DVDソフト ちちみこ!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029164",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029164.jpg",
+    "manufacturer": "らぱぷる",
+    "releaseDate": "2011-08-26",
+    "listPrice": 9680,
+    "modelNumber": "RP-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029164",
+      "メーカー": "らぱぷる",
+      "発売日": "2011/08/26",
+      "定価": "9,680円",
+      "型番": "RP-007",
+      "シナリオ": "墨",
+      "原画": "まつもとかつや",
+      "声優": "杉原茉莉\nこのえゆずこ\n河合しなの\n五十嵐ナナコ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:13.581Z"
+  },
+  "histories": [
+    {
+      "id": 82772,
+      "productId": 82758,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:13.581Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029164",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029164",
+    "capturedAt": "2026-09-09T05:33:13.581Z",
+    "items": [],
+    "path": "data/other-shops/145029164.json"
+  }
+}

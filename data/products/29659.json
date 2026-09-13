@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 29659,
+    "title": "Windows7/8.1/10 CDソフト カスタムオーダーメイド3D2 購入特典「フラウメイド服」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061332",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061332.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2018-02-23",
+    "listPrice": null,
+    "modelNumber": "HBTT-244",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145061332001",
+      "メーカー": "KISS",
+      "発売日": "2018/02/23",
+      "型番": "HBTT-244",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:46:06.559Z"
+  },
+  "histories": [
+    {
+      "id": 29673,
+      "productId": 29659,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:09:26.257Z"
+    },
+    {
+      "id": 38487,
+      "productId": 29659,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:12:20.967Z"
+    },
+    {
+      "id": 49586,
+      "productId": 29659,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:06.507Z"
+    },
+    {
+      "id": 60290,
+      "productId": 29659,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:11:05.223Z"
+    },
+    {
+      "id": 70572,
+      "productId": 29659,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:46:06.559Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202450,
+      "productId": 29659,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:46:06.000Z"
+    },
+    {
+      "id": 202449,
+      "productId": 29659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-02T20:46:06.000Z"
+    },
+    {
+      "id": 202448,
+      "productId": 29659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:46:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061332",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061332",
+    "capturedAt": "2026-09-02T20:46:06.559Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145061332.json"
+  }
+}

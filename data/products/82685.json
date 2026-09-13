@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 82685,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト アマカノ-Limited Edition -",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057675",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057675.jpg",
+    "manufacturer": "あざらしそふと",
+    "releaseDate": "2017-06-30",
+    "listPrice": 15180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057675",
+      "メーカー": "あざらしそふと",
+      "発売日": "2017/06/30",
+      "定価": "15,180円",
+      "原画": "ピロ水",
+      "シナリオ": "龍岳来",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 11200,
+    "latestRegularSalePrice": 11200,
+    "latestBuyPrice": 6100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:35.647Z"
+  },
+  "histories": [
+    {
+      "id": 82699,
+      "productId": 82685,
+      "salePrice": 11200,
+      "regularSalePrice": 11200,
+      "buyPrice": 6100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:35.647Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057675",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057675",
+    "capturedAt": "2026-09-09T05:32:35.647Z",
+    "items": [],
+    "path": "data/other-shops/145057675.json"
+  }
+}

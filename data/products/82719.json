@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82719,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 常夏姉妹サンド",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040837.jpg",
+    "manufacturer": "アトリエかぐや TEAM Gassa-Q",
+    "releaseDate": "2014-03-28",
+    "listPrice": 9680,
+    "modelNumber": "KA-0071",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145040837001",
+      "メーカー": "アトリエかぐや TEAM Gassa-Q",
+      "発売日": "2014/03/28",
+      "定価": "9,680円",
+      "型番": "KA-0071",
+      "原画": "Mero",
+      "シナリオ": "伝野てつ\n双海悠\n華田久作\n有巻洋太\n須々木鮎尾\n間崎俊介",
+      "声優": "金松由花\n佐倉もも花\n手塚りょうこ\n東かりん\n姫川あいり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2680,
+    "latestRegularSalePrice": 2680,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:52.875Z"
+  },
+  "histories": [
+    {
+      "id": 82733,
+      "productId": 82719,
+      "salePrice": 2680,
+      "regularSalePrice": 2680,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:52.875Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245576,
+      "productId": 82719,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2680,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245575,
+      "productId": 82719,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2390,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245574,
+      "productId": 82719,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2412,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    },
+    {
+      "id": 245573,
+      "productId": 82719,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2390,
+      "checkedAt": "2026-09-09T05:32:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040837",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040837",
+    "capturedAt": "2026-09-09T05:32:52.875Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2390
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2412
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2390
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2680
+      }
+    ],
+    "path": "data/other-shops/145040837.json"
+  }
+}

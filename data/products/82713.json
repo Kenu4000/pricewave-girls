@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 82713,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ひまわり!!-あなただけを見つめてる-[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043897",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043897.jpg",
+    "manufacturer": "sweet light",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145043897001",
+      "メーカー": "sweet light",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "声優": "藤崎紗矢香\n民安ともえ\n有栖川みや美\n美月\n三津菱蘭沙\nみる",
+      "原画": "p19",
+      "シナリオ": "吉藤誉将\n太田憂",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:50.261Z"
+  },
+  "histories": [
+    {
+      "id": 82727,
+      "productId": 82713,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:50.261Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245553,
+      "productId": 82713,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-09T05:32:51.000Z"
+    },
+    {
+      "id": 245552,
+      "productId": 82713,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1999,
+      "checkedAt": "2026-09-09T05:32:51.000Z"
+    },
+    {
+      "id": 245551,
+      "productId": 82713,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-09-09T05:32:51.000Z"
+    },
+    {
+      "id": 245550,
+      "productId": 82713,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1390,
+      "checkedAt": "2026-09-09T05:32:51.000Z"
+    },
+    {
+      "id": 245549,
+      "productId": 82713,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-09T05:32:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043897",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043897",
+    "capturedAt": "2026-09-09T05:32:50.261Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1390
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1999
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145043897.json"
+  }
+}
