@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 31493,
+    "title": "WindowsXP/Vista/7 DVDソフト 沈黙の女学園＆絶望師 限定Wパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035173",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035173.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2012-12-28",
+    "listPrice": 11880,
+    "modelNumber": "ANM-244",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145035173001",
+      "メーカー": "ANIM",
+      "発売日": "2012/12/28",
+      "定価": "11,880円",
+      "型番": "ANM-244",
+      "原画": "bbsacon",
+      "シナリオ": "酒井童人",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:49.046Z"
+  },
+  "histories": [
+    {
+      "id": 31507,
+      "productId": 31493,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:40:31.517Z"
+    },
+    {
+      "id": 40243,
+      "productId": 31493,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:19.360Z"
+    },
+    {
+      "id": 43760,
+      "productId": 31493,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:49.046Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113215,
+      "productId": 31493,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-08-17T09:34:49.000Z"
+    },
+    {
+      "id": 113214,
+      "productId": 31493,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-08-17T09:34:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035173",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035173",
+    "capturedAt": "2026-08-17T09:34:49.046Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1850
+      }
+    ],
+    "path": "data/other-shops/145035173.json"
+  }
+}

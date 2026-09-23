@@ -1,0 +1,95 @@
+{
+  "product": {
+    "id": 1713,
+    "title": "Windows8/8.1/10 DVDソフト いつまでも息子のままじゃいられない! シリーズ全6作品収録 永久保存版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072136",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072136.jpg",
+    "manufacturer": "ANIM Mother＆Wife",
+    "releaseDate": "2021-06-25",
+    "listPrice": 9900,
+    "modelNumber": "ANM-457",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072136",
+      "メーカー": "ANIM Mother＆Wife",
+      "発売日": "2021/06/25",
+      "定価": "9,900円",
+      "型番": "ANM-457",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-07T20:22:04.000Z"
+  },
+  "histories": [
+    {
+      "id": 1727,
+      "productId": 1713,
+      "salePrice": 5380,
+      "regularSalePrice": 5380,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6613,
+      "productId": 1713,
+      "salePrice": 5380,
+      "regularSalePrice": 5380,
+      "buyPrice": 3300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:10:29.000Z"
+    },
+    {
+      "id": 16222,
+      "productId": 1713,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:22:04.000Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 28945,
+      "productId": 1713,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5300,
+      "checkedAt": "2026-08-07T20:22:04.000Z"
+    },
+    {
+      "id": 28944,
+      "productId": 1713,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 5110,
+      "checkedAt": "2026-08-07T20:22:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

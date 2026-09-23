@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82621,
+    "title": "Windows10/11 DVDソフト ヒミツの合宿 -スク水ヒップに溺れたい-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083181",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083181.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2025-07-25",
+    "listPrice": 9680,
+    "modelNumber": "WAF-0063",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083181001",
+      "メーカー": "WAFFLE",
+      "発売日": "2025/07/25",
+      "定価": "9,680円",
+      "型番": "WAF-0063",
+      "原画": "れいあきら",
+      "シナリオ": "七歌",
+      "声優": "榛名れん\nハヲリ\n鶴屋春人\n綾音まこ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3750,
+    "latestRegularSalePrice": 3750,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:31:59.569Z"
+  },
+  "histories": [
+    {
+      "id": 82635,
+      "productId": 82621,
+      "salePrice": 3750,
+      "regularSalePrice": 3750,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:31:59.569Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245232,
+      "productId": 82621,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3750,
+      "checkedAt": "2026-09-09T05:32:00.000Z"
+    },
+    {
+      "id": 245231,
+      "productId": 82621,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 4112,
+      "checkedAt": "2026-09-09T05:32:00.000Z"
+    },
+    {
+      "id": 245230,
+      "productId": 82621,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 3680,
+      "checkedAt": "2026-09-09T05:32:00.000Z"
+    },
+    {
+      "id": 245229,
+      "productId": 82621,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 3411,
+      "checkedAt": "2026-09-09T05:32:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083181",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083181",
+    "capturedAt": "2026-09-09T05:31:59.569Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 3411
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 3680
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 4112
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3750
+      }
+    ],
+    "path": "data/other-shops/145083181.json"
+  }
+}

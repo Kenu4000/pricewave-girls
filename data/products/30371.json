@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 30371,
+    "title": "WindowsVista/7/8/10 DVDソフト VenusBlood -ABYSS- 廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051686",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051686.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2015-10-23",
+    "listPrice": 4840,
+    "modelNumber": "TDR-09",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145051686001",
+      "メーカー": "Dual Tail",
+      "発売日": "2015/10/23",
+      "定価": "4,840円",
+      "型番": "TDR-09",
+      "原画": "継宮凰姫\n丹下ゲンタ\nトシぞー",
+      "シナリオ": "イルカ\n西矢沙広\nけーまる\n青木きりん",
+      "声優": "渋谷ひめ\n安堂りゅう\n富樫ケイ\n佐藤玲羅\n桃也みなみ\n有賀桃\n榊木春乃\n藤堂みさき\n相本さくら\n咲ゆたか\n梅椿鬼",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:34.620Z"
+  },
+  "histories": [
+    {
+      "id": 30385,
+      "productId": 30371,
+      "salePrice": 2150,
+      "regularSalePrice": 2280,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:24.582Z"
+    },
+    {
+      "id": 39167,
+      "productId": 30371,
+      "salePrice": 2150,
+      "regularSalePrice": 2280,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:18.566Z"
+    },
+    {
+      "id": 71043,
+      "productId": 30371,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:34.620Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203965,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-09-02T20:49:34.000Z"
+    },
+    {
+      "id": 203964,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-09-02T20:49:34.000Z"
+    },
+    {
+      "id": 203963,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-09-02T20:49:34.000Z"
+    },
+    {
+      "id": 102662,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-08-16T01:18:18.000Z"
+    },
+    {
+      "id": 102661,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-08-16T01:18:18.000Z"
+    },
+    {
+      "id": 76715,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-08-15T23:19:24.000Z"
+    },
+    {
+      "id": 76714,
+      "productId": 30371,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-08-15T23:19:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145051686",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051686",
+    "capturedAt": "2026-09-02T20:49:34.620Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2050
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145051686.json"
+  }
+}

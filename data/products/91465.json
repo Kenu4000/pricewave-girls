@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 91465,
+    "title": "Windows98SE/2000/XP DVDソフト 七星れんか",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019874",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019874.jpg",
+    "manufacturer": "千世（ちせ）",
+    "releaseDate": "2009-05-29",
+    "listPrice": 6380,
+    "modelNumber": "KLTC-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145019874",
+      "メーカー": "千世（ちせ）",
+      "発売日": "2009/05/29",
+      "定価": "6,380円",
+      "型番": "KLTC-005",
+      "原画": "田口まこと",
+      "シナリオ": "HARE\n三国亮\n田中天\n小椋みほ\n采",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:53.665Z"
+  },
+  "histories": [
+    {
+      "id": 91479,
+      "productId": 91465,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:53.665Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019874",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019874",
+    "capturedAt": "2026-09-14T17:28:53.665Z",
+    "items": [],
+    "path": "data/other-shops/145019874.json"
+  }
+}

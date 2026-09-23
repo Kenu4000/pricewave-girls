@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55679,
+    "title": "Windows10/11 DVDソフト ボクをほっとけない後輩ギャル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083578",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083578.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2025-09-26",
+    "listPrice": 1980,
+    "modelNumber": "WAF-0064",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083578001",
+      "メーカー": "WAFFLE",
+      "発売日": "2025/09/26",
+      "定価": "1,980円",
+      "型番": "WAF-0064",
+      "原画": "深泥正",
+      "シナリオ": "はやさかうたね",
+      "声優": "有賀桃\n風花ましろ\n蒼乃むすび",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:14.981Z"
+  },
+  "histories": [
+    {
+      "id": 55693,
+      "productId": 55679,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:14.981Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150288,
+      "productId": 55679,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    },
+    {
+      "id": 150287,
+      "productId": 55679,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    },
+    {
+      "id": 150286,
+      "productId": 55679,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    },
+    {
+      "id": 150285,
+      "productId": 55679,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1412,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083578",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083578",
+    "capturedAt": "2026-08-21T05:29:14.981Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1412
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145083578.json"
+  }
+}

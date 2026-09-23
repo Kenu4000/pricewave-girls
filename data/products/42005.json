@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 42005,
+    "title": "Windows2000/XP/Vista DVDソフト AlterEgo",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019868",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019868.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2009-05-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019868001",
+      "メーカー": "KISS",
+      "発売日": "2009/05/29",
+      "定価": "9,680円",
+      "原画": "黒石りんご",
+      "シナリオ": "静薙冬音\n裏乃史\nシャア専用◎\n和泉万夜\n天崎カケル",
+      "声優": "かわしまりの\n畠山亮二\n松永雪希\n宮沢ゆあな\n青葉りんご\n紫苑みやび\n香澄りょう\n桜川未央\n越雪光\n草柳順子\n原田友貴\n神奈川年\n高槻つばさ\nルネッサンス山田",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:36.379Z"
+  },
+  "histories": [
+    {
+      "id": 42019,
+      "productId": 42005,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:16.018Z"
+    },
+    {
+      "id": 53501,
+      "productId": 42005,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:53.911Z"
+    },
+    {
+      "id": 65051,
+      "productId": 42005,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:36.379Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182351,
+      "productId": 42005,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-29T01:16:36.000Z"
+    },
+    {
+      "id": 182350,
+      "productId": 42005,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-29T01:16:36.000Z"
+    },
+    {
+      "id": 143632,
+      "productId": 42005,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T16:24:54.000Z"
+    },
+    {
+      "id": 143631,
+      "productId": 42005,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:24:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019868",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019868",
+    "capturedAt": "2026-08-29T01:16:36.379Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145019868.json"
+  }
+}

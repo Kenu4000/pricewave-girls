@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 95300,
+    "title": "Windows DVDソフト ルネソフトプレミアムパック4 -こんなに入れちゃって、どうするのよ!?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066354.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2019-11-29",
+    "listPrice": 11000,
+    "modelNumber": "MGGW0229",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145066354",
+      "メーカー": "ルネ",
+      "発売日": "2019/11/29",
+      "定価": "11,000円",
+      "型番": "MGGW0229",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6600,
+    "latestRegularSalePrice": 6600,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:00.273Z"
+  },
+  "histories": [
+    {
+      "id": 95314,
+      "productId": 95300,
+      "salePrice": 6600,
+      "regularSalePrice": 6600,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:00.273Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145066354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066354",
+    "capturedAt": "2026-09-17T19:57:00.273Z",
+    "items": [],
+    "path": "data/other-shops/145066354.json"
+  }
+}

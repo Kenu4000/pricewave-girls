@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 94316,
+    "title": "Windows8.1/10 DVDソフト 天冥のコンキスタ コンプリート版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075061.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2022-07-29",
+    "listPrice": 10780,
+    "modelNumber": "EUDV-020S",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145075061",
+      "メーカー": "エウシュリー",
+      "発売日": "2022/07/29",
+      "定価": "10,780円",
+      "型番": "EUDV-020S",
+      "原画": "鳩月つみき\nうろ\n夜ノみつき\nやくり",
+      "シナリオ": "横比良こゆき\n如月聖\n花咲樹木\n坂元星日",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5560,
+    "latestRegularSalePrice": 5560,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T18:17:33.475Z"
+  },
+  "histories": [
+    {
+      "id": 94330,
+      "productId": 94316,
+      "salePrice": 5560,
+      "regularSalePrice": 5560,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:33.475Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145075061",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075061",
+    "capturedAt": "2026-09-16T18:17:33.475Z",
+    "items": [],
+    "path": "data/other-shops/145075061.json"
+  }
+}

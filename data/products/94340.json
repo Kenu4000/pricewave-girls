@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 94340,
+    "title": "Windows2000/XP/Vista DVDソフト FORTUNE ARTERIAL(フォーチュン・アテリアル)[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017586",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017586.jpg",
+    "manufacturer": "オーガスト",
+    "releaseDate": "2008-02-29",
+    "listPrice": 9680,
+    "modelNumber": "AUG-0072",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017586",
+      "メーカー": "オーガスト",
+      "発売日": "2008/02/29",
+      "定価": "9,680円",
+      "型番": "AUG-0072",
+      "原画": "べっかんこう",
+      "シナリオ": "安西秀明\n榊原拓\n内田ヒロユキ",
+      "声優": "渡部由美\n観村咲子\n鷹月さくら\n楠鈴音\n手塚まき\n姫川あいり\nヘルシー太郎\nケビン・スパイシー\n水橋かおり\n岬友美\n鷹取玲\n水霧けいと\n一条和矢",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T18:17:42.223Z"
+  },
+  "histories": [
+    {
+      "id": 94354,
+      "productId": 94340,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:42.223Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017586",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017586",
+    "capturedAt": "2026-09-16T18:17:42.223Z",
+    "items": [],
+    "path": "data/other-shops/145017586.json"
+  }
+}

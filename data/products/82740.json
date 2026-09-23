@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 82740,
+    "title": "WindowsXP/Vista/7 DVDソフト 異種族の虜姫 -せめて人間の相手をさせて!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032061.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2012-06-29",
+    "listPrice": 7480,
+    "modelNumber": "VA-00136D",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032061001",
+      "メーカー": "catwalkNERO",
+      "発売日": "2012/06/29",
+      "定価": "7,480円",
+      "型番": "VA-00136D",
+      "原画": "木ノ碕由貴",
+      "シナリオ": "澪戸小路\n若林浩太郎\n瑞守ねおん",
+      "声優": "天天\n大野花桜",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:03.153Z"
+  },
+  "histories": [
+    {
+      "id": 82754,
+      "productId": 82740,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:03.153Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245636,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245635,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "ジェット書店",
+      "condition": "中古：未開封品",
+      "price": 4500,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245634,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 1800,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245633,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1645,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245632,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1312,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    },
+    {
+      "id": 245631,
+      "productId": 82740,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-09T05:33:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032061",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032061",
+    "capturedAt": "2026-09-09T05:33:03.153Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1312
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1645
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品",
+        "price": 1800
+      },
+      {
+        "storeName": "ジェット書店",
+        "condition": "中古：未開封品",
+        "price": 4500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145032061.json"
+  }
+}

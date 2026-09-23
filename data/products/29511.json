@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 29511,
+    "title": "Windows7/8/8.1/10 DVDソフト 篠田新宿探偵事務所 唐獅子牡丹",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062879",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062879.jpg",
+    "manufacturer": "HolicWorksDISC",
+    "releaseDate": "2018-10-26",
+    "listPrice": 5830,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062879001",
+      "メーカー": "HolicWorksDISC",
+      "発売日": "2018/10/26",
+      "定価": "5,830円",
+      "原画": "一野",
+      "シナリオ": "七画",
+      "声優": "久喜大\n冬ノ熊肉\n初時チェリー",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 11500,
+    "latestRegularSalePrice": 11500,
+    "latestBuyPrice": 5100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:32.761Z"
+  },
+  "histories": [
+    {
+      "id": 29525,
+      "productId": 29511,
+      "salePrice": 15000,
+      "regularSalePrice": 15800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:47.023Z"
+    },
+    {
+      "id": 38344,
+      "productId": 29511,
+      "salePrice": 15000,
+      "regularSalePrice": 15800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:56.989Z"
+    },
+    {
+      "id": 49476,
+      "productId": 29511,
+      "salePrice": 15800,
+      "regularSalePrice": 15800,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:17.757Z"
+    },
+    {
+      "id": 60219,
+      "productId": 29511,
+      "salePrice": 13000,
+      "regularSalePrice": 13000,
+      "buyPrice": 5800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:10:30.080Z"
+    },
+    {
+      "id": 70501,
+      "productId": 29511,
+      "salePrice": 11500,
+      "regularSalePrice": 11500,
+      "buyPrice": 5100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:32.761Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202280,
+      "productId": 29511,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 11500,
+      "checkedAt": "2026-09-02T20:45:33.000Z"
+    },
+    {
+      "id": 202279,
+      "productId": 29511,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 12500,
+      "checkedAt": "2026-09-02T20:45:33.000Z"
+    },
+    {
+      "id": 202278,
+      "productId": 29511,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 11500,
+      "checkedAt": "2026-09-02T20:45:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062879",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062879",
+    "capturedAt": "2026-09-02T20:45:32.761Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 11500
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 12500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 11500
+      }
+    ],
+    "path": "data/other-shops/145062879.json"
+  }
+}

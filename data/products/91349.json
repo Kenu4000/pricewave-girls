@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 91349,
+    "title": "Windows8.1/10 DVDソフト Nightmare×Deathscythe-叛逆のレゾナンス-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073609",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073609.jpg",
+    "manufacturer": "Guilty Nightmare Project",
+    "releaseDate": "2021-12-24",
+    "listPrice": 3300,
+    "modelNumber": "WILL-435",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145073609001",
+      "メーカー": "Guilty Nightmare Project",
+      "発売日": "2021/12/24",
+      "定価": "3,300円",
+      "型番": "WILL-435",
+      "原画": "の歯\nティータ.J",
+      "シナリオ": "結城\n利波創造\nやなぎいろ",
+      "声優": "河村蜜華\n藤野むらさき\n水瀬ゆき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:09.297Z"
+  },
+  "histories": [
+    {
+      "id": 91363,
+      "productId": 91349,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:09.297Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278777,
+      "productId": 91349,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278776,
+      "productId": 91349,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278775,
+      "productId": 91349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073609",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073609",
+    "capturedAt": "2026-09-14T17:28:09.297Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145073609.json"
+  }
+}

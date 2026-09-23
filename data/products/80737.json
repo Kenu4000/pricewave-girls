@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 80737,
+    "title": "WindowsMe/2000/XP CDソフト ネコノヒメ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014660",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014660.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2006-09-01",
+    "listPrice": 2200,
+    "modelNumber": "LBL-00015",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014660",
+      "メーカー": "Lilith",
+      "発売日": "2006/09/01",
+      "定価": "2,200円",
+      "型番": "LBL-00015",
+      "原画": "止田卓史",
+      "シナリオ": "栗栖",
+      "声優": "山本ゆり\n武部静香\n中野志乃\n櫻井ありす",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1034,
+    "latestRegularSalePrice": 1034,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:13.588Z"
+  },
+  "histories": [
+    {
+      "id": 80751,
+      "productId": 80737,
+      "salePrice": 1034,
+      "regularSalePrice": 1034,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:13.588Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014660",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014660",
+    "capturedAt": "2026-09-07T13:48:13.588Z",
+    "items": [],
+    "path": "data/other-shops/145014660.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 29153,
+    "title": "Windows8.1/10 DVDソフト くりくりクリック!特盛!-オレの尻タワー!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081412",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081412.jpg",
+    "manufacturer": "ガールズソフトウェア",
+    "releaseDate": "2024-07-26",
+    "listPrice": 8250,
+    "modelNumber": "GSW-0008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145081412001",
+      "メーカー": "ガールズソフトウェア",
+      "発売日": "2024/07/26",
+      "定価": "8,250円",
+      "型番": "GSW-0008",
+      "原画": "トンチキパンチ\n夏山山路",
+      "シナリオ": "生羽目ロケット",
+      "声優": "美東澪",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3380,
+    "latestRegularSalePrice": 3380,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:20.888Z"
+  },
+  "histories": [
+    {
+      "id": 29167,
+      "productId": 29153,
+      "salePrice": 3200,
+      "regularSalePrice": 3380,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:53.649Z"
+    },
+    {
+      "id": 38005,
+      "productId": 29153,
+      "salePrice": 3200,
+      "regularSalePrice": 3380,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:42.525Z"
+    },
+    {
+      "id": 49211,
+      "productId": 29153,
+      "salePrice": 3380,
+      "regularSalePrice": 3380,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:20.888Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 131649,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3380,
+      "checkedAt": "2026-08-19T04:29:21.000Z"
+    },
+    {
+      "id": 131648,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-08-19T04:29:21.000Z"
+    },
+    {
+      "id": 99939,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 3200,
+      "checkedAt": "2026-08-16T01:07:42.000Z"
+    },
+    {
+      "id": 99938,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-08-16T01:07:42.000Z"
+    },
+    {
+      "id": 73860,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 3200,
+      "checkedAt": "2026-08-15T23:03:53.000Z"
+    },
+    {
+      "id": 73859,
+      "productId": 29153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-08-15T23:03:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081412",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081412",
+    "capturedAt": "2026-08-19T04:29:20.888Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 3111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3380
+      }
+    ],
+    "path": "data/other-shops/145081412.json"
+  }
+}

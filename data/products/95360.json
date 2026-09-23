@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 95360,
+    "title": "Windows98/Me/2000/XP DVDソフト 映研企画 [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014300",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014300.jpg",
+    "manufacturer": "るんるんそふと",
+    "releaseDate": "2006-04-28",
+    "listPrice": 5280,
+    "modelNumber": "RUNZ-003",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014300",
+      "メーカー": "るんるんそふと",
+      "発売日": "2006/04/28",
+      "定価": "5,280円",
+      "型番": "RUNZ-003",
+      "原画": "衣谷昭",
+      "声優": "赤見幸重\n紘川琴音\nみる\n相模真\n梅小路ピンポン\nどてら4号\n鉄滝次",
+      "シナリオ": "中条椿",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 940,
+    "latestRegularSalePrice": 940,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:24.071Z"
+  },
+  "histories": [
+    {
+      "id": 95374,
+      "productId": 95360,
+      "salePrice": 940,
+      "regularSalePrice": 940,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:24.071Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014300",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014300",
+    "capturedAt": "2026-09-17T19:57:24.071Z",
+    "items": [],
+    "path": "data/other-shops/145014300.json"
+  }
+}

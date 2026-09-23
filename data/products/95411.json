@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 95411,
+    "title": "Windows98SE/Me/2000/XP CDソフト エーテルの砂時計 ANGEL TIME[体験版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029200",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029200.jpg",
+    "manufacturer": "DREAM SOFT",
+    "releaseDate": "2006-03-24",
+    "listPrice": null,
+    "modelNumber": "DS-018",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145029200001",
+      "メーカー": "DREAM SOFT",
+      "発売日": "2006/03/24",
+      "型番": "DS-018",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 260,
+    "latestRegularSalePrice": 260,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:40.823Z"
+  },
+  "histories": [
+    {
+      "id": 95425,
+      "productId": 95411,
+      "salePrice": 260,
+      "regularSalePrice": 260,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:40.823Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294066,
+      "productId": 95411,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 260,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294065,
+      "productId": 95411,
+      "sourceType": "other_shop",
+      "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+      "condition": "中古",
+      "price": 250,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294064,
+      "productId": 95411,
+      "sourceType": "other_shop",
+      "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+      "condition": "中古 使用感あり",
+      "price": 250,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029200",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029200",
+    "capturedAt": "2026-09-19T13:53:40.823Z",
+    "items": [
+      {
+        "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+        "condition": "中古 使用感あり",
+        "price": 250
+      },
+      {
+        "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+        "condition": "中古",
+        "price": 250
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 260
+      }
+    ],
+    "path": "data/other-shops/145029200.json"
+  }
+}

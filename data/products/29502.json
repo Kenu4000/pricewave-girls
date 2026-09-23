@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 29502,
+    "title": "Windows7/8/8.1/10 DVDソフト サイミンアプリ Another -終わらない寝取られゲーム-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063208",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063208.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2018-11-30",
+    "listPrice": 4180,
+    "modelNumber": "UBAI-007",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063208",
+      "メーカー": "スタジオ奪",
+      "発売日": "2018/11/30",
+      "定価": "4,180円",
+      "型番": "UBAI-007",
+      "原画": "さめだ小判",
+      "シナリオ": "高尾登山",
+      "声優": "奥川久美子\n柏木逢花\n榛名れん\n柚原みう\n鶴屋春人\nももぞの薫\n唯香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:28.728Z"
+  },
+  "histories": [
+    {
+      "id": 29516,
+      "productId": 29502,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:42.208Z"
+    },
+    {
+      "id": 38333,
+      "productId": 29502,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:50.836Z"
+    },
+    {
+      "id": 49464,
+      "productId": 29502,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:12.579Z"
+    },
+    {
+      "id": 60211,
+      "productId": 29502,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:10:27.436Z"
+    },
+    {
+      "id": 70494,
+      "productId": 29502,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:28.728Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202247,
+      "productId": 29502,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 2800,
+      "checkedAt": "2026-09-02T20:45:28.000Z"
+    },
+    {
+      "id": 202246,
+      "productId": 29502,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-09-02T20:45:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063208",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063208",
+    "capturedAt": "2026-09-02T20:45:28.728Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 2800
+      }
+    ],
+    "path": "data/other-shops/145063208.json"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 31386,
+    "title": "Windows CDソフト DRAMAtical Murder re：connect ソフマップ システムボイス CD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037106",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037106.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2013-04-26",
+    "listPrice": null,
+    "modelNumber": "SKR358",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037106",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2013/04/26",
+      "型番": "SKR358",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1012,
+    "latestRegularSalePrice": 1012,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:55.915Z"
+  },
+  "histories": [
+    {
+      "id": 31400,
+      "productId": 31386,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:14.367Z"
+    },
+    {
+      "id": 40143,
+      "productId": 31386,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:29.022Z"
+    },
+    {
+      "id": 71092,
+      "productId": 31386,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:55.915Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037106",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037106",
+    "capturedAt": "2026-09-02T20:49:55.915Z",
+    "items": [],
+    "path": "data/other-shops/145037106.json"
+  }
+}

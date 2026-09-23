@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 8390,
+    "title": "Windows95/98 CDソフト フィルムノワール",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002988",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002988.jpg",
+    "manufacturer": "ソフィア",
+    "releaseDate": "1999-12-10",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002988",
+      "メーカー": "ソフィア",
+      "発売日": "1999/12/10",
+      "定価": "9,680円",
+      "原画": "ちゃんちゃら!\n弥舞秀人\n武亜希子\n山いもとろとろ",
+      "シナリオ": "来栖乱鳩",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveCondition": "ディスクのみになります。",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみになります。",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-23T13:44:32.894Z"
+  },
+  "histories": [
+    {
+      "id": 8404,
+      "productId": 8390,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 26827,
+      "productId": 8390,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:39.780Z"
+    },
+    {
+      "id": 37767,
+      "productId": 8390,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:39.992Z"
+    },
+    {
+      "id": 48246,
+      "productId": 8390,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:31.716Z"
+    },
+    {
+      "id": 59051,
+      "productId": 8390,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:44:32.894Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145002988",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002988",
+    "capturedAt": "2026-08-23T13:44:32.894Z",
+    "items": [],
+    "path": "data/other-shops/145002988.json"
+  }
+}

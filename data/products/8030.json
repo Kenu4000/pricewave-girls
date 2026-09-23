@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 8030,
+    "title": "Windows98SE/Me/2000/XP CDソフト Eighteen ～美少女痴漢遊戯～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145011884",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145011884.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2004-09-17",
+    "listPrice": 9680,
+    "modelNumber": "INH-239",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145011884",
+      "メーカー": "インターハート",
+      "発売日": "2004/09/17",
+      "定価": "9,680円",
+      "型番": "INH-239",
+      "原画": "矢神雲斎",
+      "声優": "静野ももか\nカンザキカナリ\n西田こむぎ\n咲倉あい\n歌織\n神月あおい\nRUMI\n如月美琴",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6000,
+    "latestRegularSalePrice": 6000,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-23T13:42:28.702Z"
+  },
+  "histories": [
+    {
+      "id": 8044,
+      "productId": 8030,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:02:28.000Z"
+    },
+    {
+      "id": 26761,
+      "productId": 8030,
+      "salePrice": 3280,
+      "regularSalePrice": 3280,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:37:03.751Z"
+    },
+    {
+      "id": 37483,
+      "productId": 8030,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:03:20.485Z"
+    },
+    {
+      "id": 48005,
+      "productId": 8030,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:10:30.016Z"
+    },
+    {
+      "id": 58828,
+      "productId": 8030,
+      "salePrice": 6000,
+      "regularSalePrice": 6000,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:42:28.702Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145011884",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145011884",
+    "capturedAt": "2026-08-23T13:42:28.702Z",
+    "items": [],
+    "path": "data/other-shops/145011884.json"
+  }
+}

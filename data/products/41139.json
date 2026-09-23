@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 41139,
+    "title": "Windows2000/XP/Vista/7 CDソフト 薄幸の新妻ー私…逃げられない…ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029158",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029158.jpg",
+    "manufacturer": "極フェロ",
+    "releaseDate": "2011-08-19",
+    "listPrice": 3300,
+    "modelNumber": "GKF-00024",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029158",
+      "メーカー": "極フェロ",
+      "発売日": "2011/08/19",
+      "定価": "3,300円",
+      "型番": "GKF-00024",
+      "原画": "川合正起",
+      "シナリオ": "野良うさぎ",
+      "声優": "ヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:31.906Z"
+  },
+  "histories": [
+    {
+      "id": 41153,
+      "productId": 41139,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:09.435Z"
+    },
+    {
+      "id": 52871,
+      "productId": 41139,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:31.474Z"
+    },
+    {
+      "id": 63832,
+      "productId": 41139,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:31.906Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029158",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029158",
+    "capturedAt": "2026-08-27T16:12:31.906Z",
+    "items": [],
+    "path": "data/other-shops/145029158.json"
+  }
+}

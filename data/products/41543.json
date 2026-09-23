@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41543,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 姦獄学園 ～学園公認、恥辱の課外授業～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043370",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043370.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2010-08-27",
+    "listPrice": 9680,
+    "modelNumber": "LIQ021",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145043370",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2010/08/27",
+      "定価": "9,680円",
+      "型番": "LIQ021",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:24.495Z"
+  },
+  "histories": [
+    {
+      "id": 41557,
+      "productId": 41543,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:59.817Z"
+    },
+    {
+      "id": 53168,
+      "productId": 41543,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:08.597Z"
+    },
+    {
+      "id": 64753,
+      "productId": 41543,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:24.495Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145043370",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043370",
+    "capturedAt": "2026-08-29T01:14:24.495Z",
+    "items": [],
+    "path": "data/other-shops/145043370.json"
+  }
+}

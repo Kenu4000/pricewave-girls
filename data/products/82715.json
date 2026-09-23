@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 82715,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 恥辱の女騎士「オークの出来そこないである貴様なんかに、この私が……!!」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040248",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040248.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2014-05-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145040248001",
+      "メーカー": "ルネ",
+      "発売日": "2014/05/30",
+      "定価": "9,680円",
+      "原画": "sスキー\nスカイハウス\nhuracan",
+      "シナリオ": "柊風里\nりりあん嬢\nK-TOK\n須々木鮎尾",
+      "声優": "紅月奏美\n鶴屋春人",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:51.711Z"
+  },
+  "histories": [
+    {
+      "id": 82729,
+      "productId": 82715,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:51.711Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245562,
+      "productId": 82715,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1750,
+      "checkedAt": "2026-09-09T05:32:52.000Z"
+    },
+    {
+      "id": 245561,
+      "productId": 82715,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-09-09T05:32:52.000Z"
+    },
+    {
+      "id": 245560,
+      "productId": 82715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1670,
+      "checkedAt": "2026-09-09T05:32:52.000Z"
+    },
+    {
+      "id": 245559,
+      "productId": 82715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1670,
+      "checkedAt": "2026-09-09T05:32:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040248",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040248",
+    "capturedAt": "2026-09-09T05:32:51.711Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1670
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1670
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 9680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1750
+      }
+    ],
+    "path": "data/other-shops/145040248.json"
+  }
+}

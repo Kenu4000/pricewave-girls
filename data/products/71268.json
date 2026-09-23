@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 71268,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 緊急宣言 お姉ちゃん達は処女を卒業しますっ!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055147",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055147.jpg",
+    "manufacturer": "Sweet Heart",
+    "releaseDate": "2016-10-28",
+    "listPrice": 9680,
+    "modelNumber": "INH-357",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055147001",
+      "メーカー": "Sweet Heart",
+      "発売日": "2016/10/28",
+      "定価": "9,680円",
+      "型番": "INH-357",
+      "原画": "火炎味噌",
+      "シナリオ": "十全",
+      "声優": "金松由花\n綾野莉音\n風花ましろ\n結城ほのか",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:30.876Z"
+  },
+  "histories": [
+    {
+      "id": 71282,
+      "productId": 71268,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:30.876Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204620,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    },
+    {
+      "id": 204619,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    },
+    {
+      "id": 204618,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    },
+    {
+      "id": 204617,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1601,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    },
+    {
+      "id": 204616,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1395,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    },
+    {
+      "id": 204615,
+      "productId": 71268,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1395,
+      "checkedAt": "2026-09-02T21:36:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055147",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055147",
+    "capturedAt": "2026-09-02T21:36:30.876Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1395
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1395
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1601
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145055147.json"
+  }
+}

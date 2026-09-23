@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41308,
+    "title": "Windows2000/XP/Vista/7 CDソフト 先生っ! シてあげる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027198",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027198.jpg",
+    "manufacturer": "桃色劇場",
+    "releaseDate": "2011-03-18",
+    "listPrice": 3300,
+    "modelNumber": "MIG-00009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145027198",
+      "メーカー": "桃色劇場",
+      "発売日": "2011/03/18",
+      "定価": "3,300円",
+      "型番": "MIG-00009",
+      "原画": "悠路",
+      "シナリオ": "後馬久人",
+      "声優": "吉野裕夏\n手塚りょうこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3100,
+    "latestRegularSalePrice": 3100,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:13:30.389Z"
+  },
+  "histories": [
+    {
+      "id": 41322,
+      "productId": 41308,
+      "salePrice": 3100,
+      "regularSalePrice": 3100,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:42.996Z"
+    },
+    {
+      "id": 53002,
+      "productId": 41308,
+      "salePrice": 3100,
+      "regularSalePrice": 3100,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:45.627Z"
+    },
+    {
+      "id": 63952,
+      "productId": 41308,
+      "salePrice": 3100,
+      "regularSalePrice": 3100,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:13:30.389Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027198",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027198",
+    "capturedAt": "2026-08-27T16:13:30.389Z",
+    "items": [],
+    "path": "data/other-shops/145027198.json"
+  }
+}

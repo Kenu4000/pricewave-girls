@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 71327,
+    "title": "Windows DVDソフト 君がため、恋し乱れし月の華",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040216",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040216.jpg",
+    "manufacturer": "すとれーと",
+    "releaseDate": "2014-02-14",
+    "listPrice": 8580,
+    "modelNumber": "STRD-10001",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145040216001",
+      "メーカー": "すとれーと",
+      "発売日": "2014/02/14",
+      "定価": "8,580円",
+      "型番": "STRD-10001",
+      "原画": "京作\n摘千つさか",
+      "SD原画": "C2",
+      "シナリオ": "円まどか\n福",
+      "声優": "柊三太\n須賀紀哉\n赤司弓妃\n青島刃\n花雰翔\n四季路",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 16800,
+    "latestRegularSalePrice": 16800,
+    "latestBuyPrice": 4800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:57.108Z"
+  },
+  "histories": [
+    {
+      "id": 71341,
+      "productId": 71327,
+      "salePrice": 16800,
+      "regularSalePrice": 16800,
+      "buyPrice": 4800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:57.108Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204756,
+      "productId": 71327,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 16800,
+      "checkedAt": "2026-09-02T21:36:57.000Z"
+    },
+    {
+      "id": 204755,
+      "productId": 71327,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 15800,
+      "checkedAt": "2026-09-02T21:36:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145040216",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145040216",
+    "capturedAt": "2026-09-02T21:36:57.108Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 15800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 16800
+      }
+    ],
+    "path": "data/other-shops/145040216.json"
+  }
+}

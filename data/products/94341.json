@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 94341,
+    "title": "Windows98SE/Me/2000/XP DVDソフト Simらぶっ ～ひと夏の奇跡～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016579",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016579.jpg",
+    "manufacturer": "DisAbel",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": "T-44446M",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016579",
+      "メーカー": "DisAbel",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "型番": "T-44446M",
+      "原画": "bomi",
+      "声優": "水純なな歩\n草柳順子\n青山ゆかり\n高槻つばさ\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T18:17:42.665Z"
+  },
+  "histories": [
+    {
+      "id": 94355,
+      "productId": 94341,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:42.665Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016579",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016579",
+    "capturedAt": "2026-09-16T18:17:42.665Z",
+    "items": [],
+    "path": "data/other-shops/145016579.json"
+  }
+}

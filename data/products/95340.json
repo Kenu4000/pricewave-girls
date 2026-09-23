@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 95340,
+    "title": "Windows98/Me/2000/XP DVDソフト 魔法が世界を救います!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014210",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014210.jpg",
+    "manufacturer": "アナスタシア",
+    "releaseDate": "2006-05-26",
+    "listPrice": 4180,
+    "modelNumber": "ANDV-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014210001",
+      "メーカー": "アナスタシア",
+      "発売日": "2006/05/26",
+      "定価": "4,180円",
+      "型番": "ANDV-001",
+      "原画": "やくり",
+      "シナリオ": "高杉九郎",
+      "声優": "神崎ちひろ\n逢川奈々\n草柳順子\n紫苑みやび\n西田こむぎ\n大波こなみ\n北都南",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:15.175Z"
+  },
+  "histories": [
+    {
+      "id": 95354,
+      "productId": 95340,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:15.175Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293877,
+      "productId": 95340,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293876,
+      "productId": 95340,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293875,
+      "productId": 95340,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293874,
+      "productId": 95340,
+      "sourceType": "other_shop",
+      "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+      "condition": "中古:：ゲームディスクのみ。",
+      "price": 300,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293873,
+      "productId": 95340,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014210",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014210",
+    "capturedAt": "2026-09-17T19:57:15.175Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "エリエスwebshop ご注文確定後 1日から3日以内に発送致します。商品代金 合計1500円以上で送料無料です。駿河屋マーケットプレイス専用在庫です。併売はしておりません。",
+        "condition": "中古:：ゲームディスクのみ。",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 350
+      }
+    ],
+    "path": "data/other-shops/145014210.json"
+  }
+}

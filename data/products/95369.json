@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 95369,
+    "title": "Windows98SE/Me/2000/XP CDソフト PRINCESS WALTZ SOFMAP ORIGINAL CONTENTS CD [ソフマップ特典]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018455",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018455.jpg",
+    "manufacturer": "PULLTOP",
+    "releaseDate": "2006-04-21",
+    "listPrice": null,
+    "modelNumber": "VZ-0010",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145018455001",
+      "メーカー": "PULLTOP",
+      "発売日": "2006/04/21",
+      "型番": "VZ-0010",
+      "原画": "たけやまさみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:26.619Z"
+  },
+  "histories": [
+    {
+      "id": 95383,
+      "productId": 95369,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:26.619Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293966,
+      "productId": 95369,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293965,
+      "productId": 95369,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293964,
+      "productId": 95369,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018455",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018455",
+    "capturedAt": "2026-09-17T19:57:26.619Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145018455.json"
+  }
+}

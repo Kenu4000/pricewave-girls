@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 30132,
+    "title": "WindowsVista/7/8/8.1 DVDソフト 姦染 Clipping Chronicle",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054449",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054449.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2016-05-27",
+    "listPrice": 4180,
+    "modelNumber": "JSP-322",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145054449001",
+      "メーカー": "SPEED",
+      "発売日": "2016/05/27",
+      "定価": "4,180円",
+      "型番": "JSP-322",
+      "シナリオ": "ジェントル佐々木\n天翔狗",
+      "声優": "ヒマリ\n櫻井ありす\n藤乃理香",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:16:58.003Z"
+  },
+  "histories": [
+    {
+      "id": 30146,
+      "productId": 30132,
+      "salePrice": 2040,
+      "regularSalePrice": 2040,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:05.502Z"
+    },
+    {
+      "id": 38936,
+      "productId": 30132,
+      "salePrice": 2040,
+      "regularSalePrice": 2040,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:08.347Z"
+    },
+    {
+      "id": 49936,
+      "productId": 30132,
+      "salePrice": 2040,
+      "regularSalePrice": 2040,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:38.768Z"
+    },
+    {
+      "id": 61393,
+      "productId": 30132,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:16:58.003Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 171797,
+      "productId": 30132,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-27T09:16:58.000Z"
+    },
+    {
+      "id": 171796,
+      "productId": 30132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 1120,
+      "checkedAt": "2026-08-27T09:16:58.000Z"
+    },
+    {
+      "id": 171795,
+      "productId": 30132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-27T09:16:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054449",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054449",
+    "capturedAt": "2026-08-27T09:16:58.003Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 980
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 1120
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145054449.json"
+  }
+}

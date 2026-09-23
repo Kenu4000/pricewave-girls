@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 82768,
+    "title": "Windows2000/XP/Vista DVDソフト 籠の中の彼女ーカ・ゴ・カ・ノー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024308",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024308.jpg",
+    "manufacturer": "Potage（ポタージュ）",
+    "releaseDate": "2010-07-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145024308",
+      "メーカー": "Potage（ポタージュ）",
+      "発売日": "2010/07/23",
+      "定価": "9,680円",
+      "原画": "ぎんぱち\n狼亮輔",
+      "シナリオ": "百合倉つむぎ",
+      "声優": "千愛\n萌木唯\n咲森葉子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:18.579Z"
+  },
+  "histories": [
+    {
+      "id": 82782,
+      "productId": 82768,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:18.579Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024308",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024308",
+    "capturedAt": "2026-09-09T05:33:18.579Z",
+    "items": [],
+    "path": "data/other-shops/145024308.json"
+  }
+}

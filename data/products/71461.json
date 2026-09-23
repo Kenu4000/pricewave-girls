@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 71461,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 6人の女教師",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018560",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018560.jpg",
+    "manufacturer": "BLACK PACKAGE",
+    "releaseDate": "2008-09-12",
+    "listPrice": 9680,
+    "modelNumber": "BP0063",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018560001",
+      "メーカー": "BLACK PACKAGE",
+      "発売日": "2008/09/12",
+      "定価": "9,680円",
+      "型番": "BP0063",
+      "原画": "大越秀武",
+      "シナリオ": "秋まさき",
+      "アーティスト": "坂上なち",
+      "声優": "夏野向日葵\n歌織\n深井晴花\n千早美来\nカンザキカナリ\n中野志乃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:38:01.787Z"
+  },
+  "histories": [
+    {
+      "id": 71475,
+      "productId": 71461,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:38:01.787Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 205058,
+      "productId": 71461,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-02T21:38:02.000Z"
+    },
+    {
+      "id": 205057,
+      "productId": 71461,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-09-02T21:38:02.000Z"
+    },
+    {
+      "id": 205056,
+      "productId": 71461,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1230,
+      "checkedAt": "2026-09-02T21:38:02.000Z"
+    },
+    {
+      "id": 205055,
+      "productId": 71461,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-02T21:38:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018560",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018560",
+    "capturedAt": "2026-09-02T21:38:01.787Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1230
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 1280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145018560.json"
+  }
+}

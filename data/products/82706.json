@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82706,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト ハーレムゲーム -俺はコレのおかげでエロゲーの主人公になれました!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053087",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053087.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2016-02-26",
+    "listPrice": 9680,
+    "modelNumber": "INH-351",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053087001",
+      "メーカー": "インターハート",
+      "発売日": "2016/02/26",
+      "定価": "9,680円",
+      "型番": "INH-351",
+      "原画": "PAZMA\n了藤誠仁\nねみぎつかさ",
+      "シナリオ": "十全",
+      "声優": "八ッ橋きなこ\n風花ましろ\n藤邑鈴香\n美月華恋\n八尋まみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:44.941Z"
+  },
+  "histories": [
+    {
+      "id": 82720,
+      "productId": 82706,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:44.941Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245537,
+      "productId": 82706,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-09-09T05:32:46.000Z"
+    },
+    {
+      "id": 245536,
+      "productId": 82706,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 767,
+      "checkedAt": "2026-09-09T05:32:46.000Z"
+    },
+    {
+      "id": 245535,
+      "productId": 82706,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-09T05:32:46.000Z"
+    },
+    {
+      "id": 245534,
+      "productId": 82706,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 767,
+      "checkedAt": "2026-09-09T05:32:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053087",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053087",
+    "capturedAt": "2026-09-09T05:32:44.941Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 767
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 767
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145053087.json"
+  }
+}

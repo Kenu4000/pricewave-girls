@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 55892,
+    "title": "Windows98/Me/2000/XP/Vista/7 DVDソフト 有奈の不思議な処女喪失 -双子のキモ・デブ・オヤジに支配された世界へ迷い込み-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046186",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046186.jpg",
+    "manufacturer": "ソクラテス",
+    "releaseDate": "2014-09-26",
+    "listPrice": 1650,
+    "modelNumber": "SOCR-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145046186001",
+      "メーカー": "ソクラテス",
+      "発売日": "2014/09/26",
+      "定価": "1,650円",
+      "型番": "SOCR-003",
+      "原画": "Socrates.K",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:10.951Z"
+  },
+  "histories": [
+    {
+      "id": 55906,
+      "productId": 55892,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:10.951Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151157,
+      "productId": 55892,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1750,
+      "checkedAt": "2026-08-21T05:31:11.000Z"
+    },
+    {
+      "id": 151156,
+      "productId": 55892,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 1010,
+      "checkedAt": "2026-08-21T05:31:11.000Z"
+    },
+    {
+      "id": 151155,
+      "productId": 55892,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-08-21T05:31:11.000Z"
+    },
+    {
+      "id": 151154,
+      "productId": 55892,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-08-21T05:31:11.000Z"
+    },
+    {
+      "id": 151153,
+      "productId": 55892,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1010,
+      "checkedAt": "2026-08-21T05:31:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046186",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046186",
+    "capturedAt": "2026-08-21T05:31:10.951Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1010
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 1010
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1750
+      }
+    ],
+    "path": "data/other-shops/145046186.json"
+  }
+}

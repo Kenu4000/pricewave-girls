@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 29357,
+    "title": "Windows7/8.1/10 DVDソフト いもうとコレクション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065813",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065813.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2019-09-27",
+    "listPrice": 7480,
+    "modelNumber": "INH-416",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065813001",
+      "メーカー": "インターハート",
+      "発売日": "2019/09/27",
+      "定価": "7,480円",
+      "型番": "INH-416",
+      "原画": "ヤタバシイスカ\nスカイハウス\nGo-1\n浅葱くるみ\nmaruma(まるま)",
+      "シナリオ": "まき田お茶子\n橘トラ\n神足RUN",
+      "声優": "くどう彩織\n雪村とあ\n叶一華\n梅宮ここ\n花宮あづま\n月森ねね",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4250,
+    "latestRegularSalePrice": 4250,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:30:25.041Z"
+  },
+  "histories": [
+    {
+      "id": 29371,
+      "productId": 29357,
+      "salePrice": 4000,
+      "regularSalePrice": 4250,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:14.950Z"
+    },
+    {
+      "id": 38200,
+      "productId": 29357,
+      "salePrice": 4000,
+      "regularSalePrice": 4250,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:27.768Z"
+    },
+    {
+      "id": 49358,
+      "productId": 29357,
+      "salePrice": 4250,
+      "regularSalePrice": 4250,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:25.041Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132079,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4250,
+      "checkedAt": "2026-08-19T04:30:25.000Z"
+    },
+    {
+      "id": 132078,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 4011,
+      "checkedAt": "2026-08-19T04:30:25.000Z"
+    },
+    {
+      "id": 100478,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 4011,
+      "checkedAt": "2026-08-16T01:09:27.000Z"
+    },
+    {
+      "id": 100477,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 4000,
+      "checkedAt": "2026-08-16T01:09:27.000Z"
+    },
+    {
+      "id": 74426,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 4011,
+      "checkedAt": "2026-08-15T23:06:15.000Z"
+    },
+    {
+      "id": 74425,
+      "productId": 29357,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 4000,
+      "checkedAt": "2026-08-15T23:06:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065813",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065813",
+    "capturedAt": "2026-08-19T04:30:25.041Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 4011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4250
+      }
+    ],
+    "path": "data/other-shops/145065813.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 91375,
+    "title": "Windows7/8.1/10 DVDソフト 流星ワールドアクター [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066448",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066448.jpg",
+    "manufacturer": "Heliodor",
+    "releaseDate": "2019-08-30",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066448001",
+      "メーカー": "Heliodor",
+      "発売日": "2019/08/30",
+      "定価": "8,580円",
+      "原画": "春夏冬ゆう",
+      "シナリオ": "衣笠彰梧",
+      "声優": "夏目みつ華\n花園めい\n柚原みう\n花咲恋未\nくすはらゆい\n桃山いおん\n左高蹴\n柊三太\n井伊筋肉\n瑠璃之晃\nいちごみるく\n春乃いろは",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:18.784Z"
+  },
+  "histories": [
+    {
+      "id": 91389,
+      "productId": 91375,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:18.784Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278862,
+      "productId": 91375,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3980,
+      "checkedAt": "2026-09-14T17:28:19.000Z"
+    },
+    {
+      "id": 278861,
+      "productId": 91375,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3611,
+      "checkedAt": "2026-09-14T17:28:19.000Z"
+    },
+    {
+      "id": 278860,
+      "productId": 91375,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-09-14T17:28:19.000Z"
+    },
+    {
+      "id": 278859,
+      "productId": 91375,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3512,
+      "checkedAt": "2026-09-14T17:28:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066448",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066448",
+    "capturedAt": "2026-09-14T17:28:18.784Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3512
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 3600
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3980
+      }
+    ],
+    "path": "data/other-shops/145066448.json"
+  }
+}

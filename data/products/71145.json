@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 71145,
+    "title": "Windows10/11 DVDソフト エロ漫画お姉ちゃん!! -ダメダメな姉との甘々コスプレえっちな日々- [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082468",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082468.jpg",
+    "manufacturer": "とこはな",
+    "releaseDate": "2024-12-27",
+    "listPrice": 3300,
+    "modelNumber": "WILL-478",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082468001",
+      "メーカー": "とこはな",
+      "発売日": "2024/12/27",
+      "定価": "3,300円",
+      "型番": "WILL-478",
+      "原画": "モグぽん",
+      "シナリオ": "浅黄アキ",
+      "声優": "七種結花",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:27.917Z"
+  },
+  "histories": [
+    {
+      "id": 71159,
+      "productId": 71145,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:27.917Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204226,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204225,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204224,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1298,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204223,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204222,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1101,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    },
+    {
+      "id": 204221,
+      "productId": 71145,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-02T21:35:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082468",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082468",
+    "capturedAt": "2026-09-02T21:35:27.917Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1101
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1298
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145082468.json"
+  }
+}

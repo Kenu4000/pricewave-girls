@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 96392,
+    "title": "Windows98/Me/2000/XP DVDソフト ちょこっと☆ばんぱいあ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014889",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014889.jpg",
+    "manufacturer": "Meteor(メテオ)",
+    "releaseDate": "2006-11-17",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014889",
+      "メーカー": "Meteor(メテオ)",
+      "発売日": "2006/11/17",
+      "定価": "9,680円",
+      "原画": "Yuyi",
+      "シナリオ": "沢柾機\n神堂劾",
+      "音楽": "ミリオンバンブー",
+      "声優": "浦霞八郎\n一色ヒカル\n民安ともえ\n斉藤愛子\nひびきりん\n入広瀬巴\n小田真ゆみ\n八海山五郎\n出羽櫻為吉\n玉乃光三太郎",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:05.887Z"
+  },
+  "histories": [
+    {
+      "id": 96406,
+      "productId": 96392,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:05.887Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014889",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014889",
+    "capturedAt": "2026-09-20T14:09:05.887Z",
+    "items": [],
+    "path": "data/other-shops/145014889.json"
+  }
+}

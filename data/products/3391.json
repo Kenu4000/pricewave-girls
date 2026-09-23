@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 3391,
+    "title": "Windows98/Me/2000/XP DVDソフト 姦狩(めがり)～凌辱報告書～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013347",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013347.jpg",
+    "manufacturer": "Delta",
+    "releaseDate": "2005-09-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145013347",
+      "メーカー": "Delta",
+      "発売日": "2005/09/22",
+      "定価": "9,680円",
+      "原画": "田丸まこと",
+      "声優": "楠鈴音\n未来羽\n咲ゆたか\nみる\n中瀬ひな\n榎津まお\n静野ももか",
+      "シナリオ": "髪ノ毛座",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:00:21.661Z"
+  },
+  "histories": [
+    {
+      "id": 3405,
+      "productId": 3391,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 23013,
+      "productId": 3391,
+      "salePrice": 500,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:36:45.522Z"
+    },
+    {
+      "id": 37155,
+      "productId": 3391,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:21.661Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52620,
+      "productId": 3391,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 1500,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    },
+    {
+      "id": 52619,
+      "productId": 3391,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-09T01:37:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013347",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013347",
+    "capturedAt": "2026-08-16T01:00:21.661Z",
+    "items": [],
+    "path": "data/other-shops/145013347.json"
+  }
+}

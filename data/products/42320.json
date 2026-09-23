@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 42320,
+    "title": "Windows2000/XP/Vista CDソフト 嗚呼、素晴らしき孕ま世界",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018547",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018547.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2008-08-22",
+    "listPrice": 2200,
+    "modelNumber": "SEA-007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018547",
+      "メーカー": "softhouse-seal",
+      "発売日": "2008/08/22",
+      "定価": "2,200円",
+      "型番": "SEA-007",
+      "原画": "二ノ膳",
+      "シナリオ": "春日晶\n草薙",
+      "声優": "桃華れん\n雛木らむね\n貴坂理緒\n分倍河原シホ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:21.958Z"
+  },
+  "histories": [
+    {
+      "id": 42334,
+      "productId": 42320,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:30.193Z"
+    },
+    {
+      "id": 53725,
+      "productId": 42320,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:47.633Z"
+    },
+    {
+      "id": 65700,
+      "productId": 42320,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:21.958Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184726,
+      "productId": 42320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-29T13:02:22.000Z"
+    },
+    {
+      "id": 184725,
+      "productId": 42320,
+      "sourceType": "other_shop",
+      "storeName": "カウカウキング",
+      "condition": "中古ディスクのみ",
+      "price": 300,
+      "checkedAt": "2026-08-29T13:02:22.000Z"
+    },
+    {
+      "id": 109480,
+      "productId": 42320,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-17T07:10:30.000Z"
+    },
+    {
+      "id": 109479,
+      "productId": 42320,
+      "sourceType": "other_shop",
+      "storeName": "カウカウキング",
+      "condition": "中古ディスクのみ",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:10:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018547",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018547",
+    "capturedAt": "2026-08-29T13:02:21.958Z",
+    "items": [
+      {
+        "storeName": "カウカウキング",
+        "condition": "中古ディスクのみ",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 511
+      }
+    ],
+    "path": "data/other-shops/145018547.json"
+  }
+}

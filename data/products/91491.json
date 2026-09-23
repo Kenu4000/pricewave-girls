@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 91491,
+    "title": "Windows2000/XP DVDソフト 麗佳牝犬調教 ××に犯されて…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016229",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016229.jpg",
+    "manufacturer": "Delta",
+    "releaseDate": "2007-06-15",
+    "listPrice": 3850,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016229001",
+      "メーカー": "Delta",
+      "発売日": "2007/06/15",
+      "定価": "3,850円",
+      "原画": "置弓枷",
+      "シナリオ": "天城悠理",
+      "声優": "中瀬ひな\n愛野鈴\n一色ヒカル\n茶谷やすら",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:03.173Z"
+  },
+  "histories": [
+    {
+      "id": 91505,
+      "productId": 91491,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:03.173Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279146,
+      "productId": 91491,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-09-14T17:29:04.000Z"
+    },
+    {
+      "id": 279145,
+      "productId": 91491,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-09-14T17:29:04.000Z"
+    },
+    {
+      "id": 279144,
+      "productId": 91491,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-09-14T17:29:04.000Z"
+    },
+    {
+      "id": 279143,
+      "productId": 91491,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1812,
+      "checkedAt": "2026-09-14T17:29:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016229",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016229",
+    "capturedAt": "2026-09-14T17:29:03.173Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1812
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1880
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1901
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145016229.json"
+  }
+}

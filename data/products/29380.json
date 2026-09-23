@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 29380,
+    "title": "Windows7/8.1/10 DVDソフト DRAMAtical Murder [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065837.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2019-07-26",
+    "listPrice": 4070,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065837001",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2019/07/26",
+      "定価": "4,070円",
+      "原画": "ほにゃらら",
+      "シナリオ": "淵井鏑",
+      "声優": "須賀紀哉\n嘉神塁\n高橋広樹\n野次馬根性\n早川凛太\n佐和真中\n丈隆志\n黒井鋼\n林檎畑四十郎",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:13.572Z"
+  },
+  "histories": [
+    {
+      "id": 29394,
+      "productId": 29380,
+      "salePrice": 2711,
+      "regularSalePrice": 2711,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:29.565Z"
+    },
+    {
+      "id": 38221,
+      "productId": 29380,
+      "salePrice": 2711,
+      "regularSalePrice": 2711,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:37.528Z"
+    },
+    {
+      "id": 71002,
+      "productId": 29380,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:13.572Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203866,
+      "productId": 29380,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2980,
+      "checkedAt": "2026-09-02T20:49:13.000Z"
+    },
+    {
+      "id": 203865,
+      "productId": 29380,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-09-02T20:49:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065837",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065837",
+    "capturedAt": "2026-09-02T20:49:13.572Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2980
+      }
+    ],
+    "path": "data/other-shops/145065837.json"
+  }
+}

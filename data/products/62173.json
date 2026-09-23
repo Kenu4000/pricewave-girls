@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 62173,
+    "title": "Windows2000/XP/Vista DVDソフト ねこねこファンディスク3[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022719",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022719.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2010-02-26",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145022719001",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2010/02/26",
+      "定価": "6,380円",
+      "原画": "u-r\n秋乃武彦\nあんころもち\n蒼樹うめ",
+      "シナリオ": "片岡とも\n海富一",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-15T16:00:59.386Z"
+  },
+  "histories": [
+    {
+      "id": 62187,
+      "productId": 62173,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:50.636Z"
+    },
+    {
+      "id": 62851,
+      "productId": 62173,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:49.904Z"
+    },
+    {
+      "id": 64644,
+      "productId": 62173,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:33.878Z"
+    },
+    {
+      "id": 78630,
+      "productId": 62173,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:07:36.033Z"
+    },
+    {
+      "id": 91644,
+      "productId": 62173,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-15T16:00:59.386Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279545,
+      "productId": 62173,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-15T16:01:00.000Z"
+    },
+    {
+      "id": 279544,
+      "productId": 62173,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-15T16:01:00.000Z"
+    },
+    {
+      "id": 279543,
+      "productId": 62173,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-15T16:01:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022719",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022719",
+    "capturedAt": "2026-09-15T16:00:59.386Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145022719.json"
+  }
+}

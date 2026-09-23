@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 91436,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 祝祭の歌姫 -君と紡ぐ明日への歌-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036099",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036099.jpg",
+    "manufacturer": "MORE",
+    "releaseDate": "2013-03-29",
+    "listPrice": 7480,
+    "modelNumber": "MS-101",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036099",
+      "メーカー": "MORE",
+      "発売日": "2013/03/29",
+      "定価": "7,480円",
+      "型番": "MS-101",
+      "声優": "犬飼あお(夕凪音)\n涼貴涼\n椎那天\n貴坂理緒\n誠樹ふぁん",
+      "原画": "神山響",
+      "シナリオ": "ジェームズ伊達",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:42.546Z"
+  },
+  "histories": [
+    {
+      "id": 91450,
+      "productId": 91436,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:42.546Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278994,
+      "productId": 91436,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:28:44.000Z"
+    },
+    {
+      "id": 278993,
+      "productId": 91436,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:28:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036099",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036099",
+    "capturedAt": "2026-09-14T17:28:42.546Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 812
+      }
+    ],
+    "path": "data/other-shops/145036099.json"
+  }
+}

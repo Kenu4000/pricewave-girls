@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 95404,
+    "title": "WindowsXP DVDソフト The Elder Scrolls IV：OBLIVION COLLECTOR’S EDITION[北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016221",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016221.jpg",
+    "manufacturer": "Bethesda Softworks",
+    "releaseDate": "2006-03-21",
+    "listPrice": null,
+    "modelNumber": "21713-1",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016221",
+      "メーカー": "Bethesda Softworks",
+      "発売日": "2006/03/21",
+      "型番": "21713-1",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:38.340Z"
+  },
+  "histories": [
+    {
+      "id": 95418,
+      "productId": 95404,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:38.340Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016221",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016221",
+    "capturedAt": "2026-09-19T13:53:38.340Z",
+    "items": [],
+    "path": "data/other-shops/145016221.json"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 95348,
+    "title": "Windows98/Me/2000/XP CDソフト ご奉仕喫茶～天使達におまかせ～ あいり編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014305",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014305.jpg",
+    "manufacturer": "らずべりー",
+    "releaseDate": "2006-05-19",
+    "listPrice": 4180,
+    "modelNumber": "AH-6001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014305",
+      "メーカー": "らずべりー",
+      "発売日": "2006/05/19",
+      "定価": "4,180円",
+      "型番": "AH-6001",
+      "原画": "浅黄りお",
+      "シナリオ": "二渡項",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1968,
+    "latestRegularSalePrice": 1968,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:17.689Z"
+  },
+  "histories": [
+    {
+      "id": 95362,
+      "productId": 95348,
+      "salePrice": 1968,
+      "regularSalePrice": 1968,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:17.689Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014305",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014305",
+    "capturedAt": "2026-09-17T19:57:17.689Z",
+    "items": [],
+    "path": "data/other-shops/145014305.json"
+  }
+}

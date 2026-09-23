@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41330,
+    "title": "WindowsXP/Vista/7 DVDソフト 種憑け村 -白濁神、念仏講ノ儀-[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026359",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026359.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": "WILL-263",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026359",
+      "メーカー": "Guilty",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "型番": "WILL-263",
+      "原画": "紅葉-K",
+      "シナリオ": "庵乃音人",
+      "声優": "紫苑みやび\n有栖川みや美\n榎津まお\n野々村紗夜\n春日アン",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145026359?branch_number=0002"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7000,
+    "latestRegularSalePrice": 7000,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:13.757Z"
+  },
+  "histories": [
+    {
+      "id": 41344,
+      "productId": 41330,
+      "salePrice": 4870,
+      "regularSalePrice": 4870,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:51.895Z"
+    },
+    {
+      "id": 53024,
+      "productId": 41330,
+      "salePrice": 4870,
+      "regularSalePrice": 4870,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:57.751Z"
+    },
+    {
+      "id": 73238,
+      "productId": 41330,
+      "salePrice": 7000,
+      "regularSalePrice": 7000,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:13.757Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142760,
+      "productId": 41330,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 4870,
+      "checkedAt": "2026-08-19T16:20:57.000Z"
+    },
+    {
+      "id": 142759,
+      "productId": 41330,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-19T16:20:57.000Z"
+    },
+    {
+      "id": 142758,
+      "productId": 41330,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古ランクB",
+      "price": 4870,
+      "checkedAt": "2026-08-19T16:20:57.000Z"
+    },
+    {
+      "id": 107429,
+      "productId": 41330,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 7000,
+      "checkedAt": "2026-08-17T07:00:52.000Z"
+    },
+    {
+      "id": 107428,
+      "productId": 41330,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 4870,
+      "checkedAt": "2026-08-17T07:00:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026359",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026359",
+    "capturedAt": "2026-09-03T16:03:13.757Z",
+    "items": [],
+    "path": "data/other-shops/145026359.json"
+  }
+}

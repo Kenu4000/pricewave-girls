@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 43085,
+    "title": "Windows98/Me/2000/XP CDソフト 彼女たちの禁忌 -TABOO-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014629",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014629.jpg",
+    "manufacturer": "FlyingShine黒",
+    "releaseDate": "2006-09-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014629001",
+      "メーカー": "FlyingShine黒",
+      "発売日": "2006/09/01",
+      "定価": "9,680円",
+      "原画": "CRUCCU",
+      "シナリオ": "火々野未完",
+      "声優": "伊藤瞳子\n榎津まお\n町田あみ\n楠鈴音\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:06:53.117Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:52.466Z"
+  },
+  "histories": [
+    {
+      "id": 43099,
+      "productId": 43085,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:48.257Z"
+    },
+    {
+      "id": 55166,
+      "productId": 43085,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:23.876Z"
+    },
+    {
+      "id": 66251,
+      "productId": 43085,
+      "salePrice": 650,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:52.466Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185813,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-29T13:06:53.000Z"
+    },
+    {
+      "id": 185812,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-29T13:06:53.000Z"
+    },
+    {
+      "id": 148762,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T04:47:24.000Z"
+    },
+    {
+      "id": 148761,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-21T04:47:24.000Z"
+    },
+    {
+      "id": 148760,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T04:47:24.000Z"
+    },
+    {
+      "id": 110989,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:17:48.000Z"
+    },
+    {
+      "id": 110988,
+      "productId": 43085,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:17:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014629",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014629",
+    "capturedAt": "2026-08-29T13:06:52.466Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145014629.json"
+  }
+}

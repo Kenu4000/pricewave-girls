@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 91392,
+    "title": "WindowsVista/7/8/10 DVDソフト 恋と魔法と管理人 -運命の歯車編-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053097",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053097.jpg",
+    "manufacturer": "Prometheus",
+    "releaseDate": "2016-06-24",
+    "listPrice": 7480,
+    "modelNumber": "PMTS-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145053097",
+      "メーカー": "Prometheus",
+      "発売日": "2016/06/24",
+      "定価": "7,480円",
+      "型番": "PMTS-002",
+      "原画": "龍牙翔",
+      "シナリオ": "田中一郎",
+      "アーティスト": "SION（Rose&Rosary）",
+      "声優": "このえゆずこ\n英みらい(大山チロル)",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:26.843Z"
+  },
+  "histories": [
+    {
+      "id": 91406,
+      "productId": 91392,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:26.843Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053097",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053097",
+    "capturedAt": "2026-09-14T17:28:26.843Z",
+    "items": [],
+    "path": "data/other-shops/145053097.json"
+  }
+}

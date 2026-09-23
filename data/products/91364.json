@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 91364,
+    "title": "Windows10/11 DVDソフト ハーレム×楽園 - Harem×Shangri-La - [初回限定生産豪華版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078050",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078050.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2023-08-25",
+    "listPrice": 14080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145078050001",
+      "メーカー": "裸足少女",
+      "発売日": "2023/08/25",
+      "定価": "14,080円",
+      "原画": "天音るり\n葵渚",
+      "シナリオ": "白魔術師\n嵩夜あや",
+      "声優": "未来羽\n葵時緒\n天川みるく\n手塚りょうこ\n榊木春乃\n水野七海\n佐倉もも花\n長瀬ゆずは",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7050,
+    "latestRegularSalePrice": 7050,
+    "latestBuyPrice": 3900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:14.573Z"
+  },
+  "histories": [
+    {
+      "id": 91378,
+      "productId": 91364,
+      "salePrice": 7050,
+      "regularSalePrice": 7050,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:14.573Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278828,
+      "productId": 91364,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7050,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278827,
+      "productId": 91364,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 7040,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278826,
+      "productId": 91364,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6711,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278825,
+      "productId": 91364,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 6612,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145078050",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078050",
+    "capturedAt": "2026-09-14T17:28:14.573Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 6612
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6711
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 7040
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7050
+      }
+    ],
+    "path": "data/other-shops/145078050.json"
+  }
+}

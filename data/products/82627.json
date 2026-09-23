@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82627,
+    "title": "Windows10/11 DVDソフト ドゥアズ-ムラオサノ言いなり-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082526",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082526.jpg",
+    "manufacturer": "ガールズソフトウェア",
+    "releaseDate": "2024-12-27",
+    "listPrice": 3850,
+    "modelNumber": "GSW-0011",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082526001",
+      "メーカー": "ガールズソフトウェア",
+      "発売日": "2024/12/27",
+      "定価": "3,850円",
+      "型番": "GSW-0011",
+      "原画": "トンチキパンチ",
+      "シナリオ": "由比雅雪",
+      "声優": "花杜めい",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:01.032Z"
+  },
+  "histories": [
+    {
+      "id": 82641,
+      "productId": 82627,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:01.032Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245258,
+      "productId": 82627,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245257,
+      "productId": 82627,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 2580,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245256,
+      "productId": 82627,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245255,
+      "productId": 82627,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1370,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082526",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082526",
+    "capturedAt": "2026-09-09T05:32:01.032Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1370
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 2580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145082526.json"
+  }
+}

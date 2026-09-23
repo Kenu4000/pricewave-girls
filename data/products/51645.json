@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 51645,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト ハラマセテ戦乙女(ヴァルキリー)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018037",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018037.jpg",
+    "manufacturer": "祭企画",
+    "releaseDate": "2008-06-27",
+    "listPrice": 9680,
+    "modelNumber": "KSMR-005",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018037001",
+      "メーカー": "祭企画",
+      "発売日": "2008/06/27",
+      "定価": "9,680円",
+      "型番": "KSMR-005",
+      "声優": "あえか\n源造\n和葉\n咲ゆたか",
+      "シナリオ": "ピーナツ太郎\nはときいん\n真黒乱",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:22:10.991Z"
+  },
+  "histories": [
+    {
+      "id": 51659,
+      "productId": 51645,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:38.705Z"
+    },
+    {
+      "id": 72818,
+      "productId": 51645,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:22:10.991Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 209575,
+      "productId": 51645,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-03T01:22:11.000Z"
+    },
+    {
+      "id": 209574,
+      "productId": 51645,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1101,
+      "checkedAt": "2026-09-03T01:22:11.000Z"
+    },
+    {
+      "id": 209573,
+      "productId": 51645,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古",
+      "price": 748,
+      "checkedAt": "2026-09-03T01:22:11.000Z"
+    },
+    {
+      "id": 209572,
+      "productId": 51645,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古(非常に良い)",
+      "price": 748,
+      "checkedAt": "2026-09-03T01:22:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018037",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018037",
+    "capturedAt": "2026-09-03T01:22:10.991Z",
+    "items": [
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古(非常に良い)",
+        "price": 748
+      },
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古",
+        "price": 748
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1101
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145018037.json"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "product": {
+    "id": 31910,
+    "title": "Windows2000/XP/Vista/7 CDソフト ひよこ ストライク! 予約特典 ちょっとエッチなアップグレードCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031605",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031605.jpg",
+    "manufacturer": "Ex-iT(イグジット)",
+    "releaseDate": "2012-01-27",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145031605",
+      "メーカー": "Ex-iT(イグジット)",
+      "発売日": "2012/01/27",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:32:34.968Z"
+  },
+  "histories": [
+    {
+      "id": 31924,
+      "productId": 31910,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:45:47.352Z"
+    },
+    {
+      "id": 40652,
+      "productId": 31910,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:34.968Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145031605",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031605",
+    "capturedAt": "2026-08-16T01:32:34.968Z",
+    "items": [],
+    "path": "data/other-shops/145031605.json"
+  }
+}

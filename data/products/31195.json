@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 31195,
+    "title": "WindowsXP/Vista/7 CDソフト セメラレ -妹で感じるなんて、お兄ちゃんは変態なんだね-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038104",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038104.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2013-09-20",
+    "listPrice": 2200,
+    "modelNumber": "APT-027",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038104",
+      "メーカー": "アパタイト",
+      "発売日": "2013/09/20",
+      "定価": "2,200円",
+      "型番": "APT-027",
+      "原画": "一河のあ",
+      "シナリオ": "平目カレイ",
+      "声優": "笹塚真琴",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 940,
+    "latestRegularSalePrice": 940,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:25:21.233Z"
+  },
+  "histories": [
+    {
+      "id": 31209,
+      "productId": 31195,
+      "salePrice": 940,
+      "regularSalePrice": 940,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:00.015Z"
+    },
+    {
+      "id": 39954,
+      "productId": 31195,
+      "salePrice": 940,
+      "regularSalePrice": 940,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:21.233Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038104",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038104",
+    "capturedAt": "2026-08-16T01:25:21.233Z",
+    "items": [],
+    "path": "data/other-shops/145038104.json"
+  }
+}

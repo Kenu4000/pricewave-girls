@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30341,
+    "title": "Windows7/8/8.1/10 CDソフト 星海騎士リーンナイト -地球は守れてもキモ男の陰湿種付け責めには勝てなかったよ…-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052482",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052482.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2015-11-20",
+    "listPrice": 2640,
+    "modelNumber": "MIEL-067",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145052482",
+      "メーカー": "Miel",
+      "発売日": "2015/11/20",
+      "定価": "2,640円",
+      "型番": "MIEL-067",
+      "原画": "坂本大",
+      "シナリオ": "坂元星日",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 810,
+    "latestRegularSalePrice": 810,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:34.285Z"
+  },
+  "histories": [
+    {
+      "id": 30355,
+      "productId": 30341,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:07.444Z"
+    },
+    {
+      "id": 39137,
+      "productId": 30341,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:04.354Z"
+    },
+    {
+      "id": 50395,
+      "productId": 30341,
+      "salePrice": 810,
+      "regularSalePrice": 810,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:34.285Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052482",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052482",
+    "capturedAt": "2026-08-19T05:27:34.285Z",
+    "items": [],
+    "path": "data/other-shops/145052482.json"
+  }
+}

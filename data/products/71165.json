@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 71165,
+    "title": "Windows8.1/10 DVDソフト ラブカフェ -童貞な俺でも巨乳女先輩と同棲できるってマジですか?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076574",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076574.jpg",
+    "manufacturer": "evoLL",
+    "releaseDate": "2023-01-27",
+    "listPrice": 7480,
+    "modelNumber": "EVLL-011",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145076574001",
+      "メーカー": "evoLL",
+      "発売日": "2023/01/27",
+      "定価": "7,480円",
+      "型番": "EVLL-011",
+      "原画": "ぺい",
+      "シナリオ": "まるたま",
+      "声優": "綾音まこ\n未来羽\n渦井ゆきの",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:41.124Z"
+  },
+  "histories": [
+    {
+      "id": 71179,
+      "productId": 71165,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:41.124Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204299,
+      "productId": 71165,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-09-02T21:35:41.000Z"
+    },
+    {
+      "id": 204298,
+      "productId": 71165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース・未開封品）",
+      "price": 3980,
+      "checkedAt": "2026-09-02T21:35:41.000Z"
+    },
+    {
+      "id": 204297,
+      "productId": 71165,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース）",
+      "price": 3333,
+      "checkedAt": "2026-09-02T21:35:41.000Z"
+    },
+    {
+      "id": 204296,
+      "productId": 71165,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 2480,
+      "checkedAt": "2026-09-02T21:35:41.000Z"
+    },
+    {
+      "id": 204295,
+      "productId": 71165,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 2480,
+      "checkedAt": "2026-09-02T21:35:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076574",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076574",
+    "capturedAt": "2026-09-02T21:35:41.124Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱難有",
+        "price": 2480
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 2480
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（正規ケース）",
+        "price": 3333
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（正規ケース・未開封品）",
+        "price": 3980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2880
+      }
+    ],
+    "path": "data/other-shops/145076574.json"
+  }
+}

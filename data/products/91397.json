@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 91397,
+    "title": "WindowsVista/7/8/10 DVDソフト サクラノモリ†ドリーマーズ2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057578",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057578.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2017-07-28",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057578001",
+      "メーカー": "MOONSTONE",
+      "発売日": "2017/07/28",
+      "定価": "8,580円",
+      "原画": "桜坂つちゆ\nやまかぜ嵐\n日向奈尾",
+      "シナリオ": "呉(呉一郎)",
+      "声優": "古河徹人\n藤森ゆき奈\n仙地祐里衣\n苺山文太郎\n榛名れん\n白月かなめ\n桐谷あきら\n月野夕紀\n新山理\n山田一朗\n神無月真琴\n天咲しろな\n大波こなみ\n小次狼\nどぶ六郎",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2080,
+    "latestRegularSalePrice": 2080,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-15T16:05:44.293Z"
+  },
+  "histories": [
+    {
+      "id": 91411,
+      "productId": 91397,
+      "salePrice": 2080,
+      "regularSalePrice": 2080,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:27.382Z"
+    },
+    {
+      "id": 92446,
+      "productId": 91397,
+      "salePrice": 2080,
+      "regularSalePrice": 2080,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-15T16:05:44.293Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 282920,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2080,
+      "checkedAt": "2026-09-15T16:05:44.000Z"
+    },
+    {
+      "id": 282919,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-09-15T16:05:44.000Z"
+    },
+    {
+      "id": 282918,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 2000,
+      "checkedAt": "2026-09-15T16:05:44.000Z"
+    },
+    {
+      "id": 278919,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2080,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278918,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 2000,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278917,
+      "productId": 91397,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057578",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057578",
+    "capturedAt": "2026-09-15T16:05:44.293Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 2000
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2080
+      }
+    ],
+    "path": "data/other-shops/145057578.json"
+  }
+}

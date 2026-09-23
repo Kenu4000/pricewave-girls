@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 42399,
+    "title": "Windows2000/XP/Vista DVDソフト 欲望の牢獄",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018052",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018052.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2008-06-13",
+    "listPrice": 7480,
+    "modelNumber": "PUZ-011",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018052",
+      "メーカー": "Puzzlebox",
+      "発売日": "2008/06/13",
+      "定価": "7,480円",
+      "型番": "PUZ-011",
+      "原画": "川合正起",
+      "シナリオ": "K-TOK\n和泉万夜",
+      "声優": "桃井いちご\n葉村夏緒\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:48.911Z"
+  },
+  "histories": [
+    {
+      "id": 42413,
+      "productId": 42399,
+      "salePrice": 1760,
+      "regularSalePrice": 1760,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:21.079Z"
+    },
+    {
+      "id": 53790,
+      "productId": 42399,
+      "salePrice": 1760,
+      "regularSalePrice": 1760,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:19.886Z"
+    },
+    {
+      "id": 65757,
+      "productId": 42399,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:48.911Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184802,
+      "productId": 42399,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 1760,
+      "checkedAt": "2026-08-29T13:02:50.000Z"
+    },
+    {
+      "id": 184801,
+      "productId": 42399,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1720,
+      "checkedAt": "2026-08-29T13:02:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018052",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018052",
+    "capturedAt": "2026-08-29T13:02:48.911Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1720
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 1760
+      }
+    ],
+    "path": "data/other-shops/145018052.json"
+  }
+}

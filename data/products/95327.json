@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 95327,
+    "title": "Windows98/Me/2000/XP CDソフト 姉妹丼 ～汁だくで～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014316",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014316.jpg",
+    "manufacturer": "PSYCHO",
+    "releaseDate": "2006-06-02",
+    "listPrice": 6380,
+    "modelNumber": "PSY005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014316",
+      "メーカー": "PSYCHO",
+      "発売日": "2006/06/02",
+      "定価": "6,380円",
+      "型番": "PSY005",
+      "原画": "桂ともえ",
+      "シナリオ": "イ也",
+      "声優": "理多\n天天\nあさり☆\n森川陽子",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1212,
+    "latestRegularSalePrice": 1212,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:10.327Z"
+  },
+  "histories": [
+    {
+      "id": 95341,
+      "productId": 95327,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:10.327Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014316",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014316",
+    "capturedAt": "2026-09-17T19:57:10.327Z",
+    "items": [],
+    "path": "data/other-shops/145014316.json"
+  }
+}

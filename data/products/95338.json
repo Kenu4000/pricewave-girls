@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 95338,
+    "title": "Windows98/Me/2000/XP DVDソフト 辱アナ スペシャルディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058530",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058530.jpg",
+    "manufacturer": "LiLiM生",
+    "releaseDate": "2006-05-26",
+    "listPrice": null,
+    "modelNumber": "LOJ-0004SP",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145058530",
+      "メーカー": "LiLiM生",
+      "発売日": "2006/05/26",
+      "型番": "LOJ-0004SP",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム・ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 6500,
+    "latestRegularSalePrice": 6500,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム・ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:15.017Z"
+  },
+  "histories": [
+    {
+      "id": 95352,
+      "productId": 95338,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム・ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:15.017Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058530",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058530",
+    "capturedAt": "2026-09-17T19:57:15.017Z",
+    "items": [],
+    "path": "data/other-shops/145058530.json"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 91480,
+    "title": "Windows2000/XP/Vista DVDソフト EVE雀 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018167",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018167.jpg",
+    "manufacturer": "TYRELL LAB.",
+    "releaseDate": "2008-07-25",
+    "listPrice": 9680,
+    "modelNumber": "TYL-011",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018167",
+      "メーカー": "TYRELL LAB.",
+      "発売日": "2008/07/25",
+      "定価": "9,680円",
+      "型番": "TYL-011",
+      "原画": "橋本タカシ",
+      "アーティスト": "小田ユウ",
+      "声優": "藤森ゆき奈\n風音\nかわしまりの\n春日アン\nワッショイ太郎\n歌織",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 14500,
+    "latestRegularSalePrice": 14500,
+    "latestBuyPrice": 6200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:59.424Z"
+  },
+  "histories": [
+    {
+      "id": 91494,
+      "productId": 91480,
+      "salePrice": 14500,
+      "regularSalePrice": 14500,
+      "buyPrice": 6200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:59.424Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018167",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018167",
+    "capturedAt": "2026-09-14T17:28:59.424Z",
+    "items": [],
+    "path": "data/other-shops/145018167.json"
+  }
+}

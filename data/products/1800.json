@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 1800,
+    "title": "Windows8.1/10 DVDソフト Hではじめるストラテジー! -キュートレア経営復興計画- [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071046",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071046.jpg",
+    "manufacturer": "evoLL",
+    "releaseDate": "2021-01-29",
+    "listPrice": 3080,
+    "modelNumber": "EVLL-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071046001",
+      "メーカー": "evoLL",
+      "発売日": "2021/01/29",
+      "定価": "3,080円",
+      "型番": "EVLL-005",
+      "原画": "未巳エヌ",
+      "シナリオ": "みけ",
+      "声優": "霜月優\n紅葉美兎\nこのえゆずこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:48:39.964Z"
+  },
+  "histories": [
+    {
+      "id": 1814,
+      "productId": 1800,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:10.000Z"
+    },
+    {
+      "id": 6701,
+      "productId": 1800,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:10:29.000Z"
+    },
+    {
+      "id": 35931,
+      "productId": 1800,
+      "salePrice": 750,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:49:30.916Z"
+    },
+    {
+      "id": 70922,
+      "productId": 1800,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:48:39.964Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203630,
+      "productId": 1800,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-02T20:48:40.000Z"
+    },
+    {
+      "id": 203629,
+      "productId": 1800,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-09-02T20:48:40.000Z"
+    },
+    {
+      "id": 203628,
+      "productId": 1800,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-02T20:48:40.000Z"
+    },
+    {
+      "id": 92797,
+      "productId": 1800,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-08-16T00:49:31.000Z"
+    },
+    {
+      "id": 92796,
+      "productId": 1800,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-16T00:49:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071046",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071046",
+    "capturedAt": "2026-09-02T20:48:39.964Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145071046.json"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 1999,
+    "title": "Windows7/8/8.1/10 DVDソフト 兄嫁は俺のモノを離さない ～未亡人若女将の誘惑～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067921",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067921.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-01-31",
+    "listPrice": 2200,
+    "modelNumber": "APT-152",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067921001",
+      "メーカー": "アパタイト",
+      "発売日": "2020/01/31",
+      "定価": "2,200円",
+      "型番": "APT-152",
+      "原画": "くない瓜",
+      "シナリオ": "岡下誠",
+      "声優": "雨森りこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:27.264Z"
+  },
+  "histories": [
+    {
+      "id": 2013,
+      "productId": 1999,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6900,
+      "productId": 1999,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 22820,
+      "productId": 1999,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:01.527Z"
+    },
+    {
+      "id": 44315,
+      "productId": 1999,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:27.264Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114591,
+      "productId": 1999,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1080,
+      "checkedAt": "2026-08-17T09:39:27.000Z"
+    },
+    {
+      "id": 114590,
+      "productId": 1999,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-17T09:39:27.000Z"
+    },
+    {
+      "id": 51876,
+      "productId": 1999,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1080,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    },
+    {
+      "id": 51875,
+      "productId": 1999,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067921",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067921",
+    "capturedAt": "2026-08-17T09:39:27.264Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145067921.json"
+  }
+}

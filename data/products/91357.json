@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 91357,
+    "title": "Windows10/11 DVDソフト 異世界縁交フルセット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083031",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083031.jpg",
+    "manufacturer": "だーくニャー!",
+    "releaseDate": "2025-07-25",
+    "listPrice": 5500,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083031001",
+      "メーカー": "だーくニャー!",
+      "発売日": "2025/07/25",
+      "定価": "5,500円",
+      "原画": "吉野恵子",
+      "シナリオ": "小沢裕樹",
+      "声優": "乙倉由依\n赤月ゆむ\n君島りさ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:12.384Z"
+  },
+  "histories": [
+    {
+      "id": 91371,
+      "productId": 91357,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:12.384Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278793,
+      "productId": 91357,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2880,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    },
+    {
+      "id": 278792,
+      "productId": 91357,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 3080,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    },
+    {
+      "id": 278791,
+      "productId": 91357,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    },
+    {
+      "id": 278790,
+      "productId": 91357,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083031",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083031",
+    "capturedAt": "2026-09-14T17:28:12.384Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2411
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 2700
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 3080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2880
+      }
+    ],
+    "path": "data/other-shops/145083031.json"
+  }
+}

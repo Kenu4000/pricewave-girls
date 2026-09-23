@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41364,
+    "title": "Windows2000/XP/Vista DVDソフト 風輪奸山 廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026334",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026334.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2011-01-28",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0067",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145026334",
+      "メーカー": "ルネ",
+      "発売日": "2011/01/28",
+      "定価": "4,180円",
+      "型番": "MGGW0067",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "春日晶\n哀河童子\n大神キリン",
+      "声優": "中澤アユム\nみる\nサトウユキ\n草柳順子\n歌織\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:06.897Z"
+  },
+  "histories": [
+    {
+      "id": 41378,
+      "productId": 41364,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:12.302Z"
+    },
+    {
+      "id": 53045,
+      "productId": 41364,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:06.897Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026334",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026334",
+    "capturedAt": "2026-08-19T16:21:06.897Z",
+    "items": [],
+    "path": "data/other-shops/145026334.json"
+  }
+}

@@ -1,0 +1,36 @@
+.viewer-price-history-details {
+  width: 100%;
+}
+
+.viewer-price-history-summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  list-style-position: outside;
+  min-height: 28px;
+}
+
+.viewer-price-history-summary strong {
+  font-size: 1.25rem;
+}
+
+.viewer-price-history-summary .muted {
+  font-size: .82rem;
+  font-weight: 500;
+}
+
+.viewer-price-history-details[open] .viewer-price-history-summary {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 760px) {
+  .viewer-price-history-summary strong {
+    font-size: 1.08rem;
+  }
+
+  .viewer-price-history-summary .muted {
+    font-size: .72rem;
+  }
+}

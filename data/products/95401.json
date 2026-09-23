@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 95401,
+    "title": "Windows8.1/10 DVDソフト アイキス2 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069961",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069961.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2020-11-27",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145069961",
+      "メーカー": "戯画",
+      "発売日": "2020/11/27",
+      "定価": "10,780円",
+      "原画": "葉月玉兎\n桐沢さき",
+      "SD原画": "tefuco",
+      "シナリオ": "夏目シオ",
+      "声優": "芝村純\n花澤さくら\n橘まお\n三枝アヤメ\nあじ秋刀魚\n飴川紫乃\n鈴谷まや\n有栖ねね\n冬峰小鈴\n香山いちご\n和央きりか",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6180,
+    "latestRegularSalePrice": 6180,
+    "latestBuyPrice": 4400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:38.193Z"
+  },
+  "histories": [
+    {
+      "id": 95415,
+      "productId": 95401,
+      "salePrice": 6180,
+      "regularSalePrice": 6180,
+      "buyPrice": 4400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:38.193Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145069961",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069961",
+    "capturedAt": "2026-09-19T13:53:38.193Z",
+    "items": [],
+    "path": "data/other-shops/145069961.json"
+  }
+}

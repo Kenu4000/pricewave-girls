@@ -1,0 +1,83 @@
+{
+  "product": {
+    "id": 29801,
+    "title": "WindowsVista/7/8/8.1 DVDソフト ふるえ、ゆらゆらと 下弦の章",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057350",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057350.jpg",
+    "manufacturer": "A’sRing",
+    "releaseDate": "2017-07-28",
+    "listPrice": 4290,
+    "modelNumber": "ASR-0007",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145057350",
+      "メーカー": "A’sRing",
+      "発売日": "2017/07/28",
+      "定価": "4,290円",
+      "型番": "ASR-0007",
+      "原画": "とりにく\n藤浪まり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3850,
+    "latestRegularSalePrice": 3850,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:03.973Z"
+  },
+  "histories": [
+    {
+      "id": 29815,
+      "productId": 29801,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:48.777Z"
+    },
+    {
+      "id": 38623,
+      "productId": 29801,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:26.900Z"
+    },
+    {
+      "id": 43555,
+      "productId": 29801,
+      "salePrice": 3850,
+      "regularSalePrice": 3850,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:03.973Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057350",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057350",
+    "capturedAt": "2026-08-17T09:33:03.973Z",
+    "items": [],
+    "path": "data/other-shops/145057350.json"
+  }
+}

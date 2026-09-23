@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 31548,
+    "title": "WindowsXP/Vista/7 DVDソフト もっと!デブトピア",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035141",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035141.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2012-11-30",
+    "listPrice": 2750,
+    "modelNumber": "VAL-023",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035141",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2012/11/30",
+      "定価": "2,750円",
+      "型番": "VAL-023",
+      "原画": "おしゃれ教室。",
+      "シナリオ": "まるさん",
+      "声優": "桃也みなみ\n手塚りょうこ\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 611,
+    "latestRegularSalePrice": 611,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:26.462Z"
+  },
+  "histories": [
+    {
+      "id": 31562,
+      "productId": 31548,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:13.270Z"
+    },
+    {
+      "id": 40295,
+      "productId": 31548,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:43.194Z"
+    },
+    {
+      "id": 51288,
+      "productId": 31548,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:26.462Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035141",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035141",
+    "capturedAt": "2026-08-19T05:35:26.462Z",
+    "items": [],
+    "path": "data/other-shops/145035141.json"
+  }
+}

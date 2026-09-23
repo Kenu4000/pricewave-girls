@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42379,
+    "title": "Windows2000/XP DVDソフト 人工少女3[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041240",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041240.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2008-07-06",
+    "listPrice": 10780,
+    "modelNumber": "ILN-074",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145041240",
+      "メーカー": "ILLUSION",
+      "発売日": "2008/07/06",
+      "定価": "10,780円",
+      "型番": "ILN-074",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:42.647Z"
+  },
+  "histories": [
+    {
+      "id": 42393,
+      "productId": 42379,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:06.894Z"
+    },
+    {
+      "id": 53774,
+      "productId": 42379,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:12.187Z"
+    },
+    {
+      "id": 65743,
+      "productId": 42379,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:42.647Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041240",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041240",
+    "capturedAt": "2026-08-29T13:02:42.647Z",
+    "items": [],
+    "path": "data/other-shops/145041240.json"
+  }
+}

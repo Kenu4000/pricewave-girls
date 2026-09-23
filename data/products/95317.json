@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 95317,
+    "title": "Windows98/Me/2000/XP DVDソフト ツグナヒ2 ーもうひとりの奈々ー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014324",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014324.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2006-06-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014324001",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2006/06/23",
+      "定価": "9,680円",
+      "原画": "さえき北都",
+      "シナリオ": "望月JET",
+      "音楽": "I’ve",
+      "声優": "杉原茉莉\n桜川未央\n歌織\n寧々\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:07.755Z"
+  },
+  "histories": [
+    {
+      "id": 95331,
+      "productId": 95317,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:07.755Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293804,
+      "productId": 95317,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-09-17T19:57:07.000Z"
+    },
+    {
+      "id": 293803,
+      "productId": 95317,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-17T19:57:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014324",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014324",
+    "capturedAt": "2026-09-17T19:57:07.755Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145014324.json"
+  }
+}

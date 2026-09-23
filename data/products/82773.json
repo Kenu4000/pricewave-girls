@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 82773,
+    "title": "Windows CDソフト 黒獣(くろいぬ)ー気高き聖女は白濁に染まる デジタル原画集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024474",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024474.jpg",
+    "manufacturer": "Liquid",
+    "releaseDate": "2010-04-23",
+    "listPrice": null,
+    "modelNumber": "KUROINU-SMAP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145024474",
+      "メーカー": "Liquid",
+      "発売日": "2010/04/23",
+      "型番": "KUROINU-SMAP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1511,
+    "latestRegularSalePrice": 1511,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:22.950Z"
+  },
+  "histories": [
+    {
+      "id": 82787,
+      "productId": 82773,
+      "salePrice": 1511,
+      "regularSalePrice": 1511,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:22.950Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024474",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024474",
+    "capturedAt": "2026-09-09T05:33:22.950Z",
+    "items": [],
+    "path": "data/other-shops/145024474.json"
+  }
+}

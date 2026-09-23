@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 56004,
+    "title": "WindowsXP/Vista/7 CDソフト 姉はカノジョで専属メイド",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029574",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029574.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2011-09-30",
+    "listPrice": 4378,
+    "modelNumber": "KR-004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029574001",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2011/09/30",
+      "定価": "4,378円",
+      "型番": "KR-004",
+      "原画": "ピロ水",
+      "シナリオ": "七央結日",
+      "声優": "水純なな歩",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:32:08.527Z"
+  },
+  "histories": [
+    {
+      "id": 56018,
+      "productId": 56004,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:08.527Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151495,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151494,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1530,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151493,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151492,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 1099,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151491,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古パッケージ状態難(傷み・汚れ・日焼けなど)",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151490,
+      "productId": 56004,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029574",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029574",
+    "capturedAt": "2026-08-21T05:32:08.527Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古パッケージ状態難(傷み・汚れ・日焼けなど)",
+        "price": 1000
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 1099
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1530
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145029574.json"
+  }
+}

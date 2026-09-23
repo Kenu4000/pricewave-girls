@@ -1,0 +1,170 @@
+{
+  "product": {
+    "id": 91351,
+    "title": "Windows8/8.1/10 DVDソフト Nightmare×Sisters ～淫獄のサクリファイス～ The Motion",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072150",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072150.jpg",
+    "manufacturer": "Guilty Nightmare Project",
+    "releaseDate": "2021-06-25",
+    "listPrice": 3300,
+    "modelNumber": "WILL-428",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145072150001",
+      "メーカー": "Guilty Nightmare Project",
+      "発売日": "2021/06/25",
+      "定価": "3,300円",
+      "型番": "WILL-428",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:09.470Z"
+  },
+  "histories": [
+    {
+      "id": 91365,
+      "productId": 91351,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:09.470Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278789,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278788,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278787,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278786,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278785,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1201,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278784,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278783,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1012,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278782,
+      "productId": 91351,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 920,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072150",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072150",
+    "capturedAt": "2026-09-14T17:28:09.470Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 920
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1012
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1201
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145072150.json"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 91490,
+    "title": "Windows2000/XP/Vista DVDソフト Bullet Butlers[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016248",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016248.jpg",
+    "manufacturer": "propeller",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "WILL-185A",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016248001",
+      "メーカー": "propeller",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "WILL-185A",
+      "原画": "中央東口",
+      "シナリオ": "東出祐一郎",
+      "声優": "野神奈々\n平井達矢\n佐本二厘\nこのかなみ\n一色ヒカル\n九条信乃\nヘルシー太郎\n小次郎\n神代岬\n遠山枝里子\n理多\nトム・クノレーズ\n池田秀一\n安玖深音\n黒瀬鷹\n松園ルイ\n事務台車\n松涛エルサ\n空野太陽\n杉崎和哉\n紫原遥\nタケムラ\n如月葵",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:02.780Z"
+  },
+  "histories": [
+    {
+      "id": 91504,
+      "productId": 91490,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:02.780Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279142,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    },
+    {
+      "id": 279141,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    },
+    {
+      "id": 279140,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 999,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    },
+    {
+      "id": 279139,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品（状態に難有）",
+      "price": 880,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    },
+    {
+      "id": 279138,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    },
+    {
+      "id": 279137,
+      "productId": 91490,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-14T17:29:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016248",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016248",
+    "capturedAt": "2026-09-14T17:29:02.780Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品（状態に難有）",
+        "price": 880
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 999
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145016248.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 8352,
+    "title": "Windows2000/XP/Vista/7 CDソフト 俺と妹の校内プレイ2 ー妹は俺が堕とすー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034038",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034038.jpg",
+    "manufacturer": "MAGI",
+    "releaseDate": "2012-08-31",
+    "listPrice": 3300,
+    "modelNumber": "MAG005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034038",
+      "メーカー": "MAGI",
+      "発売日": "2012/08/31",
+      "定価": "3,300円",
+      "型番": "MAG005",
+      "原画": "赤木リオ",
+      "シナリオ": "泉海斗\n池かなた",
+      "声優": "かぐや凛子\n蒼井翠",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-23T13:44:21.764Z"
+  },
+  "histories": [
+    {
+      "id": 8366,
+      "productId": 8352,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 37735,
+      "productId": 8352,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:24.792Z"
+    },
+    {
+      "id": 48221,
+      "productId": 8352,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:20.536Z"
+    },
+    {
+      "id": 59029,
+      "productId": 8352,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:44:21.764Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 1736,
+      "productId": 8352,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1680,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 1735,
+      "productId": 8352,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034038",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034038",
+    "capturedAt": "2026-08-23T13:44:21.764Z",
+    "items": [],
+    "path": "data/other-shops/145034038.json"
+  }
+}

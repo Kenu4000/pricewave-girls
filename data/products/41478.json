@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41478,
+    "title": "Windows CDソフト 絶対少女・葵つかさ デジタル写真集 関西限定特典",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026231",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026231.jpg",
+    "manufacturer": "ジャパンホームビデオ",
+    "releaseDate": "2010-10-08",
+    "listPrice": null,
+    "modelNumber": "20253-OTH05893",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145026231",
+      "メーカー": "ジャパンホームビデオ",
+      "発売日": "2010/10/08",
+      "型番": "20253-OTH05893",
+      "出演": "葵つかさ",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveCondition": "付録DVD※ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 855,
+    "latestRegularSalePrice": 855,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "付録DVD※ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:14:17.557Z"
+  },
+  "histories": [
+    {
+      "id": 41492,
+      "productId": 41478,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:15.893Z"
+    },
+    {
+      "id": 53123,
+      "productId": 41478,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "付録DVD※ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:46.388Z"
+    },
+    {
+      "id": 64050,
+      "productId": 41478,
+      "salePrice": 855,
+      "regularSalePrice": 855,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "付録DVD※ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:14:17.557Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026231",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026231",
+    "capturedAt": "2026-08-27T16:14:17.557Z",
+    "items": [],
+    "path": "data/other-shops/145026231.json"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 31581,
+    "title": "WindowsXP/Vista/7 CDソフト 姉撮 ー堕ちていくお姉ちゃんを助けられない僕ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034876",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034876.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2012-11-22",
+    "listPrice": 2200,
+    "modelNumber": "APT-017",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034876001",
+      "メーカー": "アパタイト",
+      "発売日": "2012/11/22",
+      "定価": "2,200円",
+      "型番": "APT-017",
+      "原画": "あきのしん",
+      "シナリオ": "姫川広明",
+      "声優": "笹塚真琴",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "1150",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:41:37.354Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:29:59.714Z"
+  },
+  "histories": [
+    {
+      "id": 31595,
+      "productId": 31581,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:36.615Z"
+    },
+    {
+      "id": 40331,
+      "productId": 31581,
+      "salePrice": 1080,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:59.714Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105004,
+      "productId": 31581,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:29:59.000Z"
+    },
+    {
+      "id": 105003,
+      "productId": 31581,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-16T01:29:59.000Z"
+    },
+    {
+      "id": 79157,
+      "productId": 31581,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:41:37.000Z"
+    },
+    {
+      "id": 79156,
+      "productId": 31581,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-15T23:41:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034876",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034876",
+    "capturedAt": "2026-08-16T01:29:59.714Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145034876.json"
+  }
+}

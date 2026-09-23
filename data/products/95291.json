@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 95291,
+    "title": "Windows CDソフト 操心術+",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014496",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014496.jpg",
+    "manufacturer": "STUDIO邪恋",
+    "releaseDate": "2006-06-30",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014496",
+      "メーカー": "STUDIO邪恋",
+      "発売日": "2006/06/30",
+      "定価": "4,180円",
+      "原画": "たみこ\nOutsider\nきつね",
+      "シナリオ": "おくとぱす",
+      "声優": "児玉さとみ\nカンザキカナリ\n金松由花\n韮井叶",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 12999,
+    "latestRegularSalePrice": 12999,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:56:57.645Z"
+  },
+  "histories": [
+    {
+      "id": 95305,
+      "productId": 95291,
+      "salePrice": 12999,
+      "regularSalePrice": 12999,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:56:57.645Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014496",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014496",
+    "capturedAt": "2026-09-17T19:56:57.645Z",
+    "items": [],
+    "path": "data/other-shops/145014496.json"
+  }
+}

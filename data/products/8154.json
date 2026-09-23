@@ -1,0 +1,180 @@
+{
+  "product": {
+    "id": 8154,
+    "title": "Windows98SE/Me/2000/XP DVDソフト テリぷら2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015540",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015540.jpg",
+    "manufacturer": "テリオス",
+    "releaseDate": "2006-12-29",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015540001",
+      "メーカー": "テリオス",
+      "発売日": "2006/12/29",
+      "定価": "3,300円",
+      "原画": "桐生蒼八\n横田守",
+      "シナリオ": "狩野伊太朗\n藤木隻",
+      "声優": "北都南\n風華\n大波こなみ\n手塚まき\n長崎みなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T16:00:54.765Z"
+  },
+  "histories": [
+    {
+      "id": 8168,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37579,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:04.359Z"
+    },
+    {
+      "id": 48086,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:11.376Z"
+    },
+    {
+      "id": 58903,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:43:12.144Z"
+    },
+    {
+      "id": 70018,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:41:59.677Z"
+    },
+    {
+      "id": 80194,
+      "productId": 8154,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:31:07.832Z"
+    },
+    {
+      "id": 93505,
+      "productId": 8154,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T16:00:54.765Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 287029,
+      "productId": 8154,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-16T16:00:55.000Z"
+    },
+    {
+      "id": 287028,
+      "productId": 8154,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1600,
+      "checkedAt": "2026-09-16T16:00:55.000Z"
+    },
+    {
+      "id": 287027,
+      "productId": 8154,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-16T16:00:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015540",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015540",
+    "capturedAt": "2026-09-16T16:00:54.765Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 1600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145015540.json"
+  }
+}

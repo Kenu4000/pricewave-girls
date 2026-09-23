@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 41857,
+    "title": "Windows2000/XP/Vista CDソフト クルースニク～催淫に悶える吸血鬼ハンター～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021828",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021828.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2009-10-02",
+    "listPrice": 2420,
+    "modelNumber": "LBL-00028",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021828001",
+      "メーカー": "Lilith",
+      "発売日": "2009/10/02",
+      "定価": "2,420円",
+      "型番": "LBL-00028",
+      "原画": "のぶしと",
+      "シナリオ": "ZEQU\n栗栖\n松本竜",
+      "声優": "桜川未央\n中野志乃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:52.422Z"
+  },
+  "histories": [
+    {
+      "id": 41871,
+      "productId": 41857,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:59.118Z"
+    },
+    {
+      "id": 53391,
+      "productId": 41857,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:59.131Z"
+    },
+    {
+      "id": 64951,
+      "productId": 41857,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:52.422Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 182189,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-29T01:15:52.000Z"
+    },
+    {
+      "id": 182188,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 510,
+      "checkedAt": "2026-08-29T01:15:52.000Z"
+    },
+    {
+      "id": 143427,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-19T16:23:59.000Z"
+    },
+    {
+      "id": 143426,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 510,
+      "checkedAt": "2026-08-19T16:23:59.000Z"
+    },
+    {
+      "id": 108427,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T07:05:59.000Z"
+    },
+    {
+      "id": 108426,
+      "productId": 41857,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 510,
+      "checkedAt": "2026-08-17T07:05:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021828",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021828",
+    "capturedAt": "2026-08-29T01:15:52.422Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 510
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145021828.json"
+  }
+}

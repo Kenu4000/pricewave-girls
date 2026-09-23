@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 94337,
+    "title": "Windows2000/XP/Vista/7 DVDソフト ふくびき!トライアングル",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022993",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022993.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2010-02-26",
+    "listPrice": 9680,
+    "modelNumber": "BGDV-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145022993",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2010/02/26",
+      "定価": "9,680円",
+      "型番": "BGDV-010",
+      "原画": "鋼丸",
+      "シナリオ": "八神陣\n里井捧",
+      "声優": "御苑生メイ\n青井美海\n草柳順子\n鈴音華月\n香澄りょう",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1051,
+    "latestRegularSalePrice": 1051,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T18:17:41.575Z"
+  },
+  "histories": [
+    {
+      "id": 94351,
+      "productId": 94337,
+      "salePrice": 1051,
+      "regularSalePrice": 1051,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:41.575Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022993",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022993",
+    "capturedAt": "2026-09-16T18:17:41.575Z",
+    "items": [],
+    "path": "data/other-shops/145022993.json"
+  }
+}

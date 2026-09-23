@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 95343,
+    "title": "Windows98/Me/2000/XP DVDソフト TACTICSBRID (タクティクスブリッド)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014207",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014207.jpg",
+    "manufacturer": "BLIP",
+    "releaseDate": "2006-05-26",
+    "listPrice": 9680,
+    "modelNumber": "BP-0601",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014207",
+      "メーカー": "BLIP",
+      "発売日": "2006/05/26",
+      "定価": "9,680円",
+      "型番": "BP-0601",
+      "原画": "すずきめい",
+      "シナリオ": "由宇樹晶",
+      "声優": "Yuki-Lin\nみる\n風音\n芹園みや\n桃井いちご\n遠野そよぎ\n佐本二厘\nAYA\nくれは紅葉",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:15.871Z"
+  },
+  "histories": [
+    {
+      "id": 95357,
+      "productId": 95343,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:15.871Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014207",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014207",
+    "capturedAt": "2026-09-17T19:57:15.871Z",
+    "items": [],
+    "path": "data/other-shops/145014207.json"
+  }
+}

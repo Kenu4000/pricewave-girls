@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 41379,
+    "title": "Windows2000/XP/Vista/7 CDソフト 姉と妹をいいなりにする10の戒律ー法も姉妹も犯しつくせ!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026348",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026348.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2011-01-21",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026348001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2011/01/21",
+      "定価": "2,200円",
+      "原画": "草野ほうき",
+      "シナリオ": "まゆか",
+      "声優": "このえゆずこ\n早乙女碧\n春河あかり",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:13:52.319Z"
+  },
+  "histories": [
+    {
+      "id": 41393,
+      "productId": 41379,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:21.624Z"
+    },
+    {
+      "id": 53057,
+      "productId": 41379,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:12.336Z"
+    },
+    {
+      "id": 63997,
+      "productId": 41379,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:13:52.319Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178991,
+      "productId": 41379,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-27T16:13:52.000Z"
+    },
+    {
+      "id": 178990,
+      "productId": 41379,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1500,
+      "checkedAt": "2026-08-27T16:13:52.000Z"
+    },
+    {
+      "id": 178989,
+      "productId": 41379,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-27T16:13:52.000Z"
+    },
+    {
+      "id": 178988,
+      "productId": 41379,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-27T16:13:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026348",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026348",
+    "capturedAt": "2026-08-27T16:13:52.319Z",
+    "items": [
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145026348.json"
+  }
+}

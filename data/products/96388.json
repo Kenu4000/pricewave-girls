@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 96388,
+    "title": "Windows98/Me/XP/Vista/7 DVDソフト フルメタルBOX[Windows7対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025312",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025312.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2010-10-01",
+    "listPrice": 21780,
+    "modelNumber": "BCYC-7893",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025312",
+      "メーカー": "Black Cyc",
+      "発売日": "2010/10/01",
+      "定価": "21,780円",
+      "型番": "BCYC-7893",
+      "原画": "上田メタヲ",
+      "シナリオ": "丸木文華\n和泉万夜\n草壁祭",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 26800,
+    "latestRegularSalePrice": 26800,
+    "latestBuyPrice": 10000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:04.402Z"
+  },
+  "histories": [
+    {
+      "id": 96402,
+      "productId": 96388,
+      "salePrice": 26800,
+      "regularSalePrice": 26800,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:04.402Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145025312",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025312",
+    "capturedAt": "2026-09-20T14:09:04.402Z",
+    "items": [],
+    "path": "data/other-shops/145025312.json"
+  }
+}

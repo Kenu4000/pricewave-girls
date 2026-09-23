@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 95413,
+    "title": "Windows98/Me/2000/XP CDソフト ご主人様へ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014090",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014090.jpg",
+    "manufacturer": "Juliette",
+    "releaseDate": "2006-03-24",
+    "listPrice": 5280,
+    "modelNumber": "WILL-152",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014090001",
+      "メーカー": "Juliette",
+      "発売日": "2006/03/24",
+      "定価": "5,280円",
+      "型番": "WILL-152",
+      "原画": "ひだかすずね",
+      "シナリオ": "櫻みゅう\n松木涼\nりりあん嬢",
+      "声優": "松田理沙",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 270,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-19T13:53:42.448Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:41.425Z"
+  },
+  "histories": [
+    {
+      "id": 95427,
+      "productId": 95413,
+      "salePrice": 270,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:41.425Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294073,
+      "productId": 95413,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294072,
+      "productId": 95413,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294071,
+      "productId": 95413,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 270,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014090",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014090",
+    "capturedAt": "2026-09-19T13:53:41.425Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 270
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 270
+      }
+    ],
+    "path": "data/other-shops/145014090.json"
+  }
+}

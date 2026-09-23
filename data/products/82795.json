@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 82795,
+    "title": "Windows2000/XP/Vista CDソフト 反逆のベレッタ -淫獄に堕散る戦士-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018137",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018137.jpg",
+    "manufacturer": "Black Lilith",
+    "releaseDate": "2008-05-30",
+    "listPrice": 2420,
+    "modelNumber": "LBK-00038",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018137001",
+      "メーカー": "Black Lilith",
+      "発売日": "2008/05/30",
+      "定価": "2,420円",
+      "型番": "LBK-00038",
+      "原画": "のぶしと",
+      "キャラクターデザイン": "殿中心",
+      "シナリオ": "ZEQU\nフレーム",
+      "声優": "櫻井ありす\n雨津さえ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:33.525Z"
+  },
+  "histories": [
+    {
+      "id": 82809,
+      "productId": 82795,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:33.525Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245769,
+      "productId": 82795,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    },
+    {
+      "id": 245768,
+      "productId": 82795,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    },
+    {
+      "id": 245767,
+      "productId": 82795,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    },
+    {
+      "id": 245766,
+      "productId": 82795,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 280,
+      "checkedAt": "2026-09-09T05:33:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018137",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018137",
+    "capturedAt": "2026-09-09T05:33:33.525Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145018137.json"
+  }
+}

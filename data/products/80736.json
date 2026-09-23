@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 80736,
+    "title": "Windows98/Me/2000/XP CDソフト 幼辱セット WVセレクション8",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014725",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014725.jpg",
+    "manufacturer": "West Vision",
+    "releaseDate": "2006-09-15",
+    "listPrice": 5280,
+    "modelNumber": "TWR-08",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014725",
+      "メーカー": "West Vision",
+      "発売日": "2006/09/15",
+      "定価": "5,280円",
+      "型番": "TWR-08",
+      "原画": "丹下ゲンタ",
+      "シナリオ": "西矢沙広",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:13.494Z"
+  },
+  "histories": [
+    {
+      "id": 80750,
+      "productId": 80736,
+      "salePrice": 1900,
+      "regularSalePrice": 1900,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:13.494Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014725",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014725",
+    "capturedAt": "2026-09-07T13:48:13.494Z",
+    "items": [],
+    "path": "data/other-shops/145014725.json"
+  }
+}

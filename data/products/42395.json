@@ -1,0 +1,170 @@
+{
+  "product": {
+    "id": 42395,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト ハラマセテ戦乙女(ヴェルキリー) mini ADV 肛虐の戦乙女 ロストバージン・アナザーワン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024476",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024476.jpg",
+    "manufacturer": "祭企画",
+    "releaseDate": "2008-06-27",
+    "listPrice": null,
+    "modelNumber": "TOK-09",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145024476001",
+      "メーカー": "祭企画",
+      "発売日": "2008/06/27",
+      "型番": "TOK-09",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 430,
+    "latestRegularSalePrice": 430,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:48.131Z"
+  },
+  "histories": [
+    {
+      "id": 42409,
+      "productId": 42395,
+      "salePrice": 430,
+      "regularSalePrice": 430,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:18.100Z"
+    },
+    {
+      "id": 53785,
+      "productId": 42395,
+      "salePrice": 430,
+      "regularSalePrice": 430,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:18.166Z"
+    },
+    {
+      "id": 65752,
+      "productId": 42395,
+      "salePrice": 430,
+      "regularSalePrice": 430,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:48.131Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184794,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-29T13:02:48.000Z"
+    },
+    {
+      "id": 184793,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-29T13:02:48.000Z"
+    },
+    {
+      "id": 184792,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-29T13:02:48.000Z"
+    },
+    {
+      "id": 144211,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-19T16:27:18.000Z"
+    },
+    {
+      "id": 144210,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:27:18.000Z"
+    },
+    {
+      "id": 144209,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-19T16:27:18.000Z"
+    },
+    {
+      "id": 109620,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:11:18.000Z"
+    },
+    {
+      "id": 109619,
+      "productId": 42395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-08-17T07:11:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024476",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024476",
+    "capturedAt": "2026-08-29T13:02:48.131Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 430
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 430
+      }
+    ],
+    "path": "data/other-shops/145024476.json"
+  }
+}

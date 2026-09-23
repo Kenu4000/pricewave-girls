@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 96401,
+    "title": "Windows98/Me/2000/XP DVDソフト 逃亡者 毒島音露 ～籠の中の淫謀編～ 得々シリーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013961",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013961.jpg",
+    "manufacturer": "ワッフル",
+    "releaseDate": "2006-03-03",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013961001",
+      "メーカー": "ワッフル",
+      "発売日": "2006/03/03",
+      "定価": "3,080円",
+      "原画": "玉姫金魚",
+      "シナリオ": "さんきち\n仁村紳志",
+      "声優": "楠鈴音\nカンザキカナリ\n山内花梨",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "580",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-20T14:09:08.931Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:08.072Z"
+  },
+  "histories": [
+    {
+      "id": 96415,
+      "productId": 96401,
+      "salePrice": 550,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:08.072Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 297453,
+      "productId": 96401,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297452,
+      "productId": 96401,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297451,
+      "productId": 96401,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297450,
+      "productId": 96401,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013961",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013961",
+    "capturedAt": "2026-09-20T14:09:08.072Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145013961.json"
+  }
+}

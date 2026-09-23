@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 82628,
+    "title": "Windows10/11 DVDソフト いじめっ子に犯される僕の姉",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081866",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081866.jpg",
+    "manufacturer": "ゆかりソフト",
+    "releaseDate": "2024-09-27",
+    "listPrice": 6380,
+    "modelNumber": "PURPLE-066",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081866001",
+      "メーカー": "ゆかりソフト",
+      "発売日": "2024/09/27",
+      "定価": "6,380円",
+      "型番": "PURPLE-066",
+      "原画": "克",
+      "シナリオ": "はまぐり孤之助",
+      "声優": "逢坂菜乃花",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3980,
+    "latestRegularSalePrice": 3980,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:01.075Z"
+  },
+  "histories": [
+    {
+      "id": 82642,
+      "productId": 82628,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:01.075Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245265,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3980,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245264,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "パソコンショップMK",
+      "condition": "新品通常",
+      "price": 6380,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245263,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 4480,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245262,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション上大岡店 Supported by 駿河屋",
+      "condition": "中古通常",
+      "price": 3980,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245261,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245260,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245259,
+      "productId": 82628,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 3280,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081866",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081866",
+    "capturedAt": "2026-09-09T05:32:01.075Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 3280
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 3511
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3711
+      },
+      {
+        "storeName": "ゲームステーション上大岡店 Supported by 駿河屋",
+        "condition": "中古通常",
+        "price": 3980
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 4480
+      },
+      {
+        "storeName": "パソコンショップMK",
+        "condition": "新品通常",
+        "price": 6380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3980
+      }
+    ],
+    "path": "data/other-shops/145081866.json"
+  }
+}

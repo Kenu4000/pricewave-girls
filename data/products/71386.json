@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 71386,
+    "title": "WindowsXP/Vista/7 DVDソフト 花散峪山人考(ハナチルタニサンジンコウ)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030312",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030312.jpg",
+    "manufacturer": "raiL-soft",
+    "releaseDate": "2011-11-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030312",
+      "メーカー": "raiL-soft",
+      "発売日": "2011/11/25",
+      "定価": "9,680円",
+      "原画": "酔花ころん",
+      "シナリオ": "希",
+      "声優": "草柳順子\n野月まひる\n高槻つばさ\n香澄りょう\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145030312?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-10T05:15:46.793Z"
+  },
+  "histories": [
+    {
+      "id": 71400,
+      "productId": 71386,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:23.905Z"
+    },
+    {
+      "id": 84363,
+      "productId": 71386,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-10T05:15:46.793Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030312",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030312",
+    "capturedAt": "2026-09-10T05:15:46.793Z",
+    "items": [],
+    "path": "data/other-shops/145030312.json"
+  }
+}

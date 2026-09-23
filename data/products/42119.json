@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 42119,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト なかだし娘妹(おやこ) ～愛娘にいっぱい注いでほしいのぉ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019300",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019300.jpg",
+    "manufacturer": "はにぃま～る",
+    "releaseDate": "2009-02-13",
+    "listPrice": 9680,
+    "modelNumber": "HNM-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019300",
+      "メーカー": "はにぃま～る",
+      "発売日": "2009/02/13",
+      "定価": "9,680円",
+      "型番": "HNM-001",
+      "原画": "くない瓜",
+      "シナリオ": "五月雨だるま\n天野雄矢\n鹿大志",
+      "声優": "伊藤瞳子\n東かりん",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスクのみになります。",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみになります。",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:17:09.284Z"
+  },
+  "histories": [
+    {
+      "id": 42133,
+      "productId": 42119,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:28.478Z"
+    },
+    {
+      "id": 53582,
+      "productId": 42119,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:35.468Z"
+    },
+    {
+      "id": 65122,
+      "productId": 42119,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみになります。",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:17:09.284Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019300",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019300",
+    "capturedAt": "2026-08-29T01:17:09.284Z",
+    "items": [],
+    "path": "data/other-shops/145019300.json"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 55749,
+    "title": "Windows8/8.1/10 DVDソフト 壁の向こうの妻の嬌声3 -薄壁から響く隣人妻の艶声は、いつしか愛する妻の淫れたヨガり声へと変わっていた-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071319",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071319.jpg",
+    "manufacturer": "ANIM.teamMM",
+    "releaseDate": "2021-05-28",
+    "listPrice": 7480,
+    "modelNumber": "ANM-463",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071319001",
+      "メーカー": "ANIM.teamMM",
+      "発売日": "2021/05/28",
+      "定価": "7,480円",
+      "型番": "ANM-463",
+      "原画": "うん=食太郎",
+      "シナリオ": "Fuzisawa\n山野詠子\n内藤自由",
+      "声優": "花寺香蓮\n天見美んと",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:52.680Z"
+  },
+  "histories": [
+    {
+      "id": 55763,
+      "productId": 55749,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:52.680Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150584,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    },
+    {
+      "id": 150583,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    },
+    {
+      "id": 150582,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    },
+    {
+      "id": 150581,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    },
+    {
+      "id": 150580,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1761,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    },
+    {
+      "id": 150579,
+      "productId": 55749,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 1585,
+      "checkedAt": "2026-08-21T05:29:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071319",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071319",
+    "capturedAt": "2026-08-21T05:29:52.680Z",
+    "items": [
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 1585
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1761
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145071319.json"
+  }
+}

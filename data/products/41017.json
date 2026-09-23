@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 41017,
+    "title": "Windows7/8/8.1/10 DVDソフト CYCLETパック No.3 崩壊パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060990",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060990.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2018-04-27",
+    "listPrice": 9680,
+    "modelNumber": "CYCL-314",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145060990",
+      "メーカー": "CYCLET",
+      "発売日": "2018/04/27",
+      "定価": "9,680円",
+      "型番": "CYCL-314",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T06:58:06.780Z"
+  },
+  "histories": [
+    {
+      "id": 41031,
+      "productId": 41017,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:06.780Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145060990",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060990",
+    "capturedAt": "2026-08-17T06:58:06.780Z",
+    "items": [],
+    "path": "data/other-shops/145060990.json"
+  }
+}

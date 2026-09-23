@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 95349,
+    "title": "Windows98/Me/2000/XP CDソフト 奴隷な彼女2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014235",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014235.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2006-04-30",
+    "listPrice": 2200,
+    "modelNumber": "LBL-00014",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014235001",
+      "メーカー": "Lilith",
+      "発売日": "2006/04/30",
+      "定価": "2,200円",
+      "型番": "LBL-00014",
+      "原画": "ASAHI",
+      "シナリオ": "松本竜",
+      "声優": "未来羽\n榊木春乃\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 420,
+    "latestRegularSalePrice": 420,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:18.277Z"
+  },
+  "histories": [
+    {
+      "id": 95363,
+      "productId": 95349,
+      "salePrice": 420,
+      "regularSalePrice": 420,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:18.277Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293895,
+      "productId": 95349,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 420,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    },
+    {
+      "id": 293894,
+      "productId": 95349,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ韮崎竜岡店",
+      "condition": "中古通常",
+      "price": 1100,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    },
+    {
+      "id": 293893,
+      "productId": 95349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    },
+    {
+      "id": 293892,
+      "productId": 95349,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014235",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014235",
+    "capturedAt": "2026-09-17T19:57:18.277Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックジョイ韮崎竜岡店",
+        "condition": "中古通常",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 420
+      }
+    ],
+    "path": "data/other-shops/145014235.json"
+  }
+}

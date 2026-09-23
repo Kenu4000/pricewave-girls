@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 91386,
+    "title": "WindowsXP/Vista/7/8/10 DVDソフト スワッピングパーティー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055258",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055258.jpg",
+    "manufacturer": "アトリエさくら Team.NTR",
+    "releaseDate": "2016-09-30",
+    "listPrice": 4180,
+    "modelNumber": "ASPC-0063",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055258001",
+      "メーカー": "アトリエさくら Team.NTR",
+      "発売日": "2016/09/30",
+      "定価": "4,180円",
+      "型番": "ASPC-0063",
+      "原画": "の歯",
+      "シナリオ": "おんぼろ月",
+      "声優": "夢月やみ\n葵時緒",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2650,
+    "latestRegularSalePrice": 2650,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:25.142Z"
+  },
+  "histories": [
+    {
+      "id": 91400,
+      "productId": 91386,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:25.142Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278892,
+      "productId": 91386,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2650,
+      "checkedAt": "2026-09-14T17:28:26.000Z"
+    },
+    {
+      "id": 278891,
+      "productId": 91386,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2412,
+      "checkedAt": "2026-09-14T17:28:26.000Z"
+    },
+    {
+      "id": 278890,
+      "productId": 91386,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2401,
+      "checkedAt": "2026-09-14T17:28:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055258",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055258",
+    "capturedAt": "2026-09-14T17:28:25.142Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2401
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2412
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2650
+      }
+    ],
+    "path": "data/other-shops/145055258.json"
+  }
+}

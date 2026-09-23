@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91399,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 巨乳大家族催眠「家族みんなでイキまくるセックスがやめられないのぉ」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055842",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055842.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2016-12-22",
+    "listPrice": 9680,
+    "modelNumber": "MGGW-0172",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055842001",
+      "メーカー": "ルネ",
+      "発売日": "2016/12/22",
+      "定価": "9,680円",
+      "型番": "MGGW-0172",
+      "原画": "スカイハウス",
+      "シナリオ": "卯月一葉\nK-TOK\n須々木鮎尾",
+      "声優": "このえゆずこ\n宇海野有由\n長原杏子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2950,
+    "latestRegularSalePrice": 2950,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:28.668Z"
+  },
+  "histories": [
+    {
+      "id": 91413,
+      "productId": 91399,
+      "salePrice": 2950,
+      "regularSalePrice": 2950,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:28.668Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278923,
+      "productId": 91399,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-09-14T17:28:30.000Z"
+    },
+    {
+      "id": 278922,
+      "productId": 91399,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-09-14T17:28:30.000Z"
+    },
+    {
+      "id": 278921,
+      "productId": 91399,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 9380,
+      "checkedAt": "2026-09-14T17:28:30.000Z"
+    },
+    {
+      "id": 278920,
+      "productId": 91399,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-09-14T17:28:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055842",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055842",
+    "capturedAt": "2026-09-14T17:28:28.668Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 2950
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 9380
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 9680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2950
+      }
+    ],
+    "path": "data/other-shops/145055842.json"
+  }
+}

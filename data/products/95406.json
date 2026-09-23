@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 95406,
+    "title": "Windows11 DVDソフト ダウニャーさんと飼い主くん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084847",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084847.jpg",
+    "manufacturer": "CloverGAME",
+    "releaseDate": "2026-09-18",
+    "listPrice": 3850,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145084847000",
+      "メーカー": "CloverGAME",
+      "発売日": "2026/09/18",
+      "定価": "3,850円",
+      "原画": "うなさか",
+      "企画・シナリオ": "戸塚陸",
+      "音楽": "Peak A Soul+",
+      "声優": "夏和小\n桜乃ひよ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "シナリオ": "戸塚陸 音楽 Peak A Soul+",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T14:02:04.803Z"
+  },
+  "histories": [
+    {
+      "id": 95420,
+      "productId": 95406,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:39.606Z"
+    },
+    {
+      "id": 96395,
+      "productId": 95406,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T14:02:04.803Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 297429,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T14:02:05.000Z"
+    },
+    {
+      "id": 297428,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 3850,
+      "checkedAt": "2026-09-19T14:02:05.000Z"
+    },
+    {
+      "id": 297427,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 3850,
+      "checkedAt": "2026-09-19T14:02:05.000Z"
+    },
+    {
+      "id": 297426,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T14:02:05.000Z"
+    },
+    {
+      "id": 294054,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    },
+    {
+      "id": 294053,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 3850,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    },
+    {
+      "id": 294052,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 3850,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    },
+    {
+      "id": 294051,
+      "productId": 95406,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084847",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084847",
+    "capturedAt": "2026-09-19T14:02:04.803Z",
+    "items": [
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品",
+        "price": 3580
+      },
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 3850
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 3850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 3580
+      }
+    ],
+    "path": "data/other-shops/145084847.json"
+  }
+}

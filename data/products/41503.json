@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 41503,
+    "title": "WindowsXP/Vista/7 DVDソフト 侵蝕3ー淫魔の生贄ー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024788",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024788.jpg",
+    "manufacturer": "TOUCHABLE",
+    "releaseDate": "2010-09-24",
+    "listPrice": 9680,
+    "modelNumber": "TOUCH0013-1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024788001",
+      "メーカー": "TOUCHABLE",
+      "発売日": "2010/09/24",
+      "定価": "9,680円",
+      "型番": "TOUCH0013-1",
+      "原画": "スミスミ",
+      "シナリオ": "高橋直樹\n黒井弘騎\n七瀬流",
+      "声優": "鈴音華月\n片倉ひな\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:13.952Z"
+  },
+  "histories": [
+    {
+      "id": 41517,
+      "productId": 41503,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:31.040Z"
+    },
+    {
+      "id": 53140,
+      "productId": 41503,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:55.882Z"
+    },
+    {
+      "id": 64729,
+      "productId": 41503,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:13.952Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181791,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-29T01:14:14.000Z"
+    },
+    {
+      "id": 181790,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-29T01:14:14.000Z"
+    },
+    {
+      "id": 181789,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-29T01:14:14.000Z"
+    },
+    {
+      "id": 142959,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-19T16:21:56.000Z"
+    },
+    {
+      "id": 142958,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T16:21:56.000Z"
+    },
+    {
+      "id": 107731,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-17T07:02:31.000Z"
+    },
+    {
+      "id": 107730,
+      "productId": 41503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-17T07:02:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024788",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024788",
+    "capturedAt": "2026-08-29T01:14:13.952Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145024788.json"
+  }
+}

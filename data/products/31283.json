@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 31283,
+    "title": "WindowsXP/Vista/7/8 CDソフト キモメン底辺職でも巨根ならハーレムギルドの主になれる!? ー伝説の騎士や聖女、魔王を種付け攻略!美少女だらけ夢の冒険性活!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037232",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037232.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2013-06-28",
+    "listPrice": 2640,
+    "modelNumber": "MIEL-036",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145037232001",
+      "メーカー": "Miel",
+      "発売日": "2013/06/28",
+      "定価": "2,640円",
+      "型番": "MIEL-036",
+      "原画": "石井彰",
+      "シナリオ": "遊真一希",
+      "声優": "美澄すい\n八ッ橋きなこ\n藍川珪\n霧島はるな\n金松由花",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:38:02.087Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:33:49.319Z"
+  },
+  "histories": [
+    {
+      "id": 31297,
+      "productId": 31283,
+      "salePrice": 680,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:01.909Z"
+    },
+    {
+      "id": 40044,
+      "productId": 31283,
+      "salePrice": 680,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:27:39.619Z"
+    },
+    {
+      "id": 51098,
+      "productId": 31283,
+      "salePrice": 680,
+      "regularSalePrice": 700,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:49.319Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136631,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-08-19T05:33:49.000Z"
+    },
+    {
+      "id": 136630,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-19T05:33:49.000Z"
+    },
+    {
+      "id": 104489,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-08-16T01:27:39.000Z"
+    },
+    {
+      "id": 104488,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-16T01:27:39.000Z"
+    },
+    {
+      "id": 78630,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-08-15T23:38:02.000Z"
+    },
+    {
+      "id": 78629,
+      "productId": 31283,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-08-15T23:38:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037232",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037232",
+    "capturedAt": "2026-08-19T05:33:49.319Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145037232.json"
+  }
+}
