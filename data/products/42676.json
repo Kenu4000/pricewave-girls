@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 42676,
+    "title": "Windows2000/XP DVDソフト The Elder Scrolls IV OBLIVION -GAME OF THE YEAR EDITION-[北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058065",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058065.jpg",
+    "manufacturer": "Bethesda Softworks",
+    "releaseDate": "2007-09-10",
+    "listPrice": null,
+    "modelNumber": "31283-3R",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145058065001",
+      "メーカー": "Bethesda Softworks",
+      "発売日": "2007/09/10",
+      "型番": "31283-3R",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:07.801Z"
+  },
+  "histories": [
+    {
+      "id": 42690,
+      "productId": 42676,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:01.224Z"
+    },
+    {
+      "id": 44160,
+      "productId": 42676,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:07.801Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114226,
+      "productId": 42676,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 260,
+      "checkedAt": "2026-08-17T09:38:07.000Z"
+    },
+    {
+      "id": 110141,
+      "productId": 42676,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスク不備",
+      "price": 260,
+      "checkedAt": "2026-08-17T07:14:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

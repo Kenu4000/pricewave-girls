@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 71374,
+    "title": "Windows2000/XP/Vista/7 CDソフト ごっくん!おさな妻 ー黒髪ぷに巨乳な新妻との新婚LIFEー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032379",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032379.jpg",
+    "manufacturer": "ぴたふぇち!",
+    "releaseDate": "2012-05-25",
+    "listPrice": 3300,
+    "modelNumber": "PITA-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032379001",
+      "メーカー": "ぴたふぇち!",
+      "発売日": "2012/05/25",
+      "定価": "3,300円",
+      "型番": "PITA-003",
+      "原画": "師走ほりお",
+      "シナリオ": "人間牧場50cc",
+      "声優": "水純なな歩",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:18.455Z"
+  },
+  "histories": [
+    {
+      "id": 71388,
+      "productId": 71374,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:18.455Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204875,
+      "productId": 71374,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-02T21:37:18.000Z"
+    },
+    {
+      "id": 204874,
+      "productId": 71374,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-09-02T21:37:18.000Z"
+    },
+    {
+      "id": 204873,
+      "productId": 71374,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-09-02T21:37:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032379",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032379",
+    "capturedAt": "2026-09-02T21:37:18.455Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 380
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145032379.json"
+  }
+}

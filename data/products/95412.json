@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 95412,
+    "title": "Windows11 DVDソフト 飛べない蝶のバレンタイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084848",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084848.jpg",
+    "manufacturer": "CloverGAME",
+    "releaseDate": "2026-09-18",
+    "listPrice": 3850,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145084848000",
+      "メーカー": "CloverGAME",
+      "発売日": "2026/09/18",
+      "定価": "3,850円",
+      "原画": "倉澤もこ",
+      "企画・シナリオ": "一条唯",
+      "音楽": "Peak A Soul+",
+      "声優": "ゆうひ\nしましまはかせ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "シナリオ": "一条唯 音楽 Peak A Soul+",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:41.380Z"
+  },
+  "histories": [
+    {
+      "id": 95426,
+      "productId": 95412,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:41.380Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294070,
+      "productId": 95412,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294069,
+      "productId": 95412,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 3850,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294068,
+      "productId": 95412,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 3850,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    },
+    {
+      "id": 294067,
+      "productId": 95412,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品",
+      "price": 3580,
+      "checkedAt": "2026-09-19T13:53:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084848",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084848",
+    "capturedAt": "2026-09-19T13:53:41.380Z",
+    "items": [
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品",
+        "price": 3580
+      },
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 3850
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 3850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 3580
+      }
+    ],
+    "path": "data/other-shops/145084848.json"
+  }
+}

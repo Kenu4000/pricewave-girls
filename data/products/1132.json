@@ -1,0 +1,156 @@
+{
+  "product": {
+    "id": 1132,
+    "title": "Windows10 DVDソフト オトカノ -おとうとの彼女が文系で強め!?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074567",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074567.jpg",
+    "manufacturer": "North Box",
+    "releaseDate": "2022-05-27",
+    "listPrice": 10780,
+    "modelNumber": "NORB-004",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145074567",
+      "メーカー": "North Box",
+      "発売日": "2022/05/27",
+      "定価": "10,780円",
+      "型番": "NORB-004",
+      "原画": "黒結",
+      "シナリオ": "C6C\n箒星",
+      "声優": "叶一華\n風鈴みすず\n水野七海\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-30T16:05:53.966Z"
+  },
+  "histories": [
+    {
+      "id": 1146,
+      "productId": 1132,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6024,
+      "productId": 1132,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 22681,
+      "productId": 1132,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:33:51.993Z"
+    },
+    {
+      "id": 35450,
+      "productId": 1132,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:45:34.222Z"
+    },
+    {
+      "id": 46035,
+      "productId": 1132,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:35:49.927Z"
+    },
+    {
+      "id": 56981,
+      "productId": 1132,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T15:58:16.866Z"
+    },
+    {
+      "id": 67474,
+      "productId": 1132,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-30T16:05:53.966Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 51552,
+      "productId": 1132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    },
+    {
+      "id": 51551,
+      "productId": 1132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-09T01:34:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074567",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074567",
+    "capturedAt": "2026-08-30T16:05:53.966Z",
+    "items": [],
+    "path": "data/other-shops/145074567.json"
+  }
+}

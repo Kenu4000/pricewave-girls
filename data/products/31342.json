@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 31342,
+    "title": "Windows2000/XP/Vista/7 DVDソフト やらせてっ!てぃーちゃー ～学園旅行～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036298",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036298.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2013-05-31",
+    "listPrice": 9680,
+    "modelNumber": "PS-0027",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036298",
+      "メーカー": "TRYSET",
+      "発売日": "2013/05/31",
+      "定価": "9,680円",
+      "型番": "PS-0027",
+      "原画": "天乃御剣",
+      "シナリオ": "橋野次郎",
+      "声優": "長瀬ゆずは\n金松由花\n犬飼あお(夕凪音)\n藍川珪\nこのえゆずこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:14.857Z"
+  },
+  "histories": [
+    {
+      "id": 31356,
+      "productId": 31342,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:43.214Z"
+    },
+    {
+      "id": 40098,
+      "productId": 31342,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:07.480Z"
+    },
+    {
+      "id": 51148,
+      "productId": 31342,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:14.857Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036298",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036298",
+    "capturedAt": "2026-08-19T05:34:14.857Z",
+    "items": [],
+    "path": "data/other-shops/145036298.json"
+  }
+}

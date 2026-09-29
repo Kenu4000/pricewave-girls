@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29173,
+    "title": "Windows8.1/10 DVDソフト 先生は大人だから! -大人っぽく見られるのにこんな事までしなくちゃいけないの!?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145078687",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145078687.jpg",
+    "manufacturer": "アンモライト",
+    "releaseDate": "2023-08-25",
+    "listPrice": 3300,
+    "modelNumber": "AMML-033",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145078687",
+      "メーカー": "アンモライト",
+      "発売日": "2023/08/25",
+      "定価": "3,300円",
+      "型番": "AMML-033",
+      "原画": "一河のあ",
+      "シナリオ": "岡下誠",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 912,
+    "latestRegularSalePrice": 912,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:29:27.790Z"
+  },
+  "histories": [
+    {
+      "id": 29187,
+      "productId": 29173,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:04:12.449Z"
+    },
+    {
+      "id": 38024,
+      "productId": 29173,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:52.476Z"
+    },
+    {
+      "id": 49226,
+      "productId": 29173,
+      "salePrice": 912,
+      "regularSalePrice": 912,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:29:27.790Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145078687",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145078687",
+    "capturedAt": "2026-08-19T04:29:27.790Z",
+    "items": [],
+    "path": "data/other-shops/145078687.json"
+  }
+}

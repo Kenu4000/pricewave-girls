@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 55848,
+    "title": "WindowsVista/7/8/10 CDソフト 俺と母さんのラブ調教",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054626",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054626.jpg",
+    "manufacturer": "MAMAMAX",
+    "releaseDate": "2016-05-27",
+    "listPrice": 1430,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054626001",
+      "メーカー": "MAMAMAX",
+      "発売日": "2016/05/27",
+      "定価": "1,430円",
+      "原画": "N・O-茶々丸",
+      "シナリオ": "人間牧場50cc",
+      "声優": "雨津さえ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:44.710Z"
+  },
+  "histories": [
+    {
+      "id": 55862,
+      "productId": 55848,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:44.710Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151006,
+      "productId": 55848,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-21T05:30:44.000Z"
+    },
+    {
+      "id": 151005,
+      "productId": 55848,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1200,
+      "checkedAt": "2026-08-21T05:30:44.000Z"
+    },
+    {
+      "id": 151004,
+      "productId": 55848,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 990,
+      "checkedAt": "2026-08-21T05:30:44.000Z"
+    },
+    {
+      "id": 151003,
+      "productId": 55848,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-08-21T05:30:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054626",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054626",
+    "capturedAt": "2026-08-21T05:30:44.710Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古通常/店舗併売",
+        "price": 990
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145054626.json"
+  }
+}

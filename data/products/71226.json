@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 71226,
+    "title": "Windows DVDソフト 牝イキ生放送 -あの娘がエロくて凸りました-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061636.jpg",
+    "manufacturer": "ノアールソフト",
+    "releaseDate": "2018-06-29",
+    "listPrice": 7480,
+    "modelNumber": "NRS-013",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145061636",
+      "メーカー": "ノアールソフト",
+      "発売日": "2018/06/29",
+      "定価": "7,480円",
+      "型番": "NRS-013",
+      "原画": "NioNio",
+      "シナリオ": "南条巴",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-10T05:15:26.334Z"
+  },
+  "histories": [
+    {
+      "id": 71240,
+      "productId": 71226,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:11.301Z"
+    },
+    {
+      "id": 84317,
+      "productId": 71226,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-10T05:15:26.334Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 251609,
+      "productId": 71226,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース）",
+      "price": 1380,
+      "checkedAt": "2026-09-10T05:15:26.000Z"
+    },
+    {
+      "id": 251608,
+      "productId": 71226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-09-10T05:15:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061636",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061636",
+    "capturedAt": "2026-09-10T05:15:26.334Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（正規ケース）",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145061636.json"
+  }
+}

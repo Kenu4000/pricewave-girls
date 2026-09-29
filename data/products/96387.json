@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 96387,
+    "title": "Windows7/8.1/10 DVDソフト おいでよ! 水龍敬ランド -家族とスケベなテーマパーク!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057995",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057995.jpg",
+    "manufacturer": "BEe Light",
+    "releaseDate": "2017-07-28",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0181",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057995",
+      "メーカー": "BEe Light",
+      "発売日": "2017/07/28",
+      "定価": "4,180円",
+      "型番": "MGGW0181",
+      "原画": "水龍敬",
+      "シナリオ": "川原圭人",
+      "声優": "鶴屋春人\n長原杏子\n星空ユメ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:04.432Z"
+  },
+  "histories": [
+    {
+      "id": 96401,
+      "productId": 96387,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:04.432Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057995",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057995",
+    "capturedAt": "2026-09-20T14:09:04.432Z",
+    "items": [],
+    "path": "data/other-shops/145057995.json"
+  }
+}

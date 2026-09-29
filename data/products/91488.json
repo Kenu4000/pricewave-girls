@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91488,
+    "title": "Windows2000/XP/Vista CDソフト 学食のおばさん ～母さんの汁の味～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017490",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017490.jpg",
+    "manufacturer": "Guilty+",
+    "releaseDate": "2008-01-11",
+    "listPrice": 3457,
+    "modelNumber": "WILL-197",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017490001",
+      "メーカー": "Guilty+",
+      "発売日": "2008/01/11",
+      "定価": "3,457円",
+      "型番": "WILL-197",
+      "原画": "紅葉-K",
+      "シナリオ": "髪ノ毛座\n錆縞亭猫丸",
+      "声優": "深井晴花\n飯田空",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:02.208Z"
+  },
+  "histories": [
+    {
+      "id": 91502,
+      "productId": 91488,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:02.208Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279136,
+      "productId": 91488,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279135,
+      "productId": 91488,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279134,
+      "productId": 91488,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279133,
+      "productId": 91488,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017490",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017490",
+    "capturedAt": "2026-09-14T17:29:02.208Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145017490.json"
+  }
+}

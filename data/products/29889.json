@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 29889,
+    "title": "Windows DVDソフト まりかDVD写真集 ワンパインター編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059244",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059244.jpg",
+    "manufacturer": "ミルキーキャット",
+    "releaseDate": "2017-04-24",
+    "listPrice": 2200,
+    "modelNumber": "FCD-22",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145059244",
+      "メーカー": "ミルキーキャット",
+      "発売日": "2017/04/24",
+      "定価": "2,200円",
+      "型番": "FCD-22",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2511,
+    "latestRegularSalePrice": 2511,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:10.172Z"
+  },
+  "histories": [
+    {
+      "id": 29903,
+      "productId": 29889,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:45.708Z"
+    },
+    {
+      "id": 38708,
+      "productId": 29889,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:10.671Z"
+    },
+    {
+      "id": 49772,
+      "productId": 29889,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:24.844Z"
+    },
+    {
+      "id": 60431,
+      "productId": 29889,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:12:19.061Z"
+    },
+    {
+      "id": 70713,
+      "productId": 29889,
+      "salePrice": 2511,
+      "regularSalePrice": 2511,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:10.172Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059244",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059244",
+    "capturedAt": "2026-09-02T20:47:10.172Z",
+    "items": [],
+    "path": "data/other-shops/145059244.json"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "product": {
+    "id": 75632,
+    "title": "Windows10/11 DVDソフト 魔法騎士リーンフォリア2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084699",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084699.jpg",
+    "manufacturer": "Lusterise",
+    "releaseDate": "2026-08-28",
+    "listPrice": 3960,
+    "modelNumber": "Lus027",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145084699000中古 ：145084699001",
+      "メーカー": "Lusterise",
+      "発売日": "2026/08/28",
+      "定価": "3,960円",
+      "型番": "Lus027",
+      "原画": "ジェントル佐々木",
+      "シナリオ": "おんぼろ月",
+      "声優": "小波渡陸\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveRegularSalePrice": "3580",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3100,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-09-13T00:07:27.234Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-13T00:07:27.114Z"
+  },
+  "histories": [
+    {
+      "id": 75646,
+      "productId": 75632,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:53:39.490Z"
+    },
+    {
+      "id": 88095,
+      "productId": 75632,
+      "salePrice": 3100,
+      "regularSalePrice": 3580,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:27.114Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71314,
+    "title": "WindowsVista/7/8 DVDソフト 3rdEye Collection Vol.1 BLOODY†RONDO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044598",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044598.jpg",
+    "manufacturer": "3rdEye",
+    "releaseDate": "2014-08-29",
+    "listPrice": 4180,
+    "modelNumber": "BR-COL-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145044598001",
+      "メーカー": "3rdEye",
+      "発売日": "2014/08/29",
+      "定価": "4,180円",
+      "型番": "BR-COL-001",
+      "原画": "蒔田真記\n榊MAKI",
+      "シナリオ": "不死鳥\n桑原文彦\n四万十川清流",
+      "声優": "越田直樹\n青葉りんご\n上田朱音\nみる\n桜川未央\n藤森ゆき奈\n北都南\nかわしまりの\n古河徹人",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-10T05:15:37.682Z"
+  },
+  "histories": [
+    {
+      "id": 71328,
+      "productId": 71314,
+      "salePrice": 611,
+      "regularSalePrice": 611,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:51.090Z"
+    },
+    {
+      "id": 84343,
+      "productId": 71314,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-10T05:15:37.682Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 251681,
+      "productId": 71314,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-10T05:15:37.000Z"
+    },
+    {
+      "id": 251680,
+      "productId": 71314,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-09-10T05:15:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145044598",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044598",
+    "capturedAt": "2026-09-10T05:15:37.682Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145044598.json"
+  }
+}

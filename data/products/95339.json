@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 95339,
+    "title": "Windows98/Me/2000/XP DVDソフト 七彩かなた-夏休み!ドキラブバカンス夢冒険!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014172",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014172.jpg",
+    "manufacturer": "千世(ちせ)",
+    "releaseDate": "2006-05-26",
+    "listPrice": 9680,
+    "modelNumber": "KTCL-003",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014172001",
+      "メーカー": "千世(ちせ)",
+      "発売日": "2006/05/26",
+      "定価": "9,680円",
+      "型番": "KTCL-003",
+      "原画": "田口まこと",
+      "シナリオ": "三輪清宗\n田中天\n三国亮\nHARE\n丹藤武敏\n田中一郎\n秋史恭\n小太刀右京\n千堂琉宇衣",
+      "声優": "広末涼\n安玖深音\n榎津まお\n春日りか\n佐本二厘\nみる\n如月葵\n美咲さぷり\n津雲亮\n本多啓吾",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:15.031Z"
+  },
+  "histories": [
+    {
+      "id": 95353,
+      "productId": 95339,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:15.031Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293872,
+      "productId": 95339,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293871,
+      "productId": 95339,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293870,
+      "productId": 95339,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293869,
+      "productId": 95339,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293868,
+      "productId": 95339,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古ランクB",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    },
+    {
+      "id": 293867,
+      "productId": 95339,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014172",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014172",
+    "capturedAt": "2026-09-17T19:57:15.031Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古ランクB",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 650
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145014172.json"
+  }
+}

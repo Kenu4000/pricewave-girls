@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55716,
+    "title": "Windows10/11 DVDソフト キモメンでも巨根なら学園の爆乳コレクションして孕ませオナホハーレムを作れる！",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077360",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077360.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2023-01-27",
+    "listPrice": 3590,
+    "modelNumber": "MIEL-151",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077360001",
+      "メーカー": "Miel",
+      "発売日": "2023/01/27",
+      "定価": "3,590円",
+      "型番": "MIEL-151",
+      "原画": "石井彰",
+      "シナリオ": "西矢沙広\n遊真一希",
+      "声優": "花月さや\n星空ユメ\n佐倉もも花\n白梅こうめ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:36.461Z"
+  },
+  "histories": [
+    {
+      "id": 55730,
+      "productId": 55716,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:36.461Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150434,
+      "productId": 55716,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-21T05:29:36.000Z"
+    },
+    {
+      "id": 150433,
+      "productId": 55716,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-21T05:29:36.000Z"
+    },
+    {
+      "id": 150432,
+      "productId": 55716,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-08-21T05:29:36.000Z"
+    },
+    {
+      "id": 150431,
+      "productId": 55716,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1310,
+      "checkedAt": "2026-08-21T05:29:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077360",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077360",
+    "capturedAt": "2026-08-21T05:29:36.461Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1310
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 2100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1650
+      }
+    ],
+    "path": "data/other-shops/145077360.json"
+  }
+}

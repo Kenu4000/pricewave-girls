@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41973,
+    "title": "Windows98/Me/2000Pro/XP/Vista DVDソフト くるくるくーる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054125",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054125.jpg",
+    "manufacturer": "アクシス",
+    "releaseDate": "2009-06-26",
+    "listPrice": 9680,
+    "modelNumber": "AX-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145054125",
+      "メーカー": "アクシス",
+      "発売日": "2009/06/26",
+      "定価": "9,680円",
+      "型番": "AX-001",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:22.106Z"
+  },
+  "histories": [
+    {
+      "id": 41987,
+      "productId": 41973,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:59.959Z"
+    },
+    {
+      "id": 53469,
+      "productId": 41973,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:37.946Z"
+    },
+    {
+      "id": 65021,
+      "productId": 41973,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:22.106Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054125",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054125",
+    "capturedAt": "2026-08-29T01:16:22.106Z",
+    "items": [],
+    "path": "data/other-shops/145054125.json"
+  }
+}

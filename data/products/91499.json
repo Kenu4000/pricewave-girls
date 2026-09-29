@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 91499,
+    "title": "Windows98/Me/2000/XP DVDソフト Summer Days(サマーデイズ)[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015043.jpg",
+    "manufacturer": "オーバーフロー",
+    "releaseDate": "2006-10-27",
+    "listPrice": 9350,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015043001",
+      "メーカー": "オーバーフロー",
+      "発売日": "2006/10/27",
+      "定価": "9,350円",
+      "原画": "しぃけんしゃる",
+      "シナリオ": "メイザーズぬまきち",
+      "声優": "皇帝\n平井達矢\n山本華\n柚木かなめ\n遠野そよぎ\n松永雪希\nGUNTA\n神月あおい\n一色ヒカル\n草月弥生\n桜川未央\n原由菓\n双海葉月\n宇和川恵美\n夏海萌\n小栗杷子\n柏倉れん\n越智悠\n浜田結夏\n青井美海\n星野みく\n金子大悟\n桃井いちご\n小田茉莉菜\n前中礼二\nリッキー・力\nはるかめぐみ\n樋口宏澄\n秋山那美\n鈴美巴\n野神奈々",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:05.587Z"
+  },
+  "histories": [
+    {
+      "id": 91513,
+      "productId": 91499,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:05.587Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279164,
+      "productId": 91499,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-09-14T17:29:06.000Z"
+    },
+    {
+      "id": 279163,
+      "productId": 91499,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-14T17:29:06.000Z"
+    },
+    {
+      "id": 279162,
+      "productId": 91499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1240,
+      "checkedAt": "2026-09-14T17:29:06.000Z"
+    },
+    {
+      "id": 279161,
+      "productId": 91499,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-14T17:29:06.000Z"
+    },
+    {
+      "id": 279160,
+      "productId": 91499,
+      "sourceType": "other_shop",
+      "storeName": "パワーステーション",
+      "condition": "中古外箱に傷み、ヨレ、傷等あり",
+      "price": 700,
+      "checkedAt": "2026-09-14T17:29:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015043",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015043",
+    "capturedAt": "2026-09-14T17:29:05.587Z",
+    "items": [
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古外箱に傷み、ヨレ、傷等あり",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1240
+      },
+      {
+        "storeName": "パワーステーション",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145015043.json"
+  }
+}

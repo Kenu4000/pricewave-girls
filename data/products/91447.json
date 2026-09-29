@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 91447,
+    "title": "WindowsXP/Vista/7 DVDソフト 夏色あさがおレジデンス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032062",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032062.jpg",
+    "manufacturer": "空中カリカチュア",
+    "releaseDate": "2012-06-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032062001",
+      "メーカー": "空中カリカチュア",
+      "発売日": "2012/06/29",
+      "定価": "9,680円",
+      "原画": "さとうすすむ\n小鳥遊啓\nchande",
+      "シナリオ": "四方田友\n草薙\n西空康誠\n歪姫",
+      "声優": "御子神猫\n水霧けいと\n花野うさぎ\n金松由花\n田中美智\n木野原さやか\n涼森ちさと\nKD\n天ノ良晴\n朝咲そよ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:47.048Z"
+  },
+  "histories": [
+    {
+      "id": 91461,
+      "productId": 91447,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:47.048Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279025,
+      "productId": 91447,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-14T17:28:47.000Z"
+    },
+    {
+      "id": 279024,
+      "productId": 91447,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-14T17:28:47.000Z"
+    },
+    {
+      "id": 279023,
+      "productId": 91447,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 880,
+      "checkedAt": "2026-09-14T17:28:47.000Z"
+    },
+    {
+      "id": 279022,
+      "productId": 91447,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 792,
+      "checkedAt": "2026-09-14T17:28:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032062",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032062",
+    "capturedAt": "2026-09-14T17:28:47.048Z",
+    "items": [
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 792
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 880
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145032062.json"
+  }
+}

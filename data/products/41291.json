@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 41291,
+    "title": "Windows2000/XP/Vista/7 CDソフト アキバ戦隊!エンジェレイヴァー パワードディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027703",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027703.jpg",
+    "manufacturer": "白濁系",
+    "releaseDate": "2011-03-31",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027703001",
+      "メーカー": "白濁系",
+      "発売日": "2011/03/31",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:13:20.518Z"
+  },
+  "histories": [
+    {
+      "id": 41305,
+      "productId": 41291,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:31.513Z"
+    },
+    {
+      "id": 52986,
+      "productId": 41291,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:38.335Z"
+    },
+    {
+      "id": 63933,
+      "productId": 41291,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:13:20.518Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178876,
+      "productId": 41291,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-27T16:13:20.000Z"
+    },
+    {
+      "id": 178875,
+      "productId": 41291,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-27T16:13:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027703",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027703",
+    "capturedAt": "2026-08-27T16:13:20.518Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145027703.json"
+  }
+}

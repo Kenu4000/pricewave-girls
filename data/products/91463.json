@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 91463,
+    "title": "Windows2000/XP/Vista CDソフト 女子校生真菜の中出しGAME",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020603",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020603.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2009-07-10",
+    "listPrice": 2200,
+    "modelNumber": "sea-015",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020603001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2009/07/10",
+      "定価": "2,200円",
+      "型番": "sea-015",
+      "原画": "濱田麻里",
+      "シナリオ": "春日森",
+      "声優": "綾奈まりあ\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:53.118Z"
+  },
+  "histories": [
+    {
+      "id": 91477,
+      "productId": 91463,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:53.118Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279071,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279070,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279069,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279068,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279067,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279066,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 580,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    },
+    {
+      "id": 279065,
+      "productId": 91463,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 360,
+      "checkedAt": "2026-09-14T17:28:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020603",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020603",
+    "capturedAt": "2026-09-14T17:28:53.118Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 360
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 360
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145020603.json"
+  }
+}

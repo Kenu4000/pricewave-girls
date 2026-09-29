@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 95372,
+    "title": "Windows98/Me/2000/XP DVDソフト 不幸な神",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014231",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014231.jpg",
+    "manufacturer": "BLACKRAINBOW",
+    "releaseDate": "2006-04-28",
+    "listPrice": 7480,
+    "modelNumber": "BR-057",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014231001",
+      "メーカー": "BLACKRAINBOW",
+      "発売日": "2006/04/28",
+      "定価": "7,480円",
+      "型番": "BR-057",
+      "原画": "皇裕介",
+      "シナリオ": "NATORI烏賊",
+      "声優": "高島比菜\n青山ゆかり\n草柳順子\n北都南\n空野太陽\n飯田空\n古畑信\n大河丈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:26.852Z"
+  },
+  "histories": [
+    {
+      "id": 95386,
+      "productId": 95372,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:26.852Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293975,
+      "productId": 95372,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293974,
+      "productId": 95372,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293973,
+      "productId": 95372,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・冊子難有",
+      "price": 680,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014231",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014231",
+    "capturedAt": "2026-09-17T19:57:26.852Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・冊子難有",
+        "price": 680
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145014231.json"
+  }
+}

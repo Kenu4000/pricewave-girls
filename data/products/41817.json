@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 41817,
+    "title": "Windows2000/XP/Vista DVDソフト VenusBlood -DESIRE-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021932",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021932.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2009-11-27",
+    "listPrice": 9680,
+    "modelNumber": "TD-07",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021932001",
+      "メーカー": "Dual Tail",
+      "発売日": "2009/11/27",
+      "定価": "9,680円",
+      "型番": "TD-07",
+      "原画": "丹下ゲンタ\nトシぞー",
+      "シナリオ": "けーまる\n内山涼介\nイルカ",
+      "アーティスト": "桃梨",
+      "声優": "咲ゆたか\n花南\n水純なな歩\n和葉\n渋谷ひめ\n岩泉まい\nももぞの薫",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:05:38.040Z"
+  },
+  "histories": [
+    {
+      "id": 41831,
+      "productId": 41817,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:38.040Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 108360,
+      "productId": 41817,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-17T07:05:38.000Z"
+    },
+    {
+      "id": 108359,
+      "productId": 41817,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 980,
+      "checkedAt": "2026-08-17T07:05:38.000Z"
+    },
+    {
+      "id": 108358,
+      "productId": 41817,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:05:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021932",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021932",
+    "capturedAt": "2026-08-17T07:05:38.040Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145021932.json"
+  }
+}

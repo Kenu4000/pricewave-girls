@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 1477,
+    "title": "Windows8.1/10 DVDソフト 邪淫のいけにえ3 -新章：ねらわれた学園-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145069908",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145069908.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2020-10-30",
+    "listPrice": 8580,
+    "modelNumber": "CHA-008",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145069908001",
+      "メーカー": "CHAOS-R",
+      "発売日": "2020/10/30",
+      "定価": "8,580円",
+      "型番": "CHA-008",
+      "原画": "金目鯛ぴんく\nあかつきまお\n森山しじみ\nいせのやじん",
+      "シナリオ": "kozakana\n玉沢円\n時田シャケ\n藤宮ひいろ",
+      "声優": "逢月ねる\n榊木春乃\n櫻井ありす\n花安未羽・H(アッシュ)\n美空なつひ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:21.158Z"
+  },
+  "histories": [
+    {
+      "id": 1491,
+      "productId": 1477,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6385,
+      "productId": 1477,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:47.000Z"
+    },
+    {
+      "id": 44477,
+      "productId": 1477,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:56.350Z"
+    },
+    {
+      "id": 72247,
+      "productId": 1477,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:21.158Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207883,
+      "productId": 1477,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-09-03T01:17:21.000Z"
+    },
+    {
+      "id": 207882,
+      "productId": 1477,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-09-03T01:17:21.000Z"
+    },
+    {
+      "id": 207881,
+      "productId": 1477,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1890,
+      "checkedAt": "2026-09-03T01:17:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145069908",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145069908",
+    "capturedAt": "2026-09-03T01:17:21.158Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1890
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1980
+      }
+    ],
+    "path": "data/other-shops/145069908.json"
+  }
+}

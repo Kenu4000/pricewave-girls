@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 42995,
+    "title": "Windows98/Me/2000/XP CDソフト 美味しい棒が2本",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014867",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014867.jpg",
+    "manufacturer": "サイコ PSYCHO",
+    "releaseDate": "2006-11-17",
+    "listPrice": 6380,
+    "modelNumber": "PSY006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014867001",
+      "メーカー": "サイコ PSYCHO",
+      "発売日": "2006/11/17",
+      "定価": "6,380円",
+      "型番": "PSY006",
+      "原画": "桂ともえ",
+      "シナリオ": "下地和彦",
+      "声優": "あさり☆",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "400",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 380,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:06:19.996Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:54.452Z"
+  },
+  "histories": [
+    {
+      "id": 43009,
+      "productId": 42995,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:01.537Z"
+    },
+    {
+      "id": 55098,
+      "productId": 42995,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:49.691Z"
+    },
+    {
+      "id": 66185,
+      "productId": 42995,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:19.412Z"
+    },
+    {
+      "id": 75628,
+      "productId": 42995,
+      "salePrice": 380,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:54.452Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

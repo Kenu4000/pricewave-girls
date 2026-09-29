@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 82660,
+    "title": "Windows7/8.1/10 DVDソフト 独占島 あんたを好きになるくらいなら孕まされた方がマシよ! [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064636.jpg",
+    "manufacturer": "WitchFlame",
+    "releaseDate": "2019-05-31",
+    "listPrice": 4180,
+    "modelNumber": "WIF-021",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145064636001",
+      "メーカー": "WitchFlame",
+      "発売日": "2019/05/31",
+      "定価": "4,180円",
+      "型番": "WIF-021",
+      "原画": "いっせー",
+      "シナリオ": "たかなみれい\n須々木鮎尾",
+      "声優": "鈴原なぎ\n星空ユメ\n今谷皆美\n大和桜\n手塚りょうこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1750,
+    "latestRegularSalePrice": 1750,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:21.230Z"
+  },
+  "histories": [
+    {
+      "id": 82674,
+      "productId": 82660,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:21.230Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245390,
+      "productId": 82660,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1750,
+      "checkedAt": "2026-09-09T05:32:21.000Z"
+    },
+    {
+      "id": 245389,
+      "productId": 82660,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-09-09T05:32:21.000Z"
+    },
+    {
+      "id": 245388,
+      "productId": 82660,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1445,
+      "checkedAt": "2026-09-09T05:32:21.000Z"
+    },
+    {
+      "id": 245387,
+      "productId": 82660,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1500,
+      "checkedAt": "2026-09-09T05:32:21.000Z"
+    },
+    {
+      "id": 245386,
+      "productId": 82660,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1445,
+      "checkedAt": "2026-09-09T05:32:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064636",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064636",
+    "capturedAt": "2026-09-09T05:32:21.230Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1445
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1445
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1750
+      }
+    ],
+    "path": "data/other-shops/145064636.json"
+  }
+}

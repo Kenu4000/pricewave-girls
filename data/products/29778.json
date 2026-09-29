@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 29778,
+    "title": "WindowsVista/7/8 DVDソフト 透明人間 挿れ喰い仲三",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058695",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058695.jpg",
+    "manufacturer": "Mink EGO",
+    "releaseDate": "2017-09-29",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145058695001",
+      "メーカー": "Mink EGO",
+      "発売日": "2017/09/29",
+      "定価": "6,380円",
+      "原画": "なめたけのこ",
+      "シナリオ": "よこよこ",
+      "声優": "義仲愛\nいねむりすやこ\n野々村紗夜\n朝井こもも",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145058695?branch_number=0014"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:46:40.973Z"
+  },
+  "histories": [
+    {
+      "id": 29792,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:35.590Z"
+    },
+    {
+      "id": 38602,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:16.775Z"
+    },
+    {
+      "id": 49687,
+      "productId": 29778,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:48.707Z"
+    },
+    {
+      "id": 60372,
+      "productId": 29778,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:11:47.089Z"
+    },
+    {
+      "id": 70655,
+      "productId": 29778,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:46:40.973Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202671,
+      "productId": 29778,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 880,
+      "checkedAt": "2026-09-02T20:46:41.000Z"
+    },
+    {
+      "id": 202670,
+      "productId": 29778,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-09-02T20:46:41.000Z"
+    },
+    {
+      "id": 202669,
+      "productId": 29778,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古ディスクのみ",
+      "price": 880,
+      "checkedAt": "2026-09-02T20:46:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145058695",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058695",
+    "capturedAt": "2026-09-02T20:46:40.973Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古ディスクのみ",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145058695.json"
+  }
+}

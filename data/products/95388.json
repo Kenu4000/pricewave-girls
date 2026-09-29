@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 95388,
+    "title": "Windows98/Me/2000/XP CDソフト レーベンスエンデ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014113",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014113.jpg",
+    "manufacturer": "Lyric",
+    "releaseDate": "2006-03-24",
+    "listPrice": 3300,
+    "modelNumber": "STEL-006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014113",
+      "メーカー": "Lyric",
+      "発売日": "2006/03/24",
+      "定価": "3,300円",
+      "型番": "STEL-006",
+      "原画": "さだお",
+      "シナリオ": "琴羽之文",
+      "声優": "夏川菜々美\n蝶野ポプラ\n西園青葉",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:34.362Z"
+  },
+  "histories": [
+    {
+      "id": 95402,
+      "productId": 95388,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:34.362Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014113",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014113",
+    "capturedAt": "2026-09-17T19:57:34.362Z",
+    "items": [],
+    "path": "data/other-shops/145014113.json"
+  }
+}

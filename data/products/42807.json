@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42807,
+    "title": "WindowsMe/2000/XP DVDソフト ひみつの放課後+ひみつの放課後2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015774",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015774.jpg",
+    "manufacturer": "ビタミン",
+    "releaseDate": "2007-04-27",
+    "listPrice": 5280,
+    "modelNumber": "KSBR-009",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015774",
+      "メーカー": "ビタミン",
+      "発売日": "2007/04/27",
+      "定価": "5,280円",
+      "型番": "KSBR-009",
+      "原画": "くろねこ\n岩舘こう",
+      "シナリオ": "ピーナツ太郎\n清瀬源吾郎\n河本悠壱\n慈恩大",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1311,
+    "latestRegularSalePrice": 1311,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:16.416Z"
+  },
+  "histories": [
+    {
+      "id": 42821,
+      "productId": 42807,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:14.397Z"
+    },
+    {
+      "id": 54955,
+      "productId": 42807,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:38.272Z"
+    },
+    {
+      "id": 66057,
+      "productId": 42807,
+      "salePrice": 1311,
+      "regularSalePrice": 1311,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:16.416Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015774",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015774",
+    "capturedAt": "2026-08-29T13:05:16.416Z",
+    "items": [],
+    "path": "data/other-shops/145015774.json"
+  }
+}

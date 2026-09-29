@@ -1,0 +1,44 @@
+.viewer-change-scope {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #efd7e7;
+  border-radius: 999px;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+}
+
+.viewer-change-scope button {
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  color: #7b6d7e;
+  cursor: pointer;
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 800;
+  min-height: 34px;
+  padding: 7px 12px;
+  white-space: nowrap;
+}
+
+.viewer-change-scope button.active {
+  background: #d9469a;
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  .viewer-change-scope {
+    align-self: stretch;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .viewer-change-scope button {
+    min-width: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    white-space: normal;
+  }
+}

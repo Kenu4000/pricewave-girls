@@ -1,0 +1,160 @@
+{
+  "product": {
+    "id": 91484,
+    "title": "Windows2000/XP/Vista DVDソフト タイムリープ[特別限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016764",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016764.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2007-12-27",
+    "listPrice": 12551,
+    "modelNumber": "FWS-00037",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016764001",
+      "メーカー": "フロントウイング",
+      "発売日": "2007/12/27",
+      "定価": "12,551円",
+      "型番": "FWS-00037",
+      "原画": "MA@YA",
+      "主題歌/声優": "榊原ゆい",
+      "シナリオ": "鳴海瑛二\n北川晴\nかづや\n屑美たけゆき",
+      "声優": "有栖川みや美\n三咲里奈\n鈴原たると\n本山美奈\n安玖深音\n波動拳\n空野太陽\n笠原准",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:00.722Z"
+  },
+  "histories": [
+    {
+      "id": 91498,
+      "productId": 91484,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:00.722Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279123,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1280,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279122,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279121,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279120,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279119,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279118,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279117,
+      "productId": 91484,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016764",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016764",
+    "capturedAt": "2026-09-14T17:29:00.722Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1280
+      }
+    ],
+    "path": "data/other-shops/145016764.json"
+  }
+}
