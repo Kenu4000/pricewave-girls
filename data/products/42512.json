@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 42512,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 必殺シゴキ人 ～神聖巨乳巫女斬り",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017590.jpg",
+    "manufacturer": "鬼畜野郎",
+    "releaseDate": "2008-02-29",
+    "listPrice": 3300,
+    "modelNumber": "KIY-0002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017590001",
+      "メーカー": "鬼畜野郎",
+      "発売日": "2008/02/29",
+      "定価": "3,300円",
+      "型番": "KIY-0002",
+      "原画": "川合正起",
+      "シナリオ": "髪ノ毛座",
+      "声優": "あえか\n丸井寧子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:20.877Z"
+  },
+  "histories": [
+    {
+      "id": 42526,
+      "productId": 42512,
+      "salePrice": 507,
+      "regularSalePrice": 507,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:31.807Z"
+    },
+    {
+      "id": 53868,
+      "productId": 42512,
+      "salePrice": 507,
+      "regularSalePrice": 507,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:59.581Z"
+    },
+    {
+      "id": 65823,
+      "productId": 42512,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:20.877Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 184943,
+      "productId": 42512,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-29T13:03:21.000Z"
+    },
+    {
+      "id": 184942,
+      "productId": 42512,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットエーツー豊川店●ご注文前にこちらから【返品、保証、払い戻し】を必ずご確認ください●",
+      "condition": "中古",
+      "price": 507,
+      "checkedAt": "2026-08-29T13:03:21.000Z"
+    },
+    {
+      "id": 184941,
+      "productId": 42512,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットエーツー豊川店●ご注文前にこちらから【返品、保証、払い戻し】を必ずご確認ください●",
+      "condition": "中古ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+      "price": 507,
+      "checkedAt": "2026-08-29T13:03:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017590",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017590",
+    "capturedAt": "2026-08-29T13:03:20.877Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットエーツー豊川店●ご注文前にこちらから【返品、保証、払い戻し】を必ずご確認ください●",
+        "condition": "中古ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+        "price": 507
+      },
+      {
+        "storeName": "ブックマーケットエーツー豊川店●ご注文前にこちらから【返品、保証、払い戻し】を必ずご確認ください●",
+        "condition": "中古",
+        "price": 507
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145017590.json"
+  }
+}

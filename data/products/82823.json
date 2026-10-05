@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 82823,
+    "title": "Windows98SE/Me/2000/XP CDソフト お嬢様、恥辱の果てに淫狂(わら)う。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015049",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015049.jpg",
+    "manufacturer": "Freakshow",
+    "releaseDate": "2006-11-17",
+    "listPrice": 2200,
+    "modelNumber": "FSS-0002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015049001",
+      "メーカー": "Freakshow",
+      "発売日": "2006/11/17",
+      "定価": "2,200円",
+      "型番": "FSS-0002",
+      "原画": "水原優",
+      "声優": "渡会ななせ\n渋谷ひめ\n櫻井ありす\n奥山歩\n瑠月未来",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:49.326Z"
+  },
+  "histories": [
+    {
+      "id": 82837,
+      "productId": 82823,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:49.326Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245837,
+      "productId": 82823,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-09T05:33:49.000Z"
+    },
+    {
+      "id": 245836,
+      "productId": 82823,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 680,
+      "checkedAt": "2026-09-09T05:33:49.000Z"
+    },
+    {
+      "id": 245835,
+      "productId": 82823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 200,
+      "checkedAt": "2026-09-09T05:33:49.000Z"
+    },
+    {
+      "id": 245834,
+      "productId": 82823,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 200,
+      "checkedAt": "2026-09-09T05:33:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015049",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015049",
+    "capturedAt": "2026-09-09T05:33:49.326Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 200
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 200
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145015049.json"
+  }
+}

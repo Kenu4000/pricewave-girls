@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 80702,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2+ GP-02",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067942",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067942.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2020-01-31",
+    "listPrice": 4378,
+    "modelNumber": "KISS-106",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067942",
+      "メーカー": "KISS",
+      "発売日": "2020/01/31",
+      "定価": "4,378円",
+      "型番": "KISS-106",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "外箱欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2199,
+    "latestRegularSalePrice": 2199,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": "外箱欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:56.374Z"
+  },
+  "histories": [
+    {
+      "id": 80716,
+      "productId": 80702,
+      "salePrice": 2199,
+      "regularSalePrice": 2199,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:56.374Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067942",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067942",
+    "capturedAt": "2026-09-07T13:47:56.374Z",
+    "items": [],
+    "path": "data/other-shops/145067942.json"
+  }
+}

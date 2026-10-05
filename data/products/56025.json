@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 56025,
+    "title": "Windows2000/XP/Vista DVDソフト シスタ×シスタ ～Lovevery Sisters～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019677",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019677.jpg",
+    "manufacturer": "Apricot Cherry",
+    "releaseDate": "2009-04-24",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019677001",
+      "メーカー": "Apricot Cherry",
+      "発売日": "2009/04/24",
+      "定価": "7,480円",
+      "原画": "いまだこずへ\nTOMA",
+      "声優": "大久保けんたろう\n一色ヒカル\n成瀬未亜\n茶谷やすら\n如月葵\nかめまる",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145019677?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-05T13:04:37.633Z"
+  },
+  "histories": [
+    {
+      "id": 56039,
+      "productId": 56025,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:20.484Z"
+    },
+    {
+      "id": 75148,
+      "productId": 56025,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:41:39.482Z"
+    },
+    {
+      "id": 87921,
+      "productId": 56025,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:06:33.788Z"
+    },
+    {
+      "id": 104227,
+      "productId": 56025,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T13:04:37.633Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 327212,
+      "productId": 56025,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 300,
+      "checkedAt": "2026-10-05T13:04:37.000Z"
+    },
+    {
+      "id": 327211,
+      "productId": 56025,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-10-05T13:04:37.000Z"
+    },
+    {
+      "id": 327210,
+      "productId": 56025,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ディスクのみ",
+      "price": 300,
+      "checkedAt": "2026-10-05T13:04:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019677",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019677",
+    "capturedAt": "2026-10-05T13:04:37.633Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ディスクのみ",
+        "price": 300
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145019677.json"
+  }
+}

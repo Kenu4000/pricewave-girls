@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 41382,
+    "title": "WindowsXP/Vista/7 CDソフト 放課後裏レッスンー性教育は先生にお任せ!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026346",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026346.jpg",
+    "manufacturer": "EROTICA PEACH",
+    "releaseDate": "2011-01-21",
+    "listPrice": 2200,
+    "modelNumber": "ERP-00008",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026346001",
+      "メーカー": "EROTICA PEACH",
+      "発売日": "2011/01/21",
+      "定価": "2,200円",
+      "型番": "ERP-00008",
+      "原画": "さあぺんと",
+      "シナリオ": "JUN",
+      "声優": "栗モナカ\n池野ほたる\n雪乃ありさ\n夏樹柑菜\n松井彩夏\n桜ちとせ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 440,
+    "latestRegularSalePrice": 440,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:01:22.629Z"
+  },
+  "histories": [
+    {
+      "id": 41396,
+      "productId": 41382,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:22.629Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 107504,
+      "productId": 41382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1165,
+      "checkedAt": "2026-08-17T07:01:22.000Z"
+    },
+    {
+      "id": 107503,
+      "productId": 41382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T07:01:22.000Z"
+    },
+    {
+      "id": 107502,
+      "productId": 41382,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 440,
+      "checkedAt": "2026-08-17T07:01:22.000Z"
+    },
+    {
+      "id": 107501,
+      "productId": 41382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 390,
+      "checkedAt": "2026-08-17T07:01:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026346",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026346",
+    "capturedAt": "2026-08-17T07:01:22.629Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 390
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 440
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1165
+      }
+    ],
+    "path": "data/other-shops/145026346.json"
+  }
+}

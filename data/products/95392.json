@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 95392,
+    "title": "Windows98/Me/2000/XP CDソフト 女子校生快楽特急 ～痴漢ジャンキー～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014042",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014042.jpg",
+    "manufacturer": "アンダーリップ",
+    "releaseDate": "2006-03-24",
+    "listPrice": 2305,
+    "modelNumber": "UL-115",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014042001",
+      "メーカー": "アンダーリップ",
+      "発売日": "2006/03/24",
+      "定価": "2,305円",
+      "型番": "UL-115",
+      "原画": "火炎味噌",
+      "シナリオ": "JUN",
+      "声優": "五行なずな",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 460,
+    "latestRegularSalePrice": 460,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:35.275Z"
+  },
+  "histories": [
+    {
+      "id": 95406,
+      "productId": 95392,
+      "salePrice": 460,
+      "regularSalePrice": 460,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:35.275Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294000,
+      "productId": 95392,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 460,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    },
+    {
+      "id": 293999,
+      "productId": 95392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    },
+    {
+      "id": 293998,
+      "productId": 95392,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 360,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014042",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014042",
+    "capturedAt": "2026-09-17T19:57:35.275Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 360
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 460
+      }
+    ],
+    "path": "data/other-shops/145014042.json"
+  }
+}

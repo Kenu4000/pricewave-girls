@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 55694,
+    "title": "Windows10/11 DVDソフト ご主人様は妹ですか? -Mっ娘好きの俺が、なんで妹のM男に!?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080720",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080720.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2024-03-29",
+    "listPrice": 2200,
+    "modelNumber": "APT-253",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080720001",
+      "メーカー": "アパタイト",
+      "発売日": "2024/03/29",
+      "定価": "2,200円",
+      "型番": "APT-253",
+      "原画": "すてりい",
+      "シナリオ": "岡下誠",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 400,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:24.228Z"
+  },
+  "histories": [
+    {
+      "id": 55708,
+      "productId": 55694,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:24.228Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150348,
+      "productId": 55694,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    },
+    {
+      "id": 150347,
+      "productId": 55694,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品・外箱日焼け有",
+      "price": 1480,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    },
+    {
+      "id": 150346,
+      "productId": 55694,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080720",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080720",
+    "capturedAt": "2026-08-21T05:29:24.228Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品・外箱日焼け有",
+        "price": 1480
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 400
+      }
+    ],
+    "path": "data/other-shops/145080720.json"
+  }
+}

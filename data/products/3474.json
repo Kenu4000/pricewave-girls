@@ -1,0 +1,110 @@
+{
+  "product": {
+    "id": 3474,
+    "title": "Windows95/98 CDソフト CROSS ～恋の陽射～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002355",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002355.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "1999-03-26",
+    "listPrice": 9680,
+    "modelNumber": "JSP-006",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002355",
+      "メーカー": "SPEED",
+      "発売日": "1999/03/26",
+      "定価": "9,680円",
+      "型番": "JSP-006",
+      "原画": "水野滝",
+      "シナリオ": "アル\nインディたかむら\n大月しん\n秩父野人\nLUCYEL",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 760,
+    "latestRegularSalePrice": 760,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:52:21.992Z"
+  },
+  "histories": [
+    {
+      "id": 3488,
+      "productId": 3474,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:48.000Z"
+    },
+    {
+      "id": 37220,
+      "productId": 3474,
+      "salePrice": 808,
+      "regularSalePrice": 808,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:55.722Z"
+    },
+    {
+      "id": 47794,
+      "productId": 3474,
+      "salePrice": 808,
+      "regularSalePrice": 808,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:08:29.979Z"
+    },
+    {
+      "id": 58645,
+      "productId": 3474,
+      "salePrice": 808,
+      "regularSalePrice": 808,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:40:56.585Z"
+    },
+    {
+      "id": 69444,
+      "productId": 3474,
+      "salePrice": 760,
+      "regularSalePrice": 760,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:52:21.992Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145002355",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002355",
+    "capturedAt": "2026-09-02T02:52:21.992Z",
+    "items": [],
+    "path": "data/other-shops/145002355.json"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 30078,
+    "title": "Windows7/8/10 DVDソフト 魔性眼鏡",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054571",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054571.jpg",
+    "manufacturer": "PIL-VAMP",
+    "releaseDate": "2016-07-29",
+    "listPrice": 7150,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054571",
+      "メーカー": "PIL-VAMP",
+      "発売日": "2016/07/29",
+      "定価": "7,150円",
+      "原画": "ことみようじ",
+      "シナリオ": "喜屋武米助",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:16:42.453Z"
+  },
+  "histories": [
+    {
+      "id": 30092,
+      "productId": 30078,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:34.560Z"
+    },
+    {
+      "id": 38886,
+      "productId": 30078,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:43.295Z"
+    },
+    {
+      "id": 49898,
+      "productId": 30078,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:21.522Z"
+    },
+    {
+      "id": 61361,
+      "productId": 30078,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:16:42.453Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

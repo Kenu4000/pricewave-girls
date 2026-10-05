@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42332,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト MESSIAH Paranoia ∞ Paradox",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018389",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018389.jpg",
+    "manufacturer": "CORE-DUSK",
+    "releaseDate": "2008-08-08",
+    "listPrice": 4950,
+    "modelNumber": "CORE-006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018389",
+      "メーカー": "CORE-DUSK",
+      "発売日": "2008/08/08",
+      "定価": "4,950円",
+      "型番": "CORE-006",
+      "原画": "CARNELIAN",
+      "シナリオ": "片桐由摩",
+      "声優": "茶山みつ子\n黒瀬鷹\n凪野隼斗\n皇帝\n本山美奈\n奥田香織\n犬野忠輔\n一色ヒカル\nリバウンド玉三郎\n保村真",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 8800,
+    "latestRegularSalePrice": 8800,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:42.294Z"
+  },
+  "histories": [
+    {
+      "id": 42346,
+      "productId": 42332,
+      "salePrice": 8800,
+      "regularSalePrice": 8800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:36.629Z"
+    },
+    {
+      "id": 44109,
+      "productId": 42332,
+      "salePrice": 8800,
+      "regularSalePrice": 8800,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:42.294Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018389",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018389",
+    "capturedAt": "2026-08-17T09:37:42.294Z",
+    "items": [],
+    "path": "data/other-shops/145018389.json"
+  }
+}

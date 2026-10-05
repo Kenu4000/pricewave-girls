@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 91363,
+    "title": "Windows10/11 DVDソフト Roomガール PARADISE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077494",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077494.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2023-04-28",
+    "listPrice": 6380,
+    "modelNumber": "ILN-118",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077494001",
+      "メーカー": "ILLUSION",
+      "発売日": "2023/04/28",
+      "定価": "6,380円",
+      "型番": "ILN-118",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 9550,
+    "latestRegularSalePrice": 9550,
+    "latestBuyPrice": 6200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:14.526Z"
+  },
+  "histories": [
+    {
+      "id": 91377,
+      "productId": 91363,
+      "salePrice": 9550,
+      "regularSalePrice": 9550,
+      "buyPrice": 6200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:14.526Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278824,
+      "productId": 91363,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 9550,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278823,
+      "productId": 91363,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品（状態に難有）",
+      "price": 11800,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278822,
+      "productId": 91363,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古",
+      "price": 8595,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278821,
+      "productId": 91363,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 8601,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278820,
+      "productId": 91363,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+      "price": 8595,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077494",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077494",
+    "capturedAt": "2026-09-14T17:28:14.526Z",
+    "items": [
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+        "price": 8595
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 8601
+      },
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古",
+        "price": 8595
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品（状態に難有）",
+        "price": 11800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 9550
+      }
+    ],
+    "path": "data/other-shops/145077494.json"
+  }
+}

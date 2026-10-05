@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 42522,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 凌辱荘[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017471",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017471.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2008-02-15",
+    "listPrice": 3080,
+    "modelNumber": "INH-259",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017471",
+      "メーカー": "インターハート",
+      "発売日": "2008/02/15",
+      "定価": "3,080円",
+      "型番": "INH-259",
+      "原画": "矢神雲斎\n牧田良信",
+      "キャラクターデザイン": "よしもときんじ",
+      "音楽": "T&N MUSIC Factory",
+      "声優": "風音\n木葉楓\n芹園みや\n如月美琴\n早瀬碧\nみる\n紫華すみれ\n深井晴花\nYuki-Lin",
+      "シナリオ": "雪月陽花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:04.171Z"
+  },
+  "histories": [
+    {
+      "id": 42536,
+      "productId": 42522,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:36.047Z"
+    },
+    {
+      "id": 53877,
+      "productId": 42522,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:04.171Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017471",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017471",
+    "capturedAt": "2026-08-19T16:28:04.171Z",
+    "items": [],
+    "path": "data/other-shops/145017471.json"
+  }
+}

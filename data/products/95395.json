@@ -1,0 +1,171 @@
+{
+  "product": {
+    "id": 95395,
+    "title": "Windows98/Me/2000/XP DVDソフト LOST CHILD [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012045",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012045.jpg",
+    "manufacturer": "たまソフト",
+    "releaseDate": "2006-03-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145012045001",
+      "メーカー": "たまソフト",
+      "発売日": "2006/03/24",
+      "定価": "9,680円",
+      "原画": "凪良\n長浜めぐみ",
+      "シナリオ": "枯草純",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:35.641Z"
+  },
+  "histories": [
+    {
+      "id": 95409,
+      "productId": 95395,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:35.641Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294011,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294010,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294009,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294008,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 800,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294007,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294006,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294005,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    },
+    {
+      "id": 294004,
+      "productId": 95395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-17T19:57:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145012045",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012045",
+    "capturedAt": "2026-09-17T19:57:35.641Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145012045.json"
+  }
+}

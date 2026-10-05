@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 41520,
+    "title": "Windows2000/XP/Vista/7 DVDソフト イキジゴク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025168",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025168.jpg",
+    "manufacturer": "スタジオ カメ",
+    "releaseDate": "2010-09-17",
+    "listPrice": 4620,
+    "modelNumber": "KAD-000",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025168",
+      "メーカー": "スタジオ カメ",
+      "発売日": "2010/09/17",
+      "定価": "4,620円",
+      "型番": "KAD-000",
+      "原画": "LaFT",
+      "シナリオ": "ヤタベトシキ",
+      "声優": "朝倉奏美\n黒岩心々\n西中光",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:18.234Z"
+  },
+  "histories": [
+    {
+      "id": 41534,
+      "productId": 41520,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:44.629Z"
+    },
+    {
+      "id": 53152,
+      "productId": 41520,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 450,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:00.986Z"
+    },
+    {
+      "id": 64740,
+      "productId": 41520,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:18.234Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

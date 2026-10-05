@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 29113,
+    "title": "Windows CDソフト 妹(姉)は兄(弟)の性癖を歪ませたい! ソフマップ特典スペシャルボイスディスク 「バレンタインのチョコレート(意味深)」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082998",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082998.jpg",
+    "manufacturer": "しろくまだんご",
+    "releaseDate": "2025-03-28",
+    "listPrice": null,
+    "modelNumber": "HBTT475",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145082998001",
+      "メーカー": "しろくまだんご",
+      "発売日": "2025/03/28",
+      "型番": "HBTT475",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:03.352Z"
+  },
+  "histories": [
+    {
+      "id": 29127,
+      "productId": 29113,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:31.573Z"
+    },
+    {
+      "id": 37968,
+      "productId": 29113,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:07:25.806Z"
+    },
+    {
+      "id": 48401,
+      "productId": 29113,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:13:52.192Z"
+    },
+    {
+      "id": 59518,
+      "productId": 29113,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:04:20.102Z"
+    },
+    {
+      "id": 70301,
+      "productId": 29113,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:03.352Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201580,
+      "productId": 29113,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:44:03.000Z"
+    },
+    {
+      "id": 201579,
+      "productId": 29113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-02T20:44:03.000Z"
+    },
+    {
+      "id": 201578,
+      "productId": 29113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-02T20:44:03.000Z"
+    },
+    {
+      "id": 201577,
+      "productId": 29113,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-02T20:44:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082998",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082998",
+    "capturedAt": "2026-09-02T20:44:03.352Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145082998.json"
+  }
+}

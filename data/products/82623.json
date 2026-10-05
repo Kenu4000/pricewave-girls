@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 82623,
+    "title": "Windows CDソフト 熟れムチ爆乳冒険者パーティーは孕ませ肉オナホ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082194",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082194.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2024-07-26",
+    "listPrice": 3370,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145082194001",
+      "メーカー": "Miel",
+      "発売日": "2024/07/26",
+      "定価": "3,370円",
+      "原画": "ぷろていんB6",
+      "シナリオ": "西矢沙広\n遊真一希",
+      "声優": "梅宮ここ\nひむろゆり\n花月さや",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:00.482Z"
+  },
+  "histories": [
+    {
+      "id": 82637,
+      "productId": 82623,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:00.482Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245235,
+      "productId": 82623,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-09-09T05:32:02.000Z"
+    },
+    {
+      "id": 245234,
+      "productId": 82623,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 2185,
+      "checkedAt": "2026-09-09T05:32:02.000Z"
+    },
+    {
+      "id": 245233,
+      "productId": 82623,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1501,
+      "checkedAt": "2026-09-09T05:32:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082194",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082194",
+    "capturedAt": "2026-09-09T05:32:00.482Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1501
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 2185
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145082194.json"
+  }
+}

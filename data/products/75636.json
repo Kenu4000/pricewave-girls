@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 75636,
+    "title": "Windows8.1/10/11 DVDソフト ヌキコレvol.112 らぱぷるパック1",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145085006",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145085006.jpg",
+    "manufacturer": "らぱぷる",
+    "releaseDate": "2026-08-28",
+    "listPrice": 4400,
+    "modelNumber": "NCF-0112",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145085006000中古 ：145085006001",
+      "メーカー": "らぱぷる",
+      "発売日": "2026/08/28",
+      "定価": "4,400円",
+      "型番": "NCF-0112",
+      "原画": "まつもとかつや\n鳩矢豆七\nこたつ。",
+      "シナリオ": "墨",
+      "声優": "白井うさぎ\n春日アン\n紫苑みやび\n佐藤千幸\n藤咲ちま\nヒマリ\nこのえゆずこ\n河合しなの\n杉原茉莉\n五十嵐ナナコ\nこのかなみ\n白井綾乃\n加乃みるく",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3880,
+    "latestRegularSalePrice": 3880,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-05T16:01:08.099Z"
+  },
+  "histories": [
+    {
+      "id": 75650,
+      "productId": 75636,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:53:40.555Z"
+    },
+    {
+      "id": 88096,
+      "productId": 75636,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:27.380Z"
+    },
+    {
+      "id": 104409,
+      "productId": 75636,
+      "salePrice": 3880,
+      "regularSalePrice": 3880,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T16:01:08.099Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 327716,
+      "productId": 75636,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 3880,
+      "checkedAt": "2026-10-05T16:01:08.000Z"
+    },
+    {
+      "id": 327715,
+      "productId": 75636,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3380,
+      "checkedAt": "2026-10-05T16:01:08.000Z"
+    },
+    {
+      "id": 327714,
+      "productId": 75636,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "新品",
+      "price": 3380,
+      "checkedAt": "2026-10-05T16:01:08.000Z"
+    },
+    {
+      "id": 327713,
+      "productId": 75636,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 3380,
+      "checkedAt": "2026-10-05T16:01:08.000Z"
+    },
+    {
+      "id": 327712,
+      "productId": 75636,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 3380,
+      "checkedAt": "2026-10-05T16:01:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145085006",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145085006",
+    "capturedAt": "2026-10-05T16:01:08.099Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 3380
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 3380
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "新品",
+        "price": 3380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 3880
+      }
+    ],
+    "path": "data/other-shops/145085006.json"
+  }
+}

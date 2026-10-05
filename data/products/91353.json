@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 91353,
+    "title": "Windows10/11 DVDソフト アマナツ -Perfect Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079787",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079787.jpg",
+    "manufacturer": "あざらしそふと",
+    "releaseDate": "2023-12-22",
+    "listPrice": 9900,
+    "modelNumber": "AZA035",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079787",
+      "メーカー": "あざらしそふと",
+      "発売日": "2023/12/22",
+      "定価": "9,900円",
+      "型番": "AZA035",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 6670,
+    "latestRegularSalePrice": 6670,
+    "latestBuyPrice": 4100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:11.390Z"
+  },
+  "histories": [
+    {
+      "id": 91367,
+      "productId": 91353,
+      "salePrice": 6670,
+      "regularSalePrice": 6670,
+      "buyPrice": 4100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:11.390Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145079787",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079787",
+    "capturedAt": "2026-09-14T17:28:11.390Z",
+    "items": [],
+    "path": "data/other-shops/145079787.json"
+  }
+}

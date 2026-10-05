@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31343,
+    "title": "WindowsXP/Vista/7 DVDソフト つるつるナース[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036991",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036991.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2013-05-24",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0128",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036991",
+      "メーカー": "マリン",
+      "発売日": "2013/05/24",
+      "定価": "4,180円",
+      "型番": "MGGW0128",
+      "原画": "飛行海",
+      "声優": "飯田空\n水瀬沙季\n真中海\n桜川未央\n一色ヒカル\n歌織\nまきいづみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4180,
+    "latestRegularSalePrice": 4180,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:34:14.527Z"
+  },
+  "histories": [
+    {
+      "id": 31357,
+      "productId": 31343,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:38:43.433Z"
+    },
+    {
+      "id": 40097,
+      "productId": 31343,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:07.459Z"
+    },
+    {
+      "id": 51147,
+      "productId": 31343,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:34:14.527Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036991",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036991",
+    "capturedAt": "2026-08-19T05:34:14.527Z",
+    "items": [],
+    "path": "data/other-shops/145036991.json"
+  }
+}

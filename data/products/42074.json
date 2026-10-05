@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42074,
+    "title": "Windows2000/XP/Vista DVDソフト くのいち飛鳥～吉原遊郭奇談～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019494",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019494.jpg",
+    "manufacturer": "アイル【チーム・アイシス】",
+    "releaseDate": "2009-03-27",
+    "listPrice": 9680,
+    "modelNumber": "AIL-141626",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019494",
+      "メーカー": "アイル【チーム・アイシス】",
+      "発売日": "2009/03/27",
+      "定価": "9,680円",
+      "型番": "AIL-141626",
+      "原画": "さぶろ~",
+      "シナリオ": "巻島武\nソンヨシミ",
+      "声優": "野々村紗夜\n鈴音華月\n杉原茉莉\n高井戸雫\n民安ともえ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:55.220Z"
+  },
+  "histories": [
+    {
+      "id": 42088,
+      "productId": 42074,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:56.629Z"
+    },
+    {
+      "id": 53550,
+      "productId": 42074,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:20.904Z"
+    },
+    {
+      "id": 65092,
+      "productId": 42074,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:55.220Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019494",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019494",
+    "capturedAt": "2026-08-29T01:16:55.220Z",
+    "items": [],
+    "path": "data/other-shops/145019494.json"
+  }
+}

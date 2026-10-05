@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 96398,
+    "title": "Windows98/Me/2000/XP DVDソフト 闇の声(月刊メガストア 2006年3月号付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054271",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054271.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2006-03-01",
+    "listPrice": null,
+    "modelNumber": "MEGA0603",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145054271001",
+      "メーカー": "コアマガジン",
+      "発売日": "2006/03/01",
+      "型番": "MEGA0603",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:07.268Z"
+  },
+  "histories": [
+    {
+      "id": 96412,
+      "productId": 96398,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:07.268Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 297443,
+      "productId": 96398,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297442,
+      "productId": 96398,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297441,
+      "productId": 96398,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 350,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054271",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054271",
+    "capturedAt": "2026-09-20T14:09:07.268Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 350
+      }
+    ],
+    "path": "data/other-shops/145054271.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 95405,
+    "title": "Windows98/Me/2000/XP DVDソフト カスタム隷奴III Special Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014112",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014112.jpg",
+    "manufacturer": "Kiss",
+    "releaseDate": "2006-03-24",
+    "listPrice": 10780,
+    "modelNumber": "SLP-060324",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014112",
+      "メーカー": "Kiss",
+      "発売日": "2006/03/24",
+      "定価": "10,780円",
+      "型番": "SLP-060324",
+      "原画": "三月春人\n弥舞秀人",
+      "シナリオ": "池野クラゲ\n小原誠\n富松元気\n端嶋寵而\n黒和雷人",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T14:02:04.580Z"
+  },
+  "histories": [
+    {
+      "id": 95419,
+      "productId": 95405,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:38.371Z"
+    },
+    {
+      "id": 96394,
+      "productId": 95405,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T14:02:04.580Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014112",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014112",
+    "capturedAt": "2026-09-19T14:02:04.580Z",
+    "items": [],
+    "path": "data/other-shops/145014112.json"
+  }
+}

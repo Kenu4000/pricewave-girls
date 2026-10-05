@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 29395,
+    "title": "Windows7/8/8.1/10 DVDソフト 毎日けだものっ!! らぶえろ☆ももいろ☆すくーるらいふ♪ いんもらるえでぃしょん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066057",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066057.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2019-07-26",
+    "listPrice": 6380,
+    "modelNumber": "BSP-058",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066057001",
+      "メーカー": "BISHOP",
+      "発売日": "2019/07/26",
+      "定価": "6,380円",
+      "型番": "BSP-058",
+      "原画": "水島・多也",
+      "シナリオ": "庵乃音人\n神門武士\n酒巻雨竜\n麿",
+      "声優": "後野祭\n茶谷やすら\n未来羽\n春日アン\n岩泉まい\n風華",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4750,
+    "latestRegularSalePrice": 4750,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:36.921Z"
+  },
+  "histories": [
+    {
+      "id": 29409,
+      "productId": 29395,
+      "salePrice": 5300,
+      "regularSalePrice": 5300,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:38.316Z"
+    },
+    {
+      "id": 70773,
+      "productId": 29395,
+      "salePrice": 4750,
+      "regularSalePrice": 4750,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:36.921Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203004,
+      "productId": 29395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4750,
+      "checkedAt": "2026-09-02T20:47:37.000Z"
+    },
+    {
+      "id": 203003,
+      "productId": 29395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 5300,
+      "checkedAt": "2026-09-02T20:47:37.000Z"
+    },
+    {
+      "id": 203002,
+      "productId": 29395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 4750,
+      "checkedAt": "2026-09-02T20:47:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066057",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066057",
+    "capturedAt": "2026-09-02T20:47:36.921Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 4750
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 5300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4750
+      }
+    ],
+    "path": "data/other-shops/145066057.json"
+  }
+}

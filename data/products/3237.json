@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 3237,
+    "title": "Windows95/98/Me/2000/XP CDソフト かこい ～絶望の処女監獄島～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009237",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009237.jpg",
+    "manufacturer": "ERROR",
+    "releaseDate": "2003-07-04",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009237",
+      "メーカー": "ERROR",
+      "発売日": "2003/07/04",
+      "定価": "9,680円",
+      "原画": "渡瀬薫",
+      "シナリオ": "脇坂龍生",
+      "声優": "榊原ゆい",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T00:59:12.883Z"
+  },
+  "histories": [
+    {
+      "id": 3251,
+      "productId": 3237,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:41:42.000Z"
+    },
+    {
+      "id": 37030,
+      "productId": 3237,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:59:12.883Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

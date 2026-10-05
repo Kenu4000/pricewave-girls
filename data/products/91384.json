@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91384,
+    "title": "Windows7/8.1/10 DVDソフト Missing-X-Link 天のゆりかご、伽の花",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064436",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064436.jpg",
+    "manufacturer": "Fluorite",
+    "releaseDate": "2019-04-26",
+    "listPrice": 9680,
+    "modelNumber": "DG-2002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145064436001",
+      "メーカー": "Fluorite",
+      "発売日": "2019/04/26",
+      "定価": "9,680円",
+      "型番": "DG-2002",
+      "原画": "K子\n洋乃ヒロキ\nスカイ(sky)",
+      "シナリオ": "雪丸仟",
+      "声優": "中澤アユム\n月野きいろ\nくすはらゆい\nかわしまりの\n要しおり\n鶴屋春人\n橘まお\n藤咲ウサ\n鹿瀬紫卯\n六本木天人\nTAKAO",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:22.975Z"
+  },
+  "histories": [
+    {
+      "id": 91398,
+      "productId": 91384,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:22.975Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278889,
+      "productId": 91384,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    },
+    {
+      "id": 278888,
+      "productId": 91384,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    },
+    {
+      "id": 278887,
+      "productId": 91384,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    },
+    {
+      "id": 278886,
+      "productId": 91384,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064436",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064436",
+    "capturedAt": "2026-09-14T17:28:22.975Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145064436.json"
+  }
+}

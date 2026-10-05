@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 91377,
+    "title": "Windows7/8.1/10 DVDソフト アマカノ コンプリートボックス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065506",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065506.jpg",
+    "manufacturer": "あざらしそふと",
+    "releaseDate": "2019-08-30",
+    "listPrice": 27280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065506001",
+      "メーカー": "あざらしそふと",
+      "発売日": "2019/08/30",
+      "定価": "27,280円",
+      "原画": "ピロ水",
+      "シナリオ": "龍岳来",
+      "声優": "一色ヒカル\n木村あやか\n真中海\n秋野花\n波奈束風景\n桃山いおん\n松田理沙",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 39500,
+    "latestRegularSalePrice": 39500,
+    "latestBuyPrice": 23000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:19.993Z"
+  },
+  "histories": [
+    {
+      "id": 91391,
+      "productId": 91377,
+      "salePrice": 39500,
+      "regularSalePrice": 39500,
+      "buyPrice": 23000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:19.993Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278872,
+      "productId": 91377,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 39500,
+      "checkedAt": "2026-09-14T17:28:20.000Z"
+    },
+    {
+      "id": 278871,
+      "productId": 91377,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 45000,
+      "checkedAt": "2026-09-14T17:28:20.000Z"
+    },
+    {
+      "id": 278870,
+      "productId": 91377,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 39000,
+      "checkedAt": "2026-09-14T17:28:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065506",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065506",
+    "capturedAt": "2026-09-14T17:28:19.993Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 39000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 45000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 39500
+      }
+    ],
+    "path": "data/other-shops/145065506.json"
+  }
+}

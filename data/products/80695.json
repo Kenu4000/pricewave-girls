@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 80695,
+    "title": "Windows10/11 DVDソフト 姦染RE：UNION [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082276",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082276.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2024-10-25",
+    "listPrice": 8800,
+    "modelNumber": "CHA-026A",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082276",
+      "メーカー": "CHAOS-R",
+      "発売日": "2024/10/25",
+      "定価": "8,800円",
+      "型番": "CHA-026A",
+      "原画": "ジェントル佐々木",
+      "ゲスト原画": "いせのやじん",
+      "シナリオ": "show-ziii\n天翔狗\nルトニャー・ハウニャー\nウィム\n名無しの東北県人\nassault\n田中一郎",
+      "声優": "櫻井ありす\n殊瀬柚乃\n小波渡陸\nあかしゆき",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:50.781Z"
+  },
+  "histories": [
+    {
+      "id": 80709,
+      "productId": 80695,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:50.781Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237422,
+      "productId": 80695,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 5580,
+      "checkedAt": "2026-09-07T13:47:51.000Z"
+    },
+    {
+      "id": 237421,
+      "productId": 80695,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-09-07T13:47:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082276",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082276",
+    "capturedAt": "2026-09-07T13:47:50.781Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2911
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 5580
+      }
+    ],
+    "path": "data/other-shops/145082276.json"
+  }
+}

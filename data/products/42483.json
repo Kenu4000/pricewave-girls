@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 42483,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 虐襲3 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017621",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017621.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2008-03-28",
+    "listPrice": 9680,
+    "modelNumber": "ANM-801",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145017621",
+      "メーカー": "ANIM",
+      "発売日": "2008/03/28",
+      "定価": "9,680円",
+      "型番": "ANM-801",
+      "原画": "bbsacon",
+      "シナリオ": "酒井童人",
+      "アーティスト": "優歌",
+      "声優": "月山かなる\n緒田マリ\n民安ともえ\n羽高なる\n渋谷ひめ\nSHIN\n珠ひよこ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 999,
+    "latestRegularSalePrice": 999,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:52.553Z"
+  },
+  "histories": [
+    {
+      "id": 42497,
+      "productId": 42483,
+      "salePrice": 999,
+      "regularSalePrice": 999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:12:13.071Z"
+    },
+    {
+      "id": 44128,
+      "productId": 42483,
+      "salePrice": 999,
+      "regularSalePrice": 999,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:52.553Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017621",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017621",
+    "capturedAt": "2026-08-17T09:37:52.553Z",
+    "items": [],
+    "path": "data/other-shops/145017621.json"
+  }
+}

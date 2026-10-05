@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 91395,
+    "title": "Windows DVDソフト BugBug 25th Anniversary DVD アペンドHディスク集 PART 3(BugBug2018年1月号特別付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060447",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060447.jpg",
+    "manufacturer": "富士美出版",
+    "releaseDate": "2018-01-01",
+    "listPrice": null,
+    "modelNumber": "BUGBUG1801G",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145060447001",
+      "メーカー": "富士美出版",
+      "発売日": "2018/01/01",
+      "型番": "BUGBUG1801G",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:27.204Z"
+  },
+  "histories": [
+    {
+      "id": 91409,
+      "productId": 91395,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:27.204Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278911,
+      "productId": 91395,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278910,
+      "productId": 91395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278909,
+      "productId": 91395,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278908,
+      "productId": 91395,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278907,
+      "productId": 91395,
+      "sourceType": "other_shop",
+      "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+      "condition": "中古通常",
+      "price": 700,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060447",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060447",
+    "capturedAt": "2026-09-14T17:28:27.204Z",
+    "items": [
+      {
+        "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+        "condition": "中古通常",
+        "price": 700
+      },
+      {
+        "storeName": "ゲームステーション本厚木店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145060447.json"
+  }
+}

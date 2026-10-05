@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 51633,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 戦乙女ヴァルキリーG ～戦乙女達の黄昏～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019162",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019162.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2009-01-30",
+    "listPrice": 7480,
+    "modelNumber": "MGGW-0087",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019162001",
+      "メーカー": "ルネ",
+      "発売日": "2009/01/30",
+      "定価": "7,480円",
+      "型番": "MGGW-0087",
+      "原画": "田丸まこと",
+      "シナリオ": "川原圭人\n桃梨蜜柑",
+      "アーティスト": "サトウユキ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:32.649Z"
+  },
+  "histories": [
+    {
+      "id": 51647,
+      "productId": 51633,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:32.649Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137760,
+      "productId": 51633,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T09:29:32.000Z"
+    },
+    {
+      "id": 137759,
+      "productId": 51633,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 990,
+      "checkedAt": "2026-08-19T09:29:32.000Z"
+    },
+    {
+      "id": 137758,
+      "productId": 51633,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 960,
+      "checkedAt": "2026-08-19T09:29:32.000Z"
+    },
+    {
+      "id": 137757,
+      "productId": 51633,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T09:29:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019162",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019162",
+    "capturedAt": "2026-08-19T09:29:32.649Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 960
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 990
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145019162.json"
+  }
+}

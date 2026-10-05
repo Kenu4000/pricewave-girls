@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 31845,
+    "title": "WindowsXP/Vista/7 CDソフト 果汁戦隊☆フルーツレンジャー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031720",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031720.jpg",
+    "manufacturer": "トルピード",
+    "releaseDate": "2012-03-30",
+    "listPrice": 2750,
+    "modelNumber": "TRP-006",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031720001",
+      "メーカー": "トルピード",
+      "発売日": "2012/03/30",
+      "定価": "2,750円",
+      "型番": "TRP-006",
+      "原画": "天音",
+      "シナリオ": "よこよこ",
+      "声優": "御神楽やこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "680",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 600,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:44:57.282Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:37:30.728Z"
+  },
+  "histories": [
+    {
+      "id": 31859,
+      "productId": 31845,
+      "salePrice": 600,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:56.933Z"
+    },
+    {
+      "id": 40594,
+      "productId": 31845,
+      "salePrice": 600,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:32:02.072Z"
+    },
+    {
+      "id": 51510,
+      "productId": 31845,
+      "salePrice": 600,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:37:30.728Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137340,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T05:37:31.000Z"
+    },
+    {
+      "id": 137339,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-19T05:37:31.000Z"
+    },
+    {
+      "id": 137338,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T05:37:31.000Z"
+    },
+    {
+      "id": 105531,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-16T01:32:02.000Z"
+    },
+    {
+      "id": 105530,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-16T01:32:02.000Z"
+    },
+    {
+      "id": 79687,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 980,
+      "checkedAt": "2026-08-15T23:44:57.000Z"
+    },
+    {
+      "id": 79686,
+      "productId": 31845,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-15T23:44:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031720",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031720",
+    "capturedAt": "2026-08-19T05:37:30.728Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 600
+      }
+    ],
+    "path": "data/other-shops/145031720.json"
+  }
+}

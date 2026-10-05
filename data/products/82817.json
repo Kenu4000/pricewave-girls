@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 82817,
+    "title": "WindowsMe/2000/XP CDソフト シオン ～残酷な魔法の天使～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015893",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015893.jpg",
+    "manufacturer": "Lilith Mist",
+    "releaseDate": "2007-04-27",
+    "listPrice": 2200,
+    "modelNumber": "LMT-00002",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015893001",
+      "メーカー": "Lilith Mist",
+      "発売日": "2007/04/27",
+      "定価": "2,200円",
+      "型番": "LMT-00002",
+      "原画": "カガミ\nTANA",
+      "シナリオ": "松本竜",
+      "音楽": "春日森",
+      "声優": "七ヶ瀬輪\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:46.146Z"
+  },
+  "histories": [
+    {
+      "id": 82831,
+      "productId": 82817,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:46.146Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245819,
+      "productId": 82817,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-09T05:33:47.000Z"
+    },
+    {
+      "id": 245818,
+      "productId": 82817,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-09T05:33:47.000Z"
+    },
+    {
+      "id": 245817,
+      "productId": 82817,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-09T05:33:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015893",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015893",
+    "capturedAt": "2026-09-09T05:33:46.146Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145015893.json"
+  }
+}

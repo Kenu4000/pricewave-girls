@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 42834,
+    "title": "Windows98/Me/2000/XP DVDソフト カスタム隷奴F Special Edition プラグインディスク付 [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015639",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015639.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2007-03-23",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015639001",
+      "メーカー": "KISS",
+      "発売日": "2007/03/23",
+      "定価": "10,780円",
+      "原画": "みどり葵\n弥舞秀人\n金目鯛ぴんく",
+      "シナリオ": "黒和雷人\n小原誠\n都築チキン",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:24.884Z"
+  },
+  "histories": [
+    {
+      "id": 42848,
+      "productId": 42834,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:32.595Z"
+    },
+    {
+      "id": 54978,
+      "productId": 42834,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:49.948Z"
+    },
+    {
+      "id": 66075,
+      "productId": 42834,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:24.884Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185434,
+      "productId": 42834,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-29T13:05:25.000Z"
+    },
+    {
+      "id": 185433,
+      "productId": 42834,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-29T13:05:25.000Z"
+    },
+    {
+      "id": 185432,
+      "productId": 42834,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-29T13:05:25.000Z"
+    },
+    {
+      "id": 110465,
+      "productId": 42834,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-17T07:15:33.000Z"
+    },
+    {
+      "id": 110464,
+      "productId": 42834,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-17T07:15:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015639",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015639",
+    "capturedAt": "2026-08-29T13:05:24.884Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1400
+      }
+    ],
+    "path": "data/other-shops/145015639.json"
+  }
+}

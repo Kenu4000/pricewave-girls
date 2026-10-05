@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 56010,
+    "title": "WindowsXP/Vista/7 DVDソフト 家庭教師のおねえさんーKAGUYAコレクションー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028349",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028349.jpg",
+    "manufacturer": "アトリエかぐや Berkshire Yorkshire",
+    "releaseDate": "2011-06-17",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028349001",
+      "メーカー": "アトリエかぐや Berkshire Yorkshire",
+      "発売日": "2011/06/17",
+      "定価": "4,378円",
+      "原画": "choco chip",
+      "シナリオ": "もみあげルパンR",
+      "声優": "天天\n楠鈴音\nかわしまりの\n大波こなみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:32:12.910Z"
+  },
+  "histories": [
+    {
+      "id": 56024,
+      "productId": 56010,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:12.910Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151516,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    },
+    {
+      "id": 151515,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 2561,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    },
+    {
+      "id": 151514,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    },
+    {
+      "id": 151513,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2712,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    },
+    {
+      "id": 151512,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    },
+    {
+      "id": 151511,
+      "productId": 56010,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 2561,
+      "checkedAt": "2026-08-21T05:32:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028349",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028349",
+    "capturedAt": "2026-08-21T05:32:12.910Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 2561
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2712
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 2750
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 2561
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3580
+      }
+    ],
+    "path": "data/other-shops/145028349.json"
+  }
+}

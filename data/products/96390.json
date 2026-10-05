@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 96390,
+    "title": "Windows8.1/10/11 DVDソフト 水月-すいげつ- Grand Package",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076803",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076803.jpg",
+    "manufacturer": "FC01",
+    "releaseDate": "2023-03-31",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145076803001",
+      "メーカー": "FC01",
+      "発売日": "2023/03/31",
+      "定価": "7,480円",
+      "原画": "☆画野朗",
+      "シナリオ": "トノイケダイスケ",
+      "声優": "霧島陽炎\n伊藤瞳子\nまりなりな\nなかせひな\n春日アン\n緒田マリ\n雪都さお梨\n岩泉まい",
+      "音楽": "おおくまけんいち",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 2650,
+    "latestRegularSalePrice": 2650,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-05T02:27:58.979Z"
+  },
+  "histories": [
+    {
+      "id": 96404,
+      "productId": 96390,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:05.810Z"
+    },
+    {
+      "id": 99001,
+      "productId": 96390,
+      "salePrice": 2950,
+      "regularSalePrice": 2950,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-27T17:28:56.708Z"
+    },
+    {
+      "id": 103518,
+      "productId": 96390,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T02:27:58.979Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 324253,
+      "productId": 96390,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2650,
+      "checkedAt": "2026-10-05T02:27:59.000Z"
+    },
+    {
+      "id": 324252,
+      "productId": 96390,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 2150,
+      "checkedAt": "2026-10-05T02:27:59.000Z"
+    },
+    {
+      "id": 307397,
+      "productId": 96390,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-09-27T17:28:56.000Z"
+    },
+    {
+      "id": 307396,
+      "productId": 96390,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 4990,
+      "checkedAt": "2026-09-27T17:28:56.000Z"
+    },
+    {
+      "id": 307395,
+      "productId": 96390,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-09-27T17:28:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076803",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076803",
+    "capturedAt": "2026-10-05T02:27:58.979Z",
+    "items": [
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 2150
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2650
+      }
+    ],
+    "path": "data/other-shops/145076803.json"
+  }
+}

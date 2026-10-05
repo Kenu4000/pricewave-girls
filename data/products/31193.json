@@ -1,0 +1,142 @@
+{
+  "product": {
+    "id": 31193,
+    "title": "WindowsXP/Vista/7 DVDソフト お姉ちゃん催眠ビフォーアフター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038101",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038101.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2013-09-06",
+    "listPrice": 4180,
+    "modelNumber": "BASE-064",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145038101001",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2013/09/06",
+      "定価": "4,180円",
+      "型番": "BASE-064",
+      "原画": "七G",
+      "シナリオ": "DEカモ",
+      "声優": "奥川久美子\nmahilo\n水神楓",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:06:32.133Z"
+  },
+  "histories": [
+    {
+      "id": 31207,
+      "productId": 31193,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:59.976Z"
+    },
+    {
+      "id": 39952,
+      "productId": 31193,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:20.194Z"
+    },
+    {
+      "id": 51026,
+      "productId": 31193,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:33:12.147Z"
+    },
+    {
+      "id": 63066,
+      "productId": 31193,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:32.133Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 177056,
+      "productId": 31193,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-27T16:06:32.000Z"
+    },
+    {
+      "id": 177055,
+      "productId": 31193,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1800,
+      "checkedAt": "2026-08-27T16:06:32.000Z"
+    },
+    {
+      "id": 177054,
+      "productId": 31193,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-27T16:06:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038101",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038101",
+    "capturedAt": "2026-08-27T16:06:32.133Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1480
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145038101.json"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41030,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 俺魔王!-砕け散った魂(俺)の欠片を収集せよ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054450",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054450.jpg",
+    "manufacturer": "WendyBell",
+    "releaseDate": "2016-06-24",
+    "listPrice": 9680,
+    "modelNumber": "WB-018",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054450",
+      "メーカー": "WendyBell",
+      "発売日": "2016/06/24",
+      "定価": "9,680円",
+      "型番": "WB-018",
+      "原画": "嶋艮",
+      "シナリオ": "坂元星日\n斉島煌",
+      "声優": "桜華\nこたつみやこ\n須天ちよこ\n計名さや香\n渡会ななせ\nかぐや凛子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:58.933Z"
+  },
+  "histories": [
+    {
+      "id": 41044,
+      "productId": 41030,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:12.622Z"
+    },
+    {
+      "id": 52797,
+      "productId": 41030,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:48.302Z"
+    },
+    {
+      "id": 63770,
+      "productId": 41030,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:58.933Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178494,
+      "productId": 41030,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-08-27T16:11:59.000Z"
+    },
+    {
+      "id": 178493,
+      "productId": 41030,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-08-27T16:11:59.000Z"
+    },
+    {
+      "id": 142235,
+      "productId": 41030,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-08-19T16:18:48.000Z"
+    },
+    {
+      "id": 142234,
+      "productId": 41030,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1901,
+      "checkedAt": "2026-08-19T16:18:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054450",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054450",
+    "capturedAt": "2026-08-27T16:11:58.933Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1901
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2200
+      }
+    ],
+    "path": "data/other-shops/145054450.json"
+  }
+}

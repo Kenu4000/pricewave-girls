@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 41920,
+    "title": "Windows2000/XP/Vista DVDソフト 教育指導",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021014",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021014.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2009-08-07",
+    "listPrice": 9680,
+    "modelNumber": "BSP-027",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021014001",
+      "メーカー": "BISHOP",
+      "発売日": "2009/08/07",
+      "定価": "9,680円",
+      "型番": "BSP-027",
+      "原画": "水島・多也\nカガミ",
+      "シナリオ": "きんぐ\n神門武士\n酒巻雨竜\n庵乃音人\n麿",
+      "声優": "みる\n春日アン\n紘川琴音\n渋谷ひめ\n伊佐間かず\nももぞの薫",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1200,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:05.171Z"
+  },
+  "histories": [
+    {
+      "id": 41934,
+      "productId": 41920,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:30.697Z"
+    },
+    {
+      "id": 44037,
+      "productId": 41920,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:05.171Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113878,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 1500,
+      "checkedAt": "2026-08-17T09:37:05.000Z"
+    },
+    {
+      "id": 113877,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T09:37:05.000Z"
+    },
+    {
+      "id": 113876,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 840,
+      "checkedAt": "2026-08-17T09:37:05.000Z"
+    },
+    {
+      "id": 113875,
+      "productId": 41920,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 840,
+      "checkedAt": "2026-08-17T09:37:05.000Z"
+    },
+    {
+      "id": 108543,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 1500,
+      "checkedAt": "2026-08-17T07:06:31.000Z"
+    },
+    {
+      "id": 108542,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T07:06:31.000Z"
+    },
+    {
+      "id": 108541,
+      "productId": 41920,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 840,
+      "checkedAt": "2026-08-17T07:06:31.000Z"
+    },
+    {
+      "id": 108540,
+      "productId": 41920,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ランクB",
+      "price": 840,
+      "checkedAt": "2026-08-17T07:06:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021014",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021014",
+    "capturedAt": "2026-08-17T09:37:05.171Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 840
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145021014.json"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "product": {
+    "id": 55796,
+    "title": "Windows7/8/10 DVDソフト ゾンビのあふれた世界で俺だけが襲われない 全巻パック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061986",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061986.jpg",
+    "manufacturer": "SEACOXX",
+    "releaseDate": "2018-06-29",
+    "listPrice": 5500,
+    "modelNumber": "SCOX-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061986",
+      "メーカー": "SEACOXX",
+      "発売日": "2018/06/29",
+      "定価": "5,500円",
+      "型番": "SCOX-005",
+      "原画": "さぶろ~",
+      "シナリオ": "裏地ろくろ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 6200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:09:56.784Z"
+  },
+  "histories": [
+    {
+      "id": 55810,
+      "productId": 55796,
+      "salePrice": 15500,
+      "regularSalePrice": 15500,
+      "buyPrice": 6200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:17.616Z"
+    },
+    {
+      "id": 66609,
+      "productId": 55796,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 6200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:09:56.784Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 186868,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）イタミ有り",
+      "price": 15800,
+      "checkedAt": "2026-08-29T13:09:57.000Z"
+    },
+    {
+      "id": 186867,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 13415,
+      "checkedAt": "2026-08-29T13:09:57.000Z"
+    },
+    {
+      "id": 150789,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 15500,
+      "checkedAt": "2026-08-21T05:30:17.000Z"
+    },
+    {
+      "id": 150788,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）イタミ有り",
+      "price": 15800,
+      "checkedAt": "2026-08-21T05:30:17.000Z"
+    },
+    {
+      "id": 150787,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 13450,
+      "checkedAt": "2026-08-21T05:30:17.000Z"
+    },
+    {
+      "id": 150786,
+      "productId": 55796,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 13450,
+      "checkedAt": "2026-08-21T05:30:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061986",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061986",
+    "capturedAt": "2026-08-29T13:09:56.784Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 13415
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）イタミ有り",
+        "price": 15800
+      }
+    ],
+    "path": "data/other-shops/145061986.json"
+  }
+}

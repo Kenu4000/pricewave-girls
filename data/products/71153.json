@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 71153,
+    "title": "Windows10/11 DVDソフト 紬の花嫁",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081921",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081921.jpg",
+    "manufacturer": "Hending",
+    "releaseDate": "2024-09-27",
+    "listPrice": 6380,
+    "modelNumber": "HEN-0009",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081921001",
+      "メーカー": "Hending",
+      "発売日": "2024/09/27",
+      "定価": "6,380円",
+      "型番": "HEN-0009",
+      "原画": "みつまいも",
+      "シナリオ": "虚空北星",
+      "声優": "藤宮ちよ\nいねむりすやこ\n橘まお",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5380,
+    "latestRegularSalePrice": 5380,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:34.684Z"
+  },
+  "histories": [
+    {
+      "id": 71167,
+      "productId": 71153,
+      "salePrice": 5380,
+      "regularSalePrice": 5380,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:34.684Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204242,
+      "productId": 71153,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5380,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204241,
+      "productId": 71153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 5111,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204240,
+      "productId": 71153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5100,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204239,
+      "productId": 71153,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 4811,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    },
+    {
+      "id": 204238,
+      "productId": 71153,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 4590,
+      "checkedAt": "2026-09-02T21:35:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081921",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081921",
+    "capturedAt": "2026-09-02T21:35:34.684Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 4590
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 4811
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 5100
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 5111
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5380
+      }
+    ],
+    "path": "data/other-shops/145081921.json"
+  }
+}

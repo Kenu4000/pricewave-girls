@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 80693,
+    "title": "Windows10/11 DVDソフト ヌキコレvol.41 GEARS of DRAGOON2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077491",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077491.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2023-06-30",
+    "listPrice": 3278,
+    "modelNumber": "NC9-0041",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145077491",
+      "メーカー": "Dual Tail",
+      "発売日": "2023/06/30",
+      "定価": "3,278円",
+      "型番": "NC9-0041",
+      "原画": "金目鯛ぴんく\n熊虎たつみ",
+      "シナリオ": "中村亮太\nあくまっこ\n西田タケヲ",
+      "声優": "中田樹ユロヒカ\n唯香\n青葉りんご\n渋谷ひめ\n青井美海\n野々村紗夜\n手塚りょうこ\nMAIKO\n綾瀬あかり\n木多野あり\n星空ユメ\n今谷皆美\n錫宮那由太\nももぞの薫\n有賀桃\n星一人\n笹崎こじろう\n梅椿鬼",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:50.463Z"
+  },
+  "histories": [
+    {
+      "id": 80707,
+      "productId": 80693,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:50.463Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237418,
+      "productId": 80693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    },
+    {
+      "id": 237417,
+      "productId": 80693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 2345,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    },
+    {
+      "id": 237416,
+      "productId": 80693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2345,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077491",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077491",
+    "capturedAt": "2026-09-07T13:47:50.463Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2345
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 2345
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2711
+      }
+    ],
+    "path": "data/other-shops/145077491.json"
+  }
+}

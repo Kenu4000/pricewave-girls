@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42136,
+    "title": "WindowsMe/2000/XP/Vista CDソフト 妹たちは俺のモノ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019292",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019292.jpg",
+    "manufacturer": "HEAT-SOFT",
+    "releaseDate": "2009-01-30",
+    "listPrice": 3080,
+    "modelNumber": "base-026",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019292",
+      "メーカー": "HEAT-SOFT",
+      "発売日": "2009/01/30",
+      "定価": "3,080円",
+      "型番": "base-026",
+      "原画": "とんぷう",
+      "シナリオ": "影花",
+      "声優": "奥川久美子\n篁瑞帆",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 599,
+    "latestRegularSalePrice": 599,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:17:13.156Z"
+  },
+  "histories": [
+    {
+      "id": 42150,
+      "productId": 42136,
+      "salePrice": 599,
+      "regularSalePrice": 599,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:37.044Z"
+    },
+    {
+      "id": 53592,
+      "productId": 42136,
+      "salePrice": 599,
+      "regularSalePrice": 599,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:41.316Z"
+    },
+    {
+      "id": 65132,
+      "productId": 42136,
+      "salePrice": 599,
+      "regularSalePrice": 599,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:17:13.156Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019292",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019292",
+    "capturedAt": "2026-08-29T01:17:13.156Z",
+    "items": [],
+    "path": "data/other-shops/145019292.json"
+  }
+}

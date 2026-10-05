@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 95290,
+    "title": "Windows CDソフト ぼくの巫女は小さな恋妹～寵愛～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014492",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014492.jpg",
+    "manufacturer": "覇王",
+    "releaseDate": "2006-06-30",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014492001",
+      "メーカー": "覇王",
+      "発売日": "2006/06/30",
+      "定価": "9,680円",
+      "原画": "山村ヤマコ\nカミシロ緑マル",
+      "シナリオ": "若瀬諒\nたいらひとし\n虹色林檎脳炎\n津久間一裕\n萌木一路\nぴよみず\ntone\n遊真一希",
+      "声優": "春奈有美\nヒマリ\n文月かな\n芹園みや\n小倉結衣\n谷井あすか",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:56:57.498Z"
+  },
+  "histories": [
+    {
+      "id": 95304,
+      "productId": 95290,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:56:57.498Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293766,
+      "productId": 95290,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-17T19:56:57.000Z"
+    },
+    {
+      "id": 293765,
+      "productId": 95290,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:56:57.000Z"
+    },
+    {
+      "id": 293764,
+      "productId": 95290,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-09-17T19:56:57.000Z"
+    },
+    {
+      "id": 293763,
+      "productId": 95290,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有・外箱日焼け有",
+      "price": 280,
+      "checkedAt": "2026-09-17T19:56:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014492",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014492",
+    "capturedAt": "2026-09-17T19:56:57.498Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有・外箱日焼け有",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 300
+      }
+    ],
+    "path": "data/other-shops/145014492.json"
+  }
+}

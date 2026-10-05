@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 94328,
+    "title": "WindowsXP/Vista/7/8/8.1 DVDソフト ちっちゃらぶアパート",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042009",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042009.jpg",
+    "manufacturer": "Galette",
+    "releaseDate": "2014-06-27",
+    "listPrice": 9680,
+    "modelNumber": "BMS-0006",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145042009",
+      "メーカー": "Galette",
+      "発売日": "2014/06/27",
+      "定価": "9,680円",
+      "型番": "BMS-0006",
+      "原画": "Massan\nうすめ四郎\nPikazo",
+      "シナリオ": "8\n桃野衿\nえじむら\n詠野万知子",
+      "声優": "橘まお\n鶴屋春人\n百瀬ぽこ\n藤咲ウサ\n秋野花\n結衣菜\n春河あかり\nひうらまさこ\n西岡賢吾",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3711,
+    "latestRegularSalePrice": 3711,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-16T18:17:37.177Z"
+  },
+  "histories": [
+    {
+      "id": 94342,
+      "productId": 94328,
+      "salePrice": 3711,
+      "regularSalePrice": 3711,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:37.177Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145042009",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042009",
+    "capturedAt": "2026-09-16T18:17:37.177Z",
+    "items": [],
+    "path": "data/other-shops/145042009.json"
+  }
+}

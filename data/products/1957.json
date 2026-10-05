@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 1957,
+    "title": "Windows8/10 DVDソフト ハメグイ!! -黒ギャルビッチ、田舎へイクぅ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068331",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068331.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-03-27",
+    "listPrice": 2200,
+    "modelNumber": "APT-156",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068331",
+      "メーカー": "アパタイト",
+      "発売日": "2020/03/27",
+      "定価": "2,200円",
+      "型番": "APT-156",
+      "原画": "Aotonbo",
+      "シナリオ": "中森南文里",
+      "声優": "葉月あかり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-17T09:39:27.135Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:26.933Z"
+  },
+  "histories": [
+    {
+      "id": 1971,
+      "productId": 1957,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6871,
+      "productId": 1957,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 22809,
+      "productId": 1957,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:55.493Z"
+    },
+    {
+      "id": 44314,
+      "productId": 1957,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:26.933Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145068331",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068331",
+    "capturedAt": "2026-08-17T09:39:26.933Z",
+    "items": [],
+    "path": "data/other-shops/145068331.json"
+  }
+}

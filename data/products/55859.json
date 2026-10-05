@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55859,
+    "title": "WindowsVista/7/8 DVDソフト 聖騎士セルシア -悪辣たる姫君-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051496",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051496.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2015-10-23",
+    "listPrice": 3520,
+    "modelNumber": "VAL-034",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145051496001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2015/10/23",
+      "定価": "3,520円",
+      "型番": "VAL-034",
+      "原画": "ジェントル佐々木",
+      "シナリオ": "電子レンジ\nZEQU",
+      "声優": "片倉ひな\n八幡七味\n御苑生メイ\n野々村紗夜",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:50.802Z"
+  },
+  "histories": [
+    {
+      "id": 55873,
+      "productId": 55859,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:50.802Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151050,
+      "productId": 55859,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-21T05:30:51.000Z"
+    },
+    {
+      "id": 151049,
+      "productId": 55859,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:51.000Z"
+    },
+    {
+      "id": 151048,
+      "productId": 55859,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-21T05:30:51.000Z"
+    },
+    {
+      "id": 151047,
+      "productId": 55859,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 480,
+      "checkedAt": "2026-08-21T05:30:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145051496",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051496",
+    "capturedAt": "2026-08-21T05:30:50.802Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 480
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145051496.json"
+  }
+}

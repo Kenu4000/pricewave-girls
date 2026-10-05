@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 76102,
+    "title": "Windows10 DVDソフト ヌキコレvol.49 Galetteお兄ちゃんセット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079386",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079386.jpg",
+    "manufacturer": "Galette",
+    "releaseDate": "2023-12-22",
+    "listPrice": 3278,
+    "modelNumber": "NC1-0049",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145079386",
+      "メーカー": "Galette",
+      "発売日": "2023/12/22",
+      "定価": "3,278円",
+      "型番": "NC1-0049",
+      "原画": "ひさまくまこ\nK子",
+      "シナリオ": "8\n科\n東人\nうたや\n七歌",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3610,
+    "latestRegularSalePrice": 3610,
+    "latestBuyPrice": 2000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-05T16:02:41.232Z"
+  },
+  "histories": [
+    {
+      "id": 76116,
+      "productId": 76102,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:57:37.882Z"
+    },
+    {
+      "id": 88790,
+      "productId": 76102,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T14:11:36.153Z"
+    },
+    {
+      "id": 104626,
+      "productId": 76102,
+      "salePrice": 3610,
+      "regularSalePrice": 3610,
+      "buyPrice": 2000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T16:02:41.232Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145079386",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079386",
+    "capturedAt": "2026-10-05T16:02:41.232Z",
+    "items": [],
+    "path": "data/other-shops/145079386.json"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "product": {
+    "id": 30126,
+    "title": "Windows CDソフト WIZARD LINKS ソフマップ特典オリジナルデジタルコンテンツ「リディア＆神代蛍 エッチなボイス集」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054639",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054639.jpg",
+    "manufacturer": "筆柿そふと",
+    "releaseDate": "2016-05-27",
+    "listPrice": null,
+    "modelNumber": "SMPML-0008",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145054639001",
+      "メーカー": "筆柿そふと",
+      "発売日": "2016/05/27",
+      "型番": "SMPML-0008",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:34:36.576Z"
+  },
+  "histories": [
+    {
+      "id": 30140,
+      "productId": 30126,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:02.840Z"
+    },
+    {
+      "id": 38930,
+      "productId": 30126,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:05.326Z"
+    },
+    {
+      "id": 49931,
+      "productId": 30126,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:34:36.576Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 133420,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-19T04:34:36.000Z"
+    },
+    {
+      "id": 133419,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-19T04:34:36.000Z"
+    },
+    {
+      "id": 102157,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T01:16:05.000Z"
+    },
+    {
+      "id": 102156,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-16T01:16:05.000Z"
+    },
+    {
+      "id": 76199,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-15T23:17:02.000Z"
+    },
+    {
+      "id": 76198,
+      "productId": 30126,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-15T23:17:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054639",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054639",
+    "capturedAt": "2026-08-19T04:34:36.576Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145054639.json"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 29746,
+    "title": "Windows7/8/8.1/10 DVDソフト CYCLET5周年記念 No.2 血どろパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059361",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059361.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2017-10-27",
+    "listPrice": 9680,
+    "modelNumber": "CYCL-304",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059361",
+      "メーカー": "CYCLET",
+      "発売日": "2017/10/27",
+      "定価": "9,680円",
+      "型番": "CYCL-304",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3070,
+    "latestRegularSalePrice": 3070,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:13:01.020Z"
+  },
+  "histories": [
+    {
+      "id": 29760,
+      "productId": 29746,
+      "salePrice": 3070,
+      "regularSalePrice": 3070,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:14.264Z"
+    },
+    {
+      "id": 38569,
+      "productId": 29746,
+      "salePrice": 3070,
+      "regularSalePrice": 3070,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:01.020Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059361",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059361",
+    "capturedAt": "2026-08-16T01:13:01.020Z",
+    "items": [],
+    "path": "data/other-shops/145059361.json"
+  }
+}

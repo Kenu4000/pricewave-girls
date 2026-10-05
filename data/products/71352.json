@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 71352,
+    "title": "WindowsXP/Vista/7/8 CDソフト 性活指導員 -キモ男が不妊に悩むピュアな若妻に手取り足取りアクメレッスン!ラブラブ寝取り種付けで理想の嫁に!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036680",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036680.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2013-04-26",
+    "listPrice": 2530,
+    "modelNumber": "MIEL-035",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145036680001",
+      "メーカー": "Miel",
+      "発売日": "2013/04/26",
+      "定価": "2,530円",
+      "型番": "MIEL-035",
+      "原画": "石井彰",
+      "シナリオ": "佐野一馬",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:09.400Z"
+  },
+  "histories": [
+    {
+      "id": 71366,
+      "productId": 71352,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:09.400Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204825,
+      "productId": 71352,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-02T21:37:09.000Z"
+    },
+    {
+      "id": 204824,
+      "productId": 71352,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-09-02T21:37:09.000Z"
+    },
+    {
+      "id": 204823,
+      "productId": 71352,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-09-02T21:37:09.000Z"
+    },
+    {
+      "id": 204822,
+      "productId": 71352,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-02T21:37:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036680",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036680",
+    "capturedAt": "2026-09-02T21:37:09.400Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145036680.json"
+  }
+}
