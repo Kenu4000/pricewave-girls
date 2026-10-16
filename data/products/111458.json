@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 111458,
+    "title": "Windows2000/XP/Vista/7/8 DVDソフト 夏コミ ラムネ ディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056294",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056294.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2016-08-12",
+    "listPrice": null,
+    "modelNumber": "NE-C90RMN",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145056294",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2016/08/12",
+      "型番": "NE-C90RMN",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3811,
+    "latestRegularSalePrice": 3811,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:15.325Z"
+  },
+  "histories": [
+    {
+      "id": 111472,
+      "productId": 111458,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:26:55.200Z"
+    },
+    {
+      "id": 112463,
+      "productId": 111458,
+      "salePrice": 3811,
+      "regularSalePrice": 3811,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:15.325Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056294",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056294",
+    "capturedAt": "2026-10-15T16:07:15.325Z",
+    "items": [],
+    "path": "data/other-shops/145056294.json"
+  }
+}

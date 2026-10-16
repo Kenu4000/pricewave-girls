@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41020,
+    "title": "Windows7/8/10ソフト NOZOKI! ～美人母娘を覗いてみれば～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059965",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059965.jpg",
+    "manufacturer": "覇王",
+    "releaseDate": "2017-10-27",
+    "listPrice": null,
+    "modelNumber": "HAOT-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059965",
+      "メーカー": "覇王",
+      "発売日": "2017/10/27",
+      "型番": "HAOT-003",
+      "原画": "艶道ミツ",
+      "シナリオ": "築城一人",
+      "声優": "柚凪\n椎那天",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 800,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:18:41.947Z"
+  },
+  "histories": [
+    {
+      "id": 41034,
+      "productId": 41020,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:07.313Z"
+    },
+    {
+      "id": 52786,
+      "productId": 41020,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:41.947Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145059965",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059965",
+    "capturedAt": "2026-08-19T16:18:41.947Z",
+    "items": [],
+    "path": "data/other-shops/145059965.json"
+  }
+}

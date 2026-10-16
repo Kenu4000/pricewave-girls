@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 106363,
+    "title": "Windows CDソフト 対魔忍ユキカゼ デジタル写真集[処女喪失編]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057772",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057772.jpg",
+    "manufacturer": "ZIZ",
+    "releaseDate": "2013-11-29",
+    "listPrice": null,
+    "modelNumber": "ZIZG-001TB",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145057772",
+      "メーカー": "ZIZ",
+      "発売日": "2013/11/29",
+      "型番": "ZIZG-001TB",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 10311,
+    "latestRegularSalePrice": 10311,
+    "latestBuyPrice": 5900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:31.251Z"
+  },
+  "histories": [
+    {
+      "id": 106377,
+      "productId": 106363,
+      "salePrice": 10311,
+      "regularSalePrice": 10311,
+      "buyPrice": 5900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:31.251Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057772",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057772",
+    "capturedAt": "2026-10-08T03:13:31.251Z",
+    "items": [],
+    "path": "data/other-shops/145057772.json"
+  }
+}

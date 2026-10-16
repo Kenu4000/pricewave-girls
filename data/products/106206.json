@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106206,
+    "title": "Windows8.1/10 CDソフト 孕ませ! 人妻寝取りハーレム性活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071820",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071820.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2021-03-19",
+    "listPrice": 2310,
+    "modelNumber": "MIEL-135",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071820001",
+      "メーカー": "Miel",
+      "発売日": "2021/03/19",
+      "定価": "2,310円",
+      "型番": "MIEL-135",
+      "原画": "ぷろていんB6",
+      "シナリオ": "有巻洋太",
+      "声優": "渋谷ひめ\n梅宮ここ\nくどう彩織",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3350,
+    "latestRegularSalePrice": 3350,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:32.931Z"
+  },
+  "histories": [
+    {
+      "id": 106220,
+      "productId": 106206,
+      "salePrice": 3350,
+      "regularSalePrice": 3350,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:32.931Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333325,
+      "productId": 106206,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3350,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333324,
+      "productId": 106206,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3711,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333323,
+      "productId": 106206,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 3211,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333322,
+      "productId": 106206,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 2680,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071820",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071820",
+    "capturedAt": "2026-10-08T03:12:32.931Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 2680
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 3211
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3350
+      }
+    ],
+    "path": "data/other-shops/145071820.json"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 82624,
+    "title": "Windows8.1/10 DVDソフト ヌキコレvol.68 JKとエロ議員センセイ+JK初音アフター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081659",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081659.jpg",
+    "manufacturer": "ブルゲLIGHT",
+    "releaseDate": "2024-09-27",
+    "listPrice": 2970,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145081659001",
+      "メーカー": "ブルゲLIGHT",
+      "発売日": "2024/09/27",
+      "定価": "2,970円",
+      "原画": "鋼丸",
+      "シナリオ": "JUN",
+      "声優": "榛名れん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:00.894Z"
+  },
+  "histories": [
+    {
+      "id": 82638,
+      "productId": 82624,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:00.894Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245241,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245240,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 2380,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245239,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 2180,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245238,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 1571,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245237,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    },
+    {
+      "id": 245236,
+      "productId": 82624,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1501,
+      "checkedAt": "2026-09-09T05:32:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081659",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081659",
+    "capturedAt": "2026-09-09T05:32:00.894Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1501
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 1571
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 2180
+      },
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 2380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1780
+      }
+    ],
+    "path": "data/other-shops/145081659.json"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42192,
+    "title": "Windows2000/XP/Vista CDソフト 少女達のさえずり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019029",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019029.jpg",
+    "manufacturer": "桃色劇場",
+    "releaseDate": "2008-12-05",
+    "listPrice": 3122,
+    "modelNumber": "MIG-00001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019029",
+      "メーカー": "桃色劇場",
+      "発売日": "2008/12/05",
+      "定価": "3,122円",
+      "型番": "MIG-00001",
+      "原画": "天城一矢",
+      "シナリオ": "水瀬拓未",
+      "声優": "みたか亜矢\n藤野藍\n五色比奈",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 470,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:01:41.163Z"
+  },
+  "histories": [
+    {
+      "id": 42206,
+      "productId": 42192,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:10.603Z"
+    },
+    {
+      "id": 53631,
+      "productId": 42192,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:59.543Z"
+    },
+    {
+      "id": 65611,
+      "productId": 42192,
+      "salePrice": 470,
+      "regularSalePrice": 470,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:01:41.163Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019029",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019029",
+    "capturedAt": "2026-08-29T13:01:41.163Z",
+    "items": [],
+    "path": "data/other-shops/145019029.json"
+  }
+}

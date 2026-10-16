@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 41972,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト ブルマ母～魅惑の汗ばみユニフォーム～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020592",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020592.jpg",
+    "manufacturer": "EROTICA PEACH",
+    "releaseDate": "2009-06-26",
+    "listPrice": 2200,
+    "modelNumber": "ERP-00006",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020592001",
+      "メーカー": "EROTICA PEACH",
+      "発売日": "2009/06/26",
+      "定価": "2,200円",
+      "型番": "ERP-00006",
+      "原画": "ふぃげ",
+      "シナリオ": "奇偶転置",
+      "声優": "杉原茉莉\n歌織",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:06:59.528Z"
+  },
+  "histories": [
+    {
+      "id": 41986,
+      "productId": 41972,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:59.528Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 108664,
+      "productId": 41972,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 980,
+      "checkedAt": "2026-08-17T07:06:59.000Z"
+    },
+    {
+      "id": 108663,
+      "productId": 41972,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:06:59.000Z"
+    },
+    {
+      "id": 108662,
+      "productId": 41972,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-08-17T07:06:59.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020592",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020592",
+    "capturedAt": "2026-08-17T07:06:59.528Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145020592.json"
+  }
+}

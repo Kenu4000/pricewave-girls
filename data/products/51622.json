@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 51622,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 温泉姦交 湯けむり痴情",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019661",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019661.jpg",
+    "manufacturer": "BLACK PACKAGE",
+    "releaseDate": "2009-04-10",
+    "listPrice": 9680,
+    "modelNumber": "BP0066",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019661001",
+      "メーカー": "BLACK PACKAGE",
+      "発売日": "2009/04/10",
+      "定価": "9,680円",
+      "型番": "BP0066",
+      "原画": "大越秀武",
+      "シナリオ": "有巻洋太",
+      "声優": "吉川華生\n岬友美\n紫苑みやび\n野神奈々\n一色ヒカル",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:26.708Z"
+  },
+  "histories": [
+    {
+      "id": 51636,
+      "productId": 51622,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:26.708Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137696,
+      "productId": 51622,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    },
+    {
+      "id": 137695,
+      "productId": 51622,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1101,
+      "checkedAt": "2026-08-19T09:29:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019661",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019661",
+    "capturedAt": "2026-08-19T09:29:26.708Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1101
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145019661.json"
+  }
+}

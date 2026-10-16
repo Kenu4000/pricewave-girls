@@ -1,0 +1,76 @@
+{
+  "product": {
+    "id": 42589,
+    "title": "Windows DVDソフト Cool-B 2008年1月号 VOL.17 付録DVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040384",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040384.jpg",
+    "manufacturer": "宙出版",
+    "releaseDate": "2007-12-04",
+    "listPrice": null,
+    "modelNumber": "DC7K15-19",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145040384001",
+      "メーカー": "宙出版",
+      "発売日": "2007/12/04",
+      "型番": "DC7K15-19",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:03:43.726Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:03:43.570Z"
+  },
+  "histories": [
+    {
+      "id": 42603,
+      "productId": 42589,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:11.049Z"
+    },
+    {
+      "id": 53921,
+      "productId": 42589,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:27.314Z"
+    },
+    {
+      "id": 65869,
+      "productId": 42589,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:03:43.570Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

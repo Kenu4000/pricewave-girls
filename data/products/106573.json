@@ -1,0 +1,187 @@
+{
+  "product": {
+    "id": 106573,
+    "title": "Windows98/Me/2000/XP CDソフト トラぶる花札道中記EX(エクセリオン)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017515",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017515.jpg",
+    "manufacturer": "TYPE-MOON",
+    "releaseDate": "2006-08-11",
+    "listPrice": null,
+    "modelNumber": "TMXPCG-002A01",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017515001",
+      "メーカー": "TYPE-MOON",
+      "発売日": "2006/08/11",
+      "型番": "TMXPCG-002A01",
+      "ゲスト": "高山箕犀",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "480",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-16T12:20:08.691Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:20:07.247Z"
+  },
+  "histories": [
+    {
+      "id": 106587,
+      "productId": 106573,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:53.439Z"
+    },
+    {
+      "id": 113140,
+      "productId": 106573,
+      "salePrice": 450,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:20:07.247Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 358417,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-10-16T12:20:08.000Z"
+    },
+    {
+      "id": 358416,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-10-16T12:20:08.000Z"
+    },
+    {
+      "id": 358415,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:20:08.000Z"
+    },
+    {
+      "id": 358414,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 754,
+      "checkedAt": "2026-10-16T12:20:08.000Z"
+    },
+    {
+      "id": 358413,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 449,
+      "checkedAt": "2026-10-16T12:20:08.000Z"
+    },
+    {
+      "id": 333908,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333907,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333906,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333905,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 754,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333904,
+      "productId": 106573,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 449,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017515",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017515",
+    "capturedAt": "2026-10-16T12:20:07.247Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 449
+      },
+      {
+        "storeName": "ブックエコ浅川店",
+        "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+        "price": 754
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145017515.json"
+  }
+}

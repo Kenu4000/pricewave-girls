@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 43108,
+    "title": "Windows98/Me/2000/XP CDソフト くいっくCLICK!～3 in 1～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014654",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014654.jpg",
+    "manufacturer": "柏堂",
+    "releaseDate": "2006-08-11",
+    "listPrice": 6380,
+    "modelNumber": "KST-001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014654001",
+      "メーカー": "柏堂",
+      "発売日": "2006/08/11",
+      "定価": "6,380円",
+      "型番": "KST-001",
+      "原画": "村正みかど\n猫生いづる",
+      "シナリオ": "はまむらとしきり",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:06:59.911Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:06:59.610Z"
+  },
+  "histories": [
+    {
+      "id": 43122,
+      "productId": 43108,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:58.517Z"
+    },
+    {
+      "id": 55184,
+      "productId": 43108,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:47:33.579Z"
+    },
+    {
+      "id": 66266,
+      "productId": 43108,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:59.610Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

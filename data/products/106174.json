@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 106174,
+    "title": "Windows10 DVDソフト いつまでもママといっしょ! -誘惑ママのおっぱいに甘えていっぱい射精したい!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079169",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079169.jpg",
+    "manufacturer": "ANIM Mother＆Wife",
+    "releaseDate": "2023-10-27",
+    "listPrice": 4950,
+    "modelNumber": "ANM-489",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145079169001",
+      "メーカー": "ANIM Mother＆Wife",
+      "発売日": "2023/10/27",
+      "定価": "4,950円",
+      "型番": "ANM-489",
+      "原画": "八月朔日珈瑠",
+      "シナリオ": "山野詠子",
+      "声優": "乙倉由依",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:18.910Z"
+  },
+  "histories": [
+    {
+      "id": 106188,
+      "productId": 106174,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:18.910Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333236,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333235,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333234,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1060,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333233,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333232,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333231,
+      "productId": 106174,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1060,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079169",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079169",
+    "capturedAt": "2026-10-08T03:12:18.910Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1060
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1480
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1060
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1650
+      }
+    ],
+    "path": "data/other-shops/145079169.json"
+  }
+}

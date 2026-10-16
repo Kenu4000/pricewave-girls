@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 111484,
+    "title": "WindowsXP/Vista/7 DVDソフト 魔法戦士 Complete Disc 3",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038743",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038743.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2013-11-29",
+    "listPrice": 9680,
+    "modelNumber": "COMPLETE3",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145038743001",
+      "メーカー": "Triangle",
+      "発売日": "2013/11/29",
+      "定価": "9,680円",
+      "型番": "COMPLETE3",
+      "原画": "偽おかゆ\n斎藤なつき\n夕暮ぱいろ",
+      "シナリオ": "反事象桂林\n島村ひろし",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3300,
+    "latestRegularSalePrice": 3300,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:27:05.217Z"
+  },
+  "histories": [
+    {
+      "id": 111498,
+      "productId": 111484,
+      "salePrice": 3300,
+      "regularSalePrice": 3300,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:05.217Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 353061,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3300,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353060,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古「クラインハーゼ」「魔法戦士の学園祭」ディスク欠品",
+      "price": 2300,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353059,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 4980,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353058,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353057,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353056,
+      "productId": 111484,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古「クラインハーゼ」「魔法戦士の学園祭」ディスク欠品",
+      "price": 2300,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    },
+    {
+      "id": 353055,
+      "productId": 111484,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 「クラインハーゼ」「魔法戦士の学園祭」ディスク欠品",
+      "price": 2300,
+      "checkedAt": "2026-10-15T02:27:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038743",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038743",
+    "capturedAt": "2026-10-15T02:27:05.217Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古「クラインハーゼ」「魔法戦士の学園祭」ディスク欠品",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3200
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 4980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古「クラインハーゼ」「魔法戦士の学園祭」ディスク欠品",
+        "price": 2300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3300
+      }
+    ],
+    "path": "data/other-shops/145038743.json"
+  }
+}

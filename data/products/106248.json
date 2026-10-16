@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 106248,
+    "title": "Windows7/8/8.1/10 DVDソフト もっとIxSHE Tell 彩楓・芳乃ミニアフターストーリー [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062375",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062375.jpg",
+    "manufacturer": "HOOKSOFT",
+    "releaseDate": "2018-07-27",
+    "listPrice": 2970,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062375001",
+      "メーカー": "HOOKSOFT",
+      "発売日": "2018/07/27",
+      "定価": "2,970円",
+      "原画": "RINKS",
+      "シナリオ": "桜城なお",
+      "声優": "桐谷永美\n卯衣",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:49.003Z"
+  },
+  "histories": [
+    {
+      "id": 106262,
+      "productId": 106248,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:49.003Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333425,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333424,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333423,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1085,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333422,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333421,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333420,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    },
+    {
+      "id": 333419,
+      "productId": 106248,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-10-08T03:12:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062375",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062375",
+    "capturedAt": "2026-10-08T03:12:49.003Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1085
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145062375.json"
+  }
+}

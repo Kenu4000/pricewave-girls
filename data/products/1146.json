@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 1146,
+    "title": "Windows8.1/10 DVDソフト ヌキコレvol.14 神聖昂燐アルカナルージュ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075386",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075386.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2022-07-29",
+    "listPrice": 3960,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145075386",
+      "メーカー": "CHAOS-R",
+      "発売日": "2022/07/29",
+      "定価": "3,960円",
+      "原画": "金目鯛ぴんく\nさいとうつかさ",
+      "シナリオ": "時田シャケ\nassault",
+      "声優": "櫻井ありす\n梅原亜衣\n野中みかん\n渋谷ひめ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:36.425Z"
+  },
+  "histories": [
+    {
+      "id": 1160,
+      "productId": 1146,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 6050,
+      "productId": 1146,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:07:07.000Z"
+    },
+    {
+      "id": 16119,
+      "productId": 1146,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 44512,
+      "productId": 1146,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:18.230Z"
+    },
+    {
+      "id": 72281,
+      "productId": 1146,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:36.425Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207940,
+      "productId": 1146,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 3450,
+      "checkedAt": "2026-09-03T01:17:37.000Z"
+    },
+    {
+      "id": 207939,
+      "productId": 1146,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3100,
+      "checkedAt": "2026-09-03T01:17:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145075386",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075386",
+    "capturedAt": "2026-09-03T01:17:36.425Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3100
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 3450
+      }
+    ],
+    "path": "data/other-shops/145075386.json"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "product": {
+    "id": 41943,
+    "title": "Windows2000/XP/Vista CDソフト コスモスの秘密",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020607",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020607.jpg",
+    "manufacturer": "熟れ専",
+    "releaseDate": "2009-07-17",
+    "listPrice": 3300,
+    "modelNumber": "URS-00004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020607",
+      "メーカー": "熟れ専",
+      "発売日": "2009/07/17",
+      "定価": "3,300円",
+      "型番": "URS-00004",
+      "原画": "鳩矢豆七",
+      "シナリオ": "ガンジン",
+      "声優": "佐倉もも花\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:13.950Z"
+  },
+  "histories": [
+    {
+      "id": 41957,
+      "productId": 41943,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:06:43.899Z"
+    },
+    {
+      "id": 53450,
+      "productId": 41943,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:28.853Z"
+    },
+    {
+      "id": 65000,
+      "productId": 41943,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:13.950Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

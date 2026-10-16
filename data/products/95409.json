@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 95409,
+    "title": "Windows98/Me/2000/XP CDソフト 放課後調教倶楽部 ～保健室の牝奴隷～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014040",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014040.jpg",
+    "manufacturer": "アンダーリップ",
+    "releaseDate": "2006-03-24",
+    "listPrice": 2305,
+    "modelNumber": "UL-113",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014040001",
+      "メーカー": "アンダーリップ",
+      "発売日": "2006/03/24",
+      "定価": "2,305円",
+      "型番": "UL-113",
+      "原画": "ことぶきはじめ",
+      "シナリオ": "JUN",
+      "声優": "羽里さつき",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-19T13:53:39.707Z"
+  },
+  "histories": [
+    {
+      "id": 95423,
+      "productId": 95409,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:39.707Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 294060,
+      "productId": 95409,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    },
+    {
+      "id": 294059,
+      "productId": 95409,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    },
+    {
+      "id": 294058,
+      "productId": 95409,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-19T13:53:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014040",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014040",
+    "capturedAt": "2026-09-19T13:53:39.707Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 680
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145014040.json"
+  }
+}

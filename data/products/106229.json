@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 106229,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2 キャラクターパック 色気のあるおしとやかなお姉さん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066064",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066064.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2019-09-27",
+    "listPrice": 4359,
+    "modelNumber": "KISS-109",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066064001",
+      "メーカー": "KISS",
+      "発売日": "2019/09/27",
+      "定価": "4,359円",
+      "型番": "KISS-109",
+      "声優": "美空なつひ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:42.092Z"
+  },
+  "histories": [
+    {
+      "id": 106243,
+      "productId": 106229,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:42.092Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333379,
+      "productId": 106229,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-10-08T03:12:42.000Z"
+    },
+    {
+      "id": 333378,
+      "productId": 106229,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品（外箱に日焼け有）",
+      "price": 2780,
+      "checkedAt": "2026-10-08T03:12:42.000Z"
+    },
+    {
+      "id": 333377,
+      "productId": 106229,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1810,
+      "checkedAt": "2026-10-08T03:12:42.000Z"
+    },
+    {
+      "id": 333376,
+      "productId": 106229,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-10-08T03:12:42.000Z"
+    },
+    {
+      "id": 333375,
+      "productId": 106229,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1810,
+      "checkedAt": "2026-10-08T03:12:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066064",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066064",
+    "capturedAt": "2026-10-08T03:12:42.092Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1810
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2511
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1810
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品（外箱に日焼け有）",
+        "price": 2780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2750
+      }
+    ],
+    "path": "data/other-shops/145066064.json"
+  }
+}

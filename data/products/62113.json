@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 62113,
+    "title": "WindowsXP/Vista/7/8 CDソフト 恋人(おやこ)でできること",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039743",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039743.jpg",
+    "manufacturer": "My Daughter",
+    "releaseDate": "2014-01-31",
+    "listPrice": 3300,
+    "modelNumber": "QMD-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145039743001",
+      "メーカー": "My Daughter",
+      "発売日": "2014/01/31",
+      "定価": "3,300円",
+      "型番": "QMD-001",
+      "原画": "上弦",
+      "シナリオ": "草薙",
+      "声優": "中家志穂",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T02:14:11.266Z"
+  },
+  "histories": [
+    {
+      "id": 62127,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:23.423Z"
+    },
+    {
+      "id": 62791,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:22.938Z"
+    },
+    {
+      "id": 64586,
+      "productId": 62113,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:08.254Z"
+    },
+    {
+      "id": 78597,
+      "productId": 62113,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:07:18.407Z"
+    },
+    {
+      "id": 91607,
+      "productId": 62113,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-15T16:00:46.200Z"
+    },
+    {
+      "id": 105561,
+      "productId": 62113,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T02:14:11.266Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 330981,
+      "productId": 62113,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-10-08T02:14:11.000Z"
+    },
+    {
+      "id": 330980,
+      "productId": 62113,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-10-08T02:14:11.000Z"
+    },
+    {
+      "id": 330979,
+      "productId": 62113,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-10-08T02:14:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039743",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039743",
+    "capturedAt": "2026-10-08T02:14:11.266Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145039743.json"
+  }
+}

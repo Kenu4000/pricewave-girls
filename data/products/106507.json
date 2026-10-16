@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 106507,
+    "title": "Windows2000/XP/Vista DVDソフト すくーるふぁいぶ -五つの秘密の物語-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019309",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019309.jpg",
+    "manufacturer": "DisAbel",
+    "releaseDate": "2009-03-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019309001",
+      "メーカー": "DisAbel",
+      "発売日": "2009/03/27",
+      "定価": "9,680円",
+      "原画": "水月悠",
+      "声優": "まきいづみ\n草柳順子\n桜川未央\n水純なな歩\n宮沢ゆあな",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:28.753Z"
+  },
+  "histories": [
+    {
+      "id": 106521,
+      "productId": 106507,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:28.753Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333811,
+      "productId": 106507,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-10-08T03:14:29.000Z"
+    },
+    {
+      "id": 333810,
+      "productId": 106507,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:29.000Z"
+    },
+    {
+      "id": 333809,
+      "productId": 106507,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 460,
+      "checkedAt": "2026-10-08T03:14:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019309",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019309",
+    "capturedAt": "2026-10-08T03:14:28.753Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 460
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145019309.json"
+  }
+}

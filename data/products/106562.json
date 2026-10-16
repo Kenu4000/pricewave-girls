@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 106562,
+    "title": "Windows98/Me/2000/XP DVDソフト エーデルヴァイス[外箱無し]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023897",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023897.jpg",
+    "manufacturer": "inspire",
+    "releaseDate": "2006-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145023897",
+      "メーカー": "inspire",
+      "発売日": "2006/12/22",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:20:06.286Z"
+  },
+  "histories": [
+    {
+      "id": 106576,
+      "productId": 106562,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:49.137Z"
+    },
+    {
+      "id": 113136,
+      "productId": 106562,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:20:06.286Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

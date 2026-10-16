@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 111519,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 初恋撫子(こいおとめ)[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014550",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014550.jpg",
+    "manufacturer": "キャリエール",
+    "releaseDate": "2006-08-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014550001",
+      "メーカー": "キャリエール",
+      "発売日": "2006/08/25",
+      "定価": "9,680円",
+      "原画": "igul\nMA@YA",
+      "シナリオ": "そら",
+      "声優": "中澤アユム\n榊原ゆい\n安玖深音\n北都南\n金田まひる\n文月かな\n芹園みや\n涼森ちさと\nYuki-Lin",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:27:20.649Z"
+  },
+  "histories": [
+    {
+      "id": 111533,
+      "productId": 111519,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:20.649Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 353109,
+      "productId": 111519,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-15T02:27:20.000Z"
+    },
+    {
+      "id": 353108,
+      "productId": 111519,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-15T02:27:20.000Z"
+    },
+    {
+      "id": 353107,
+      "productId": 111519,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 185,
+      "checkedAt": "2026-10-15T02:27:20.000Z"
+    },
+    {
+      "id": 353106,
+      "productId": 111519,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 185,
+      "checkedAt": "2026-10-15T02:27:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014550",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014550",
+    "capturedAt": "2026-10-15T02:27:20.649Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 185
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 185
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145014550.json"
+  }
+}

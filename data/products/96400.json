@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 96400,
+    "title": "Windows98/Me/2000/XP CDソフト おしかけスクランブル 予約特典CD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014370",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014370.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2006-02-24",
+    "listPrice": null,
+    "modelNumber": "JRC-31404",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014370001",
+      "メーカー": "マリン",
+      "発売日": "2006/02/24",
+      "型番": "JRC-31404",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-20T14:09:08.102Z"
+  },
+  "histories": [
+    {
+      "id": 96414,
+      "productId": 96400,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:08.102Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 297449,
+      "productId": 96400,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297448,
+      "productId": 96400,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    },
+    {
+      "id": 297447,
+      "productId": 96400,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-20T14:09:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014370",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014370",
+    "capturedAt": "2026-09-20T14:09:08.102Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145014370.json"
+  }
+}

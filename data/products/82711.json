@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 82711,
+    "title": "WindowsVista/7/8 DVDソフト 催眠中毒 -夫が知らない妻の顔-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043972",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043972.jpg",
+    "manufacturer": "黒鳥",
+    "releaseDate": "2014-10-31",
+    "listPrice": 9680,
+    "modelNumber": "SWB-0010",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145043972001",
+      "メーカー": "黒鳥",
+      "発売日": "2014/10/31",
+      "定価": "9,680円",
+      "型番": "SWB-0010",
+      "原画": "鬼MAYUGE",
+      "シナリオ": "氷角砂糖",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2480,
+    "latestRegularSalePrice": 2480,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:48.617Z"
+  },
+  "histories": [
+    {
+      "id": 82725,
+      "productId": 82711,
+      "salePrice": 2480,
+      "regularSalePrice": 2480,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:48.617Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245548,
+      "productId": 82711,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2480,
+      "checkedAt": "2026-09-09T05:32:49.000Z"
+    },
+    {
+      "id": 245547,
+      "productId": 82711,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-09-09T05:32:49.000Z"
+    },
+    {
+      "id": 245546,
+      "productId": 82711,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 2175,
+      "checkedAt": "2026-09-09T05:32:49.000Z"
+    },
+    {
+      "id": 245545,
+      "productId": 82711,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-09-09T05:32:49.000Z"
+    },
+    {
+      "id": 245544,
+      "productId": 82711,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 2175,
+      "checkedAt": "2026-09-09T05:32:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043972",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043972",
+    "capturedAt": "2026-09-09T05:32:48.617Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 2175
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 2175
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2950
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2480
+      }
+    ],
+    "path": "data/other-shops/145043972.json"
+  }
+}

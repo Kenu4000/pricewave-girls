@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 106438,
+    "title": "WindowsXP/Vista/7 CDソフト 孤高の格闘美少女霧香がキモオタに種付けされまくるー無駄だ!幾ら子宮を汚されても屈するものか!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029561",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029561.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2011-09-22",
+    "listPrice": 2530,
+    "modelNumber": "MIEL-016",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029561001",
+      "メーカー": "Miel",
+      "発売日": "2011/09/22",
+      "定価": "2,530円",
+      "型番": "MIEL-016",
+      "原画": "石井彰",
+      "シナリオ": "遊真一希",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:59.990Z"
+  },
+  "histories": [
+    {
+      "id": 106452,
+      "productId": 106438,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:59.990Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333679,
+      "productId": 106438,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-10-08T03:14:00.000Z"
+    },
+    {
+      "id": 333678,
+      "productId": 106438,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-10-08T03:14:00.000Z"
+    },
+    {
+      "id": 333677,
+      "productId": 106438,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-10-08T03:14:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029561",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029561",
+    "capturedAt": "2026-10-08T03:13:59.990Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 700
+      }
+    ],
+    "path": "data/other-shops/145029561.json"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 111503,
+    "title": "Windows2000/XP/Vista DVDソフト MONSTER PARKー化け物に魅入られし姫ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021931",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021931.jpg",
+    "manufacturer": "Delta",
+    "releaseDate": "2009-12-25",
+    "listPrice": 5217,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021931001",
+      "メーカー": "Delta",
+      "発売日": "2009/12/25",
+      "定価": "5,217円",
+      "原画": "偽おかゆ\n置弓枷",
+      "シナリオ": "坂本江麻",
+      "声優": "藤ノ森秋穂\nこのは\n草柳順子\n東かりん",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:27:14.138Z"
+  },
+  "histories": [
+    {
+      "id": 111517,
+      "productId": 111503,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:14.138Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 353077,
+      "productId": 111503,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-15T02:27:14.000Z"
+    },
+    {
+      "id": 353076,
+      "productId": 111503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-10-15T02:27:14.000Z"
+    },
+    {
+      "id": 353075,
+      "productId": 111503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1370,
+      "checkedAt": "2026-10-15T02:27:14.000Z"
+    },
+    {
+      "id": 353074,
+      "productId": 111503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-15T02:27:14.000Z"
+    },
+    {
+      "id": 353073,
+      "productId": 111503,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-10-15T02:27:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021931",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021931",
+    "capturedAt": "2026-10-15T02:27:14.138Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1370
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145021931.json"
+  }
+}

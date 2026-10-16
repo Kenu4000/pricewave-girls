@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 95383,
+    "title": "Windows98/Me/2000/XP DVDソフト ドキドキ母娘レッスン ～教えて♪Hなお勉強～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014094",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014094.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2006-04-14",
+    "listPrice": 9680,
+    "modelNumber": "TB-027",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014094001",
+      "メーカー": "TinkerBell",
+      "発売日": "2006/04/14",
+      "定価": "9,680円",
+      "型番": "TB-027",
+      "原画": "すめらぎ琥珀",
+      "シナリオ": "フレーム",
+      "声優": "天天\nあさり☆\n杏露花梨\n涼森ちさと\n古都美琴",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:30.842Z"
+  },
+  "histories": [
+    {
+      "id": 95397,
+      "productId": 95383,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:30.842Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293994,
+      "productId": 95383,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-09-17T19:57:31.000Z"
+    },
+    {
+      "id": 293993,
+      "productId": 95383,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1750,
+      "checkedAt": "2026-09-17T19:57:31.000Z"
+    },
+    {
+      "id": 293992,
+      "productId": 95383,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-09-17T19:57:31.000Z"
+    },
+    {
+      "id": 293991,
+      "productId": 95383,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1520,
+      "checkedAt": "2026-09-17T19:57:31.000Z"
+    },
+    {
+      "id": 293990,
+      "productId": 95383,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-09-17T19:57:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014094",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014094",
+    "capturedAt": "2026-09-17T19:57:30.842Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1520
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1750
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145014094.json"
+  }
+}

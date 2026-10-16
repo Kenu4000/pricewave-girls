@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 111465,
+    "title": "Windows7/8/8.1/10 DVDソフト ウブな処女のエッチなお願い",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059011",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059011.jpg",
+    "manufacturer": "ensemble SWEET",
+    "releaseDate": "2017-10-27",
+    "listPrice": 9680,
+    "modelNumber": "WILL-370",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059011001",
+      "メーカー": "ensemble SWEET",
+      "発売日": "2017/10/27",
+      "定価": "9,680円",
+      "型番": "WILL-370",
+      "原画": "すみすず\nきみづか葵\nみこ\nさいとうつかさ\n蟹屋しく",
+      "シナリオ": "甲二\n木村ころや",
+      "声優": "橘まお\n歩サラ\n鈴谷まや\n月野きいろ\nわらび茶々",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3150,
+    "latestRegularSalePrice": 3150,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:26:56.290Z"
+  },
+  "histories": [
+    {
+      "id": 111479,
+      "productId": 111465,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:26:56.290Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 353019,
+      "productId": 111465,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3150,
+      "checkedAt": "2026-10-15T02:26:56.000Z"
+    },
+    {
+      "id": 353018,
+      "productId": 111465,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2900,
+      "checkedAt": "2026-10-15T02:26:56.000Z"
+    },
+    {
+      "id": 353017,
+      "productId": 111465,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2900,
+      "checkedAt": "2026-10-15T02:26:56.000Z"
+    },
+    {
+      "id": 353016,
+      "productId": 111465,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 2900,
+      "checkedAt": "2026-10-15T02:26:56.000Z"
+    },
+    {
+      "id": 353015,
+      "productId": 111465,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2701,
+      "checkedAt": "2026-10-15T02:26:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059011",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059011",
+    "capturedAt": "2026-10-15T02:26:56.290Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2701
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 2900
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2900
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3150
+      }
+    ],
+    "path": "data/other-shops/145059011.json"
+  }
+}

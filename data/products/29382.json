@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 29382,
+    "title": "Windows7/8/10 DVDソフト アイドル裏営業 -汚されたステージ衣装-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065277",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065277.jpg",
+    "manufacturer": "チャンネル奪",
+    "releaseDate": "2019-07-26",
+    "listPrice": 4180,
+    "modelNumber": "CHAU-002",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065277",
+      "メーカー": "チャンネル奪",
+      "発売日": "2019/07/26",
+      "定価": "4,180円",
+      "型番": "CHAU-002",
+      "原画": "羽鳥ぴよこ",
+      "シナリオ": "山本ヨル\n夕凪和泉",
+      "声優": "野々原まどか\nそよかぜみらい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1011,
+    "latestRegularSalePrice": 1011,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:08.439Z"
+  },
+  "histories": [
+    {
+      "id": 29396,
+      "productId": 29382,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:29.782Z"
+    },
+    {
+      "id": 38227,
+      "productId": 29382,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:44.185Z"
+    },
+    {
+      "id": 49379,
+      "productId": 29382,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:33.699Z"
+    },
+    {
+      "id": 60163,
+      "productId": 29382,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:58.902Z"
+    },
+    {
+      "id": 70447,
+      "productId": 29382,
+      "salePrice": 1011,
+      "regularSalePrice": 1011,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:08.439Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132144,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-19T04:30:33.000Z"
+    },
+    {
+      "id": 132143,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T04:30:33.000Z"
+    },
+    {
+      "id": 100547,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 950,
+      "checkedAt": "2026-08-16T01:09:44.000Z"
+    },
+    {
+      "id": 100546,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-16T01:09:44.000Z"
+    },
+    {
+      "id": 74492,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 950,
+      "checkedAt": "2026-08-15T23:06:29.000Z"
+    },
+    {
+      "id": 74491,
+      "productId": 29382,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-15T23:06:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065277",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065277",
+    "capturedAt": "2026-09-02T20:45:08.439Z",
+    "items": [],
+    "path": "data/other-shops/145065277.json"
+  }
+}

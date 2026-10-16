@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 106352,
+    "title": "WindowsXP/Vista/7/8 DVDソフト スクランブル・ラバーズ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145042528",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145042528.jpg",
+    "manufacturer": "Aries",
+    "releaseDate": "2014-06-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145042528001",
+      "メーカー": "Aries",
+      "発売日": "2014/06/27",
+      "定価": "9,680円",
+      "原画": "有子瑶一\n戌角柾",
+      "シナリオ": "高津新\n沙万由馬\n保桜\n芳井一\n北川晴",
+      "声優": "shizuku\n萌花ちょこ\n藤森ゆき奈\n秋野花\n赤井リア",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:27.556Z"
+  },
+  "histories": [
+    {
+      "id": 106366,
+      "productId": 106352,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:27.556Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333578,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    },
+    {
+      "id": 333577,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    },
+    {
+      "id": 333576,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    },
+    {
+      "id": 333575,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    },
+    {
+      "id": 333574,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1100,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    },
+    {
+      "id": 333573,
+      "productId": 106352,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱難有",
+      "price": 980,
+      "checkedAt": "2026-10-08T03:13:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145042528",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145042528",
+    "capturedAt": "2026-10-08T03:13:27.556Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱難有",
+        "price": 980
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1100
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 980
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1300
+      }
+    ],
+    "path": "data/other-shops/145042528.json"
+  }
+}

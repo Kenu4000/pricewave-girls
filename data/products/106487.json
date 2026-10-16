@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 106487,
+    "title": "WindowsXP/Vista DVDソフト ももいろガーディアン [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021810",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021810.jpg",
+    "manufacturer": "ALICESOFT",
+    "releaseDate": "2009-09-25",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021810",
+      "メーカー": "ALICESOFT",
+      "発売日": "2009/09/25",
+      "定価": "3,080円",
+      "原画": "うろたん",
+      "シナリオ": "HIRO\nもみあげルパンR",
+      "声優": "小次狼\n水瀬沙季\n桜川未央\nサトウユキ\n金松由花\n松永雪希\n小日向なつ\n古河徹人\nヒマリ\n滝沢アツヤ\n来栖川勇\n雪村とあ\n春山色葉\n蘭丸\n柚木サチ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:20.124Z"
+  },
+  "histories": [
+    {
+      "id": 106501,
+      "productId": 106487,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:20.124Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021810",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021810",
+    "capturedAt": "2026-10-08T03:14:20.124Z",
+    "items": [],
+    "path": "data/other-shops/145021810.json"
+  }
+}

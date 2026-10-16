@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 51643,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト お姉さん×すくらっち [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018159",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018159.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2008-07-25",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018159001",
+      "メーカー": "裸足少女",
+      "発売日": "2008/07/25",
+      "定価": "4,180円",
+      "原画": "旭",
+      "声優": "金松由花\nこのかなみ\n韮井叶",
+      "シナリオ": "大神キリン\nみとも\n心新",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T09:29:37.163Z"
+  },
+  "histories": [
+    {
+      "id": 51657,
+      "productId": 51643,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:37.163Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 137770,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    },
+    {
+      "id": 137769,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 2380,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    },
+    {
+      "id": 137768,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    },
+    {
+      "id": 137767,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    },
+    {
+      "id": 137766,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    },
+    {
+      "id": 137765,
+      "productId": 51643,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-19T09:29:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018159",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018159",
+    "capturedAt": "2026-08-19T09:29:37.163Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋江南店",
+        "condition": "中古",
+        "price": 2380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145018159.json"
+  }
+}

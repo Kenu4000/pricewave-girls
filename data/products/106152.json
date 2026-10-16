@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 106152,
+    "title": "Windows11 DVDソフト 口悪塩対応の汐谷さんは、なぜか俺をヌいてくれる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084736",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084736.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2026-09-18",
+    "listPrice": 3080,
+    "modelNumber": "APT-312",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145084736000",
+      "メーカー": "アパタイト",
+      "発売日": "2026/09/18",
+      "定価": "3,080円",
+      "型番": "APT-312",
+      "原画": "雪村うさぎ",
+      "シナリオ": "ツキカズ",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2780,
+    "latestRegularSalePrice": 2780,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:10.054Z"
+  },
+  "histories": [
+    {
+      "id": 106166,
+      "productId": 106152,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:10.054Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333131,
+      "productId": 106152,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "新品",
+      "price": 2780,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333130,
+      "productId": 106152,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 3080,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333129,
+      "productId": 106152,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 3080,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333128,
+      "productId": 106152,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 3080,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333127,
+      "productId": 106152,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品",
+      "price": 2780,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084736",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084736",
+    "capturedAt": "2026-10-08T03:12:10.054Z",
+    "items": [
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品",
+        "price": 2780
+      },
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 3080
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 3080
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 3080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "新品",
+        "price": 2780
+      }
+    ],
+    "path": "data/other-shops/145084736.json"
+  }
+}

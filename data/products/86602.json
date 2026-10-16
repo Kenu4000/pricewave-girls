@@ -1,0 +1,128 @@
+{
+  "product": {
+    "id": 86602,
+    "title": "Windows7/8/8.1/10 DVDソフト 遊聖天使プリマヴェールDrei ダークミッション 本編同梱版 [ecavg-031s]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055905",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055905.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2016-12-22",
+    "listPrice": 14080,
+    "modelNumber": "ECAVG-031S",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055905001",
+      "メーカー": "エスクード",
+      "発売日": "2016/12/22",
+      "定価": "14,080円",
+      "型番": "ECAVG-031S",
+      "原画": "蒼瀬\nはなたかれとも\n遊丸",
+      "シナリオ": "assault",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5550,
+    "latestRegularSalePrice": 5550,
+    "latestBuyPrice": 3400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:18:42.772Z"
+  },
+  "histories": [
+    {
+      "id": 86616,
+      "productId": 86602,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難(傷み・汚れ・日焼けなど)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T07:11:16.397Z"
+    },
+    {
+      "id": 102465,
+      "productId": 86602,
+      "salePrice": 4900,
+      "regularSalePrice": 4900,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": "箱状態難(傷み・汚れ・日焼けなど)",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-30T16:01:15.378Z"
+    },
+    {
+      "id": 112947,
+      "productId": 86602,
+      "salePrice": 5550,
+      "regularSalePrice": 5550,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:18:42.772Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 357938,
+      "productId": 86602,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5550,
+      "checkedAt": "2026-10-16T12:18:43.000Z"
+    },
+    {
+      "id": 357937,
+      "productId": 86602,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 4900,
+      "checkedAt": "2026-10-16T12:18:43.000Z"
+    },
+    {
+      "id": 357936,
+      "productId": 86602,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 4900,
+      "checkedAt": "2026-10-16T12:18:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055905",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055905",
+    "capturedAt": "2026-10-16T12:18:42.772Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+        "price": 4900
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 4900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5550
+      }
+    ],
+    "path": "data/other-shops/145055905.json"
+  }
+}

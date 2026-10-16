@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42412,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト マネジ!イキます!! ～膣予選に賭けた夏2008～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017917",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017917.jpg",
+    "manufacturer": "Norn",
+    "releaseDate": "2008-05-30",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017917",
+      "メーカー": "Norn",
+      "発売日": "2008/05/30",
+      "定価": "2,200円",
+      "原画": "鰻丸",
+      "シナリオ": "春日森",
+      "声優": "ヒマリ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 411,
+    "latestRegularSalePrice": 411,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:54.352Z"
+  },
+  "histories": [
+    {
+      "id": 42426,
+      "productId": 42412,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:11:28.385Z"
+    },
+    {
+      "id": 53801,
+      "productId": 42412,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:27:25.565Z"
+    },
+    {
+      "id": 65766,
+      "productId": 42412,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:54.352Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017917",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017917",
+    "capturedAt": "2026-08-29T13:02:54.352Z",
+    "items": [],
+    "path": "data/other-shops/145017917.json"
+  }
+}

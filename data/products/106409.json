@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 106409,
+    "title": "WindowsXP/Vista/7 DVDソフト SINCLIENT(シンクライアント)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033650",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033650.jpg",
+    "manufacturer": "BOOST5",
+    "releaseDate": "2012-09-28",
+    "listPrice": 9680,
+    "modelNumber": "BGP-1201",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033650001",
+      "メーカー": "BOOST5",
+      "発売日": "2012/09/28",
+      "定価": "9,680円",
+      "型番": "BGP-1201",
+      "原画": "れーさー",
+      "シナリオ": "谷崎央佳",
+      "声優": "有栖川みや美\n小倉結衣\n桐谷華\n夏野こおり\n藤森ゆき奈\n本多啓吾\n堀川忍\n大久保けんたろう\n芹園みや\nかわしまりの\n秋山樹\n一色ヒカル\n杉原茉莉\n久喜大\n小次狼\n一文字雷\n御苑生メイ\n一条和矢\n常祭床惇\n樫野樹\n石森イッセイ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "OS": "T5",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145033650?branch_number=0003"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:49.612Z"
+  },
+  "histories": [
+    {
+      "id": 106423,
+      "productId": 106409,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:49.612Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333637,
+      "productId": 106409,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1350,
+      "checkedAt": "2026-10-08T03:13:49.000Z"
+    },
+    {
+      "id": 333636,
+      "productId": 106409,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-10-08T03:13:49.000Z"
+    },
+    {
+      "id": 333635,
+      "productId": 106409,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 近見店",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-10-08T03:13:49.000Z"
+    },
+    {
+      "id": 333634,
+      "productId": 106409,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 近見店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1350,
+      "checkedAt": "2026-10-08T03:13:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145033650",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033650",
+    "capturedAt": "2026-10-08T03:13:49.612Z",
+    "items": [
+      {
+        "storeName": "駿河屋 近見店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1350
+      },
+      {
+        "storeName": "駿河屋 近見店",
+        "condition": "中古",
+        "price": 1780
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145033650.json"
+  }
+}

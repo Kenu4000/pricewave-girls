@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 106243,
+    "title": "Windows7/8/8.1/10 DVDソフト マエバリ帝国の逆襲 (ユニコーンエーセレクション)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063179",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063179.jpg",
+    "manufacturer": "ArkShell",
+    "releaseDate": "2018-09-21",
+    "listPrice": 3278,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063179",
+      "メーカー": "ArkShell",
+      "発売日": "2018/09/21",
+      "定価": "3,278円",
+      "原画": "和馬村正",
+      "シナリオ": "LONE GUY",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:47.400Z"
+  },
+  "histories": [
+    {
+      "id": 106257,
+      "productId": 106243,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:47.400Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063179",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063179",
+    "capturedAt": "2026-10-08T03:12:47.400Z",
+    "items": [],
+    "path": "data/other-shops/145063179.json"
+  }
+}

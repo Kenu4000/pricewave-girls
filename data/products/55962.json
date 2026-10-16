@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 55962,
+    "title": "WindowsXP/Vista/7 CDソフト 夏服痴漢電車 薄着処女の恥辱通学",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034870",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034870.jpg",
+    "manufacturer": "ZION（ザイオン）",
+    "releaseDate": "2012-11-16",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034870001",
+      "メーカー": "ZION（ザイオン）",
+      "発売日": "2012/11/16",
+      "定価": "4,180円",
+      "原画": "ズルム健",
+      "シナリオ": "ハインライン座尾",
+      "声優": "藤ヶ谷宏子\n加乃みるく",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:46.987Z"
+  },
+  "histories": [
+    {
+      "id": 55976,
+      "productId": 55962,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:46.987Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151386,
+      "productId": 55962,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-08-21T05:31:47.000Z"
+    },
+    {
+      "id": 151385,
+      "productId": 55962,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2222,
+      "checkedAt": "2026-08-21T05:31:47.000Z"
+    },
+    {
+      "id": 151384,
+      "productId": 55962,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 1420,
+      "checkedAt": "2026-08-21T05:31:47.000Z"
+    },
+    {
+      "id": 151383,
+      "productId": 55962,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1420,
+      "checkedAt": "2026-08-21T05:31:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034870",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034870",
+    "capturedAt": "2026-08-21T05:31:46.987Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1420
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 1420
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2222
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1850
+      }
+    ],
+    "path": "data/other-shops/145034870.json"
+  }
+}

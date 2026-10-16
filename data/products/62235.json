@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 62235,
+    "title": "Windows2000/XP DVDソフト 不法挿入 ～生簀の住人～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015615",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015615.jpg",
+    "manufacturer": "TRUST",
+    "releaseDate": "2007-04-20",
+    "listPrice": 9680,
+    "modelNumber": "TRUST-007",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015615001",
+      "メーカー": "TRUST",
+      "発売日": "2007/04/20",
+      "定価": "9,680円",
+      "型番": "TRUST-007",
+      "原画": "葵渚",
+      "シナリオ": "琴羽之文",
+      "声優": "町田あみ\n渋谷ひめ\nくわがたみほ\n紫水晶\n葉月志菜\nこのかなみ\n白井うさぎ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2780,
+    "latestRegularSalePrice": 2780,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:01.486Z"
+  },
+  "histories": [
+    {
+      "id": 62249,
+      "productId": 62235,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:18.385Z"
+    },
+    {
+      "id": 62913,
+      "productId": 62235,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:18.965Z"
+    },
+    {
+      "id": 64707,
+      "productId": 62235,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:01.486Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181748,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2780,
+      "checkedAt": "2026-08-29T01:14:01.000Z"
+    },
+    {
+      "id": 181747,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 2470,
+      "checkedAt": "2026-08-29T01:14:01.000Z"
+    },
+    {
+      "id": 176776,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2780,
+      "checkedAt": "2026-08-27T16:05:19.000Z"
+    },
+    {
+      "id": 176775,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 2470,
+      "checkedAt": "2026-08-27T16:05:19.000Z"
+    },
+    {
+      "id": 174102,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2780,
+      "checkedAt": "2026-08-27T10:44:18.000Z"
+    },
+    {
+      "id": 174101,
+      "productId": 62235,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 2470,
+      "checkedAt": "2026-08-27T10:44:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015615",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015615",
+    "capturedAt": "2026-08-29T01:14:01.486Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 2470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2780
+      }
+    ],
+    "path": "data/other-shops/145015615.json"
+  }
+}

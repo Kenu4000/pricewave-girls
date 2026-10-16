@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106464,
+    "title": "WindowsXP/Vista/7 DVDソフト 新妻イカせてミルク! -KAGUYAコレクション-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025785",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025785.jpg",
+    "manufacturer": "アトリエかぐや Honky-Tonk Pumpkin",
+    "releaseDate": "2010-12-10",
+    "listPrice": 4378,
+    "modelNumber": "KC-0010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025785001",
+      "メーカー": "アトリエかぐや Honky-Tonk Pumpkin",
+      "発売日": "2010/12/10",
+      "定価": "4,378円",
+      "型番": "KC-0010",
+      "原画": "1:02am",
+      "シナリオ": "速水漣\n近江達裕\n七央結日",
+      "声優": "角川竜二\n新堂真弓\n倉田まりや\n桃井いちご\n氷室百合\n中澤アユム\n三原椎名",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:11.997Z"
+  },
+  "histories": [
+    {
+      "id": 106478,
+      "productId": 106464,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:11.997Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333735,
+      "productId": 106464,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333734,
+      "productId": 106464,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1520,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333733,
+      "productId": 106464,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333732,
+      "productId": 106464,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025785",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025785",
+    "capturedAt": "2026-10-08T03:14:11.997Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1520
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145025785.json"
+  }
+}

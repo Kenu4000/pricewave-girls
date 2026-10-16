@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 71409,
+    "title": "Windows2000/XP/Vista CDソフト 孕まサンタの中出しメリークリスマス!!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025814",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025814.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2010-12-24",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145025814001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2010/12/24",
+      "定価": "2,200円",
+      "シナリオ": "遊真一希",
+      "原画": "かいとうぴんく",
+      "声優": "加乃みるく\n沢代りず\n春河あかり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:36.760Z"
+  },
+  "histories": [
+    {
+      "id": 71423,
+      "productId": 71409,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:36.760Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204943,
+      "productId": 71409,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-02T21:37:37.000Z"
+    },
+    {
+      "id": 204942,
+      "productId": 71409,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古(非常に良い)",
+      "price": 1000,
+      "checkedAt": "2026-09-02T21:37:37.000Z"
+    },
+    {
+      "id": 204941,
+      "productId": 71409,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-02T21:37:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025814",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025814",
+    "capturedAt": "2026-09-02T21:37:36.760Z",
+    "items": [
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古(非常に良い)",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145025814.json"
+  }
+}

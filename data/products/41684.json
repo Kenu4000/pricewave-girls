@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 41684,
+    "title": "Windows2000/XP/Vista/7 CDソフト ママは女子校生",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023462",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023462.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2010-03-26",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023462",
+      "メーカー": "softhouse-seal",
+      "発売日": "2010/03/26",
+      "定価": "2,200円",
+      "原画": "ヲン",
+      "シナリオ": "HANABUSA",
+      "声優": "ヒマリ\n春河あかり",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 511,
+    "latestRegularSalePrice": 511,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:08.964Z"
+  },
+  "histories": [
+    {
+      "id": 41698,
+      "productId": 41684,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:29.915Z"
+    },
+    {
+      "id": 53277,
+      "productId": 41684,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:03.071Z"
+    },
+    {
+      "id": 64853,
+      "productId": 41684,
+      "salePrice": 511,
+      "regularSalePrice": 511,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:08.964Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143217,
+      "productId": 41684,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-19T16:23:03.000Z"
+    },
+    {
+      "id": 143216,
+      "productId": 41684,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-08-19T16:23:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023462",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023462",
+    "capturedAt": "2026-08-29T01:15:08.964Z",
+    "items": [],
+    "path": "data/other-shops/145023462.json"
+  }
+}

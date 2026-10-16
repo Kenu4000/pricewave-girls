@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 91407,
+    "title": "WindowsXP/Vista/7/8 DVDソフト おっぱいぱいぱい 平均バスト100cmのハーレム生活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052119",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052119.jpg",
+    "manufacturer": "アトリエさくら eXtra",
+    "releaseDate": "2015-11-27",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0054",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145052119001",
+      "メーカー": "アトリエさくら eXtra",
+      "発売日": "2015/11/27",
+      "定価": "3,080円",
+      "型番": "ASPC-0054",
+      "原画": "まる。",
+      "シナリオ": "水上菊丸",
+      "声優": "姫乃木つばさ\n藤乃理香\n小波渡陸\n葉村夏緒\n天間あい",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:33.025Z"
+  },
+  "histories": [
+    {
+      "id": 91421,
+      "productId": 91407,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:33.025Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278949,
+      "productId": 91407,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-09-14T17:28:33.000Z"
+    },
+    {
+      "id": 278948,
+      "productId": 91407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1210,
+      "checkedAt": "2026-09-14T17:28:33.000Z"
+    },
+    {
+      "id": 278947,
+      "productId": 91407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-14T17:28:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052119",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052119",
+    "capturedAt": "2026-09-14T17:28:33.025Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1210
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145052119.json"
+  }
+}

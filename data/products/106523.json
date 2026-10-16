@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 106523,
+    "title": "Windows2000/XP/Vista DVDソフト 凌辱スカウト～アイドル独占契約～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017755",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017755.jpg",
+    "manufacturer": "TRUST",
+    "releaseDate": "2008-04-25",
+    "listPrice": 9680,
+    "modelNumber": "TRUST-009",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017755001",
+      "メーカー": "TRUST",
+      "発売日": "2008/04/25",
+      "定価": "9,680円",
+      "型番": "TRUST-009",
+      "原画": "十神真",
+      "シナリオ": "なるみおかず\n琴羽之文",
+      "声優": "もえはらぶり\n春奈有美\n青葉りんご\n草柳順子\n榊木春乃\n八雲みずき\nヒマリ\nTHOKO\n朝香みぃあ\n佐藤玲羅\n鶴岡さくら",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7400,
+    "latestRegularSalePrice": 7400,
+    "latestBuyPrice": 4400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:34.111Z"
+  },
+  "histories": [
+    {
+      "id": 106537,
+      "productId": 106523,
+      "salePrice": 7400,
+      "regularSalePrice": 7400,
+      "buyPrice": 4400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:34.111Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333844,
+      "productId": 106523,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7400,
+      "checkedAt": "2026-10-08T03:14:34.000Z"
+    },
+    {
+      "id": 333843,
+      "productId": 106523,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 7811,
+      "checkedAt": "2026-10-08T03:14:34.000Z"
+    },
+    {
+      "id": 333842,
+      "productId": 106523,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 7106,
+      "checkedAt": "2026-10-08T03:14:34.000Z"
+    },
+    {
+      "id": 333841,
+      "productId": 106523,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 7111,
+      "checkedAt": "2026-10-08T03:14:34.000Z"
+    },
+    {
+      "id": 333840,
+      "productId": 106523,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 7106,
+      "checkedAt": "2026-10-08T03:14:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017755",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017755",
+    "capturedAt": "2026-10-08T03:14:34.111Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 7106
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 7111
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 7106
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 7811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7400
+      }
+    ],
+    "path": "data/other-shops/145017755.json"
+  }
+}

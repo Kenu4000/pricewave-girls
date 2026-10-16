@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 107555,
+    "title": "Windows98/Me/2000/XP CDソフト ふたりはいつもいっしょなり。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035405",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035405.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2012-11-30",
+    "listPrice": 1980,
+    "modelNumber": "VAL-003",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145035405",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2012/11/30",
+      "定価": "1,980円",
+      "型番": "VAL-003",
+      "原画": "ズンダレぽん",
+      "声優": "百花ルナ\n志田希",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 594,
+    "latestRegularSalePrice": 594,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:01:44.996Z"
+  },
+  "histories": [
+    {
+      "id": 107569,
+      "productId": 107555,
+      "salePrice": 594,
+      "regularSalePrice": 594,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:01:44.996Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035405",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035405",
+    "capturedAt": "2026-10-09T13:01:44.996Z",
+    "items": [],
+    "path": "data/other-shops/145035405.json"
+  }
+}

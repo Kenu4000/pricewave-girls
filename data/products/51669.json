@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 51669,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 校内えっち ～妹孕ませ特別授業～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016914",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016914.jpg",
+    "manufacturer": "ローズティアラ",
+    "releaseDate": "2007-11-09",
+    "listPrice": 3080,
+    "modelNumber": "ROSE-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016914001",
+      "メーカー": "ローズティアラ",
+      "発売日": "2007/11/09",
+      "定価": "3,080円",
+      "型番": "ROSE-001",
+      "原画": "ホルモン恋次郎",
+      "シナリオ": "岡下誠",
+      "アーティスト": "AZ-MIX",
+      "声優": "瀬川雪那\n凪",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "OS": "E-001",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:22:15.988Z"
+  },
+  "histories": [
+    {
+      "id": 51683,
+      "productId": 51669,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:50.071Z"
+    },
+    {
+      "id": 72826,
+      "productId": 51669,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:22:15.988Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 209584,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 209583,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ韮崎竜岡店",
+      "condition": "中古通常",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 209582,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 209581,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 137849,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-19T09:29:50.000Z"
+    },
+    {
+      "id": 137848,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ韮崎竜岡店",
+      "condition": "中古通常",
+      "price": 1100,
+      "checkedAt": "2026-08-19T09:29:50.000Z"
+    },
+    {
+      "id": 137847,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T09:29:50.000Z"
+    },
+    {
+      "id": 137846,
+      "productId": 51669,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-08-19T09:29:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016914",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016914",
+    "capturedAt": "2026-09-03T01:22:15.988Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "ブックジョイ韮崎竜岡店",
+        "condition": "中古通常",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145016914.json"
+  }
+}

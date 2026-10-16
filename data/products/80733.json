@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 80733,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 魔界天使ジブリール -episode2- [Vista対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017890",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017890.jpg",
+    "manufacturer": "フロントウイング",
+    "releaseDate": "2008-05-23",
+    "listPrice": 9680,
+    "modelNumber": "FWS-00042",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017890001",
+      "メーカー": "フロントウイング",
+      "発売日": "2008/05/23",
+      "定価": "9,680円",
+      "型番": "FWS-00042",
+      "原画": "空中幼彩",
+      "シナリオ": "苑脇つぐみ\n反転星\n橘ぱん",
+      "声優": "祭大!\n北都南\n青山ゆかり\n野神奈々\n成瀬未亜\nまきいづみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145017890?branch_number=0002"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2780,
+    "latestRegularSalePrice": 2780,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-12T13:35:33.044Z"
+  },
+  "histories": [
+    {
+      "id": 80747,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:11.745Z"
+    },
+    {
+      "id": 88117,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:07:34.615Z"
+    },
+    {
+      "id": 94618,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:45:00.763Z"
+    },
+    {
+      "id": 99528,
+      "productId": 80733,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-29T12:31:06.511Z"
+    },
+    {
+      "id": 108593,
+      "productId": 80733,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-12T13:35:33.044Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 341605,
+      "productId": 80733,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 2780,
+      "checkedAt": "2026-10-12T13:35:33.000Z"
+    },
+    {
+      "id": 341604,
+      "productId": 80733,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 3980,
+      "checkedAt": "2026-10-12T13:35:33.000Z"
+    },
+    {
+      "id": 341603,
+      "productId": 80733,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古ランクB",
+      "price": 2780,
+      "checkedAt": "2026-10-12T13:35:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017890",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017890",
+    "capturedAt": "2026-10-12T13:35:33.044Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古ランクB",
+        "price": 2780
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有",
+        "price": 3980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 2780
+      }
+    ],
+    "path": "data/other-shops/145017890.json"
+  }
+}

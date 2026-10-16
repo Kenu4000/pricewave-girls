@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 106165,
+    "title": "Windows10/11 DVDソフト お兄ちゃん、エッチしよ? -妹の性欲が強すぎて…-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082111",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082111.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2024-09-27",
+    "listPrice": 2200,
+    "modelNumber": "APT-265",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082111001",
+      "メーカー": "アパタイト",
+      "発売日": "2024/09/27",
+      "定価": "2,200円",
+      "型番": "APT-265",
+      "原画": "くない瓜",
+      "シナリオ": "坂元星日",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:17.512Z"
+  },
+  "histories": [
+    {
+      "id": 106179,
+      "productId": 106165,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:17.512Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333197,
+      "productId": 106165,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-08T03:12:17.000Z"
+    },
+    {
+      "id": 333196,
+      "productId": 106165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:12:17.000Z"
+    },
+    {
+      "id": 333195,
+      "productId": 106165,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-08T03:12:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082111",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082111",
+    "capturedAt": "2026-10-08T03:12:17.512Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145082111.json"
+  }
+}

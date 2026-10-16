@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 95353,
+    "title": "Windows98/Me/2000/XP DVDソフト Sweets!! -オシオキSweetieファンディスク-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014163",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014163.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2006-04-28",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014163001",
+      "メーカー": "裸足少女",
+      "発売日": "2006/04/28",
+      "定価": "4,180円",
+      "原画": "INO",
+      "声優": "榎津まお\n如月葵\n楠鈴音\n吉川華生",
+      "シナリオ": "大神麒麟\n黒崎将弘\n海堂めぐる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:19.984Z"
+  },
+  "histories": [
+    {
+      "id": 95367,
+      "productId": 95353,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:19.984Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293913,
+      "productId": 95353,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:20.000Z"
+    },
+    {
+      "id": 293912,
+      "productId": 95353,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古(非常に良い)",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:57:20.000Z"
+    },
+    {
+      "id": 293911,
+      "productId": 95353,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:57:20.000Z"
+    },
+    {
+      "id": 293910,
+      "productId": 95353,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-17T19:57:20.000Z"
+    },
+    {
+      "id": 293909,
+      "productId": 95353,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-17T19:57:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014163",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014163",
+    "capturedAt": "2026-09-17T19:57:19.984Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古(非常に良い)",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145014163.json"
+  }
+}

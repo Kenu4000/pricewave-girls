@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42064,
+    "title": "Windows2000/XP/Vista DVDソフト 特濃・汁まみれ!～ザーメンだらけのプールサイド～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019651",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019651.jpg",
+    "manufacturer": "汁・ザル",
+    "releaseDate": "2009-03-27",
+    "listPrice": 3981,
+    "modelNumber": "SESR-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019651",
+      "メーカー": "汁・ザル",
+      "発売日": "2009/03/27",
+      "定価": "3,981円",
+      "型番": "SESR-001",
+      "原画": "海苔餅太",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "平野響子\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:51.081Z"
+  },
+  "histories": [
+    {
+      "id": 42078,
+      "productId": 42064,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:50.472Z"
+    },
+    {
+      "id": 53540,
+      "productId": 42064,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:14.695Z"
+    },
+    {
+      "id": 65082,
+      "productId": 42064,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:51.081Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019651",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019651",
+    "capturedAt": "2026-08-29T01:16:51.081Z",
+    "items": [],
+    "path": "data/other-shops/145019651.json"
+  }
+}

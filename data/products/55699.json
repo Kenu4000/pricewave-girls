@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 55699,
+    "title": "Windows10/11 DVDソフト 略奪された婚約者(フィアンセ) -恋人・真澄(ますみ)と弟の秘密",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080021",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080021.jpg",
+    "manufacturer": "アトリエさくら",
+    "releaseDate": "2023-11-24",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0145",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080021001",
+      "メーカー": "アトリエさくら",
+      "発売日": "2023/11/24",
+      "定価": "3,080円",
+      "型番": "ASPC-0145",
+      "原画": "綾風柳晶",
+      "シナリオ": "中森南文里",
+      "声優": "雲雀ゆい",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1650,
+    "latestRegularSalePrice": 1650,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:28.201Z"
+  },
+  "histories": [
+    {
+      "id": 55713,
+      "productId": 55699,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:28.201Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150365,
+      "productId": 55699,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1650,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    },
+    {
+      "id": 150364,
+      "productId": 55699,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    },
+    {
+      "id": 150363,
+      "productId": 55699,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-08-21T05:29:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080021",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080021",
+    "capturedAt": "2026-08-21T05:29:28.201Z",
+    "items": [
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1650
+      }
+    ],
+    "path": "data/other-shops/145080021.json"
+  }
+}

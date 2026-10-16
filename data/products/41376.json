@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 41376,
+    "title": "WindowsXP/Vista/7 DVDソフト 虐襲 Windows7対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026338",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026338.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2011-01-28",
+    "listPrice": 2750,
+    "modelNumber": "ANM-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026338",
+      "メーカー": "ANIM",
+      "発売日": "2011/01/28",
+      "定価": "2,750円",
+      "型番": "ANM-010",
+      "原画": "おおたたけし",
+      "シナリオ": "酒井童人",
+      "声優": "SHIN\n春瀬みき\n御苑生メイ\n一色ヒカル\n金田まひる\n鳩野比奈\n月山かなる\n珠ひよこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2499,
+    "latestRegularSalePrice": 2499,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:07.128Z"
+  },
+  "histories": [
+    {
+      "id": 41390,
+      "productId": 41376,
+      "salePrice": 2499,
+      "regularSalePrice": 2499,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:17.453Z"
+    },
+    {
+      "id": 43918,
+      "productId": 41376,
+      "salePrice": 2499,
+      "regularSalePrice": 2499,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:07.128Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026338",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026338",
+    "capturedAt": "2026-08-17T09:36:07.128Z",
+    "items": [],
+    "path": "data/other-shops/145026338.json"
+  }
+}

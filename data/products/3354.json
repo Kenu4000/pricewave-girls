@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 3354,
+    "title": "Windows98/Me/2000/XP CDソフト 兄妹 ～ふたり～ [回収版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145012868",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145012868.jpg",
+    "manufacturer": "DEEPBLUE",
+    "releaseDate": "2005-04-28",
+    "listPrice": 9680,
+    "modelNumber": "SHDB0006",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145012868",
+      "メーカー": "DEEPBLUE",
+      "発売日": "2005/04/28",
+      "定価": "9,680円",
+      "型番": "SHDB0006",
+      "原画": "けこちゃ",
+      "シナリオ": "はやさかうたね\n羽田ともなり",
+      "声優": "成川クウ\nサトウユキ\n青葉楓\n金田まひる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:00:06.154Z"
+  },
+  "histories": [
+    {
+      "id": 3368,
+      "productId": 3354,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:42:14.000Z"
+    },
+    {
+      "id": 37126,
+      "productId": 3354,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:00:06.154Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 97639,
+      "productId": 3354,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古箱不備（大）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 2650,
+      "checkedAt": "2026-08-16T01:00:06.000Z"
+    },
+    {
+      "id": 97638,
+      "productId": 3354,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 2645,
+      "checkedAt": "2026-08-16T01:00:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145012868",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145012868",
+    "capturedAt": "2026-08-16T01:00:06.154Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 2645
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古箱不備（大）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 2650
+      }
+    ],
+    "path": "data/other-shops/145012868.json"
+  }
+}

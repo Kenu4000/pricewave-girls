@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42660,
+    "title": "Windows98/Me/2000/XP DVDソフト 魔将の贄2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016605",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016605.jpg",
+    "manufacturer": "Liquid（リキッド）",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": "LIQ013",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016605",
+      "メーカー": "Liquid（リキッド）",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "型番": "LIQ013",
+      "原画": "かんたか",
+      "シナリオ": "和泉万夜\nassault\nモーリー\nおくとぱす\n東人",
+      "声優": "桃井いちご\n未来羽\nみる\n飯田空\n芹園みや\n倉田まりや\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:04:08.412Z"
+  },
+  "histories": [
+    {
+      "id": 42674,
+      "productId": 42660,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:53.764Z"
+    },
+    {
+      "id": 53979,
+      "productId": 42660,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:29:00.520Z"
+    },
+    {
+      "id": 65920,
+      "productId": 42660,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:04:08.412Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016605",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016605",
+    "capturedAt": "2026-08-29T13:04:08.412Z",
+    "items": [],
+    "path": "data/other-shops/145016605.json"
+  }
+}

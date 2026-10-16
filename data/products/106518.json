@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 106518,
+    "title": "Windows2000/XP/Vista DVDソフト ギリギリ☆すくーぷ ～潜入!! 禁断の女子水泳部～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018386",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018386.jpg",
+    "manufacturer": "うらら",
+    "releaseDate": "2008-08-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018386",
+      "メーカー": "うらら",
+      "発売日": "2008/08/29",
+      "定価": "9,680円",
+      "原画": "NOBU",
+      "シナリオ": "チーム大吉",
+      "声優": "マヲ\n西野みく\n相模真\n葉月るい",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2011,
+    "latestRegularSalePrice": 2011,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:20:05.581Z"
+  },
+  "histories": [
+    {
+      "id": 106532,
+      "productId": 106518,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:32.616Z"
+    },
+    {
+      "id": 113134,
+      "productId": 106518,
+      "salePrice": 2011,
+      "regularSalePrice": 2011,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:20:05.581Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333833,
+      "productId": 106518,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333832,
+      "productId": 106518,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333831,
+      "productId": 106518,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018386",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018386",
+    "capturedAt": "2026-10-16T12:20:05.581Z",
+    "items": [],
+    "path": "data/other-shops/145018386.json"
+  }
+}

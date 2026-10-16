@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 41594,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 巫女さんといっしょ!ーイケナイご奉仕奮戦記ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024061.jpg",
+    "manufacturer": "SCORE【しゅこあ!】",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": "SCR012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024061",
+      "メーカー": "SCORE【しゅこあ!】",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "型番": "SCR012",
+      "声優": "一色ヒカル\n小倉由衣\n青井美海\n青葉りんご",
+      "原画": "稍日向",
+      "シナリオ": "小沢裕樹\nRe-born\nMerle\n群青",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 350,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:14:39.184Z"
+  },
+  "histories": [
+    {
+      "id": 41608,
+      "productId": 41594,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:03:37.572Z"
+    },
+    {
+      "id": 53202,
+      "productId": 41594,
+      "salePrice": 1940,
+      "regularSalePrice": 1940,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:24.810Z"
+    },
+    {
+      "id": 64784,
+      "productId": 41594,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:14:39.184Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181925,
+      "productId": 41594,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1905,
+      "checkedAt": "2026-08-29T01:14:39.000Z"
+    },
+    {
+      "id": 181924,
+      "productId": 41594,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-29T01:14:39.000Z"
+    },
+    {
+      "id": 181923,
+      "productId": 41594,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1112,
+      "checkedAt": "2026-08-29T01:14:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024061",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024061",
+    "capturedAt": "2026-08-29T01:14:39.184Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1112
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1905
+      }
+    ],
+    "path": "data/other-shops/145024061.json"
+  }
+}

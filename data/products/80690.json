@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 80690,
+    "title": "Windows10/11 DVDソフト フタナリ美樹のエンドレス射精記録 -ヤりたいホーダイ3本パック-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079784",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079784.jpg",
+    "manufacturer": "CHAOS-R feat.FreakStrike",
+    "releaseDate": "2023-11-24",
+    "listPrice": 5500,
+    "modelNumber": "CHA-021",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145079784",
+      "メーカー": "CHAOS-R feat.FreakStrike",
+      "発売日": "2023/11/24",
+      "定価": "5,500円",
+      "型番": "CHA-021",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-R feat.FreakStrike",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:50.240Z"
+  },
+  "histories": [
+    {
+      "id": 80704,
+      "productId": 80690,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:50.240Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237411,
+      "productId": 80690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4011,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    },
+    {
+      "id": 237410,
+      "productId": 80690,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津白塚店",
+      "condition": "中古",
+      "price": 3880,
+      "checkedAt": "2026-09-07T13:47:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079784",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079784",
+    "capturedAt": "2026-09-07T13:47:50.240Z",
+    "items": [
+      {
+        "storeName": "駿河屋 津白塚店",
+        "condition": "中古",
+        "price": 3880
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 4011
+      }
+    ],
+    "path": "data/other-shops/145079784.json"
+  }
+}

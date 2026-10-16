@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41012,
+    "title": "Windows7/8.1/10 DVDソフト 俺の彼女が就職した会社は、ブラック企業だった…。廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063187",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063187.jpg",
+    "manufacturer": "ルネ Team Bitters",
+    "releaseDate": "2018-10-26",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0201",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063187",
+      "メーカー": "ルネ Team Bitters",
+      "発売日": "2018/10/26",
+      "定価": "4,180円",
+      "型番": "MGGW0201",
+      "原画": "黒石りんご",
+      "シナリオ": "和知まどか\nシャア専用◎",
+      "声優": "佐倉もも花\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1100,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:53.333Z"
+  },
+  "histories": [
+    {
+      "id": 41026,
+      "productId": 41012,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:03.259Z"
+    },
+    {
+      "id": 52381,
+      "productId": 41012,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:51.985Z"
+    },
+    {
+      "id": 63760,
+      "productId": 41012,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:53.333Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178480,
+      "productId": 41012,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-08-27T16:11:53.000Z"
+    },
+    {
+      "id": 178479,
+      "productId": 41012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-27T16:11:53.000Z"
+    },
+    {
+      "id": 140400,
+      "productId": 41012,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    },
+    {
+      "id": 140399,
+      "productId": 41012,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063187",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063187",
+    "capturedAt": "2026-08-27T16:11:53.333Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2101
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      }
+    ],
+    "path": "data/other-shops/145063187.json"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 42117,
+    "title": "Windows2000/XP/Vista DVDソフト 友達の母を犯すということ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019293",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019293.jpg",
+    "manufacturer": "DISCOVERY MARS",
+    "releaseDate": "2009-01-30",
+    "listPrice": 7480,
+    "modelNumber": "KSDMR-004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019293001",
+      "メーカー": "DISCOVERY MARS",
+      "発売日": "2009/01/30",
+      "定価": "7,480円",
+      "型番": "KSDMR-004",
+      "原画": "安藤裕行",
+      "シナリオ": "はまちょ",
+      "アーティスト": "Sery",
+      "声優": "土門熱\n和葉\n秋本涼子\n平野響子\n西野みく\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:08:28.251Z"
+  },
+  "histories": [
+    {
+      "id": 42131,
+      "productId": 42117,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:28.251Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 109031,
+      "productId": 42117,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 2640,
+      "checkedAt": "2026-08-17T07:08:28.000Z"
+    },
+    {
+      "id": 109030,
+      "productId": 42117,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1665,
+      "checkedAt": "2026-08-17T07:08:28.000Z"
+    },
+    {
+      "id": 109029,
+      "productId": 42117,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:08:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019293",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019293",
+    "capturedAt": "2026-08-17T07:08:28.251Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1665
+      },
+      {
+        "storeName": "東京書店蟹江店",
+        "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+        "price": 2640
+      }
+    ],
+    "path": "data/other-shops/145019293.json"
+  }
+}

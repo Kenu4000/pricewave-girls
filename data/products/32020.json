@@ -1,0 +1,94 @@
+{
+  "product": {
+    "id": 32020,
+    "title": "WindowsXP/Vista/7 CDソフト カスタムレイドV 2011夏プラグインDISC",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029910",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029910.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2011-10-28",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029910",
+      "メーカー": "KISS",
+      "発売日": "2011/10/28",
+      "定価": "2,750円",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:10:51.719Z"
+  },
+  "histories": [
+    {
+      "id": 32034,
+      "productId": 32020,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:46:51.775Z"
+    },
+    {
+      "id": 40761,
+      "productId": 32020,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:33:28.109Z"
+    },
+    {
+      "id": 52229,
+      "productId": 32020,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:33:39.085Z"
+    },
+    {
+      "id": 63625,
+      "productId": 32020,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:10:51.719Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029910",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029910",
+    "capturedAt": "2026-08-27T16:10:51.719Z",
+    "items": [],
+    "path": "data/other-shops/145029910.json"
+  }
+}

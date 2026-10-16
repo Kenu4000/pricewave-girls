@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 42863,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 魔法少女ナユタ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015436",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015436.jpg",
+    "manufacturer": "ぴんくはてな",
+    "releaseDate": "2007-02-23",
+    "listPrice": 6380,
+    "modelNumber": "PQ-02",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015436",
+      "メーカー": "ぴんくはてな",
+      "発売日": "2007/02/23",
+      "定価": "6,380円",
+      "型番": "PQ-02",
+      "原画": "呉マサヒロ",
+      "シナリオ": "ZEQU",
+      "声優": "ヒマリ\n計名さや香\n民安ともえ\n渡会ななせ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:37.527Z"
+  },
+  "histories": [
+    {
+      "id": 42877,
+      "productId": 42863,
+      "salePrice": 1165,
+      "regularSalePrice": 1165,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:49.367Z"
+    },
+    {
+      "id": 55007,
+      "productId": 42863,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:05.755Z"
+    },
+    {
+      "id": 66101,
+      "productId": 42863,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:37.527Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185480,
+      "productId": 42863,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古(ディスクのみ)",
+      "price": 2486,
+      "checkedAt": "2026-08-29T13:05:38.000Z"
+    },
+    {
+      "id": 185479,
+      "productId": 42863,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1115,
+      "checkedAt": "2026-08-29T13:05:38.000Z"
+    },
+    {
+      "id": 148423,
+      "productId": 42863,
+      "sourceType": "other_shop",
+      "storeName": "ブルーフォレスト",
+      "condition": "中古(ディスクのみ)",
+      "price": 2486,
+      "checkedAt": "2026-08-21T04:46:06.000Z"
+    },
+    {
+      "id": 148422,
+      "productId": 42863,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1150,
+      "checkedAt": "2026-08-21T04:46:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015436",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015436",
+    "capturedAt": "2026-08-29T13:05:37.527Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1115
+      },
+      {
+        "storeName": "ブルーフォレスト",
+        "condition": "中古(ディスクのみ)",
+        "price": 2486
+      }
+    ],
+    "path": "data/other-shops/145015436.json"
+  }
+}

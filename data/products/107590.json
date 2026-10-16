@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 107590,
+    "title": "Windows CDソフト ハーレム×すくらっち プレミアCD Disc1",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023031",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023031.jpg",
+    "manufacturer": "裸足少女",
+    "releaseDate": "2007-01-26",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145023031",
+      "メーカー": "裸足少女",
+      "発売日": "2007/01/26",
+      "原画": "旭",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:01:59.820Z"
+  },
+  "histories": [
+    {
+      "id": 107604,
+      "productId": 107590,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:01:59.820Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023031",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023031",
+    "capturedAt": "2026-10-09T13:01:59.820Z",
+    "items": [],
+    "path": "data/other-shops/145023031.json"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 113420,
+    "title": "Windows7/8/10 DVDソフト フルキスS [初回限定生産版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067493",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067493.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2020-02-28",
+    "listPrice": 7678,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067493001",
+      "メーカー": "戯画",
+      "発売日": "2020/02/28",
+      "定価": "7,678円",
+      "原画": "うなさか",
+      "シナリオ": "真崎ジーノ\nオオタリョウ(太田僚)",
+      "声優": "皇遊雅\n咲智ゆん\n月野きいろ\n雨場つかさ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 2950,
+    "latestRegularSalePrice": 2950,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:15.066Z"
+  },
+  "histories": [
+    {
+      "id": 113434,
+      "productId": 113420,
+      "salePrice": 2950,
+      "regularSalePrice": 2950,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:15.066Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360063,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2950,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    },
+    {
+      "id": 360062,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 4780,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    },
+    {
+      "id": 360061,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 3120,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    },
+    {
+      "id": 360060,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 3111,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    },
+    {
+      "id": 360059,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    },
+    {
+      "id": 360058,
+      "productId": 113420,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 2700,
+      "checkedAt": "2026-10-16T12:29:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067493",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067493",
+    "capturedAt": "2026-10-16T12:29:15.066Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 2700
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 2700
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 3111
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 3120
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 4780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2950
+      }
+    ],
+    "path": "data/other-shops/145067493.json"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "product": {
+    "id": 41166,
+    "title": "Windows CDソフト 放課後かすたむ☆たいむ メッセサンオーオリジナル 衣装プラグインディスク はかない制服Ver.",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037502",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037502.jpg",
+    "manufacturer": "TEATIME",
+    "releaseDate": "2011-07-29",
+    "listPrice": null,
+    "modelNumber": "MESSE-616",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037502",
+      "メーカー": "TEATIME",
+      "発売日": "2011/07/29",
+      "型番": "MESSE-616",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 812,
+    "latestRegularSalePrice": 812,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:41.738Z"
+  },
+  "histories": [
+    {
+      "id": 41180,
+      "productId": 41166,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:23.563Z"
+    },
+    {
+      "id": 52893,
+      "productId": 41166,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:45.730Z"
+    },
+    {
+      "id": 63852,
+      "productId": 41166,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:41.738Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037502",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037502",
+    "capturedAt": "2026-08-27T16:12:41.738Z",
+    "items": [],
+    "path": "data/other-shops/145037502.json"
+  }
+}

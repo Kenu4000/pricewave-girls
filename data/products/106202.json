@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 106202,
+    "title": "Windows8.1/10 DVDソフト ふゆから、くるる。[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072140",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072140.jpg",
+    "manufacturer": "シルキーズプラス",
+    "releaseDate": "2021-09-24",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145072140",
+      "メーカー": "シルキーズプラス",
+      "発売日": "2021/09/24",
+      "定価": "10,780円",
+      "原画": "なのはなこひな\nあめとゆき",
+      "シナリオ": "渡辺僚一",
+      "声優": "水野七海\n月野きいろ\n猫村ゆき\n上原あおい\nかわしまりの\n青葉りんご\n東シヅ\n花澤さくら",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4400,
+    "latestRegularSalePrice": 4400,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:19:55.553Z"
+  },
+  "histories": [
+    {
+      "id": 106216,
+      "productId": 106202,
+      "salePrice": 4400,
+      "regularSalePrice": 4400,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:31.011Z"
+    },
+    {
+      "id": 113113,
+      "productId": 106202,
+      "salePrice": 4400,
+      "regularSalePrice": 4400,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:19:55.553Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145072140",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072140",
+    "capturedAt": "2026-10-16T12:19:55.553Z",
+    "items": [],
+    "path": "data/other-shops/145072140.json"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 30099,
+    "title": "Windows7/8/8.1/10 DVDソフト moraliste(モラリスト)-性渇指導員 房江の放課後-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054726",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054726.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2016-06-24",
+    "listPrice": 3300,
+    "modelNumber": "CYCL-396",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054726001",
+      "メーカー": "CYCLET",
+      "発売日": "2016/06/24",
+      "定価": "3,300円",
+      "型番": "CYCL-396",
+      "原画": "吉澤友章",
+      "シナリオ": "五月だるま",
+      "声優": "阿蘇越メル\n大和桜",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "950",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:16:45.229Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:15:52.012Z"
+  },
+  "histories": [
+    {
+      "id": 30113,
+      "productId": 30099,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:16:45.058Z"
+    },
+    {
+      "id": 38904,
+      "productId": 30099,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:52.012Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 102095,
+      "productId": 30099,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-16T01:15:52.000Z"
+    },
+    {
+      "id": 102094,
+      "productId": 30099,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-16T01:15:52.000Z"
+    },
+    {
+      "id": 76134,
+      "productId": 30099,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-08-15T23:16:45.000Z"
+    },
+    {
+      "id": 76133,
+      "productId": 30099,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-08-15T23:16:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054726",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054726",
+    "capturedAt": "2026-08-16T01:15:52.012Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      }
+    ],
+    "path": "data/other-shops/145054726.json"
+  }
+}

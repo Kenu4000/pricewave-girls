@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 106495,
+    "title": "Windows CDソフト AlterEgo Collector’s Disc",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020913",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020913.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2009-05-29",
+    "listPrice": null,
+    "modelNumber": "SKR-147",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145020913",
+      "メーカー": "KISS",
+      "発売日": "2009/05/29",
+      "型番": "SKR-147",
+      "原画": "黒石りんご",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 220,
+    "latestRegularSalePrice": 220,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:24.473Z"
+  },
+  "histories": [
+    {
+      "id": 106509,
+      "productId": 106495,
+      "salePrice": 220,
+      "regularSalePrice": 220,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:24.473Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020913",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020913",
+    "capturedAt": "2026-10-08T03:14:24.473Z",
+    "items": [],
+    "path": "data/other-shops/145020913.json"
+  }
+}

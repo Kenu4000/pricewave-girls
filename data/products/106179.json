@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 106179,
+    "title": "Windows10 DVDソフト masterpiece colleciton vol.01 あやかしびと+BulletButlers",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077763",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077763.jpg",
+    "manufacturer": "propeller",
+    "releaseDate": "2023-06-30",
+    "listPrice": 3960,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145077763",
+      "メーカー": "propeller",
+      "発売日": "2023/06/30",
+      "定価": "3,960円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:21.434Z"
+  },
+  "histories": [
+    {
+      "id": 106193,
+      "productId": 106179,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:21.434Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145077763",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077763",
+    "capturedAt": "2026-10-08T03:12:21.434Z",
+    "items": [],
+    "path": "data/other-shops/145077763.json"
+  }
+}

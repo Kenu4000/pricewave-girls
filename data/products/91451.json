@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 91451,
+    "title": "Windows2000/XP/Vista/7 CDソフト MISAO～淫辱忍法伝～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026203",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026203.jpg",
+    "manufacturer": "Black Lilith",
+    "releaseDate": "2010-12-30",
+    "listPrice": 2420,
+    "modelNumber": "LBK-00050",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026203001",
+      "メーカー": "Black Lilith",
+      "発売日": "2010/12/30",
+      "定価": "2,420円",
+      "型番": "LBK-00050",
+      "原画": "のぶしと",
+      "シナリオ": "ZEQU\n松本竜\nフレーム",
+      "声優": "緒田マリ\n榊木春乃\n安堂りゅう",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:48.279Z"
+  },
+  "histories": [
+    {
+      "id": 91465,
+      "productId": 91451,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:48.279Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279041,
+      "productId": 91451,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-14T17:28:49.000Z"
+    },
+    {
+      "id": 279040,
+      "productId": 91451,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-14T17:28:49.000Z"
+    },
+    {
+      "id": 279039,
+      "productId": 91451,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1111,
+      "checkedAt": "2026-09-14T17:28:49.000Z"
+    },
+    {
+      "id": 279038,
+      "productId": 91451,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-14T17:28:49.000Z"
+    },
+    {
+      "id": 279037,
+      "productId": 91451,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-09-14T17:28:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026203",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026203",
+    "capturedAt": "2026-09-14T17:28:48.279Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 300
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1111
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145026203.json"
+  }
+}

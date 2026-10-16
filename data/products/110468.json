@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 110468,
+    "title": "WindowsXP/Vista/7 DVDソフト つよきす Full Edition[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035129",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035129.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2012-11-17",
+    "listPrice": 9680,
+    "modelNumber": "INH-293",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035129",
+      "メーカー": "CandySoft",
+      "発売日": "2012/11/17",
+      "定価": "9,680円",
+      "型番": "INH-293",
+      "原画": "白猫参謀\n吉野恵子",
+      "シナリオ": "タカヒロ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3901,
+    "latestRegularSalePrice": 3901,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-13T01:40:17.322Z"
+  },
+  "histories": [
+    {
+      "id": 110482,
+      "productId": 110468,
+      "salePrice": 3901,
+      "regularSalePrice": 3901,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:17.322Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035129",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035129",
+    "capturedAt": "2026-10-13T01:40:17.322Z",
+    "items": [],
+    "path": "data/other-shops/145035129.json"
+  }
+}

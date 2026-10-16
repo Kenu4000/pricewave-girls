@@ -1,0 +1,157 @@
+{
+  "product": {
+    "id": 51701,
+    "title": "Windows98/Me/2000/XP CDソフト 堕とせ! 人妻女神さま",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015232",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015232.jpg",
+    "manufacturer": "ＬｉＬｉＴＨ",
+    "releaseDate": "2006-12-01",
+    "listPrice": 2200,
+    "modelNumber": "LBL-00016",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015232001",
+      "メーカー": "ＬｉＬｉＴＨ",
+      "発売日": "2006/12/01",
+      "定価": "2,200円",
+      "型番": "LBL-00016",
+      "原画": "SHIUN",
+      "シナリオ": "松本竜",
+      "声優": "榎津まお\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 430,
+    "latestRegularSalePrice": 430,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:03:01.423Z"
+  },
+  "histories": [
+    {
+      "id": 51715,
+      "productId": 51701,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:30:06.349Z"
+    },
+    {
+      "id": 73214,
+      "productId": 51701,
+      "salePrice": 430,
+      "regularSalePrice": 430,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:03:01.423Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 211562,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-09-03T16:03:01.000Z"
+    },
+    {
+      "id": 211561,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "eあきんど",
+      "condition": "新品/良い",
+      "price": 699,
+      "checkedAt": "2026-09-03T16:03:01.000Z"
+    },
+    {
+      "id": 211560,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-03T16:03:01.000Z"
+    },
+    {
+      "id": 211559,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 430,
+      "checkedAt": "2026-09-03T16:03:01.000Z"
+    },
+    {
+      "id": 137936,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-19T09:30:06.000Z"
+    },
+    {
+      "id": 137935,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "eあきんど",
+      "condition": "新品/良い",
+      "price": 699,
+      "checkedAt": "2026-08-19T09:30:06.000Z"
+    },
+    {
+      "id": 137934,
+      "productId": 51701,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-08-19T09:30:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015232",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015232",
+    "capturedAt": "2026-09-03T16:03:01.423Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 430
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "eあきんど",
+        "condition": "新品/良い",
+        "price": 699
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 430
+      }
+    ],
+    "path": "data/other-shops/145015232.json"
+  }
+}

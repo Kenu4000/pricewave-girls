@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41661,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 最強御主人様!-Mighty My Master-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023489",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023489.jpg",
+    "manufacturer": "牛乳戦車",
+    "releaseDate": "2010-04-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145023489",
+      "メーカー": "牛乳戦車",
+      "発売日": "2010/04/23",
+      "定価": "9,680円",
+      "声優": "野宮香央里\n香澄りょう\n中家志穂\n鈴音華月",
+      "原画/シナリオ": "牛乳戦車",
+      "シナリオ": "佐野一馬",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "原画": "/",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1125,
+    "latestRegularSalePrice": 1125,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:01.786Z"
+  },
+  "histories": [
+    {
+      "id": 41675,
+      "productId": 41661,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:04:18.022Z"
+    },
+    {
+      "id": 53259,
+      "productId": 41661,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:22:54.592Z"
+    },
+    {
+      "id": 64836,
+      "productId": 41661,
+      "salePrice": 1125,
+      "regularSalePrice": 1125,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:01.786Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023489",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023489",
+    "capturedAt": "2026-08-29T01:15:01.786Z",
+    "items": [],
+    "path": "data/other-shops/145023489.json"
+  }
+}

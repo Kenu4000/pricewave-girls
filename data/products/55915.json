@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 55915,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 催眠クラス -女子全員、知らないうちに妊娠してました-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145039750",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145039750.jpg",
+    "manufacturer": "OLE-M",
+    "releaseDate": "2014-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145039750001",
+      "メーカー": "OLE-M",
+      "発売日": "2014/02/28",
+      "定価": "9,680円",
+      "原画": "望月望",
+      "シナリオ": "紫野",
+      "声優": "綾音まこ\n阿知良紅子\n佐倉もも花\n渋谷ひめ\nヒマリ\n手塚りょうこ\nくわがたみほ\n金松由花\n羽高なる\n羽村しき",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:23.235Z"
+  },
+  "histories": [
+    {
+      "id": 55929,
+      "productId": 55915,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:23.235Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151230,
+      "productId": 55915,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-21T05:31:23.000Z"
+    },
+    {
+      "id": 151229,
+      "productId": 55915,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-08-21T05:31:23.000Z"
+    },
+    {
+      "id": 151228,
+      "productId": 55915,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-21T05:31:23.000Z"
+    },
+    {
+      "id": 151227,
+      "productId": 55915,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古(状態：使用感有)/店舗併売",
+      "price": 1700,
+      "checkedAt": "2026-08-21T05:31:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145039750",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145039750",
+    "capturedAt": "2026-08-21T05:31:23.235Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古(状態：使用感有)/店舗併売",
+        "price": 1700
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古",
+        "price": 1700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145039750.json"
+  }
+}

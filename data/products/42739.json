@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 42739,
+    "title": "Windows98SE/Me/2000/XP DVDソフト 処女奪館 お嬢様をレディに",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016240",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016240.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2007-06-29",
+    "listPrice": 9680,
+    "modelNumber": "INH-250",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016240",
+      "メーカー": "インターハート",
+      "発売日": "2007/06/29",
+      "定価": "9,680円",
+      "型番": "INH-250",
+      "キャラクターデザイン": "KYO",
+      "シナリオ": "めるてぃ☆がちゃっく",
+      "声優": "馬並硬太\n緒田マリ\n西田こむぎ\n高原くくる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1310,
+    "latestRegularSalePrice": 1310,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T04:45:10.852Z"
+  },
+  "histories": [
+    {
+      "id": 42753,
+      "productId": 42739,
+      "salePrice": 1310,
+      "regularSalePrice": 1310,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:14:35.776Z"
+    },
+    {
+      "id": 54900,
+      "productId": 42739,
+      "salePrice": 1310,
+      "regularSalePrice": 1310,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:10.852Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016240",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016240",
+    "capturedAt": "2026-08-21T04:45:10.852Z",
+    "items": [],
+    "path": "data/other-shops/145016240.json"
+  }
+}

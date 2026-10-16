@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 113486,
+    "title": "Windows2000/XP/Vista DVDソフト 乙女恋心プリスター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021919",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021919.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2010-01-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021919001",
+      "メーカー": "エスクード",
+      "発売日": "2010/01/29",
+      "定価": "9,680円",
+      "原画": "水鼠\n光姫満太郎\nはなたかれとも",
+      "シナリオ": "新\nにゃこ\n沙鳴咲人\n樹原新",
+      "声優": "城崎彦太\n葵海人\n勝沼紀義\n深川緑\n水霧けいと\nこのかなみ\n如月葵\n神崎ちひろ\n民安ともえ\n理多\nかわしまりの\n桃井いちご\n草柳順子\n楠鈴音\n金松由花\n天野かなで\n狛乃ハルコ\n雪都さお梨\nまきいづみ\n桜川未央\n真中海\nMI-KO\n一色ヒカル\n遠見はるか\n小倉結衣\n森川明大\n甘美\nクマッチ\n佐久間翔",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:44.382Z"
+  },
+  "histories": [
+    {
+      "id": 113500,
+      "productId": 113486,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:44.382Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360181,
+      "productId": 113486,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360180,
+      "productId": 113486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360179,
+      "productId": 113486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 682,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360178,
+      "productId": 113486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360177,
+      "productId": 113486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 682,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021919",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021919",
+    "capturedAt": "2026-10-16T12:29:44.382Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 682
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 682
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145021919.json"
+  }
+}

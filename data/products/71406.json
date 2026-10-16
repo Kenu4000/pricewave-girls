@@ -1,0 +1,113 @@
+{
+  "product": {
+    "id": 71406,
+    "title": "WindowsXP/Vista/7 CDソフト 懲罰指導(おしおき)ー学園令嬢更性計画ー おしおきディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027266",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027266.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2011-02-18",
+    "listPrice": null,
+    "modelNumber": "TB-045",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027266001",
+      "メーカー": "TinkerBell",
+      "発売日": "2011/02/18",
+      "型番": "TB-045",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:32.222Z"
+  },
+  "histories": [
+    {
+      "id": 71420,
+      "productId": 71406,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:32.222Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204940,
+      "productId": 71406,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204939,
+      "productId": 71406,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 760,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204938,
+      "productId": 71406,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    },
+    {
+      "id": 204937,
+      "productId": 71406,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-09-02T21:37:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027266",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027266",
+    "capturedAt": "2026-09-02T21:37:32.222Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 760
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 480
+      }
+    ],
+    "path": "data/other-shops/145027266.json"
+  }
+}

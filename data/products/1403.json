@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 1403,
+    "title": "Windows10 DVDソフト ヌキコレvol.29 神聖昂燐ダクリュオン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076583",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076583.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2023-01-27",
+    "listPrice": 3960,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076583",
+      "メーカー": "CHAOS-R",
+      "発売日": "2023/01/27",
+      "定価": "3,960円",
+      "原画": "森山しじみ\nさいとうつかさ",
+      "シナリオ": "assault",
+      "声優": "梅原亜衣\n今谷皆美\n奥山歩\n櫻井ありす\n渋谷ひめ\n野中みかん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "OS": "-R",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 2500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:18:23.816Z"
+  },
+  "histories": [
+    {
+      "id": 1417,
+      "productId": 1403,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6310,
+      "productId": 1403,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:47.000Z"
+    },
+    {
+      "id": 13477,
+      "productId": 1403,
+      "salePrice": 3911,
+      "regularSalePrice": 3911,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:42:29.000Z"
+    },
+    {
+      "id": 26399,
+      "productId": 1403,
+      "salePrice": 3911,
+      "regularSalePrice": 3911,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:03:59.751Z"
+    },
+    {
+      "id": 44628,
+      "productId": 1403,
+      "salePrice": 5611,
+      "regularSalePrice": 5611,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:42:16.489Z"
+    },
+    {
+      "id": 72377,
+      "productId": 1403,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:18:23.816Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 208197,
+      "productId": 1403,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 5611,
+      "checkedAt": "2026-09-03T01:18:24.000Z"
+    },
+    {
+      "id": 208196,
+      "productId": 1403,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 4900,
+      "checkedAt": "2026-09-03T01:18:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076583",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076583",
+    "capturedAt": "2026-09-03T01:18:23.816Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 4900
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 5611
+      }
+    ],
+    "path": "data/other-shops/145076583.json"
+  }
+}

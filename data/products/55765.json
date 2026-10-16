@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 55765,
+    "title": "Windows7/8.1/10 DVDソフト SugarKiss!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066630",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066630.jpg",
+    "manufacturer": "はちみつそふと",
+    "releaseDate": "2019-12-20",
+    "listPrice": 3520,
+    "modelNumber": "INH-418",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066630001",
+      "メーカー": "はちみつそふと",
+      "発売日": "2019/12/20",
+      "定価": "3,520円",
+      "型番": "INH-418",
+      "原画": "RiM",
+      "シナリオ": "藤井和敏",
+      "声優": "葵時緒",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:01.398Z"
+  },
+  "histories": [
+    {
+      "id": 55779,
+      "productId": 55765,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:01.398Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150636,
+      "productId": 55765,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-08-21T05:30:01.000Z"
+    },
+    {
+      "id": 150635,
+      "productId": 55765,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-08-21T05:30:01.000Z"
+    },
+    {
+      "id": 150634,
+      "productId": 55765,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:01.000Z"
+    },
+    {
+      "id": 150633,
+      "productId": 55765,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-08-21T05:30:01.000Z"
+    },
+    {
+      "id": 150632,
+      "productId": 55765,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-21T05:30:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066630",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066630",
+    "capturedAt": "2026-08-21T05:30:01.398Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 950
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145066630.json"
+  }
+}

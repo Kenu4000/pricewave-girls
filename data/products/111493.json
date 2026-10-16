@@ -1,0 +1,153 @@
+{
+  "product": {
+    "id": 111493,
+    "title": "WindowsXP/Vista/7 DVDソフト ヤバい! -復讐・闇サイト-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035825",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035825.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2013-02-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145035825001",
+      "メーカー": "WAFFLE",
+      "発売日": "2013/02/28",
+      "定価": "9,680円",
+      "原画": "皇裕介\n只野あきら",
+      "シナリオ": "わーにんぐ",
+      "声優": "鶴屋春人\n和葉\n東かりん\n葉月まぁち",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2450,
+    "latestRegularSalePrice": 2450,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:27:11.436Z"
+  },
+  "histories": [
+    {
+      "id": 111507,
+      "productId": 111493,
+      "salePrice": 2450,
+      "regularSalePrice": 2450,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:11.436Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 353068,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2450,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353067,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 1470,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353066,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1470,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353065,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2320,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353064,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353063,
+      "productId": 111493,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 1470,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    },
+    {
+      "id": 353062,
+      "productId": 111493,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（大）",
+      "price": 1470,
+      "checkedAt": "2026-10-15T02:27:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035825",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035825",
+    "capturedAt": "2026-10-15T02:27:11.436Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古箱・ジャケット・ケース不備（大）",
+        "price": 1470
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2211
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2320
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（大）",
+        "price": 1470
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2450
+      }
+    ],
+    "path": "data/other-shops/145035825.json"
+  }
+}

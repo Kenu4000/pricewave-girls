@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 71265,
+    "title": "Windows DVDソフト BugBug 美少女詰め合わせ Xmasプレゼント SPECIAL DVD(オトメ*ドメイン オリジナルアペンドデータ収録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059863",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059863.jpg",
+    "manufacturer": "富士美出版",
+    "releaseDate": "2016-11-02",
+    "listPrice": null,
+    "modelNumber": "BUGBUG1612",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145059863001",
+      "メーカー": "富士美出版",
+      "発売日": "2016/11/02",
+      "型番": "BUGBUG1612",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3950,
+    "latestRegularSalePrice": 3950,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:02:36.970Z"
+  },
+  "histories": [
+    {
+      "id": 71279,
+      "productId": 71265,
+      "salePrice": 5200,
+      "regularSalePrice": 5200,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:28.450Z"
+    },
+    {
+      "id": 84331,
+      "productId": 71265,
+      "salePrice": 5480,
+      "regularSalePrice": 5480,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-10T05:15:32.057Z"
+    },
+    {
+      "id": 100773,
+      "productId": 71265,
+      "salePrice": 4650,
+      "regularSalePrice": 4650,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-29T16:02:37.100Z"
+    },
+    {
+      "id": 111855,
+      "productId": 71265,
+      "salePrice": 3950,
+      "regularSalePrice": 3950,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:02:36.970Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 354036,
+      "productId": 71265,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3950,
+      "checkedAt": "2026-10-15T16:02:37.000Z"
+    },
+    {
+      "id": 354035,
+      "productId": 71265,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 5400,
+      "checkedAt": "2026-10-15T16:02:37.000Z"
+    },
+    {
+      "id": 354034,
+      "productId": 71265,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3950,
+      "checkedAt": "2026-10-15T16:02:37.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059863",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059863",
+    "capturedAt": "2026-10-15T16:02:36.970Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3950
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 5400
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3950
+      }
+    ],
+    "path": "data/other-shops/145059863.json"
+  }
+}

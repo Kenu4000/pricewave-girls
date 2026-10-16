@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 106282,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト まいてつ＆ものべの 仲良しセット リマスター版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055898",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055898.jpg",
+    "manufacturer": "Lose",
+    "releaseDate": "2016-12-22",
+    "listPrice": 17380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145055898",
+      "メーカー": "Lose",
+      "発売日": "2016/12/22",
+      "定価": "17,380円",
+      "原画": "cura",
+      "シナリオ": "進行豹",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4250,
+    "latestRegularSalePrice": 4250,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:19:58.411Z"
+  },
+  "histories": [
+    {
+      "id": 106296,
+      "productId": 106282,
+      "salePrice": 4250,
+      "regularSalePrice": 4250,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:01.107Z"
+    },
+    {
+      "id": 113122,
+      "productId": 106282,
+      "salePrice": 4250,
+      "regularSalePrice": 4250,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:19:58.411Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055898",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055898",
+    "capturedAt": "2026-10-16T12:19:58.411Z",
+    "items": [],
+    "path": "data/other-shops/145055898.json"
+  }
+}

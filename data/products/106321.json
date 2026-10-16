@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 106321,
+    "title": "WindowsVista/7/8/8.1 DVDソフト ブレイブハンターあおい",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048164",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048164.jpg",
+    "manufacturer": "include",
+    "releaseDate": "2015-04-30",
+    "listPrice": 7480,
+    "modelNumber": "INC-0001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145048164",
+      "メーカー": "include",
+      "発売日": "2015/04/30",
+      "定価": "7,480円",
+      "型番": "INC-0001",
+      "原画": "吉飛雄馬",
+      "シナリオ": "assault",
+      "声優": "ヒマリ\n汐見凛\n大和桜",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:15.974Z"
+  },
+  "histories": [
+    {
+      "id": 106335,
+      "productId": 106321,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:15.974Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145048164",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048164",
+    "capturedAt": "2026-10-08T03:13:15.974Z",
+    "items": [],
+    "path": "data/other-shops/145048164.json"
+  }
+}

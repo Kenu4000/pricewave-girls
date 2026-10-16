@@ -1,0 +1,121 @@
+{
+  "product": {
+    "id": 31378,
+    "title": "WindowsXP/Vista/7 CDソフト 美人女教師は、俺に逆らえない -眼鏡の奥に秘められた被虐と淫欲-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036285",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036285.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2013-04-26",
+    "listPrice": 2200,
+    "modelNumber": "APT-022",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145036285001",
+      "メーカー": "アパタイト",
+      "発売日": "2013/04/26",
+      "定価": "2,200円",
+      "型番": "APT-022",
+      "原画": "椎咲雛樹",
+      "シナリオ": "平目カレイ",
+      "声優": "夏川菜々美",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:39:07.736Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:28:26.196Z"
+  },
+  "histories": [
+    {
+      "id": 31392,
+      "productId": 31378,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:39:07.340Z"
+    },
+    {
+      "id": 40134,
+      "productId": 31378,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:28:26.196Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 104664,
+      "productId": 31378,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-16T01:28:26.000Z"
+    },
+    {
+      "id": 104663,
+      "productId": 31378,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:28:26.000Z"
+    },
+    {
+      "id": 78806,
+      "productId": 31378,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-15T23:39:07.000Z"
+    },
+    {
+      "id": 78805,
+      "productId": 31378,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:39:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036285",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036285",
+    "capturedAt": "2026-08-16T01:28:26.196Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145036285.json"
+  }
+}

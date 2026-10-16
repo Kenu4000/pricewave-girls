@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 106493,
+    "title": "Windows2000/XP/Vista DVDソフト クレナイノツキ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020616",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020616.jpg",
+    "manufacturer": "ALcot ハニカム",
+    "releaseDate": "2009-07-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020616",
+      "メーカー": "ALcot ハニカム",
+      "発売日": "2009/07/24",
+      "定価": "9,680円",
+      "原画": "Riv",
+      "シナリオ": "沙月with企画屋",
+      "声優": "一色ヒカル\n中瀬ひな\n大野まりな\nみる\n楠鈴音\n草柳順子\n滝沢アツヤ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 700,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:23.861Z"
+  },
+  "histories": [
+    {
+      "id": 106507,
+      "productId": 106493,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:23.861Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020616",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020616",
+    "capturedAt": "2026-10-08T03:14:23.861Z",
+    "items": [],
+    "path": "data/other-shops/145020616.json"
+  }
+}

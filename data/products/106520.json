@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 106520,
+    "title": "Windows2000/XP/Vista DVDソフト 3Dカスタム少女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016283",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016283.jpg",
+    "manufacturer": "TechArts3D",
+    "releaseDate": "2008-06-13",
+    "listPrice": 9680,
+    "modelNumber": "TDCG-V100",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016283001",
+      "メーカー": "TechArts3D",
+      "発売日": "2008/06/13",
+      "定価": "9,680円",
+      "型番": "TDCG-V100",
+      "原画": "MA@YA",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:33.284Z"
+  },
+  "histories": [
+    {
+      "id": 106534,
+      "productId": 106520,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:33.284Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333839,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333838,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 970,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333837,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333836,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333835,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    },
+    {
+      "id": 333834,
+      "productId": 106520,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 970,
+      "checkedAt": "2026-10-08T03:14:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016283",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016283",
+    "capturedAt": "2026-10-08T03:14:33.284Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 970
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 970
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145016283.json"
+  }
+}

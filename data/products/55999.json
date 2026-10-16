@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 55999,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 裸執事",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028380",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028380.jpg",
+    "manufacturer": "マーダー工房",
+    "releaseDate": "2011-09-16",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028380001",
+      "メーカー": "マーダー工房",
+      "発売日": "2011/09/16",
+      "定価": "7,480円",
+      "原画/シナリオ": "倒神神倒",
+      "声優": "松川央樹\n阿部大樹\n井上和彦\n山口知大\nたなかこころ\nあさぎ夕\n鳩万軍曹\n阿野伸八\n小矢野空\n土佐犬",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "原画": "/",
+      "シナリオ": "倒神神倒",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:32:07.775Z"
+  },
+  "histories": [
+    {
+      "id": 56013,
+      "productId": 55999,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:32:07.775Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151479,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151478,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151477,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1811,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151476,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151475,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1601,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151474,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    },
+    {
+      "id": 151473,
+      "productId": 55999,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1510,
+      "checkedAt": "2026-08-21T05:32:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028380",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028380",
+    "capturedAt": "2026-08-21T05:32:07.775Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 1510
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1601
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1811
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1850
+      }
+    ],
+    "path": "data/other-shops/145028380.json"
+  }
+}

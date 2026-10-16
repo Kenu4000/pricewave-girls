@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 111462,
+    "title": "Windows CDソフト 恋×シンアイ彼女 げっちゅ屋特典デジタルコンテンツディスク 『小鞠ゆい「恥じらい告白」ボイス付きシステムボイス集』",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052300",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052300.jpg",
+    "manufacturer": "Us：track",
+    "releaseDate": "2015-10-30",
+    "listPrice": null,
+    "modelNumber": "UTAC-1510GC",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145052300",
+      "メーカー": "Us：track",
+      "発売日": "2015/10/30",
+      "型番": "UTAC-1510GC",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1211,
+    "latestRegularSalePrice": 1211,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:17.157Z"
+  },
+  "histories": [
+    {
+      "id": 111476,
+      "productId": 111462,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:26:55.814Z"
+    },
+    {
+      "id": 112469,
+      "productId": 111462,
+      "salePrice": 1211,
+      "regularSalePrice": 1211,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:17.157Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052300",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052300",
+    "capturedAt": "2026-10-15T16:07:17.157Z",
+    "items": [],
+    "path": "data/other-shops/145052300.json"
+  }
+}

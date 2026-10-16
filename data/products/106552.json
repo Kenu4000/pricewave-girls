@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 106552,
+    "title": "Windows98/Me/2000/XP CDソフト はじめてどうし ～Standard Edition～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015694",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015694.jpg",
+    "manufacturer": "ZERO",
+    "releaseDate": "2007-04-27",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015694",
+      "メーカー": "ZERO",
+      "発売日": "2007/04/27",
+      "定価": "3,080円",
+      "声優": "本多啓吾\n桜井みほ\nもえはらぶり\n茶谷やすら",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1212,
+    "latestRegularSalePrice": 1212,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:45.662Z"
+  },
+  "histories": [
+    {
+      "id": 106566,
+      "productId": 106552,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:45.662Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015694",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015694",
+    "capturedAt": "2026-10-08T03:14:45.662Z",
+    "items": [],
+    "path": "data/other-shops/145015694.json"
+  }
+}

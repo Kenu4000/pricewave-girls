@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106150,
+    "title": "Windows10/11 DVDソフト ちんまい吸血姫のお嬢様に囚われた俺は、女体化させられて従順な妹メイドに調教されてしまうそうです。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083802",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083802.jpg",
+    "manufacturer": "スタジオ奪トランス",
+    "releaseDate": "2025-11-28",
+    "listPrice": 4950,
+    "modelNumber": "UBAI-021",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083802001",
+      "メーカー": "スタジオ奪トランス",
+      "発売日": "2025/11/28",
+      "定価": "4,950円",
+      "型番": "UBAI-021",
+      "原画": "雪村うさぎ",
+      "シナリオ": "わかくにたま",
+      "声優": "水野七海\n皆月恋\n天喰遥香",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6480,
+    "latestRegularSalePrice": 6480,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:09.939Z"
+  },
+  "histories": [
+    {
+      "id": 106164,
+      "productId": 106150,
+      "salePrice": 6480,
+      "regularSalePrice": 6480,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:09.939Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333122,
+      "productId": 106150,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6480,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333121,
+      "productId": 106150,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "中古",
+      "price": 4950,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333120,
+      "productId": 106150,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 6350,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333119,
+      "productId": 106150,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 4950,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083802",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083802",
+    "capturedAt": "2026-10-08T03:12:09.939Z",
+    "items": [
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 4950
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 6350
+      },
+      {
+        "storeName": "芳賀書店",
+        "condition": "中古",
+        "price": 4950
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6480
+      }
+    ],
+    "path": "data/other-shops/145083802.json"
+  }
+}

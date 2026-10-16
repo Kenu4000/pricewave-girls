@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106303,
+    "title": "WindowsVista/7/8 DVDソフト ごっくんアスリート 廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053942",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053942.jpg",
+    "manufacturer": "マリン",
+    "releaseDate": "2016-04-28",
+    "listPrice": 4180,
+    "modelNumber": "MGGW0163",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145053942001",
+      "メーカー": "マリン",
+      "発売日": "2016/04/28",
+      "定価": "4,180円",
+      "型番": "MGGW0163",
+      "原画": "航士郎\n金城航",
+      "シナリオ": "りりあん嬢",
+      "声優": "櫻井ありす\n佐藤遼佳\n芹園みや\n蕪木徹子\n佐倉もも花",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:09.152Z"
+  },
+  "histories": [
+    {
+      "id": 106317,
+      "productId": 106303,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:09.152Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333505,
+      "productId": 106303,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-10-08T03:13:09.000Z"
+    },
+    {
+      "id": 333504,
+      "productId": 106303,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-10-08T03:13:09.000Z"
+    },
+    {
+      "id": 333503,
+      "productId": 106303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-10-08T03:13:09.000Z"
+    },
+    {
+      "id": 333502,
+      "productId": 106303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-10-08T03:13:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053942",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053942",
+    "capturedAt": "2026-10-08T03:13:09.152Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1380
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145053942.json"
+  }
+}

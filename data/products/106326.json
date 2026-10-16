@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 106326,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ヒマワリと恋の記憶",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045865",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045865.jpg",
+    "manufacturer": "MORE",
+    "releaseDate": "2014-12-26",
+    "listPrice": 9680,
+    "modelNumber": "MS-104",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045865",
+      "メーカー": "MORE",
+      "発売日": "2014/12/26",
+      "定価": "9,680円",
+      "型番": "MS-104",
+      "原画": "作(つくる)\n南浜よりこ",
+      "シナリオ": "遠波友海\n小西翼\n菅野鵜坂",
+      "声優": "水樹空\nあじ秋刀魚\n橘まお\n貴坂理緒\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:18.568Z"
+  },
+  "histories": [
+    {
+      "id": 106340,
+      "productId": 106326,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:18.568Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045865",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045865",
+    "capturedAt": "2026-10-08T03:13:18.568Z",
+    "items": [],
+    "path": "data/other-shops/145045865.json"
+  }
+}

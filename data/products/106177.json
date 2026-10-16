@@ -1,0 +1,68 @@
+{
+  "product": {
+    "id": 106177,
+    "title": "Windows10/11 DVDソフト ゴスデリ/ものべの -happy end-(メガストア 2025年1月号 vol.379付録)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082643",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082643.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2023-07-30",
+    "listPrice": null,
+    "modelNumber": "MEGA2501-A/B",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082643",
+      "メーカー": "コアマガジン",
+      "発売日": "2023/07/30",
+      "型番": "MEGA2501-A/B",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2012,
+    "latestRegularSalePrice": 2012,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:19:53.046Z"
+  },
+  "histories": [
+    {
+      "id": 106191,
+      "productId": 106177,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:20.029Z"
+    },
+    {
+      "id": 113110,
+      "productId": 106177,
+      "salePrice": 2012,
+      "regularSalePrice": 2012,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:19:53.046Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145082643",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082643",
+    "capturedAt": "2026-10-16T12:19:53.046Z",
+    "items": [],
+    "path": "data/other-shops/145082643.json"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "product": {
+    "id": 106449,
+    "title": "WindowsXP/Vista/7 DVDソフト 雪鬼屋温泉記",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028714",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028714.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2011-06-24",
+    "listPrice": 9680,
+    "modelNumber": "CHARA-110624",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028714",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2011/06/24",
+      "定価": "9,680円",
+      "型番": "CHARA-110624",
+      "原画": "佐々木珠流",
+      "シナリオ": "内藤騎之介",
+      "声優": "有栖川みや美\nあおいひかる\n羽高なる\n海原エレナ\n芹園みや\n桜川未央\n山本パンダ\n松永雪希\n星咲イリア\n青山ゆかり\n大波こなみ\n茶谷やすら\n島田友樹\n桃也みなみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2011,
+    "latestRegularSalePrice": 2011,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:20:02.853Z"
+  },
+  "histories": [
+    {
+      "id": 106463,
+      "productId": 106449,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:03.861Z"
+    },
+    {
+      "id": 113128,
+      "productId": 106449,
+      "salePrice": 2011,
+      "regularSalePrice": 2011,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:20:02.853Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333705,
+      "productId": 106449,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333704,
+      "productId": 106449,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333703,
+      "productId": 106449,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333702,
+      "productId": 106449,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028714",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028714",
+    "capturedAt": "2026-10-16T12:20:02.853Z",
+    "items": [],
+    "path": "data/other-shops/145028714.json"
+  }
+}

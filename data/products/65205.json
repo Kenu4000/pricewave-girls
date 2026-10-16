@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 65205,
+    "title": "Windows10/11 DVDソフト カノジョの親友にカラダで誘惑されるヒミツの関係 抱き枕カバーセット「結」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081639",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "AMUSE CRAFT EROTICA",
+    "releaseDate": "2024-08-30",
+    "listPrice": 17600,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081639001",
+      "メーカー": "AMUSE CRAFT EROTICA",
+      "発売日": "2024/08/30",
+      "定価": "17,600円",
+      "原画": "蒼都かりん",
+      "シナリオ": "瑞守ねおん\n若林浩太郎",
+      "声優": "飴川紫乃\n蒼乃むすび",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 14800,
+    "latestRegularSalePrice": 14800,
+    "latestBuyPrice": 7500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T02:15:09.981Z"
+  },
+  "histories": [
+    {
+      "id": 65219,
+      "productId": 65205,
+      "salePrice": 17412,
+      "regularSalePrice": 17412,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T12:55:30.216Z"
+    },
+    {
+      "id": 78757,
+      "productId": 65205,
+      "salePrice": 17412,
+      "regularSalePrice": 17412,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:08:41.946Z"
+    },
+    {
+      "id": 91765,
+      "productId": 65205,
+      "salePrice": 17412,
+      "regularSalePrice": 17412,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-15T16:01:40.106Z"
+    },
+    {
+      "id": 105714,
+      "productId": 65205,
+      "salePrice": 14800,
+      "regularSalePrice": 14800,
+      "buyPrice": 7500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T02:15:09.981Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 331383,
+      "productId": 65205,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 14800,
+      "checkedAt": "2026-10-08T02:15:10.000Z"
+    },
+    {
+      "id": 331382,
+      "productId": 65205,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 17411,
+      "checkedAt": "2026-10-08T02:15:10.000Z"
+    },
+    {
+      "id": 331381,
+      "productId": 65205,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 14800,
+      "checkedAt": "2026-10-08T02:15:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081639",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081639",
+    "capturedAt": "2026-10-08T02:15:09.981Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 14800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 17411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 14800
+      }
+    ],
+    "path": "data/other-shops/145081639.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 29449,
+    "title": "Windows7/8/8.1/10 DVDソフト 復讐の女仕官ハイネ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064756.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2019-02-28",
+    "listPrice": 4400,
+    "modelNumber": "CYCL-318",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064756",
+      "メーカー": "CYCLET",
+      "発売日": "2019/02/28",
+      "定価": "4,400円",
+      "型番": "CYCL-318",
+      "原画": "金たロウ",
+      "シナリオ": "上村拓磨",
+      "声優": "羽真ちい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:10:20.553Z"
+  },
+  "histories": [
+    {
+      "id": 29463,
+      "productId": 29449,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:07.666Z"
+    },
+    {
+      "id": 38280,
+      "productId": 29449,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:10:20.553Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145064756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064756",
+    "capturedAt": "2026-08-16T01:10:20.553Z",
+    "items": [],
+    "path": "data/other-shops/145064756.json"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 106260,
+    "title": "Windows7/8/8.1/10 DVDソフト 縁りて此の葉は紅に [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061480",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061480.jpg",
+    "manufacturer": "Lump of Sugar",
+    "releaseDate": "2018-03-09",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061480",
+      "メーカー": "Lump of Sugar",
+      "発売日": "2018/03/09",
+      "定価": "9,680円",
+      "原画": "奏ナコト\n萌木原ふみたけ",
+      "シナリオ": "芳井一\n水月紗鳥\nてつじん",
+      "声優": "奏雨\n渚しろな\n桃山いおん\n春乃いろは",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2970,
+    "latestRegularSalePrice": 2970,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:19:57.481Z"
+  },
+  "histories": [
+    {
+      "id": 106274,
+      "productId": 106260,
+      "salePrice": 2940,
+      "regularSalePrice": 2940,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:53.860Z"
+    },
+    {
+      "id": 113118,
+      "productId": 106260,
+      "salePrice": 2970,
+      "regularSalePrice": 2970,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:19:57.481Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061480",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061480",
+    "capturedAt": "2026-10-16T12:19:57.481Z",
+    "items": [],
+    "path": "data/other-shops/145061480.json"
+  }
+}

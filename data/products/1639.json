@@ -1,0 +1,146 @@
+{
+  "product": {
+    "id": 1639,
+    "title": "Windows8/10 DVDソフト 催眠リプレイ -徹底的に終わらせない復讐のギャル恥辱-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068338",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068338.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-04-24",
+    "listPrice": 2200,
+    "modelNumber": "APT-159",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145068338001",
+      "メーカー": "アパタイト",
+      "発売日": "2020/04/24",
+      "定価": "2,200円",
+      "型番": "APT-159",
+      "原画": "水上凛香",
+      "シナリオ": "海綿じろう",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:25.455Z"
+  },
+  "histories": [
+    {
+      "id": 1653,
+      "productId": 1639,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6544,
+      "productId": 1639,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:09:56.000Z"
+    },
+    {
+      "id": 22765,
+      "productId": 1639,
+      "salePrice": 1300,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:33.702Z"
+    },
+    {
+      "id": 44311,
+      "productId": 1639,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:25.455Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114586,
+      "productId": 1639,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品・外箱日焼け有",
+      "price": 1380,
+      "checkedAt": "2026-08-17T09:39:25.000Z"
+    },
+    {
+      "id": 114585,
+      "productId": 1639,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1380,
+      "checkedAt": "2026-08-17T09:39:25.000Z"
+    },
+    {
+      "id": 51765,
+      "productId": 1639,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品・外箱日焼け有",
+      "price": 1380,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    },
+    {
+      "id": 51764,
+      "productId": 1639,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1300,
+      "checkedAt": "2026-08-09T01:35:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145068338",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068338",
+    "capturedAt": "2026-08-17T09:39:25.455Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1380
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品・外箱日焼け有",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145068338.json"
+  }
+}

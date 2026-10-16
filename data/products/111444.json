@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 111444,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2 キャラクターパック 無口で甘えたがりな文学少女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065261",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065261.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2019-06-28",
+    "listPrice": 4359,
+    "modelNumber": "KISS-105",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145065261",
+      "メーカー": "KISS",
+      "発売日": "2019/06/28",
+      "定価": "4,359円",
+      "型番": "KISS-105",
+      "声優": "橘美月",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "/外箱に日焼け有",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2880,
+    "latestRegularSalePrice": 2880,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "/外箱に日焼け有",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:15.204Z"
+  },
+  "histories": [
+    {
+      "id": 111458,
+      "productId": 111444,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:26:46.203Z"
+    },
+    {
+      "id": 112462,
+      "productId": 111444,
+      "salePrice": 2880,
+      "regularSalePrice": 2880,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:15.204Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145065261",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065261",
+    "capturedAt": "2026-10-15T16:07:15.204Z",
+    "items": [],
+    "path": "data/other-shops/145065261.json"
+  }
+}

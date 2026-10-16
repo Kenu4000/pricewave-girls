@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 106245,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2＆カスタムメイド3D2 Wパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062873",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062873.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2018-08-31",
+    "listPrice": 14080,
+    "modelNumber": "KISS-093",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062873",
+      "メーカー": "KISS",
+      "発売日": "2018/08/31",
+      "定価": "14,080円",
+      "型番": "KISS-093",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 8000,
+    "latestRegularSalePrice": 8000,
+    "latestBuyPrice": 3600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:47.908Z"
+  },
+  "histories": [
+    {
+      "id": 106259,
+      "productId": 106245,
+      "salePrice": 8000,
+      "regularSalePrice": 8000,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:47.908Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062873",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062873",
+    "capturedAt": "2026-10-08T03:12:47.908Z",
+    "items": [],
+    "path": "data/other-shops/145062873.json"
+  }
+}

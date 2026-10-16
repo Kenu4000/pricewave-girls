@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 41006,
+    "title": "Windows7/8.1/10 DVDソフト 恋音(こいおと)セ・ピアーチェ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145064416",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145064416.jpg",
+    "manufacturer": "Campus",
+    "releaseDate": "2019-04-26",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145064416",
+      "メーカー": "Campus",
+      "発売日": "2019/04/26",
+      "定価": "3,300円",
+      "原画": "とんちゃん",
+      "シナリオ": "恒石涼平",
+      "声優": "猫田かな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-05T16:03:12.549Z"
+  },
+  "histories": [
+    {
+      "id": 41020,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:59.807Z"
+    },
+    {
+      "id": 43858,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:35:37.259Z"
+    },
+    {
+      "id": 55339,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:48:59.995Z"
+    },
+    {
+      "id": 66413,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:08:15.558Z"
+    },
+    {
+      "id": 77210,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T13:12:11.769Z"
+    },
+    {
+      "id": 90438,
+      "productId": 41006,
+      "salePrice": 1485,
+      "regularSalePrice": 1485,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T16:00:17.086Z"
+    },
+    {
+      "id": 104694,
+      "productId": 41006,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T16:03:12.549Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 327828,
+      "productId": 41006,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1485,
+      "checkedAt": "2026-10-05T16:03:13.000Z"
+    },
+    {
+      "id": 327827,
+      "productId": 41006,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 1200,
+      "checkedAt": "2026-10-05T16:03:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145064416",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145064416",
+    "capturedAt": "2026-10-05T16:03:12.549Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1485
+      }
+    ],
+    "path": "data/other-shops/145064416.json"
+  }
+}

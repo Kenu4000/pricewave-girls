@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 110490,
+    "title": "Windows98/Me/2000/XP CDソフト 夢をもう一度",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014455",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014455.jpg",
+    "manufacturer": "美蕾（みらい）",
+    "releaseDate": "2006-06-03",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014455001",
+      "メーカー": "美蕾（みらい）",
+      "発売日": "2006/06/03",
+      "定価": "8,580円",
+      "原画": "ジョニィ田吾作",
+      "シナリオ": "古波多れい\nよしかぜ",
+      "声優": "須田勝也\n紫花薫\n小杉十郎太\n高橋広樹\n山賀弘一\n松本保典\n犬神帝\n鳥取砂丘\n佐々部愛華\n森上ショウ\n本山美奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 8500,
+    "latestRegularSalePrice": 8500,
+    "latestBuyPrice": 3500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-13T01:40:27.385Z"
+  },
+  "histories": [
+    {
+      "id": 110504,
+      "productId": 110490,
+      "salePrice": 8500,
+      "regularSalePrice": 8500,
+      "buyPrice": 3500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:27.385Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 348628,
+      "productId": 110490,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 8500,
+      "checkedAt": "2026-10-13T01:40:27.000Z"
+    },
+    {
+      "id": 348627,
+      "productId": 110490,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 8511,
+      "checkedAt": "2026-10-13T01:40:27.000Z"
+    },
+    {
+      "id": 348626,
+      "productId": 110490,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 4000,
+      "checkedAt": "2026-10-13T01:40:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014455",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014455",
+    "capturedAt": "2026-10-13T01:40:27.385Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 4000
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 8511
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 8500
+      }
+    ],
+    "path": "data/other-shops/145014455.json"
+  }
+}

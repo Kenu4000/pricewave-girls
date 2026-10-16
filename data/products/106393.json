@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 106393,
+    "title": "WindowsXP/Vista/7 DVDソフト LOLLIPOP CHAINSAW VALENTINE EDITION SPECIAL“W”DVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050517",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050517.jpg",
+    "manufacturer": "角川ゲームス",
+    "releaseDate": "2013-02-14",
+    "listPrice": 5217,
+    "modelNumber": "LOLLIVE-PS3",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145050517001",
+      "メーカー": "角川ゲームス",
+      "発売日": "2013/02/14",
+      "定価": "5,217円",
+      "型番": "LOLLIVE-PS3",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:42.922Z"
+  },
+  "histories": [
+    {
+      "id": 106407,
+      "productId": 106393,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:42.922Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333628,
+      "productId": 106393,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-10-08T03:13:43.000Z"
+    },
+    {
+      "id": 333627,
+      "productId": 106393,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2580,
+      "checkedAt": "2026-10-08T03:13:43.000Z"
+    },
+    {
+      "id": 333626,
+      "productId": 106393,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-10-08T03:13:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145050517",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050517",
+    "capturedAt": "2026-10-08T03:13:42.922Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145050517.json"
+  }
+}

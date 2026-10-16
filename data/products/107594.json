@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 107594,
+    "title": "Windows98SE/2000/XP DVDソフト Alea -アレア- 紅き月を遙かに望み",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015291",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015291.jpg",
+    "manufacturer": "CALIGULA",
+    "releaseDate": "2007-01-26",
+    "listPrice": 9680,
+    "modelNumber": "CLI-0004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015291001",
+      "メーカー": "CALIGULA",
+      "発売日": "2007/01/26",
+      "定価": "9,680円",
+      "型番": "CLI-0004",
+      "原画": "INO",
+      "シナリオ": "三宅蒼色",
+      "声優": "森藍子\n萌木唯\n新堂真弓\n北都南\n山咲杏\n星咲イリア\n松田理沙\n後藤絵美子\n西野みく\n高岡政人\nどてら4号\n丈隆志",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:02:00.819Z"
+  },
+  "histories": [
+    {
+      "id": 107608,
+      "productId": 107594,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:02:00.819Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 337417,
+      "productId": 107594,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-10-09T13:02:01.000Z"
+    },
+    {
+      "id": 337416,
+      "productId": 107594,
+      "sourceType": "other_shop",
+      "storeName": "ホビーショップ中辻商店",
+      "condition": "中古通常",
+      "price": 9680,
+      "checkedAt": "2026-10-09T13:02:01.000Z"
+    },
+    {
+      "id": 337415,
+      "productId": 107594,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2500,
+      "checkedAt": "2026-10-09T13:02:01.000Z"
+    },
+    {
+      "id": 337414,
+      "productId": 107594,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 795,
+      "checkedAt": "2026-10-09T13:02:01.000Z"
+    },
+    {
+      "id": 337413,
+      "productId": 107594,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 795,
+      "checkedAt": "2026-10-09T13:02:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015291",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015291",
+    "capturedAt": "2026-10-09T13:02:00.819Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 795
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 795
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2500
+      },
+      {
+        "storeName": "ホビーショップ中辻商店",
+        "condition": "中古通常",
+        "price": 9680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145015291.json"
+  }
+}

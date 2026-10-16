@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 106215,
+    "title": "Windows8.1/10 DVDソフト 淫獄の姫騎士姉妹 オークの家畜苗床",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068927",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068927.jpg",
+    "manufacturer": "ZION",
+    "releaseDate": "2020-08-28",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145068927001",
+      "メーカー": "ZION",
+      "発売日": "2020/08/28",
+      "定価": "5,280円",
+      "原画": "ちくび\nぼっキング",
+      "シナリオ": "打出ノ小槌",
+      "声優": "新山ゆうき\n手塚りょうこ\n綾音まこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:36.557Z"
+  },
+  "histories": [
+    {
+      "id": 106229,
+      "productId": 106215,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:36.557Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333349,
+      "productId": 106215,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3000,
+      "checkedAt": "2026-10-08T03:12:36.000Z"
+    },
+    {
+      "id": 333348,
+      "productId": 106215,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3311,
+      "checkedAt": "2026-10-08T03:12:36.000Z"
+    },
+    {
+      "id": 333347,
+      "productId": 106215,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 2911,
+      "checkedAt": "2026-10-08T03:12:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145068927",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068927",
+    "capturedAt": "2026-10-08T03:12:36.557Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 2911
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3000
+      }
+    ],
+    "path": "data/other-shops/145068927.json"
+  }
+}

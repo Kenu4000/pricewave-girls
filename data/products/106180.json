@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106180,
+    "title": "Windows10/11 DVDソフト 画面から出てきた推しVtuberとHな同棲生活-夢魔かわASMR配信者は地雷系?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077758",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077758.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2023-05-26",
+    "listPrice": 2530,
+    "modelNumber": "CSK-015",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077758001",
+      "メーカー": "Casket",
+      "発売日": "2023/05/26",
+      "定価": "2,530円",
+      "型番": "CSK-015",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら",
+      "声優": "神戸日向",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:23.129Z"
+  },
+  "histories": [
+    {
+      "id": 106194,
+      "productId": 106180,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:23.129Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333253,
+      "productId": 106180,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-08T03:12:23.000Z"
+    },
+    {
+      "id": 333252,
+      "productId": 106180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1385,
+      "checkedAt": "2026-10-08T03:12:23.000Z"
+    },
+    {
+      "id": 333251,
+      "productId": 106180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:12:23.000Z"
+    },
+    {
+      "id": 333250,
+      "productId": 106180,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-08T03:12:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077758",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077758",
+    "capturedAt": "2026-10-08T03:12:23.129Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1385
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145077758.json"
+  }
+}

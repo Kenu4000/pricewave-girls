@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106390,
+    "title": "WindowsXP/Vista/7 CDソフト JK飼育 ー純白の処女に淫らな記憶を与える男ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036081",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036081.jpg",
+    "manufacturer": "Red Rebel",
+    "releaseDate": "2013-03-22",
+    "listPrice": 3457,
+    "modelNumber": "CONR-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145036081001",
+      "メーカー": "Red Rebel",
+      "発売日": "2013/03/22",
+      "定価": "3,457円",
+      "型番": "CONR-001",
+      "原画": "氏雄",
+      "シナリオ": "氏子",
+      "声優": "椎那天",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:42.111Z"
+  },
+  "histories": [
+    {
+      "id": 106404,
+      "productId": 106390,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:42.111Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333625,
+      "productId": 106390,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-08T03:13:42.000Z"
+    },
+    {
+      "id": 333624,
+      "productId": 106390,
+      "sourceType": "other_shop",
+      "storeName": "ニッポンシザイ.COM",
+      "condition": "中古 非常に良い",
+      "price": 1483,
+      "checkedAt": "2026-10-08T03:13:42.000Z"
+    },
+    {
+      "id": 333623,
+      "productId": 106390,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-10-08T03:13:42.000Z"
+    },
+    {
+      "id": 333622,
+      "productId": 106390,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-08T03:13:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036081",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036081",
+    "capturedAt": "2026-10-08T03:13:42.111Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "ニッポンシザイ.COM",
+        "condition": "中古 非常に良い",
+        "price": 1483
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145036081.json"
+  }
+}

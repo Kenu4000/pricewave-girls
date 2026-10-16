@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 94327,
+    "title": "WindowsVista/7/8 DVDソフト わんにゃんパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145045136",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145045136.jpg",
+    "manufacturer": "SkyFish poco",
+    "releaseDate": "2014-08-29",
+    "listPrice": 8580,
+    "modelNumber": "SFP-005",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145045136",
+      "メーカー": "SkyFish poco",
+      "発売日": "2014/08/29",
+      "定価": "8,580円",
+      "型番": "SFP-005",
+      "原画": "るび様\n蔓木鋼音\nはましま薫夫\n中乃空\nゆき恵\nヲリ",
+      "シナリオ": "小林教\n弘森魚\n素浪人\n巳無月\n御厨みくり",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3611,
+    "latestRegularSalePrice": 3611,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:00:18.189Z"
+  },
+  "histories": [
+    {
+      "id": 94341,
+      "productId": 94327,
+      "salePrice": 3311,
+      "regularSalePrice": 3311,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:36.585Z"
+    },
+    {
+      "id": 107618,
+      "productId": 94327,
+      "salePrice": 3611,
+      "regularSalePrice": 3611,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:00:18.189Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145045136",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145045136",
+    "capturedAt": "2026-10-09T16:00:18.189Z",
+    "items": [],
+    "path": "data/other-shops/145045136.json"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 91360,
+    "title": "Windows10/11 DVDソフト ソープランドのはっしゃくさま [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077066",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077066.jpg",
+    "manufacturer": "Hending",
+    "releaseDate": "2023-04-28",
+    "listPrice": 8580,
+    "modelNumber": "HEN-0007",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145077066001",
+      "メーカー": "Hending",
+      "発売日": "2023/04/28",
+      "定価": "8,580円",
+      "型番": "HEN-0007",
+      "原画": "たこねる",
+      "シナリオ": "虚空北星",
+      "声優": "奥寺かすみ\n白砂菓夏海\n葵時緒",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7500,
+    "latestRegularSalePrice": 7500,
+    "latestBuyPrice": 4500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:13.147Z"
+  },
+  "histories": [
+    {
+      "id": 91374,
+      "productId": 91360,
+      "salePrice": 7500,
+      "regularSalePrice": 7500,
+      "buyPrice": 4500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:13.147Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278808,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7500,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278807,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 7800,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278806,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 7511,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278805,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "ゼスト大和店",
+      "condition": "中古",
+      "price": 6600,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278804,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 7140,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278803,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 7000,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278802,
+      "productId": 91360,
+      "sourceType": "other_shop",
+      "storeName": "ゼスト大和店",
+      "condition": "中古PCソフト",
+      "price": 6600,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077066",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077066",
+    "capturedAt": "2026-09-14T17:28:13.147Z",
+    "items": [
+      {
+        "storeName": "ゼスト大和店",
+        "condition": "中古PCソフト",
+        "price": 6600
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 7000
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 7140
+      },
+      {
+        "storeName": "ゼスト大和店",
+        "condition": "中古",
+        "price": 6600
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 7511
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 7800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7500
+      }
+    ],
+    "path": "data/other-shops/145077066.json"
+  }
+}

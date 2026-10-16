@@ -1,0 +1,155 @@
+{
+  "product": {
+    "id": 29882,
+    "title": "Windows8/10 CDソフト JKおむchu",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057423",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057423.jpg",
+    "manufacturer": "Grand Cru",
+    "releaseDate": "2017-04-28",
+    "listPrice": 3300,
+    "modelNumber": "ACGGL-0006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057423001",
+      "メーカー": "Grand Cru",
+      "発売日": "2017/04/28",
+      "定価": "3,300円",
+      "型番": "ACGGL-0006",
+      "原画": "きのはらひかる",
+      "シナリオ": "PON\n遠野渚",
+      "声優": "唯香\n宝生すず羽",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:07.823Z"
+  },
+  "histories": [
+    {
+      "id": 29896,
+      "productId": 29882,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:11:43.327Z"
+    },
+    {
+      "id": 38702,
+      "productId": 29882,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:06.670Z"
+    },
+    {
+      "id": 49766,
+      "productId": 29882,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:33:22.465Z"
+    },
+    {
+      "id": 60425,
+      "productId": 29882,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:12:16.450Z"
+    },
+    {
+      "id": 70705,
+      "productId": 29882,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:07.823Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202804,
+      "productId": 29882,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-02T20:47:07.000Z"
+    },
+    {
+      "id": 202803,
+      "productId": 29882,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-02T20:47:07.000Z"
+    },
+    {
+      "id": 202802,
+      "productId": 29882,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-09-02T20:47:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057423",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057423",
+    "capturedAt": "2026-09-02T20:47:07.823Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145057423.json"
+  }
+}

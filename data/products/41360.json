@@ -1,0 +1,71 @@
+{
+  "product": {
+    "id": 41360,
+    "title": "WindowsXP/Vista/7 DVDソフト 虐襲1・2・3パック 永久保存版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026350",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026350.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": "ANM-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026350",
+      "メーカー": "ANIM",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "型番": "ANM-007",
+      "原画": "bbsacon\nおおたたけし\nヒーロ",
+      "シナリオ": "酒井童人",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:36:05.630Z"
+  },
+  "histories": [
+    {
+      "id": 41374,
+      "productId": 41360,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:08.209Z"
+    },
+    {
+      "id": 43915,
+      "productId": 41360,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:05.630Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026350",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026350",
+    "capturedAt": "2026-08-17T09:36:05.630Z",
+    "items": [],
+    "path": "data/other-shops/145026350.json"
+  }
+}

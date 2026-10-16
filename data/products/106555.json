@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 106555,
+    "title": "WindowsMe/2000/XP DVDソフト ぎゃくたま + ぎゃくたま2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015773",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015773.jpg",
+    "manufacturer": "DISCOVERY",
+    "releaseDate": "2007-04-27",
+    "listPrice": 5280,
+    "modelNumber": "KSDR-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015773001",
+      "メーカー": "DISCOVERY",
+      "発売日": "2007/04/27",
+      "定価": "5,280円",
+      "型番": "KSDR-005",
+      "原画": "サクライユウイチ",
+      "シナリオ": "古月拓海",
+      "声優": "児玉さとみ\n鳩野比奈\n神結ありか\n三咲里奈",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:46.395Z"
+  },
+  "histories": [
+    {
+      "id": 106569,
+      "productId": 106555,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:46.395Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333875,
+      "productId": 106555,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    },
+    {
+      "id": 333874,
+      "productId": 106555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    },
+    {
+      "id": 333873,
+      "productId": 106555,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 1004,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015773",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015773",
+    "capturedAt": "2026-10-08T03:14:46.395Z",
+    "items": [
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 1004
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145015773.json"
+  }
+}

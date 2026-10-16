@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 113435,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト Re;Lord 第三章 -グローセンの魔王と最後の魔女-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057342",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057342.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2017-07-28",
+    "listPrice": 4950,
+    "modelNumber": "ECM-003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057342",
+      "メーカー": "エスクード",
+      "発売日": "2017/07/28",
+      "定価": "4,950円",
+      "型番": "ECM-003",
+      "原画": "水鼠",
+      "シナリオ": "西村悠一",
+      "声優": "桜川未央\n古河徹人\n蓬かすみ\n上田朱音\n藤森ゆき奈\n白月かなめ\n榛名れん\n秋野花",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:22.709Z"
+  },
+  "histories": [
+    {
+      "id": 113449,
+      "productId": 113435,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:22.709Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360086,
+      "productId": 113435,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-10-16T12:29:23.000Z"
+    },
+    {
+      "id": 360085,
+      "productId": 113435,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057342",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057342",
+    "capturedAt": "2026-10-16T12:29:22.709Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1711
+      }
+    ],
+    "path": "data/other-shops/145057342.json"
+  }
+}

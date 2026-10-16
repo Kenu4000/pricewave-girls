@@ -1,0 +1,177 @@
+{
+  "product": {
+    "id": 29409,
+    "title": "Windows7/8.1/10 CDソフト White Blue ソフマップ特典デジタルコンテンツデータ集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065797",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065797.jpg",
+    "manufacturer": "LiLiM Darkness",
+    "releaseDate": "2019-06-28",
+    "listPrice": null,
+    "modelNumber": "HBMT-012",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065797001",
+      "メーカー": "LiLiM Darkness",
+      "発売日": "2019/06/28",
+      "型番": "HBMT-012",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:18:59.459Z"
+  },
+  "histories": [
+    {
+      "id": 29423,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:06:45.980Z"
+    },
+    {
+      "id": 38248,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:54.320Z"
+    },
+    {
+      "id": 49393,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:40.012Z"
+    },
+    {
+      "id": 72722,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:21:23.092Z"
+    },
+    {
+      "id": 86663,
+      "productId": 29409,
+      "salePrice": 812,
+      "regularSalePrice": 812,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T11:22:13.341Z"
+    },
+    {
+      "id": 102504,
+      "productId": 29409,
+      "salePrice": 1212,
+      "regularSalePrice": 1212,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-30T16:01:30.128Z"
+    },
+    {
+      "id": 112984,
+      "productId": 29409,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:18:59.459Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 358052,
+      "productId": 29409,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:19:00.000Z"
+    },
+    {
+      "id": 358051,
+      "productId": 29409,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:19:00.000Z"
+    },
+    {
+      "id": 358050,
+      "productId": 29409,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:19:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065797",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065797",
+    "capturedAt": "2026-10-16T12:18:59.459Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145065797.json"
+  }
+}

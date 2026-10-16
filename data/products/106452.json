@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 106452,
+    "title": "WindowsXP/Vista/7 DVDソフト つよきす3学期[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026491",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026491.jpg",
+    "manufacturer": "CandySoft",
+    "releaseDate": "2011-03-31",
+    "listPrice": 10450,
+    "modelNumber": "INH-286",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026491001",
+      "メーカー": "CandySoft",
+      "発売日": "2011/03/31",
+      "定価": "10,450円",
+      "型番": "INH-286",
+      "シナリオ": "熊川貴族\nさかき傘",
+      "原画": "奏汰",
+      "声優": "陳幻齋\n手塚まき\n青山ゆかり\n金田まひる\n北都南\n海原エレナ\n草柳順子\nまきいづみ\n間寺司\n中本伸輔\n比留間京之介\n山田ミライ\n藤景吾",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:04.654Z"
+  },
+  "histories": [
+    {
+      "id": 106466,
+      "productId": 106452,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:04.654Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333710,
+      "productId": 106452,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333709,
+      "productId": 106452,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333708,
+      "productId": 106452,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333707,
+      "productId": 106452,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 401,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    },
+    {
+      "id": 333706,
+      "productId": 106452,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 401,
+      "checkedAt": "2026-10-08T03:14:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026491",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026491",
+    "capturedAt": "2026-10-08T03:14:04.654Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 401
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 401
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145026491.json"
+  }
+}

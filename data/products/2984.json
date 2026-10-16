@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 2984,
+    "title": "Windows98/Me/2000/XP DVDソフト MILK・ジャンキー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145009391",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145009391.jpg",
+    "manufacturer": "ブルゲONDEMAND",
+    "releaseDate": "2003-09-19",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145009391",
+      "メーカー": "ブルゲONDEMAND",
+      "発売日": "2003/09/19",
+      "定価": "6,380円",
+      "原画": "辰波要徳",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "声優": "富樫ケイ\n大波こなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T02:50:09.918Z"
+  },
+  "histories": [
+    {
+      "id": 2998,
+      "productId": 2984,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:39:59.000Z"
+    },
+    {
+      "id": 26610,
+      "productId": 2984,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:12:29.542Z"
+    },
+    {
+      "id": 36814,
+      "productId": 2984,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:57:23.666Z"
+    },
+    {
+      "id": 47453,
+      "productId": 2984,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:05:16.417Z"
+    },
+    {
+      "id": 58335,
+      "productId": 2984,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:38:08.792Z"
+    },
+    {
+      "id": 69155,
+      "productId": 2984,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T02:50:09.918Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145009391",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145009391",
+    "capturedAt": "2026-09-02T02:50:09.918Z",
+    "items": [],
+    "path": "data/other-shops/145009391.json"
+  }
+}

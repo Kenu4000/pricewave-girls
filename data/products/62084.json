@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62084,
+    "title": "WindowsVista/7/8 DVDソフト 魔法少女コノカ 異種触手・無限煉獄",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049659",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049659.jpg",
+    "manufacturer": "ZION（ザイオン）",
+    "releaseDate": "2015-06-26",
+    "listPrice": 5280,
+    "modelNumber": "ZION-KONOKA",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049659",
+      "メーカー": "ZION（ザイオン）",
+      "発売日": "2015/06/26",
+      "定価": "5,280円",
+      "型番": "ZION-KONOKA",
+      "声優": "谷山ちよ\n東かりん",
+      "原画": "草郎\nちくび",
+      "シナリオ": "ハインライン座尾",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2400,
+    "latestRegularSalePrice": 2400,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:12:55.213Z"
+  },
+  "histories": [
+    {
+      "id": 62098,
+      "productId": 62084,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:10.928Z"
+    },
+    {
+      "id": 62761,
+      "productId": 62084,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:09.038Z"
+    },
+    {
+      "id": 64554,
+      "productId": 62084,
+      "salePrice": 2400,
+      "regularSalePrice": 2400,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:12:55.213Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049659",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049659",
+    "capturedAt": "2026-08-29T01:12:55.213Z",
+    "items": [],
+    "path": "data/other-shops/145049659.json"
+  }
+}

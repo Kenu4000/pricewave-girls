@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 95298,
+    "title": "Windows2000/XP DVDソフト Hell Guide",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022273",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022273.jpg",
+    "manufacturer": "M no VIOLET",
+    "releaseDate": "2009-12-18",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145022273",
+      "メーカー": "M no VIOLET",
+      "発売日": "2009/12/18",
+      "定価": "9,680円",
+      "原画": "さんた☆まりあ",
+      "シナリオ": "Anco",
+      "声優": "森山いちご\n計名さや香\n唯香\n春日アン\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:02:25.922Z"
+  },
+  "histories": [
+    {
+      "id": 95312,
+      "productId": 95298,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:56:59.963Z"
+    },
+    {
+      "id": 107890,
+      "productId": 95298,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:02:25.922Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 338442,
+      "productId": 95298,
+      "sourceType": "other_shop",
+      "storeName": "ブックエコ浅川店",
+      "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+      "price": 1689,
+      "checkedAt": "2026-10-09T16:02:26.000Z"
+    },
+    {
+      "id": 338441,
+      "productId": 95298,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）箱（内箱含）欠品",
+      "price": 1200,
+      "checkedAt": "2026-10-09T16:02:26.000Z"
+    },
+    {
+      "id": 338440,
+      "productId": 95298,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-10-09T16:02:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022273",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022273",
+    "capturedAt": "2026-10-09T16:02:25.922Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）箱（内箱含）欠品",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックエコ浅川店",
+        "condition": "中古展示品のため外箱を中心に色あせや痛みがございます",
+        "price": 1689
+      }
+    ],
+    "path": "data/other-shops/145022273.json"
+  }
+}

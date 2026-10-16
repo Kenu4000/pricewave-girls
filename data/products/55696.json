@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 55696,
+    "title": "Windows10/11 DVDソフト 人妻の姉との禁じられた誘惑W不倫 -ね、ねえさん、嫁より気持ちいい-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080719",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080719.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2024-03-29",
+    "listPrice": 2200,
+    "modelNumber": "APT-252",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080719001",
+      "メーカー": "アパタイト",
+      "発売日": "2024/03/29",
+      "定価": "2,200円",
+      "型番": "APT-252",
+      "原画": "川合正起",
+      "シナリオ": "南薙史",
+      "声優": "高崎ゆめ\n椎名旭",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:25.128Z"
+  },
+  "histories": [
+    {
+      "id": 55710,
+      "productId": 55696,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:25.128Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150357,
+      "productId": 55696,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-08-21T05:29:25.000Z"
+    },
+    {
+      "id": 150356,
+      "productId": 55696,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1380,
+      "checkedAt": "2026-08-21T05:29:25.000Z"
+    },
+    {
+      "id": 150355,
+      "productId": 55696,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-21T05:29:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080719",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080719",
+    "capturedAt": "2026-08-21T05:29:25.128Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 1380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145080719.json"
+  }
+}

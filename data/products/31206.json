@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 31206,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 聖少女 COLLECTION BOX",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145901773",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145901773.jpg",
+    "manufacturer": "Empress",
+    "releaseDate": "2013-08-30",
+    "listPrice": 7480,
+    "modelNumber": "WILL-309",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145901773",
+      "メーカー": "Empress",
+      "発売日": "2013/08/30",
+      "定価": "7,480円",
+      "型番": "WILL-309",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 9500,
+    "latestRegularSalePrice": 9500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:51.616Z"
+  },
+  "histories": [
+    {
+      "id": 31220,
+      "productId": 31206,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:07.684Z"
+    },
+    {
+      "id": 39965,
+      "productId": 31206,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:25.859Z"
+    },
+    {
+      "id": 71082,
+      "productId": 31206,
+      "salePrice": 9500,
+      "regularSalePrice": 9500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:51.616Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145901773",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145901773",
+    "capturedAt": "2026-09-02T20:49:51.616Z",
+    "items": [],
+    "path": "data/other-shops/145901773.json"
+  }
+}

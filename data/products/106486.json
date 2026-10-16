@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 106486,
+    "title": "Windows2000/XP/Vista DVDソフト Piaキャロットへようこそ!!4[豪華重量版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022287",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022287.jpg",
+    "manufacturer": "カクテル・ソフト",
+    "releaseDate": "2009-12-25",
+    "listPrice": 10780,
+    "modelNumber": "FC-0912P4",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145022287001",
+      "メーカー": "カクテル・ソフト",
+      "発売日": "2009/12/25",
+      "定価": "10,780円",
+      "型番": "FC-0912P4",
+      "原画": "香月☆一\n有子瑶一\n村上水軍\n鬼ノ仁\n成瀬守",
+      "シナリオ": "新城舞\n稲村竜一\n政木亮\n月岡十児\n田中タクヤ\nみささぎらん",
+      "声優": "雪都さお梨\n有栖川みや美\n草柳順子\n桃井穂美\n桜川未央\n倉田まりや\nひなき藍\n韮井叶",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:19.886Z"
+  },
+  "histories": [
+    {
+      "id": 106500,
+      "productId": 106486,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:19.886Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333782,
+      "productId": 106486,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:14:20.000Z"
+    },
+    {
+      "id": 333781,
+      "productId": 106486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-10-08T03:14:20.000Z"
+    },
+    {
+      "id": 333780,
+      "productId": 106486,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:14:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022287",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022287",
+    "capturedAt": "2026-10-08T03:14:19.886Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145022287.json"
+  }
+}

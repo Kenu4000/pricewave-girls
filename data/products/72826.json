@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 72826,
+    "title": "WindowsXP/Vista/7/8 CDソフト メイクMeラバー ソフマップ特典プラグイン 「オリジナル衣装：軍服(Mボディ専用)＆黒ルートイベント」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044751",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044751.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2014-07-25",
+    "listPrice": null,
+    "modelNumber": "MAME-SMSP",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145044751",
+      "メーカー": "KISS",
+      "発売日": "2014/07/25",
+      "型番": "MAME-SMSP",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:42:34.590Z"
+  },
+  "histories": [
+    {
+      "id": 72840,
+      "productId": 72826,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:42:34.590Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 209614,
+      "productId": 72826,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-03T01:42:35.000Z"
+    },
+    {
+      "id": 209613,
+      "productId": 72826,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋GIGA福岡春日店",
+      "condition": "中古",
+      "price": 530,
+      "checkedAt": "2026-09-03T01:42:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145044751",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044751",
+    "capturedAt": "2026-09-03T01:42:34.590Z",
+    "items": [
+      {
+        "storeName": "駿河屋GIGA福岡春日店",
+        "condition": "中古",
+        "price": 530
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 1011
+      }
+    ],
+    "path": "data/other-shops/145044751.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 110489,
+    "title": "Windows DVDソフト おキツネSummer～夏合宿・女の子付き～ 美少女ゲーム・ベストシリーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017722",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017722.jpg",
+    "manufacturer": "SCORE【シュコア!】",
+    "releaseDate": "2008-03-07",
+    "listPrice": 6380,
+    "modelNumber": "VOL026",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145017722",
+      "メーカー": "SCORE【シュコア!】",
+      "発売日": "2008/03/07",
+      "定価": "6,380円",
+      "型番": "VOL026",
+      "原画": "千葉千夏",
+      "シナリオ": "天崎カケル\n中本穂積",
+      "声優": "桃井いちご\nみる\n茶谷やすら\n佐本二厘\n芹園みや\n如月葵\n桜川未央\n風音",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:17:32.582Z"
+  },
+  "histories": [
+    {
+      "id": 110503,
+      "productId": 110489,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:27.079Z"
+    },
+    {
+      "id": 111450,
+      "productId": 110489,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:17:32.582Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017722",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017722",
+    "capturedAt": "2026-10-15T02:17:32.582Z",
+    "items": [],
+    "path": "data/other-shops/145017722.json"
+  }
+}

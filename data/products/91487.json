@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 91487,
+    "title": "Windows98/Me/2000/XP CDソフト 堕淫フォーカス ～レイプを誘う少女～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016533",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016533.jpg",
+    "manufacturer": "Eroro",
+    "releaseDate": "2007-08-24",
+    "listPrice": 1980,
+    "modelNumber": "BASE-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145016533001",
+      "メーカー": "Eroro",
+      "発売日": "2007/08/24",
+      "定価": "1,980円",
+      "型番": "BASE-005",
+      "声優": "奥川久美子",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:01.793Z"
+  },
+  "histories": [
+    {
+      "id": 91501,
+      "productId": 91487,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:01.793Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279132,
+      "productId": 91487,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279131,
+      "productId": 91487,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    },
+    {
+      "id": 279130,
+      "productId": 91487,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 611,
+      "checkedAt": "2026-09-14T17:29:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016533",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016533",
+    "capturedAt": "2026-09-14T17:29:01.793Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 611
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145016533.json"
+  }
+}

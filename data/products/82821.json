@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 82821,
+    "title": "Windows98SE/Me/2000/XP DVDソフト donor[ドナー] [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015098",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015098.jpg",
+    "manufacturer": "FAIRYTALE ETHIX",
+    "releaseDate": "2006-12-08",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015098001",
+      "メーカー": "FAIRYTALE ETHIX",
+      "発売日": "2006/12/08",
+      "定価": "7,480円",
+      "原画": "シルエットさくら",
+      "シナリオ": "teamETHIX",
+      "声優": "松木大\n山口勝平\nAYA\n葉山ゆめこ\n吉永あゆり",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "2700",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2550,
+    "latestRegularSalePrice": 2700,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:02:00.255Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:01:59.995Z"
+  },
+  "histories": [
+    {
+      "id": 82835,
+      "productId": 82821,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:48.349Z"
+    },
+    {
+      "id": 94565,
+      "productId": 82821,
+      "salePrice": 3050,
+      "regularSalePrice": 3050,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:44:39.618Z"
+    },
+    {
+      "id": 107838,
+      "productId": 82821,
+      "salePrice": 2550,
+      "regularSalePrice": 2700,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:01:59.995Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 338228,
+      "productId": 82821,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2550,
+      "checkedAt": "2026-10-09T16:02:00.000Z"
+    },
+    {
+      "id": 338227,
+      "productId": 82821,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 2430,
+      "checkedAt": "2026-10-09T16:02:00.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015098",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015098",
+    "capturedAt": "2026-10-09T16:01:59.995Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 2430
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2550
+      }
+    ],
+    "path": "data/other-shops/145015098.json"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 31790,
+    "title": "WindowsXP/Vista/7 DVDソフト 褐色の性戦士アイシャ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032031",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032031.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2012-05-18",
+    "listPrice": 3300,
+    "modelNumber": "CYCL-3066",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145032031001",
+      "メーカー": "CYCLET",
+      "発売日": "2012/05/18",
+      "定価": "3,300円",
+      "型番": "CYCL-3066",
+      "原画": "椎咲雛樹",
+      "シナリオ": "砂原砂",
+      "声優": "宮森ゆう\n阿蘇越メル",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（大）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 350,
+    "latestRegularSalePrice": 350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（大）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:31:34.129Z"
+  },
+  "histories": [
+    {
+      "id": 31804,
+      "productId": 31790,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（大）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:44:13.104Z"
+    },
+    {
+      "id": 40540,
+      "productId": 31790,
+      "salePrice": 350,
+      "regularSalePrice": 350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（大）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:31:34.129Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 105386,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-16T01:31:34.000Z"
+    },
+    {
+      "id": 105385,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-16T01:31:34.000Z"
+    },
+    {
+      "id": 105384,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 350,
+      "checkedAt": "2026-08-16T01:31:34.000Z"
+    },
+    {
+      "id": 79539,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-15T23:44:13.000Z"
+    },
+    {
+      "id": 79538,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-15T23:44:13.000Z"
+    },
+    {
+      "id": 79537,
+      "productId": 31790,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（大）",
+      "price": 350,
+      "checkedAt": "2026-08-15T23:44:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032031",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032031",
+    "capturedAt": "2026-08-16T01:31:34.129Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（大）",
+        "price": 350
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145032031.json"
+  }
+}

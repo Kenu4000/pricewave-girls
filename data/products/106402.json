@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 106402,
+    "title": "WindowsXP/Vista/7 DVDソフト CROSS†CHANNEL[復刻版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035131",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035131.jpg",
+    "manufacturer": "CROSS†CHANNEL",
+    "releaseDate": "2012-11-22",
+    "listPrice": 5500,
+    "modelNumber": "WILL-295",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145035131",
+      "メーカー": "CROSS†CHANNEL",
+      "発売日": "2012/11/22",
+      "定価": "5,500円",
+      "型番": "WILL-295",
+      "原画": "松竜",
+      "シナリオ": "田中ロミオ(山田一)",
+      "声優": "鵜乃瀬朱香\n児玉さとみ\n楠鈴音\n中瀬ひな\n榎津まお\n理多\n十文字隼人\n鳩野比奈\n牛久京也",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "OS": "S†CHANNEL\">CR",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 5720,
+    "latestRegularSalePrice": 5720,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:13:15.316Z"
+  },
+  "histories": [
+    {
+      "id": 106416,
+      "productId": 106402,
+      "salePrice": 5720,
+      "regularSalePrice": 5720,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:47.220Z"
+    },
+    {
+      "id": 110842,
+      "productId": 106402,
+      "salePrice": 5720,
+      "regularSalePrice": 5720,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:13:15.316Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035131",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035131",
+    "capturedAt": "2026-10-15T02:13:15.316Z",
+    "items": [],
+    "path": "data/other-shops/145035131.json"
+  }
+}

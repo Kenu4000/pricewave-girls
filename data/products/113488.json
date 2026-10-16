@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 113488,
+    "title": "Windows2000/XP/Vista DVDソフト 姉＠マス -THE ANE MASTER-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021660",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021660.jpg",
+    "manufacturer": "カウパー",
+    "releaseDate": "2009-11-20",
+    "listPrice": 9680,
+    "modelNumber": "CWP-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021660001",
+      "メーカー": "カウパー",
+      "発売日": "2009/11/20",
+      "定価": "9,680円",
+      "型番": "CWP-003",
+      "原画": "りゅうき夕海",
+      "シナリオ": "沖水ミル\n有梨つかさ",
+      "アーティスト": "秋元凛",
+      "声優": "氷室百合\n御苑生メイ\n葉村夏緒\n大友愛琉\n湖月紅れ葉",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:44.476Z"
+  },
+  "histories": [
+    {
+      "id": 113502,
+      "productId": 113488,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:44.476Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360185,
+      "productId": 113488,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360184,
+      "productId": 113488,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 8800,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360183,
+      "productId": 113488,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    },
+    {
+      "id": 360182,
+      "productId": 113488,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021660",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021660",
+    "capturedAt": "2026-10-16T12:29:44.476Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 8800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145021660.json"
+  }
+}

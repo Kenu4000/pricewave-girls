@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 29546,
+    "title": "WindowsVista/7/8/10 DVDソフト エゴと後悔のジレンマ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062036",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062036.jpg",
+    "manufacturer": "JIN CLIP",
+    "releaseDate": "2018-08-31",
+    "listPrice": 4180,
+    "modelNumber": "JCP-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062036",
+      "メーカー": "JIN CLIP",
+      "発売日": "2018/08/31",
+      "定価": "4,180円",
+      "型番": "JCP-001",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2612,
+    "latestRegularSalePrice": 2612,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:45:45.024Z"
+  },
+  "histories": [
+    {
+      "id": 29560,
+      "productId": 29546,
+      "salePrice": 2500,
+      "regularSalePrice": 2650,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:12.539Z"
+    },
+    {
+      "id": 38384,
+      "productId": 29546,
+      "salePrice": 2500,
+      "regularSalePrice": 2650,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:18.469Z"
+    },
+    {
+      "id": 49511,
+      "productId": 29546,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:31.300Z"
+    },
+    {
+      "id": 60240,
+      "productId": 29546,
+      "salePrice": 2611,
+      "regularSalePrice": 2611,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:10:41.592Z"
+    },
+    {
+      "id": 70524,
+      "productId": 29546,
+      "salePrice": 2612,
+      "regularSalePrice": 2612,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:45:45.024Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132492,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2650,
+      "checkedAt": "2026-08-19T04:31:31.000Z"
+    },
+    {
+      "id": 132491,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-19T04:31:31.000Z"
+    },
+    {
+      "id": 100950,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-16T01:11:18.000Z"
+    },
+    {
+      "id": 100949,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-16T01:11:18.000Z"
+    },
+    {
+      "id": 74926,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-08-15T23:08:13.000Z"
+    },
+    {
+      "id": 74925,
+      "productId": 29546,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-15T23:08:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062036",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062036",
+    "capturedAt": "2026-09-02T20:45:45.024Z",
+    "items": [],
+    "path": "data/other-shops/145062036.json"
+  }
+}

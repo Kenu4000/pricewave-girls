@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 106205,
+    "title": "Windows8.1/10 DVDソフト お兄ちゃんチョー好き99時間エッチしよ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071354",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071354.jpg",
+    "manufacturer": "コンフィチュールソフト",
+    "releaseDate": "2021-04-30",
+    "listPrice": 4180,
+    "modelNumber": "CFTS-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071354001",
+      "メーカー": "コンフィチュールソフト",
+      "発売日": "2021/04/30",
+      "定価": "4,180円",
+      "型番": "CFTS-001",
+      "原画": "秋野すばる",
+      "シナリオ": "東人",
+      "声優": "菜々なな\n有賀桃",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:32.712Z"
+  },
+  "histories": [
+    {
+      "id": 106219,
+      "productId": 106205,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:32.712Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333321,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333320,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 7600,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333319,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333318,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333317,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333316,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    },
+    {
+      "id": 333315,
+      "productId": 106205,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 800,
+      "checkedAt": "2026-10-08T03:12:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071354",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071354",
+    "capturedAt": "2026-10-08T03:12:32.712Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 800
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1500
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 7600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145071354.json"
+  }
+}

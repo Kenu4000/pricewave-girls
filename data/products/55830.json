@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 55830,
+    "title": "WindowsVista/7/8/10 DVDソフト 姦獄城-淫虐の支配-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056492",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056492.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2017-02-24",
+    "listPrice": 3520,
+    "modelNumber": "VAL-0039",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145056492001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2017/02/24",
+      "定価": "3,520円",
+      "型番": "VAL-0039",
+      "原画": "エレクトさわる",
+      "声優": "野々村紗夜\n八幡七味\n唯香",
+      "シナリオ": "電子レンジ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:35.332Z"
+  },
+  "histories": [
+    {
+      "id": 55844,
+      "productId": 55830,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:35.332Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150939,
+      "productId": 55830,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-08-21T05:30:35.000Z"
+    },
+    {
+      "id": 150938,
+      "productId": 55830,
+      "sourceType": "other_shop",
+      "storeName": "東京書店蟹江店",
+      "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+      "price": 1980,
+      "checkedAt": "2026-08-21T05:30:35.000Z"
+    },
+    {
+      "id": 150937,
+      "productId": 55830,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056492",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056492",
+    "capturedAt": "2026-08-21T05:30:35.332Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "東京書店蟹江店",
+        "condition": "中古中古品のため多少の傷や汚れがある場合がございます",
+        "price": 1980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145056492.json"
+  }
+}

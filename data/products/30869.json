@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 30869,
+    "title": "Windows CDソフト 恥辱の女騎士「オークの出来そこないである貴様なんかに、この私が……!!」 ルネソフト通販特典オリジナルデータCD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043734",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043734.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2014-05-30",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145043734001",
+      "メーカー": "ルネ",
+      "発売日": "2014/05/30",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "2050",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1900,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:24:35.234Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:31:05.575Z"
+  },
+  "histories": [
+    {
+      "id": 30883,
+      "productId": 30869,
+      "salePrice": 1900,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:34.985Z"
+    },
+    {
+      "id": 39636,
+      "productId": 30869,
+      "salePrice": 1900,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:30.857Z"
+    },
+    {
+      "id": 50791,
+      "productId": 30869,
+      "salePrice": 1900,
+      "regularSalePrice": 2050,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:31:05.575Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136105,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-19T05:31:06.000Z"
+    },
+    {
+      "id": 136104,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1968,
+      "checkedAt": "2026-08-19T05:31:06.000Z"
+    },
+    {
+      "id": 136103,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-19T05:31:06.000Z"
+    },
+    {
+      "id": 103672,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1968,
+      "checkedAt": "2026-08-16T01:22:31.000Z"
+    },
+    {
+      "id": 103671,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-16T01:22:31.000Z"
+    },
+    {
+      "id": 77799,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1968,
+      "checkedAt": "2026-08-15T23:24:35.000Z"
+    },
+    {
+      "id": 77798,
+      "productId": 30869,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-15T23:24:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043734",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043734",
+    "capturedAt": "2026-08-19T05:31:05.575Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1968
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1900
+      }
+    ],
+    "path": "data/other-shops/145043734.json"
+  }
+}

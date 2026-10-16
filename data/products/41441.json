@@ -1,0 +1,134 @@
+{
+  "product": {
+    "id": 41441,
+    "title": "WindowsXP/Vista/7 DVDソフト Junk Seeker [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025465",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025465.jpg",
+    "manufacturer": "縁 -yukari-",
+    "releaseDate": "2010-11-19",
+    "listPrice": 9680,
+    "modelNumber": "YKR003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025465001",
+      "メーカー": "縁 -yukari-",
+      "発売日": "2010/11/19",
+      "定価": "9,680円",
+      "型番": "YKR003",
+      "原画": "浅賀葵",
+      "シナリオ": "有島悠也",
+      "声優": "鈴峰りお\n片倉ひな\n芹園みや\n平野響子\n草柳順子\n三郷綾夢\n御苑生メイ\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:34.081Z"
+  },
+  "histories": [
+    {
+      "id": 41455,
+      "productId": 41441,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:55.714Z"
+    },
+    {
+      "id": 53097,
+      "productId": 41441,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:34.081Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142883,
+      "productId": 41441,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 142882,
+      "productId": 41441,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 142881,
+      "productId": 41441,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-19T16:21:34.000Z"
+    },
+    {
+      "id": 107620,
+      "productId": 41441,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:01:56.000Z"
+    },
+    {
+      "id": 107619,
+      "productId": 41441,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-17T07:01:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025465",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025465",
+    "capturedAt": "2026-08-19T16:21:34.081Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145025465.json"
+  }
+}
