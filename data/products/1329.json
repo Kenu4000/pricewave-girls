@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 1329,
+    "title": "Windows10/11 DVDソフト 堕とされていくお姉ちゃんと、何もできないボク -憧れの彼女は、淫落し痴態をさらけ出す-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077760",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077760.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2023-05-26",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "新品 ：145077760000",
+      "メーカー": "アパタイト",
+      "発売日": "2023/05/26",
+      "定価": "2,200円",
+      "原画": "井上七樹",
+      "シナリオ": "げっすー",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:03.520Z"
+  },
+  "histories": [
+    {
+      "id": 1343,
+      "productId": 1329,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:58:35.000Z"
+    },
+    {
+      "id": 6230,
+      "productId": 1329,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:08:13.000Z"
+    },
+    {
+      "id": 16148,
+      "productId": 1329,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 44271,
+      "productId": 1329,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:03.520Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114492,
+      "productId": 1329,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 新品",
+      "condition": "状態不明",
+      "price": 900,
+      "checkedAt": "2026-08-17T09:39:03.000Z"
+    },
+    {
+      "id": 114491,
+      "productId": 1329,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 680,
+      "checkedAt": "2026-08-17T09:39:03.000Z"
+    },
+    {
+      "id": 28782,
+      "productId": 1329,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 新品",
+      "condition": "状態不明",
+      "price": 800,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 28781,
+      "productId": 1329,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 680,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077760",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077760",
+    "capturedAt": "2026-08-17T09:39:03.520Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 680
+      },
+      {
+        "storeName": "Image 1 2 of 2 新品",
+        "condition": "状態不明",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145077760.json"
+  }
+}

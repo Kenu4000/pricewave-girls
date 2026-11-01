@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 42585,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 悪戯4 -俺たちの戦闘車輌- [廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017039",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017039.jpg",
+    "manufacturer": "インターハート",
+    "releaseDate": "2007-12-14",
+    "listPrice": 3080,
+    "modelNumber": "INH-257",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017039001",
+      "メーカー": "インターハート",
+      "発売日": "2007/12/14",
+      "定価": "3,080円",
+      "型番": "INH-257",
+      "原画": "新田",
+      "声優": "マルコ\n須本綾奈\n細川なな\n芹園みや\n深井晴花\nRuru\n如月美琴\nYuki-Lin\nAYA",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:28:26.123Z"
+  },
+  "histories": [
+    {
+      "id": 42599,
+      "productId": 42585,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:09.781Z"
+    },
+    {
+      "id": 53918,
+      "productId": 42585,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:28:26.123Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144478,
+      "productId": 42585,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-19T16:28:26.000Z"
+    },
+    {
+      "id": 144477,
+      "productId": 42585,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 2500,
+      "checkedAt": "2026-08-19T16:28:26.000Z"
+    },
+    {
+      "id": 144476,
+      "productId": 42585,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-19T16:28:26.000Z"
+    },
+    {
+      "id": 109978,
+      "productId": 42585,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 2500,
+      "checkedAt": "2026-08-17T07:13:10.000Z"
+    },
+    {
+      "id": 109977,
+      "productId": 42585,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-08-17T07:13:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017039",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017039",
+    "capturedAt": "2026-08-19T16:28:26.123Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 2050
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 2500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145017039.json"
+  }
+}

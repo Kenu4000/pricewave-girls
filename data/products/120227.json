@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 120227,
+    "title": "Windows2000/XP/Vista DVDソフト ピリオド+ピリオド sweet drops 新入生歓迎セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018599",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018599.jpg",
+    "manufacturer": "Littlewitch",
+    "releaseDate": "2008-09-26",
+    "listPrice": 14080,
+    "modelNumber": "LWEX-080",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018599",
+      "メーカー": "Littlewitch",
+      "発売日": "2008/09/26",
+      "定価": "14,080円",
+      "型番": "LWEX-080",
+      "原画": "大槍葦人",
+      "シナリオ": "姫ノ木あく",
+      "声優": "韮井叶\n金松由花\n大波こなみ\n秋月まい\n一色ヒカル\n倉田まりや\n木村あやか\n宮沢ゆあな\nまきいづみ\n野神奈々\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": 23800,
+    "latestRegularSalePrice": 23800,
+    "latestBuyPrice": 11000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:46:33.194Z"
+  },
+  "histories": [
+    {
+      "id": 120241,
+      "productId": 120227,
+      "salePrice": 23800,
+      "regularSalePrice": 23800,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:49.397Z"
+    },
+    {
+      "id": 120277,
+      "productId": 120227,
+      "salePrice": 23800,
+      "regularSalePrice": 23800,
+      "buyPrice": 11000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:46:33.194Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018599",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018599",
+    "capturedAt": "2026-10-29T05:46:33.194Z",
+    "items": [],
+    "path": "data/other-shops/145018599.json"
+  }
+}

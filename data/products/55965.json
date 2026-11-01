@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 55965,
+    "title": "WindowsXP/Vista/7 DVDソフト すくみず食べ放題",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033639",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033639.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2012-09-14",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145033639",
+      "メーカー": "WAFFLE",
+      "発売日": "2012/09/14",
+      "定価": "9,680円",
+      "原画": "さくやついたち",
+      "シナリオ": "姫ノ宮レイ",
+      "声優": "白州妙\n桜水季\n咲ゆたか",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:48.312Z"
+  },
+  "histories": [
+    {
+      "id": 55979,
+      "productId": 55965,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:48.312Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033639",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033639",
+    "capturedAt": "2026-08-21T05:31:48.312Z",
+    "items": [],
+    "path": "data/other-shops/145033639.json"
+  }
+}

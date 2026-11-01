@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30801,
+    "title": "WindowsVista/7/8 DVDソフト なまイキ-生粋荘にようこそ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050055",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050055.jpg",
+    "manufacturer": "アトリエかぐや BARE＆BUNNY",
+    "releaseDate": "2014-08-29",
+    "listPrice": 9680,
+    "modelNumber": "KA-0074",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145050055",
+      "メーカー": "アトリエかぐや BARE＆BUNNY",
+      "発売日": "2014/08/29",
+      "定価": "9,680円",
+      "型番": "KA-0074",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:30:39.927Z"
+  },
+  "histories": [
+    {
+      "id": 30815,
+      "productId": 30801,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:23:54.450Z"
+    },
+    {
+      "id": 39569,
+      "productId": 30801,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:21:56.116Z"
+    },
+    {
+      "id": 50743,
+      "productId": 30801,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:39.927Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145050055",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050055",
+    "capturedAt": "2026-08-19T05:30:39.927Z",
+    "items": [],
+    "path": "data/other-shops/145050055.json"
+  }
+}

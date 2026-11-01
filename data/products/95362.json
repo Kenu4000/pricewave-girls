@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 95362,
+    "title": "Windows98/Me/2000/XP CDソフト Sexteaビーチ らぶデス～Realtime Lovers～とらのあな特典 奈々美版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014372",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014372.jpg",
+    "manufacturer": "TEATIME",
+    "releaseDate": "2006-04-21",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014372001",
+      "メーカー": "TEATIME",
+      "発売日": "2006/04/21",
+      "キャラクターデザイン": "MA@YA",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:24.781Z"
+  },
+  "histories": [
+    {
+      "id": 95376,
+      "productId": 95362,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:24.781Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293943,
+      "productId": 95362,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293942,
+      "productId": 95362,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293941,
+      "productId": 95362,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014372",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014372",
+    "capturedAt": "2026-09-17T19:57:24.781Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145014372.json"
+  }
+}

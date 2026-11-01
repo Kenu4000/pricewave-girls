@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91412,
+    "title": "WindowsXP/Vista/7/8 DVDソフト プレイ!プレイ!プレイ!屍[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145048843",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145048843.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2015-05-29",
+    "listPrice": 3740,
+    "modelNumber": "VAL-0032",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145048843001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2015/05/29",
+      "定価": "3,740円",
+      "型番": "VAL-0032",
+      "原画": "ぽ~しょん\nわざきた\nおしゃれ教室。",
+      "シナリオ": "モルデカイ",
+      "声優": "逢月ねる\n唯香\n和葉\n木多野あり\n野々村紗夜\n御苑生メイ\n手塚りょうこ\n榎津まお\n清河いつか\n義仲愛\nヒマリ\n藤堂みさき\n八幡七味",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:33.857Z"
+  },
+  "histories": [
+    {
+      "id": 91426,
+      "productId": 91412,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:33.857Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278953,
+      "productId": 91412,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-09-14T17:28:34.000Z"
+    },
+    {
+      "id": 278952,
+      "productId": 91412,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-14T17:28:34.000Z"
+    },
+    {
+      "id": 278951,
+      "productId": 91412,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:28:34.000Z"
+    },
+    {
+      "id": 278950,
+      "productId": 91412,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-14T17:28:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145048843",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145048843",
+    "capturedAt": "2026-09-14T17:28:33.857Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145048843.json"
+  }
+}

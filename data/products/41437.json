@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 41437,
+    "title": "WindowsXP/Vista/7 CDソフト 堕楽園～美しき新妻 初夜に散る～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025685",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025685.jpg",
+    "manufacturer": "アメノムラクモ",
+    "releaseDate": "2010-11-19",
+    "listPrice": 2530,
+    "modelNumber": "AMK-012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025685001",
+      "メーカー": "アメノムラクモ",
+      "発売日": "2010/11/19",
+      "定価": "2,530円",
+      "型番": "AMK-012",
+      "原画": "くない瓜",
+      "シナリオ": "後馬久人",
+      "声優": "芹園みや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:14:07.336Z"
+  },
+  "histories": [
+    {
+      "id": 41451,
+      "productId": 41437,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:53.897Z"
+    },
+    {
+      "id": 53100,
+      "productId": 41437,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:34.737Z"
+    },
+    {
+      "id": 64028,
+      "productId": 41437,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:14:07.336Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 179054,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-27T16:14:07.000Z"
+    },
+    {
+      "id": 179053,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-27T16:14:07.000Z"
+    },
+    {
+      "id": 142888,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-19T16:21:35.000Z"
+    },
+    {
+      "id": 142887,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-19T16:21:35.000Z"
+    },
+    {
+      "id": 107614,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-17T07:01:54.000Z"
+    },
+    {
+      "id": 107613,
+      "productId": 41437,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-17T07:01:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025685",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025685",
+    "capturedAt": "2026-08-27T16:14:07.336Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145025685.json"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 41110,
+    "title": "WindowsXP/Vista/7 DVDソフト プリンセスX ー僕の許嫁はモンスターっ娘!?ー[初回特典版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029559",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029559.jpg",
+    "manufacturer": "Poison＠Berry",
+    "releaseDate": "2011-09-22",
+    "listPrice": 9680,
+    "modelNumber": "PBER-2038",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029559001",
+      "メーカー": "Poison＠Berry",
+      "発売日": "2011/09/22",
+      "定価": "9,680円",
+      "型番": "PBER-2038",
+      "原画": "K-1\n椎咲雛樹\n金たロウ",
+      "シナリオ": "伊藤ヒロ",
+      "声優": "佐藤千幸\n桜川未央\n青空ラムネ\n西野みく\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:29:04.370Z"
+  },
+  "histories": [
+    {
+      "id": 41124,
+      "productId": 41110,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:55.492Z"
+    },
+    {
+      "id": 52851,
+      "productId": 41110,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:20.405Z"
+    },
+    {
+      "id": 63812,
+      "productId": 41110,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:22.239Z"
+    },
+    {
+      "id": 78454,
+      "productId": 41110,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-05T16:06:01.459Z"
+    },
+    {
+      "id": 90615,
+      "productId": 41110,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T16:01:39.155Z"
+    },
+    {
+      "id": 105356,
+      "productId": 41110,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T02:12:49.900Z"
+    },
+    {
+      "id": 119278,
+      "productId": 41110,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:29:04.370Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 381576,
+      "productId": 41110,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-29T05:29:04.000Z"
+    },
+    {
+      "id": 381575,
+      "productId": 41110,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-29T05:29:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029559",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029559",
+    "capturedAt": "2026-10-29T05:29:04.370Z",
+    "items": [
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145029559.json"
+  }
+}

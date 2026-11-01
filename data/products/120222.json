@@ -1,0 +1,138 @@
+{
+  "product": {
+    "id": 120222,
+    "title": "Windows2000/XP/Vista DVDソフト Signal Heart [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021018",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021018.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2009-09-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021018",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2009/09/25",
+      "定価": "9,680円",
+      "原画": "zinno\n悠樹真琴",
+      "シナリオ": "がのす\n東トナタ\n北川晴",
+      "主題歌/声優": "榊原ゆい",
+      "声優": "青葉りんご\n木村あやか\n桜川未央\n成瀬未亜\n五行なずな\n本山美奈\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:36:25.513Z"
+  },
+  "histories": [
+    {
+      "id": 120236,
+      "productId": 120222,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:47.895Z"
+    },
+    {
+      "id": 121236,
+      "productId": 120222,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:36:25.513Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 388200,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-11-01T03:36:25.000Z"
+    },
+    {
+      "id": 388199,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-01T03:36:25.000Z"
+    },
+    {
+      "id": 384540,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-29T05:41:48.000Z"
+    },
+    {
+      "id": 384539,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-10-29T05:41:48.000Z"
+    },
+    {
+      "id": 384538,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-29T05:41:48.000Z"
+    },
+    {
+      "id": 384537,
+      "productId": 120222,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-29T05:41:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021018",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021018",
+    "capturedAt": "2026-11-01T03:36:25.513Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      }
+    ],
+    "path": "data/other-shops/145021018.json"
+  }
+}

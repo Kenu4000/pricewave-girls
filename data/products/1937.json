@@ -1,0 +1,141 @@
+{
+  "product": {
+    "id": 1937,
+    "title": "Windows8/10 DVDソフト ぼくを助けてくれた隣の奥さんが、目の前で寝取られて…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145068337",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145068337.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2020-04-24",
+    "listPrice": 2200,
+    "modelNumber": "APT-158",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145068337",
+      "メーカー": "アパタイト",
+      "発売日": "2020/04/24",
+      "定価": "2,200円",
+      "型番": "APT-158",
+      "原画": "七王子",
+      "シナリオ": "あんずもち",
+      "声優": "椎名旭",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:40:33.967Z"
+  },
+  "histories": [
+    {
+      "id": 1951,
+      "productId": 1937,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6833,
+      "productId": 1937,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 13569,
+      "productId": 1937,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-06T16:43:21.000Z"
+    },
+    {
+      "id": 26491,
+      "productId": 1937,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:04:48.266Z"
+    },
+    {
+      "id": 44440,
+      "productId": 1937,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:40:33.967Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 114933,
+      "productId": 1937,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1350,
+      "checkedAt": "2026-08-17T09:40:34.000Z"
+    },
+    {
+      "id": 114932,
+      "productId": 1937,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T09:40:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145068337",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145068337",
+    "capturedAt": "2026-08-17T09:40:33.967Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145068337.json"
+  }
+}

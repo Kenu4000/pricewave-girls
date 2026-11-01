@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 41320,
+    "title": "WindowsXP/Vista/7 CDソフト もしも水泳部顧問の妻がデカパイ肉オナホとして裏サイトで晒されていたら",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027179",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027179.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2011-02-25",
+    "listPrice": 2530,
+    "modelNumber": "MIEL-011",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145027179001",
+      "メーカー": "Miel",
+      "発売日": "2011/02/25",
+      "定価": "2,530円",
+      "型番": "MIEL-011",
+      "原画": "石井彰",
+      "シナリオ": "遊真一希",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:20:51.528Z"
+  },
+  "histories": [
+    {
+      "id": 41334,
+      "productId": 41320,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:00:49.249Z"
+    },
+    {
+      "id": 53013,
+      "productId": 41320,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:20:51.528Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 142736,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-19T16:20:51.000Z"
+    },
+    {
+      "id": 142735,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:20:51.000Z"
+    },
+    {
+      "id": 142734,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T16:20:51.000Z"
+    },
+    {
+      "id": 142733,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-19T16:20:51.000Z"
+    },
+    {
+      "id": 107413,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:00:49.000Z"
+    },
+    {
+      "id": 107412,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-08-17T07:00:49.000Z"
+    },
+    {
+      "id": 107411,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:00:49.000Z"
+    },
+    {
+      "id": 107410,
+      "productId": 41320,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-08-17T07:00:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145027179",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027179",
+    "capturedAt": "2026-08-19T16:20:51.528Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145027179.json"
+  }
+}

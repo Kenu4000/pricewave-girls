@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 41372,
+    "title": "WindowsXP/Vista/7 CDソフト お別れ愛妻温泉旅行ーごめんなさいあなた…子供達は伯父さまの子。私はあの人の妻になりますー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026344",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026344.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2011-01-28",
+    "listPrice": 1980,
+    "modelNumber": "MIEL-009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026344",
+      "メーカー": "Miel",
+      "発売日": "2011/01/28",
+      "定価": "1,980円",
+      "型番": "MIEL-009",
+      "原画": "石井彰",
+      "シナリオ": "志村右城",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:21:11.197Z"
+  },
+  "histories": [
+    {
+      "id": 41386,
+      "productId": 41372,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:15.443Z"
+    },
+    {
+      "id": 53053,
+      "productId": 41372,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:11.197Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026344",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026344",
+    "capturedAt": "2026-08-19T16:21:11.197Z",
+    "items": [],
+    "path": "data/other-shops/145026344.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 120183,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 姉さんのカレシ -憧れの姉さんが親友と付き合い始めました-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037727",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037727.jpg",
+    "manufacturer": "エロイット",
+    "releaseDate": "2013-08-30",
+    "listPrice": 2750,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145037727001",
+      "メーカー": "エロイット",
+      "発売日": "2013/08/30",
+      "定価": "2,750円",
+      "原画": "椋木尋",
+      "シナリオ": "青野景人",
+      "声優": "大和桜",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 950,
+    "latestRegularSalePrice": 950,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:32.794Z"
+  },
+  "histories": [
+    {
+      "id": 120197,
+      "productId": 120183,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:32.794Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384485,
+      "productId": 120183,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-10-29T05:41:33.000Z"
+    },
+    {
+      "id": 384484,
+      "productId": 120183,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1350,
+      "checkedAt": "2026-10-29T05:41:33.000Z"
+    },
+    {
+      "id": 384483,
+      "productId": 120183,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-10-29T05:41:33.000Z"
+    },
+    {
+      "id": 384482,
+      "productId": 120183,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 950,
+      "checkedAt": "2026-10-29T05:41:33.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037727",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037727",
+    "capturedAt": "2026-10-29T05:41:32.794Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 950
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1350
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 950
+      }
+    ],
+    "path": "data/other-shops/145037727.json"
+  }
+}

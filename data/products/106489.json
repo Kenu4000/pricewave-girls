@@ -1,0 +1,90 @@
+{
+  "product": {
+    "id": 106489,
+    "title": "Windows2000/XP/Vista DVDソフト 桃華散る -少女剣士の報復は慟哭に満ちて-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021421",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021421.jpg",
+    "manufacturer": "アイル【チーム・Riva】",
+    "releaseDate": "2009-09-18",
+    "listPrice": 4180,
+    "modelNumber": "AIL-141640",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021421001",
+      "メーカー": "アイル【チーム・Riva】",
+      "発売日": "2009/09/18",
+      "定価": "4,180円",
+      "型番": "AIL-141640",
+      "原画/シナリオ": "リバ原あき",
+      "原画": "さぶろ~",
+      "シナリオ": "りうのすけ",
+      "声優": "花南\n水純なな歩",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:22.228Z"
+  },
+  "histories": [
+    {
+      "id": 106503,
+      "productId": 106489,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:22.228Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333788,
+      "productId": 106489,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-10-08T03:14:22.000Z"
+    },
+    {
+      "id": 333787,
+      "productId": 106489,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1330,
+      "checkedAt": "2026-10-08T03:14:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021421",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021421",
+    "capturedAt": "2026-10-08T03:14:22.228Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1330
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145021421.json"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 40989,
+    "title": "Windows8.1/10 DVDソフト TRYSETストレートエディションChoice Vol.3",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074571",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074571.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2022-04-28",
+    "listPrice": 4378,
+    "modelNumber": "TRYS-0003P",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145074571",
+      "メーカー": "TRYSET",
+      "発売日": "2022/04/28",
+      "定価": "4,378円",
+      "型番": "TRYS-0003P",
+      "原画": "天乃御剣",
+      "シナリオ": "橋野次郎\nわかさまさひと\n三原正志",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T15:34:45.810Z"
+  },
+  "histories": [
+    {
+      "id": 41003,
+      "productId": 40989,
+      "salePrice": 700,
+      "regularSalePrice": 700,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:57:50.922Z"
+    },
+    {
+      "id": 52368,
+      "productId": 40989,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:45.810Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 140371,
+      "productId": 40989,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット住之江店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 1100,
+      "checkedAt": "2026-08-19T15:34:45.000Z"
+    },
+    {
+      "id": 140370,
+      "productId": 40989,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-19T15:34:45.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074571",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074571",
+    "capturedAt": "2026-08-19T15:34:45.810Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケット住之江店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 1100
+      }
+    ],
+    "path": "data/other-shops/145074571.json"
+  }
+}

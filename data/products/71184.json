@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 71184,
+    "title": "Windows8/10 DVDソフト ねぇねぇ姉",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145072674",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145072674.jpg",
+    "manufacturer": "アトリエかぐや BARE＆BUNNY",
+    "releaseDate": "2021-08-27",
+    "listPrice": 9680,
+    "modelNumber": "KA-0112",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145072674001",
+      "メーカー": "アトリエかぐや BARE＆BUNNY",
+      "発売日": "2021/08/27",
+      "定価": "9,680円",
+      "型番": "KA-0112",
+      "原画": "choco chip",
+      "シナリオ": "風間ぼなんざ\n近江達裕\n七央結日",
+      "声優": "綾音まこ\n蒼乃むすび\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3380,
+    "latestRegularSalePrice": 3380,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:50.179Z"
+  },
+  "histories": [
+    {
+      "id": 71198,
+      "productId": 71184,
+      "salePrice": 3380,
+      "regularSalePrice": 3380,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:50.179Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204351,
+      "productId": 71184,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3380,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    },
+    {
+      "id": 204350,
+      "productId": 71184,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 2980,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    },
+    {
+      "id": 204349,
+      "productId": 71184,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2900,
+      "checkedAt": "2026-09-02T21:35:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145072674",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145072674",
+    "capturedAt": "2026-09-02T21:35:50.179Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2900
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有",
+        "price": 2980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3380
+      }
+    ],
+    "path": "data/other-shops/145072674.json"
+  }
+}

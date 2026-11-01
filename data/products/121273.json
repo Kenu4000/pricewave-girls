@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 121273,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 続・悦楽の胤",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049662.jpg",
+    "manufacturer": "WendyBell",
+    "releaseDate": "2015-06-26",
+    "listPrice": 9680,
+    "modelNumber": "WB-16",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145049662",
+      "メーカー": "WendyBell",
+      "発売日": "2015/06/26",
+      "定価": "9,680円",
+      "型番": "WB-16",
+      "声優": "渡会ななせ\n長瀬ゆずは\nRaica\n櫻井ありす",
+      "原画": "嶋艮",
+      "シナリオ": "一ノ瀬りお",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:25.777Z"
+  },
+  "histories": [
+    {
+      "id": 121287,
+      "productId": 121273,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:25.777Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049662",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049662",
+    "capturedAt": "2026-11-01T13:42:25.777Z",
+    "items": [],
+    "path": "data/other-shops/145049662.json"
+  }
+}

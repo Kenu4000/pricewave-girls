@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 113423,
+    "title": "Windows7/8.1/10 CDソフト てにおはっ!2 リミットオーバー -まだまだいっぱい、エッチしよ?- 初回特典Hシーン追加パッチCD 「2ショットビデオチャット風オナニーサポート「ルミ＆ゆっこと相互オナニー編♪」」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063849",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063849.jpg",
+    "manufacturer": "rootnuko＋H",
+    "releaseDate": "2018-11-30",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145063849001",
+      "メーカー": "rootnuko＋H",
+      "発売日": "2018/11/30",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:17.486Z"
+  },
+  "histories": [
+    {
+      "id": 113437,
+      "productId": 113423,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:17.486Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360070,
+      "productId": 113423,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-10-16T12:29:17.000Z"
+    },
+    {
+      "id": 360069,
+      "productId": 113423,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム・ディスクのみ（未開封）",
+      "price": 2500,
+      "checkedAt": "2026-10-16T12:29:17.000Z"
+    },
+    {
+      "id": 360068,
+      "productId": 113423,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:29:17.000Z"
+    },
+    {
+      "id": 360067,
+      "productId": 113423,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-10-16T12:29:17.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063849",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063849",
+    "capturedAt": "2026-10-16T12:29:17.486Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1850
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム・ディスクのみ（未開封）",
+        "price": 2500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1850
+      }
+    ],
+    "path": "data/other-shops/145063849.json"
+  }
+}

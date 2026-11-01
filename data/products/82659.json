@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 82659,
+    "title": "Windows7/8.1/10 DVDソフト カスタムオーダーメイド3D2 キャラクターパック 警戒心の強い無愛想",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066914",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066914.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2019-12-20",
+    "listPrice": 4359,
+    "modelNumber": "KISS-112",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066914001",
+      "メーカー": "KISS",
+      "発売日": "2019/12/20",
+      "定価": "4,359円",
+      "型番": "KISS-112",
+      "声優": "遥香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2280,
+    "latestRegularSalePrice": 2280,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:19.412Z"
+  },
+  "histories": [
+    {
+      "id": 82673,
+      "productId": 82659,
+      "salePrice": 2280,
+      "regularSalePrice": 2280,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:19.412Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245385,
+      "productId": 82659,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245384,
+      "productId": 82659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 2630,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245383,
+      "productId": 82659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 2630,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245382,
+      "productId": 82659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 2625,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    },
+    {
+      "id": 245381,
+      "productId": 82659,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-09-09T05:32:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066914",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066914",
+    "capturedAt": "2026-09-09T05:32:19.412Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 2280
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 2625
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 2630
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 2630
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2280
+      }
+    ],
+    "path": "data/other-shops/145066914.json"
+  }
+}

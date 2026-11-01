@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 120202,
+    "title": "WindowsXP/Vista/7 DVDソフト アルテミスブルー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025513",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025513.jpg",
+    "manufacturer": "あっぷりけ-妹-",
+    "releaseDate": "2011-02-24",
+    "listPrice": 9680,
+    "modelNumber": "APS-0003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145025513001",
+      "メーカー": "あっぷりけ-妹-",
+      "発売日": "2011/02/24",
+      "定価": "9,680円",
+      "型番": "APS-0003",
+      "原画": "桃飴こもも\n浅海朝美",
+      "シナリオ": "井上啓二",
+      "声優": "七生みこと\n小倉結衣\n大波こなみ\n雪都さお梨\nこんつ\n藍川珪\n藤流水\nひなき藍\n氷室省吾\n蝦押丈\n渋谷ひめ\n植木亨\n桃井穂美\n原田友貴\n美澄すい\n芹園みや\n山本パンダ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2780,
+    "latestRegularSalePrice": 2780,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:40.438Z"
+  },
+  "histories": [
+    {
+      "id": 120216,
+      "productId": 120202,
+      "salePrice": 2780,
+      "regularSalePrice": 2780,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:40.438Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384506,
+      "productId": 120202,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2780,
+      "checkedAt": "2026-10-29T05:41:40.000Z"
+    },
+    {
+      "id": 384505,
+      "productId": 120202,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:箱に難有り",
+      "price": 3800,
+      "checkedAt": "2026-10-29T05:41:40.000Z"
+    },
+    {
+      "id": 384504,
+      "productId": 120202,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 2260,
+      "checkedAt": "2026-10-29T05:41:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025513",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025513",
+    "capturedAt": "2026-10-29T05:41:40.438Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 2260
+      },
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:箱に難有り",
+        "price": 3800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2780
+      }
+    ],
+    "path": "data/other-shops/145025513.json"
+  }
+}

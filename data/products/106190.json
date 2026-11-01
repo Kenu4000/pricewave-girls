@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106190,
+    "title": "Windows8.1/10 DVDソフト ボクと奥さんの発情交尾日記 -家庭教師は隣の美人妻-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075881",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075881.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2022-09-30",
+    "listPrice": 2200,
+    "modelNumber": "APT-217",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145075881001",
+      "メーカー": "アパタイト",
+      "発売日": "2022/09/30",
+      "定価": "2,200円",
+      "型番": "APT-217",
+      "原画": "urute",
+      "シナリオ": "坂元星日",
+      "声優": "雨森りこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:26.276Z"
+  },
+  "histories": [
+    {
+      "id": 106204,
+      "productId": 106190,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:26.276Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333277,
+      "productId": 106190,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333276,
+      "productId": 106190,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333275,
+      "productId": 106190,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 780,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333274,
+      "productId": 106190,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145075881",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075881",
+    "capturedAt": "2026-10-08T03:12:26.276Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 780
+      }
+    ],
+    "path": "data/other-shops/145075881.json"
+  }
+}

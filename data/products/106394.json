@@ -1,0 +1,63 @@
+{
+  "product": {
+    "id": 106394,
+    "title": "WindowsXP/Vista/7/8 DVDソフト プレミアムプレイ -ダークネス-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035179",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035179.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2013-01-25",
+    "listPrice": 9680,
+    "modelNumber": "ILN-091",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145035179",
+      "メーカー": "ILLUSION",
+      "発売日": "2013/01/25",
+      "定価": "9,680円",
+      "型番": "ILN-091",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1200,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:30:59.917Z"
+  },
+  "histories": [
+    {
+      "id": 106408,
+      "productId": 106394,
+      "salePrice": 2100,
+      "regularSalePrice": 2100,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:43.467Z"
+    },
+    {
+      "id": 120397,
+      "productId": 106394,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:30:59.917Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

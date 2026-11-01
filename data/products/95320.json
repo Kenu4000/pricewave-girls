@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 95320,
+    "title": "Windows2000/XP DVDソフト フルアニ [外箱無し]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023247",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023247.jpg",
+    "manufacturer": "Leaf",
+    "releaseDate": "2006-06-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145023247001",
+      "メーカー": "Leaf",
+      "発売日": "2006/06/23",
+      "定価": "9,680円",
+      "原画": "みつみ美里",
+      "声優": "紘川琴音\n扉沼ゆず\n須本綾奈\n上戸琉\n木村あやか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "450",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 420,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:02:28.307Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:02:28.037Z"
+  },
+  "histories": [
+    {
+      "id": 95334,
+      "productId": 95320,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:08.762Z"
+    },
+    {
+      "id": 107900,
+      "productId": 95320,
+      "salePrice": 420,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:02:28.037Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

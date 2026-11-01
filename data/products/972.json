@@ -1,0 +1,111 @@
+{
+  "product": {
+    "id": 972,
+    "title": "Windows10/11 DVDソフト 特撮ヒロインになりたい彼女 -ピッチリスーツで敗北に酔うワタシ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082256",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082256.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2024-11-29",
+    "listPrice": 2200,
+    "modelNumber": "APT-269",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082256",
+      "メーカー": "アパタイト",
+      "発売日": "2024/11/29",
+      "定価": "2,200円",
+      "型番": "APT-269",
+      "原画": "桜ロマ子",
+      "シナリオ": "岡下誠",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:38:59.816Z"
+  },
+  "histories": [
+    {
+      "id": 986,
+      "productId": 972,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4771,
+      "productId": 972,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:49:57.000Z"
+    },
+    {
+      "id": 5870,
+      "productId": 972,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:05:59.000Z"
+    },
+    {
+      "id": 16083,
+      "productId": 972,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:21:28.000Z"
+    },
+    {
+      "id": 44263,
+      "productId": 972,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:38:59.816Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145082256",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082256",
+    "capturedAt": "2026-08-17T09:38:59.816Z",
+    "items": [],
+    "path": "data/other-shops/145082256.json"
+  }
+}

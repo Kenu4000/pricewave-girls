@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 29501,
+    "title": "Windows7/8/8.1/10 DVDソフト 学園2 -淫虐の図式- インモラルエディション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063622",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063622.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2018-11-30",
+    "listPrice": 6380,
+    "modelNumber": "BSP-056",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145063622001",
+      "メーカー": "BISHOP",
+      "発売日": "2018/11/30",
+      "定価": "6,380円",
+      "型番": "BSP-056",
+      "原画": "水島・多也",
+      "シナリオ": "庵乃音人\n酒巻雨竜\n麿\n紫楼巧",
+      "声優": "古林めぐる\nYUKI\n緒田マリ\n草柳順子\n紫苑みやび\n深井晴花\n白井綾乃\n岩泉まい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6200,
+    "latestRegularSalePrice": 6200,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:40.475Z"
+  },
+  "histories": [
+    {
+      "id": 29515,
+      "productId": 29501,
+      "salePrice": 6500,
+      "regularSalePrice": 6900,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:42.194Z"
+    },
+    {
+      "id": 70782,
+      "productId": 29501,
+      "salePrice": 6200,
+      "regularSalePrice": 6200,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:40.475Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203029,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6200,
+      "checkedAt": "2026-09-02T20:47:40.000Z"
+    },
+    {
+      "id": 203028,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6911,
+      "checkedAt": "2026-09-02T20:47:40.000Z"
+    },
+    {
+      "id": 203027,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 6900,
+      "checkedAt": "2026-09-02T20:47:40.000Z"
+    },
+    {
+      "id": 203026,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 6301,
+      "checkedAt": "2026-09-02T20:47:40.000Z"
+    },
+    {
+      "id": 203025,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 6200,
+      "checkedAt": "2026-09-02T20:47:40.000Z"
+    },
+    {
+      "id": 74818,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 6500,
+      "checkedAt": "2026-08-15T23:07:42.000Z"
+    },
+    {
+      "id": 74817,
+      "productId": 29501,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6211,
+      "checkedAt": "2026-08-15T23:07:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145063622",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063622",
+    "capturedAt": "2026-09-02T20:47:40.475Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 6200
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 6301
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 6900
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6200
+      }
+    ],
+    "path": "data/other-shops/145063622.json"
+  }
+}

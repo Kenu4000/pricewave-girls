@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 120244,
+    "title": "Windows98/Me/2000/XP DVDソフト Scarlett ～スカーレット～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014609",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014609.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2006-07-21",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014609",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2006/07/21",
+      "定価": "8,580円",
+      "原画": "仲本六日\n秋乃武彦\nあんころもち\n司ゆうき\nミヨルノユメギ",
+      "シナリオ": "大月佑佑\n片岡とも\n木緒なち\n秋津環\n海富一",
+      "声優": "吉住梢\n籐野らん\n夏野こおり\n青山ゆかり\nまきいづみ\n楠鈴音\n神村ひな\n綾川りの\n上本のぞみ\n堀奈生",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 2800,
+    "latestRegularSalePrice": 2800,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:56.487Z"
+  },
+  "histories": [
+    {
+      "id": 120258,
+      "productId": 120244,
+      "salePrice": 2800,
+      "regularSalePrice": 2800,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:56.487Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014609",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014609",
+    "capturedAt": "2026-10-29T05:41:56.487Z",
+    "items": [],
+    "path": "data/other-shops/145014609.json"
+  }
+}

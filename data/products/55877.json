@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 55877,
+    "title": "WindowsVista/7/8 DVDソフト 姉とプリンセスは嫌われたくない。 -俺のラブコメ18禁フラグ、またしても管理できず-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049442",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049442.jpg",
+    "manufacturer": "Venus_S",
+    "releaseDate": "2015-06-26",
+    "listPrice": 9680,
+    "modelNumber": "ANEPRI-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145049442001",
+      "メーカー": "Venus_S",
+      "発売日": "2015/06/26",
+      "定価": "9,680円",
+      "型番": "ANEPRI-001",
+      "声優": "愛原ミケ\n東かりん\n田中理々\nあこや真珠\n白月かなめ\n春山色葉\nみたかりん\n榛名れん\n雪村とあ",
+      "原画": "佐野俊英",
+      "シナリオ": "沖水ミル",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:01.091Z"
+  },
+  "histories": [
+    {
+      "id": 55891,
+      "productId": 55877,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:01.091Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151101,
+      "productId": 55877,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    },
+    {
+      "id": 151100,
+      "productId": 55877,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・説明書のみ",
+      "price": 2800,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    },
+    {
+      "id": 151099,
+      "productId": 55877,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 2250,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    },
+    {
+      "id": 151098,
+      "productId": 55877,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145049442",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049442",
+    "capturedAt": "2026-08-21T05:31:01.091Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 2250
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・説明書のみ",
+        "price": 2800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145049442.json"
+  }
+}

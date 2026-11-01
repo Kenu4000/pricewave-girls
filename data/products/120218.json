@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 120218,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト 孕ノ胤",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022713",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022713.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2010-02-12",
+    "listPrice": 9680,
+    "modelNumber": "TB-041",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145022713001",
+      "メーカー": "TinkerBell",
+      "発売日": "2010/02/12",
+      "定価": "9,680円",
+      "型番": "TB-041",
+      "原画": "天竺浪人",
+      "シナリオ": "小峰久生",
+      "声優": "このは\n香澄りょう\n榛名れん\n宝井葵\n鈴音華月",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2850,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:46.962Z"
+  },
+  "histories": [
+    {
+      "id": 120232,
+      "productId": 120218,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:46.962Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384536,
+      "productId": 120218,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    },
+    {
+      "id": 384535,
+      "productId": 120218,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ、ディスク状態難",
+      "price": 1850,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    },
+    {
+      "id": 384534,
+      "productId": 120218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    },
+    {
+      "id": 384533,
+      "productId": 120218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2495,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    },
+    {
+      "id": 384532,
+      "productId": 120218,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ディスクのみ、ディスク状態難",
+      "price": 1850,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    },
+    {
+      "id": 384531,
+      "productId": 120218,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 ディスクのみ、ディスク状態難",
+      "price": 1850,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022713",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022713",
+    "capturedAt": "2026-10-29T05:41:46.962Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古ディスクのみ、ディスク状態難",
+        "price": 1850
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2495
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ、ディスク状態難",
+        "price": 1850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2850
+      }
+    ],
+    "path": "data/other-shops/145022713.json"
+  }
+}

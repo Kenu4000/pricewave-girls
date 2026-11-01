@@ -1,0 +1,162 @@
+{
+  "product": {
+    "id": 42918,
+    "title": "Windows CDソフト MEGANE CD-ROM",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033692",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033692.jpg",
+    "manufacturer": "Spray",
+    "releaseDate": "2006-12-29",
+    "listPrice": null,
+    "modelNumber": "SPRAY-C71",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145033692001",
+      "メーカー": "Spray",
+      "発売日": "2006/12/29",
+      "型番": "SPRAY-C71",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "300",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 280,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:05:57.864Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:56.837Z"
+  },
+  "histories": [
+    {
+      "id": 42932,
+      "productId": 42918,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:16:18.050Z"
+    },
+    {
+      "id": 55048,
+      "productId": 42918,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:25.360Z"
+    },
+    {
+      "id": 66141,
+      "productId": 42918,
+      "salePrice": 280,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:56.837Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 185542,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-29T13:05:57.000Z"
+    },
+    {
+      "id": 185541,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-29T13:05:57.000Z"
+    },
+    {
+      "id": 185540,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-08-29T13:05:57.000Z"
+    },
+    {
+      "id": 148485,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-21T04:46:25.000Z"
+    },
+    {
+      "id": 148484,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-21T04:46:25.000Z"
+    },
+    {
+      "id": 110623,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 300,
+      "checkedAt": "2026-08-17T07:16:18.000Z"
+    },
+    {
+      "id": 110622,
+      "productId": 42918,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 299,
+      "checkedAt": "2026-08-17T07:16:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145033692",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033692",
+    "capturedAt": "2026-08-29T13:05:56.837Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 299
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 280
+      }
+    ],
+    "path": "data/other-shops/145033692.json"
+  }
+}

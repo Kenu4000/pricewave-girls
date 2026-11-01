@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 95301,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 呪いの魔剣に闇憑き乙女",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056578",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056578.jpg",
+    "manufacturer": "ソフトハウスキャラ",
+    "releaseDate": "2017-03-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056578",
+      "メーカー": "ソフトハウスキャラ",
+      "発売日": "2017/03/24",
+      "定価": "9,680円",
+      "原画": "そらモチ\n紅村かる\nたかとうすずのすけ",
+      "シナリオ": "桃ノ雑派",
+      "声優": "もな(声優)\n風花ましろ\n結城ほのか\n鈴谷まや\n綾音まこ\nありかわ真奈\nきせとしみち\n八尋まみ\n藤邑鈴香",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1600,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:02:25.956Z"
+  },
+  "histories": [
+    {
+      "id": 95315,
+      "productId": 95301,
+      "salePrice": 2380,
+      "regularSalePrice": 2380,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:00.286Z"
+    },
+    {
+      "id": 107891,
+      "productId": 95301,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:02:25.956Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 338444,
+      "productId": 95301,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 2380,
+      "checkedAt": "2026-10-09T16:02:26.000Z"
+    },
+    {
+      "id": 338443,
+      "productId": 95301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 2211,
+      "checkedAt": "2026-10-09T16:02:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145056578",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056578",
+    "capturedAt": "2026-10-09T16:02:25.956Z",
+    "items": [
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 2211
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 2380
+      }
+    ],
+    "path": "data/other-shops/145056578.json"
+  }
+}

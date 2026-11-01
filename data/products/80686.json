@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 80686,
+    "title": "Windows8.1/10 DVDソフト 僕と彼女のご奉仕同棲 Theもーしょん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073792",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073792.jpg",
+    "manufacturer": "とこはな",
+    "releaseDate": "2022-01-28",
+    "listPrice": 3300,
+    "modelNumber": "WILL-442",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145073792",
+      "メーカー": "とこはな",
+      "発売日": "2022/01/28",
+      "定価": "3,300円",
+      "型番": "WILL-442",
+      "原画": "さくらねこ",
+      "シナリオ": "たにかわたかみ",
+      "声優": "猫村ゆき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:47:49.008Z"
+  },
+  "histories": [
+    {
+      "id": 80700,
+      "productId": 80686,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:47:49.008Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 237407,
+      "productId": 80686,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-09-07T13:47:49.000Z"
+    },
+    {
+      "id": 237406,
+      "productId": 80686,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 2270,
+      "checkedAt": "2026-09-07T13:47:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073792",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073792",
+    "capturedAt": "2026-09-07T13:47:49.008Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 2270
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2711
+      }
+    ],
+    "path": "data/other-shops/145073792.json"
+  }
+}

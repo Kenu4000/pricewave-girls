@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 91394,
+    "title": "Windows7/8/8.1/10 DVDソフト 巨乳ファンタジー3 if -アルテミスの矢・メデューサの願い-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061632",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061632.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2018-05-25",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145061632001",
+      "メーカー": "WAFFLE",
+      "発売日": "2018/05/25",
+      "定価": "6,380円",
+      "原画": "Q-Gaku",
+      "シナリオ": "鏡裕之(和泉時彦)",
+      "声優": "姫川あいり\n篠原ゆみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:27.106Z"
+  },
+  "histories": [
+    {
+      "id": 91408,
+      "productId": 91394,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:27.106Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278906,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278905,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古通常",
+      "price": 1500,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278904,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278903,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278902,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278901,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    },
+    {
+      "id": 278900,
+      "productId": 91394,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 490,
+      "checkedAt": "2026-09-14T17:28:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061632",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061632",
+    "capturedAt": "2026-09-14T17:28:27.106Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 490
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 490
+      },
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古通常",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145061632.json"
+  }
+}

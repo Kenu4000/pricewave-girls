@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 106436,
+    "title": "WindowsXP/Vista/7 CDソフト 発情しーずん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029578",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029578.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2011-09-30",
+    "listPrice": 4378,
+    "modelNumber": "KR-005",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145029578",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2011/09/30",
+      "定価": "4,378円",
+      "型番": "KR-005",
+      "原画": "ぼたん味噌",
+      "シナリオ": "近江達裕",
+      "声優": "柚木サチ\n中家志穂",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:59.130Z"
+  },
+  "histories": [
+    {
+      "id": 106450,
+      "productId": 106436,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:59.130Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145029578",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029578",
+    "capturedAt": "2026-10-08T03:13:59.130Z",
+    "items": [],
+    "path": "data/other-shops/145029578.json"
+  }
+}

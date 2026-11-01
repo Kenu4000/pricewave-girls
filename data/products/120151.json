@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 120151,
+    "title": "WindowsVista/7/8/10 DVDソフト イクイクママ 欲求不満な人妻をデカチン男に抱かせたらイキすぎておかしくなってしまいました。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055746",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055746.jpg",
+    "manufacturer": "アトリエさくら eXtra",
+    "releaseDate": "2016-10-28",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0064",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055746001",
+      "メーカー": "アトリエさくら eXtra",
+      "発売日": "2016/10/28",
+      "定価": "3,080円",
+      "型番": "ASPC-0064",
+      "原画": "紅葉-K",
+      "シナリオ": "髪の毛座",
+      "声優": "花澤さくら\n葉村夏緒",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:20.830Z"
+  },
+  "histories": [
+    {
+      "id": 120165,
+      "productId": 120151,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:20.830Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384452,
+      "productId": 120151,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-29T05:41:21.000Z"
+    },
+    {
+      "id": 384451,
+      "productId": 120151,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1280,
+      "checkedAt": "2026-10-29T05:41:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055746",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055746",
+    "capturedAt": "2026-10-29T05:41:20.830Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145055746.json"
+  }
+}

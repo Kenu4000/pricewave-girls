@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 106310,
+    "title": "WindowsVista/7/8 DVDソフト 野外学習 SPECIAL4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053071",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053071.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2015-12-18",
+    "listPrice": 7480,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145053071",
+      "メーカー": "コンプリーツ",
+      "発売日": "2015/12/18",
+      "定価": "7,480円",
+      "原画": "まめ",
+      "シナリオ": "佐藤克利\n日高真一\n大那琴\nたかなみれい\nkozakana\n黒瀧糸由",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6365,
+    "latestRegularSalePrice": 6365,
+    "latestBuyPrice": 3900,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:12.663Z"
+  },
+  "histories": [
+    {
+      "id": 106324,
+      "productId": 106310,
+      "salePrice": 6365,
+      "regularSalePrice": 6365,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:12.663Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053071",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053071",
+    "capturedAt": "2026-10-08T03:13:12.663Z",
+    "items": [],
+    "path": "data/other-shops/145053071.json"
+  }
+}

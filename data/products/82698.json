@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 82698,
+    "title": "WindowsVista/7/8/10 CDソフト おばさんに甘えん坊 -下宿先はまさかの6畳一間に美人で極エロの僕のおばさん付-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053820",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053820.jpg",
+    "manufacturer": "デジタルGパワー",
+    "releaseDate": "2016-02-26",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053820001",
+      "メーカー": "デジタルGパワー",
+      "発売日": "2016/02/26",
+      "定価": "2,200円",
+      "原画": "NOBU",
+      "シナリオ": "えろっちつばめ21",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:42.019Z"
+  },
+  "histories": [
+    {
+      "id": 82712,
+      "productId": 82698,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:42.019Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245530,
+      "productId": 82698,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-09-09T05:32:42.000Z"
+    },
+    {
+      "id": 245529,
+      "productId": 82698,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-09T05:32:42.000Z"
+    },
+    {
+      "id": 245528,
+      "productId": 82698,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 912,
+      "checkedAt": "2026-09-09T05:32:42.000Z"
+    },
+    {
+      "id": 245527,
+      "productId": 82698,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-09-09T05:32:42.000Z"
+    },
+    {
+      "id": 245526,
+      "productId": 82698,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 750,
+      "checkedAt": "2026-09-09T05:32:42.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053820",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053820",
+    "capturedAt": "2026-09-09T05:32:42.019Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古通常/店舗併売",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 900
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 912
+      },
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145053820.json"
+  }
+}

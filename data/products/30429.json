@@ -1,0 +1,168 @@
+{
+  "product": {
+    "id": 30429,
+    "title": "WindowsVista/7/8 CDソフト 息子の嫁を寝取ってみたワシ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050781",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050781.jpg",
+    "manufacturer": "デジタルGパワー",
+    "releaseDate": "2015-07-31",
+    "listPrice": 2200,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145050781001",
+      "メーカー": "デジタルGパワー",
+      "発売日": "2015/07/31",
+      "定価": "2,200円",
+      "原画": "源造",
+      "シナリオ": "えろっちつばめ21",
+      "声優": "琴吹司",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:18:29.010Z"
+  },
+  "histories": [
+    {
+      "id": 30443,
+      "productId": 30429,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:19:56.949Z"
+    },
+    {
+      "id": 39222,
+      "productId": 30429,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:18:50.604Z"
+    },
+    {
+      "id": 50473,
+      "productId": 30429,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:19.250Z"
+    },
+    {
+      "id": 61572,
+      "productId": 30429,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:18:29.010Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 172180,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-27T09:18:29.000Z"
+    },
+    {
+      "id": 172179,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1190,
+      "checkedAt": "2026-08-27T09:18:29.000Z"
+    },
+    {
+      "id": 172178,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-27T09:18:29.000Z"
+    },
+    {
+      "id": 135388,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T05:28:20.000Z"
+    },
+    {
+      "id": 135387,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1190,
+      "checkedAt": "2026-08-19T05:28:20.000Z"
+    },
+    {
+      "id": 135386,
+      "productId": 30429,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-08-19T05:28:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145050781",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145050781",
+    "capturedAt": "2026-08-27T09:18:29.010Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1050
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1190
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145050781.json"
+  }
+}

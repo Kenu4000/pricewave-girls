@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120178,
+    "title": "WindowsXP/Vista/7 DVDソフト 信長の欲とボウ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038616",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038616.jpg",
+    "manufacturer": "フェアリーテール",
+    "releaseDate": "2013-10-25",
+    "listPrice": 3278,
+    "modelNumber": "FCSG-004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145038616",
+      "メーカー": "フェアリーテール",
+      "発売日": "2013/10/25",
+      "定価": "3,278円",
+      "型番": "FCSG-004",
+      "原画": "藤井純生\nあめいすめる\n南誠\n石原ますみ",
+      "シナリオ": "那珂湊",
+      "声優": "霧島はるな\n八ッ橋きなこ\n藍川珪",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 780,
+    "latestRegularSalePrice": 780,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:31.329Z"
+  },
+  "histories": [
+    {
+      "id": 120192,
+      "productId": 120178,
+      "salePrice": 780,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:31.329Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145038616",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038616",
+    "capturedAt": "2026-10-29T05:41:31.329Z",
+    "items": [],
+    "path": "data/other-shops/145038616.json"
+  }
+}

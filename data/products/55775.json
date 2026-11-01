@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 55775,
+    "title": "Windows7/8.1/10 DVDソフト LIKE×LOVE -十津川 光-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145065810",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145065810.jpg",
+    "manufacturer": "rootnuko",
+    "releaseDate": "2019-08-30",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145065810001",
+      "メーカー": "rootnuko",
+      "発売日": "2019/08/30",
+      "定価": "3,080円",
+      "原画": "庄司二号",
+      "シナリオ": "川石幸宏",
+      "声優": "蕨圭市\n大和桜\n渦井ゆきの",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 850,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:06.634Z"
+  },
+  "histories": [
+    {
+      "id": 55789,
+      "productId": 55775,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:06.634Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150703,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    },
+    {
+      "id": 150702,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    },
+    {
+      "id": 150701,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    },
+    {
+      "id": 150700,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    },
+    {
+      "id": 150699,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    },
+    {
+      "id": 150698,
+      "productId": 55775,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-21T05:30:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145065810",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145065810",
+    "capturedAt": "2026-08-21T05:30:06.634Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 850
+      }
+    ],
+    "path": "data/other-shops/145065810.json"
+  }
+}

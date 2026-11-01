@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 106251,
+    "title": "Windows7/8/10 DVDソフト プレイ!プレイ!プレイ!GO!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061584",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061584.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2018-05-25",
+    "listPrice": 3960,
+    "modelNumber": "VAL-044",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145061584001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2018/05/25",
+      "定価": "3,960円",
+      "型番": "VAL-044",
+      "原画": "小宮山\nわざきた",
+      "シナリオ": "モルデカイ",
+      "声優": "御苑生メイ\n野々村紗夜\n野上結生\n逢月ねる\n唯香\n美空なつひ\n今谷皆美\n赤井リア\n橘美月\n蓬かすみ\nヒマリ\n義仲愛",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 900,
+    "latestRegularSalePrice": 900,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:50.013Z"
+  },
+  "histories": [
+    {
+      "id": 106265,
+      "productId": 106251,
+      "salePrice": 900,
+      "regularSalePrice": 900,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:50.013Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333440,
+      "productId": 106251,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 900,
+      "checkedAt": "2026-10-08T03:12:50.000Z"
+    },
+    {
+      "id": 333439,
+      "productId": 106251,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-10-08T03:12:50.000Z"
+    },
+    {
+      "id": 333438,
+      "productId": 106251,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 830,
+      "checkedAt": "2026-10-08T03:12:50.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145061584",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061584",
+    "capturedAt": "2026-10-08T03:12:50.013Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 830
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 900
+      }
+    ],
+    "path": "data/other-shops/145061584.json"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 106404,
+    "title": "WindowsXP/Vista/7 DVDソフト ManguSta -恥辱風紀委員会-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034065",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034065.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2012-10-26",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145034065",
+      "メーカー": "エレクトリップ",
+      "発売日": "2012/10/26",
+      "定価": "8,580円",
+      "原画": "高橋レコード",
+      "シナリオ": "天城悠理",
+      "声優": "金松由花\n佐倉もも花\nヒマリ\n手塚りょうこ\nshizuku\n鈴谷まや",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1180,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:47.758Z"
+  },
+  "histories": [
+    {
+      "id": 106418,
+      "productId": 106404,
+      "salePrice": 1180,
+      "regularSalePrice": 1180,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:47.758Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145034065",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034065",
+    "capturedAt": "2026-10-08T03:13:47.758Z",
+    "items": [],
+    "path": "data/other-shops/145034065.json"
+  }
+}

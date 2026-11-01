@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 91358,
+    "title": "Windows10/11 DVDソフト 生意気な巨乳ギャルと性行為実習!? -実は処女なんて言えないし-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082601",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082601.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2025-01-31",
+    "listPrice": 2200,
+    "modelNumber": "APT-272",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082601001",
+      "メーカー": "アパタイト",
+      "発売日": "2025/01/31",
+      "定価": "2,200円",
+      "型番": "APT-272",
+      "原画": "鈴音れな",
+      "シナリオ": "海綿じろう",
+      "声優": "野々三葉",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:12.437Z"
+  },
+  "histories": [
+    {
+      "id": 91372,
+      "productId": 91358,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:12.437Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278796,
+      "productId": 91358,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    },
+    {
+      "id": 278795,
+      "productId": 91358,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    },
+    {
+      "id": 278794,
+      "productId": 91358,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1012,
+      "checkedAt": "2026-09-14T17:28:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082601",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082601",
+    "capturedAt": "2026-09-14T17:28:12.437Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1012
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145082601.json"
+  }
+}

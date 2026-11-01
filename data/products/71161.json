@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 71161,
+    "title": "Windows10/11 CDソフト だらしがない巨乳お姉さんのお世話を焼いたら種付けハーレム生活をする事になった件",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079679",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079679.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2023-10-13",
+    "listPrice": 2600,
+    "modelNumber": "MIEL-159",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145079679001",
+      "メーカー": "Miel",
+      "発売日": "2023/10/13",
+      "定価": "2,600円",
+      "型番": "MIEL-159",
+      "原画": "T-28",
+      "シナリオ": "有巻洋太",
+      "声優": "金松由花\n赤月ゆむ\n乙倉由依\n花月さや",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:35:39.264Z"
+  },
+  "histories": [
+    {
+      "id": 71175,
+      "productId": 71161,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:35:39.264Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204285,
+      "productId": 71161,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-09-02T21:35:39.000Z"
+    },
+    {
+      "id": 204284,
+      "productId": 71161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T21:35:39.000Z"
+    },
+    {
+      "id": 204283,
+      "productId": 71161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2511,
+      "checkedAt": "2026-09-02T21:35:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079679",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079679",
+    "capturedAt": "2026-09-02T21:35:39.264Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2511
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2750
+      }
+    ],
+    "path": "data/other-shops/145079679.json"
+  }
+}

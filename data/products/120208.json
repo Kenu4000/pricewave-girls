@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 120208,
+    "title": "WindowsXP/Vista/7 DVDソフト ゴスデリ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024300",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024300.jpg",
+    "manufacturer": "Lose",
+    "releaseDate": "2010-07-23",
+    "listPrice": 9680,
+    "modelNumber": "LOSE0001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024300",
+      "メーカー": "Lose",
+      "発売日": "2010/07/23",
+      "定価": "9,680円",
+      "型番": "LOSE0001",
+      "原画": "cura",
+      "シナリオ": "ブレイズ\n七海真咲\n樹原新\nポチくん\n進行豹",
+      "声優": "清水愛\n皇帝\n鈴田美夜子\nかわしまりの\n藤森ゆき奈\n水上司郎\n陸奥出流",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "OS": "E0001</td> </tr> <tr> <th class=\"text-right 0\">",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5211,
+    "latestRegularSalePrice": 5211,
+    "latestBuyPrice": 3400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:42.346Z"
+  },
+  "histories": [
+    {
+      "id": 120222,
+      "productId": 120208,
+      "salePrice": 5211,
+      "regularSalePrice": 5211,
+      "buyPrice": 3400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:42.346Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145024300",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024300",
+    "capturedAt": "2026-10-29T05:41:42.346Z",
+    "items": [],
+    "path": "data/other-shops/145024300.json"
+  }
+}

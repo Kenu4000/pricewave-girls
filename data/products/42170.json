@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 42170,
+    "title": "WindowsMe/2000/XP/Vista DVDソフト 乳忍者レボリューション～彼女たちを調教せよ～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019053",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019053.jpg",
+    "manufacturer": "蛇ノ道ハ蛇ソフト",
+    "releaseDate": "2008-12-19",
+    "listPrice": 9680,
+    "modelNumber": "BASE-025",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019053001",
+      "メーカー": "蛇ノ道ハ蛇ソフト",
+      "発売日": "2008/12/19",
+      "定価": "9,680円",
+      "型番": "BASE-025",
+      "原画": "鰻丸\nぶぶづけ",
+      "シナリオ": "川中島シロたん\nひらいでらく",
+      "声優": "小倉結衣\n金松由花\n森山葵\nダイナマイト亜美\n奥川久美子\n紫苑みやび",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "860",
+      "__pricewaveTimeSale": "true",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145019053?branch_number=0016",
+      "__pricewaveCondition": "説明書欠け",
+      "__pricewaveConditionRank": "B"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 700,
+    "latestRegularSalePrice": 860,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "説明書欠け",
+    "conditionRank": "B",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T13:01:33.865Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:01:33.658Z"
+  },
+  "histories": [
+    {
+      "id": 42184,
+      "productId": 42170,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:58.294Z"
+    },
+    {
+      "id": 53610,
+      "productId": 42170,
+      "salePrice": 1750,
+      "regularSalePrice": 1750,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:49.315Z"
+    },
+    {
+      "id": 65596,
+      "productId": 42170,
+      "salePrice": 700,
+      "regularSalePrice": 860,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠け",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:01:33.658Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143885,
+      "productId": 42170,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 860,
+      "checkedAt": "2026-08-19T16:25:49.000Z"
+    },
+    {
+      "id": 109183,
+      "productId": 42170,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 説明書欠け",
+      "price": 960,
+      "checkedAt": "2026-08-17T07:08:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

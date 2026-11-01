@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 120094,
+    "title": "Windows10/11 DVDソフト Suspicion -疑惑の性-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080019",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080019.jpg",
+    "manufacturer": "EvilHeal",
+    "releaseDate": "2023-12-22",
+    "listPrice": 4180,
+    "modelNumber": "WILL-472",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080019001",
+      "メーカー": "EvilHeal",
+      "発売日": "2023/12/22",
+      "定価": "4,180円",
+      "型番": "WILL-472",
+      "原画": "ティータ.J",
+      "シナリオ": "仁井豊太郎",
+      "声優": "雨傘みずか\nひもりちさ\n相模恋",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3550,
+    "latestRegularSalePrice": 3550,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:40:54.575Z"
+  },
+  "histories": [
+    {
+      "id": 120108,
+      "productId": 120094,
+      "salePrice": 3550,
+      "regularSalePrice": 3550,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:40:54.575Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384382,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3550,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    },
+    {
+      "id": 384381,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    },
+    {
+      "id": 384380,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3511,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    },
+    {
+      "id": 384379,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3311,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    },
+    {
+      "id": 384378,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3201,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    },
+    {
+      "id": 384377,
+      "productId": 120094,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3200,
+      "checkedAt": "2026-10-29T05:40:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080019",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080019",
+    "capturedAt": "2026-10-29T05:40:54.575Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3200
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 3201
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3311
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3511
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 3200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3550
+      }
+    ],
+    "path": "data/other-shops/145080019.json"
+  }
+}

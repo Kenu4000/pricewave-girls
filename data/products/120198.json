@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 120198,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 淫夢学園[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028710",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028710.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2011-06-24",
+    "listPrice": 4180,
+    "modelNumber": "MGGW-0074",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028710001",
+      "メーカー": "ルネ",
+      "発売日": "2011/06/24",
+      "定価": "4,180円",
+      "型番": "MGGW-0074",
+      "原画": "スカイハウス",
+      "シナリオ": "春日晶\n桃梨蜜柑\n大神キリン\nK-TOK",
+      "声優": "未来羽\n安堂りゅう\n榊木春乃\n深井晴花\nみる",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:39.237Z"
+  },
+  "histories": [
+    {
+      "id": 120212,
+      "productId": 120198,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:39.237Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384496,
+      "productId": 120198,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-10-29T05:41:39.000Z"
+    },
+    {
+      "id": 384495,
+      "productId": 120198,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 4180,
+      "checkedAt": "2026-10-29T05:41:39.000Z"
+    },
+    {
+      "id": 384494,
+      "productId": 120198,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-29T05:41:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028710",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028710",
+    "capturedAt": "2026-10-29T05:41:39.237Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145028710.json"
+  }
+}

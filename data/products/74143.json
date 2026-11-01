@@ -1,0 +1,137 @@
+{
+  "product": {
+    "id": 74143,
+    "title": "Windows CDソフト 月あかりランチ デジタルコンテンツディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037418",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037418.jpg",
+    "manufacturer": "EX-ONE",
+    "releaseDate": "2013-05-31",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145037418001",
+      "メーカー": "EX-ONE",
+      "発売日": "2013/05/31",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T16:02:35.638Z"
+  },
+  "histories": [
+    {
+      "id": 74157,
+      "productId": 74143,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T20:29:23.984Z"
+    },
+    {
+      "id": 87779,
+      "productId": 74143,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-13T00:05:49.824Z"
+    },
+    {
+      "id": 102904,
+      "productId": 74143,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-30T16:04:04.070Z"
+    },
+    {
+      "id": 113811,
+      "productId": 74143,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T16:02:35.638Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360787,
+      "productId": 74143,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-10-16T16:02:36.000Z"
+    },
+    {
+      "id": 360786,
+      "productId": 74143,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード矢巾店",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-10-16T16:02:36.000Z"
+    },
+    {
+      "id": 360785,
+      "productId": 74143,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード矢巾店",
+      "condition": "中古通常",
+      "price": 980,
+      "checkedAt": "2026-10-16T16:02:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037418",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037418",
+    "capturedAt": "2026-10-16T16:02:35.638Z",
+    "items": [
+      {
+        "storeName": "バンダレコード矢巾店",
+        "condition": "中古通常",
+        "price": 980
+      },
+      {
+        "storeName": "バンダレコード矢巾店",
+        "condition": "中古",
+        "price": 980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145037418.json"
+  }
+}

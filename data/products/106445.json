@@ -1,0 +1,89 @@
+{
+  "product": {
+    "id": 106445,
+    "title": "WindowsXP/Vista/7 DVDソフト 虜ノ姫 ー淫魔の調律ー KAGUYAコレクション",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028728",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028728.jpg",
+    "manufacturer": "アトリエかぐや TEAM HEARTBEAT",
+    "releaseDate": "2011-07-22",
+    "listPrice": 4378,
+    "modelNumber": "KC-0016",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028728001",
+      "メーカー": "アトリエかぐや TEAM HEARTBEAT",
+      "発売日": "2011/07/22",
+      "定価": "4,378円",
+      "型番": "KC-0016",
+      "原画": "M&M",
+      "シナリオ": "速水漣\nうつろあくた\n神無月ニトロ\nもみあげルパンR",
+      "声優": "水瀬沙季\n中家志穂\n岩泉まい\n香澄りょう",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3200,
+    "latestRegularSalePrice": 3200,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:03.558Z"
+  },
+  "histories": [
+    {
+      "id": 106459,
+      "productId": 106445,
+      "salePrice": 3200,
+      "regularSalePrice": 3200,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:03.558Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333689,
+      "productId": 106445,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3200,
+      "checkedAt": "2026-10-08T03:14:03.000Z"
+    },
+    {
+      "id": 333688,
+      "productId": 106445,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2700,
+      "checkedAt": "2026-10-08T03:14:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028728",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028728",
+    "capturedAt": "2026-10-08T03:14:03.558Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3200
+      }
+    ],
+    "path": "data/other-shops/145028728.json"
+  }
+}

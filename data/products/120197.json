@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 120197,
+    "title": "WindowsXP/Vista/7 DVDソフト 天使の羽根を踏まないでっ[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028375",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028375.jpg",
+    "manufacturer": "MEPHISTO",
+    "releaseDate": "2011-07-29",
+    "listPrice": 9680,
+    "modelNumber": "WILL-268A",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028375",
+      "メーカー": "MEPHISTO",
+      "発売日": "2011/07/29",
+      "定価": "9,680円",
+      "型番": "WILL-268A",
+      "原画": "蛇足せんたろう",
+      "SD原画": "ヨダ",
+      "シナリオ": "ほしまる\n朱門優",
+      "声優": "井上ねねこ\n鈴田美夜子\n青山ゆかり\n手塚まき\n佐本二厘\n遠野そよぎ\n佐藤しずく\n勝沼紀義\n一色ヒカル\n佐治可簾\n富士爆発\n山本華\n子太明\n松田理沙\nひなき藍\nかわしまりの\n湖杉カンナ\n高草木幸\n北板利亜\n新山ゆうき\n長谷部雪奈",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 27712,
+    "latestRegularSalePrice": 27712,
+    "latestBuyPrice": 12000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:36:25.939Z"
+  },
+  "histories": [
+    {
+      "id": 120211,
+      "productId": 120197,
+      "salePrice": 27712,
+      "regularSalePrice": 27712,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:38.510Z"
+    },
+    {
+      "id": 121238,
+      "productId": 120197,
+      "salePrice": 27712,
+      "regularSalePrice": 27712,
+      "buyPrice": 12000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:36:25.939Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028375",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028375",
+    "capturedAt": "2026-11-01T03:36:25.939Z",
+    "items": [],
+    "path": "data/other-shops/145028375.json"
+  }
+}

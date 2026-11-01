@@ -1,0 +1,78 @@
+{
+  "product": {
+    "id": 41189,
+    "title": "Windows DVDソフト カスタムレイドV",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027806",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027806.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2011-06-24",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145027806001",
+      "メーカー": "KISS",
+      "発売日": "2011/06/24",
+      "定価": "10,780円",
+      "原画": "黒石りんご\n弥舞秀人",
+      "シナリオ": "想\nシャア専用◎\n坂元星日",
+      "声優": "安堂りゅう\n藤堂みさき\n榊木春乃\n葵時緒",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:44.596Z"
+  },
+  "histories": [
+    {
+      "id": 41203,
+      "productId": 41189,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:59:34.348Z"
+    },
+    {
+      "id": 52907,
+      "productId": 41189,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:55.719Z"
+    },
+    {
+      "id": 63860,
+      "productId": 41189,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:44.596Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

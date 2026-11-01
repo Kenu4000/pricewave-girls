@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 111474,
+    "title": "WindowsVista/7/8/8.1 DVDソフト キシ×カノ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046988",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046988.jpg",
+    "manufacturer": "ぷちうさ",
+    "releaseDate": "2015-02-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145046988",
+      "メーカー": "ぷちうさ",
+      "発売日": "2015/02/27",
+      "定価": "9,680円",
+      "原画": "なえなえ\n水月あるみ",
+      "シナリオ": "周防蘇芳\n藤井リルケ\n谷一",
+      "声優": "手塚りょうこ\n澤乃都留\n有賀桃\n宮森ゆう",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:19.760Z"
+  },
+  "histories": [
+    {
+      "id": 111488,
+      "productId": 111474,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:03.404Z"
+    },
+    {
+      "id": 112472,
+      "productId": 111474,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:19.760Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145046988",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046988",
+    "capturedAt": "2026-10-15T16:07:19.760Z",
+    "items": [],
+    "path": "data/other-shops/145046988.json"
+  }
+}

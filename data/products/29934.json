@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 29934,
+    "title": "WindowsVista/7/8 DVDソフト 恥情な苺",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055742",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055742.jpg",
+    "manufacturer": "BELLOTA（ベジョータ）",
+    "releaseDate": "2017-01-27",
+    "listPrice": 9680,
+    "modelNumber": "BELL-002",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145055742",
+      "メーカー": "BELLOTA（ベジョータ）",
+      "発売日": "2017/01/27",
+      "定価": "9,680円",
+      "型番": "BELL-002",
+      "原画": "ヒナ",
+      "シナリオ": "CHI~BA with BF",
+      "声優": "七瀬こより\n奥山歩\n赤井リア\nありかわ真奈",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:33:13.705Z"
+  },
+  "histories": [
+    {
+      "id": 29948,
+      "productId": 29934,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:12.730Z"
+    },
+    {
+      "id": 38751,
+      "productId": 29934,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:14:33.089Z"
+    },
+    {
+      "id": 43576,
+      "productId": 29934,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:33:13.705Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145055742",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055742",
+    "capturedAt": "2026-08-17T09:33:13.705Z",
+    "items": [],
+    "path": "data/other-shops/145055742.json"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "product": {
+    "id": 42824,
+    "title": "Windows98SE/Me/2000/XP CDソフト 咎狗の血 [Vista対応版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015765",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015765.jpg",
+    "manufacturer": "Nitro+CHiRAL",
+    "releaseDate": "2007-04-07",
+    "listPrice": 8250,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015765001",
+      "メーカー": "Nitro+CHiRAL",
+      "発売日": "2007/04/07",
+      "定価": "8,250円",
+      "原画": "倉花千夏(たたなかな)",
+      "声優": "滑川菊太郎\n先割れスプーン\n何武者\n鬼龍院隼人\n一条和矢\n菱勝\n緑川光\n奥田香織\n富士爆発\n杉崎和哉",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:15:22.800Z"
+  },
+  "histories": [
+    {
+      "id": 42838,
+      "productId": 42824,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:22.800Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110446,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 812,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    },
+    {
+      "id": 110445,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    },
+    {
+      "id": 110444,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 699,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    },
+    {
+      "id": 110443,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    },
+    {
+      "id": 110442,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 330,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    },
+    {
+      "id": 110441,
+      "productId": 42824,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 249,
+      "checkedAt": "2026-08-17T07:15:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015765",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015765",
+    "capturedAt": "2026-08-17T07:15:22.800Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 249
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 330
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 699
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 812
+      }
+    ],
+    "path": "data/other-shops/145015765.json"
+  }
+}

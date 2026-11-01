@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 113410,
+    "title": "Windows8/8.1/10 DVDソフト Nightmare×Onmyoji -禁断のパラドックス-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070218",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070218.jpg",
+    "manufacturer": "Guilty Nightmare Project",
+    "releaseDate": "2020-11-27",
+    "listPrice": 3300,
+    "modelNumber": "WILL-420",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145070218001",
+      "メーカー": "Guilty Nightmare Project",
+      "発売日": "2020/11/27",
+      "定価": "3,300円",
+      "型番": "WILL-420",
+      "原画": "ティータ.J\nの歯",
+      "シナリオ": "結城",
+      "声優": "河村蜜華\n瀬名ゆず希\n水瀬ゆき",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:12.798Z"
+  },
+  "histories": [
+    {
+      "id": 113424,
+      "productId": 113410,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:12.798Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360001,
+      "productId": 113410,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    },
+    {
+      "id": 360000,
+      "productId": 113410,
+      "sourceType": "other_shop",
+      "storeName": "パソコンショップMK",
+      "condition": "新品通常",
+      "price": 2480,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    },
+    {
+      "id": 359999,
+      "productId": 113410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    },
+    {
+      "id": 359998,
+      "productId": 113410,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145070218",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070218",
+    "capturedAt": "2026-10-16T12:29:12.798Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "パソコンショップMK",
+        "condition": "新品通常",
+        "price": 2480
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145070218.json"
+  }
+}

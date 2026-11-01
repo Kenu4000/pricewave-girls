@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 121278,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ゆめみがちーく!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041997",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041997.jpg",
+    "manufacturer": "studio blanket",
+    "releaseDate": "2014-06-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145041997001",
+      "メーカー": "studio blanket",
+      "発売日": "2014/06/27",
+      "定価": "9,680円",
+      "声優": "手塚りょうこ\n有坂ハル\n有賀桃\n柊奈々",
+      "原画": "葉山せい\naomi",
+      "シナリオ": "めんとす\n中村亮太",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveRegularSalePrice": "2080",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1950,
+    "latestRegularSalePrice": 2080,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-01T13:42:29.508Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:29.234Z"
+  },
+  "histories": [
+    {
+      "id": 121292,
+      "productId": 121278,
+      "salePrice": 1950,
+      "regularSalePrice": 2080,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:29.234Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 388395,
+      "productId": 121278,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-11-01T13:42:29.000Z"
+    },
+    {
+      "id": 388394,
+      "productId": 121278,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1560,
+      "checkedAt": "2026-11-01T13:42:29.000Z"
+    },
+    {
+      "id": 388393,
+      "productId": 121278,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1911,
+      "checkedAt": "2026-11-01T13:42:29.000Z"
+    },
+    {
+      "id": 388392,
+      "productId": 121278,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1560,
+      "checkedAt": "2026-11-01T13:42:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145041997",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041997",
+    "capturedAt": "2026-11-01T13:42:29.234Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1560
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1911
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1560
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1950
+      }
+    ],
+    "path": "data/other-shops/145041997.json"
+  }
+}

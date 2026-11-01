@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 71490,
+    "title": "Windows98/Me/2000/XP DVDソフト とらぶるっ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015094",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015094.jpg",
+    "manufacturer": "LiLiM",
+    "releaseDate": "2006-12-01",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015094",
+      "メーカー": "LiLiM",
+      "発売日": "2006/12/01",
+      "定価": "9,680円",
+      "原画": "綾瀬はづき",
+      "シナリオ": "修乃介\n脇元康晃\n柴田ねこ",
+      "声優": "あかつき\n宇佐美桃香\n白金ゆりこ\n吉川華生\n奥山歩\n永倉仁八\n毎夜ノム",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 300,
+    "latestRegularSalePrice": 300,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:38:16.764Z"
+  },
+  "histories": [
+    {
+      "id": 71504,
+      "productId": 71490,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:38:16.764Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015094",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015094",
+    "capturedAt": "2026-09-02T21:38:16.764Z",
+    "items": [],
+    "path": "data/other-shops/145015094.json"
+  }
+}

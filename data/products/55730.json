@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 55730,
+    "title": "WindowsVista/7/8/10 DVDソフト 越えざるは紅い花 -綾なす未来- [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074040",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074040.jpg",
+    "manufacturer": "Operetta Due",
+    "releaseDate": "2022-01-28",
+    "listPrice": 4400,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145074040001",
+      "メーカー": "Operetta Due",
+      "発売日": "2022/01/28",
+      "定価": "4,400円",
+      "キャラクターデザイン": "つきのおまめ",
+      "シナリオ": "雪華\n松竹梅",
+      "声優": "雪ノ彩シロ\n手塚りょうこ\n皇帝\n堀川忍\n紫原遥\n紀之\n佐和真中\n小田桐ヒョーマ\n三楽章",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4380,
+    "latestRegularSalePrice": 4380,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:43.484Z"
+  },
+  "histories": [
+    {
+      "id": 55744,
+      "productId": 55730,
+      "salePrice": 4380,
+      "regularSalePrice": 4380,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:43.484Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150473,
+      "productId": 55730,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4380,
+      "checkedAt": "2026-08-21T05:29:43.000Z"
+    },
+    {
+      "id": 150472,
+      "productId": 55730,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 3570,
+      "checkedAt": "2026-08-21T05:29:43.000Z"
+    },
+    {
+      "id": 150471,
+      "productId": 55730,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3311,
+      "checkedAt": "2026-08-21T05:29:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074040",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074040",
+    "capturedAt": "2026-08-21T05:29:43.484Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3311
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 3570
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4380
+      }
+    ],
+    "path": "data/other-shops/145074040.json"
+  }
+}

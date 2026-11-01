@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 115424,
+    "title": "Windows DVDソフト 冬箱",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035205",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035205.jpg",
+    "manufacturer": "WINTERS",
+    "releaseDate": "2013-02-22",
+    "listPrice": 9680,
+    "modelNumber": "WTES-002",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145035205",
+      "メーカー": "WINTERS",
+      "発売日": "2013/02/22",
+      "定価": "9,680円",
+      "型番": "WTES-002",
+      "原画": "葵羽鳥\nかん奈",
+      "シナリオ": "平井次郎",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-20T03:46:54.020Z"
+  },
+  "histories": [
+    {
+      "id": 115438,
+      "productId": 115424,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-20T03:46:54.020Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145035205",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035205",
+    "capturedAt": "2026-10-20T03:46:54.020Z",
+    "items": [],
+    "path": "data/other-shops/145035205.json"
+  }
+}

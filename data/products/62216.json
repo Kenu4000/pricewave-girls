@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 62216,
+    "title": "Windows98SE/Me/2000/XP DVDソフト ツイ☆てる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016924",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016924.jpg",
+    "manufacturer": "C：drive.",
+    "releaseDate": "2007-11-22",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016924",
+      "メーカー": "C：drive.",
+      "発売日": "2007/11/22",
+      "定価": "6,380円",
+      "原画": "あかつきまお\n成沢空",
+      "キャラクターデザイン": "シコルスキー",
+      "シナリオ": "武藤礼恵",
+      "声優": "新堂真弓\n成瀬未亜\n大波こなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "説明書不備",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 411,
+    "latestRegularSalePrice": 411,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "説明書不備",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:54.500Z"
+  },
+  "histories": [
+    {
+      "id": 62230,
+      "productId": 62216,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:44:11.219Z"
+    },
+    {
+      "id": 62894,
+      "productId": 62216,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:05:10.659Z"
+    },
+    {
+      "id": 64687,
+      "productId": 62216,
+      "salePrice": 411,
+      "regularSalePrice": 411,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "説明書不備",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:54.500Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016924",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016924",
+    "capturedAt": "2026-08-29T01:13:54.500Z",
+    "items": [],
+    "path": "data/other-shops/145016924.json"
+  }
+}

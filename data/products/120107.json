@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 120107,
+    "title": "Windows8/8.1/10 DVDソフト 淫妖蟲 醜 -凌蝕楽園退魔録-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067483",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067483.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2020-04-24",
+    "listPrice": 7480,
+    "modelNumber": "TB-068",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145067483001",
+      "メーカー": "TinkerBell",
+      "発売日": "2020/04/24",
+      "定価": "7,480円",
+      "型番": "TB-068",
+      "原画": "あおじる",
+      "シナリオ": "小峰久生",
+      "声優": "計名さや香\n麻優莉\nかぐや凛子\n一花らん\nひもりちさ\n藤井ねここ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:02.911Z"
+  },
+  "histories": [
+    {
+      "id": 120121,
+      "productId": 120107,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:02.911Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384396,
+      "productId": 120107,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    },
+    {
+      "id": 384395,
+      "productId": 120107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2360,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    },
+    {
+      "id": 384394,
+      "productId": 120107,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145067483",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067483",
+    "capturedAt": "2026-10-29T05:41:02.911Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2360
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145067483.json"
+  }
+}

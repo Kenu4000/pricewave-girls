@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 120147,
+    "title": "Windows7/8/10 DVDソフト 新妻LOVELY×CATION",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056697",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056697.jpg",
+    "manufacturer": "hibiki works",
+    "releaseDate": "2017-04-28",
+    "listPrice": 10780,
+    "modelNumber": "HW-0012",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056697",
+      "メーカー": "hibiki works",
+      "発売日": "2017/04/28",
+      "定価": "10,780円",
+      "型番": "HW-0012",
+      "原画": "柚木ガオ\n唯々月たすく",
+      "シナリオ": "和泉万夜\n富岡征士郎\n森崎亮人",
+      "音楽": "西坂恭平",
+      "声優": "杏花\n橘まお\n桃山いおん",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1400,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:19.090Z"
+  },
+  "histories": [
+    {
+      "id": 120161,
+      "productId": 120147,
+      "salePrice": 1400,
+      "regularSalePrice": 1400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:19.090Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056697",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056697",
+    "capturedAt": "2026-10-29T05:41:19.090Z",
+    "items": [],
+    "path": "data/other-shops/145056697.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 111514,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 詩篇69 ～深淵のメサイア～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016599",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016599.jpg",
+    "manufacturer": "げーせん18",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": "UNA-0120",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145016599",
+      "メーカー": "げーせん18",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "型番": "UNA-0120",
+      "原画": "ちんじゃおろおす\n鷺宮光流\nうめきち",
+      "シナリオ": "姫ノ木あく\n秋史恭\n浅生詠\n和泉万夜",
+      "声優": "竹田彬夫\n風音\n桜川未央\n東かりん\nかわしまりの\n成瀬未亜\n歌織\n滝沢アツヤ\n小次狼\n中家志穂\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 5000,
+    "latestRegularSalePrice": 5000,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:23.724Z"
+  },
+  "histories": [
+    {
+      "id": 111528,
+      "productId": 111514,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:19.253Z"
+    },
+    {
+      "id": 112483,
+      "productId": 111514,
+      "salePrice": 5000,
+      "regularSalePrice": 5000,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:23.724Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016599",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016599",
+    "capturedAt": "2026-10-15T16:07:23.724Z",
+    "items": [],
+    "path": "data/other-shops/145016599.json"
+  }
+}

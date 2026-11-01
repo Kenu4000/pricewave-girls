@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120220,
+    "title": "Windows2000/XP/Vista DVDソフト 俺たちに翼はない -Standard Edition-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021727",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021727.jpg",
+    "manufacturer": "Navel",
+    "releaseDate": "2009-04-04",
+    "listPrice": null,
+    "modelNumber": "NVSW-0016",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021727",
+      "メーカー": "Navel",
+      "発売日": "2009/04/04",
+      "型番": "NVSW-0016",
+      "原画": "三つ葉\n西又葵\n又吉愛\nたなかりお\n春奈有美\nたかはし智秋\n井村屋ほのか\n沢村かすみ",
+      "シナリオ": "王雀孫",
+      "主題歌": "美郷あき",
+      "声優": "籐野らん\n森谷実園\n五行なずな",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 4130,
+    "latestRegularSalePrice": 4130,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:47.355Z"
+  },
+  "histories": [
+    {
+      "id": 120234,
+      "productId": 120220,
+      "salePrice": 4130,
+      "regularSalePrice": 4130,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:47.355Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021727",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021727",
+    "capturedAt": "2026-10-29T05:41:47.355Z",
+    "items": [],
+    "path": "data/other-shops/145021727.json"
+  }
+}

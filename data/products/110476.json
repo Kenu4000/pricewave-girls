@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 110476,
+    "title": "WindowsXP/Vista/7 DVDソフト たいせつなきみのために、ぼくにできるいちばんのこと",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145029571",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145029571.jpg",
+    "manufacturer": "だんでらいおん",
+    "releaseDate": "2011-10-28",
+    "listPrice": 9680,
+    "modelNumber": "DL-003",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145029571001",
+      "メーカー": "だんでらいおん",
+      "発売日": "2011/10/28",
+      "定価": "9,680円",
+      "型番": "DL-003",
+      "原画": "日鳥\n松乃かねる",
+      "シナリオ": "玉沢円",
+      "声優": "七ヶ瀬輪\n羽高なる\n夏野こおり\nこのかなみ\n雪都さお梨",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1680,
+    "latestRegularSalePrice": 1680,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-13T01:40:18.518Z"
+  },
+  "histories": [
+    {
+      "id": 110490,
+      "productId": 110476,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:18.518Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 348625,
+      "productId": 110476,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-10-13T01:40:18.000Z"
+    },
+    {
+      "id": 348624,
+      "productId": 110476,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-10-13T01:40:18.000Z"
+    },
+    {
+      "id": 348623,
+      "productId": 110476,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-10-13T01:40:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145029571",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145029571",
+    "capturedAt": "2026-10-13T01:40:18.518Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1680
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1680
+      }
+    ],
+    "path": "data/other-shops/145029571.json"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "product": {
+    "id": 1932,
+    "title": "Windows7/8/8.1/10 DVDソフト 自爆カノジョ -彼女は隠れて身悶える-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066930",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066930.jpg",
+    "manufacturer": "Hending",
+    "releaseDate": "2019-12-20",
+    "listPrice": 4180,
+    "modelNumber": "HEN-0003",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145066930",
+      "メーカー": "Hending",
+      "発売日": "2019/12/20",
+      "定価": "4,180円",
+      "型番": "HEN-0003",
+      "原画": "秋空もみぢ",
+      "シナリオ": "中島大河",
+      "声優": "蒼乃むすび",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1280,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-22T16:02:35.642Z"
+  },
+  "histories": [
+    {
+      "id": 1946,
+      "productId": 1932,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6823,
+      "productId": 1932,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 36026,
+      "productId": 1932,
+      "salePrice": 700,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:50:18.542Z"
+    },
+    {
+      "id": 46509,
+      "productId": 1932,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:49.470Z"
+    },
+    {
+      "id": 57423,
+      "productId": 1932,
+      "salePrice": 1280,
+      "regularSalePrice": 1280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T16:02:35.642Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 121635,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-08-17T13:39:49.000Z"
+    },
+    {
+      "id": 121634,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T13:39:49.000Z"
+    },
+    {
+      "id": 121633,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 750,
+      "checkedAt": "2026-08-17T13:39:49.000Z"
+    },
+    {
+      "id": 93034,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1280,
+      "checkedAt": "2026-08-16T00:50:18.000Z"
+    },
+    {
+      "id": 93033,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-16T00:50:18.000Z"
+    },
+    {
+      "id": 93032,
+      "productId": 1932,
+      "sourceType": "other_shop",
+      "storeName": "Image 1 2 of 2 中古",
+      "condition": "状態不明",
+      "price": 700,
+      "checkedAt": "2026-08-16T00:50:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066930",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066930",
+    "capturedAt": "2026-08-22T16:02:35.642Z",
+    "items": [],
+    "path": "data/other-shops/145066930.json"
+  }
+}

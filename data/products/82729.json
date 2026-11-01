@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 82729,
+    "title": "WindowsXP/Vista/7 DVDソフト プレイ!プレイ!プレイ!惨",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036281",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036281.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2013-04-26",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145036281001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2013/04/26",
+      "定価": "3,300円",
+      "原画": "おしゃれ教室。\nわざきた\nアジシオ",
+      "シナリオ": "モルデカイ",
+      "声優": "古川胡子\n鈴谷まや\n御苑生メイ\n羽高なる\n渋谷ひめ\n桃也みなみ\n黒岩心々\n手塚りょうこ\n藤堂みさき\n佐倉もも花\n青井美海\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:32:58.064Z"
+  },
+  "histories": [
+    {
+      "id": 82743,
+      "productId": 82729,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:32:58.064Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245610,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245609,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1811,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245608,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245607,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 711,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245606,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245605,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 670,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    },
+    {
+      "id": 245604,
+      "productId": 82729,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-09T05:32:58.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145036281",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036281",
+    "capturedAt": "2026-09-09T05:32:58.064Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 670
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 711
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145036281.json"
+  }
+}

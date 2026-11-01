@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 51663,
+    "title": "Windows98/Me/2000/XP DVDソフト Sweet▼Room DVD",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017038",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017038.jpg",
+    "manufacturer": "UNDEAD",
+    "releaseDate": "2007-12-14",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017038001",
+      "メーカー": "UNDEAD",
+      "発売日": "2007/12/14",
+      "定価": "3,080円",
+      "原画/シナリオ": "JOYRIDE",
+      "声優": "芹園みや",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "原画": "/",
+      "シナリオ": "JOYRIDE",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:22:16.282Z"
+  },
+  "histories": [
+    {
+      "id": 51677,
+      "productId": 51663,
+      "salePrice": 1012,
+      "regularSalePrice": 1012,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T09:29:47.349Z"
+    },
+    {
+      "id": 72827,
+      "productId": 51663,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:22:16.282Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 209587,
+      "productId": 51663,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 209586,
+      "productId": 51663,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    },
+    {
+      "id": 209585,
+      "productId": 51663,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1100,
+      "checkedAt": "2026-09-03T01:22:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017038",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017038",
+    "capturedAt": "2026-09-03T01:22:16.282Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1100
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1100
+      }
+    ],
+    "path": "data/other-shops/145017038.json"
+  }
+}

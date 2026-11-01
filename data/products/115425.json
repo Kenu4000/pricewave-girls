@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 115425,
+    "title": "WindowsVista/7/8 DVDソフト 手籠めにされる九人の堕女(おとめ)[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046170",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046170.jpg",
+    "manufacturer": "Guilty",
+    "releaseDate": "2014-12-19",
+    "listPrice": 9680,
+    "modelNumber": "WILL-328",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145046170001",
+      "メーカー": "Guilty",
+      "発売日": "2014/12/19",
+      "定価": "9,680円",
+      "型番": "WILL-328",
+      "原画": "相川亜利砂\nの歯\nバイオレットシット\n了藤誠仁\nレクリエール",
+      "声優": "倉下みすじ\nヒマリ\n沢代りず\n蒼依ハル\n星空ユメ\n佐倉もも花\nshizuku\n榛名れん\n杉原茉莉",
+      "シナリオ": "桃野衿\n灰猫\n神無月ニトロ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3580,
+    "latestRegularSalePrice": 3580,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-20T03:46:54.305Z"
+  },
+  "histories": [
+    {
+      "id": 115439,
+      "productId": 115425,
+      "salePrice": 3580,
+      "regularSalePrice": 3580,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-20T03:46:54.305Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 367420,
+      "productId": 115425,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3580,
+      "checkedAt": "2026-10-20T03:46:54.000Z"
+    },
+    {
+      "id": 367419,
+      "productId": 115425,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-10-20T03:46:54.000Z"
+    },
+    {
+      "id": 367418,
+      "productId": 115425,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 3212,
+      "checkedAt": "2026-10-20T03:46:54.000Z"
+    },
+    {
+      "id": 367417,
+      "productId": 115425,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 3200,
+      "checkedAt": "2026-10-20T03:46:54.000Z"
+    },
+    {
+      "id": 367416,
+      "productId": 115425,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 2500,
+      "checkedAt": "2026-10-20T03:46:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046170",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046170",
+    "capturedAt": "2026-10-20T03:46:54.305Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 2500
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 3200
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 3212
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 2500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3580
+      }
+    ],
+    "path": "data/other-shops/145046170.json"
+  }
+}

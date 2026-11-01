@@ -1,0 +1,70 @@
+{
+  "product": {
+    "id": 120150,
+    "title": "WindowsVista/7 DVDソフト コンプリーツセット V",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056766",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056766.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2017-01-27",
+    "listPrice": 3850,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145056766",
+      "メーカー": "コンプリーツ",
+      "発売日": "2017/01/27",
+      "定価": "3,850円",
+      "原画": "TATSU屋",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:36:26.123Z"
+  },
+  "histories": [
+    {
+      "id": 120164,
+      "productId": 120150,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:19.995Z"
+    },
+    {
+      "id": 121239,
+      "productId": 120150,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:36:26.123Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056766",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056766",
+    "capturedAt": "2026-11-01T03:36:26.123Z",
+    "items": [],
+    "path": "data/other-shops/145056766.json"
+  }
+}

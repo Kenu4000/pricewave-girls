@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 120095,
+    "title": "Windows8/10 DVDソフト 爆乳秘湯奇譚 -人妻女将の淫欲秘話-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145071601",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145071601.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2021-04-30",
+    "listPrice": 4675,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145071601001",
+      "メーカー": "エレクトリップ",
+      "発売日": "2021/04/30",
+      "定価": "4,675円",
+      "原画": "高橋レコード",
+      "シナリオ": "天城悠理",
+      "声優": "まのめるか\n佐藤千幸\n灰音",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2850,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:40:55.313Z"
+  },
+  "histories": [
+    {
+      "id": 120109,
+      "productId": 120095,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:40:55.313Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384385,
+      "productId": 120095,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-10-29T05:40:55.000Z"
+    },
+    {
+      "id": 384384,
+      "productId": 120095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2800,
+      "checkedAt": "2026-10-29T05:40:55.000Z"
+    },
+    {
+      "id": 384383,
+      "productId": 120095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2510,
+      "checkedAt": "2026-10-29T05:40:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145071601",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145071601",
+    "capturedAt": "2026-10-29T05:40:55.313Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2510
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2850
+      }
+    ],
+    "path": "data/other-shops/145071601.json"
+  }
+}

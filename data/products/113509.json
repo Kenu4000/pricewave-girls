@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 113509,
+    "title": "Windows2000/XP/Vista DVDソフト ぶっかけ!! ～先輩はミルクまみれ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016807",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016807.jpg",
+    "manufacturer": "もーにんぐ",
+    "releaseDate": "2007-10-26",
+    "listPrice": 3122,
+    "modelNumber": "SEMO-004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016807001",
+      "メーカー": "もーにんぐ",
+      "発売日": "2007/10/26",
+      "定価": "3,122円",
+      "型番": "SEMO-004",
+      "原画": "木枯し悶次郎",
+      "声優": "J・ベロア\n早乙女綾\n和葉",
+      "シナリオ": "嘘屋佐々木酒人",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:52.534Z"
+  },
+  "histories": [
+    {
+      "id": 113523,
+      "productId": 113509,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:52.534Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360200,
+      "productId": 113509,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-10-16T12:29:53.000Z"
+    },
+    {
+      "id": 360199,
+      "productId": 113509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:29:53.000Z"
+    },
+    {
+      "id": 360198,
+      "productId": 113509,
+      "sourceType": "other_shop",
+      "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+      "condition": "中古通販のみ（店頭販売は行っておりません）",
+      "price": 748,
+      "checkedAt": "2026-10-16T12:29:53.000Z"
+    },
+    {
+      "id": 360197,
+      "productId": 113509,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-10-16T12:29:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016807",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016807",
+    "capturedAt": "2026-10-16T12:29:52.534Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+        "condition": "中古通販のみ（店頭販売は行っておりません）",
+        "price": 748
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145016807.json"
+  }
+}

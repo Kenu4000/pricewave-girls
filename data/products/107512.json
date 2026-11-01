@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 107512,
+    "title": "Windows10/11 DVDソフト 反抗的なヤンキー少女との絶対主従関係",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145079937",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145079937.jpg",
+    "manufacturer": "Lilith",
+    "releaseDate": "2023-11-17",
+    "listPrice": 2860,
+    "modelNumber": "LBL-10046",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145079937001",
+      "メーカー": "Lilith",
+      "発売日": "2023/11/17",
+      "定価": "2,860円",
+      "型番": "LBL-10046",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:01:22.291Z"
+  },
+  "histories": [
+    {
+      "id": 107526,
+      "productId": 107512,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:01:22.291Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 337315,
+      "productId": 107512,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-09T13:01:22.000Z"
+    },
+    {
+      "id": 337314,
+      "productId": 107512,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2280,
+      "checkedAt": "2026-10-09T13:01:22.000Z"
+    },
+    {
+      "id": 337313,
+      "productId": 107512,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-10-09T13:01:22.000Z"
+    },
+    {
+      "id": 337312,
+      "productId": 107512,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-09T13:01:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145079937",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145079937",
+    "capturedAt": "2026-10-09T13:01:22.291Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145079937.json"
+  }
+}

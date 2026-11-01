@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 107549,
+    "title": "Windows CDソフト 漫喫ハプニング ソフマップ特典デジタルコンテンツCD 「スクール水着ハーレム版」",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145044287",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145044287.jpg",
+    "manufacturer": "WAFFLE",
+    "releaseDate": "2014-06-27",
+    "listPrice": null,
+    "modelNumber": "WFMH-1406SM",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145044287",
+      "メーカー": "WAFFLE",
+      "発売日": "2014/06/27",
+      "型番": "WFMH-1406SM",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2012,
+    "latestRegularSalePrice": 2012,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:01:40.570Z"
+  },
+  "histories": [
+    {
+      "id": 107563,
+      "productId": 107549,
+      "salePrice": 2012,
+      "regularSalePrice": 2012,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:01:40.570Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145044287",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145044287",
+    "capturedAt": "2026-10-09T13:01:40.570Z",
+    "items": [],
+    "path": "data/other-shops/145044287.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 82785,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 義母散華～ははさんげ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019466",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019466.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2009-03-20",
+    "listPrice": 3080,
+    "modelNumber": "ANM-811",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019466001",
+      "メーカー": "ANIM",
+      "発売日": "2009/03/20",
+      "定価": "3,080円",
+      "型番": "ANM-811",
+      "原画": "ティータ.J",
+      "シナリオ": "七瀬流",
+      "声優": "佐倉もも花\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:29.298Z"
+  },
+  "histories": [
+    {
+      "id": 82799,
+      "productId": 82785,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:29.298Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 245748,
+      "productId": 82785,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-09T05:33:29.000Z"
+    },
+    {
+      "id": 245747,
+      "productId": 82785,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 780,
+      "checkedAt": "2026-09-09T05:33:29.000Z"
+    },
+    {
+      "id": 245746,
+      "productId": 82785,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 511,
+      "checkedAt": "2026-09-09T05:33:29.000Z"
+    },
+    {
+      "id": 245745,
+      "productId": 82785,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-09-09T05:33:29.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019466",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019466",
+    "capturedAt": "2026-09-09T05:33:29.298Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 511
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145019466.json"
+  }
+}

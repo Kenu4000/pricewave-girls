@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 110497,
+    "title": "Windows98/Me/2000/XP DVDソフト オイラは番台 弐",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014152",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014152.jpg",
+    "manufacturer": "INTERHEART",
+    "releaseDate": "2006-04-21",
+    "listPrice": 9680,
+    "modelNumber": "INH-246",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014152",
+      "メーカー": "INTERHEART",
+      "発売日": "2006/04/21",
+      "定価": "9,680円",
+      "型番": "INH-246",
+      "原画": "水無月十三",
+      "声優": "茶谷やすら\n風音\n倉田まりや\n如月美琴\n芹園みや\n深井晴花",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2730,
+    "latestRegularSalePrice": 2730,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-13T01:40:31.752Z"
+  },
+  "histories": [
+    {
+      "id": 110511,
+      "productId": 110497,
+      "salePrice": 2730,
+      "regularSalePrice": 2730,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:31.752Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014152",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014152",
+    "capturedAt": "2026-10-13T01:40:31.752Z",
+    "items": [],
+    "path": "data/other-shops/145014152.json"
+  }
+}

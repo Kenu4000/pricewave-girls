@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 113438,
+    "title": "Windows7/8/10 DVDソフト ぜったい遵守☆にゅーこづくりわーるど [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054708",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054708.jpg",
+    "manufacturer": "softhouse-seal GRANDEE",
+    "releaseDate": "2016-12-22",
+    "listPrice": 9680,
+    "modelNumber": "HBXAS-009",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054708001",
+      "メーカー": "softhouse-seal GRANDEE",
+      "発売日": "2016/12/22",
+      "定価": "9,680円",
+      "型番": "HBXAS-009",
+      "原画": "ねこきち\n2-G\n健やか牛乳",
+      "アーティスト": "水野七海",
+      "声優": "今理名\n藤堂みさき\n木多野あり\n佐倉もも花\n綾瀬あかり",
+      "シナリオ": "B-ケッツ\nシャア専用◎\n佐々宮ちるだ\n中村亮太\n夜明瑠璃\nつゆり3\nこおろぎアトリエ\nはたなかゆた\n石弓達也",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:23.632Z"
+  },
+  "histories": [
+    {
+      "id": 113452,
+      "productId": 113438,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:23.632Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360103,
+      "productId": 113438,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-16T12:29:25.000Z"
+    },
+    {
+      "id": 360102,
+      "productId": 113438,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-10-16T12:29:25.000Z"
+    },
+    {
+      "id": 360101,
+      "productId": 113438,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスクのみ（特典シリアル・パスコード（保証無）付",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:25.000Z"
+    },
+    {
+      "id": 360100,
+      "productId": 113438,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-10-16T12:29:25.000Z"
+    },
+    {
+      "id": 360099,
+      "productId": 113438,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-16T12:29:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054708",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054708",
+    "capturedAt": "2026-10-16T12:29:23.632Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスクのみ（特典シリアル・パスコード（保証無）付",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145054708.json"
+  }
+}

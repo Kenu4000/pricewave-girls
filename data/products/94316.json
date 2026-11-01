@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 94316,
+    "title": "Windows8.1/10 DVDソフト 天冥のコンキスタ コンプリート版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075061",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075061.jpg",
+    "manufacturer": "エウシュリー",
+    "releaseDate": "2022-07-29",
+    "listPrice": 10780,
+    "modelNumber": "EUDV-020S",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145075061001",
+      "メーカー": "エウシュリー",
+      "発売日": "2022/07/29",
+      "定価": "10,780円",
+      "型番": "EUDV-020S",
+      "原画": "鳩月つみき\nうろ\n夜ノみつき\nやくり",
+      "シナリオ": "横比良こゆき\n如月聖\n花咲樹木\n坂元星日",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "6500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 6100,
+    "latestRegularSalePrice": 6500,
+    "latestBuyPrice": 3700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:00:19.775Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:00:18.918Z"
+  },
+  "histories": [
+    {
+      "id": 94330,
+      "productId": 94316,
+      "salePrice": 5560,
+      "regularSalePrice": 5560,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:33.475Z"
+    },
+    {
+      "id": 107623,
+      "productId": 94316,
+      "salePrice": 6100,
+      "regularSalePrice": 6500,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:00:18.918Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 337441,
+      "productId": 94316,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6100,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    },
+    {
+      "id": 337440,
+      "productId": 94316,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 5560,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145075061",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075061",
+    "capturedAt": "2026-10-09T16:00:18.918Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 5560
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6100
+      }
+    ],
+    "path": "data/other-shops/145075061.json"
+  }
+}

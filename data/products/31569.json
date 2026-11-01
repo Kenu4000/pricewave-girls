@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 31569,
+    "title": "Windows98/Me/2000/XP CDソフト 怪盗L☆lita＆you ～姉妹監禁肉遊～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035407",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035407.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2012-11-30",
+    "listPrice": 1980,
+    "modelNumber": "VAL-005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145035407",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2012/11/30",
+      "定価": "1,980円",
+      "型番": "VAL-005",
+      "原画": "おしゃれ教室。",
+      "シナリオ": "キャプテンカリスマ",
+      "声優": "志田希\n百花ルナ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:35:34.024Z"
+  },
+  "histories": [
+    {
+      "id": 31583,
+      "productId": 31569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:41:27.586Z"
+    },
+    {
+      "id": 40319,
+      "productId": 31569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:29:54.239Z"
+    },
+    {
+      "id": 51304,
+      "productId": 31569,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:35:34.024Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 136927,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古バーコードシールが貼ってあります。",
+      "price": 1616,
+      "checkedAt": "2026-08-19T05:35:34.000Z"
+    },
+    {
+      "id": 136926,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1111,
+      "checkedAt": "2026-08-19T05:35:34.000Z"
+    },
+    {
+      "id": 104977,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古バーコードシールが貼ってあります。",
+      "price": 1616,
+      "checkedAt": "2026-08-16T01:29:54.000Z"
+    },
+    {
+      "id": 104976,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1111,
+      "checkedAt": "2026-08-16T01:29:54.000Z"
+    },
+    {
+      "id": 79130,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "リサイクルのプリマベーラ",
+      "condition": "中古バーコードシールが貼ってあります。",
+      "price": 1616,
+      "checkedAt": "2026-08-15T23:41:28.000Z"
+    },
+    {
+      "id": 79129,
+      "productId": 31569,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1111,
+      "checkedAt": "2026-08-15T23:41:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035407",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035407",
+    "capturedAt": "2026-08-19T05:35:34.024Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1111
+      },
+      {
+        "storeName": "リサイクルのプリマベーラ",
+        "condition": "中古バーコードシールが貼ってあります。",
+        "price": 1616
+      }
+    ],
+    "path": "data/other-shops/145035407.json"
+  }
+}

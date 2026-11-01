@@ -1,0 +1,112 @@
+{
+  "product": {
+    "id": 8350,
+    "title": "Windows95/98/2000 CDソフト CHERRY BOY INNOCENT GIRL",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003979",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003979.jpg",
+    "manufacturer": "LIBIDO",
+    "releaseDate": "2000-09-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 2000",
+    "details": {
+      "管理番号": "中古 ：145003979001",
+      "メーカー": "LIBIDO",
+      "発売日": "2000/09/29",
+      "定価": "9,680円",
+      "原画": "JOYRIDE",
+      "カテゴリ": "アダルト Windows Windows 2000",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-23T13:44:21.442Z"
+  },
+  "histories": [
+    {
+      "id": 8364,
+      "productId": 8350,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 23132,
+      "productId": 8350,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:46.265Z"
+    },
+    {
+      "id": 37734,
+      "productId": 8350,
+      "salePrice": 1200,
+      "regularSalePrice": 1350,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:05:24.740Z"
+    },
+    {
+      "id": 48220,
+      "productId": 8350,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "外箱欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:12:19.602Z"
+    },
+    {
+      "id": 59027,
+      "productId": 8350,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:44:21.442Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 163297,
+      "productId": 8350,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 1300,
+      "checkedAt": "2026-08-23T13:44:21.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

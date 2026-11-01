@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 76360,
+    "title": "Windows7/8/8.1/10 DVDソフト あぶのーまるらばーず",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059008",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059008.jpg",
+    "manufacturer": "とるてそふと",
+    "releaseDate": "2017-11-24",
+    "listPrice": 8580,
+    "modelNumber": "TRT001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059008001",
+      "メーカー": "とるてそふと",
+      "発売日": "2017/11/24",
+      "定価": "8,580円",
+      "型番": "TRT001",
+      "原画": "繭咲悠\nあゆま紗由",
+      "シナリオ": "御厨みくり\n丸谷秀人\n保住圭\n籐太",
+      "声優": "奏雨\n歩サラ\n萌花ちょこ\n汝鳥類",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145059008?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-25T05:34:56.386Z"
+  },
+  "histories": [
+    {
+      "id": 76374,
+      "productId": 76360,
+      "salePrice": 2599,
+      "regularSalePrice": 2599,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T10:08:44.197Z"
+    },
+    {
+      "id": 89517,
+      "productId": 76360,
+      "salePrice": 2599,
+      "regularSalePrice": 2599,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T02:33:07.350Z"
+    },
+    {
+      "id": 104676,
+      "productId": 76360,
+      "salePrice": 2599,
+      "regularSalePrice": 2599,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-05T16:03:04.407Z"
+    },
+    {
+      "id": 117857,
+      "productId": 76360,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-25T05:34:56.386Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 375826,
+      "productId": 76360,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 1150,
+      "checkedAt": "2026-10-25T05:34:56.000Z"
+    },
+    {
+      "id": 375825,
+      "productId": 76360,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 2599,
+      "checkedAt": "2026-10-25T05:34:56.000Z"
+    },
+    {
+      "id": 375824,
+      "productId": 76360,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 2570,
+      "checkedAt": "2026-10-25T05:34:56.000Z"
+    },
+    {
+      "id": 375823,
+      "productId": 76360,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古ディスクのみ",
+      "price": 1150,
+      "checkedAt": "2026-10-25T05:34:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059008",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059008",
+    "capturedAt": "2026-10-25T05:34:56.386Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古ディスクのみ",
+        "price": 1150
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 2570
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 2599
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ディスクのみ",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145059008.json"
+  }
+}

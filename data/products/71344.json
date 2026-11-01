@@ -1,0 +1,161 @@
+{
+  "product": {
+    "id": 71344,
+    "title": "WindowsXP/Vista/7/8 DVDソフト むすメイク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037240",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037240.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2013-07-26",
+    "listPrice": 9680,
+    "modelNumber": "ILN-093",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145037240001",
+      "メーカー": "ILLUSION",
+      "発売日": "2013/07/26",
+      "定価": "9,680円",
+      "型番": "ILN-093",
+      "シナリオ": "尾之上咲太",
+      "声優": "茶谷やすら\n奥山歩\n有賀桃\n逢川奈々\n金松由花",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145037240?branch_number=0002"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:04.105Z"
+  },
+  "histories": [
+    {
+      "id": 71358,
+      "productId": 71344,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:04.105Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204806,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ランクB",
+      "price": 1350,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204805,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 4520,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204804,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204803,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1511,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204802,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204801,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古ランクB",
+      "price": 1195,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204800,
+      "productId": 71344,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1195,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037240",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037240",
+    "capturedAt": "2026-09-02T21:37:04.105Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1195
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古ランクB",
+        "price": 1195
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1511
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1700
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 4520
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古ランクB",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145037240.json"
+  }
+}

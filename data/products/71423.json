@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 71423,
+    "title": "Windows2000/XP/Vista DVDソフト ぼくらの孕孕スクールライフ ～クラス全員中出し完了～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023503",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023503.jpg",
+    "manufacturer": "ローズクラウン",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": "ROCR-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145023503001",
+      "メーカー": "ローズクラウン",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "型番": "ROCR-003",
+      "シナリオ": "橋野次郎",
+      "原画": "にのぜん",
+      "声優": "小野原マイミ\n芹園みや\n伊藤瞳子\n夏川菜々美\n凪\nぺんぺん\n四ノ宮ひな\n御神楽やこ\n喜屋武朱音",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:44.160Z"
+  },
+  "histories": [
+    {
+      "id": 71437,
+      "productId": 71423,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:44.160Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204966,
+      "productId": 71423,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-02T21:37:44.000Z"
+    },
+    {
+      "id": 204965,
+      "productId": 71423,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 良い",
+      "price": 8800,
+      "checkedAt": "2026-09-02T21:37:44.000Z"
+    },
+    {
+      "id": 204964,
+      "productId": 71423,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-09-02T21:37:44.000Z"
+    },
+    {
+      "id": 204963,
+      "productId": 71423,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1250,
+      "checkedAt": "2026-09-02T21:37:44.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023503",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023503",
+    "capturedAt": "2026-09-02T21:37:44.160Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1250
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 1250
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 良い",
+        "price": 8800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145023503.json"
+  }
+}

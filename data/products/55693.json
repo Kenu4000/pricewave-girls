@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 55693,
+    "title": "Windows10/11 DVDソフト 上流妻-セレブ母娘に復讐わからSEX-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081417",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081417.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2024-06-28",
+    "listPrice": 4180,
+    "modelNumber": "UBAI-015",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081417001",
+      "メーカー": "スタジオ奪",
+      "発売日": "2024/06/28",
+      "定価": "4,180円",
+      "型番": "UBAI-015",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:23.988Z"
+  },
+  "histories": [
+    {
+      "id": 55707,
+      "productId": 55693,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:23.988Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150345,
+      "productId": 55693,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    },
+    {
+      "id": 150344,
+      "productId": 55693,
+      "sourceType": "other_shop",
+      "storeName": "毘沙門店",
+      "condition": "中古 非常に良い",
+      "price": 2644,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    },
+    {
+      "id": 150343,
+      "productId": 55693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1912,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    },
+    {
+      "id": 150342,
+      "productId": 55693,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-08-21T05:29:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081417",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081417",
+    "capturedAt": "2026-08-21T05:29:23.988Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1450
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1912
+      },
+      {
+        "storeName": "毘沙門店",
+        "condition": "中古 非常に良い",
+        "price": 2644
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145081417.json"
+  }
+}

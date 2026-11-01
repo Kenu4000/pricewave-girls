@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 95363,
+    "title": "WindowsMe/2000/XP CDソフト 月ノ光 太陽ノ影",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014157",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014157.jpg",
+    "manufacturer": "aromarie",
+    "releaseDate": "2006-04-21",
+    "listPrice": 7875,
+    "modelNumber": "ARTT-0604",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014157001",
+      "メーカー": "aromarie",
+      "発売日": "2006/04/21",
+      "定価": "7,875円",
+      "型番": "ARTT-0604",
+      "原画": "大沢篤史",
+      "シナリオ": "丸木文華",
+      "声優": "桃井いちご\n空野太陽\n春野風\n安芸怜須ケン\n増谷康紀\n神月あおい\n島崎比呂",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 8500,
+    "latestRegularSalePrice": 8500,
+    "latestBuyPrice": 3900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:25.058Z"
+  },
+  "histories": [
+    {
+      "id": 95377,
+      "productId": 95363,
+      "salePrice": 8500,
+      "regularSalePrice": 8500,
+      "buyPrice": 3900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:25.058Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293950,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 8500,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293949,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 8500,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293948,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 8411,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293947,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 8160,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293946,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋南瀬名店",
+      "condition": "中古",
+      "price": 8111,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293945,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 8111,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    },
+    {
+      "id": 293944,
+      "productId": 95363,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 7650,
+      "checkedAt": "2026-09-17T19:57:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014157",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014157",
+    "capturedAt": "2026-09-17T19:57:25.058Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 7650
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 8111
+      },
+      {
+        "storeName": "駿河屋南瀬名店",
+        "condition": "中古",
+        "price": 8111
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 8160
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 8411
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 8500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 8500
+      }
+    ],
+    "path": "data/other-shops/145014157.json"
+  }
+}

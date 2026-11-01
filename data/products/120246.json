@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120246,
+    "title": "Windows DVDソフト Sweet Plesure NEW STYLE",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014497",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014497.jpg",
+    "manufacturer": "Cronus",
+    "releaseDate": "2006-06-30",
+    "listPrice": 9680,
+    "modelNumber": "RYUSYS-0074",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014497",
+      "メーカー": "Cronus",
+      "発売日": "2006/06/30",
+      "定価": "9,680円",
+      "型番": "RYUSYS-0074",
+      "原画": "鳴滝しん\n葵羽鳥",
+      "シナリオ": "兄丸\nちゅんく\nにしざき",
+      "声優": "彩世ゆう\n萌木唯\n茉莉奈\n文月かな\nDEKO",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1410,
+    "latestRegularSalePrice": 1410,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:57.467Z"
+  },
+  "histories": [
+    {
+      "id": 120260,
+      "productId": 120246,
+      "salePrice": 1410,
+      "regularSalePrice": 1410,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:57.467Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014497",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014497",
+    "capturedAt": "2026-10-29T05:41:57.467Z",
+    "items": [],
+    "path": "data/other-shops/145014497.json"
+  }
+}

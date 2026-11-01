@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 41987,
+    "title": "WindowsXP/Vista DVDソフト PROTOTYPE [北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021555",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021555.jpg",
+    "manufacturer": "Activision",
+    "releaseDate": "2009-06-09",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021555001",
+      "メーカー": "Activision",
+      "発売日": "2009/06/09",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:37:08.611Z"
+  },
+  "histories": [
+    {
+      "id": 42001,
+      "productId": 41987,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:07.344Z"
+    },
+    {
+      "id": 44043,
+      "productId": 41987,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:37:08.611Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113896,
+      "productId": 41987,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T09:37:08.000Z"
+    },
+    {
+      "id": 113895,
+      "productId": 41987,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古説明書不備",
+      "price": 499,
+      "checkedAt": "2026-08-17T09:37:08.000Z"
+    },
+    {
+      "id": 108684,
+      "productId": 41987,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-08-17T07:07:08.000Z"
+    },
+    {
+      "id": 108683,
+      "productId": 41987,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古説明書不備",
+      "price": 499,
+      "checkedAt": "2026-08-17T07:07:08.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021555",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021555",
+    "capturedAt": "2026-08-17T09:37:08.611Z",
+    "items": [
+      {
+        "storeName": "りあらいず",
+        "condition": "中古説明書不備",
+        "price": 499
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145021555.json"
+  }
+}

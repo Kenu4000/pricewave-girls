@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 30859,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ジンコウガクエン2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051120",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051120.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2014-06-13",
+    "listPrice": 9680,
+    "modelNumber": "ILN-096",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145051120",
+      "メーカー": "ILLUSION",
+      "発売日": "2014/06/13",
+      "定価": "9,680円",
+      "型番": "ILN-096",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6980,
+    "latestRegularSalePrice": 6980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:20:34.693Z"
+  },
+  "histories": [
+    {
+      "id": 30873,
+      "productId": 30859,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:24:28.864Z"
+    },
+    {
+      "id": 39627,
+      "productId": 30859,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:22:26.904Z"
+    },
+    {
+      "id": 50781,
+      "productId": 30859,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:30:59.703Z"
+    },
+    {
+      "id": 61832,
+      "productId": 30859,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:20:34.693Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145051120",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051120",
+    "capturedAt": "2026-08-27T09:20:34.693Z",
+    "items": [],
+    "path": "data/other-shops/145051120.json"
+  }
+}

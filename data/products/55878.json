@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 55878,
+    "title": "WindowsVista/7/8 DVDソフト 巨乳くのいち・朱雀-触手、潮吹き責め",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047526",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047526.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2015-03-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145047526001",
+      "メーカー": "ルネ",
+      "発売日": "2015/03/27",
+      "定価": "9,680円",
+      "声優": "紅月奏美\n杉原茉莉\n手塚りょうこ\nももぞの薫",
+      "原画": "huracan",
+      "シナリオ": "川原圭人\n柊風里\nK-TOK\nりりあん嬢",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:31:01.115Z"
+  },
+  "histories": [
+    {
+      "id": 55892,
+      "productId": 55878,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:31:01.115Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 151104,
+      "productId": 55878,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    },
+    {
+      "id": 151103,
+      "productId": 55878,
+      "sourceType": "other_shop",
+      "storeName": "KMNFC",
+      "condition": "新品商品状態 - 新品",
+      "price": 9680,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    },
+    {
+      "id": 151102,
+      "productId": 55878,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-08-21T05:31:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145047526",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047526",
+    "capturedAt": "2026-08-21T05:31:01.115Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "KMNFC",
+        "condition": "新品商品状態 - 新品",
+        "price": 9680
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      }
+    ],
+    "path": "data/other-shops/145047526.json"
+  }
+}

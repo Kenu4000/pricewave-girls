@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 115437,
+    "title": "Windows DVDソフト クライミライ2 DVD-ROM版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014474",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014474.jpg",
+    "manufacturer": "フライングシャイン黒",
+    "releaseDate": "2006-06-16",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145014474",
+      "メーカー": "フライングシャイン黒",
+      "発売日": "2006/06/16",
+      "定価": "9,680円",
+      "原画": "相川亜利砂",
+      "シナリオ": "早川清子\n三宅蒼色\n櫻みゅう",
+      "声優": "児玉さとみ\n乃田あす実\n大波こなみ\nかわしまりの\n飯田空\n草柳順子",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-20T03:47:03.461Z"
+  },
+  "histories": [
+    {
+      "id": 115451,
+      "productId": 115437,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-20T03:47:03.461Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014474",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014474",
+    "capturedAt": "2026-10-20T03:47:03.461Z",
+    "items": [],
+    "path": "data/other-shops/145014474.json"
+  }
+}

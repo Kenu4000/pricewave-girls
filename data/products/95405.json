@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 95405,
+    "title": "Windows98/Me/2000/XP DVDソフト カスタム隷奴III Special Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014112",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014112.jpg",
+    "manufacturer": "Kiss",
+    "releaseDate": "2006-03-24",
+    "listPrice": 10780,
+    "modelNumber": "SLP-060324",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014112",
+      "メーカー": "Kiss",
+      "発売日": "2006/03/24",
+      "定価": "10,780円",
+      "型番": "SLP-060324",
+      "原画": "三月春人\n弥舞秀人",
+      "シナリオ": "池野クラゲ\n小原誠\n富松元気\n端嶋寵而\n黒和雷人",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-12T16:00:26.341Z"
+  },
+  "histories": [
+    {
+      "id": 95419,
+      "productId": 95405,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:38.371Z"
+    },
+    {
+      "id": 96394,
+      "productId": 95405,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T14:02:04.580Z"
+    },
+    {
+      "id": 109547,
+      "productId": 95405,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-12T16:00:26.341Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 344959,
+      "productId": 95405,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2300,
+      "checkedAt": "2026-10-12T16:00:26.000Z"
+    },
+    {
+      "id": 344958,
+      "productId": 95405,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 2280,
+      "checkedAt": "2026-10-12T16:00:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014112",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014112",
+    "capturedAt": "2026-10-12T16:00:26.341Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有",
+        "price": 2280
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145014112.json"
+  }
+}

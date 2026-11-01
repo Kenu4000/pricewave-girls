@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 120217,
+    "title": "Windows2000/XP/Vista DVDソフト 悪夢 絶望 ～青い果実の散花～Twin Pack Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019841",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019841.jpg",
+    "manufacturer": "StudioMebius",
+    "releaseDate": "2009-04-24",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019841001",
+      "メーカー": "StudioMebius",
+      "発売日": "2009/04/24",
+      "定価": "4,180円",
+      "原画": "飛鳥ぴょん",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 8980,
+    "latestRegularSalePrice": 8980,
+    "latestBuyPrice": 3800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:46.896Z"
+  },
+  "histories": [
+    {
+      "id": 120231,
+      "productId": 120217,
+      "salePrice": 8980,
+      "regularSalePrice": 8980,
+      "buyPrice": 3800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:46.896Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384530,
+      "productId": 120217,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 箱・ジャケット・ケース不備（中）",
+      "price": 6300,
+      "checkedAt": "2026-10-29T05:41:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 106479,
+    "title": "Windows2000/XP/Vista DVDソフト 夏いろペンギン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020640",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020640.jpg",
+    "manufacturer": "リトルプリンセス",
+    "releaseDate": "2009-11-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020640",
+      "メーカー": "リトルプリンセス",
+      "発売日": "2009/11/27",
+      "定価": "9,680円",
+      "原画": "うそねこ\n或十せねか\nにの子",
+      "シナリオ": "森麻美",
+      "アーティスト": "橋本みゆき",
+      "声優": "水島理音\n冬宮メア\n佐々留美子\n鈴田美夜子\n雪平雫\nたかはし智秋\n風音\n紫華すみれ\n松永雪希\n加賀ヒカル\n民安ともえ\n紀之",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:31:12.429Z"
+  },
+  "histories": [
+    {
+      "id": 106493,
+      "productId": 106479,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:18.687Z"
+    },
+    {
+      "id": 120428,
+      "productId": 106479,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:31:12.429Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384919,
+      "productId": 106479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1660,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    },
+    {
+      "id": 384918,
+      "productId": 106479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    },
+    {
+      "id": 384917,
+      "productId": 106479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1410,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020640",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020640",
+    "capturedAt": "2026-11-01T03:31:12.429Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1410
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1660
+      }
+    ],
+    "path": "data/other-shops/145020640.json"
+  }
+}

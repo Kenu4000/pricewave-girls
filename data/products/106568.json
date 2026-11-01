@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106568,
+    "title": "Windows DVDソフト 性奴学艶祭 ～肉欲に溺れる女教師達～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014800",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014800.jpg",
+    "manufacturer": "West Vision",
+    "releaseDate": "2006-10-20",
+    "listPrice": 9680,
+    "modelNumber": "TW-29",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014800001",
+      "メーカー": "West Vision",
+      "発売日": "2006/10/20",
+      "定価": "9,680円",
+      "型番": "TW-29",
+      "原画": "影道",
+      "シナリオ": "西矢沙広",
+      "声優": "あえか\n咲ゆたか\n平野響子\n千房こまめ\n早乙女綾",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:52.760Z"
+  },
+  "histories": [
+    {
+      "id": 106582,
+      "productId": 106568,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:52.760Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333897,
+      "productId": 106568,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333896,
+      "productId": 106568,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外・内箱難有",
+      "price": 1180,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333895,
+      "productId": 106568,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    },
+    {
+      "id": 333894,
+      "productId": 106568,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-10-08T03:14:53.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014800",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014800",
+    "capturedAt": "2026-10-08T03:14:52.760Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1180
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外・内箱難有",
+        "price": 1180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145014800.json"
+  }
+}

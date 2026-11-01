@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 111499,
+    "title": "WindowsXP/Vista/7 CDソフト 僕の友達はママで遊ぶためにやって来るー○○君元気?私、みんなに囲われて幸せな家庭作るぅー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027199",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027199.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2011-03-18",
+    "listPrice": 2530,
+    "modelNumber": "MIEL-012",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145027199",
+      "メーカー": "Miel",
+      "発売日": "2011/03/18",
+      "定価": "2,530円",
+      "型番": "MIEL-012",
+      "原画": "T-28",
+      "シナリオ": "神鷹輝",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1411,
+    "latestRegularSalePrice": 1411,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T02:27:12.491Z"
+  },
+  "histories": [
+    {
+      "id": 111513,
+      "productId": 111499,
+      "salePrice": 1411,
+      "regularSalePrice": 1411,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:27:12.491Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027199",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027199",
+    "capturedAt": "2026-10-15T02:27:12.491Z",
+    "items": [],
+    "path": "data/other-shops/145027199.json"
+  }
+}

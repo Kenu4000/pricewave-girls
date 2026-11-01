@@ -1,0 +1,56 @@
+{
+  "product": {
+    "id": 121252,
+    "title": "Windows11 DVDソフト かなえてダブルウェディングコンプリート!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145085084",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145085084.jpg",
+    "manufacturer": "ギャルプリンス",
+    "releaseDate": "2026-10-30",
+    "listPrice": 6380,
+    "modelNumber": "GXGP-008",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145085084",
+      "メーカー": "ギャルプリンス",
+      "発売日": "2026/10/30",
+      "定価": "6,380円",
+      "型番": "GXGP-008",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6380,
+    "latestRegularSalePrice": 6380,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:14.744Z"
+  },
+  "histories": [
+    {
+      "id": 121266,
+      "productId": 121252,
+      "salePrice": 6380,
+      "regularSalePrice": 6380,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:14.744Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145085084",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145085084",
+    "capturedAt": "2026-11-01T13:42:14.744Z",
+    "items": [],
+    "path": "data/other-shops/145085084.json"
+  }
+}

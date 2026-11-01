@@ -1,0 +1,69 @@
+{
+  "product": {
+    "id": 111469,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ねこぷちファンディスク COMIC MARKET 88 SUMMER",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052406",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052406.jpg",
+    "manufacturer": "ねこねこソフト",
+    "releaseDate": "2015-08-14",
+    "listPrice": 3300,
+    "modelNumber": "NEKO-SUF-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145052406",
+      "メーカー": "ねこねこソフト",
+      "発売日": "2015/08/14",
+      "定価": "3,300円",
+      "型番": "NEKO-SUF-001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1611,
+    "latestRegularSalePrice": 1611,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-15T16:07:19.247Z"
+  },
+  "histories": [
+    {
+      "id": 111483,
+      "productId": 111469,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T02:26:58.295Z"
+    },
+    {
+      "id": 112471,
+      "productId": 111469,
+      "salePrice": 1611,
+      "regularSalePrice": 1611,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-15T16:07:19.247Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145052406",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052406",
+    "capturedAt": "2026-10-15T16:07:19.247Z",
+    "items": [],
+    "path": "data/other-shops/145052406.json"
+  }
+}

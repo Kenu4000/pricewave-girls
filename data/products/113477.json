@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 113477,
+    "title": "Windows2000/XP/Vista DVDソフト カスタムレイド4",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023232",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023232.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2010-04-30",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145023232001",
+      "メーカー": "KISS",
+      "発売日": "2010/04/30",
+      "定価": "10,780円",
+      "原画": "ヤムカ ヨツメ\n弥舞秀人\n金目鯛ぴんく\nとむそおや\n羽月深弥",
+      "シナリオ": "座敷猫\nシャア専用◎\n庵乃音人",
+      "声優": "植木亨\n桃井いちご\n一色ヒカル\n吉川華生\n青山ゆかり\n茶谷やすら\n楠鈴音\n成瀬未亜",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:40.711Z"
+  },
+  "histories": [
+    {
+      "id": 113491,
+      "productId": 113477,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:40.711Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360173,
+      "productId": 113477,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-10-16T12:29:41.000Z"
+    },
+    {
+      "id": 360172,
+      "productId": 113477,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-16T12:29:41.000Z"
+    },
+    {
+      "id": 360171,
+      "productId": 113477,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-10-16T12:29:41.000Z"
+    },
+    {
+      "id": 360170,
+      "productId": 113477,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品（状態に難有）",
+      "price": 780,
+      "checkedAt": "2026-10-16T12:29:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023232",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023232",
+    "capturedAt": "2026-10-16T12:29:40.711Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品（状態に難有）",
+        "price": 780
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145023232.json"
+  }
+}

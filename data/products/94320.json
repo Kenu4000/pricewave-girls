@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 94320,
+    "title": "Windows8.1/10 DVDソフト ハジラブ -Making*Lovers- ミニファンディスク Vol.02 小唄＆初穂編 [豪華限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074798",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074798.jpg",
+    "manufacturer": "SMEE",
+    "releaseDate": "2022-05-27",
+    "listPrice": 6490,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145074798001",
+      "メーカー": "SMEE",
+      "発売日": "2022/05/27",
+      "定価": "6,490円",
+      "原画": "まんごープリン\nK子",
+      "シナリオ": "阿部まれお\n雪丸仟",
+      "声優": "白月かなめ\n月野きいろ",
+      "プロデューサー": "亜佐美晶",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "2750",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2450,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:00:19.775Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:00:19.390Z"
+  },
+  "histories": [
+    {
+      "id": 94334,
+      "productId": 94320,
+      "salePrice": 1855,
+      "regularSalePrice": 1855,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T18:17:33.978Z"
+    },
+    {
+      "id": 107624,
+      "productId": 94320,
+      "salePrice": 2450,
+      "regularSalePrice": 2750,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:00:19.390Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 337445,
+      "productId": 94320,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2450,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    },
+    {
+      "id": 337444,
+      "productId": 94320,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    },
+    {
+      "id": 337443,
+      "productId": 94320,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古",
+      "price": 2240,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    },
+    {
+      "id": 337442,
+      "productId": 94320,
+      "sourceType": "other_shop",
+      "storeName": "本の森垂水店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 2240,
+      "checkedAt": "2026-10-09T16:00:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074798",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074798",
+    "capturedAt": "2026-10-09T16:00:19.390Z",
+    "items": [
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 2240
+      },
+      {
+        "storeName": "本の森垂水店",
+        "condition": "中古",
+        "price": 2240
+      },
+      {
+        "storeName": "駿河屋千葉中央店",
+        "condition": "中古",
+        "price": 2750
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2450
+      }
+    ],
+    "path": "data/other-shops/145074798.json"
+  }
+}

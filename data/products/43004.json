@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 43004,
+    "title": "Windows98/Me/2000/XP CDソフト 夢をもう一度 幸福の風",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014865",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014865.jpg",
+    "manufacturer": "ミライ 未蕾",
+    "releaseDate": "2006-11-09",
+    "listPrice": 4170,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014865001",
+      "メーカー": "ミライ 未蕾",
+      "発売日": "2006/11/09",
+      "定価": "4,170円",
+      "原画": "ジョニィ田吾作",
+      "声優": "須田勝也\n鳥取砂丘\n上田康裕\n森上ショウ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7280,
+    "latestRegularSalePrice": 7280,
+    "latestBuyPrice": 4000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-04T08:45:58.085Z"
+  },
+  "histories": [
+    {
+      "id": 43018,
+      "productId": 43004,
+      "salePrice": 6700,
+      "regularSalePrice": 6700,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:17:04.999Z"
+    },
+    {
+      "id": 55109,
+      "productId": 43004,
+      "salePrice": 8100,
+      "regularSalePrice": 8100,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:46:55.617Z"
+    },
+    {
+      "id": 66197,
+      "productId": 43004,
+      "salePrice": 7280,
+      "regularSalePrice": 7280,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:06:25.871Z"
+    },
+    {
+      "id": 75636,
+      "productId": 43004,
+      "salePrice": 7280,
+      "regularSalePrice": 7280,
+      "buyPrice": 4000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-04T08:45:58.085Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 219620,
+      "productId": 43004,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7280,
+      "checkedAt": "2026-09-04T08:45:58.000Z"
+    },
+    {
+      "id": 219619,
+      "productId": 43004,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 7200,
+      "checkedAt": "2026-09-04T08:45:58.000Z"
+    },
+    {
+      "id": 185692,
+      "productId": 43004,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7280,
+      "checkedAt": "2026-08-29T13:06:26.000Z"
+    },
+    {
+      "id": 185691,
+      "productId": 43004,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 6700,
+      "checkedAt": "2026-08-29T13:06:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014865",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014865",
+    "capturedAt": "2026-09-04T08:45:58.085Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 7200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7280
+      }
+    ],
+    "path": "data/other-shops/145014865.json"
+  }
+}

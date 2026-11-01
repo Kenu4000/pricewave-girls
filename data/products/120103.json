@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120103,
+    "title": "Windows7/8/10 DVDソフト あやかし遊郭 -からくり女中の懐旧談-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066351",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066351.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2019-10-25",
+    "listPrice": 2530,
+    "modelNumber": "CSK-007",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145066351",
+      "メーカー": "Casket",
+      "発売日": "2019/10/25",
+      "定価": "2,530円",
+      "型番": "CSK-007",
+      "原画": "YU-TA",
+      "シナリオ": "えじむら",
+      "声優": "花澤さくら",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:02.082Z"
+  },
+  "histories": [
+    {
+      "id": 120117,
+      "productId": 120103,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:02.082Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145066351",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066351",
+    "capturedAt": "2026-10-29T05:41:02.082Z",
+    "items": [],
+    "path": "data/other-shops/145066351.json"
+  }
+}

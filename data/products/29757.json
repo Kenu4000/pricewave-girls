@@ -1,0 +1,115 @@
+{
+  "product": {
+    "id": 29757,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 夫の居ぬ間に…-わたし脅されて、あなたに言えないコトしました-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059018",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059018.jpg",
+    "manufacturer": "シルキーズSAKURA",
+    "releaseDate": "2017-10-27",
+    "listPrice": 7480,
+    "modelNumber": "SLSD072",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145059018",
+      "メーカー": "シルキーズSAKURA",
+      "発売日": "2017/10/27",
+      "定価": "7,480円",
+      "型番": "SLSD072",
+      "原画": "ぶぶづけ",
+      "シナリオ": "シャア専用◎",
+      "声優": "八ッ橋きなこ\n霧島はるな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:32:41.198Z"
+  },
+  "histories": [
+    {
+      "id": 29771,
+      "productId": 29757,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:10:21.543Z"
+    },
+    {
+      "id": 38581,
+      "productId": 29757,
+      "salePrice": 3980,
+      "regularSalePrice": 3980,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:13:06.248Z"
+    },
+    {
+      "id": 49669,
+      "productId": 29757,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:32:41.198Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 132841,
+      "productId": 29757,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）外箱一部潰れ・凹み・傷・ヤケ・破れ等イタミ有",
+      "price": 3980,
+      "checkedAt": "2026-08-19T04:32:41.000Z"
+    },
+    {
+      "id": 132840,
+      "productId": 29757,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2900,
+      "checkedAt": "2026-08-19T04:32:41.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059018",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059018",
+    "capturedAt": "2026-08-19T04:32:41.198Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2900
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）外箱一部潰れ・凹み・傷・ヤケ・破れ等イタミ有",
+        "price": 3980
+      }
+    ],
+    "path": "data/other-shops/145059018.json"
+  }
+}

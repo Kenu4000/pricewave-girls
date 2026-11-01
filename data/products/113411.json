@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 113411,
+    "title": "Windows10/11 DVDソフト キミはやさしく寝取られる -Lustful betrayal-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082837",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082837.jpg",
+    "manufacturer": "だーくワン!",
+    "releaseDate": "2025-04-25",
+    "listPrice": 4400,
+    "modelNumber": "MTB019",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145082837001",
+      "メーカー": "だーくワン!",
+      "発売日": "2025/04/25",
+      "定価": "4,400円",
+      "型番": "MTB019",
+      "原画": "HG茶川",
+      "シナリオ": "電子レンジ",
+      "声優": "文月なお\n蒼乃むすび",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2050,
+    "latestRegularSalePrice": 2050,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-16T12:29:12.920Z"
+  },
+  "histories": [
+    {
+      "id": 113425,
+      "productId": 113411,
+      "salePrice": 2050,
+      "regularSalePrice": 2050,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:12.920Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360004,
+      "productId": 113411,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2050,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    },
+    {
+      "id": 360003,
+      "productId": 113411,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古",
+      "price": 2999,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    },
+    {
+      "id": 360002,
+      "productId": 113411,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-10-16T12:29:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145082837",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082837",
+    "capturedAt": "2026-10-16T12:29:12.920Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古",
+        "price": 2999
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2050
+      }
+    ],
+    "path": "data/other-shops/145082837.json"
+  }
+}

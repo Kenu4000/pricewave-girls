@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 120252,
+    "title": "Windows98/Me/2000/XP DVDソフト ひ・み・つ・の放課後 2 ～コーチと教え子のアブナイ同棲生活～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014037",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014037.jpg",
+    "manufacturer": "ビタミン",
+    "releaseDate": "2006-04-14",
+    "listPrice": 9680,
+    "modelNumber": "KSBR-003",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014037001",
+      "メーカー": "ビタミン",
+      "発売日": "2006/04/14",
+      "定価": "9,680円",
+      "型番": "KSBR-003",
+      "原画": "くろねこ",
+      "シナリオ": "ピーナツ太郎\n慈恩大",
+      "声優": "梅小路ピンポン\n黒崎猫\n萌木唯\nみる",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:42:01.479Z"
+  },
+  "histories": [
+    {
+      "id": 120266,
+      "productId": 120252,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:42:01.479Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384564,
+      "productId": 120252,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-10-29T05:42:01.000Z"
+    },
+    {
+      "id": 384563,
+      "productId": 120252,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+      "price": 2980,
+      "checkedAt": "2026-10-29T05:42:01.000Z"
+    },
+    {
+      "id": 384562,
+      "productId": 120252,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-10-29T05:42:01.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014037",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014037",
+    "capturedAt": "2026-10-29T05:42:01.479Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古未開封品です。シュリンク袋のスレはご容赦下さい 。",
+        "price": 2980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145014037.json"
+  }
+}

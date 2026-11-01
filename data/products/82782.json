@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 82782,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト ヤンもえ双子姉妹～病んで孕んで愛されて…～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019689",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019689.jpg",
+    "manufacturer": "スワンマニア",
+    "releaseDate": "2009-04-24",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019689",
+      "メーカー": "スワンマニア",
+      "発売日": "2009/04/24",
+      "定価": "3,080円",
+      "原画": "くるみみかん",
+      "シナリオ": "南条巴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1300,
+    "latestRegularSalePrice": 1300,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-09T05:33:25.789Z"
+  },
+  "histories": [
+    {
+      "id": 82796,
+      "productId": 82782,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:25.789Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019689",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019689",
+    "capturedAt": "2026-09-09T05:33:25.789Z",
+    "items": [],
+    "path": "data/other-shops/145019689.json"
+  }
+}

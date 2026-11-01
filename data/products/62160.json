@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62160,
+    "title": "WindowsXP/Vista/7 DVDソフト 虐襲3 Windows7対応版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026336",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026336.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2011-01-28",
+    "listPrice": 6270,
+    "modelNumber": "ANM-021",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026336",
+      "メーカー": "ANIM",
+      "発売日": "2011/01/28",
+      "定価": "6,270円",
+      "型番": "ANM-021",
+      "原画": "bbsacon",
+      "シナリオ": "酒井童人",
+      "声優": "民安ともえ\n緒田マリ\n羽高なる\n渋谷ひめ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 625,
+    "latestRegularSalePrice": 625,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:29.050Z"
+  },
+  "histories": [
+    {
+      "id": 62174,
+      "productId": 62160,
+      "salePrice": 630,
+      "regularSalePrice": 630,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:44.244Z"
+    },
+    {
+      "id": 62838,
+      "productId": 62160,
+      "salePrice": 630,
+      "regularSalePrice": 630,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:43.563Z"
+    },
+    {
+      "id": 64632,
+      "productId": 62160,
+      "salePrice": 625,
+      "regularSalePrice": 625,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:29.050Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026336",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026336",
+    "capturedAt": "2026-08-29T01:13:29.050Z",
+    "items": [],
+    "path": "data/other-shops/145026336.json"
+  }
+}

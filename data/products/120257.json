@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 120257,
+    "title": "Windows98/Me/2000/XP CDソフト 戦場デ少女ハ躰ヲカケル [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014111",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014111.jpg",
+    "manufacturer": "サイク",
+    "releaseDate": "2006-03-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014111001",
+      "メーカー": "サイク",
+      "発売日": "2006/03/24",
+      "定価": "9,680円",
+      "原画": "ミヤスリサ",
+      "シナリオ": "伊藤ヒロ",
+      "声優": "相模真\n金田めい\nまりもりん\n黒崎猫\nみすみ\n森藍子\n阿倉優\n西野みく\n咲良さく\n柴田蕗",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:42:02.822Z"
+  },
+  "histories": [
+    {
+      "id": 120271,
+      "productId": 120257,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:42:02.822Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384573,
+      "productId": 120257,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-10-29T05:42:03.000Z"
+    },
+    {
+      "id": 384572,
+      "productId": 120257,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット打田店",
+      "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+      "price": 770,
+      "checkedAt": "2026-10-29T05:42:03.000Z"
+    },
+    {
+      "id": 384571,
+      "productId": 120257,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 205,
+      "checkedAt": "2026-10-29T05:42:03.000Z"
+    },
+    {
+      "id": 384570,
+      "productId": 120257,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 205,
+      "checkedAt": "2026-10-29T05:42:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014111",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014111",
+    "capturedAt": "2026-10-29T05:42:02.822Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 205
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 205
+      },
+      {
+        "storeName": "ブックマーケット打田店",
+        "condition": "中古：状態の良い中古商品です♪【2日以内にスピード発送！】",
+        "price": 770
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145014111.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 121288,
+    "title": "WindowsXP/Vista/7 CDソフト お別れビデオレターーお義兄ちゃんやめて!最愛の彼女が肉嫁になる瞬間がアニメで動く!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028330",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028330.jpg",
+    "manufacturer": "Miel",
+    "releaseDate": "2011-05-27",
+    "listPrice": 2090,
+    "modelNumber": "MIEL-013",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145028330001",
+      "メーカー": "Miel",
+      "発売日": "2011/05/27",
+      "定価": "2,090円",
+      "型番": "MIEL-013",
+      "原画": "石井彰",
+      "シナリオ": "Fuzisawa",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "550",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-01T13:42:32.611Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:32.316Z"
+  },
+  "histories": [
+    {
+      "id": 121302,
+      "productId": 121288,
+      "salePrice": 500,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:32.316Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 388403,
+      "productId": 121288,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-11-01T13:42:32.000Z"
+    },
+    {
+      "id": 388402,
+      "productId": 121288,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットエーツー豊川店（全出品アイテム店舗併売品につき欠品の場合あり）●ご注文前にSHOP情報より【返品、保証、払い戻し】を必ずご確認ください●",
+      "condition": "中古ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+      "price": 1035,
+      "checkedAt": "2026-11-01T13:42:32.000Z"
+    },
+    {
+      "id": 388401,
+      "productId": 121288,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-11-01T13:42:32.000Z"
+    },
+    {
+      "id": 388400,
+      "productId": 121288,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-11-01T13:42:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145028330",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028330",
+    "capturedAt": "2026-11-01T13:42:32.316Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "ブックマーケットエーツー豊川店（全出品アイテム店舗併売品につき欠品の場合あり）●ご注文前にSHOP情報より【返品、保証、払い戻し】を必ずご確認ください●",
+        "condition": "中古ﾔｹや傷・痛み・経年劣化・ｼﾐ・折れ・汚れ等がある場合有",
+        "price": 1035
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145028330.json"
+  }
+}

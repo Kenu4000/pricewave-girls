@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 30238,
+    "title": "WindowsVista/7/8 DVDソフト 鉄と裸",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062074",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062074.jpg",
+    "manufacturer": "つるみく",
+    "releaseDate": "2016-02-26",
+    "listPrice": 9680,
+    "modelNumber": "TTHB-001",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145062074",
+      "メーカー": "つるみく",
+      "発売日": "2016/02/26",
+      "定価": "9,680円",
+      "型番": "TTHB-001",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "箱(内箱含む)欠品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2000,
+    "latestRegularSalePrice": 2000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "箱(内箱含む)欠品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:26:53.791Z"
+  },
+  "histories": [
+    {
+      "id": 30252,
+      "productId": 30238,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:13.441Z"
+    },
+    {
+      "id": 39039,
+      "productId": 30238,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:04.704Z"
+    },
+    {
+      "id": 50318,
+      "productId": 30238,
+      "salePrice": 2000,
+      "regularSalePrice": 2000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "箱(内箱含む)欠品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:53.791Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062074",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062074",
+    "capturedAt": "2026-08-19T05:26:53.791Z",
+    "items": [],
+    "path": "data/other-shops/145062074.json"
+  }
+}

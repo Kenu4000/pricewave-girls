@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41472,
+    "title": "WindowsXP/Vista/7 DVDソフト SexyビーチZERO",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056823",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056823.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2010-10-29",
+    "listPrice": 9680,
+    "modelNumber": "ILN-082",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145056823",
+      "メーカー": "ILLUSION",
+      "発売日": "2010/10/29",
+      "定価": "9,680円",
+      "型番": "ILN-082",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "ゲームディスク単品",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク単品",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:14:15.690Z"
+  },
+  "histories": [
+    {
+      "id": 41486,
+      "productId": 41472,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:13.438Z"
+    },
+    {
+      "id": 53117,
+      "productId": 41472,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:44.062Z"
+    },
+    {
+      "id": 64044,
+      "productId": 41472,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク単品",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:14:15.690Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056823",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056823",
+    "capturedAt": "2026-08-27T16:14:15.690Z",
+    "items": [],
+    "path": "data/other-shops/145056823.json"
+  }
+}

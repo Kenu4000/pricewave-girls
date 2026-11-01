@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 42284,
+    "title": "Windows2000/XP/Vista CDソフト だだ甘狂姉(きょうし)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018558",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018558.jpg",
+    "manufacturer": "桃フェロ",
+    "releaseDate": "2008-09-05",
+    "listPrice": 3122,
+    "modelNumber": "MMF-00002",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018558",
+      "メーカー": "桃フェロ",
+      "発売日": "2008/09/05",
+      "定価": "3,122円",
+      "型番": "MMF-00002",
+      "原画": "海苔餅太",
+      "シナリオ": "火々野未完",
+      "音楽": "ミリオンバンブー",
+      "声優": "紫苑みやび\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:02:12.314Z"
+  },
+  "histories": [
+    {
+      "id": 42298,
+      "productId": 42284,
+      "salePrice": 440,
+      "regularSalePrice": 440,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:10:12.733Z"
+    },
+    {
+      "id": 53700,
+      "productId": 42284,
+      "salePrice": 390,
+      "regularSalePrice": 390,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:26:34.634Z"
+    },
+    {
+      "id": 65678,
+      "productId": 42284,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:02:12.314Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 144061,
+      "productId": 42284,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 390,
+      "checkedAt": "2026-08-19T16:26:34.000Z"
+    },
+    {
+      "id": 144060,
+      "productId": 42284,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:26:34.000Z"
+    },
+    {
+      "id": 144059,
+      "productId": 42284,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 390,
+      "checkedAt": "2026-08-19T16:26:34.000Z"
+    },
+    {
+      "id": 109395,
+      "productId": 42284,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:10:13.000Z"
+    },
+    {
+      "id": 109394,
+      "productId": 42284,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 440,
+      "checkedAt": "2026-08-17T07:10:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018558",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018558",
+    "capturedAt": "2026-08-29T13:02:12.314Z",
+    "items": [],
+    "path": "data/other-shops/145018558.json"
+  }
+}

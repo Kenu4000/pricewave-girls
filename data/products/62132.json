@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 62132,
+    "title": "WindowsXP/Vista/7 CDソフト 家元の母娘に乳辱されて…",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033606",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033606.jpg",
+    "manufacturer": "極フェロ",
+    "releaseDate": "2012-07-20",
+    "listPrice": 3300,
+    "modelNumber": "GKF-00027",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033606001",
+      "メーカー": "極フェロ",
+      "発売日": "2012/07/20",
+      "定価": "3,300円",
+      "型番": "GKF-00027",
+      "原画": "熊虎たつみ",
+      "シナリオ": "JUN",
+      "声優": "のらのねこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:16.631Z"
+  },
+  "histories": [
+    {
+      "id": 62146,
+      "productId": 62132,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:32.036Z"
+    },
+    {
+      "id": 62811,
+      "productId": 62132,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:30.907Z"
+    },
+    {
+      "id": 64604,
+      "productId": 62132,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:16.631Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 181457,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-29T01:13:16.000Z"
+    },
+    {
+      "id": 181456,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-29T01:13:16.000Z"
+    },
+    {
+      "id": 176483,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-27T16:04:31.000Z"
+    },
+    {
+      "id": 176482,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-27T16:04:31.000Z"
+    },
+    {
+      "id": 173808,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-08-27T10:43:32.000Z"
+    },
+    {
+      "id": 173807,
+      "productId": 62132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-08-27T10:43:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145033606",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033606",
+    "capturedAt": "2026-08-29T01:13:16.631Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145033606.json"
+  }
+}

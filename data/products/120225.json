@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 120225,
+    "title": "Windows DVDソフト 禁断の血族(月刊メガストア 2008年12月号 Vol.187 付録DVD-ROM)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062123",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062123.jpg",
+    "manufacturer": "コアマガジン",
+    "releaseDate": "2008-10-27",
+    "listPrice": null,
+    "modelNumber": "MEGA0812",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145062123",
+      "メーカー": "コアマガジン",
+      "発売日": "2008/10/27",
+      "型番": "MEGA0812",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1512,
+    "latestRegularSalePrice": 1512,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:48.837Z"
+  },
+  "histories": [
+    {
+      "id": 120239,
+      "productId": 120225,
+      "salePrice": 1512,
+      "regularSalePrice": 1512,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:48.837Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062123",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062123",
+    "capturedAt": "2026-10-29T05:41:48.837Z",
+    "items": [],
+    "path": "data/other-shops/145062123.json"
+  }
+}

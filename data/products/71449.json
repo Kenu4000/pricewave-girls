@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 71449,
+    "title": "Windows2000/XP/Vista DVDソフト ガチ乙女クインテット[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019697",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019697.jpg",
+    "manufacturer": "team it’s みんと",
+    "releaseDate": "2009-04-30",
+    "listPrice": 9680,
+    "modelNumber": "TIM-001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019697001",
+      "メーカー": "team it’s みんと",
+      "発売日": "2009/04/30",
+      "定価": "9,680円",
+      "型番": "TIM-001",
+      "原画": "桃飴こもも\n神藤みけこ",
+      "シナリオ": "坂上メル",
+      "声優": "おぼれ谷リアス\n星咲イリア\n新堂真弓\n井村屋ほのか\n青山ゆかり\n小倉結衣\n早乙女綾",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:56.502Z"
+  },
+  "histories": [
+    {
+      "id": 71463,
+      "productId": 71449,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:56.502Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 205032,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205031,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205030,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205029,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古EXTRAディスク欠品",
+      "price": 912,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205028,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    },
+    {
+      "id": 205027,
+      "productId": 71449,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:ディスクのみ",
+      "price": 700,
+      "checkedAt": "2026-09-02T21:37:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019697",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019697",
+    "capturedAt": "2026-09-02T21:37:56.502Z",
+    "items": [
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:ディスクのみ",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古EXTRAディスク欠品",
+        "price": 912
+      },
+      {
+        "storeName": "駿河屋ＭＥＧＡドン・キホーテ ラパーク宇都宮店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145019697.json"
+  }
+}

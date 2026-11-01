@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 95374,
+    "title": "Windows98/Me/2000/XP CDソフト 紅蓮に染まる銀のロザリオ[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014202",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014202.jpg",
+    "manufacturer": "F＆C HARDCOVER",
+    "releaseDate": "2006-04-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014202001",
+      "メーカー": "F＆C HARDCOVER",
+      "発売日": "2006/04/28",
+      "定価": "9,680円",
+      "原画": "甘福あまね\nかゆらゆか\nロリ絵師",
+      "シナリオ": "廣野健一",
+      "アーティスト": "YURIA（PINKY DOODLE POODLE）",
+      "声優": "浅野麻理亜\n安玖深音\nワッショイ太郎\n佐藤タカオ\n草柳順子\n青山ゆかり\n風音\n受閃\n相模真\nあおいひとみ\n海原エレナ\nしゃぶ太郎\n睦月申\n神村ひな",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "410",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 390,
+    "latestRegularSalePrice": 410,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:02:45.297Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:02:44.753Z"
+  },
+  "histories": [
+    {
+      "id": 95388,
+      "productId": 95374,
+      "salePrice": 490,
+      "regularSalePrice": 490,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:27.315Z"
+    },
+    {
+      "id": 107933,
+      "productId": 95374,
+      "salePrice": 390,
+      "regularSalePrice": 410,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:02:44.753Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 338582,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 390,
+      "checkedAt": "2026-10-09T16:02:45.000Z"
+    },
+    {
+      "id": 338581,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-09T16:02:45.000Z"
+    },
+    {
+      "id": 338580,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 390,
+      "checkedAt": "2026-10-09T16:02:45.000Z"
+    },
+    {
+      "id": 293978,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293977,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    },
+    {
+      "id": 293976,
+      "productId": 95374,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-09-17T19:57:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014202",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014202",
+    "capturedAt": "2026-10-09T16:02:44.753Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 390
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 390
+      }
+    ],
+    "path": "data/other-shops/145014202.json"
+  }
+}

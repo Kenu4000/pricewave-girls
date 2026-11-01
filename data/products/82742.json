@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 82742,
+    "title": "WindowsXP/Vista/7 DVDソフト 妹が僕を狙ってる[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031736",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031736.jpg",
+    "manufacturer": "ALL-TiME",
+    "releaseDate": "2012-04-27",
+    "listPrice": 9680,
+    "modelNumber": "ALL-016",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031736001",
+      "メーカー": "ALL-TiME",
+      "発売日": "2012/04/27",
+      "定価": "9,680円",
+      "型番": "ALL-016",
+      "原画": "佐倉りお",
+      "シナリオ": "須永成人",
+      "声優": "水霧けいと\nサトウユキ\n沢代りず\nヒマリ\n南里一花",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveRegularSalePrice": "1900",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1900,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-10-09T16:01:46.694Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T16:01:46.478Z"
+  },
+  "histories": [
+    {
+      "id": 82756,
+      "productId": 82742,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:06.054Z"
+    },
+    {
+      "id": 94532,
+      "productId": 82742,
+      "salePrice": 2150,
+      "regularSalePrice": 2150,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:44:26.703Z"
+    },
+    {
+      "id": 107805,
+      "productId": 82742,
+      "salePrice": 1800,
+      "regularSalePrice": 1900,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:01:46.478Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 338158,
+      "productId": 82742,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-10-09T16:01:46.000Z"
+    },
+    {
+      "id": 338157,
+      "productId": 82742,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2011,
+      "checkedAt": "2026-10-09T16:01:46.000Z"
+    },
+    {
+      "id": 338156,
+      "productId": 82742,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1800,
+      "checkedAt": "2026-10-09T16:01:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031736",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031736",
+    "capturedAt": "2026-10-09T16:01:46.478Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1800
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1800
+      }
+    ],
+    "path": "data/other-shops/145031736.json"
+  }
+}

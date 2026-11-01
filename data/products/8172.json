@@ -1,0 +1,152 @@
+{
+  "product": {
+    "id": 8172,
+    "title": "Windows95/98/Me/2000/XP CDソフト Deliciousらんちぱっくneo",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145006862",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145006862.jpg",
+    "manufacturer": "scoop",
+    "releaseDate": "2002-08-30",
+    "listPrice": 8580,
+    "modelNumber": "HADV-0017",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145006862",
+      "メーカー": "scoop",
+      "発売日": "2002/08/30",
+      "定価": "8,580円",
+      "型番": "HADV-0017",
+      "原画": "あかふく・まろ\n白米玄\nアオキヨシト",
+      "シナリオ": "真向転結",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1800,
+    "latestRegularSalePrice": 1800,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-23T13:43:14.913Z"
+  },
+  "histories": [
+    {
+      "id": 8186,
+      "productId": 8172,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 37588,
+      "productId": 8172,
+      "salePrice": 1580,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:04:08.689Z"
+    },
+    {
+      "id": 48091,
+      "productId": 8172,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:11:14.523Z"
+    },
+    {
+      "id": 58909,
+      "productId": 8172,
+      "salePrice": 1800,
+      "regularSalePrice": 1800,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T13:43:14.913Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127847,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1800,
+      "checkedAt": "2026-08-17T16:11:14.000Z"
+    },
+    {
+      "id": 127846,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1680,
+      "checkedAt": "2026-08-17T16:11:14.000Z"
+    },
+    {
+      "id": 99161,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1800,
+      "checkedAt": "2026-08-16T01:04:08.000Z"
+    },
+    {
+      "id": 99160,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-08-16T01:04:08.000Z"
+    },
+    {
+      "id": 1397,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    },
+    {
+      "id": 1396,
+      "productId": 8172,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1800,
+      "checkedAt": "2026-08-04T17:06:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145006862",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145006862",
+    "capturedAt": "2026-08-23T13:43:14.913Z",
+    "items": [],
+    "path": "data/other-shops/145006862.json"
+  }
+}

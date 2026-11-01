@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 29163,
+    "title": "Windows10/11 DVDソフト 淫堕の姫騎士ジャンヌ2 RE：BORN",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080478",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080478.jpg",
+    "manufacturer": "catwalkNERO",
+    "releaseDate": "2024-03-29",
+    "listPrice": 8250,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080478001",
+      "メーカー": "catwalkNERO",
+      "発売日": "2024/03/29",
+      "定価": "8,250円",
+      "原画": "七彌\n木ノ碕由貴\nなかじまこんた",
+      "シナリオ": "小沢裕樹\n筑摩十幸",
+      "音楽": "吉田仁郎",
+      "声優": "星リルカ\n如月葵\n田村ナナ\n韮井叶\n金松由花\n桜城ちか",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4480,
+    "latestRegularSalePrice": 4480,
+    "latestBuyPrice": 2600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:47:34.359Z"
+  },
+  "histories": [
+    {
+      "id": 29177,
+      "productId": 29163,
+      "salePrice": 4311,
+      "regularSalePrice": 4311,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:03:59.898Z"
+    },
+    {
+      "id": 70766,
+      "productId": 29163,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 2600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:47:34.359Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 202975,
+      "productId": 29163,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4480,
+      "checkedAt": "2026-09-02T20:47:34.000Z"
+    },
+    {
+      "id": 202974,
+      "productId": 29163,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 3811,
+      "checkedAt": "2026-09-02T20:47:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080478",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080478",
+    "capturedAt": "2026-09-02T20:47:34.359Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 3811
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4480
+      }
+    ],
+    "path": "data/other-shops/145080478.json"
+  }
+}
