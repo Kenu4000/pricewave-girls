@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 106173,
+    "title": "Windows10/11 DVDソフト 淫魔淫姦 -触手と合体して思い通りにやり返す-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080993",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080993.jpg",
+    "manufacturer": "シルキーズSAKURA",
+    "releaseDate": "2024-05-31",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080993001",
+      "メーカー": "シルキーズSAKURA",
+      "発売日": "2024/05/31",
+      "定価": "4,180円",
+      "原画": "吉野恵子",
+      "シナリオ": "シャア専用◎",
+      "声優": "波野夏花\n花月さや",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3350,
+    "latestRegularSalePrice": 3350,
+    "latestBuyPrice": 1600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:18.866Z"
+  },
+  "histories": [
+    {
+      "id": 106187,
+      "productId": 106173,
+      "salePrice": 3350,
+      "regularSalePrice": 3350,
+      "buyPrice": 1600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:18.866Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333230,
+      "productId": 106173,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3350,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333229,
+      "productId": 106173,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2311,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333228,
+      "productId": 106173,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080993",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080993",
+    "capturedAt": "2026-10-08T03:12:18.866Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1980
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3350
+      }
+    ],
+    "path": "data/other-shops/145080993.json"
+  }
+}

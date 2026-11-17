@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 127155,
+    "title": "竜翼のメロディア -Diva with the blessed dragonol-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033662",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033662.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2012-09-28",
+    "listPrice": 10780,
+    "modelNumber": "WP-110",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033662001",
+      "メーカー": "Whirlpool",
+      "発売日": "2012/09/28",
+      "定価": "10,780円",
+      "型番": "WP-110",
+      "原画": "てんまそ",
+      "シナリオ": "志村那由多\n大三元\n高嶋栄二",
+      "声優": "桐谷華\n佐藤しずく\n榊原ゆい\n鮎川ひなた\n雪都さお梨",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3780,
+    "latestRegularSalePrice": 3780,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:07.726Z"
+  },
+  "histories": [
+    {
+      "id": 127169,
+      "productId": 127155,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:54.051Z"
+    },
+    {
+      "id": 128230,
+      "productId": 127155,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:07.726Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 411255,
+      "productId": 127155,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 1800,
+      "checkedAt": "2026-11-08T16:07:07.000Z"
+    },
+    {
+      "id": 408463,
+      "productId": 127155,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 外箱欠品",
+      "price": 1600,
+      "checkedAt": "2026-11-07T16:03:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

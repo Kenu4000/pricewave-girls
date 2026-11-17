@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 80738,
+    "title": "Windows2000/XP CDソフト もうすぐ夏休み!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014756.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2006-08-31",
+    "listPrice": 8381,
+    "modelNumber": "COM-0608",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014756",
+      "メーカー": "コンプリーツ",
+      "発売日": "2006/08/31",
+      "定価": "8,381円",
+      "型番": "COM-0608",
+      "原画": "まめ",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2011,
+    "latestRegularSalePrice": 2011,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-07T13:48:13.942Z"
+  },
+  "histories": [
+    {
+      "id": 80752,
+      "productId": 80738,
+      "salePrice": 2011,
+      "regularSalePrice": 2011,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:48:13.942Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014756",
+    "capturedAt": "2026-09-07T13:48:13.942Z",
+    "items": [],
+    "path": "data/other-shops/145014756.json"
+  }
+}

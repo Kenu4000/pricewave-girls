@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 71343,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 姦染 COMPLETE BOX -RECORD Of FIRST To BALLBUSTER-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037589",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037589.jpg",
+    "manufacturer": "SPEED",
+    "releaseDate": "2013-07-26",
+    "listPrice": 14080,
+    "modelNumber": "JSP-314",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145037589001",
+      "メーカー": "SPEED",
+      "発売日": "2013/07/26",
+      "定価": "14,080円",
+      "型番": "JSP-314",
+      "シナリオ": "天翔狗",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2580,
+    "latestRegularSalePrice": 2580,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:04.064Z"
+  },
+  "histories": [
+    {
+      "id": 71357,
+      "productId": 71343,
+      "salePrice": 2580,
+      "regularSalePrice": 2580,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:04.064Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204799,
+      "productId": 71343,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2580,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204798,
+      "productId": 71343,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2312,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    },
+    {
+      "id": 204797,
+      "productId": 71343,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2201,
+      "checkedAt": "2026-09-02T21:37:04.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145037589",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037589",
+    "capturedAt": "2026-09-02T21:37:04.064Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2201
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2312
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2580
+      }
+    ],
+    "path": "data/other-shops/145037589.json"
+  }
+}

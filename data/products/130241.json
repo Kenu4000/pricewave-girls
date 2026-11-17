@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 130241,
+    "title": "プレイ!プレイ!プレイ!惨 ソフマップ特典 デジタルデータ集",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037107",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037107.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2013-04-26",
+    "listPrice": null,
+    "modelNumber": "VAL-0024",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037107",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2013/04/26",
+      "型番": "VAL-0024",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T14:53:16.139Z"
+  },
+  "histories": [
+    {
+      "id": 130255,
+      "productId": 130241,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:53:16.139Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145037107",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145037107",
+    "capturedAt": "2026-11-12T14:53:16.139Z",
+    "items": [],
+    "path": "data/other-shops/145037107.json"
+  }
+}

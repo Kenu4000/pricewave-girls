@@ -1,0 +1,55 @@
+{
+  "product": {
+    "id": 120189,
+    "title": "Windows CDソフト ××な彼女のつくりかた 2 ソフマップ スペシャルインスパイアDisc 「Wピース」風衣装プラグイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033691",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033691.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2012-06-29",
+    "listPrice": null,
+    "modelNumber": "XXKJ2-SMSP",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145033691",
+      "メーカー": "KISS",
+      "発売日": "2012/06/29",
+      "型番": "XXKJ2-SMSP",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:35.287Z"
+  },
+  "histories": [
+    {
+      "id": 120203,
+      "productId": 120189,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:35.287Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145033691",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145033691",
+    "capturedAt": "2026-10-29T05:41:35.287Z",
+    "items": [],
+    "path": "data/other-shops/145033691.json"
+  }
+}

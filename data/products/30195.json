@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 30195,
+    "title": "WindowsXP/Vista/7 CDソフト お前のママをシェアしようぜ -息子へのいじめっ子達に堕される美母-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053841",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053841.jpg",
+    "manufacturer": "アパダッシュ",
+    "releaseDate": "2016-03-25",
+    "listPrice": 2750,
+    "modelNumber": "APTD-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145053841",
+      "メーカー": "アパダッシュ",
+      "発売日": "2016/03/25",
+      "定価": "2,750円",
+      "型番": "APTD-001",
+      "原画": "川合正起",
+      "シナリオ": "よこよこ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:17:14.416Z"
+  },
+  "histories": [
+    {
+      "id": 30209,
+      "productId": 30195,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:17:50.867Z"
+    },
+    {
+      "id": 38992,
+      "productId": 30195,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:16:40.758Z"
+    },
+    {
+      "id": 50286,
+      "productId": 30195,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:26:37.500Z"
+    },
+    {
+      "id": 61423,
+      "productId": 30195,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:17:14.416Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145053841",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053841",
+    "capturedAt": "2026-08-27T09:17:14.416Z",
+    "items": [],
+    "path": "data/other-shops/145053841.json"
+  }
+}

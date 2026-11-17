@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 106512,
+    "title": "Windows2000/XP/Vista DVDソフト 学淫性活ノ栞",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019066",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019066.jpg",
+    "manufacturer": "もーにんぐ",
+    "releaseDate": "2008-12-19",
+    "listPrice": 3122,
+    "modelNumber": "SEMO-007",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019066001",
+      "メーカー": "もーにんぐ",
+      "発売日": "2008/12/19",
+      "定価": "3,122円",
+      "型番": "SEMO-007",
+      "原画": "魚屋ぐれ",
+      "シナリオ": "火々野未完",
+      "声優": "舘あい\n榎津まお",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:29.937Z"
+  },
+  "histories": [
+    {
+      "id": 106526,
+      "productId": 106512,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:29.937Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333821,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    },
+    {
+      "id": 333820,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    },
+    {
+      "id": 333819,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    },
+    {
+      "id": 333818,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    },
+    {
+      "id": 333817,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 710,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    },
+    {
+      "id": 333816,
+      "productId": 106512,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 550,
+      "checkedAt": "2026-10-08T03:14:30.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145019066",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019066",
+    "capturedAt": "2026-10-08T03:14:29.937Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 550
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 710
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145019066.json"
+  }
+}

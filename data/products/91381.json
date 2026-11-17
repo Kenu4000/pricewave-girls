@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 91381,
+    "title": "Windows7/8.1/10 DVDソフト ボクと三人のお姉さま-おねえさん達と孕ませOK嫁選び同棲ライフ!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062032",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062032.jpg",
+    "manufacturer": "オーバードーズ",
+    "releaseDate": "2018-07-27",
+    "listPrice": 9680,
+    "modelNumber": "OVD-0019",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145062032001",
+      "メーカー": "オーバードーズ",
+      "発売日": "2018/07/27",
+      "定価": "9,680円",
+      "型番": "OVD-0019",
+      "原画": "スンダレぽん",
+      "シナリオ": "狩野景",
+      "声優": "有賀桃\n宮森ゆう\n羽真ちい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:22.280Z"
+  },
+  "histories": [
+    {
+      "id": 91395,
+      "productId": 91381,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:22.280Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278875,
+      "productId": 91381,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    },
+    {
+      "id": 278874,
+      "productId": 91381,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    },
+    {
+      "id": 278873,
+      "productId": 91381,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 811,
+      "checkedAt": "2026-09-14T17:28:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062032",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062032",
+    "capturedAt": "2026-09-14T17:28:22.280Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 811
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 880
+      }
+    ],
+    "path": "data/other-shops/145062032.json"
+  }
+}

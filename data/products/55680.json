@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 55680,
+    "title": "Windows10/11 DVDソフト でか乳巫女と巨乳シスター",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145084105",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145084105.jpg",
+    "manufacturer": "ももはなソフト",
+    "releaseDate": "2026-02-27",
+    "listPrice": 4378,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145084105001",
+      "メーカー": "ももはなソフト",
+      "発売日": "2026/02/27",
+      "定価": "4,378円",
+      "原画": "筆廻狂十郎",
+      "シナリオ": "土間ふぁん太",
+      "声優": "水城すい\n桐咲みこ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4550,
+    "latestRegularSalePrice": 4550,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:29:15.025Z"
+  },
+  "histories": [
+    {
+      "id": 55694,
+      "productId": 55680,
+      "salePrice": 4550,
+      "regularSalePrice": 4550,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:15.025Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150291,
+      "productId": 55680,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4550,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    },
+    {
+      "id": 150290,
+      "productId": 55680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 4911,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    },
+    {
+      "id": 150289,
+      "productId": 55680,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 4300,
+      "checkedAt": "2026-08-21T05:29:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145084105",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145084105",
+    "capturedAt": "2026-08-21T05:29:15.025Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 4300
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 4911
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4550
+      }
+    ],
+    "path": "data/other-shops/145084105.json"
+  }
+}

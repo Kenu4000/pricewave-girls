@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120205,
+    "title": "Windows2000/XP/Vista/7 DVDソフト シキタリ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026341",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026341.jpg",
+    "manufacturer": "スタジオ カメ",
+    "releaseDate": "2011-01-28",
+    "listPrice": 4180,
+    "modelNumber": "KAD-001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026341",
+      "メーカー": "スタジオ カメ",
+      "発売日": "2011/01/28",
+      "定価": "4,180円",
+      "型番": "KAD-001",
+      "原画": "あおいうめ",
+      "シナリオ": "楠家気傘",
+      "声優": "古天条花寿乃\n大葉じゅん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:40.978Z"
+  },
+  "histories": [
+    {
+      "id": 120219,
+      "productId": 120205,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:40.978Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026341",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026341",
+    "capturedAt": "2026-10-29T05:41:40.978Z",
+    "items": [],
+    "path": "data/other-shops/145026341.json"
+  }
+}

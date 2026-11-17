@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 129243,
+    "title": "美衣菜△です!(みいなさん、かっけーです!)-Loveイチャ同居生活のススメ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145027517",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145027517.jpg",
+    "manufacturer": "FIANCEE",
+    "releaseDate": "2011-05-27",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145027517",
+      "メーカー": "FIANCEE",
+      "発売日": "2011/05/27",
+      "定価": "9,680円",
+      "原画": "神月いつか",
+      "声優": "椎那天",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-09T16:52:19.179Z"
+  },
+  "histories": [
+    {
+      "id": 129257,
+      "productId": 129243,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:19.179Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145027517",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145027517",
+    "capturedAt": "2026-11-09T16:52:19.179Z",
+    "items": [],
+    "path": "data/other-shops/145027517.json"
+  }
+}

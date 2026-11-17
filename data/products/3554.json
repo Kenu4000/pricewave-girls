@@ -1,0 +1,163 @@
+{
+  "product": {
+    "id": 3554,
+    "title": "Windows7/8/10 DVDソフト 催眠即ヤリ学園 勝気副会長・肉便器調教編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059368",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059368.jpg",
+    "manufacturer": "ZION",
+    "releaseDate": "2017-11-24",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059368001",
+      "メーカー": "ZION",
+      "発売日": "2017/11/24",
+      "定価": "3,080円",
+      "原画": "ちくび\n草郎",
+      "シナリオ": "ハインライン座尾",
+      "声優": "西川高音\n谷山ちよ\n風花ましろ\n伊藤瞳子",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1950,
+    "latestRegularSalePrice": 1950,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T16:09:03.228Z"
+  },
+  "histories": [
+    {
+      "id": 3568,
+      "productId": 3554,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:43:16.000Z"
+    },
+    {
+      "id": 26732,
+      "productId": 3554,
+      "salePrice": 1900,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T21:36:46.633Z"
+    },
+    {
+      "id": 37295,
+      "productId": 3554,
+      "salePrice": 1900,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:01:32.889Z"
+    },
+    {
+      "id": 47857,
+      "productId": 3554,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T16:09:03.228Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 127110,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1950,
+      "checkedAt": "2026-08-17T16:09:03.000Z"
+    },
+    {
+      "id": 127109,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1801,
+      "checkedAt": "2026-08-17T16:09:03.000Z"
+    },
+    {
+      "id": 98160,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-16T01:01:33.000Z"
+    },
+    {
+      "id": 98159,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1801,
+      "checkedAt": "2026-08-16T01:01:33.000Z"
+    },
+    {
+      "id": 65722,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-08-09T21:36:46.000Z"
+    },
+    {
+      "id": 65721,
+      "productId": 3554,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1801,
+      "checkedAt": "2026-08-09T21:36:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059368",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059368",
+    "capturedAt": "2026-08-17T16:09:03.228Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1801
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1950
+      }
+    ],
+    "path": "data/other-shops/145059368.json"
+  }
+}

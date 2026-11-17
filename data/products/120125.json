@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 120125,
+    "title": "Windows DVDソフト 幕末 尽忠報国烈士伝 MIBURO [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060868",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060868.jpg",
+    "manufacturer": "インレ",
+    "releaseDate": "2018-02-23",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145060868001",
+      "メーカー": "インレ",
+      "発売日": "2018/02/23",
+      "定価": "9,680円",
+      "原画": "ひっさつくん\nぬい",
+      "シナリオ": "葉山こよーて",
+      "声優": "民安ともえ\n一色ヒカル\n北都南\n藤咲ウサ\n沢澤砂羽\n三代眞子\n飴川紫乃\n秋野花\n神代岬\n桃山いおん\n浅野ゆず\n二階堂ちか\n有栖川みや美\n風音\n一条和矢\n上田朱音\n手塚りょうこ\n彩瀬ゆり\n陸奥出流\nヒマリ\nかわしまりの\n奏雨\n七瀬こより\n今谷皆美\n歩サラ\nそよかぜみらい\n杏子御津\n藤森ゆき奈\n水野七海\n萌花ちょこ\n黛希和\n唯香\n橘まお\nひむろゆり\n杉原茉莉\n佐藤千幸\nもり犬輔\nあじ秋刀魚\n椨もんじゃ\n野☆球\n片倉慶\n工藤怜士\n炒飯ピラフ\n桃井いちご\n御苑生メイ\n上原あおい\n蒼原千佳\n海原エレナ\n大宮若葉\n春河あかり",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3650,
+    "latestRegularSalePrice": 3650,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:10.909Z"
+  },
+  "histories": [
+    {
+      "id": 120139,
+      "productId": 120125,
+      "salePrice": 3650,
+      "regularSalePrice": 3650,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:10.909Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384424,
+      "productId": 120125,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3650,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    },
+    {
+      "id": 384423,
+      "productId": 120125,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 2550,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060868",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060868",
+    "capturedAt": "2026-10-29T05:41:10.909Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 2550
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3650
+      }
+    ],
+    "path": "data/other-shops/145060868.json"
+  }
+}

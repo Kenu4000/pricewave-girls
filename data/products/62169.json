@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62169,
+    "title": "Windows98/Me/XP/Vista/7 DVDソフト 花町物語[廉価版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023728",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023728.jpg",
+    "manufacturer": "VividColor",
+    "releaseDate": "2010-04-30",
+    "listPrice": 3300,
+    "modelNumber": "VC-004",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023728",
+      "メーカー": "VividColor",
+      "発売日": "2010/04/30",
+      "定価": "3,300円",
+      "型番": "VC-004",
+      "声優": "檜山修之\n緑川光\n森川智之\nプログレス\n福山潤\n小西克幸\n成田剣",
+      "原画": "タカツキノボル",
+      "シナリオ": "椎名理生\n柳家保名",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1260,
+    "latestRegularSalePrice": 1260,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:32.355Z"
+  },
+  "histories": [
+    {
+      "id": 62183,
+      "productId": 62169,
+      "salePrice": 1260,
+      "regularSalePrice": 1260,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:48.511Z"
+    },
+    {
+      "id": 62847,
+      "productId": 62169,
+      "salePrice": 1260,
+      "regularSalePrice": 1260,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:48.088Z"
+    },
+    {
+      "id": 64641,
+      "productId": 62169,
+      "salePrice": 1260,
+      "regularSalePrice": 1260,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:32.355Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145023728",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023728",
+    "capturedAt": "2026-08-29T01:13:32.355Z",
+    "items": [],
+    "path": "data/other-shops/145023728.json"
+  }
+}

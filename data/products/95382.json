@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 95382,
+    "title": "Windows98/Me/2000/XP CDソフト 洗濯屋しんちゃん",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014147",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014147.jpg",
+    "manufacturer": "BLACK PACKAGE",
+    "releaseDate": "2006-04-14",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014147",
+      "メーカー": "BLACK PACKAGE",
+      "発売日": "2006/04/14",
+      "定価": "9,680円",
+      "原画": "大越秀武",
+      "シナリオ": "楠ゆういち\nなかぢ",
+      "声優": "楠鈴音\n紫苑みやび\n一色ヒカル\n飯田空",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2166,
+    "latestRegularSalePrice": 2166,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:30.594Z"
+  },
+  "histories": [
+    {
+      "id": 95396,
+      "productId": 95382,
+      "salePrice": 2166,
+      "regularSalePrice": 2166,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:30.594Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014147",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014147",
+    "capturedAt": "2026-09-17T19:57:30.594Z",
+    "items": [],
+    "path": "data/other-shops/145014147.json"
+  }
+}

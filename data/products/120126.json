@@ -1,0 +1,113 @@
+{
+  "product": {
+    "id": 120126,
+    "title": "Windows7/8/8.1/10 DVDソフト Triangle Complete Disc 5",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059860",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059860.jpg",
+    "manufacturer": "Triangle",
+    "releaseDate": "2017-12-22",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059860001",
+      "メーカー": "Triangle",
+      "発売日": "2017/12/22",
+      "定価": "9,680円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 3450,
+    "latestRegularSalePrice": 3450,
+    "latestBuyPrice": 2200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:11.072Z"
+  },
+  "histories": [
+    {
+      "id": 120140,
+      "productId": 120126,
+      "salePrice": 3450,
+      "regularSalePrice": 3450,
+      "buyPrice": 2200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:11.072Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384428,
+      "productId": 120126,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3450,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    },
+    {
+      "id": 384427,
+      "productId": 120126,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 4980,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    },
+    {
+      "id": 384426,
+      "productId": 120126,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3700,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    },
+    {
+      "id": 384425,
+      "productId": 120126,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 3211,
+      "checkedAt": "2026-10-29T05:41:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059860",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059860",
+    "capturedAt": "2026-10-29T05:41:11.072Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 3211
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3700
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 4980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3450
+      }
+    ],
+    "path": "data/other-shops/145059860.json"
+  }
+}

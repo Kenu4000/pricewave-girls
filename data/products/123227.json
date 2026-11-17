@@ -1,0 +1,335 @@
+{
+  "product": {
+    "id": 123227,
+    "title": "終末の過ごし方",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145002089",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145002089.jpg",
+    "manufacturer": "アボガドパワーズ",
+    "releaseDate": "1999-04-09",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145002089",
+      "メーカー": "アボガドパワーズ",
+      "発売日": "1999/04/09",
+      "定価": "8,580円",
+      "原画": "小池定路",
+      "シナリオ": "大槻涼樹",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145002089?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1700,
+    "stockStatus": "out_of_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:55.140Z"
+  },
+  "histories": [
+    {
+      "id": 123241,
+      "productId": 123227,
+      "salePrice": 910,
+      "regularSalePrice": 910,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:20.191Z"
+    },
+    {
+      "id": 124207,
+      "productId": 123227,
+      "salePrice": 750,
+      "regularSalePrice": 910,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:05:49.239Z"
+    },
+    {
+      "id": 125167,
+      "productId": 123227,
+      "salePrice": 910,
+      "regularSalePrice": 910,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T16:06:21.064Z"
+    },
+    {
+      "id": 126127,
+      "productId": 123227,
+      "salePrice": 910,
+      "regularSalePrice": 910,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-06T01:07:03.423Z"
+    },
+    {
+      "id": 127088,
+      "productId": 123227,
+      "salePrice": 750,
+      "regularSalePrice": 910,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:53:07.536Z"
+    },
+    {
+      "id": 128196,
+      "productId": 123227,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1700,
+      "stockStatus": "out_of_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:55.140Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 411218,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-08T16:06:55.000Z"
+    },
+    {
+      "id": 411217,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-08T16:06:55.000Z"
+    },
+    {
+      "id": 408334,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-11-07T15:53:07.000Z"
+    },
+    {
+      "id": 408333,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-07T15:53:07.000Z"
+    },
+    {
+      "id": 408332,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-07T15:53:07.000Z"
+    },
+    {
+      "id": 408331,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-11-07T15:53:07.000Z"
+    },
+    {
+      "id": 405473,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-06T01:07:03.000Z"
+    },
+    {
+      "id": 405472,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-06T01:07:03.000Z"
+    },
+    {
+      "id": 405471,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-06T01:07:03.000Z"
+    },
+    {
+      "id": 405470,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-06T01:07:03.000Z"
+    },
+    {
+      "id": 401742,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-04T16:06:21.000Z"
+    },
+    {
+      "id": 401741,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-04T16:06:21.000Z"
+    },
+    {
+      "id": 401740,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-04T16:06:21.000Z"
+    },
+    {
+      "id": 401739,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-04T16:06:21.000Z"
+    },
+    {
+      "id": 398571,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-11-04T05:05:49.000Z"
+    },
+    {
+      "id": 398570,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-04T05:05:49.000Z"
+    },
+    {
+      "id": 398569,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-04T05:05:49.000Z"
+    },
+    {
+      "id": 398568,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古ディスクのみ",
+      "price": 750,
+      "checkedAt": "2026-11-04T05:05:49.000Z"
+    },
+    {
+      "id": 395020,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-03T13:17:20.000Z"
+    },
+    {
+      "id": 395019,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 七ッ島店",
+      "condition": "中古ランクB",
+      "price": 3600,
+      "checkedAt": "2026-11-03T13:17:20.000Z"
+    },
+    {
+      "id": 395018,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 3600,
+      "checkedAt": "2026-11-03T13:17:20.000Z"
+    },
+    {
+      "id": 395017,
+      "productId": 123227,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古ディスクのみ",
+      "price": 910,
+      "checkedAt": "2026-11-03T13:17:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145002089",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145002089",
+    "capturedAt": "2026-11-08T16:06:55.140Z",
+    "items": [
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 3600
+      },
+      {
+        "storeName": "駿河屋 七ッ島店",
+        "condition": "中古ランクB",
+        "price": 3600
+      }
+    ],
+    "path": "data/other-shops/145002089.json"
+  }
+}

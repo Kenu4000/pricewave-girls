@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 41014,
+    "title": "Windows DVDソフト あま妹! -甘えん坊でぐーたらな妹のえっちな誘惑-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062858",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062858.jpg",
+    "manufacturer": "マウントポジション",
+    "releaseDate": "2018-09-28",
+    "listPrice": 3080,
+    "modelNumber": "ASPC-0085",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145062858",
+      "メーカー": "マウントポジション",
+      "発売日": "2018/09/28",
+      "定価": "3,080円",
+      "型番": "ASPC-0085",
+      "原画": "かん奈",
+      "シナリオ": "づか",
+      "声優": "花寺香蓮",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:52.812Z"
+  },
+  "histories": [
+    {
+      "id": 41028,
+      "productId": 41014,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:05.367Z"
+    },
+    {
+      "id": 52382,
+      "productId": 41014,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T15:34:52.285Z"
+    },
+    {
+      "id": 63757,
+      "productId": 41014,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:52.812Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178473,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1350,
+      "checkedAt": "2026-08-27T16:11:53.000Z"
+    },
+    {
+      "id": 178472,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-27T16:11:53.000Z"
+    },
+    {
+      "id": 140402,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1350,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    },
+    {
+      "id": 140401,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-19T15:34:52.000Z"
+    },
+    {
+      "id": 106716,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1350,
+      "checkedAt": "2026-08-17T06:58:06.000Z"
+    },
+    {
+      "id": 106715,
+      "productId": 41014,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-08-17T06:58:06.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145062858",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062858",
+    "capturedAt": "2026-08-27T16:11:52.812Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145062858.json"
+  }
+}

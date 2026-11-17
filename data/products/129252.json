@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 129252,
+    "title": "夢見白書",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018012",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018012.jpg",
+    "manufacturer": "H℃(エイチドシー)",
+    "releaseDate": "2008-06-27",
+    "listPrice": 9680,
+    "modelNumber": "HDOC-003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145018012",
+      "メーカー": "H℃(エイチドシー)",
+      "発売日": "2008/06/27",
+      "定価": "9,680円",
+      "型番": "HDOC-003",
+      "原画": "ねみぎつかさ",
+      "シナリオ": "木村ころや",
+      "声優": "Yuki-Lin\n秋月まい\n五行なずな\n榊るな\n大花どん\n杉浦さつき\n天乃そら\n本山美奈",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1600,
+    "latestRegularSalePrice": 1600,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-09T16:52:23.429Z"
+  },
+  "histories": [
+    {
+      "id": 129266,
+      "productId": 129252,
+      "salePrice": 1600,
+      "regularSalePrice": 1600,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:23.429Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145018012",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018012",
+    "capturedAt": "2026-11-09T16:52:23.429Z",
+    "items": [],
+    "path": "data/other-shops/145018012.json"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 120248,
+    "title": "Windows98/Me/2000/XP CDソフト 人妻旅館",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014351",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014351.jpg",
+    "manufacturer": "Liebe",
+    "releaseDate": "2006-05-26",
+    "listPrice": 4180,
+    "modelNumber": "ZPG-4001",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014351",
+      "メーカー": "Liebe",
+      "発売日": "2006/05/26",
+      "定価": "4,180円",
+      "型番": "ZPG-4001",
+      "原画": "浅黄りお",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2600,
+    "latestRegularSalePrice": 2600,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:58.171Z"
+  },
+  "histories": [
+    {
+      "id": 120262,
+      "productId": 120248,
+      "salePrice": 2600,
+      "regularSalePrice": 2600,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:58.171Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014351",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014351",
+    "capturedAt": "2026-10-29T05:41:58.171Z",
+    "items": [],
+    "path": "data/other-shops/145014351.json"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 127161,
+    "title": "蒼天のセレナリア -What a beautiful world- Full voice ReBORN",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030648",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030648.jpg",
+    "manufacturer": "ライアーソフト",
+    "releaseDate": "2011-12-22",
+    "listPrice": 4180,
+    "modelNumber": "BPFULL-036",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145030648",
+      "メーカー": "ライアーソフト",
+      "発売日": "2011/12/22",
+      "定価": "4,180円",
+      "型番": "BPFULL-036",
+      "原画": "護国卿",
+      "シナリオ": "桜井光",
+      "声優": "歌織\n野月まひる\n金田まひる\n西田こむぎ\nかわしまりの",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:10.868Z"
+  },
+  "histories": [
+    {
+      "id": 127175,
+      "productId": 127161,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:55.494Z"
+    },
+    {
+      "id": 128233,
+      "productId": 127161,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:10.868Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145030648",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030648",
+    "capturedAt": "2026-11-08T16:07:10.868Z",
+    "items": [],
+    "path": "data/other-shops/145030648.json"
+  }
+}

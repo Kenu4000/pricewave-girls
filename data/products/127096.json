@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 127096,
+    "title": "爆乳ナース調教 -夜姦シフト悦楽カルテ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145074967",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145074967.jpg",
+    "manufacturer": "エレクトリップ",
+    "releaseDate": "2022-06-24",
+    "listPrice": 5445,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145074967001",
+      "メーカー": "エレクトリップ",
+      "発売日": "2022/06/24",
+      "定価": "5,445円",
+      "原画": "高橋レコード",
+      "シナリオ": "天城悠理",
+      "音楽": "オフィス山根22",
+      "声優": "遥香\n綾音まこ\n蒼乃むすび\n花安未羽",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2650,
+    "latestRegularSalePrice": 2650,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:23.139Z"
+  },
+  "histories": [
+    {
+      "id": 127110,
+      "productId": 127096,
+      "salePrice": 2650,
+      "regularSalePrice": 2650,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:23.139Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408363,
+      "productId": 127096,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2650,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408362,
+      "productId": 127096,
+      "sourceType": "other_shop",
+      "storeName": "21世紀書房",
+      "condition": "中古(状態：良い)",
+      "price": 3580,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408361,
+      "productId": 127096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 2077,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408360,
+      "productId": 127096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2412,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408359,
+      "productId": 127096,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 2077,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145074967",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145074967",
+    "capturedAt": "2026-11-07T16:03:23.139Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 2077
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2412
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 2077
+      },
+      {
+        "storeName": "21世紀書房",
+        "condition": "中古(状態：良い)",
+        "price": 3580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2650
+      }
+    ],
+    "path": "data/other-shops/145074967.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 127130,
+    "title": "ママしぼり^3の事情",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054510",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054510.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2016-05-27",
+    "listPrice": 5060,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145054510",
+      "メーカー": "コンプリーツ",
+      "発売日": "2016/05/27",
+      "定価": "5,060円",
+      "原画": "本田直樹",
+      "シナリオ": "こごめさくら\n逆神紅夜",
+      "声優": "鳥井紅子\n梅乃ちえり\n田中理々\n薫子",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 590,
+    "latestRegularSalePrice": 590,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:04.557Z"
+  },
+  "histories": [
+    {
+      "id": 127144,
+      "productId": 127130,
+      "salePrice": 590,
+      "regularSalePrice": 590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:42.484Z"
+    },
+    {
+      "id": 128220,
+      "productId": 127130,
+      "salePrice": 590,
+      "regularSalePrice": 590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:04.557Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054510",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054510",
+    "capturedAt": "2026-11-08T16:07:04.557Z",
+    "items": [],
+    "path": "data/other-shops/145054510.json"
+  }
+}

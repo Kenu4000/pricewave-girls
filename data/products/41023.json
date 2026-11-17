@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 41023,
+    "title": "Windows7 DVDソフト Best Windows 禁断の病棟",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057730",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057730.jpg",
+    "manufacturer": "アトリエかぐや",
+    "releaseDate": "2017-04-21",
+    "listPrice": 3278,
+    "modelNumber": "BW-0001",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145057730",
+      "メーカー": "アトリエかぐや",
+      "発売日": "2017/04/21",
+      "定価": "3,278円",
+      "型番": "BW-0001",
+      "シナリオ": "なかぢ\n神無月ニトロ\nひらいでらく\nleimonZ\n霧島へるん\n泉教\nすまっしゅぱんだ\n七央結日",
+      "原画": "M&M",
+      "声優": "岩泉まい\nみる\n花南\n萌木唯\nももぞの薫\n春日アン\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5980,
+    "latestRegularSalePrice": 5980,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:11:55.497Z"
+  },
+  "histories": [
+    {
+      "id": 41037,
+      "productId": 41023,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:07.767Z"
+    },
+    {
+      "id": 52785,
+      "productId": 41023,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:18:41.693Z"
+    },
+    {
+      "id": 63763,
+      "productId": 41023,
+      "salePrice": 5980,
+      "regularSalePrice": 5980,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:11:55.497Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057730",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057730",
+    "capturedAt": "2026-08-27T16:11:55.497Z",
+    "items": [],
+    "path": "data/other-shops/145057730.json"
+  }
+}

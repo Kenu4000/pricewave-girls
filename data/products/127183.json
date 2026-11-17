@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 127183,
+    "title": "かてきょ～らいふ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020632",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020632.jpg",
+    "manufacturer": "Potage（ポタージュ）",
+    "releaseDate": "2009-07-31",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145020632001",
+      "メーカー": "Potage（ポタージュ）",
+      "発売日": "2009/07/31",
+      "定価": "9,680円",
+      "原画": "鳴滝しん\nぎんぱち",
+      "シナリオ": "百合倉かえで",
+      "声優": "五条小夜\n芹園みや\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 550,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:04:03.529Z"
+  },
+  "histories": [
+    {
+      "id": 127197,
+      "productId": 127183,
+      "salePrice": 550,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:03.529Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408512,
+      "productId": 127183,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-11-07T16:04:03.000Z"
+    },
+    {
+      "id": 408511,
+      "productId": 127183,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-11-07T16:04:03.000Z"
+    },
+    {
+      "id": 408510,
+      "productId": 127183,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-11-07T16:04:03.000Z"
+    },
+    {
+      "id": 408509,
+      "productId": 127183,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 550,
+      "checkedAt": "2026-11-07T16:04:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145020632",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020632",
+    "capturedAt": "2026-11-07T16:04:03.529Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 550
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1200
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 550
+      }
+    ],
+    "path": "data/other-shops/145020632.json"
+  }
+}

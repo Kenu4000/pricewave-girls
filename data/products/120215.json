@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 120215,
+    "title": "Windows CDソフト 孕ノ胤 -緋沙子の章- お返しディスク",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025045",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025045.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2010-02-12",
+    "listPrice": null,
+    "modelNumber": "TB-041R",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145025045001",
+      "メーカー": "TinkerBell",
+      "発売日": "2010/02/12",
+      "型番": "TB-041R",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6880,
+    "latestRegularSalePrice": 6880,
+    "latestBuyPrice": 4200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:46.484Z"
+  },
+  "histories": [
+    {
+      "id": 120229,
+      "productId": 120215,
+      "salePrice": 6880,
+      "regularSalePrice": 6880,
+      "buyPrice": 4200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:46.484Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384529,
+      "productId": 120215,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 6880,
+      "checkedAt": "2026-10-29T05:41:46.000Z"
+    },
+    {
+      "id": 384528,
+      "productId": 120215,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古",
+      "price": 6520,
+      "checkedAt": "2026-10-29T05:41:46.000Z"
+    },
+    {
+      "id": 384527,
+      "productId": 120215,
+      "sourceType": "other_shop",
+      "storeName": "圧倒的高価買取センター",
+      "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+      "price": 6520,
+      "checkedAt": "2026-10-29T05:41:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025045",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025045",
+    "capturedAt": "2026-10-29T05:41:46.484Z",
+    "items": [
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古（3～5日以内に発送可）（併売品等で品切れの場合あり）",
+        "price": 6520
+      },
+      {
+        "storeName": "圧倒的高価買取センター",
+        "condition": "中古",
+        "price": 6520
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 6880
+      }
+    ],
+    "path": "data/other-shops/145025045.json"
+  }
+}

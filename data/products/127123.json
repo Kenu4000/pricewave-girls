@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 127123,
+    "title": "営業部第4課 牝豚調教飼育係",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057989",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057989.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2017-06-23",
+    "listPrice": 5280,
+    "modelNumber": "UBAI-005",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057989001",
+      "メーカー": "スタジオ奪",
+      "発売日": "2017/06/23",
+      "定価": "5,280円",
+      "型番": "UBAI-005",
+      "シナリオ": "剣祐名\n池かなた\n高尾登山\n伊豆平成2号\n栗山トリス",
+      "声優": "東かりん\n奥川久美子\n中家志穂\nこたつみやこ\n花南\n御苑生メイ",
+      "原画": "もんぷち",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3150,
+    "latestRegularSalePrice": 3150,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:39.596Z"
+  },
+  "histories": [
+    {
+      "id": 127137,
+      "productId": 127123,
+      "salePrice": 3150,
+      "regularSalePrice": 3150,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:39.596Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408413,
+      "productId": 127123,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3150,
+      "checkedAt": "2026-11-07T16:03:39.000Z"
+    },
+    {
+      "id": 408412,
+      "productId": 127123,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 4580,
+      "checkedAt": "2026-11-07T16:03:39.000Z"
+    },
+    {
+      "id": 408411,
+      "productId": 127123,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2900,
+      "checkedAt": "2026-11-07T16:03:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057989",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057989",
+    "capturedAt": "2026-11-07T16:03:39.596Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2900
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 4580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3150
+      }
+    ],
+    "path": "data/other-shops/145057989.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 120134,
+    "title": "Windows7/8/8.1/10 DVDソフト 白濁娘 -気になるあの娘にマーキング-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059107",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059107.jpg",
+    "manufacturer": "ノアールソフト",
+    "releaseDate": "2017-10-27",
+    "listPrice": 7480,
+    "modelNumber": "NRS-009",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059107001",
+      "メーカー": "ノアールソフト",
+      "発売日": "2017/10/27",
+      "定価": "7,480円",
+      "型番": "NRS-009",
+      "原画": "備後伯爵",
+      "シナリオ": "幽霊テロップ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:14.175Z"
+  },
+  "histories": [
+    {
+      "id": 120148,
+      "productId": 120134,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:14.175Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384446,
+      "productId": 120134,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-10-29T05:41:14.000Z"
+    },
+    {
+      "id": 384445,
+      "productId": 120134,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1930,
+      "checkedAt": "2026-10-29T05:41:14.000Z"
+    },
+    {
+      "id": 384444,
+      "productId": 120134,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-10-29T05:41:14.000Z"
+    },
+    {
+      "id": 384443,
+      "productId": 120134,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-10-29T05:41:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059107",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059107",
+    "capturedAt": "2026-10-29T05:41:14.175Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1930
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145059107.json"
+  }
+}

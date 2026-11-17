@@ -1,0 +1,102 @@
+{
+  "product": {
+    "id": 95389,
+    "title": "Windows98/Me/2000/XP DVDソフト 妻みっくす [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014057",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014057.jpg",
+    "manufacturer": "Selen",
+    "releaseDate": "2006-03-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014057001",
+      "メーカー": "Selen",
+      "発売日": "2006/03/24",
+      "定価": "9,680円",
+      "原画": "カワギシケイタロウ\n奥間まさみ",
+      "声優": "みすみ\n北都南\n岩田由貴\n木村あやか",
+      "シナリオ": "松原和也\nジョージ・カシハラ\n矢獲\n緒莉",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:34.945Z"
+  },
+  "histories": [
+    {
+      "id": 95403,
+      "productId": 95389,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:34.945Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293997,
+      "productId": 95389,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    },
+    {
+      "id": 293996,
+      "productId": 95389,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1411,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    },
+    {
+      "id": 293995,
+      "productId": 95389,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 1310,
+      "checkedAt": "2026-09-17T19:57:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014057",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014057",
+    "capturedAt": "2026-09-17T19:57:34.945Z",
+    "items": [
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 1310
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145014057.json"
+  }
+}

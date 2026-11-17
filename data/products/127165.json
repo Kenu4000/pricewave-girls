@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 127165,
+    "title": "ツマ×ヘヴン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028720",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028720.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2011-07-15",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028720",
+      "メーカー": "コンプリーツ",
+      "発売日": "2011/07/15",
+      "定価": "9,680円",
+      "原画": "TATSU屋",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 590,
+    "latestRegularSalePrice": 590,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:12.032Z"
+  },
+  "histories": [
+    {
+      "id": 127179,
+      "productId": 127165,
+      "salePrice": 590,
+      "regularSalePrice": 590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:56.534Z"
+    },
+    {
+      "id": 128235,
+      "productId": 127165,
+      "salePrice": 590,
+      "regularSalePrice": 590,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:12.032Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028720",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028720",
+    "capturedAt": "2026-11-08T16:07:12.032Z",
+    "items": [],
+    "path": "data/other-shops/145028720.json"
+  }
+}

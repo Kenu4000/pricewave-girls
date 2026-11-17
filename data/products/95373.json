@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 95373,
+    "title": "Windows98/Me/2000/XP DVDソフト レイプレイ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014155",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014155.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2006-04-21",
+    "listPrice": 9680,
+    "modelNumber": "ILN-070",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014155",
+      "メーカー": "ILLUSION",
+      "発売日": "2006/04/21",
+      "定価": "9,680円",
+      "型番": "ILN-070",
+      "声優": "和葉\n榎津まお\nまきいずみ\n歌織",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 150000,
+    "latestRegularSalePrice": 150000,
+    "latestBuyPrice": 5000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:27.301Z"
+  },
+  "histories": [
+    {
+      "id": 95387,
+      "productId": 95373,
+      "salePrice": 150000,
+      "regularSalePrice": 150000,
+      "buyPrice": 5000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:27.301Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014155",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014155",
+    "capturedAt": "2026-09-17T19:57:27.301Z",
+    "items": [],
+    "path": "data/other-shops/145014155.json"
+  }
+}

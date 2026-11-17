@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 127118,
+    "title": "姦落のアリーナ -淫欲のデスマッチ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145059615",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145059615.jpg",
+    "manufacturer": "ARMADILLO",
+    "releaseDate": "2017-12-22",
+    "listPrice": 3850,
+    "modelNumber": "MGGW0195",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145059615001",
+      "メーカー": "ARMADILLO",
+      "発売日": "2017/12/22",
+      "定価": "3,850円",
+      "型番": "MGGW0195",
+      "原画": "ひなづか凉",
+      "シナリオ": "天翔狗",
+      "声優": "櫻井ありす\n長瀬ゆずは",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:38.643Z"
+  },
+  "histories": [
+    {
+      "id": 127132,
+      "productId": 127118,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:38.643Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408410,
+      "productId": 127118,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-11-07T16:03:38.000Z"
+    },
+    {
+      "id": 408409,
+      "productId": 127118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-11-07T16:03:38.000Z"
+    },
+    {
+      "id": 408408,
+      "productId": 127118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 895,
+      "checkedAt": "2026-11-07T16:03:38.000Z"
+    },
+    {
+      "id": 408407,
+      "productId": 127118,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 895,
+      "checkedAt": "2026-11-07T16:03:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145059615",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145059615",
+    "capturedAt": "2026-11-07T16:03:38.643Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 895
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 895
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145059615.json"
+  }
+}

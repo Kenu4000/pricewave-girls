@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 91466,
+    "title": "Windows2000/XP/Vista/7 CDソフト 感染って発情アクメ菌! -精にまみれた女学園-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024280",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024280.jpg",
+    "manufacturer": "softhouse-seal",
+    "releaseDate": "2010-06-25",
+    "listPrice": 2200,
+    "modelNumber": "SEA-030",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024280001",
+      "メーカー": "softhouse-seal",
+      "発売日": "2010/06/25",
+      "定価": "2,200円",
+      "型番": "SEA-030",
+      "原画": "さがらいせ",
+      "声優": "のらのねこ\n早乙女碧\n沢代りず\n豊ノ加いちご\n春河あかり",
+      "シナリオ": "遊真一希",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 680,
+    "latestRegularSalePrice": 680,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:53.735Z"
+  },
+  "histories": [
+    {
+      "id": 91480,
+      "productId": 91466,
+      "salePrice": 680,
+      "regularSalePrice": 680,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:53.735Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279076,
+      "productId": 91466,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 680,
+      "checkedAt": "2026-09-14T17:28:54.000Z"
+    },
+    {
+      "id": 279075,
+      "productId": 91466,
+      "sourceType": "other_shop",
+      "storeName": "ブックジョイ韮崎竜岡店",
+      "condition": "中古通常",
+      "price": 1100,
+      "checkedAt": "2026-09-14T17:28:54.000Z"
+    },
+    {
+      "id": 279074,
+      "productId": 91466,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:28:54.000Z"
+    },
+    {
+      "id": 279073,
+      "productId": 91466,
+      "sourceType": "other_shop",
+      "storeName": "ジェット書店",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-09-14T17:28:54.000Z"
+    },
+    {
+      "id": 279072,
+      "productId": 91466,
+      "sourceType": "other_shop",
+      "storeName": "ジェット書店",
+      "condition": "中古：状態良好",
+      "price": 500,
+      "checkedAt": "2026-09-14T17:28:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024280",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024280",
+    "capturedAt": "2026-09-14T17:28:53.735Z",
+    "items": [
+      {
+        "storeName": "ジェット書店",
+        "condition": "中古：状態良好",
+        "price": 500
+      },
+      {
+        "storeName": "ジェット書店",
+        "condition": "中古",
+        "price": 500
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックジョイ韮崎竜岡店",
+        "condition": "中古通常",
+        "price": 1100
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 680
+      }
+    ],
+    "path": "data/other-shops/145024280.json"
+  }
+}

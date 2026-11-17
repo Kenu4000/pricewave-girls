@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 95421,
+    "title": "Windows98/Me/2000/XP DVDソフト シャマナ シャマナ ～月とこころと太陽の魔法～ [リパッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014053",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014053.jpg",
+    "manufacturer": "キャラメルBOX",
+    "releaseDate": "2006-03-17",
+    "listPrice": 5280,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014053001",
+      "メーカー": "キャラメルBOX",
+      "発売日": "2006/03/17",
+      "定価": "5,280円",
+      "原画": "のり太",
+      "シナリオ": "ほしまる",
+      "音楽": "ZIZZ",
+      "声優": "あおいひとみ\nありす\n籐野らん\n北都南\n海原エレナ\n神村ひな\n芹園みや",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "550",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 490,
+    "latestRegularSalePrice": 550,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-04T04:59:57.115Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-04T04:59:56.892Z"
+  },
+  "histories": [
+    {
+      "id": 95435,
+      "productId": 95421,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-19T13:53:45.243Z"
+    },
+    {
+      "id": 109524,
+      "productId": 95421,
+      "salePrice": 280,
+      "regularSalePrice": 280,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "/外箱に日焼け有",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-12T16:00:16.676Z"
+    },
+    {
+      "id": 123322,
+      "productId": 95421,
+      "salePrice": 490,
+      "regularSalePrice": 550,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T04:59:56.892Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 395265,
+      "productId": 95421,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 490,
+      "checkedAt": "2026-11-04T04:59:57.000Z"
+    },
+    {
+      "id": 395264,
+      "productId": 95421,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-04T04:59:57.000Z"
+    },
+    {
+      "id": 395263,
+      "productId": 95421,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 280,
+      "checkedAt": "2026-11-04T04:59:57.000Z"
+    },
+    {
+      "id": 395262,
+      "productId": 95421,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 280,
+      "checkedAt": "2026-11-04T04:59:57.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014053",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014053",
+    "capturedAt": "2026-11-04T04:59:56.892Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 280
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 490
+      }
+    ],
+    "path": "data/other-shops/145014053.json"
+  }
+}

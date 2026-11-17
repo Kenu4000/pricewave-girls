@@ -1,0 +1,164 @@
+{
+  "product": {
+    "id": 127111,
+    "title": "カスタムオーダーメイド3D2 キャラクターパック 小動物系ふわふわ妹",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066608",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066608.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2019-11-29",
+    "listPrice": 4359,
+    "modelNumber": "KISS-111",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066608001",
+      "メーカー": "KISS",
+      "発売日": "2019/11/29",
+      "定価": "4,359円",
+      "型番": "KISS-111",
+      "声優": "八尋まみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2550,
+    "latestRegularSalePrice": 2550,
+    "latestBuyPrice": 1400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:04.263Z"
+  },
+  "histories": [
+    {
+      "id": 127125,
+      "productId": 127111,
+      "salePrice": 2550,
+      "regularSalePrice": 2550,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:32.034Z"
+    },
+    {
+      "id": 128217,
+      "productId": 127111,
+      "salePrice": 2550,
+      "regularSalePrice": 2550,
+      "buyPrice": 1400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:04.263Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 411241,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2550,
+      "checkedAt": "2026-11-08T16:07:04.000Z"
+    },
+    {
+      "id": 411240,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 3380,
+      "checkedAt": "2026-11-08T16:07:04.000Z"
+    },
+    {
+      "id": 411239,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2312,
+      "checkedAt": "2026-11-08T16:07:04.000Z"
+    },
+    {
+      "id": 411238,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-11-08T16:07:04.000Z"
+    },
+    {
+      "id": 408401,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2550,
+      "checkedAt": "2026-11-07T16:03:32.000Z"
+    },
+    {
+      "id": 408400,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/外箱に日焼け有",
+      "price": 3380,
+      "checkedAt": "2026-11-07T16:03:32.000Z"
+    },
+    {
+      "id": 408399,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2312,
+      "checkedAt": "2026-11-07T16:03:32.000Z"
+    },
+    {
+      "id": 408398,
+      "productId": 127111,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-11-07T16:03:32.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066608",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066608",
+    "capturedAt": "2026-11-08T16:07:04.263Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2300
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2312
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/外箱に日焼け有",
+        "price": 3380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2550
+      }
+    ],
+    "path": "data/other-shops/145066608.json"
+  }
+}

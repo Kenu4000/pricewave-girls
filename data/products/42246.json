@@ -1,0 +1,54 @@
+{
+  "product": {
+    "id": 42246,
+    "title": "WindowsXP/Vista DVDソフト DEAD SPACE [アジア版] (18歳以上対象)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019254",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019254.jpg",
+    "manufacturer": "EA",
+    "releaseDate": "2008-10-20",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019254",
+      "メーカー": "EA",
+      "発売日": "2008/10/20",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:09:44.845Z"
+  },
+  "histories": [
+    {
+      "id": 42260,
+      "productId": 42246,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:09:44.845Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019254",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019254",
+    "capturedAt": "2026-08-17T07:09:44.845Z",
+    "items": [],
+    "path": "data/other-shops/145019254.json"
+  }
+}

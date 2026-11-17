@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 41795,
+    "title": "Windows2000/XP/Vista/7 DVDソフト 母乳ナース 中出し天国!2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022272",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022272.jpg",
+    "manufacturer": "U・Me SOFT",
+    "releaseDate": "2009-12-04",
+    "listPrice": 3300,
+    "modelNumber": "UME-067",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145022272",
+      "メーカー": "U・Me SOFT",
+      "発売日": "2009/12/04",
+      "定価": "3,300円",
+      "型番": "UME-067",
+      "原画": "陽秋ゆう",
+      "シナリオ": "始門弦武",
+      "声優": "桃井いちご",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T16:23:38.239Z"
+  },
+  "histories": [
+    {
+      "id": 41809,
+      "productId": 41795,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:28.201Z"
+    },
+    {
+      "id": 53350,
+      "productId": 41795,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:38.239Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 143369,
+      "productId": 41795,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1400,
+      "checkedAt": "2026-08-19T16:23:38.000Z"
+    },
+    {
+      "id": 143368,
+      "productId": 41795,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）背表紙日焼け",
+      "price": 1000,
+      "checkedAt": "2026-08-19T16:23:38.000Z"
+    },
+    {
+      "id": 108319,
+      "productId": 41795,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1400,
+      "checkedAt": "2026-08-17T07:05:28.000Z"
+    },
+    {
+      "id": 108318,
+      "productId": 41795,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）背表紙日焼け",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:05:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145022272",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022272",
+    "capturedAt": "2026-08-19T16:23:38.239Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）背表紙日焼け",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1400
+      }
+    ],
+    "path": "data/other-shops/145022272.json"
+  }
+}

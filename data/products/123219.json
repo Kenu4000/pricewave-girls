@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 123219,
+    "title": "WindowsVista/7/8/10 DVDソフト TRYSET 15周年記念限定セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058835",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058835.jpg",
+    "manufacturer": "TRYSET",
+    "releaseDate": "2017-08-25",
+    "listPrice": 10780,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145058835",
+      "メーカー": "TRYSET",
+      "発売日": "2017/08/25",
+      "定価": "10,780円",
+      "原画": "キヌガサ雄一\n天乃御剣",
+      "シナリオ": "三原正志\nA部史\n橋野次郎",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 6411,
+    "latestRegularSalePrice": 6411,
+    "latestBuyPrice": 2800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-03T13:17:19.400Z"
+  },
+  "histories": [
+    {
+      "id": 123233,
+      "productId": 123219,
+      "salePrice": 6411,
+      "regularSalePrice": 6411,
+      "buyPrice": 2800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:19.400Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058835",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058835",
+    "capturedAt": "2026-11-03T13:17:19.400Z",
+    "items": [],
+    "path": "data/other-shops/145058835.json"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "product": {
+    "id": 127202,
+    "title": "はじめてのおてつだい～りにゅーある～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017596",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017596.jpg",
+    "manufacturer": "スタジオリング",
+    "releaseDate": "2008-03-14",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017596",
+      "メーカー": "スタジオリング",
+      "発売日": "2008/03/14",
+      "定価": "3,080円",
+      "声優": "もっち\n草柳順子\n安玖深音\n成瀬未亜\n榊原ゆい\nまきいづみ\n涼森ちさと\n森川明大\n新田祐一\n紬叶慧\n須藤彦一\n佐倉凛\n天天\n佐々木あかり\nあさり☆",
+      "原画": "むりりん\nこぶいち",
+      "シナリオ": "まちゃ吉\nざく",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1260,
+    "latestRegularSalePrice": 1260,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:20.261Z"
+  },
+  "histories": [
+    {
+      "id": 127216,
+      "productId": 127202,
+      "salePrice": 1260,
+      "regularSalePrice": 1260,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:11.418Z"
+    },
+    {
+      "id": 128256,
+      "productId": 127202,
+      "salePrice": 1260,
+      "regularSalePrice": 1260,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:20.261Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017596",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017596",
+    "capturedAt": "2026-11-08T16:07:20.261Z",
+    "items": [],
+    "path": "data/other-shops/145017596.json"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 120249,
+    "title": "Windows98/Me/2000/XP CDソフト コスってギンギン 第四巻 巫女編",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014142",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014142.jpg",
+    "manufacturer": "ポアシャラ",
+    "releaseDate": "2006-04-14",
+    "listPrice": 3080,
+    "modelNumber": "POA-004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014142",
+      "メーカー": "ポアシャラ",
+      "発売日": "2006/04/14",
+      "定価": "3,080円",
+      "型番": "POA-004",
+      "原画": "AGA",
+      "シナリオ": "ギンギン製作委員会",
+      "声優": "五行なずな",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2200,
+    "latestRegularSalePrice": 2200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:59.437Z"
+  },
+  "histories": [
+    {
+      "id": 120263,
+      "productId": 120249,
+      "salePrice": 2200,
+      "regularSalePrice": 2200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:59.437Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014142",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014142",
+    "capturedAt": "2026-10-29T05:41:59.437Z",
+    "items": [],
+    "path": "data/other-shops/145014142.json"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 120168,
+    "title": "ハピメア Wパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145050482",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145050482.jpg",
+    "manufacturer": "パープルソフトウェア",
+    "releaseDate": "2015-07-24",
+    "listPrice": 10780,
+    "modelNumber": "PURPLE-052",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145050482",
+      "メーカー": "パープルソフトウェア",
+      "発売日": "2015/07/24",
+      "定価": "10,780円",
+      "型番": "PURPLE-052",
+      "原画": "月杜尋\n克",
+      "シナリオ": "森崎亮人",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 3,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 3900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-16T16:04:43.882Z"
+  },
+  "histories": [
+    {
+      "id": 120182,
+      "productId": 120168,
+      "salePrice": 6111,
+      "regularSalePrice": 6111,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:27.827Z"
+    },
+    {
+      "id": 123965,
+      "productId": 120168,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:04:13.736Z"
+    },
+    {
+      "id": 127952,
+      "productId": 120168,
+      "salePrice": 6111,
+      "regularSalePrice": 6111,
+      "buyPrice": 3600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:05:10.077Z"
+    },
+    {
+      "id": 129983,
+      "productId": 120168,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3600,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:41:53.644Z"
+    },
+    {
+      "id": 132950,
+      "productId": 120168,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-16T16:04:43.882Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 397495,
+      "productId": 120168,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6111,
+      "checkedAt": "2026-11-04T05:04:14.000Z"
+    },
+    {
+      "id": 397494,
+      "productId": 120168,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 5401,
+      "checkedAt": "2026-11-04T05:04:14.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

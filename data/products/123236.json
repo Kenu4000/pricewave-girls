@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 123236,
+    "title": "闇の声 堕落のススメ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047887",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047887.jpg",
+    "manufacturer": "BLACK CYC",
+    "releaseDate": "2008-03-28",
+    "listPrice": null,
+    "modelNumber": "BCYC-D34",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145047887",
+      "メーカー": "BLACK CYC",
+      "発売日": "2008/03/28",
+      "型番": "BCYC-D34",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:57.217Z"
+  },
+  "histories": [
+    {
+      "id": 123250,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:26.938Z"
+    },
+    {
+      "id": 124213,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:05:52.839Z"
+    },
+    {
+      "id": 125174,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T16:06:23.613Z"
+    },
+    {
+      "id": 126133,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-06T01:07:07.125Z"
+    },
+    {
+      "id": 127095,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:53:11.170Z"
+    },
+    {
+      "id": 128202,
+      "productId": 123236,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:57.217Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145047887",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047887",
+    "capturedAt": "2026-11-08T16:06:57.217Z",
+    "items": [],
+    "path": "data/other-shops/145047887.json"
+  }
+}

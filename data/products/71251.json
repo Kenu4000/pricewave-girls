@@ -1,0 +1,57 @@
+{
+  "product": {
+    "id": 71251,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト VenusBlood アニバーサリーパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057674",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057674.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2017-06-16",
+    "listPrice": 19800,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145057674",
+      "メーカー": "Dual Tail",
+      "発売日": "2017/06/16",
+      "定価": "19,800円",
+      "原画": "トシぞー",
+      "シナリオ": "丹下ゲンタ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 19200,
+    "latestRegularSalePrice": 19200,
+    "latestBuyPrice": 9000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:22.229Z"
+  },
+  "histories": [
+    {
+      "id": 71265,
+      "productId": 71251,
+      "salePrice": 19200,
+      "regularSalePrice": 19200,
+      "buyPrice": 9000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:22.229Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145057674",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057674",
+    "capturedAt": "2026-09-02T21:36:22.229Z",
+    "items": [],
+    "path": "data/other-shops/145057674.json"
+  }
+}

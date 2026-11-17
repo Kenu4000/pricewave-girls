@@ -1,0 +1,75 @@
+{
+  "product": {
+    "id": 127088,
+    "title": "ユキイロサイン [普及版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076655",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076655.jpg",
+    "manufacturer": "Wonder Fool",
+    "releaseDate": "2022-12-23",
+    "listPrice": 4180,
+    "modelNumber": "WDFL-007",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076655",
+      "メーカー": "Wonder Fool",
+      "発売日": "2022/12/23",
+      "定価": "4,180円",
+      "型番": "WDFL-007",
+      "原画": "うみこ",
+      "シナリオ": "冬野どんぶく",
+      "声優": "奏雨\n猫村ゆき\n北大路ゆき\n実羽ゆうき\n芦久比剥巳\n上原あおい\n桃井いちご",
+      "主題歌": "いとうかなこ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2355,
+    "latestRegularSalePrice": 2355,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:58.148Z"
+  },
+  "histories": [
+    {
+      "id": 127102,
+      "productId": 127088,
+      "salePrice": 2355,
+      "regularSalePrice": 2355,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:22.042Z"
+    },
+    {
+      "id": 128206,
+      "productId": 127088,
+      "salePrice": 2355,
+      "regularSalePrice": 2355,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:58.148Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076655",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076655",
+    "capturedAt": "2026-11-08T16:06:58.148Z",
+    "items": [],
+    "path": "data/other-shops/145076655.json"
+  }
+}

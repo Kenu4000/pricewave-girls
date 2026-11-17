@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 96385,
+    "title": "Windows98/Me/2000/XP DVDソフト 抜け忍～捕獲・そして調教へ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013962",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013962.jpg",
+    "manufacturer": "ワッフル",
+    "releaseDate": "2006-03-10",
+    "listPrice": 9680,
+    "modelNumber": "WFNN-0603",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013962001",
+      "メーカー": "ワッフル",
+      "発売日": "2006/03/10",
+      "定価": "9,680円",
+      "型番": "WFNN-0603",
+      "原画": "さくやついたち",
+      "シナリオ": "想ファクトリー",
+      "声優": "城樹翔\nかわしまりの\n桜川未央\n岬友美\n風音\n彩世ゆう\n小次郎\nBack麗男\n後野祭\n滝沢アツヤ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "850",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 800,
+    "latestRegularSalePrice": 850,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-04T05:00:10.034Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-04T05:00:09.754Z"
+  },
+  "histories": [
+    {
+      "id": 96399,
+      "productId": 96385,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-20T14:09:04.311Z"
+    },
+    {
+      "id": 109553,
+      "productId": 96385,
+      "salePrice": 1300,
+      "regularSalePrice": 1300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-12T16:00:27.728Z"
+    },
+    {
+      "id": 123355,
+      "productId": 96385,
+      "salePrice": 800,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:00:09.754Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 395338,
+      "productId": 96385,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-11-04T05:00:10.000Z"
+    },
+    {
+      "id": 395337,
+      "productId": 96385,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古品です。多少の事はご容赦下さい",
+      "price": 1300,
+      "checkedAt": "2026-11-04T05:00:10.000Z"
+    },
+    {
+      "id": 395336,
+      "productId": 96385,
+      "sourceType": "other_shop",
+      "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-11-04T05:00:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013962",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013962",
+    "capturedAt": "2026-11-04T05:00:09.754Z",
+    "items": [
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "ブックスエーツー本八幡店（倉庫管理）",
+        "condition": "中古品です。多少の事はご容赦下さい",
+        "price": 1300
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145013962.json"
+  }
+}

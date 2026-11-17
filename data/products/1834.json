@@ -1,0 +1,167 @@
+{
+  "product": {
+    "id": 1834,
+    "title": "Windows8/10 DVDソフト アラサー男が清楚お嬢様を助けたら。 -押しかけ・迫られ・マンキツH-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070527",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070527.jpg",
+    "manufacturer": "アパダッシュ",
+    "releaseDate": "2020-11-27",
+    "listPrice": 2750,
+    "modelNumber": "APTD-018",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145070527",
+      "メーカー": "アパダッシュ",
+      "発売日": "2020/11/27",
+      "定価": "2,750円",
+      "型番": "APTD-018",
+      "原画": "桜ロマ子",
+      "シナリオ": "坂元星日",
+      "声優": "四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 500,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-30T16:07:55.025Z"
+  },
+  "histories": [
+    {
+      "id": 1848,
+      "productId": 1834,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:03:42.000Z"
+    },
+    {
+      "id": 6737,
+      "productId": 1834,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:04.000Z"
+    },
+    {
+      "id": 22792,
+      "productId": 1834,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:34:47.195Z"
+    },
+    {
+      "id": 35954,
+      "productId": 1834,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T00:49:42.681Z"
+    },
+    {
+      "id": 46442,
+      "productId": 1834,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T13:39:17.109Z"
+    },
+    {
+      "id": 57363,
+      "productId": 1834,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-22T16:02:03.123Z"
+    },
+    {
+      "id": 67753,
+      "productId": 1834,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 500,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-30T16:07:55.025Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 191009,
+      "productId": 1834,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1500,
+      "checkedAt": "2026-08-30T16:07:55.000Z"
+    },
+    {
+      "id": 191008,
+      "productId": 1834,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-08-30T16:07:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145070527",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070527",
+    "capturedAt": "2026-08-30T16:07:55.025Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（トールケース）",
+        "price": 1500
+      }
+    ],
+    "path": "data/other-shops/145070527.json"
+  }
+}

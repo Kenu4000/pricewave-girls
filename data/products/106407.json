@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 106407,
+    "title": "WindowsXP/Vista/7 DVDソフト 孕ませ母娘バリューパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145035020",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145035020.jpg",
+    "manufacturer": "じぃすぽっと",
+    "releaseDate": "2012-10-26",
+    "listPrice": 2598,
+    "modelNumber": "EICD-1049",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145035020001",
+      "メーカー": "じぃすぽっと",
+      "発売日": "2012/10/26",
+      "定価": "2,598円",
+      "型番": "EICD-1049",
+      "原画": "舛舘俊秀",
+      "シナリオ": "御倉たな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:48.733Z"
+  },
+  "histories": [
+    {
+      "id": 106421,
+      "productId": 106407,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:48.733Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333633,
+      "productId": 106407,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1580,
+      "checkedAt": "2026-10-08T03:13:48.000Z"
+    },
+    {
+      "id": 333632,
+      "productId": 106407,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1330,
+      "checkedAt": "2026-10-08T03:13:48.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145035020",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145035020",
+    "capturedAt": "2026-10-08T03:13:48.733Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1330
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1580
+      }
+    ],
+    "path": "data/other-shops/145035020.json"
+  }
+}

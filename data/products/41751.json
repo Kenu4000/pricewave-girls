@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 41751,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 童貞クリニック ～筆おろしはお任せください～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022742",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022742.jpg",
+    "manufacturer": "白濁系",
+    "releaseDate": "2010-01-22",
+    "listPrice": 9680,
+    "modelNumber": "HKDK-0009",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022742",
+      "メーカー": "白濁系",
+      "発売日": "2010/01/22",
+      "定価": "9,680円",
+      "型番": "HKDK-0009",
+      "原画": "カミシロ緑マル",
+      "シナリオ": "築城一人",
+      "声優": "ヒマリ\n犬飼あお(夕凪音)\n本多未季(本多しの舞)\n逢川奈々",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2980,
+    "latestRegularSalePrice": 2980,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:23.418Z"
+  },
+  "histories": [
+    {
+      "id": 41765,
+      "productId": 41751,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:04.633Z"
+    },
+    {
+      "id": 53314,
+      "productId": 41751,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:20.602Z"
+    },
+    {
+      "id": 64886,
+      "productId": 41751,
+      "salePrice": 2980,
+      "regularSalePrice": 2980,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:23.418Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145022742",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145022742",
+    "capturedAt": "2026-08-29T01:15:23.418Z",
+    "items": [],
+    "path": "data/other-shops/145022742.json"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106151,
+    "title": "Windows10/11 DVDソフト 人妻サークル-夫は愛してるけど持て余した性欲は解消したい-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083043",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083043.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2025-05-30",
+    "listPrice": 4180,
+    "modelNumber": "UBAI-019",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083043001",
+      "メーカー": "スタジオ奪",
+      "発売日": "2025/05/30",
+      "定価": "4,180円",
+      "型番": "UBAI-019",
+      "原画": "鬼多見美影",
+      "シナリオ": "池かなた",
+      "声優": "柚原みう\n蒼乃むすび\n水城すい",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:09.961Z"
+  },
+  "histories": [
+    {
+      "id": 106165,
+      "productId": 106151,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:09.961Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333126,
+      "productId": 106151,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333125,
+      "productId": 106151,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 4180,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333124,
+      "productId": 106151,
+      "sourceType": "other_shop",
+      "storeName": "芳賀書店",
+      "condition": "新品DVD",
+      "price": 4180,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    },
+    {
+      "id": 333123,
+      "productId": 106151,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 1600,
+      "checkedAt": "2026-10-08T03:12:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083043",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083043",
+    "capturedAt": "2026-10-08T03:12:09.961Z",
+    "items": [
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 1600
+      },
+      {
+        "storeName": "芳賀書店",
+        "condition": "新品DVD",
+        "price": 4180
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 4180
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1780
+      }
+    ],
+    "path": "data/other-shops/145083043.json"
+  }
+}

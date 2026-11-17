@@ -1,0 +1,58 @@
+{
+  "product": {
+    "id": 130253,
+    "title": "夢みてナイト! ～りにゅーある～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016397",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016397.jpg",
+    "manufacturer": "スタジオリング",
+    "releaseDate": "2007-09-14",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145016397",
+      "メーカー": "スタジオリング",
+      "発売日": "2007/09/14",
+      "定価": "3,080円",
+      "原画": "ケイ\nむりりん\nぞの",
+      "声優": "森川陽子\n百花ルナ\n紬叶慧",
+      "シナリオ": "麦茶々\n博恵夏樹",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2411,
+    "latestRegularSalePrice": 2411,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T14:53:22.034Z"
+  },
+  "histories": [
+    {
+      "id": 130267,
+      "productId": 130253,
+      "salePrice": 2411,
+      "regularSalePrice": 2411,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:53:22.034Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145016397",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016397",
+    "capturedAt": "2026-11-12T14:53:22.034Z",
+    "items": [],
+    "path": "data/other-shops/145016397.json"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 127226,
+    "title": "淫妖蟲 蝕 ～凌触島退魔録～ [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014745",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014745.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2006-08-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014745001",
+      "メーカー": "TinkerBell",
+      "発売日": "2006/08/25",
+      "定価": "9,680円",
+      "原画": "あおじる",
+      "シナリオ": "秋華",
+      "声優": "あさり☆\n涼森ちさと\n天天\n佐倉凛",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:21.972Z"
+  },
+  "histories": [
+    {
+      "id": 127240,
+      "productId": 127226,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:19.873Z"
+    },
+    {
+      "id": 128264,
+      "productId": 127226,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:21.972Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 411300,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-11-08T16:07:22.000Z"
+    },
+    {
+      "id": 411299,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-11-08T16:07:22.000Z"
+    },
+    {
+      "id": 411298,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-11-08T16:07:22.000Z"
+    },
+    {
+      "id": 411297,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 700,
+      "checkedAt": "2026-11-08T16:07:22.000Z"
+    },
+    {
+      "id": 408554,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-11-07T16:04:20.000Z"
+    },
+    {
+      "id": 408553,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-11-07T16:04:20.000Z"
+    },
+    {
+      "id": 408552,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 700,
+      "checkedAt": "2026-11-07T16:04:20.000Z"
+    },
+    {
+      "id": 408551,
+      "productId": 127226,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 700,
+      "checkedAt": "2026-11-07T16:04:20.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014745",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014745",
+    "capturedAt": "2026-11-08T16:07:21.972Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 700
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 700
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145014745.json"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 120209,
+    "title": "Windows2000/XP/Vista/7 DVDソフト Angel Ringーエンジェル リングー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024035",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024035.jpg",
+    "manufacturer": "MOONSTONE",
+    "releaseDate": "2010-06-25",
+    "listPrice": 9680,
+    "modelNumber": "MSTN-018",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024035001",
+      "メーカー": "MOONSTONE",
+      "発売日": "2010/06/25",
+      "定価": "9,680円",
+      "型番": "MSTN-018",
+      "原画": "やまかぜ嵐\n彩季なお",
+      "シナリオ": "尾之上咲太\n呉(呉一郎)",
+      "声優": "成瀬未亜\n青葉りんご\n桃井いちご\n藤森ゆき奈\n五行なずな\n大波こなみ\n宮沢ゆあな\n茶谷やすら\n巌蝉秋\n吉良覇守",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1550,
+    "latestRegularSalePrice": 1550,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:42.738Z"
+  },
+  "histories": [
+    {
+      "id": 120223,
+      "productId": 120209,
+      "salePrice": 1550,
+      "regularSalePrice": 1550,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:42.738Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384513,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1550,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    },
+    {
+      "id": 384512,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1611,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    },
+    {
+      "id": 384511,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 560,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    },
+    {
+      "id": 384510,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    },
+    {
+      "id": 384509,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    },
+    {
+      "id": 384508,
+      "productId": 120209,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古説明書欠け",
+      "price": 560,
+      "checkedAt": "2026-10-29T05:41:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024035",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024035",
+    "capturedAt": "2026-10-29T05:41:42.738Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古説明書欠け",
+        "price": 560
+      },
+      {
+        "storeName": "ブックマーケットいわき平店 Supported By 駿河屋",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 560
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1550
+      }
+    ],
+    "path": "data/other-shops/145024035.json"
+  }
+}

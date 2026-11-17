@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 129241,
+    "title": "CUBEコレクションボックス カントクエディション [通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145070225",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145070225.jpg",
+    "manufacturer": "CUBE",
+    "releaseDate": "2020-11-27",
+    "listPrice": 9900,
+    "modelNumber": "CUB-2008",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145070225",
+      "メーカー": "CUBE",
+      "発売日": "2020/11/27",
+      "定価": "9,900円",
+      "型番": "CUB-2008",
+      "原画": "カントク",
+      "SD原画": "すいみゃ",
+      "シナリオ": "皆本あいる\n双葉亮一\n夜村卓\n種村いのり",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 12800,
+    "latestRegularSalePrice": 12800,
+    "latestBuyPrice": 6400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-09T16:52:17.111Z"
+  },
+  "histories": [
+    {
+      "id": 129255,
+      "productId": 129241,
+      "salePrice": 12800,
+      "regularSalePrice": 12800,
+      "buyPrice": 6400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:17.111Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145070225",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145070225",
+    "capturedAt": "2026-11-09T16:52:17.111Z",
+    "items": [],
+    "path": "data/other-shops/145070225.json"
+  }
+}

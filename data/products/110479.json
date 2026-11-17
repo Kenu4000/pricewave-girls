@@ -1,0 +1,135 @@
+{
+  "product": {
+    "id": 110479,
+    "title": "勇者と彼女(キミ)に花束を[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025489",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025489.jpg",
+    "manufacturer": "KLEIN（クライン）",
+    "releaseDate": "2011-04-08",
+    "listPrice": 9680,
+    "modelNumber": "KLEIN-010",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025489",
+      "メーカー": "KLEIN（クライン）",
+      "発売日": "2011/04/08",
+      "定価": "9,680円",
+      "型番": "KLEIN-010",
+      "声優": "鈴谷まや\n七生みこと\n小倉結衣\n藍川珪",
+      "原画": "暁てとら\n丸ちゃん。\n高野美紀\nカミシロ緑マル",
+      "シナリオ": "渡部好範",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 870,
+    "latestRegularSalePrice": 870,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T16:05:14.447Z"
+  },
+  "histories": [
+    {
+      "id": 110493,
+      "productId": 110479,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:25.432Z"
+    },
+    {
+      "id": 116677,
+      "productId": 110479,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-25T02:48:55.303Z"
+    },
+    {
+      "id": 123943,
+      "productId": 110479,
+      "salePrice": 800,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:04:05.043Z"
+    },
+    {
+      "id": 130982,
+      "productId": 110479,
+      "salePrice": 870,
+      "regularSalePrice": 870,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:05:14.447Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 397417,
+      "productId": 110479,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-11-04T05:04:05.000Z"
+    },
+    {
+      "id": 397416,
+      "productId": 110479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 690,
+      "checkedAt": "2026-11-04T05:04:05.000Z"
+    },
+    {
+      "id": 372030,
+      "productId": 110479,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-10-25T02:48:55.000Z"
+    },
+    {
+      "id": 372029,
+      "productId": 110479,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 770,
+      "checkedAt": "2026-10-25T02:48:55.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145025489",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025489",
+    "capturedAt": "2026-11-12T16:05:14.447Z",
+    "items": [],
+    "path": "data/other-shops/145025489.json"
+  }
+}

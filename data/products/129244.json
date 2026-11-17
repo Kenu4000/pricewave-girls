@@ -1,0 +1,108 @@
+{
+  "product": {
+    "id": 129244,
+    "title": "コイ☆カツ!",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026313",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026313.jpg",
+    "manufacturer": "シルエット",
+    "releaseDate": "2011-02-25",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026313",
+      "メーカー": "シルエット",
+      "発売日": "2011/02/25",
+      "定価": "9,680円",
+      "原画": "佐藤匠",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 1,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-16T16:06:16.212Z"
+  },
+  "histories": [
+    {
+      "id": 129258,
+      "productId": 129244,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:21.462Z"
+    },
+    {
+      "id": 130222,
+      "productId": 129244,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:43:29.783Z"
+    },
+    {
+      "id": 131222,
+      "productId": 129244,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:07:05.750Z"
+    },
+    {
+      "id": 132241,
+      "productId": 129244,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-16T10:47:56.496Z"
+    },
+    {
+      "id": 133191,
+      "productId": 129244,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-16T16:06:16.212Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145026313",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026313",
+    "capturedAt": "2026-11-16T16:06:16.212Z",
+    "items": [],
+    "path": "data/other-shops/145026313.json"
+  }
+}

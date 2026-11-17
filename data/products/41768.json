@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 41768,
+    "title": "Windows2000/XP/Vista DVDソフト 秘蹟神姫アルカナセイバー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054377",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054377.jpg",
+    "manufacturer": "Liquid-Touchable",
+    "releaseDate": "2009-12-25",
+    "listPrice": 9680,
+    "modelNumber": "LIQ019",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145054377",
+      "メーカー": "Liquid-Touchable",
+      "発売日": "2009/12/25",
+      "定価": "9,680円",
+      "型番": "LIQ019",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveCondition": "ゲームディスク+説明書",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "ゲームディスク+説明書",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:15:30.856Z"
+  },
+  "histories": [
+    {
+      "id": 41782,
+      "productId": 41768,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:05:13.701Z"
+    },
+    {
+      "id": 53331,
+      "productId": 41768,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:23:27.709Z"
+    },
+    {
+      "id": 64904,
+      "productId": 41768,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ゲームディスク+説明書",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:15:30.856Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054377",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054377",
+    "capturedAt": "2026-08-29T01:15:30.856Z",
+    "items": [],
+    "path": "data/other-shops/145054377.json"
+  }
+}

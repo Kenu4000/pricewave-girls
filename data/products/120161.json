@@ -1,0 +1,130 @@
+{
+  "product": {
+    "id": 120161,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト アイツに調教されるとドMな私は感じちゃう",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054508",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054508.jpg",
+    "manufacturer": "Lamia",
+    "releaseDate": "2016-05-27",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145054508001",
+      "メーカー": "Lamia",
+      "発売日": "2016/05/27",
+      "定価": "6,380円",
+      "原画": "金目鯛ぴんく",
+      "シナリオ": "髪ノ毛座",
+      "声優": "唯香\n綾音まこ\n今谷皆美\n杉原茉莉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4780,
+    "latestRegularSalePrice": 4780,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:24.519Z"
+  },
+  "histories": [
+    {
+      "id": 120175,
+      "productId": 120161,
+      "salePrice": 4780,
+      "regularSalePrice": 4780,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:24.519Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384457,
+      "productId": 120161,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4780,
+      "checkedAt": "2026-10-29T05:41:24.000Z"
+    },
+    {
+      "id": 384456,
+      "productId": 120161,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ランクB）外箱イタミあり",
+      "price": 5555,
+      "checkedAt": "2026-10-29T05:41:24.000Z"
+    },
+    {
+      "id": 384455,
+      "productId": 120161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 2860,
+      "checkedAt": "2026-10-29T05:41:24.000Z"
+    },
+    {
+      "id": 384454,
+      "productId": 120161,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+      "price": 3500,
+      "checkedAt": "2026-10-29T05:41:24.000Z"
+    },
+    {
+      "id": 384453,
+      "productId": 120161,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 2860,
+      "checkedAt": "2026-10-29T05:41:24.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145054508",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054508",
+    "capturedAt": "2026-10-29T05:41:24.519Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 2860
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古通常（店舗併売品のため品切れの場合あり）",
+        "price": 3500
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 2860
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ランクB）外箱イタミあり",
+        "price": 5555
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4780
+      }
+    ],
+    "path": "data/other-shops/145054508.json"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 127219,
+    "title": "Unreal ANTHOLOGY [北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055935",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055935.jpg",
+    "manufacturer": "MIDWAY",
+    "releaseDate": "2006-10-31",
+    "listPrice": null,
+    "modelNumber": "FI14601",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145055935001",
+      "メーカー": "MIDWAY",
+      "発売日": "2006/10/31",
+      "型番": "FI14601",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4480,
+    "latestRegularSalePrice": 4480,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:21.559Z"
+  },
+  "histories": [
+    {
+      "id": 127233,
+      "productId": 127219,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:17.327Z"
+    },
+    {
+      "id": 128262,
+      "productId": 127219,
+      "salePrice": 4480,
+      "regularSalePrice": 4480,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:21.559Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

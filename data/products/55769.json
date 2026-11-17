@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 55769,
+    "title": "Windows7/8/8.1/10 DVDソフト 家属 -母と姉妹の嬌声-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066058",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066058.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2019-09-27",
+    "listPrice": 9680,
+    "modelNumber": "BSP-059",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066058001",
+      "メーカー": "BISHOP",
+      "発売日": "2019/09/27",
+      "定価": "9,680円",
+      "型番": "BSP-059",
+      "原画": "玄野トモアキ\n水島・多也\n赤木リオ\n深泥正",
+      "シナリオ": "小沢裕樹\n麿\n大津菜美\n紺乃瑞樹\n高橋冷夢",
+      "声優": "綾音まこ\n海乃シオ\n八尋まみ\n野々村紗夜\n杉原茉莉",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 7350,
+    "latestRegularSalePrice": 7350,
+    "latestBuyPrice": 3700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-21T05:30:02.911Z"
+  },
+  "histories": [
+    {
+      "id": 55783,
+      "productId": 55769,
+      "salePrice": 7350,
+      "regularSalePrice": 7350,
+      "buyPrice": 3700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:30:02.911Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 150672,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 7350,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150671,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット田辺店",
+      "condition": "中古通常 併売品の為、品切れの場合あり",
+      "price": 8200,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150670,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 4600,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150669,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 5911,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150668,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 5901,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150667,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋名古屋大須本館",
+      "condition": "中古",
+      "price": 5900,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    },
+    {
+      "id": 150666,
+      "productId": 55769,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 4600,
+      "checkedAt": "2026-08-21T05:30:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066058",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066058",
+    "capturedAt": "2026-08-21T05:30:02.911Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 4600
+      },
+      {
+        "storeName": "駿河屋名古屋大須本館",
+        "condition": "中古",
+        "price": 5900
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 5901
+      },
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 5911
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 4600
+      },
+      {
+        "storeName": "ブックマーケット田辺店",
+        "condition": "中古通常 併売品の為、品切れの場合あり",
+        "price": 8200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 7350
+      }
+    ],
+    "path": "data/other-shops/145066058.json"
+  }
+}

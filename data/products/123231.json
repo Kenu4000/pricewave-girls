@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 123231,
+    "title": "WindowsXP/Vista/7 CDソフト 麗しの君ー胸躍るは俺のためにー EthicsRule Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145028329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145028329.jpg",
+    "manufacturer": "flap",
+    "releaseDate": "2011-05-20",
+    "listPrice": 3520,
+    "modelNumber": "FLP-016",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145028329",
+      "メーカー": "flap",
+      "発売日": "2011/05/20",
+      "定価": "3,520円",
+      "型番": "FLP-016",
+      "原画": "佐倉はなつみ",
+      "シナリオ": "鍛冶屋多郎",
+      "声優": "秋野花\n中家志穂",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1512,
+    "latestRegularSalePrice": 1512,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-03T13:17:25.459Z"
+  },
+  "histories": [
+    {
+      "id": 123245,
+      "productId": 123231,
+      "salePrice": 1512,
+      "regularSalePrice": 1512,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:25.459Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145028329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145028329",
+    "capturedAt": "2026-11-03T13:17:25.459Z",
+    "items": [],
+    "path": "data/other-shops/145028329.json"
+  }
+}

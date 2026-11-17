@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 121303,
+    "title": "Windows DVDソフト おキツネSummer ～夏合宿・女の子付き～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014885",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014885.jpg",
+    "manufacturer": "SCORE【しゅこあ!】",
+    "releaseDate": "2006-12-22",
+    "listPrice": 9680,
+    "modelNumber": "SCR008",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "中古 ：145014885001",
+      "メーカー": "SCORE【しゅこあ!】",
+      "発売日": "2006/12/22",
+      "定価": "9,680円",
+      "型番": "SCR008",
+      "原画": "千葉千夏",
+      "シナリオ": "天崎カケル\n中本穂積",
+      "声優": "桃井いちご\nみる\n茶谷やすら\n佐本二厘\n芹園みや\n如月葵\n桜川未央\n風音",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveRegularSalePrice": "1250",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1180,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-01T13:42:39.019Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:38.614Z"
+  },
+  "histories": [
+    {
+      "id": 121317,
+      "productId": 121303,
+      "salePrice": 1180,
+      "regularSalePrice": 1250,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:38.614Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 388425,
+      "productId": 121303,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-11-01T13:42:39.000Z"
+    },
+    {
+      "id": 388424,
+      "productId": 121303,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1080,
+      "checkedAt": "2026-11-01T13:42:39.000Z"
+    },
+    {
+      "id": 388423,
+      "productId": 121303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-11-01T13:42:39.000Z"
+    },
+    {
+      "id": 388422,
+      "productId": 121303,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 689,
+      "checkedAt": "2026-11-01T13:42:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014885",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014885",
+    "capturedAt": "2026-11-01T13:42:38.614Z",
+    "items": [
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 689
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 1080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1180
+      }
+    ],
+    "path": "data/other-shops/145014885.json"
+  }
+}

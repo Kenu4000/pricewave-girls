@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 127124,
+    "title": "年下限定 ヌキ×2シェアハウス -絞られ共同性活-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145057035",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145057035.jpg",
+    "manufacturer": "アトリエかぐや TEAM Gassa-Q",
+    "releaseDate": "2017-03-31",
+    "listPrice": 9680,
+    "modelNumber": "KA-0091",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145057035001",
+      "メーカー": "アトリエかぐや TEAM Gassa-Q",
+      "発売日": "2017/03/31",
+      "定価": "9,680円",
+      "型番": "KA-0091",
+      "原画": "Mero\n有栖川千里",
+      "シナリオ": "siou\n双海悠\n七歌\n間崎俊介",
+      "声優": "松乃つみき\n今谷皆美\n金松由花\n鶴屋春人",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2450,
+    "latestRegularSalePrice": 2450,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:39.813Z"
+  },
+  "histories": [
+    {
+      "id": 127138,
+      "productId": 127124,
+      "salePrice": 2450,
+      "regularSalePrice": 2450,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:39.813Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408417,
+      "productId": 127124,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2450,
+      "checkedAt": "2026-11-07T16:03:40.000Z"
+    },
+    {
+      "id": 408416,
+      "productId": 127124,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 1635,
+      "checkedAt": "2026-11-07T16:03:40.000Z"
+    },
+    {
+      "id": 408415,
+      "productId": 127124,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-11-07T16:03:40.000Z"
+    },
+    {
+      "id": 408414,
+      "productId": 127124,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 1635,
+      "checkedAt": "2026-11-07T16:03:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145057035",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145057035",
+    "capturedAt": "2026-11-07T16:03:39.813Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 1635
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 1635
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2450
+      }
+    ],
+    "path": "data/other-shops/145057035.json"
+  }
+}

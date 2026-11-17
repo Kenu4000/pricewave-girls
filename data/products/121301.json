@@ -1,0 +1,118 @@
+{
+  "product": {
+    "id": 121301,
+    "title": "Windows98/Me/2000/XP CDソフト 陵辱学園チアガールズ公開調教",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017363",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017363.jpg",
+    "manufacturer": "Finish!",
+    "releaseDate": "2008-01-25",
+    "listPrice": 6380,
+    "modelNumber": "FNSS-007",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017363001",
+      "メーカー": "Finish!",
+      "発売日": "2008/01/25",
+      "定価": "6,380円",
+      "型番": "FNSS-007",
+      "シナリオ": "かすか量\n前山信頼",
+      "原画": "isse-",
+      "声優": "富樫ケイ\n東かりん\n青葉りんご",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "1350",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1280,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-01T13:42:38.692Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:38.365Z"
+  },
+  "histories": [
+    {
+      "id": 121315,
+      "productId": 121301,
+      "salePrice": 1280,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:38.365Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 388413,
+      "productId": 121301,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1280,
+      "checkedAt": "2026-11-01T13:42:38.000Z"
+    },
+    {
+      "id": 388412,
+      "productId": 121301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古",
+      "price": 877,
+      "checkedAt": "2026-11-01T13:42:38.000Z"
+    },
+    {
+      "id": 388411,
+      "productId": 121301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-11-01T13:42:38.000Z"
+    },
+    {
+      "id": 388410,
+      "productId": 121301,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 877,
+      "checkedAt": "2026-11-01T13:42:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017363",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017363",
+    "capturedAt": "2026-11-01T13:42:38.365Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 877
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古",
+        "price": 877
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1280
+      }
+    ],
+    "path": "data/other-shops/145017363.json"
+  }
+}

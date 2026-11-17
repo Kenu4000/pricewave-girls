@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 106466,
+    "title": "WindowsXP/Vista/7 DVDソフト 学園3ー華麗なる悦辱ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024575",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024575.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2010-08-27",
+    "listPrice": 9680,
+    "modelNumber": "BSP-030",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024575001",
+      "メーカー": "BISHOP",
+      "発売日": "2010/08/27",
+      "定価": "9,680円",
+      "型番": "BSP-030",
+      "声優": "香澄りょう\n佐倉もも花\n中瀬ひな\n春日アン",
+      "原画": "川合正起\n水島・多也\n神藤みけこ",
+      "シナリオ": "神鷹輝\n神門武士\n酒巻雨竜\n麿\nきんぐ\n大津菜美\n庵乃音人\n甲太郎",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 4100,
+    "latestRegularSalePrice": 4100,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:12.136Z"
+  },
+  "histories": [
+    {
+      "id": 106480,
+      "productId": 106466,
+      "salePrice": 4100,
+      "regularSalePrice": 4100,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:12.136Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333747,
+      "productId": 106466,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4100,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333746,
+      "productId": 106466,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（外箱付き）",
+      "price": 4444,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333745,
+      "productId": 106466,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 4111,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333744,
+      "productId": 106466,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 3701,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    },
+    {
+      "id": 333743,
+      "productId": 106466,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3100,
+      "checkedAt": "2026-10-08T03:14:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024575",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024575",
+    "capturedAt": "2026-10-08T03:14:12.136Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3100
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 3701
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 4111
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（外箱付き）",
+        "price": 4444
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4100
+      }
+    ],
+    "path": "data/other-shops/145024575.json"
+  }
+}

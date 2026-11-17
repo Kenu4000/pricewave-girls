@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 127171,
+    "title": "Amnesia：THE DARK DESCENT[北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038923",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038923.jpg",
+    "manufacturer": "Frictional Games",
+    "releaseDate": "2010-09-09",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145038923001",
+      "メーカー": "Frictional Games",
+      "発売日": "2010/09/09",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 10000,
+    "latestRegularSalePrice": 10000,
+    "latestBuyPrice": 3000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:12.933Z"
+  },
+  "histories": [
+    {
+      "id": 127185,
+      "productId": 127171,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:59.942Z"
+    },
+    {
+      "id": 128239,
+      "productId": 127171,
+      "salePrice": 10000,
+      "regularSalePrice": 10000,
+      "buyPrice": 3000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:12.933Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

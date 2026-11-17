@@ -1,0 +1,170 @@
+{
+  "product": {
+    "id": 699,
+    "title": "Windows10/11 DVDソフト 姦染 COMPLETE BOX+α ～Record of 1st to RE：UNION～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083589",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083589.jpg",
+    "manufacturer": "CHAOS-R",
+    "releaseDate": "2025-09-26",
+    "listPrice": 11000,
+    "modelNumber": "CHA-035A",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083589001",
+      "メーカー": "CHAOS-R",
+      "発売日": "2025/09/26",
+      "定価": "11,000円",
+      "型番": "CHA-035A",
+      "原画/シナリオ": "ジェントル佐々木",
+      "シナリオ": "天翔狗",
+      "声優": "伊藤瞳子\n殊瀬柚乃\n小波渡陸\nあかしゆき\n櫻井ありす\n藤乃理香\nヒマリ\n弥黒\n計名さや香\n中野志乃\n春日アン\n吉川華生\n民安ともえ\n川瀬ゆづき\n広森なずな\n桜まい\n萌原ぷりん\n安藤りゅう\n桜井みほ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "OS": "-R",
+      "原画": "/",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 8280,
+    "latestRegularSalePrice": 8280,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T01:17:30.645Z"
+  },
+  "histories": [
+    {
+      "id": 713,
+      "productId": 699,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T13:46:17.000Z"
+    },
+    {
+      "id": 4483,
+      "productId": 699,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T15:47:51.000Z"
+    },
+    {
+      "id": 5600,
+      "productId": 699,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 2300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:04:13.000Z"
+    },
+    {
+      "id": 16042,
+      "productId": 699,
+      "salePrice": 7280,
+      "regularSalePrice": 7280,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-07T20:20:37.000Z"
+    },
+    {
+      "id": 44499,
+      "productId": 699,
+      "salePrice": 7280,
+      "regularSalePrice": 7280,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:41:08.424Z"
+    },
+    {
+      "id": 72269,
+      "productId": 699,
+      "salePrice": 8280,
+      "regularSalePrice": 8280,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:17:30.645Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 207911,
+      "productId": 699,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 8280,
+      "checkedAt": "2026-09-03T01:17:31.000Z"
+    },
+    {
+      "id": 207910,
+      "productId": 699,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 7280,
+      "checkedAt": "2026-09-03T01:17:31.000Z"
+    },
+    {
+      "id": 207909,
+      "productId": 699,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/未開封品",
+      "price": 7280,
+      "checkedAt": "2026-09-03T01:17:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083589",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083589",
+    "capturedAt": "2026-09-03T01:17:30.645Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/未開封品",
+        "price": 7280
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 7280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 8280
+      }
+    ],
+    "path": "data/other-shops/145083589.json"
+  }
+}

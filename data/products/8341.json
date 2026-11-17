@@ -1,0 +1,105 @@
+{
+  "product": {
+    "id": 8341,
+    "title": "Windows2000/XP/Vista DVDソフト 妻の母さゆり [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017885",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017885.jpg",
+    "manufacturer": "CATTLEYA(カトレヤ)",
+    "releaseDate": "2008-04-25",
+    "listPrice": 9680,
+    "modelNumber": "CAT04",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145017885001",
+      "メーカー": "CATTLEYA(カトレヤ)",
+      "発売日": "2008/04/25",
+      "定価": "9,680円",
+      "型番": "CAT04",
+      "原画": "川合正起",
+      "シナリオ": "りっくりっく",
+      "音楽": "アトリエピーチ",
+      "声優": "紫苑みやび\n風華\n白井綾乃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "2250",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2100,
+    "latestRegularSalePrice": 2250,
+    "latestBuyPrice": 1100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-09T01:37:57.515Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-09T01:37:45.462Z"
+  },
+  "histories": [
+    {
+      "id": 8355,
+      "productId": 8341,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 23130,
+      "productId": 8341,
+      "salePrice": 2100,
+      "regularSalePrice": 2250,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:37:45.462Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 52950,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2411,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 52949,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2100,
+      "checkedAt": "2026-08-09T01:37:57.000Z"
+    },
+    {
+      "id": 1724,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    },
+    {
+      "id": 1723,
+      "productId": 8341,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2500,
+      "checkedAt": "2026-08-04T17:08:07.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

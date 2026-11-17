@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 120108,
+    "title": "Windows7/8/10 DVDソフト 魔王の娘と外道勇者 -紅の瞳と白き淫濁-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066384",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066384.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2019-11-29",
+    "listPrice": 3520,
+    "modelNumber": "VAL-0050",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066384001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2019/11/29",
+      "定価": "3,520円",
+      "型番": "VAL-0050",
+      "原画": "サブロー",
+      "シナリオ": "九重",
+      "声優": "野々村紗夜\n高梨はなみ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1350,
+    "latestRegularSalePrice": 1350,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-29T05:41:03.215Z"
+  },
+  "histories": [
+    {
+      "id": 120122,
+      "productId": 120108,
+      "salePrice": 1350,
+      "regularSalePrice": 1350,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:03.215Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384399,
+      "productId": 120108,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1350,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    },
+    {
+      "id": 384398,
+      "productId": 120108,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 1380,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    },
+    {
+      "id": 384397,
+      "productId": 120108,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-10-29T05:41:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066384",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066384",
+    "capturedAt": "2026-10-29T05:41:03.215Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 1380
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1350
+      }
+    ],
+    "path": "data/other-shops/145066384.json"
+  }
+}

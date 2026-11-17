@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 42010,
+    "title": "Windows98/Me/2000/XP CDソフト 催眠ペット～メスになったワタシ～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020230",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020230.jpg",
+    "manufacturer": "白濁系カウパー",
+    "releaseDate": "2009-05-29",
+    "listPrice": 3520,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145020230",
+      "メーカー": "白濁系カウパー",
+      "発売日": "2009/05/29",
+      "定価": "3,520円",
+      "原画": "あんこ工房\nなるちょ",
+      "シナリオ": "雨木",
+      "声優": "犬飼あお(夕凪音)\nヒマリ\n加乃みるく",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:38.640Z"
+  },
+  "histories": [
+    {
+      "id": 42024,
+      "productId": 42010,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:19.263Z"
+    },
+    {
+      "id": 53504,
+      "productId": 42010,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:24:54.515Z"
+    },
+    {
+      "id": 65054,
+      "productId": 42010,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:38.640Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020230",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020230",
+    "capturedAt": "2026-08-29T01:16:38.640Z",
+    "items": [],
+    "path": "data/other-shops/145020230.json"
+  }
+}

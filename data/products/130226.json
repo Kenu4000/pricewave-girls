@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 130226,
+    "title": "勇者と魔王と、魔女のカフェ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145060784",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145060784.jpg",
+    "manufacturer": "Mint CUBE",
+    "releaseDate": "2018-04-27",
+    "listPrice": 10780,
+    "modelNumber": "MCB-1801",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145060784001",
+      "メーカー": "Mint CUBE",
+      "発売日": "2018/04/27",
+      "定価": "10,780円",
+      "型番": "MCB-1801",
+      "原画": "あつあげ",
+      "シナリオ": "華南恋",
+      "声優": "七坂真理\n大盛ぺろり\n桜乃ひよ\n花園めい\n奏雨\n阿良えな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T14:53:08.737Z"
+  },
+  "histories": [
+    {
+      "id": 130240,
+      "productId": 130226,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:53:08.737Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 417748,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    },
+    {
+      "id": 417747,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    },
+    {
+      "id": 417746,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+      "price": 1200,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    },
+    {
+      "id": 417745,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古",
+      "price": 770,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    },
+    {
+      "id": 417744,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 830,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    },
+    {
+      "id": 417743,
+      "productId": 130226,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 770,
+      "checkedAt": "2026-11-12T14:53:09.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145060784",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145060784",
+    "capturedAt": "2026-11-12T14:53:08.737Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古（10日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 770
+      },
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 830
+      },
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古",
+        "price": 770
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古ゲームディスク・サントラCDのみ（その他欠品）",
+        "price": 1200
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145060784.json"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 127213,
+    "title": "ピアノの森の満開の下 [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016412",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016412.jpg",
+    "manufacturer": "ぱじゃまソフト",
+    "releaseDate": "2007-08-24",
+    "listPrice": 6380,
+    "modelNumber": "PAM-0049",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016412001",
+      "メーカー": "ぱじゃまソフト",
+      "発売日": "2007/08/24",
+      "定価": "6,380円",
+      "型番": "PAM-0049",
+      "原画": "とろろ",
+      "シナリオ": "若瀬諒",
+      "音楽": "Manack",
+      "主題歌/声優": "榊原ゆい",
+      "声優": "成瀬未亜\n牛込亀男",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:04:14.858Z"
+  },
+  "histories": [
+    {
+      "id": 127227,
+      "productId": 127213,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:14.858Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408545,
+      "productId": 127213,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-11-07T16:04:15.000Z"
+    },
+    {
+      "id": 408544,
+      "productId": 127213,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-11-07T16:04:15.000Z"
+    },
+    {
+      "id": 408543,
+      "productId": 127213,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-11-07T16:04:15.000Z"
+    },
+    {
+      "id": 408542,
+      "productId": 127213,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2100,
+      "checkedAt": "2026-11-07T16:04:15.000Z"
+    },
+    {
+      "id": 408541,
+      "productId": 127213,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット高岡店",
+      "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+      "price": 2000,
+      "checkedAt": "2026-11-07T16:04:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016412",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016412",
+    "capturedAt": "2026-11-07T16:04:14.858Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古箱状態難(傷み・汚れ・日焼けなど)",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2100
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "ブックマーケット高岡店",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2750
+      }
+    ],
+    "path": "data/other-shops/145016412.json"
+  }
+}
