@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 123233,
+    "title": "サマヨイ淫夢校舎ーこんなHな授業、ありえな いっ!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024301",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024301.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2010-07-23",
+    "listPrice": 9680,
+    "modelNumber": "TB-043",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145024301",
+      "メーカー": "TinkerBell",
+      "発売日": "2010/07/23",
+      "定価": "9,680円",
+      "型番": "TB-043",
+      "原画": "名波春平",
+      "シナリオ": "佐野一馬",
+      "声優": "天天\nあさり☆\n比未子",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:54.983Z"
+  },
+  "histories": [
+    {
+      "id": 123247,
+      "productId": 123233,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:26.149Z"
+    },
+    {
+      "id": 124211,
+      "productId": 123233,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:05:51.797Z"
+    },
+    {
+      "id": 125170,
+      "productId": 123233,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T16:06:22.543Z"
+    },
+    {
+      "id": 126130,
+      "productId": 123233,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-06T01:07:04.787Z"
+    },
+    {
+      "id": 127091,
+      "productId": 123233,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:53:10.015Z"
+    },
+    {
+      "id": 128195,
+      "productId": 123233,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:54.983Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408339,
+      "productId": 123233,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-11-07T15:53:10.000Z"
+    },
+    {
+      "id": 408338,
+      "productId": 123233,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-11-07T15:53:10.000Z"
+    },
+    {
+      "id": 408337,
+      "productId": 123233,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 850,
+      "checkedAt": "2026-11-07T15:53:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024301",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024301",
+    "capturedAt": "2026-11-08T16:06:54.983Z",
+    "items": [],
+    "path": "data/other-shops/145024301.json"
+  }
+}

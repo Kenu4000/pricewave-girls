@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 113498,
+    "title": "エインズワースの魔物たち [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145018153",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145018153.jpg",
+    "manufacturer": "アイル【チーム・る～にぃ】",
+    "releaseDate": "2008-07-25",
+    "listPrice": 9680,
+    "modelNumber": "AIL-141527",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145018153001",
+      "メーカー": "アイル【チーム・る～にぃ】",
+      "発売日": "2008/07/25",
+      "定価": "9,680円",
+      "型番": "AIL-141527",
+      "声優": "猫村天\n東かりん\n中家志穂\n宮沢ゆあな\n高槻つばさ",
+      "原画": "ら~☆きぃ",
+      "シナリオ": "りうのすけ\n樋口和真",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 4180,
+    "latestRegularSalePrice": 4180,
+    "latestBuyPrice": 2300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:00:47.837Z"
+  },
+  "histories": [
+    {
+      "id": 113512,
+      "productId": 113498,
+      "salePrice": 3780,
+      "regularSalePrice": 3780,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:50.157Z"
+    },
+    {
+      "id": 127316,
+      "productId": 113498,
+      "salePrice": 4180,
+      "regularSalePrice": 4180,
+      "buyPrice": 2300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:00:47.837Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408692,
+      "productId": 113498,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 4180,
+      "checkedAt": "2026-11-08T16:00:47.000Z"
+    },
+    {
+      "id": 408691,
+      "productId": 113498,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1900,
+      "checkedAt": "2026-11-08T16:00:47.000Z"
+    },
+    {
+      "id": 408690,
+      "productId": 113498,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1900,
+      "checkedAt": "2026-11-08T16:00:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145018153",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145018153",
+    "capturedAt": "2026-11-08T16:00:47.837Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1900
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1900
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 4180
+      }
+    ],
+    "path": "data/other-shops/145018153.json"
+  }
+}

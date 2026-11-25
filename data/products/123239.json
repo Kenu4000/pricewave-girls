@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 123239,
+    "title": "Windows98/Me/2000/XP DVDソフト まほ☆たまシリーズ 収納BOX付全6本セット",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021671",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021671.jpg",
+    "manufacturer": "EROGOS",
+    "releaseDate": "2006-02-24",
+    "listPrice": 25080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145021671001",
+      "メーカー": "EROGOS",
+      "発売日": "2006/02/24",
+      "定価": "25,080円",
+      "キャラクターデザイン": "牧だいきち",
+      "シナリオ": "火々野未完",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "OS": "発売日 2006/02/24",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5680,
+    "latestRegularSalePrice": 5680,
+    "latestBuyPrice": 2700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-03T13:17:27.503Z"
+  },
+  "histories": [
+    {
+      "id": 123253,
+      "productId": 123239,
+      "salePrice": 5680,
+      "regularSalePrice": 5680,
+      "buyPrice": 2700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:27.503Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 395026,
+      "productId": 123239,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5680,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    },
+    {
+      "id": 395025,
+      "productId": 123239,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 5211,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021671",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021671",
+    "capturedAt": "2026-11-03T13:17:27.503Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 5211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5680
+      }
+    ],
+    "path": "data/other-shops/145021671.json"
+  }
+}

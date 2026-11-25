@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 115411,
+    "title": "Windows10/11 DVDソフト Spoofing -莉帆のなりすまし調査-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076700",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076700.jpg",
+    "manufacturer": "Guilty’Dash",
+    "releaseDate": "2022-12-23",
+    "listPrice": 1760,
+    "modelNumber": "WILL-444",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145076700001",
+      "メーカー": "Guilty’Dash",
+      "発売日": "2022/12/23",
+      "定価": "1,760円",
+      "型番": "WILL-444",
+      "原画": "ツイマニュ",
+      "シナリオ": "クロエ\n利波創造\n百日紅こあ",
+      "声優": "野々村紗夜\n葵ゆり",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 450,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-20T03:46:46.144Z"
+  },
+  "histories": [
+    {
+      "id": 115425,
+      "productId": 115411,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 450,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-20T03:46:46.144Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 367396,
+      "productId": 115411,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-20T03:46:46.000Z"
+    },
+    {
+      "id": 367395,
+      "productId": 115411,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2012,
+      "checkedAt": "2026-10-20T03:46:46.000Z"
+    },
+    {
+      "id": 367394,
+      "productId": 115411,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-10-20T03:46:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145076700",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076700",
+    "capturedAt": "2026-10-20T03:46:46.144Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2012
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145076700.json"
+  }
+}

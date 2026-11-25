@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 127172,
+    "title": "MagusTale W-Pack",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024590",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024590.jpg",
+    "manufacturer": "Whirlpool",
+    "releaseDate": "2010-07-30",
+    "listPrice": 9680,
+    "modelNumber": "WP-PACK",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145024590001",
+      "メーカー": "Whirlpool",
+      "発売日": "2010/07/30",
+      "定価": "9,680円",
+      "型番": "WP-PACK",
+      "原画": "てんまそ",
+      "シナリオ": "Hatsu\n大三元\n尾之上咲太",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 6980,
+    "latestRegularSalePrice": 6980,
+    "latestBuyPrice": 2400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:13.042Z"
+  },
+  "histories": [
+    {
+      "id": 127186,
+      "productId": 127172,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:59.999Z"
+    },
+    {
+      "id": 128240,
+      "productId": 127172,
+      "salePrice": 6980,
+      "regularSalePrice": 6980,
+      "buyPrice": 2400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:13.042Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

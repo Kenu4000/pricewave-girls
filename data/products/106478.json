@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 106478,
+    "title": "Windows2000/XP/Vista DVDソフト D.C.II Fall in Love～ダ・カーポII～ フォーリンラブ[ファンクラブリミテッドパッケージ版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145024122",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145024122.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2009-12-18",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145024122001",
+      "メーカー": "CIRCUS",
+      "発売日": "2009/12/18",
+      "定価": "8,580円",
+      "原画": "鷹乃ゆき\nたにはらなつき\nかゆらゆか\nみつまむ\n立羽",
+      "シナリオ": "ごとうしん\n望月JET\n雨野智晴\n桑原文彦\nたけうちこうた\nほっしー\n日富美信吾\n愛羽",
+      "声優": "空野太陽\n民安ともえ\nまきいづみ\n水橋かおり\n三咲里奈\n桜ちとせ\n小倉結衣\nきのみ聖\n宮川なつき\nかがみありす\n宮代ゆず\n立花あや\n西巻佳代\n神代岬\n手塚まき\n遠野そよぎ\n春野風\nヘルシー太郎\n鷹取玲\n福山潤",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "1400",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1400,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-01T03:31:12.886Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:31:12.549Z"
+  },
+  "histories": [
+    {
+      "id": 106492,
+      "productId": 106478,
+      "salePrice": 1650,
+      "regularSalePrice": 1650,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:18.624Z"
+    },
+    {
+      "id": 120429,
+      "productId": 106478,
+      "salePrice": 1250,
+      "regularSalePrice": 1400,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:31:12.549Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384922,
+      "productId": 106478,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    },
+    {
+      "id": 384921,
+      "productId": 106478,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1311,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    },
+    {
+      "id": 384920,
+      "productId": 106478,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋大垣店",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-11-01T03:31:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145024122",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145024122",
+    "capturedAt": "2026-11-01T03:31:12.549Z",
+    "items": [
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1250
+      },
+      {
+        "storeName": "駿河屋大垣店",
+        "condition": "中古",
+        "price": 1311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145024122.json"
+  }
+}

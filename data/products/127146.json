@@ -1,0 +1,65 @@
+{
+  "product": {
+    "id": 127146,
+    "title": "ドラゴンズレイド ツインパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145040817",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145040817.jpg",
+    "manufacturer": "フェアリーテール",
+    "releaseDate": "2014-01-31",
+    "listPrice": 4378,
+    "modelNumber": "FCSG-006",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145040817",
+      "メーカー": "フェアリーテール",
+      "発売日": "2014/01/31",
+      "定価": "4,378円",
+      "型番": "FCSG-006",
+      "原画": "石原ますみ\n騎士二千",
+      "シナリオ": "天狗堂\nみささぎらん\n田中珠\nたにつきらいむ\n那珂湊",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 800,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:06.069Z"
+  },
+  "histories": [
+    {
+      "id": 127160,
+      "productId": 127146,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:48.383Z"
+    },
+    {
+      "id": 128225,
+      "productId": 127146,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 800,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:06.069Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

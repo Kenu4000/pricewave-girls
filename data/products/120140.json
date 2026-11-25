@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 120140,
+    "title": "戦御村正 ‐剣の凱歌‐ DX 遊戯強化版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058005",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058005.jpg",
+    "manufacturer": "げーせん18",
+    "releaseDate": "2017-06-23",
+    "listPrice": 6050,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145058005",
+      "メーカー": "げーせん18",
+      "発売日": "2017/06/23",
+      "定価": "6,050円",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 3400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-22T16:00:15.140Z"
+  },
+  "histories": [
+    {
+      "id": 120154,
+      "productId": 120140,
+      "salePrice": 5650,
+      "regularSalePrice": 5650,
+      "buyPrice": 3200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:16.671Z"
+    },
+    {
+      "id": 134184,
+      "productId": 120140,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-22T16:00:15.140Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

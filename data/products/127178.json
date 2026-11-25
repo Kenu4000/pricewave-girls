@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 127178,
+    "title": "兄嫁いじり",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021399",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021399.jpg",
+    "manufacturer": "U・Me SOFT",
+    "releaseDate": "2009-09-04",
+    "listPrice": 3300,
+    "modelNumber": "UME-066",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145021399001",
+      "メーカー": "U・Me SOFT",
+      "発売日": "2009/09/04",
+      "定価": "3,300円",
+      "型番": "UME-066",
+      "原画": "陽秋ゆう",
+      "声優": "御苑生メイ",
+      "シナリオ": "始門弦武",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 980,
+    "latestRegularSalePrice": 980,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:04:02.199Z"
+  },
+  "histories": [
+    {
+      "id": 127192,
+      "productId": 127178,
+      "salePrice": 980,
+      "regularSalePrice": 980,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:02.199Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408508,
+      "productId": 127178,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 980,
+      "checkedAt": "2026-11-07T16:04:02.000Z"
+    },
+    {
+      "id": 408507,
+      "productId": 127178,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古",
+      "price": 780,
+      "checkedAt": "2026-11-07T16:04:02.000Z"
+    },
+    {
+      "id": 408506,
+      "productId": 127178,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/通常",
+      "price": 780,
+      "checkedAt": "2026-11-07T16:04:02.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145021399",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021399",
+    "capturedAt": "2026-11-07T16:04:02.199Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/通常",
+        "price": 780
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古",
+        "price": 780
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 980
+      }
+    ],
+    "path": "data/other-shops/145021399.json"
+  }
+}

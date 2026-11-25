@@ -1,0 +1,93 @@
+{
+  "product": {
+    "id": 113479,
+    "title": "メアメアメアSP(Sister Plus)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023463.jpg",
+    "manufacturer": "mana",
+    "releaseDate": "2010-03-26",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023463",
+      "メーカー": "mana",
+      "発売日": "2010/03/26",
+      "定価": "4,180円",
+      "原画": "丸ちゃん。",
+      "シナリオ": "藤原休樹",
+      "アーティスト": "詩月カオリ",
+      "声優": "唯香",
+      "主題歌": "KOTOKO",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 700,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-22T11:30:14.556Z"
+  },
+  "histories": [
+    {
+      "id": 113493,
+      "productId": 113479,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:41.533Z"
+    },
+    {
+      "id": 118678,
+      "productId": 113479,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-26T17:18:18.487Z"
+    },
+    {
+      "id": 126566,
+      "productId": 113479,
+      "salePrice": 1080,
+      "regularSalePrice": 1200,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:49:53.065Z"
+    },
+    {
+      "id": 133231,
+      "productId": 113479,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 700,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-22T11:30:14.556Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,61 @@
+{
+  "product": {
+    "id": 129232,
+    "title": "あい♂まい♀みすと",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036069",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036069.jpg",
+    "manufacturer": "白濁系",
+    "releaseDate": "2013-02-28",
+    "listPrice": 9680,
+    "modelNumber": "HKDK-0013",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036069",
+      "メーカー": "白濁系",
+      "発売日": "2013/02/28",
+      "定価": "9,680円",
+      "型番": "HKDK-0013",
+      "原画": "紗倉みかん",
+      "シナリオ": "ぴよみず",
+      "声優": "つゆりよつば\n犬飼あお(夕凪音)\n大高あまね\n逢川奈々",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2500,
+    "latestRegularSalePrice": 2500,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-09T16:52:16.197Z"
+  },
+  "histories": [
+    {
+      "id": 129246,
+      "productId": 129232,
+      "salePrice": 2500,
+      "regularSalePrice": 2500,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:16.197Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036069",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036069",
+    "capturedAt": "2026-11-09T16:52:16.197Z",
+    "items": [],
+    "path": "data/other-shops/145036069.json"
+  }
+}

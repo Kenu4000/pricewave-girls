@@ -1,0 +1,140 @@
+{
+  "product": {
+    "id": 29316,
+    "title": "Windows7/8/8.1/10 DVDソフト 東京24区",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145066365",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145066365.jpg",
+    "manufacturer": "HolicWorks(ホリックワークス)",
+    "releaseDate": "2020-05-29",
+    "listPrice": 9020,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145066365001",
+      "メーカー": "HolicWorks(ホリックワークス)",
+      "発売日": "2020/05/29",
+      "定価": "9,020円",
+      "原画": "風雅ゆゆ",
+      "シナリオ": "中条ローザ",
+      "声優": "佐藤涼樹\n宮尾章\n天河雄成\n河村眞人\n茶介\n柊三太\n一条和矢",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3400,
+    "latestRegularSalePrice": 3400,
+    "latestBuyPrice": 1700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:44:54.536Z"
+  },
+  "histories": [
+    {
+      "id": 29330,
+      "productId": 29316,
+      "salePrice": 3011,
+      "regularSalePrice": 3011,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:05:43.500Z"
+    },
+    {
+      "id": 38159,
+      "productId": 29316,
+      "salePrice": 3011,
+      "regularSalePrice": 3011,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:09:06.005Z"
+    },
+    {
+      "id": 49328,
+      "productId": 29316,
+      "salePrice": 3011,
+      "regularSalePrice": 3011,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:30:11.788Z"
+    },
+    {
+      "id": 60134,
+      "productId": 29316,
+      "salePrice": 3011,
+      "regularSalePrice": 3011,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-23T16:09:43.860Z"
+    },
+    {
+      "id": 70418,
+      "productId": 29316,
+      "salePrice": 3400,
+      "regularSalePrice": 3400,
+      "buyPrice": 1700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:44:54.536Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 201991,
+      "productId": 29316,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 3400,
+      "checkedAt": "2026-09-02T20:44:54.000Z"
+    },
+    {
+      "id": 201990,
+      "productId": 29316,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 3000,
+      "checkedAt": "2026-09-02T20:44:54.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145066365",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145066365",
+    "capturedAt": "2026-09-02T20:44:54.536Z",
+    "items": [
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 3000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 3400
+      }
+    ],
+    "path": "data/other-shops/145066365.json"
+  }
+}

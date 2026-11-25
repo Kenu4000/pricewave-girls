@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 91361,
+    "title": "Windows10/11 DVDソフト 僕と先生の個人授業2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145080987",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145080987.jpg",
+    "manufacturer": "あざらしそふと+1",
+    "releaseDate": "2024-06-28",
+    "listPrice": 5500,
+    "modelNumber": "AZA038",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145080987001",
+      "メーカー": "あざらしそふと+1",
+      "発売日": "2024/06/28",
+      "定価": "5,500円",
+      "型番": "AZA038",
+      "原画": "ひなづか凉",
+      "シナリオ": "中島大河",
+      "声優": "葵時緒",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:13.201Z"
+  },
+  "histories": [
+    {
+      "id": 91375,
+      "productId": 91361,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:13.201Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278814,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278813,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 3725,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278812,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 津島店",
+      "condition": "中古",
+      "price": 2949,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278811,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1212,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278810,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 930,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    },
+    {
+      "id": 278809,
+      "productId": 91361,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 911,
+      "checkedAt": "2026-09-14T17:28:15.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145080987",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145080987",
+    "capturedAt": "2026-09-14T17:28:13.201Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 911
+      },
+      {
+        "storeName": "駿河屋 ゆめタウン大牟田店",
+        "condition": "中古",
+        "price": 930
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1212
+      },
+      {
+        "storeName": "駿河屋 津島店",
+        "condition": "中古",
+        "price": 2949
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 3725
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145080987.json"
+  }
+}

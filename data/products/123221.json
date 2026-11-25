@@ -1,0 +1,122 @@
+{
+  "product": {
+    "id": 123221,
+    "title": "相川亜利砂定食",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145082690",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145082690.jpg",
+    "manufacturer": "TRYSET Break",
+    "releaseDate": "2025-03-28",
+    "listPrice": 6578,
+    "modelNumber": "TRYB-0030",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145082690",
+      "メーカー": "TRYSET Break",
+      "発売日": "2025/03/28",
+      "定価": "6,578円",
+      "型番": "TRYB-0030",
+      "原画": "相川亜利砂",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5198,
+    "latestRegularSalePrice": 5198,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:51.355Z"
+  },
+  "histories": [
+    {
+      "id": 123235,
+      "productId": 123221,
+      "salePrice": 5198,
+      "regularSalePrice": 5198,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:19.535Z"
+    },
+    {
+      "id": 124202,
+      "productId": 123221,
+      "salePrice": 5198,
+      "regularSalePrice": 5198,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:05:47.740Z"
+    },
+    {
+      "id": 125161,
+      "productId": 123221,
+      "salePrice": 5198,
+      "regularSalePrice": 5198,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T16:06:18.805Z"
+    },
+    {
+      "id": 126119,
+      "productId": 123221,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1200,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-06T01:07:02.212Z"
+    },
+    {
+      "id": 127078,
+      "productId": 123221,
+      "salePrice": 5198,
+      "regularSalePrice": 5198,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:53:05.941Z"
+    },
+    {
+      "id": 128189,
+      "productId": 123221,
+      "salePrice": 5198,
+      "regularSalePrice": 5198,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:51.355Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145082690",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145082690",
+    "capturedAt": "2026-11-08T16:06:51.355Z",
+    "items": [],
+    "path": "data/other-shops/145082690.json"
+  }
+}

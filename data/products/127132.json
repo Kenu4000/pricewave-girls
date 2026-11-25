@@ -1,0 +1,144 @@
+{
+  "product": {
+    "id": 127132,
+    "title": "アイドルパフパフマネージメント 芸能娘をHにバストUPプロデュース",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053830",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053830.jpg",
+    "manufacturer": "アトリエかぐや CheshireCat（ちしゃねこ）",
+    "releaseDate": "2016-04-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053830001",
+      "メーカー": "アトリエかぐや CheshireCat（ちしゃねこ）",
+      "発売日": "2016/04/28",
+      "定価": "9,680円",
+      "原画": "みゃぁん",
+      "シナリオ": "間崎俊介",
+      "声優": "ヒマリ\nひむろゆり\n渋谷ひめ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2750,
+    "latestRegularSalePrice": 2750,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:43.506Z"
+  },
+  "histories": [
+    {
+      "id": 127146,
+      "productId": 127132,
+      "salePrice": 2750,
+      "regularSalePrice": 2750,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:43.506Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408434,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2750,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    },
+    {
+      "id": 408433,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    },
+    {
+      "id": 408432,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古",
+      "price": 2380,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    },
+    {
+      "id": 408431,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2512,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    },
+    {
+      "id": 408430,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2480,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    },
+    {
+      "id": 408429,
+      "productId": 127132,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 2380,
+      "checkedAt": "2026-11-07T16:03:43.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053830",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053830",
+    "capturedAt": "2026-11-07T16:03:43.506Z",
+    "items": [
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 2380
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2480
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2512
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古",
+        "price": 2380
+      },
+      {
+        "storeName": "バンダレコード福島西道路店 supported by 駿河屋",
+        "condition": "中古",
+        "price": 2850
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2750
+      }
+    ],
+    "path": "data/other-shops/145053830.json"
+  }
+}

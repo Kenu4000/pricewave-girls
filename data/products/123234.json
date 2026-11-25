@@ -1,0 +1,123 @@
+{
+  "product": {
+    "id": 123234,
+    "title": "看護戦隊ナースレンジャー [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017362",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017362.jpg",
+    "manufacturer": "LiLiM",
+    "releaseDate": "2008-01-18",
+    "listPrice": 8580,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145017362",
+      "メーカー": "LiLiM",
+      "発売日": "2008/01/18",
+      "定価": "8,580円",
+      "原画": "KIMちー",
+      "シナリオ": "影ノ毛座",
+      "声優": "民安ともえ\nカンザキカナリ\n水純なな歩\n藤森ゆき奈\n蓮香\n中家志穂\n桜川未央",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 711,
+    "latestRegularSalePrice": 711,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:06:56.909Z"
+  },
+  "histories": [
+    {
+      "id": 123248,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:26.798Z"
+    },
+    {
+      "id": 124212,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:05:51.887Z"
+    },
+    {
+      "id": 125172,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T16:06:23.216Z"
+    },
+    {
+      "id": 126131,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-06T01:07:05.594Z"
+    },
+    {
+      "id": 127093,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:53:10.715Z"
+    },
+    {
+      "id": 128200,
+      "productId": 123234,
+      "salePrice": 711,
+      "regularSalePrice": 711,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:06:56.909Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145017362",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017362",
+    "capturedAt": "2026-11-08T16:06:56.909Z",
+    "items": [],
+    "path": "data/other-shops/145017362.json"
+  }
+}

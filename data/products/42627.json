@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 42627,
+    "title": "Windows98/Me/2000/XP/Vista CDソフト 近衛騎士ラティス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016756",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016756.jpg",
+    "manufacturer": "EROTICA BLACK",
+    "releaseDate": "2007-10-26",
+    "listPrice": 2200,
+    "modelNumber": "URS-00001",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016756001",
+      "メーカー": "EROTICA BLACK",
+      "発売日": "2007/10/26",
+      "定価": "2,200円",
+      "型番": "URS-00001",
+      "原画": "さえき北都",
+      "シナリオ": "卯月一葉",
+      "声優": "芹園みや\n桃井いちご",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 410,
+    "latestRegularSalePrice": 410,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T07:13:36.585Z"
+  },
+  "histories": [
+    {
+      "id": 42641,
+      "productId": 42627,
+      "salePrice": 410,
+      "regularSalePrice": 410,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:13:36.585Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 110060,
+      "productId": 42627,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:13:36.000Z"
+    },
+    {
+      "id": 110059,
+      "productId": 42627,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-08-17T07:13:36.000Z"
+    },
+    {
+      "id": 110058,
+      "productId": 42627,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-08-17T07:13:36.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016756",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016756",
+    "capturedAt": "2026-08-17T07:13:36.585Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 410
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      }
+    ],
+    "path": "data/other-shops/145016756.json"
+  }
+}

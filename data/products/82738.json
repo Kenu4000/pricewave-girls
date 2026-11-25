@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 82738,
+    "title": "Windows CDソフト COTTON 100% CD6",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145037921",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145037921.jpg",
+    "manufacturer": "コットンソフトウェア",
+    "releaseDate": "2012-07-27",
+    "listPrice": null,
+    "modelNumber": "COTTON-009CD",
+    "category": "パソコンソフト アダルト Windows",
+    "details": {
+      "管理番号": "145037921",
+      "メーカー": "コットンソフトウェア",
+      "発売日": "2012/07/27",
+      "型番": "COTTON-009CD",
+      "カテゴリ": "パソコンソフト アダルト Windows",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 300,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-03T12:42:50.575Z"
+  },
+  "histories": [
+    {
+      "id": 82752,
+      "productId": 82738,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-09T05:33:02.393Z"
+    },
+    {
+      "id": 94531,
+      "productId": 82738,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:44:26.627Z"
+    },
+    {
+      "id": 107803,
+      "productId": 82738,
+      "salePrice": 700,
+      "regularSalePrice": 780,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T16:01:43.690Z"
+    },
+    {
+      "id": 122736,
+      "productId": 82738,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 300,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T12:42:50.575Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

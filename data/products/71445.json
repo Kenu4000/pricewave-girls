@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 71445,
+    "title": "Windows2000/XP/Vista DVDソフト 今日のおかず 第十七号",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145020238",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145020238.jpg",
+    "manufacturer": "じぃすぽっと",
+    "releaseDate": "2009-05-29",
+    "listPrice": 3122,
+    "modelNumber": "EICD-1018",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145020238",
+      "メーカー": "じぃすぽっと",
+      "発売日": "2009/05/29",
+      "定価": "3,122円",
+      "型番": "EICD-1018",
+      "原画": "雨宮ツムギ\n御垳葉ひかる\nRAYMON",
+      "シナリオ": "奈落ハジメ\n奇偶転置",
+      "音楽": "ミリオンバンブー",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5656,
+    "latestRegularSalePrice": 5656,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:37:55.583Z"
+  },
+  "histories": [
+    {
+      "id": 71459,
+      "productId": 71445,
+      "salePrice": 5656,
+      "regularSalePrice": 5656,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:37:55.583Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145020238",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145020238",
+    "capturedAt": "2026-09-02T21:37:55.583Z",
+    "items": [],
+    "path": "data/other-shops/145020238.json"
+  }
+}

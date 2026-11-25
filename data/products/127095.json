@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 127095,
+    "title": "お義母さんとの秘密 -結婚の挨拶に行ったら、先日のデリヘル嬢でした…。-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145083655",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145083655.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2025-11-28",
+    "listPrice": 3080,
+    "modelNumber": "APT-293",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145083655001",
+      "メーカー": "アパタイト",
+      "発売日": "2025/11/28",
+      "定価": "3,080円",
+      "型番": "APT-293",
+      "原画": "紅葉-K",
+      "シナリオ": "たき",
+      "声優": "赤坂さかき\n椎名旭",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1880,
+    "latestRegularSalePrice": 1880,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:23.109Z"
+  },
+  "histories": [
+    {
+      "id": 127109,
+      "productId": 127095,
+      "salePrice": 1880,
+      "regularSalePrice": 1880,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:23.109Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408358,
+      "productId": 127095,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1880,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408357,
+      "productId": 127095,
+      "sourceType": "other_shop",
+      "storeName": "オーガ西店",
+      "condition": "新品/未開封/新品",
+      "price": 3080,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408356,
+      "productId": 127095,
+      "sourceType": "other_shop",
+      "storeName": "播磨屋書店",
+      "condition": "新品可",
+      "price": 3080,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408355,
+      "productId": 127095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 1701,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    },
+    {
+      "id": 408354,
+      "productId": 127095,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 1700,
+      "checkedAt": "2026-11-07T16:03:23.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145083655",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145083655",
+    "capturedAt": "2026-11-07T16:03:23.109Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 1700
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 1701
+      },
+      {
+        "storeName": "播磨屋書店",
+        "condition": "新品可",
+        "price": 3080
+      },
+      {
+        "storeName": "オーガ西店",
+        "condition": "新品/未開封/新品",
+        "price": 3080
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1880
+      }
+    ],
+    "path": "data/other-shops/145083655.json"
+  }
+}

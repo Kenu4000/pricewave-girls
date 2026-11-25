@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 106171,
+    "title": "Windows10/11 DVDソフト セックスフレンドクラブ-エッチな彼女は好きですか?-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145081873",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145081873.jpg",
+    "manufacturer": "スタジオ奪",
+    "releaseDate": "2024-08-30",
+    "listPrice": 4180,
+    "modelNumber": "UBAI-016",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "中古 ：145081873001",
+      "メーカー": "スタジオ奪",
+      "発売日": "2024/08/30",
+      "定価": "4,180円",
+      "型番": "UBAI-016",
+      "原画": "もんぷち",
+      "シナリオ": "えちながら",
+      "声優": "みなみしの\n葉月ひかり\n立花沙羅",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:18.490Z"
+  },
+  "histories": [
+    {
+      "id": 106185,
+      "productId": 106171,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:18.490Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333221,
+      "productId": 106171,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333220,
+      "productId": 106171,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    },
+    {
+      "id": 333219,
+      "productId": 106171,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-10-08T03:12:19.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145081873",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145081873",
+    "capturedAt": "2026-10-08T03:12:18.490Z",
+    "items": [
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 1400
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145081873.json"
+  }
+}

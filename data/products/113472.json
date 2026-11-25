@@ -1,0 +1,107 @@
+{
+  "product": {
+    "id": 113472,
+    "title": "ベストコレクション淫 ーミダラー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026329.jpg",
+    "manufacturer": "ILLUSION",
+    "releaseDate": "2011-02-10",
+    "listPrice": 4180,
+    "modelNumber": "ILN-084",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145026329",
+      "メーカー": "ILLUSION",
+      "発売日": "2011/02/10",
+      "定価": "4,180円",
+      "型番": "ILN-084",
+      "声優": "藤森ゆき奈\n青葉りんご\n草柳順子\n風音\n一色ヒカル",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:00:45.830Z"
+  },
+  "histories": [
+    {
+      "id": 113486,
+      "productId": 113472,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:38.229Z"
+    },
+    {
+      "id": 127309,
+      "productId": 113472,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:00:45.830Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 360160,
+      "productId": 113472,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:29:38.000Z"
+    },
+    {
+      "id": 360159,
+      "productId": 113472,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（トールケース）",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:38.000Z"
+    },
+    {
+      "id": 360158,
+      "productId": 113472,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋千葉中央店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-10-16T12:29:38.000Z"
+    },
+    {
+      "id": 360157,
+      "productId": 113472,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 ゆめタウン大牟田店",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-10-16T12:29:38.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026329",
+    "capturedAt": "2026-11-08T16:00:45.830Z",
+    "items": [],
+    "path": "data/other-shops/145026329.json"
+  }
+}

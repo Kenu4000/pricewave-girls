@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 129230,
+    "title": "甘夏アドゥレセンス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145056714",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145056714.jpg",
+    "manufacturer": "コンフィチュールソフト",
+    "releaseDate": "2017-03-24",
+    "listPrice": 9680,
+    "modelNumber": "CS-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145056714",
+      "メーカー": "コンフィチュールソフト",
+      "発売日": "2017/03/24",
+      "定価": "9,680円",
+      "型番": "CS-001",
+      "原画": "笹弘\n久麻\nひつじたかこ",
+      "シナリオ": "えじむら",
+      "音楽": "大川茂伸",
+      "声優": "水野七海\n小鳥居夕花\n小倉結衣\nかわしまりの\n藤咲ウサ\n葵ゆり\n橘まお",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1111,
+    "latestRegularSalePrice": 1111,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-09T16:52:16.051Z"
+  },
+  "histories": [
+    {
+      "id": 129244,
+      "productId": 129230,
+      "salePrice": 1111,
+      "regularSalePrice": 1111,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:16.051Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145056714",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145056714",
+    "capturedAt": "2026-11-09T16:52:16.051Z",
+    "items": [],
+    "path": "data/other-shops/145056714.json"
+  }
+}

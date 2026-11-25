@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 127207,
+    "title": "Clover Point[初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016974",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016974.jpg",
+    "manufacturer": "Meteor(メテオ)",
+    "releaseDate": "2007-12-21",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016974001",
+      "メーカー": "Meteor(メテオ)",
+      "発売日": "2007/12/21",
+      "定価": "9,680円",
+      "原画": "Yuyi",
+      "シナリオ": "星野真樹\nJ・さいろー",
+      "アーティスト": "みとせのりこ",
+      "音楽": "Angel Note",
+      "声優": "深井晴花\nみる\n一色ヒカル\n芹園みや\n草柳順子",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 2300,
+    "latestRegularSalePrice": 2300,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:04:13.085Z"
+  },
+  "histories": [
+    {
+      "id": 127221,
+      "productId": 127207,
+      "salePrice": 2300,
+      "regularSalePrice": 2300,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:13.085Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408536,
+      "productId": 127207,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2300,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    },
+    {
+      "id": 408535,
+      "productId": 127207,
+      "sourceType": "other_shop",
+      "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1980,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    },
+    {
+      "id": 408534,
+      "productId": 127207,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    },
+    {
+      "id": 408533,
+      "productId": 127207,
+      "sourceType": "other_shop",
+      "storeName": "りあらいず",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2099,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    },
+    {
+      "id": 408532,
+      "productId": 127207,
+      "sourceType": "other_shop",
+      "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+      "condition": "中古通常",
+      "price": 1980,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145016974",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145016974",
+    "capturedAt": "2026-11-07T16:04:13.085Z",
+    "items": [
+      {
+        "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+        "condition": "中古通常",
+        "price": 1980
+      },
+      {
+        "storeName": "りあらいず",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2099
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2101
+      },
+      {
+        "storeName": "バリQ古河ホビー館 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1980
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2300
+      }
+    ],
+    "path": "data/other-shops/145016974.json"
+  }
+}

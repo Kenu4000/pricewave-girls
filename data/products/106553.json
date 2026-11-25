@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106553,
+    "title": "Windows98SE/Me/2000/XP/Vista CDソフト 魔が堕ちる夜 デーモニックプリンセス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015783",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015783.jpg",
+    "manufacturer": "ミルフィーユ",
+    "releaseDate": "2007-04-27",
+    "listPrice": 2619,
+    "modelNumber": "MFA-0003",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145015783001",
+      "メーカー": "ミルフィーユ",
+      "発売日": "2007/04/27",
+      "定価": "2,619円",
+      "型番": "MFA-0003",
+      "原画": "笹弘",
+      "シナリオ": "謡堂",
+      "声優": "野神奈々\n本山美奈\n乃嶋架菜\n白井綾乃",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 500,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:46.186Z"
+  },
+  "histories": [
+    {
+      "id": 106567,
+      "productId": 106553,
+      "salePrice": 500,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:46.186Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333869,
+      "productId": 106553,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 500,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    },
+    {
+      "id": 333868,
+      "productId": 106553,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    },
+    {
+      "id": 333867,
+      "productId": 106553,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋藤枝店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    },
+    {
+      "id": 333866,
+      "productId": 106553,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 411,
+      "checkedAt": "2026-10-08T03:14:46.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015783",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015783",
+    "capturedAt": "2026-10-08T03:14:46.186Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋藤枝店",
+        "condition": "中古",
+        "price": 411
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 580
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 500
+      }
+    ],
+    "path": "data/other-shops/145015783.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 120169,
+    "title": "メイクMeラバー Special Edition",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145047807",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145047807.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2015-01-30",
+    "listPrice": 11880,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145047807001",
+      "メーカー": "KISS",
+      "発売日": "2015/01/30",
+      "定価": "11,880円",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 11800,
+    "latestRegularSalePrice": 11800,
+    "latestBuyPrice": 6600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-23T18:15:18.585Z"
+  },
+  "histories": [
+    {
+      "id": 120183,
+      "productId": 120169,
+      "salePrice": 11800,
+      "regularSalePrice": 11800,
+      "buyPrice": 6600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:27.968Z"
+    },
+    {
+      "id": 134208,
+      "productId": 120169,
+      "salePrice": 11800,
+      "regularSalePrice": 11800,
+      "buyPrice": 6600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-23T18:15:18.585Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 430787,
+      "productId": 120169,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 11800,
+      "checkedAt": "2026-11-23T18:15:18.000Z"
+    },
+    {
+      "id": 430786,
+      "productId": 120169,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 11800,
+      "checkedAt": "2026-11-23T18:15:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145047807",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145047807",
+    "capturedAt": "2026-11-23T18:15:18.585Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 11800
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 11800
+      }
+    ],
+    "path": "data/other-shops/145047807.json"
+  }
+}

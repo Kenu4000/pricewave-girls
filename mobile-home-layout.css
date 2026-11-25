@@ -1,0 +1,17 @@
+@media (max-width: 760px) {
+  .nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .viewer-home-search {
+    margin-bottom: 18px;
+  }
+
+  .viewer-home-search-heading {
+    margin-bottom: 10px;
+  }
+
+  .viewer-home-search .viewer-search-panel {
+    margin-bottom: 0;
+  }
+}

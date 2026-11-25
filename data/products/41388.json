@@ -1,0 +1,184 @@
+{
+  "product": {
+    "id": 41388,
+    "title": "5inブルトパック",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026059",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026059.jpg",
+    "manufacturer": "BlueTopaz",
+    "releaseDate": "2010-12-24",
+    "listPrice": 9680,
+    "modelNumber": "BLTP-007",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026059001",
+      "メーカー": "BlueTopaz",
+      "発売日": "2010/12/24",
+      "定価": "9,680円",
+      "型番": "BLTP-007",
+      "原画": "椋木尋",
+      "シナリオ": "初見Rodeo",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveRegularSalePrice": "11000",
+      "__pricewaveTimeSale": "true",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145026059?branch_number=0003"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 9900,
+    "latestRegularSalePrice": 11000,
+    "latestBuyPrice": 10000,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-07T15:47:31.689Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T15:47:31.443Z"
+  },
+  "histories": [
+    {
+      "id": 41402,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:01:23.953Z"
+    },
+    {
+      "id": 43921,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:36:08.529Z"
+    },
+    {
+      "id": 72103,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 8700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T01:16:03.832Z"
+    },
+    {
+      "id": 85832,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 9500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-11T06:38:22.376Z"
+    },
+    {
+      "id": 101506,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 9500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-30T11:37:19.774Z"
+    },
+    {
+      "id": 112745,
+      "productId": 41388,
+      "salePrice": 16611,
+      "regularSalePrice": 16611,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:17:15.899Z"
+    },
+    {
+      "id": 126182,
+      "productId": 41388,
+      "salePrice": 9900,
+      "regularSalePrice": 11000,
+      "buyPrice": 10000,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:47:31.443Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 405547,
+      "productId": 41388,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 9900,
+      "checkedAt": "2026-11-07T15:47:31.000Z"
+    },
+    {
+      "id": 405546,
+      "productId": 41388,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 16611,
+      "checkedAt": "2026-11-07T15:47:31.000Z"
+    },
+    {
+      "id": 405545,
+      "productId": 41388,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 9900,
+      "checkedAt": "2026-11-07T15:47:31.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026059",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026059",
+    "capturedAt": "2026-11-07T15:47:31.443Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 9900
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 16611
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 9900
+      }
+    ],
+    "path": "data/other-shops/145026059.json"
+  }
+}

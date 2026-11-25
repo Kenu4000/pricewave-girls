@@ -1,0 +1,129 @@
+{
+  "product": {
+    "id": 29999,
+    "title": "WindowsXP/Vista/7/8/10 DVDソフト VenusBlood -FRONTIER- Win10対応廉価版",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145055843",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145055843.jpg",
+    "manufacturer": "Dual Tail",
+    "releaseDate": "2016-10-28",
+    "listPrice": 4840,
+    "modelNumber": "TDR-10",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145055843001",
+      "メーカー": "Dual Tail",
+      "発売日": "2016/10/28",
+      "定価": "4,840円",
+      "型番": "TDR-10",
+      "原画": "みみず\nトシぞー\n丹下ゲンタ\n桐川いくむ\n白家ミカ",
+      "シナリオ": "けーまる\n久巳友和\nイルカ",
+      "声優": "咲ゆたか\n三郷綾夢\n佐藤玲羅\n有賀桃\n桃也みなみ\n安堂りゅう\n花南\n赤紫青\n杏アオイ\n佐藤裕也\n葵時緒\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1850,
+    "latestRegularSalePrice": 1850,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T20:49:26.744Z"
+  },
+  "histories": [
+    {
+      "id": 30013,
+      "productId": 29999,
+      "salePrice": 1570,
+      "regularSalePrice": 1570,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:12:50.218Z"
+    },
+    {
+      "id": 38812,
+      "productId": 29999,
+      "salePrice": 1570,
+      "regularSalePrice": 1570,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:15:02.295Z"
+    },
+    {
+      "id": 71025,
+      "productId": 29999,
+      "salePrice": 1850,
+      "regularSalePrice": 1850,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T20:49:26.744Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 203920,
+      "productId": 29999,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1850,
+      "checkedAt": "2026-09-02T20:49:26.000Z"
+    },
+    {
+      "id": 203919,
+      "productId": 29999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古",
+      "price": 1495,
+      "checkedAt": "2026-09-02T20:49:26.000Z"
+    },
+    {
+      "id": 203918,
+      "productId": 29999,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+      "price": 1495,
+      "checkedAt": "2026-09-02T20:49:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145055843",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145055843",
+    "capturedAt": "2026-09-02T20:49:26.744Z",
+    "items": [
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【10日以内に発送可】（併売品等理由で品切れの場合あり）",
+        "price": 1495
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古",
+        "price": 1495
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1850
+      }
+    ],
+    "path": "data/other-shops/145055843.json"
+  }
+}

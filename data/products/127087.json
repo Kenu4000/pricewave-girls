@@ -1,0 +1,67 @@
+{
+  "product": {
+    "id": 127087,
+    "title": "狂った果実[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/124003725",
+    "imageUrl": "https://cdn.suruga-ya.jp/pics_webp/bgLogo.jpg.webp",
+    "manufacturer": "フェアリーテイル",
+    "releaseDate": "2023-08-31",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "パソコンソフト アダルト X68000",
+    "details": {
+      "管理番号": "124003725",
+      "メーカー": "フェアリーテイル",
+      "発売日": "2023/08/31",
+      "カテゴリ": "パソコンソフト アダルト X68000",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 6500,
+    "latestRegularSalePrice": 6500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-22T11:32:24.629Z"
+  },
+  "histories": [
+    {
+      "id": 127101,
+      "productId": 127087,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:21.880Z"
+    },
+    {
+      "id": 133517,
+      "productId": 127087,
+      "salePrice": 6500,
+      "regularSalePrice": 6500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-22T11:32:24.629Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "124003725",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/124003725",
+    "capturedAt": "2026-11-22T11:32:24.629Z",
+    "items": [],
+    "path": "data/other-shops/124003725.json"
+  }
+}

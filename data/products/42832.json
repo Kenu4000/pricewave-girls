@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42832,
+    "title": "Windows98SE/Me/2000/XP CDソフト 親友のお母さん ～未亡人・いけない情事～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015636",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015636.jpg",
+    "manufacturer": "アンダーリップ",
+    "releaseDate": "2007-03-23",
+    "listPrice": 3080,
+    "modelNumber": "UL-120",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145015636",
+      "メーカー": "アンダーリップ",
+      "発売日": "2007/03/23",
+      "定価": "3,080円",
+      "型番": "UL-120",
+      "原画": "火炎味噌",
+      "シナリオ": "JUN",
+      "声優": "Yuki-Lin",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:23.669Z"
+  },
+  "histories": [
+    {
+      "id": 42846,
+      "productId": 42832,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:32.428Z"
+    },
+    {
+      "id": 54973,
+      "productId": 42832,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:48.019Z"
+    },
+    {
+      "id": 66071,
+      "productId": 42832,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:23.669Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015636",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015636",
+    "capturedAt": "2026-08-29T13:05:23.669Z",
+    "items": [],
+    "path": "data/other-shops/145015636.json"
+  }
+}

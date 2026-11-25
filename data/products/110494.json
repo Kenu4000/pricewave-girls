@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 110494,
+    "title": "青空の見える丘",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014148",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014148.jpg",
+    "manufacturer": "feng（フォン）",
+    "releaseDate": "2006-04-21",
+    "listPrice": 9680,
+    "modelNumber": "FENG-13",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "145014148",
+      "メーカー": "feng（フォン）",
+      "発売日": "2006/04/21",
+      "定価": "9,680円",
+      "型番": "FENG-13",
+      "原画": "和泉つばす\n涼香",
+      "シナリオ": "サイトウケンジ",
+      "声優": "先割れスプーン\n鈴田美夜子\n安玖深音\n成瀬未亜\nたかはし智秋\n加賀ヒカル\n九条信乃\n佐本二厘",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 1560,
+    "latestRegularSalePrice": 1560,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T16:05:15.260Z"
+  },
+  "histories": [
+    {
+      "id": 110508,
+      "productId": 110494,
+      "salePrice": 1950,
+      "regularSalePrice": 1950,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-13T01:40:31.261Z"
+    },
+    {
+      "id": 116680,
+      "productId": 110494,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1000,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-25T02:48:58.051Z"
+    },
+    {
+      "id": 123947,
+      "productId": 110494,
+      "salePrice": 1700,
+      "regularSalePrice": 1700,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-04T05:04:05.917Z"
+    },
+    {
+      "id": 130986,
+      "productId": 110494,
+      "salePrice": 1560,
+      "regularSalePrice": 1560,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:05:15.260Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145014148",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014148",
+    "capturedAt": "2026-11-12T16:05:15.260Z",
+    "items": [],
+    "path": "data/other-shops/145014148.json"
+  }
+}

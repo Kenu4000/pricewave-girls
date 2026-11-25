@@ -1,0 +1,127 @@
+{
+  "product": {
+    "id": 130240,
+    "title": "SINCLIENT(シンクライアント) エクストラHシーン追加ディスク(祁塔院冬華)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145034796",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145034796.jpg",
+    "manufacturer": "BOOST5",
+    "releaseDate": "2012-09-28",
+    "listPrice": null,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145034796001",
+      "メーカー": "BOOST5",
+      "発売日": "2012/09/28",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "OS": "T5",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T14:53:15.895Z"
+  },
+  "histories": [
+    {
+      "id": 130254,
+      "productId": 130240,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:53:15.895Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 417759,
+      "productId": 130240,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-11-12T14:53:16.000Z"
+    },
+    {
+      "id": 417758,
+      "productId": 130240,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-11-12T14:53:16.000Z"
+    },
+    {
+      "id": 417757,
+      "productId": 130240,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-11-12T14:53:16.000Z"
+    },
+    {
+      "id": 417756,
+      "productId": 130240,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 960,
+      "checkedAt": "2026-11-12T14:53:16.000Z"
+    },
+    {
+      "id": 417755,
+      "productId": 130240,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 650,
+      "checkedAt": "2026-11-12T14:53:16.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145034796",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145034796",
+    "capturedAt": "2026-11-12T14:53:15.895Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 650
+      },
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 960
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 650
+      }
+    ],
+    "path": "data/other-shops/145034796.json"
+  }
+}

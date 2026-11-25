@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91496,
+    "title": "Windows98SE/Me/2000/XP CDソフト 隷属秘書 ～牝犬オフィス調教課",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015231",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015231.jpg",
+    "manufacturer": "黒雛",
+    "releaseDate": "2006-12-29",
+    "listPrice": 3300,
+    "modelNumber": "KRH-00004",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015231001",
+      "メーカー": "黒雛",
+      "発売日": "2006/12/29",
+      "定価": "3,300円",
+      "型番": "KRH-00004",
+      "原画": "くろねこ",
+      "声優": "だいすけ\n平野響子\n早乙女綾",
+      "シナリオ": "坂東真紅郎",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 580,
+    "latestRegularSalePrice": 580,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:29:05.188Z"
+  },
+  "histories": [
+    {
+      "id": 91510,
+      "productId": 91496,
+      "salePrice": 580,
+      "regularSalePrice": 580,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:29:05.188Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 279159,
+      "productId": 91496,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 580,
+      "checkedAt": "2026-09-14T17:29:05.000Z"
+    },
+    {
+      "id": 279158,
+      "productId": 91496,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-09-14T17:29:05.000Z"
+    },
+    {
+      "id": 279157,
+      "productId": 91496,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 600,
+      "checkedAt": "2026-09-14T17:29:05.000Z"
+    },
+    {
+      "id": 279156,
+      "productId": 91496,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-09-14T17:29:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015231",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015231",
+    "capturedAt": "2026-09-14T17:29:05.188Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 400
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 600
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 580
+      }
+    ],
+    "path": "data/other-shops/145015231.json"
+  }
+}

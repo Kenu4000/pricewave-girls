@@ -1,0 +1,91 @@
+{
+  "product": {
+    "id": 113495,
+    "title": "夢幻廻廊1.5 ～連鎖～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145022027",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145022027.jpg",
+    "manufacturer": "Black Cyc",
+    "releaseDate": "2009-02-27",
+    "listPrice": 3300,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145022027",
+      "メーカー": "Black Cyc",
+      "発売日": "2009/02/27",
+      "定価": "3,300円",
+      "原画": "椎咲雛樹",
+      "シナリオ": "松山怜史",
+      "アーティスト": "電気式華憐音楽集団",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-22T11:30:17.203Z"
+  },
+  "histories": [
+    {
+      "id": 113509,
+      "productId": 113495,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-16T12:29:47.471Z"
+    },
+    {
+      "id": 118683,
+      "productId": 113495,
+      "salePrice": 950,
+      "regularSalePrice": 950,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-26T17:18:19.201Z"
+    },
+    {
+      "id": 126568,
+      "productId": 113495,
+      "salePrice": 900,
+      "regularSalePrice": 950,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T15:49:53.478Z"
+    },
+    {
+      "id": 133237,
+      "productId": 113495,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-22T11:30:17.203Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

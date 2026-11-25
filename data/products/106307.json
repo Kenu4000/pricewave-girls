@@ -1,0 +1,88 @@
+{
+  "product": {
+    "id": 106307,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト 不条理教室パック -3つのイカレタやらしい学園をサマヨイ中!!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052378",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052378.jpg",
+    "manufacturer": "TinkerBell",
+    "releaseDate": "2015-12-18",
+    "listPrice": 7480,
+    "modelNumber": "WB-028P",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145052378001",
+      "メーカー": "TinkerBell",
+      "発売日": "2015/12/18",
+      "定価": "7,480円",
+      "型番": "WB-028P",
+      "原画": "名波春平\n止田卓史\n牧だいきち",
+      "シナリオ": "佐野一馬\nバッハマンさんきち\nZEQU",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 17800,
+    "latestRegularSalePrice": 17800,
+    "latestBuyPrice": 5400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:13:11.075Z"
+  },
+  "histories": [
+    {
+      "id": 106321,
+      "productId": 106307,
+      "salePrice": 17800,
+      "regularSalePrice": 17800,
+      "buyPrice": 5400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:13:11.075Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333507,
+      "productId": 106307,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 17800,
+      "checkedAt": "2026-10-08T03:13:11.000Z"
+    },
+    {
+      "id": 333506,
+      "productId": 106307,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 8411,
+      "checkedAt": "2026-10-08T03:13:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052378",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052378",
+    "capturedAt": "2026-10-08T03:13:11.075Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 8411
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 17800
+      }
+    ],
+    "path": "data/other-shops/145052378.json"
+  }
+}

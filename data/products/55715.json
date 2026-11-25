@@ -1,0 +1,154 @@
+{
+  "product": {
+    "id": 55715,
+    "title": "Windows10/11 DVDソフト 画面から出てきた推しVtuberとHな同棲生活-庶民派吸血鬼お嬢様は契約したい-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145077304",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145077304.jpg",
+    "manufacturer": "Casket",
+    "releaseDate": "2023-03-31",
+    "listPrice": 2530,
+    "modelNumber": "CSK-014",
+    "category": "アダルト Windows Windows 11",
+    "details": {
+      "管理番号": "145077304",
+      "メーカー": "Casket",
+      "発売日": "2023/03/31",
+      "定価": "2,530円",
+      "型番": "CSK-014",
+      "原画": "YU-TA",
+      "シナリオ": "新井しーな",
+      "声優": "夢月やみ",
+      "カテゴリ": "アダルト Windows Windows 11",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 400,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-03T12:40:27.964Z"
+  },
+  "histories": [
+    {
+      "id": 55729,
+      "productId": 55715,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T05:29:35.597Z"
+    },
+    {
+      "id": 66576,
+      "productId": 55715,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:09:39.535Z"
+    },
+    {
+      "id": 80635,
+      "productId": 55715,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-07T13:34:52.481Z"
+    },
+    {
+      "id": 93618,
+      "productId": 55715,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-16T16:01:36.320Z"
+    },
+    {
+      "id": 106673,
+      "productId": 55715,
+      "salePrice": 800,
+      "regularSalePrice": 800,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T12:45:57.817Z"
+    },
+    {
+      "id": 122352,
+      "productId": 55715,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 400,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T12:40:27.964Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 391868,
+      "productId": 55715,
+      "sourceType": "other_shop",
+      "storeName": "寅次郎 駿河屋店",
+      "condition": "中古品 【非常に良い】 研磨済み",
+      "price": 800,
+      "checkedAt": "2026-11-03T12:40:28.000Z"
+    },
+    {
+      "id": 391867,
+      "productId": 55715,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸兵庫駅前店",
+      "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+      "price": 760,
+      "checkedAt": "2026-11-03T12:40:28.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145077304",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145077304",
+    "capturedAt": "2026-11-03T12:40:27.964Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸兵庫駅前店",
+        "condition": "中古（7日以内に発送可）（併売品等理由で品切れの場合あり）",
+        "price": 760
+      },
+      {
+        "storeName": "寅次郎 駿河屋店",
+        "condition": "中古品 【非常に良い】 研磨済み",
+        "price": 800
+      }
+    ],
+    "path": "data/other-shops/145077304.json"
+  }
+}

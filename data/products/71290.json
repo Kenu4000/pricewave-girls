@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 71290,
+    "title": "WindowsVista/7/8/8.1 DVDソフト 巨乳令嬢MC学園",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145051921",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145051921.jpg",
+    "manufacturer": "ルネ",
+    "releaseDate": "2015-12-25",
+    "listPrice": 9680,
+    "modelNumber": "MGGW-0157",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145051921001",
+      "メーカー": "ルネ",
+      "発売日": "2015/12/25",
+      "定価": "9,680円",
+      "型番": "MGGW-0157",
+      "原画": "スカイハウス",
+      "シナリオ": "柊風里\nK-TOK",
+      "声優": "こたつみやこ\n伊勢谷智香\n野々村紗夜\nあかしゆき",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 5250,
+    "latestRegularSalePrice": 5250,
+    "latestBuyPrice": 2500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:40.089Z"
+  },
+  "histories": [
+    {
+      "id": 71304,
+      "productId": 71290,
+      "salePrice": 5250,
+      "regularSalePrice": 5250,
+      "buyPrice": 2500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:40.089Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204672,
+      "productId": 71290,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 5250,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204671,
+      "productId": 71290,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古",
+      "price": 2400,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204670,
+      "productId": 71290,
+      "sourceType": "other_shop",
+      "storeName": "みけねこ堂",
+      "condition": "中古DVD・可 ジャケットに傷み・盤面に視聴に影響のない小傷",
+      "price": 3886,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204669,
+      "productId": 71290,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古通常/店舗併売",
+      "price": 3600,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    },
+    {
+      "id": 204668,
+      "productId": 71290,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋松本店",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 2400,
+      "checkedAt": "2026-09-02T21:36:40.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145051921",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145051921",
+    "capturedAt": "2026-09-02T21:36:40.089Z",
+    "items": [
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 2400
+      },
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古通常/店舗併売",
+        "price": 3600
+      },
+      {
+        "storeName": "みけねこ堂",
+        "condition": "中古DVD・可 ジャケットに傷み・盤面に視聴に影響のない小傷",
+        "price": 3886
+      },
+      {
+        "storeName": "駿河屋松本店",
+        "condition": "中古",
+        "price": 2400
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 5250
+      }
+    ],
+    "path": "data/other-shops/145051921.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 29517,
+    "title": "Windows7/8/8.1/10 DVDソフト あまからツインズ -双姉といっしょ- (ユニコーンエーセレクション)",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145063182",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145063182.jpg",
+    "manufacturer": "あねせん",
+    "releaseDate": "2018-10-26",
+    "listPrice": 3278,
+    "modelNumber": "UNA-0071",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145063182",
+      "メーカー": "あねせん",
+      "発売日": "2018/10/26",
+      "定価": "3,278円",
+      "型番": "UNA-0071",
+      "原画": "みたらし侯成",
+      "シナリオ": "佐野晋一郎",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3000,
+    "latestRegularSalePrice": 3000,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T04:31:19.284Z"
+  },
+  "histories": [
+    {
+      "id": 29531,
+      "productId": 29517,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:07:50.207Z"
+    },
+    {
+      "id": 38351,
+      "productId": 29517,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:00.093Z"
+    },
+    {
+      "id": 49483,
+      "productId": 29517,
+      "salePrice": 3000,
+      "regularSalePrice": 3000,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T04:31:19.284Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145063182",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145063182",
+    "capturedAt": "2026-08-19T04:31:19.284Z",
+    "items": [],
+    "path": "data/other-shops/145063182.json"
+  }
+}

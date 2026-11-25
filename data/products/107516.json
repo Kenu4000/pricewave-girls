@@ -1,0 +1,60 @@
+{
+  "product": {
+    "id": 107516,
+    "title": "Windows7/8.1/10 DVDソフト 催眠劇場",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145062646",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145062646.jpg",
+    "manufacturer": "include",
+    "releaseDate": "2018-10-26",
+    "listPrice": 7480,
+    "modelNumber": "INC-0006",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145062646",
+      "メーカー": "include",
+      "発売日": "2018/10/26",
+      "定価": "7,480円",
+      "型番": "INC-0006",
+      "原画": "めぐり逢音",
+      "シナリオ": "難波一一\nHARE",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "ランクB",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1500,
+    "latestRegularSalePrice": 1500,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": "ランクB",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-09T13:01:27.523Z"
+  },
+  "histories": [
+    {
+      "id": 107530,
+      "productId": 107516,
+      "salePrice": 1500,
+      "regularSalePrice": 1500,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": "ランクB",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-09T13:01:27.523Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145062646",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145062646",
+    "capturedAt": "2026-10-09T13:01:27.523Z",
+    "items": [],
+    "path": "data/other-shops/145062646.json"
+  }
+}

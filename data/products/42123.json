@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42123,
+    "title": "Windows98/Me/2000/XP/Vista DVDソフト 凌辱ゲリラ狩り3 美少女ゲーム・ベストシリーズ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019298",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019298.jpg",
+    "manufacturer": "Liquid(リキッド)",
+    "releaseDate": "2009-02-06",
+    "listPrice": 6380,
+    "modelNumber": "VOL029",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145019298",
+      "メーカー": "Liquid(リキッド)",
+      "発売日": "2009/02/06",
+      "定価": "6,380円",
+      "型番": "VOL029",
+      "原画": "黒石りんご",
+      "シナリオ": "三波雄",
+      "声優": "Yuki-Lin\n未来羽\nかわしまりの\n桃井いちご\n芹園みや\n桜川未央\n青井美海\n星野みく",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3511,
+    "latestRegularSalePrice": 3511,
+    "latestBuyPrice": 1900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:17:10.091Z"
+  },
+  "histories": [
+    {
+      "id": 42137,
+      "productId": 42123,
+      "salePrice": 3511,
+      "regularSalePrice": 3511,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:08:29.203Z"
+    },
+    {
+      "id": 53584,
+      "productId": 42123,
+      "salePrice": 3511,
+      "regularSalePrice": 3511,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:35.979Z"
+    },
+    {
+      "id": 65124,
+      "productId": 42123,
+      "salePrice": 3511,
+      "regularSalePrice": 3511,
+      "buyPrice": 1900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:17:10.091Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145019298",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145019298",
+    "capturedAt": "2026-08-29T01:17:10.091Z",
+    "items": [],
+    "path": "data/other-shops/145019298.json"
+  }
+}

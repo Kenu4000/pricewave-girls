@@ -1,0 +1,159 @@
+{
+  "product": {
+    "id": 71315,
+    "title": "WindowsVista/7/8 DVDソフト 熟バレー-シゴキ扱かれる熟れた人妻達-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145043894",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145043894.jpg",
+    "manufacturer": "アトリエかぐや(CheshireCat(ちしゃねこ))",
+    "releaseDate": "2014-07-25",
+    "listPrice": 9680,
+    "modelNumber": "KA-0073",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145043894001",
+      "メーカー": "アトリエかぐや(CheshireCat(ちしゃねこ))",
+      "発売日": "2014/07/25",
+      "定価": "9,680円",
+      "型番": "KA-0073",
+      "原画": "みゃぁん",
+      "シナリオ": "須々木鮎尾\n円町文人\n須永成人",
+      "声優": "手塚りょうこ\n有賀桃\n野々村紗夜\n佐倉もも花\nまのめるか\nヒマリ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2850,
+    "latestRegularSalePrice": 2850,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:51.405Z"
+  },
+  "histories": [
+    {
+      "id": 71329,
+      "productId": 71315,
+      "salePrice": 2850,
+      "regularSalePrice": 2850,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:51.405Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204730,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2850,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204729,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2711,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204728,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204727,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 2611,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204726,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2600,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204725,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2600,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    },
+    {
+      "id": 204724,
+      "productId": 71315,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2401,
+      "checkedAt": "2026-09-02T21:36:51.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145043894",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145043894",
+    "capturedAt": "2026-09-02T21:36:51.405Z",
+    "items": [
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2401
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2600
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2600
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 2611
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2711
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2850
+      }
+    ],
+    "path": "data/other-shops/145043894.json"
+  }
+}

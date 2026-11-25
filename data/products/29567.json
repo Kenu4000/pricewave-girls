@@ -1,0 +1,72 @@
+{
+  "product": {
+    "id": 29567,
+    "title": "Windows7/8/8.1/10 DVDソフト 装甲戦姫アイギス",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145061748",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145061748.jpg",
+    "manufacturer": "CYCLET",
+    "releaseDate": "2018-07-27",
+    "listPrice": 4400,
+    "modelNumber": "CYCL-315",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145061748",
+      "メーカー": "CYCLET",
+      "発売日": "2018/07/27",
+      "定価": "4,400円",
+      "型番": "CYCL-315",
+      "原画": "椎咲雛樹",
+      "シナリオ": "火村龍",
+      "声優": "柏木逢花\n大和桜",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2420,
+    "latestRegularSalePrice": 2420,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-16T01:11:25.331Z"
+  },
+  "histories": [
+    {
+      "id": 29581,
+      "productId": 29567,
+      "salePrice": 2420,
+      "regularSalePrice": 2420,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:08:25.575Z"
+    },
+    {
+      "id": 38393,
+      "productId": 29567,
+      "salePrice": 2420,
+      "regularSalePrice": 2420,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:11:25.331Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145061748",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145061748",
+    "capturedAt": "2026-08-16T01:11:25.331Z",
+    "items": [],
+    "path": "data/other-shops/145061748.json"
+  }
+}

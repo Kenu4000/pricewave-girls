@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 129248,
+    "title": "Princess Party Camellia ～プリンセスパーティーカメリア～ [サーカス通販版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145021774",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145021774.jpg",
+    "manufacturer": "CIRCUS",
+    "releaseDate": "2009-09-18",
+    "listPrice": 4180,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145021774",
+      "メーカー": "CIRCUS",
+      "発売日": "2009/09/18",
+      "定価": "4,180円",
+      "原画": "鷹乃ゆき\n立羽",
+      "シナリオ": "玖保田桂吾\nまり\n保桜",
+      "声優": "又吉愛\n五行なずな\n佐々留美子\n榊るな\n姫川あいり\n水橋かおり",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T16:07:06.033Z"
+  },
+  "histories": [
+    {
+      "id": 129262,
+      "productId": 129248,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:22.902Z"
+    },
+    {
+      "id": 130224,
+      "productId": 129248,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:43:30.163Z"
+    },
+    {
+      "id": 131226,
+      "productId": 129248,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:07:06.033Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145021774",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145021774",
+    "capturedAt": "2026-11-12T16:07:06.033Z",
+    "items": [],
+    "path": "data/other-shops/145021774.json"
+  }
+}

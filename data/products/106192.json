@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 106192,
+    "title": "Windows8.1/10 DVDソフト ドスケベ・ママ♪ -ボクのママは、(性的に)超過保護-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145075395",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145075395.jpg",
+    "manufacturer": "アパダッシュ",
+    "releaseDate": "2022-07-29",
+    "listPrice": 2750,
+    "modelNumber": "APTD-023",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145075395001",
+      "メーカー": "アパダッシュ",
+      "発売日": "2022/07/29",
+      "定価": "2,750円",
+      "型番": "APTD-023",
+      "原画": "カミタニ",
+      "シナリオ": "ツキカズ",
+      "声優": "椎名旭",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1080,
+    "latestRegularSalePrice": 1080,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:12:26.572Z"
+  },
+  "histories": [
+    {
+      "id": 106206,
+      "productId": 106192,
+      "salePrice": 1080,
+      "regularSalePrice": 1080,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:26.572Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333289,
+      "productId": 106192,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333288,
+      "productId": 106192,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/サンプル品又は18禁シール無し",
+      "price": 1280,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333287,
+      "productId": 106192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    },
+    {
+      "id": 333286,
+      "productId": 106192,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 1080,
+      "checkedAt": "2026-10-08T03:12:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145075395",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145075395",
+    "capturedAt": "2026-10-08T03:12:26.572Z",
+    "items": [
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1080
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/サンプル品又は18禁シール無し",
+        "price": 1280
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1080
+      }
+    ],
+    "path": "data/other-shops/145075395.json"
+  }
+}

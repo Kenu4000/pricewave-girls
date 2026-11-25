@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 62107,
+    "title": "WindowsVista/7/8.1 DVDソフト Knight＆Princess",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145041988",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145041988.jpg",
+    "manufacturer": "縁 -yukari-",
+    "releaseDate": "2014-05-23",
+    "listPrice": 9680,
+    "modelNumber": "YKR-006",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145041988",
+      "メーカー": "縁 -yukari-",
+      "発売日": "2014/05/23",
+      "定価": "9,680円",
+      "型番": "YKR-006",
+      "原画": "浅賀葵",
+      "シナリオ": "有島悠也",
+      "声優": "伊藤瞳子\n草柳順子\n東かりん\n片倉ひな\n榊木春乃",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1811,
+    "latestRegularSalePrice": 1811,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:13:06.034Z"
+  },
+  "histories": [
+    {
+      "id": 62121,
+      "productId": 62107,
+      "salePrice": 1811,
+      "regularSalePrice": 1811,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T10:43:20.839Z"
+    },
+    {
+      "id": 62785,
+      "productId": 62107,
+      "salePrice": 1811,
+      "regularSalePrice": 1811,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:04:19.868Z"
+    },
+    {
+      "id": 64578,
+      "productId": 62107,
+      "salePrice": 1811,
+      "regularSalePrice": 1811,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:13:06.034Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145041988",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145041988",
+    "capturedAt": "2026-08-29T01:13:06.034Z",
+    "items": [],
+    "path": "data/other-shops/145041988.json"
+  }
+}

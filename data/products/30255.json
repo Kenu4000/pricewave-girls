@@ -1,0 +1,165 @@
+{
+  "product": {
+    "id": 30255,
+    "title": "Windows7/8/8.1/10 CDソフト 最強の爆乳剣奴を肉オナホ孕ませしながら無双する退魔性活",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145053333",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145053333.jpg",
+    "manufacturer": "MIEL",
+    "releaseDate": "2016-01-29",
+    "listPrice": 2750,
+    "modelNumber": "MIEL-070",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145053333001",
+      "メーカー": "MIEL",
+      "発売日": "2016/01/29",
+      "定価": "2,750円",
+      "型番": "MIEL-070",
+      "シナリオ": "天戸祐輝\n遊真一希\n西矢沙広\n坂元星日",
+      "原画": "石井彰",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveRegularSalePrice": "500",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 470,
+    "latestRegularSalePrice": 500,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-15T23:18:22.985Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-19T05:27:00.623Z"
+  },
+  "histories": [
+    {
+      "id": 30269,
+      "productId": 30255,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:18:22.861Z"
+    },
+    {
+      "id": 39055,
+      "productId": 30255,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:17:17.260Z"
+    },
+    {
+      "id": 50331,
+      "productId": 30255,
+      "salePrice": 470,
+      "regularSalePrice": 500,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:27:00.623Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 135108,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:27:01.000Z"
+    },
+    {
+      "id": 135107,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-19T05:27:01.000Z"
+    },
+    {
+      "id": 135106,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-19T05:27:01.000Z"
+    },
+    {
+      "id": 102440,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-16T01:17:17.000Z"
+    },
+    {
+      "id": 102439,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-16T01:17:17.000Z"
+    },
+    {
+      "id": 76485,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 480,
+      "checkedAt": "2026-08-15T23:18:22.000Z"
+    },
+    {
+      "id": 76484,
+      "productId": 30255,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 470,
+      "checkedAt": "2026-08-15T23:18:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145053333",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145053333",
+    "capturedAt": "2026-08-19T05:27:00.623Z",
+    "items": [
+      {
+        "storeName": "駿河屋江南店",
+        "condition": "中古",
+        "price": 470
+      },
+      {
+        "storeName": "駿河屋江南店",
+        "condition": "中古",
+        "price": 480
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 470
+      }
+    ],
+    "path": "data/other-shops/145053333.json"
+  }
+}

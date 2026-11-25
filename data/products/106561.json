@@ -1,0 +1,131 @@
+{
+  "product": {
+    "id": 106561,
+    "title": "Windows98/Me/2000/XP CDソフト 熟母喰い ～元グラドルのお母さん～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015391",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015391.jpg",
+    "manufacturer": "Guilty+",
+    "releaseDate": "2007-01-19",
+    "listPrice": 3456,
+    "modelNumber": "WILL-170",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145015391001",
+      "メーカー": "Guilty+",
+      "発売日": "2007/01/19",
+      "定価": "3,456円",
+      "型番": "WILL-170",
+      "原画": "紅葉-K",
+      "シナリオ": "錆縞亭猫丸\n有限会社きんかん堂",
+      "声優": "白井綾乃\n如月美琴",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2250,
+    "latestRegularSalePrice": 2250,
+    "latestBuyPrice": 1200,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:49.009Z"
+  },
+  "histories": [
+    {
+      "id": 106575,
+      "productId": 106561,
+      "salePrice": 2250,
+      "regularSalePrice": 2250,
+      "buyPrice": 1200,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:49.009Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333880,
+      "productId": 106561,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2250,
+      "checkedAt": "2026-10-08T03:14:49.000Z"
+    },
+    {
+      "id": 333879,
+      "productId": 106561,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 利府店",
+      "condition": "中古",
+      "price": 2200,
+      "checkedAt": "2026-10-08T03:14:49.000Z"
+    },
+    {
+      "id": 333878,
+      "productId": 106561,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 2000,
+      "checkedAt": "2026-10-08T03:14:49.000Z"
+    },
+    {
+      "id": 333877,
+      "productId": 106561,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 1940,
+      "checkedAt": "2026-10-08T03:14:49.000Z"
+    },
+    {
+      "id": 333876,
+      "productId": 106561,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 桑名店",
+      "condition": "中古",
+      "price": 1180,
+      "checkedAt": "2026-10-08T03:14:49.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145015391",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015391",
+    "capturedAt": "2026-10-08T03:14:49.009Z",
+    "items": [
+      {
+        "storeName": "駿河屋 桑名店",
+        "condition": "中古",
+        "price": 1180
+      },
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 1940
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 2000
+      },
+      {
+        "storeName": "駿河屋 利府店",
+        "condition": "中古",
+        "price": 2200
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2250
+      }
+    ],
+    "path": "data/other-shops/145015391.json"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "product": {
+    "id": 120153,
+    "title": "アリスティア・リメイン",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145054567",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145054567.jpg",
+    "manufacturer": "アストロノーツ・コメット",
+    "releaseDate": "2016-07-29",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145054567",
+      "メーカー": "アストロノーツ・コメット",
+      "発売日": "2016/07/29",
+      "定価": "9,680円",
+      "原画": "国産もやし\nRozea",
+      "シナリオ": "杏仁みかん\nすまっしゅぱんだ\n春日森\n速見漣",
+      "声優": "かわしまりの\n編流まり\nヒマリ\n有栖川みや美\n大野まりな\n沢代りず\n白月かなめ\n星咲イリア\n上田朱音",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveCondition": "説明書欠け",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145054567?branch_number=0016"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1580,
+    "latestRegularSalePrice": 1580,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "説明書欠け",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-23T18:15:17.625Z"
+  },
+  "histories": [
+    {
+      "id": 120167,
+      "productId": 120153,
+      "salePrice": 850,
+      "regularSalePrice": 850,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:22.008Z"
+    },
+    {
+      "id": 134200,
+      "productId": 120153,
+      "salePrice": 1580,
+      "regularSalePrice": 1580,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "説明書欠け",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-23T18:15:17.625Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145054567",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145054567",
+    "capturedAt": "2026-11-23T18:15:17.625Z",
+    "items": [],
+    "path": "data/other-shops/145054567.json"
+  }
+}

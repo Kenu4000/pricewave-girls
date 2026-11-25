@@ -1,0 +1,86 @@
+{
+  "product": {
+    "id": 127208,
+    "title": "姫さまっ、お手やわらかに! [初回限定版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145016653",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145016653.jpg",
+    "manufacturer": "戯画",
+    "releaseDate": "2007-09-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145016653001",
+      "メーカー": "戯画",
+      "発売日": "2007/09/28",
+      "定価": "9,680円",
+      "原画": "ねこにゃん",
+      "シナリオ": "渡辺僚一",
+      "アーティスト": "片霧烈火",
+      "作曲": "Elements Garden",
+      "声優": "藤崎庵\n金田まひる\n佐本二厘\n桜川未央\n羽高なる\n宮本千鶴\n柏木信人\n松本あゆな\n中里圭太\n金本智憲\n野々村紗夜\n朧\nZEN\n草野花恋\n丸山ちなみ",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 600,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:20.207Z"
+  },
+  "histories": [
+    {
+      "id": 127222,
+      "productId": 127208,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:04:13.353Z"
+    },
+    {
+      "id": 128254,
+      "productId": 127208,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 600,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:20.207Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 411284,
+      "productId": 127208,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 下敷き欠品",
+      "price": 850,
+      "checkedAt": "2026-11-08T16:07:20.000Z"
+    },
+    {
+      "id": 408537,
+      "productId": 127208,
+      "sourceType": "alternate_condition",
+      "storeName": null,
+      "condition": "中古 下敷き欠品",
+      "price": 750,
+      "checkedAt": "2026-11-07T16:04:13.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

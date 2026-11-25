@@ -1,0 +1,98 @@
+{
+  "product": {
+    "id": 2008,
+    "title": "Windows7/8/8.1/10 DVDソフト 乙女の狂恋 ～悶え堕ちゆく純情～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145067463",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145067463.jpg",
+    "manufacturer": "アパタイト",
+    "releaseDate": "2019-12-20",
+    "listPrice": 2200,
+    "modelNumber": "APT-151",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145067463",
+      "メーカー": "アパタイト",
+      "発売日": "2019/12/20",
+      "定価": "2,200円",
+      "型番": "APT-151",
+      "原画": "一河のあ",
+      "シナリオ": "坂元星日",
+      "声優": "蒼桐かこ\n四ノ宮ひな",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 880,
+    "latestRegularSalePrice": 880,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:39:27.366Z"
+  },
+  "histories": [
+    {
+      "id": 2022,
+      "productId": 2008,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T14:04:16.000Z"
+    },
+    {
+      "id": 6902,
+      "productId": 2008,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 350,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-04T16:11:44.000Z"
+    },
+    {
+      "id": 22823,
+      "productId": 2008,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-09T01:35:02.391Z"
+    },
+    {
+      "id": 44316,
+      "productId": 2008,
+      "salePrice": 880,
+      "regularSalePrice": 880,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:39:27.366Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145067463",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145067463",
+    "capturedAt": "2026-08-17T09:39:27.366Z",
+    "items": [],
+    "path": "data/other-shops/145067463.json"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 127142,
+    "title": "女体狂乱3-カオスボディ-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145046967",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145046967.jpg",
+    "manufacturer": "わるきゅ～れ",
+    "releaseDate": "2014-12-26",
+    "listPrice": 3740,
+    "modelNumber": "VAL-031",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145046967001",
+      "メーカー": "わるきゅ～れ",
+      "発売日": "2014/12/26",
+      "定価": "3,740円",
+      "型番": "VAL-031",
+      "原画": "桐生蒼八",
+      "シナリオ": "Dr.ぼんべ",
+      "声優": "唯香",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 750,
+    "latestRegularSalePrice": 750,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:47.201Z"
+  },
+  "histories": [
+    {
+      "id": 127156,
+      "productId": 127142,
+      "salePrice": 750,
+      "regularSalePrice": 750,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:47.201Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408444,
+      "productId": 127142,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-11-07T16:03:47.000Z"
+    },
+    {
+      "id": 408443,
+      "productId": 127142,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "中古ジャケットに日焼けやシールがあります。使用感があります。",
+      "price": 2500,
+      "checkedAt": "2026-11-07T16:03:47.000Z"
+    },
+    {
+      "id": 408442,
+      "productId": 127142,
+      "sourceType": "other_shop",
+      "storeName": "こみい屋",
+      "condition": "中古",
+      "price": 750,
+      "checkedAt": "2026-11-07T16:03:47.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145046967",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145046967",
+    "capturedAt": "2026-11-07T16:03:47.201Z",
+    "items": [
+      {
+        "storeName": "こみい屋",
+        "condition": "中古",
+        "price": 750
+      },
+      {
+        "storeName": "こみい屋",
+        "condition": "中古ジャケットに日焼けやシールがあります。使用感があります。",
+        "price": 2500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 750
+      }
+    ],
+    "path": "data/other-shops/145046967.json"
+  }
+}

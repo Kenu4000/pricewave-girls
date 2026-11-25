@@ -1,0 +1,101 @@
+{
+  "product": {
+    "id": 120211,
+    "title": "神楽道中記 追加シナリオ vol.1+vol.2[通常版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145023490",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145023490.jpg",
+    "manufacturer": "でぼの巣製作所",
+    "releaseDate": "2010-04-23",
+    "listPrice": 3080,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145023490",
+      "メーカー": "でぼの巣製作所",
+      "発売日": "2010/04/23",
+      "定価": "3,080円",
+      "原画": "山本和枝",
+      "シナリオ": "寺岡健治",
+      "声優": "日向苺\n雪都さお梨\n北都南",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": null,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-23T18:15:26.278Z"
+  },
+  "histories": [
+    {
+      "id": 120225,
+      "productId": 120211,
+      "salePrice": 300,
+      "regularSalePrice": 300,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:44.168Z"
+    },
+    {
+      "id": 134223,
+      "productId": 120211,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": null,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-23T18:15:26.278Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 430805,
+      "productId": 120211,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 1289,
+      "checkedAt": "2026-11-23T18:15:26.000Z"
+    },
+    {
+      "id": 430804,
+      "productId": 120211,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 佐賀上峰店",
+      "condition": "中古",
+      "price": 410,
+      "checkedAt": "2026-11-23T18:15:26.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145023490",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145023490",
+    "capturedAt": "2026-11-23T18:15:26.278Z",
+    "items": [
+      {
+        "storeName": "駿河屋 佐賀上峰店",
+        "condition": "中古",
+        "price": 410
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 1289
+      }
+    ],
+    "path": "data/other-shops/145023490.json"
+  }
+}

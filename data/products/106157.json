@@ -1,0 +1,132 @@
+{
+  "product": {
+    "id": 106157,
+    "title": "Windows95/98 CDソフト Lien リアン -終わらない君の唄-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145003198",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145003198.jpg",
+    "manufacturer": "Purple",
+    "releaseDate": "2000-11-21",
+    "listPrice": 9680,
+    "modelNumber": "JAST-0052",
+    "category": "アダルト Windows Windows 98/SE",
+    "details": {
+      "管理番号": "145003198",
+      "メーカー": "Purple",
+      "発売日": "2000/11/21",
+      "定価": "9,680円",
+      "型番": "JAST-0052",
+      "原画": "山いもとろとろ",
+      "シナリオ": "荒川工",
+      "声優": "AKIRA\nカスミ\n真越聖巳\n河乃音々",
+      "カテゴリ": "アダルト Windows Windows 98/SE",
+      "__pricewaveCondition": "ディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145003198?branch_number=0014"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 3400,
+    "stockStatus": "out_of_stock",
+    "condition": "ディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T03:30:33.863Z"
+  },
+  "histories": [
+    {
+      "id": 106171,
+      "productId": 106157,
+      "salePrice": 2450,
+      "regularSalePrice": 2450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:12:10.776Z"
+    },
+    {
+      "id": 120325,
+      "productId": 106157,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 3400,
+      "stockStatus": "out_of_stock",
+      "condition": "ディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T03:30:33.863Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 384696,
+      "productId": 106157,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋本館",
+      "condition": "中古",
+      "price": 6911,
+      "checkedAt": "2026-11-01T03:30:34.000Z"
+    },
+    {
+      "id": 384695,
+      "productId": 106157,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/内箱難有・ディスクキズ有",
+      "price": 5980,
+      "checkedAt": "2026-11-01T03:30:34.000Z"
+    },
+    {
+      "id": 333160,
+      "productId": 106157,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古ディスクのみ",
+      "price": 2450,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333159,
+      "productId": 106157,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古/内箱難有・ディスクキズ有",
+      "price": 5980,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    },
+    {
+      "id": 333158,
+      "productId": 106157,
+      "sourceType": "other_shop",
+      "storeName": "PCゲームショップ フォーエバー",
+      "condition": "中古ディスクのみ",
+      "price": 2450,
+      "checkedAt": "2026-10-08T03:12:11.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145003198",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145003198",
+    "capturedAt": "2026-11-01T03:30:33.863Z",
+    "items": [
+      {
+        "storeName": "PCゲームショップ フォーエバー",
+        "condition": "中古/内箱難有・ディスクキズ有",
+        "price": 5980
+      },
+      {
+        "storeName": "駿河屋日本橋本館",
+        "condition": "中古",
+        "price": 6911
+      }
+    ],
+    "path": "data/other-shops/145003198.json"
+  }
+}

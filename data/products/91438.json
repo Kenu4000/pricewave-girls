@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 91438,
+    "title": "WindowsXP/Vista/7/8 DVDソフト ぶるぶる",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036584",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036584.jpg",
+    "manufacturer": "Grand Cru bourgeois",
+    "releaseDate": "2013-04-26",
+    "listPrice": 3080,
+    "modelNumber": "ACGG0003",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145036584",
+      "メーカー": "Grand Cru bourgeois",
+      "発売日": "2013/04/26",
+      "定価": "3,080円",
+      "型番": "ACGG0003",
+      "原画": "レリ",
+      "シナリオ": "坂元星日",
+      "声優": "鈴谷まや\n渋谷ひめ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 480,
+    "latestRegularSalePrice": 480,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:43.270Z"
+  },
+  "histories": [
+    {
+      "id": 91452,
+      "productId": 91438,
+      "salePrice": 480,
+      "regularSalePrice": 480,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:43.270Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036584",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036584",
+    "capturedAt": "2026-09-14T17:28:43.270Z",
+    "items": [],
+    "path": "data/other-shops/145036584.json"
+  }
+}

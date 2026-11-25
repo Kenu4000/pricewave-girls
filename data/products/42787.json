@@ -1,0 +1,85 @@
+{
+  "product": {
+    "id": 42787,
+    "title": "Windows98SE/Me/2000/XP/Vista DVDソフト 年上Lesson ～義母と叔母と女教師と～ [初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145015824",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145015824.jpg",
+    "manufacturer": "Puzzlebox",
+    "releaseDate": "2007-05-18",
+    "listPrice": 9680,
+    "modelNumber": "PUZ-004",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "145015824",
+      "メーカー": "Puzzlebox",
+      "発売日": "2007/05/18",
+      "定価": "9,680円",
+      "型番": "PUZ-004",
+      "原画": "ぷれしゃすている",
+      "シナリオ": "こごめさくら",
+      "声優": "倉田まりや\n風音\n伊藤瞳子\nこのかなみ\n茶谷やすら",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1000,
+    "latestRegularSalePrice": 1000,
+    "latestBuyPrice": 400,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T13:05:08.584Z"
+  },
+  "histories": [
+    {
+      "id": 42801,
+      "productId": 42787,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:15:03.390Z"
+    },
+    {
+      "id": 54937,
+      "productId": 42787,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-21T04:45:30.462Z"
+    },
+    {
+      "id": 66042,
+      "productId": 42787,
+      "salePrice": 1000,
+      "regularSalePrice": 1000,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T13:05:08.584Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145015824",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145015824",
+    "capturedAt": "2026-08-29T13:05:08.584Z",
+    "items": [],
+    "path": "data/other-shops/145015824.json"
+  }
+}

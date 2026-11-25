@@ -1,0 +1,114 @@
+{
+  "product": {
+    "id": 120201,
+    "title": "ママクラブ・参観",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145026033",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145026033.jpg",
+    "manufacturer": "コンプリーツ",
+    "releaseDate": "2011-01-28",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145026033001",
+      "メーカー": "コンプリーツ",
+      "発売日": "2011/01/28",
+      "定価": "9,680円",
+      "原画": "まめ",
+      "シナリオ": "日高真一",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1250,
+    "latestRegularSalePrice": 1250,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-23T18:15:25.611Z"
+  },
+  "histories": [
+    {
+      "id": 120215,
+      "productId": 120201,
+      "salePrice": 890,
+      "regularSalePrice": 890,
+      "buyPrice": 400,
+      "stockStatus": "in_stock",
+      "condition": "汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-29T05:41:39.772Z"
+    },
+    {
+      "id": 134219,
+      "productId": 120201,
+      "salePrice": 1250,
+      "regularSalePrice": 1250,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-23T18:15:25.611Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 430803,
+      "productId": 120201,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1250,
+      "checkedAt": "2026-11-23T18:15:25.000Z"
+    },
+    {
+      "id": 430802,
+      "productId": 120201,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古",
+      "price": 840,
+      "checkedAt": "2026-11-23T18:15:25.000Z"
+    },
+    {
+      "id": 430801,
+      "productId": 120201,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋神戸三宮２号店",
+      "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+      "price": 840,
+      "checkedAt": "2026-11-23T18:15:25.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145026033",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145026033",
+    "capturedAt": "2026-11-23T18:15:25.611Z",
+    "items": [
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古汚れ等イタミ有り（併売品等理由で品切れの場合あり）",
+        "price": 840
+      },
+      {
+        "storeName": "駿河屋神戸三宮２号店",
+        "condition": "中古",
+        "price": 840
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1250
+      }
+    ],
+    "path": "data/other-shops/145026033.json"
+  }
+}

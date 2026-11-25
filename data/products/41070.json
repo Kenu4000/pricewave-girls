@@ -1,0 +1,133 @@
+{
+  "product": {
+    "id": 41070,
+    "title": "WindowsXP/Vista/7 DVDソフト イントルーダー ー侵入者ー[初回版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145032397",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145032397.jpg",
+    "manufacturer": "Material",
+    "releaseDate": "2012-06-22",
+    "listPrice": 9680,
+    "modelNumber": "WILL-229A",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145032397",
+      "メーカー": "Material",
+      "発売日": "2012/06/22",
+      "定価": "9,680円",
+      "型番": "WILL-229A",
+      "原画": "山本和枝",
+      "シナリオ": "卑影ムラサキ",
+      "声優": "渋谷ひめ\n芹園みや\n一色ヒカル\n小倉結衣\n春乃伊吹",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 1100,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:12:11.727Z"
+  },
+  "histories": [
+    {
+      "id": 41084,
+      "productId": 41070,
+      "salePrice": 1680,
+      "regularSalePrice": 1680,
+      "buyPrice": 1100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T06:58:35.059Z"
+    },
+    {
+      "id": 52827,
+      "productId": 41070,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:19:05.180Z"
+    },
+    {
+      "id": 63793,
+      "productId": 41070,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 1100,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:12:11.727Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 178532,
+      "productId": 41070,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-27T16:12:11.000Z"
+    },
+    {
+      "id": 178531,
+      "productId": 41070,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古/ディスクのみ",
+      "price": 1680,
+      "checkedAt": "2026-08-27T16:12:11.000Z"
+    },
+    {
+      "id": 142287,
+      "productId": 41070,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋小山店",
+      "condition": "中古",
+      "price": 2101,
+      "checkedAt": "2026-08-19T16:19:05.000Z"
+    },
+    {
+      "id": 142286,
+      "productId": 41070,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 岸和田店",
+      "condition": "中古/ディスクのみ",
+      "price": 1680,
+      "checkedAt": "2026-08-19T16:19:05.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145032397",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145032397",
+    "capturedAt": "2026-08-27T16:12:11.727Z",
+    "items": [
+      {
+        "storeName": "夢創庫 岸和田店",
+        "condition": "中古/ディスクのみ",
+        "price": 1680
+      },
+      {
+        "storeName": "駿河屋小山店",
+        "condition": "中古",
+        "price": 2101
+      }
+    ],
+    "path": "data/other-shops/145032397.json"
+  }
+}

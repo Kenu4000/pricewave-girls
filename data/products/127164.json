@@ -1,0 +1,145 @@
+{
+  "product": {
+    "id": 127164,
+    "title": "しりこん☆まじっく ー生まれる前からあなた専用?!ー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145031329",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145031329.jpg",
+    "manufacturer": "BISHOP",
+    "releaseDate": "2012-03-23",
+    "listPrice": 9680,
+    "modelNumber": "BSP-033",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145031329001",
+      "メーカー": "BISHOP",
+      "発売日": "2012/03/23",
+      "定価": "9,680円",
+      "型番": "BSP-033",
+      "原画": "亀井\n水島・多也\nかなみ",
+      "シナリオ": "小沢裕樹\n麿\n酒巻雨竜\n大津菜美\n燕尾アス\n和泉万夜\n庵乃音人\n不二川“でぇすて”巴人\n甲太郎",
+      "声優": "日下部源\n東かりん\n民安ともえ\n御苑生メイ\n佐倉もも花",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1150,
+    "latestRegularSalePrice": 1150,
+    "latestBuyPrice": 350,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-07T16:03:56.497Z"
+  },
+  "histories": [
+    {
+      "id": 127178,
+      "productId": 127164,
+      "salePrice": 1150,
+      "regularSalePrice": 1150,
+      "buyPrice": 350,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:56.497Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 408485,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1150,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    },
+    {
+      "id": 408484,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "ジェット書店",
+      "condition": "中古：未開封品",
+      "price": 2500,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    },
+    {
+      "id": 408483,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古",
+      "price": 880,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    },
+    {
+      "id": 408482,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    },
+    {
+      "id": 408481,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    },
+    {
+      "id": 408480,
+      "productId": 127164,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋江南店",
+      "condition": "中古ディスク不備",
+      "price": 880,
+      "checkedAt": "2026-11-07T16:03:56.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145031329",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145031329",
+    "capturedAt": "2026-11-07T16:03:56.497Z",
+    "items": [
+      {
+        "storeName": "駿河屋江南店",
+        "condition": "中古ディスク不備",
+        "price": 880
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "駿河屋江南店",
+        "condition": "中古",
+        "price": 880
+      },
+      {
+        "storeName": "ジェット書店",
+        "condition": "中古：未開封品",
+        "price": 2500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1150
+      }
+    ],
+    "path": "data/other-shops/145031329.json"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "product": {
+    "id": 41457,
+    "title": "WindowsXP/Vista/7 DVDソフト 恥感ー少女は悦楽行きの電車に乗ってー",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145025161",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145025161.jpg",
+    "manufacturer": "アイル【チーム・ドレイク】",
+    "releaseDate": "2010-10-29",
+    "listPrice": 4180,
+    "modelNumber": "AIL-141732-1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145025161",
+      "メーカー": "アイル【チーム・ドレイク】",
+      "発売日": "2010/10/29",
+      "定価": "4,180円",
+      "型番": "AIL-141732-1",
+      "原画": "リバ原あき",
+      "シナリオ": "りうのすけ",
+      "声優": "咲ゆたか\n東かりん",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "PCゲーム（ゲームディスクのみ）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1980,
+    "latestRegularSalePrice": 1980,
+    "latestBuyPrice": 900,
+    "stockStatus": "in_stock",
+    "condition": "PCゲーム（ゲームディスクのみ）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T16:14:11.865Z"
+  },
+  "histories": [
+    {
+      "id": 41471,
+      "productId": 41457,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:02:05.030Z"
+    },
+    {
+      "id": 53111,
+      "productId": 41457,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:21:40.675Z"
+    },
+    {
+      "id": 64039,
+      "productId": 41457,
+      "salePrice": 1980,
+      "regularSalePrice": 1980,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": "PCゲーム（ゲームディスクのみ）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:14:11.865Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145025161",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145025161",
+    "capturedAt": "2026-08-27T16:14:11.865Z",
+    "items": [],
+    "path": "data/other-shops/145025161.json"
+  }
+}

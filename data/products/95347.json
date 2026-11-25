@@ -1,0 +1,100 @@
+{
+  "product": {
+    "id": 95347,
+    "title": "Windows98/Me/2000/XP CDソフト 星の王女 光のつばさ 恋のパティシエ",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014204",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014204.jpg",
+    "manufacturer": "美蕾(みらい)",
+    "releaseDate": "2006-04-29",
+    "listPrice": 4169,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014204001",
+      "メーカー": "美蕾(みらい)",
+      "発売日": "2006/04/29",
+      "定価": "4,169円",
+      "原画": "沙月ゆう",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1780,
+    "latestRegularSalePrice": 1780,
+    "latestBuyPrice": 1000,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:17.672Z"
+  },
+  "histories": [
+    {
+      "id": 95361,
+      "productId": 95347,
+      "salePrice": 1780,
+      "regularSalePrice": 1780,
+      "buyPrice": 1000,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:17.672Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293891,
+      "productId": 95347,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1780,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    },
+    {
+      "id": 293890,
+      "productId": 95347,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 東海荒尾店",
+      "condition": "中古",
+      "price": 2182,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    },
+    {
+      "id": 293889,
+      "productId": 95347,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1711,
+      "checkedAt": "2026-09-17T19:57:18.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014204",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014204",
+    "capturedAt": "2026-09-17T19:57:17.672Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1711
+      },
+      {
+        "storeName": "駿河屋 東海荒尾店",
+        "condition": "中古",
+        "price": 2182
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1780
+      }
+    ],
+    "path": "data/other-shops/145014204.json"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "product": {
+    "id": 106527,
+    "title": "Windows2000/XP DVDソフト ニセ教師～性活指導ADV～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145017745",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145017745.jpg",
+    "manufacturer": "Nomad",
+    "releaseDate": "2008-04-18",
+    "listPrice": 9680,
+    "modelNumber": "NOM005",
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145017745001",
+      "メーカー": "Nomad",
+      "発売日": "2008/04/18",
+      "定価": "9,680円",
+      "型番": "NOM005",
+      "原画": "藤川猫夢\n日陰影次\n八葉香南\nかんたか\nくわだゆうき\n紫縁",
+      "シナリオ": "三波雄\n小沢裕樹\n大熊陣八\n春日晶\n永沢壱朗\n朝凪軽",
+      "声優": "氷室百合\n桃井いちご\n葉村夏緒\n青葉りんご\nみる\n草柳順子\n有栖川みや美\n御苑生メイ\n中家志穂\n芹園みや\n高坂聖子\n三条リカ\nこのは\n金田まひる\n倉田まりや\n木梨樹里\n野宮香央里\n楠鈴音\nこのかなみ",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveCondition": "箱・ジャケット・ケース不備（中）",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false",
+      "__pricewaveCrawlSourceUrl": "https://www.suruga-ya.jp/product/detail/145017745?branch_number=0003"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1380,
+    "latestRegularSalePrice": 1380,
+    "latestBuyPrice": 800,
+    "stockStatus": "in_stock",
+    "condition": "箱・ジャケット・ケース不備（中）",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-08T03:14:35.448Z"
+  },
+  "histories": [
+    {
+      "id": 106541,
+      "productId": 106527,
+      "salePrice": 1380,
+      "regularSalePrice": 1380,
+      "buyPrice": 800,
+      "stockStatus": "in_stock",
+      "condition": "箱・ジャケット・ケース不備（中）",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-08T03:14:35.448Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 333848,
+      "productId": 106527,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1380,
+      "checkedAt": "2026-10-08T03:14:35.000Z"
+    },
+    {
+      "id": 333847,
+      "productId": 106527,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1512,
+      "checkedAt": "2026-10-08T03:14:35.000Z"
+    },
+    {
+      "id": 333846,
+      "productId": 106527,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古箱・ジャケット・ケース不備（中）",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:35.000Z"
+    },
+    {
+      "id": 333845,
+      "productId": 106527,
+      "sourceType": "other_shop",
+      "storeName": "なんでも倉庫屋",
+      "condition": "中古/状態:可",
+      "price": 1000,
+      "checkedAt": "2026-10-08T03:14:35.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145017745",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145017745",
+    "capturedAt": "2026-10-08T03:14:35.448Z",
+    "items": [
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古/状態:可",
+        "price": 1000
+      },
+      {
+        "storeName": "なんでも倉庫屋",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1512
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古箱・ジャケット・ケース不備（中）",
+        "price": 1380
+      }
+    ],
+    "path": "data/other-shops/145017745.json"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "product": {
+    "id": 130252,
+    "title": "プリンセスボディ -孕み姫の系譜をなぞる二つの物語-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145030192",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145030192.jpg",
+    "manufacturer": "じぃすぽっと",
+    "releaseDate": "2011-09-30",
+    "listPrice": 3436,
+    "modelNumber": "EICD-1033",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145030192001",
+      "メーカー": "じぃすぽっと",
+      "発売日": "2011/09/30",
+      "定価": "3,436円",
+      "型番": "EICD-1033",
+      "原画": "舛舘俊秀",
+      "シナリオ": "御倉たな",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2250,
+    "latestRegularSalePrice": 2250,
+    "latestBuyPrice": 1300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T14:53:21.932Z"
+  },
+  "histories": [
+    {
+      "id": 130266,
+      "productId": 130252,
+      "salePrice": 2250,
+      "regularSalePrice": 2250,
+      "buyPrice": 1300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:53:21.932Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 417767,
+      "productId": 130252,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 2250,
+      "checkedAt": "2026-11-12T14:53:22.000Z"
+    },
+    {
+      "id": 417766,
+      "productId": 130252,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+      "condition": "中古",
+      "price": 2311,
+      "checkedAt": "2026-11-12T14:53:22.000Z"
+    },
+    {
+      "id": 417765,
+      "productId": 130252,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 2111,
+      "checkedAt": "2026-11-12T14:53:22.000Z"
+    },
+    {
+      "id": 417764,
+      "productId": 130252,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋柏青葉台店",
+      "condition": "中古",
+      "price": 1490,
+      "checkedAt": "2026-11-12T14:53:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145030192",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145030192",
+    "capturedAt": "2026-11-12T14:53:21.932Z",
+    "items": [
+      {
+        "storeName": "駿河屋柏青葉台店",
+        "condition": "中古",
+        "price": 1490
+      },
+      {
+        "storeName": "ブックマーケット福島北店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 2111
+      },
+      {
+        "storeName": "ブックマーケットうねめ通り店 Supported by 駿河屋・買取センター",
+        "condition": "中古",
+        "price": 2311
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 2250
+      }
+    ],
+    "path": "data/other-shops/145030192.json"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "product": {
+    "id": 31211,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 管理人さんは未亡人",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038091",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038091.jpg",
+    "manufacturer": "ANIM",
+    "releaseDate": "2013-08-30",
+    "listPrice": 5478,
+    "modelNumber": "ANM-257",
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "中古 ：145038091001",
+      "メーカー": "ANIM",
+      "発売日": "2013/08/30",
+      "定価": "5,478円",
+      "型番": "ANM-257",
+      "原画": "bbsacon",
+      "シナリオ": "シャア専用◎\n朝凪軽",
+      "声優": "紫苑みやび\n御苑生メイ",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1480,
+    "latestRegularSalePrice": 1480,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-17T09:34:28.992Z"
+  },
+  "histories": [
+    {
+      "id": 31225,
+      "productId": 31211,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:37:12.127Z"
+    },
+    {
+      "id": 39970,
+      "productId": 31211,
+      "salePrice": 1400,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:28.993Z"
+    },
+    {
+      "id": 43720,
+      "productId": 31211,
+      "salePrice": 1480,
+      "regularSalePrice": 1480,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T09:34:28.992Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 113128,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース）",
+      "price": 1680,
+      "checkedAt": "2026-08-17T09:34:29.000Z"
+    },
+    {
+      "id": 113127,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1480,
+      "checkedAt": "2026-08-17T09:34:29.000Z"
+    },
+    {
+      "id": 104349,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース）",
+      "price": 1680,
+      "checkedAt": "2026-08-16T01:25:29.000Z"
+    },
+    {
+      "id": 104348,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-16T01:25:29.000Z"
+    },
+    {
+      "id": 78485,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（正規ケース）",
+      "price": 1680,
+      "checkedAt": "2026-08-15T23:37:12.000Z"
+    },
+    {
+      "id": 78484,
+      "productId": 31211,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1400,
+      "checkedAt": "2026-08-15T23:37:12.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038091",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038091",
+    "capturedAt": "2026-08-17T09:34:28.992Z",
+    "items": [
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1480
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（正規ケース）",
+        "price": 1680
+      }
+    ],
+    "path": "data/other-shops/145038091.json"
+  }
+}

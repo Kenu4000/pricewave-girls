@@ -1,0 +1,117 @@
+{
+  "product": {
+    "id": 91350,
+    "title": "Windows8.1/10 DVDソフト いつまでも息子のママじゃいられない!2 -愛情たっぷり香夏子母さんのむっちりボディに射精管理されていっぱい射精したい!-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145073298",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145073298.jpg",
+    "manufacturer": "ANIM Mother＆Wife",
+    "releaseDate": "2021-12-17",
+    "listPrice": 4950,
+    "modelNumber": "ANM-468",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145073298001",
+      "メーカー": "ANIM Mother＆Wife",
+      "発売日": "2021/12/17",
+      "定価": "4,950円",
+      "型番": "ANM-468",
+      "原画": "八月朔日珈瑠",
+      "シナリオ": "山野詠子",
+      "声優": "七凪るとろ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1450,
+    "latestRegularSalePrice": 1450,
+    "latestBuyPrice": 700,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-14T17:28:09.394Z"
+  },
+  "histories": [
+    {
+      "id": 91364,
+      "productId": 91350,
+      "salePrice": 1450,
+      "regularSalePrice": 1450,
+      "buyPrice": 700,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-14T17:28:09.394Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 278781,
+      "productId": 91350,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1450,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278780,
+      "productId": 91350,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1500,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278779,
+      "productId": 91350,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+      "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+      "price": 1146,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    },
+    {
+      "id": 278778,
+      "productId": 91350,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-09-14T17:28:10.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145073298",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145073298",
+    "capturedAt": "2026-09-14T17:28:09.394Z",
+    "items": [
+      {
+        "storeName": "駿河屋馬渕店",
+        "condition": "中古",
+        "price": 1111
+      },
+      {
+        "storeName": "駿河屋日本橋オタロード店乙女館＆アウトレット館＆メンズ館",
+        "condition": "中古【箱不備（小）（汚れ等イタミ有り）】",
+        "price": 1146
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1500
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1450
+      }
+    ],
+    "path": "data/other-shops/145073298.json"
+  }
+}

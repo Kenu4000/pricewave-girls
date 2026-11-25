@@ -1,0 +1,158 @@
+{
+  "product": {
+    "id": 31154,
+    "title": "WindowsXP/Vista/7/8 DVDソフト 机乙女。",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145038522",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145038522.jpg",
+    "manufacturer": "M de PINK",
+    "releaseDate": "2013-10-25",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows 8/8.1",
+    "details": {
+      "管理番号": "145038522",
+      "メーカー": "M de PINK",
+      "発売日": "2013/10/25",
+      "定価": "6,380円",
+      "原画": "saxasa",
+      "シナリオ": "La.",
+      "声優": "森山いちご\n花南\n橘まお",
+      "カテゴリ": "アダルト Windows Windows 8/8.1",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": null,
+    "latestRegularSalePrice": null,
+    "latestBuyPrice": 900,
+    "stockStatus": "out_of_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-03T16:06:52.362Z"
+  },
+  "histories": [
+    {
+      "id": 31168,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:36:27.123Z"
+    },
+    {
+      "id": 39914,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:25:01.601Z"
+    },
+    {
+      "id": 51000,
+      "productId": 31154,
+      "salePrice": 3480,
+      "regularSalePrice": 3480,
+      "buyPrice": 900,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:32:57.226Z"
+    },
+    {
+      "id": 63044,
+      "productId": 31154,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T16:06:21.989Z"
+    },
+    {
+      "id": 73713,
+      "productId": 31154,
+      "salePrice": null,
+      "regularSalePrice": null,
+      "buyPrice": 900,
+      "stockStatus": "out_of_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-03T16:06:52.362Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 212619,
+      "productId": 31154,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 高槻店",
+      "condition": "中古商品状態 - 良い(内容物の有無はご連絡ください）",
+      "price": 1164,
+      "checkedAt": "2026-09-03T16:06:52.000Z"
+    },
+    {
+      "id": 212618,
+      "productId": 31154,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 1159,
+      "checkedAt": "2026-09-03T16:06:52.000Z"
+    },
+    {
+      "id": 177008,
+      "productId": 31154,
+      "sourceType": "other_shop",
+      "storeName": "夢創庫 高槻店",
+      "condition": "中古商品状態 - 良い(内容物の有無はご連絡ください）",
+      "price": 3480,
+      "checkedAt": "2026-08-27T16:06:22.000Z"
+    },
+    {
+      "id": 177007,
+      "productId": 31154,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋高槻店",
+      "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+      "price": 1195,
+      "checkedAt": "2026-08-27T16:06:22.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145038522",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145038522",
+    "capturedAt": "2026-09-03T16:06:52.362Z",
+    "items": [
+      {
+        "storeName": "駿河屋高槻店",
+        "condition": "中古箱不備（小）（汚れ等イタミ有り） （品切れの場合あり）",
+        "price": 1159
+      },
+      {
+        "storeName": "夢創庫 高槻店",
+        "condition": "中古商品状態 - 良い(内容物の有無はご連絡ください）",
+        "price": 1164
+      }
+    ],
+    "path": "data/other-shops/145038522.json"
+  }
+}

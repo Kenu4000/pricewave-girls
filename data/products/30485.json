@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": 30485,
+    "title": "WindowsXP/Vista/7 DVDソフト カスタムメイド3D with Chu-B Lip",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145049752",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145049752.jpg",
+    "manufacturer": "KISS",
+    "releaseDate": "2015-06-26",
+    "listPrice": 21780,
+    "modelNumber": "KISS-062",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145049752",
+      "メーカー": "KISS",
+      "発売日": "2015/06/26",
+      "定価": "21,780円",
+      "型番": "KISS-062",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "付属ケース・説明書・ゲームディスクのみ",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 3333,
+    "latestRegularSalePrice": 3333,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": "付属ケース・説明書・ゲームディスクのみ",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-27T09:18:44.078Z"
+  },
+  "histories": [
+    {
+      "id": 30499,
+      "productId": 30485,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-15T23:20:33.871Z"
+    },
+    {
+      "id": 39278,
+      "productId": 30485,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-16T01:19:19.352Z"
+    },
+    {
+      "id": 50513,
+      "productId": 30485,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "付属ケース・説明書・ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T05:28:42.136Z"
+    },
+    {
+      "id": 61606,
+      "productId": 30485,
+      "salePrice": 3333,
+      "regularSalePrice": 3333,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": "付属ケース・説明書・ゲームディスクのみ",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-27T09:18:44.078Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145049752",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145049752",
+    "capturedAt": "2026-08-27T09:18:44.078Z",
+    "items": [],
+    "path": "data/other-shops/145049752.json"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "product": {
+    "id": 129245,
+    "title": "ふぃぎゅ＠プリスター[ヴォーカルコレクションCD付]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145058090",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145058090.jpg",
+    "manufacturer": "エスクード",
+    "releaseDate": "2010-08-13",
+    "listPrice": 4074,
+    "modelNumber": "ELE-C005B",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145058090",
+      "メーカー": "エスクード",
+      "発売日": "2010/08/13",
+      "定価": "4,074円",
+      "型番": "ELE-C005B",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveCondition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "__pricewaveConditionRank": "B",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": 14,
+    "latestSalePrice": 1530,
+    "latestRegularSalePrice": 1530,
+    "latestBuyPrice": 1500,
+    "stockStatus": "in_stock",
+    "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+    "conditionRank": "B",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-12T16:07:05.882Z"
+  },
+  "histories": [
+    {
+      "id": 129259,
+      "productId": 129245,
+      "salePrice": 1530,
+      "regularSalePrice": 1530,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-09T16:52:21.686Z"
+    },
+    {
+      "id": 130223,
+      "productId": 129245,
+      "salePrice": 1530,
+      "regularSalePrice": 1530,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T14:43:30.069Z"
+    },
+    {
+      "id": 131224,
+      "productId": 129245,
+      "salePrice": 1530,
+      "regularSalePrice": 1530,
+      "buyPrice": 1500,
+      "stockStatus": "in_stock",
+      "condition": "【箱不備（小）（汚れ等イタミ有り）】",
+      "conditionRank": "B",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:07:05.882Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145058090",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145058090",
+    "capturedAt": "2026-11-12T16:07:05.882Z",
+    "items": [],
+    "path": "data/other-shops/145058090.json"
+  }
+}

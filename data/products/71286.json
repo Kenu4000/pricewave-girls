@@ -1,0 +1,103 @@
+{
+  "product": {
+    "id": 71286,
+    "title": "WindowsVista/7/8/8.1/10 DVDソフト らぶきゅばす! -おんなのこあくま♀♂おとこのこあくま-",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145052366",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145052366.jpg",
+    "manufacturer": "CuteRush",
+    "releaseDate": "2016-01-29",
+    "listPrice": 3080,
+    "modelNumber": "DCLPC-001",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "中古 ：145052366001",
+      "メーカー": "CuteRush",
+      "発売日": "2016/01/29",
+      "定価": "3,080円",
+      "型番": "DCLPC-001",
+      "原画": "かろちー",
+      "シナリオ": "嘘屋佐々木酒人",
+      "声優": "あかしゆき\n本郷あおい\n緒田マリ",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1050,
+    "latestRegularSalePrice": 1050,
+    "latestBuyPrice": 300,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-02T21:36:39.364Z"
+  },
+  "histories": [
+    {
+      "id": 71300,
+      "productId": 71286,
+      "salePrice": 1050,
+      "regularSalePrice": 1050,
+      "buyPrice": 300,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-02T21:36:39.364Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 204660,
+      "productId": 71286,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1050,
+      "checkedAt": "2026-09-02T21:36:39.000Z"
+    },
+    {
+      "id": 204659,
+      "productId": 71286,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋甲府店",
+      "condition": "中古",
+      "price": 840,
+      "checkedAt": "2026-09-02T21:36:39.000Z"
+    },
+    {
+      "id": 204658,
+      "productId": 71286,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 室蘭弥生店",
+      "condition": "中古",
+      "price": 800,
+      "checkedAt": "2026-09-02T21:36:39.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145052366",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145052366",
+    "capturedAt": "2026-09-02T21:36:39.364Z",
+    "items": [
+      {
+        "storeName": "駿河屋 室蘭弥生店",
+        "condition": "中古",
+        "price": 800
+      },
+      {
+        "storeName": "駿河屋甲府店",
+        "condition": "中古",
+        "price": 840
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 1050
+      }
+    ],
+    "path": "data/other-shops/145052366.json"
+  }
+}

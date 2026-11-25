@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 115423,
+    "title": "WindowsXP/Vista/7 CDソフト せがれの新妻",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145036277",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145036277.jpg",
+    "manufacturer": "Monogram",
+    "releaseDate": "2013-04-26",
+    "listPrice": 2750,
+    "modelNumber": "MNOG-009",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "145036277",
+      "メーカー": "Monogram",
+      "発売日": "2013/04/26",
+      "定価": "2,750円",
+      "型番": "MNOG-009",
+      "原画": "チャイニー・スゥ",
+      "シナリオ": "岡下誠",
+      "声優": "ひろは",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1100,
+    "latestBuyPrice": 500,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-10-20T03:46:54.001Z"
+  },
+  "histories": [
+    {
+      "id": 115437,
+      "productId": 115423,
+      "salePrice": 1100,
+      "regularSalePrice": 1100,
+      "buyPrice": 500,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-10-20T03:46:54.001Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145036277",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145036277",
+    "capturedAt": "2026-10-20T03:46:54.001Z",
+    "items": [],
+    "path": "data/other-shops/145036277.json"
+  }
+}

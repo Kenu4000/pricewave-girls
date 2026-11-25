@@ -1,0 +1,62 @@
+{
+  "product": {
+    "id": 127159,
+    "title": "DIABLO III [北米版]",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145033367",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145033367.jpg",
+    "manufacturer": "BLIZZARD",
+    "releaseDate": "2012-05-15",
+    "listPrice": null,
+    "modelNumber": "S7285110L1",
+    "category": "アダルト Windows Windows 7",
+    "details": {
+      "管理番号": "中古 ：145033367001",
+      "メーカー": "BLIZZARD",
+      "発売日": "2012/05/15",
+      "型番": "S7285110L1",
+      "カテゴリ": "アダルト Windows Windows 7",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 650,
+    "latestRegularSalePrice": 650,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-08T16:07:10.243Z"
+  },
+  "histories": [
+    {
+      "id": 127173,
+      "productId": 127159,
+      "salePrice": 420,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-07T16:03:54.685Z"
+    },
+    {
+      "id": 128232,
+      "productId": 127159,
+      "salePrice": 650,
+      "regularSalePrice": 650,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-08T16:07:10.243Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": null
+}

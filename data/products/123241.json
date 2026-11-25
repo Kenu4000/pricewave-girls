@@ -1,0 +1,270 @@
+{
+  "product": {
+    "id": 123241,
+    "title": "スピたん Spirits Expedition ～in the Phantasmagoria～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145013966",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145013966.jpg",
+    "manufacturer": "ザウス【本醸造】",
+    "releaseDate": "2006-02-24",
+    "listPrice": 9680,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145013966001",
+      "メーカー": "ザウス【本醸造】",
+      "発売日": "2006/02/24",
+      "定価": "9,680円",
+      "原画": "人丸",
+      "シナリオ": "座敷猫",
+      "声優": "金太・チョンマンコーン\n本条真琴\n文月かな\n茶谷やすら\n山本直子\n小倉結衣\n榊原ゆい\n秋月まい\n鳩野比奈\n如月葵\n竜ヶ崎まや\n間寺司\n事務台車\n川角一本松\n山川敦也\n未羽\n永瀬まどか",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "__pricewaveRegularSalePrice": "400",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": 7,
+    "latestSalePrice": 380,
+    "latestRegularSalePrice": 400,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-11-25T13:35:21.290Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-25T13:35:21.077Z"
+  },
+  "histories": [
+    {
+      "id": 123255,
+      "productId": 123241,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-03T13:17:27.852Z"
+    },
+    {
+      "id": 130692,
+      "productId": 123241,
+      "salePrice": 400,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-12T16:03:03.641Z"
+    },
+    {
+      "id": 135722,
+      "productId": 123241,
+      "salePrice": 380,
+      "regularSalePrice": 400,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-25T13:35:21.077Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 435456,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 435455,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 435454,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 435453,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 435452,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 435451,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 380,
+      "checkedAt": "2026-11-25T13:35:21.000Z"
+    },
+    {
+      "id": 418548,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 418547,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1011,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 418546,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 418545,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 418544,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 418543,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-11-12T16:03:03.000Z"
+    },
+    {
+      "id": 395033,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    },
+    {
+      "id": 395032,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+      "condition": "中古PCゲーム（ゲームディスクのみ）",
+      "price": 1000,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    },
+    {
+      "id": 395031,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋秋葉原本館",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    },
+    {
+      "id": 395030,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 1000,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    },
+    {
+      "id": 395029,
+      "productId": 123241,
+      "sourceType": "other_shop",
+      "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+      "condition": "中古",
+      "price": 400,
+      "checkedAt": "2026-11-03T13:17:27.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145013966",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145013966",
+    "capturedAt": "2026-11-25T13:35:21.077Z",
+    "items": [
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 380
+      },
+      {
+        "storeName": "ブックマーケット函館美原店 Supported by 駿河屋",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋秋葉原本館",
+        "condition": "中古",
+        "price": 1000
+      },
+      {
+        "storeName": "ブックメイト★いつでも送料無料・全て研磨済",
+        "condition": "中古PCゲーム（ゲームディスクのみ）",
+        "price": 1000
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1011
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 380
+      }
+    ],
+    "path": "data/other-shops/145013966.json"
+  }
+}

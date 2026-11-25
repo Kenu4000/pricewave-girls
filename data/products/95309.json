@@ -1,0 +1,104 @@
+{
+  "product": {
+    "id": 95309,
+    "title": "Windows98/Me/2000/XP CDソフト Sweet Room～ふたりだけの秘密の甘い空間～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145014198",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145014198.jpg",
+    "manufacturer": "UNDEAD",
+    "releaseDate": "2006-06-30",
+    "listPrice": 6380,
+    "modelNumber": null,
+    "category": "アダルト Windows Windows XP",
+    "details": {
+      "管理番号": "中古 ：145014198001",
+      "メーカー": "UNDEAD",
+      "発売日": "2006/06/30",
+      "定価": "6,380円",
+      "原画/シナリオ": "JOYRIDE",
+      "アーティスト": "電気式華憐音楽集団",
+      "声優": "芹園みや",
+      "カテゴリ": "アダルト Windows Windows XP",
+      "原画": "/",
+      "シナリオ": "JOYRIDE アーティスト 桃井はるこ アーティスト 電気式華憐音楽集団",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 450,
+    "latestRegularSalePrice": 450,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-09-17T19:57:03.377Z"
+  },
+  "histories": [
+    {
+      "id": 95323,
+      "productId": 95309,
+      "salePrice": 450,
+      "regularSalePrice": 450,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-09-17T19:57:03.377Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 293802,
+      "productId": 95309,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-17T19:57:03.000Z"
+    },
+    {
+      "id": 293801,
+      "productId": 95309,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 1211,
+      "checkedAt": "2026-09-17T19:57:03.000Z"
+    },
+    {
+      "id": 293800,
+      "productId": 95309,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋 本店 ゲーム館",
+      "condition": "中古",
+      "price": 450,
+      "checkedAt": "2026-09-17T19:57:03.000Z"
+    }
+  ],
+  "otherShopSnapshot": {
+    "productCode": "145014198",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145014198",
+    "capturedAt": "2026-09-17T19:57:03.377Z",
+    "items": [
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 450
+      },
+      {
+        "storeName": "駿河屋 本店 ゲーム館",
+        "condition": "中古",
+        "price": 1211
+      },
+      {
+        "storeName": "店舗名不明",
+        "condition": "中古",
+        "price": 450
+      }
+    ],
+    "path": "data/other-shops/145014198.json"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "product": {
+    "id": 42038,
+    "title": "Windows2000/XP/Vista DVDソフト エンドリープ ～降り積もる恋人の記憶～",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145019676",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145019676.jpg",
+    "manufacturer": "LoveJuice",
+    "releaseDate": "2009-04-24",
+    "listPrice": 9680,
+    "modelNumber": "LOJ-0008",
+    "category": "アダルト Windows Windows Vista",
+    "details": {
+      "管理番号": "中古 ：145019676001",
+      "メーカー": "LoveJuice",
+      "発売日": "2009/04/24",
+      "定価": "9,680円",
+      "型番": "LOJ-0008",
+      "原画": "黒井恵利子",
+      "シナリオ": "髪ノ毛座",
+      "声優": "木村あやか\n咲ゆたか\n平野響子\n西中光\nみすみ\n木下鈴",
+      "カテゴリ": "アダルト Windows Windows Vista",
+      "__pricewaveRegularSalePrice": "1200",
+      "__pricewaveTimeSale": "true"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 1100,
+    "latestRegularSalePrice": 1200,
+    "latestBuyPrice": null,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": true,
+    "timeSaleStartedAt": "2026-08-29T01:16:44.605Z",
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-08-29T01:16:44.510Z"
+  },
+  "histories": [
+    {
+      "id": 42052,
+      "productId": 42038,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-17T07:07:34.123Z"
+    },
+    {
+      "id": 53527,
+      "productId": 42038,
+      "salePrice": 1200,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-19T16:25:07.568Z"
+    },
+    {
+      "id": 65068,
+      "productId": 42038,
+      "salePrice": 1100,
+      "regularSalePrice": 1200,
+      "buyPrice": null,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": true,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-08-29T01:16:44.510Z"
+    }
+  ],
+  "junkHistories": [
+    {
+      "id": 108825,
+      "productId": 42038,
+      "sourceType": "other_shop",
+      "storeName": "店舗名不明",
+      "condition": "中古",
+      "price": 1200,
+      "checkedAt": "2026-08-17T07:07:34.000Z"
+    },
+    {
+      "id": 108824,
+      "productId": 42038,
+      "sourceType": "other_shop",
+      "storeName": "駿河屋馬渕店",
+      "condition": "中古",
+      "price": 1111,
+      "checkedAt": "2026-08-17T07:07:34.000Z"
+    }
+  ],
+  "otherShopSnapshot": null
+}

@@ -1,0 +1,59 @@
+{
+  "product": {
+    "id": 121250,
+    "title": "Windows10 DVDソフト ヌキコレvol.31 鬼父1+2",
+    "surugayaUrl": "https://www.suruga-ya.jp/product/detail/145076820",
+    "imageUrl": "https://cdn.suruga-ya.jp/database/pics_light/game/145076820.jpg",
+    "manufacturer": "ブルーゲイル",
+    "releaseDate": "2023-02-24",
+    "listPrice": 2750,
+    "modelNumber": "NCB-0031",
+    "category": "アダルト Windows Windows 10",
+    "details": {
+      "管理番号": "145076820",
+      "メーカー": "ブルーゲイル",
+      "発売日": "2023/02/24",
+      "定価": "2,750円",
+      "型番": "NCB-0031",
+      "原画": "鋼丸",
+      "シナリオ": "里井捧\n左右田たかひろ(仮)",
+      "声優": "御苑生メイ\nかわしまりの\n桜川未央\n野宮香央里\nこのは\n計名さや香\n安堂りゅう\n岩泉まい",
+      "カテゴリ": "アダルト Windows Windows 10",
+      "__pricewaveTimeSale": "false"
+    },
+    "crawlIntervalDays": null,
+    "latestSalePrice": 2730,
+    "latestRegularSalePrice": 2730,
+    "latestBuyPrice": 2100,
+    "stockStatus": "in_stock",
+    "condition": null,
+    "conditionRank": "A",
+    "isTimeSale": false,
+    "timeSaleStartedAt": null,
+    "timeSaleEndsAt": null,
+    "updatedAt": "2026-11-01T13:42:14.731Z"
+  },
+  "histories": [
+    {
+      "id": 121264,
+      "productId": 121250,
+      "salePrice": 2730,
+      "regularSalePrice": 2730,
+      "buyPrice": 2100,
+      "stockStatus": "in_stock",
+      "condition": null,
+      "conditionRank": "A",
+      "isTimeSale": false,
+      "timeSaleEndsAt": null,
+      "checkedAt": "2026-11-01T13:42:14.731Z"
+    }
+  ],
+  "junkHistories": [],
+  "otherShopSnapshot": {
+    "productCode": "145076820",
+    "sourceUrl": "https://www.suruga-ya.jp/product/other/145076820",
+    "capturedAt": "2026-11-01T13:42:14.731Z",
+    "items": [],
+    "path": "data/other-shops/145076820.json"
+  }
+}
